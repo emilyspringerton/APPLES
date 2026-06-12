@@ -45,3 +45,11 @@ emily sync --apples-git-dir /home/fatbaby/APPLES --watch   # continuous
 - `EMILY` — emily-agent fires auto-sync after every Apple POST (APPLES_GIT_DIR env var)
 - `MJOLNIR` — Android app; reads MANIFEST.json as offline Apple cache
 - `emily.cli` — `emily sync` is the sync tool
+
+## Apple Filing Protocol
+
+After any meaningful change, file an Apple:
+```bash
+emily apples post -t completion "<title>" "<body with commit hash>"
+```
+Then mark the item done in EMILY/BACKLOG.md and commit: `git add BACKLOG.md && git commit && git push`
