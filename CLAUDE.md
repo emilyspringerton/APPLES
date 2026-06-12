@@ -53,3 +53,11 @@ After any meaningful change, file an Apple:
 emily apples post -t completion "<title>" "<body with commit hash>"
 ```
 Then mark the item done in EMILY/BACKLOG.md and commit: `git add BACKLOG.md && git commit && git push`
+
+## CHANGELOG Protocol
+
+After any meaningful change, update CHANGELOG.md:
+```bash
+emily changelog add APPLES "<what changed>"
+# or manually: append a dated bullet under ## YYYY-MM-DD in APPLES/CHANGELOG.md
+```
