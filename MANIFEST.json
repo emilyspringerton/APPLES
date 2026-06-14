@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-06-14T16:50:38Z",
   "repo": "APPLES",
-  "count": 10,
+  "count": 11,
   "apples": [
     {
       "id": 480,
@@ -79,6 +79,14 @@
       "id": 501,
       "type": "signal_observation",
       "title": "FatBaby obs [info]: implement emily prime haiku/sonnet -\u003e advisor FABLE for planning sprints indo H…",
+      "source_repo": "PRRJECT_FATBABY",
+      "date": "20260614",
+      "archived_at": "2026-06-14T16:50:38Z"
+    },
+    {
+      "id": 502,
+      "type": "signal_observation",
+      "title": "FatBaby obs [info]: we need to have an emily prime api so we can use her agent to help direct the r…",
       "source_repo": "PRRJECT_FATBABY",
       "date": "20260614",
       "archived_at": "2026-06-14T16:50:38Z"
