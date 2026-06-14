@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-06-14T01:45:20Z",
   "repo": "APPLES",
-  "count": 5,
+  "count": 6,
   "apples": [
     {
       "id": 480,
@@ -39,6 +39,14 @@
       "id": 484,
       "type": "signal_observation",
       "title": "FatBaby obs [info]: all system inputs need to feed into a single log stream that is continuously sy…",
+      "source_repo": "PRRJECT_FATBABY",
+      "date": "20260614",
+      "archived_at": "2026-06-14T01:45:20Z"
+    },
+    {
+      "id": 485,
+      "type": "signal_observation",
+      "title": "FatBaby obs [info]: HACK feed a certain amount of apples as context to save tokens for claude havin…",
       "source_repo": "PRRJECT_FATBABY",
       "date": "20260614",
       "archived_at": "2026-06-14T01:45:20Z"
