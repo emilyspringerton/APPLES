@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-06-14T16:50:38Z",
   "repo": "APPLES",
-  "count": 14,
+  "count": 15,
   "apples": [
     {
       "id": 480,
@@ -111,6 +111,14 @@
       "id": 505,
       "type": "signal_observation",
       "title": "FatBaby obs [info]: the apples need to all be synced into the git repo APPLES (IDUNA needs to do it…",
+      "source_repo": "PRRJECT_FATBABY",
+      "date": "20260614",
+      "archived_at": "2026-06-14T16:50:38Z"
+    },
+    {
+      "id": 506,
+      "type": "signal_observation",
+      "title": "FatBaby obs [info]: i think we may need to review all of the golden documentations in all the repos…",
       "source_repo": "PRRJECT_FATBABY",
       "date": "20260614",
       "archived_at": "2026-06-14T16:50:38Z"
