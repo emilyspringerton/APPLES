@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-06-14T16:50:38Z",
   "repo": "APPLES",
-  "count": 8,
+  "count": 9,
   "apples": [
     {
       "id": 480,
@@ -63,6 +63,14 @@
       "id": 499,
       "type": "signal_observation",
       "title": "FatBaby obs [info]: EmilyOS Debian first or Arch? we want to have our own BAZEL or BAZEL equivalent…",
+      "source_repo": "PRRJECT_FATBABY",
+      "date": "20260614",
+      "archived_at": "2026-06-14T16:50:38Z"
+    },
+    {
+      "id": 500,
+      "type": "signal_observation",
+      "title": "FatBaby obs [info]: implement basic haiku -\u003e FABLE advisor tool for emily prime",
       "source_repo": "PRRJECT_FATBABY",
       "date": "20260614",
       "archived_at": "2026-06-14T16:50:38Z"
