@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-06-14T16:50:38Z",
   "repo": "APPLES",
-  "count": 15,
+  "count": 16,
   "apples": [
     {
       "id": 480,
@@ -119,6 +119,14 @@
       "id": 506,
       "type": "signal_observation",
       "title": "FatBaby obs [info]: i think we may need to review all of the golden documentations in all the repos…",
+      "source_repo": "PRRJECT_FATBABY",
+      "date": "20260614",
+      "archived_at": "2026-06-14T16:50:38Z"
+    },
+    {
+      "id": 507,
+      "type": "signal_observation",
+      "title": "FatBaby obs [info]: the observation watcher needs to fire the observations into the golden backlog …",
       "source_repo": "PRRJECT_FATBABY",
       "date": "20260614",
       "archived_at": "2026-06-14T16:50:38Z"
