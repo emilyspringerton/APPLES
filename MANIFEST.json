@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-06-14T01:45:20Z",
   "repo": "APPLES",
-  "count": 4,
+  "count": 5,
   "apples": [
     {
       "id": 480,
@@ -31,6 +31,14 @@
       "id": 483,
       "type": "signal_observation",
       "title": "FatBaby obs [info]: the news site should have stock charts - do it the emily way - lets build our o…",
+      "source_repo": "PRRJECT_FATBABY",
+      "date": "20260614",
+      "archived_at": "2026-06-14T01:45:20Z"
+    },
+    {
+      "id": 484,
+      "type": "signal_observation",
+      "title": "FatBaby obs [info]: all system inputs need to feed into a single log stream that is continuously sy…",
       "source_repo": "PRRJECT_FATBABY",
       "date": "20260614",
       "archived_at": "2026-06-14T01:45:20Z"
