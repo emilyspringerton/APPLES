@@ -1,12 +1,20 @@
 {
   "generated_at": "2026-06-14T01:45:20Z",
   "repo": "APPLES",
-  "count": 1,
+  "count": 2,
   "apples": [
     {
       "id": 480,
       "type": "signal_observation",
       "title": "FatBaby obs [info]: find all the gaps in the instrumentation where we should be publishing apples b…",
+      "source_repo": "PRRJECT_FATBABY",
+      "date": "20260614",
+      "archived_at": "2026-06-14T01:45:20Z"
+    },
+    {
+      "id": 481,
+      "type": "signal_observation",
+      "title": "FatBaby obs [info]: emily os mobility edition bare metal exokernel ISO2424242",
       "source_repo": "PRRJECT_FATBABY",
       "date": "20260614",
       "archived_at": "2026-06-14T01:45:20Z"
