@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-06-14T01:45:20Z",
   "repo": "APPLES",
-  "count": 2,
+  "count": 3,
   "apples": [
     {
       "id": 480,
@@ -15,6 +15,14 @@
       "id": 481,
       "type": "signal_observation",
       "title": "FatBaby obs [info]: emily os mobility edition bare metal exokernel ISO2424242",
+      "source_repo": "PRRJECT_FATBABY",
+      "date": "20260614",
+      "archived_at": "2026-06-14T01:45:20Z"
+    },
+    {
+      "id": 482,
+      "type": "signal_observation",
+      "title": "FatBaby obs [info]: the fatbaby custom terminal v0 northstar the built the emily way the repo is na…",
       "source_repo": "PRRJECT_FATBABY",
       "date": "20260614",
       "archived_at": "2026-06-14T01:45:20Z"
