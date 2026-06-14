@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-06-14T16:50:38Z",
   "repo": "APPLES",
-  "count": 12,
+  "count": 13,
   "apples": [
     {
       "id": 480,
@@ -95,6 +95,14 @@
       "id": 503,
       "type": "signal_observation",
       "title": "FatBaby obs [info]: emily prime should have all of the api capabilities of the emily.cli command",
+      "source_repo": "PRRJECT_FATBABY",
+      "date": "20260614",
+      "archived_at": "2026-06-14T16:50:38Z"
+    },
+    {
+      "id": 504,
+      "type": "signal_observation",
+      "title": "FatBaby obs [info]: how are these prime-task s getting fired off? is that claude via the observatio…",
       "source_repo": "PRRJECT_FATBABY",
       "date": "20260614",
       "archived_at": "2026-06-14T16:50:38Z"
