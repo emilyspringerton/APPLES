@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-06-15T20:08:01Z",
   "repo": "APPLES",
-  "count": 19,
+  "count": 20,
   "apples": [
     {
       "id": 480,
@@ -151,6 +151,14 @@
       "id": 528,
       "type": "signal_observation",
       "title": "FatBaby obs [info]: AGI RSI LOOP 2026-06-14 (2): SHANKPIT M5 DONE + TYLER S8 COMPLETE. SHANKPIT: Di…",
+      "source_repo": "PRRJECT_FATBABY",
+      "date": "20260615",
+      "archived_at": "2026-06-15T20:08:01Z"
+    },
+    {
+      "id": 529,
+      "type": "signal_observation",
+      "title": "FatBaby obs [info]: i want an emily.cli command that ensures all observations have been added to th…",
       "source_repo": "PRRJECT_FATBABY",
       "date": "20260615",
       "archived_at": "2026-06-15T20:08:01Z"
