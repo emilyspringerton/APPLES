@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-06-16T18:16:52Z",
   "repo": "APPLES",
-  "count": 225,
+  "count": 226,
   "apples": [
     {
       "id": 480,
@@ -1797,6 +1797,14 @@
     },
     {
       "id": 800,
+      "type": "signal_observation",
+      "title": "FatBaby obs [info]: (no summary)",
+      "source_repo": "PRRJECT_FATBABY",
+      "date": "20260616",
+      "archived_at": "2026-06-16T18:16:52Z"
+    },
+    {
+      "id": 801,
       "type": "signal_observation",
       "title": "FatBaby obs [info]: (no summary)",
       "source_repo": "PRRJECT_FATBABY",
