@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-06-16T18:11:07Z",
   "repo": "APPLES",
-  "count": 209,
+  "count": 210,
   "apples": [
     {
       "id": 480,
@@ -1671,6 +1671,14 @@
       "id": 783,
       "type": "signal_observation",
       "title": "FatBaby obs [info]: RSI cycle complete: director_long_tenure noise fixed, preset rotation + FatBaby…",
+      "source_repo": "PRRJECT_FATBABY",
+      "date": "20260616",
+      "archived_at": "2026-06-16T18:11:07Z"
+    },
+    {
+      "id": 784,
+      "type": "signal_observation",
+      "title": "FatBaby obs [info]: tuo",
       "source_repo": "PRRJECT_FATBABY",
       "date": "20260616",
       "archived_at": "2026-06-16T18:11:07Z"
