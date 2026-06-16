@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-06-16T17:32:26Z",
   "repo": "APPLES",
-  "count": 131,
+  "count": 132,
   "apples": [
     {
       "id": 480,
@@ -1047,6 +1047,14 @@
       "id": 697,
       "type": "signal_observation",
       "title": "FatBaby obs [info]: RSI loop iteration 64 complete — FatBaby+Tyler tic-toc cycle done",
+      "source_repo": "PRRJECT_FATBABY",
+      "date": "20260616",
+      "archived_at": "2026-06-16T17:32:26Z"
+    },
+    {
+      "id": 698,
+      "type": "signal_observation",
+      "title": "FatBaby obs [info]: prime task complete: token efficiency RSI cycle 3 — extractLessons + batch-wi…",
       "source_repo": "PRRJECT_FATBABY",
       "date": "20260616",
       "archived_at": "2026-06-16T17:32:26Z"
