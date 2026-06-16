@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-06-16T18:26:41Z",
   "repo": "APPLES",
-  "count": 238,
+  "count": 239,
   "apples": [
     {
       "id": 480,
@@ -1903,6 +1903,14 @@
       "id": 815,
       "type": "signal_observation",
       "title": "FatBaby obs [info]: ensure observation watcher correctly invokes claude",
+      "source_repo": "PRRJECT_FATBABY",
+      "date": "20260616",
+      "archived_at": "2026-06-16T18:26:41Z"
+    },
+    {
+      "id": 816,
+      "type": "signal_observation",
+      "title": "FatBaby obs [info]: it seems like some of our RSI work leaves dirty stuff in EMILY repo - i think t…",
       "source_repo": "PRRJECT_FATBABY",
       "date": "20260616",
       "archived_at": "2026-06-16T18:26:41Z"
