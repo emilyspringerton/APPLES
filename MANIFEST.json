@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-06-16T18:21:31Z",
   "repo": "APPLES",
-  "count": 235,
+  "count": 236,
   "apples": [
     {
       "id": 480,
@@ -1879,6 +1879,14 @@
       "id": 811,
       "type": "signal_observation",
       "title": "FatBaby obs [info]: if fatbaby observation watcher is started during a claude rate limit a prime ta…",
+      "source_repo": "PRRJECT_FATBABY",
+      "date": "20260616",
+      "archived_at": "2026-06-16T18:21:31Z"
+    },
+    {
+      "id": 812,
+      "type": "signal_observation",
+      "title": "FatBaby obs [info]: filing observations are intentionally uneditable but what happens when a human …",
       "source_repo": "PRRJECT_FATBABY",
       "date": "20260616",
       "archived_at": "2026-06-16T18:21:31Z"
