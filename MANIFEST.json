@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-06-16T18:06:37Z",
   "repo": "APPLES",
-  "count": 198,
+  "count": 199,
   "apples": [
     {
       "id": 480,
@@ -1583,6 +1583,14 @@
       "id": 771,
       "type": "signal_observation",
       "title": "FatBaby obs [info]:  go run . apples list\nerror: iduna auth: Post \"http://localhost:8080/api/v1/aut…",
+      "source_repo": "PRRJECT_FATBABY",
+      "date": "20260616",
+      "archived_at": "2026-06-16T18:06:37Z"
+    },
+    {
+      "id": 772,
+      "type": "signal_observation",
+      "title": "FatBaby obs [info]: gpt-2 c fork git@github.com:emilyspringerton/gpt2-alpine-c.git parity with og g…",
       "source_repo": "PRRJECT_FATBABY",
       "date": "20260616",
       "archived_at": "2026-06-16T18:06:37Z"
