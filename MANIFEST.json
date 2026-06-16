@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-06-16T18:31:51Z",
   "repo": "APPLES",
-  "count": 247,
+  "count": 248,
   "apples": [
     {
       "id": 480,
@@ -1975,6 +1975,14 @@
       "id": 826,
       "type": "signal_observation",
       "title": "FatBaby obs [info]: fatbaby news site does not start via emily cli start (all)",
+      "source_repo": "PRRJECT_FATBABY",
+      "date": "20260616",
+      "archived_at": "2026-06-16T18:31:51Z"
+    },
+    {
+      "id": 827,
+      "type": "signal_observation",
+      "title": "FatBaby obs [info]: tic toc rsi loop should send an in universe \"memo\" to emily in the TYLER repo -…",
       "source_repo": "PRRJECT_FATBABY",
       "date": "20260616",
       "archived_at": "2026-06-16T18:31:51Z"
