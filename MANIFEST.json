@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-06-16T17:12:40Z",
   "repo": "APPLES",
-  "count": 93,
+  "count": 94,
   "apples": [
     {
       "id": 480,
@@ -743,6 +743,14 @@
       "id": 655,
       "type": "signal_observation",
       "title": "FatBaby obs [info]: RSI loop iteration 102 complete — FatBaby+Tyler tic-toc cycle done",
+      "source_repo": "PRRJECT_FATBABY",
+      "date": "20260616",
+      "archived_at": "2026-06-16T17:12:40Z"
+    },
+    {
+      "id": 656,
+      "type": "signal_observation",
+      "title": "FatBaby obs [info]: RSI loop iteration 101 complete — FatBaby+Tyler tic-toc cycle done",
       "source_repo": "PRRJECT_FATBABY",
       "date": "20260616",
       "archived_at": "2026-06-16T17:12:40Z"
