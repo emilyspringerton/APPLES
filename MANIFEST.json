@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-06-16T11:52:19Z",
   "repo": "APPLES",
-  "count": 28,
+  "count": 29,
   "apples": [
     {
       "id": 480,
@@ -223,6 +223,14 @@
       "id": 576,
       "type": "signal_observation",
       "title": "FatBaby obs [info]: RSI loop iteration 164 complete — FatBaby+Tyler tic-toc cycle done",
+      "source_repo": "PRRJECT_FATBABY",
+      "date": "20260616",
+      "archived_at": "2026-06-16T11:52:19Z"
+    },
+    {
+      "id": 577,
+      "type": "signal_observation",
+      "title": "FatBaby obs [info]: IDUNA LOGIN PAGE and ADMIN DASHBOARD - is it built? if not build it - if it is …",
       "source_repo": "PRRJECT_FATBABY",
       "date": "20260616",
       "archived_at": "2026-06-16T11:52:19Z"
