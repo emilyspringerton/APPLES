@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-06-17T02:02:13Z",
   "repo": "APPLES",
-  "count": 355,
+  "count": 356,
   "apples": [
     {
       "id": 480,
@@ -2840,6 +2840,14 @@
       "type": "completion",
       "title": "changelog(EMILY): gpt2 skill registered: gpt2_generate, gpt2_health, gpt2_sta…",
       "source_repo": "EMILY",
+      "date": "20260617",
+      "archived_at": "2026-06-17T02:02:13Z"
+    },
+    {
+      "id": 949,
+      "type": "completion",
+      "title": "changelog(emily.cli): emily gpt2 generate (POST :8088/generate, --via server|emil…",
+      "source_repo": "emily.cli",
       "date": "20260617",
       "archived_at": "2026-06-17T02:02:13Z"
     }
