@@ -1,0 +1,10 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-06-17T01:52:27Z",
+  "body": "--findings emily.cli: emily gpt2 generate (POST :8088, --via server|emily|proxy) + emily gpt2 health (HTTP check :8088/:8086/:8679). emily-agent: gpt2tools.go with gpt2_generate, gpt2_health, gpt2_start registered in ToolDispatcher. Emily Prime can now start the server, check health, and generate text via tool calls in any conversation.",
+  "id": 945,
+  "run_id": "cli-20260617T015227Z",
+  "source_repo": "EMILY",
+  "title": "gpt2 skill + emily gpt2 generate/health — Emily Prime can now call GPT-2 from tool loop"
+}

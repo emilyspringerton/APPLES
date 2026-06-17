@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-17T01:51:00Z",
+  "generated_at": "2026-06-17T01:52:27Z",
   "repo": "APPLES",
-  "count": 351,
+  "count": 352,
   "apples": [
     {
       "id": 480,
@@ -2810,6 +2810,14 @@
       "source_repo": "emily",
       "date": "20260617",
       "archived_at": "2026-06-17T01:51:00Z"
+    },
+    {
+      "id": 945,
+      "type": "completion",
+      "title": "gpt2 skill + emily gpt2 generate/health — Emily Prime can now call GPT-2 from tool loop",
+      "source_repo": "EMILY",
+      "date": "20260617",
+      "archived_at": "2026-06-17T01:52:27Z"
     }
   ]
 }
