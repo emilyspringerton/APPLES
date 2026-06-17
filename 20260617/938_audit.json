@@ -1,0 +1,10 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "audit",
+  "archived_at": "2026-06-17T01:37:19Z",
+  "body": "--findings Backfilled 91 Apples (#847–#937) that missed auto-sync while APPLES_GIT_DIR was unset. IDUNA restarted with env var active (PID 198376). This Apple is the first to auto-sync since the fix.",
+  "id": 938,
+  "run_id": "cli-20260617T013719Z",
+  "source_repo": "IDUNA",
+  "title": "Apple auto-sync verified — APPLES_GIT_DIR live in IDUNA env"
+}
