@@ -1,0 +1,10 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-06-17T15:05:55Z",
+  "body": "Fixed: signalapi O(N) scan (86% CPU, per-file max-seq cache), form4-watcher XSL prefix 0-transactions (stripped to raw XML), form4-watcher 4MB body limit (32MB), SQLite COMMENT= migration market_data_daily. All 14 processes healthy, 479 insider transactions, 4071 governance signals.",
+  "id": 1114,
+  "run_id": "cli-20260617T150555Z",
+  "source_repo": "PRRJECT_FATBABY",
+  "title": "FatBaby system health check: 4 fixes applied"
+}
