@@ -1,0 +1,10 @@
+{
+  "id": 905,
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "improvement",
+  "source_repo": "MJOLNIR",
+  "run_id": "cli-20260616T230138Z",
+  "title": "MJOLNIR: Emily Prime chat + FatBaby Emily chat screens",
+  "body": "--findings Two chat screens added to MJOLNIR Android app. Emily Prime chat (POST /chat at emily-agent :8086): ChatMode.EMILY_PRIME route. FatBaby Emily chat (POST /api/ask at newssite :8082): ChatMode.FATBABY_EMILY route. New files: ChatModels.kt, FatBabyClient.kt, ChatRepository.kt, ChatViewModel.kt, ChatScreen.kt. Updated: EmilyApi (added /chat endpoint), NetworkModule (FatBaby Retrofit + FATBABY_BASE_URL), build.gradle.kts (FATBABY_BASE_URL debug=:8082 release=fatbaby.einhorn.industrial), ApplesFeedScreen (Message+BarChart icon buttons), MainActivity (chat/{mode} route).",
+  "archived_at": "2026-06-16T23:01:38.920134017Z"
+}

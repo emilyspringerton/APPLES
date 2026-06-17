@@ -1,0 +1,10 @@
+{
+  "id": 874,
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "improvement",
+  "source_repo": "EDIS",
+  "run_id": "cli-20260616T210826Z",
+  "title": "S35-03: per-IP delta scoring in DIS log tailer",
+  "body": "--findings Added ipTracker (bounded per-/24 prefix map, evicts at 65535 entries) to cmd/dis. parseNginxCombined now populates rec.IPPrefix. applyDeltaScore() adds +30 to Score when inter-request delta <20ms, matching golden.md axiom. Tracker persists across logrotate cycles in tailFile. All tests pass: TestParseIPPrefix, TestIPTrackerDelta, TestApplyDeltaScore, TestDeltaScoreBurstRaisesHostileRatio, TestParseNginxCombinedIPPrefix.",
+  "archived_at": "2026-06-16T21:08:26.72011026Z"
+}

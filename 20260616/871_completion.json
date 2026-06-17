@@ -1,0 +1,10 @@
+{
+  "id": 871,
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "source_repo": "EDIS",
+  "run_id": "cli-20260616T210202Z",
+  "title": "S35-01/S35-02: DIS ForceState endpoint + lazy collector URL fix",
+  "body": "--findings S35-01: POST /dis/force?state=<state> with Bearer auth. --admin-token flag enables it. Admin panel Force Posture button + token field added to edis-dis.php. S35-02: EDIS_DIS_COLLECTOR_URL constant replaced with edis_dis_collector_url() lazy function \u2014 option changes now take effect immediately. Tests pass. Commit c5f9982.",
+  "archived_at": "2026-06-16T21:02:02.166695932Z"
+}

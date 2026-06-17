@@ -1,0 +1,10 @@
+{
+  "id": 867,
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "source_repo": "PRRJECT_FATBABY",
+  "run_id": "changelog-1781642775",
+  "title": "changelog(PRRJECT_FATBABY): fix(store): SQLite migration translator now strips AFTER <c\u2026",
+  "body": "CHANGELOG updated in PRRJECT_FATBABY: fix(store): SQLite migration translator now strips AFTER <col> \u2014 signalapi SQLite fallback was failing on migration 202606130001, returning 503 for all signal queries",
+  "archived_at": "2026-06-16T20:46:15.83951913Z"
+}
