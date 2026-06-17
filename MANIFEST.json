@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-17T15:10:29Z",
+  "generated_at": "2026-06-17T15:14:31Z",
   "repo": "APPLES",
-  "count": 522,
+  "count": 524,
   "apples": [
     {
       "id": 480,
@@ -4178,6 +4178,22 @@
       "source_repo": "emily",
       "date": "20260617",
       "archived_at": "2026-06-17T15:10:29Z"
+    },
+    {
+      "id": 1116,
+      "type": "signal_observation",
+      "title": "FatBaby obs [info]: (no summary)",
+      "source_repo": "PRRJECT_FATBABY",
+      "date": "20260617",
+      "archived_at": "2026-06-17T15:10:29Z"
+    },
+    {
+      "id": 1117,
+      "type": "observation",
+      "title": "Cycle 310 — triage: 9 new tasks",
+      "source_repo": "emily",
+      "date": "20260617",
+      "archived_at": "2026-06-17T15:14:31Z"
     }
   ]
 }
