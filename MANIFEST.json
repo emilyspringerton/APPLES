@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-17T02:02:13Z",
+  "generated_at": "2026-06-17T02:05:53Z",
   "repo": "APPLES",
-  "count": 356,
+  "count": 357,
   "apples": [
     {
       "id": 480,
@@ -2850,6 +2850,14 @@
       "source_repo": "emily.cli",
       "date": "20260617",
       "archived_at": "2026-06-17T02:02:13Z"
+    },
+    {
+      "id": 950,
+      "type": "observation",
+      "title": "Cycle 153 — triage: 9 new tasks",
+      "source_repo": "emily",
+      "date": "20260617",
+      "archived_at": "2026-06-17T02:05:53Z"
     }
   ]
 }
