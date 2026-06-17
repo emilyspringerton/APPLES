@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-17T05:59:24Z",
+  "generated_at": "2026-06-17T06:05:01Z",
   "repo": "APPLES",
-  "count": 405,
+  "count": 406,
   "apples": [
     {
       "id": 480,
@@ -3242,6 +3242,14 @@
       "source_repo": "emily",
       "date": "20260617",
       "archived_at": "2026-06-17T05:59:24Z"
+    },
+    {
+      "id": 999,
+      "type": "observation",
+      "title": "Cycle 200 — triage: 9 new tasks",
+      "source_repo": "emily",
+      "date": "20260617",
+      "archived_at": "2026-06-17T06:05:01Z"
     }
   ]
 }
