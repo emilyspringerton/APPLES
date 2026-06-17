@@ -1,0 +1,9 @@
+{
+  "apple_type": "signal_observation",
+  "archived_at": "2026-06-17T14:14:02Z",
+  "body": "severity: warn\ntimestamp: 2026-06-17T14:10:00Z\n\nfindings:\nSystem startup completed 2026-06-17. Two critical issues were found and immediately fixed:\n\n1. [FIXED] signalapi O(N) eventstore scan bug — ReadFrom in FileStore was JSON-decoding all 82,603 records on every 2-second poll, causing 86% CPU for 24+ hours. Fixed by adding per-file max-sequence cache (fileMaxSeq map) in eventstore/file_store.go. Closed journal files with max_seq \u003c cursor are now skipped entirely. New signalapi instance restarted; completing initial 82K-record index build at ~23% CPU; will drop to near-0% in steady state.\n\n2. [FIXED] jon-agent ANTHROPIC_API_KEY not in process env — jon-agent was dying on startup with 'ANTHROPIC_API_KEY not set'. Restarted with key sourced from EMILY/var/emily-secrets.env; now listening on :8084.\n\nOpen issues:\n\n3. EDGAR EFTS 500 errors (nt-…\n\nsuggested_fix:\n1. dashboard: add -addr :8087 to startup script. 2. guidance: review pkg/intelligence/guidance thresholds; spot-check press releases with low scores. 3. form4: check if form4-watcher uses EDGAR EFTS; if so, add same skip/retry logic as nt-watcher. 4. MySQL: set MYSQL_URL and start projector with -market-store var/market-data. 5. Monitor EDGAR EFTS recovery.",
+  "id": 1100,
+  "run_id": "2026-06-17T14-10-00Z",
+  "source_repo": "PRRJECT_FATBABY",
+  "title": "FatBaby obs [warn]: FatBaby system health check: 2 fixes applied, 5 issues catalogued for follow-up"
+}

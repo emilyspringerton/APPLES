@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-17T14:14:02Z",
+  "generated_at": "2026-06-17T14:19:10Z",
   "repo": "APPLES",
-  "count": 506,
+  "count": 508,
   "apples": [
     {
       "id": 480,
@@ -4050,6 +4050,22 @@
       "source_repo": "emily",
       "date": "20260617",
       "archived_at": "2026-06-17T14:14:02Z"
+    },
+    {
+      "id": 1100,
+      "type": "signal_observation",
+      "title": "FatBaby obs [warn]: FatBaby system health check: 2 fixes applied, 5 issues catalogued for follow-up",
+      "source_repo": "PRRJECT_FATBABY",
+      "date": "20260617",
+      "archived_at": "2026-06-17T14:14:02Z"
+    },
+    {
+      "id": 1101,
+      "type": "observation",
+      "title": "Cycle 299 — triage: 9 new tasks",
+      "source_repo": "emily",
+      "date": "20260617",
+      "archived_at": "2026-06-17T14:19:10Z"
     }
   ]
 }
