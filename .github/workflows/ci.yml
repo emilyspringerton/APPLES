@@ -1,0 +1,142 @@
+name: APPLES CI
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+  workflow_dispatch:
+
+concurrency:
+  group: apples-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate_construct:
+    name: 🍎 Validate & Construct
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Validate MANIFEST.json
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [ ! -f MANIFEST.json ]; then
+            echo "FAIL: MANIFEST.json not found"
+            exit 1
+          fi
+          python3 -c "
+          import json, sys
+          with open('MANIFEST.json') as f:
+              m = json.load(f)
+          required = ['repo', 'count', 'apples']
+          missing = [k for k in required if k not in m]
+          if missing:
+              print('FAIL: MANIFEST.json missing keys:', missing)
+              sys.exit(1)
+          if not isinstance(m['apples'], list):
+              print('FAIL: apples must be a list')
+              sys.exit(1)
+          print(f'MANIFEST.json OK: {m[\"count\"]} apples declared, {len(m[\"apples\"])} in list')
+          if m['count'] != len(m['apples']):
+              print(f'WARN: count={m[\"count\"]} != len(apples)={len(m[\"apples\"])}')
+          "
+
+      - name: Validate all dated Apple JSON files
+        shell: bash
+        run: |
+          set -euo pipefail
+          FAIL=0
+          TOTAL=0
+          while IFS= read -r f; do
+            TOTAL=$((TOTAL + 1))
+            if ! python3 -c "import json; json.load(open('$f'))" 2>/dev/null; then
+              echo "FAIL: invalid JSON: $f"
+              FAIL=$((FAIL + 1))
+            fi
+          done < <(find . -path './.git' -prune -o -name '*.json' -print | grep -v MANIFEST.json)
+
+          echo "Validated $TOTAL JSON files; $FAIL failures"
+          [ "$FAIL" -eq 0 ] || exit 1
+
+      - name: Validate Apple record schema
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 - <<'PYEOF'
+          import json, sys
+          from pathlib import Path
+
+          required_fields = {"id", "type", "title", "source_repo", "date", "archived_at"}
+          errors = []
+
+          for p in sorted(Path(".").rglob("*.json")):
+              if p.name == "MANIFEST.json" or ".git" in p.parts:
+                  continue
+              try:
+                  data = json.loads(p.read_text())
+              except Exception as e:
+                  errors.append(f"{p}: JSON parse error: {e}")
+                  continue
+
+              # Daily Apple files are lists of records
+              records = data if isinstance(data, list) else [data]
+              for i, rec in enumerate(records):
+                  if not isinstance(rec, dict):
+                      continue
+                  missing = required_fields - rec.keys()
+                  if missing:
+                      errors.append(f"{p}[{i}]: missing fields {missing}")
+
+          if errors:
+              for e in errors:
+                  print("FAIL:", e)
+              sys.exit(1)
+
+          print(f"Schema validation OK")
+          PYEOF
+
+      - name: Generate Construct Bundle
+        shell: bash
+        run: |
+          set -euo pipefail
+          OUT="APPLES_CONSTRUCT.txt"
+          {
+            echo "APPLES CONSTRUCT ${{ github.run_number }}"
+            echo "commit: $GITHUB_SHA"
+            echo "generated_utc: $(date -u +"%Y-%m-%dT%H:%M:%SZ")"
+            echo
+          } > "$OUT"
+
+          TOTAL=0
+          while IFS= read -r relpath; do
+            {
+              echo "--- FILE START: ${relpath} ---"
+              cat "${relpath}"
+              echo
+              echo "--- FILE END: ${relpath} ---"
+              echo
+            } >> "$OUT"
+            TOTAL=$((TOTAL + 1))
+          done < <(
+            find . \
+              -path './.git' -prune -o \
+              -type f \
+              \( -name '*.json' -o -name '*.md' -o -name '*.txt' -o -name '*.yml' -o -name '*.yaml' \) \
+              ! -name "$OUT" \
+              -print | sed 's#^./##' | LC_ALL=C sort
+          )
+
+          echo "Bundled $TOTAL files into $OUT"
+          test -s "$OUT"
+
+      - name: Upload Artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: apples-${{ github.run_number }}-${{ github.sha }}
+          path: APPLES_CONSTRUCT.txt
+          if-no-files-found: error
