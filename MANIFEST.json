@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-16T20:38:07Z",
+  "generated_at": "2026-07-16T20:40:25Z",
   "repo": "APPLES",
-  "count": 9908,
+  "count": 9909,
   "apples": [
     {
       "id": 1,
@@ -79266,6 +79266,14 @@
       "source_repo": "emily",
       "date": "20260716",
       "archived_at": "2026-07-16T20:32:57Z"
+    },
+    {
+      "id": 9909,
+      "type": "observation",
+      "title": "S147-02 live verification",
+      "source_repo": "IDUNA",
+      "date": "20260716",
+      "archived_at": "2026-07-16T20:40:25Z"
     }
   ]
 }
