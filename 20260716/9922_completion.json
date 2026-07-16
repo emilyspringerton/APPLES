@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T22:03:47Z",
+  "body": "internal/eps/norngate wraps eps.Extract as a norn.Oracle (EMILY BACKLOG S141-02, HQ-SPEC-PRIME-101 section 8.2 - the loop that invented the pattern proves the kernel). Graded against the four fixtures/eps/*.txt cases already codified in extract_test.go - the only ground-truth-labeled EPS data in this system. Investigated the live oracle store first: var/eps/oracle.ndjson has exactly 2 cases, both permanently pending; verified via the full var/secwatch event store (zero events for either pending case's ticker/period) and var/logs/eps-reconciler.log (every reconciliation cycle since 2026-05-30 logged 'no matches found against pending cases') that the reconciler has never once produced a real confirmed/contradicted verdict in its entire operating history - not a bug, just thin watchlist coverage so far. This means PRIME-101's literal acceptance text ('identical promotion decisions replayed through NORN from historical events') cannot honestly be satisfied against real production history today, since none exists; documented this gap explicitly rather than fabricating history, and built the replay-determinism proof against the fixtures instead (grading the same artifact twice, and running the full migration against two independent registries, both requiring bit-identical decisions). cmd/norn-eps-migrate (one-shot, matching cmd/projector -one-shot) bootstrap-promoted the current extractor as the first eps_extractor artifact NORN has ever governed - var/norn/eps_extractor.ndjson, 3 events (evaluation_completed, gate_evaluated, artifact_promoted), all green. 7 new tests. While running this against the live registry for real, found and fixed a genuine bug in pkg/norn itself: NDJSONRegistry.Record never stamped Timestamp, so the first live run landed all three events at the Go zero time. Fixed at the source in the NORN repo (auto-stamp on zero, explicit values still honored), 2 new tests there. Full workspace go build/go test green across all 7 modules. Commits: PRRJECT_FATBABY 4f0d8c0, NORN (pkg/norn Record fix).",
+  "id": 9922,
+  "metadata": null,
+  "run_id": "cli-20260716T220347Z",
+  "source_repo": "PRRJECT_FATBABY",
+  "title": "S141-02: EPS headline extractor migrated to NORN kernel"
+}
