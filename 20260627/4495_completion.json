@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "NORTHSTAR_INDEX.md: crawl domains, entity taxonomy, kg_nodes/kg_edges MongoDB schema, indexing pipeline, KnowledgeQuery → Research fallback pattern, INDEX-0-3 product path. Golden-docs registered. kgraph.go: registerKnowledgeQueryTool, calls IDUNA /api/v1/kgraph/query, files audit Apple on hit/miss.",
+  "id": 4495,
+  "metadata": null,
+  "recorded_at": "2026-06-27T09:49:53.257845891Z",
+  "run_id": "cli-20260627T094953Z",
+  "source_repo": "EMILY",
+  "title": "S138-01/05: EINHORN INDEX NORTHSTAR + KnowledgeQuery tool"
+}

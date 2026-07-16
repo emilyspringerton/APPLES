@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "Wire server/market into apps2/mud. ah browse/sell/buy/history/status/cancel commands. Player gil field (500 start, 100/drop). itemCategory table. Buy deducts gil, awards item. Listing cancel returns item to inventory.",
+  "id": 3053,
+  "metadata": null,
+  "recorded_at": "2026-06-23T10:13:41.060734783Z",
+  "run_id": "cli-20260623T101341Z",
+  "source_repo": "GoblinFoxDragon",
+  "title": "S90-03: MUD auction house"
+}

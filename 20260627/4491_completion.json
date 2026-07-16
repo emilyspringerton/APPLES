@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "Migration 202606270002: research_cache(query_hash PK, query_text, result_json, source_urls, sourced_at, expires_at). ResearchHandler: GET cache?q=hash, POST cache (upsert), DELETE cache/:hash. Wired in main.go with RequireAuth.",
+  "id": 4491,
+  "metadata": null,
+  "recorded_at": "2026-06-27T09:45:14.669695869Z",
+  "run_id": "cli-20260627T094514Z",
+  "source_repo": "IDUNA",
+  "title": "S137-03: research_cache migration + /api/v1/research/cache endpoints"
+}

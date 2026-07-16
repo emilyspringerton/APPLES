@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "Expanded SHANKPIT_CONSTRUCT_CURRENT.txt to Phase 508: added apps2/server-go/main.go, server/system/portal.go, server/system/backend.go, and WORLD_BACKEND_INTERFACE_SPEC.md. DragonsNShit bridge surfaces now visible to agents. Commit 88400c7. --json",
+  "id": 369,
+  "metadata": null,
+  "recorded_at": "2026-06-12T01:34:49.952315951Z",
+  "run_id": "cli-20260612T013449Z",
+  "source_repo": "SHANKPIT",
+  "title": "SHANKPIT Milestone 4: Construct Phase 508 — Go server + WorldBackend seam included"
+}

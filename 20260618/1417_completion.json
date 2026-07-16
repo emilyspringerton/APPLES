@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "packages2/common/block_map.go: Go mapping, DragonflyNameToBlockID(), BlockStone/Grass/Dirt/Log/Leaf consts. packages/common/block_map.h: C header with dragonfly_name_to_block_id(). 24 name mappings covering stone/grass/dirt/log/leaf variants. block_map_test.go: 12 assertions all pass including round-trip + all canonical IDs reachable.",
+  "id": 1417,
+  "metadata": null,
+  "recorded_at": "2026-06-18T12:23:53.371667531Z",
+  "run_id": "cli-20260618T122353Z",
+  "source_repo": "SHANKPIT",
+  "title": "S40-03: block ID mapping table"
+}

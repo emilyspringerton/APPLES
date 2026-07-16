@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "goldenbuild_test.go: TestContentHash_Deterministic, DifferentInputs, BudgetTruncates, BudgetZeroMeansAll. TestLoadGoldenIndex_Fallback (missing file), ParsesTable (Tier-1 filter, budget parse), EmptyTier1FallsBack. 53 emily-agent tests total.",
+  "id": 2411,
+  "metadata": null,
+  "recorded_at": "2026-06-21T12:32:35.272569978Z",
+  "run_id": "cli-20260621T123235Z",
+  "source_repo": "EMILY",
+  "title": "S69-01: EMILY goldenbuild contentHash + loadGoldenIndex tests — 7 tests"
+}

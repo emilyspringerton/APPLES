@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "internal/processor/haiku_provider.go: HaikuProvider calls claude-haiku-4-5-20251001 via Anthropic Messages API. Parses JSON signal from response, strips markdown code fences. cmd/processor/main.go: ENABLE_LLM_ANALYSIS=true activates haiku provider (requires ANTHROPIC_API_KEY); false (default) keeps stub. 4 unit tests with mock HTTP server: success, parse, API error, markdown fence. All 7 processor tests pass.",
+  "id": 1876,
+  "metadata": null,
+  "recorded_at": "2026-06-20T00:38:41.490902258Z",
+  "run_id": "cli-20260620T003841Z",
+  "source_repo": "PRRJECT_FATBABY",
+  "title": "S42-05: Haiku intelligence provider with ENABLE_LLM_ANALYSIS feature flag"
+}

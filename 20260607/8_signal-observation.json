@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "signal_observation",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "severity: info\ntimestamp: 2026-06-03T13:30:00Z\n\nfindings:\nThree areas of work completed:\n\n1. IDUNA bootstrap (IDUNA repo, commit 25f5134):\n- cmd/bootstrap: narrow one-shot CLI (no LLM, no HTTP). Migrate DB, seed agent permissions from config/agents.json, generate secrets to var/agent-secrets.env.\n- config/agents.json: declarative agent definitions for EMILY-PRIME, FATBABY-EMILY, EMIREE, JON, BOB with minimum-necessary permissions.\n- migrations/truestore/202606030001_system_seeds.sql: system owner user, agent stubs (deterministic UUIDs), new agent-scoped permissions.\n- Startup sequence: go run ./cmd/bootstrap → source var/agent-secrets.env → go run . → start agents.\n\n2. Dataset report (PRRJECT_FATBABY docs/next-dataset-report.md):\n- Form 4 (insider transactions): highest value, lowest complexity, build first.\n- 8-K Item 5.02 (leadership departures",
+  "id": 8,
+  "metadata": null,
+  "recorded_at": "2026-06-07T02:30:30.696412417Z",
+  "run_id": "20260603T133000Z",
+  "source_repo": "PRRJECT_FATBABY",
+  "title": "FatBaby obs [info]: IDUNA bootstrap + vision docs complete — system can now come online without manu"
+}

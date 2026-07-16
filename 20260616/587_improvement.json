@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "improvement",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "chat_to_fatbaby_emily tool on Emily Prime; FatBaby Emily has her own Pipeline + ToolDispatcher (process-start tools: fatbaby_start_process, fatbaby_list_processes, fatbaby_read_obs, emily_cli). Exchange rendered as inline sub-chat blocks (blue-bordered, two bubbles + nested tool log) not collapsed in tool log. Emily Prime system prompt updated. Builds clean.",
+  "id": 587,
+  "metadata": null,
+  "recorded_at": "2026-06-16T12:37:59.060025214Z",
+  "run_id": "2026-06-16",
+  "source_repo": "EMILY",
+  "title": "FatBaby Emily sub-agent: Emily Prime chats to her operational executor; exchange visible in web chat UI"
+}

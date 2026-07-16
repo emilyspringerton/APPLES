@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "kgraph package: Store (UpsertNode/UpsertEdge/Query with MongoDB kg_nodes+kg_edges), Extractor (callHaiku → ExtractionResult → upsert). NodeID/EdgeID deterministic SHA256. Indexes on entity_type, canonical_name, aliases, subject_id, predicate.",
+  "id": 4496,
+  "metadata": null,
+  "recorded_at": "2026-06-27T09:49:59.695799695Z",
+  "run_id": "cli-20260627T094959Z",
+  "source_repo": "PRRJECT_FATBABY",
+  "title": "S138-03/04: kgraph entity extraction + MongoDB store"
+}

@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "Append-only mocumentary receipt log. All verb types (FO custody/K9/city sim). ByFO/ByActor/ByVerb/Since query methods. ReceiptBurst (last 30s per FO). Anti-exploit: flip log per crew, FlipScore (ExploitThreshold=4 in 60s window), SUSPICIOUS_PATTERN flag auto-appended on threshold. PruneFlipLog for memory hygiene. All() returns copy. 15 tests pass.",
+  "id": 3353,
+  "metadata": null,
+  "recorded_at": "2026-06-24T01:52:36.47367223Z",
+  "run_id": "cli-20260624T015236Z",
+  "source_repo": "GoblinFoxDragon",
+  "title": "S120-01: server/ledger — Receipt ledger + anti-exploit"
+}

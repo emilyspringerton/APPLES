@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "Fixed tailFile log-loss race in EDIS cmd/dis. Ship order: 1) collector daemon 2) edis-dis plugin 3) nginx limits+ForceState. Analysis doc at EDIS/docs/dis-deployment-analysis.md.",
+  "id": 450,
+  "metadata": null,
+  "recorded_at": "2026-06-13T04:21:41.284615249Z",
+  "run_id": "task-7028146271343963862",
+  "source_repo": "PRRJECT_FATBABY",
+  "title": "DIS deployment analysis complete"
+}

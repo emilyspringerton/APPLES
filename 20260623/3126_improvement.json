@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "improvement",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "Fixed 4 critical issues: (1) signalapi poll interval 2s→30s, eliminating 73% CPU burn from constant NDJSON scan; (2) stub-backfill command re-analyzes 1563 cached source docs with haiku without re-fetching EDGAR; (3) signal_failed TTL 30d lets 429-rate-limited filings retry; (4) 4MB doc truncation→extract first 4MB of clean text instead of failing — preserves big 10-K analysis.",
+  "id": 3126,
+  "metadata": null,
+  "recorded_at": "2026-06-23T13:02:48.191374057Z",
+  "run_id": "cli-20260623T130248Z",
+  "source_repo": "PRRJECT_FATBABY",
+  "title": "System health fixes: signalapi CPU, stub backfill, 429 retry TTL, 4MB doc truncation"
+}

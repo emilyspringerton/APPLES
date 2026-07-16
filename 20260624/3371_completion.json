@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "dragonDecide() rules: CI\u003c0.25→rogue_swarm, attn\u003e800→media_spike, pressure\u003c100 after cycle 5→pressure_spike. dragonACT() fires events + posts Dragon Apples (type=observation, repo=TRAPX) per event. 10 new dragonDecide tests. All emily-agent tests pass.",
+  "id": 3371,
+  "metadata": null,
+  "recorded_at": "2026-06-24T02:11:31.257003446Z",
+  "run_id": "cli-20260624T021131Z",
+  "source_repo": "EMILY",
+  "title": "S121-03+04: Dragon ACT phase + Dragon Apples"
+}

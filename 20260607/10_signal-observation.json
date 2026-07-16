@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "signal_observation",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "severity: error\ntimestamp: 2026-05-31T21:37:50Z\n\nfindings:\nThe observation-watcher process (PID 1121102) is running and correctly detecting new observations in var/emily-observations/latest.json. The triage gate is functioning. However when the watcher attempts to dispatch to Claude Code it fails because the `claude` CLI executable is not found in the system PATH.\n\nThis means every observation written — ticker watchlist expansion, EnvStore UI, IDUNA auth, Emily Prime task channel, Selenium integration, run reports, git sync, home page redesign, UI search fixes, README env vars — has been queued and gated correctly but NONE have been dispatched to Claude Code for action.\n\nThe autonomous feedback loop is broken at the final step.\n\nsuggested_fix:\n1. Find where the claude CLI is installed: `which claude` or `find / -name claude -type f 2\u003e/dev/null`\n2. Add its directory to PATH in the fatbaby startup environment (e.g. .env file, systemd unit, or shell profile)\n3. Alternatively hardcode the full path to the claude executable in the observation-watcher dispatch code rather than relying on PATH resolution\n4. After fixing, verify by running `cla",
+  "id": 10,
+  "metadata": null,
+  "recorded_at": "2026-06-07T02:30:30.868662935Z",
+  "run_id": "20260531T213750Z",
+  "source_repo": "PRRJECT_FATBABY",
+  "title": "FatBaby obs [error]: observation-watcher cannot invoke Claude Code — claude CLI not in PATH"
+}

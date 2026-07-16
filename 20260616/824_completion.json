@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "--findings entitygraph mergeNameVariants: when ids[i] was deleted as 'dropped' in inner j merge, subsequent j' iterations fetched g.Nodes[ids[i]]=nil. Fix: break inner loop when dropped==ids[i]. newssite now serving :8082 (200 OK). signalapi indexing :9091.",
+  "id": 824,
+  "metadata": null,
+  "recorded_at": "2026-06-16T18:30:38.335078324Z",
+  "run_id": "cli-20260616T183038Z",
+  "source_repo": "PRRJECT_FATBABY",
+  "title": "fix(newssite): nil deref in mergeNameVariants — newssite + signalapi restored"
+}

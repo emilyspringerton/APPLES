@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "collector_test.go: TestDocStoreAppendAndLoadSeen (append 2, LoadSeen both IDs), TestDocStoreSeqIncrement (seq+1 after Append), TestDocStoreEmptyLoadSeen (0 on empty). 56 emily-agent tests total.",
+  "id": 2414,
+  "metadata": null,
+  "recorded_at": "2026-06-21T12:33:44.938076928Z",
+  "run_id": "cli-20260621T123344Z",
+  "source_repo": "EMILY",
+  "title": "S70-01: EMILY DocStore test suite — 3 tests"
+}

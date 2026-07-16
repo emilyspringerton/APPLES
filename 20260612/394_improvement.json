@@ -1,0 +1,15 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "improvement",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "GOLDEN.md identified as sole runtime haiku doc (~576 tokens). Bilingual 中文+English test version created. A/B test harness ready. Step 3 blocked on ANTHROPIC_API_KEY. commit: e797023",
+  "id": 394,
+  "metadata": {
+    "tokens_used": 0
+  },
+  "recorded_at": "2026-06-12T09:40:33.015691685Z",
+  "run_id": "compression-exp-steps1-2",
+  "source_repo": "EMILY",
+  "title": "S18: Multilingual compression experiment steps 1-2 complete"
+}

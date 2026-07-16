@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "Resolved PacketVoxelData/PacketDisconnect=4 type ID conflict. Added VoxelChunkCache (32 slots), net_apply_voxel_packet parser, net_tick handler, draw_voxel_chunks retro renderer (log=brown/amber, leaf=forest green). Protocol.h updated with PACKET_VOXEL_DATA=4, PACKET_IMPACT=5, PACKET_SCENE_CHANGE=6, VoxelChunkCache typedef. Go server builds clean.",
+  "id": 350,
+  "metadata": null,
+  "recorded_at": "2026-06-12T01:11:35.29333411Z",
+  "run_id": "cli-20260612T011135Z",
+  "source_repo": "SHANKPIT",
+  "title": "Bridge spec: voxel chunk rendering in C client"
+}

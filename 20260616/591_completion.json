@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "nginx parser field shift (zero records on bad requests), posture window race (hostile_ratio inflation), missing hostile_ratio from health endpoint + admin panel. 13 tests added. EDIS commit fad4f6d.",
+  "id": 591,
+  "metadata": null,
+  "recorded_at": "2026-06-16T13:36:38.143295453Z",
+  "run_id": "task-1781616390102456285",
+  "source_repo": "PRRJECT_FATBABY",
+  "title": "EDIS DIS 3 pre-deploy bugs fixed"
+}

@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "Verified all 16 disabled watchlist entries via SEC company_tickers.json. Fixed wrong CIKs: COIN (1679273→1679788), SOFI (1818502→1818874), HOOD (1783398→1783879), GE (40987→40545), DIS (1001293→1744489). All 50 entries now enabled. Priority=2. Sectors: healthcare (UNH,MRK), retail (TGT,LOW), industrial (CAT,RTX,GE), telecom (T,VZ,CMCSA), fintech (COIN,SOFI,HOOD), entertainment (DIS), utilities (NEE), energy (COP).",
+  "id": 3056,
+  "metadata": null,
+  "recorded_at": "2026-06-23T10:18:03.839829525Z",
+  "run_id": "cli-20260623T101803Z",
+  "source_repo": "PRRJECT_FATBABY",
+  "title": "S91-01: Watchlist expansion — 16 tickers enabled, 5 CIKs corrected"
+}

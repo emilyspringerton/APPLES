@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "Migration 202606250001: cluster_heartbeats table. Store interface: UpsertClusterHeartbeat + ListActiveClusterHeartbeats (MySQL + SQLite). AgentsHandler: POST /heartbeat upsert; GET ?active=true\u0026type=emily_cluster returns live cluster list. All tests pass.",
+  "id": 3863,
+  "metadata": null,
+  "recorded_at": "2026-06-25T09:55:25.939450005Z",
+  "run_id": "cli-20260625T095525Z",
+  "source_repo": "IDUNA",
+  "title": "S128-04: cluster heartbeat endpoint — POST /api/v1/agents/heartbeat + GET ?active=true"
+}

@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "backlog_completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "buildFilingDateIndex renamed to buildFilingIndexes, now returns both dates AND forms maps keyed by filing identity. 4th 8-K detection path: filingForms[doc.Identity] == '8-K'. Resolves 880/1104 legacy docs that had form='' source_type='press_release' due to processor bug (EDGAR URLs don't contain form name so the URL check caught 0). 224 remaining unmatched docs may lack filing_discovered events or be genuinely non-8-K.",
+  "id": 338,
+  "metadata": null,
+  "recorded_at": "2026-06-11T09:50:15.194637398Z",
+  "run_id": "intake-entity-graph-0-filings",
+  "source_repo": "PRRJECT_FATBABY",
+  "title": "INTAKE entity-graph 8-K detection — 880 legacy docs now recoverable via filing form index"
+}

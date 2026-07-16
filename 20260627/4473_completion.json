@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "cmdEquip now enforces job mask + level restriction via itemdef.Registry.CanEquip. Stat delta broadcast shows changes on equip. cmdGear shows stat totals. itemdefReg global loaded from data/items.json at startup. statDelta helper.",
+  "id": 4473,
+  "metadata": null,
+  "recorded_at": "2026-06-27T09:27:58.841702614Z",
+  "run_id": "cli-20260627T092758Z",
+  "source_repo": "GoblinFoxDragon",
+  "title": "S129-07: MUD equip/unequip commands with job/level enforcement + stat delta"
+}

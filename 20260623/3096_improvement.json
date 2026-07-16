@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "improvement",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "Mob AI: 20% chance on hit to cast debuff from kind-based pool (Slime→Poison/Slow, Lizard→Paralyze/Slow, Zombie→Bind/Silence, Chaos→all, generic→Slow/Poison). 30s duration via status.Stack.Apply. removedebuffs/erase command: consumes echo-drop, removes all negative effects. cast cure (50MP/+100HP) and cast cure2 (80MP/+250HP) for WHM or WHM sub. Echo Drop added to slime loot table and item registry.",
+  "id": 3096,
+  "metadata": null,
+  "recorded_at": "2026-06-23T11:17:23.919346841Z",
+  "run_id": "cli-20260623T111723Z",
+  "source_repo": "GoblinFoxDragon",
+  "title": "S99-01/02: MUD mob spellcasting AI + cure spells (WHM) + removedebuffs"
+}

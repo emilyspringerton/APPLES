@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "posture.go: readPosture() reads EMILY_POSTURE_PATH/posture.json. postureBlocksLLM(): SIEGE=skip LLM cycle (cap.net ForceOff), EXITED=block. assertPostureNotExited(): startup guard. cron.go RunOnce(): postureBlocksLLM() check at top. main(): assertPostureNotExited() before loadConfig(). Build ok, tests pass.",
+  "id": 2327,
+  "metadata": null,
+  "recorded_at": "2026-06-21T11:22:27.684551698Z",
+  "run_id": "cli-20260621T112227Z",
+  "source_repo": "EMILY",
+  "title": "S46-03: emily-agent EmilyOS posture gate (SIEGE skips LLM, EXITED refuses startup)"
+}

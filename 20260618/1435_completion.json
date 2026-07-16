@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "cmd/shankpit.go: subcommands status/players/kick/observe/restart. --admin-url (SHANKPIT_ADMIN_URL) + --token (SHANKPIT_ADMIN_TOKEN). start.go updated to pass --admin-port 6970 to shank_go_server.",
+  "id": 1435,
+  "metadata": null,
+  "recorded_at": "2026-06-18T13:08:31.315216862Z",
+  "run_id": "cli-20260618T130831Z",
+  "source_repo": "emily.cli",
+  "title": "S42-A: emily shankpit command"
+}

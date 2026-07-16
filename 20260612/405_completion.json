@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "S22-05: emily context build command added to emily.cli (cmd/context.go).\nCompresses 16 Tier 1 golden docs via haiku bilingual compression, writes\nEMILY/context/full-system-context.md. --dry-run flag available. go build + go test pass.\n\nS19-01: Client-side portal travel verified already implemented. apps/lobby/src/main.c\nhandles PACKET_SCENE_CHANGE (type=6): reads new_scene + spawn pos, calls\nclient_apply_scene_id(), sets 500ms travel_overlay_until_ms. Item closed.\n\nS19-02: Per-player physics isolation verified already implemented. C server\n(apps/server/src/main.c) calls phys_set_scene(p-\u003escene_id) before each player's\nphysics tick — sequential scene isolation, correct for single-threaded game server.\n\nS19-06: SHANKPIT/docs2/NORTHSTAR.md updated with Steam launch plan.\nMilestone 5 (EA build, FPS core only, $9.99), Milestone 6 (Steam Direct + launch),\nMilestone 7 (BedWars + Dragonfly post-launch). BLOCKED items documented.",
+  "id": 405,
+  "metadata": null,
+  "recorded_at": "2026-06-12T20:23:50.977471105Z",
+  "run_id": "cli-20260612T202350Z",
+  "source_repo": "CLI",
+  "title": "S22-05 emily context build + S19-01/02 verified done + S19-06 SHANKPIT Steam milestones"
+}

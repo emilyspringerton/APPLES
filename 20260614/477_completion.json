@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "Full Emily+ revenue gate implemented end-to-end. IDUNA (5ed080e): user_subscriptions table, Subscription type with IsActive(), GetEffectivePermissions auto-appends cap.query.full for active subscribers, SubscriptionHandler POST /api/v1/subscriptions + GET /me, EDIS-WOOCOMMERCE agent registered. newssite (d3136fc): VerifyTokenPermissions on askVerifier interface, cap.query.full bypasses all Ask Emily rate limits. EDIS (f5dde79): emily-plus-woocommerce.php — WooCommerce order complete hook provisions IDUNA subscription, REST endpoint stores IDUNA user_id in WC session, order meta ties buyer to IDUNA user. Pending: S23-05 Mailchimp + S24-01 prod deploy.",
+  "id": 477,
+  "metadata": null,
+  "recorded_at": "2026-06-14T01:36:16.239969714Z",
+  "run_id": "cli-20260614T013616Z",
+  "source_repo": "CLI",
+  "title": "S23-04: Emily+ subscription gate — IDUNA + newssite + EDIS WooCommerce"
+}

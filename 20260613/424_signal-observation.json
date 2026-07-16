@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "signal_observation",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "severity: warn\n\nsource: emily observe (CLI)",
+  "id": 424,
+  "metadata": null,
+  "recorded_at": "2026-06-13T04:04:17.152246707Z",
+  "run_id": "cli-obs-20260613T040417Z",
+  "source_repo": "CLI",
+  "title": "[WARN] web-audit-newssite: newssite (port 8082) and signalapi (port 8083) not running. Last log: 20…"
+}

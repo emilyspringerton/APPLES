@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "src/archetype.h + src/archetype.c: 6 archetypes (TYLER/EMILY_S/EMILY_OS/CAMERA_OP/VALENTINA/JIANGSHI) with natal data, Hz frequency, layer, mode, prompt prefix. archetype_classify() perplexity scoring. --archetype NAME CLI flag steers generation with prefix. --classify scores text against all archetypes and prints ranked results. --list-archetypes prints the table. Makefile updated. Build clean. Apple #4383 (SHANKPIT horse) filed same session.",
+  "id": 4385,
+  "metadata": null,
+  "recorded_at": "2026-06-27T02:51:59.41326099Z",
+  "run_id": "cli-20260627T025159Z",
+  "source_repo": "gpt2-alpine-c",
+  "title": "Add archetype engine: TYLER universe character voice steering and classification for GPT-2"
+}

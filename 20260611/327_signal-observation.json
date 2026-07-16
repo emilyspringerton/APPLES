@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "signal_observation",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "severity: info\n\nsource: emily observe (CLI)",
+  "id": 327,
+  "metadata": null,
+  "recorded_at": "2026-06-11T01:32:04.986415871Z",
+  "run_id": "cli-obs-20260611T013204Z",
+  "source_repo": "CLI",
+  "title": "[INFO] session 2026-06-11: emily backlog curate CLI + Emily Prime agent tools (emily_read/write_fil…"
+}

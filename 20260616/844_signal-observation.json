@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "signal_observation",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "severity: warn\n\nsource: emily observe (CLI)",
+  "id": 844,
+  "metadata": null,
+  "recorded_at": "2026-06-16T19:16:40.641865942Z",
+  "run_id": "cli-obs-20260616T191640Z",
+  "source_repo": "CLI",
+  "title": "[WARN] S29-05 final smoke: single-obs dispatch test — confirm obs-watcher picks up and dispatches…"
+}

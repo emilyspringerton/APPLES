@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "Per-FO Attention (0-1000). AddDogActivity: perDog*n^1.3 superlinear gain. Tick decay at BaseDecayRate. Thresholds: AUDIT_THRESHOLD (700) → OVERSIGHT_SECT summon; VENDOR_THRESHOLD (900) → SHADOW_OPERATOR summon. Clear events on decay below threshold. EcosystemEffects: migrationWeight, AHTaxMultiplier, ContestScaler. Registry: GetOrCreate/Get/TickAll/TotalAttention. 18 tests pass.",
+  "id": 3346,
+  "metadata": null,
+  "recorded_at": "2026-06-24T01:47:01.011569242Z",
+  "run_id": "cli-20260624T014701Z",
+  "source_repo": "GoblinFoxDragon",
+  "title": "S119-03: server/attention — Attention meter system"
+}

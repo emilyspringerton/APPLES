@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "handlers/players.go: handleListPlayers() — GET /api/v1/players?sort=kills|deaths|sessions|last_seen\u0026limit=N. Returns [{player_id, display_name, kills, deaths, sessions, kd_ratio, last_seen}]. Tests: TestPlayersListEmpty, TestPlayersListSorted, TestPlayersListLimit (3 tests pass).",
+  "id": 2340,
+  "metadata": null,
+  "recorded_at": "2026-06-21T11:36:45.758717527Z",
+  "run_id": "cli-20260621T113645Z",
+  "source_repo": "IDUNA",
+  "title": "S48-01: GET /api/v1/players — leaderboard endpoint with sort/limit"
+}

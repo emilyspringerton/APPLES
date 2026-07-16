@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "backlog_completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "runReportFooter updated: Apple filing is now required (not optional), BACKLOG.md marking step added (check EMILY/BACKLOG.md and mark [x] if relevant), git add -A for complete sync, clearer failure handling instructions. Also marks eps-processor ticker map observation as stale (now 341 entries, processor cursor at end).",
+  "id": 340,
+  "metadata": null,
+  "recorded_at": "2026-06-11T09:55:23.719983462Z",
+  "run_id": "intake-obs-watcher-prompt",
+  "source_repo": "PRRJECT_FATBABY",
+  "title": "INTAKE obs-watcher full reporting injection — Apple required + BACKLOG.md step"
+}

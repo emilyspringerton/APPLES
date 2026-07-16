@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "signal_observation",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "severity: info\n\nsource: emily observe (CLI)",
+  "id": 61,
+  "metadata": null,
+  "recorded_at": "2026-06-07T09:36:21.329054012Z",
+  "run_id": "cli-obs-20260607T093621Z",
+  "source_repo": "CLI",
+  "title": "[INFO] RSI session 3 complete. Iterations 3-5: COMMANDS.md v0.5.0, IDUNA systemd unit (scripts/idun…"
+}

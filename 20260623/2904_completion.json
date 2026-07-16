@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "server/party/party.go: Party{Leader,Members[5]}, Invite/Kick/Leave (leader transfer on leave), XPSplit (even split, OOR excluded). Alliance{parties[3]}, AllianceLeader=party0.Leader, TotalSize. XPChain: +10%/kill chain, cap 50%, 3min timeout/reset. S85-01+S85-02+S85-03 all covered in one file. 37 tests.",
+  "id": 2904,
+  "metadata": null,
+  "recorded_at": "2026-06-23T02:45:28.209531915Z",
+  "run_id": "cli-20260623T024528Z",
+  "source_repo": "GoblinFoxDragon",
+  "title": "S85-01/02/03: Party+Alliance+XPChain — 6-player party, 3-party alliance, kill chain bonus, 37 tests"
+}

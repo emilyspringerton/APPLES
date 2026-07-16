@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "internal/http/middleware/ratelimit.go: IPRateLimiter (token bucket, sync.Map), AuthRateLimit middleware; /api/v1/auth/local + /api/v1/auth/register wrapped with 10 req/min per IP; 429+Retry-After header; 5 tests",
+  "id": 3552,
+  "metadata": null,
+  "recorded_at": "2026-06-24T11:37:10.499663656Z",
+  "run_id": "cli-20260624T113710Z",
+  "source_repo": "IDUNA",
+  "title": "S126-09: rate limiting on auth endpoints"
+}

@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "monitors table migration, IAMStore monitor methods (SQLite + MySQL stubs), MonitorsHandler (checkin/list/create/delete/overdue/mark-alerted), wired into main.go. All tests pass.",
+  "id": 3901,
+  "metadata": null,
+  "recorded_at": "2026-06-25T11:20:09.263550345Z",
+  "run_id": "alerting",
+  "source_repo": "IDUNA",
+  "title": "Alerting backend + Slack integration: check-in monitor system"
+}

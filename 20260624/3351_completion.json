@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "Global doom clock (0-1000). Inputs: TierUnlock (+80*level), DogDeploy (+5), SwarmActivity (0.2/dog/s). Decay: 0.5/s. Bird Correction: -150. 5-tier threat ladder: T1=LeashFrays(250), T2=ProcurementWar(450), T3=QuietAudit(650), T4=Packmind(850), T5=CrownProtocol(1000). TIER_ACTIVATED/TIER_CLEARED events on crossing. CrownProtocol fires once → CROWN_PROTOCOL event (super-node unification/map rewrite). TierForPressure/IsAtTier helpers. 18 tests pass. S119 ENGINE FOUNDATION COMPLETE.",
+  "id": 3351,
+  "metadata": null,
+  "recorded_at": "2026-06-24T01:50:58.009003313Z",
+  "run_id": "cli-20260624T015058Z",
+  "source_repo": "GoblinFoxDragon",
+  "title": "S119-05: server/techpressure — Tech Pressure doom clock"
+}

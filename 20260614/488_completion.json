@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "24 instruction pairs extracted from prime directive (8 hardcoded identity/protocol + section Q\u0026A). Instruct corpus: 128 pairs / 455 records / 568KB. Base GPT-2 perplexity on Emily corpus: 130.33 (expected high — domain OOD). Post-fine-tune target: PPL \u003c 60. Commit: gpt2-alpine-c 42b0d66.",
+  "id": 488,
+  "metadata": null,
+  "recorded_at": "2026-06-14T10:15:59.007253559Z",
+  "run_id": "cli-20260614T101558Z",
+  "source_repo": "CLI",
+  "title": "S26-06: Emily Prime instruct dataset + perplexity baseline complete"
+}

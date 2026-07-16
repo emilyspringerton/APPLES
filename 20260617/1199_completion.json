@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "CHANGELOG updated in EMILY: web audit via emily web_audit_url: found /ask 500 (Symbols field), HEAD 405 sitewide, /api/ask 503 (EMILY_BASE_URL), governance-signals empty; signal pipeline: 87% failure rate, all signals stubs, 429/empty-URL/4MB issues; 10 items added to S36+S37",
+  "id": 1199,
+  "metadata": null,
+  "recorded_at": "2026-06-17T22:21:30.77204355Z",
+  "run_id": "changelog-1781734890",
+  "source_repo": "EMILY",
+  "title": "changelog(EMILY): web audit via emily web_audit_url: found /ask 500 (Symbols …"
+}

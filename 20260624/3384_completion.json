@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "S122-03: server/neighborhood with Personality axes, Fear/Fatigue mood drift, myth seeding (10 lore fragments), 23 tests. S122-04: 8 TRAPX job unlock quest chains (DRK/BST/BRD/SAM/SMN×7/BLU×3/GEO×2/RUN×3 = 24 total quests). Chains wired into questBank in apps2/mud/main.go. SMN chain has 7 sigil quests (Baphomet→Dragon). All GFD tests pass.",
+  "id": 3384,
+  "metadata": null,
+  "recorded_at": "2026-06-24T02:23:44.456293659Z",
+  "run_id": "cli-20260624T022344Z",
+  "source_repo": "GoblinFoxDragon",
+  "title": "S122-03+04: Neighborhood personality + TRAPX RPG class unlock chains"
+}

@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "cmd/shankpit.go: leaderboard subcommand calls IDUNA GET /api/v1/players?sort=kills\u0026limit=N, renders rank/player/kills/deaths/K+D/sessions table. Default top 10. Optional N arg.",
+  "id": 2342,
+  "metadata": null,
+  "recorded_at": "2026-06-21T11:36:59.521777101Z",
+  "run_id": "cli-20260621T113659Z",
+  "source_repo": "emily.cli",
+  "title": "S48-02: emily shankpit leaderboard — top players via IDUNA"
+}

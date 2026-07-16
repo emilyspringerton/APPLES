@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "CHANGELOG updated in EMILY: Full Slack integration: SlackNotifier (webhook), alerting.go (CheckinAlertWorker polls IDUNA overdue monitors), watchdog alerts → Slack, cron cadence slowed to 15m",
+  "id": 3903,
+  "metadata": null,
+  "recorded_at": "2026-06-25T11:20:14.472604181Z",
+  "run_id": "changelog-1782386414",
+  "source_repo": "EMILY",
+  "title": "changelog(EMILY): Full Slack integration: SlackNotifier (webhook), alerting.g…"
+}

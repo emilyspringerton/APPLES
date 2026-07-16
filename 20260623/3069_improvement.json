@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "improvement",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "Wire server/gear.Equipment into apps2/mud. Players equip items from inventory into 16 FFXI slots. Effective IL computed and displayed. equip/unequip/gear commands.",
+  "id": 3069,
+  "metadata": null,
+  "recorded_at": "2026-06-23T10:45:31.275175232Z",
+  "run_id": "cli-20260623T104531Z",
+  "source_repo": "GoblinFoxDragon",
+  "title": "S93-01: MUD equipment — server/gear Equipment, equip/unequip/gear commands, IL display"
+}

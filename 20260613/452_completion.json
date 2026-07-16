@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "Commit 7268ff5 on EDIS main.\n\nWHAT WAS BUILT:\n- edis-earnings plugin (new): [edis_earnings_calendar] shortcode + EDIS_Earnings_Widget. Calls /v1/earnings-calendar with ticker/days(30)/limit(50) attrs. calendar-table.php groups entries by report_date, shows today/tomorrow labels, BMO/AMC timing (sky blue/purple), confidence badges (confirmed=green, announced=blue, approx=gray). edis-earnings.css with full table styling.\n- edis-signals press releases: [edis_press_releases ticker=AAPL limit=10] shortcode added. press-releases-list.php renders date chip, title linked to document_url (first line of body, 120 chars), 240-char snippet. edis-signals.css added with .edis-pr border-left card style.\n- edis-core updates: get_press_releases(ticker, limit) API client method pointing to /v1/press-releases/{ticker}; edis_get_press_releases() cached accessor (120s TTL).\n- Ticker page (page-ticker.php): Corporate Signals section — limit raised from 10 to 15, label updated. Signals now ordered by source_published_at DESC (original document date) via updated signalapi endpoint. Press Releases section added above Ask Emily section.\n- ops/nginx/edis.conf: nginx config for edis.fatbaby.io on port 443. HTTP→HTTPS redirect, PHP-FPM via unix socket, WP admin rate limit (2r/s burst 5), DIS collector passthrough at /dis/ (internal only), PHP execution blocked inside wp-content/uploads, HSTS 1yr, gzip, static asset caching (1yr immutable).\n- ops/certbot/setup.sh: automated Let's Encrypt cert provisioning. Installs certbot if missing (apt), deploys nginx config, runs certbot --nginx --non-interactive, verifies renewal with --dry-run.\n- ops/deploy.sh: rsync plugins + theme into /var/www/edis, WP-CLI plugin activation (all 5 EDIS plugins), rewrite flush, nginx reload.",
+  "id": 452,
+  "metadata": null,
+  "recorded_at": "2026-06-13T20:30:48.263908495Z",
+  "run_id": "cli-20260613T203048Z",
+  "source_repo": "CLI",
+  "title": "EDIS: earnings calendar plugin, press releases, ticker page 15 signals, SSL/nginx ops"
+}

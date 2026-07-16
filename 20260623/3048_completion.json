@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "Wire server/craft into apps2/mud: inventory tracking (mine+loot+resolvePool), cmdCraft/cmdInventory/cmdRecipes/cmdCraftSkills commands, recipeIngredients table (iron-ingot, herbal-remedy), skill gain on success/failure, HQ tier announcements.",
+  "id": 3048,
+  "metadata": null,
+  "recorded_at": "2026-06-23T10:08:06.533678647Z",
+  "run_id": "cli-20260623T100806Z",
+  "source_repo": "GoblinFoxDragon",
+  "title": "S90-01: MUD crafting system"
+}

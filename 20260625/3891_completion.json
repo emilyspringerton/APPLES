@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "CHANGELOG updated in IDUNA: migration 202606250002: character_equipment, character_inventory, character_key_items, character_bag_capacity tables; ALTER items ADD def_id + flags",
+  "id": 3891,
+  "metadata": null,
+  "recorded_at": "2026-06-25T10:54:13.007043504Z",
+  "run_id": "changelog-1782384853",
+  "source_repo": "IDUNA",
+  "title": "changelog(IDUNA): migration 202606250002: character_equipment, character_inve…"
+}

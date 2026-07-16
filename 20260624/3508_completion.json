@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "mudconn.Conn TCP MUD connection; --gfd host:port flag; Channel 11 dark palette; renderGFDBar bottom bar with gold accent + live clock; --gfd-webmaster EMILY gear + tier overlay; gfdapi.Client polls IDUNA + Emily Prime every 10s.",
+  "id": 3508,
+  "metadata": null,
+  "recorded_at": "2026-06-24T10:35:49.501681615Z",
+  "run_id": "cli-20260624T103549Z",
+  "source_repo": "PITVIPER",
+  "title": "GFD SDL2 integration — PitViper --gfd TCP MUD mode, Channel 11 bar, webmaster mode, gfdapi live state polling"
+}

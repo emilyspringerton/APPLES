@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "signal_observation",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "severity: info\n\nsource: emily observe (CLI)",
+  "id": 513,
+  "metadata": null,
+  "recorded_at": "2026-06-14T17:32:43.524836998Z",
+  "run_id": "cli-obs-20260614T173243Z",
+  "source_repo": "CLI",
+  "title": "[INFO] emily-memory/ activated — AGI Gap 1 resolved. world-state.md (Tier 1 golden doc): all prod…"
+}

@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "New api_memory.go: handleMemoryUpdate() patches named sections in emily-memory/world-state.md. Accepts {section, content} JSON body. Finds ### SECTION_NAME header, replaces content until next ### or ## heading. Registered in main.go mux. Emily Prime can now self-update world-state.md via HTTP after major milestones — makes her self-describing and self-updating across cold restarts.",
+  "id": 524,
+  "metadata": null,
+  "recorded_at": "2026-06-15T20:03:40.791350753Z",
+  "run_id": "cli-20260615T200340Z",
+  "source_repo": "EMILY",
+  "title": "S27-06: POST /api/v1/emily/memory/update endpoint live"
+}

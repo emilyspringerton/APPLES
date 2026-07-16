@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "mailchimp-waitlist.php added to edis-ask-emily. Overrides /wp-json/edis/v1/waitlist at rest_api_init priority 20. Mailchimp API v3 PUT upsert (safe re-subscribe), auto-detects data center from key suffix, tag support, falls back to wp_options when not configured. Admin settings fields. Config via EDIS_MAILCHIMP_API_KEY + LIST_ID + TAG. EDIS commit 22b7de5. Apple #478.",
+  "id": 478,
+  "metadata": null,
+  "recorded_at": "2026-06-14T01:37:27.81312548Z",
+  "run_id": "cli-20260614T013727Z",
+  "source_repo": "CLI",
+  "title": "S23-05: Mailchimp waitlist integration — EDIS edis-ask-emily plugin"
+}

@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "handlers.UserEventStreamHandler polls FileEventLog every 2s, streams records as text/event-stream. JWT-gated. from_seq + timeout query params. Escalation Apple on error events. OpenAPI 3.1 spec updated. IDUNA main.go wired.",
+  "id": 1884,
+  "metadata": null,
+  "recorded_at": "2026-06-20T00:44:35.480769388Z",
+  "run_id": "cli-20260620T004435Z",
+  "source_repo": "IDUNA",
+  "title": "S44-06: GET /api/v1/stream/user-events SSE endpoint for distributed Emily / Colab"
+}

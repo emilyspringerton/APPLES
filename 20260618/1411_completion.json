@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "CHANGELOG updated in SHANKPIT: feat(server): S40-01 WorldBackend seam wired — SceneVoxelPayload(sceneID,chunkX,chunkZ) in interface + VoxelBlock type; sendVoxelPacket routes through backend, falls back to procedural; StaticBackend unchanged (Apple #1410)",
+  "id": 1411,
+  "metadata": null,
+  "recorded_at": "2026-06-18T12:19:55.445616049Z",
+  "run_id": "changelog-1781785195",
+  "source_repo": "SHANKPIT",
+  "title": "changelog(SHANKPIT): feat(server): S40-01 WorldBackend seam wired — SceneVoxel…"
+}

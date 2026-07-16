@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "resolveSpellTarget(p, targetName) finds party members in same zone. cure/cure2/protect/shell/haste/regen/refresh all accept optional player target. Caster sees 'Cure on Alice: +100 HP', target receives notification. All tests green.",
+  "id": 3265,
+  "metadata": null,
+  "recorded_at": "2026-06-23T20:49:13.690964564Z",
+  "run_id": "cli-20260623T204913Z",
+  "source_repo": "GoblinFoxDragon",
+  "title": "S112-01: Party-targeted WHM spells — cast \u003cspell\u003e \u003cplayer\u003e"
+}

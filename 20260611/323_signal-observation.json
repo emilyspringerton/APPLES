@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "signal_observation",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "severity: info\n\nsource: emily observe (CLI)",
+  "id": 323,
+  "metadata": null,
+  "recorded_at": "2026-06-11T00:54:40.000896177Z",
+  "run_id": "cli-obs-20260611T005439Z",
+  "source_repo": "CLI",
+  "title": "[INFO] emily os mobility edition bare metal exokernel ISO2424242"
+}

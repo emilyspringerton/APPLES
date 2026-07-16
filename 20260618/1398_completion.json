@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "S38-06: phys_respawn now zeros accumulated_reward after evolve_bot so each life competes on its own merit — previously oldest bot always won selection. S38-07: katana_apply_damage now sets target-\u003ehit_feedback=15 on every damage application so w_repel fires on incoming hits (evasion) not just outgoing hits (attacker confirmation).",
+  "id": 1398,
+  "metadata": null,
+  "recorded_at": "2026-06-18T12:10:38.298513707Z",
+  "run_id": "cli-20260618T121038Z",
+  "source_repo": "SHANKPIT",
+  "title": "S38-06+07: evolution reward reset + hit_feedback defender fix"
+}

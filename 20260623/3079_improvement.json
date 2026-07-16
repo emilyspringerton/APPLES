@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "improvement",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "Wire server/worldcrisis.Crisis into apps2/mud. Crisis auto-starts on first login. 1Hz loop ticks phases and broadcasts banners. crisis command shows phase/LEY/objectives. NM kills (nm-* prefix) → ObjectiveIntercept +10 LEY. Successful mine → ObjectiveRitual +5 LEY. crisis-ley \u003cn\u003e GMcommand.",
+  "id": 3079,
+  "metadata": null,
+  "recorded_at": "2026-06-23T10:55:40.515224492Z",
+  "run_id": "cli-20260623T105540Z",
+  "source_repo": "GoblinFoxDragon",
+  "title": "S95-01: MUD World Crisis — server/worldcrisis wired, crisis command, phase broadcast, objective contributions"
+}

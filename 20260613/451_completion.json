@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "Commit 8008bac on PRRJECT_FATBABY main.\n\nWHAT WAS BUILT:\n- /v1/press-releases/{ticker}: new signalapi endpoint backed by in-memory docindex.Index filtered to SourceType==press_release. Returns identity, document_url, snippet (800-char BodyPreview), filing_date, persisted_at. DocIndex wired into signalapi main via Build+Tail alongside signalindex.\n- source_published_at tracking: processor now stamps signal.RawMetadata[source_published_at] from FilingDiscoveredEvent.FilingDate before appending signal_generated event. Migration 202606130001 adds DATE NULL column + idx_ticker_pub_date to governance_signals. Projector populates with fallback chain: RawMetadata source_published_at → filing_date → sig.Timestamp.\n- Signal API → MySQL: /v1/signals/{ticker} routes to handleSignalsByTickerMySQL when cfg.MySQL != nil. Returns from governance_signals ordered by COALESCE(source_published_at, filing_date) DESC. GovernanceSignalRow gains source_published_at field. /v1/governance-signals updated to same ordering.\n- internal/store SQLite fallback: mysqlToSQLite() regex translator handles all FatBaby DDL patterns incl. ALTER TABLE IF NOT EXISTS / ADD INDEX IF NOT EXISTS. signalapi auto-opens var/signalapi.db when MYSQL_URL unset — zero-ops local dev.\n- cmd/bob-agent: FatBaby DB admin agent modelled on IDUNA bob-agent. Tools: db_status, migrate_status/run/run_one, schema_tables, schema_describe, db_row_counts, db_query, projector_status (cursor + null source_published_at count), signal_sample. Emily agent protocol /task endpoint + autonomous /tick health sweep. Listens :8085, requires MYSQL_DSN + ANTHROPIC_API_KEY.",
+  "id": 451,
+  "metadata": null,
+  "recorded_at": "2026-06-13T20:30:31.915840398Z",
+  "run_id": "cli-20260613T203031Z",
+  "source_repo": "CLI",
+  "title": "PRRJECT_FATBABY: press releases endpoint + source_published_at + MySQL signal API + SQLite store + bob-agent"
+}

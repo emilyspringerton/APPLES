@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "server/job/subjob.go; CharJob{Main,Sub,MainLvl,SubLvl}; EffectiveSubLevel=SubLvl/2; CombinedStats main+sub at half level; ErrSameJob",
+  "id": 2925,
+  "metadata": null,
+  "recorded_at": "2026-06-23T03:03:09.001112261Z",
+  "run_id": "cli-20260623T030308Z",
+  "source_repo": "GoblinFoxDragon",
+  "title": "S82-02: Sub-job system — CharJob.EffectiveSubLevel (floor halved), CombinedStats, ErrSameJob, 10 tests"
+}

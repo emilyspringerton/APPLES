@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "cmd/emilyos/main.go: 'emilyos audit bundle [outpath]' produces tar.gz with audit.jsonl + policy-snapshot.json + manifest.json (SHA-256 per file, chain_ok, build info). Default: soc2-evidence.tar.gz. Exit 3 on chain failure. Completes Milestone 5 core requirement.",
+  "id": 2354,
+  "metadata": null,
+  "recorded_at": "2026-06-21T11:47:39.90068876Z",
+  "run_id": "cli-20260621T114739Z",
+  "source_repo": "EmilyOS",
+  "title": "S50-02: emilyos audit bundle — tar.gz SOC 2 evidence bundle (Milestone 5 partial)"
+}

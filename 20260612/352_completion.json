@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "Server-side matchmaker: connecting players placed in DM warm-up (SCENE_DUST_COMPOUND) instantly; CTF queue fires when 2+ players share MODE_CTF → all moved to SCENE_STADIUM via PacketSceneChange. sendWelcome extended to 13 bytes (sceneID + gameMode); sendSceneChange extended to 15 bytes. Client: FIND CTF as default join action, PacketSceneChange handler in net_tick, animated SEARCHING FOR CTF HUD banner, live CTF score header on match. Commit b37b883.",
+  "id": 352,
+  "metadata": null,
+  "recorded_at": "2026-06-12T01:20:55.65897596Z",
+  "run_id": "cli-20260612T012055Z",
+  "source_repo": "SHANKPIT",
+  "title": "Lobby: CTF matchmaker + DM warm-up"
+}

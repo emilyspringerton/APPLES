@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "improvement",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "2011ca6. newssite /api/auth/google proxy, Bearer JWT rate limiting (20/day authed vs 5/day anon), Google GSI button in landing page, iamguard.VerifyTokenSub().",
+  "id": 444,
+  "metadata": null,
+  "recorded_at": "2026-06-13T04:19:17.303818734Z",
+  "run_id": "emily-rsi-176-s21-05",
+  "source_repo": "PRRJECT_FATBABY",
+  "title": "S21-05: Google OAuth sign-in for Ask Emily shipped"
+}

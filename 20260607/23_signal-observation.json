@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "signal_observation",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "severity: info\ntimestamp: 2026-05-30T21:53:49Z\n\nfindings:\nThe newssite at :8082 currently renders only raw SEC filings and press releases sourced from var/secwatch and var/prwatch. It has no mechanism for ingesting manually or programmatically authored content.\n\nThe vision: Emily (the ops/signal agent) should be able to publish narrative governance articles directly to the newssite, sitting alongside raw filings. Examples of content this would enable:\n\n1. Signal commentary — e.g. \"AAPL 2019: Al Gore and Andrea Jung trail the board with 95.5-95.9% approval — here's what that means\"\n2. Auto-triggered alerts — whenever entity-graph fires a high/critical signal, Emily auto-generates a plain-English article explaining it\n3. Cross-ticker summaries — e.g. \"WFC has 100 activist 13D filings — governance health snapshot\"\n4. EPS reconciliation narratives — \n\nsuggested_fix:\nAdd a lightweight ingest endpoint to the newssite process. Two options in order of preference:\n\nOption A — Synthetic event injector (minimal change):\n- Emily writes a synthetic source_document_persisted event directly into var/secwatch as a .json file with a special source field (e.g. source: \\\"emily\\\")\n- Newssite already watches var/secwatch — it picks it up automatically and renders it with an \\",
+  "id": 23,
+  "metadata": null,
+  "recorded_at": "2026-06-07T02:38:02.708841714Z",
+  "run_id": "20260530T215349Z",
+  "source_repo": "PRRJECT_FATBABY",
+  "title": "FatBaby obs [info]: Feature request: newssite ingest endpoint for Emily-authored governance commenta"
+}

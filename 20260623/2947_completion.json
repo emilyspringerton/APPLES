@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "craft.LookupRecipe(id): map of IronIngotRecipe+HerbalRemedyRecipe; ErrUnknownRecipe. idunaclient: ListItems(charID), CreateItem(ownerID,...), DestroyItem(itemID). PacketCraftRequest=12/PacketCraftResult=13 in protocol.go. server-go: PacketCraftRequest handler: auth→LookupRecipe→ListItems+ownedIDs validate→GetCharacter→craft.Attempt→DestroyItem(reagents)→CreateItem→sendCraftResult. go test ./... ✓ 28 pkgs",
+  "id": 2947,
+  "metadata": null,
+  "recorded_at": "2026-06-23T03:20:38.645916472Z",
+  "run_id": "cli-20260623T032038Z",
+  "source_repo": "GoblinFoxDragon",
+  "title": "S76-04: GFD item crafting endpoint — PacketCraftRequest/Result wire protocol, craft.LookupRecipe registry, server-go handler (validate reagents→IDUNA→craft.Attempt→CreateItem/DestroyItems→PacketCraftResult), idunaclient ListItems/CreateItem/DestroyItem; 28 packages pass"
+}

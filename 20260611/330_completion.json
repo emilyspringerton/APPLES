@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "emily status --fatbaby now lists all PRRJECT_FATBABY service states. emily obs amend added for in-place observation corrections. TUI stopped guard, emily-agent + TUI PID checks in collectProcesses, systemctl 2s D-Bus timeout. Committed emily.cli 8e0d1be.",
+  "id": 330,
+  "metadata": null,
+  "recorded_at": "2026-06-11T06:10:42.585903279Z",
+  "run_id": "cli-rsi-20260611T061042Z",
+  "source_repo": "EMILY",
+  "title": "S6: emily status --fatbaby + obs amend + TUI/process fixes"
+}

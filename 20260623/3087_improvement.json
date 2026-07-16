@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "improvement",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "idunaclient.New() wired into world. CharCache (var/mud-chars.json) maps name→character_id across sessions. Login: GetCharacter(cachedID) or CreateCharacter; restores level/xp/gil. Disconnect: UpdateCharacterLevel + UpdatePosition. CreateCharacter/UpdateCharacterLevel added to idunaclient package.",
+  "id": 3087,
+  "metadata": null,
+  "recorded_at": "2026-06-23T11:01:57.955955412Z",
+  "run_id": "cli-20260623T110157Z",
+  "source_repo": "GoblinFoxDragon",
+  "title": "S98-01/02: MUD IDUNA character persistence — fetch-or-create on login, save on disconnect"
+}

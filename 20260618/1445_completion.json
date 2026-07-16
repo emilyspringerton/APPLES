@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "internal/userlog/: FileEventLog (FatBaby NDJSON pattern), UserProjector interface, SQLiteProjector, MySQLProjector. SeedWebmaster reads var/webmaster.json. LocalAuthHandler: POST /api/v1/auth/local. UsersHandler: full CRUD /api/v1/users. middleware: PermissionsFromContext added. Migration 202606180001_local_users.sql. bcrypt via golang.org/x/crypto. All tests green.",
+  "id": 1445,
+  "metadata": null,
+  "recorded_at": "2026-06-18T13:22:10.902888745Z",
+  "run_id": "cli-20260618T132210Z",
+  "source_repo": "IDUNA",
+  "title": "webmaster uid=0 + user CRUD + event log + SQLite/MySQL projectors"
+}

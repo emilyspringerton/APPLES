@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "improvement",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "bank deposit/withdraw/balance commands with bankBySlot map. Random weather per zone every 60s (10% chance, Clear/Cloudy/Rain/Thunder/Fog) with zone broadcast. survey command shows players in zone with direction (N/S/E/W from relative pos) and HP bar for party members.",
+  "id": 3103,
+  "metadata": null,
+  "recorded_at": "2026-06-23T11:23:02.034319997Z",
+  "run_id": "cli-20260623T112302Z",
+  "source_repo": "GoblinFoxDragon",
+  "title": "S101-01/02/03: MUD bank/weather events/survey commands"
+}

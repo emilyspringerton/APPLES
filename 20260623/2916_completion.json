@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "server/mob/aggro.go; AggroType{Sight,Sound,JobDetect}; StatusFlags{Invisible,Sneak}; Detects/DetectsDefault with sight half-cone, sound radius; Invisible blocks Sight, Sneak blocks Sound, JobDetect not blockable; AggroSight/AggroSound/AggroSightSound/AggroJob/AggroPassive presets",
+  "id": 2916,
+  "metadata": null,
+  "recorded_at": "2026-06-23T02:53:27.957660614Z",
+  "run_id": "cli-20260623T025327Z",
+  "source_repo": "GoblinFoxDragon",
+  "title": "S87-03: NM aggro types — AggroType.Detects, sight cone, sound radius, job detect, Sneak/Invisible blocking, 16 tests"
+}

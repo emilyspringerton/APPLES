@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "improvement",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "server/weather: Engine{phase,phaseEnds,rng} with 4 phases (Clear/Overcast/Rain/Storm), duration ranges 1-12min, Modifiers{MobDamageBonus,BSTTameBonus}. ForcePhase for GM/testing. 12 tests. apps2/mud: weatherEngine replaces ad-hoc random system. Phase change broadcast to all players with modifier summary. 'weather' command shows current phase+modifiers. BST tame applies Storm +10% bonus. Prompt shows weather phase when non-Clear.",
+  "id": 3240,
+  "metadata": null,
+  "recorded_at": "2026-06-23T20:17:25.248585291Z",
+  "run_id": "cli-20260623T201725Z",
+  "source_repo": "GoblinFoxDragon",
+  "title": "S105-03+04: Weather engine — Phase/Engine/Mods + MUD wiring (broadcast, BST bonus, prompt)"
+}

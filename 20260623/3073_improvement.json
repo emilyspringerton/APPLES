@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "improvement",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "Wire server/telecrystal into apps2/mud. crystals lists in-scene crystals with distance. travel \u003cid\u003e validates range+gil, deducts cost, teleports player. touch activates nearest crystal and shows ID. Zone transfer uses same zone-change path.",
+  "id": 3073,
+  "metadata": null,
+  "recorded_at": "2026-06-23T10:46:57.225935599Z",
+  "run_id": "cli-20260623T104657Z",
+  "source_repo": "GoblinFoxDragon",
+  "title": "S94-01: MUD telecrystal fast travel — server/telecrystal Registry, crystals/travel/touch commands"
+}

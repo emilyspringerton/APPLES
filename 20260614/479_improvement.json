@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "improvement",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "watchdog.go added to emily-agent: pings IDUNA(:8080), newssite(:8082), signalapi(:9091), emily-agent(:8086) each RunOnce cycle. Escalation Apple fires when service down \u003e= 2 min. checkLogSizes alerts when any *.log exceeds 500 MB. WatchdogState persisted across cycles. logrotate already configured in PRRJECT_FATBABY/ops/logrotate/fatbaby (daily 14d 500M). EMILY commit 6a9b4a4.",
+  "id": 479,
+  "metadata": null,
+  "recorded_at": "2026-06-14T01:45:14.158822094Z",
+  "run_id": "s24-03-watchdog",
+  "source_repo": "EMILY",
+  "title": "S24-03: Service health watchdog complete"
+}

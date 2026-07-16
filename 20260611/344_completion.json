@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "Closed 4 instrumentation gaps in EMILY (Section 3 backlog): RSI act-phase errors, prime-triage warnings, prime-triage FCM send failures, HEIMDAL haiku translate failures now all post Apples. Commit 8ea558a EMILY.",
+  "id": 344,
+  "metadata": null,
+  "recorded_at": "2026-06-11T10:28:38.738384458Z",
+  "run_id": "cli-20260611T102838Z",
+  "source_repo": "CLI",
+  "title": "Apple instrumentation audit — act errors, triage warns, FCM failures, haiku failures"
+}

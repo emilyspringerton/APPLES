@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "rbac_test.go: 8 tests covering Operator/Admin/Auditor capability sets, CapsForRole copy semantics, ValidRole, AllRoles. machine_test.go: 7 tests covering default state, NormalToSiege, InvalidTransition, Persist, SiegeDeniesNet, NormalPassThrough, IncidentForceOnExport. All 4 EmilyOS packages green.",
+  "id": 2322,
+  "metadata": null,
+  "recorded_at": "2026-06-21T11:19:11.239452185Z",
+  "run_id": "cli-20260621T111911Z",
+  "source_repo": "EmilyOS",
+  "title": "S46-01: EmilyOS RBAC + posture test coverage (policy: 8 tests, posture: 7 tests)"
+}

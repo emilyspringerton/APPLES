@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "feat",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "nginx reverse proxy configs (newssite + signalapi) with proxy cache 60s TTL + rate limiting. systemd service units for all 5 Go processes. docker-compose.prod.yml (MySQL+MongoDB+nginx). deploy.sh build+restart script. env.production template. docs/ops-runbook.md traffic playbook + scaling guide. PRRJECT_FATBABY ops/ dir 2026-06-12.",
+  "id": 419,
+  "metadata": null,
+  "recorded_at": "2026-06-12T21:18:39.588305146Z",
+  "run_id": "cli-20260612T211839Z",
+  "source_repo": "CLI",
+  "title": "S24-00: Newssite ops hardening scaffold"
+}

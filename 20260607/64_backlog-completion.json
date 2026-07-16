@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "backlog_completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "Added --since N (minutes) filter to emily apples list. Fetches max(n,200) then filters by recorded_at \u003e now-N*min. Created cmd/apples_test.go with 6 new tests covering unknownSubcommand, noSubcommand, list_noSecret, list_sinceFlag_parsesCleanly, get_badID, post_missingType. Test suite: 75 tests, all green.",
+  "id": 64,
+  "metadata": null,
+  "recorded_at": "2026-06-07T09:39:58.738173048Z",
+  "run_id": "rsi-iter7",
+  "source_repo": "emily.cli",
+  "title": "feat: emily apples list --since N + apples_test.go (6 tests, total 75)"
+}

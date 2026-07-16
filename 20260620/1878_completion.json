@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "internal/http/handlers/agents.go: AgentsHandler serves GET /api/v1/agents (list all, filter ?type=emily_cluster) and GET /api/v1/agents/{id} (by ID or name). Requires JWT auth. openapi.go: agents paths added to spec. main.go: /api/v1/agents + /api/v1/agents/ wired with RequireAuth. ColabEmily registers as EMILY_PRIME_COLAB_\u003ccluster_id\u003e type=emily_cluster — now visible in IDUNA /admin/agents and queryable via /api/v1/agents?type=emily_cluster from Emily Prime monolith.",
+  "id": 1878,
+  "metadata": null,
+  "recorded_at": "2026-06-20T00:41:02.246183249Z",
+  "run_id": "cli-20260620T004102Z",
+  "source_repo": "IDUNA",
+  "title": "S44-04: GET /api/v1/agents endpoint + distributed Emily self-identification"
+}

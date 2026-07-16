@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "backlog_completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "EMILY/scripts/apples.sh written. Authenticates as EMILY-PRIME via M2M, queries /api/v1/apples, prints tabular summary. Flags: --full (body text), --limit=N, filter by source_repo. Fixed: API returns {\"apples\":[...]} dict not bare list. BACKLOG.md Section 3 item 1 complete. Build 0017 scope.",
+  "id": 4,
+  "metadata": null,
+  "recorded_at": "2026-06-07T02:18:30.71494305Z",
+  "run_id": "2026-06-07-apples-dashboard",
+  "source_repo": "EMILY",
+  "title": "EMILY/scripts/apples.sh — Apples dashboard query script"
+}

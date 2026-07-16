@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "vterm.go: CSI L (IL) inserts N blank lines at cursor row, shifts region down; CSI M (DL) deletes N lines at cursor row, shifts region up. TestCSIInsertDeleteLine: IL 4-row, DL 3-row. 30 vterm tests total.",
+  "id": 2398,
+  "metadata": null,
+  "recorded_at": "2026-06-21T12:23:17.27207008Z",
+  "run_id": "cli-20260621T122317Z",
+  "source_repo": "PITVIPER",
+  "title": "S63-01: PITVIPER CSI L/M (insert/delete line) + TestCSIInsertDeleteLine"
+}

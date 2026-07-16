@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "ipRateLimiter in internal/newssite/ratelimit.go. HTTP 429 paywall page with Emily+ upsell at 9/mo. X-Forwarded-For aware. 5 tests. Commit f10b35d. --json",
+  "id": 380,
+  "metadata": null,
+  "recorded_at": "2026-06-12T01:43:45.455513146Z",
+  "run_id": "cli-20260612T014345Z",
+  "source_repo": "PRRJECT_FATBABY",
+  "title": "GTM Phase 1 shipped: newssite free-tier rate limiting (10 queries/day)"
+}

@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "WorldBackend interface in server/system/backend.go: ResolvePortalDestination, OnPlayerEnterScene/Leave, SceneVoxelPayload. StaticBackend wraps existing routing table. main.go wired through backend. Spec at docs2/specs/WORLD_BACKEND_INTERFACE_SPEC.md. 3 new tests. Commit 1c72875. Enables Milestone 4 DragonflyBackend without touching game-server code. --json",
+  "id": 358,
+  "metadata": null,
+  "recorded_at": "2026-06-12T01:29:05.018853716Z",
+  "run_id": "cli-20260612T012905Z",
+  "source_repo": "SHANKPIT",
+  "title": "SHANKPIT Milestone 3: WorldBackend Go interface defined and wired"
+}

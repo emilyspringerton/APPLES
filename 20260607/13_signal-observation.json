@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "signal_observation",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "severity: warn\ntimestamp: 2026-05-31T20:43:15Z\n\nfindings:\n## Documentation Gap — Environment Variables Not Documented in README\n\nThe fatbaby pipeline requires a number of environment variables across its processes, but there is currently no single reference section in the README that lists them all. Operators and new contributors have to grep the source to discover what needs to be set.\n\n### Variables that need to be documented (at minimum)\n\n**SEC / EDGAR feed**\n- `EDGAR_USER_AGENT` — required by EDGAR fair-use policy (e.g. \"MyOrg contact@example.com\")\n- `SECWATCH_RPS` — optional, requests-per-second throttle (default 2, max recommended 5)\n\n**Press Release feed**\n- `PRWATCH_FEED_URL` — PR Newswire or equivalent RSS/API endpoint\n- `PRWATCH_POLL_INTERVAL` — optional polling interval\n\n**GitHub integration (new — see prior observation)**\n- `GITHUB_TO\n\nsuggested_fix:\n1. Audit all Go source files for os.Getenv() and os.LookupEnv() calls — extract every variable name.\n2. Add an \"Environment Variables\" section near the top of README.md with a markdown table covering each variable: name, required/optional, default value, and a one-line description.\n3. Update fatbaby_check_env to warn (not fail) for any optional variables that are unset, and hard-fail for required ",
+  "id": 13,
+  "metadata": null,
+  "recorded_at": "2026-06-07T02:30:31.126635271Z",
+  "run_id": "20260531T204315Z",
+  "source_repo": "PRRJECT_FATBABY",
+  "title": "FatBaby obs [warn]: All required and optional environment variables must be documented at the top of"
+}

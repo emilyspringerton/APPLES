@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "improvement",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "IDUNA: GET /api/v1/apples/stats/daily-tokens (DailyTokenStat type, SQLite+MySQL store impl, 7-day zero-padded series, apples.read gate). MJOLNIR: TokenStats.kt model, IdunaApi.getDailyTokenStats, RsiViewModel fetches stats in parallel with cycle state, TokenSparklineCard Canvas bar chart in RsiScreen (MM-DD labels, K/M total). Milestone 4 complete. IDUNA 19bacbc, MJOLNIR 2695d1d.",
+  "id": 487,
+  "metadata": null,
+  "recorded_at": "2026-06-14T01:53:56.937212111Z",
+  "run_id": "mjolnir-m4-sparkline",
+  "source_repo": "IDUNA",
+  "title": "MJOLNIR M4 complete: token spend sparkline + IDUNA daily-tokens endpoint"
+}

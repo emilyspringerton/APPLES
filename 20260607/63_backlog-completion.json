@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "backlog_completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "Added PROCESSES section to emily status (one-shot and --watch modes). Shows: observation-watcher running state (pgrep -f), emily-sync.service systemd state (systemctl --user is-active), and latest observation file path + age. 69 tests still green. Apple #51.",
+  "id": 63,
+  "metadata": null,
+  "recorded_at": "2026-06-07T09:38:22.227497638Z",
+  "run_id": "rsi-iter6",
+  "source_repo": "emily.cli",
+  "title": "feat: emily status — PROCESSES section (observation-watcher + emily-sync.service + latest obs)"
+}

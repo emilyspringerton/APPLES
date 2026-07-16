@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "server/mob/mob.go: Mob (Idle/Pursuing/Returning/Dead), Registry.Spawn/Hit/Tick/TickPlayer. Tag-on-first-hit (never stolen). Mob AI: idle proximity aggro, pursue+move, melee swing timer, leash+full-heal reset, return-to-home. Player auto-attack: PlayerCombat with swing timer, range/scene check, tag-on-first-hit. Events: EvtMobAggro/Attack/Reset/Died. 26 tests.",
+  "id": 2519,
+  "metadata": null,
+  "recorded_at": "2026-06-21T20:07:54.824147255Z",
+  "run_id": "cli-20260621T200754Z",
+  "source_repo": "GoblinFoxDragon",
+  "title": "S80-01: DragonsNShit auto-attack + mob tagging — Registry, AI state machine, 26 tests"
+}

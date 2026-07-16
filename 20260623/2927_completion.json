@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "server/merit/merit.go; MeritBank{Points,Tiers}; Earn(xp)→gained; Spend(category)→tier cost t+1; TotalSpent; MeritCap=30; ErrMeritCapReached/ErrTierCapped/ErrInsufficientMerits",
+  "id": 2927,
+  "metadata": null,
+  "recorded_at": "2026-06-23T03:03:09.04092957Z",
+  "run_id": "cli-20260623T030309Z",
+  "source_repo": "GoblinFoxDragon",
+  "title": "S83-02: Merit points — MeritBank.Earn (1000XP=1 merit), Spend (tier cost scales), cap=30, 13 tests"
+}

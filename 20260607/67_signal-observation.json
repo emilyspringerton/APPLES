@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "signal_observation",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "severity: info\n\nsource: emily observe (CLI)",
+  "id": 67,
+  "metadata": null,
+  "recorded_at": "2026-06-07T09:41:20.699913019Z",
+  "run_id": "cli-obs-20260607T094120Z",
+  "source_repo": "CLI",
+  "title": "[INFO] RSI session 4 complete (Iterations 6-8). emily.cli: PROCESSES panel (obs-watcher, emily-sync…"
+}

@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "registerResearchTool in research.go: SHA256 keyed, IDUNA cache check before fetch, multi-domain source list (supply_chain/ai/financial/general), HTML text extractor, research_log Apple filed with full provenance. Cache write async. S137-03: research_cache table in IDUNA + /api/v1/research/cache endpoints (GET/POST/DELETE). S137-04: research_log Apple type locked in research tool (Apple contract).",
+  "id": 4490,
+  "metadata": null,
+  "recorded_at": "2026-06-27T09:45:14.652701499Z",
+  "run_id": "cli-20260627T094514Z",
+  "source_repo": "EMILY",
+  "title": "S137-01/03/04: Research tool + IDUNA cache + Apple audit contract"
+}

@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "observation",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "gpt2_run --entropy-stats on both models. Base: H_mean=4.4877 H_max=8.6231. Fine-tuned (emily-ft.bin 300-step): H_mean=4.6602 H_max=8.6346. Delta: +0.17 nats. Target was ≥0.5 nats — not met. Colab T4 full fine-tune (S26-04) required. NORTHSTAR milestone 3 updated. RSI loop entropy source is functional; upgrade path clear.",
+  "id": 3093,
+  "metadata": null,
+  "recorded_at": "2026-06-23T11:13:21.180307835Z",
+  "run_id": "cli-20260623T111321Z",
+  "source_repo": "gpt2-alpine-c",
+  "title": "S26-05: Entropy validation — base H_mean=4.4877 vs fine-tuned H_mean=4.6602 (+0.17 nats)"
+}

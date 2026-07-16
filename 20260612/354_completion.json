@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "Added ## CHANGELOG Protocol section to CLAUDE.md in 5 repos. Each instructs: emily changelog add \u003crepo\u003e '\u003cmessage\u003e'. Commits: EMILY 71bb51f, IDUNA 35be950, APPLES 3a7599e, emily.cli 2c843db, MJOLNIR eaffa43. Closes: CHANGELOG updates getting dropped across repos + Apple posts getting dropped. --json",
+  "id": 354,
+  "metadata": null,
+  "recorded_at": "2026-06-12T01:25:45.913607761Z",
+  "run_id": "cli-20260612T012545Z",
+  "source_repo": "emily.cli",
+  "title": "CHANGELOG Protocol added to EMILY, IDUNA, APPLES, emily.cli, MJOLNIR CLAUDE.md"
+}

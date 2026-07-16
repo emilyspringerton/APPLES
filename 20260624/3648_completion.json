@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "2-second full-screen dark-bg splash on --gfd connect; gold Channel 11 logo + GOBLIN FOX DRAGON title + blinking CONNECTING...; SDL2 FillRect+renderBarText; pumps events during wait",
+  "id": 3648,
+  "metadata": null,
+  "recorded_at": "2026-06-24T18:02:14.093345968Z",
+  "run_id": "cli-20260624T180214Z",
+  "source_repo": "PITVIPER",
+  "title": "S127-02: Channel 11 splash screen"
+}

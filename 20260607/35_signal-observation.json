@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "signal_observation",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "severity: error\ntimestamp: 2026-05-30T09:42:55Z\n\nfindings:\nThe eps-processor is consuming press releases from prwatch-body but producing zero output. Root cause identified:\n\nSYMPTOMS:\n- pr_discovered: 24\n- pr_body_fetched: 24 (0 failures — bodies are flowing correctly)\n- articles_published: 0\n- oracle_total: 0 (pending/confirmed/contradicts all zero)\n- eps-processor is not currently running (last log line: \"shutting down\")\n\nROOT CAUSE:\neps-processor logs show \"ticker map loaded: 2 entries\" repeating on every poll cycle. With only 2 tickers in the map, virtually every press release fails the ticker lookup and is silently dropped — no article is written, no oracle case is created.\n\nPress releases seen in prwatch-body logs include companies like CLPS, BioArctic, Canoo, Sena — none of which match the 2-entry map.\n\nIMPACT:\n- EPS headline feed is comple\n\nsuggested_fix:\n1. Locate the ticker map source file used by eps-processor (likely config/tickers.json or similar). Verify it contains the full watchlist — it should have hundreds of entries, not 2.\n2. If the file is correct but the loader is broken: check internal/eps/processor.go (or equivalent) for the ticker map loading logic — it may be reading from a hardcoded test path or failing silently on a parse error ",
+  "id": 35,
+  "metadata": null,
+  "recorded_at": "2026-06-07T02:38:03.765398728Z",
+  "run_id": "20260530T094255Z",
+  "source_repo": "PRRJECT_FATBABY",
+  "title": "FatBaby obs [error]: eps-processor ticker map has only 2 entries — all press releases are being drop"
+}

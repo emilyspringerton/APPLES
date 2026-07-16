@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "signal_observation",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "severity: info\ntimestamp: 2026-06-04T10:00:00Z\n\nfindings:\nRSI cycle 2026-06-04 (second iteration) complete.\n\n1. ParseItem502 in entitygraph/parser.go: extracts leadership departures/appointments from 8-K Item 5.02 text. Resignation/retirement/termination detection, role extraction (CEO/CFO/COO/General Counsel/Chairman/Director/President etc), person name heuristic. Wired into cmd/entity-graph main loop alongside existing 507 path — zero new infrastructure required.\n\n2. ScoreLeadershipChange: leadership_departure (medium/high based on voluntary vs termination) + cfo_departure elevated signal (high severity, 0.82 confidence). CFO departures added to governance health penalty map at -0.18 (highest single-event penalty after nomination_rejection).\n\n3. internal/dividend + cmd/dividend-watcher: reads pr_body_fetched events from prwatch-body, classifies",
+  "id": 6,
+  "metadata": null,
+  "recorded_at": "2026-06-07T02:30:30.520053362Z",
+  "run_id": "20260604T100000Z",
+  "source_repo": "PRRJECT_FATBABY",
+  "title": "FatBaby obs [info]: RSI: Item 5.02 leadership parser + dividend-watcher — 5 new signal types, datase"
+}

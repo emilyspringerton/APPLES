@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "POST /api/commentary exists in newssite handler.go; commentary.Store wired via --commentary-dir. FatBaby emily-agent has fatbaby_publish_commentary tool. Item was already complete — closing.",
+  "id": 348,
+  "metadata": null,
+  "recorded_at": "2026-06-11T10:37:41.261392549Z",
+  "run_id": "cli-20260611T103741Z",
+  "source_repo": "CLI",
+  "title": "Newssite commentary ingest endpoint — already implemented"
+}

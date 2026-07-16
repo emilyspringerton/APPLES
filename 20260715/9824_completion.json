@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:07Z",
+  "backfilled": true,
+  "body": "--all no longer bundles shank_go_server (was silently launching a live game server); RunStart now returns 1 on any child failure; observation-watcher pgrep pattern tightened to avoid matching tail -f of its own log; entity-graph/eps-reconciler/eps-processor gained proper emily start integration with pgrep idempotency. Commit 2b33360. Found during pre-reboot hardening audit.",
+  "id": 9824,
+  "metadata": null,
+  "recorded_at": "2026-07-15T17:30:09.949698592Z",
+  "run_id": "cli-20260715T173009Z",
+  "source_repo": "emily.cli",
+  "title": "emily start: fix --all/shankpit gating, silent exit-0 on failure, pgrep over-match; add entity-graph/eps-reconciler/eps-processor coverage"
+}

@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "internal/mongowriter upserts EntityDocument per ticker from Graph+signals. entity-graph --mongo-url flag. Graceful degradation. Commit 8665179.",
+  "id": 412,
+  "metadata": null,
+  "recorded_at": "2026-06-12T20:41:00.747672109Z",
+  "run_id": "cli-20260612T204100Z",
+  "source_repo": "PRRJECT_FATBABY",
+  "title": "S20-04: MongoDB entity writer"
+}

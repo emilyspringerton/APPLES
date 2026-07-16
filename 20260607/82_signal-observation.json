@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "signal_observation",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "severity: info\n\nsource: emily observe (CLI)",
+  "id": 82,
+  "metadata": null,
+  "recorded_at": "2026-06-07T22:53:25.626320565Z",
+  "run_id": "cli-obs-20260607T225325Z",
+  "source_repo": "CLI",
+  "title": "[INFO] fosho the bug with the emily.cli tui hang still exists even if we hit q to exit gracefully (…"
+}

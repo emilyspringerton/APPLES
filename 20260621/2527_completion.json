@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "server/skillchain/skillchain.go: 14 Resonances (8 tier1 + 4 tier2 + Light/Darkness). combinationTable (23 entries). Chain(ws1Attrs, ws2Attrs, elapsed, window) → highest-tier match. Tier multipliers: 0.20/0.35/0.50. Magic Burst: CanBurst()/Burst()/BurstElements(); tier1=1 elem, tier2=2 elems, tier3=4 elems; 8s chain window, 15s burst window. 19 CanonicalWeaponSkills. End-to-end: Distortion+Ice, Light+Fire/Lightning. 31 tests.",
+  "id": 2527,
+  "metadata": null,
+  "recorded_at": "2026-06-21T20:35:42.49129163Z",
+  "run_id": "cli-20260621T203542Z",
+  "source_repo": "GoblinFoxDragon",
+  "title": "S81-01+S81-02: Skillchain + Magic Burst — 14 resonances, 3 tiers, 31 tests"
+}

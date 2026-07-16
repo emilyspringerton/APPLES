@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "signal_observation",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "severity: info\n\nsource: emily observe (CLI)",
+  "id": 318,
+  "metadata": null,
+  "recorded_at": "2026-06-11T00:00:18.453398898Z",
+  "run_id": "cli-obs-20260611T000018Z",
+  "source_repo": "CLI",
+  "title": "[INFO] EmilyOS Debian first or Arch? we want to have our own BAZEL or BAZEL equivalent soc2 softwar…"
+}

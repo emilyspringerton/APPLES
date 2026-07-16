@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "CHANGELOG updated in IDUNA: feat: S76-03 PATCH /api/v1/characters/:id/gold — atomic conditional gold deduction; 409 on insufficient balance",
+  "id": 2946,
+  "metadata": null,
+  "recorded_at": "2026-06-23T03:17:41.68278666Z",
+  "run_id": "changelog-1782184661",
+  "source_repo": "IDUNA",
+  "title": "changelog(IDUNA): feat: S76-03 PATCH /api/v1/characters/:id/gold — atomic c…"
+}

@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "CHANGELOG updated in SHANKPIT: fix(evolution): S38-06 reset accumulated_reward after evolve_bot so per-life selection works; S38-07 set target-\u003ehit_feedback=15 in katana_apply_damage so w_repel fires on incoming damage not outgoing (Apple #1398)",
+  "id": 1399,
+  "metadata": null,
+  "recorded_at": "2026-06-18T12:10:42.434273143Z",
+  "run_id": "changelog-1781784642",
+  "source_repo": "SHANKPIT",
+  "title": "changelog(SHANKPIT): fix(evolution): S38-06 reset accumulated_reward after evolv…"
+}

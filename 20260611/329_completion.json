@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "Fixed (1) systemctl --user hang on fresh boot → context.WithTimeout(2s), D-Bus timeout note; (2) goroutine QueueUpdateDraw race on quit → tuiLogger.stopped guard, ticker.Stop()+setStopped() before app.Stop(); (3) emily-agent missing from process list. emily.cli commit 807318d.",
+  "id": 329,
+  "metadata": null,
+  "recorded_at": "2026-06-11T02:40:22.315352716Z",
+  "run_id": "cli-20260611T024022Z",
+  "source_repo": "emily.cli",
+  "title": "TUI: quit hang + process list fix on clean reboot (S6 done 2026-06-11)"
+}

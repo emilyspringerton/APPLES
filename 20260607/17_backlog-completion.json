@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "backlog_completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "start-emily-agent.sh created. Sources IDUNA credentials, exports IDUNA_BASE_URL/AGENT_NAME/AGENT_SECRET, launches emily-agent. cron.go PostApple fires when IdunaClient is non-nil. Existing running process (PID 1080929, since May30) needs restart using this script to enable Apple submission. BACKLOG.md Section 1 item 5 complete.",
+  "id": 17,
+  "metadata": null,
+  "recorded_at": "2026-06-07T02:32:55.731759171Z",
+  "run_id": "2026-06-07-emily-iduna-wire",
+  "source_repo": "EMILY",
+  "title": "EMILY/scripts/start-emily-agent.sh — EMILY RSI → IDUNA launch script"
+}

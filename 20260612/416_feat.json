@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "feat",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "GET /ask renders landing page with demo form, pricing tiers (Free//bin/bash + Emily+/9), and email waitlist. POST /api/waitlist appends to var/waitlist.txt. commit 7816d46 PRRJECT_FATBABY",
+  "id": 416,
+  "metadata": null,
+  "recorded_at": "2026-06-12T20:56:31.513677515Z",
+  "run_id": "cli-20260612T205631Z",
+  "source_repo": "CLI",
+  "title": "S21-06: Ask Emily landing page + waitlist capture"
+}

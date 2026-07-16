@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "Wire server/conquest into apps2/mud. conquest/declare commands, kill-based point accrual for declared nation, 1-min compressed weekly tick with zone-wide broadcast. DefaultRegions mapped to GFD zone IDs.",
+  "id": 3051,
+  "metadata": null,
+  "recorded_at": "2026-06-23T10:11:00.38217208Z",
+  "run_id": "cli-20260623T101100Z",
+  "source_repo": "GoblinFoxDragon",
+  "title": "S90-02: MUD conquest system"
+}

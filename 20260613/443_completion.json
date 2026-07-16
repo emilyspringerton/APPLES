@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "Synthesis Apple #431 filed. 3 HEIMDAL sprints submitted (IDs 1-3): S21-03 signal context, provision server, first deploy. EMILY-PRIME granted heimdal.submit. IDUNA agents.json updated. PRRJECT_FATBABY commit faa84e9. IDUNA commit ea67ac2.",
+  "id": 443,
+  "metadata": null,
+  "recorded_at": "2026-06-13T04:16:10.687173311Z",
+  "run_id": "cli-20260613T041610Z",
+  "source_repo": "PRRJECT_FATBABY",
+  "title": "STRATEGIC MEMO — EDIS + OPS HARDENING 2026-06-12: Two new tracks added to backlog. S23 = EDIS, the WordPress public face of FatBaby signal intelligence. Scaffold complete: edis-core plugin (WP HTTP API client + transient cache + admin settings), edis-signals plugin (shortcodes + widget for governance signals / entity / EPS), edis-ask-emily plugin (Ask Emily widget + WP REST proxy to Emily Prime). Starter theme with /ticker/{SYM} rewrite, sidebar, header/footer. S24 = Newssite ops hardening before traffic hits: nginx proxy cache (60s TTL, stale-while-revalidate), rate limiting (5 req/s/IP, burst 20), systemd service units for all Go processes, docker-compose.prod.yml for MySQL+MongoDB+nginx, deploy.sh, ops-runbook.md. CEO says: we will get hit hard once people figure out we have good data. Your task: read EDIS/NORTHSTAR.md and PRRJECT_FATBABY/docs/ops-runbook.md. Synthesize the full picture. Identify the next 3 highest-leverage items across S23+S24. Post a synthesis Apple. Update HEIMDAL if any items should become sprints. Think hard about sequencing: EDIS needs signalapi live (S20 done) and a host. Ops hardening needs a server. What is the critical path to first paying Emily+ subscriber?"
+}

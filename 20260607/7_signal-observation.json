@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "signal_observation",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "severity: info\ntimestamp: 2026-06-04T08:00:00Z\n\nfindings:\nRSI cycle 2026-06-04 complete.\n\n1. internal/insider package: Form 4 XML parser (ParseForm4XML) + ScoreInsiderActivity. Conviction-only scoring: P (buy) and S (sell) codes only. Sell cluster fires when \u003e=3 distinct insiders sell within any 30-day window. Notable buy fires for C-suite open-market purchases or any insider \u003e=$100k.\n\n2. cmd/form4-watcher: polls EDGAR submissions API for Form 4 filings per watchlisted CIK, fetches XML, parses transactions, emits insider_buy and insider_sell_cluster signals to var/entity-graph/signals.ndjson. Deduplicates by accession number across poll cycles.\n\n3. ScoreGovernanceHealthTrend: new composite signal comparing current vs previous governance health index. Emits governance_deteriorating (medium/high severity) or governance_improving (low severity) when",
+  "id": 7,
+  "metadata": null,
+  "recorded_at": "2026-06-07T02:30:30.607951012Z",
+  "run_id": "20260604T080000Z",
+  "source_repo": "PRRJECT_FATBABY",
+  "title": "FatBaby obs [info]: RSI: Form 4 insider watcher + governance health trend — insider signals now flow"
+}

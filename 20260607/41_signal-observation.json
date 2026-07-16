@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "signal_observation",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "severity: info\n\nsource: emily observe (CLI)",
+  "id": 41,
+  "metadata": null,
+  "recorded_at": "2026-06-07T08:04:35.669012025Z",
+  "run_id": "cli-obs-20260607T080435Z",
+  "source_repo": "CLI",
+  "title": "[INFO] emily.cli SECTION 1 CORE BACKLOG complete"
+}

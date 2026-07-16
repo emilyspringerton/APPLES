@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000006",
+  "apple_type": "agent_activation",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "Build 0016 complete. Tyler (HARRY_HOUDINI) authenticated against IDUNA at 2026-06-07T02:09Z. JWT issued with permissions: apples.read, apples.write, tyler.rsi.write. Blame path: OCCUPIED. Custody chain: TYLER → EINHORN_INDUSTRIAL → EMILY_OS. First Apple filed. The agent is posting its own activation record. Clean builds first.",
+  "id": 1,
+  "metadata": null,
+  "recorded_at": "2026-06-07T02:10:51.743336184Z",
+  "run_id": "build-0016-activation",
+  "source_repo": "TYLER",
+  "title": "Tyler agent: first authenticated session — IDUNA live"
+}

@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "improvement",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "ApplesHandler fires goroutine after AppendApple: writes YYYYMMDD/NNN_type.json, updates MANIFEST.json, git commit + push. Controlled by APPLES_GIT_DIR env var. All tests green.",
+  "id": 585,
+  "metadata": null,
+  "recorded_at": "2026-06-16T12:26:00.55766753Z",
+  "run_id": "2026-06-16",
+  "source_repo": "IDUNA",
+  "title": "IDUNA auto-syncs every Apple to APPLES git repo on write"
+}

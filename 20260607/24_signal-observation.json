@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "signal_observation",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "severity: error\ntimestamp: 2026-05-30T21:45:32Z\n\nfindings:\nsecwatch has failed to ingest any filings for BAC, C, GS, JPM, and MS across every poll round today (10+ rounds observed). All 5 fail consistently with the same error: \"unexpected end of JSON input\" when fetching from EDGAR's submissions endpoint (https://data.sec.gov/submissions/CIK{n}.json).\n\nThese are all high-volume filers — each has thousands of filings in their EDGAR history. The root cause is almost certainly EDGAR's submissions pagination: for large filers, EDGAR splits older filings into separate paginated JSON files referenced under a \"files\" array in the primary submissions response. If secwatch is only reading the primary submissions JSON and not following the pagination links, it will silently truncate the response — or if the primary JSON itself is very large, a fixed read bu\n\nsuggested_fix:\nIn the secwatch EDGAR client (likely internal/secwatch/edgar.go or similar), check how the submissions JSON is fetched and parsed:\n\n1. Check if the response is being read with a fixed buffer — replace with ioutil.ReadAll or equivalent to handle large payloads.\n2. After parsing the primary submissions JSON, check for a top-level \"files\" array. If present, fetch each paginated file from https://data",
+  "id": 24,
+  "metadata": null,
+  "recorded_at": "2026-06-07T02:38:02.796383463Z",
+  "run_id": "20260530T214532Z",
+  "source_repo": "PRRJECT_FATBABY",
+  "title": "FatBaby obs [error]: EDGAR submissions endpoint returning truncated JSON for all 5 major bank ticker"
+}

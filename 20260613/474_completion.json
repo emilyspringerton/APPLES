@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "Moved EmilyOS/docs/legacy/ (12 files: spec-1→8, 9, 10, adendum, soc-complicance) to EmilyOS/docs/legacy-archive/. Added README.md: superseded by NORTHSTAR.md 2026-06-09. Reduces future context confusion.",
+  "id": 474,
+  "metadata": null,
+  "recorded_at": "2026-06-13T21:27:19.428271099Z",
+  "run_id": "cli-20260613T212719Z",
+  "source_repo": "EMILY",
+  "title": "S25-03: Archive EmilyOS legacy docs"
+}

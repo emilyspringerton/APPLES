@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "server/combat/tp.go: TPState.AddTP(weaponDelay, hastePct) with effective_delay=delay*(1-haste/100)/TPDivisor, min floor 5 TP, cap 300. CanWeaponSkill() ≥100. UseWeaponSkill() resets to 0. ConsumeTP(n). HitsToWS(). 6 weapon delay constants (HtH/1H/1HAxe/GS/Staff/Polearm). MaxHaste 80%. 34 tests: per-hit math, accumulation, cap, haste clamping, WS gate, consume, full cycle.",
+  "id": 2533,
+  "metadata": null,
+  "recorded_at": "2026-06-21T20:59:28.671143541Z",
+  "run_id": "cli-20260621T205928Z",
+  "source_repo": "GoblinFoxDragon",
+  "title": "S81-03: TP system — TPState, AddTP haste/delay formula, UseWeaponSkill, 34 tests"
+}

@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "improvement",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "S100-01: rest/meditate command; isResting flag; +5%/+3% HP/MP per tick; cancelled by attack/aggro. stand cancels manually. S100-02: target \u003cmob\u003e command; substring match in zone; hpBar display. S100-03: /p \u003cmsg\u003e party chat shortcut; broadcasts to party members only.",
+  "id": 3101,
+  "metadata": null,
+  "recorded_at": "2026-06-23T11:21:18.782823091Z",
+  "run_id": "cli-20260623T112118Z",
+  "source_repo": "GoblinFoxDragon",
+  "title": "S100-01/02/03: MUD rest/regen + target reticle + party chat /p"
+}

@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "improvement",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "92358e1. template_include filter routes /ticker/{SYM} to page-ticker.php (S23-03). wp_head OpenGraph: og:title, og:description, og:url, meta description for all ticker pages + editorial posts (S23-02).",
+  "id": 447,
+  "metadata": null,
+  "recorded_at": "2026-06-13T04:21:29.710406668Z",
+  "run_id": "emily-rsi-177-s23-02-03",
+  "source_repo": "EDIS",
+  "title": "S23-02+03: EDIS ticker OpenGraph meta + virtual page routing"
+}

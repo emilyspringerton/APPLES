@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "vterm.go: scrollRegTop/scrollRegBot fields; DECSTBM (CSI r) sets region; scrollUp respects region. scrollDown() new function. ESC M (RI) at top of region calls scrollDown(1). TestDECSTBM + TestReverseIndex. 23 vterm tests total.",
+  "id": 2362,
+  "metadata": null,
+  "recorded_at": "2026-06-21T11:55:20.824943222Z",
+  "run_id": "cli-20260621T115520Z",
+  "source_repo": "PITVIPER",
+  "title": "S52-01: PITVIPER DECSTBM scrolling region + ESC M reverse index"
+}

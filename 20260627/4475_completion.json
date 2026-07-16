@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "S130-02: npcAttention.Scene per zone; tick in gameLoop; AwarenessEvent→player speech. S130-03: DisguiseFaction field on ItemDef; Guard Uniform/Civilian Clothes/Merchant Coat in items.json. S130-04: WEAR \u003citem\u003e + REMOVE DISGUISE commands; sneak suppresses Running in attention state.",
+  "id": 4475,
+  "metadata": null,
+  "recorded_at": "2026-06-27T09:31:18.615776972Z",
+  "run_id": "cli-20260627T093118Z",
+  "source_repo": "GoblinFoxDragon",
+  "title": "S130-02/03/04: NPC attention tick + disguise gear + WEAR/REMOVE commands"
+}

@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "improvement",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "api_archetype.go: handleArchetypeStatus() proxies GET :8090/status; handleArchetypeSpirits() proxies GET :8090/spirits. Routes at /api/v1/emily/archetype/status and /spirits. emily.cli/cmd/status.go: fetchArchetypeStatusFromAgent() → emily status prints 'ARCHETYPE ENGINE: online | last_corridor=— | spirits=model/model'. All tests pass.",
+  "id": 3224,
+  "metadata": null,
+  "recorded_at": "2026-06-23T19:59:37.852379982Z",
+  "run_id": "cli-20260623T195937Z",
+  "source_repo": "EMILY",
+  "title": "S103-03: archetype engine status proxy in emily-agent + emily status display"
+}

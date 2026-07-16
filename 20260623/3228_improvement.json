@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "improvement",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "8 pet kinds (wolf/bird/lizard/crab/leech/slime/worm/bear). Slot tracks one BST player's companion. Tame() checks HP ≤70% + chance roll. JugPet() no-roll summon with 5s cooldown. Tick() autonomous auto-attack on swing timer. TakeDamage()/Heal()/Release(). 20 tests all pass.",
+  "id": 3228,
+  "metadata": null,
+  "recorded_at": "2026-06-23T20:03:03.06290568Z",
+  "run_id": "cli-20260623T200303Z",
+  "source_repo": "GoblinFoxDragon",
+  "title": "S104-01: BST pet system — server/pet/pet.go + 20 tests"
+}

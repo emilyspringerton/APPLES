@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "improvement",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "Wire server/mob/aggro.go StatusFlags logic into MUD. isInvisible/isSneaking bools on player with 60s expiry. cast invisible/sneak commands (50 MP each). In tickAll, EvtMobAggro events are suppressed and AggroSlot cleared when the aggroed player has active Invisible/Sneak. Expires broadcast each tick.",
+  "id": 3082,
+  "metadata": null,
+  "recorded_at": "2026-06-23T10:57:12.020552332Z",
+  "run_id": "cli-20260623T105712Z",
+  "source_repo": "GoblinFoxDragon",
+  "title": "S96-01: MUD Invisible/Sneak aggro block — cast invisible/sneak, EvtMobAggro intercept"
+}

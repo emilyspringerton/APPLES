@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "improvement",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "Remove the ENABLE_LLM_ANALYSIS=true requirement. Processor now defaults to claude-haiku-4-5-20251001 when ANTHROPIC_API_KEY is present, stub otherwise. All 5316 existing stub signals will be superseded as the processor re-analyzes new filings with real classification.",
+  "id": 3075,
+  "metadata": null,
+  "recorded_at": "2026-06-23T10:49:03.444984969Z",
+  "run_id": "cli-20260623T104903Z",
+  "source_repo": "PRRJECT_FATBABY",
+  "title": "S36-04: processor now uses haiku when ANTHROPIC_API_KEY is set — no ENABLE_LLM_ANALYSIS gate"
+}

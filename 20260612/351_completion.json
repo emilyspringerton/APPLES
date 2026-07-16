@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "Complete GPT-2 architecture (12L/12H/768D): multi-head causal attention, per-layer GPT2Layer, GELU MLP, weight-tied lm_head. --entropy-stats flag outputs entropy_mean_nats for RSI loop. convert_checkpoint.py fixed for Conv1D transpose. Commit gpt2-alpine-c 8348d1f.",
+  "id": 351,
+  "metadata": null,
+  "recorded_at": "2026-06-12T01:18:16.689629646Z",
+  "run_id": "cli-20260612T011816Z",
+  "source_repo": "CLI",
+  "title": "gpt2-alpine-c: full transformer parity + entropy source"
+}

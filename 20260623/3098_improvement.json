@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "improvement",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "world.bazaars map[slot]map[itemID]price. bazaar set \u003citem\u003e \u003cprice\u003e: lists item at price. bazaar list: show own listings. bazaar list \u003cplayer\u003e: show their listings. bazaar buy \u003cplayer\u003e \u003citem\u003e: deducts gil from buyer, pays seller, transfers item. Seller notified on sale.",
+  "id": 3098,
+  "metadata": null,
+  "recorded_at": "2026-06-23T11:18:38.597787097Z",
+  "run_id": "cli-20260623T111838Z",
+  "source_repo": "GoblinFoxDragon",
+  "title": "S99-03: MUD bazaar personal shops — bazaar set/list/buy commands"
+}

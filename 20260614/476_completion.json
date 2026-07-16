@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "Full GPT-2 fine-tuning pipeline wired end-to-end. IDUNA Drive API (58dc2c4): stdlib-only RS256 JWT service account, /api/v1/drive/* endpoints, EMILY-TRAINING agent (drive.write+read). gpt2-alpine-c training tooling (e3c4e7e): prime_directive_dataset.py (JSONL corpus from golden docs + prime directive), drive_sync.py (IDUNA auth upload/download), convert_ft_checkpoint.py (HF → C binary, handles .tar.gz), gpt2_finetune_colab.ipynb (HF Trainer, perplexity eval, generation test, Drive save). emily train CLI (89f181f): build-dataset, upload, status subcommands; DriveUpload/List/Get added to iduna.Client. EMILY BACKLOG.md S26 section added. golden-docs-index.md GPT2-NORTH registered (Tier 2). Pending: S26-04 Colab run, S26-05 entropy validation.",
+  "id": 476,
+  "metadata": null,
+  "recorded_at": "2026-06-14T01:04:23.812561707Z",
+  "run_id": "cli-20260614T010423Z",
+  "source_repo": "CLI",
+  "title": "S26: GPT-2 Emily Prime training pipeline complete (S26-01..03)"
+}

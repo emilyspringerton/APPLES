@@ -1,0 +1,20 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "observation",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "\n## Cycle summary\n- Cycle: 548\n- Duration: 0s\n- Outcome: idle — no queued tasks\n- Total completed tasks: 2\n- Triage findings this cycle: 9",
+  "id": 1380,
+  "metadata": {
+    "consecutive_failures": 0,
+    "cycle_number": 548,
+    "duration_s": 0,
+    "task_id": "",
+    "tokens_used": 0,
+    "triage_findings": 9
+  },
+  "recorded_at": "2026-06-18T11:16:35.231034949Z",
+  "run_id": "emily-cycle-548-20260618T111635Z",
+  "source_repo": "emily",
+  "title": "Cycle 548 — triage: 9 new tasks"
+}

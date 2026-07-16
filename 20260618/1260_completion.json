@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "stone/grass ground blocks in all chunks (y=0-2), trees now rooted at groundY+1; C client stone/grass/dirt color table; VOXEL_MAX_BLOCKS_PER_CHUNK bumped to 1024; BedWars spec written at docs2/specs/BEDWARS_SPEC.md; NORTHSTAR Milestone 7 expanded with full BedWars detail",
+  "id": 1260,
+  "metadata": null,
+  "recorded_at": "2026-06-18T02:08:18.235609094Z",
+  "run_id": "cli-20260618T020818Z",
+  "source_repo": "SHANKPIT",
+  "title": "voxel ground plane + BedWars northstar"
+}

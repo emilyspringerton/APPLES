@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "signal_observation",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "severity: info\ntimestamp: 2026-05-31T20:39:51Z\n\nfindings:\n## UI Observation — Ticker Search Requires Redundant Navigation Step\n\nObserved on the newssite at :8082. The ticker search/autocomplete has two friction points where the user's intent is already clear but a second action is required:\n\n### Issue 1 — Clicking an autocomplete suggestion doesn't navigate\nWhen a user clicks a ticker in the autocomplete dropdown, the ticker is placed in the search input box but the user must then click the \"Go\" arrow button to navigate to the ticker page. The click itself is unambiguous intent — clicking a suggestion should immediately navigate to `/ticker/{TICKER}`.\n\n### Issue 2 — Arrow key + Enter doesn't navigate\nWhen a user navigates the autocomplete list with the Down arrow key and presses Enter to select a ticker, the ticker is placed in the search box but\n\nsuggested_fix:\nIn the newssite frontend JavaScript (likely internal/newssite/static/search.js or embedded in a template):\n\n1. **Autocomplete item click handler**: Change from setting the input value to directly navigating:\n   ```js\n   // Before:\n   item.addEventListener('click', () =\u003e { searchInput.value = ticker; });\n   // After:\n   item.addEventListener('click', () =\u003e { window.location.href = '/ticker/' + tick",
+  "id": 19,
+  "metadata": null,
+  "recorded_at": "2026-06-07T02:38:02.341776677Z",
+  "run_id": "20260531T203951Z",
+  "source_repo": "PRRJECT_FATBABY",
+  "title": "FatBaby obs [info]: UX: ticker search should auto-navigate on click and on Enter key — remove redund"
+}

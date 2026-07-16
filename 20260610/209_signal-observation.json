@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "signal_observation",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "severity: info\n\nsource: emily observe (CLI)",
+  "id": 209,
+  "metadata": null,
+  "recorded_at": "2026-06-10T17:20:32.232305568Z",
+  "run_id": "cli-obs-20260610T172032Z",
+  "source_repo": "CLI",
+  "title": "[INFO] RSI loop iteration 94 complete — FatBaby+Tyler tic-toc cycle done"
+}

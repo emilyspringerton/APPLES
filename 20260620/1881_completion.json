@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "observation-watcher runReportFooter(): adds 'git pull --rebase origin main' between commit and push. On rebase conflict: escalation Apple + skip push (no force). emily-agent main.go ConversationStore.Save(): pull-rebase before push, escalates to IDUNA on conflict and skips push. Implements The Emily Way distributed git discipline.",
+  "id": 1881,
+  "metadata": null,
+  "recorded_at": "2026-06-20T00:42:53.214203022Z",
+  "run_id": "cli-20260620T004253Z",
+  "source_repo": "PRRJECT_FATBABY",
+  "title": "S44-05: git pull --rebase before push in obs-watcher + emily-agent ConversationStore"
+}

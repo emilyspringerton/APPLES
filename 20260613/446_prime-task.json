@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "prime_task",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "task_id: task-6759973455980124927\ntype: web_audit\npriority: normal\ndesc: Audit the FatBaby newssite (http://localhost:8082) as a real HTTP client using the web_audit_url tool. Check: (1) homepage loads with HTTP 200, title and h1 are present; (2) run with check_links=true to find all same-host links and detect any returning 4xx/5xx; (3) try at least 3 ticker pages (e.g. /ticker/AAPL, /ticker/AMZN, /ticker/MSFT) and verify they load; (4) check the signal API at http://localhost:8083/signals?ticker=AAPL if it responds; (5) post findings as a signal_observation Apple via emily observe. If the newssite is unreachable, note it as a warning (do not fail the task — the pipeline may be stopped).",
+  "id": 446,
+  "metadata": null,
+  "recorded_at": "2026-06-13T04:19:26.913771416Z",
+  "run_id": "task-6759973455980124927",
+  "source_repo": "CLI",
+  "title": "[prime-task] Audit the FatBaby newssite (http://localhost:8082) as a real HTTP client using the web…"
+}

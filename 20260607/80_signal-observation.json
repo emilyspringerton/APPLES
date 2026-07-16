@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "signal_observation",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "severity: info\n\nsource: emily observe (CLI)",
+  "id": 80,
+  "metadata": null,
+  "recorded_at": "2026-06-07T22:05:53.316180471Z",
+  "run_id": "cli-obs-20260607T220553Z",
+  "source_repo": "CLI",
+  "title": "[INFO] filing observations are intentionally uneditable but what happens when a human screws up and…"
+}

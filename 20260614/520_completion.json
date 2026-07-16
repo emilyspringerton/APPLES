@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "Local CPU LoRA fine-tune (20 steps, lora_r=4, max_length=32) on 466-record Emily operational corpus (colab preset).\n\nLoss trajectory: 6.4042 → 5.7344 → 5.8189 (step 1/10/20). 34.6 min on CPU.\n\nENTROPY COMPARISON (64 tokens, greedy, EOS seed):\n  Base GPT-2:      H_mean=4.4877 nats  H_max=8.6231 nats\n  Fine-tuned (20s): H_mean=4.6602 nats  H_max=8.6346 nats\n  Delta:           +0.1725 nats mean  +0.0115 nats max\n\nInterpretation: 20 steps of Emily domain text slightly increases entropy (model is less certain — distributes probability more broadly across EINHORN vocabulary). Full 3-epoch Colab T4 run expected to show larger shift.\n\nPipeline validated end-to-end: build-dataset → train → convert → gpt2_run --entropy-stats.\nCommits: gpt2-alpine-c 4ab6bf0 (entropy fix), a335afc (corpus preset).\nNext: S26-04 full run on Colab T4 via emily train upload + notebook.",
+  "id": 520,
+  "metadata": null,
+  "recorded_at": "2026-06-14T23:04:37.916321311Z",
+  "run_id": "cli-20260614T230437Z",
+  "source_repo": "CLI",
+  "title": "S26-04 smoke test: fine-tune pipeline validated + entropy comparison published"
+}

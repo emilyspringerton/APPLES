@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "M1 itemdef+inventory packages (32 tests), items.json seed (52 items), DB migration character_equipment+character_inventory, Hills rabbits+beetles+wolves+NMs, Caves bats+spiders+skeletons+NMs, npcattention disguise/witness stealth system (16 tests)",
+  "id": 3883,
+  "metadata": null,
+  "recorded_at": "2026-06-25T10:53:57.113890442Z",
+  "run_id": "S129",
+  "source_repo": "GoblinFoxDragon",
+  "title": "S129-01 through S129-09 + S130-01: inventory/itemdef, Hills+Caves mobs+NMs, npcattention stealth system"
+}

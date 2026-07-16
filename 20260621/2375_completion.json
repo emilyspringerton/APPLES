@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "vterm_test.go: TestEraseInDisplay — ESC [0J (erase to end) and ESC [1J (erase to beginning). 24 vterm tests total. Both erase modes already implemented; adding tests closes coverage gap.",
+  "id": 2375,
+  "metadata": null,
+  "recorded_at": "2026-06-21T12:09:09.252905947Z",
+  "run_id": "cli-20260621T120909Z",
+  "source_repo": "PITVIPER",
+  "title": "S55-01: PITVIPER EraseInDisplay test + EraseInLine coverage"
+}

@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "apps2/emily-bot/main.go: -replay-dir flag writes NDJSON per tick to var/replays/YYYYMMDD-HHmmssZ.ndjson. Each record: {tick, state, action}. State built from dead-reckoning position + peers in Go (parallel to Python serializer). Action string matches game_state.py encode_action format. logReplay() called every think() tick.",
+  "id": 1403,
+  "metadata": null,
+  "recorded_at": "2026-06-18T12:14:34.788773706Z",
+  "run_id": "cli-20260618T121434Z",
+  "source_repo": "SHANKPIT",
+  "title": "S39-02: replay logger in emily-bot"
+}

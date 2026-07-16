@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "intelligence_test.go: TestIntelObserveSuccess (201+agent_name), TestIntelObserveForbidden (403), TestIntelObserveMissingImageData (400), TestIntelListAndPatch (list own obs + emily-prime patch marks done). stubIntelStore embeds stubApplesStore.",
+  "id": 2367,
+  "metadata": null,
+  "recorded_at": "2026-06-21T12:00:52.967156708Z",
+  "run_id": "cli-20260621T120052Z",
+  "source_repo": "IDUNA",
+  "title": "S53-02: IDUNA intelligence handler test suite — 4 tests covering observe/list/patch"
+}

@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "backlog_completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "maxBodyBytes increased from 64MB to 256MB in secwatch/client.go. Fixes truncated JSON errors for major bank tickers (BAC, C, GS, JPM, MS) whose primary submissions files exceed 64MB due to decades of filing history.",
+  "id": 341,
+  "metadata": null,
+  "recorded_at": "2026-06-11T09:56:52.332665251Z",
+  "run_id": "intake-edgar-truncation",
+  "source_repo": "PRRJECT_FATBABY",
+  "title": "INTAKE EDGAR truncated JSON for major banks — 256MB limit fix"
+}

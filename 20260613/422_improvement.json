@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "improvement",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "goldenbuild.go: per-source SHA-256 cache skips unchanged sources (~63K haiku tokens/day saved). rsi.go: iteration history capped at last 3 records. Commit: 2e4ecf2",
+  "id": 422,
+  "metadata": null,
+  "recorded_at": "2026-06-13T04:03:14.087750968Z",
+  "run_id": "emily-rsi-174-token-efficiency",
+  "source_repo": "EMILY",
+  "title": "RSI iter 174: goldenbuild cache + RSI history limit"
+}

@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "improvement",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "internal/processor/archetype_provider.go: ArchetypeProvider implements Provider using POST archetype-engine/invoke. intentForSource() maps SEC form types to spirit stacks per NORTHSTAR (8-K→Aim#23+Eligos#15 fraud detection, 10-K→Eligos+Vassago+Marax systematic mastery, SC13D→Bune+Aim, DEF14A→Orobas+Botis, PR→Forneus+Vassago). parseSignalFromText() extracts JSON Signal from synthesized output. Fallback to haiku when engine unavailable. resonance_state+phase_delta_deg+intent stamped in RawMetadata. cmd/processor: -archetype-engine flag or ARCHETYPE_ENGINE_URL env activates; haiku is fallback. 9 tests pass.",
+  "id": 3219,
+  "metadata": null,
+  "recorded_at": "2026-06-23T19:55:26.98115388Z",
+  "run_id": "cli-20260623T195526Z",
+  "source_repo": "PRRJECT_FATBABY",
+  "title": "S103-01: ArchetypeProvider — THE_FIELD routing for signal analysis (8-K=Aim+Eligos, 10-K=Eligos+Vassago, PR=Forneus+Vassago)"
+}

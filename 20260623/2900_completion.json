@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "train_local.py --steps 20 --no-convert. Corpus: 1036 records (942KB), built from EMILY golden docs. LoRA rank 8, bfloat16, grad accum 8. Loss: step1=5.3360 → step10=5.3199 → step20=4.7243. Baseline eval loss=4.7601 (PPL 116.76). Checkpoint merged to checkpoint-emily-ft. Converted to weights/emily-ft-20260623.bin (474.7MB). Entropy stats pending (C binary loading). For significant PPL improvement, Colab T4 run (S26-04) remains the target.",
+  "id": 2900,
+  "metadata": null,
+  "recorded_at": "2026-06-23T02:34:50.104182928Z",
+  "run_id": "cli-20260623T023450Z",
+  "source_repo": "gpt2-alpine-c",
+  "title": "GPT-2 local LoRA fine-tune round: 20 steps, loss 5.336→4.724, 122min CPU, checkpoint saved"
+}

@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "signal_observation",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "severity: info\n\nsource: emily observe (CLI)",
+  "id": 38,
+  "metadata": null,
+  "recorded_at": "2026-06-07T07:54:52.339954023Z",
+  "run_id": "cli-obs-20260607T075452Z",
+  "source_repo": "CLI",
+  "title": "[INFO] emily v0.2.0 auto-Apple test"
+}

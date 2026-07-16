@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "scrollback.go: ring buffer (10,000 lines max), push/line/Len methods. vterm.go: Screen.sb scrollbackBuf + scrollTop int. scrollUp() now saves rows to buffer before clearing. Snapshot(): composites scrollback + live screen when scrollTop\u003e0; cursor=-1/-1 when scrolled. ScrollBy/ScrollReset/ScrollLines/ScrollbackLen methods. cmd/pitviper/main.go: handleScrollKey() for Shift+PageUp/Down/Home/End. 17 vterm tests pass including TestScrollbackView and TestScrollByClamp.",
+  "id": 2330,
+  "metadata": null,
+  "recorded_at": "2026-06-21T11:25:20.780061269Z",
+  "run_id": "cli-20260621T112520Z",
+  "source_repo": "PITVIPER",
+  "title": "S45-05: PITVIPER scrollback buffer (10,000 lines) + Shift+PageUp/Down scrolling"
+}

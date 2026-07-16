@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "improvement",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "Quest{ID,Title,GiverNPCID,RequireItems,RequireKills,RewardGil,RewardItem}. State{RequireKills,RequireItems,KillProgress}. Journal{Active,Completed}. Bank index with ForNPC(). 5 starter quests: gather-iron-ore/defeat-king-worm/merchants-request/swamp-patrol/crisis-volunteer. Accept/RecordKill/RecordItem/IsMet/TurnIn flow. 16 tests all pass.",
+  "id": 3233,
+  "metadata": null,
+  "recorded_at": "2026-06-23T20:08:46.296988976Z",
+  "run_id": "cli-20260623T200846Z",
+  "source_repo": "GoblinFoxDragon",
+  "title": "S104-03: NPC quest system — server/quest/quest.go + 16 tests"
+}

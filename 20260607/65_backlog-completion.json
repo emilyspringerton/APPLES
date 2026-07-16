@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "backlog_completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "Added prime-tasks/ row to PROCESSES panel: counts non-hidden files in EMILY/signals/tasks/, shows newest file age. Operator can see at a glance whether tasks are pending and how old they are. 75 tests still green. Apple #65.",
+  "id": 65,
+  "metadata": null,
+  "recorded_at": "2026-06-07T09:40:56.013044833Z",
+  "run_id": "rsi-iter8",
+  "source_repo": "emily.cli",
+  "title": "feat: emily status — prime-tasks/ dir visibility in PROCESSES section"
+}

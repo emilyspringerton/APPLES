@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "cooccurrence.Store with Record/RecordGroup/Related/SeedFromSignals; GET /v1/entities/{ticker}/related wired in signalapi; EDIS [edis_related] shortcode + related-network.php template; 11 tests",
+  "id": 3557,
+  "metadata": null,
+  "recorded_at": "2026-06-24T11:46:21.549729731Z",
+  "run_id": "cli-20260624T114621Z",
+  "source_repo": "PRRJECT_FATBABY",
+  "title": "S126-11: Entity co-occurrence graph"
+}

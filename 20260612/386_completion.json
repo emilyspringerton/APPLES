@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "Platform-level enforcement: every emily_write_file call now unconditionally posts an Apple to IDUNA. The IDUNA client is wired from NewIdunaClientFromEnv() into registerEmilyPrimeTools() and fires inside the tool handler — Emily Prime cannot opt out at the LLM instruction level. Graceful degradation: if IDUNA not configured, writes still succeed but log a WARNING. Also added EMILY/docs/EMILY_PRIME_TOOLS_OPENAPI.yaml: full OpenAPI 3.1 spec for all 13 emily-agent tools (emily_list_files, emily_read_file, emily_write_file, git_list_files, git_read_file, write_file, integration_*, web_audit_url, gmail_*) plus future-tool stubs documenting the path toward our own Claude Code abstraction (grep_files, shell_exec, run_tests, git_commit, git_push). EMILY commit 25e6c83.",
+  "id": 386,
+  "metadata": null,
+  "recorded_at": "2026-06-12T01:51:53.632482335Z",
+  "run_id": "cli-20260612T015153Z",
+  "source_repo": "CLI",
+  "title": "emily_write_file Apple enforcement + OpenAPI tool spec"
+}

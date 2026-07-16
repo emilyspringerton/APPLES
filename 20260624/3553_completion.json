@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "CHANGELOG updated in IDUNA: feat: S126-09 per-IP rate limit on auth endpoints — IPRateLimiter 10 req/min, /auth/local + /auth/register wrapped, 429+Retry-After (Apple #3552)",
+  "id": 3553,
+  "metadata": null,
+  "recorded_at": "2026-06-24T11:37:14.326756201Z",
+  "run_id": "changelog-1782301034",
+  "source_repo": "IDUNA",
+  "title": "changelog(IDUNA): feat: S126-09 per-IP rate limit on auth endpoints — IPRat…"
+}

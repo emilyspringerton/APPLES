@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "vterm.go: handleEsc() handles ESC ] ... BEL and ESC ] ... ESC \\ (ST-terminated) OSC sequences. handleOSC() parses 0/1/2;title → Screen.Title. GetTitle() accessor. main.go: win.SetTitle() updated each render tick from screen.GetTitle(). TextInput event snaps ScrollReset() before writing to PTY. TestOSCWindowTitle: BEL-terminated, ST-terminated, mid-stream OSC all pass. 18 vterm tests total.",
+  "id": 2333,
+  "metadata": null,
+  "recorded_at": "2026-06-21T11:28:37.49583082Z",
+  "run_id": "cli-20260621T112837Z",
+  "source_repo": "PITVIPER",
+  "title": "S47-01/02: OSC window title sequences + snap-to-live on TextInput"
+}

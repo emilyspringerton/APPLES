@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "server/chat/chat.go: Router with Deliver(), Register/Unregister, encodeChat, ParseChatPacket. 4 channels: say (50u radius), tell (private by name), yell (zone), guild (cross-scene). Wired into apps2/server-go/main.go PacketChat case. common/protocol.go: PacketChat=6, ChatSay/Tell/Yell/Guild, SayRadius. 19 tests all pass.",
+  "id": 2513,
+  "metadata": null,
+  "recorded_at": "2026-06-21T20:01:44.196355811Z",
+  "run_id": "cli-20260621T200144Z",
+  "source_repo": "GoblinFoxDragon",
+  "title": "S78-01: DragonsNShit chat system — say/tell/yell/guild, PacketChat 6, 19 tests"
+}

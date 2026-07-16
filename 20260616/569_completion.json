@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "signalapi binary built; emily start --signalapi flag added; /signals/ location block in edis.conf proxies :9091 with 60s GET cache",
+  "id": 569,
+  "metadata": null,
+  "recorded_at": "2026-06-16T03:17:00.873866453Z",
+  "run_id": "cli-20260616T031700Z",
+  "source_repo": "PRRJECT_FATBABY",
+  "title": "S30-03/04: emily start --signalapi; nginx /signals/ proxy block"
+}

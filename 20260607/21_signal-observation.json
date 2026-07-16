@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "signal_observation",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "severity: info\ntimestamp: 2026-05-30T22:10:22Z\n\nfindings:\n## Self-Improving Model Training Pipeline\n\nThis observation describes the full architecture for collecting, cleaning, labelling, and using user-generated interaction data to continuously refine Emily's governance interpretation models. The query logging and tier tagging described in the GTM funnel observation (2026-05-30) is the data collection layer — this observation covers everything downstream of that: the training pipeline itself.\n\n---\n\n## Data Sources\n\n### Tier 1 — Ask Emily Interactions (highest volume)\nSource: var/query-log/queries.ndjson (free + plus tier only, never enterprise)\nSchema:\n  {\n    \"id\": \"uuid\",\n    \"timestamp\": \"...\",\n    \"tier\": \"free|plus\",\n    \"question\": \"What is the governance risk at WFC?\",\n    \"answer\": \"...\",\n    \"ticker\": \"WFC\",\n    \"signal_types\": [\"activis\n\nsuggested_fix:\nImplement in this sequence:\n\n1. internal/training/collector.go — data collection + PII stripping first, start accumulating clean data immediately\n2. internal/askeмily/logger.go feedback signals — add thumbs up/down widget to Ask Emily UI, log implicit signals\n3. internal/training/labeller.go — auto-labelling from EPS oracle and activist accuracy (both already have ground truth)\n4. internal/trainin",
+  "id": 21,
+  "metadata": null,
+  "recorded_at": "2026-06-07T02:38:02.529353021Z",
+  "run_id": "20260530T221022Z",
+  "source_repo": "PRRJECT_FATBABY",
+  "title": "FatBaby obs [info]: Feature request: self-improving model training pipeline — user data flywheel for"
+}

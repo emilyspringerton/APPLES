@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "session_state",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "Session accomplishments:\n- EMILY/scripts/apples.sh (Apple #4) — Apples dashboard\n- EMILY/scripts/status.sh (Apple #5) — cross-repo status\n- Tyler RSI Build 0018 (Apple #16) — 1952 Detroit archive + architecture nodes\n- Tyler Build 0017 MPT package committed — compiled/s01e01_cold_open/\n- EMILY/scripts/sync-fatbaby.sh (Apple #15) — 26 FatBaby obs synced (#6-35)\n- EMILY/scripts/start-emily-agent.sh (Apple #17) — EMILY RSI → IDUNA launch script\n- TYLER/engine/tyler_hum_mechanic.md (Apple #18) — Tyler↔SHANKPIT mechanic bridge\n- TYLER/scripts/cron-emily.sh — every-4h RSI loop wrapper\n- Gitignore cleanup: PRRJECT_FATBABY (.claude/), SHANKPIT (binaries)\n\nAll repos clean. 35 Apples. EMILY BACKLOG: 11 done / 8 pending.\n\nBlocked on human: Pexels key (MPT), IDUNA systemd unit, crontab install.\nNext automatable: IDUNA CLI spec, Emily Prime loop formalization.",
+  "id": 36,
+  "metadata": null,
+  "recorded_at": "2026-06-07T02:38:18.766232531Z",
+  "run_id": "2026-06-07-session-close",
+  "source_repo": "EMILY",
+  "title": "Emily Prime session complete — all repos synced, 35 Apples filed"
+}

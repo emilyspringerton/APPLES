@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "signal_observation",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "severity: error\ntimestamp: 2026-05-30T21:32:12Z\n\nfindings:\nentity-graph is emitting a repeating WARNING every 30s: \"saw N source_document_persisted records but found 0 8-K documents to process — check form/source_type/url detection logic\". This is occurring across ALL 846 persisted documents (9 tickers: MSTR 212, AAPL 149, IBKR 128, BRK.B 86, BEN 78, LLY 66, NVDA 61, GOOG 52, BLK 14). Entity-graph can see the source_document_persisted events but cannot match any of them as 8-K filings. Only a small handful of older AAPL and IBKR records processed before this condition set in. The signal store is completely empty — zero directors, zero proposals, zero signals of any type despite 846 documents in the store. Root cause is almost certainly a field name mismatch, casing difference, or missing field in the serialised source documents — e.g. the processo\n\nsuggested_fix:\n1. In internal/entitygraph/reader.go (or equivalent), find the 8-K form type filter and make it case-insensitive: strings.EqualFold(doc.FormType, '8-K') or match on '8-k', '8-K', '8K' variants. 2. Add a debug log line that prints the actual form_type/source_type field value from the first few source_document_persisted records so the mismatch is immediately visible. 3. Also check whether the field ",
+  "id": 28,
+  "metadata": null,
+  "recorded_at": "2026-06-07T02:38:03.14845435Z",
+  "run_id": "20260530T213212Z",
+  "source_repo": "PRRJECT_FATBABY",
+  "title": "FatBaby obs [error]: entity-graph cannot detect 8-K documents from persisted store — form/source_typ"
+}

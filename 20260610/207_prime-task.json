@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "prime_task",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "task_id: task-8235799007618329109\ntype: rsi_report\npriority: high\ndesc: Write a report on optimal token use for recursive self-improvement across the full Emily OS system. Analyse current token spend per cycle in emily-agent (cron.go RSI loop), observation-watcher invocations, and prime-task → Claude Code dispatches. Identify the highest-ROI improvements: e.g. prompt compression, caching, batching observations, gating trivial cycles. Produce a prioritised action list with estimated token savings per item. Then implement the top item as a concrete code change, commit it, and post findings as an IDUNA Apple.",
+  "id": 207,
+  "metadata": null,
+  "recorded_at": "2026-06-10T17:13:44.226352769Z",
+  "run_id": "task-8235799007618329109",
+  "source_repo": "CLI",
+  "title": "[prime-task] Write a report on optimal token use for recursive self-improvement across the full Emi…"
+}

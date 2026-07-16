@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "Migration 202606270001: vendors (vendor_id, name, category, url, moq, unit_cost_cents, lead_days, quality_tier, status) + supply_orders (order_id, vendor_id, product, quantity, unit/total cost, status, ordered_at, received_at). SupplyHandler wired at /api/v1/supply/ with auth.",
+  "id": 4485,
+  "metadata": null,
+  "recorded_at": "2026-06-27T09:41:46.217901145Z",
+  "run_id": "cli-20260627T094146Z",
+  "source_repo": "IDUNA",
+  "title": "S136-02/03: IDUNA vendors + supply_orders tables + /api/v1/supply/ CRUD"
+}

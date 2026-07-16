@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "Engine struct (BPM, BeatCh chan Beat, StemMix). Tick() for sync beat generation. Run(ctx) for async emission at configured BPM. 4 beat types (Kick/Snare/Bass/Hat) in 4/4 pattern. WorldEffect() maps each type to city effect (sky_pulse/weather_toggle/mob_swing_storm/crowd_ambient). Sine-wave strength curve. Bass on even measures. NewEngine(0)→140 BPM default. 17 tests pass.",
+  "id": 3356,
+  "metadata": null,
+  "recorded_at": "2026-06-24T01:54:58.203886863Z",
+  "run_id": "cli-20260624T015458Z",
+  "source_repo": "GoblinFoxDragon",
+  "title": "S120-02: server/beatsync — BeatSync stub service"
+}

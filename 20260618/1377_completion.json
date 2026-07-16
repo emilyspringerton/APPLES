@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "Two-level position tracking in emily-bot: (1) snapshot parser now extracts own entity from PacketSnapshot (id==myID) as server-authoritative anchor — resets dead-reckoning origin each tick; (2) dead-reckoning integration between snapshots: integrates prevFwd/prevStr × moveSpeed(8u/s) × dt(0.05s) in yaw-space on each think() tick. Also fixes bug: own entity was previously added to peers map, causing bot to sometimes aim at itself.",
+  "id": 1377,
+  "metadata": null,
+  "recorded_at": "2026-06-18T11:07:41.11931007Z",
+  "run_id": "cli-20260618T110741Z",
+  "source_repo": "SHANKPIT",
+  "title": "S38-02: emily-bot dead-reckoning + server-authoritative position"
+}

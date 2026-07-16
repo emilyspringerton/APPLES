@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "server/craft/craft.go; HQTier(skillGap,roll)-\u003e0-3; HQ1≥10 roll\u003c1.0; HQ2≥30 roll\u003c0.15; HQ3≥50 roll\u003c0.05; Recipe.HQ1/2/3ItemID override; wired into Attempt",
+  "id": 2930,
+  "metadata": null,
+  "recorded_at": "2026-06-23T03:03:09.082924523Z",
+  "run_id": "cli-20260623T030309Z",
+  "source_repo": "GoblinFoxDragon",
+  "title": "S84-02: Synthesis HQ system — HQTier(gap,roll): HQ1≥10/HQ2≥30/HQ3≥50, 5% HQ3 chance, 7 tests"
+}

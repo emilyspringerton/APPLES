@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "RegisterHandler: email+password+display_name; duplicate check; bcrypt; EventUserCreated; NextUID; SetGFDUserTier free_trial. Wired main.go.",
+  "id": 3502,
+  "metadata": null,
+  "recorded_at": "2026-06-24T10:29:49.137380513Z",
+  "run_id": "cli-20260624T102949Z",
+  "source_repo": "IDUNA",
+  "title": "S125-01: IDUNA /api/v1/auth/register — open GFD registration, free_trial tier auto-set, JWT returned"
+}

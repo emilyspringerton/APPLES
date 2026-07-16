@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "server/telecrystal/telecrystal.go: Crystal registry from TELECRYSTAL_NETWORK_SPEC.md; 6 crystals; Lookup/InScene/Validate/InRange/Dist2D; 18 tests. server/idunaclient/idunaclient.go: HTTP client for IDUNA MMO API: GetCharacter/DeductGold/UpdatePosition/TravelTelecrystal. IDUNA: PATCH /api/v1/characters/:id/gold (atomic conditional deduct; 409 on insufficient). PacketTelecrystalUse/Ack/Err added to protocol.go. PacketTelecrystalUse handler: auth check → GetCharacter → Validate → TravelTelecrystal → PacketTelecrystalAck.",
+  "id": 2943,
+  "metadata": null,
+  "recorded_at": "2026-06-23T03:17:09.462225636Z",
+  "run_id": "cli-20260623T031709Z",
+  "source_repo": "GoblinFoxDragon",
+  "title": "S76-03: GFD Telecrystal travel — server/telecrystal registry (6 crystals, Validate), server/idunaclient (GetCharacter/DeductGold/UpdatePosition/TravelTelecrystal), PacketTelecrystalUse=9/Ack=10/Err=11, server-go handler; all 29 GFD packages pass"
+}

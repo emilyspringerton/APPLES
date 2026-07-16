@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "signal_observation",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "severity: info\n\nsource: emily observe (CLI)",
+  "id": 77,
+  "metadata": null,
+  "recorded_at": "2026-06-07T21:56:51.162409898Z",
+  "run_id": "cli-obs-20260607T215651Z",
+  "source_repo": "CLI",
+  "title": "[INFO] it seems like some of our RSI work leaves dirty stuff in EMILY repo - i think the rsi stuff …"
+}

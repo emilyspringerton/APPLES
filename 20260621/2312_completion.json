@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "clientInfo.lastPacket/kills fields. PacketUserCmd sets lastPacket; BtnAttack+hitEntity increments kills. pruneIdleClients goroutine (15s check, 60s default timeout) removes idle clients + POSTs to IDUNA /api/v1/players/{id}/session. --iduna-url --server-token --idle-timeout flags.",
+  "id": 2312,
+  "metadata": null,
+  "recorded_at": "2026-06-21T11:06:10.331222992Z",
+  "run_id": "cli-20260621T110610Z",
+  "source_repo": "SHANKPIT",
+  "title": "S45-01: Go server idle timeout + kill tracking + IDUNA stat reporting on disconnect"
+}

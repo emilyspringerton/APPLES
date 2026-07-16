@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "improvement",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "server/duel: Manager{pending,active,Ratings}. Challenge/Accept/Forfeit/ReportHP/ExpirePending/TopN. Phase: Pending→Active→Done. Rating +25/-10. 15 tests. apps2/mud: duelMgr on world; duel/duel-accept/duel-forfeit/leaderboard commands. tickAll routes auto-attack damage to opponent in duel. ExpirePending called each tick with player notification. Zone broadcast on duel end. All tests pass.",
+  "id": 3243,
+  "metadata": null,
+  "recorded_at": "2026-06-23T20:20:54.136774973Z",
+  "run_id": "cli-20260623T202054Z",
+  "source_repo": "GoblinFoxDragon",
+  "title": "S106-01+02: PvP duel system — Manager + MUD wiring (duel/accept/forfeit/leaderboard)"
+}

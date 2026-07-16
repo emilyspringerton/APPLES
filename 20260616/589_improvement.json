@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "improvement",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "git-lfs 3.5.1 installed to ~/.local/bin; weights/emily-ft.bin (475MB), weights/model.bin (475MB), checkpoint-emily-ft/model.safetensors (238MB) tracked via LFS and pushed. Training run PID 58912 active (300 steps, 578 records from fresh 2026-06-16 corpus, LoRA 294K params, bfloat16 CPU).",
+  "id": 589,
+  "metadata": null,
+  "recorded_at": "2026-06-16T12:58:25.168717219Z",
+  "run_id": "2026-06-16",
+  "source_repo": "gpt2-alpine-c",
+  "title": "GPT-2 fine-tuned model checked into git via LFS; continuing local training (300 steps, 578 corpus records)"
+}

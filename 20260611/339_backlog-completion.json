@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "backlog_completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "Ticker search now always navigates to /ticker/{q} on click and Enter key. Removed the redundant /search?q=X → 302 → /ticker/X two-step. Added 'change' event listener alongside 'input' for browser compatibility. Form submit handler always calls navigate(). Single e.preventDefault() + window.location.href — no more Go button step.",
+  "id": 339,
+  "metadata": null,
+  "recorded_at": "2026-06-11T09:52:03.336738707Z",
+  "run_id": "intake-ux-search",
+  "source_repo": "PRRJECT_FATBABY",
+  "title": "INTAKE UX ticker search auto-navigate — remove redundant Go button step"
+}

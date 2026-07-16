@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "Single-shot idempotent deploy script: nginx+PHP8.3-FPM+certbot+WP-CLI+MySQL+WordPress, ACME-ready HTTP nginx bootstrap, EDIS plugin rsync, follow-up certbot/setup.sh for TLS. Commit 2369e7b on emilyspringerton/EDIS main.",
+  "id": 453,
+  "metadata": null,
+  "recorded_at": "2026-06-13T20:37:05.752763233Z",
+  "run_id": "cli-20260613T203705Z",
+  "source_repo": "EDIS",
+  "title": "EDIS WordPress deploy — ops/install.sh"
+}

@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "improvement",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "cmd/archetype-engine/main.go: full HTTP service wrapping Field.Invoke. POST /invoke: runs E1/E2 dual-persona, returns InvokeResult as JSON. GET /spirits: all 72 Goetia spirits. GET /status: uptime, models, allow_collapse flag. anthropicClient implements archetypes.LLMClient interface. -e1-model/-e2-model/-allow-collapse flags. Build and vet clean.",
+  "id": 3214,
+  "metadata": null,
+  "recorded_at": "2026-06-23T19:47:48.249881414Z",
+  "run_id": "cli-20260623T194748Z",
+  "source_repo": "EMILY",
+  "title": "S102-04: archetype-engine HTTP service :8090 — POST /invoke, GET /spirits, GET /status"
+}

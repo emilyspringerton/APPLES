@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "prime_directive_dataset.py: --game-replays \u003cdir\u003e and --max-game-records flags added; load_game_replays() reads *.ndjson replay files and converts {state,action} to instruction pairs {prompt,completion}. build_game_corpus.py: standalone aggregator that reads replay dir, deduplicates, writes JSONL. Smoke test: 5 synthetic records → 5 output records.",
+  "id": 1405,
+  "metadata": null,
+  "recorded_at": "2026-06-18T12:16:13.598093588Z",
+  "run_id": "cli-20260618T121613Z",
+  "source_repo": "gpt2-alpine-c",
+  "title": "S39-03: --game-replays flag in dataset builder + build_game_corpus.py"
+}

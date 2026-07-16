@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "api_push.go: handlePushTest gets device token from IDUNA for mjolnir-emily, fires test FCM notification. Returns 503 if FCM not configured, 404 if no token registered (S32-01 needed), 502 on FCM error. Wired as POST /api/v1/emily/push/test. Ready for S32-01 human action (register FCM token).",
+  "id": 2307,
+  "metadata": null,
+  "recorded_at": "2026-06-21T11:03:01.983715915Z",
+  "run_id": "cli-20260621T110301Z",
+  "source_repo": "EMILY",
+  "title": "S32-02 prep: POST /api/v1/emily/push/test FCM endpoint in emily-agent"
+}

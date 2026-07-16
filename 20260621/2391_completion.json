@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "migrate_sqlite_test.go: 20 cases — TestSplitStatements (6 cases), TestMySQLToSQLiteRules (12 cases covering all 21 rules), TestAlterAddIndex (DESC stripping), TestCleanTrailingCommas. Full suite green.",
+  "id": 2391,
+  "metadata": null,
+  "recorded_at": "2026-06-21T12:19:46.298827007Z",
+  "run_id": "cli-20260621T121946Z",
+  "source_repo": "PRRJECT_FATBABY",
+  "title": "S60-01: store mysqlToSQLite + splitStatements test suite"
+}

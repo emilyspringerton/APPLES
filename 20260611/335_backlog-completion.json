@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "backlog_completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "POST /api/v1/emily/run { command: string, timeout: int } added to emily-agent HTTP server. Whitelisted subcommands: observe, obs, apples, status, sync, backlog, primetask, agents, watch. Shell-splits command string (single-quote aware), execs emily binary with timeout (default 60s, max 300s). Returns exit_code, stdout, stderr, duration JSON. Route wired in main.go. Tests: splitArgs, whitelist block, method check, empty command check — all pass.",
+  "id": 335,
+  "metadata": null,
+  "recorded_at": "2026-06-11T09:39:22.19675905Z",
+  "run_id": "s13-emily-run-api",
+  "source_repo": "EMILY",
+  "title": "S13 emily prime API parity — POST /api/v1/emily/run endpoint added"
+}

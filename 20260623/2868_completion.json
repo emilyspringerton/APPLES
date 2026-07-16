@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "FFXI-parity mining: MiningPoint with difficulty 0-110, SuccessBase 60%+2% per level over diff (floor 5%, cap 95%), HQ rolls start at diff+10 (1% per level, cap 25%). HQ with alternate item or double qty. Depletion + Respawn. MeadowMiningPoints (diff 0-10) + SwampMiningPoints (diff 15-40 + Swampite ore). 27 tests green.",
+  "id": 2868,
+  "metadata": null,
+  "recorded_at": "2026-06-23T00:24:20.239013534Z",
+  "run_id": "cli-20260623T002420Z",
+  "source_repo": "GoblinFoxDragon",
+  "title": "Mining skill (server/gather): MiningPoint, loot table, HQ rolls, Meadow+Swamp presets, 27 tests"
+}

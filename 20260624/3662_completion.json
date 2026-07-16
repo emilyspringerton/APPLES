@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "gpt2_available bool in CycleMetrics; checked via GPT2_INFER_BIN at cycle start; gpt2fallback.go: gpt2InferAvailable+gpt2Fallback+callHaiku+planWithFallback; binary reads prompt from stdin",
+  "id": 3662,
+  "metadata": null,
+  "recorded_at": "2026-06-24T18:15:54.647984925Z",
+  "run_id": "cli-20260624T181554Z",
+  "source_repo": "EMILY",
+  "title": "S125-06: Emily Prime GPT-2 inference hook"
+}

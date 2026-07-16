@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "-b Colab preset at /tmp/emily-corpus-2026-06-15.jsonl (524 records, 754.4 KB). Full preset at /tmp/emily-corpus-full-2026-06-15.jsonl (899 records, 1285.2 KB). Both rebuilt incorporating S09E02 Cordoba, S09E03 Toledo, S09E04 Genoa, api.yaml golden doc, and updated world-state. Upload blocked: IDUNA must be running. Next: emily train upload or S09E05 season finale.",
+  "id": 550,
+  "metadata": null,
+  "recorded_at": "2026-06-15T21:12:20.232214371Z",
+  "run_id": "cli-20260615T211220Z",
+  "source_repo": "gpt2-alpine-c",
+  "title": "GPT-2 training corpus rebuilt: colab=524rec/754KB + full=899rec/1285KB; S09E02-04 included; TYLER+golden docs+Apples+SEC excluded"
+}

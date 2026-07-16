@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "Adds chart package (Yahoo Finance fetcher + SVG sparkline renderer, 400×60, in-memory 1h cache). Ticker pages show 3-month price sparkline in sidebar. Route /api/chart/{ticker} serves SVG. Commit PRRJECT_FATBABY dae8fc6.",
+  "id": 347,
+  "metadata": null,
+  "recorded_at": "2026-06-11T10:37:04.896929371Z",
+  "run_id": "cli-20260611T103704Z",
+  "source_repo": "CLI",
+  "title": "Newssite stock charts — SVG sparklines via /api/chart/{ticker}"
+}

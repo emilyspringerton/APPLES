@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "server/ledger/tyler_bridge.go: 4 new TYLER verb types, TYLERPostEpisodeReceipt/MigrationEvent/FieldActivation/ArchiveEntry. 4 CAST lore docs (eastwind-archive, jiangshi-project-memos, shell-parliament-ledger, field-activation-logs). MUD 'terminal' command reads CAST docs, files VerbTYLERArchiveEntry receipts. All GFD tests pass.",
+  "id": 3394,
+  "metadata": null,
+  "recorded_at": "2026-06-24T02:33:33.53460498Z",
+  "run_id": "cli-20260624T023333Z",
+  "source_repo": "GoblinFoxDragon",
+  "title": "S123-02: TYLER receipt → TRAPX ledger bridge"
+}

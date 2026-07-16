@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "GET /api/v1/openapi.json: full OpenAPI 3.1 spec for auth/users/apples/drive/heimdal/agents. einhorn_sdk/: IdunaClient, UsersClient, ApplesClient, DriveClient, HeimdalClient, ColabEmily.from_colab_secrets(). emily_observability.ipynb: training loop hooks, Apple tail, HEIMDAL sprint submission, Drive upload, git pull-rebase discipline. 7 Python tests pass.",
+  "id": 1448,
+  "metadata": null,
+  "recorded_at": "2026-06-18T13:27:40.820808062Z",
+  "run_id": "cli-20260618T132740Z",
+  "source_repo": "IDUNA",
+  "title": "OpenAPI 3.1 spec + Python einhorn_sdk + Colab observability notebook"
+}

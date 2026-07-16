@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "Added EarningsCalDir config field (EARNINGS_CAL_DIR env), loadUpcomingEarnings() helper reads dates.ndjson directly, appends EARNINGS THIS WEEK section to morning briefing push body when records found in next 7 days. No external deps — pure bufio/json scan.",
+  "id": 3860,
+  "metadata": null,
+  "recorded_at": "2026-06-25T09:49:54.076753512Z",
+  "run_id": "cli-20260625T094954Z",
+  "source_repo": "EMILY",
+  "title": "S128-01: wire earnings-alert into emily-agent morning briefing"
+}

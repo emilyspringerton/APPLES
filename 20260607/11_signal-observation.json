@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "signal_observation",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "severity: warn\ntimestamp: 2026-05-31T21:06:30Z\n\nfindings:\n## Problem\n\nThe pipeline currently tracks effectively one ticker (AAPL) for governance signals, and the PR Newswire feed pulls global wire content with no ticker filtering. We need to expand coverage to a meaningful universe of US-listed companies without introducing:\n\n1. **Rate limit violations** — EDGAR allows 10 req/s, we run at 2 RPS. Adding 500+ tickers naively means proportionally more concurrent polling.\n2. **O(n²) or exponential complexity** — e.g. cross-joining every PR against every ticker on every pass, or re-scanning all historical filings when a new ticker is added.\n3. **Memory/storage blowup** — unbounded ticker lists mean unbounded var/ directory growth.\n\n## Required Design\n\n### 1. Single curated watchlist file\nCreate `config/watchlist.json` — a single source of truth for al\n\nsuggested_fix:\n1. Create config/watchlist.json with the ~50 ticker S\u0026P 100 subset listed above, including CIK numbers for each.\n2. Add a shared internal/watchlist/watchlist.go package that loads config/watchlist.json into map[string]TickerInfo (keyed by both symbol and CIK) at startup. All processes import this package — no process maintains its own ticker list.\n3. In prwatch-body/eps-processor: replace any list",
+  "id": 11,
+  "metadata": null,
+  "recorded_at": "2026-06-07T02:30:30.953372445Z",
+  "run_id": "20260531T210630Z",
+  "source_repo": "PRRJECT_FATBABY",
+  "title": "FatBaby obs [warn]: Expand ticker coverage using a static curated watchlist — not dynamic discovery "
+}

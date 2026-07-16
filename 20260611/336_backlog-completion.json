@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "backlog_completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "FABLE advisor implemented in emily-agent/fable.go. Two routes: GET /api/v1/emily/fable/advice (generates 3-item prioritized sprint recommendation from GOLDEN.md + recent Apples via claude-haiku) and POST /api/v1/emily/fable/execute (generates advice then files top recommendation as HEIMDAL sprint for Emily Prime to translate+queue on next cycle). IdunaClient created from env vars for Apple context + sprint submission. FableAdvice struct with FableItem{priority,title,rationale,section,effort} + summary + generated_at.",
+  "id": 336,
+  "metadata": null,
+  "recorded_at": "2026-06-11T09:42:09.093736667Z",
+  "run_id": "s16-fable",
+  "source_repo": "EMILY",
+  "title": "S16 FABLE advisor — GET /api/v1/emily/fable/advice + POST execute endpoints"
+}

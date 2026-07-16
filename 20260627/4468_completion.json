@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "GET /api/v1/characters/:id/inventory + GET /api/v1/characters/:id/equipment. Reads character_inventory, character_bag_capacity, character_equipment tables (migration 202606250002). 4 tests pass.",
+  "id": 4468,
+  "metadata": null,
+  "recorded_at": "2026-06-27T09:23:14.300938017Z",
+  "run_id": "cli-20260627T092314Z",
+  "source_repo": "IDUNA",
+  "title": "S129-05: IDUNA inventory/equipment endpoints"
+}

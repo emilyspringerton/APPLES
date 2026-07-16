@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "backlog_completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "Root cause: serveFrontPage fell back to ReadLatest (sequential store scan of 191MB) when docIdx was nil during startup; clients timing out caused 500s. Fix: added 2-second context timeout on the fallback scan; if exceeded, returns self-refreshing loading page (200) instead of 500. Second fix: emily start --newssite and --all flags now start newssite (go run ./cmd/newssite with all stores wired); was completely absent from emily start before. All newssite tests pass.",
+  "id": 337,
+  "metadata": null,
+  "recorded_at": "2026-06-11T09:46:38.612384417Z",
+  "run_id": "s17-newssite-500",
+  "source_repo": "PRRJECT_FATBABY",
+  "title": "S17 Newssite 500 fix + emily start --newssite integration"
+}

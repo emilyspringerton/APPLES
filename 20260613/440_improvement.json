@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "improvement",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "34e7055. dedupWindowFor() returns 8h for rsi_report, 4h for all others. Saves ~150K tokens/day on redundant report cycles. Iter-174 rank-3 improvement.",
+  "id": 440,
+  "metadata": null,
+  "recorded_at": "2026-06-13T04:13:32.737960909Z",
+  "run_id": "emily-rsi-176-dedup-window",
+  "source_repo": "PRRJECT_FATBABY",
+  "title": "obs-watcher: rsi_report dedup window extended to 8h"
+}

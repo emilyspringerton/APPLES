@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "4-phase state machine (Unclaimed/Held/Contested/Containment). Claim/Contest/Flip/Defend/StartContainment/CompleteObjective/Tick. FlipWindowOpen gating (n windows per 24h). Flow + Pressure accumulation on Tick. Auto-defend on contest window expiry. Receipt events on every state change. Registry + DefaultFieldOffices. 20 tests pass.",
+  "id": 3340,
+  "metadata": null,
+  "recorded_at": "2026-06-24T01:41:42.187787701Z",
+  "run_id": "cli-20260624T014142Z",
+  "source_repo": "GoblinFoxDragon",
+  "title": "S119-01: server/fieldoffice — FieldOffice state machine"
+}

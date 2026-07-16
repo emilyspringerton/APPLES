@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "scar/scar.go: Registry (Append/ForDistrict/VisibilityBonus/RemoveLast/MUDScarsCommand), VisibilityBonusPerScar=0.05, 4 causes. 11 tests, all pass. k9/operation.go: MercilessOp 4-phase doctrine (Encirclement→Isolation→CustodyLock→Resolution), OpRegistry, 3 counterplay lanes (BirdCorrection/ScarBurn/FlipWindow), Resolve writes scar via callback. 18 tests, all pass.",
+  "id": 3870,
+  "metadata": null,
+  "recorded_at": "2026-06-25T10:01:16.466303393Z",
+  "run_id": "cli-20260625T100116Z",
+  "source_repo": "GoblinFoxDragon",
+  "title": "S128-06: Scar system + S128-07: K9 Merciless Operation"
+}

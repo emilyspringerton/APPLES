@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "improvement",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "Wire server/job.RecastTracker into apps2/mud. RecastTracker initialized per-job (WAR/WHM) on login and on setjob. ja \u003cability-id\u003e fires ability with recast gate; provoke adds 2000 CE, benediction restores HP/MP. recasts shows ready/recast-remaining per ability. Level gate enforced.",
+  "id": 3084,
+  "metadata": null,
+  "recorded_at": "2026-06-23T10:58:14.111813126Z",
+  "run_id": "cli-20260623T105814Z",
+  "source_repo": "GoblinFoxDragon",
+  "title": "S97-01: MUD job ability recast system — server/job.RecastTracker, ja/recasts commands"
+}

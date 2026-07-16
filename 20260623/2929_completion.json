@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "server/craft/craft.go; 8 CraftType consts; CraftSkill.Level/SetLevel; SuccessChance (SuccessBase+gap*2 floor5 cap95); ErrBreak at gap≤-10; Attempt(recipe,skill,rng)-\u003eResult{Success,HQTier,ItemID}; IronIngotRecipe/HerbalRemedyRecipe",
+  "id": 2929,
+  "metadata": null,
+  "recorded_at": "2026-06-23T03:03:09.071633737Z",
+  "run_id": "cli-20260623T030309Z",
+  "source_repo": "GoblinFoxDragon",
+  "title": "S84-01: Crafting guilds — 8 CraftType consts, CraftSkill.SetLevel, SuccessChance (level^1.8-parity), 15 tests"
+}

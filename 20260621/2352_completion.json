@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "internal/policy/snapshot_test.go: 6 new tests (Write, HashStable, Latest, GetNotFound, NewIDFormat, DirCreated). cmd/emilyos: 'about' shows version+commit+date+posture+latest snapshot; 'snapshot capture|list|show' manages policy snapshots. Build attestation via ldflags buildCommit/buildDate. Fix: dispatch now allows len(args)=1 for single-word commands.",
+  "id": 2352,
+  "metadata": null,
+  "recorded_at": "2026-06-21T11:46:14.474728451Z",
+  "run_id": "cli-20260621T114614Z",
+  "source_repo": "EmilyOS",
+  "title": "S50-01: EmilyOS policy snapshots + emilyos about + emilyos snapshot"
+}

@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "load_brain() now checks brain.version \u003c 2 after fread and sets w_retreat=0.5 as safe default. New brain initialisation bumped to version=2 with w_retreat randomised. Prevents uninitialized w_retreat on old saved genome files.",
+  "id": 1396,
+  "metadata": null,
+  "recorded_at": "2026-06-18T12:09:41.428954014Z",
+  "run_id": "cli-20260618T120941Z",
+  "source_repo": "SHANKPIT",
+  "title": "S38-05: bot_client genome version guard"
+}

@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "task_router.go: ListActiveClusters (GET /api/v1/agents?active=true), routeTask (capability + load_score filter, picks lowest-load qualifying remote), MaybeRouteTask stamps routed_to_cluster into task JSON and returns bool. 5 tests cover nil/self/gpu-route/higher-load/cap-missing cases.",
+  "id": 3867,
+  "metadata": null,
+  "recorded_at": "2026-06-25T09:57:09.150946509Z",
+  "run_id": "cli-20260625T095709Z",
+  "source_repo": "EMILY",
+  "title": "S128-05: Emily Prime task routing to best cluster"
+}

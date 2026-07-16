@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "cluster_heartbeat.go: IdunaClient.SendHeartbeat (POST /api/v1/agents/heartbeat), detectCapabilities (gpu/secwatch/fcm_push/goarch auto-detect), startHeartbeatLoop (fires on startup + every 60s). Wired into NewAutonomousCycle. EMILY_CLUSTER_ID env or hostname fallback.",
+  "id": 3864,
+  "metadata": null,
+  "recorded_at": "2026-06-25T09:55:30.397197548Z",
+  "run_id": "cli-20260625T095530Z",
+  "source_repo": "EMILY",
+  "title": "S128-03: emily-agent cluster identity registration"
+}

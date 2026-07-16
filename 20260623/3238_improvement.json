@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "improvement",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "server/cartography/cartography.go: Atlas{visited map[int]bool}. Visit()/Has()/KnownZones()/Count()/ExitMap(). ExitMap shows visited zones by name + unvisited as ???. 10 tests. apps2/mud/main.go: atlas on player struct, Visit(0) on login + Visit(dest) on zone travel. 'explore' command shows personal discovery map. 'map' updated with ✓ explored indicator + zone count.",
+  "id": 3238,
+  "metadata": null,
+  "recorded_at": "2026-06-23T20:15:00.450453043Z",
+  "run_id": "cli-20260623T201500Z",
+  "source_repo": "GoblinFoxDragon",
+  "title": "S105-01+02: Zone cartography system — Atlas + MUD map/explore wiring"
+}

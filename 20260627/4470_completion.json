@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "ComputeStats sums stats from equipped items via itemdef.Registry. CanEquip enforces job mask + level + slot. DefID field added to ItemEntry. 10 new tests, all pass.",
+  "id": 4470,
+  "metadata": null,
+  "recorded_at": "2026-06-27T09:25:31.171742097Z",
+  "run_id": "cli-20260627T092531Z",
+  "source_repo": "GoblinFoxDragon",
+  "title": "S129-06: gear.ComputeStats() + CanEquip()"
+}

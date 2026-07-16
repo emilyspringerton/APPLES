@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "signal_observation",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "severity: error\ntimestamp: 2026-05-30T21:29:24Z\n\nfindings:\nEntity-graph is processing every 8-K filing in var/secwatch regardless of whether it contains shareholder vote data. The current batch of 3 AAPL filings (accessions 0000320193-19-000002, -19-000007, -19-000026) all failed with \"Item 5.07 not found in filing text\". These are 2019-era AAPL 8-Ks that are not proxy-related (no annual meeting vote results).\n\nResult: 3 filings processed, 0 directors extracted, 0 proposals, 0 signals of any type. With 846 total docs in the backlog across 9 tickers, the majority are likely non-proxy 8-Ks (earnings releases, M\u0026A disclosures, officer appointments, etc.) that will never contain Item 5.07. This will produce a high-volume parse error stream and prevent any governance signals from being generated until the actual proxy 8-Ks are reached.\n\nAffected ticker\n\nsuggested_fix:\nAdd a pre-filter in internal/entitygraph/parser.go (or the filing ingestion stage) to skip 8-K filings that do not contain Item 5.07 before attempting full parse. Two options:\n\n1. FAST: In the parser, do a cheap string scan for \"5.07\" or \"Item 5.07\" in the raw filing text before running the full extraction. If absent, return a clean skip (not a parse_error) so the gap log stays clean.\n\n2. BETTER: ",
+  "id": 30,
+  "metadata": null,
+  "recorded_at": "2026-06-07T02:38:03.324341717Z",
+  "run_id": "20260530T212924Z",
+  "source_repo": "PRRJECT_FATBABY",
+  "title": "FatBaby obs [error]: entity-graph parsing all 8-K subtypes — Item 5.07 not found in non-proxy filing"
+}

@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "S43-04: already implemented in S43-02 as GET /api/v1/players/{id} returning kills/deaths/kd_ratio/sessions. S43-05: player_credentials migration 202606200002; PlayerEmailAuthHandler POST register+login; bcrypt; same 72h JWT format; returns player_id+display_name+token.",
+  "id": 1894,
+  "metadata": null,
+  "recorded_at": "2026-06-20T00:53:03.677449271Z",
+  "run_id": "cli-20260620T005303Z",
+  "source_repo": "IDUNA",
+  "title": "S43-04 + S43-05: player profile via GET /api/v1/players/{id} (S43-02) + email auth POST /api/v1/auth/email/{register,login}"
+}

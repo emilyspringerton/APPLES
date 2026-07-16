@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "emily install --system --write and --iduna-systemd --write run. Service files written to ~/.config/systemd/user/. API key already resolved via emily-secrets.env (config.Resolve fallback). obs-watcher included in emily-system.service via emily start. Needs: systemctl --user enable --now iduna.service emily-system.service (user session required).",
+  "id": 562,
+  "metadata": null,
+  "recorded_at": "2026-06-16T02:34:02.281378565Z",
+  "run_id": "S29",
+  "source_repo": "EMILY",
+  "title": "S29-01/02/03/04: Production systemd services — emily-system + iduna + obs-watcher"
+}

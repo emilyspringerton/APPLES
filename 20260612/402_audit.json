@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "audit",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "Deep strategic thinking session. Golden docs audit completed (context/golden-docs-sprawl-memo-2026-06-12.md).\n\nRevenue path analysis:\n- Track 1: SHANKPIT → Steam EA (6-12 months, first dollars)\n- Track 2: Ask Emily newssite product (6-12 months, freemium)\n  Blocker: FatBaby MySQL projections + MongoDB graph flattening\n- Track 3: Data platform licensing (2+ years, institutional)\n- RSI: Emily Prime Brain (parallel enabler)\n\nBacklog additions:\n- S19: SHANKPIT → Steam EA (6 items)\n- S20: FatBaby Queryability — MySQL + MongoDB (6 items)\n- S21: Ask Emily Product (6 items)\n- S22: Emily Prime Brain — goldenbuild + dynamic prompt + FABLE (9 items)\n- S18: 4 tooling gap items documented\n\nTotal open: 37 items across 9 sections.\nGOLDEN.md regenerated (~1238 tokens).\n\nKey decisions:\n- MongoDB over Neo4j for graph data (no Neo4j ops complexity)\n- MySQL CQRS projections for queryable FatBaby read models\n- SHANKPIT EA launch with FPS core only (Dragonfly/BedWars post-launch)\n- Emily Prime planning endpoint to shift planning off Claude Code tokens",
+  "id": 402,
+  "metadata": null,
+  "recorded_at": "2026-06-12T20:13:01.971224293Z",
+  "run_id": "cli-20260612T201301Z",
+  "source_repo": "CLI",
+  "title": "Strategic replan 2026-06-12: S19-S22 + tooling gaps"
+}

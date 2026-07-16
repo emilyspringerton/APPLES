@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "signal_observation",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "severity: info\ntimestamp: 2026-05-31T20:41:56Z\n\nfindings:\n## Feature Request — GitHub Issue Creation on Every Observation\n\nCurrently when Emily writes an observation to var/emily-observations/latest.json, it is picked up by Claude Code via the observation-watcher. There is no external ticket trail.\n\n### Requested Behavior\nWhenever fatbaby_write_observation is called (i.e. whenever latest.json is written), the pipeline should also create a GitHub issue via the GitHub API so that every finding has a permanent, linkable ticket.\n\n### Issue content mapping\nMap the observation fields to the GitHub issue as follows:\n- **Title** → observation `summary` field\n- **Body** → observation `findings` field, followed by a \"Suggested Fix\" section from `suggested_fix` if present\n- **Labels** → derive from `severity`: info→\"enhancement\", warn→\"bug\", error→\"critical\n\nsuggested_fix:\n1. Add GITHUB_TOKEN, GITHUB_OWNER, GITHUB_REPO to the environment / config (check fatbaby_check_env prerequisites).\n\n2. In the observation write function (internal/observations/write.go or equivalent), after writing latest.json, call a new createGitHubIssue(obs Observation) function:\n\n```go\nfunc createGitHubIssue(obs Observation) error {\n    token := os.Getenv(\"GITHUB_TOKEN\")\n    if token == \"\" {\n",
+  "id": 14,
+  "metadata": null,
+  "recorded_at": "2026-06-07T02:30:31.214248639Z",
+  "run_id": "20260531T204156Z",
+  "source_repo": "PRRJECT_FATBABY",
+  "title": "FatBaby obs [info]: Feature: create a GitHub issue automatically whenever Emily writes an observatio"
+}

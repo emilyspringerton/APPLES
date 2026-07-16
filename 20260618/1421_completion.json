@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "server/worldapi/dragonfly_gen.go: DragonflyChunkGenerator implements ChunkGenerator; WorldStore callback for real Dragonfly chunks; procedural fallback (matching StaticBackend terrain) when store returns nil; nameToBlockID with suffix fallback for unknown wood variants. 4 tests pass: procedural, world store, nil→nil, suffix fallback.",
+  "id": 1421,
+  "metadata": null,
+  "recorded_at": "2026-06-18T12:27:51.78399633Z",
+  "run_id": "cli-20260618T122751Z",
+  "source_repo": "GoblinFoxDragon",
+  "title": "S41-02: DragonflyChunkGenerator"
+}

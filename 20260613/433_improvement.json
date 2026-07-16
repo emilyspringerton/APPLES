@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "improvement",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "ba45792. Haiku sprint-batch planner. Accepts {question, context?}, returns {sprints:[{title,rationale,section,effort}], summary}. Reads full-system-context.md or GOLDEN.md. Routes planning off sonnet tokens.",
+  "id": 433,
+  "metadata": null,
+  "recorded_at": "2026-06-13T04:12:02.74733381Z",
+  "run_id": "emily-rsi-176-s22-07",
+  "source_repo": "EMILY",
+  "title": "S22-07: POST /api/v1/emily/plan endpoint shipped"
+}

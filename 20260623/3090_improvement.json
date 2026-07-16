@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "improvement",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "Trigger script written per moneyprinter_pipeline.md spec. Extracts MPT_TOPIC from episode header (fallback: title+location+timeline). Derives episode_id from filename. Generates mpt_payload.json. --dry-run generates payload without firing MPT. --check validates prereqs. Dry-run verified on S01E01.",
+  "id": 3090,
+  "metadata": null,
+  "recorded_at": "2026-06-23T11:03:46.191732489Z",
+  "run_id": "cli-20260623T110346Z",
+  "source_repo": "TYLER",
+  "title": "MPT → TYLER RSI trigger — compiled/mpt_episode_trigger.sh implemented per engine spec §VI"
+}

@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "primeDedupWindow increased from 4h to 8h. Aligns with rsiReportDedupWindow. Estimated 100K–200K tokens/day saved on repeated prime task dispatches. Commit 123566e.",
+  "id": 561,
+  "metadata": null,
+  "recorded_at": "2026-06-16T02:32:40.096818787Z",
+  "run_id": "S34-01",
+  "source_repo": "PRRJECT_FATBABY",
+  "title": "S34-01: obs-watcher dedup window 4h→8h"
+}

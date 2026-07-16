@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "improvement",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "Wire server/merit.MeritBank into apps2/mud. XP earned at level 99 cap converts to merit points. merits shows bank/tier table. merit-spend \u003ccategory\u003e spends 1 merit to advance tier.",
+  "id": 3071,
+  "metadata": null,
+  "recorded_at": "2026-06-23T10:45:31.298996584Z",
+  "run_id": "cli-20260623T104531Z",
+  "source_repo": "GoblinFoxDragon",
+  "title": "S93-03: MUD merit points — server/merit MeritBank, merits/merit-spend, cap-XP converts to merits"
+}

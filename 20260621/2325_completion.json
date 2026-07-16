@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "cmd/emilyos/main.go: posture get/set (admin-gated, audit event), verb dispatch (capForVerb map, deny → exit 2), audit tail -n N (JSON events), audit verify (chain check → exit 3 on tamper). EMILY_{ACTOR_ID,SESSION_ID,DEVICE_ID,ROLE,POSTURE_PATH,AUDIT_PATH} env vars. Smoke tested: NORMAL→SIEGE, auditor denied EXEC (exit 2), chain verify ok.",
+  "id": 2325,
+  "metadata": null,
+  "recorded_at": "2026-06-21T11:21:16.730977225Z",
+  "run_id": "cli-20260621T112116Z",
+  "source_repo": "EmilyOS",
+  "title": "S46-02: emilyos CLI — posture get/set, verb dispatch, audit tail/verify"
+}

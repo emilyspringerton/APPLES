@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "F5 spawns EMILY/scripts/rsi-loop.sh with MAX_ITERS=1 SKIP_WAIT=1 in goroutine, streams output to RSI ACTIVITY LOG panel. RSI LOOP section shows [F5] hint when not running. ACTIONS panel updated. Header comment documents all F1-F5 hotkeys. emily.cli commit 8c49b66.",
+  "id": 388,
+  "metadata": null,
+  "recorded_at": "2026-06-12T09:16:54.73462772Z",
+  "run_id": "cli-20260612T091654Z",
+  "source_repo": "CLI",
+  "title": "emily tui: F5 = fire RSI loop iteration in background"
+}

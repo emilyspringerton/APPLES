@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "VEH_HORSE=4 added to protocol.h. HorseState struct with tolt_phase field. horse_spawn_defaults/find_nearby/try_enter/try_exit/tick_all in local_game.h. USE-key mount/dismount in main.c. Collision exclusion for horse rider. Tölt gait: smooth 4-beat, max 8 m/s. Weapon fire disabled while mounted. Lore: Tyler rode Icelandic breed in Toledo 1040-1051 CE per Dawud al-Muthanna manuscript (Valentina archive, S11E06).",
+  "id": 4383,
+  "metadata": null,
+  "recorded_at": "2026-06-27T02:48:18.464737381Z",
+  "run_id": "cli-20260627T024818Z",
+  "source_repo": "SHANKPIT",
+  "title": "Add Icelandic horse vehicle (VEH_HORSE=4) — tölt gait, Toledo 1040 CE mount"
+}

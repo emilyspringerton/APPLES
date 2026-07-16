@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "Per-district CI (0.0-1.0). Tick: passive recovery (0.001/s) + superlinear dog decay (dogs^1.5). JammerDecay (0.05/use), FlipDecay (0.08/flip). CleanAudit (+0.10), BirdCorrection (+0.15). Rogue Swarm fires at CI\u003c=0.15 → ROGUE_SWARM event; dogs detach, FOs enter Containment. SetContainmentProgress: 3 objectives → CONTAINMENT_END + SCAR_WRITTEN (permanent scar history). Registry: GetOrCreate/Get/RogueDistricts/TickAll. 24 tests pass.",
+  "id": 3349,
+  "metadata": null,
+  "recorded_at": "2026-06-24T01:49:00.166735034Z",
+  "run_id": "cli-20260624T014900Z",
+  "source_repo": "GoblinFoxDragon",
+  "title": "S119-04: server/integrity — Control Integrity + Rogue Swarm"
+}

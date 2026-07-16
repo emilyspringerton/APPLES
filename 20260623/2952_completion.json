@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "server/worldcrisis/worldcrisis.go: Crisis{Phase,LeyIntegrity,Outcome,PhaseDeadline,objectiveTimes}; Start/Tick(Omens→Burrow→Emergence→SplitWar→FinalWindow→Resolution)/CompleteObjective/LeyDecay/Status/Reset/SetPhaseDuration; concurrentGateMet (≥3 objectives in ConcurrentGate window); auto-fail on LEY=0; 22 tests. protocol: PacketWorldCrisisUpdate=14, PacketObjectiveComplete=15. server-go: crisis goroutine ticks every 250ms, broadcasts JSON {phase,ley_integrity,phase_deadline_unix,outcome} to all clients; PATCHes IDUNA on phase change. idunaclient.PatchWorldEvent(id,phase,ley).",
+  "id": 2952,
+  "metadata": null,
+  "recorded_at": "2026-06-23T03:24:44.203307987Z",
+  "run_id": "cli-20260623T032444Z",
+  "source_repo": "GoblinFoxDragon",
+  "title": "S76-05: World Crisis phase machine — server/worldcrisis (6-phase state machine, LEY_INTEGRITY decay, concurrent objective gate, 22 tests), PacketWorldCrisisUpdate/ObjectiveComplete, server-go goroutine ticks+broadcasts, idunaclient.PatchWorldEvent; 29 packages pass"
+}

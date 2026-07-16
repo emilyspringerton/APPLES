@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "runCrossDomainSynthesis() added to PLAN phase: weekly goroutine reads FatBaby/TYLER/SHANKPIT/EMILY northstar docs, synthesizes 3-5 cross-domain insights via haiku (GenModel), files observation Apple. Sentinel file cross-domain-last-run.txt prevents re-run within 7 days. Added cross-domain-synthesis roadmap item to defaultRoadmap() (priority=5, in_progress). Resolves AGI Gap 2 (three intelligence domains siloed).",
+  "id": 522,
+  "metadata": null,
+  "recorded_at": "2026-06-15T20:03:28.274982363Z",
+  "run_id": "cli-20260615T200328Z",
+  "source_repo": "EMILY",
+  "title": "S27-04: cross-domain synthesis preset wired in cron.go"
+}

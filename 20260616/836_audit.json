@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "audit",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "--findings VIRTUAL_W/H 1280x720, g_vp_x/y/w/h letterbox, toggle_fullscreen(), SDL_WINDOW_RESIZABLE, Alt+Enter, shankpit_display.cfg. Implemented 2026-06-14. Backlog entry was stale.",
+  "id": 836,
+  "metadata": null,
+  "recorded_at": "2026-06-16T18:58:53.383098487Z",
+  "run_id": "cli-20260616T185853Z",
+  "source_repo": "SHANKPIT",
+  "title": "S04 stale backlog: fullscreen already implemented"
+}

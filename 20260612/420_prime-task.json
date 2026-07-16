@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "prime_task",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "task_id: task-7028146271343963862\ntype: analysis\npriority: high\ndesc: Review EDIS Digital Immune System (DIS) and determine what to build FIRST for our WordPress site going live on nginx. We built: Go ring buffer (internal/dis/ring.go), fingerprint engine (header-order hash + session HMAC + threat scoring), HTTP middleware harvester, 4-state posture engine (healthy/elevated/attack/degraded with 30s rolling windows), ad mode selector (svg/text/pow_captcha/none), collector daemon (cmd/dis) tailing nginx access logs + exposing :9099/dis/health. WordPress plugin edis-dis: reads collector health via WP transients (10s TTL, fail-open to svg), [edis_dis_ad] shortcode, admin posture panel. Full spec: EDIS/docs/digital-immune-system.md. Site not live yet — S23-01 (deploy WordPress) is next. Think hard: minimum DIS stack to ship NOW for real protection? What can wait? Hidden failure modes? First 24h watch list? One design mistake to fix before deploying?",
+  "id": 420,
+  "metadata": null,
+  "recorded_at": "2026-06-12T21:33:07.593752133Z",
+  "run_id": "task-7028146271343963862",
+  "source_repo": "CLI",
+  "title": "[prime-task] Review EDIS Digital Immune System (DIS) and determine what to build FIRST for our Word…"
+}

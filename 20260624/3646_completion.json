@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "Auto-detect 'Enter your name:' / 'assword:' prompts in TCP stream; send GFD_USER + GFD_PASS from env; loginState struct prevents duplicate sends",
+  "id": 3646,
+  "metadata": null,
+  "recorded_at": "2026-06-24T18:00:49.868902136Z",
+  "run_id": "cli-20260624T180049Z",
+  "source_repo": "PITVIPER",
+  "title": "S127-01: PitViper --gfd login automation"
+}

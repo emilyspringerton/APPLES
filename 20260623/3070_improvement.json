@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "improvement",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "Wire server/job.CharJob into apps2/mud. setsubjob \u003cJOB\u003e sets sub-job at half main level; subjob shows combined stats. charJob field on player; initialized to WAR no-sub at login.",
+  "id": 3070,
+  "metadata": null,
+  "recorded_at": "2026-06-23T10:45:31.286609443Z",
+  "run_id": "cli-20260623T104531Z",
+  "source_repo": "GoblinFoxDragon",
+  "title": "S93-02: MUD sub-job — server/job.CharJob, setsubjob/subjob commands, combined stats"
+}

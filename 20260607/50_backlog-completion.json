@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "backlog_completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "Unit file at IDUNA/scripts/iduna.service. Embedded SQLite — no MYSQL_DSN required. Restart=on-failure. Deploy: copy to ~/.config/systemd/user/, daemon-reload, enable --now.",
+  "id": 50,
+  "metadata": null,
+  "recorded_at": "2026-06-07T09:35:43.216322842Z",
+  "run_id": "rsi-iter4",
+  "source_repo": "IDUNA",
+  "title": "scripts/iduna.service — systemd user unit for IDUNA process supervision"
+}

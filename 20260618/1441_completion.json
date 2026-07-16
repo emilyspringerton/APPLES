@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "cmd/gsync.go: emily gsync REPO [REPO ...] — git archive HEAD → tar.gz → DriveUpload via IDUNA. Resolves local /home/fatbaby/REPO or clones from git@github.com:emilyspringerton/REPO. --dry-run flag. --org override. Smoke tested: SHANKPIT dry-run produces 0.74 MB archive.",
+  "id": 1441,
+  "metadata": null,
+  "recorded_at": "2026-06-18T13:11:49.844784682Z",
+  "run_id": "cli-20260618T131149Z",
+  "source_repo": "emily.cli",
+  "title": "emily gsync command"
+}

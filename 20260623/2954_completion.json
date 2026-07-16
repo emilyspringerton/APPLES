@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "PacketSkillXP=16 client→server JSON {character_id,skill_name,delta}. server-go: validate auth, delta\u003e0, cap at 1.0/action, goroutine idunaClient.IncrementSkill. idunaclient.IncrementSkill: PATCH /api/v1/characters/:id/skills. go test ✓",
+  "id": 2954,
+  "metadata": null,
+  "recorded_at": "2026-06-23T03:26:13.308773223Z",
+  "run_id": "cli-20260623T032613Z",
+  "source_repo": "GoblinFoxDragon",
+  "title": "S76-06: GFD skill XP server-side — PacketSkillXP=16, server-go handler (server-capped 1.0/action, async IncrementSkill call), idunaclient.IncrementSkill; 29 packages pass"
+}

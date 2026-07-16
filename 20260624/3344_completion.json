@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "DogUnit (Sentry/Escort/Audit modes, Battery drain per mode, Latch extra drain). Abilities: Mark/StartLatch/EndLatch/HowlBeacon/CustodyLock/ReceiptBurst. SwarmCustodyScore: base*0.85^(n-1) diminishing returns. Swarm struct: Add (cap=8), ActiveCount, CustodyScore, TickAll, Prune, IsLatched. Battery events: BATTERY_LOW (crosses 20%), BATTERY_DEAD. 33 tests pass.",
+  "id": 3344,
+  "metadata": null,
+  "recorded_at": "2026-06-24T01:45:19.223633657Z",
+  "run_id": "cli-20260624T014519Z",
+  "source_repo": "GoblinFoxDragon",
+  "title": "S119-02: server/k9 — K9 unit system + swarm math"
+}

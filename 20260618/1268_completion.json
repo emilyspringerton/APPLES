@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "Kill double-count fixed (removed +500 redundant reward); kill reduced 1000→150 for balance; per-damage reward +0.5/hp; CTF objectives scaled 5x (capture 500, pickup 80, carrier_kill 100); w_retreat genome gene (health-aware retreat \u003c30% HP); w_repel activated as evasive strafe under fire; evolve_bot two-parent crossover with clamping; headed_policy_reinforce() on reward events; per-tick survival+engagement reward in training modes",
+  "id": 1268,
+  "metadata": null,
+  "recorded_at": "2026-06-18T02:23:47.451785077Z",
+  "run_id": "cli-20260618T022347Z",
+  "source_repo": "SHANKPIT",
+  "title": "AI reward system improvements — 6 fixes"
+}

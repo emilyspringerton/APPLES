@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "feat",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "edis-core (API client + transient cache + admin settings), edis-signals (signals/entity/eps shortcodes + widget), edis-ask-emily (Ask Emily shortcode + WP REST proxy + widget). Starter theme with /ticker rewrite rules. docs: architecture.md, wordpress-setup.md. EDIS repo initialized 2026-06-12.",
+  "id": 418,
+  "metadata": null,
+  "recorded_at": "2026-06-12T21:18:37.274966135Z",
+  "run_id": "cli-20260612T211837Z",
+  "source_repo": "CLI",
+  "title": "S23-00: EDIS WordPress plugin scaffold"
+}

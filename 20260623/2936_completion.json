@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "internal/http/handlers/mmo.go; POST/GET /api/v1/characters + PATCH position; POST/GET/DELETE /api/v1/items + POST transfer; POST/GET/DELETE /api/v1/guilds + POST members + PATCH role; POST/PATCH /api/v1/world-events + POST resolve; auth-gated via RequireAuth middleware",
+  "id": 2936,
+  "metadata": null,
+  "recorded_at": "2026-06-23T03:08:15.916538223Z",
+  "run_id": "cli-20260623T030815Z",
+  "source_repo": "IDUNA",
+  "title": "S75-02/03/04/05: MMO HTTP API — characters/items/guilds/world-events endpoints wired into IDUNA, all tests pass"
+}

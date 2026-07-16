@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "Wrote EMILY/docs/API_KEY_UNLOCK.md: 6-step sequence (set key, restart, emily context build, compression A/B test, verify FABLE, verify cron). Includes degraded-mode table showing what runs with/without key. Cost note: haiku-only, SonnetModel unused.",
+  "id": 472,
+  "metadata": null,
+  "recorded_at": "2026-06-13T21:25:56.561907494Z",
+  "run_id": "cli-20260613T212556Z",
+  "source_repo": "EMILY",
+  "title": "S22-14: API key unlock sequence doc"
+}

@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "signal_observation",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "severity: info\n\nsource: emily observe (CLI)",
+  "id": 84,
+  "metadata": null,
+  "recorded_at": "2026-06-07T23:05:00.814267799Z",
+  "run_id": "cli-obs-20260607T230500Z",
+  "source_repo": "CLI",
+  "title": "[INFO] why are there two emily binaries in the cli folder is one from before some refactor or somet…"
+}

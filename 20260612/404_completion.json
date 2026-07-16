@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "S22-01 goldenbuild.go: GoldenDocCompiler reads 16 Tier 1 golden docs, compresses each via\nclaude-haiku bilingual Chinese/English (≤180 tokens/source), writes context/full-system-context.md.\nMaybeRebuild checks mtimes — only rebuilds when a source changes.\n\nS22-02 dynamic system prompt: buildEmilySystemPrompt(emilyRoot) reads full-system-context.md and\nprepends to static emilyStaticPrompt. 3 call sites updated. Emily Prime now has live cross-repo\nnorthstar context on every conversation turn.\n\nS22-03 cron wiring: MaybeRebuild called at start of RunOnce() in cron.go. CronConfig gets\nEmilyRoot field (from EMILY_ROOT env). Context refreshes each 5-min cycle.\n\nS22-04 FABLE full context: fableLoadContext() helper reads full-system-context.md first, falls\nback to GOLDEN.md. Both handleFableAdvice and handleFableExecute updated.\n\nS22-06 EMILY/docs/NORTHSTAR.md: Written. 3-agent architecture, cron cycle docs, key files table,\ngolden context pipeline diagram, revenue context, what \"done\" looks like.\n\nAll: go build + go test pass. CHANGELOG updated.",
+  "id": 404,
+  "metadata": null,
+  "recorded_at": "2026-06-12T20:18:57.540277179Z",
+  "run_id": "cli-20260612T201857Z",
+  "source_repo": "CLI",
+  "title": "S22 Emily Prime Brain: goldenbuild + dynamic prompt + FABLE full context + NORTHSTAR"
+}

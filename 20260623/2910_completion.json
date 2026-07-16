@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "server/loot/loot.go; Pool{MobID,Eligible,Items}; Lot(slot,itemID)-\u003eroll 1-999; Pass-\u003e0; Ready checks all acted; Resolve winner = highest roll, deterministic tie-break by slot asc; partial resolve treats pending as pass",
+  "id": 2910,
+  "metadata": null,
+  "recorded_at": "2026-06-23T02:50:09.449710236Z",
+  "run_id": "cli-20260623T025009Z",
+  "source_repo": "GoblinFoxDragon",
+  "title": "S87-02: Treasure pool — Pool Lot/Pass/Resolve, highest roll wins, all-pass no-winner, tie-break by slot, 15 tests"
+}

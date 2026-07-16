@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "scripts/serve.py: Python stdlib HTTP server loads HF checkpoint at startup, serves POST /generate (prompt/max_tokens/temperature) and GET /health. No flask/fastapi dependency. Tested: model loads in \u003c1s, inference works end-to-end. src/main.c: --prompt TEXT flag added; tokenizes via gpt2_encode, generates, decodes via gpt2_decode. scripts/build_tokenizer_bin.py: converts tokenizer.json to C binary format (50257 tokens, 50000 merges, 1.1MB). EMILY emily-agent: POST /api/v1/gpt2/generate + GET /api/v1/gpt2/health proxy endpoints in api_gpt2.go. Makefile: make tokenizer target.",
+  "id": 536,
+  "metadata": null,
+  "recorded_at": "2026-06-15T20:18:45.901921385Z",
+  "run_id": "cli-20260615T201845Z",
+  "source_repo": "gpt2-alpine-c",
+  "title": "S26: GPT-2 inference API endpoint live on :8088"
+}

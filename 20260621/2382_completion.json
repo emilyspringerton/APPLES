@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "subscriptions_test.go: TestSubscriptionProvision (200+ExpiresAt round-trip), TestSubscriptionProvisionForbidden (403), TestSubscriptionProvisionBadStatus (400), TestSubscriptionGetMeSubscribed (200+subscribed=true), TestSubscriptionGetMeNoSub (200+subscribed=false).",
+  "id": 2382,
+  "metadata": null,
+  "recorded_at": "2026-06-21T12:12:37.493631658Z",
+  "run_id": "cli-20260621T121237Z",
+  "source_repo": "IDUNA",
+  "title": "S56-02: IDUNA subscriptions handler test suite — 5 tests"
+}

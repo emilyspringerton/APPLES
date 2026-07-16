@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "observation",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "Added item to BACKLOG.md section 23.\nItem: S23-01: LIVE DEPLOY — sprint-deploy.sh ready to run. Requires: sudo bash /home/fatbaby/EDIS/ops/sprint-deploy.sh. Pre-built DIS binary at /tmp/edis-dis. DNS: iduna.farthq.com → 198.58.107.85. MySQL active. Port 80/443 open pending ufw. Status: READY TO EXECUTE.",
+  "id": 556,
+  "metadata": null,
+  "recorded_at": "2026-06-16T01:59:44.802861825Z",
+  "run_id": "backlog-add-1781575184",
+  "source_repo": "emily.cli",
+  "title": "backlog add (section 23): S23-01: LIVE DEPLOY — sprint-deploy.sh ready to run. Requ…"
+}

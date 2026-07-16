@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "signal_observation",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "severity: error\ntimestamp: 2026-05-30T09:52:12Z\n\nfindings:\nsource: emily\nstatus: needs_attention\nsubject: entity-graph\n\nentity-graph one-shot run completes in under 1 second with zero signals produced, despite var/secwatch containing 846 source_document_persisted records across 9 tickers (AAPL=149, MSTR=212, IBKR=128, BRK.B=86, BEN=78, LLY=66, NVDA=61, GOOG=52, BLK=14).\n\nSYMPTOMS:\n- fatbaby_run_entity_graph_once returns \"one-shot complete\" in ~0s\n- fatbaby_signal_summary returns \"No signals yet\"\n- fatbaby_signal_summary confirms store is empty\n- No entity-graph observation has ever been published (latest.json still contains Emily's EPS observation)\n- processor is running (PID 1071683) and has written 846 documents correctly\n\nROOT CAUSE HYPOTHESIS:\nentity-graph is almost certainly reading from an empty or wrong path. The process log shows store=./v\n\nsuggested_fix:\n1. Check the store reader in cmd/entity-graph or internal/entity-graph — verify the file glob/pattern matches what processor actually writes to var/secwatch (check filename format and extension).\n2. Check for a cursor or offset file in var/entity-graph/ — if it records a high watermark from a previous run, delete or reset it so entity-graph re-scans all 846 documents.\n3. Add a startup log line: \"f",
+  "id": 33,
+  "metadata": null,
+  "recorded_at": "2026-06-07T02:38:03.589228868Z",
+  "run_id": "20260530T095212Z",
+  "source_repo": "PRRJECT_FATBABY",
+  "title": "FatBaby obs [error]: entity-graph reads 0 filings despite 846 source documents in var/secwatch"
+}

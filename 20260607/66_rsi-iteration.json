@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "rsi_iteration",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "Iteration 6: emily status PROCESSES section — observation-watcher pgrep, emily-sync.service systemctl, latest obs age. Apple #63.\nIteration 7: emily apples list --since N filter (minutes). apples_test.go 6 new tests. Total: 75 tests. Apple #64.\nIteration 8: prime-tasks/ dir visibility in PROCESSES panel — file count + newest age. Apple #65.\nAll emily.cli BACKLOG sections (1-3) fully closed. emily.cli v0.5.0, 75 tests, 5 packages, pushed.",
+  "id": 66,
+  "metadata": null,
+  "recorded_at": "2026-06-07T09:41:15.921034669Z",
+  "run_id": "rsi-session4",
+  "source_repo": "emily.cli",
+  "title": "RSI session 4 complete — Iterations 6-8: PROCESSES panel, apples --since, prime-tasks visibility"
+}

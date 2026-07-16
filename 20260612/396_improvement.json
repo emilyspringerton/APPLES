@@ -1,0 +1,15 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "improvement",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "cron.go: fires FCM push on task.Status==success from Apple-filing goroutine. Includes apple_id in data payload. Priority: normal. commit: 50dc5a1",
+  "id": 396,
+  "metadata": {
+    "tokens_used": 0
+  },
+  "recorded_at": "2026-06-12T09:46:44.753963488Z",
+  "run_id": "rsi-cycle-push",
+  "source_repo": "EMILY",
+  "title": "S9: MJOLNIR M4 RSI cycle completion FCM push"
+}

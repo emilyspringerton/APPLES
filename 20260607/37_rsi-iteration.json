@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "rsi_iteration",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "All four commands operational: observe (writes to PRRJECT_FATBABY obs pipeline), apples list (queries IDUNA), apples post, status. First real observation posted. Build complete, ready for install.",
+  "id": 37,
+  "metadata": null,
+  "recorded_at": "2026-06-07T02:49:22.513960488Z",
+  "run_id": "cli-20260607T024922Z",
+  "source_repo": "emily.cli",
+  "title": "emily.cli v0.1.0 — first compile and smoke test passed"
+}

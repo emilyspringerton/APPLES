@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "improvement",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "## Analysis: Emily OS RSI Token Spend\n\n### EMILY RSI Engine (this cycle — IMPLEMENTED)\n- Prior: system prompt sent uncached, no beta header → ~14,000T overhead/task\n- Fix: AnthropicClient.Complete() now uses content-block array + cache_control:ephemeral\n- Also: cr.Value truncated to ≤120 chars in buildGenerationPrompt\n- Savings: ~6,300T/task (90% on 700T system × 10 calls)\n- EMILY commit 57cfb90\n\n### FatBaby emily-agent (prior cycle — already fixed, commit 7b7d688)\n- ~35,640T/tick savings (81% reduction on 4,400T system+tools prefix)\n\n### observation-watcher dispatches (next cycle)\n- batch-window mode exists but opt-in; enable 60s default → amortise ~600T footer/batch\n- rules-JSON skip when hash unchanged → save ~500T/entity-graph dispatch\n\n## Prioritised remaining\n1. Enable --batch-window 60s default for prime-task dispatch\n2. Skip rules-JSON inline when entity-graph-rules.json hash unchanged",
+  "id": 169,
+  "metadata": null,
+  "recorded_at": "2026-06-10T15:17:10.030905306Z",
+  "run_id": "cli-20260610T151710Z",
+  "source_repo": "CLI",
+  "title": "Token efficiency RSI: EMILY AnthropicClient prompt caching (task-2263691656595819891)"
+}

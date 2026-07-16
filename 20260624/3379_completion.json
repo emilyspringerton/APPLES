@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "server/watcher: WatcherState{alertness/trust/bias} per district. Alertness rise/decay, trust shift, enforcement trigger at alert≥65+trust≤-20. 19 tests. server/enforcement: 5-level state machine (Quiet→Alert→Active→Heavy→Lockdown), cop density (0/1/2/4/8), K9 eligibility, FO lockdown effects. 18 tests. All GFD tests pass.",
+  "id": 3379,
+  "metadata": null,
+  "recorded_at": "2026-06-24T02:18:57.338051877Z",
+  "run_id": "cli-20260624T021857Z",
+  "source_repo": "GoblinFoxDragon",
+  "title": "S122-02: Watcher + Enforcement simulation packages"
+}

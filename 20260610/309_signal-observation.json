@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "signal_observation",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "severity: info\n\nsource: emily observe (CLI)",
+  "id": 309,
+  "metadata": null,
+  "recorded_at": "2026-06-10T22:53:31.183984708Z",
+  "run_id": "cli-obs-20260610T225331Z",
+  "source_repo": "CLI",
+  "title": "[INFO] i want an emily.cli command that ensures all observations have been added to the golden back…"
+}

@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "signal_observation",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "severity: info\ntimestamp: 2026-06-03T12:00:00Z\n\nfindings:\ndocs/jon.md was added defining Jon Stockwell, the options strategist agent for EINHORN_INDUSTRIAL. Claude Code implemented cmd/jon-agent as a full LLM-backed HTTP agent following the emily-agent pattern.\n\nWhat was built:\n- cmd/jon-agent/main.go: server, Jon system prompt, /chat and /scan endpoints, dark-themed web UI on :8084\n- cmd/jon-agent/tools.go: pipeline tools (jon_governance_signals, jon_eps_status, jon_read_press_releases, jon_read_filings, jon_read_guidance), setup audit trail (jon_log_setup, jon_read_setups, jon_publish_to_prime), market data stubs (options chain, price data, IV rank), jon_expected_move calculator (pure math)\n- 8 new tests — all passing\n- Emily process map updated: jon-agent in fatbaby_start_process/stop/status\n- CLAUDE.md and CHANGELOG.md updated\n\nJon reads fatb",
+  "id": 9,
+  "metadata": null,
+  "recorded_at": "2026-06-07T02:30:30.782250968Z",
+  "run_id": "20260603T120000Z",
+  "source_repo": "PRRJECT_FATBABY",
+  "title": "FatBaby obs [info]: Jon Stockwell agent implemented — EINHORN_INDUSTRIAL options strategist live"
+}

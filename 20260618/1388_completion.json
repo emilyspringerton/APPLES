@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "Bot now calls 'emily observe' on three events: (1) session start on launch, (2) connected on PacketWelcome with clientID/sceneID, (3) kill confirmed on PacketImpact hit_entity=1 with total kill count and seq. Non-blocking goroutine exec. Rate-limited: min 15s between observations to prevent kill-streak spam. -no-report flag disables all reporting.",
+  "id": 1388,
+  "metadata": null,
+  "recorded_at": "2026-06-18T11:50:06.663660476Z",
+  "run_id": "cli-20260618T115006Z",
+  "source_repo": "SHANKPIT",
+  "title": "S38-03: emily-bot kill/event reporting to Emily Prime"
+}

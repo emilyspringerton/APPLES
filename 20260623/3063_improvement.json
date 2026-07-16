@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "improvement",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "Wire server/chat.Router into MUD. Register/unregister on connect/disconnect, sync session on zone transfer, route say/tell/yell/guild through Router.Deliver(), display decoded packets in MUD format.",
+  "id": 3063,
+  "metadata": null,
+  "recorded_at": "2026-06-23T10:40:21.017389899Z",
+  "run_id": "cli-20260623T104021Z",
+  "source_repo": "GoblinFoxDragon",
+  "title": "S92-02: MUD chat router — say/tell/yell/guild via server/chat Router"
+}

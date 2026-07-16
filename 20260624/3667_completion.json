@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "emily.cli: emily memory consolidate merges *.json fragments in emily-memory/ → consolidated.json; emily-agent: consolidateMemoryFragments() + memory-consolidate-last-run.txt sentinel (7-day period)",
+  "id": 3667,
+  "metadata": null,
+  "recorded_at": "2026-06-24T18:19:29.775873261Z",
+  "run_id": "cli-20260624T181929Z",
+  "source_repo": "EMILY",
+  "title": "S125-08: emily memory consolidate + weekly PLAN-phase hook"
+}

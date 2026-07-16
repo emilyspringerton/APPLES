@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "improvement",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "Wire server/guild Registry into apps2/mud. Players can found linkshells (ls-create), forge Feathers to invite (ls-invite), leave (ls-leave), and inspect rosters (ls-info). Guild chat gated via CanChat(). GuildID synced into chat.Session for guild chat routing.",
+  "id": 3066,
+  "metadata": null,
+  "recorded_at": "2026-06-23T10:42:07.804957006Z",
+  "run_id": "cli-20260623T104207Z",
+  "source_repo": "GoblinFoxDragon",
+  "title": "S92-03: MUD linkshell guild system — server/guild Registry, ls-create/invite/leave/info commands"
+}

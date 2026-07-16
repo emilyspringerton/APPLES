@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "api_posture.go: GET /api/v1/emily/posture returns {posture, llm_blocked, queried_at}. Route registered in main.go. llm_blocked is true for SIEGE and EXITED states — no log side-effects.",
+  "id": 2346,
+  "metadata": null,
+  "recorded_at": "2026-06-21T11:39:53.460726305Z",
+  "run_id": "cli-20260621T113953Z",
+  "source_repo": "EMILY",
+  "title": "S49-01: emily-agent GET /api/v1/emily/posture endpoint"
+}

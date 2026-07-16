@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "Created EMILY/context/golden-docs-index.md (18 Tier 1 sources). Modified goldenbuild.go NewGoldenDocCompiler to call loadGoldenIndex — reads manifest at startup, falls back to hardcoded list if absent. Same manifest loader added to emily.cli/cmd/context.go. Adding a new golden doc now requires only appending a row to the index file, no Go change.",
+  "id": 470,
+  "metadata": null,
+  "recorded_at": "2026-06-13T21:24:16.763395603Z",
+  "run_id": "cli-20260613T212416Z",
+  "source_repo": "EMILY",
+  "title": "S22-11: golden-docs-index.md manifest + manifest-driven goldenbuild"
+}

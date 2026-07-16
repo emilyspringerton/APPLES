@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "stream.go added to emily-agent with appendStream() NDJSON writer. Wired at cycle_start/cycle_end/apple_filed. emily sync --stream git-commits the log. Commits: EMILY 645ece9, emily.cli 6fd1a28.",
+  "id": 345,
+  "metadata": null,
+  "recorded_at": "2026-06-11T10:31:26.000840127Z",
+  "run_id": "cli-20260611T103125Z",
+  "source_repo": "CLI",
+  "title": "Single log stream — emily-stream.ndjson + emily sync --stream"
+}

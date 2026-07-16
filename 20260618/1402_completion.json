@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "CHANGELOG updated in gpt2-alpine-c: feat(game-ai): S39-01 game state serializer + action decoder — serialize_snapshot() PacketSnapshot→token string, decode_action() token string→UserCmd dict, encode_action() for replay logging; 14 unit tests pass (Apple #1401)",
+  "id": 1402,
+  "metadata": null,
+  "recorded_at": "2026-06-18T12:12:56.567808863Z",
+  "run_id": "changelog-1781784776",
+  "source_repo": "gpt2-alpine-c",
+  "title": "changelog(gpt2-alpine-c): feat(game-ai): S39-01 game state serializer + action decode…"
+}

@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "1) internal/notify: Mailer interface + MailgunMailer (stdlib HTTP, no SDK) + SMTPMailer (STARTTLS) + NullMailer + 7 tests. 2) earningscal: CompanyResolver watchlist-based ticker matching + CleanIssuer for timestamp-prefix stripping + 5 tests. 3) earnings-calendar: uses resolver in PR body scan — only emits announced records for watchlisted tickers. 4) cmd/earnings-alert: weekly HTML email of upcoming earnings (dry-run + Mailgun + SMTP modes). All tests pass.",
+  "id": 3857,
+  "metadata": null,
+  "recorded_at": "2026-06-25T09:47:12.912993415Z",
+  "run_id": "cli-20260625T094712Z",
+  "source_repo": "PRRJECT_FATBABY",
+  "title": "earnings engine audit + email notification package + earnings-alert command"
+}

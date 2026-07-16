@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "improvement",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "field_bridge.go: archetypesBridge implements archetypes.LLMClient via raw Anthropic Messages API. NewFieldFromEnv() builds Field from ANTHROPIC_API_KEY. AugmentTaskWithField() runs Field.Invoke(intent, description) with 30s timeout; prepends resonance header [FIELD Ψ(t) | corridor | Δφ | weights | spirits] + blended E1/E2 output to task.Description. Called in RunOnce DECIDE phase after pickTask for pending tasks only. cron.go: AutonomousCycle.field field added; NewAutonomousCycle wires it; all tests pass.",
+  "id": 3216,
+  "metadata": null,
+  "recorded_at": "2026-06-23T19:50:17.04619287Z",
+  "run_id": "cli-20260623T195017Z",
+  "source_repo": "EMILY",
+  "title": "S102-05: THE_FIELD wired into Emily Prime RSI DECIDE phase — AugmentTaskWithField on every new task"
+}

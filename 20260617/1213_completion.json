@@ -1,0 +1,13 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:38:06Z",
+  "backfilled": true,
+  "body": "fetch_clean.go: per-host 150ms throttle, 3-retry 429 backoff (30s/60s/300s); worker.go: signal_failed in seen set + early URL guard; max-doc-bytes 16\u003c\u003c20; guidance/dividend/buyback-watcher ticker=='' guard",
+  "id": 1213,
+  "metadata": null,
+  "recorded_at": "2026-06-17T23:25:56.748306051Z",
+  "run_id": "cli-20260617T232556Z",
+  "source_repo": "PRRJECT_FATBABY",
+  "title": "S36-01: EDGAR 429 retry+throttle; S36-02: skip empty-URL filings; S36-03: raise doc limit 4MB→16MB; S36-05: guard empty ticker"
+}
