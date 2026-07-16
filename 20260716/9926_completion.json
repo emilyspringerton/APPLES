@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000010",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T22:35:05Z",
+  "body": "Artifact 35ed29e678ffe2ec667881cc67e2dfb0d654417ff29bbb52c15803d493443ed4 (kind=eps_extractor) promoted to golden.\nReason: bootstrap: no prior eps_extractor artifact exists, nothing to regress against",
+  "id": 9926,
+  "metadata": null,
+  "run_id": "35ed29e678ffe2ec667881cc67e2dfb0d654417ff29bbb52c15803d493443ed4",
+  "source_repo": "PRRJECT_FATBABY",
+  "title": "NORN: eps_extractor promoted"
+}
