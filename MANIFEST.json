@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-17T21:52:04Z",
+  "generated_at": "2026-07-16T01:03:24Z",
   "repo": "APPLES",
-  "count": 600,
+  "count": 601,
   "apples": [
     {
       "id": 480,
@@ -4802,6 +4802,14 @@
       "source_repo": "emily",
       "date": "20260617",
       "archived_at": "2026-06-17T21:52:04Z"
+    },
+    {
+      "id": 9827,
+      "type": "completion",
+      "title": "post-reboot: fix migration translator INTEGER AUTO_INCREMENT bug + recover crash-looped 202606250002 migration",
+      "source_repo": "IDUNA",
+      "date": "20260716",
+      "archived_at": "2026-07-16T01:03:24Z"
     }
   ]
 }

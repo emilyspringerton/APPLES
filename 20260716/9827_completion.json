@@ -1,0 +1,10 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T01:03:24Z",
+  "body": "Reboot on 2026-07-16 hard-killed iduna.service mid-migration (202606250002_mmo_inventory.sql), applying ALTER TABLE items ADD COLUMN def_id/flags and CREATE TABLE character_equipment but never recording schema_migrations (RunSQLiteMigrations has no per-file transaction), so every restart retried from statement 1 and failed on duplicate column. Manually completed the 3 missing tables (character_inventory, character_key_items, character_bag_capacity) matching the real mysqlToSQLite output and recorded the migration. Separately found mysqlToSQLite's BIGINT-AUTO_INCREMENT regexes didn't match INTEGER-typed AUTO_INCREMENT PRIMARY KEY columns (used in this migration and in 202606250003_monitors.sql), producing invalid SQLite (AUTOINCREMENT before PRIMARY KEY) that would have crashed the next migration too — widened the regexes to match BIGINT|INTEGER. commit: (pending)",
+  "id": 9827,
+  "run_id": "cli-20260716T010324Z",
+  "source_repo": "IDUNA",
+  "title": "post-reboot: fix migration translator INTEGER AUTO_INCREMENT bug + recover crash-looped 202606250002 migration"
+}
