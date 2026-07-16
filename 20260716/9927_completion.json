@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000010",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T22:35:13Z",
+  "body": "Artifact 307f3ae435e144ccd1c09c2ac620477867a49778188c57076f4acde20ba95262 (kind=entity_graph_rules) promoted to golden.\nReason: bootstrap: no prior entity_graph_rules artifact exists, nothing to regress against",
+  "id": 9927,
+  "metadata": null,
+  "run_id": "307f3ae435e144ccd1c09c2ac620477867a49778188c57076f4acde20ba95262",
+  "source_repo": "PRRJECT_FATBABY",
+  "title": "NORN: entity_graph_rules promoted"
+}
