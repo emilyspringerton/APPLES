@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T21:03:54Z",
+  "body": "eps_headlines_to_records() joins var/eps/articles.ndjson against oracle.ndjson by source_identity, one record per article never chunked, verdict-gated (only confirmed cases FABLE-eligible per Lobian rule 1). write_snapshot() produces immutable content-addressed pairs under var/snapshots/ -- the manifest contract Go fabledata inherits. Eval tombstoning wired (no-op until S145-02 freezes a suite). New --fable-eps preset. 12 new tests, 40 total, all green. Verified live against the real (currently unreconciled) EPS oracle store. commit gpt2-alpine-c 458756c.",
+  "id": 9913,
+  "metadata": null,
+  "run_id": "cli-20260716T210354Z",
+  "source_repo": "gpt2-alpine-c",
+  "title": "S146-01..04: EPS snapshot pipeline for FABLE E0 (Track B)"
+}
