@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-16T21:07:49Z",
+  "generated_at": "2026-07-16T21:19:33Z",
   "repo": "APPLES",
-  "count": 9915,
+  "count": 9916,
   "apples": [
     {
       "id": 1,
@@ -79322,6 +79322,14 @@
       "source_repo": "gpt2-alpine-c",
       "date": "20260716",
       "archived_at": "2026-07-16T21:07:49Z"
+    },
+    {
+      "id": 9916,
+      "type": "observation",
+      "title": "Cycle 8470 — triage: 9 new tasks",
+      "source_repo": "emily",
+      "date": "20260716",
+      "archived_at": "2026-07-16T21:19:33Z"
     }
   ]
 }
