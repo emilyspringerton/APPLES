@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:42:21Z",
+  "body": "New PATCH /api/v1/apples/{id} (gpt2_fingerprint, model_fingerprint, astrology field set), async caller-side enrichment per TOWERPRINT.md design. Also fixed a real concurrency bug: syncAppleToGit's unguarded goroutine could race git commit/push across concurrent Apple creation with no retry on rejection -- root-caused a live data-integrity gap (9226 of 9908 Apples were missing from the APPLES git mirror; backfilled separately, APPLES commit 699bdd5). Added gitSyncMu + retry-with-rebase. Verified live end-to-end. commit IDUNA c9217df.",
+  "id": 9910,
+  "metadata": null,
+  "run_id": "cli-20260716T204221Z",
+  "source_repo": "IDUNA",
+  "title": "S147-02/03/05: Apple enrichment PATCH endpoint + git-sync race fix"
+}
