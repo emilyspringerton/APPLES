@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-16T01:08:40Z",
+  "generated_at": "2026-07-16T01:09:29Z",
   "repo": "APPLES",
-  "count": 603,
+  "count": 604,
   "apples": [
     {
       "id": 480,
@@ -4826,6 +4826,14 @@
       "source_repo": "emily",
       "date": "20260716",
       "archived_at": "2026-07-16T01:08:40Z"
+    },
+    {
+      "id": 9830,
+      "type": "completion",
+      "title": "post-reboot: fix broken emily-agent daemon idempotency (pgrep pattern could never match) + broad status.go process matching",
+      "source_repo": "emily.cli",
+      "date": "20260716",
+      "archived_at": "2026-07-16T01:09:29Z"
     }
   ]
 }

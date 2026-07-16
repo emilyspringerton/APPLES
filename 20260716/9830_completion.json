@@ -1,0 +1,10 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T01:09:29Z",
+  "body": "Discovered while recovering from the 2026-07-16 reboot: the emily-agent daemon's pgrep idempotency pattern in cmd/start.go could never match its real invocation (go run . -- --daemon has no 'emily-agent' substring in argv), so every emily start re-run — including emily-system.service's reboot oneshot — would spawn a duplicate daemon; confirmed via a live restart test before the fix (start.go/status.go both falsely reported unrelated processes, including this Claude Code session's own pid, as the daemon). Replaced with a PID-file liveness check (EMILY/var/emily-agent.pid) matching the existing tuiPIDFile convention. Also tightened status.go's bare observation-watcher/emily-agent pgrep substrings, which matched any process mentioning those names. Verified: emily start --iduna now correctly reports 'already running' with the real live pids on a second invocation, and emily status shows accurate pids. commit: (pending)",
+  "id": 9830,
+  "run_id": "cli-20260716T010929Z",
+  "source_repo": "emily.cli",
+  "title": "post-reboot: fix broken emily-agent daemon idempotency (pgrep pattern could never match) + broad status.go process matching"
+}
