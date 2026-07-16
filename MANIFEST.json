@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-16T22:05:38Z",
+  "generated_at": "2026-07-16T22:19:25Z",
   "repo": "APPLES",
-  "count": 9923,
+  "count": 9924,
   "apples": [
     {
       "id": 1,
@@ -79386,6 +79386,14 @@
       "source_repo": "emily",
       "date": "20260716",
       "archived_at": "2026-07-16T22:05:38Z"
+    },
+    {
+      "id": 9924,
+      "type": "completion",
+      "title": "S141-03: entity-graph recon matcher migrated to NORN; GEE leg disclosed as unbuildable",
+      "source_repo": "PRRJECT_FATBABY",
+      "date": "20260716",
+      "archived_at": "2026-07-16T22:19:25Z"
     }
   ]
 }
