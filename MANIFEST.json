@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-16T01:09:29Z",
+  "generated_at": "2026-07-16T01:23:30Z",
   "repo": "APPLES",
-  "count": 604,
+  "count": 605,
   "apples": [
     {
       "id": 480,
@@ -4834,6 +4834,14 @@
       "source_repo": "emily.cli",
       "date": "20260716",
       "archived_at": "2026-07-16T01:09:29Z"
+    },
+    {
+      "id": 9831,
+      "type": "observation",
+      "title": "Cycle 8391 — triage: 9 new tasks",
+      "source_repo": "emily",
+      "date": "20260716",
+      "archived_at": "2026-07-16T01:23:30Z"
     }
   ]
 }
