@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T20:51:36Z",
+  "body": "Data-quality audit found secwatch/processor/prwatch/prwatch-body had been down since 2026-06-17 (~29 days) -- only read-side services were restarted in the earlier post-reboot recovery. Restarted all four with production flags (secwatch: watchlist+5m poll+2rps matching ops/systemd/fatbaby-secwatch.service; processor: 4 workers+15s poll matching its unit; prwatch/prwatch-body: defaults, no systemd unit existed for these two previously). Confirmed alive via ps, prwatch already discovered 25 new items and prwatch-body cleared its backlog batch (512, 0 new) within the first minute. processor confirmed configured for real haiku classification (provider=haiku model=claude-haiku-4-5-20251001), addressing the audit's stub-data concern once new filings flow through. Founder confirmed restart via AskUserQuestion.",
+  "id": 9912,
+  "metadata": null,
+  "run_id": "cli-20260716T205136Z",
+  "source_repo": "PRRJECT_FATBABY",
+  "title": "Restarted core ingestion after 29-day outage (secwatch/processor/prwatch/prwatch-body)"
+}

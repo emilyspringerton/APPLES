@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-16T20:48:38Z",
+  "generated_at": "2026-07-16T20:51:36Z",
   "repo": "APPLES",
-  "count": 9911,
+  "count": 9912,
   "apples": [
     {
       "id": 1,
@@ -79290,6 +79290,14 @@
       "source_repo": "emily",
       "date": "20260716",
       "archived_at": "2026-07-16T20:48:38Z"
+    },
+    {
+      "id": 9912,
+      "type": "completion",
+      "title": "Restarted core ingestion after 29-day outage (secwatch/processor/prwatch/prwatch-body)",
+      "source_repo": "PRRJECT_FATBABY",
+      "date": "20260716",
+      "archived_at": "2026-07-16T20:51:36Z"
     }
   ]
 }
