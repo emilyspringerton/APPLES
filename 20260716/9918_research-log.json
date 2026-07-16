@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "research_log",
+  "archived_at": "2026-07-16T21:30:32Z",
+  "body": "Web research comparing die-cut vinyl sticker vendors against the VS0 brief (docs/merch/stickers_vs0_brief.md: 3x3in die-cut, holographic variant, \u003c=0.5mm cut tolerance, delta-E\u003c=3, 250-unit minimum batch per SKU). Sources: stickermule.com/products/die-cut-stickers, stickerapp.com/stickers/die-cut-stickers, stickergiant.com/die-cut-stickers, stickeryou.com/products/die-cut-stickers/623, plus web search for holographic pricing, MOQ, turnaround, and API/reorder capability on each. Findings: Sticker Mule ~$0.30/unit at 500, ~$0.23/unit at 1000 (MOQ 50, 4-day turnaround, free shipping); StickerApp ~$0.26/unit at 500 (MOQ 29, no stated turnaround beyond customer reports); StickerGiant MOQ as low as 10/design, 2-5 day standard turnaround (1-day rush), but exact die-cut tier pricing is behind a JS calculator not extractable via static fetch; StickerYou no stated minimum, holographic from 25 units, same JS-calculator pricing gap as StickerGiant. None of the four surfaced a public programmatic reorder API. All well under the brief's $4 unit price target at 250-1000 qty, so margin isn't the differentiator - turnaround/MOQ is. Sticker Mule and StickerGiant are the two live candidates depending on whether first-batch speed (Mule, proven numbers) or long-run reorder speed (Giant, needs a direct sales quote) matters more. Vendor selection NOT made here: the brief's own Production Schedule table names this decision 'Emily (human)', not Emily Prime - added to BACKLOG.md HUMAN UNBLOCK QUEUE as S135-02 rather than auto-picked. Full writeup in BACKLOG.md SECTION 135, S135-02 entry.",
+  "id": 9918,
+  "metadata": null,
+  "run_id": "cli-20260716T213032Z",
+  "source_repo": "EMILY",
+  "title": "S135-02: VS0 sticker vendor comparison — Sticker Mule, StickerApp, StickerGiant, StickerYou"
+}
