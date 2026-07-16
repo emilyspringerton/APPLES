@@ -1,0 +1,10 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T15:38:39Z",
+  "body": "Rebuilt the general Emily training corpus (327 -\u003e 1228 records) so it reflects golden-docs-index.md growth since the 2026-06-14 baseline, including the six newly-registered HQ-SPEC docs (098-103). corpus_stats.py: clean (1 dup, 1 short record). Refreshed var/perplexity-baseline.json using identical eval settings (eval_frac=0.05, batch=1, max_length=64, seed=42, --memory-efficient): 116.76 -\u003e 166.56 PPL. This is an expected rise (larger, more specialized corpus is further out-of-distribution for base GPT-2), not a regression -- old baseline preserved in a history array for comparison. Post-fine-tune target unchanged: PPL \u003c 60 on the same eval set.",
+  "id": 9888,
+  "run_id": "cli-20260716T153839Z",
+  "source_repo": "gpt2-alpine-c",
+  "title": "S146-06: Track A corpus rebuild + perplexity baseline refresh"
+}

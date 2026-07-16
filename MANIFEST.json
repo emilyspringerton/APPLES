@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-16T15:29:41Z",
+  "generated_at": "2026-07-16T15:38:39Z",
   "repo": "APPLES",
-  "count": 661,
+  "count": 662,
   "apples": [
     {
       "id": 480,
@@ -5290,6 +5290,14 @@
       "source_repo": "emily",
       "date": "20260716",
       "archived_at": "2026-07-16T15:29:41Z"
+    },
+    {
+      "id": 9888,
+      "type": "completion",
+      "title": "S146-06: Track A corpus rebuild + perplexity baseline refresh",
+      "source_repo": "gpt2-alpine-c",
+      "date": "20260716",
+      "archived_at": "2026-07-16T15:38:39Z"
     }
   ]
 }
