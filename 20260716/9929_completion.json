@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-16T22:47:06Z",
+  "body": "Implemented the Apples-ledger half of S141-04 (nornd daemon + CLI + Back Office + Apples). NORN/pkg/apples: Client (auth+PostApple), PromoteAndNotify (wraps norn.GradeAndPromote, files an Apple only on a real promotion), PostPromotionFromEnv (env-var convenience). Kept out of pkg/norn itself to preserve its documented zero-IDUNA-dependency contract. Registered NORN as a real IDUNA agent (kernel_agent, apples.write/read + iduna.me.read). Verified live end-to-end: NORN authenticated against the running IDUNA instance and filed two real Apples (#9926 eps_extractor, #9927 entity_graph_rules) from PRRJECT_FATBABY's migration CLIs run against real production data. That live run caught a real bug - IDUNA requires a non-empty run_id, which neither function was setting - fixed by defaulting to the artifact's content hash. 9 new tests. This same live-verification process surfaced a much more serious pre-existing bug in IDUNA's cmd/bootstrap - see the separate incident Apple filed for full detail (bootstrap's writeSecretsEnv was silently destroying previously-provisioned agents' plaintext secrets on every run that provisioned at least one new agent; found, root-caused, and fully recovered same-session). Still open for S141-04: the norn CLI (propose/grade/status/history/freeze-oracle), the nornd cron-scheduled daemon with budget enforcement, and Back Office metrics wiring in IDUNA's admin UI - none started, explicitly deferred. Commits: IDUNA (agent registration + 3 migrations + bootstrap fix), NORN (pkg/apples), PRRJECT_FATBABY (CLI wiring).",
+  "id": 9929,
+  "metadata": null,
+  "run_id": "cli-20260716T224706Z",
+  "source_repo": "NORN",
+  "title": "S141-04 (partial): Apples hookup live — NORN agent registered, ApplePublished wired end-to-end"
+}
