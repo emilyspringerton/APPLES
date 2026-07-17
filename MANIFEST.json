@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-17T23:14:18Z",
+  "generated_at": "2026-07-17T23:21:38Z",
   "repo": "APPLES",
-  "count": 9945,
+  "count": 9946,
   "apples": [
     {
       "id": 1,
@@ -79562,6 +79562,14 @@
       "source_repo": "EMILY",
       "date": "20260717",
       "archived_at": "2026-07-17T23:14:18Z"
+    },
+    {
+      "id": 9946,
+      "type": "completion",
+      "title": "S152-03: systemd supervision for headless pollers (secwatch/processor/prwatch/prwatch-body/eps-reconciler) — live-verified auto-restart on",
+      "source_repo": "PRRJECT_FATBABY",
+      "date": "20260717",
+      "archived_at": "2026-07-17T23:21:38Z"
     }
   ]
 }
