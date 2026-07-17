@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-17T10:56:23Z",
+  "body": "Wrote EMILY/docs/hq-specs/HQ-SPEC-INFRA-105-fates-dns.md (FATES, the name layer): farthq.com DNS northstar grounded in verified 2026-07-17 reality (Cloudflare NS, iduna.farthq.com the only live name, everything else bare ports). Decisions: (1) Cloudflare stays authoritative — no self-hosted NS at single-host scale; sovereignty is zone-as-code in IDUNA/ops/dns as source of truth with Cloudflare as replaceable projection; explicit revisit triggers. (2) One subdomain per product surface, paths within a surface — iduna path split unchanged, gate.farthq.com reserved but owned by the front-door funnel prompt, emily./signals. planned, play. deferred until SHANKPIT ships (grey-cloud UDP tradeoff named), NORN gets no name (no surface). (3) Health-check-gated dns-apply with no --force, three-way intent/books/reality reconciliation probe, three-rung DNS-blindness self-diagnosis ladder ending in MJOLNIR client-side dead-man; biometric-tier NORN instantiation row sketched per PRIME-101 s6 (promotion blesses, dns-apply executes — two locks). Real divergence surfaced: MJOLNIR prod BuildConfig points EMILY_BASE_URL at https://iduna.farthq.com with no nginx :8086 route and no cert (build.gradle.kts:31-32); S151-04 fixes via emily.farthq.com. Build sequence: BACKLOG SECTION 151 (S151-01..07) + HUMAN UNBLOCK QUEUE row (scoped Cloudflare Zone.DNS:Edit token as CLOUDFLARE_DNS_TOKEN + registrar custody audit). Golden-indexed as HQ-FATES tier 2. EMILY commit cb1742c, pushed.",
+  "id": 9932,
+  "metadata": null,
+  "run_id": "cli-20260717T105623Z",
+  "source_repo": "EMILY",
+  "title": "HQ-SPEC-INFRA-105 FATES — DNS name-layer northstar + SECTION 151"
+}
