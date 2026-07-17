@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-17T23:04:48Z",
+  "generated_at": "2026-07-17T23:12:27Z",
   "repo": "APPLES",
-  "count": 9942,
+  "count": 9943,
   "apples": [
     {
       "id": 1,
@@ -79538,6 +79538,14 @@
       "source_repo": "emily",
       "date": "20260717",
       "archived_at": "2026-07-17T23:04:48Z"
+    },
+    {
+      "id": 9943,
+      "type": "completion",
+      "title": "watchdog: monitor headless FatBaby pollers for silent kills (secwatch/eps-reconciler both down for hours undetected)",
+      "source_repo": "EMILY",
+      "date": "20260717",
+      "archived_at": "2026-07-17T23:12:27Z"
     }
   ]
 }
