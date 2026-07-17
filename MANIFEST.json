@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-17T23:12:27Z",
+  "generated_at": "2026-07-17T23:13:27Z",
   "repo": "APPLES",
-  "count": 9943,
+  "count": 9944,
   "apples": [
     {
       "id": 1,
@@ -79546,6 +79546,14 @@
       "source_repo": "EMILY",
       "date": "20260717",
       "archived_at": "2026-07-17T23:12:27Z"
+    },
+    {
+      "id": 9944,
+      "type": "observation",
+      "title": "Cycle 8485 — triage: 9 new tasks",
+      "source_repo": "emily",
+      "date": "20260717",
+      "archived_at": "2026-07-17T23:13:27Z"
     }
   ]
 }
