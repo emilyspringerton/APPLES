@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-17T10:56:23Z",
+  "generated_at": "2026-07-17T11:15:22Z",
   "repo": "APPLES",
-  "count": 9932,
+  "count": 9933,
   "apples": [
     {
       "id": 1,
@@ -79458,6 +79458,14 @@
       "source_repo": "EMILY",
       "date": "20260717",
       "archived_at": "2026-07-17T10:56:23Z"
+    },
+    {
+      "id": 9933,
+      "type": "completion",
+      "title": "S147-02: GPT-2 tower Apple enrichment worker — built, wired, verified live",
+      "source_repo": "EMILY",
+      "date": "20260717",
+      "archived_at": "2026-07-17T11:15:22Z"
     }
   ]
 }
