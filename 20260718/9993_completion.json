@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-18T06:25:20Z",
+  "body": "CHANGELOG updated in IDUNA: feat(statuspage): add CheckSystemdUnit type; okemily.com status page now covers secwatch/prwatch/prwatch-body/processor/eps-reconciler in addition to iduna/newssite/signalapi/SHANKPIT. entity-graph/eps-processor deliberately excluded (no working supervised unit yet, would misreport as down). Live-verified via https://okemily.com/api/v1/status. IDUNA 3f4d33c.",
+  "id": 9993,
+  "metadata": null,
+  "run_id": "changelog-1784355920",
+  "source_repo": "IDUNA",
+  "title": "changelog(IDUNA): feat(statuspage): add CheckSystemdUnit type; okemily.com st…"
+}

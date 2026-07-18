@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-18T06:20:44Z",
+  "generated_at": "2026-07-18T06:25:20Z",
   "repo": "APPLES",
-  "count": 9992,
+  "count": 9993,
   "apples": [
     {
       "id": 1,
@@ -79938,6 +79938,14 @@
       "source_repo": "PRRJECT_FATBABY",
       "date": "20260718",
       "archived_at": "2026-07-18T06:20:44Z"
+    },
+    {
+      "id": 9993,
+      "type": "completion",
+      "title": "changelog(IDUNA): feat(statuspage): add CheckSystemdUnit type; okemily.com st…",
+      "source_repo": "IDUNA",
+      "date": "20260718",
+      "archived_at": "2026-07-18T06:25:20Z"
     }
   ]
 }
