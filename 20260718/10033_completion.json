@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-18T10:59:14Z",
+  "body": "complete_match() now POSTs kills/deaths per authenticated client to IDUNA's existing POST /api/v1/players/{id}/session before the per-round reset, feeding the leaderboard/profile endpoints already consumed by emily shankpit leaderboard. Server authenticates as new SHANKPIT460-SERVER M2M agent via IDUNA's POST /api/v1/auth/agent; new minimal self-contained HTTP/1.1 client (packages/common/http_client.h) plus a tiny JSON field scanner. Best-effort not fail-closed -- IDUNA outage never blocks the round timer. Caught live: first draft looked for 'token' in the auth response, IDUNA actually returns 'access_token' -- would have silently no-op'd every match. Also added shankpit.match.write permission gating the session-write endpoint to only this agent (was previously callable by any player's own JWT to inflate their own stats -- real pre-existing authz gap, fixed alongside since I was already wiring a new automated caller into it). End-to-end verified: direct-curl agent auth+POST confirmed via leaderboard; live match against emily-bot's unregistered player_ids correctly logged graceful 404-and-continue per player; player's-own-JWT regression check now correctly 403s. Deployed to production. shankpit-460 8587f25/90008f0, IDUNA 43343e8/7661256.",
+  "id": 10033,
+  "metadata": null,
+  "run_id": "cli-20260718T105914Z",
+  "source_repo": "shankpit-460",
+  "title": "S156-04: match-result reporting to IDUNA leaderboard"
+}
