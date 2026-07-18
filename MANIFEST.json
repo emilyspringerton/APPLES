@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-18T07:08:29Z",
+  "generated_at": "2026-07-18T07:09:52Z",
   "repo": "APPLES",
-  "count": 10001,
+  "count": 10002,
   "apples": [
     {
       "id": 1,
@@ -80010,6 +80010,14 @@
       "source_repo": "OKEMILY",
       "date": "20260718",
       "archived_at": "2026-07-18T07:08:29Z"
+    },
+    {
+      "id": 10002,
+      "type": "observation",
+      "title": "Cycle 8517 — triage: 9 new tasks",
+      "source_repo": "emily",
+      "date": "20260718",
+      "archived_at": "2026-07-18T07:09:52Z"
     }
   ]
 }
