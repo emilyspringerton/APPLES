@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-18T08:00:11Z",
+  "body": "Founder request: add earnings dates to ticker pages, fixing any data sourcing issues found. Wired the earningscal.Store (already loaded at startup for the standalone /section/earnings page, but never referenced from the per-ticker handler at all) into serveTicker -- new Earnings sidebar box matching the existing Board/Auditor visual pattern, showing the next upcoming date (status + BMO/AMC timing) plus up to 4 most recent past report dates. Split into next-vs-past happens on raw ISO ReportDate before formatting, since formatted display strings don't compare chronologically. Found a real, concrete data sourcing bug while checking the underlying data before wiring it in: 61 of 363 stored records (all confirmed/8k_filing sourced) had FiscalYear=0 -- e.g. earncal-AAPL-FY-0 for a real 2003 10-K filing. Root cause: cmd/earnings-calendar's scanSecFilings only skipped a record when ExtractPeriod found neither a quarter nor a year, so a filing where it found a quarter label but no explicit year sailed through with FiscalYear left at Go's zero value. Fixed the extraction fallback (derive year from the filing date when the text-extracted year is 0), added a filter in the store's load path to hide the now-orphaned bad-ID legacy records (the store is append-only with no deletion, and MakeID bakes the year into the record ID, so corrected records land under new IDs rather than overwriting the bad ones -- without the filter both would show side by side), and ran a one-off migration to re-derive and correct all 61 live records from their real report dates. Live-verified across multiple tickers (AAPL, AMZN, BAC, COST) -- clean rendering, correct fiscal years, no more '0' showing anywhere. New tests: TestRefresh_FiltersFiscalYearZero and TestTickerPage_EarningsDates (covers both the upcoming and past-date render branches). go test ./... green. PRRJECT_FATBABY commits 7fc2b54 + 95764ee.",
+  "id": 10011,
+  "metadata": null,
+  "run_id": "cli-20260718T080011Z",
+  "source_repo": "PRRJECT_FATBABY",
+  "title": "Earnings dates on ticker pages + fixed a real 61-record data bug"
+}

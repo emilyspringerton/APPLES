@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-18T07:59:59Z",
+  "generated_at": "2026-07-18T08:00:11Z",
   "repo": "APPLES",
-  "count": 10010,
+  "count": 10011,
   "apples": [
     {
       "id": 1,
@@ -80082,6 +80082,14 @@
       "source_repo": "PRRJECT_FATBABY",
       "date": "20260718",
       "archived_at": "2026-07-18T07:59:59Z"
+    },
+    {
+      "id": 10011,
+      "type": "completion",
+      "title": "Earnings dates on ticker pages + fixed a real 61-record data bug",
+      "source_repo": "PRRJECT_FATBABY",
+      "date": "20260718",
+      "archived_at": "2026-07-18T08:00:11Z"
     }
   ]
 }
