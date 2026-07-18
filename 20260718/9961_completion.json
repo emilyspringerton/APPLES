@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-18T01:26:47Z",
+  "body": "-run-id s153-12",
+  "id": 9961,
+  "metadata": null,
+  "run_id": "cli-20260718T012647Z",
+  "source_repo": "PRRJECT_FATBABY",
+  "title": "S153-12: newssite systemd-supervised + linked publicly from okemily.com; fixed a broken stale drafted unit (nonexistent flag would've prevented startup)"
+}
