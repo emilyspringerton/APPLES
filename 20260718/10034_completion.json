@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-18T11:09:18Z",
+  "body": "GET /api/v1/openapi.json (backing okemily.com's public Swagger playground) covered 15 of ~60 registered routes -- wider gap than S153-09 originally scoped (blog/mailing-list only). Added 29 more: SHANKPIT email/Google auth, S156-02/03/04 shankpit endpoints (ticket, queue join/leave/status, players/{id}/session), blog, mailing-list, status page, monitors, subscriptions, push-tokens, intelligence. Deliberately still not documenting the DragonsNShit MMO API or supply/research/kgraph -- disclosed as a remaining gap in a code comment. Separate stale openapi.yaml (Swagger 2.0) question left open, not addressed this pass. Verified live: valid JSON, every path has a responses block, no broken refs, confirmed against both local and public okemily.com endpoints. IDUNA 1568bf7/542f96b.",
+  "id": 10034,
+  "metadata": null,
+  "run_id": "cli-20260718T110918Z",
+  "source_repo": "IDUNA",
+  "title": "S153-09: OpenAPI spec brought up to date (44 routes)"
+}
