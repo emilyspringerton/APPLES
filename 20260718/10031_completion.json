@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-18T10:48:07Z",
+  "body": "Added POST /api/v1/shankpit/queue/join, /leave, GET /status -- in-process, deliberately unpersisted FIFO queue. Once queuing players reach ShankpitQueueMinPlayers=2, everyone currently queuing is matched and given the one persistent game server's connect address (v0: that server IS the match, no per-match instances, no skill-based matching per NORTHSTAR). Matched entries expire after 2min TTL if never reconnected. SHANKPIT_SERVER_ADDR env var configures address, defaults to 127.0.0.1:6969 (play.farthq.com reserved per HQ-SPEC-INFRA-105 but not created pre-launch). 7 new tests. Live end-to-end verified: two real accounts via email auth flow, second join correctly matched both players, leave/TTL-expiry clear state, no-auth 401s. IDUNA e31db51/b2fc5a1.",
+  "id": 10031,
+  "metadata": null,
+  "run_id": "cli-20260718T104807Z",
+  "source_repo": "IDUNA",
+  "title": "S156-03: minimal shankpit-460 matchmaking queue"
+}
