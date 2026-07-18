@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "audit",
+  "archived_at": "2026-07-18T13:17:46Z",
+  "body": "Manual three-way reconciliation (intent/claim-ledger/reality) across the entire golden-docs-index, applying SAGA's own methodology by hand since its tooling doesn't exist yet (HQ-SPEC-DOC-102). Seven parallel research passes covering HQ-SPEC series, KIKORYU+shankpit-460, FATBABY/EMILY orchestration, SHANKPIT/GFD/FIELDOFFICE, MJOLNIR/EmilyOS/PITVIPER/misc, and Emily Prime's own architecture docs. Headline finding: EMILY/docs/THE_FIELD.md is byte-identical to TYLER's explicitly-fictional lore artifact but is golden-indexed as real architecture, drove real production code (archetype-engine, wired into Emily Prime's RSI loop), with no disclosed fiction-to-spec chain of custody. Also found: KAREN has zero code despite 2 specs built on her; SAGA hadn't audited itself until this doc; PITVIPER's NORTHSTAR says every milestone not-started despite 40+ shipped commits; EINHORN-API covers 32% of IDUNA's real routes; STINKIES COMMISSAIRE naming collision across two unrelated products; CLAUDE.md missing 8 of 15 Emily Way principles; shankpit-460 NORTHSTAR had 2 now-false security claims, corrected same day. Full report: EMILY/docs/SAGA_SYSTEM_AUDIT_2026-07-18.md. EMILY 4bb2f09/9ac2295, shankpit-460 3f91f7b.",
+  "id": 10044,
+  "metadata": null,
+  "run_id": "cli-20260718T131746Z",
+  "source_repo": "EMILY",
+  "title": "Full-system SAGA audit — all 90 golden docs"
+}

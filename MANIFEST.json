@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-18T13:09:59Z",
+  "generated_at": "2026-07-18T13:17:46Z",
   "repo": "APPLES",
-  "count": 10043,
+  "count": 10044,
   "apples": [
     {
       "id": 1,
@@ -80346,6 +80346,14 @@
       "source_repo": "emily",
       "date": "20260718",
       "archived_at": "2026-07-18T13:09:59Z"
+    },
+    {
+      "id": 10044,
+      "type": "audit",
+      "title": "Full-system SAGA audit — all 90 golden docs",
+      "source_repo": "EMILY",
+      "date": "20260718",
+      "archived_at": "2026-07-18T13:17:46Z"
     }
   ]
 }
