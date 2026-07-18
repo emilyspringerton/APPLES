@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-18T09:53:12Z",
+  "generated_at": "2026-07-18T09:53:48Z",
   "repo": "APPLES",
-  "count": 10019,
+  "count": 10020,
   "apples": [
     {
       "id": 1,
@@ -80154,6 +80154,14 @@
       "source_repo": "emily",
       "date": "20260718",
       "archived_at": "2026-07-18T09:53:12Z"
+    },
+    {
+      "id": 10020,
+      "type": "completion",
+      "title": "changelog(PRRJECT_FATBABY): fix(eps-reconciler): migrate full-history scan onto eventst…",
+      "source_repo": "PRRJECT_FATBABY",
+      "date": "20260718",
+      "archived_at": "2026-07-18T09:53:48Z"
     }
   ]
 }

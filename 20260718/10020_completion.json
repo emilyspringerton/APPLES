@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-18T09:53:48Z",
+  "body": "CHANGELOG updated in PRRJECT_FATBABY: fix(eps-reconciler): migrate full-history scan onto eventstore.Scan -- 5th instance of the replay-fragility pattern (after signalapi/newssite/entity-graph/processor), found during a full-process-sync audit rather than an incident. Live-verified: 81s -\u003e 26s for the same reconcile scan. PRRJECT_FATBABY 84b7148.",
+  "id": 10020,
+  "metadata": null,
+  "run_id": "changelog-1784368428",
+  "source_repo": "PRRJECT_FATBABY",
+  "title": "changelog(PRRJECT_FATBABY): fix(eps-reconciler): migrate full-history scan onto eventst…"
+}
