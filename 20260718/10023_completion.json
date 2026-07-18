@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-18T10:01:15Z",
+  "body": "Continued the full-process-sync audit: grepped for the from:=uint64(1) paged-ReadFrom-from-seq-1 pattern across the whole module instead of assuming the 5 instances already fixed today (signalapi, newssite, entity-graph, processor, eps-reconciler) were the last. Found and fixed 4 more: eps-processor's loadTickerMap (live right now, called every 30s poll cycle -- the most severe of these four, similar frequency class to signalapi's original crisis), buyback-watcher/dividend-watcher/guidance-watcher's buildTickerMap (identical copy-pasted pattern across all three, called once at startup -- lower frequency but same O(n^2) cost, fixed before their next start rather than after an incident since none are currently running), and internal/processor's sourceDocumentExists (dead code with no production callers, fixed for consistency rather than leaving a 6th grep hit to re-investigate later). Two remaining hits (cmd/backfill-signal-dates, cmd/stub-backfill) are genuinely one-shot CLI tools with no poll loop -- correctly lower priority, left as-is. eps-processor redeployed live (go run picks up HEAD on restart). Noted but did not fix: the same emily start --all invocation re-triggered the known idempotency gap for systemd-managed newssite/signalapi, spawning duplicate attempts that failed to bind and self-resolved harmlessly -- the underlying gap in emily.cli's pgrep pattern is still open, separate issue. go test ./... green throughout. 9 total replay-fragility instances found and fixed across today's session. PRRJECT_FATBABY commit ad3d69c.",
+  "id": 10023,
+  "metadata": null,
+  "run_id": "cli-20260718T100115Z",
+  "source_repo": "PRRJECT_FATBABY",
+  "title": "Full process sync: 4 more replay-fragility instances found (9 total today)"
+}
