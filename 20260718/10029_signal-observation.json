@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "signal_observation",
+  "archived_at": "2026-07-18T10:41:50Z",
+  "body": "severity: info\n\nsource: emily observe (CLI)",
+  "id": 10029,
+  "metadata": null,
+  "run_id": "cli-obs-20260718T104150Z",
+  "source_repo": "CLI",
+  "title": "[INFO] emily-bot QA run vs 127.0.0.1:6969: PASS — 2/2 bots connected, 200 commands sent, saw_peer…"
+}
