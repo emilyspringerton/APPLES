@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-18T07:09:52Z",
+  "generated_at": "2026-07-18T07:18:45Z",
   "repo": "APPLES",
-  "count": 10002,
+  "count": 10003,
   "apples": [
     {
       "id": 1,
@@ -80018,6 +80018,14 @@
       "source_repo": "emily",
       "date": "20260718",
       "archived_at": "2026-07-18T07:09:52Z"
+    },
+    {
+      "id": 10003,
+      "type": "completion",
+      "title": "E2E follow-up pass: weapon variety + concurrency verified, death-invisibility found",
+      "source_repo": "shankpit-460",
+      "date": "20260718",
+      "archived_at": "2026-07-18T07:18:45Z"
     }
   ]
 }

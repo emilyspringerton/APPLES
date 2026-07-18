@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-18T07:18:45Z",
+  "body": "Continued the test-backlog-fix loop from SECTION 155: emily-bot now tracks death/respawn cycles and weapon usage, fixed a real bug caught in the process (weapon-cycle timing used now.Sub(time.Time{}) -- year-1 zero time overflows time.Duration's ~292-year range against a 2026 now, garbling the rotation; replaced with a proper start-time reference). Verified clean: all six weapons land hits, 16 concurrent bots connect/disconnect cleanly with no crashes. Found a real, well-evidenced finding: deaths=0 respawns=0 across every combat run despite confirmed repeated damage, traced to katana_apply_damage (the real hit function for all weapons) calling phys_respawn() synchronously within the same tick as the kill -- state never persists as DEAD long enough for any snapshot broadcast (every 3 ticks, ~48ms) to observe it. Backlogged as S155-03, not fixed inline -- needs a real design decision on respawn delay + explicit kill events, not an improvised patch. shankpit-460 commit d2a56ee, EMILY commit 7452ff4.",
+  "id": 10003,
+  "metadata": null,
+  "run_id": "cli-20260718T071845Z",
+  "source_repo": "shankpit-460",
+  "title": "E2E follow-up pass: weapon variety + concurrency verified, death-invisibility found"
+}
