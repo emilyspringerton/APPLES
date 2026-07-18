@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-18T06:20:43Z",
+  "body": "Found while doing a full FatBaby process health check: newssite, secwatch, and processor were being repeatedly killed by the kernel OOM killer (confirmed via journalctl -- 'A process of this unit has been killed by the OOM killer', restart counters at 7/10/12 and climbing every ~3-7min). Root cause: bin/newssite was still the pre-Phase-0 binary (only bin/signalapi had been rebuilt after the earlier eventstore.Scan fix), so it was still doing the O(n^2) full-history replay on every restart, pushing the whole 3.8GB box into OOM territory and taking secwatch/processor down as collateral damage. Separately found and fixed a fourth instance of the replay-fragility bug in cmd/processor: it never persisted a cursor, so its main loop hardcoded lastSeq=1 on every restart and replayed the entire store a second time (redundant with loadSeenIdentities' own full scan) in slow 512-record ReadFrom pages with a 15s sleep between every page -- cold-start catch-up could take up to ~an hour. Fixed both: rebuilt bin/newssite from current source (commit ef6c5f8), and gave processor a real cursor by having loadSeenIdentities return the latest sequence it scanned via the new Scan API (commit ff92e2c). Live-verified: newssite stable through its full rebuild cycle at under 220MB (was OOM-killing at its cap), processor cold-start catch-up now ~7s at flat 7-10MB RSS (was climbing toward its 256M cap plus 282M swap). No further OOM kills observed after the fix.",
+  "id": 9992,
+  "metadata": null,
+  "run_id": "cli-20260718T062043Z",
+  "source_repo": "PRRJECT_FATBABY",
+  "title": "Live OOM crash-loop stopped: processor cursor fix + stale binary rebuilds"
+}
