@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-18T06:25:21Z",
+  "body": "Founder asked to extend the okemily.com status page to cover all FatBaby subsystems. Added a new CheckSystemdUnit check type to internal/statuspage (asks systemctl --user is-active \u003cunit\u003e -- a real liveness signal from the actual process supervisor, not a guessed process-name match, consistent with the package's existing honest-scope doctrine of never showing a structural non-check as a fake outage). Covers secwatch, prwatch, prwatch-body, processor, and eps-reconciler -- all five had no HTTP/UDP surface to probe and now have real, currently-enabled systemd units to check instead. Deliberately did not add entity-graph or eps-processor: both run as unsupervised go run processes right now (entity-graph's unit is disabled pending its Phase 2 checkpoint work from the replay-fragility fix; eps-processor has no unit at all), so checking them would misreport them as down while they're actually running. Rebuilt+restarted the iduna binary (prebuilt, not go run -- doesn't pick up HEAD automatically) and live-verified all 9 targets report correctly through https://okemily.com/api/v1/status; the status.html frontend is already data-driven off that endpoint so no separate deploy was needed. 4 new tests, go test ./... green. IDUNA commit 3f4d33c.",
+  "id": 9994,
+  "metadata": null,
+  "run_id": "cli-20260718T062521Z",
+  "source_repo": "IDUNA",
+  "title": "Status page extended: 5 more FatBaby subsystems now have real bubbles"
+}
