@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-18T02:00:01Z",
+  "generated_at": "2026-07-18T02:08:52Z",
   "repo": "APPLES",
-  "count": 9966,
+  "count": 9967,
   "apples": [
     {
       "id": 1,
@@ -79730,6 +79730,14 @@
       "source_repo": "emily",
       "date": "20260718",
       "archived_at": "2026-07-18T02:00:01Z"
+    },
+    {
+      "id": 9967,
+      "type": "completion",
+      "title": "S153-13: news.okemily.com subdomain — ticker sub-pages fixed, old /news/ path redirects correctly",
+      "source_repo": "OKEMILY",
+      "date": "20260718",
+      "archived_at": "2026-07-18T02:08:52Z"
     }
   ]
 }
