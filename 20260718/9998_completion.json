@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-18T07:05:00Z",
+  "body": "CHANGELOG updated in shankpit-460: fix(deploy): deploy_linux.sh built the dead, non-compiling services/game-server/src/server.c instead of the real apps/server/src/main.c -- delegated to 'make server' instead. Verified: clean rebuild produces a binary byte-identical (md5sum match) to the one already running in production. shankpit-460 c38657c.",
+  "id": 9998,
+  "metadata": null,
+  "run_id": "changelog-1784358300",
+  "source_repo": "shankpit-460",
+  "title": "changelog(shankpit-460): fix(deploy): deploy_linux.sh built the dead, non-compiling …"
+}
