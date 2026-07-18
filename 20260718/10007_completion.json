@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-18T07:43:43Z",
+  "body": "CHANGELOG updated in shankpit-460: fix(server): death now observable over the network -- katana_apply_damage (real hit function for all weapons) respawned synchronously within the same tick as a kill, so STATE_DEAD never persisted long enough for any snapshot broadcast to see it (deaths=0 respawns=0 confirmed across 3 separate combat E2E runs despite real damage). Fixed with a respawn_delay_ticks countdown (~2.9s) decremented in update_entity; removed the old respawn_time check which was dead code for PvP and non-functional (always zero-delay) anyway. Also clamps health to 0 on death (was leaving it negative, which wraps to garbage on the wire's unsigned char). Live-verified: deaths/respawns now nonzero and consistent. shankpit-460 d185fc5.",
+  "id": 10007,
+  "metadata": null,
+  "run_id": "changelog-1784360623",
+  "source_repo": "shankpit-460",
+  "title": "changelog(shankpit-460): fix(server): death now observable over the network -- katan…"
+}
