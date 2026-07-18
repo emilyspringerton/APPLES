@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-18T10:43:40Z",
+  "body": "Added POST /api/v1/shankpit/ticket (IDUNA) minting short-lived HMAC-SHA256 connect tickets bound to player_id; C server (apps/server/src/main.c) now verifies them on PACKET_CONNECT before allocating a slot, fails closed if unset, and enforces one-seat-per-identity (VS2). Self-contained C HMAC-SHA256, verified against RFC 4231. emily-bot gained -bad-ticket/-no-ticket/-same-identity test modes. End-to-end testing on an isolated instance surfaced and fixed a real auth bypass: PACKET_USERCMD auto-welcomed any unrecognized sender via ensure_slot_for_sender, completely skipping ticket verification. Fixed via find_slot_by_addr (lookup-only). All 4 scenarios verified live before deploying to production. IDUNA f2a3c69/e2af228, shankpit-460 e78cc07/fa316c6.",
+  "id": 10030,
+  "metadata": null,
+  "run_id": "cli-20260718T104340Z",
+  "source_repo": "shankpit-460",
+  "title": "S156-02: HMAC connect-ticket auth on shankpit-460 PACKET_CONNECT"
+}
