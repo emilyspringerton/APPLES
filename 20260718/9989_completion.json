@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-18T06:02:44Z",
+  "body": "Implemented eventstore.Scan(ctx, fromSeq, fn), a line-streaming replacement for the O(n^2) ReadFrom read path that caused signalapi's swap-thrashing restart failures (root cause: readRecordsFromFile re-decoded the entire journal file per 512-record page). Migrated signalindex.Build/Tail, docindex.Build/Tail, and entity-graph's buildFilingIndexes onto Scan; added -replay-from-seq emergency flag to signalapi/newssite; fixed Tail()'s first-poll 30s wait (was masked by the O(n^2) bug). go test ./... green, 5 new Scan tests. Live-verified against the real 630MB/116K-record store: signalapi cold rebuild previously could not complete (killed twice at 628MB/540MB RSS, swap near-exhausted) -- now completes in 30.1s at 60.6MB peak RSS, inside the northstar's \u003c60s/\u003c300MB acceptance target. Commit PRRJECT_FATBABY 897c3c3, pushed. Phases 1-3 (SQLite checkpoints, entity-graph incremental tables) remain per docs/northstar/replay-fragility.md.",
+  "id": 9989,
+  "metadata": null,
+  "run_id": "cli-20260718T060244Z",
+  "source_repo": "PRRJECT_FATBABY",
+  "title": "Phase 0 replay-fragility fix: streaming eventstore.Scan API"
+}
