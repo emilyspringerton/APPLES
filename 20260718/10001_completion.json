@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-18T07:08:29Z",
+  "body": "Founder direction: begin the front door of IDUNA's social tournament platform funnel, link it from okemily footer once up. Built tournaments.html following okemily's existing visual/pattern conventions: explains the VS2 tournaments doctrine (institutional register, closed non-redeemable economy, standings as a shared object), names SHANKPIT-460 esports as the first real game (links its public NORTHSTAR) and Social NLHE as design-stage, mailing-list signup CTA reusing the existing hardened infra verbatim -- no new backend surface added. Deliberately does not wire real sign-in: the existing SHANKPIT OAuth flow redirects to a native-app deep link (wrong for a browser visitor), and the real front-door identity ceremony is already flagged elsewhere (EMILY/docs/fable-prompts/iduna-front-door-funnel.md) as security-critical enough to need its own dedicated design pass -- not bolted on here, matching the explicit keep-it-simple-to-start direction. Footer link added on the main okemily.com page. Deployed directly (no sudo needed, /var/www/okemily is fatbaby:www-data group-writable) and live-verified via https://okemily.com/tournaments.html. OKEMILY commits b2bc48d + changelog.",
+  "id": 10001,
+  "metadata": null,
+  "run_id": "cli-20260718T070829Z",
+  "source_repo": "OKEMILY",
+  "title": "EINHORN Tournaments front door page live"
+}
