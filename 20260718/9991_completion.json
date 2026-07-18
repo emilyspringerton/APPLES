@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-18T06:20:33Z",
+  "body": "CHANGELOG updated in PRRJECT_FATBABY: fix(processor): persist cursor across restarts instead of replaying full history from seq 1 on every start — fourth instance of the replay-fragility bug (after signalapi/newssite/entity-graph), found live while investigating an active OOM crash-loop (processor pinned at its 256M cap + 282M swap). loadSeenIdentities now returns latest_seq via Scan so Run resumes the main loop from there instead of hardcoding lastSeq=1; main loop also moved onto Scan. Cold-start catch-up: ~1hr -\u003e ~7s, memory flat ~7-10MB instead of climbing toward the cap. Also rebuilt+committed the stale tracked bin/newssite and bin/signalapi deploy binaries, which were still pre-Phase-0 and were the actual trigger behind newssite's own live OOM crash-loop (restart counter climbing every ~3-7min) that took secwatch/processor down as system-wide memory-pressure collateral. PRRJECT_FATBABY ff92e2c, ef6c5f8.",
+  "id": 9991,
+  "metadata": null,
+  "run_id": "changelog-1784355633",
+  "source_repo": "PRRJECT_FATBABY",
+  "title": "changelog(PRRJECT_FATBABY): fix(processor): persist cursor across restarts instead of r…"
+}
