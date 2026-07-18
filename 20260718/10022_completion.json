@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-18T10:01:04Z",
+  "body": "CHANGELOG updated in PRRJECT_FATBABY: fix: 4 more replay-fragility instances found in a full process-sync sweep -- eps-processor's loadTickerMap (live, 30s poll, most severe of these four), buyback/dividend/guidance-watcher's buildTickerMap (identical copy-pasted pattern, startup-only), and processor's dead-code sourceDocumentExists. All migrated to eventstore.Scan. Total now 9 instances of this bug class found+fixed today. PRRJECT_FATBABY ad3d69c.",
+  "id": 10022,
+  "metadata": null,
+  "run_id": "changelog-1784368864",
+  "source_repo": "PRRJECT_FATBABY",
+  "title": "changelog(PRRJECT_FATBABY): fix: 4 more replay-fragility instances found in a full proc…"
+}
