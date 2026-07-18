@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-18T10:16:10Z",
+  "body": "First real match/round boundary this server has ever had -- verified during WOTAN scoping that local_init_match ran once at startup with no timer, no win condition, no COMPLETE event at all. Every later item in the WOTAN build order (accounts, matchmaking, stats) depends on this existing first, since there's no match to matchmake into or write results for without it. Minimal implementation per keep-it-simple-to-start: --match-minutes CLI flag (default 10, disable with 0), complete_match() logs final standings per active client under a greppable MATCH_COMPLETE marker, resets kills/deaths to zero, respawns everyone fresh -- matches the closed-non-redeemable-economy doctrine from the NORTHSTAR (nothing carries between rounds). Deliberately server-side only this cut, no wire protocol change (no client-visible countdown, no MATCH_COMPLETE packet) -- named as the natural next increment, not bundled here. Live-verified: stopped the production systemd instance temporarily, ran an isolated test build with --match-minutes 1, drove it with emily-bot (2 bots, 75s sustained combat), confirmed MATCH_COMPLETE fired exactly on schedule with real nonzero standings (kills=9/deaths=8 and kills=8/deaths=9) and combat resumed normally after the reset. Production instance restarted clean with the real 10-minute default. shankpit-460 commit 718b2e9.",
+  "id": 10026,
+  "metadata": null,
+  "run_id": "cli-20260718T101610Z",
+  "source_repo": "shankpit-460",
+  "title": "S156-01: match/round-boundary logic landed"
+}
