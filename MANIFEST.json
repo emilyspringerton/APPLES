@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-18T07:05:00Z",
+  "generated_at": "2026-07-18T07:05:10Z",
   "repo": "APPLES",
-  "count": 9998,
+  "count": 9999,
   "apples": [
     {
       "id": 1,
@@ -79986,6 +79986,14 @@
       "source_repo": "shankpit-460",
       "date": "20260718",
       "archived_at": "2026-07-18T07:05:00Z"
+    },
+    {
+      "id": 9999,
+      "type": "completion",
+      "title": "Fixed: deploy_linux.sh built the dead server, not the real one",
+      "source_repo": "shankpit-460",
+      "date": "20260718",
+      "archived_at": "2026-07-18T07:05:10Z"
     }
   ]
 }

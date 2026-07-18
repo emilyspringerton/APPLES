@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-18T07:05:10Z",
+  "body": "S155-01 from EMILY/BACKLOG.md. deploy_linux.sh's game-server build step invoked gcc directly against services/game-server/src/server.c, which doesn't compile standalone (broken include chain, no -I flags supplied) and is not what's actually running -- a fresh run of the script would have failed outright rather than deploying anything. Real server is apps/server/src/main.c via the Makefile's 'server' target. Fixed by delegating to 'make server' instead of duplicating the build invocation inline. Verified two ways: (1) removed bin/shank_server and ran the fixed step from clean -- output binary is byte-identical (md5sum match) to the one already running in production, confirming both this fix and the deploy provenance finding from S155; (2) confirmed the live server (pid 845, untouched by an on-disk file replacement) still answers correctly via emily-bot after the rebuild. shankpit-460 commit c38657c.",
+  "id": 9999,
+  "metadata": null,
+  "run_id": "cli-20260718T070510Z",
+  "source_repo": "shankpit-460",
+  "title": "Fixed: deploy_linux.sh built the dead server, not the real one"
+}
