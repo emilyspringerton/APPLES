@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-18T05:41:44Z",
+  "body": "Wrote docs/northstar/replay-fragility.md (PRRJECT_FATBABY a628947). Root cause of the twice-in-one-night signalapi cold-start failure found in code, not guessed: eventstore.FileStore.ReadFrom re-reads and re-parses the ENTIRE journal file per 512-record page — against the 354MB 2026-07-16 journal that is ~39 full passes (~13.8GB redundant JSON decoding, ~400MB+ transient allocation per pass, store mutex held), and the 30s Tail pollers re-parse the never-cached current-day file on every poll. Decision (founder asked for a decision, not a menu): Phase-0 streaming Scan API that deletes the O(n^2) read path, then per-process SQLite snapshot-plus-tail checkpoints (modernc.org/sqlite already in go.mod; same house pattern as IDUNA blog/mailinglist; the exact TODO(scale) seam in internal/signalindex/index.go coming due). Mongo-as-cache evaluated and rejected (new 256MB+ always-on process on a 3.8GB box — SECTION 152's lesson); bounded replay window rejected as primary (data-loss policy in a performance-fix costume), kept only as a -replay-from-seq emergency flag. entity-graph phase: incremental filings table (kills the per-batch full-store buildFilingIndexes scan), accuracy upsert table with calibration-equivalence gate (kills the 482,696-line/136MB duplicate accuracy.ndjson reload), graph-lifetime hoist. 5 phases, each independently shippable, each gated on a live kill-test; Phase 1a acceptance = fatbaby-signalapi.service re-enabled and surviving rapid restarts. Golden-indexed as REPLAY-FRAGILITY.",
+  "id": 9986,
+  "metadata": null,
+  "run_id": "cli-20260718T054144Z",
+  "source_repo": "PRRJECT_FATBABY",
+  "title": "Replay-fragility northstar: decision + phased fix for full-history replay on restart"
+}
