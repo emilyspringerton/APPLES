@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-18T05:54:24Z",
+  "generated_at": "2026-07-18T06:01:35Z",
   "repo": "APPLES",
-  "count": 9987,
+  "count": 9988,
   "apples": [
     {
       "id": 1,
@@ -79898,6 +79898,14 @@
       "source_repo": "emily",
       "date": "20260718",
       "archived_at": "2026-07-18T05:54:24Z"
+    },
+    {
+      "id": 9988,
+      "type": "completion",
+      "title": "changelog(PRRJECT_FATBABY): feat(eventstore): Phase 0 of the replay-fragility fix — s…",
+      "source_repo": "PRRJECT_FATBABY",
+      "date": "20260718",
+      "archived_at": "2026-07-18T06:01:35Z"
     }
   ]
 }
