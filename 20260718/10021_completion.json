@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-18T09:54:02Z",
+  "body": "Founder asked to ensure full process sync across everything touched this session. Audited every running binary's build mtime against its source's git HEAD (IDUNA, all FatBaby prebuilt binaries, shankpit-460's server) -- most were already current (the apparent gaps were changelog-only or docs-only commits after the relevant code build, not real drift). Found one genuine gap: eps-reconciler's reconcile() function had the exact same full-history-replay-via-paged-ReadFrom pattern as the 4 instances already fixed this session (signalapi, newssite, entity-graph, processor) -- the 5th confirmed instance of this bug class. Lower poll frequency (6h vs 15-30s) kept it below the threshold that caused a visible incident, but it paid the same O(n^2) cost every single run. Migrated to eventstore.Scan; live-verified 81s -\u003e 26s for the same reconcile scan (var/logs/eps-reconciler.log timestamps, old run 05:26:49-\u003e05:28:10 vs new run 09:53:04-\u003e09:53:30). go test ./... green. PRRJECT_FATBABY commit 84b7148.",
+  "id": 10021,
+  "metadata": null,
+  "run_id": "cli-20260718T095402Z",
+  "source_repo": "PRRJECT_FATBABY",
+  "title": "Full process sync audit: 5th replay-fragility instance found+fixed in eps-reconciler"
+}
