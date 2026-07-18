@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-18T00:14:34Z",
+  "generated_at": "2026-07-18T00:17:50Z",
   "repo": "APPLES",
-  "count": 9951,
+  "count": 9952,
   "apples": [
     {
       "id": 1,
@@ -79610,6 +79610,14 @@
       "source_repo": "emily",
       "date": "20260718",
       "archived_at": "2026-07-18T00:14:34Z"
+    },
+    {
+      "id": 9952,
+      "type": "completion",
+      "title": "S153-05: emily key generalized to write named secrets to any target env file (--target emily|iduna)",
+      "source_repo": "emily.cli",
+      "date": "20260718",
+      "archived_at": "2026-07-18T00:17:50Z"
     }
   ]
 }
