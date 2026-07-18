@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "observation",
+  "archived_at": "2026-07-18T02:09:59Z",
+  "body": "-run-id signalapi-rebuild-risk",
+  "id": 9968,
+  "metadata": null,
+  "run_id": "cli-20260718T020959Z",
+  "source_repo": "PRRJECT_FATBABY",
+  "title": "signalapi systemd migration built but disabled — full-history rebuild-on-restart thrashed memory (628MB+ RSS, swap nearly full, stalled progress). entity-graph migration deferred for the same reason. Both processes' full-in-memory-replay-on-startup pattern is a real architectural fragility, not just an ops gap."
+}
