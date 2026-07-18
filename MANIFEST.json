@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-18T02:44:40Z",
+  "generated_at": "2026-07-18T02:53:20Z",
   "repo": "APPLES",
-  "count": 9971,
+  "count": 9972,
   "apples": [
     {
       "id": 1,
@@ -79770,6 +79770,14 @@
       "source_repo": "emily",
       "date": "20260718",
       "archived_at": "2026-07-18T02:44:40Z"
+    },
+    {
+      "id": 9972,
+      "type": "completion",
+      "title": "S153-15: fixed serveDoc full-history-scan-per-request bug (2 real bugs: missing Sequence field, unused index) - 60s+ to 1.85s for indexed do",
+      "source_repo": "PRRJECT_FATBABY",
+      "date": "20260718",
+      "archived_at": "2026-07-18T02:53:20Z"
     }
   ]
 }

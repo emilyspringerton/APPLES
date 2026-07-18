@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-18T02:53:19Z",
+  "body": "-run-id s153-15",
+  "id": 9972,
+  "metadata": null,
+  "run_id": "cli-20260718T025319Z",
+  "source_repo": "PRRJECT_FATBABY",
+  "title": "S153-15: fixed serveDoc full-history-scan-per-request bug (2 real bugs: missing Sequence field, unused index) - 60s+ to 1.85s for indexed docs. Underlying crash-loop (S153-14) still active, confirmed live during testing."
+}
