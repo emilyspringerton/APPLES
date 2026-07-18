@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-18T00:28:50Z",
+  "generated_at": "2026-07-18T00:37:00Z",
   "repo": "APPLES",
-  "count": 9953,
+  "count": 9954,
   "apples": [
     {
       "id": 1,
@@ -79626,6 +79626,14 @@
       "source_repo": "emily",
       "date": "20260718",
       "archived_at": "2026-07-18T00:28:50Z"
+    },
+    {
+      "id": 9954,
+      "type": "completion",
+      "title": "S153-07: static-HTML blog for okemily.com (no PHP/MySQL) + 4 real posts published",
+      "source_repo": "IDUNA",
+      "date": "20260718",
+      "archived_at": "2026-07-18T00:37:00Z"
     }
   ]
 }
