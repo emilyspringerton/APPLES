@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "escalation",
+  "archived_at": "2026-07-18T01:41:41Z",
+  "body": "-run-id okemily-https-incident",
+  "id": 9964,
+  "metadata": null,
+  "run_id": "cli-20260718T014140Z",
+  "source_repo": "OKEMILY",
+  "title": "Incident: okemily.com HTTPS fully down ~3 min — sudo cp of stale pre-certbot nginx config wiped the live SSL block. Fixed by re-running certbot; repo config synced to match live to prevent recurrence."
+}

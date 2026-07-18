@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-18T01:35:01Z",
+  "generated_at": "2026-07-18T01:41:41Z",
   "repo": "APPLES",
-  "count": 9963,
+  "count": 9964,
   "apples": [
     {
       "id": 1,
@@ -79706,6 +79706,14 @@
       "source_repo": "shankpit-460",
       "date": "20260718",
       "archived_at": "2026-07-18T01:35:01Z"
+    },
+    {
+      "id": 9964,
+      "type": "escalation",
+      "title": "Incident: okemily.com HTTPS fully down ~3 min — sudo cp of stale pre-certbot nginx config wiped the live SSL block. Fixed by re-running ce",
+      "source_repo": "OKEMILY",
+      "date": "20260718",
+      "archived_at": "2026-07-18T01:41:41Z"
     }
   ]
 }
