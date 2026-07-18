@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-18T07:59:59Z",
+  "body": "CHANGELOG updated in PRRJECT_FATBABY: feat(newssite): earnings dates now shown on ticker pages (next upcoming + up to 4 most recent past, with status/timing) via the already-loaded earningscal.Store, previously only used on /section/earnings. Found and fixed a real data sourcing bug along the way: 61 of 363 stored earnings-calendar records had FiscalYear=0 (scanSecFilings didn't handle ExtractPeriod finding a quarter label but no explicit year in filing text). Fixed the extraction fallback (derive year from filing date), added a store-level filter for the now-orphaned bad-ID legacy records (append-only store can't delete, corrected records land under new IDs), and re-derived+corrected all 61 live records. New tests for both. PRRJECT_FATBABY 7fc2b54 + 95764ee.",
+  "id": 10010,
+  "metadata": null,
+  "run_id": "changelog-1784361599",
+  "source_repo": "PRRJECT_FATBABY",
+  "title": "changelog(PRRJECT_FATBABY): feat(newssite): earnings dates now shown on ticker pages (n…"
+}
