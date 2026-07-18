@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-18T00:59:12Z",
+  "generated_at": "2026-07-18T01:04:17Z",
   "repo": "APPLES",
-  "count": 9957,
+  "count": 9958,
   "apples": [
     {
       "id": 1,
@@ -79658,6 +79658,14 @@
       "source_repo": "emily",
       "date": "20260718",
       "archived_at": "2026-07-18T00:59:12Z"
+    },
+    {
+      "id": 9958,
+      "type": "completion",
+      "title": "S153-03 done: Mailchimp live-verified end-to-end (real subscribe -\u003e encrypted store -\u003e mailchimp_synced=1)",
+      "source_repo": "IDUNA",
+      "date": "20260718",
+      "archived_at": "2026-07-18T01:04:17Z"
     }
   ]
 }
