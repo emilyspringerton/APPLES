@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-18T00:37:00Z",
+  "generated_at": "2026-07-18T00:39:57Z",
   "repo": "APPLES",
-  "count": 9954,
+  "count": 9955,
   "apples": [
     {
       "id": 1,
@@ -79634,6 +79634,14 @@
       "source_repo": "IDUNA",
       "date": "20260718",
       "archived_at": "2026-07-18T00:37:00Z"
+    },
+    {
+      "id": 9955,
+      "type": "completion",
+      "title": "S153-08: API playground (Swagger UI) live at okemily.com/api-playground.html; spec known-stale, flagged not fixed",
+      "source_repo": "OKEMILY",
+      "date": "20260718",
+      "archived_at": "2026-07-18T00:39:57Z"
     }
   ]
 }
