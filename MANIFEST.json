@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-23T23:21:02Z",
+  "generated_at": "2026-07-23T23:24:33Z",
   "repo": "APPLES",
-  "count": 2,
+  "count": 3,
   "apples": [
     {
       "id": 10525,
@@ -18,6 +18,14 @@
       "source_repo": "TYLER",
       "date": "20260723",
       "archived_at": "2026-07-23T23:21:02Z"
+    },
+    {
+      "id": 10527,
+      "type": "completion",
+      "title": "BACKSTORY.md — Tyler's motorcycle gang, the S-tier roster's origin",
+      "source_repo": "REDGARDEN",
+      "date": "20260723",
+      "archived_at": "2026-07-23T23:24:33Z"
     }
   ]
 }
