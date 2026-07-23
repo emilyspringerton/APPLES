@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-23T23:53:58Z",
+  "generated_at": "2026-07-23T23:54:14Z",
   "repo": "APPLES",
-  "count": 7,
+  "count": 8,
   "apples": [
     {
       "id": 10525,
@@ -58,6 +58,14 @@
       "source_repo": "TYLER",
       "date": "20260723",
       "archived_at": "2026-07-23T23:53:58Z"
+    },
+    {
+      "id": 10532,
+      "type": "completion",
+      "title": "Flamel (master cook) + Druid (tree-growy) added to roster; Highlands setting note",
+      "source_repo": "REDGARDEN",
+      "date": "20260723",
+      "archived_at": "2026-07-23T23:54:14Z"
     }
   ]
 }
