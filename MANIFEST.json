@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-23T23:54:14Z",
+  "generated_at": "2026-07-23T23:54:52Z",
   "repo": "APPLES",
-  "count": 8,
+  "count": 9,
   "apples": [
     {
       "id": 10525,
@@ -66,6 +66,14 @@
       "source_repo": "REDGARDEN",
       "date": "20260723",
       "archived_at": "2026-07-23T23:54:14Z"
+    },
+    {
+      "id": 10533,
+      "type": "completion",
+      "title": "apps/arena status check — real MOBA demo confirmed, roster wiring is next step",
+      "source_repo": "REDGARDEN",
+      "date": "20260723",
+      "archived_at": "2026-07-23T23:54:52Z"
     }
   ]
 }
