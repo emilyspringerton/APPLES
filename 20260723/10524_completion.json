@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-23T23:10:18Z",
+  "body": "Published via IDUNA blog API. Full monorepo sync completed this session: standing 'always commit and push, don't wait to be asked' instruction added to every CLAUDE.md across all repos (root + 16 sub-repos + new REDGARDEN/CLAUDE.md). SHANKPIT, REDGARDEN, OKEMILY, EMILY all committed and pushed. APPLES left in a clean, stable, diverged-but-uncorrupted state after an unrelated stalled rebase (from an interrupted automated emily-sync) was safely aborted rather than force-resolved.",
+  "id": 10524,
+  "metadata": null,
+  "run_id": "cli-20260723T231018Z",
+  "source_repo": "OKEMILY",
+  "title": "Two more dev-diary posts published: Navel-Gazing, Worth the Tokens"
+}
