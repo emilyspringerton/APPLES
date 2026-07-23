@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-23T23:47:44Z",
+  "body": "emily.cli commit b45f7e2. Combines Emiree's Mandelbrot ASCII fractal (ported from emiree.go, reads live h/p or defaults 0.5/0.5), the squish/tower/gematria transform (ported from QUEENSALLYONLINEBOOKOFMAGIFICATIONANDUNICOR's pemdas.py), and a cheap Dallas-TX moon-phase read into a short legible tag. apples post and changelog add now auto-tag with the active session via currentSessionTag(). Session log: EMILY/var/sessions.ndjson.",
+  "id": 10530,
+  "metadata": null,
+  "run_id": "cli-20260723T234744Z",
+  "source_repo": "emily.cli",
+  "title": "emily session new|current — cheap/legible session fingerprint for Apple + changelog tagging"
+}
