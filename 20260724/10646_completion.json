@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-24T17:12:04Z",
+  "body": "Founder direction: launch into the air, fold into a paper airplane, glide clear of danger, flying over terrain and immune to ground-based CC while airborne. Specified in docs/HEROES_VS0.md as a Q, consistent with the Donkey's existing Indirect-Control identity (auto-triggered alongside Immortal's Fold, not player-cast). Docs only -- The Donkey stays blocked on a non-piloted-unit system that doesn't exist in arena_game.c yet, flagged explicitly rather than shoehorned into the owner-piloted sim. REDGARDEN 5c2a54c.",
+  "id": 10646,
+  "metadata": null,
+  "run_id": "cli-20260724T171204Z",
+  "source_repo": "REDGARDEN",
+  "title": "The Donkey — Paper Glide ability (docs)"
+}
