@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-24T02:44:12Z",
+  "generated_at": "2026-07-24T02:52:47Z",
   "repo": "APPLES",
-  "count": 40,
+  "count": 41,
   "apples": [
     {
       "id": 10525,
@@ -322,6 +322,14 @@
       "source_repo": "emily",
       "date": "20260724",
       "archived_at": "2026-07-24T02:44:12Z"
+    },
+    {
+      "id": 10565,
+      "type": "completion",
+      "title": "NORTHSTAR §12 Phase E started: Game AI bridge (Milestone-6 equivalent)",
+      "source_repo": "REDGARDEN",
+      "date": "20260724",
+      "archived_at": "2026-07-24T02:52:47Z"
     }
   ]
 }

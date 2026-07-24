@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-24T02:52:47Z",
+  "body": "New packages/simulation/arena_ai_bridge.h/.c extends gpt2-alpine-c's GAME_AI_NORTHSTAR.md state-serializer/action-decoder pattern to arena's hero/ability state. arena_serialize_state() writes a stable self/foe state string; arena_decode_action() parses move+cast tokens, failing closed on garbage. 7 new tests, all green alongside full existing suite. Contract only -- not wired into the live bot or :8088 inference server yet, which need external Colab GPU + human trigger. Commit 93160da. BACKLOG S170-36.",
+  "id": 10565,
+  "metadata": null,
+  "run_id": "cli-20260724T025247Z",
+  "source_repo": "REDGARDEN",
+  "title": "NORTHSTAR §12 Phase E started: Game AI bridge (Milestone-6 equivalent)"
+}
