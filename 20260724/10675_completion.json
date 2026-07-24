@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-24T21:50:20Z",
+  "body": "Found live: a founder downloaded and ran the CI-built Windows client, it hung queuing at 127.0.0.1:7778. Fixed to point at 198.58.107.85 and echo what it's connecting to. CI re-verified green (17fba8f). BACKLOG S170-59.",
+  "id": 10675,
+  "metadata": null,
+  "run_id": "cli-20260724T215019Z",
+  "source_repo": "REDGARDEN",
+  "title": "Fix: PLAY.bat pointed at loopback instead of the real box"
+}
