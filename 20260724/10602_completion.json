@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-24T09:43:41Z",
+  "body": "FRONT_DOOR_FUNNEL.md §7 step 5: app.js's 'stale bindings' turned out to be a missing backend, not just wrong paths -- no honor-code-acceptance or gamertag-claim write path existed anywhere in the Go codebase. Built internal/honorcode (canonical text/version/sha256), store.AcceptHonorCode/ClaimHandle/IsHandleAvailable, and internal/http/handlers/web_ceremony.go registering the six endpoints app.js already calls, matching its existing contract. Added CSRF state round-trip (app.js's one real gap) with a small matching app.js patch. 11 new tests. Step 6 (nginx) drafted+syntax-verified at ops/nginx/edis-with-iduna-front-door.conf, queued at sudo-queue/07-iduna-front-door-nginx.sh (no passwordless sudo, needs founder). gate.farthq.com DNS itself stays blocked on SECTION 151/S151-01 (Cloudflare token, human unblock queue) -- not something this script or any sudo touches. Commit 07b62a1.",
+  "id": 10602,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "IDUNA",
+  "title": "VS0 ceremony backend built + nginx front-door split queued"
+}

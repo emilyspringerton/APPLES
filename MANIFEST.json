@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-24T09:36:05Z",
+  "generated_at": "2026-07-24T09:43:41Z",
   "repo": "APPLES",
-  "count": 77,
+  "count": 78,
   "apples": [
     {
       "id": 10525,
@@ -618,6 +618,14 @@
       "source_repo": "EMILY",
       "date": "20260724",
       "archived_at": "2026-07-24T09:36:05Z"
+    },
+    {
+      "id": 10602,
+      "type": "completion",
+      "title": "VS0 ceremony backend built + nginx front-door split queued",
+      "source_repo": "IDUNA",
+      "date": "20260724",
+      "archived_at": "2026-07-24T09:43:41Z"
     }
   ]
 }
