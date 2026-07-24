@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-24T02:58:37Z",
+  "generated_at": "2026-07-24T02:59:34Z",
   "repo": "APPLES",
-  "count": 42,
+  "count": 43,
   "apples": [
     {
       "id": 10525,
@@ -338,6 +338,14 @@
       "source_repo": "emily",
       "date": "20260724",
       "archived_at": "2026-07-24T02:58:37Z"
+    },
+    {
+      "id": 10567,
+      "type": "completion",
+      "title": "Blog post: End of Day engineering recap + state of the product",
+      "source_repo": "EMILY",
+      "date": "20260724",
+      "archived_at": "2026-07-24T02:59:34Z"
     }
   ]
 }
