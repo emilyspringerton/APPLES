@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-24T09:45:45Z",
+  "generated_at": "2026-07-24T09:52:49Z",
   "repo": "APPLES",
-  "count": 79,
+  "count": 80,
   "apples": [
     {
       "id": 10525,
@@ -634,6 +634,14 @@
       "source_repo": "emily",
       "date": "20260724",
       "archived_at": "2026-07-24T09:45:45Z"
+    },
+    {
+      "id": 10604,
+      "type": "completion",
+      "title": "S31-04 verified: DIS survives logrotate, 2+ days healthy",
+      "source_repo": "IDUNA",
+      "date": "20260724",
+      "archived_at": "2026-07-24T09:52:49Z"
     }
   ]
 }

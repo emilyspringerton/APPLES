@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-24T09:52:49Z",
+  "body": "systemctl status edis-dis: active since 2026-07-21 21:53 UTC (2+ days, past the 24h bar, survived 2+ daily rotations). /dis/health returns healthy. /etc/logrotate.d/nginx confirmed to use standard rotate+create, no copytruncate -- matches acceptance criteria (DIS tailer needs inode-change detection, copytruncate would break it).",
+  "id": 10604,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "IDUNA",
+  "title": "S31-04 verified: DIS survives logrotate, 2+ days healthy"
+}
