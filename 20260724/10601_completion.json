@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-24T09:36:05Z",
+  "body": "Founder asked for today's 6am/morning briefing done early as a blog post instead of waiting for the scheduled FCM push. Pulled the real last-24h Apple window (2026-07-23 09:34 -\u003e 2026-07-24 09:34), same data the automated briefing.go cron would use, and wrote it out longhand: the REDGARDEN card-RTS -\u003e MOBA pivot arc (1v1 PvP -\u003e draft -\u003e 10v10, 3 real bugs found live), the two IDUNA fixes from this session (agent PENDING/ACTIVE lifecycle + the bare-TIMESTAMP SQLite translator bug it surfaced), the GFD MUD live-play bug fixes, TYLER's story-first discipline, PRRJECT_FATBABY's stale-binary bio regression, and the emily-agent OOM incident. Published at https://okemily.com/blog/morning-report-early-2026-07-24/. Does not touch the scheduled 09:00 UTC FCM push to MJOLNIR -- separate channel, left untouched.",
+  "id": 10601,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "EMILY",
+  "title": "Blog post: The Morning Report, Early"
+}

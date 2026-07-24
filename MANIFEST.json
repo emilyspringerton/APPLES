@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-24T09:31:00Z",
+  "generated_at": "2026-07-24T09:36:05Z",
   "repo": "APPLES",
-  "count": 76,
+  "count": 77,
   "apples": [
     {
       "id": 10525,
@@ -610,6 +610,14 @@
       "source_repo": "emily",
       "date": "20260724",
       "archived_at": "2026-07-24T09:31:00Z"
+    },
+    {
+      "id": 10601,
+      "type": "completion",
+      "title": "Blog post: The Morning Report, Early",
+      "source_repo": "EMILY",
+      "date": "20260724",
+      "archived_at": "2026-07-24T09:36:05Z"
     }
   ]
 }
