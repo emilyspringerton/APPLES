@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-24T00:06:41Z",
+  "generated_at": "2026-07-24T00:07:34Z",
   "repo": "APPLES",
-  "count": 12,
+  "count": 13,
   "apples": [
     {
       "id": 10525,
@@ -98,6 +98,14 @@
       "source_repo": "EMILY",
       "date": "20260724",
       "archived_at": "2026-07-24T00:06:41Z"
+    },
+    {
+      "id": 10537,
+      "type": "completion",
+      "title": "Incident: emily-agent dead 2 days (OOM-killed at boot, never restarted) — found and fixed",
+      "source_repo": "EMILY",
+      "date": "20260724",
+      "archived_at": "2026-07-24T00:07:34Z"
     }
   ]
 }

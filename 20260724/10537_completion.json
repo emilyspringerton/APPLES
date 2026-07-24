@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-24T00:07:34Z",
+  "body": "Founder declared an incident after noticing EMILY looked stale. Root cause confirmed: emily-system.service (observation-watcher + emily-agent) was OOM-killed 9 minutes after the last VM boot (2026-07-21 22:03:01 UTC) and never restarted automatically -- 2 full days with the entire RSI loop offline (last real cycle Apple was #10502, same day as the kill). Restarted via emily start --iduna; cycle 8866 completed successfully, backlog_promoted=1, Apple #10525 filed by the daemon itself. Surfaced a second, separate, still-open issue while restarting: ANTHROPIC_API_KEY credit balance depleted (every LLM-dependent step that cycle failed with a billing 400) -- this is the same pre-existing tracked item as HITL-11 in BACKLOG.md (confirmed dead since 2026-07-19), re-confirmed still blocking, not a new gap. Verified no data loss across SHANKPIT/REDGARDEN/OKEMILY/EMILY (local HEAD == origin HEAD on all four, checked directly) before and after the restart.",
+  "id": 10537,
+  "metadata": null,
+  "run_id": "cli-20260724T000734Z",
+  "source_repo": "EMILY",
+  "title": "Incident: emily-agent dead 2 days (OOM-killed at boot, never restarted) — found and fixed"
+}
