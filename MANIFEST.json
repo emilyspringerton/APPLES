@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-24T23:13:59Z",
+  "generated_at": "2026-07-24T23:26:13Z",
   "repo": "APPLES",
-  "count": 167,
+  "count": 168,
   "apples": [
     {
       "id": 10525,
@@ -1338,6 +1338,14 @@
       "source_repo": "emily",
       "date": "20260724",
       "archived_at": "2026-07-24T23:13:59Z"
+    },
+    {
+      "id": 10692,
+      "type": "completion",
+      "title": "CI hang on rebrand commit diagnosed, hardened with real timeouts",
+      "source_repo": "REDGARDEN",
+      "date": "20260724",
+      "archived_at": "2026-07-24T23:26:13Z"
     }
   ]
 }

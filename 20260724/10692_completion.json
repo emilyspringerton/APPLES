@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-24T23:26:13Z",
+  "body": "REDGARDEN commit 912cdff. Commit 62ca556's run hung 18+ minutes on the mingw-w64/SDL2 install step with identical YAML to four immediately-preceding passing runs -- a transient runner/mirror stall, not a code bug. No gh CLI/token available to cancel remotely, and the workflow had no timeout at all (GitHub default job ceiling is 6 hours). Added timeout-minutes: 30 job-level, timeout-minutes: 10 on the specific step, DEBIAN_FRONTEND=noninteractive, and a real wget --timeout=30. Closes BACKLOG S170-84.",
+  "id": 10692,
+  "metadata": null,
+  "run_id": "cli-20260724T232613Z",
+  "source_repo": "REDGARDEN",
+  "title": "CI hang on rebrand commit diagnosed, hardened with real timeouts"
+}
