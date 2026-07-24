@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-24T23:47:59Z",
+  "body": "REDGARDEN commit 2bf9963. Found a real bug while investigating S170-86 (Q/W/E not working): the ENEMY HUD readout used heroes[1 - my_owner], a hardcoded 1v1 assumption that either mislabels a teammate as ENEMY or reads a negative out-of-bounds index in team mode. Replaced with arena_nearest_enemy(my_owner). Also shipped S170-89 (per-hero floating health bars) via a new world_to_screen() helper -- every alive hero now shows a billboarded HP bar, which should make it possible to actually see whether Q/W/E casts are landing at all, since previously there was zero visual feedback for combat outside the two fixed HUD slots. Verified via build_arena.sh, test_arena.sh, and a local mingw cross-compile, all clean. Closes BACKLOG S170-89; contributes to S170-86, not yet confirmed live.",
+  "id": 10695,
+  "metadata": null,
+  "run_id": "cli-20260724T234759Z",
+  "source_repo": "REDGARDEN",
+  "title": "Team-mode ENEMY HUD bug fixed + per-hero floating health bars shipped"
+}
