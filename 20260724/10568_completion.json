@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-24T03:05:42Z",
+  "body": "S170-22 was marked done based on go build/go test passing, but the live systemd service (fatbaby-newssite.service) was running a binary from 2026-07-19, five days before the company-bios code existed. Rebuilt bin/newssite, restarted the service, confirmed via log (company-bios loaded count=51) and a live curl of /ticker/AAPL. Lesson: code-done and deploy-done are different claims. BACKLOG S170-38.",
+  "id": 10568,
+  "metadata": null,
+  "run_id": "cli-20260724T030542Z",
+  "source_repo": "PRRJECT_FATBABY",
+  "title": "Fix: company bios weren't actually live (stale binary)"
+}

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-24T02:59:34Z",
+  "generated_at": "2026-07-24T03:05:42Z",
   "repo": "APPLES",
-  "count": 43,
+  "count": 44,
   "apples": [
     {
       "id": 10525,
@@ -346,6 +346,14 @@
       "source_repo": "EMILY",
       "date": "20260724",
       "archived_at": "2026-07-24T02:59:34Z"
+    },
+    {
+      "id": 10568,
+      "type": "completion",
+      "title": "Fix: company bios weren't actually live (stale binary)",
+      "source_repo": "PRRJECT_FATBABY",
+      "date": "20260724",
+      "archived_at": "2026-07-24T03:05:42Z"
     }
   ]
 }
