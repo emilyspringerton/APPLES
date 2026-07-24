@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-24T22:16:03Z",
+  "body": "Two-part root cause: matchmakers had died (bots orphaned), then even after restart the client failed silently because PLAY.bat never set REDGARDEN_TICKET_SECRET client-side and there's no human login flow yet. Restarted both matchmaker pools with the shared secret, fixed PLAY.bat (sets the var, added pause so failures are readable). Also did a live sudo-queue audit while at it -- 4 scripts confirmed done and archived, 5 confirmed still pending. Commit a509174. BACKLOG S170-63, S170-64.",
+  "id": 10681,
+  "metadata": null,
+  "run_id": "cli-20260724T221603Z",
+  "source_repo": "REDGARDEN",
+  "title": "Fix: matchmaker restart + PLAY.bat missing ticket secret, real connection failure diagnosed"
+}

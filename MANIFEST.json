@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-24T22:13:43Z",
+  "generated_at": "2026-07-24T22:16:03Z",
   "repo": "APPLES",
-  "count": 156,
+  "count": 157,
   "apples": [
     {
       "id": 10525,
@@ -1250,6 +1250,14 @@
       "source_repo": "emily",
       "date": "20260724",
       "archived_at": "2026-07-24T22:13:43Z"
+    },
+    {
+      "id": 10681,
+      "type": "completion",
+      "title": "Fix: matchmaker restart + PLAY.bat missing ticket secret, real connection failure diagnosed",
+      "source_repo": "REDGARDEN",
+      "date": "20260724",
+      "archived_at": "2026-07-24T22:16:03Z"
     }
   ]
 }
