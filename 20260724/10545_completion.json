@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-24T00:51:10Z",
+  "body": "New internal/newssite/companybios store reads config/company_bios.json, wired into cmd/newssite (-company-bios-path flag) and rendered on /ticker/{symbol} above the lead story. Closes deferred half of S166-03. go test ./... green, 2 new tests. Commit 5be36a0. BACKLOG S170-22.",
+  "id": 10545,
+  "metadata": null,
+  "run_id": "cli-20260724T005110Z",
+  "source_repo": "PRRJECT_FATBABY",
+  "title": "Ticker-page bios wired live"
+}
