@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-24T07:17:23Z",
+  "body": "S170-26/41 complete, verified live end-to-end (not just unit tests). IDUNA gained a new REDGARDEN-BOTS M2M agent, a genre-agnostic player_game_stats table, and three endpoints (POST /api/v1/redgarden/ticket, POST /api/v1/redgarden/game-result, GET /api/v1/redgarden/leaderboard) -- resolves the schema fork flagged in Phase A (REDGARDEN's win/loss doesn't corrupt shankpit-460's FPS kills/deaths columns). REDGARDEN's apps/client/bot_main.c now does a real IDUNA register+ticket-mint round trip instead of self-minting fake tickets (falls back cleanly on any failure). apps/server now reports real match results at match_end. Ran a real 2-bot match to natural completion: match log's winner matched the public leaderboard afterward exactly. scripts/test_10_bots.sh and scripts/test_arena.sh both re-verified clean. IDUNA commit c7789bc, REDGARDEN commit eae519d.",
+  "id": 10587,
+  "metadata": null,
+  "run_id": "cli-20260724T071723Z",
+  "source_repo": "REDGARDEN",
+  "title": "WOTAN player identity for REDGARDEN: real bot accounts, real match results"
+}
