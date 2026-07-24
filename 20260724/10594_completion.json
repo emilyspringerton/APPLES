@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-24T08:34:30Z",
+  "body": "NORTHSTAR S13 cont'd. Team-mode sim (heroes[2]-\u003eheroes[20], team/active fields, arena_nearest_enemy generalizing foe lookup), draft phase (PACKET_ARENA_PICK), apps/arena_server generalized to --lobby-size N, new apps/arena_bot (real networked bot, real WOTAN identity, persistent matchmaker requeue), apps/matchmaker generalized. Found and fixed 3 real bugs via an extensive soak test: (1) bots re-registering a brand-new WOTAN identity every match instead of one stable identity, (2) match servers never terminating after match end and flooding persistent bots' sockets with stale packets, silently swallowing their next connection's WELCOME, (3) a UDP retry race in the matchmaker spawning phantom matches nobody connects to -- mitigated plus a defensive 60s no-progress timeout so phantoms self-clean. Verified live: 2 persistent bots, stable identity across 20+ matches each, real accumulating win/loss records up to 23 matches played, zero connect failures after fixes. Unverified and flagged honestly: actual 20-bot 10v10 live run, and SDL2 client visual rendering (no Xvfb). Commit 0146abd.",
+  "id": 10594,
+  "metadata": null,
+  "run_id": "cli-20260724T083430Z",
+  "source_repo": "REDGARDEN",
+  "title": "REDGARDEN 10v10 scaling + persistent bot pool, 3 real bugs found and fixed"
+}

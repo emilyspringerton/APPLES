@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-24T08:31:42Z",
+  "generated_at": "2026-07-24T08:34:30Z",
   "repo": "APPLES",
-  "count": 69,
+  "count": 70,
   "apples": [
     {
       "id": 10525,
@@ -554,6 +554,14 @@
       "source_repo": "emily",
       "date": "20260724",
       "archived_at": "2026-07-24T08:31:42Z"
+    },
+    {
+      "id": 10594,
+      "type": "completion",
+      "title": "REDGARDEN 10v10 scaling + persistent bot pool, 3 real bugs found and fixed",
+      "source_repo": "REDGARDEN",
+      "date": "20260724",
+      "archived_at": "2026-07-24T08:34:30Z"
     }
   ]
 }
