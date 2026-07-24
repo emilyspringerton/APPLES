@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-24T22:16:03Z",
+  "generated_at": "2026-07-24T22:23:06Z",
   "repo": "APPLES",
-  "count": 157,
+  "count": 158,
   "apples": [
     {
       "id": 10525,
@@ -1258,6 +1258,14 @@
       "source_repo": "REDGARDEN",
       "date": "20260724",
       "archived_at": "2026-07-24T22:16:03Z"
+    },
+    {
+      "id": 10682,
+      "type": "completion",
+      "title": "Real systemd units for arena matchmakers + bot pool",
+      "source_repo": "REDGARDEN",
+      "date": "20260724",
+      "archived_at": "2026-07-24T22:23:06Z"
     }
   ]
 }

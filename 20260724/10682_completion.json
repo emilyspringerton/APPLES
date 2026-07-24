@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-24T22:23:06Z",
+  "body": "The matchmaker had never run under systemd, only nohup'd -- the actual root cause of S170-63's outage. New units (redgarden-matchmaker-bots/players, redgarden-bot-pool) matching fatbaby-newssite/gfd-mud pattern, deployed and verified live including watching Restart=on-failure actually recover the matchmaker after a port conflict. Commit d5deb0b. BACKLOG S170-65.",
+  "id": 10682,
+  "metadata": null,
+  "run_id": "cli-20260724T222306Z",
+  "source_repo": "REDGARDEN",
+  "title": "Real systemd units for arena matchmakers + bot pool"
+}
