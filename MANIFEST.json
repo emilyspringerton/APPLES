@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-24T17:13:35Z",
+  "generated_at": "2026-07-24T17:17:20Z",
   "repo": "APPLES",
-  "count": 123,
+  "count": 124,
   "apples": [
     {
       "id": 10525,
@@ -986,6 +986,14 @@
       "source_repo": "emily",
       "date": "20260724",
       "archived_at": "2026-07-24T17:13:35Z"
+    },
+    {
+      "id": 10648,
+      "type": "audit",
+      "title": "Tyler IDUNA agent registration — verified already complete, backlog was stale",
+      "source_repo": "IDUNA",
+      "date": "20260724",
+      "archived_at": "2026-07-24T17:17:20Z"
     }
   ]
 }

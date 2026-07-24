@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "audit",
+  "archived_at": "2026-07-24T17:17:20Z",
+  "body": "Picked up EMILY/BACKLOG.md SECTION 5's 'Tyler IDUNA agent registration via iduna CLI' item (lowest-numbered open, unblocked section). Before building a new 'iduna agents register' CLI subcommand, checked whether Tyler actually lacks registration today. Queried var/iduna.db directly: TYLER agent (id 00000003-0000-4000-8000-000000000006) already exists, status=ACTIVE, has a real api_key_hash credential, and all 3 permissions from config/agents.json granted (apples.write, apples.read, tyler.rsi.write). var/agent-secrets.env already has IDUNA_SECRET_TYLER populated. The backlog item's premise (Tyler only seeded via migration, no CLI path, not yet authenticated) was stale -- the existing bootstrap + config/agents.json mechanism already fully provisioned Tyler in an earlier, undocumented pass. No code needed; closing both this item and the related HITL-09 ('Run iduna agents register --id tyler') as already satisfied by existing infrastructure, not by building new tooling for an already-solved problem.",
+  "id": 10648,
+  "metadata": null,
+  "run_id": "cli-20260724T171720Z",
+  "source_repo": "IDUNA",
+  "title": "Tyler IDUNA agent registration — verified already complete, backlog was stale"
+}
