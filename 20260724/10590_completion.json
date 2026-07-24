@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-24T07:52:01Z",
+  "body": "Direct founder correction: bot-vs-bot 'autometa' PvP already judged boring; scaling it to 10v10 doesn't fix that -- apps/arena (hero click-to-move) is the real product now, not the card-RTS. NORTHSTAR.md §13 formalizes the pivot. Shipped real 1v1 networked PvP same day: new apps/arena_server (server-authoritative UDP, ports connect-ticket/WOTAN pieces from apps/server), --connect mode added to apps/arena's client, new PACKET_ARENA_MOVE/CAST/SNAPSHOT wire packets. Verified live, catching two real bugs testing alone wouldn't have: arena_bot_enabled wasn't gating the bot's kit-cast AI (a real second player would still get yanked/attacked by Duck's Q), and the sim clock started before both real players connected (a match could resolve before player 2 joined). Both fixed, regression test added. Final verified state: two real clients with distinct WOTAN identities connect, match waits correctly until both present, bot fully disabled once both connect, no unprompted movement/combat. scripts/test_arena.sh and test_10_bots.sh both clean. Commit 4ab7539.",
+  "id": 10590,
+  "metadata": null,
+  "run_id": "cli-20260724T075201Z",
+  "source_repo": "REDGARDEN",
+  "title": "REDGARDEN pivot: MOBA (apps/arena) is the product, real 1v1 networked PvP shipped"
+}

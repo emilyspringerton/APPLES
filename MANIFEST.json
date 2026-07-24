@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-24T07:46:05Z",
+  "generated_at": "2026-07-24T07:52:01Z",
   "repo": "APPLES",
-  "count": 65,
+  "count": 66,
   "apples": [
     {
       "id": 10525,
@@ -522,6 +522,14 @@
       "source_repo": "emily",
       "date": "20260724",
       "archived_at": "2026-07-24T07:46:05Z"
+    },
+    {
+      "id": 10590,
+      "type": "completion",
+      "title": "REDGARDEN pivot: MOBA (apps/arena) is the product, real 1v1 networked PvP shipped",
+      "source_repo": "REDGARDEN",
+      "date": "20260724",
+      "archived_at": "2026-07-24T07:52:01Z"
     }
   ]
 }
