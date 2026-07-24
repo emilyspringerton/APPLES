@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-24T16:16:44Z",
+  "body": "Third and last of the three matchmaking pools was explicitly a design gap (no rank model, MMR, or queue rules existed), so this pass writes docs/RANKED_MATCHMAKING.md rather than skipping to code against an undecided model. Recommends plain ELO (K=32 flat, starting 1000) over Glicko/TrueSkill -- the rating-uncertainty problem those solve doesn't exist yet in a symmetric 1v1-only pool with no team-composition variance. New redgarden_ranked_stats table, deliberately kept separate from casual player_game_stats (ranked rating and casual win/loss are different questions -- conflating them would corrupt the already-shipped casual leaderboard). Queue rules: widening rating-search-window matching, explicitly scoped as its own future build pass since it doesn't fit the existing spawn-on-fill apps/matchmaker binary as a bolted-on flag. Design only, no code landed. Golden-indexed as REDGARDEN-RANKED. All three S170-14 pools (bot games, player-only, ranked) are now either built+verified or properly designed. Commit 8b52e54.",
+  "id": 10640,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "REDGARDEN",
+  "title": "Ranked matchmaking design pass (S170-14, 3/3 -- all pools now scoped)"
+}

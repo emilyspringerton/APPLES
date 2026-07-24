@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-24T16:12:20Z",
+  "generated_at": "2026-07-24T16:16:44Z",
   "repo": "APPLES",
-  "count": 115,
+  "count": 116,
   "apples": [
     {
       "id": 10525,
@@ -922,6 +922,14 @@
       "source_repo": "emily",
       "date": "20260724",
       "archived_at": "2026-07-24T16:12:20Z"
+    },
+    {
+      "id": 10640,
+      "type": "completion",
+      "title": "Ranked matchmaking design pass (S170-14, 3/3 -- all pools now scoped)",
+      "source_repo": "REDGARDEN",
+      "date": "20260724",
+      "archived_at": "2026-07-24T16:16:44Z"
     }
   ]
 }
