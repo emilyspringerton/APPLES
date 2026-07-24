@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-24T00:21:59Z",
+  "generated_at": "2026-07-24T00:24:58Z",
   "repo": "APPLES",
-  "count": 15,
+  "count": 16,
   "apples": [
     {
       "id": 10525,
@@ -122,6 +122,14 @@
       "source_repo": "REDGARDEN",
       "date": "20260724",
       "archived_at": "2026-07-24T00:21:59Z"
+    },
+    {
+      "id": 10540,
+      "type": "completion",
+      "title": "§12 northstar — full roster, replays/observer-mode, WOTAN, Game AI (phased, not built)",
+      "source_repo": "REDGARDEN",
+      "date": "20260724",
+      "archived_at": "2026-07-24T00:24:58Z"
     }
   ]
 }
