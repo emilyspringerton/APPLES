@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-24T22:49:24Z",
+  "body": "REDGARDEN commit 221925e. Live investigation of the founder's real-time 'i cant see myself or team or enemies' / 'maybe the game isnt actually working right theres no entities' report. Found ~55 accumulated zombie arena_server processes, all stuck at 0/20 connected, timing out after 60s and endlessly reforming. Root cause: redgarden-bot-pool.service (the unit running the 19 persistent apps/arena_bot processes) never had Environment=REDGARDEN_TICKET_SECRET set -- only the two matchmaker units did. Bots could queue fine but silently failed to mint a valid connect ticket for the actual game-server handshake, so every match formed and then sat permanently empty. Not a rendering bug, not a death/HP bug -- matches were never truly starting at all. Fixed, redeployed, verified live: CLIENT N CONNECTED climbing to 18-20/20 across several real matches post-fix. Closes BACKLOG S170-72.",
+  "id": 10686,
+  "metadata": null,
+  "run_id": "cli-20260724T224924Z",
+  "source_repo": "REDGARDEN",
+  "title": "Real root cause of 'no entities': bot-pool systemd unit never had the ticket secret"
+}

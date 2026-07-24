@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-24T22:44:42Z",
+  "generated_at": "2026-07-24T22:49:24Z",
   "repo": "APPLES",
-  "count": 161,
+  "count": 162,
   "apples": [
     {
       "id": 10525,
@@ -1290,6 +1290,14 @@
       "source_repo": "emily",
       "date": "20260724",
       "archived_at": "2026-07-24T22:44:42Z"
+    },
+    {
+      "id": 10686,
+      "type": "completion",
+      "title": "Real root cause of 'no entities': bot-pool systemd unit never had the ticket secret",
+      "source_repo": "REDGARDEN",
+      "date": "20260724",
+      "archived_at": "2026-07-24T22:49:24Z"
     }
   ]
 }
