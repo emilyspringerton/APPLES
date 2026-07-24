@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-24T00:05:01Z",
+  "generated_at": "2026-07-24T00:06:41Z",
   "repo": "APPLES",
-  "count": 11,
+  "count": 12,
   "apples": [
     {
       "id": 10525,
@@ -90,6 +90,14 @@
       "source_repo": "SHANKPIT",
       "date": "20260724",
       "archived_at": "2026-07-24T00:05:01Z"
+    },
+    {
+      "id": 10536,
+      "type": "completion",
+      "title": "Emily Prime cadence doc sweep — 5m→15m across all docs, code already correct (retroactive)",
+      "source_repo": "EMILY",
+      "date": "20260724",
+      "archived_at": "2026-07-24T00:06:41Z"
     }
   ]
 }

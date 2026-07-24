@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-24T00:06:41Z",
+  "body": "EMILY commit d6f8adb (bundled with other work that same commit). Interval was already 15m in code (S131-03, prior session) but two stale comments (cron.go, main.go) and every doc claiming '5 minutes' (README, CLAUDE.md, NORTHSTAR, THE_EMILY_WAY, REBOOT_RUNBOOK, api.yaml, full-system-context.md, golden-cache.json, world-state.md, BACKLOG.md) still said 5m. Fixed the comments + all current-state docs, deliberately left historical CHANGELOG/BACKLOG entries describing the past 5m-\u003e15m transition untouched (accurate records, not stale claims). Filed retroactively — this was the very first task of the session and never got its own Apple/backlog entry; found during full-session audit.",
+  "id": 10536,
+  "metadata": null,
+  "run_id": "cli-20260724T000641Z",
+  "source_repo": "EMILY",
+  "title": "Emily Prime cadence doc sweep — 5m→15m across all docs, code already correct (retroactive)"
+}
