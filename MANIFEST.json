@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-24T22:23:06Z",
+  "generated_at": "2026-07-24T22:29:13Z",
   "repo": "APPLES",
-  "count": 158,
+  "count": 159,
   "apples": [
     {
       "id": 10525,
@@ -1266,6 +1266,14 @@
       "source_repo": "REDGARDEN",
       "date": "20260724",
       "archived_at": "2026-07-24T22:23:06Z"
+    },
+    {
+      "id": 10683,
+      "type": "observation",
+      "title": "Cycle 8959 — triage: 9 new tasks",
+      "source_repo": "emily",
+      "date": "20260724",
+      "archived_at": "2026-07-24T22:29:13Z"
     }
   ]
 }
