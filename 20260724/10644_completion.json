@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-24T17:05:07Z",
+  "body": "Extended the two decorative ArenaNode markers into a real capture contest (arena_tick_nodes: weighted team presence -\u003e signed pressure -\u003e threshold-derived owner). Merged the former Druid into Flamel per founder direction (TYLER lore confirmed Druid had no named-character backing). Added Morrigan (meta jungler, contested-ground affinity) and Dagda (two-natured club Q: kills a hittable enemy in range, else heals a hurt ally) per founder direction, both real TYLER entries (#68/#69). Centralized apply_damage() across every damage site so Pizza's real HP-floor R works consistently. Roster 5 -\u003e 10, pick-validation/draft-modulo widened. 62 new headless tests (216 total). Verified live: full 10-hero roster drafted correctly across a real 20-bot match, persistent pool relaunched on freshest build and left running. REDGARDEN acdd8ce.",
+  "id": 10644,
+  "metadata": null,
+  "run_id": "cli-20260724T170507Z",
+  "source_repo": "REDGARDEN",
+  "title": "Territory system + Tree, Pizza, Flamel, Morrigan, Dagda"
+}
