@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-24T22:51:41Z",
+  "body": "REDGARDEN commit 1aac71c. Ring buffer of action timestamps (clicks + Q/W/E casts) in apps/arena/src/main.c; apm_compute() counts entries in a trailing 60s window. Off by default, F11 toggles it in any mode. Verified via build_arena.sh, test_arena.sh, and a local mingw cross-compile, all clean. Closes BACKLOG S170-71.",
+  "id": 10687,
+  "metadata": null,
+  "run_id": "cli-20260724T225141Z",
+  "source_repo": "REDGARDEN",
+  "title": "Toggleable APM overlay, F11"
+}
