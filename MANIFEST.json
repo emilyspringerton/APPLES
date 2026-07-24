@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-24T10:01:04Z",
+  "generated_at": "2026-07-24T10:15:15Z",
   "repo": "APPLES",
-  "count": 82,
+  "count": 83,
   "apples": [
     {
       "id": 10525,
@@ -658,6 +658,14 @@
       "source_repo": "emily",
       "date": "20260724",
       "archived_at": "2026-07-24T10:01:04Z"
+    },
+    {
+      "id": 10607,
+      "type": "completion",
+      "title": "SAGA schema + emily saga lint (S143-01)",
+      "source_repo": "emily.cli",
+      "date": "20260724",
+      "archived_at": "2026-07-24T10:15:15Z"
     }
   ]
 }

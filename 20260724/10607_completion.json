@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-24T10:15:15Z",
+  "body": "HQ-SPEC-DOC-102 build-sequence step 1: frontmatter schema (authority + reality-binding axes) and claim-ID convention every HQ-SPEC doc now carries. emily saga lint (stdlib-only hand-rolled parser) checks enum validity, claim-ID format+ownership, ID collisions, dangling supersedes/amends refs, unenumerated inheritance, orphan goldens. Retrofitted real frontmatter + inline claim citations onto all 7 live HQ-SPEC docs (098/099/100/101/102/103/105), DOC-102 first per its own instruction. Honest mixed reality-binding, not uniformly specified: PRIME-101's CheckLineage+pkg/apples marked verified (real Apples #9926/#9927), AI-103's entropy source marked verified (S26-05), INFRA-105's MJOLNIR BuildConfig gap marked diverged. emily saga lint reports ALL CLEAN. 13 new tests. Steps 2-6 deferred per DOC-102's own sequencing. emily.cli commit 92c0780.",
+  "id": 10607,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "emily.cli",
+  "title": "SAGA schema + emily saga lint (S143-01)"
+}
