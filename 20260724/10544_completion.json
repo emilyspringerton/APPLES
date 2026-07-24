@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-24T00:46:26Z",
+  "body": "Superseded the Intrado guess. WEST = West Publishing/Westlaw, parent Thomson Reuters Corp (TRI, CIK 1075124, 6-K/40-F filer). Added TRI to config/watchlist.json + bio to company_bios.json — existing CIK pipeline covers this directly, no bespoke watcher needed. Northstar doc rewritten in place. BACKLOG S170-20.",
+  "id": 10544,
+  "metadata": null,
+  "run_id": "cli-20260724T004626Z",
+  "source_repo": "PRRJECT_FATBABY",
+  "title": "WEST identity corrected to Westlaw/Thomson Reuters"
+}
