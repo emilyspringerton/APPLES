@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-24T02:15:38Z",
+  "body": "New redgarden-wishlist.html -- distinct from redgarden.html's early-access waitlist. This one is 'notify me when the Steam wishlist page goes live,' its own Mailchimp audience (list:redgarden-wishlist). Cross-linked from redgarden.html. Deployed via okemily-deploy.sh. Still blocked on the mailing-list vault unlock like every other signup form. Commit 305a73a. BACKLOG S170-35.",
+  "id": 10562,
+  "metadata": null,
+  "run_id": "cli-20260724T021538Z",
+  "source_repo": "OKEMILY",
+  "title": "RED GARDEN wishlist notify-me landing page"
+}
