@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-24T09:59:05Z",
+  "body": "apps/arena's client only supported --connect host:port (an already-known server), useless against the persistent bot pool where the matchmaker assigns a new port per match. Added --queue \u003cmatchmaker_host\u003e/--matchmaker-port, reusing apps/arena_bot's exact PACKET_FIND_MATCH/MATCH_FOUND queue pattern and net_connect's existing ticket handshake -- pure client-side, no server changes. Verified live: real matchmaker + one persistent bot, human client queued, matched with the bot, connected, assigned hero slot 1 on the same server the bot connected to (slot 0). First attempt failed on a test-setup mistake (matchmaker shell missing REDGARDEN_TICKET_SECRET, server correctly failed closed) not a code bug. Still bounded by the pre-existing no-Xvfb gap -- join proven, playing a full match still needs a real display. Commit b7bcc9d.",
+  "id": 10605,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "REDGARDEN",
+  "title": "Human player can join the persistent bot pool (S170-44)"
+}

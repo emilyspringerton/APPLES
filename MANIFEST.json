@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-24T09:52:49Z",
+  "generated_at": "2026-07-24T09:59:05Z",
   "repo": "APPLES",
-  "count": 80,
+  "count": 81,
   "apples": [
     {
       "id": 10525,
@@ -642,6 +642,14 @@
       "source_repo": "IDUNA",
       "date": "20260724",
       "archived_at": "2026-07-24T09:52:49Z"
+    },
+    {
+      "id": 10605,
+      "type": "completion",
+      "title": "Human player can join the persistent bot pool (S170-44)",
+      "source_repo": "REDGARDEN",
+      "date": "20260724",
+      "archived_at": "2026-07-24T09:59:05Z"
     }
   ]
 }
