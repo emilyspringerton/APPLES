@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-24T14:15:11Z",
+  "generated_at": "2026-07-24T14:16:40Z",
   "repo": "APPLES",
-  "count": 103,
+  "count": 104,
   "apples": [
     {
       "id": 10525,
@@ -826,6 +826,14 @@
       "source_repo": "emily",
       "date": "20260724",
       "archived_at": "2026-07-24T14:15:11Z"
+    },
+    {
+      "id": 10628,
+      "type": "completion",
+      "title": "Player-only matchmaking pool verified live (S170-14, 2/3)",
+      "source_repo": "REDGARDEN",
+      "date": "20260724",
+      "archived_at": "2026-07-24T14:16:40Z"
     }
   ]
 }

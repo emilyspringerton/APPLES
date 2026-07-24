@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-24T14:16:40Z",
+  "body": "Two of the three matchmaking pools requested (bot games, player-only, ranked) are now real. Bot games was already S170-43's persistent pool. Player-only pool: scripts/launch_arena_pools.sh stands up a second, separate matchmaker instance (port 7779, --lobby-size 2) with zero bots ever pointed at it -- operational pool separation, not new matchmaker code. 1v1 not 10v10, since near-zero real concurrent players today means a 10v10 player-only queue would never fill. Verified live: ran both pools simultaneously, two real --queue human clients matched into a genuine 1v1 on the player-only pool ('internal bot AI disabled, entering draft'), cross-checked isolation both directions (player-only matchmaker log shows only the two humans; grepped every bot log for the player-only pool's ports, found nothing). Ranked pool (3/3) stays explicitly undesigned -- no rank model/MMR/queue rules exist yet, a design gap not a code gap. Commit c31e90e.",
+  "id": 10628,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "REDGARDEN",
+  "title": "Player-only matchmaking pool verified live (S170-14, 2/3)"
+}
