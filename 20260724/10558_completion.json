@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-24T02:04:48Z",
+  "body": "Wired Ghost's Q/W/R (skillshot-simplified damage+Silence, instant intangibility, fixed-position damage zone). First kit needing real status-effect state (silenced_ms/intangible_ms, hero_is_hittable()). Flagged (did not fix) a pre-existing rounding bug in Unicorn's W regen found while building the zone tick. Roster-fit audit: 8 of the 10 remaining heroes are structurally blocked by systems arena doesn't have (grid pressure, allies, multi-unit, cooking) -- only Frog remains a clean fit. 7 new headless tests, all green alongside full existing suite. Commit 9178fae. BACKLOG S170-32.",
+  "id": 10558,
+  "metadata": null,
+  "run_id": "cli-20260724T020448Z",
+  "source_repo": "REDGARDEN",
+  "title": "NORTHSTAR §12 Phase D: third hero (The Ghost) + roster-fit audit"
+}
