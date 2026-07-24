@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-24T11:00:37Z",
+  "generated_at": "2026-07-24T11:02:21Z",
   "repo": "APPLES",
-  "count": 89,
+  "count": 90,
   "apples": [
     {
       "id": 10525,
@@ -714,6 +714,14 @@
       "source_repo": "emily",
       "date": "20260724",
       "archived_at": "2026-07-24T11:00:37Z"
+    },
+    {
+      "id": 10614,
+      "type": "completion",
+      "title": "Resolved FABLE naming collision -- emily-agent advisor renamed to MIMIR",
+      "source_repo": "EMILY",
+      "date": "20260724",
+      "archived_at": "2026-07-24T11:02:21Z"
     }
   ]
 }

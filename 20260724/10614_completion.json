@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-24T11:02:21Z",
+  "body": "SECTION 145's own prerequisite note (found by the 2026-07-18 SAGA audit): emily-agent/fable.go (claude-haiku backlog advisor) collided with HQ-SPEC-AI-103's sovereign model-line FABLE. Renamed the advisor to MIMIR (Norse: the wise counsel-giver, matching NORN/SAGA/FATES) -- fable.go-\u003emimir.go, FableAdvice/FableItem-\u003eMimirAdvice/MimirItem, routes /api/v1/emily/fable/*-\u003e/api/v1/emily/mimir/*. No external consumer depended on the old routes (checked MJOLNIR). docs/NORTHSTAR.md + docs/API_KEY_UNLOCK.md updated; a point-in-time experiment doc left as historical record. Build+tests green. Found a second, bigger, NOT-yet-resolved collision: this environment's real Claude model lineup includes an actual model called Fable (claude-fable-5) -- HQ-SPEC-AI-103's own FABLE branding collides with that too, flagged in BACKLOG.md for the founder since renaming an entire spec's established branding is a product decision, not mine to make unilaterally.",
+  "id": 10614,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "EMILY",
+  "title": "Resolved FABLE naming collision -- emily-agent advisor renamed to MIMIR"
+}
