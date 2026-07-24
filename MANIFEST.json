@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-23T23:59:43Z",
+  "generated_at": "2026-07-24T00:05:01Z",
   "repo": "APPLES",
-  "count": 10,
+  "count": 11,
   "apples": [
     {
       "id": 10525,
@@ -82,6 +82,14 @@
       "source_repo": "emily",
       "date": "20260723",
       "archived_at": "2026-07-23T23:59:43Z"
+    },
+    {
+      "id": 10535,
+      "type": "completion",
+      "title": "Bedrock Racers vertical slice — F1 chassis + item/ultimate layer (retroactive)",
+      "source_repo": "SHANKPIT",
+      "date": "20260724",
+      "archived_at": "2026-07-24T00:05:01Z"
     }
   ]
 }

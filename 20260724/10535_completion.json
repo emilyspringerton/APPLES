@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-24T00:05:01Z",
+  "body": "SHANKPIT commits 2ca3995 (feat), edd899d (CLAUDE.md standing-commit note). Wires previously-dormant server/system/vehicle_dynamics.go/vehicle_physics.go chassis into a live game mode for the first time via new server/system/racing_mode.go. One F1 vehicle, one hand-authored track (SCENE_RACE_TRACK), 8 checkpoints, 3 laps, 3 items + 1 ultimate. New PACKET_RACING_STATE wire packet. Client: R keybind + HUD, plus a net_connect() fix (previously missing mode byte, also fixes CTF-over-network as a side effect). Full spec + known gaps (apps2/lobby's pre-existing unrelated build breakage) in docs2/specs/BEDROCK_RACERS_SPEC.md. go test ./... green. Filed retroactively — this Apple should have been posted the same night the work landed, before the backlog-first discipline was tightened; found during a full-session audit.",
+  "id": 10535,
+  "metadata": null,
+  "run_id": "cli-20260724T000501Z",
+  "source_repo": "SHANKPIT",
+  "title": "Bedrock Racers vertical slice — F1 chassis + item/ultimate layer (retroactive)"
+}
