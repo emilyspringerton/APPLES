@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-24T18:04:50Z",
+  "body": "Replaced the S170-46 ambient-pressure territory model with a real Arathi Basin-style channel capture: exclusive presence starts/continues a channel, a node flips neutral the instant a channel starts (not on completion), interrupts (mixed presence, Pizza's corruption, damage taken, or the channeling team leaving) lose all progress with no free revert. Stealth (Frog's R) lets a lone capper channel undetected through a crowd of visible enemies, but starting the channel breaks that stealth, and damage to the channeling team interrupts it -- both matching real WoW Arathi Basin rules exactly, per direct founder specification. Added territorial jungle creeps (one per node, re-rolled from current owner on respawn, two flavors with genuinely different rewards -- contested = big capture swing, owned = heal-or-flip-assist depending who kills it, a real counter to turtling comps). Activated real WOTAN stats tracking for the persistent bot pool (was silently on self-minted tickets all session due to a missing env var export) and gave bots memorable display names via a new --index flag. 28 new headless tests (251 total). Verified live: a full ~2.5-minute 20-hero match ran to completion on the redesigned system without crashing; confirmed real named player identities registering and the leaderboard accumulating real stats. REDGARDEN 2cf6cdd.",
+  "id": 10654,
+  "metadata": null,
+  "run_id": "cli-20260724T180450Z",
+  "source_repo": "REDGARDEN",
+  "title": "Arathi Basin channel capture + jungle creeps + bot names"
+}
