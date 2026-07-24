@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-24T16:11:03Z",
+  "body": "Decided both open questions: per-turn (ledger-faithful, matches the 'every meaningful outcome is a filed Apple' ethos) and a new 'conversation' Apple type (IDUNA's apple_type isn't enum-enforced, safe to add; also added to Back Office filter dropdown, IDUNA d2b9b6e). handleChat now calls postChatTurnApple right after ConversationStore.AppendTurn -- non-fatal, silently no-ops without IDUNA env vars. Payload construction split into a pure buildChatTurnApple function (same pattern as buildCycleApple) for unit-testability without a mock server. 5 new tests, full suite green. EMILY b76f254.",
+  "id": 10638,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "EMILY",
+  "title": "Wired /chat to the Apple ledger (S148-00)"
+}

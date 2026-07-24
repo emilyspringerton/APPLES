@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-24T16:04:55Z",
+  "generated_at": "2026-07-24T16:11:03Z",
   "repo": "APPLES",
-  "count": 113,
+  "count": 114,
   "apples": [
     {
       "id": 10525,
@@ -906,6 +906,14 @@
       "source_repo": "EMILY",
       "date": "20260724",
       "archived_at": "2026-07-24T16:04:55Z"
+    },
+    {
+      "id": 10638,
+      "type": "completion",
+      "title": "Wired /chat to the Apple ledger (S148-00)",
+      "source_repo": "EMILY",
+      "date": "20260724",
+      "archived_at": "2026-07-24T16:11:03Z"
     }
   ]
 }
