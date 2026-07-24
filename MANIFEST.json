@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-24T21:50:20Z",
+  "generated_at": "2026-07-24T21:51:27Z",
   "repo": "APPLES",
-  "count": 151,
+  "count": 152,
   "apples": [
     {
       "id": 10525,
@@ -1210,6 +1210,14 @@
       "source_repo": "REDGARDEN",
       "date": "20260724",
       "archived_at": "2026-07-24T21:50:20Z"
+    },
+    {
+      "id": 10676,
+      "type": "completion",
+      "title": "Blog post: Duh",
+      "source_repo": "EMILY",
+      "date": "20260724",
+      "archived_at": "2026-07-24T21:51:27Z"
     }
   ]
 }
