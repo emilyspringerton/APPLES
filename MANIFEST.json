@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-24T03:10:22Z",
+  "generated_at": "2026-07-24T03:14:16Z",
   "repo": "APPLES",
-  "count": 45,
+  "count": 46,
   "apples": [
     {
       "id": 10525,
@@ -362,6 +362,14 @@
       "source_repo": "SHANKPIT",
       "date": "20260724",
       "archived_at": "2026-07-24T03:10:22Z"
+    },
+    {
+      "id": 10570,
+      "type": "observation",
+      "title": "Cycle 8882 — triage: 9 new tasks",
+      "source_repo": "emily",
+      "date": "20260724",
+      "archived_at": "2026-07-24T03:14:16Z"
     }
   ]
 }
