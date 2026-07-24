@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-24T10:45:16Z",
+  "generated_at": "2026-07-24T10:58:11Z",
   "repo": "APPLES",
-  "count": 87,
+  "count": 88,
   "apples": [
     {
       "id": 10525,
@@ -698,6 +698,14 @@
       "source_repo": "emily",
       "date": "20260724",
       "archived_at": "2026-07-24T10:45:16Z"
+    },
+    {
+      "id": 10612,
+      "type": "completion",
+      "title": "GOLDEN BAND v0: .gband format + C sampler + Go pipeline tools (S144-01)",
+      "source_repo": "GOLDENBAND",
+      "date": "20260724",
+      "archived_at": "2026-07-24T10:58:11Z"
     }
   ]
 }

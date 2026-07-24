@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-24T10:58:11Z",
+  "body": "HQ-SPEC-SIM-100 §8 build step 1. New standalone repo GOLDENBAND (not in go.work, mirrors SHANKPIT/PITVIPER/EmilyOS -- deliberate per the spec's 'no engine dependency in the asset' rule). Built the .gband binary format (fixed 84-byte header + row-major float32 channels) + JSON manifest schema, a ~90-line C sampler (gb_init/gb_sample/gb_blend/gb_verify -- comfortably inside the spec's own 'hundred line parser' acceptance test), self-contained sha256 (trimmed from REDGARDEN's hmac_sha256.h, re-verified against NIST FIPS 180-4 vectors independently), and gbtool (Go: BVH import/hash/validate). 13 tests (3 C, 10 Go) all passing; full pipeline smoke-tested end to end with a synthetic BVH fixture. glTF import, skeleton assets/retargeting, the reward compiler, and SHANKPIT integration are explicit, documented gaps (steps 2+), not silently skipped. One real blocker: no GitHub remote exists yet for this new repo (same as PITVIPER's S127-04 -- no gh CLI, no API token), committed locally only. Commit a9de6b1.",
+  "id": 10612,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "GOLDENBAND",
+  "title": "GOLDEN BAND v0: .gband format + C sampler + Go pipeline tools (S144-01)"
+}
