@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-24T01:40:57Z",
+  "body": "New packages/simulation/arena_replay.h/.c parses apps/arena match logs and drives ArenaState directly, interpolating between 500ms snapshots. New red_garden_arena --observe \u003cpath\u003e flag plays a match back through the exact same render loop as live play. 6 new headless tests, all green (test_arena.sh + test_10_bots.sh both still pass). RTS-side playback and true live-tailing remain open next steps. Commit c9e05e6. BACKLOG S170-30.",
+  "id": 10554,
+  "metadata": null,
+  "run_id": "cli-20260724T014057Z",
+  "source_repo": "REDGARDEN",
+  "title": "NORTHSTAR §12 Phase C started: arena observer mode"
+}
