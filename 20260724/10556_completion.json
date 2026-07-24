@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-24T01:51:20Z",
+  "body": "ArenaHero gained hero_id; ability functions now dispatch on it instead of S170-18's hardcoded owner==0. Wired The Duck's Q/R (W/E flagged and skipped, not faked -- no objectives in arena, E's trigger coincides with match-end). arena_init() defaults player=Unicorn, bot=Duck with heuristic bot-casting, giving the bot side a real kit for the first time. 6 new headless tests, all green alongside full existing suite. 10 heroes remain as follow-on passes. Commit 63b94e7. BACKLOG S170-31.",
+  "id": 10556,
+  "metadata": null,
+  "run_id": "cli-20260724T015120Z",
+  "source_repo": "REDGARDEN",
+  "title": "NORTHSTAR §12 Phase D started: second hero (The Duck), generalized kit dispatch"
+}
