@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-24T02:10:01Z",
+  "body": "Wired Frog's Q (Loop Back: rewind own position/HP to ~3s ago via a new per-hero loopback ring buffer) and R (The Secret, simplified to reuse Ghost's intangible_ms). W and passive skipped, flagged. Bot heuristic is defensive since Frog deals no damage. 4 new tests, all green alongside full existing suite. Frog was the last hero from S170-32's audit that fits arena without new systems (allies, grid, multi-unit, cooking) -- flagged as a real decision point for future roster growth. Commit 43ff608. BACKLOG S170-33.",
+  "id": 10559,
+  "metadata": null,
+  "run_id": "cli-20260724T021001Z",
+  "source_repo": "REDGARDEN",
+  "title": "NORTHSTAR §12 Phase D: fourth hero (The Frog), first history mechanism"
+}
