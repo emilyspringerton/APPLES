@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-24T01:24:58Z",
+  "body": "apps/server appends match_start/connect/card_play/match_end JSON lines to var/matches/\u003cport\u003e-\u003ctimestamp\u003e.jsonl per match, connect/card_play events carrying the Phase A player_id. Exactly §10's originally-spec'd minimum hook, now with player identity attached. Verified real log output from test_10_bots.sh. var/ gitignored. MOBA half (apps/arena per-tick logging) not started. Commit cb71db6. BACKLOG S170-28.",
+  "id": 10551,
+  "metadata": null,
+  "run_id": "cli-20260724T012458Z",
+  "source_repo": "REDGARDEN",
+  "title": "NORTHSTAR §12 Phase B started: match event log for replays"
+}
