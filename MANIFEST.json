@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-24T22:29:13Z",
+  "generated_at": "2026-07-24T22:38:31Z",
   "repo": "APPLES",
-  "count": 159,
+  "count": 160,
   "apples": [
     {
       "id": 10525,
@@ -1274,6 +1274,14 @@
       "source_repo": "emily",
       "date": "20260724",
       "archived_at": "2026-07-24T22:29:13Z"
+    },
+    {
+      "id": 10684,
+      "type": "completion",
+      "title": "Instant YOU WIN root-caused and fixed: systemic #ifndef _WIN32 regression + full bot-slot bug",
+      "source_repo": "REDGARDEN",
+      "date": "20260724",
+      "archived_at": "2026-07-24T22:38:31Z"
     }
   ]
 }

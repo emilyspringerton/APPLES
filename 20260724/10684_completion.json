@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-24T22:38:31Z",
+  "body": "REDGARDEN commit 73c052a. Root cause: net_poll_snapshots()/net_send_move()/net_send_cast() call sites in apps/arena/src/main.c were wrapped in #ifndef _WIN32, reintroduced by the newer 10v10 networked-PvP code after the earlier S170-54 fix. On Windows this silently compiled out real server-authoritative play, falling through to a local single-player simulation that resolved near-instantly -- 'YOU WIN' with camera + a cube, no real match. Also found and fixed: the persistent bot-pool systemd unit launched exactly 20 bots into a 20-slot lobby, permanently filling it and leaving zero room for a human to ever join -- dropped to 19. Absorbed part of S170-68 per the founder's real-time scope narrowing: auto-draft (client sends PACKET_ARENA_PICK the instant draft phase starts, console-logged) and a click-to-continue OK requeue button on the win/lose screen. Verified via scripts/build_arena.sh, scripts/test_arena.sh (all green), and a full local mingw cross-compile matching CI's toolchain/flags (0 warnings). Systemd services restarted live with the fix. Closes BACKLOG S170-66 and S170-68.",
+  "id": 10684,
+  "metadata": null,
+  "run_id": "cli-20260724T223831Z",
+  "source_repo": "REDGARDEN",
+  "title": "Instant YOU WIN root-caused and fixed: systemic #ifndef _WIN32 regression + full bot-slot bug"
+}
