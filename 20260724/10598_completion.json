@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-24T09:16:15Z",
+  "body": "FRONT_DOOR_FUNNEL.md §7 step 1: CreateAgent now inserts status=PENDING instead of ACTIVE; added GrantAgentPermission/RevokeAgentPermission + maybeActivateAgent helper that flips PENDING-\u003eACTIVE only once both a credential and a permission exist. Back Office UI updated (credential/permission display, grant/revoke forms, one-time secret reveal). Also fixed a real pre-existing bug found via testing: mysqlToSQLite didn't handle bare TIMESTAMP/ON UPDATE CURRENT_TIMESTAMP (no (6) precision), silently breaking fresh SQLite bootstraps at 202606180001_local_users.sql since the S158-03 revert. 4 new store tests pass against a real in-memory SQLite store with real migrations. Commit: pending. Unblocks progress toward EMILY/BACKLOG.md S23-01b (steps 5-6, nginx/subdomain, still open).",
+  "id": 10598,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "IDUNA",
+  "title": "Close /admin/agents gap: PENDING→ACTIVE agent lifecycle"
+}
