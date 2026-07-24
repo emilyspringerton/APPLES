@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-24T01:34:17Z",
+  "body": "apps/arena appends match_start/snapshot(500ms)/ability_cast/match_end JSON lines to var/matches/arena-\u003ctimestamp\u003e.jsonl, fresh file per match including on restart. No connect-ticket auth in this client -- events use local_player/local_bot placeholders, flagged as a real gap rather than a guessed identity. Verified by clean compile (scripts/build_arena.sh) + code review only, no display on this box so unlike the RTS half this couldn't be run end-to-end. test_arena.sh still green. Commit 4327393. BACKLOG S170-29. Phase B now closed both halves.",
+  "id": 10553,
+  "metadata": null,
+  "run_id": "cli-20260724T013417Z",
+  "source_repo": "REDGARDEN",
+  "title": "NORTHSTAR §12 Phase B closed: apps/arena match event log (MOBA half)"
+}
