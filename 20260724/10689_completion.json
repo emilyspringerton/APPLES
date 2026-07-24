@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-24T23:04:46Z",
+  "body": "TYLER commit c652883 (multiverse_heroes.md #37, Valhalla Remnant). REDGARDEN commit 0b478fa. Loki had no lore entry despite Sigyn (#34) being defined entirely by an act performed for him -- added the entry using that absence as the hook, then a real ARENA_HERO_LOKI kit in one pass: Q instant positional swap with the nearest enemy (no travel time, no range gate), W free-toggle flat armor, R self survive-floor window (same mechanic Pizza/Dagda already use). Wired into every real call site: arena_hero_armor, Q/W/R dispatch, bot AI heuristic, human/bot auto-draft pools, server draft-pick validation bound, arena_hero_name, docs/HEROES_VS0.md. ARENA_HERO_COUNT 11-\u003e12. Verified via build.sh, build_arena.sh, test_arena.sh, test_10_bots.sh, and a local mingw cross-compile, all clean. Closes BACKLOG S170-79.",
+  "id": 10689,
+  "metadata": null,
+  "run_id": "cli-20260724T230446Z",
+  "source_repo": "REDGARDEN",
+  "title": "12th hero, Loki: 'Who Isn't Here' -- lore entry + real Q/W/R kit, one shot"
+}
