@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-24T08:54:50Z",
+  "body": "Follow-up to Apple #10594's persistent-bot-pool work: ran --lobby-size 20 against 20 real apps/arena_bot processes for real, not just headless-tested code assumed to generalize. All 20 connected, all 20 drafted heroes, team assignment correct (owners 0-9 = team 0, 10-19 = team 1), combat resolved across the full 20-hero roster, and the match correctly concluded on a real team-wipe (team 1 fully dead, team 0 had real survivors at real HP -- not a forced result). All 20 bots then persisted and automatically requeued into a second full 20-player match, with identity staying stable (exactly 1 WOTAN registration each) across both matches. Server process count stayed healthy (single digits) throughout, confirming the shutdown-timer and connection-timeout fixes from the prior pass hold up at 20x the connection load, not just 1v1. This closes the last explicitly-flagged unverified gap from S170-43. Remaining honest gap, not glossed over: the SDL2 client's visual rendering of a live match is still unconfirmed on this box (no Xvfb). Commit 432e2f3.",
+  "id": 10596,
+  "metadata": null,
+  "run_id": "cli-20260724T085450Z",
+  "source_repo": "REDGARDEN",
+  "title": "REDGARDEN 10v10 verified live end-to-end at real scale (20 bots)"
+}
