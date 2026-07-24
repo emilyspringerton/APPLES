@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-24T21:41:36Z",
+  "generated_at": "2026-07-24T21:42:32Z",
   "repo": "APPLES",
-  "count": 148,
+  "count": 149,
   "apples": [
     {
       "id": 10525,
@@ -1186,6 +1186,14 @@
       "source_repo": "TYLER",
       "date": "20260724",
       "archived_at": "2026-07-24T21:41:36Z"
+    },
+    {
+      "id": 10673,
+      "type": "completion",
+      "title": "CI green end-to-end: real Windows client artifact confirmed working",
+      "source_repo": "REDGARDEN",
+      "date": "20260724",
+      "archived_at": "2026-07-24T21:42:32Z"
     }
   ]
 }

@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-24T21:42:32Z",
+  "body": "Confirmed via GitHub Actions API that commit 276614c passed every step including the Windows cross-compile. red-garden-build now contains RedGarden_Client (exe + SDL2.dll + PLAY.bat) and RedGarden_Server zips. Root causes fixed: outer #ifndef _WIN32 excluding all arena networking from Windows builds entirely, missing winsock includes, fcntl/close/getpid/mkdir POSIX-only calls. Found by locally reproducing the mingw cross-compile via apt-get download + dpkg-deb -x (no sudo needed), not by guessing blind. Commit 24bea48. BACKLOG S170-54.",
+  "id": 10673,
+  "metadata": null,
+  "run_id": "cli-20260724T214232Z",
+  "source_repo": "REDGARDEN",
+  "title": "CI green end-to-end: real Windows client artifact confirmed working"
+}
