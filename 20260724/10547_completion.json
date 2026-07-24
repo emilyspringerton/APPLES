@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-24T00:57:03Z",
+  "body": "apps/server now captures the real IDUNA player_id from connect tickets instead of discarding it (client_player_id/client_has_player_id per slot) -- the prerequisite Phase B replay logging needs. Ported http_client.h + IDUNA agent config from shankpit-460. Deliberately did not wire match-result reporting -- IDUNA's /session endpoint is FPS-shaped (kills/deaths), REDGARDEN's match_winner isn't; flagged as an open schema question. test_10_bots.sh + test_arena.sh green. Commit cea0704. BACKLOG S170-26.",
+  "id": 10547,
+  "metadata": null,
+  "run_id": "cli-20260724T005703Z",
+  "source_repo": "REDGARDEN",
+  "title": "NORTHSTAR §12 Phase A started: WOTAN player identity captured"
+}
