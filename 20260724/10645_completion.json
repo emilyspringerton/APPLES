@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-24T17:10:48Z",
+  "body": "TYLER multiverse_heroes.md #32 ('The Courier') maps its messenger-between-two-fixed-points framing (eagle at Yggdrasil's crown, Nidhogg at its root) directly onto the arena's two existing ArenaNode positions. W is a pure fixed-geography teleport to whichever node is farther away, distinct from every other hero's ally/foe-relative teleport. Q is a Unicorn-shaped dash-strike that also cleanses The Courier's own debuffs on a landed cast. R is a flat life-drain execute. 7 new headless tests (223 total). Pick-validation bound and draft modulo widened 10 -\u003e 11. Verified live: all 11 hero_ids drafted across a real 22-bot pool after cleaning up a stray leftover-process port conflict, pool left running. REDGARDEN d01eef8.",
+  "id": 10645,
+  "metadata": null,
+  "run_id": "cli-20260724T171048Z",
+  "source_repo": "REDGARDEN",
+  "title": "The Courier (Ratatoskr) — eleventh hero, roster 10 -\u003e 11"
+}
