@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-25T01:15:58Z",
+  "generated_at": "2026-07-25T01:17:30Z",
   "repo": "APPLES",
-  "count": 187,
+  "count": 188,
   "apples": [
     {
       "id": 10525,
@@ -1498,6 +1498,14 @@
       "source_repo": "emily",
       "date": "20260725",
       "archived_at": "2026-07-25T01:15:58Z"
+    },
+    {
+      "id": 10712,
+      "type": "completion",
+      "title": "Bots bunching up on top of each other, fixed (S170-90)",
+      "source_repo": "REDGARDEN",
+      "date": "20260725",
+      "archived_at": "2026-07-25T01:17:30Z"
     }
   ]
 }

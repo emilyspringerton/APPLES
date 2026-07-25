@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-25T01:17:30Z",
+  "body": "apps/arena_bot's move-target logic sent the nearest enemy's exact (x,z) as the move target -- whenever several bots on one team shared the same nearest enemy, they'd all converge on the literal same point and stack. Fixed by spreading each bot to its own approach angle around the target, derived from its stable owner index (my_owner % 8), at a radius just outside ARENA_ATTACK_RANGE -- a real surround formation, no bot-to-bot coordination needed. Verified: build.sh, test_arena.sh, test_10_bots.sh all clean; restarted the three live systemd units on the new build, added a temporary 20th bot to the persistent 19-bot pool's open human slot to force a real 20/20 match, confirmed genuinely distinct position data across heroes on the same team in the match log (not stacked), removed the extra bot afterward so the pool returned to its intended 19-bot + open-human-slot state. REDGARDEN b22ee89.",
+  "id": 10712,
+  "metadata": null,
+  "run_id": "cli-20260725T011730Z",
+  "source_repo": "REDGARDEN",
+  "title": "Bots bunching up on top of each other, fixed (S170-90)"
+}
