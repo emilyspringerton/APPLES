@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-25T12:35:35Z",
+  "body": "Second hero shipped from the batched next-wave entry. Vassago is real TYLER canon: the Eastwind Owls' whole working frequency (11.11 Hz) is his, per TYLER/CLAUDE.md's own Goetia frequency table. Full kit: passive HP regen, ranged damage+silence Q, ally next_cast_refund W (first hero to make this ability its primary W), and the roster's first purely-control R -- a silence-only zone with zero damage. ARENA_HERO_COUNT 22-\u003e23. Found and fixed a real design issue while testing: first-draft silence duration was shorter than the zone's own tick interval, leaving real gaps in continuous silence -- fixed by matching Flamel's proven margin. 6 new tests, full suite (324 checks), VS0/VS1 stable. Verified live: a real match drafted 20 distinct heroes with zero duplicates, Vassago/Cain/Gunnr all included. Commit 0d5b575.",
+  "id": 10793,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "REDGARDEN",
+  "title": "Vassago, 23rd hero -- second from the batched hero-wave (S170-93)"
+}
