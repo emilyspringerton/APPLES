@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-25T02:46:07Z",
+  "generated_at": "2026-07-25T02:48:04Z",
   "repo": "APPLES",
-  "count": 204,
+  "count": 205,
   "apples": [
     {
       "id": 10525,
@@ -1634,6 +1634,14 @@
       "source_repo": "emily",
       "date": "20260725",
       "archived_at": "2026-07-25T02:46:07Z"
+    },
+    {
+      "id": 10729,
+      "type": "completion",
+      "title": "Arena map expanded to Arathi Basin size, 5 capture nodes (S170-119)",
+      "source_repo": "REDGARDEN",
+      "date": "20260725",
+      "archived_at": "2026-07-25T02:48:04Z"
     }
   ]
 }

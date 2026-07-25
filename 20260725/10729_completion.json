@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-25T02:48:04Z",
+  "body": "ARENA_NODE_COUNT 2-\u003e5, ARENA_HALF_EXTENT 12-\u003e20, new Arathi-style 5-node layout (two flanking each spawn + one contested center). Jungle creeps scale automatically. Generalized Courier's W teleport from a hardcoded 2-node assumption to farthest-of-N. Found and fixed a real test-environment collision: the new center node at (0,0) coincided with an unrelated test's hero position, causing a jungle creep to deal damage the test misattributed to bot AI. Verified via full build/test suite + mingw cross-compile. Commit 8b9aee5.",
+  "id": 10729,
+  "metadata": null,
+  "run_id": "cli-20260725T024804Z",
+  "source_repo": "REDGARDEN",
+  "title": "Arena map expanded to Arathi Basin size, 5 capture nodes (S170-119)"
+}
