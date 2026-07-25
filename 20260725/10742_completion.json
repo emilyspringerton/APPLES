@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-25T04:43:10Z",
+  "body": "S170-121: added the first hero respawn system to the arena MOBA -- death was permanent before this. Respawn is withheld until the hero's team owns at least one capture node, matching founder direction literally ('controlling a node enables its spawn for your team'). S170-122: frame-to-frame HP-decrease detection triggers a brief flash animation on hit heroes, reusing the existing placement-ring rendering. Also corrected a leftover S170-121 ID collision on the uncommitted Paimon hero work (renumbered to its real S170-55). Verified via full headless suite (259/259) + live systemd restart. Commit 3b63e43.",
+  "id": 10742,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "REDGARDEN",
+  "title": "Node-gated hero respawn + basic auto-attack animations"
+}

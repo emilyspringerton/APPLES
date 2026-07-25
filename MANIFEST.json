@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-25T04:31:52Z",
+  "generated_at": "2026-07-25T04:43:10Z",
   "repo": "APPLES",
-  "count": 217,
+  "count": 218,
   "apples": [
     {
       "id": 10525,
@@ -1738,6 +1738,14 @@
       "source_repo": "emily",
       "date": "20260725",
       "archived_at": "2026-07-25T04:31:52Z"
+    },
+    {
+      "id": 10742,
+      "type": "completion",
+      "title": "Node-gated hero respawn + basic auto-attack animations",
+      "source_repo": "REDGARDEN",
+      "date": "20260725",
+      "archived_at": "2026-07-25T04:43:10Z"
     }
   ]
 }
