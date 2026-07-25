@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-25T02:07:58Z",
+  "generated_at": "2026-07-25T02:11:32Z",
   "repo": "APPLES",
-  "count": 198,
+  "count": 199,
   "apples": [
     {
       "id": 10525,
@@ -1586,6 +1586,14 @@
       "source_repo": "REDGARDEN",
       "date": "20260725",
       "archived_at": "2026-07-25T02:07:58Z"
+    },
+    {
+      "id": 10723,
+      "type": "completion",
+      "title": "Requeue looked exactly like a crash -- real 'please wait' screen added",
+      "source_repo": "REDGARDEN",
+      "date": "20260725",
+      "archived_at": "2026-07-25T02:11:32Z"
     }
   ]
 }

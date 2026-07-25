@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-25T02:11:32Z",
+  "body": "REDGARDEN commit 599f292. net_find_and_connect() blocks the whole event loop for up to 60s with no frame rendered. Confirmed live via the matchmaker log: 13+ distinct source ports from the founder's own IP within a few minutes, consistent with force-quitting an apparently-frozen window and relaunching repeatedly -- explaining both the confusion and the recurring 'stuck at high-but-not-full connect count' matches (each relaunch abandoned its own in-progress match). New draw_queuing_screen() renders a real 'QUEUING FOR MATCH / PLEASE WAIT' frame before the blocking call starts. Verified via build_arena.sh, test_arena.sh, and a local mingw cross-compile, all clean. Closes BACKLOG S170-115.",
+  "id": 10723,
+  "metadata": null,
+  "run_id": "cli-20260725T021132Z",
+  "source_repo": "REDGARDEN",
+  "title": "Requeue looked exactly like a crash -- real 'please wait' screen added"
+}
