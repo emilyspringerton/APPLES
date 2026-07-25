@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-25T00:27:11Z",
+  "body": "REDGARDEN commit b1bfd89. Founder live: 'still after 1 game in redgarden everything breaks.' Confirmed via matchmaker log: a genuine 20/20 lobby entered draft then died on the 60s no-progress timeout. Reproduced a bot-only 20/20 lobby to rule out a server bug -- completed cleanly every time, isolating it to the human's own pick. Root cause: net_send_pick()/arena_bot's send_pick() were single fire-and-forget UDP sends with zero retry (unlike net_connect which already retries), and net_picked latched to 1 on send not confirmation. A real external connection can drop that one packet; localhost bots never could. Fixed with a ~1s resend loop in both clients while stuck in draft. Verified via build.sh, build_arena.sh, test_arena.sh, test_10_bots.sh, and a local mingw cross-compile, all clean. Systemd services restarted with the fixed binaries. Closes BACKLOG S170-99.",
+  "id": 10701,
+  "metadata": null,
+  "run_id": "cli-20260725T002711Z",
+  "source_repo": "REDGARDEN",
+  "title": "Real cause of 'everything breaks after 1 game': pick-send had zero retry"
+}

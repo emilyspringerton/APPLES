@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-25T00:17:07Z",
+  "generated_at": "2026-07-25T00:27:11Z",
   "repo": "APPLES",
-  "count": 176,
+  "count": 177,
   "apples": [
     {
       "id": 10525,
@@ -1410,6 +1410,14 @@
       "source_repo": "IDUNA",
       "date": "20260725",
       "archived_at": "2026-07-25T00:17:07Z"
+    },
+    {
+      "id": 10701,
+      "type": "completion",
+      "title": "Real cause of 'everything breaks after 1 game': pick-send had zero retry",
+      "source_repo": "REDGARDEN",
+      "date": "20260725",
+      "archived_at": "2026-07-25T00:27:11Z"
     }
   ]
 }
