@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-25T00:11:10Z",
+  "body": "REDGARDEN commit b2a03e3. Same merge pattern as Flamel/Druid -- Bacon (#5, withholding theme) + Puck (#67, unresolved duality theme) combined into one kit. Q self-intangibility ('ask again later'), W toggles Q's own duration, R damage+self-heal ('the trick was always the same'). ARENA_HERO_COUNT 14-\u003e15, wired into every real call site. Verified via build.sh, build_arena.sh, test_arena.sh, test_10_bots.sh, and a local mingw cross-compile, all clean. Closes BACKLOG S170-94.",
+  "id": 10698,
+  "metadata": null,
+  "run_id": "cli-20260725T001110Z",
+  "source_repo": "REDGARDEN",
+  "title": "15th hero, Bacon+Puck: merged lore, real kit"
+}
