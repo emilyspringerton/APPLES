@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-25T02:07:56Z",
+  "body": "REDGARDEN commit d2e30bb. Founder live: 'show ability names on screen.' New arena_ability_name(hero_id, slot) returns each hero's real name from docs/HEROES_VS0.md (e.g. EARTHBIND, THE SACRED MAGIC) instead of the generic 'Q READY'/'W ON' the cooldown strip showed before. Verified via build.sh, build_arena.sh, test_arena.sh, test_10_bots.sh, and a local mingw cross-compile, all clean.",
+  "id": 10722,
+  "metadata": null,
+  "run_id": "cli-20260725T020756Z",
+  "source_repo": "REDGARDEN",
+  "title": "Real ability names on the HUD, not generic Q/W/E status"
+}
