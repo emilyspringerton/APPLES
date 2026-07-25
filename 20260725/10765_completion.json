@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-25T09:01:08Z",
+  "body": "Paimon's kit dispatch existed from an earlier, uncommitted pass but was never actually reachable: missing arena_hero_name()/arena_ability_name() entries, pick-validation bound stuck at ARENA_HERO_TYLER, draft-modulo in both bot and human clients still % 18, and no tick_hero_kit/bot_cast_kit_if_ready case (confirmed via a real compiler warning). Fixed all five gaps, added a distinct 3D silhouette, and 5 new headless tests. Verified live: rebuilt + restarted all three systemd units, confirmed Paimon (hero_id=18) actually gets drafted in a genuine 20/20 match and runs stably. Commit e12cf91.",
+  "id": 10765,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "REDGARDEN",
+  "title": "Finish wiring Paimon into the live roster (S170-55)"
+}
