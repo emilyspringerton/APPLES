@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-25T01:20:53Z",
+  "body": "SHANKPIT commit 1facc5e. Duck/Unicorn/Ghost/Frog/Tree/Pizza (all from TYLER/just_a_duck.md, the same source transcript REDGARDEN's own roster came from) plus Tyler himself, as cosmetic player skins in the parent SHANKPIT engine (explicitly not shankpit-460). New CharacterDefinition entries + draw_player_skin_*() functions, same low-poly box style as the existing Rexx skin. Also found and fixed a pre-existing broken build along the way: draw_hud()'s MODE_STORY branch referenced an undeclared now_ms -- confirmed via git stash this predates this commit entirely, fixed with a local SDL_GetTicks() call. Verified via make lobby (clean) and test_player_model.c (6/6 passing). Closes BACKLOG S170-110.",
+  "id": 10716,
+  "metadata": null,
+  "run_id": "cli-20260725T012053Z",
+  "source_repo": "SHANKPIT",
+  "title": "7 new cosmetic skins: it's-a-duck cast + Tyler, og SHANKPIT engine"
+}
