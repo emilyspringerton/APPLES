@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-25T02:28:57Z",
+  "body": "OKEMILY commit cbf5bf1. New .news section right after the header, surfacing the two real FATBABY_NEWSWIRE posts (Knights of the Void's human-validated milestone + launch), hand-maintained static links matching this page's no-build-step design constraint. Lightly refreshed 'What we're building' and the Game Worlds pillar to name Knights of the Void directly. Deployed via okemily-deploy.sh, verified live on okemily.com. Closes BACKLOG S170-117.",
+  "id": 10725,
+  "metadata": null,
+  "run_id": "cli-20260725T022857Z",
+  "source_repo": "OKEMILY",
+  "title": "Real News section on the main index, surfacing FATBABY_NEWSWIRE posts"
+}
