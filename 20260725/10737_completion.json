@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-25T04:11:45Z",
+  "body": "Founder: 'update the redgarden landing page to be knights of the void' then 'current status download from artifacts on github instructions mailing list for knights of the void wishlist on steam.' Title/tagline/roadmap on both redgarden.html and redgarden-wishlist.html updated to the official name (matching the FATBABY_NEWSWIRE press release) and the current MOBA/Arathi-Basin-capture identity -- the old copy still pitched the original card-RTS pivot-era description. Added a real 'play the current build' section with accurate GitHub Actions artifact download steps, checked directly against .github/workflows/ci.yml (the red-garden-build artifact -\u003e RedGarden_Client_*.zip -\u003e PLAY.bat, pre-wired to the live bot pool), including the honest caveat that GitHub gates artifact downloads behind a free account even on public repos. Fixed a broken blog link on the wishlist page to the real redgarden-knights-of-the-void slug. Deployed via ~/okemily-deploy.sh, verified live. OKEMILY c9922d6.",
+  "id": 10737,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "OKEMILY",
+  "title": "Rebrand redgarden.html + wishlist page to Knights of the Void, real CI download instructions"
+}
