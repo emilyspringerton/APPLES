@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-25T00:29:21Z",
+  "generated_at": "2026-07-25T00:29:34Z",
   "repo": "APPLES",
-  "count": 178,
+  "count": 179,
   "apples": [
     {
       "id": 10525,
@@ -1426,6 +1426,14 @@
       "source_repo": "emily",
       "date": "20260725",
       "archived_at": "2026-07-25T00:29:21Z"
+    },
+    {
+      "id": 10703,
+      "type": "completion",
+      "title": "FFXI Rise of the Zilart-era item parity seed doc",
+      "source_repo": "REDGARDEN",
+      "date": "20260725",
+      "archived_at": "2026-07-25T00:29:34Z"
     }
   ]
 }

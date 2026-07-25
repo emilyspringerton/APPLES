@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-25T00:29:34Z",
+  "body": "REDGARDEN commit 1ecbac1. Real, representative FFXI item names by category, same doc-first convention as TYLER/multiverse_heroes.md. Explicitly not for direct shipping -- seed/training data for gpt2-alpine-c's fine-tune pipeline to generate KNIGHTS_OF_THE_VOID's own original item names ('for true ip'). Registered in EMILY/context/golden-docs-index.md. Closes BACKLOG S170-102 (doc-first pass; GPT-2 generation + item selection is a later, separate step).",
+  "id": 10703,
+  "metadata": null,
+  "run_id": "cli-20260725T002934Z",
+  "source_repo": "REDGARDEN",
+  "title": "FFXI Rise of the Zilart-era item parity seed doc"
+}
