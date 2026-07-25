@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-25T02:07:57Z",
+  "generated_at": "2026-07-25T02:07:58Z",
   "repo": "APPLES",
-  "count": 197,
+  "count": 198,
   "apples": [
     {
       "id": 10525,
@@ -1578,6 +1578,14 @@
       "source_repo": "REDGARDEN",
       "date": "20260725",
       "archived_at": "2026-07-25T02:07:57Z"
+    },
+    {
+      "id": 10722,
+      "type": "completion",
+      "title": "Real ability names on the HUD, not generic Q/W/E status",
+      "source_repo": "REDGARDEN",
+      "date": "20260725",
+      "archived_at": "2026-07-25T02:07:58Z"
     }
   ]
 }
