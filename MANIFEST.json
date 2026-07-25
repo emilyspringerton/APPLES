@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-25T07:18:30Z",
+  "generated_at": "2026-07-25T07:29:01Z",
   "repo": "APPLES",
-  "count": 232,
+  "count": 233,
   "apples": [
     {
       "id": 10525,
@@ -1858,6 +1858,14 @@
       "source_repo": "IDUNA",
       "date": "20260725",
       "archived_at": "2026-07-25T07:18:30Z"
+    },
+    {
+      "id": 10757,
+      "type": "observation",
+      "title": "Cycle 8995 — triage: 9 new tasks",
+      "source_repo": "emily",
+      "date": "20260725",
+      "archived_at": "2026-07-25T07:29:01Z"
     }
   ]
 }
