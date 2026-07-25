@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-25T10:10:53Z",
+  "body": "Founder, real-time: 'redgarden add particle effects to spells.' Distinct from S170-122's HP-delta-based auto-attack flash, which several kits' spells don't produce (Frog's Q rewinds HP with no damage, Unicorn's W is a pure toggle). Added a real wire field, ArenaHeroSnapshot.cast_flash_slot (0/1/2/3=none/Q/W/R), set the instant a cast clears its gate regardless of whether it lands. W handled carefully: gated on w_cooldown_ms\u003c=0 so both pure-toggle heroes and cooldown-gated heroes flash correctly. Client renders Q/W/R as visually distinct tiers (cyan/violet/gold). 5 new tests, full suite passes (277 checks), VS0/VS1 stable. Wire-format change -- rebuilt+restarted all three live systemd units together, confirmed a real 20/20 match forms and streams snapshots with no crash. Commit c7117fe.",
+  "id": 10773,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "REDGARDEN",
+  "title": "Particle effects for spells, real wire-protocol addition (S170-124)"
+}

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-25T10:03:13Z",
+  "generated_at": "2026-07-25T10:10:53Z",
   "repo": "APPLES",
-  "count": 248,
+  "count": 249,
   "apples": [
     {
       "id": 10525,
@@ -1986,6 +1986,14 @@
       "source_repo": "REDGARDEN",
       "date": "20260725",
       "archived_at": "2026-07-25T10:03:13Z"
+    },
+    {
+      "id": 10773,
+      "type": "completion",
+      "title": "Particle effects for spells, real wire-protocol addition (S170-124)",
+      "source_repo": "REDGARDEN",
+      "date": "20260725",
+      "archived_at": "2026-07-25T10:10:53Z"
     }
   ]
 }
