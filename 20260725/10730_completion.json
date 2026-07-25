@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-25T02:59:02Z",
+  "body": "New internal/vault package + loopback-only HTTP CRUD, reusing internal/mailinglist.Vault's Argon2id+AES-256-GCM primitive directly rather than duplicating it (per the northstar's own explicit instruction). Five item types (login/note/api_key/totp/document), fields+name stored inside the encrypted blob so a locked vault reveals nothing, not even labels. New emily vault init/unlock/lock/status/add/get/list/delete CLI in emily.cli. Verified end-to-end against a real running instance (init, wrong-passphrase rejection, unlock, add, list, get, delete, lock, re-unlock with data surviving the cycle) before deploying to production. go test green in both repos. Deployed: live iduna.service rebuilt+restarted (this re-locks the mailing-list vault too, a known pre-existing cost of any restart, not new). Live vault deliberately left uninitialized -- passphrase must be human-memorized. IDUNA commit 6b76849, emily.cli commit 027d793.",
+  "id": 10730,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "IDUNA",
+  "title": "IDUNA Vault VS0 -- founder-only password manager (S170-03b)"
+}

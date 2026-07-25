@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-25T02:48:04Z",
+  "generated_at": "2026-07-25T02:59:02Z",
   "repo": "APPLES",
-  "count": 205,
+  "count": 206,
   "apples": [
     {
       "id": 10525,
@@ -1642,6 +1642,14 @@
       "source_repo": "REDGARDEN",
       "date": "20260725",
       "archived_at": "2026-07-25T02:48:04Z"
+    },
+    {
+      "id": 10730,
+      "type": "completion",
+      "title": "IDUNA Vault VS0 -- founder-only password manager (S170-03b)",
+      "source_repo": "IDUNA",
+      "date": "20260725",
+      "archived_at": "2026-07-25T02:59:02Z"
     }
   ]
 }
