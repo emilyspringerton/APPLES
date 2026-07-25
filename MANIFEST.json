@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-25T10:48:11Z",
+  "generated_at": "2026-07-25T10:52:05Z",
   "repo": "APPLES",
-  "count": 256,
+  "count": 257,
   "apples": [
     {
       "id": 10525,
@@ -2050,6 +2050,14 @@
       "source_repo": "REDGARDEN",
       "date": "20260725",
       "archived_at": "2026-07-25T10:48:11Z"
+    },
+    {
+      "id": 10781,
+      "type": "completion",
+      "title": "Overwatch-style recast-time tiles for Q/W/E (S170-127)",
+      "source_repo": "REDGARDEN",
+      "date": "20260725",
+      "archived_at": "2026-07-25T10:52:05Z"
     }
   ]
 }

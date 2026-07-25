@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-25T10:52:05Z",
+  "body": "Founder, real-time: 'add the ability frame cooldown timer tiles from shankpit og engine as recast time affordances' -\u003e 'make it like overwatch recast frames for q w e.' Replaced the plain text HUD with real ability tiles, visual language ported from SHANKPIT's own draw_ability_one_tile() (bordered square, color swap, countdown number, keybind label) plus a real radial cooldown wipe on top since REDGARDEN's 19-hero/3-slot roster spans much wider cooldown ranges than SHANKPIT's single fixed-cooldown ability. Wipe fraction tracked locally (peak cooldown seen since last ready) since no per-hero max-cooldown table exists client-side. W's tile lights toggle-green while active. Client-only change, no protocol changes. Verified: clean build, full suite (277 checks), VS0/VS1 stable. Commit f11f224.",
+  "id": 10781,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "REDGARDEN",
+  "title": "Overwatch-style recast-time tiles for Q/W/E (S170-127)"
+}
