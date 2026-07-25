@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-25T14:03:33Z",
+  "body": "Added loud warning comments to services/game-server/src/server.c and apps2/server-go/main.go -- both confirmed superseded by apps/server/src/main.c and unreferenced by any build/systemd config. Minimal safe option per the backlog item's own framing, not a deletion or full NORTHSTAR scoping pass. Also found and deliberately left untouched: unrelated uncommitted in-progress work on the S169-02 lobby button menu in apps2/lobby/src/main.c, not part of this task. Commit dc21e96.",
+  "id": 10812,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "shankpit-460",
+  "title": "NOT THE REAL SERVER warnings on dead code (S155-02)"
+}
