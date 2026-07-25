@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-25T13:01:00Z",
+  "body": "Audited all draw_hero_model() cases, found and fixed two real near-duplicate silhouette pairs: Gary/Abraham (identical base + near-identical chest accent) and Cain/Tyler (identical base + accent too small to read). Gary got a rifle/scope side accent, Abraham a floating orb, Cain's mark moved to forehead and enlarged. Verified: clean build, full headless suite (337 checks). Commit b17ee23.",
+  "id": 10799,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "REDGARDEN",
+  "title": "Unique skinmodels for all 24 heroes (S170-131)"
+}
