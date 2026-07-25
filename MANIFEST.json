@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-25T10:12:51Z",
+  "generated_at": "2026-07-25T10:28:08Z",
   "repo": "APPLES",
-  "count": 250,
+  "count": 251,
   "apples": [
     {
       "id": 10525,
@@ -2002,6 +2002,14 @@
       "source_repo": "emily",
       "date": "20260725",
       "archived_at": "2026-07-25T10:12:51Z"
+    },
+    {
+      "id": 10775,
+      "type": "completion",
+      "title": "Spec camera lock/unlock + fog of war (S170-125), no code yet",
+      "source_repo": "REDGARDEN",
+      "date": "20260725",
+      "archived_at": "2026-07-25T10:28:08Z"
     }
   ]
 }
