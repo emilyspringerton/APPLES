@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-25T03:18:23Z",
+  "body": "Root cause was NOT the S170-05 nav-chrome bug -- a distinct dead-code bug: reComplete (a properly proximity-scoped regex) was defined but never referenced; the switch statement checked completion-verb presence and buyback-word presence independently with no proximity requirement, so any completion word anywhere in a 20KB press release was enough. Confirmed live: a customer-retention marketing release and a proxy-vote release's boilerplate both misclassified as real buyback completions. Also fixed: reBuybackCore too loose (bare 'repurchase' matched irrelevant/repo-financing uses), reAuthorize/reComplete proximity windows too tight for real prose (missed a genuine CAE NCIB renewal entirely), extractUSD/extractShares picked the first dollar figure anywhere in the document with no proximity to the buyback mention (Docusign's real figure 17.5M vs first-in-doc unrelated revenue 30.2M), and comparison-year figures (' compared to  last year') could win over the real current-period figure. 6 new regression tests using real captured press-release text. Corrected the live entity-graph: removed 8 fabricated/no-longer-qualifying signals, corrected 2 real signals' amounts (TOUR, CAE). Regenerated var/buybacks/buybacks.ndjson (14-\u003e4 records) by reclassifying the original 14 records' real bodies through the fixed classifier. Rebuilt + restarted the live fatbaby-buyback-watcher.service. Commit 9554f4c.",
+  "id": 10733,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "PRRJECT_FATBABY",
+  "title": "buyback-watcher: dead-code proximity bug + 3 related classification/extraction bugs (S170-06)"
+}

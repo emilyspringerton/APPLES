@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-25T03:16:38Z",
+  "generated_at": "2026-07-25T03:18:23Z",
   "repo": "APPLES",
-  "count": 208,
+  "count": 209,
   "apples": [
     {
       "id": 10525,
@@ -1666,6 +1666,14 @@
       "source_repo": "emily",
       "date": "20260725",
       "archived_at": "2026-07-25T03:16:38Z"
+    },
+    {
+      "id": 10733,
+      "type": "completion",
+      "title": "buyback-watcher: dead-code proximity bug + 3 related classification/extraction bugs (S170-06)",
+      "source_repo": "PRRJECT_FATBABY",
+      "date": "20260725",
+      "archived_at": "2026-07-25T03:18:23Z"
     }
   ]
 }
