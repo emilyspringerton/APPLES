@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-25T10:36:05Z",
+  "generated_at": "2026-07-25T10:41:08Z",
   "repo": "APPLES",
-  "count": 253,
+  "count": 254,
   "apples": [
     {
       "id": 10525,
@@ -2026,6 +2026,14 @@
       "source_repo": "REDGARDEN",
       "date": "20260725",
       "archived_at": "2026-07-25T10:36:05Z"
+    },
+    {
+      "id": 10778,
+      "type": "completion",
+      "title": "Verified spell animations fire live, not just in headless tests (S170-126)",
+      "source_repo": "REDGARDEN",
+      "date": "20260725",
+      "archived_at": "2026-07-25T10:41:08Z"
     }
   ]
 }

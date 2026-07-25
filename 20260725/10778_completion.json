@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-25T10:41:08Z",
+  "body": "Founder, real-time: 'continue REDGARDEN backlog make sure there are spell animations.' S170-124 shipped with 5 passing headless tests, but those only prove cast_flash_slot gets set correctly in isolation. Added a temporary server-side log line, rebuilt, restarted live, ran a real 20/20 match: confirmed cast_flash_slot=1 (Q) firing continuously across many heroes for the full check window, driven by apps/arena_bot's own periodic Q-cast heuristic. Removed the temp log line afterward (git diff confirms zero net change, nothing was ever committed) and restarted live services back to clean state. Verification-only pass, no functional code change.",
+  "id": 10778,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "REDGARDEN",
+  "title": "Verified spell animations fire live, not just in headless tests (S170-126)"
+}
