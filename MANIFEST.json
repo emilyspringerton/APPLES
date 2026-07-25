@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-25T02:01:23Z",
+  "generated_at": "2026-07-25T02:07:56Z",
   "repo": "APPLES",
-  "count": 195,
+  "count": 196,
   "apples": [
     {
       "id": 10525,
@@ -1562,6 +1562,14 @@
       "source_repo": "emily",
       "date": "20260725",
       "archived_at": "2026-07-25T02:01:23Z"
+    },
+    {
+      "id": 10720,
+      "type": "completion",
+      "title": "CI hard-broken by missing arena_ai_bridge.c in mingw link -- fixed",
+      "source_repo": "REDGARDEN",
+      "date": "20260725",
+      "archived_at": "2026-07-25T02:07:56Z"
     }
   ]
 }

@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-25T02:07:56Z",
+  "body": "REDGARDEN commit d2e30bb. S170-96's hero-name labels started calling arena_hero_name() but arena_ai_bridge.c was never added to the mingw cross-compile step -- CI red on every commit since, confirmed via the Actions API (e53ee5f failed). No valid Windows build existed for the founder to download. Fixed the workflow and verified with a local mingw cross-compile, 0 errors.",
+  "id": 10720,
+  "metadata": null,
+  "run_id": "cli-20260725T020756Z",
+  "source_repo": "REDGARDEN",
+  "title": "CI hard-broken by missing arena_ai_bridge.c in mingw link -- fixed"
+}

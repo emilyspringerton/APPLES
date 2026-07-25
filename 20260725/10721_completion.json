@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-25T02:07:56Z",
+  "body": "REDGARDEN commit d2e30bb. docs/HEROES_VS0.md already specced Tyler as an exact Meepo reskin (real OG clone-death rule) well before code existed for it. True multi-clone spawning isn't buildable without touching the draft/pick/connection model every hero depends on -- simplified and documented honestly: Q roots+DoT (Earthbind), W is a real blink-strike (Poof), R (Divided We Stand) keeps the actual risk/reward point as a self-buff leaving Tyler's own armor negative for its duration, not literal shared-fate clones. ARENA_HERO_COUNT 17-\u003e18.",
+  "id": 10721,
+  "metadata": null,
+  "run_id": "cli-20260725T020756Z",
+  "source_repo": "REDGARDEN",
+  "title": "18th hero, TYLER: honest simplification of the OG Meepo-clone design"
+}
