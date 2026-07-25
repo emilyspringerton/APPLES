@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-25T01:20:53Z",
+  "generated_at": "2026-07-25T01:30:12Z",
   "repo": "APPLES",
-  "count": 192,
+  "count": 193,
   "apples": [
     {
       "id": 10525,
@@ -1538,6 +1538,14 @@
       "source_repo": "SHANKPIT",
       "date": "20260725",
       "archived_at": "2026-07-25T01:20:53Z"
+    },
+    {
+      "id": 10717,
+      "type": "observation",
+      "title": "Cycle 8971 — triage: 9 new tasks",
+      "source_repo": "emily",
+      "date": "20260725",
+      "archived_at": "2026-07-25T01:30:12Z"
     }
   ]
 }
