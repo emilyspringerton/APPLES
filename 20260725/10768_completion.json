@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-25T09:30:22Z",
+  "body": "Founder, real-time: 'put all the hero doc comments that say how to play them (what the kit keybinds do) move that up to the top of the readme.' The keybind contract was scattered as code comments in apps/arena/src/main.c and left implicit across docs/HEROES_VS0.md's per-hero entries. New section at the top of README.md synthesizes it for real: click to move (auto-attacks in range), Q/W/E ability slots, right-drag/wheel camera, F11 APM overlay, R restart (local only), OK-to-requeue (networked only) -- checked directly against the actual SDL event handling. Commit 4175ca6.",
+  "id": 10768,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "REDGARDEN",
+  "title": "Real How to Play section synthesized in README.md (S170-97)"
+}
