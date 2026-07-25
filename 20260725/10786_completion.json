@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-25T11:40:37Z",
+  "body": "Founder redirected 'add Adelle' (zero TYLER anchor) to 'replace adelle with Cain' -- Cain already has real lore (#80): killed Abel, cursed to wander, marked so no one could kill him in turn, founded the first city anyway. Full kit: passive flat armor, Q execute-scaled bolt, W dash-away+cleanse, R survive-floor panic button. ARENA_HERO_COUNT 20-\u003e21. Real bug found and fixed in the same pass: with 21 heroes exceeding the 20-player lobby size for the first time, the existing owner%hero_count auto-draft scheme could never produce Cain's hero_id in a full lobby -- confirmed live, not guessed. First fix attempt (per-bot random offset) introduced a duplicate-pick risk; corrected to a shared offset derived from the match's own port (zero coordination, zero duplicates). Verified live: a real match drafted all 20 distinct heroes with zero duplicates, Cain included. 5 new tests, full suite (299 checks), VS0/VS1 stable. Commit 9ddba5d.",
+  "id": 10786,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "REDGARDEN",
+  "title": "Cain, 21st hero (S170-105) + fixed a real draft-exclusion bug found live"
+}

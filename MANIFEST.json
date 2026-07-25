@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-25T11:27:18Z",
+  "generated_at": "2026-07-25T11:40:37Z",
   "repo": "APPLES",
-  "count": 261,
+  "count": 262,
   "apples": [
     {
       "id": 10525,
@@ -2090,6 +2090,14 @@
       "source_repo": "emily",
       "date": "20260725",
       "archived_at": "2026-07-25T11:27:18Z"
+    },
+    {
+      "id": 10786,
+      "type": "completion",
+      "title": "Cain, 21st hero (S170-105) + fixed a real draft-exclusion bug found live",
+      "source_repo": "REDGARDEN",
+      "date": "20260725",
+      "archived_at": "2026-07-25T11:40:37Z"
     }
   ]
 }
