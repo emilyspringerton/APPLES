@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-25T04:27:06Z",
+  "body": "Root-caused founder-reported newssite staleness (S24-06): http.DefaultClient with no timeout in prwatch/crawler.go's crawlOne let a single hung PR Newswire connection freeze the entire body-fetch crawler for 4+ hours (process alive, ~6min CPU since Jul21, zero log output) while discovery kept finding new releases. Fixed with a 30s per-fetch context timeout. Commit 9fa7358.",
+  "id": 10740,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "PRRJECT_FATBABY",
+  "title": "Fix prwatch-body crawler deadlock causing stale newssite content"
+}
