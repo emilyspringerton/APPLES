@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-25T01:20:09Z",
+  "body": "One more draw_string() call per alive hero in the existing per-hero HUD loop (S170-89), using arena_hero_name() (packages/simulation/arena_ai_bridge.c -- the same token vocabulary the Game AI bridge already uses) for the text, reusing whatever GL color was already set for that hero's bar so name labels come out team-colored for free. arena_ai_bridge.c wasn't previously linked into the arena client at all -- added it to scripts/build_arena.sh. Verified: build.sh, build_arena.sh, test_arena.sh all clean. Client-only change, no live systemd restart needed. This box has no display, so verified by code review + clean compile only. REDGARDEN e53ee5f.",
+  "id": 10714,
+  "metadata": null,
+  "run_id": "cli-20260725T012009Z",
+  "source_repo": "REDGARDEN",
+  "title": "Hero name labels above floating health bars (S170-96)"
+}

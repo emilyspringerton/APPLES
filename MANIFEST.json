@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-25T01:17:50Z",
+  "generated_at": "2026-07-25T01:20:09Z",
   "repo": "APPLES",
-  "count": 189,
+  "count": 190,
   "apples": [
     {
       "id": 10525,
@@ -1514,6 +1514,14 @@
       "source_repo": "EMILY",
       "date": "20260725",
       "archived_at": "2026-07-25T01:17:50Z"
+    },
+    {
+      "id": 10714,
+      "type": "completion",
+      "title": "Hero name labels above floating health bars (S170-96)",
+      "source_repo": "REDGARDEN",
+      "date": "20260725",
+      "archived_at": "2026-07-25T01:20:09Z"
     }
   ]
 }
