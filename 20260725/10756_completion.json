@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-25T07:18:30Z",
+  "body": "Founder, real-time: 'redgarden services need okemily status page.' Added the three live REDGARDEN systemd --user units (redgarden-matchmaker-bots :7778 10v10, redgarden-matchmaker-players :7779 1v1, redgarden-bot-pool persistent 19-bot pool) as CheckSystemdUnit targets in internal/statuspage/checker.go's DefaultTargets(), same convention already used for shankpit460-emily-bot.service. status.html itself needed no changes since it's fully data-driven off GET /api/v1/status. Rebuilt + restarted the live iduna.service, verified all three report up:true within one poll cycle, visible at okemily.com/status.html. Commit e7f8a44.",
+  "id": 10756,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "IDUNA",
+  "title": "REDGARDEN services added to okemily.com status page"
+}
