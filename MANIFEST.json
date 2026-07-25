@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-25T13:42:36Z",
+  "generated_at": "2026-07-25T13:44:02Z",
   "repo": "APPLES",
-  "count": 282,
+  "count": 283,
   "apples": [
     {
       "id": 10525,
@@ -2258,6 +2258,14 @@
       "source_repo": "emily",
       "date": "20260725",
       "archived_at": "2026-07-25T13:42:36Z"
+    },
+    {
+      "id": 10807,
+      "type": "completion",
+      "title": "Status-effect text label above health bar (S170-133)",
+      "source_repo": "REDGARDEN",
+      "date": "20260725",
+      "archived_at": "2026-07-25T13:44:02Z"
     }
   ]
 }
