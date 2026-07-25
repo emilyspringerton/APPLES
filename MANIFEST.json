@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-25T10:42:38Z",
+  "generated_at": "2026-07-25T10:48:11Z",
   "repo": "APPLES",
-  "count": 255,
+  "count": 256,
   "apples": [
     {
       "id": 10525,
@@ -2042,6 +2042,14 @@
       "source_repo": "emily",
       "date": "20260725",
       "archived_at": "2026-07-25T10:42:38Z"
+    },
+    {
+      "id": 10780,
+      "type": "completion",
+      "title": "Small musical sound effects for gameplay legibility (S170-92)",
+      "source_repo": "REDGARDEN",
+      "date": "20260725",
+      "archived_at": "2026-07-25T10:48:11Z"
     }
   ]
 }
