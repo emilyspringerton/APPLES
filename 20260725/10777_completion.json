@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-25T10:36:05Z",
+  "body": "Founder, real-time: 'ensure the server version always stays current with the currently latest passing build.' New scripts/auto_deploy.sh + a systemd timer (every 10 min). Real design accounting for tonight's own S170-84 CI-hang incident: operates on a separate checkout (never the interactive dev directory), only considers status=completed+conclusion=success runs, re-verifies locally (rebuild+full test suite) before touching anything live, and publishes via copy-then-rename rather than a direct overwrite (found live on the first real run: a direct cp onto red_garden_arena_bot hit ETXTBSY since the 19-bot pool has it mapped the whole time it runs). Verified with a real end-to-end run: deployed the latest green SHA, restarted all three systemd units, confirmed a real 20/20 match still forms afterward. Timer installed and enabled for real. Commit 1d438e7.",
+  "id": 10777,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "REDGARDEN",
+  "title": "Auto-deploy the live arena binaries on green CI (S170-100)"
+}
