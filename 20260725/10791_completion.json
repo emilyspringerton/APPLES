@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-25T12:21:11Z",
+  "body": "Closes S170-101, logged earlier tonight and left unstarted pending a check for which existing 'compression' thread it continued. Checked all 77 live posts before writing -- found the real thread: 'Vibe Coding Is a Skill Issue' parts 1-3 use compression as a genuine philosophical throughline, never literally about an algorithm. Part 4 cashes that in for a real, technically accurate LZ4 deep-dive (4-byte minimum match, hash-chain match finder, token format, why the format's simplicity buys multi-GB/s decode speed vs zstd/gzip's better ratio) that closes the loop back to the series' actual argument. Live at https://okemily.com/blog/vibe-coding-is-a-skill-issue-part-4/. OKEMILY ee4cafe.",
+  "id": 10791,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "OKEMILY",
+  "title": "Blog: 'Vibe Coding Is a Skill Issue, Part 4' (LZ4 deep-dive) -- closes S170-101"
+}

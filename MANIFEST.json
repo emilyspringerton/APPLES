@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-25T12:12:58Z",
+  "generated_at": "2026-07-25T12:21:11Z",
   "repo": "APPLES",
-  "count": 266,
+  "count": 267,
   "apples": [
     {
       "id": 10525,
@@ -2130,6 +2130,14 @@
       "source_repo": "emily",
       "date": "20260725",
       "archived_at": "2026-07-25T12:12:58Z"
+    },
+    {
+      "id": 10791,
+      "type": "completion",
+      "title": "Blog: 'Vibe Coding Is a Skill Issue, Part 4' (LZ4 deep-dive) -- closes S170-101",
+      "source_repo": "OKEMILY",
+      "date": "20260725",
+      "archived_at": "2026-07-25T12:21:11Z"
     }
   ]
 }
