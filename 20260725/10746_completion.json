@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-25T05:06:24Z",
+  "body": "Founder, real-time: 'write a blog post memorial cerimony for the incident titel of your choice.' Chose the S24-06/S24-07 prwatch-body crawler deadlock as the incident -- a single unbounded HTTP fetch held all 4 crawler workers hostage for 4.5 hours with zero symptoms visible from outside the process. Published via IDUNA blog.write API, live at https://okemily.com/blog/uptime-is-not-aliveness/. Footer synced, deployed, verified live. OKEMILY 9244e32.",
+  "id": 10746,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "OKEMILY",
+  "title": "Blog: 'Uptime Is Not Aliveness' — memorial post for the prwatch-body deadlock incident"
+}
