@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-25T00:14:59Z",
+  "generated_at": "2026-07-25T00:17:07Z",
   "repo": "APPLES",
-  "count": 175,
+  "count": 176,
   "apples": [
     {
       "id": 10525,
@@ -1402,6 +1402,14 @@
       "source_repo": "emily",
       "date": "20260725",
       "archived_at": "2026-07-25T00:14:59Z"
+    },
+    {
+      "id": 10700,
+      "type": "completion",
+      "title": "TTS 'Listen' button on every blog post",
+      "source_repo": "IDUNA",
+      "date": "20260725",
+      "archived_at": "2026-07-25T00:17:07Z"
     }
   ]
 }
