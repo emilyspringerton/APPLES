@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-25T01:11:56Z",
+  "body": "CHANGELOG updated in EMILY: backlog: ✓ S170-87 -- REDGARDEN capture nodes rendering compressed onto one point, fixed. ArenaSnapshotMsg never included node data; added ArenaNodeSnapshot to the wire format + owner-based node coloring. Wire-format change, restarted all three live systemd units on the new build, verified clean. REDGARDEN 36f868e, Apple #10708.",
+  "id": 10709,
+  "metadata": null,
+  "run_id": "changelog-1784941916",
+  "source_repo": "EMILY",
+  "title": "changelog(EMILY): backlog: ✓ S170-87 -- REDGARDEN capture nodes rendering c…"
+}

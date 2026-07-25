@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-25T01:11:35Z",
+  "generated_at": "2026-07-25T01:11:56Z",
   "repo": "APPLES",
-  "count": 184,
+  "count": 185,
   "apples": [
     {
       "id": 10525,
@@ -1474,6 +1474,14 @@
       "source_repo": "REDGARDEN",
       "date": "20260725",
       "archived_at": "2026-07-25T01:11:35Z"
+    },
+    {
+      "id": 10709,
+      "type": "completion",
+      "title": "changelog(EMILY): backlog: ✓ S170-87 -- REDGARDEN capture nodes rendering c…",
+      "source_repo": "EMILY",
+      "date": "20260725",
+      "archived_at": "2026-07-25T01:11:56Z"
     }
   ]
 }
