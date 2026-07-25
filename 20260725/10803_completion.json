@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-25T13:31:24Z",
+  "body": "Second resource on top of cooldowns -- mp/max_mp on ArenaHero, flat per-slot costs (Q20/W20/R45) hooked through the existing cast_cooldown() choke point across all 63 landed-cast sites. Free-toggle W's now cost mana to activate (deactivate free). Blocked casts behave like whiffs. 12 new tests, full suite 366 checks, live-verified stable. Commit 9ad4369.",
+  "id": 10803,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "REDGARDEN",
+  "title": "Mana resource layer, roster-wide (S170-132)"
+}

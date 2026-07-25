@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-25T13:27:03Z",
+  "generated_at": "2026-07-25T13:31:24Z",
   "repo": "APPLES",
-  "count": 278,
+  "count": 279,
   "apples": [
     {
       "id": 10525,
@@ -2226,6 +2226,14 @@
       "source_repo": "emily",
       "date": "20260725",
       "archived_at": "2026-07-25T13:27:03Z"
+    },
+    {
+      "id": 10803,
+      "type": "completion",
+      "title": "Mana resource layer, roster-wide (S170-132)",
+      "source_repo": "REDGARDEN",
+      "date": "20260725",
+      "archived_at": "2026-07-25T13:31:24Z"
     }
   ]
 }
