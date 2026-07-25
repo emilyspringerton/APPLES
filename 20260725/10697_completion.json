@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-25T00:05:34Z",
+  "body": "REDGARDEN commit 53d9c20. Both already had full lore entries in TYLER/multiverse_heroes.md (#35 Gary, #42 Flute Debt). Gary: stationary marksman, no dash of any kind, Q is a range-gated precision shot, W toggles Q's own range, R is a fixed-duration root. Flute Debt: real debt/payoff mechanic via the shared burning_ms DoT -- Q applies it, R collects bonus damage only if it's still active. ARENA_HERO_COUNT 12-\u003e14, wired into every real call site. Verified via build.sh, build_arena.sh, test_arena.sh, test_10_bots.sh, and a local mingw cross-compile, all clean. Closes BACKLOG S170-91.",
+  "id": 10697,
+  "metadata": null,
+  "run_id": "cli-20260725T000534Z",
+  "source_repo": "REDGARDEN",
+  "title": "13th/14th heroes: Gary and Flute Debt, real kits from existing lore"
+}
