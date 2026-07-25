@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-25T07:57:47Z",
+  "generated_at": "2026-07-25T08:04:31Z",
   "repo": "APPLES",
-  "count": 235,
+  "count": 236,
   "apples": [
     {
       "id": 10525,
@@ -1882,6 +1882,14 @@
       "source_repo": "emily",
       "date": "20260725",
       "archived_at": "2026-07-25T07:57:47Z"
+    },
+    {
+      "id": 10760,
+      "type": "completion",
+      "title": "Fix matchmaker phantom-requeue race — closes S170-85 and S170-86",
+      "source_repo": "REDGARDEN",
+      "date": "20260725",
+      "archived_at": "2026-07-25T08:04:31Z"
     }
   ]
 }

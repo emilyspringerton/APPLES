@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-25T08:04:31Z",
+  "body": "Root-caused the founder-reported 'no players/enemies visible' and 'Q/W/E dont seem to work' bugs. apps/arena_bot's wait_for_match() resends PACKET_FIND_MATCH after ~5s of silence; if that resend was still in flight the instant the matchmaker matched and dequeued the client, the late retry got silently re-enqueued, permanently costing some future lobby one slot (that address's owner is already off connecting elsewhere and never sees the resulting second PACKET_MATCH_FOUND). With 19 bots continuously cycling through matches this became the reason almost every lobby landed at 19/20 and timed out -- and fully explains the cast-bug report too: a match stuck in ARENA_PHASE_WAITING never reaches ARENA_PHASE_LIVE, so casts are correctly rejected the whole time, not broken. Fixed with a 10s post-match cooldown per address in the matchmaker, ignoring late duplicate FIND_MATCH requests instead of re-queuing them. Verified live: before the fix, every attempt against the real pool capped at 19/20; after rebuild+restart, the first attempt reached a genuine 20/20 lobby, all heroes picked, match live, real snapshots streaming. Commit 1e1e14f.",
+  "id": 10760,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "REDGARDEN",
+  "title": "Fix matchmaker phantom-requeue race — closes S170-85 and S170-86"
+}
