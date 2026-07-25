@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-25T12:57:05Z",
+  "body": "draw_hero_box/draw_hero_model take a squish factor for classic squash-and-stretch bounce, triggered by damage/spell-cast/movement-start transitions. Found+fixed a zero-init bug (squish_age_ms defaulting to 0.0f read as 'just triggered' not neutral) before it shipped. Client-only, no protocol changes. Verified: clean build, full headless suite (337 checks), VS0/VS1 stability. Commit 2874de8.",
+  "id": 10797,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "REDGARDEN",
+  "title": "Squish animations for movement, hits, spell casts (S170-128)"
+}
