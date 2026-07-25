@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-25T02:40:14Z",
+  "body": "Every hero previously rendered as one identically-shaped colored cube. New draw_hero_model() in apps/arena/src/main.c gives each of the 18 heroes a distinct 1-3 box silhouette via REDGARDEN's own shader-based draw_mesh()/Mat4 pipeline, reusing the 7 SHANKPIT skin designs (Duck/Unicorn/Ghost/Frog/Tree/Pizza/Tyler) where a hero overlaps one, with new equally-simple designs for the other 11. Existing self/team/enemy relationship coloring (S170-89) is untouched -- shape now encodes hero identity, color still encodes relationship. Verified via scripts/build.sh, scripts/build_arena.sh, scripts/test_arena.sh, and a local mingw cross-compile (all 4 source files). Commit 7378164.",
+  "id": 10727,
+  "metadata": null,
+  "run_id": "cli-20260725T024014Z",
+  "source_repo": "REDGARDEN",
+  "title": "Real per-hero 3D geometry for arena heroes (S170-118)"
+}

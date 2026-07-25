@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-25T02:31:45Z",
+  "generated_at": "2026-07-25T02:40:14Z",
   "repo": "APPLES",
-  "count": 202,
+  "count": 203,
   "apples": [
     {
       "id": 10525,
@@ -1618,6 +1618,14 @@
       "source_repo": "emily",
       "date": "20260725",
       "archived_at": "2026-07-25T02:31:45Z"
+    },
+    {
+      "id": 10727,
+      "type": "completion",
+      "title": "Real per-hero 3D geometry for arena heroes (S170-118)",
+      "source_repo": "REDGARDEN",
+      "date": "20260725",
+      "archived_at": "2026-07-25T02:40:14Z"
     }
   ]
 }
