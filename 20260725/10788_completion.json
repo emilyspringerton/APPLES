@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-25T11:50:39Z",
+  "body": "First hero shipped from the batched next-wave entry (Xiangu, Gunnr, Drowned Prince, Vassago, Beleth, Weatherman+Donkey interaction) -- rest queued. Gunnr already has real lore (#30): a shieldmaiden who correctly disagreed with one of Odin's ravens, quietly right about three more things since, unacknowledged. Full kit: passive flat armor, plain melee Q, free-toggle-regen W, execute-scaled R. ARENA_HERO_COUNT 21-\u003e22 -- draft-modulo needed no manual update this time, the port-derived offset fix from the Cain pass already scales automatically. 6 new tests, full suite (311 checks), VS0/VS1 stable. Verified live: a real match drafted 20 distinct heroes with zero duplicates, Gunnr and Cain both included. Commit 5ec3566.",
+  "id": 10788,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "REDGARDEN",
+  "title": "Gunnr, 22nd hero -- first from the batched hero-wave backlog (S170-93)"
+}
