@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-25T00:44:34Z",
+  "generated_at": "2026-07-25T00:51:16Z",
   "repo": "APPLES",
-  "count": 181,
+  "count": 182,
   "apples": [
     {
       "id": 10525,
@@ -1450,6 +1450,14 @@
       "source_repo": "emily",
       "date": "20260725",
       "archived_at": "2026-07-25T00:44:34Z"
+    },
+    {
+      "id": 10706,
+      "type": "completion",
+      "title": "Font glyph gap fixed -- 15 letters, lowercase, punctuation",
+      "source_repo": "REDGARDEN",
+      "date": "20260725",
+      "archived_at": "2026-07-25T00:51:16Z"
     }
   ]
 }

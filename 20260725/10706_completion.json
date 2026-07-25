@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-25T00:51:16Z",
+  "body": "REDGARDEN commit a76e3d1. draw_char()'s hand-drawn font only covered digits + W,I,N,L,O,S,E,U,Y,H,P + space; everything else fell through to a generic missing-glyph box, much more visible now with tonight's hero-name expansion (Gary, Bacon+Puck, Abraham, Ada, Flute Debt). Added the remaining 15 uppercase letters, lowercase folding, and common punctuation. Verified via build_arena.sh, test_arena.sh, test_10_bots.sh, and a local mingw cross-compile, all clean. Closes BACKLOG S170-108.",
+  "id": 10706,
+  "metadata": null,
+  "run_id": "cli-20260725T005116Z",
+  "source_repo": "REDGARDEN",
+  "title": "Font glyph gap fixed -- 15 letters, lowercase, punctuation"
+}
