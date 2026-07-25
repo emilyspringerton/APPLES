@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-25T11:03:00Z",
+  "body": "Founder, real-time: 'add NOOR-1 as a snowman.' NOOR-1 (Four Days Behind, multiverse_heroes.md #3) already has a real lore entry; 'as a snowman' is an in-game FORM directive, same convention as Duck/Unicorn/Pizza/Tree. Full kit fully wired end to end this pass: passive periodic-silence aura, Q ranged damage+root, W self-cast intangibility, R a one-sided cold damage zone. Distinct 3D silhouette (three stacked boxes). ARENA_HERO_COUNT 19-\u003e20, pick-validation bound, draft-modulo, name/ability tables all updated together -- every gap Paimon's initial landing left behind closed here from the start. 5 new tests, full suite passes (289 checks), VS0/VS1 stable. Verified live: rebuilt+restarted all three systemd units, confirmed NOOR-1 (hero_id=19) actually gets drafted in a real 20/20 match, runs stably. Commit 8d16fa8.",
+  "id": 10783,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "REDGARDEN",
+  "title": "NOOR-1, 20th hero -- Scout, snowman form (S170-104)"
+}
