@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-25T01:00:18Z",
+  "generated_at": "2026-07-25T01:11:35Z",
   "repo": "APPLES",
-  "count": 183,
+  "count": 184,
   "apples": [
     {
       "id": 10525,
@@ -1466,6 +1466,14 @@
       "source_repo": "emily",
       "date": "20260725",
       "archived_at": "2026-07-25T01:00:18Z"
+    },
+    {
+      "id": 10708,
+      "type": "completion",
+      "title": "Capture nodes rendering compressed onto one point, fixed (S170-87)",
+      "source_repo": "REDGARDEN",
+      "date": "20260725",
+      "archived_at": "2026-07-25T01:11:35Z"
     }
   ]
 }

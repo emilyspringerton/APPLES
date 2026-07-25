@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-25T01:11:35Z",
+  "body": "ArenaSnapshotMsg never included node data at all -- only heroes[], winner, phase, picked[]. In net_mode the client never calls arena_init()/arena_init_teams() locally (the server owns that), so arena_state.nodes[] stayed at the zeroed global default (both at the origin), making both capture nodes render on top of each other. Added ArenaNodeSnapshot (x/z/owner/capturing_team/capture_progress_ms) to the wire format, populated server-side, consumed client-side. Also colored node cubes by owner now that ownership data actually reaches the client -- the territory redesign's whole visual point. Verified: build.sh, build_arena.sh, test_arena.sh, test_10_bots.sh all clean. Wire-format change, so restarted all three live systemd units (matchmaker-bots, matchmaker-players, bot-pool) on the new build; confirmed the pool re-fills cleanly to 19/20 with no crash/size-mismatch. REDGARDEN 36f868e.",
+  "id": 10708,
+  "metadata": null,
+  "run_id": "cli-20260725T011135Z",
+  "source_repo": "REDGARDEN",
+  "title": "Capture nodes rendering compressed onto one point, fixed (S170-87)"
+}
