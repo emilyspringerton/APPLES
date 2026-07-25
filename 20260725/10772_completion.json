@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-25T10:03:13Z",
+  "body": "Founder, real-time: 'do the enhanced cursor hover state work.' Purely client-side (arena_state.heroes[i].team already populated everywhere, no wire changes needed). Hovering near a hero's floating health bar draws a relationship-colored bracket outline (self/ally/enemy, same colors the bar fill already uses) plus a tooltip with relationship, hero name, and real HP numbers near the cursor. Client-only rendering change, verified via clean build (no headless test possible for SDL2/GL mouse-hover rendering). Commit b0cdaca.",
+  "id": 10772,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "REDGARDEN",
+  "title": "Enhanced cursor hover state, enemy vs ally (S170-69 revisited)"
+}

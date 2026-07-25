@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-25T09:57:28Z",
+  "generated_at": "2026-07-25T10:03:13Z",
   "repo": "APPLES",
-  "count": 247,
+  "count": 248,
   "apples": [
     {
       "id": 10525,
@@ -1978,6 +1978,14 @@
       "source_repo": "emily",
       "date": "20260725",
       "archived_at": "2026-07-25T09:57:28Z"
+    },
+    {
+      "id": 10772,
+      "type": "completion",
+      "title": "Enhanced cursor hover state, enemy vs ally (S170-69 revisited)",
+      "source_repo": "REDGARDEN",
+      "date": "20260725",
+      "archived_at": "2026-07-25T10:03:13Z"
     }
   ]
 }
