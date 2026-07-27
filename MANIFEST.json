@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-27T14:34:52Z",
+  "generated_at": "2026-07-27T14:45:12Z",
   "repo": "APPLES",
-  "count": 484,
+  "count": 485,
   "apples": [
     {
       "id": 10525,
@@ -3874,6 +3874,14 @@
       "source_repo": "emily",
       "date": "20260727",
       "archived_at": "2026-07-27T14:34:52Z"
+    },
+    {
+      "id": 11009,
+      "type": "completion",
+      "title": "Q/W/E ability tiles reflect real cooldown+mana readiness in net_mode",
+      "source_repo": "REDGARDEN",
+      "date": "20260727",
+      "archived_at": "2026-07-27T14:45:12Z"
     }
   ]
 }

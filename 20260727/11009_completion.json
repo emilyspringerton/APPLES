@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-27T14:45:12Z",
+  "body": "Founder, real-time: 'QWER animation frames need to indicate visually if an ability is ready to cast or not.' Root cause: ArenaSnapshotMsg never carried cooldown/mp state, so net_mode (server-authoritative) left the local player's own q/w/r_cooldown_ms and mp zeroed forever -- the S170-127 ability-tile HUD rendered every ability as permanently ready in the one mode (real online play) that matters. Fixed by syncing cooldown+mp over the wire and adding a mana_blocked visual state alongside the existing cooldown wipe/countdown. Verified: build.sh + build_arena.sh clean, full headless suite passing, live server+2-bot match over the real network path with the larger snapshot struct. REDGARDEN 6846b33.",
+  "id": 11009,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "REDGARDEN",
+  "title": "Q/W/E ability tiles reflect real cooldown+mana readiness in net_mode"
+}
