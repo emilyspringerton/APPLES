@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-27T15:47:28Z",
+  "generated_at": "2026-07-27T15:55:13Z",
   "repo": "APPLES",
-  "count": 492,
+  "count": 493,
   "apples": [
     {
       "id": 10525,
@@ -3938,6 +3938,14 @@
       "source_repo": "emily",
       "date": "20260727",
       "archived_at": "2026-07-27T15:47:28Z"
+    },
+    {
+      "id": 11017,
+      "type": "completion",
+      "title": "WoW-style hover casting for Doc Wheel's Q, plus target-side heal-flash visual",
+      "source_repo": "REDGARDEN",
+      "date": "20260727",
+      "archived_at": "2026-07-27T15:55:13Z"
     }
   ]
 }
