@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-27T15:32:27Z",
+  "generated_at": "2026-07-27T15:44:53Z",
   "repo": "APPLES",
-  "count": 490,
+  "count": 491,
   "apples": [
     {
       "id": 10525,
@@ -3922,6 +3922,14 @@
       "source_repo": "emily",
       "date": "20260727",
       "archived_at": "2026-07-27T15:32:27Z"
+    },
+    {
+      "id": 11015,
+      "type": "completion",
+      "title": "Lane creep waves, Ghost/Tyler projectiles, Tyler Meepo-parity clones, per-hero cast colors, 4-branch merge to main",
+      "source_repo": "REDGARDEN",
+      "date": "20260727",
+      "archived_at": "2026-07-27T15:44:53Z"
     }
   ]
 }
