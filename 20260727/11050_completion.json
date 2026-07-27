@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-27T23:07:02Z",
+  "body": "Commit a060528, pushed to origin/main as fe3846e..a060528. Verified live: real arena_server + arena_bot + actual SDL client (under Xvfb, --connect) played a full networked match; screenshot confirms jungle creep rendering over the real wire connection. Full suite unaffected (450 checks).",
+  "id": 11050,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "REDGARDEN",
+  "title": "Wire-synced jungle and lane creeps to the network for the first time, closing this session's own biggest flagged gap"
+}

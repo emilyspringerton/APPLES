@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-27T23:00:59Z",
+  "generated_at": "2026-07-27T23:07:02Z",
   "repo": "APPLES",
-  "count": 525,
+  "count": 526,
   "apples": [
     {
       "id": 10525,
@@ -4202,6 +4202,14 @@
       "source_repo": "emily",
       "date": "20260727",
       "archived_at": "2026-07-27T23:00:59Z"
+    },
+    {
+      "id": 11050,
+      "type": "completion",
+      "title": "Wire-synced jungle and lane creeps to the network for the first time, closing this session's own biggest flagged gap",
+      "source_repo": "REDGARDEN",
+      "date": "20260727",
+      "archived_at": "2026-07-27T23:07:02Z"
     }
   ]
 }
