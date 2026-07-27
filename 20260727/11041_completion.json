@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-27T21:36:18Z",
+  "body": "Commit 212f753, pushed to origin/main as cd33bb5..212f753. 4 new headless tests, full suite 450 checks green. Live-verified with a real 10v10 arena_server+20 arena_bot match: 55+s sustained combat, no crash, 15/20 real deaths.",
+  "id": 11041,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "REDGARDEN",
+  "title": "AoE damage spells now hit jungle and lane creeps, plus live 20-bot bot-mode verification of the whole session's batch"
+}

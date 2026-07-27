@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-27T21:33:06Z",
+  "generated_at": "2026-07-27T21:36:18Z",
   "repo": "APPLES",
-  "count": 516,
+  "count": 517,
   "apples": [
     {
       "id": 10525,
@@ -4130,6 +4130,14 @@
       "source_repo": "emily",
       "date": "20260727",
       "archived_at": "2026-07-27T21:33:06Z"
+    },
+    {
+      "id": 11041,
+      "type": "completion",
+      "title": "AoE damage spells now hit jungle and lane creeps, plus live 20-bot bot-mode verification of the whole session's batch",
+      "source_repo": "REDGARDEN",
+      "date": "20260727",
+      "archived_at": "2026-07-27T21:36:18Z"
     }
   ]
 }
