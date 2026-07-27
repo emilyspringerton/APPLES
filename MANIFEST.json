@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-27T22:02:03Z",
+  "generated_at": "2026-07-27T22:11:59Z",
   "repo": "APPLES",
-  "count": 519,
+  "count": 520,
   "apples": [
     {
       "id": 10525,
@@ -4154,6 +4154,14 @@
       "source_repo": "emily",
       "date": "20260727",
       "archived_at": "2026-07-27T22:02:03Z"
+    },
+    {
+      "id": 11044,
+      "type": "completion",
+      "title": "Auto-attack hit flashes on creeps + jungle creeps rendered client-side for the first time",
+      "source_repo": "REDGARDEN",
+      "date": "20260727",
+      "archived_at": "2026-07-27T22:11:59Z"
     }
   ]
 }

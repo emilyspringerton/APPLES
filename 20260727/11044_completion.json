@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-27T22:11:59Z",
+  "body": "Commit fe3846e, pushed to origin/main as 212f753..fe3846e. Verified with a real Xvfb screenshot showing a jungle creep rendering correctly. Full suite unaffected (450 checks, client-only change).",
+  "id": 11044,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "REDGARDEN",
+  "title": "Auto-attack hit flashes on creeps + jungle creeps rendered client-side for the first time"
+}
