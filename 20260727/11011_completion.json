@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-27T14:58:51Z",
+  "body": "S170-138. REDGARDEN commit 1755667 (worktree branch worktree-redgarden-jungle-obstacles). Widened ARENA_HALF_EXTENT 20-\u003e28, rescaled the 5-node layout, added 22 static rock/tree obstacles in two mirrored jungle walls between each team's spawn and flank nodes with real circle-vs-circle collision in the shared update_hero_motion(), forcing top/bottom lane routing around flank nodes. Client renders trees/rocks as box silhouettes. test_arena.sh (390 assertions) passes unchanged; verified visually via Xvfb screenshot.",
+  "id": 11011,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "REDGARDEN",
+  "title": "REDGARDEN arena jungle obstacles -- rocks/trees carve the map into lanes"
+}
