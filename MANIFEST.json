@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-28T04:46:30Z",
+  "generated_at": "2026-07-28T04:55:20Z",
   "repo": "APPLES",
-  "count": 553,
+  "count": 554,
   "apples": [
     {
       "id": 10525,
@@ -4426,6 +4426,14 @@
       "source_repo": "REDGARDEN",
       "date": "20260728",
       "archived_at": "2026-07-28T04:46:30Z"
+    },
+    {
+      "id": 11078,
+      "type": "completion",
+      "title": "Ability tiles moved bottom-center + new H ability-description overlay + missing font glyphs added, plus fixed jungle creeps attacking their ",
+      "source_repo": "REDGARDEN",
+      "date": "20260728",
+      "archived_at": "2026-07-28T04:55:20Z"
     }
   ]
 }

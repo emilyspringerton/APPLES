@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-28T04:55:20Z",
+  "body": "Commit 760df37, pushed to origin/main as 866dbfa..760df37. 6 new headless tests, full suite 468 checks green. Verified live with a real Xvfb screenshot showing the repositioned tiles + overlay panel + new glyphs all rendering correctly.",
+  "id": 11078,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "REDGARDEN",
+  "title": "Ability tiles moved bottom-center + new H ability-description overlay + missing font glyphs added, plus fixed jungle creeps attacking their own owning team"
+}
