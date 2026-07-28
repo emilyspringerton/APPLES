@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-28T13:55:08Z",
+  "body": "Commits d917252/7d0a871 on main. Root-caused 'toggleable abilities arent working': w_active was never synced over the wire, so networked clients' W-tile active highlight was always wrong regardless of real server state -- fixed via ArenaHeroSnapshot. Also implemented founder's mana-drain redesign: the 10 true-toggle heroes now activate free (mp\u003e0 gate) and drain ARENA_MP_DRAIN_W_PER_SEC continuously while active instead of paying a flat upfront cost, auto-deactivating at 0 mana. New arena_hero_w_is_toggle() lets the client HUD apply the right mana-cost model per hero (instant-effect W heroes like Ghost/Frog are unaffected, still flat-cost). 2 tests rewritten, 2 added, full suite green.",
+  "id": 11133,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "REDGARDEN",
+  "title": "Fix w_active wire sync + toggle W mana drain redesign (S170-180/181)"
+}

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-28T13:48:11Z",
+  "generated_at": "2026-07-28T13:55:08Z",
   "repo": "APPLES",
-  "count": 608,
+  "count": 609,
   "apples": [
     {
       "id": 10525,
@@ -4866,6 +4866,14 @@
       "source_repo": "emily",
       "date": "20260728",
       "archived_at": "2026-07-28T13:48:11Z"
+    },
+    {
+      "id": 11133,
+      "type": "completion",
+      "title": "Fix w_active wire sync + toggle W mana drain redesign (S170-180/181)",
+      "source_repo": "REDGARDEN",
+      "date": "20260728",
+      "archived_at": "2026-07-28T13:55:08Z"
     }
   ]
 }
