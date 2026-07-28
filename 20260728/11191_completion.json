@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-28T23:14:32Z",
+  "body": "Founder: 'switch gary w to aimed shot just like wow hunter cast time big damage for now movement interrupts cast damage does not interrupt cast silence does' -\u003e 'ensure cast bar affordance shown to user.' Gary's W (free toggle extending Q's range) replaced with a real WoW Hunter-style cast-time nuke on its own cooldown. New generic cast-time infrastructure on ArenaHero (casting_slot/cast_time_remaining_ms/cast_total_ms/cast_anchor_x,z/cast_target) -- Aimed Shot is the first ability to use it, built to support future cast-time abilities too. Movement interrupts (position drift check, catches both self-moves and forced displacement), silence interrupts, damage does not interrupt -- all three exactly as specified. Cast bar synced over the wire and rendered under every casting hero's health bar, visible to the whole battlefield, not just the caster. 6 new tests, build clean, full suite green (613/613). Live-verified: GUI client ran 6s under Xvfb with the new render code, no crash. REDGARDEN f64a9e2 (+ CHANGELOG same commit range).",
+  "id": 11191,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "REDGARDEN",
+  "title": "S170-203: Gary W -\u003e Aimed Shot, a real cast-time ability"
+}
