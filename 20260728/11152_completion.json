@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-28T15:55:25Z",
+  "body": "Commits ba24d49/b3c48fa on main. Found via proactive audit: §19's own header still read 'spec only, no code yet' even though the economy half (Flow/XP, item shop, character pane, bot AI shopping, assists) has been fully built and shipped across S170-175/187 this session. Added a status callout and marked §19.5 (structures) explicitly as the part that's still genuinely unbuilt. Docs only, no code/test changes.",
+  "id": 11152,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "REDGARDEN",
+  "title": "NORTHSTAR §19 status update -- economy shipped, structures still spec-only"
+}
