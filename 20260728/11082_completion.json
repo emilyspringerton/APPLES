@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-28T05:27:24Z",
+  "body": "Commit 3a4c845 (+ CHANGELOG 35ab0fe): ARENA_HALF_EXTENT 28-\u003e32 ('the map should be a little bigger'), arena_graveyard_position() moved from dead-center-behind-spawn to the two map corners fountains don't already occupy ('graveyards behind 2 of the corners not in the middle'). Also fixed a real gap founder suspected ('i think there may be zombie games with infinite win cons'): S170-153's resource-race win condition had no timeout fallback -- removing team-wipe removed the only guarantee a live match eventually ends, and arena_server's LIVE-phase loop had no timeout of its own. Added ARENA_MATCH_MAX_DURATION_MS (12min) sudden-death: whoever's ahead on resources wins outright past that point, tiebroken by nodes owned. 4 new tests, full suite green, live-verified via isolated 20-bot match confirming wider map bounds in real movement.",
+  "id": 11082,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "REDGARDEN",
+  "title": "S170-155/156/157: bigger map + corner graveyards + sudden-death zombie-match fix"
+}
