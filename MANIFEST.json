@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-28T22:48:29Z",
+  "generated_at": "2026-07-28T22:50:26Z",
   "repo": "APPLES",
-  "count": 664,
+  "count": 665,
   "apples": [
     {
       "id": 10525,
@@ -5314,6 +5314,14 @@
       "source_repo": "emily",
       "date": "20260728",
       "archived_at": "2026-07-28T22:48:29Z"
+    },
+    {
+      "id": 11189,
+      "type": "completion",
+      "title": "S170-201/202: bot node-capture anchor fix + fractal-boids squad splitting",
+      "source_repo": "REDGARDEN",
+      "date": "20260728",
+      "archived_at": "2026-07-28T22:50:26Z"
     }
   ]
 }

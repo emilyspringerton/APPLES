@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-28T22:50:26Z",
+  "body": "Founder: 'there is some issue with flcoking my team having a lot of trouble capping a node' -\u003e 'like the whole team doesnt need to try to cap the node' -\u003e 'add like fractal boids so we naturally split more into squads.' S170-201: the old flocking-anchor rule (owner_index mod node_count == node_index) was purely coincidental -- if a node's two coincidental slot-owners were dead/engaged/elsewhere, nobody ever anchored it and flock_offset's own separation force pushed the crowd outside capture radius forever, silently uncappable. S170-202: fixed the other half -- every idle bot picking its own nearest node dogpiled the whole team onto one spot. Fixed via squad-scoped flocking (individuals flock tightly within a squad) plus squads claiming distinct nodes via a deterministic greedy pass (no coordination needed) -- a fractal application of the same boid grouping/spreading instinct at two scales. Anchor logic collapsed to 'am I my own squad's lowest owner index.' Build clean, full suite green (607/607). Live-verified extensively via a full 10v10 isolated match with debug instrumentation (squad assignments spanned all 5 nodes, movement continued smoothly, no freeze) and a clean 60s run on the final binary (21/21 processes healthy, real spread-out movement). REDGARDEN ed59bc1 (+ CHANGELOG same commit range).",
+  "id": 11189,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "REDGARDEN",
+  "title": "S170-201/202: bot node-capture anchor fix + fractal-boids squad splitting"
+}
