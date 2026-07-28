@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-28T04:30:11Z",
+  "body": "Commit 0d6aecc, pushed to origin/main as 45cfa32..0d6aecc. 6 new headless tests, full suite 461 checks green. Verified live with a real Xvfb screenshot of the mana bar rendering.",
+  "id": 11073,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "REDGARDEN",
+  "title": "Mana HUD bar, combat-gated regen, fountain mana restore, and fixed a real jungle-obstacles-disappearing-on-requeue bug"
+}
