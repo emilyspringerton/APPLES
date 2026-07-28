@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-28T06:29:05Z",
+  "generated_at": "2026-07-28T06:33:08Z",
   "repo": "APPLES",
-  "count": 567,
+  "count": 568,
   "apples": [
     {
       "id": 10525,
@@ -4538,6 +4538,14 @@
       "source_repo": "emily",
       "date": "20260728",
       "archived_at": "2026-07-28T06:29:05Z"
+    },
+    {
+      "id": 11092,
+      "type": "completion",
+      "title": "S170-162/163/164: click-to-attack system + Gary homing auto-attack + draft randomization fix",
+      "source_repo": "REDGARDEN",
+      "date": "20260728",
+      "archived_at": "2026-07-28T06:33:08Z"
     }
   ]
 }

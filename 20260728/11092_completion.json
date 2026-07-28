@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-28T06:33:08Z",
+  "body": "Commit ef75e31 (+ CHANGELOG 22b7c0f): built NORTHSTAR §17.4's click-to-attack target design for real (team mode only) -- new PACKET_ARENA_ATTACK wire command, ArenaHero.attack_target persistent lock, pure-pursuit chase toward an out-of-range target every tick (the actual 'follows a fleeing target automatically, no re-click' mechanic), and a new homing ArenaProjectile variant for Gary's basic auto-attack that re-aims at its live target every tick and can't be juked -- distinct from the existing non-homing skillshot physics ability casts use. Gary excluded from every flat-melee auto-attack path (heroes, jungle creeps, lane creeps) so his damage comes exclusively through the homing shot. Wire-synced per-hero with a pulsing visual on the current target's health bar so the lock reads to the whole battlefield; homing shots render through the existing projectile pipeline with zero client changes needed. apps/arena_bot now sends attack commands every decision tick -- the actual mechanism making a bot-piloted Gary deal damage. Also fixed a real bug in the same code path: human client auto-draft was port-derived only (not random), now mixes in rand(). 17 new tests, full suite green, live-verified via isolated 20-bot match with no crashes.",
+  "id": 11092,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "REDGARDEN",
+  "title": "S170-162/163/164: click-to-attack system + Gary homing auto-attack + draft randomization fix"
+}
