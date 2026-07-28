@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-28T23:31:32Z",
+  "generated_at": "2026-07-28T23:38:32Z",
   "repo": "APPLES",
-  "count": 669,
+  "count": 670,
   "apples": [
     {
       "id": 10525,
@@ -5354,6 +5354,14 @@
       "source_repo": "emily",
       "date": "20260728",
       "archived_at": "2026-07-28T23:31:32Z"
+    },
+    {
+      "id": 11194,
+      "type": "completion",
+      "title": "S170-204: auto-attack windup/backswing, NORTHSTAR §17 LoL parity",
+      "source_repo": "REDGARDEN",
+      "date": "20260728",
+      "archived_at": "2026-07-28T23:38:32Z"
     }
   ]
 }

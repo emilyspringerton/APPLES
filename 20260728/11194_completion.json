@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-28T23:38:32Z",
+  "body": "Built NORTHSTAR §17 (auto-attack movement model, chosen over §16 Weatherman/Donkey and §19.5 structures). Found the section's own gap analysis was already stale -- S170-162/163 had already shipped the attack command, persistent attack-target lock, and Gary's homing ranged attack, just never reflected back into the doc. Built the actual missing core: a real windup/backswing state machine (attack_windup_ms_remaining) on both the flat melee loop and Gary's ranged attack -- movement freezes during windup, a genuine reposition or stun cancels it (no damage/cooldown), completed windups re-validate the target and fire. Found and fixed a real risk before shipping: the external bot AI's own ~100ms move-command polling would have spuriously canceled every windup; fixed via a range-gated position comparison instead of a naive any-move-cancels check. NORTHSTAR §17 updated with a correction + shipped/open checklist. 11 new/updated tests, full suite green (630/630). Live-verified via an isolated 10v10 match: 45s, zero crashes, real HP changes across 18/20 heroes including a death. REDGARDEN f526c66 (+ CHANGELOG same commit range).",
+  "id": 11194,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "REDGARDEN",
+  "title": "S170-204: auto-attack windup/backswing, NORTHSTAR §17 LoL parity"
+}
