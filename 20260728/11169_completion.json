@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-28T19:15:05Z",
+  "body": "Built NORTHSTAR §15 end to end (chosen over §16/§17/§19.5 via a direct question, since the S170 sprint's actionable backlog was otherwise fully done). Camera lock: new C toggle freezes the yaw/pitch orbit angle (the pivot already always follows my_owner's hero) -- zoom stays free while locked, per real-MOBA convention. Fog of war: client-side visual only (not real server-side vision culling, per the spec's own explicit scope decision) -- new ARENA_VISION_RADIUS (16.0 * phi, ~25.89, sized against the current golden-ratio-scaled node spacing) hides enemy heroes beyond that radius entirely (model, health bar, name, hover-target). Allies and jungle creeps always visible. README updated. Build clean, full suite green (607/607), live-verified 6s under Xvfb with no crash. REDGARDEN c45fb6b (+ CHANGELOG same commit range).",
+  "id": 11169,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "REDGARDEN",
+  "title": "S170-196: camera lock + fog of war, NORTHSTAR §15"
+}
