@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-28T05:18:10Z",
+  "body": "Commit 5502f78 (+ CHANGELOG 02b2f3f): team wipe no longer ends the match -- teams with no owned node now respawn at a permanent graveyard instead of staying dead forever. Match win condition replaced team-wipe with an Arathi-Basin-style resource race (arena_tick_resources, capped meter filled per-tick based on nodes owned). Respawns switched from per-hero countdown to a global 30s wave timer -- all dead heroes on a team come back together when it wraps. Added a first-pass node-capping heuristic to the networked bot AI, a resource-race HUD bar client-side, and wire sync for resources[2]. 4 invalidated tests rewritten, 4 new tests added, full suite green, live-verified via two isolated (non-pool) direct-connect 20-bot matches with no crashes.",
+  "id": 11081,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "REDGARDEN",
+  "title": "S170-153/154: graveyards + Arathi-Basin resource-race win condition + 30s wave respawns"
+}
