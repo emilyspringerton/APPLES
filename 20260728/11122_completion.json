@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-28T12:44:52Z",
+  "body": "Commit 07521af (+ CHANGELOG b84fd59): new top-priority check in the bot decision loop -- a hero below 25% HP retreats to the nearest fountain and does nothing else that tick (no capping, no engaging, no casting) until topped off, matching the real MOBA 'go here to top off' instinct. Fountain positions mirrored by hand from arena_fountain_position()'s two fixed points, no wire sync needed. Live-verified via isolated 20-bot match: 153 low-HP snapshots observed, 65 (42%) with the hero near a fountain corner -- real evidence of active retreat behavior. No crashes, full suite green.",
+  "id": 11122,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "REDGARDEN",
+  "title": "S170-173: bot AI seeks out healing fountains when critically low on HP"
+}
