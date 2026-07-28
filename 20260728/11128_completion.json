@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-28T13:24:44Z",
+  "body": "Commits c80cb93/fb39f18 on main. PACKET_ARENA_SHOP_BUY/SELL + dispatch in server_handle_packet, same shape as the existing ATTACK packet. ArenaHeroSnapshot gains flow/flow_earned/xp/kills/deaths/equipped_item[] for the upcoming character pane. Wire plumbing only -- shop position/proximity/buy-sell validation logic shipped in Sprint 2 with full test coverage. Not live-network-verified with a raw UDP client this round (thin passthrough over already-tested logic); flagged, not faked. Full suite green. Sprint 4 (client shop UI + character pane) next.",
+  "id": 11128,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "REDGARDEN",
+  "title": "Shop wire protocol, Sprint 3 (S170-175)"
+}
