@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-28T12:49:34Z",
+  "body": "Commit dc15dc7 (+ CHANGELOG 01c72a6): picked up the earlier sprint plan's items 4/5 (gold/XP economy, structures/towers), both flagged as needing a real design pass, designed together since structures' gold-bounty payoff needs gold to exist first. Found and resolved a real conflict before designing anything else: docs/CONSUMABLES_AND_COOKING.md assumed cooking spends from the same resources[] pool that S170-153 later made the actual win-condition meter -- would have directly slowed a team's own progress toward winning by spending on items. Resolved with two separate currencies (resources[team] stays win-condition-only; new per-hero gold, fed by kills, handles personal power). Grounded the item spend target in docs/HEROES_VS0.md's existing 12-item Season-3-styled roster instead of inventing new items, scoped XP to a flat power curve instead of a full leveling system, and designed structures around the map's real single-lane geometry (closing the push-payoff gap S170-139/Duck's W have both been blocked on since S170-31/139). Spec only, same 'no code yet' treatment as prior northstar sections.",
+  "id": 11124,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "REDGARDEN",
+  "title": "S170-174: NORTHSTAR §19 -- gold/XP economy + structures, resolving a real resources[] conflict"
+}
