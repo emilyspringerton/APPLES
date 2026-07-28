@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-28T22:02:16Z",
+  "body": "Founder, immediately after S170-196 shipped fog of war: 'remove fog of war its only client side fuck that.' NORTHSTAR paragraph15.2 itself named this exact tradeoff (client-visual-only, real server-side vision culling explicitly deferred) -- a modified client could always bypass it, so it was never real information hiding. Reverted the fog half of S170-196: ARENA_VISION_RADIUS, both distance-check skip blocks in apps/arena/src/main.c, the README section. Camera lock (paragraph15.1, the C toggle) untouched, not part of this complaint. Build clean, full suite green (607/607). REDGARDEN 194de5a (+ CHANGELOG same commit range).",
+  "id": 11183,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "REDGARDEN",
+  "title": "S170-198: remove fog of war -- client-side-only visibility isn't real"
+}
