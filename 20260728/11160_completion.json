@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-28T17:35:26Z",
+  "body": "Commits 723dd82/0531f50 on main. New ArenaPowerup entity, two neutral pickups (Berserker damage buff, Regen HP-regen buff) positioned at the midpoints between the node clusters. Walking within pickup radius grabs it, granting a 20s timed buff (Berserker +15 flat AD, Regen +8 HP/sec), the powerup goes inactive and respawns 60s later. Hero-only (clones excluded, same scoping as fountains/node-capture). Wire-synced (real dynamic state, unlike static fountains), rendered as a floating orb, status label shows BERSERKER/REGEN tags. Works in both 1v1 and team mode. 6 new tests, build clean, full suite green (597/597). Live Xvfb screenshot confirms the rendering pipeline is healthy (character pane digits, shop structures all correct in frame) though the powerups themselves weren't directly captured (spawn away from default camera focus).",
+  "id": 11160,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "REDGARDEN",
+  "title": "Berserker + Regen powerups, Warsong Gulch-style (S170-190)"
+}
