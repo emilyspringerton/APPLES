@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-28T17:51:20Z",
+  "body": "Commits 6c69cfa/6777639 on main. CRITICAL bug found live: apps/arena's and apps/arena_bot's own net_poll_snapshots used a fixed char rbuf[2048] to receive PACKET_ARENA_SNAPSHOT; every field added this session grew the real packet to 2072 bytes, past that fixed size. recvfrom silently truncated every snapshot, which the existing size check then correctly rejected -- no bot or human client could see valid match state, so drafts never completed. Found while smoke-testing S170-191 (an isolated bot match got stuck at 'entering draft' forever). Fixed by sizing both buffers to the real current struct size. Re-verified: draft, live play, clean match end all working. Also shipped S170-191: golden-ratio (phi=1.618034) map expansion -- ARENA_HALF_EXTENT, node layout, jungle obstacles (+10 new), fountain position (fixed a second, pre-existing staleness bug in the process), and the powerup layout all scaled/re-derived consistently. Build clean, full suite green (597/597).",
+  "id": 11162,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "REDGARDEN",
+  "title": "CRITICAL: fixed-size 2048B receive buffer truncated every snapshot (S170-192) + golden ratio map expansion (S170-191)"
+}

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-28T17:49:03Z",
+  "generated_at": "2026-07-28T17:51:20Z",
   "repo": "APPLES",
-  "count": 637,
+  "count": 638,
   "apples": [
     {
       "id": 10525,
@@ -5098,6 +5098,14 @@
       "source_repo": "emily",
       "date": "20260728",
       "archived_at": "2026-07-28T17:49:03Z"
+    },
+    {
+      "id": 11162,
+      "type": "completion",
+      "title": "CRITICAL: fixed-size 2048B receive buffer truncated every snapshot (S170-192) + golden ratio map expansion (S170-191)",
+      "source_repo": "REDGARDEN",
+      "date": "20260728",
+      "archived_at": "2026-07-28T17:51:20Z"
     }
   ]
 }
