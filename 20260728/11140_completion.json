@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-28T14:34:02Z",
+  "body": "Commits 95c4f2b/174b06a on main. Symmetric revert of S170-178's 7v7 change: ARENA_TEAM_SIZE 7-\u003e10, ARENA_SNAPSHOT_MAX_HEROES 14-\u003e20, pool-launch scripts and systemd deploy sources reverted to match (not the live host itself -- separate action). Build clean, full suite green. Requested mid a live-pool queueing investigation (matchmaker/server lobby-size mismatch, likely from a concurrent session's own 7v7 deploy) -- this source-level revert doesn't by itself confirm the live host is fixed; that needs a rebuild+restart of the actual running binaries, outside this repo's git history.",
+  "id": 11140,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "REDGARDEN",
+  "title": "Move team size back to 10v10 (S170-183)"
+}
