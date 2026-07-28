@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-28T22:14:45Z",
+  "body": "Founder: 'i need you to put the stats of the items in the readme and suggested heroes.' Added the full 24-item ARENA_ITEMS catalog as a real markdown table (slot/cost/AD/HP/MP/Armor/Move Speed bonuses) -- previously only described in prose. Added a 4-hero 'suggested for new players' section spanning Tank/Fighter/Marksman/Support (MnM, Duck, Gary, He Xiangu), picked for kit simplicity -- no clone management, blink mind-games, or stealth timing. Docs-only. REDGARDEN 3698202 (+ CHANGELOG same commit range).",
+  "id": 11184,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "REDGARDEN",
+  "title": "S170-199: item stats table + suggested heroes in README"
+}
