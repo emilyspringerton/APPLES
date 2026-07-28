@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-28T15:25:03Z",
+  "body": "Commits b524736/1865ff7 on main. New assist_owner[]/assist_ms[] 4-slot recent-attacker memory, recorded at the same melee/homing-shot damage sites last_attacked_by_owner already uses. On a kill, everyone else in the victim's assist list within a ~10s window gets ARENA_HERO_ASSIST_FLOW/XP (35/20, roughly a third of the full kill bounty), excluding whoever got the full kill reward. Fixed the same sentinel-after-memset gap this session has now hit three times, for assist_owner[] this time. No new wire/UI surface needed -- flows into already-synced/displayed flow/xp fields. 4 new tests, build clean (via the now-fixed scripts/build.sh), full suite green (578/578).",
+  "id": 11148,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "REDGARDEN",
+  "title": "Hero kill assists now grant Flow + XP (S170-187)"
+}
