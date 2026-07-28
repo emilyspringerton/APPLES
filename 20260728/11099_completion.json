@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-28T07:36:39Z",
+  "body": "No code change -- verification pass, addressing the 2026-07-27 sprint plan's own open item 6 ('nothing this session was confirmed against an actual rendered frame'). Launched an isolated 20-slot match (server + 19 bots + one real SDL client under Xvfb, matchmaker bypassed) and took two live screenshots confirming: the S170-159 resource-bar viewer-relative color fix (this viewer's own team renders blue, the enemy red, matching the fix -- not the old absolute team0=blue/team1=red bug), the S170-162 attack-target pulsing amber highlight (visible on multiple simultaneously-targeted heroes during a real team fight, confirmed legible in a chaotic cluster), team-relative hero coloring, and jungle terrain. Fully cleaned up after, 0 leftover processes, persistent pool unaffected.",
+  "id": 11099,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "REDGARDEN",
+  "title": "S170-169: live Xvfb visual verification of resource bar color fix + attack-target highlight"
+}
