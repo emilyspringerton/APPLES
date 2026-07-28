@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-28T05:45:48Z",
+  "generated_at": "2026-07-28T05:50:57Z",
   "repo": "APPLES",
-  "count": 562,
+  "count": 563,
   "apples": [
     {
       "id": 10525,
@@ -4498,6 +4498,14 @@
       "source_repo": "REDGARDEN",
       "date": "20260728",
       "archived_at": "2026-07-28T05:45:48Z"
+    },
+    {
+      "id": 11087,
+      "type": "completion",
+      "title": "S170-160: boids flocking (alignment/cohesion/separation) in the bot AI",
+      "source_repo": "REDGARDEN",
+      "date": "20260728",
+      "archived_at": "2026-07-28T05:50:57Z"
     }
   ]
 }

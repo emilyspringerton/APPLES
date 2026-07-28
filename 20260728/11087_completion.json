@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-28T05:50:57Z",
+  "body": "Commit 64f7386 (+ CHANGELOG 7090fd1): founder asked to add boids to the arena bot AI, pointing at GoblinFoxDragon/apps2/crystal/main.go's own working Reynolds boids implementation (Boid struct, boidForces()) as a reference. Ported the same alignment/cohesion/separation structure into apps/arena_bot/src/main.c's flock_offset(), computed from nearby living teammates only (never enemies), with alignment inferred from a newly-tracked previous-tick snapshot since the wire format carries position only, not velocity. Applied as a perturbation on top of the bot's existing objective target (node-capping S170-155 or enemy-engage), not a replacement -- real goal-seeking still drives movement, flocking just makes squad motion feel organic. Weights are separation-heavy so it reinforces rather than reintroduces the S170-90 'bots bunch up' bug. Live-verified via an isolated 20-bot match with no crashes; teammates visibly clustered as loose squads in the match log. Full suite green (bot-client-only change).",
+  "id": 11087,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "REDGARDEN",
+  "title": "S170-160: boids flocking (alignment/cohesion/separation) in the bot AI"
+}
