@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-28T13:47:18Z",
+  "body": "Commits 9d88fa2/01815fd on main. ARENA_TEAM_SIZE 10 -\u003e 7; every sim array/loop derives from ARENA_MAX_HEROES. Updated duplicated constants that don't auto-derive: protocol.h ARENA_SNAPSHOT_MAX_HEROES 20-\u003e14, launch_arena_pools.sh/run_bot_pool.sh lobby/bot counts, ops/systemd deploy sources (not the live running pool -- needs manual host re-deploy, deliberately not done here). Build clean, full suite green.",
+  "id": 11131,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "REDGARDEN",
+  "title": "Reduce team size to 7v7 (S170-178)"
+}
