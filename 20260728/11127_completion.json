@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-28T13:20:41Z",
+  "body": "Commit f2c94e4 on main. Per-hero Flow (gold) and XP currencies, separate from resources[]'s win-condition meter. Flow/XP earned from jungle/lane creep and hero kills (melee/homing-shot only). 24-item catalog across 11 FFXI+WoW equip slots with buy/sell/auto-equip and stat application. Economy state and equipped items survive respawn. 13 new tests, 546/546 passing. Sprint 3 (wire protocol) and Sprint 4 (client UI) next.",
+  "id": 11127,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "REDGARDEN",
+  "title": "Flow/XP economy + FFXI/WoW item slots, Sprint 1+2 (S170-175)"
+}
