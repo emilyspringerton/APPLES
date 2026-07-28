@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-28T15:35:30Z",
+  "body": "Commits d509c67/96cde96 on main. Found via proactive audit. Real bug: a Tyler puppet clone landing the killing blow credited Flow/XP/kills to the clone's own disposable ArenaHero slot, lost the instant that slot gets reused on Tyler's next R -- never reaching Tyler, the real player. New arena_reward_owner() resolves a raw owner index to who should actually be credited, applied at the one call site a clone can ever reach (the flat melee loop; Gary's homing-shot path never sees clones). 1 new test, build clean, full suite green (583/583).",
+  "id": 11150,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "REDGARDEN",
+  "title": "Tyler clone kills now credit Tyler, not the disposable clone slot (S170-188)"
+}
