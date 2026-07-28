@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-28T12:32:56Z",
+  "generated_at": "2026-07-28T12:38:42Z",
   "repo": "APPLES",
-  "count": 596,
+  "count": 597,
   "apples": [
     {
       "id": 10525,
@@ -4770,6 +4770,14 @@
       "source_repo": "emily",
       "date": "20260728",
       "archived_at": "2026-07-28T12:32:56Z"
+    },
+    {
+      "id": 11121,
+      "type": "completion",
+      "title": "S170-171: heroes and creeps now rotate to face their movement direction",
+      "source_repo": "REDGARDEN",
+      "date": "20260728",
+      "archived_at": "2026-07-28T12:38:42Z"
     }
   ]
 }

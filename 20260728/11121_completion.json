@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-28T12:38:42Z",
+  "body": "Commit b582e82 (+ CHANGELOG e72687e): this renderer never had a rotation matrix at all -- added mat4_rotate_y to packages/common/mat4.h. Facing derived purely from observed position deltas frame-to-frame, no wire-protocol change needed, persists last known heading through a stop. Heroes' existing per-hero_id silhouettes (Unicorn's horn, Duck's bill, etc.) already had a real front baked in, just frozen at a fixed +Z -- now rotates as one rigid composite. Jungle/lane creeps were plain symmetric cubes so both got a small darker front-nub added, purely so their rotation has something visible to show. Live-verified via Xvfb, confirmed a creep rendering with a visibly offset front marker. Full suite green (client-rendering-only).",
+  "id": 11121,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "REDGARDEN",
+  "title": "S170-171: heroes and creeps now rotate to face their movement direction"
+}
