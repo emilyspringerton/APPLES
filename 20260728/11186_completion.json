@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-28T22:27:30Z",
+  "body": "Founder: 'zone abilities dont read at all we need true aoe cast circle click affordances that show cast radius also it should show a circle on the ground, nice shader spell effect simple but nice showing to all participants that the spell was cast there so it reads.' 8 heroes' R (Ghost/Flamel/Morrigan/Paimon/NOOR-1/Vassago/He Xiangu/Beleth) cast a real fixed-position, radius-accurate, multi-second ground zone -- none of that state was ever on the wire, so a networked client had no way to know one existed. New arena_hero_r_zone_radius() single source of truth. r_zone_x/r_zone_z/r_active_ms synced on ArenaHeroSnapshot. New disc_mesh (filled circle) -- a pulsing filled disc + boundary ring renders at the real zone position/radius/remaining-duration for every client identically. Cast-radius preview: a faint outline ring shows your own zone ability's real radius, centered on your own position, whenever it's actually castable, before you commit -- scoped as a self-centered preview rather than a full ground-click-targeting system (no such input mode exists anywhere in this game yet), flagged not faked. Build clean, full suite green (607/607), live-verified via an isolated networked match (clean end-to-end, no protocol mismatch) and a 6s Xvfb GUI run (no crash). REDGARDEN 5b08390 (+ CHANGELOG same commit range).",
+  "id": 11186,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "REDGARDEN",
+  "title": "S170-200: real cast-radius affordances + ground zone circles"
+}
