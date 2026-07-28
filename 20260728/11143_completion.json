@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-28T14:56:11Z",
+  "body": "Commits 83cf303/21a311a on main. New stunned_ms (hard CC: blocks movement/casting/auto-attack) and slowed_ms/slow_pct (proportional move-speed reduction) generic ArenaHero fields, referencing GoblinFoxDragon's server/status package (Paralyze/Slow). Closes a gap hero_status_label's own doc comment already flagged as missing. New arena_apply_stun/arena_apply_slow kit-wiring hooks, no kit uses them yet (infrastructure first, matching how silenced_ms/rooted_ms/burning_ms were built). Real bugfix found along the way: none of the 5 existing status-effect fields were ever synced over the wire -- the status label HUD has been silently non-functional in every networked match, same class of bug as the earlier w_active fix. Fixed for all 7 fields. 9 new tests, build clean, full suite green (568/568).",
+  "id": 11143,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "REDGARDEN",
+  "title": "Generic Stun + Slow status effects, using GFD as reference (S170-184)"
+}

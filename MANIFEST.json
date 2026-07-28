@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-28T14:48:36Z",
+  "generated_at": "2026-07-28T14:56:11Z",
   "repo": "APPLES",
-  "count": 618,
+  "count": 619,
   "apples": [
     {
       "id": 10525,
@@ -4946,6 +4946,14 @@
       "source_repo": "emily",
       "date": "20260728",
       "archived_at": "2026-07-28T14:48:36Z"
+    },
+    {
+      "id": 11143,
+      "type": "completion",
+      "title": "Generic Stun + Slow status effects, using GFD as reference (S170-184)",
+      "source_repo": "REDGARDEN",
+      "date": "20260728",
+      "archived_at": "2026-07-28T14:56:11Z"
     }
   ]
 }
