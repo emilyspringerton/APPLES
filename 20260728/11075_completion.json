@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-28T04:37:54Z",
+  "body": "Commit e291f16, pushed to origin/main as 0d6aecc..e291f16. Both were client-side display bugs (my_owner used instead of team; absolute instead of viewer-relative node color) -- sim-side win/capture logic was already correct on audit. Verified live with a real 20-player match, human client deliberately connected as owner 19 (team 1) to reproduce the exact broken scenario -- screenshot confirms YOU WIN now displays correctly. Full suite unaffected (461 checks).",
+  "id": 11075,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "REDGARDEN",
+  "title": "Fixed two real team-mode bugs: YOU WIN/LOSE showed the wrong result for most players, and captured nodes rendered in the wrong (enemy-looking) color"
+}
