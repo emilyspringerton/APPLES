@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-28T14:07:55Z",
+  "body": "Commits a99eff4/2badb4f on main. Closes the cursor-indicator half of the old S170-69 northstar item -- SDL_CreateSystemCursor/SDL_SetCursor swaps to a crosshair over a live hittable enemy hero, default arrow otherwise. The color-coded YOU/ALLY/ENEMY bracket+label half was already shipped earlier this session. Client-only, full suite green. The other half of S170-69 (a real draft/lobby pick-a-hero UI, replacing auto-draft) is substantial standalone work, split into its own backlog item and left open.",
+  "id": 11136,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "REDGARDEN",
+  "title": "Real cursor-shape swap on enemy hover (S170-69)"
+}

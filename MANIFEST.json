@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-28T14:03:05Z",
+  "generated_at": "2026-07-28T14:07:55Z",
   "repo": "APPLES",
-  "count": 611,
+  "count": 612,
   "apples": [
     {
       "id": 10525,
@@ -4890,6 +4890,14 @@
       "source_repo": "emily",
       "date": "20260728",
       "archived_at": "2026-07-28T14:03:05Z"
+    },
+    {
+      "id": 11136,
+      "type": "completion",
+      "title": "Real cursor-shape swap on enemy hover (S170-69)",
+      "source_repo": "REDGARDEN",
+      "date": "20260728",
+      "archived_at": "2026-07-28T14:07:55Z"
     }
   ]
 }
