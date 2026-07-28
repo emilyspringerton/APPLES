@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-28T04:46:30Z",
+  "body": "Commit 866dbfa, pushed to origin/main as e291f16..866dbfa. Root cause: regen math truncated to 0 every tick at the real 16ms production tick rate, only ever worked in tests using large dt_ms=1000 steps. Fixed with a persistent fractional accumulator. 3 new tests, full suite 465 checks green.",
+  "id": 11077,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "REDGARDEN",
+  "title": "Mana always trickles 1/sec even in combat, plus fixed a real latent bug where mana regen had never actually worked in production gameplay"
+}
