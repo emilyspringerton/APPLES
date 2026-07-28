@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-28T14:46:57Z",
+  "body": "Commits 73d386a/302f26d on main. Closes the last explicitly-deferred gap from the original shop/economy pass. Simple heuristic: when no enemy is within a safety radius, bot detours to its own team's shop and buys the next affordable item in catalog order -- arena_shop_buy's own server-side validation does the real work. New send_shop_buy() mirrors send_attack's packet shape; item costs duplicated locally (arena_bot doesn't link the sim package, same 'kept in sync by hand' idiom as ARENA_HERO_COUNT/fountain positions). Build clean, full suite green. Verified live: isolated 4-bot match ran cleanly 24s; the match log's snapshot schema doesn't carry flow/equipped_item so a purchase isn't directly visible in it -- underlying arena_shop_buy already has full Sprint 2 coverage, flagged not faked.",
+  "id": 11141,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "REDGARDEN",
+  "title": "Bot AI shop interaction, Sprint 5 (S170-175)"
+}
