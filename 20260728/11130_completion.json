@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-28T13:42:40Z",
+  "body": "Commits 4edf3cf/0184994 on main. Shop structures rendered at each team's shop position. Always-visible character stat pane (HP/MP/AD/Armor/Flow/Flow-earned/XP/K-D). Shop panel (B to toggle) with instant click-buy/sell and 1-9 quick-buy, no confirm step. Held-TAB scoreboard with per-hero and team-aggregate K/D/Flow/XP. net_poll_snapshots now ingests the Sprint-3-synced economy fields. Build clean, full suite green. Visual verification hit a pre-existing Xvfb/software-GL coordinate quirk in this sandbox that also affects already-shipped HUD code (not a regression from this change) -- the 3D pass, including the new shop structures, rendered correctly in every screenshot. Real-desktop verification still open, flagged not faked. This completes S170-175's original 4-sprint plan; Sprint 5 (bot AI shop interaction) remains explicitly out of scope.",
+  "id": 11130,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "REDGARDEN",
+  "title": "Shop panel + character pane + scoreboard, Sprint 4 (S170-175)"
+}
