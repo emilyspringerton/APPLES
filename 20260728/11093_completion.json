@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-28T06:42:19Z",
+  "body": "Commit 9da7bb9: founder reported live 'the boyds stuff makes the team do a weird cluster dance around the objective ... not sitting right on it' -\u003e 'at least one of them should sit right on it and ignore the flock.' Root cause: flocking's separation force is strongest exactly when allies are close, unavoidably true once bots converge on a shared node, so nobody ever settled long enough to make real capture progress. Fixed with a stateless anchor rule (owner index mod node count) -- one bot per node ignores the flock and sits exactly on it, everyone else still flocks as escort. Live-verified via isolated 20-bot match.",
+  "id": 11093,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "REDGARDEN",
+  "title": "S170-168: boids anchor fix -- stops the 'cluster dance' around node objectives"
+}

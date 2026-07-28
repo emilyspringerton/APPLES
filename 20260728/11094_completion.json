@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-28T06:42:19Z",
+  "body": "Commit 666101a: founder asked for a northstar on unsupervised bot-AI learning, both general and per-hero, with cross-hero transfer as the core requirement (experience on one hero informing decisions playing/facing another). Checked for an existing 'archetype engine' per founder's own follow-up -- found EMILY/docs/ARCHETYPE_ENGINE_NORTHSTAR.md (dual-persona LLM router, unrelated to hero kits but a real fit as a slower strategic tier). Proposes a two-tier architecture: Tier 1 (fast, per-tick) is this repo's own already-committed §12 Phase E GPT-2 policy-network plan; Tier 2 (slow, occasional, the Archetype Engine) is the natural home for the founder's own explicitly-deferred long-running per-personality training. Names the general layer as genuinely unsupervised (next-token prediction, no labels) pretraining on the existing replay corpus, slotting in front of §12's own supervised fine-tune stage. Answers the cross-hero-transfer worked example concretely via shared weights plus explicit archetype/kit-shape tags on arena_serialize_state's existing self/foe framing. Spec only, same 'no code yet' treatment as §15-§17.",
+  "id": 11094,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "REDGARDEN",
+  "title": "S170-167: NORTHSTAR §18 -- unsupervised learning for the bot AI, general + per-hero"
+}
