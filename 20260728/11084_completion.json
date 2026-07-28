@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-28T05:34:34Z",
+  "body": "Commit 372e9e2 (+ CHANGELOG e126a17): documented LoL's real auto-attack movement model as the explicit gold-standard reference -- move command vs attack command, windup/backswing/kiting state machine (champion stops during windup, free to move during backswing), persistent attack-target chase lock (pure pursuit, no intercept prediction, no leash timeout -- direct answer to 'does it follow a fleeing target: yes, automatically, indefinitely'), attack-move vs direct-unit-lock, and ranged-specific homing (not skillshot) auto-attack projectiles vs melee. Grounded the gap analysis in REDGARDEN's actual current combat code (resolve_combat, arena_hero_attack_creeps, ARENA_ATTACK_RANGE/ARENA_ATTACK_COOLDOWN_MS): today fully passive/proximity-only, no attack command, no windup, no chase state, no ranged basic attacks. Spec only (§17.4 target design: new PACKET_ARENA_ATTACK, windup/backswing state on ArenaHero, persistent attack_target lock, homing auto-attack projectile variant distinct from the existing non-homing ability-cast skillshot ArenaProjectile) -- nothing built this pass, same 'no code yet' treatment as §15/§16.",
+  "id": 11084,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "REDGARDEN",
+  "title": "S170-158: NORTHSTAR §17 -- League of Legends auto-attack movement parity spec"
+}
