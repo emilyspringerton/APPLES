@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-28T07:54:11Z",
+  "body": "Commit 79fbfc3 (+ CHANGELOG f48dfad): closed the earlier sprint plan's open item 3, flagged in docs/HEROES_VS0.md's own S170-141 scope note ('W still moves only Tyler's own body ... a real next step'). tyler_cast_w now teleports every active clone linked to Tyler to the exact same point, each independently landing arrival damage on the same target -- concentrating the whole clone army's damage onto one enemy, the real 'full-team dive tool' identity from the original design. Removed ARENA_TYLER_W_HIT_RADIUS (now genuinely unused -- the old check was always trivially true by construction). 1 new test, full suite green, live-verified via isolated 20-bot match.",
+  "id": 11101,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "REDGARDEN",
+  "title": "S170-170: Tyler's W (Poof) teleports the whole clone army, not just his own body"
+}
