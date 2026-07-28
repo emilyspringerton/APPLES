@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-28T06:06:38Z",
+  "body": "Commit bac3e1b (+ CHANGELOG b930a87): implemented NORTHSTAR §8's 'jungle is alive and dynamic, not static camps' direction, first pass. Team-flavored jungle creeps now spawn at their owning team's graveyard (not their node's own position) and continuously march toward the nearest node their team doesn't own, recomputed live each tick so they redirect/idle if the target gets captured or their team ends up owning everything -- each owned node's creep independently fans out toward its own target. Also toned down team creep strength per founder feedback (HP 40-\u003e26, damage split so only team creeps got nerfed, neutral unaffected). 9 existing tests updated for the new positional assumptions (team creeps no longer sit at their node), 6 new tests added covering graveyard spawn, march, idle, and mid-march redirect behavior. Full suite green, live-verified via an isolated 20-bot match with no crashes.",
+  "id": 11089,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "REDGARDEN",
+  "title": "S170-161: jungle creeps use the dynamic creep ecosystem -- graveyard spawn + march/fan-out + toned-down strength"
+}
