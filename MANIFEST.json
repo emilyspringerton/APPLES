@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-28T18:47:34Z",
+  "generated_at": "2026-07-28T19:00:09Z",
   "repo": "APPLES",
-  "count": 642,
+  "count": 643,
   "apples": [
     {
       "id": 10525,
@@ -5138,6 +5138,14 @@
       "source_repo": "emily",
       "date": "20260728",
       "archived_at": "2026-07-28T18:47:34Z"
+    },
+    {
+      "id": 11167,
+      "type": "completion",
+      "title": "S170-194/195: arena AI unsupervised pretrain pipeline, end to end",
+      "source_repo": "REDGARDEN",
+      "date": "20260728",
+      "archived_at": "2026-07-28T19:00:09Z"
     }
   ]
 }

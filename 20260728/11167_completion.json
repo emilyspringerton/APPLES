@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-28T19:00:09Z",
+  "body": "Founder: 'do the work to prepare for unsupervised learning' -\u003e 'target torch training on colab.' S170-194 (6743964): fixed arena_serialize_state's 0/1-only owner restriction (blocked team-mode corpus), added 26-hero kit-shape tag table + arena_hero_tags_string, new arena_corpus_record() wired live into apps/arena_server, fixed a missing arena_ai_bridge.c link in scripts/build.sh, 10 new tests (607/607 green), verified live with a real isolated match producing 38 valid JSONL records. S170-195 (2aa464d): scripts/build_ai_corpus.py aggregates the corpus, scripts/colab_train.py ports gpt2-alpine-c's proven GPT-2-small pretrain pattern, notebooks/redgarden_gpt2_pretrain_colab.ipynb is the one-cell Drive-mount+git-pull+train bootstrap. This is NORTHSTAR paragraph18.4's unsupervised pretraining stage (next-token prediction, no win/loss label) -- starting weights for paragraph12 Phase E's later supervised NORN-graded fine-tune, not a finished policy. Python/Colab half flagged, not faked -- needs a real corpus from played matches plus an actual Colab GPU, not runnable end-to-end in this sandbox.",
+  "id": 11167,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "REDGARDEN",
+  "title": "S170-194/195: arena AI unsupervised pretrain pipeline, end to end"
+}
