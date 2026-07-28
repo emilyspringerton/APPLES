@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-28T23:54:58Z",
+  "body": "Founder: 'add blink dagger 1400 flow it gives a new keybind on screen for tilda' -\u003e '+6ap +6hp'. New 25th item (Trinket slot, 1400 Flow, +6 AD/+6 HP), but the real value is arena_use_blink -- the first item in the 24(now 25)-item catalog that isn't just passive stats. Bound to a dedicated tilde/backquote key, distinct from Q/W/E. New PACKET_ARENA_BLINK (no payload), a fully separate blink_cooldown_ms track. Direction: toward the current move target if moving, else nearest living enemy, else no-op -- same fallback chain unicorn_cast_q already uses. ARENA_BLINK_RANGE (12.0) is the longest gap-closer on the roster; ARENA_BLINK_COOLDOWN_MS (15s) matches real DOTA's own Blink Dagger exactly. Blocked by stun, not by silence (using an item isn't a cast). A 4th ability tile shows real synced cooldown, only drawn while equipped. 8 new tests, full suite green (638/638). Live-verified: GUI client ran 6s under Xvfb, no crash. REDGARDEN bd1a963 (+ CHANGELOG same commit range).",
+  "id": 11196,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "REDGARDEN",
+  "title": "S170-205: Blink Dagger, item catalog's first real active ability"
+}
