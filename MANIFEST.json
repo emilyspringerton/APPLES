@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-29T17:33:10Z",
+  "generated_at": "2026-07-29T17:33:32Z",
   "repo": "APPLES",
-  "count": 771,
+  "count": 772,
   "apples": [
     {
       "id": 10525,
@@ -6170,6 +6170,14 @@
       "source_repo": "emily",
       "date": "20260729",
       "archived_at": "2026-07-29T17:33:10Z"
+    },
+    {
+      "id": 11296,
+      "type": "completion",
+      "title": "fix: auto_deploy.sh never republished the human arena client binary",
+      "source_repo": "REDGARDEN",
+      "date": "20260729",
+      "archived_at": "2026-07-29T17:33:32Z"
     }
   ]
 }

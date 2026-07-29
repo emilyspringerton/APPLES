@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-29T17:33:32Z",
+  "body": "Real root cause of the missing draft screen: auto_deploy.sh's publish loop copied red_garden_arena_server/_bot/matchmaker on every green CI build but never red_garden_arena (the human SDL2 client), so the client silently drifted hours/dozens of commits behind the live server (including missing the Zagan 28th-hero wire-protocol-affecting change). Added client to the publish loop, rebuilt everything from current main, restarted the live matchmaker/bot-pool trio, confirmed clean steady-state queue.",
+  "id": 11296,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "REDGARDEN",
+  "title": "fix: auto_deploy.sh never republished the human arena client binary"
+}
