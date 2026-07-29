@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-29T06:58:02Z",
+  "body": "commit 345ffa7 -- scripts/build_arena.sh and the mingw Windows cross-compile step in .github/workflows/ci.yml were missing the packages/common/mlp_infer.c link that scripts/build.sh and scripts/build_training.sh already had after S170-228 wired arena_bot_tick into rl_policy_forward(). CI's Build Linux arena client step hard-failed with 'undefined reference to mlp_forward' on commits 5e2840f/ace2eb0/97d2bac. Also found and fast-forwarded two stale checkouts (/home/fatbaby/REDGARDEN, /home/fatbaby/redgarden-deploy) that compounded the confusion.",
+  "id": 11243,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "REDGARDEN",
+  "title": "S170-228 follow-up: fix CI Linux build broken by RL-policy wiring"
+}

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-29T06:57:01Z",
+  "generated_at": "2026-07-29T06:58:02Z",
   "repo": "APPLES",
-  "count": 718,
+  "count": 719,
   "apples": [
     {
       "id": 10525,
@@ -5746,6 +5746,14 @@
       "source_repo": "emily",
       "date": "20260729",
       "archived_at": "2026-07-29T06:57:01Z"
+    },
+    {
+      "id": 11243,
+      "type": "completion",
+      "title": "S170-228 follow-up: fix CI Linux build broken by RL-policy wiring",
+      "source_repo": "REDGARDEN",
+      "date": "20260729",
+      "archived_at": "2026-07-29T06:58:02Z"
     }
   ]
 }
