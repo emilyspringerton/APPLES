@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-29T21:43:23Z",
+  "body": "Founder: 'can we start crunching the data on the heroes that are the strongest? does our match replay system let us start tracking stats like win rate etc?' Checked: neither var/matches/*.jsonl nor IDUNA's player_game_stats table ever recorded hero_id, only win/loss. Rather than a cross-repo IDUNA migration, kept this self-contained: new match_log_draft_complete() writes {owner,team,hero_id} once per match when draft finishes; new scripts/hero_stats.py joins that against match_end's winner to compute win rate per hero from local logs. Flagged plainly: the 5860 pre-existing match logs are unusable for this (no hero_id ever recorded), so stats start from zero real games going forward, not a backfill. Full suite green.",
+  "id": 11318,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "REDGARDEN",
+  "title": "feat: hero win-rate tracking from real match logs"
+}
