@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-29T07:41:34Z",
+  "body": "commit 0a7f2ca -- an ally can now target their own lane creep once it drops below 50% HP to deny the enemy the reward, the real League deny mechanic. Deliberately built only the 'ally can kill their own' half, not an artificial 'enemy can't finish it' block (not how real deny works). New test + existing test message updated. Full suite + test_10_bots.sh green.",
+  "id": 11250,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "REDGARDEN",
+  "title": "S170-215: deny for lane creeps"
+}
