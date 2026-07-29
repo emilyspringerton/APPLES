@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-29T09:49:40Z",
+  "body": "commit ab77c35 -- Control/Disruptor built from the alchemy lore transcript. Passive: threshold-crossing Flow trigger. Q: hit + armor-shred debuff. W: this roster's first-ever real stun. R: TOTAL armor mirrors a locked target's, live -- makes Zagan weaker when he engages a squishy target, a genuine new risk/reward lever no other kit has. Also fixed two pre-existing bugs found during wiring: stale ARENA_HERO_MNM network pick bound, missing Weatherman case in arena_hero_name, stale duplicated ARENA_HERO_COUNT in arena_bot. 9 new tests + tags test, full suite (764 checks) + test_10_bots.sh green.",
+  "id": 11262,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "REDGARDEN",
+  "title": "S170-230: hero Zagan, The Standstill's Confessor -- 28th hero, unique meta-changing kit"
+}
