@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-29T17:27:41Z",
+  "body": "Orphaned 19-bot leftover pool (PPID reparented to 1, stale since 05:55) doubled with the supervised 19-bot pool from 10:10 -\u003e 38 bots against a 20-slot lobby, bots alone filled every match so the human's queue slot never landed and match_phase never reached ARENA_PHASE_DRAFT. Killed the orphaned PIDs live, added a pkill guard to scripts/run_bot_pool.sh to prevent recurrence.",
+  "id": 11294,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "REDGARDEN",
+  "title": "fix: stale bot-pool double-booking blocked human draft entry"
+}

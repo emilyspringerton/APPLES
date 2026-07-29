@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-29T17:17:33Z",
+  "generated_at": "2026-07-29T17:27:41Z",
   "repo": "APPLES",
-  "count": 769,
+  "count": 770,
   "apples": [
     {
       "id": 10525,
@@ -6154,6 +6154,14 @@
       "source_repo": "emily",
       "date": "20260729",
       "archived_at": "2026-07-29T17:17:33Z"
+    },
+    {
+      "id": 11294,
+      "type": "completion",
+      "title": "fix: stale bot-pool double-booking blocked human draft entry",
+      "source_repo": "REDGARDEN",
+      "date": "20260729",
+      "archived_at": "2026-07-29T17:27:41Z"
     }
   ]
 }
