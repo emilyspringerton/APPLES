@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-29T22:01:40Z",
+  "body": "Founder follow-up: 'ok i want to start tracking it on okemily.com.' report_match_result now also POSTs {hero_id, result} to IDUNA's new /api/v1/redgarden/hero-result (Apple #11320) for every owner at match end, reusing the existing agent token/permission. Full rebuild + test suite green.",
+  "id": 11322,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "REDGARDEN",
+  "title": "feat: report hero-level match results to IDUNA at match end"
+}

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-29T22:00:59Z",
+  "generated_at": "2026-07-29T22:01:40Z",
   "repo": "APPLES",
-  "count": 797,
+  "count": 798,
   "apples": [
     {
       "id": 10525,
@@ -6378,6 +6378,14 @@
       "source_repo": "OKEMILY",
       "date": "20260729",
       "archived_at": "2026-07-29T22:00:59Z"
+    },
+    {
+      "id": 11322,
+      "type": "completion",
+      "title": "feat: report hero-level match results to IDUNA at match end",
+      "source_repo": "REDGARDEN",
+      "date": "20260729",
+      "archived_at": "2026-07-29T22:01:40Z"
     }
   ]
 }
