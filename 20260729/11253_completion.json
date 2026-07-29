@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-29T07:48:43Z",
+  "body": "commit 2af2003 -- no new code, new test test_hero_last_hits_a_lane_creep_already_weakened_by_the_wave_clash runs both real damage paths (wave clash + hero follow-up hit) and confirms the finishing hero gets full kill credit regardless of who dealt the earlier damage. Full suite green.",
+  "id": 11253,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "REDGARDEN",
+  "title": "S170-217: confirm last-hit already works for lane creeps"
+}

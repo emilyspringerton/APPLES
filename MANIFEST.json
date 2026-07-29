@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-29T07:45:25Z",
+  "generated_at": "2026-07-29T07:48:43Z",
   "repo": "APPLES",
-  "count": 728,
+  "count": 729,
   "apples": [
     {
       "id": 10525,
@@ -5826,6 +5826,14 @@
       "source_repo": "REDGARDEN",
       "date": "20260729",
       "archived_at": "2026-07-29T07:45:25Z"
+    },
+    {
+      "id": 11253,
+      "type": "completion",
+      "title": "S170-217: confirm last-hit already works for lane creeps",
+      "source_repo": "REDGARDEN",
+      "date": "20260729",
+      "archived_at": "2026-07-29T07:48:43Z"
     }
   ]
 }
