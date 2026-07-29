@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-29T21:56:01Z",
+  "generated_at": "2026-07-29T22:00:59Z",
   "repo": "APPLES",
-  "count": 796,
+  "count": 797,
   "apples": [
     {
       "id": 10525,
@@ -6370,6 +6370,14 @@
       "source_repo": "IDUNA",
       "date": "20260729",
       "archived_at": "2026-07-29T21:56:01Z"
+    },
+    {
+      "id": 11321,
+      "type": "completion",
+      "title": "feat: REDGARDEN hero win-rate leaderboard on tournaments.html + wotan.okemily.com nginx draft",
+      "source_repo": "OKEMILY",
+      "date": "20260729",
+      "archived_at": "2026-07-29T22:00:59Z"
     }
   ]
 }

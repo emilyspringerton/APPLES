@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-29T22:00:59Z",
+  "body": "Founder: 'can we start crunching the data on the heroes that are the strongest?' -\u003e 'ok i want to start tracking it on okemily.com' -\u003e 'wotan.okemily.com dns already exists.' New 'REDGARDEN hero strength' section on tournaments.html, fetching IDUNA's new GET /api/v1/redgarden/hero-leaderboard (Apple #11320). Deployed live via okemily-deploy.sh, verified working over HTTPS. Also drafted ops/nginx-wotan.conf serving the same static root with tournaments.html as index -- not yet live, needs the founder's own sudo to install the vhost + certbot TLS cert.",
+  "id": 11321,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "OKEMILY",
+  "title": "feat: REDGARDEN hero win-rate leaderboard on tournaments.html + wotan.okemily.com nginx draft"
+}
