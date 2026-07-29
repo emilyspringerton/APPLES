@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-29T04:57:14Z",
+  "body": "Commit 10a705d (+ CHANGELOG). Ported gpt2-alpine-c's own C GPT-2 inference engine verbatim into packages/common/gpt2_infer.c/.h (fully parameterized -- no changes needed for a smaller model). colab_train.py now trains a small from-scratch GPT2Config (not a fine-tune of the 497MB GPT-2-small, too big to commit/too slow for real-time inference) and, after training, exports to the C engine's binary format and pushes to origin/main via an SSH key at MyDrive/.ssh/id_ed25519 if present. Verified end to end locally: real exported tiny model loaded through the real C loader, finite forward-pass logits. 5 new tests, full suite green. Live bot-AI wiring explicitly NOT done, flagged honestly.",
+  "id": 11226,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "REDGARDEN",
+  "title": "Weight-embed-into-C + git-sync from Colab (S170-220, S170-221)"
+}

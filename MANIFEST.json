@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-29T04:57:07Z",
+  "generated_at": "2026-07-29T04:57:14Z",
   "repo": "APPLES",
-  "count": 701,
+  "count": 702,
   "apples": [
     {
       "id": 10525,
@@ -5610,6 +5610,14 @@
       "source_repo": "emily",
       "date": "20260729",
       "archived_at": "2026-07-29T04:57:07Z"
+    },
+    {
+      "id": 11226,
+      "type": "completion",
+      "title": "Weight-embed-into-C + git-sync from Colab (S170-220, S170-221)",
+      "source_repo": "REDGARDEN",
+      "date": "20260729",
+      "archived_at": "2026-07-29T04:57:14Z"
     }
   ]
 }
