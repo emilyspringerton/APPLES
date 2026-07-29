@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-29T22:18:26Z",
+  "body": "Founder: 'bots should consider healing more than one tick at the fountain sometimes.' Fixed real flapping bug: retreat decision was recomputed from scratch every tick off only current HP fraction (no memory), so a bot could barely cross back over the 25% entry threshold after one heal-tick and immediately leave. Fixed with a real two-threshold state machine (persistent retreating_to_fountain flag, 25% entry / 90% exit). Also: new arena_bot_tick_rl_cast() applies the trained RL policy's cast_q/w/r outputs, gated to only Unicorn/Duck (the trained pairing) -- every other hero keeps the existing heuristic. Full suite green.",
+  "id": 11325,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "REDGARDEN",
+  "title": "fix: fountain-retreat flapping (real hysteresis) + RL policy now drives casting for its trained pairing"
+}

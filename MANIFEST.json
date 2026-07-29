@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-29T22:10:10Z",
+  "generated_at": "2026-07-29T22:18:26Z",
   "repo": "APPLES",
-  "count": 800,
+  "count": 801,
   "apples": [
     {
       "id": 10525,
@@ -6402,6 +6402,14 @@
       "source_repo": "REDGARDEN",
       "date": "20260729",
       "archived_at": "2026-07-29T22:10:10Z"
+    },
+    {
+      "id": 11325,
+      "type": "completion",
+      "title": "fix: fountain-retreat flapping (real hysteresis) + RL policy now drives casting for its trained pairing",
+      "source_repo": "REDGARDEN",
+      "date": "20260729",
+      "archived_at": "2026-07-29T22:18:26Z"
     }
   ]
 }
