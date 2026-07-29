@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-29T05:27:12Z",
+  "generated_at": "2026-07-29T05:29:06Z",
   "repo": "APPLES",
-  "count": 705,
+  "count": 706,
   "apples": [
     {
       "id": 10525,
@@ -5642,6 +5642,14 @@
       "source_repo": "emily",
       "date": "20260729",
       "archived_at": "2026-07-29T05:27:12Z"
+    },
+    {
+      "id": 11230,
+      "type": "completion",
+      "title": "S170-224: ctypes-callable RL environment API",
+      "source_repo": "REDGARDEN",
+      "date": "20260729",
+      "archived_at": "2026-07-29T05:29:06Z"
     }
   ]
 }

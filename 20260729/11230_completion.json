@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-29T05:29:06Z",
+  "body": "Commit 64639be (+ CHANGELOG). apps/arena_training/src/headless.c mirrors SHANKPIT's own headless.c shape (sim_init/sim_step) but exposes a small fixed 18-float obs array instead of a raw struct pointer, avoiding fragile ctypes.Structure ABI mirroring of the large, still-growing ArenaState. Verified via live ctypes round-trip (real combat over 200 ticks, real reset) + 6 new C tests. Full suite green.",
+  "id": 11230,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "REDGARDEN",
+  "title": "S170-224: ctypes-callable RL environment API"
+}
