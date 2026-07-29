@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-29T18:08:30Z",
+  "body": "Founder: 'and then once we get the new model installed lets get all the 19 bots on it.' Added rl_engage_nudge() to apps/arena_bot/src/main.c -- feeds self+nearest-enemy through the same trained network arena_game.c's solo-practice bot uses, returns a small bounded directional step (not the network's raw absolute-target output, which is calibrated to a much smaller training arena than the live ~51.78-half-extent map) additive on top of the existing S170-90 anti-stack angle spread. scripts/build.sh links mlp_infer.c into red_garden_arena_bot. Also found and fixed a real bug while verifying live: play_one_match's dead-server-detection threshold assumed a 10ms tick but the loop paces at 100ms, making real recovery ~100s instead of the intended ~10s -- fixed to a threshold of 100. Full rebuild + test_arena.sh + test_10_bots.sh green; live-verified the 19-bot pool recovers cleanly. Not playtested for feel (no display available); founder's own eyes needed on whether it actually plays smarter.",
+  "id": 11301,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "REDGARDEN",
+  "title": "feat: wire trained RL policy into apps/arena_bot's 19 real match bots + fix 10x-slow dead-server detection"
+}

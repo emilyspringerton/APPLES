@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-29T18:02:01Z",
+  "generated_at": "2026-07-29T18:08:30Z",
   "repo": "APPLES",
-  "count": 776,
+  "count": 777,
   "apples": [
     {
       "id": 10525,
@@ -6210,6 +6210,14 @@
       "source_repo": "emily",
       "date": "20260729",
       "archived_at": "2026-07-29T18:02:01Z"
+    },
+    {
+      "id": 11301,
+      "type": "completion",
+      "title": "feat: wire trained RL policy into apps/arena_bot's 19 real match bots + fix 10x-slow dead-server detection",
+      "source_repo": "REDGARDEN",
+      "date": "20260729",
+      "archived_at": "2026-07-29T18:08:30Z"
     }
   ]
 }
