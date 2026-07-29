@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-29T18:23:08Z",
+  "body": "Founder: 'add exponential reward for double tripple penta kills etc' -\u003e 'a penta kill gives a huge reward hit and a double kill gives a little more than two normal kills would rewards wise' -\u003e 'like a double kill should give the reward of 3 kills and then use the fib.' New ArenaHero.multikill_count/multikill_timer_ms track each hero's kill streak (~10s window, same shape as the existing assist window). arena_multikill_fib() generates 1,2,3,5,8,13,21... (1-indexed Fibonacci) -- each kill's Flow/XP bounty scales by the streak's current term, so cumulative totals are the running sum: Double=3x, Triple=6x, Quadra=11x, Penta=19x a normal kill's worth. Dying clears a hero's own streak. 3 new tests, full suite green. Scoped to the reward economy only -- no HUD/announcement banner built this pass.",
+  "id": 11303,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "REDGARDEN",
+  "title": "feat: exponential Fibonacci-scaled multi-kill streak reward"
+}

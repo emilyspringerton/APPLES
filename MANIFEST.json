@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-29T18:16:06Z",
+  "generated_at": "2026-07-29T18:23:08Z",
   "repo": "APPLES",
-  "count": 778,
+  "count": 779,
   "apples": [
     {
       "id": 10525,
@@ -6226,6 +6226,14 @@
       "source_repo": "emily",
       "date": "20260729",
       "archived_at": "2026-07-29T18:16:06Z"
+    },
+    {
+      "id": 11303,
+      "type": "completion",
+      "title": "feat: exponential Fibonacci-scaled multi-kill streak reward",
+      "source_repo": "REDGARDEN",
+      "date": "20260729",
+      "archived_at": "2026-07-29T18:23:08Z"
     }
   ]
 }
