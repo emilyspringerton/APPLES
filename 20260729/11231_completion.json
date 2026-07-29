@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-29T05:32:03Z",
+  "body": "Commit 7d7e611 (+ CHANGELOG). scripts/rl_env.py wraps the ctypes API in a gymnasium.Env: 18-float obs space, 5-float action space, compute_reward() implementing S170-223's full reward design as consecutive-snapshot deltas. Verified via --smoke-test against the real compiled .so (400 ticks, real combat, correct reward accumulation) since gymnasium/stable-baselines3 aren't installable here (no venv module, externally-managed Python, no sudo) -- gymnasium.Env subclass itself flagged as not live-tested, not claimed.",
+  "id": 11231,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "REDGARDEN",
+  "title": "S170-225: Python gymnasium.Env wrapper for the RL sim"
+}
