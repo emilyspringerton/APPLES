@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-29T06:45:14Z",
+  "generated_at": "2026-07-29T06:45:15Z",
   "repo": "APPLES",
-  "count": 716,
+  "count": 717,
   "apples": [
     {
       "id": 10525,
@@ -5730,6 +5730,14 @@
       "source_repo": "REDGARDEN",
       "date": "20260729",
       "archived_at": "2026-07-29T06:45:14Z"
+    },
+    {
+      "id": 11241,
+      "type": "completion",
+      "title": "S170-229: shop clicks no longer also move the player",
+      "source_repo": "REDGARDEN",
+      "date": "20260729",
+      "archived_at": "2026-07-29T06:45:15Z"
     }
   ]
 }

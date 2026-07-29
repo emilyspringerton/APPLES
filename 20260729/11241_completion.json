@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-29T06:45:14Z",
+  "body": "Commit ace2eb0 (+ CHANGELOG). Real bug: the shop-click and movement-click handlers were two independent if-blocks on the same click event. New shop_click_consumed flag (set when the click falls anywhere inside the shop panel's own bounding box) gates the movement handler.",
+  "id": 11241,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "REDGARDEN",
+  "title": "S170-229: shop clicks no longer also move the player"
+}
