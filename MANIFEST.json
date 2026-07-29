@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-29T17:47:45Z",
+  "generated_at": "2026-07-29T17:55:04Z",
   "repo": "APPLES",
-  "count": 774,
+  "count": 775,
   "apples": [
     {
       "id": 10525,
@@ -6194,6 +6194,14 @@
       "source_repo": "emily",
       "date": "20260729",
       "archived_at": "2026-07-29T17:47:45Z"
+    },
+    {
+      "id": 11299,
+      "type": "completion",
+      "title": "feat: promote 5M-timestep RL policy checkpoint to live weights",
+      "source_repo": "REDGARDEN",
+      "date": "20260729",
+      "archived_at": "2026-07-29T17:55:04Z"
     }
   ]
 }

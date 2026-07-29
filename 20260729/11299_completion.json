@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-29T17:55:04Z",
+  "body": "Founder: 'do more of the reinforcement learning i want the bots to be smarter' -\u003e 'oh put the new checkpoint into the embeddings in the c and push it up.' Promoted the already-trained, already-evaluated (50W/0L/0D vs heuristic) 5,000,000-timestep PPO checkpoint into packages/common/rl_policy_weights.h, superseding the prior 1M-timestep policy. Full rebuild + test_arena.sh + test_10_bots.sh all green. Scope note: this only affects the solo 1v1 local-practice bot, not the networked apps/arena_bot AI players actually face in real matches. The formal old-vs-new face-off validation (backlog item 6) was explicitly superseded by direct promotion per founder instruction, not silently skipped.",
+  "id": 11299,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "REDGARDEN",
+  "title": "feat: promote 5M-timestep RL policy checkpoint to live weights"
+}
