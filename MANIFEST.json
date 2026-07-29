@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-29T22:21:04Z",
+  "generated_at": "2026-07-29T22:24:02Z",
   "repo": "APPLES",
-  "count": 802,
+  "count": 803,
   "apples": [
     {
       "id": 10525,
@@ -6418,6 +6418,14 @@
       "source_repo": "emily",
       "date": "20260729",
       "archived_at": "2026-07-29T22:21:04Z"
+    },
+    {
+      "id": 11327,
+      "type": "completion",
+      "title": "feat: confidence-weighted RL engagement nudge",
+      "source_repo": "REDGARDEN",
+      "date": "20260729",
+      "archived_at": "2026-07-29T22:24:02Z"
     }
   ]
 }
