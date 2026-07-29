@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-29T07:30:45Z",
+  "generated_at": "2026-07-29T07:38:16Z",
   "repo": "APPLES",
-  "count": 724,
+  "count": 725,
   "apples": [
     {
       "id": 10525,
@@ -5794,6 +5794,14 @@
       "source_repo": "REDGARDEN",
       "date": "20260729",
       "archived_at": "2026-07-29T07:30:45Z"
+    },
+    {
+      "id": 11249,
+      "type": "completion",
+      "title": "S170-214: minion-aggro-redirect on lane creeps",
+      "source_repo": "REDGARDEN",
+      "date": "20260729",
+      "archived_at": "2026-07-29T07:38:16Z"
     }
   ]
 }

@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-29T07:38:16Z",
+  "body": "commit 95567e7 -- a hero attacking an enemy hero within a lane creep's aggro radius now pulls that creep's aggro onto the attacker, overriding the plain-nearest pick. Detected via defender-side last_attacked_by_owner + combat_timer_ms (damaged_this_tick isn't usable here due to call ordering, flagged honestly rather than reordering). New test confirms redirect wins over a closer bystander. Full suite + test_10_bots.sh green.",
+  "id": 11249,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "REDGARDEN",
+  "title": "S170-214: minion-aggro-redirect on lane creeps"
+}
