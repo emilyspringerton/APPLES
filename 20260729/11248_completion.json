@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-29T07:30:45Z",
+  "body": "commit 47c4ad7 -- scoped rename of identifiers, function/test names, comments, and one live README line. Left the separate jungle-obstacles/terrain scenery system and direct founder quotes untouched. ARENA_JUNGLE_CREEP_KILL_FLOW/_XP -\u003e ARENA_NODE_GUARDIAN_KILL_FLOW/_XP; 4 test names renamed. Full suite + test_10_bots.sh green.",
+  "id": 11248,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "REDGARDEN",
+  "title": "S170-213: rename jungle creep terminology to node-guardian creep"
+}
