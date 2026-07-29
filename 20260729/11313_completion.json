@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-29T20:48:19Z",
+  "body": "Founder: 'we just need to move the initial spawn at start of game to the 2 graveyards not center of the map.' arena_init_teams() now spawns each team at arena_graveyard_position() instead of the old x=+-8 center-ish line, same point creeps already spawn/march from and dead heroes fall back to. Fixed arena_find_owned_node_for_respawn to match (real 2D distance from graveyard, not stale x-only). Real bug caught before landing: symmetric +-9 z-fan pushed heroes past the map boundary from a corner anchor (one landed at z=-56.78 vs +-51.78 map) -- fixed with an inward-only fan. One pre-existing test gap fixed (hero[0] never deactivated in a sibling creep test, harmless until its default spawn collided with the test's staged scenario). Also: new sim_set_hero_position() + randomized spawn positions in scripts/rl_env.py's reset(), fixing the coordinate-frame mismatch found wiring the RL policy into apps/arena_bot (Apple #11301) -- MOVE_TARGET_RANGE now matches the real map's ARENA_HALF_EXTENT instead of a conservative 20.0. A fresh 5M-timestep training run against this new spatially-randomized environment is in progress in the background. Full suite green.",
+  "id": 11313,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "REDGARDEN",
+  "title": "feat: team-mode initial spawn moved to graveyards, plus RL spatial-generalization training env"
+}

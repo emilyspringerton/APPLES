@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-29T20:34:29Z",
+  "generated_at": "2026-07-29T20:48:19Z",
   "repo": "APPLES",
-  "count": 788,
+  "count": 789,
   "apples": [
     {
       "id": 10525,
@@ -6306,6 +6306,14 @@
       "source_repo": "emily",
       "date": "20260729",
       "archived_at": "2026-07-29T20:34:29Z"
+    },
+    {
+      "id": 11313,
+      "type": "completion",
+      "title": "feat: team-mode initial spawn moved to graveyards, plus RL spatial-generalization training env",
+      "source_repo": "REDGARDEN",
+      "date": "20260729",
+      "archived_at": "2026-07-29T20:48:19Z"
     }
   ]
 }
