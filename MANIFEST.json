@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-29T05:41:35Z",
+  "generated_at": "2026-07-29T05:42:00Z",
   "repo": "APPLES",
-  "count": 709,
+  "count": 710,
   "apples": [
     {
       "id": 10525,
@@ -5674,6 +5674,14 @@
       "source_repo": "emily",
       "date": "20260729",
       "archived_at": "2026-07-29T05:41:35Z"
+    },
+    {
+      "id": 11234,
+      "type": "completion",
+      "title": "S170-227: weight export to embedded C MLP + git-sync -- closes the reward-driven RL pipeline",
+      "source_repo": "REDGARDEN",
+      "date": "20260729",
+      "archived_at": "2026-07-29T05:42:00Z"
     }
   ]
 }

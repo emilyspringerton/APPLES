@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-29T05:42:00Z",
+  "body": "Commit 79175ee (+ CHANGELOG). packages/common/mlp_infer.c/.h: small generic dense-MLP forward pass, 5 hand-verified tests. scripts/export_rl_policy_to_c.py extracts PPO's action-mean network to literal C arrays + clipped rl_policy_forward(). Verified end to end: hand-built PyTorch network -\u003e exported -\u003e compiled -\u003e C output matched PyTorch to float32 precision. scripts/git_sync_utils.py factors SSH-push logic out of colab_train.py for reuse. rl_train.py wires export+sync in automatically. This closes the full S170-223..227 NORTHSTAR §21 RL pipeline (spec, C env API, gymnasium.Env, PPO trainer, weight export+sync) -- real training run itself not yet executed (needs gymnasium/stable_baselines3 installed somewhere that has them), and live bot-AI wiring is separate future work, both flagged honestly.",
+  "id": 11234,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "REDGARDEN",
+  "title": "S170-227: weight export to embedded C MLP + git-sync -- closes the reward-driven RL pipeline"
+}
