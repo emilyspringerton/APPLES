@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-29T17:33:32Z",
+  "generated_at": "2026-07-29T17:37:58Z",
   "repo": "APPLES",
-  "count": 772,
+  "count": 773,
   "apples": [
     {
       "id": 10525,
@@ -6178,6 +6178,14 @@
       "source_repo": "REDGARDEN",
       "date": "20260729",
       "archived_at": "2026-07-29T17:33:32Z"
+    },
+    {
+      "id": 11297,
+      "type": "observation",
+      "title": "auto_deploy.sh restarts kill live in-progress matches; timer paused",
+      "source_repo": "REDGARDEN",
+      "date": "20260729",
+      "archived_at": "2026-07-29T17:37:58Z"
     }
   ]
 }

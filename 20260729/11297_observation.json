@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "observation",
+  "archived_at": "2026-07-29T17:37:58Z",
+  "body": "The systemd timer (redgarden-auto-deploy.timer, every 5min) does systemctl --user restart on the matchmaker/bot-pool services on every green-CI cycle. Spawned match servers are children of the matchmaker process, not their own units, so the restart's control-group kill takes out any live match with real players connected. This is what broke the founder's game right after the previous fix (draft completed ~17:31, auto-deploy restarted everything at 17:33:47, player left with a dead server connection / stale default hero). Paused the timer live (systemctl --user stop redgarden-auto-deploy.timer) so it can't interrupt the current play session; NOT re-enabled pending a real fix (e.g. skip the restart if a spawned match server child is still alive / has connected players). Logged as a backlog follow-up rather than built blind while the founder is actively trying to play.",
+  "id": 11297,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "REDGARDEN",
+  "title": "auto_deploy.sh restarts kill live in-progress matches; timer paused"
+}
