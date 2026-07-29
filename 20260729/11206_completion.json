@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-29T01:03:09Z",
+  "body": "Commit 7330f10 (+ CHANGELOG). Spec-only pass, no code: pins down League's real minion-wave model (roles, aggro-redirect, last-hit/deny split, XP-share, structure pressure) against REDGARDEN's two separate creep systems. Headline finding: jungle creeps (ArenaCreep) aren't League jungle camps at all -- they're node-ownership guardians dealing flat unmitigated (no apply_armor) damage; lane creeps are the closer minion analog but single-role with no aggro-redirect/deny/XP-share. Proposes a sequenced target design, no numeric retuning decided. Closes the S170-206/207/208/209 sprint plan committed to BACKLOG.md earlier this session.",
+  "id": 11206,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "REDGARDEN",
+  "title": "NORTHSTAR §20, full creep overhaul -- LoL parity spec (S170-209)"
+}
