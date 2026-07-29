@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-29T01:23:40Z",
+  "body": "Commit fd90fc6 (+ CHANGELOG). Founder chose 'split into multiple packets' for the flagged MTU risk (ArenaSnapshotMsg had grown to 2460 bytes, over the 1500-byte MTU). heroes[] now sent as 2 self-contained PACKET_ARENA_SNAPSHOT_HEROES chunks (10 heroes each, own total_count) instead of living in the world message; new sizes ~788/~856 bytes with real headroom. Touches server_broadcast, apps/arena's net_poll_snapshots, and apps/arena_bot's BotSnapshotView reassembly (also fixed a related latent prev/cur velocity-inference bug found while restructuring the bot's receive loop). Live-verified on isolated ports: 1v1 match to a real winner with real HP changes; 12-hero match confirmed both hero chunks deliver real data. Full sim test suite green.",
+  "id": 11208,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "REDGARDEN",
+  "title": "Split PACKET_ARENA_SNAPSHOT into world + hero-chunk packets (S170-193)"
+}
