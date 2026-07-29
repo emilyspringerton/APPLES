@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-29T21:56:01Z",
+  "body": "Founder: 'can we start crunching the data on the heroes that are the strongest?' -\u003e 'ok i want to start tracking it on okemily.com.' New migration 202607290001_redgarden_hero_stats.sql (aggregate wins/losses/matches per hero_id, REDGARDEN-specific). New POST /api/v1/redgarden/hero-result (redgarden.match.write) + public GET /api/v1/redgarden/hero-leaderboard?min-games=N (win rate computed at read time). 6 new tests, full suite green. Companion REDGARDEN change reports to this endpoint at match-end; OKEMILY page to follow.",
+  "id": 11320,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "IDUNA",
+  "title": "feat: hero-level win-rate tracking (redgarden_hero_stats)"
+}
