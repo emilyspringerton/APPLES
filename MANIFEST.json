@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-29T22:06:49Z",
+  "generated_at": "2026-07-29T22:10:10Z",
   "repo": "APPLES",
-  "count": 799,
+  "count": 800,
   "apples": [
     {
       "id": 10525,
@@ -6394,6 +6394,14 @@
       "source_repo": "emily",
       "date": "20260729",
       "archived_at": "2026-07-29T22:06:49Z"
+    },
+    {
+      "id": 11324,
+      "type": "completion",
+      "title": "feat: promote spatial-generalization RL checkpoint; fix real progress-tracking bug in rl_train.py",
+      "source_repo": "REDGARDEN",
+      "date": "20260729",
+      "archived_at": "2026-07-29T22:10:10Z"
     }
   ]
 }

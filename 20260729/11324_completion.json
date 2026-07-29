@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-29T22:10:10Z",
+  "body": "The 5M-step run against the new randomized-spawn training env finished (50W/0L/0D eval), promoted into packages/common/rl_policy_weights.h. Real bug caught live: rl_train.py's checkpoint loop tracked timesteps_done += chunk (requested amount) instead of model.num_timesteps (actual), causing undercounting that compounded to over 1M steps of drift across ~250 checkpoints -- the script thought it was at 4.46M/5M while the model had trained past 5.5M. Manually stopped, evaluated+exported the latest real checkpoint, fixed root cause to read the authoritative counter directly. Full suite green.",
+  "id": 11324,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "REDGARDEN",
+  "title": "feat: promote spatial-generalization RL checkpoint; fix real progress-tracking bug in rl_train.py"
+}
