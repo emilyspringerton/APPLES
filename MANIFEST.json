@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-29T07:11:40Z",
+  "generated_at": "2026-07-29T07:17:25Z",
   "repo": "APPLES",
-  "count": 720,
+  "count": 721,
   "apples": [
     {
       "id": 10525,
@@ -5762,6 +5762,14 @@
       "source_repo": "emily",
       "date": "20260729",
       "archived_at": "2026-07-29T07:11:40Z"
+    },
+    {
+      "id": 11245,
+      "type": "completion",
+      "title": "S170-211: route node-guardian creep damage through apply_armor",
+      "source_repo": "REDGARDEN",
+      "date": "20260729",
+      "archived_at": "2026-07-29T07:17:25Z"
     }
   ]
 }

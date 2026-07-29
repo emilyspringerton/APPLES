@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-29T07:17:25Z",
+  "body": "commit 76a9d52 -- these creeps previously dealt flat, unmitigated damage, the one outlier among hero-vs-hero damage sources. NORTHSTAR §20.3's first bullet. 3 tests updated to use Duck (0 armor) for exact hit-damage math instead of the default Unicorn's 4 armor. Full suite + test_10_bots.sh green.",
+  "id": 11245,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "REDGARDEN",
+  "title": "S170-211: route node-guardian creep damage through apply_armor"
+}
