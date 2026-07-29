@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-29T00:58:23Z",
+  "body": "Commit 508159c (+ CHANGELOG). Replaced the free-toggle armor-stack W with a real cast: untargetable+rooted for 1.5s (intangible_ms/rooted_ms, same combo the R already uses), then a one-shot AoE eruption on resurfacing via a new dedicated mnm_burrow_ms countdown. Gated all 3 auto-attack loops + the legacy 1v1 resolve_combat resolver so a burrowed MnM can't still swing -- a real gap the test-writing process itself caught. 11 new/updated tests, full suite green.",
+  "id": 11204,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "REDGARDEN",
+  "title": "MnM W rework -- Burrow (S170-208)"
+}
