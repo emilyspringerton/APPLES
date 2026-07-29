@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-29T05:32:03Z",
+  "generated_at": "2026-07-29T05:34:26Z",
   "repo": "APPLES",
-  "count": 707,
+  "count": 708,
   "apples": [
     {
       "id": 10525,
@@ -5658,6 +5658,14 @@
       "source_repo": "REDGARDEN",
       "date": "20260729",
       "archived_at": "2026-07-29T05:32:03Z"
+    },
+    {
+      "id": 11232,
+      "type": "completion",
+      "title": "S170-226: PPO training script (Stable-Baselines3)",
+      "source_repo": "REDGARDEN",
+      "date": "20260729",
+      "archived_at": "2026-07-29T05:34:26Z"
     }
   ]
 }

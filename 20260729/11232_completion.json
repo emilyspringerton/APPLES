@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-29T05:34:26Z",
+  "body": "Commit 6330631 (+ CHANGELOG). scripts/rl_train.py trains a small MLP policy via PPO against the ArenaTrainingEnv, same CLI/env-var delivery pattern as colab_train.py, parallel SubprocVecEnv envs, periodic+final checkpoints, real win/loss/draw evaluation. Same honest gap as S170-225: stable_baselines3 not installable here, training loop written to spec but not live-tested.",
+  "id": 11232,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "REDGARDEN",
+  "title": "S170-226: PPO training script (Stable-Baselines3)"
+}
