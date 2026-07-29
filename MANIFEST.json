@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-29T23:05:44Z",
+  "generated_at": "2026-07-29T23:09:18Z",
   "repo": "APPLES",
-  "count": 807,
+  "count": 808,
   "apples": [
     {
       "id": 10525,
@@ -6458,6 +6458,14 @@
       "source_repo": "emily",
       "date": "20260729",
       "archived_at": "2026-07-29T23:05:44Z"
+    },
+    {
+      "id": 11332,
+      "type": "completion",
+      "title": "feat: full-roster self-play RL infrastructure (hero one-hot observation + sim_step_both)",
+      "source_repo": "REDGARDEN",
+      "date": "20260729",
+      "archived_at": "2026-07-29T23:09:18Z"
     }
   ]
 }
