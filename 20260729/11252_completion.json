@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-29T07:45:25Z",
+  "body": "commit 07263c4 -- every allied hero within the new ARENA_LANE_CREEP_XP_SHARE_RADIUS (8.0) now shares XP on a lane creep kill, not just the killer. Flow/gold stays individual/precise, unchanged. New test confirms nearby-ally-shares vs far-ally-nothing. Full suite + test_10_bots.sh green.",
+  "id": 11252,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "REDGARDEN",
+  "title": "S170-216: XP-share radius on lane creep kills"
+}
