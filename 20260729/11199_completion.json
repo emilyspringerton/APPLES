@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-29T00:26:18Z",
+  "body": "Founder: 'add the weatherman and donkey' -\u003e [clarified Donkey owner ambiguity] -\u003e 'donkey should be an item' -\u003e '3.2k flow' -\u003e 'tilda should make the hero do the paper airplane glide thing' -\u003e 'longish range high speed escape can move above obstacles' -\u003e 'long ish cooldown' -\u003e '2 minute cooldown on paper plane fly mode' -\u003e 'but the thing where it unfolds and fights for you thats a passive'. Section 16.1's whole premise -- a new non-piloted companion-unit system -- turned out avoidable: Donkey ships as an item (3200 Flow, Back slot). Immortal's Fold (automatic, HP\u003c25% -\u003e damage floor + fight-back DPS, own proc cooldown) and Paper Glide (tilde-activated, same key as Blink Dagger via new arena_use_active_item dispatcher -- high-speed traversal, flies over obstacles, untargetable, 2-min cooldown) both trigger on whichever hero wears it. Weatherman ships as hero #27: Q knockback (no damage), W grounds/extends Donkey's glide, R AoE zone DPS, passive regen. 16 new tests, full suite green (654/654). Live-verified: isolated 10v10 match, zero crashes, real HP changes across all 20 heroes. docs/HEROES_VS0.md and NORTHSTAR §16 updated. REDGARDEN 664770a (+ CHANGELOG same commit range).",
+  "id": 11199,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "REDGARDEN",
+  "title": "S170-206: Weatherman + Donkey, NORTHSTAR §16"
+}
