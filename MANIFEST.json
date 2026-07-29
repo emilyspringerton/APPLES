@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-29T00:37:42Z",
+  "generated_at": "2026-07-29T00:44:15Z",
   "repo": "APPLES",
-  "count": 677,
+  "count": 678,
   "apples": [
     {
       "id": 10525,
@@ -5418,6 +5418,14 @@
       "source_repo": "REDGARDEN",
       "date": "20260729",
       "archived_at": "2026-07-29T00:37:42Z"
+    },
+    {
+      "id": 11202,
+      "type": "completion",
+      "title": "Shop panel item cap fix + Donkey fold proc affordance (S170-210)",
+      "source_repo": "REDGARDEN",
+      "date": "20260729",
+      "archived_at": "2026-07-29T00:44:15Z"
     }
   ]
 }

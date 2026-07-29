@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-29T00:44:15Z",
+  "body": "Commit fd63d0a (+ CHANGELOG 8a0... will confirm). SHOP_ITEMS_PER_COL was hardcoded 12, silently clipping the buy panel's render+click-hit-test at item_id 23 -- Blink Dagger/Donkey/Haste Trinket were unreachable in the shop. Bumped to 15. Also added a gold FoldFlash burst, distinct proc tone, and a DONKEY FOLD status tag for Immortal's Fold's 25%-HP proc. Smoke-tested the client binary under Xvfb (no display normally available here) -- launches clean, no crash. Full sim test suite green.",
+  "id": 11202,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "REDGARDEN",
+  "title": "Shop panel item cap fix + Donkey fold proc affordance (S170-210)"
+}
