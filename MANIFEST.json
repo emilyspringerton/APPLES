@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-29T05:12:17Z",
+  "generated_at": "2026-07-29T05:25:10Z",
   "repo": "APPLES",
-  "count": 703,
+  "count": 704,
   "apples": [
     {
       "id": 10525,
@@ -5626,6 +5626,14 @@
       "source_repo": "emily",
       "date": "20260729",
       "archived_at": "2026-07-29T05:12:17Z"
+    },
+    {
+      "id": 11228,
+      "type": "completion",
+      "title": "NORTHSTAR §21, reward-driven RL spec -- Unity ML-Agents shaped (S170-223)",
+      "source_repo": "REDGARDEN",
+      "date": "20260729",
+      "archived_at": "2026-07-29T05:25:10Z"
     }
   ]
 }

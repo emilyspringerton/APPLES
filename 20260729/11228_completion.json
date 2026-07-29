@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-29T05:25:10Z",
+  "body": "Commit fd75729 (+ CHANGELOG). Founder corrected S170-220's corpus pretraining direction: wants genuine reward-driven RL, ML-Agents style. Found the right existing precedent in sibling SHANKPIT (headless.c ctypes environment API + neural_net.h/brain_weights.h small-MLP embed pattern) rather than inventing from scratch. Designed the full reward function and target architecture (new apps/arena_training/headless.c, gymnasium.Env, Stable-Baselines3 PPO, small embedded-C MLP weight export). Spec only, implementation sprint logged to BACKLOG.md next.",
+  "id": 11228,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "REDGARDEN",
+  "title": "NORTHSTAR §21, reward-driven RL spec -- Unity ML-Agents shaped (S170-223)"
+}
