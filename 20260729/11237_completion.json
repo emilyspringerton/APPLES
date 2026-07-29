@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-29T06:14:35Z",
+  "body": "Commit 52bf4b8 (+ CHANGELOG). Installed gymnasium+stable-baselines3 (pip --break-system-packages, no clean alternative available) and ran the full pipeline for real: a 4000-timestep PPO smoke run trained cleanly (SubprocVecEnv, real checkpointing, real eval), closing every previously-flagged 'not independently verified' gap in S170-225/226/227. Exporting the real trained model surfaced a genuine bug: write_c_header_from_layers produced invalid C literals (0f instead of 0.0f) for exact-integer weights, never hit by the earlier synthetic random-weight test. Fixed + re-verified end to end against the real model (PyTorch vs compiled C match to float32 precision) + added a --self-test regression check.",
+  "id": 11237,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "REDGARDEN",
+  "title": "S170-227 follow-up: ran the real RL pipeline live, fixed an export bug it surfaced"
+}

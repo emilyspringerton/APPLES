@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-29T06:11:44Z",
+  "generated_at": "2026-07-29T06:14:35Z",
   "repo": "APPLES",
-  "count": 712,
+  "count": 713,
   "apples": [
     {
       "id": 10525,
@@ -5698,6 +5698,14 @@
       "source_repo": "emily",
       "date": "20260729",
       "archived_at": "2026-07-29T06:11:44Z"
+    },
+    {
+      "id": 11237,
+      "type": "completion",
+      "title": "S170-227 follow-up: ran the real RL pipeline live, fixed an export bug it surfaced",
+      "source_repo": "REDGARDEN",
+      "date": "20260729",
+      "archived_at": "2026-07-29T06:14:35Z"
     }
   ]
 }
