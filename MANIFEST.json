@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-29T22:24:02Z",
+  "generated_at": "2026-07-29T22:34:00Z",
   "repo": "APPLES",
-  "count": 803,
+  "count": 804,
   "apples": [
     {
       "id": 10525,
@@ -6426,6 +6426,14 @@
       "source_repo": "REDGARDEN",
       "date": "20260729",
       "archived_at": "2026-07-29T22:24:02Z"
+    },
+    {
+      "id": 11328,
+      "type": "completion",
+      "title": "fix: auto_deploy.sh is now match-aware, safe to re-enable after verification",
+      "source_repo": "REDGARDEN",
+      "date": "20260729",
+      "archived_at": "2026-07-29T22:34:00Z"
     }
   ]
 }

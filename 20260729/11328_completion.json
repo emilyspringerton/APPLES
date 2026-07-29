@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-29T22:34:00Z",
+  "body": "Backlog follow-up to Apple #11297 (timer stopped since it killed a live match via the matchmaker restart). Added a guard before the systemctl restart: pgrep -f for any running red_garden_arena_server process (only exists between lobby-full and match-end/timeout) defers the restart and skips marking the SHA deployed, so the next 5-min timer tick retries until a genuinely idle window. Binaries still publish either way since the matchmaker execs fresh per spawn. Timer intentionally left stopped pending a live verification pass before re-enabling.",
+  "id": 11328,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "REDGARDEN",
+  "title": "fix: auto_deploy.sh is now match-aware, safe to re-enable after verification"
+}
