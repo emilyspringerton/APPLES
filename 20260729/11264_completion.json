@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-29T10:00:40Z",
+  "body": "commit 6349d09 -- new ArenaLaneCreepRole, casters trade HP/damage for a real range advantage (6.0 vs melee's 3.5), the actual role distinction. Melee=0 default preserved all 15 pre-existing tests unmodified. Wire-synced (ArenaLaneCreepSnapshot role byte), distinct client silhouette. 2 new tests. Full suite (772 checks) + test_10_bots.sh green. This closes the S170-211..218 creep-overhaul batch.",
+  "id": 11264,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "REDGARDEN",
+  "title": "S170-218: split lane creep waves into melee + caster roles -- closes the creep-overhaul sprint"
+}
