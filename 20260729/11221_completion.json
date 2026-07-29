@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-29T04:18:20Z",
+  "body": "Commit 4ad8b32 (+ CHANGELOG). Corrected the founder's 'upload repo to Drive' assumption -- notebook already clones from GitHub directly. Documented the real end-to-end flow (build_ai_corpus.py, corpus upload to Drive, notebook bootstrap cell, checkpoint output). Honestly flagged weight-embed-into-C and automated git-sync as not-yet-built, both in progress as follow-on work.",
+  "id": 11221,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "REDGARDEN",
+  "title": "Colab training workflow instructions in README (S170-219)"
+}
