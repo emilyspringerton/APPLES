@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-29T07:17:25Z",
+  "generated_at": "2026-07-29T07:21:42Z",
   "repo": "APPLES",
-  "count": 721,
+  "count": 722,
   "apples": [
     {
       "id": 10525,
@@ -5770,6 +5770,14 @@
       "source_repo": "REDGARDEN",
       "date": "20260729",
       "archived_at": "2026-07-29T07:17:25Z"
+    },
+    {
+      "id": 11246,
+      "type": "completion",
+      "title": "S170-212: visible aggro-radius ring for node-guardian creeps",
+      "source_repo": "REDGARDEN",
+      "date": "20260729",
+      "archived_at": "2026-07-29T07:21:42Z"
     }
   ]
 }

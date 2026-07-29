@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-29T07:21:42Z",
+  "body": "commit 400e708 -- reuses the S170-200 ring_mesh/annulus idiom and each creep's already-computed flavor color (gold/neutral, blue/team0, red/team1). Outline only, no pulse -- a static passive boundary. Verified live under Xvfb: ring renders at correct position/color around a neutral creep.",
+  "id": 11246,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "REDGARDEN",
+  "title": "S170-212: visible aggro-radius ring for node-guardian creeps"
+}
