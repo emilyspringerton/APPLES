@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-30T02:30:11Z",
+  "body": "Founder first playtest: towers basically invincible, and KOing tanks. Two bugs: (1) co-located node-guardian creep starved the tower of all damage via a shared attack-cooldown slot -- fixed by not letting the creep spawn while the tower stands. (2) MAX_HP 1600 / DAMAGE 40 were never weighed against hero base HP (100) -- rescaled to 420/14. Full suite green, build clean.",
+  "id": 11351,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "REDGARDEN",
+  "title": "Fix: towers were unkillable + one-shotting heroes"
+}

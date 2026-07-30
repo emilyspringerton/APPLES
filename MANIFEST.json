@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-30T02:18:53Z",
+  "generated_at": "2026-07-30T02:30:11Z",
   "repo": "APPLES",
-  "count": 826,
+  "count": 827,
   "apples": [
     {
       "id": 10525,
@@ -6610,6 +6610,14 @@
       "source_repo": "emily",
       "date": "20260730",
       "archived_at": "2026-07-30T02:18:53Z"
+    },
+    {
+      "id": 11351,
+      "type": "completion",
+      "title": "Fix: towers were unkillable + one-shotting heroes",
+      "source_repo": "REDGARDEN",
+      "date": "20260730",
+      "archived_at": "2026-07-30T02:30:11Z"
     }
   ]
 }
