@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-30T00:58:01Z",
+  "body": "Founder: 'we want to make the jungle more dynamic and alive those concepts come from the original game' -\u003e 'the jungle right now is like nothing we need more going on' -\u003e 'use it as inspiration in terms of mob types and write it into a northstar.' Resolves §20.4's own deferred question: builds a separate true jungle-camp system alongside node-guardian creeps, not a rework. Reviewed REDGARDEN/wiki/SPEC-4 (a Card-RTS spec for a different unbuilt game mode, type collisions with local_game.h checked and confirmed) and extracted what actually transfers: tiered mob archetypes + weighted target scoring. Grounded the GFD-graft direction §8 already committed to in GFD's real mob.go/nm.go state-machine + placeholder/window/respawn boss pattern. Spec only, no code, real open questions flagged (tone, roster size, placement).",
+  "id": 11340,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "REDGARDEN",
+  "title": "docs: NORTHSTAR §22, real jungle camps spec (mob roster + GFD-pattern lifecycle)"
+}
