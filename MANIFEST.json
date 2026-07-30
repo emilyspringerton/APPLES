@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-30T06:50:17Z",
+  "generated_at": "2026-07-30T06:50:34Z",
   "repo": "APPLES",
-  "count": 849,
+  "count": 850,
   "apples": [
     {
       "id": 10525,
@@ -6794,6 +6794,14 @@
       "source_repo": "REDGARDEN",
       "date": "20260730",
       "archived_at": "2026-07-30T06:50:17Z"
+    },
+    {
+      "id": 11374,
+      "type": "completion",
+      "title": "live-match.html spectator dashboard",
+      "source_repo": "OKEMILY",
+      "date": "20260730",
+      "archived_at": "2026-07-30T06:50:34Z"
     }
   ]
 }
