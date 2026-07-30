@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-30T01:23:53Z",
+  "body": "Founder: 'do a northstar for expanded items...same DNA ffxi item names' -\u003e named the current 6-flat-stat ceiling, flagged the real (already-made, already-shipped) tension with FFXI_ITEM_PARITY_SEED.md's own stated 'not for direct use' purpose, translated FFXI mechanic archetypes (latent effects, procs, regen, relic weapons, enmity, elemental resist) into concrete new item categories with honest prerequisites (RNG, damage typing, enmity system all don't exist yet). Also: 'donkey glide needs to be 6 times as far' -- scaled glide DURATION 6x alongside RANGE (not speed) so it reads as a longer glide not a near-teleport; one test fixed to reflect the real map-boundary clamp now kicking in from center. Full suite green.",
+  "id": 11343,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "REDGARDEN",
+  "title": "docs: NORTHSTAR §23 expanded items spec + fix: Donkey Paper Glide 6x range"
+}

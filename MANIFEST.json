@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-30T01:19:06Z",
+  "generated_at": "2026-07-30T01:23:53Z",
   "repo": "APPLES",
-  "count": 818,
+  "count": 819,
   "apples": [
     {
       "id": 10525,
@@ -6546,6 +6546,14 @@
       "source_repo": "emily",
       "date": "20260730",
       "archived_at": "2026-07-30T01:19:06Z"
+    },
+    {
+      "id": 11343,
+      "type": "completion",
+      "title": "docs: NORTHSTAR §23 expanded items spec + fix: Donkey Paper Glide 6x range",
+      "source_repo": "REDGARDEN",
+      "date": "20260730",
+      "archived_at": "2026-07-30T01:23:53Z"
     }
   ]
 }
