@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-30T08:45:54Z",
+  "body": "Founder: 'gunnr w switch it to consecration just like wow' -\u003e 'same dot cast radius cd.' Was a free toggle self-regen, now a real cast-on-cooldown ground zone at Gunnr's own feet, damaging enemies standing in it. Reuses the existing r_zone infrastructure every other zone hero already shares. DPS/radius/duration/cooldown copied from Ghost's own R zone. Updated ability names/descriptions, AI tags, bot heuristic. Full suite green, build clean.",
+  "id": 11387,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "REDGARDEN",
+  "title": "Gunnr W reworked to Consecration (real WoW Paladin ability)"
+}
