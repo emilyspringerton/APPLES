@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-30T12:30:57Z",
+  "generated_at": "2026-07-30T12:45:23Z",
   "repo": "APPLES",
-  "count": 879,
+  "count": 880,
   "apples": [
     {
       "id": 10525,
@@ -7034,6 +7034,14 @@
       "source_repo": "emily",
       "date": "20260730",
       "archived_at": "2026-07-30T12:30:57Z"
+    },
+    {
+      "id": 11404,
+      "type": "completion",
+      "title": "Bot pool back down to 19",
+      "source_repo": "REDGARDEN",
+      "date": "20260730",
+      "archived_at": "2026-07-30T12:45:23Z"
     }
   ]
 }

@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-30T12:45:23Z",
+  "body": "Founder: 'take the bot pool back down to 19.' Reverts the earlier 20-bot self-sustaining change -- redgarden-bot-pool.service back to run_bot_pool.sh 19, restoring the 'one slot open for a human' default on :7778. The IDUNA hero-stats reporting fix itself is unaffected. Deployed live: redeployed unit + restarted, confirmed 19 bots running.",
+  "id": 11404,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "REDGARDEN",
+  "title": "Bot pool back down to 19"
+}
