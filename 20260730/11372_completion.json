@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-30T06:49:48Z",
+  "body": "Founder: 'i want to watch the match on my phone web view.' New POST /api/v1/redgarden/live-match (redgarden.match.write) + public GET .../latest, in-memory (not DB-backed, ephemeral state) with 30s staleness. Full test suite green.",
+  "id": 11372,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "IDUNA",
+  "title": "Live-match spectator endpoint for REDGARDEN"
+}

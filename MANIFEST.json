@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-30T06:35:51Z",
+  "generated_at": "2026-07-30T06:49:48Z",
   "repo": "APPLES",
-  "count": 847,
+  "count": 848,
   "apples": [
     {
       "id": 10525,
@@ -6778,6 +6778,14 @@
       "source_repo": "emily",
       "date": "20260730",
       "archived_at": "2026-07-30T06:35:51Z"
+    },
+    {
+      "id": 11372,
+      "type": "completion",
+      "title": "Live-match spectator endpoint for REDGARDEN",
+      "source_repo": "IDUNA",
+      "date": "20260730",
+      "archived_at": "2026-07-30T06:49:48Z"
     }
   ]
 }
