@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-30T06:49:48Z",
+  "generated_at": "2026-07-30T06:50:17Z",
   "repo": "APPLES",
-  "count": 848,
+  "count": 849,
   "apples": [
     {
       "id": 10525,
@@ -6786,6 +6786,14 @@
       "source_repo": "IDUNA",
       "date": "20260730",
       "archived_at": "2026-07-30T06:49:48Z"
+    },
+    {
+      "id": 11373,
+      "type": "completion",
+      "title": "Live-match spectator reporting from arena_server",
+      "source_repo": "REDGARDEN",
+      "date": "20260730",
+      "archived_at": "2026-07-30T06:50:17Z"
     }
   ]
 }
