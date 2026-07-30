@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-30T08:05:08Z",
+  "body": "Founder: 'double the range of gary auto attack and abilities.' ARENA_GARY_ATTACK_RANGE/Q_RANGE/W_RANGE/R_RANGE doubled (6/6/9/6 -\u003e 12/12/18/12). Verified every call site keys off the named constants (no hardcoded literals), so doubling the #defines alone was sufficient. Full suite green (existing tests reference the constants, scaled automatically), build clean.",
+  "id": 11383,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "REDGARDEN",
+  "title": "Gary: auto-attack range + all abilities doubled"
+}
