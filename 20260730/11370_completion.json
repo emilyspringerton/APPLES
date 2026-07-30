@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-30T06:26:13Z",
+  "body": "Founder: 'ensure stats is working' + 'add a 20th bot.' Root cause of empty leaderboard: neither matchmaker systemd unit set IDUNA_AGENT_NAME/SECRET, so every match silently had WOTAN reporting disabled despite the REDGARDEN-BOTS agent already being fully provisioned in IDUNA since 2026-07-24. Fixed via gitignored var/redgarden-iduna-agent.env + EnvironmentFile=. Also: matchmaker only spawns a match at exactly lobby_size (20), so 19 bots + no human meant zero matches ever completed on their own -- bumped bot-pool to 20, deliberately trading away human queueing on :7778 for a self-sustaining data-generating pool. Verified live: new server prints 'IDUNA agent configured', new match spawned immediately.",
+  "id": 11370,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "REDGARDEN",
+  "title": "Fixed hero-stats reporting (missing IDUNA creds) + bot pool now self-sustaining (20 bots)"
+}

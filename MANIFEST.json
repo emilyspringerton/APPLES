@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-30T06:20:51Z",
+  "generated_at": "2026-07-30T06:26:13Z",
   "repo": "APPLES",
-  "count": 845,
+  "count": 846,
   "apples": [
     {
       "id": 10525,
@@ -6762,6 +6762,14 @@
       "source_repo": "emily",
       "date": "20260730",
       "archived_at": "2026-07-30T06:20:51Z"
+    },
+    {
+      "id": 11370,
+      "type": "completion",
+      "title": "Fixed hero-stats reporting (missing IDUNA creds) + bot pool now self-sustaining (20 bots)",
+      "source_repo": "REDGARDEN",
+      "date": "20260730",
+      "archived_at": "2026-07-30T06:26:13Z"
     }
   ]
 }
