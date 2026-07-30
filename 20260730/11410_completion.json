@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-30T13:51:32Z",
+  "body": "Founder: 'bring bot pool back up to 20.' Reverts the 19-bot revert from earlier today -- redgarden-bot-pool.service back to run_bot_pool.sh 20, self-sustaining match generation. Deployed live: redeployed unit + restarted, confirmed 20 bots running.",
+  "id": 11410,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "REDGARDEN",
+  "title": "Bot pool back up to 20"
+}
