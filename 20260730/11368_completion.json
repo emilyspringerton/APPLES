@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-30T06:16:39Z",
+  "body": "Founder: 'his kit was stubbed in' -\u003e 'clones multi control drag click all of it' -\u003e 'divided we stand rework.' Two gaps: (1) clones were NEVER synced to any client at all (hero-chunk system only covered real player slots) -- fixed with is_clone/clone_owner + widened chunk range + dedicated clone draw pass. (2) clones auto-mirrored Tyler instead of true Meepo-style independent control -- removed, added arena_owner_controls authorization + widened move/attack commands + real RTS drag-select client-side. Bot pool senders updated too. Full suite green (814 assertions), build clean.",
+  "id": 11368,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "REDGARDEN",
+  "title": "Tyler Divided We Stand rework: real clone control + fixed a visibility bug"
+}
