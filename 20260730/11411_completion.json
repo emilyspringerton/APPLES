@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-30T13:54:18Z",
+  "body": "Founder: 'we need the stats on the wotan page on okemily those need to live update just like the live-match page live updates.' Both leaderboards refactored into named functions polled via setInterval (10s, DB-backed data doesn't need live-match's own 3s cadence). Deployed and verified live.",
+  "id": 11411,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "OKEMILY",
+  "title": "tournaments.html leaderboards now auto-refresh"
+}

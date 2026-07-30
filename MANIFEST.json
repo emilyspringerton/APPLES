@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-30T13:51:32Z",
+  "generated_at": "2026-07-30T13:54:18Z",
   "repo": "APPLES",
-  "count": 886,
+  "count": 887,
   "apples": [
     {
       "id": 10525,
@@ -7090,6 +7090,14 @@
       "source_repo": "REDGARDEN",
       "date": "20260730",
       "archived_at": "2026-07-30T13:51:32Z"
+    },
+    {
+      "id": 11411,
+      "type": "completion",
+      "title": "tournaments.html leaderboards now auto-refresh",
+      "source_repo": "OKEMILY",
+      "date": "20260730",
+      "archived_at": "2026-07-30T13:54:18Z"
     }
   ]
 }
