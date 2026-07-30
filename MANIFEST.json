@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-30T07:18:25Z",
+  "generated_at": "2026-07-30T07:18:39Z",
   "repo": "APPLES",
-  "count": 853,
+  "count": 854,
   "apples": [
     {
       "id": 10525,
@@ -6826,6 +6826,14 @@
       "source_repo": "REDGARDEN",
       "date": "20260730",
       "archived_at": "2026-07-30T07:18:25Z"
+    },
+    {
+      "id": 11378,
+      "type": "completion",
+      "title": "live-match.html mini-map with emoji hero markers",
+      "source_repo": "OKEMILY",
+      "date": "20260730",
+      "archived_at": "2026-07-30T07:18:39Z"
     }
   ]
 }
