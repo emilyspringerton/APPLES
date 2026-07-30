@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-30T02:37:32Z",
+  "body": "Founder: 'show the tower damage as projectiles.' arena_tick_towers now fires a non-homing ArenaProjectile at its target instead of applying damage instantly. New ARENA_PROJECTILE_NO_OWNER sentinel (255, fits the existing uint8_t wire field) since a tower has no real hero owner to thread through the homing-reward path or the client's owner-based color lookup safely. Rendered ember-orange, distinct from hero-shot colors. Zero wire-protocol changes needed. Full suite green, build clean.",
+  "id": 11353,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "REDGARDEN",
+  "title": "Tower attacks are now real projectiles, not instant hits"
+}

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-30T02:33:43Z",
+  "generated_at": "2026-07-30T02:37:32Z",
   "repo": "APPLES",
-  "count": 828,
+  "count": 829,
   "apples": [
     {
       "id": 10525,
@@ -6626,6 +6626,14 @@
       "source_repo": "emily",
       "date": "20260730",
       "archived_at": "2026-07-30T02:33:43Z"
+    },
+    {
+      "id": 11353,
+      "type": "completion",
+      "title": "Tower attacks are now real projectiles, not instant hits",
+      "source_repo": "REDGARDEN",
+      "date": "20260730",
+      "archived_at": "2026-07-30T02:37:32Z"
     }
   ]
 }
