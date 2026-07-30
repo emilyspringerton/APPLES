@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-30T02:13:06Z",
+  "body": "Founder: 'add towers around the nodes so beginning of game is a little slower.' One neutral ArenaTower per node, blocks arena_tick_nodes' capture channel until destroyed. Team-mode only, wired via explicit arena_towers_reset() at the server's real match-start call site (not the shared arena_init_teams() ~300 tests call directly) so no existing test behavior changed. Wire-synced + rendered client-side. 4 new tests, full suite green (690 assertions), build clean, test_10_bots.sh unaffected.",
+  "id": 11349,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "REDGARDEN",
+  "title": "Node towers: gate node capture behind a destroyable tower per node"
+}

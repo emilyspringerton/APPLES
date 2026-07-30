@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-30T02:03:00Z",
+  "generated_at": "2026-07-30T02:13:06Z",
   "repo": "APPLES",
-  "count": 824,
+  "count": 825,
   "apples": [
     {
       "id": 10525,
@@ -6594,6 +6594,14 @@
       "source_repo": "emily",
       "date": "20260730",
       "archived_at": "2026-07-30T02:03:00Z"
+    },
+    {
+      "id": 11349,
+      "type": "completion",
+      "title": "Node towers: gate node capture behind a destroyable tower per node",
+      "source_repo": "REDGARDEN",
+      "date": "20260730",
+      "archived_at": "2026-07-30T02:13:06Z"
     }
   ]
 }
