@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-30T07:18:25Z",
+  "body": "Founder: 'can we get coords too and show a little map with emojis.' report_live_match_state() now includes x/z on every node and hero. No IDUNA changes needed (opaque blob store). Verified live: fresh match reports real coords.",
+  "id": 11377,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "REDGARDEN",
+  "title": "Live-match payload gained hero/node coords for the spectator mini-map"
+}

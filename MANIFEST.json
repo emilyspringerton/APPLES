@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-30T07:06:14Z",
+  "generated_at": "2026-07-30T07:18:25Z",
   "repo": "APPLES",
-  "count": 852,
+  "count": 853,
   "apples": [
     {
       "id": 10525,
@@ -6818,6 +6818,14 @@
       "source_repo": "emily",
       "date": "20260730",
       "archived_at": "2026-07-30T07:06:14Z"
+    },
+    {
+      "id": 11377,
+      "type": "completion",
+      "title": "Live-match payload gained hero/node coords for the spectator mini-map",
+      "source_repo": "REDGARDEN",
+      "date": "20260730",
+      "archived_at": "2026-07-30T07:18:25Z"
     }
   ]
 }
