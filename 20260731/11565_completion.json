@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-31T16:10:22Z",
+  "body": "Founder reported another crash. Root cause: scripts/test_10_bots.sh's cleanup trap used pkill -9 -f \u003cname\u003e for red_garden_matchmaker/red_garden_bot/'red_garden_server --port', which matches by command-line substring across the WHOLE machine, not this script's own spawned children. auto_deploy.sh runs this exact script every deploy cycle (~5-10 min) against a separate checkout (/home/fatbaby/redgarden-deploy) for local re-verification -- every single cycle SIGKILLed the real live production matchmakers (:7778/:7779), the live 19-bot pool, and any live match server on this box, regardless of which checkout started them. Confirmed via journalctl: both live matchmaker units got status=9/KILL at 16:04:12 UTC, the same second a real founder match (just-successful Tyler draft-pick, match gone live) has its last snapshot log write with no match_end ever recorded. The match-aware restart guard added to auto_deploy.sh earlier today (S170, Apple #11297 follow-up) only protected the later systemctl restart call -- it never touched this earlier, unconditional collateral damage, so it never actually fixed the underlying class of incident. Fixed by tracking this run's own spawned PIDs (matchmaker PID via $!, each bot PID) and scoping cleanup + the stability pgrep check to exactly those (pkill -P \u003cmatchmaker-pid\u003e for its spawned red_garden_server children) instead of a global name match. Verified live production PIDs and NRestarts counters byte-for-byte unchanged after running the fixed script. scripts/test_10_bots.sh c8758ac, CHANGELOG 6041705.",
+  "id": 11565,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "REDGARDEN",
+  "title": "fix: test_10_bots.sh cleanup was SIGKILLing live production matchmaker/bot-pool/match-server machine-wide"
+}
