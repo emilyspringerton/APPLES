@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-31T09:00:10Z",
+  "body": "ArenaResonance + resonance_combo, a straight C port of GoblinFoxDragon's server/skillchain.go combination table (same real tiers/multipliers). Tracked per-target (sc_pending_attrs/age_ms, real FFXI 'chain forms on whoever gets hit twice' rule), closed via new apply_weapon_skill_damage choke point. skillchain_flash_tier is a new distinct wire event. Verified real: Warrior's Q(Scission)-\u003eR(Induration+Reverberation) closes an actual Tier 2 Distortion chain. 2 new tests, full suite + 10-bot stability green. Commit 21ad0dc.",
+  "id": 11516,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "REDGARDEN",
+  "title": "REDGARDEN_GUI_NORTHSTAR Milestone 2: real skillchain resonance detection"
+}
