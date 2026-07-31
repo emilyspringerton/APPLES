@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-31T11:27:47Z",
+  "body": "Patrol (real P keybind, PACKET_ARENA_PATROL, walks A\u003c-\u003eB forever with arrival-triggered direction flip and opportunistic engagement) is the fourth and last slice. Combined with Stop/Attack-move/Hold Position (all shipped earlier today), Milestone 2 of the WC3 unit-control northstar is complete: Tyler's drag-selected clone group now has the full real command vocabulary (move/attack/attack-move/hold/patrol/stop), all sharing one arena_owner_controls-authorized surface and 'a new command always wins' convention. arena_find_opportunistic_target factored out of arena_tick_attack_move once patrol needed the same scan a third time. 13 new tests total across the four commands. Full suite + 10-bot stability green at every step. Commit e7e0467.",
+  "id": 11541,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "REDGARDEN",
+  "title": "NORTHSTAR §24 Milestone 2 FULLY SHIPPED: all four WC3 group-order commands"
+}
