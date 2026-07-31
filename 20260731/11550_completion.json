@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-31T13:17:15Z",
+  "body": "Founder asked to stop scaling the live bot pool via Claude Code manually and get self-service control instead. Added emily redgarden bots [N] (default 20) + emily redgarden status. Edits live ~/.config/systemd/user/redgarden-bot-pool.service ExecStart= + Description= in place, daemon-reload + restart. Verified live: 20 -\u003e 19 (1 human slot opened at :7778) -\u003e 20 (self-sustaining), confirmed via live bot process count each step. Commit 6d6bff9.",
+  "id": 11550,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "emily.cli",
+  "title": "emily redgarden bots/status: self-service REDGARDEN bot-pool scaling"
+}

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-31T13:10:20Z",
+  "generated_at": "2026-07-31T13:17:15Z",
   "repo": "APPLES",
-  "count": 1025,
+  "count": 1026,
   "apples": [
     {
       "id": 10525,
@@ -8202,6 +8202,14 @@
       "source_repo": "emily",
       "date": "20260731",
       "archived_at": "2026-07-31T13:10:20Z"
+    },
+    {
+      "id": 11550,
+      "type": "completion",
+      "title": "emily redgarden bots/status: self-service REDGARDEN bot-pool scaling",
+      "source_repo": "emily.cli",
+      "date": "20260731",
+      "archived_at": "2026-07-31T13:17:15Z"
     }
   ]
 }
