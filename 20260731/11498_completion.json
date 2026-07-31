@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-31T07:12:14Z",
+  "body": "clientInfo.hp/maxHP raw ints replaced with hpState *combatTp.HPState, reusing the already-tested type (17 existing tests upstream) instead of re-deriving damage-floor/KO logic by hand. PacketWSCast now rejects casting from a KO'd caster and casting at an already-KO'd target. Deliberately not implemented: any respawn/home-point flow once killed=true fires -- apps2/mud's own knockOut() leaves a player waiting until they type home or get Raised; porting that is separate, larger follow-up work, named honestly. go build/test clean. Commit 2295009.",
+  "id": 11498,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "GoblinFoxDragon",
+  "title": "apps2/server-go gets real KO state via server/combat.HPState"
+}
