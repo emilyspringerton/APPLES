@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-31T07:42:39Z",
+  "body": "Closes the 'XP earned isn't written back to IDUNA yet' gap. idunaclient.Client already had a real, unused UpdateCharacterLevel method (PATCH /api/v1/characters/:id). Respawn handler now calls it after computing post-penalty currentXP, fire-and-forget via goroutine + log-on-error, same pattern PacketSkillXP's own IncrementSkill call already uses. go build/test clean. Commit c183b9f.",
+  "id": 11503,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "GoblinFoxDragon",
+  "title": "Respawn XP penalty now persists back to IDUNA"
+}
