@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-31T09:45:13Z",
+  "generated_at": "2026-07-31T09:45:14Z",
   "repo": "APPLES",
-  "count": 1000,
+  "count": 1001,
   "apples": [
     {
       "id": 10525,
@@ -8002,6 +8002,14 @@
       "source_repo": "IDUNA",
       "date": "20260731",
       "archived_at": "2026-07-31T09:45:13Z"
+    },
+    {
+      "id": 11525,
+      "type": "completion",
+      "title": "REDGARDEN_GUI_NORTHSTAR Milestone 4: reward-credit hook",
+      "source_repo": "REDGARDEN",
+      "date": "20260731",
+      "archived_at": "2026-07-31T09:45:14Z"
     }
   ]
 }
