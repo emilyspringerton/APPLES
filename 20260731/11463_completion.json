@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-31T02:38:30Z",
+  "body": "Founder: 'bring the bot pool back down to 19.' Fourth flip in two days -- redgarden-bot-pool.service back to run_bot_pool.sh 19. Consolidated the unit file's own accumulated doc-comment history into one summary of the real tradeoff, pointing at git log for the current live count rather than re-narrating every flip. Deployed live: confirmed 19 bots running.",
+  "id": 11463,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "REDGARDEN",
+  "title": "Bot pool back down to 19 (+ consolidated the flip-flop doc history)"
+}
