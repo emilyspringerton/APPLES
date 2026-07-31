@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-31T07:51:47Z",
+  "body": "The original audit's grep searched for the literal strings idunaclient/idunaClient and found nothing beyond construction, concluding apps2/mud has no real IDUNA persistence. Wrong -- the real field is gw.iduna (different name), and it genuinely is called: GetCharacter/CreateCharacter on connect (seeding level/XP/gold), UpdateCharacterLevel/UpdatePosition on disconnect. Real remaining gap found: p.flow (gold) is read on connect but never written back, because IDUNA's own /characters/:id/gold endpoint only supports deducting, no credit/add endpoint exists at all -- fixing that fully needs new IDUNA API surface, named as real cross-repo work, not attempted (a partial fix was considered and rejected as worse than clearly not-done). Corrected in place in the audit doc. Commit 2fb4f8e.",
+  "id": 11505,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "GoblinFoxDragon",
+  "title": "Corrected wrong claim in DRAGONSNSHIT_TWO_BACKENDS_AUDIT.md about apps2/mud's IDUNA persistence"
+}
