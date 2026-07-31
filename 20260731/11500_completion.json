@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-31T07:15:26Z",
+  "body": "New PacketRespawn/PacketRespawnResult -- a KO'd player's only way back on this backend, apps2/mud's own real 'type home' flow (knockOut + HPState.Raise) reduced to its core mechanic via RaiseDefault. XP penalty always computed against 0 since real per-player XP tracking doesn't exist in apps2/server-go yet, named honestly in the code rather than silently wrong. RaiseDefault's behavior already covered by 5+ existing tests upstream, no new tests needed. go build/test clean. Commit aeaa567.",
+  "id": 11500,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "GoblinFoxDragon",
+  "title": "Respawn packet closes the KO loop in apps2/server-go"
+}
