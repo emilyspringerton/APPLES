@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-31T08:29:23Z",
+  "body": "Verified the exact flagged case (2026-07-17 23:14:33, seq=108601) against the raw event store: a Netflix 10-Q, correctly rejected by all 4 of the classifier's 8-K signals -- not a bug. Checked all 16 historical firings back to 2026-06-17, zero real detection gaps found. Completed an existing uncommitted partial fix (is8KCount split from processed) by demoting the remaining actionable-sounding WARNING to info, since its own comment already concluded nothing needed fixing. go build + go test clean. Commit 4ad0ab1.",
+  "id": 11511,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "PRRJECT_FATBABY",
+  "title": "S159-02: resolved entity-graph '0 8-K documents' false-alarm WARNING"
+}
