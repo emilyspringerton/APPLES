@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-31T06:58:05Z",
+  "body": "First real slice of DRAGONSNSHIT_TWO_BACKENDS_AUDIT.md's own unification recommendation. apps2/server-go now directly imports the same tested server/combat/server/skillchain packages apps2/mud already uses. New PacketWSCast/PacketWSResult packets. Every BtnAttack feeds real TP alongside the existing hitscan combat. PacketWSCast validates against the real weapon-skill registry, checks real TP, scores a real skillchain against whatever last landed on the target (PvP-shaped, no mob registry in this backend). resolveWSCast extracted as a standalone, unit-tested function -- 4 new tests including a real Tier-2 Fusion skillchain closure. No HP/death tracking exists for this backend's players yet -- damage is a placeholder, named as a follow-up not silently skipped. go build/test clean across the whole module throughout. Commit cc0d46f.",
+  "id": 11495,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "GoblinFoxDragon",
+  "title": "Real weapon-skill casting + skillchain resonance wired into apps2/server-go (backlog Sprint 3)"
+}
