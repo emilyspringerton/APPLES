@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-31T04:10:58Z",
+  "body": "Published a data-driven Mid-Piano episode built on real per-hero win/loss reconstructed from REDGARDEN's var/matches/*.jsonl logs for the last 24h (416 files, 199 complete matches). Cross-checked against IDUNA's cumulative hero-leaderboard endpoint -- numbers matched exactly, confirming this is genuinely the full dataset so far, not a slice. Findings: Tyler/Ada lead ~59%, Duck last at 42.8%/28, all 8 newest heroes cluster in the bottom 10 (Gunnr flagged in-episode as a mid-window old-kit/new-kit blend since his Consecration rework landed today). Live at okemily.com/blog/mid-piano-presents-the-scoreboard/. Commit 9dde74d.",
+  "id": 11474,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "OKEMILY",
+  "title": "Blog: Mid-Piano Presents: The Scoreboard (real 24h hero data)"
+}
