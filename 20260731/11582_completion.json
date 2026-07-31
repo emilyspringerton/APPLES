@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-31T17:14:11Z",
+  "body": "Founder: 'that client needs an installable with the PLAYbat and the SDL etc' + 'Real IDUNA-backed login (recommended).' Two-part fix. (1) apps/arena/src/main.c: a real email+password SDL2 login screen shown before any networking when launched with --connect/--queue and no --ticket/bot-agent identity -- calls IDUNA's /api/v1/auth/email/login for a player JWT then the new /api/v1/redgarden/self-ticket (IDUNA Apple #11581) which mints on behalf of the caller's own JWT subject. main() restructured so the SDL window exists before connecting. Bots/--ticket/dev-agent paths completely untouched (verified live: WOTAN ticket-mint still succeeds end to end with agent env configured). Visually verified rendering correctly under Xvfb (screenshot); full HTTP protocol verified via curl against live IDUNA before wiring the C client. (2) packages/common/http_client.h: found and fixed a real gap the login screen alone would have shipped broken -- the Windows build (what RedGarden.exe, the actual CI-built client real players download via PLAY.bat, ships) was a stub that always returned -1, so the login screen would render but every login attempt would fail. Real Winsock port of the same request logic already proven on POSIX. Linux build + full test suite green throughout (this header is shared by arena_bot/arena_server/arena/server, all four still build). Named, not fixed: no TLS on either platform -- a real concern once a player's own login screen reaches IDUNA over the open internet rather than same-LAN. REDGARDEN 9c98342 (login screen) + e6fb748 (Winsock client) + b432994 (changelog), IDUNA 5cd0fd0 + be2e4a1 (Apple #11581).",
+  "id": 11582,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "REDGARDEN",
+  "title": "Real GUI login screen + Winsock http_client.h -- closes REDGARDEN_GUI_NORTHSTAR.md's no-login-path gap end to end"
+}

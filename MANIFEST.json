@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-31T17:13:57Z",
+  "generated_at": "2026-07-31T17:14:11Z",
   "repo": "APPLES",
-  "count": 1047,
+  "count": 1048,
   "apples": [
     {
       "id": 10525,
@@ -8378,6 +8378,14 @@
       "source_repo": "IDUNA",
       "date": "20260731",
       "archived_at": "2026-07-31T17:13:57Z"
+    },
+    {
+      "id": 11582,
+      "type": "completion",
+      "title": "Real GUI login screen + Winsock http_client.h -- closes REDGARDEN_GUI_NORTHSTAR.md's no-login-path gap end to end",
+      "source_repo": "REDGARDEN",
+      "date": "20260731",
+      "archived_at": "2026-07-31T17:14:11Z"
     }
   ]
 }
