@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-31T06:46:48Z",
+  "body": "Founder: 'give gunnrs e a stun.' Read 'e' as R, REDGARDEN's third/final cast slot. Added arena_apply_stun to the same target/range check Gunnr's R execute-scaled damage already uses. Duration copied from Zagan's own W stun (The Standstill, S170-230) as a named, independently-tunable constant -- this roster's second stun. HUD text + docs/HEROES_VS0.md updated. 2 new/expanded tests, full suite + test_10_bots.sh green. Commit 5d4ae44.",
+  "id": 11493,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "REDGARDEN",
+  "title": "Gunnr's R now also stuns (backlog Sprint 1)"
+}
