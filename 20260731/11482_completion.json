@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-31T05:38:56Z",
+  "body": "Continuing the fatbaby data-ingestion audit after S170-07: checked every prwatch-body consumer (buyback-watcher, eps-processor clean; earnings-calendar had 4 stale low-volume records, not worth chasing; dividend-watcher was 70% contaminated -- 14 of 20 live records, including a fabricated 'raise' signal already written to entity-graph). Extracted the litigation-alert filter into a new shared internal/prspam package, refactored guidance-watcher onto it, wired into dividend-watcher. Regenerated var/dividends/dividends.ndjson (20 -\u003e 7 records). Rebuilt and restarted fatbaby-dividend-watcher.service. New follow-up found, not fixed this pass: a real Target press release is still misclassified as a dividend raise (different root cause, dividend.Classify's own false-positive rate, not spam). Commits 14c2930, c6a5fc2.",
+  "id": 11482,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "PRRJECT_FATBABY",
+  "title": "dividend-watcher had the same litigation-alert spam bug as guidance-watcher"
+}
