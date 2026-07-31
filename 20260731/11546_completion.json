@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-31T12:27:46Z",
+  "body": "Direct smoketest of cmdBattlegrounds's exact real call sequence (CreateCharacter/GetCharacter/MintBattlegroundsTicket) against the live IDUNA service confirmed all three real, fast (ms-scale, not the tens-of-seconds a flaky telnet harness suggested), and correct -- the strongest confirmation this identity/ticket chain has had. Found Xvfb/glxinfo now work in this environment (Mesa software GL renders correctly), correcting a stale 'no display' note from earlier sessions. Interactive telnet validation of the command's own text output was attempted repeatedly and abandoned as test-harness noise, not a code bug. Full match-play validation (draft/cast/skillchain/credit) not attempted -- two real blockers named (Warrior's bot AI leads with R not Q, so it never naturally opens the one real chain pairing; GUI-input automation wasn't built). Milestone marked PARTIAL, not DONE, honestly. Commit 05d65b2.",
+  "id": 11546,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "GoblinFoxDragon",
+  "title": "REDGARDEN_GUI_NORTHSTAR Milestone 5 validation attempt: PARTIAL, honestly reported"
+}
