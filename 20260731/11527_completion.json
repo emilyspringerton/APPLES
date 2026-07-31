@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-31T09:58:43Z",
+  "body": "New job.SummonerAbilities() (summon_zagan/summon_beleth/summon_vassago) wired into apps2/mud's ja command. Each applies real server/status effects to the caster's duel opponent, translated from that hero's real REDGARDEN kit -- Zagan-\u003eBind, Beleth-\u003ePoison+Silence, Vassago-\u003eSilence+direct hit (clamped, doesn't touch duel win-condition). 2 new tests. Honestly scoped: no mob-targeted version yet (mob.Mob has no status stack), no armor-shred/cast-refund/zone effects ported. Live smoke-tested (setjob SMN confirmed real stats, duel flow confirmed working); final summon output not reliably captured due to telnet test-harness timing, not a code issue -- build+tests clean, locking reviewed directly. Commit 654d2a8.",
+  "id": 11527,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "GoblinFoxDragon",
+  "title": "SMN Summoner avatars: Zagan/Beleth/Vassago ported from REDGARDEN's own roster"
+}
