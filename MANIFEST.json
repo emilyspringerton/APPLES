@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-31T03:13:16Z",
+  "generated_at": "2026-07-31T03:13:55Z",
   "repo": "APPLES",
-  "count": 943,
+  "count": 944,
   "apples": [
     {
       "id": 10525,
@@ -7546,6 +7546,14 @@
       "source_repo": "emily",
       "date": "20260731",
       "archived_at": "2026-07-31T03:13:16Z"
+    },
+    {
+      "id": 11468,
+      "type": "completion",
+      "title": "README keybind table refreshed for the whole session's worth of client changes",
+      "source_repo": "REDGARDEN",
+      "date": "20260731",
+      "archived_at": "2026-07-31T03:13:55Z"
     }
   ]
 }
