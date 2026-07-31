@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-31T08:00:31Z",
+  "body": "Closes the real gap found earlier today: p.flow was read from IDUNA on connect but never written back, because IDUNA had no way to credit gold at all -- only deduct. Added idunaclient.CreditGold (IDUNA's new PATCH .../gold/credit, commit 1b7f43d) with 3 new tests -- this package's first test file at all. Wired into apps2/mud's connect/disconnect flow: startingFlow captures the real balance after the existing fetch-or-create call, disconnect computes the session's net Flow delta and calls CreditGold/DeductGold accordingly, same best-effort convention the adjacent level/XP/position sync already uses. go build/test clean. Commit 3b75d33.",
+  "id": 11507,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "GoblinFoxDragon",
+  "title": "apps2/mud's Flow now syncs back to IDUNA on disconnect"
+}
