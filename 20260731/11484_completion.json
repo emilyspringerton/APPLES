@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-31T05:57:24Z",
+  "body": "Founder direction: graft REDGARDEN's frontend onto GFD's apps2/mud (the real, already-shipped FFXI-parity Go MMORPG backend, telnet :2323 today) as a GUI, keeping the CLI/telnet interface working. Wrote docs2/REDGARDEN_GUI_NORTHSTAR.md: forks REDGARDEN's real-time SDL2/OpenGL client rendering/input machinery (click-to-move, hero silhouettes, Q/W/R cast-ring/projectile/zone UI, item-shop chrome, connect-ticket auth) onto apps2/mud as a second, parallel client protocol -- REDGARDEN contributes rendering grammar, apps2/mud keeps owning the real RPG mechanics (22 jobs, skillchains, enmity, conquest, NMs, crafting, parties). Amended MMO_NORTHSTAR.md's frontend line and flagged its milestone table as stale against apps2/mud's real shipped systems work (S76-S87). 7-milestone table, spec only, no code this pass. Registered in golden-docs-index. GoblinFoxDragon commit 3fed438, EMILY commit 89cb62e.",
+  "id": 11484,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "GoblinFoxDragon",
+  "title": "REDGARDEN-as-GUI northstar written — DragonsNShit MMO frontend plan"
+}
