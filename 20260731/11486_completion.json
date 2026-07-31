@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-31T06:07:10Z",
+  "body": "Root-caused the Target 'Voting Results from Annual Meeting of Shareholders' misclassification found during S170-07's dividend-watcher regeneration: dividend.Classify ran over the full page body, which includes PRNewswire's 'Also from this source' related-articles widget teasing a real but different Target press release further down the same page. Not a rare edge case -- 2358 occurrences across the full var/prwatch-body corpus. Added prspam.StripRelatedArticles, wired into dividend-watcher before classification. Hand-checked the one other borderline record (OceanaGold) before touching it -- real CEO quote, not a bug, left alone. Regenerated var/dividends/dividends.ndjson (7 -\u003e 6 records). Rebuilt and restarted fatbaby-dividend-watcher.service. Commits daaa917, d6c0ac4.",
+  "id": 11486,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "PRRJECT_FATBABY",
+  "title": "S170-231: dividend-watcher fabricated a raise signal from a related-article widget"
+}
