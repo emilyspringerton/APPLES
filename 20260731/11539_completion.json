@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-31T11:17:52Z",
+  "body": "Real D keybind (H was already taken by ability-help toggle). New PACKET_ARENA_HOLD wire packet, arena_hold_position(owner) halts in place. Never chases a target that leaves range (drops the lock instead of pure-pursuing), but still opportunistically defends via attack-move's own engage scan, extended to cover held units too -- matters specifically for ranged heroes (Gary) whose basic attacks only fire through attack_target, unlike melee's always-on flat proximity loop. Cleared by any other group order, same 'a new command always wins' convention. 4 new tests, full suite + 10-bot stability green. Only patrol left, Milestone 2 stays IN PROGRESS. Commit c147691.",
+  "id": 11539,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "REDGARDEN",
+  "title": "Hold Position command shipped: third slice of §24 Milestone 2"
+}
