@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-31T10:05:46Z",
+  "body": "Started Milestone 1 (generalize the clone/drag-select mechanism off Tyler-only) and found by checking every real gate directly that it's already hero-agnostic -- only the spawn trigger and one sizing constant are Tyler-specific, both needing a real second hero's kit numbers to generalize correctly. Milestone 1 collapses into Milestone 2. Also fixed a mis-citation (HERO_CONTENT_FRAMEWORK.md is GoblinFoxDragon's, not this roster's -- the real pipeline is §7/TYLER/multiverse_heroes.md). Commit 114d542.",
+  "id": 11529,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "REDGARDEN",
+  "title": "NORTHSTAR §24 correction: Milestone 1 already done, found not built"
+}
