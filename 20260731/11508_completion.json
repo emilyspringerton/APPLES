@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-31T08:13:15Z",
+  "body": "S170-78. Sprint 1: MAX_WEAPONS 6-\u003e7, real stats (130dmg/95rof/3-clip), reuses existing Projectile/spawn_projectile/update_projectiles pipeline (sniper storm-charge precedent), new explode_splash() AOE detonation gated by Projectile.splash_radius (default 0, existing point-damage weapons untouched). test_netcode.c: new test_missile_launcher_contract, 6/6 passing. make server + make lobby both clean. Commit 7bb01df. Client render/HUD/audio/bot-AI selection scoped as follow-up sprints (not visually testable here).",
+  "id": 11508,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "SHANKPIT",
+  "title": "Missile launcher weapon (WPN_MISSILE) -- server-authoritative firing + real splash damage"
+}
