@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-31T09:21:31Z",
+  "body": "New POST /api/v1/redgarden/player-ticket + redgarden.player-ticket.mint permission + DRAGONSNSHIT-MUD agent, opposite-scoped sibling to the bot-only ticket endpoint. Provisioned live via cmd/bootstrap against the running SQLite truestore, verified end-to-end (new agent logs in, mints a real ticket) with no service restart needed for provisioning (restart was needed to pick up the new route, done). 5 new tests. Commit f336df2.",
+  "id": 11519,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "IDUNA",
+  "title": "REDGARDEN_GUI_NORTHSTAR Milestone 3: real player ticket endpoint + auth fix"
+}

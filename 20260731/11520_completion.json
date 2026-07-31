@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-31T09:21:31Z",
+  "body": "Real bug found and fixed: idunaclient.Client was sending the raw agent secret as a Bearer token, which IDUNA's real JWT verification has always rejected -- every IDUNA call from apps2/mud and apps2/server-go has been silently failing (confirmed live, characters table was empty). Fixed with a real POST /api/v1/auth/agent login exchange, cached/refreshed. Verified live: character creation now succeeds against the running IDUNA service. Also fixed a real, stable UUIDv4 player_id (was a raw socket address). New battlegrounds/bg command mints a real ticket and prints the join command. 6 new tests. Commit 9dc9bc5.",
+  "id": 11520,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "GoblinFoxDragon",
+  "title": "REDGARDEN_GUI_NORTHSTAR Milestone 3: Battlegrounds entry point + real IDUNA auth fix"
+}

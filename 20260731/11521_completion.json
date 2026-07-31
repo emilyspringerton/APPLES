@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-31T09:21:31Z",
+  "body": "apps/arena's net_connect now checks an externally-supplied --ticket before the WOTAN self-registration and self-minted dev fallback paths -- the piece that makes apps2/mud's new battlegrounds command's printed join-command actually work. Full test suite green. Commit 20ce8cc.",
+  "id": 11521,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "REDGARDEN",
+  "title": "REDGARDEN_GUI_NORTHSTAR Milestone 3: --ticket flag accepts externally-minted tickets"
+}

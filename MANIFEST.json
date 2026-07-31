@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-31T09:12:48Z",
+  "generated_at": "2026-07-31T09:21:31Z",
   "repo": "APPLES",
-  "count": 994,
+  "count": 995,
   "apples": [
     {
       "id": 10525,
@@ -7954,6 +7954,14 @@
       "source_repo": "emily",
       "date": "20260731",
       "archived_at": "2026-07-31T09:12:48Z"
+    },
+    {
+      "id": 11519,
+      "type": "completion",
+      "title": "REDGARDEN_GUI_NORTHSTAR Milestone 3: real player ticket endpoint + auth fix",
+      "source_repo": "IDUNA",
+      "date": "20260731",
+      "archived_at": "2026-07-31T09:21:31Z"
     }
   ]
 }
