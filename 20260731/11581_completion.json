@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-31T17:13:57Z",
+  "body": "Closes REDGARDEN_GUI_NORTHSTAR.md's own named gap: 'No GUI login path exists yet end-to-end (a player still has to run REDGARDEN's client by hand with the printed command).' Same 'mint for the caller's own JWT subject' trust model as ShankpitTicketHandler -- deliberately a separate endpoint from RedgardenPlayerTicketHandler (mints on behalf of a request-body player_id, restricted to the DRAGONSNSHIT-MUD agent) so that handler's own blast-radius guarantee (can never impersonate a real human) stays untouched. REDGARDEN's apps/arena client calls /api/v1/auth/email/login for a player JWT, then this endpoint with that JWT directly. 404 if the authenticated player has no registered DragonsNShit character. 6 new tests, full suite green. Verified live end-to-end via curl (register/login/self-ticket, both success and 404-no-character paths) before wiring the C client; test player cleaned up afterward. Commit 5cd0fd0, changelog be2e4a1.",
+  "id": 11581,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "IDUNA",
+  "title": "POST /api/v1/redgarden/self-ticket -- real GUI login path for REDGARDEN"
+}

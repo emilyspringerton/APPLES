@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-31T17:08:38Z",
+  "generated_at": "2026-07-31T17:13:57Z",
   "repo": "APPLES",
-  "count": 1046,
+  "count": 1047,
   "apples": [
     {
       "id": 10525,
@@ -8370,6 +8370,14 @@
       "source_repo": "emily",
       "date": "20260731",
       "archived_at": "2026-07-31T17:08:38Z"
+    },
+    {
+      "id": 11581,
+      "type": "completion",
+      "title": "POST /api/v1/redgarden/self-ticket -- real GUI login path for REDGARDEN",
+      "source_repo": "IDUNA",
+      "date": "20260731",
+      "archived_at": "2026-07-31T17:13:57Z"
     }
   ]
 }
