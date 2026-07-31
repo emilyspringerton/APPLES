@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-31T03:24:01Z",
+  "body": "Added a real lightning-crackle visual to Ghost's Q (Alien Frequency): in-flight jittered box-sliver crackle riding the projectile, plus a radiating impact burst fired off a projectile active-\u003einactive edge-detect at the shot's last-known position. Both client-side only (apps/arena/src/main.c), reusing draw_hero_box_facing, no new draw primitive. Commit ce19053.",
+  "id": 11469,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "REDGARDEN",
+  "title": "Ghost's Q lightning-crackle in-flight + impact visual"
+}
