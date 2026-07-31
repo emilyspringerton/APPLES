@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-31T10:56:13Z",
+  "generated_at": "2026-07-31T10:59:33Z",
   "repo": "APPLES",
-  "count": 1012,
+  "count": 1013,
   "apples": [
     {
       "id": 10525,
@@ -8098,6 +8098,14 @@
       "source_repo": "emily",
       "date": "20260731",
       "archived_at": "2026-07-31T10:56:13Z"
+    },
+    {
+      "id": 11537,
+      "type": "completion",
+      "title": "Attack-move command shipped: closes NORTHSTAR §17.4 gap + §24 Milestone 2 second slice",
+      "source_repo": "REDGARDEN",
+      "date": "20260731",
+      "archived_at": "2026-07-31T10:59:33Z"
     }
   ]
 }

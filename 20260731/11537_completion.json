@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-31T10:59:33Z",
+  "body": "Real LoL/WC3 'hold A, then click ground': moves toward the clicked point but opportunistically diverts to attack whatever enemy comes within range along the way, re-acquires automatically if the target dies, resumes the original destination once nothing's left to engage. Held-key detection (SDL_SCANCODE_A), not a mode toggle. New PACKET_ARENA_ATTACK_MOVE wire packet, same arena_owner_controls authorization as move/attack/stop. Cleared by any other move/attack/stop command. Team-mode only, matching the underlying attack-target/chase system's own scope. 5 new tests, full suite + 10-bot stability green. Hold/patrol still open, Milestone 2 stays IN PROGRESS. Commit f5fa45a.",
+  "id": 11537,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "REDGARDEN",
+  "title": "Attack-move command shipped: closes NORTHSTAR §17.4 gap + §24 Milestone 2 second slice"
+}
