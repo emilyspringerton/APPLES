@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-31T10:48:20Z",
+  "body": "Real S keybind, new PACKET_ARENA_STOP wire packet, arena_stop_unit(owner) cancels move+attack order in place, resets target_x/z to the unit's own current position. Applies to the whole currently-selected group via the same selected_or_self()/arena_owner_controls scope every other group command already uses -- a Tyler player with drag-selected clones stops all of them at once. 3 new tests, full suite + 10-bot stability green. Attack-move/hold/patrol still open, milestone stays IN PROGRESS. Commit 10faf25.",
+  "id": 11535,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "REDGARDEN",
+  "title": "NORTHSTAR §24 Milestone 2: Stop command shipped (first of WC3 group-order vocabulary)"
+}
