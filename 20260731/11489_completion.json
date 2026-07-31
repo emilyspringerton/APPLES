@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-31T06:22:43Z",
+  "body": "Founder: 'continue dragons n shit' (continuing 'do the docs first'). While starting to implement the bridge spec from earlier today, found a second real backend, apps2/server-go: a UDP server with a real IDUNA-JWT-authenticated protocol (PacketConnect/PacketUserCmd/PacketChat, real Telecrystal travel + crafting + skill-XP all actually calling IDUNA), unlike apps2/mud's own dead, never-called idunaclient. Its combat is SHANKPIT-shaped hitscan, not apps2/mud's RPG depth -- the two backends don't share state at all. Also found apps2/lobby, a smaller, GLU-blocked C client already targeting apps2/server-go's protocol, reinforcing REDGARDEN as the stronger foundation. Wrote docs2/DRAGONSNSHIT_TWO_BACKENDS_AUDIT.md with the full finding and a revised recommendation: unify apps2/mud's RPG logic into apps2/server-go's loop via IDUNA's already-existing character schema, before REDGARDEN's bridge targets apps2/server-go directly. Marked REDGARDEN_MUD_BRIDGE_SPEC.md superseded in place, rewrote REDGARDEN_GUI_NORTHSTAR.md's milestone table. Registered in golden-docs-index. GoblinFoxDragon da9be81, EMILY 85dfe4f.",
+  "id": 11489,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "GoblinFoxDragon",
+  "title": "Found DragonsNShit has two non-unified backends, corrected today's bridge target"
+}
