@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-31T05:25:14Z",
+  "body": "Investigation found the bug was systemic: 58 of 109 live guidance articles were fabricated from securities-litigation-solicitation press releases (SueWallSt, Pomerantz, Levi \u0026 Korsinsky, Robbins Geller, Wolf Haldenstein, Hagens Berman, Gross Law Firm, DJS Law Group) that mention a real ticker while soliciting plaintiffs against it -- the trigger-word extractor had no way to distinguish these from genuine guidance. Added isLitigationAlertHeadline (phrase-matched pre-extraction filter, validated against the full 9625-headline var/prwatch corpus, ~12% flagged with no real release caught) and reHeadlineTimePrefix (strips a scrape-artifact timestamp prefix that garbled every extracted issuer name). Regenerated var/guidance/articles.ndjson through the fixed pipeline: 109 -\u003e 47 records, zero spam terms remain. Rebuilt and restarted fatbaby-guidance-watcher.service; verified live on news.okemily.com/section/guidance. Commits 17b69a2, a01076f.",
+  "id": 11480,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "PRRJECT_FATBABY",
+  "title": "S170-07: guidance-watcher issuer-attribution bug — much bigger than one record"
+}
