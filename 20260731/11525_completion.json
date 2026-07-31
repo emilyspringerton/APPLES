@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-31T09:45:13Z",
+  "body": "report_match_result now credits real Flow (100 win/25 loss) to a match participant's persistent DragonsNShit character via IDUNA's new by-player lookup + existing gold/credit endpoint. Generalized http_post_json into http_json_request (GET/PATCH added). Caught a real buffer-truncation bug via compiler warning before shipping. Full suite + 10-bot stability green. Commit 1fcf09e.",
+  "id": 11525,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "REDGARDEN",
+  "title": "REDGARDEN_GUI_NORTHSTAR Milestone 4: reward-credit hook"
+}

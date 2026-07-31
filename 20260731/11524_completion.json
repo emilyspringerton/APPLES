@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-31T09:45:13Z",
+  "body": "GET /api/v1/characters/by-player/:player_id resolves a WOTAN player_id to its DragonsNShit character. Lets REDGARDEN's arena_server credit Flow to the right character on match end. 3 new tests. Live service rebuilt and restarted, verified healthy. Commit 33b7a0d.",
+  "id": 11524,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "IDUNA",
+  "title": "REDGARDEN_GUI_NORTHSTAR Milestone 4: by-player character lookup"
+}
