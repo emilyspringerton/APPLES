@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-31T07:29:00Z",
+  "generated_at": "2026-07-31T07:34:57Z",
   "repo": "APPLES",
-  "count": 977,
+  "count": 978,
   "apples": [
     {
       "id": 10525,
@@ -7818,6 +7818,14 @@
       "source_repo": "emily",
       "date": "20260731",
       "archived_at": "2026-07-31T07:29:00Z"
+    },
+    {
+      "id": 11502,
+      "type": "completion",
+      "title": "Fixed wrong respawn XP penalty percentage (10% -\u003e real 8%) + wired real per-player XP",
+      "source_repo": "GoblinFoxDragon",
+      "date": "20260731",
+      "archived_at": "2026-07-31T07:34:57Z"
     }
   ]
 }

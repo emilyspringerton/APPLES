@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-31T07:34:57Z",
+  "body": "Found a real bug in my own prior commit: the respawn handler called HPState.RaiseDefault, which applies combat.DefaultRaisePenaltyPct (10%) -- checked against apps2/mud's own actual live behavior and that's not the real number. apps2/mud's real cmdHome hand-computes an 8% penalty (homepoint.DefaultXPPenaltyPct) and doesn't call HPState.Raise at all, contradicting what my own prior commit message claimed. Fixed by passing homepoint.DefaultXPPenaltyPct explicitly into HPState.Raise (which accepts an arbitrary percentage) instead of trusting its unrelated 10% default. Also wired real per-player XP: fetchCharacterCombatStats now returns IDUNA's real Character.CurrentXP, stored on clientInfo and mutated on respawn. go build/test clean. Commit 0b01c07.",
+  "id": 11502,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "GoblinFoxDragon",
+  "title": "Fixed wrong respawn XP penalty percentage (10% -\u003e real 8%) + wired real per-player XP"
+}
