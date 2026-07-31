@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-31T06:15:02Z",
+  "body": "Founder: 'continue dragons n shit do the docs first.' Wrote docs2/specs/REDGARDEN_MUD_BRIDGE_SPEC.md, the concrete packet-level layer under today's earlier REDGARDEN_GUI_NORTHSTAR.md, grounded in real code on both sides (protocol.h's actual structs, apps2/mud/main.go's actual cmd* handlers). Reuses REDGARDEN's real HMAC connect-ticket handshake. Maps real packets (ArenaAttackCmd, ArenaCastCmd, ArenaShopBuyCmd) onto real functions (cmdAttack, cmdWS, cmdShopBuy); drops PACKET_ARENA_PICK (no draft in a persistent MMO). Found and named two real gaps: apps2/mud has zero continuous intra-zone movement server-side today (cmdGo only teleports between zones), and ArenaAttackCmd's hero-slot targeting has no equivalent against apps2/mud's string-ID targeting -- both reframe the northstar's own milestone scope. Proposed a MudEvent list to replace REDGARDEN's flat HP-delta visual-effect idiom. UDP port 2324 proposed. Updated REDGARDEN_GUI_NORTHSTAR.md in place, registered in golden-docs-index. GoblinFoxDragon 1b8bbcd, EMILY d1eb4f6.",
+  "id": 11488,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "GoblinFoxDragon",
+  "title": "REDGARDEN \u003c-\u003e apps2/mud packet-level bridge spec written"
+}
