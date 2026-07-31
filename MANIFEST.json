@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-31T15:39:18Z",
+  "generated_at": "2026-07-31T15:50:34Z",
   "repo": "APPLES",
-  "count": 1036,
+  "count": 1037,
   "apples": [
     {
       "id": 10525,
@@ -8290,6 +8290,14 @@
       "source_repo": "emily",
       "date": "20260731",
       "archived_at": "2026-07-31T15:39:18Z"
+    },
+    {
+      "id": 11561,
+      "type": "completion",
+      "title": "emily redgarden: fix XDG_RUNTIME_DIR permission denied + add rollback on partial failure",
+      "source_repo": "emily.cli",
+      "date": "20260731",
+      "archived_at": "2026-07-31T15:50:34Z"
     }
   ]
 }

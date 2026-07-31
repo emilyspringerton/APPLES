@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-31T15:50:34Z",
+  "body": "Founder hit real Permission denied running emily redgarden bots 19 -- inherited XDG_RUNTIME_DIR=/run/user/0 pointed systemctl --user at root's session bus instead of the founder's own uid-1000 session. redgardenSystemctlEnv() now always overrides to /run/user/\u003cactual-uid\u003e instead of only filling it in when unset. Also fixed a correctness bug this exposed: a failed daemon-reload/restart after a successful unit-file write left the file out of sync with the still-running pool -- both steps now roll the file back on failure. Verified against the founder's exact broken env (reproduced XDG_RUNTIME_DIR=/run/user/0): bots 19 now writes/reloads/restarts correctly, live pool confirmed at 19. Commit 2837e49.",
+  "id": 11561,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "emily.cli",
+  "title": "emily redgarden: fix XDG_RUNTIME_DIR permission denied + add rollback on partial failure"
+}
