@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-31T06:51:26Z",
+  "body": "Founder: 'convert gil to flow.' REDGARDEN already has real shipped Flow economy terminology (S170-175); DragonsNShit's own currency naming now matches. Renamed apps2/mud's player.gil field and all in-game text, the gil-drop loot item, server/quest's RewardGil/Result.Gil, server/auction's ErrInsufficientGil/buyerGil (+ test name), server/market/ah.go's comments. GOWORK=off go build/test clean across the whole module. Two of today's docs updated to reflect the completed rename. Commit a99c9bc.",
+  "id": 11494,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "GoblinFoxDragon",
+  "title": "gil -\u003e flow/Flow renamed across the whole dragonsnshit module (backlog Sprint 2)"
+}
