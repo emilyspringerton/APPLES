@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-31T02:43:11Z",
+  "generated_at": "2026-07-31T02:54:06Z",
   "repo": "APPLES",
-  "count": 940,
+  "count": 941,
   "apples": [
     {
       "id": 10525,
@@ -7522,6 +7522,14 @@
       "source_repo": "emily",
       "date": "20260731",
       "archived_at": "2026-07-31T02:43:11Z"
+    },
+    {
+      "id": 11465,
+      "type": "completion",
+      "title": "Fixed real TOCTOU race in auto-deploy's match-aware restart guard",
+      "source_repo": "REDGARDEN",
+      "date": "20260731",
+      "archived_at": "2026-07-31T02:54:06Z"
     }
   ]
 }

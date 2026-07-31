@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-07-31T02:54:06Z",
+  "body": "Founder: 'the whole game just stops... like the server process died' -- it had. auto_deploy.sh's own scheduled restart killed a match with active combat despite the existing match-aware guard, a real point-in-time pgrep race. Hardened with two independent signals (pgrep re-checked after a settle delay + a new recent-match-log-activity check), either one deferring the restart. Validated live against the currently-running match. Also bumped bot pool back to 20 to get a match running again immediately.",
+  "id": 11465,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "REDGARDEN",
+  "title": "Fixed real TOCTOU race in auto-deploy's match-aware restart guard"
+}
