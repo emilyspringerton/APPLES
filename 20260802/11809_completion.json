@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-02T22:06:15Z",
+  "body": "Founder reported requeuing into Battlegrounds after returning to Town worked twice then failed every time, and confirmed killing+relaunching the client fixed it -- a strong signal it was client state, not the server. Traced it precisely: get_player_login_ticket mints a connect ticket once at initial login; net_connect() reused that same ticket for every reconnect for the rest of the session. IDUNA's RedgardenTicketTTL is a hardcoded 5 minutes, and arena_server silently drops PACKET_CONNECT for an expired ticket with no rejection sent back -- looks identical to 'the human never joined the lobby,' which is what an earlier bot-pool/matchmaker investigation this same session (real, but a red herring for this specific bug) had found: matches sitting stuck at 19/20 connected. Added refresh_self_ticket(), minting a fresh ticket from the stored login JWT before every connect instead of reusing the first one. This was never a REDGARDEN-side issue -- fixed entirely client-side in GoblinFoxDragon's battlegrounds_gui.",
+  "id": 11809,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "GoblinFoxDragon",
+  "title": "Real fix: requeue failures were a stale 5-minute connect ticket, not the bot pool"
+}

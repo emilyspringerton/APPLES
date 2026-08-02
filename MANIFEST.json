@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-02T21:58:32Z",
+  "generated_at": "2026-08-02T22:06:15Z",
   "repo": "APPLES",
-  "count": 1274,
+  "count": 1275,
   "apples": [
     {
       "id": 10525,
@@ -10194,6 +10194,14 @@
       "source_repo": "emily",
       "date": "20260802",
       "archived_at": "2026-08-02T21:58:32Z"
+    },
+    {
+      "id": 11809,
+      "type": "completion",
+      "title": "Real fix: requeue failures were a stale 5-minute connect ticket, not the bot pool",
+      "source_repo": "GoblinFoxDragon",
+      "date": "20260802",
+      "archived_at": "2026-08-02T22:06:15Z"
     }
   ]
 }
