@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-02T18:07:33Z",
+  "body": "Founder: 'ensure my avatar can move around town and the location is persisted so login to same spot.' Found and fixed a real gap: town_sync_position was throttled to once per 2s, so a player who moved and quit within that window lost their last few steps. Added a force param, called once at shutdown to flush pending movement. Live-verified end-to-end: forced movement + quit at 800ms (under the throttle) still persisted the partial position (2.383, 0, 1.589); a fresh second launch loaded from exactly that spot, confirming real session-to-session persistence. GoblinFoxDragon 3ae38ff.",
+  "id": 11785,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "GoblinFoxDragon",
+  "title": "Town position sync flushes on quit -- true login-to-same-spot"
+}
