@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-02T16:41:13Z",
+  "body": "M5: ability panes ported from Battlegrounds' HUD into Town, inert (no cast/combat system yet). Plus unplanned same-day extension: real new zone 4 'Town Square' in apps2/mud (server/zone/zone.go), kept separate from Meadow/zone 0 to avoid conflating a live telnet MUD zone with Town's local-only scene; a real worm mob (server/mob/worm.go TownSquareWormSpawns) spawned into apps2/mud's own mob registry; a decorative client-side worm silhouette at the real spawn position. Live apps2/mud (gfd-mud.service) rebuilt and restarted; Meadow's 8 worms confirmed unaffected. Explicitly not built: wiring Town into apps2/server-go's real voxel Dragonfly world (server/worldapi's DragonflyChunkGenerator) -- flagged as a separate, larger undertaking. GoblinFoxDragon 50d582e + ab1a197. Completes the Town avatar/movement/backend-sync sprint plan (M1-M5).",
+  "id": 11777,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "GoblinFoxDragon",
+  "title": "M5 ability panes + Town Square zone + starter-area worm"
+}
