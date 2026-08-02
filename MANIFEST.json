@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-02T15:03:01Z",
+  "generated_at": "2026-08-02T15:16:13Z",
   "repo": "APPLES",
-  "count": 1234,
+  "count": 1235,
   "apples": [
     {
       "id": 10525,
@@ -9874,6 +9874,14 @@
       "source_repo": "emily",
       "date": "20260802",
       "archived_at": "2026-08-02T15:03:01Z"
+    },
+    {
+      "id": 11769,
+      "type": "completion",
+      "title": "Live crash investigation: reapplied 2 confirmed fixes, disproved Warrior/Cart hypothesis, shipped real crash diagnostics",
+      "source_repo": "REDGARDEN",
+      "date": "20260802",
+      "archived_at": "2026-08-02T15:16:13Z"
     }
   ]
 }

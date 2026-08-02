@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-02T15:16:13Z",
+  "body": "Founder's own force-push reverted REDGARDEN to 00e0aff, discarding several same-day fixes -- founder then reported a real live bug: 'draft works but then the game is just frozen never start,' a real human's match disappearing entirely (process gone, zero snapshots, no match_end) while every controlled bot-only reproduction ran clean. Investigation: (1) reapplied arena_bot's stale ARENA_HERO_COUNT=28 fix (real roster is 30; no bot has ever been able to draft Warrior/Cart, only a real human client can) and test_10_bots.sh's PID-scoped cleanup fix (Apple #11565's exact bug, reintroduced by the same revert) -- both confirmed independent, low-risk, reapplied regardless of the revert decision, verified live with zero disruption to an active founder match. (2) Directly tested and DISPROVED the natural hypothesis that Warrior/Cart specifically triggers the crash -- a controlled 20-bot match with both heroes drafted went live and produced snapshots cleanly. (3) Shipped real crash diagnostics since the actual live incident left nothing to investigate: SIGSEGV/SIGABRT/SIGFPE/SIGBUS/SIGILL now dump match_phase/picked_count/every hero's state plus a real backtrace to stderr + the match's own JSONL log before re-raising. Verified live via kill -SEGV. Root cause of the actual crash is still open -- next live occurrence will have real forensic data instead of silence. REDGARDEN 77f1321 + 4c6aa11 + 452f6d8.",
+  "id": 11769,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "REDGARDEN",
+  "title": "Live crash investigation: reapplied 2 confirmed fixes, disproved Warrior/Cart hypothesis, shipped real crash diagnostics"
+}
