@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-02T21:05:04Z",
+  "body": "Founder: 'i want you to sync up town with the MUD' -\u003e chose both real MUD commands from Town's chat box AND telnet players seeing Town's GUI players. chat_send_or_command routes '/'-prefixed lines in either chat box (Town's own or in-match) to the real headless-session command dispatch -- HEADLESS_SESSION_NORTHSTAR.md's original M3 design, finally built. getOrCreateHeadlessPlayer now registers into gw.zoneMgr/gw.chatRouter and broadcasts 'X has entered the world' on creation, same as a real telnet connection. Live-verified end-to-end with two real characters: character 1's own session buffer captured character 2's real-time entrance broadcast, confirming a Town player's presence reaches other live sessions exactly like real telnet would see it. Go build/vet clean. GoblinFoxDragon 17a7b86.",
+  "id": 11801,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "GoblinFoxDragon",
+  "title": "Town synced with the MUD -- real chat commands + telnet visibility"
+}

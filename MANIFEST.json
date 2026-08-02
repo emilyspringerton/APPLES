@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-02T20:59:57Z",
+  "generated_at": "2026-08-02T21:05:04Z",
   "repo": "APPLES",
-  "count": 1266,
+  "count": 1267,
   "apples": [
     {
       "id": 10525,
@@ -10130,6 +10130,14 @@
       "source_repo": "emily",
       "date": "20260802",
       "archived_at": "2026-08-02T20:59:57Z"
+    },
+    {
+      "id": 11801,
+      "type": "completion",
+      "title": "Town synced with the MUD -- real chat commands + telnet visibility",
+      "source_repo": "GoblinFoxDragon",
+      "date": "20260802",
+      "archived_at": "2026-08-02T21:05:04Z"
     }
   ]
 }
