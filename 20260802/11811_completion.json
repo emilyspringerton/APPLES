@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-02T22:15:20Z",
+  "body": "Two fixes from continued live testing. (1) The earlier Enter-key AH ordering fix wasn't enough in practice -- Enter was the only way to open chat, so it kept feeling like a conflict even with AH correctly consuming it first. Added C/Y/T as additional chat-open keys in both Town and in-match chat (C skipped in-match since it's already the cam_locked toggle there, per 'keep battlegrounds as is'). (2) Live-reproduced the requeue failure again even after the stale-ticket fix (Apple #11809) -- confirmed via REDGARDEN's own matchmaker log that a fresh 60s match attempt got stuck at 19/20 connected with the human never landing the 20th slot, same zero-margin race found earlier. This is a REDGARDEN-side operational tuning knob (the bot-pool's own script comments say it flips on founder direction), not code -- restarted the live redgarden-bot-pool.service with N_BOTS dropped from 19 to 18 (editing the deployed ~/.config/systemd/user unit, not REDGARDEN's repo), leaving 2 open slots instead of 1. Also restarted redgarden-matchmaker-bots to flush a stale queue backlog my own repeated test restarts had accumulated. Verified settled state: exactly 18 real bot processes, queue steady at 18/20, no phantom entries.",
+  "id": 11811,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "GoblinFoxDragon",
+  "title": "C/Y/T open chat alongside Enter; bot pool widened to 18 for requeue margin"
+}
