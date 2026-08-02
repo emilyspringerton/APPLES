@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-02T19:36:06Z",
+  "body": "Founder: 'can we kill worms?' -\u003e offered a simple hit-for-damage option vs the real MUD combat system; founder chose the real system. Implemented HEADLESS_SESSION_NORTHSTAR.md's core mechanism: getOrCreateHeadlessPlayer builds a real player with no telnet connection (w wraps an owned bytes.Buffer instead of a net.Conn), registered directly into gw.players so the real 1Hz gameLoop/tickAll resolves its combat (auto-attack swing timer, TP, enmity, kill/loot/XP via resolveKill) with zero changes to the tick loop. New POST /api/town/command on the existing :7171 API. Found and fixed two real, pre-existing bugs affecting real telnet play too: gfd-mud.service never had IDUNA_AGENT_NAME/SECRET configured (every idunaclient call silently 401ing this whole time); idunaclient.UpdateCharacterLevel called a route that never existed on IDUNA (PATCH /api/v1/characters/:id with no suffix) -- meaning level/XP had never actually persisted across apps2/mud restarts for ANY real player, ever. Fixed with a real new IDUNA route (/level, agent-only) plus a client-side URL fix. Live-verified end-to-end: real auto-attack, real kill, real XP (+900), real level-up (1-\u003e3), real loot, confirmed landing in IDUNA after both bugs were fixed. GoblinFoxDragon 3a2940d, IDUNA 3ebad87.",
+  "id": 11792,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "GoblinFoxDragon",
+  "title": "Real headless-session MUD combat -- the Town Square worm is genuinely fightable"
+}
