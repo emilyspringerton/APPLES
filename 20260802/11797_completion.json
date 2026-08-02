@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-02T20:39:05Z",
+  "body": "Multiple rapid founder follow-ups after the first worm kill: chat+combat log panes now render in Town (full input handling wired in); Tab/Shift+Tab cycles targets WoW-style with an amber highlight; pressing '1' -- Battlegrounds' own ability-slot keybind -- sends the real MUD attack command to apps2/mud's headless combat endpoint (the concrete 'unify battlegrounds combat with the mud combat' step, REDGARDEN's own repo untouched); worm ring expanded 1-\u003e4; cosmetic space-bar jump. Fixed a real JSON HTML-escaping bug server-side that was garbling real MUD combat text. Then: founder uploaded a real hand-drawn town-map.jpeg straight to GitHub ('i want the town layout to match town map pretty much exactly') -- rebased in, transcribed into 25 named buildings (TOWN_BUILDINGS) at their real relative positions with floating name labels, zone renamed Town Square -\u003e New Handington, worm spawns repositioned to the map's own real Worm Hut location. Go build/test green throughout. Visually verified under Xvfb with synthetic input: chat history, real combat text, target highlight, and the full building layout all confirmed live. GoblinFoxDragon 7f1c53c + 20b418e.",
+  "id": 11797,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "GoblinFoxDragon",
+  "title": "Town HUD (chat+combat log), target cycling, unified combat keybind, and New Handington town layout"
+}
