@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-02T21:52:16Z",
+  "body": "Founder reported the whole client 'crashes' when hitting Enter for Browse Categories. Root cause: Town's event loop checked the 'Enter opens chat' shortcut before the Auction House menu's own Enter handler, so for any real logged-in player (g_chat_jwt set), Enter opened the chat box instead of confirming the AH selection, then ate all further keystrokes as chat text with the AH menu stuck open and no way out -- indistinguishable from a hang at the keyboard, not a real segfault. Reordered the AH-menu check ahead of the chat shortcut. Verified both directions with a real SDL_KEYDOWN/SDLK_RETURN event pushed through the actual dispatch code (not a direct function call, which didn't reproduce it): confirmed repro against the pre-fix commit, confirmed fixed against the new one.",
+  "id": 11807,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "GoblinFoxDragon",
+  "title": "Auction House Enter-key crash fixed -- event ordering bug"
+}
