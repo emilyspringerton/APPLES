@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-02T21:41:17Z",
+  "body": "Built a real FFXI-style Auction House menu (right-click to open, arrow keys + Enter/Backspace/Escape to navigate) wired to apps2/mud's real ah command surface via /api/town/command -- no mocked data. Doubled every TOWN_BUILDINGS position/half-extent and the worm-hut cluster (server/mob/worm.go) to match founder's 'double the size of the town and the buildings,' diffed field-by-field against the pre-doubling commit to confirm an exact 2x with no math errors. Added /logout as a real chat command in both Town and in-match chat, fixing a real pre-existing bug where the in-match chat handler had never been converted to route through slash-commands. Also root-caused a live 'buildings totally gone' report to a test character standing inside the Auction House's own bounding box (backface-culled from the inside), not a rendering defect -- repositioned it clear.",
+  "id": 11805,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "GoblinFoxDragon",
+  "title": "Real Auction House menu, doubled town/buildings, /logout chat command"
+}
