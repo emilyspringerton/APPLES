@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-02T20:56:36Z",
+  "body": "Founder reported: 'i closed dragonsnshit client and reopened it and that did not fix it - well it did something different it put me into the map with nothing happening skipping the draft.' Found a narrower race in the same REDGARDEN-side 60s watchdog issue diagnosed earlier today: net_connect() can receive a real PACKET_WELCOME right before arena_server's own watchdog kills the match, leaving the client on a dead socket with net_phase stuck at ARENA_PHASE_WAITING forever -- draft screen never shows, arena_state never updates. Fixed client-side: g_net_last_packet_ms tracks real server activity since connect; 10s of total silence post-connect recovers to Town, reusing the same in_town=1 pattern already proven in three other contexts this session. arena_server/matchmaker untouched. Live-verified the exact race with a fake matchmaker+server (real wire-format PACKET_WELCOME then silence, struct sizes confirmed via sizeof() against the real protocol.h) -- confirmed via logs the client waits the full 10s then fires the recovery. GoblinFoxDragon 3d54634.",
+  "id": 11799,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "GoblinFoxDragon",
+  "title": "Dead-connection recovery for the 'skipped the draft' matchmaking bug"
+}
