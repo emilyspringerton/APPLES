@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-02T18:00:41Z",
+  "body": "Founder asked to add Poison back to the Meadow level-1 worm's spell pool. Surfaced the real, tested reason it was removed (ba735e8, 2026-07-23: up to 300 damage from a single 20%-chance proc against a 90-150 HP level-1 character -- a real death, live). Founder chose to restore it exactly as it was, knowingly: 'this is a game for the hardcore a lvl1 poison ko is perfect.' mobSpellPool[\"worm\"] restored to {status.Slow, status.Poison}, matching its exact pre-fix value. Confirmed still not guaranteed every fight (20% base proc chance, 50/50 pick between Slow/Poison), per founder's own follow-up 'as long as its not always.' Go build/vet green, live gfd-mud.service rebuilt and redeployed. GoblinFoxDragon 7f1e84c.",
+  "id": 11783,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "GoblinFoxDragon",
+  "title": "S170-57: worm's Poison restored, knowingly, hardcore-by-design"
+}
