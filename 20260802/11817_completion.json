@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-02T23:41:19Z",
+  "body": "Added a real telecrystal (server/telecrystal) connecting New Handington's Dragon Gate to Meadow, the real starter zone -- apps2/mud already had a full player-facing telecrystal system used by apps/lobby's SHANKPIT-style client, New Handington just never had a crystal of its own. Verified working correctly via real telnet. While testing the GUI-side wiring, found a real, critical, previously-undiscovered bug: the exact same travel command deadlocks the ENTIRE mud server (confirmed via a live SIGQUIT goroutine dump -- gameLoop's own tick, healthy seconds before, permanently stops afterward) when invoked through the headless /api/town/command HTTP path that the GUI client uses for every command. Reproduced even with cmdTravel's body stripped to a bare Lock/Unlock, ruling out the crystal data or the Sunderworm work as causes. Root cause not isolated given time spent. Given the severity, deliberately reverted the Dragon Gate's GUI wiring rather than ship something that could take the whole server down for every player -- left a clear warning comment and CHANGELOG entry instead. The defer-based hardening applied is real but does not fix the underlying hang.",
+  "id": 11817,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "GoblinFoxDragon",
+  "title": "Telecrystal to starter zone added; critical headless-path server deadlock found and NOT shipped"
+}
