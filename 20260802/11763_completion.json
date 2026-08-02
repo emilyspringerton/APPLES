@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-02T14:04:34Z",
+  "body": "Founder: 'the rsi loop keeps putting the same stale 7ish tasks into the backlog.' Root cause: runPrimeTriage re-scored the same ReadObservations(10) window every cycle with no cursor tracking which observations had already been triaged for tasking. WriteTask's own recentDuplicateExists (rolling 4h content-match window) only ever rate-limited this to once per ~4h12m (window expires -\u003e next poll finds no recent match -\u003e writes a fresh duplicate -\u003e clock resets), not stopped it -- 260 duplicate copies of the same 9 tasks accumulated in signals/tasks/ over roughly 45 days (no new observations had arrived since 2026-06-13, so the same top-10 window recirculated indefinitely). Fixed with a .task-cursor file mirroring the existing, correctly-working .escalation-cursor pattern. 2 new regression tests -- one specifically backdates a task file past the 4h window to prove the NEW cursor, not the pre-existing dedup layer, is what prevents the duplicate; both confirmed to fail without the fix and pass with it. Also found and handled two adjacent issues: (1) 91 legitimate local commits had never been pushed to origin -- pushed now; (2) the live emily-agent daemon wasn't running under its own systemd unit at all (emily-system.service has been failed/oom-killed since 2026-07-21) -- it was running ad-hoc since 2026-07-23 via a temp go-build binary. Rebuilt with the fix and restarted in place (same ad-hoc invocation shape, not migrated to systemd -- flagging that gap, not fixing it here, out of scope for this fix). Verified live: cursor file created correctly on the real production observation set, no new duplicate task files written on the first post-fix cycle. Also flagging, not fixing: the Anthropic API key emily-agent uses has run out of credit balance, breaking HEIMDAL sprint translation. emily-agent/integration.go commit 7d64f5a.",
+  "id": 11763,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "EMILY",
+  "title": "RSI loop was re-issuing the same ~9 stale tasks into signals/tasks/ forever -- fixed"
+}

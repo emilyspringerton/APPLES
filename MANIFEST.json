@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-02T14:03:30Z",
+  "generated_at": "2026-08-02T14:04:34Z",
   "repo": "APPLES",
-  "count": 1228,
+  "count": 1229,
   "apples": [
     {
       "id": 10525,
@@ -9826,6 +9826,14 @@
       "source_repo": "emily",
       "date": "20260802",
       "archived_at": "2026-08-02T14:03:30Z"
+    },
+    {
+      "id": 11763,
+      "type": "completion",
+      "title": "RSI loop was re-issuing the same ~9 stale tasks into signals/tasks/ forever -- fixed",
+      "source_repo": "EMILY",
+      "date": "20260802",
+      "archived_at": "2026-08-02T14:04:34Z"
     }
   ]
 }
