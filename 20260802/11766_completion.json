@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-02T14:32:02Z",
+  "body": "Founder corrected the earlier approach: 'REDGARDEN isnt literally the GUI its supposed to be a starting place for the GUI like a clean fork.' Replaced the live cross-repo CI checkout (GoblinFoxDragon 12f4122) with a real, standalone copy at apps2/battlegrounds_gui/ (forked from REDGARDEN commit 61baafb), self-contained (own packages/simulation + packages/common, no collision with GFD's existing top-level packages/packages2). GFD's own CI now builds directly from this local copy. Also shipped, same session: ability casts rebound from Q/W/E to 1/2/3, continuous camera-relative WASD movement added alongside click-to-move (fork-only, REDGARDEN's own copy untouched). Found and fixed a real bug testing the founder's own test@test.com account live: PLAY.bat never set IDUNA_BASE_URL, so a real downloaded client always got 'Could not reach login server' off-box. Also found and fixed, in IDUNA/REDGARDEN: IDUNA's own REDGARDEN_TICKET_SECRET didn't match the live game server's -- every IDUNA-minted ticket had never been able to verify. Verified live end-to-end: login -\u003e ticket mint -\u003e connect -\u003e '20/20 connected' in a real match. CI confirmed green on every commit (134b6a2, 1fbcb98). GoblinFoxDragon 134b6a2 + 1fbcb98, REDGARDEN 00116d7 + ff78efb (PLAY.bat + ticket-secret fixes).",
+  "id": 11766,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "GoblinFoxDragon",
+  "title": "Real fork of REDGARDEN's apps/arena into apps2/battlegrounds_gui/, plus 1/2/3 keybinds + WASD + off-box login fix"
+}
