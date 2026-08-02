@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-02T21:15:23Z",
+  "body": "Closes out HEADLESS_SESSION_NORTHSTAR.md's full 5-milestone table (M1-M5 all done). evictIdleHeadlessSessions drops sessions idle past 10 minutes via a new headlessLastActive field, flushing final position the same shape a real telnet disconnect would. disconnectHeadlessSession is shared teardown logic used by both the idle sweep and the new telnet-conflict path: handleConn now tears down any live headless session for the same character before a real telnet login takes over, and symmetrically, getOrCreateHeadlessPlayer refuses (409) to spawn a headless session for a character already connected via telnet rather than crashing (a real telnet player's w wraps a net.Conn, not a buffer, so there's no output to hand back). Live-verified both directions with real characters: telnet arriving while a headless session is live tears it down cleanly with no crash; a headless command while telnet is live correctly returns 409 instead of duplicating or crashing. Go build/vet clean. GoblinFoxDragon 40c40c9.",
+  "id": 11803,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "GoblinFoxDragon",
+  "title": "Headless-session M4 complete -- idle eviction + telnet-conflict handling, full milestone table closed"
+}
