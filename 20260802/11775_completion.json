@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-02T16:27:41Z",
+  "body": "Real avatar rendered in Town (job WAR -\u003e ARENA_HERO_WARRIOR), WASD+click-to-move, and position sync to IDUNA's characters table via the now-ownership-checked PATCH /api/v1/characters/:id/position. Live-verified end-to-end against the real test@test.com account: login -\u003e character fetch (confirmed real pos_x/y/z + job_main) -\u003e simulated movement -\u003e position correctly persisted back. Visually verified under Xvfb. GoblinFoxDragon 50d582e, IDUNA ab35b72 (ownership-check prerequisite). M1-M4 of the same-day sprint plan; M5 (ability panes) still open.",
+  "id": 11775,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "GoblinFoxDragon",
+  "title": "Town avatar, movement, and position sync backed by IDUNA's real character record"
+}
