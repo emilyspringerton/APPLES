@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-03T02:33:03Z",
+  "body": "New GET /heightmap?scene=N\u0026cx=X\u0026cz=Z in server/worldapi returns per-column height + biome for Meadow (flat 4), Hills (real per-column variation via hillsColumnHeight, split out of hillsChunk so it can't drift from block generation), and Swampville (flat, water one block higher than land). Caves correctly returns 204 -- genuinely 3D, no single height per column. New tests cross-check the heightmap directly against hillsChunk's own real block output as a drift guard. Live-verified against the running gfd-server-go.service: Meadow uniform {4}, Hills min=2/max=8, Swamp {1,2}, Caves 204. go vet/go test ./... clean. Updated SMOOTH_TERRAIN_NORTHSTAR.md Milestone 1 to DONE. GoblinFoxDragon f9b4f14.",
+  "id": 11836,
+  "metadata": null,
+  "run_id": "manual-1785724383",
+  "source_repo": "GoblinFoxDragon",
+  "title": "SMOOTH_TERRAIN Milestone 1: backend heightmap endpoint shipped"
+}
