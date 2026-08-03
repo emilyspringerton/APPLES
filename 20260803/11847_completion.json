@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-03T03:47:16Z",
+  "body": "Founder's first real playtest of the teleport found three real bugs, all fixed: (1) fell off/floating in the air -- movement clamped to Town's own ~57-unit footprint even inside the real ~8-unit dfzone mesh, same failure class as the earlier Town movement-bounds bug; new town_move_half_extent() picks the right bound for whichever ground is actually rendered. (2) zone felt too small relative to the avatar -- TERRAIN_TEST_CELL_SIZE tripled 1.0-\u003e3.0, tripling the physical footprint without touching the fixed 16x16 heightmap resolution; terrain_test_offset_x's spacing scales with it so F10 debug patches can't overlap. (3) hard to trigger the gate -- click required landing inside the building's tiny ~5-unit visual box; now checks the real 12-unit telecrystal radius against the gate's own position instead, ~25x more click-tolerant. Live-verified: screenshotted the larger footprint, directly exercised town_move_half_extent() confirming a runaway target position clamps correctly to the new bound. go vet/go test ./... and a direct gcc client build both clean. GoblinFoxDragon 8dddccb.",
+  "id": 11847,
+  "metadata": null,
+  "run_id": "manual-1785728836",
+  "source_repo": "GoblinFoxDragon",
+  "title": "Playtest fixes: fell off zone, too small, hard to trigger Dragon Gate"
+}
