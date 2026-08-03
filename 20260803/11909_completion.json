@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-03T16:21:15Z",
+  "body": "Founder: 'for damage we want to make it match up.' gameEntityHit's own Entity() used to return a no-op stub (nopEntity) even after real hit detection landed -- a hit was detected but never actually hurt anyone. New realEntity applies real damage to the hit client's own hpState, mirroring PacketWSCast's own already-real damage application exactly (same TakeDamage call, same defensive fallback hpState). Mutates the same clients map the main loop owns (Go maps are reference types), no separate write-back needed. 6 new tests. go build/go vet/go test ./... clean. Live-verified: real gfd-server-go.service rebuilt, redeployed, confirmed stable. Per founder direction mid-session: this closes out the SHANKPIT-hitscan combat thread for now -- priority shifts to unifying combat with Battlegrounds (WoW/FFXI/LoL-shaped, tab-target/ability-kit) as the real MMO foundation, with real-time shooter mechanics reconsidered later on top of that, not before it. GoblinFoxDragon 7629477.",
+  "id": 11909,
+  "metadata": null,
+  "run_id": "manual-1785774075",
+  "source_repo": "GoblinFoxDragon",
+  "title": "Real damage on hitscan hit -- closes SHANKPIT-hitscan thread for now"
+}
