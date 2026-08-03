@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-03T03:57:36Z",
+  "body": "Founder: 'check the shankpit side of the codebase there is telecrystals the ux is good i want it like that circle showing cast radius cast bar ticks up.' Replaced the click-based Dragon Gate trigger entirely with the same real mechanic apps/lobby/src/main.c (this repo's own older SHANKPIT-style client) already ships: a pulsing world-space ring at the crystal's real interaction radius (12 units both directions, server/telecrystal's own registry values), turning solid white when the player is inside it; pressing G while in range starts a real cast, not an instant teleport; a fill bar with a commit tick-mark advances over 1000ms, the real travel/return call fires at the 600ms commit mark (matching the reference's own commit-before-bar-finishes feel), leaving the ring before commit cancels the cast. New draw_mesh_lines (GL_LINE_LOOP twin of draw_mesh) since this client's 3D pass is shader-bound (uMVP uniform), not the legacy fixed-function matrix stack apps/lobby's own ring uses -- the ring is a real mesh through the existing pipeline instead of mixed-in immediate-mode calls. New town_gate_current_crystal/town_gate_tick/town_gate_start_cast/town_draw_gate_ring/town_draw_gate_overlay, scoped down from the reference's own generic N-crystal table to this client's one real interactive gate (identity flips between the two real registry entries depending on active zone). Live-verified visually under Xvfb: screenshotted mid-cast showing the fill bar, red commit marker, and 'CASTING: TELEPORT MEADOW' text against the real in-range white ring. go vet/go test ./... and a direct gcc client build both clean. GoblinFoxDragon 16d314c.",
+  "id": 11849,
+  "metadata": null,
+  "run_id": "manual-1785729456",
+  "source_repo": "GoblinFoxDragon",
+  "title": "Real telecrystal cast UX, ported from apps/lobby's own reference"
+}
