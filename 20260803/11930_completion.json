@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-03T19:32:10Z",
+  "body": "Real click-vs-drag right-click dispatch (worm attack/building interact/move) in Town+Meadow; Battlegrounds' existing NORTHSTAR-specified move/attack/attack-move/patrol rebound from left to right mouseup, clone-inclusive commanders[] preserved; verified end-to-end via synthetic SDL click; commit f292989",
+  "id": 11930,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "GoblinFoxDragon",
+  "title": "Right-click = attack-move/interact for Town, Meadow, and Battlegrounds"
+}
