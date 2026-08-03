@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-03T03:35:35Z",
+  "body": "Founder hit 'the crystal fizzles -- travel failed' immediately on trying the real Dragon Gate teleport. Root cause: IDUNA's own handleUpdatePosition (IDUNA/internal/http/handlers/mmo.go) returns 204 No Content on success, not 200 -- town_telecrystal_travel/town_telecrystal_return were checking status != 200, so every genuinely successful position update was reported as a failure. Never surfaced before because town_sync_position (the only other caller of this exact endpoint) never checks the response status at all. Confirmed via direct code read, not guessed: player JWTs set sub to the player's own real player_id (player_email_auth.go), matching characters.player_id by construction, so a player acting on their own character always passes the handler's ownership check -- ruled out as the failure mode. Fixed both call sites to check status != 204. GoblinFoxDragon eeba56d.",
+  "id": 11845,
+  "metadata": null,
+  "run_id": "manual-1785728135",
+  "source_repo": "GoblinFoxDragon",
+  "title": "Fixed real telecrystal fizzle bug -- status check was 200, IDUNA returns 204"
+}
