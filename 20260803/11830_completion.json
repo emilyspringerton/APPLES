@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-03T01:47:17Z",
+  "body": "Got apps2/server-go running under systemd for the first time, fixed a real UDP port conflict with SHANKPIT (shank_server was already on :6969, moved server-go to a configurable -udp-port, deployed on :6970), and live-verified /chunks now serves real Meadow block+tree data. Separately, confirmed the founder's emilyspringerton/dragonfly fork is a genuine, unmodified fork of the real df-mc/dragonfly Bedrock server library -- built and ran it vanilla, real RakNet listener on :19132, mc-version=1.26.30, connectable from a real phone Minecraft client today for debug purposes. Amended SMOOTH_TERRAIN_NORTHSTAR.md with these findings (Trees, Town\u003c-\u003eDragonfly bridge, explicit out-of-scope notes).",
+  "id": 11830,
+  "metadata": null,
+  "run_id": "manual-1785721637",
+  "source_repo": "GoblinFoxDragon",
+  "title": "Dragonfly backend: server-go supervised + Bedrock fork confirmed"
+}
