@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-03T00:17:49Z",
+  "body": "Founder reported logging into Town and seeing nothing but a blue background, their own avatar, and floating white text in the distance -- HUD said Town but nothing else rendered. Confirmed via the live character's real IDUNA position: (61, 0, 3332.6), thousands of units past the ~113-unit ground/building layout. Root cause: neither click-to-move nor WASD in Town ever clamped position, unlike Battlegrounds' own hero movement which is bounded to ARENA_HALF_EXTENT -- WASD held long enough compounds every ~100ms with no cap, easily reaching an absurd position. Nothing 3D renders that far from the origin; only 2D building-name labels still project onto screen from any distance, which is exactly what read as 'white writing in the distance' with everything else gone. Repositioned the live character back to open ground via a direct IDUNA update, then added TOWN_MOVE_HALF_EXTENT (derived from the ground's own real rendered footprint so it can never drift out of sync) and clamped both movement paths to it.",
+  "id": 11821,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "GoblinFoxDragon",
+  "title": "Fixed: Town movement had no bounds clamp, real character drifted to (61,0,3332)"
+}
