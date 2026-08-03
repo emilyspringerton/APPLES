@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "audit",
+  "archived_at": "2026-08-03T11:23:44Z",
+  "body": "Re-checked the F10 debug scene (Meadow/Hills/Swamp side-by-side patches) after the playtest-fix session bumped TERRAIN_TEST_CELL_SIZE 1.0-\u003e3.0 -- the spacing formula (terrain_test_offset_x) was updated at the time to scale with the same constant, but never re-screenshotted since. Confirmed via Xvfb: Meadow and Hills patches render cleanly separated with a clear gap, no overlap at the new scale. No regression, no source changes -- pure verification.",
+  "id": 11884,
+  "metadata": null,
+  "run_id": "manual-1785756224",
+  "source_repo": "GoblinFoxDragon",
+  "title": "Verified F10 debug patches don't overlap at the new 3x scale"
+}

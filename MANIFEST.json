@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-03T11:14:03Z",
+  "generated_at": "2026-08-03T11:23:44Z",
   "repo": "APPLES",
-  "count": 1349,
+  "count": 1350,
   "apples": [
     {
       "id": 10525,
@@ -10794,6 +10794,14 @@
       "source_repo": "GoblinFoxDragon",
       "date": "20260803",
       "archived_at": "2026-08-03T11:14:03Z"
+    },
+    {
+      "id": 11884,
+      "type": "audit",
+      "title": "Verified F10 debug patches don't overlap at the new 3x scale",
+      "source_repo": "GoblinFoxDragon",
+      "date": "20260803",
+      "archived_at": "2026-08-03T11:23:44Z"
     }
   ]
 }
