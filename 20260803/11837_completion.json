@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-03T02:42:31Z",
+  "body": "New build_heightfield_mesh/heightfield_sample in apps2/battlegrounds_gui/src/main.c fetch a real heightmap from worldapi's /heightmap endpoint (Milestone 1), bilinearly interpolate at 2x source resolution, and derive per-vertex normals from finite-difference height gradients -- through the exact same pos+normal upload_mesh/draw_mesh pipeline every other mesh in this client uses, no shader change. New http_extract_json_uint8_array_field in http_client.h parses the wire format. Wired as an F10 debug toggle rendering the real live Hills chunk floating beside Town -- not integrated into Town itself (stays flat by design) and not wired into movement/collision (Milestone 4, later). Live-verified visually, not just compiled: built and ran the real client under Xvfb, connected to Town via a WOTAN dev-agent identity, screenshotted the F10 mesh -- confirmed a real smooth, continuously gradient-shaded rolling surface, not stair-stepped cubes, proving both interpolation and lighting work against real backend data. go vet/go test ./... and a direct gcc client build both clean. GoblinFoxDragon 46e849f.",
+  "id": 11837,
+  "metadata": null,
+  "run_id": "manual-1785724951",
+  "source_repo": "GoblinFoxDragon",
+  "title": "SMOOTH_TERRAIN Milestone 2: client heightfield mesh renderer shipped"
+}
