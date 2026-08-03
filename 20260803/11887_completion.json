@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-03T11:47:17Z",
+  "body": "Founder's original ask ('can we... connect from my phones minecraft, to debug') was only tested manually once earlier today. Made it real and persistent: new user-level systemd unit (dragonfly-debug.service) supervises the real df-mc/dragonfly fork (emilyspringerton/dragonfly, confirmed genuine earlier today -- zero commits ahead of upstream), auto-restarting on failure. Confirmed listening on UDP :19132 and logging real startup (mc-version=1.26.30) under supervision via ss -ulnp and the service's own log. Serves vanilla dragonfly content only, not GoblinFoxDragon's own Meadow biome -- that needs a separate, much larger world-provider integration sourcing from server/worldapi's ProceduralWorldStore, not attempted here. Honest, named gap: WAN/firewall reachability from a phone outside this box's own LAN was NOT verified -- no sudo access this session to check firewall/security-group rules for inbound UDP :19132, so same-LAN connectivity is confirmed but public reachability is not. The systemd unit is deployed locally only (~/.config/systemd/user/), not committed into ~/dragonfly itself -- that's the founder's own personal fork of a real external open-source project, and build binaries/service units don't belong in that repo's git history. GoblinFoxDragon 84de13f (docs/changelog only, since the service unit itself lives outside any git repo).",
+  "id": 11887,
+  "metadata": null,
+  "run_id": "manual-1785757637",
+  "source_repo": "GoblinFoxDragon",
+  "title": "Real dragonfly fork deployed as persistent supervised service"
+}
