@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-03T02:28:25Z",
+  "body": "Resolved a previously open item by direct observation, no new code needed. main.go's crisis-phase handler broadcasts to every connected player (gw.players), not zone-scoped -- confirmed live during this session's own Meadow validation test, where a New-Handington crisis message showed up while the test character was in Meadow. On the headless path this queues into the connection buffer and flushes on the next command (directly observed in the P2 attack response). apps2/battlegrounds_gui's town_poll_combat already drains that buffer every ~1.5s into the shared combat log pane -- the exact path this session's manual test exercised. GoblinFoxDragon e19f1f3.",
+  "id": 11835,
+  "metadata": null,
+  "run_id": "manual-1785724105",
+  "source_repo": "GoblinFoxDragon",
+  "title": "Sunderworm crisis broadcasts confirmed reaching Town's combat log pane"
+}
