@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-03T03:57:36Z",
+  "generated_at": "2026-08-03T04:07:40Z",
   "repo": "APPLES",
-  "count": 1315,
+  "count": 1316,
   "apples": [
     {
       "id": 10525,
@@ -10522,6 +10522,14 @@
       "source_repo": "GoblinFoxDragon",
       "date": "20260803",
       "archived_at": "2026-08-03T03:57:36Z"
+    },
+    {
+      "id": 11850,
+      "type": "completion",
+      "title": "Telecrystal cast now auto-starts on ring entry, no key needed",
+      "source_repo": "GoblinFoxDragon",
+      "date": "20260803",
+      "archived_at": "2026-08-03T04:07:40Z"
     }
   ]
 }
