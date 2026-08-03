@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "audit",
+  "archived_at": "2026-08-03T09:38:43Z",
+  "body": "Tested the one remaining untested edge case in the ported telecrystal UX: leaving the ring before the 600ms commit mark. Simulated under Xvfb: walked into the ring (auto-cast starts, confirmed gatecast_type=ACTIVE mid-cast at frame 15), then walked back out before commit. Confirmed the cast correctly cancelled (gatecast_type reset to NONE) and never committed to travel (dfzone_active stayed 0) -- matches town_gate_tick's own cancel-on-leave-before-commit logic exactly. No source changes -- pure verification. This closes out testing coverage for the full telecrystal cast state machine: start, commit, complete, and now cancel, all confirmed working.",
+  "id": 11875,
+  "metadata": null,
+  "run_id": "manual-1785749923",
+  "source_repo": "GoblinFoxDragon",
+  "title": "Verified telecrystal cast-cancel path, no bugs found"
+}
