@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-03T01:27:21Z",
+  "body": "Founder said 'pls fix' after the earlier session shipped a client-side workaround instead of the real fix. Found it via one precise test: added a trivial inline gw.mu.Lock() case directly to handle()'s own switch statement and it hung identically to cmdTravel -- but the exact same code moved to the /p party-chat check's position (before the switch) worked instantly. This revealed that handle() already locks gw.mu unconditionally right before its dispatch switch runs, for every command except /p's own early return. cmdTravel then tried to lock the same non-reentrant mutex again on the same goroutine -- a textbook self-deadlock that Go's sync.Mutex does not detect or panic on, it just blocks forever. This explains everything from the earlier investigation: no 'holder' ever showed up in any goroutine dump because the holder was the stuck goroutine itself, one frame further up its own stack inside handle() -- not a separate goroutine. It also explains why the earlier telnet A/B test looked like it succeeded: the 'crystal resonates' message is sent before the lock attempt, so the telnet client received it before that same connection's own goroutine silently self-deadlocked afterward; a follow-up command on that same session would have shown it too, it just was never tried. Removed cmdTravel's redundant lock, then audited every remaining gw.mu.Lock() call site in the file and found three more real, live, previously-undiscovered instances of the identical bug: cmdBattlegrounds, cmdSummonAvatar, and the warcry ability case (which called the locking broadcastZone instead of broadcastZoneNoLock). All four fixed the same way. Live-verified against the real production gfd-mud.service: two consecutive telecrystal trips, the new Meadow crystal, and battlegrounds ticket minting -- all instant (~0.015s), all correct, gameLoop's own tick confirmed healthy throughout.",
+  "id": 11827,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "GoblinFoxDragon",
+  "title": "REAL FIX: gw.mu deadlock was a self-deadlock, 4 instances found and fixed"
+}
