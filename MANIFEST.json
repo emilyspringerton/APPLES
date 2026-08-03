@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-03T15:56:51Z",
+  "generated_at": "2026-08-03T16:01:36Z",
   "repo": "APPLES",
-  "count": 1372,
+  "count": 1373,
   "apples": [
     {
       "id": 10525,
@@ -10978,6 +10978,14 @@
       "source_repo": "emily",
       "date": "20260803",
       "archived_at": "2026-08-03T15:56:51Z"
+    },
+    {
+      "id": 11907,
+      "type": "completion",
+      "title": "Real entity hit detection for hitscan shooting -- ported from SHANKPIT",
+      "source_repo": "GoblinFoxDragon",
+      "date": "20260803",
+      "archived_at": "2026-08-03T16:01:36Z"
     }
   ]
 }
