@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-03T11:14:03Z",
+  "body": "Closes the founder's own original ask from earlier today ('render the dragonfly biomes smooth with trees'), only half-delivered until now -- smooth terrain since Milestone 2, trees never actually rendered. New town_meadow_tree_positions mirrors server/worldapi/scenes.go's own meadowTrees hash (chunkX*31 + chunkZ*17 mod 5) directly in C rather than fetching/parsing the full /chunks block list (~1300 objects for one chunk, real parsing complexity for already-deterministic data) -- same 'client keeps its own copy of world data' convention this session's telecrystal work already established twice over. town_draw_dfzone_trees reuses draw_hero_box -- the same stacked-primitive technique every hero/worm/building in this client already uses -- for a thin trunk plus two tapering canopy tiers, sitting at the zone's own real terrain height (dfzone_height_at) rather than assuming y=0. Meadow only (Hills has none by design, Swampville isn't offered as a real destination here). Live-verified visually under Xvfb: screenshotted a real tree standing in the Meadow zone at its correct deterministic position, alongside the working return-crystal ring. go vet/go test ./... and a direct gcc client build both clean. GoblinFoxDragon 2674334.",
+  "id": 11883,
+  "metadata": null,
+  "run_id": "manual-1785755643",
+  "source_repo": "GoblinFoxDragon",
+  "title": "Real trees rendering in the Dragonfly zone -- closes founder's original ask"
+}
