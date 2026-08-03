@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "audit",
+  "archived_at": "2026-08-03T07:54:00Z",
+  "body": "Ran a full simulated playtest under Xvfb: walked from outside the Dragon Gate's ring to inside it, let the auto-started cast progress through commit (600ms) to completion (1000ms), and confirmed the state machine behaves correctly throughout -- traced dfzone_active/gatecast_type/gate_in_range at two checkpoints. Commit correctly fires the real town_telecrystal_travel() call at 600ms; it silently no-ops in this specific test only because the WOTAN dev-agent test identity has no real Town character (a known, already-understood limitation from earlier this session, not a new bug). After the cast's full visual duration completes, the UI cleanly resets to the ready-to-cast prompt with no stuck state or crash, confirmed via screenshot. No source changes made -- pure verification. go vet/go test ./... and a direct gcc client build remain clean.",
+  "id": 11866,
+  "metadata": null,
+  "run_id": "manual-1785743640",
+  "source_repo": "GoblinFoxDragon",
+  "title": "End-to-end verification: telecrystal cast flow, no new bugs found"
+}
