@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-03T01:13:39Z",
+  "body": "Continuing the sprint plan's P0 (root-cause the headless-path gw.mu deadlock blocking telecrystal). Spent extensive effort: real SIGQUIT goroutine dumps, a -race build (no data race reported), installed delve and attached a live debugger session to directly inspect gw.mu's raw internal memory state (confirmed genuinely locked, state=17, 2 real waiters) while the complete goroutine list -- 11 goroutines, delve's own exhaustive enumeration -- contained no live holder anywhere. Systematically ruled out: the new Meadow crystal specifically (reproduced with a pre-existing crystal and a completely fresh, never-touched character), stale test-character state, the closure-vs-flat-function structural pattern, and the crisis/Sunderworm code (disabled entirely, still reproduced). Confirmed /p party chat (identical Lock/defer-Unlock shape) works instantly via the same headless path, ruling out 'any locked command via headless' as too broad an explanation. True root cause not found. Given the severity (whole-server deadlock, not just one request) shipped a real workaround instead of leaving the feature unusable: town_telecrystal_travel() bypasses apps2/mud's broken cmdTravel entirely, using a direct PATCH to IDUNA's own position endpoint -- the exact same mechanism town_sync_position already uses safely for ordinary movement. Flagged a real, unconfirmed, live risk for future investigation: cmdBattlegrounds and cmdSummonAvatar share the identical 'locks gw.mu, called via handle()'s dispatch switch' shape as cmdTravel and have not been tested for the same bug.",
+  "id": 11826,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "GoblinFoxDragon",
+  "title": "P0: telecrystal shipped via safe workaround; cmdTravel deadlock root cause NOT found despite exhaustive investigation"
+}
