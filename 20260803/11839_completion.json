@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-03T02:48:07Z",
+  "body": "New biome_color in apps2/battlegrounds_gui/src/main.c maps worldapi's own scene/biome id to a flat RGB per draw call -- Meadow grass green, Hills olive, Swampville muddy brown-green, unknown scenes grey fallback. The F10 debug scene (Milestone 2) now fetches and renders all three column-derived biomes side by side instead of one hardcoded green, so the milestone's own test scaffolding is the live proof, not new throwaway code. No new client-side biome enum -- reuses worldapi's own informal sceneID-as-biome convention. Live-verified visually under Xvfb: all three patches (flat Meadow, undulating Hills, muddy Swamp) render simultaneously with visibly distinct hues driven by each patch's own real scene field, confirmed via screenshot. go vet/go test ./... and a direct gcc client build both clean. GoblinFoxDragon d955423.",
+  "id": 11839,
+  "metadata": null,
+  "run_id": "manual-1785725287",
+  "source_repo": "GoblinFoxDragon",
+  "title": "SMOOTH_TERRAIN Milestone 3: biome flat-coloring shipped"
+}
