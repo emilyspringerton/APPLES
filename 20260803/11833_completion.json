@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-03T02:26:51Z",
+  "body": "Ran a live validation pass on Meadow (scene 0) through the real headless /api/town/command path: look shows real room text + 8 worm mobs, crystals lists the real telecrystal network with the return-to-New-Handington crystal in range, attack lands a real 30-damage hit with TP gain and triggered a live world-crisis event mid-fight (worms went to burrowed state), north/south correctly transition Meadow\u003c-\u003eHills and back, say works. Known gap (not new): apps2/battlegrounds_gui's 3D view stays New-Handington-specific after a real telecrystal travel; this validation deliberately used the headless text path to sidestep that. GoblinFoxDragon 524ecec.",
+  "id": 11833,
+  "metadata": null,
+  "run_id": "manual-1785724011",
+  "source_repo": "GoblinFoxDragon",
+  "title": "Meadow zone validated end-to-end (P2)"
+}
