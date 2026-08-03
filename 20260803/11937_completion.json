@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-03T20:58:52Z",
+  "body": "town_sync_position hardcoded TOWN_ZONE_ID, silently reverting Meadow to Town scene_id on every step; real root cause of 'no auto attack' was the character being KO'd by a live King Worm NM, confirmed server-side and fixed via the real home command; commit 6dbd8e7",
+  "id": 11937,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "GoblinFoxDragon",
+  "title": "Fix scene_id-reverting position sync + revive KO'd test character"
+}
