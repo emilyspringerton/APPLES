@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-03T09:12:14Z",
+  "body": "New town_draw_travel_overlay/g_travel_overlay_text show a brief, large, screen-centered 'TRAVELING: MEADOW'/'TRAVELING: NEW HANDINGTON' banner right at the moment of arrival, the last piece of apps/lobby's own telecrystal UX (draw_travel_overlay/travel_overlay_text) not yet ported over. Distinct from combat_log_push's own arrival line -- a scrolling log entry, easy to miss mid-fight; the banner isn't. Set at both real arrival points (town_telecrystal_travel/town_telecrystal_return), 1.4s duration. Live-verified visually under Xvfb via a direct state-injection test (arrival points require a real logged-in character, unavailable to this session's WOTAN test identity -- same limitation as the earlier fizzle-fix verification). go vet/go test ./... and a direct gcc client build both clean. This completes the apps/lobby telecrystal UX port started earlier today: ring, auto-cast, cast bar, commit marker, and now the arrival banner. GoblinFoxDragon 76b83d0.",
+  "id": 11872,
+  "metadata": null,
+  "run_id": "manual-1785748334",
+  "source_repo": "GoblinFoxDragon",
+  "title": "Telecrystal arrival banner ported from apps/lobby -- reference UX now complete"
+}
