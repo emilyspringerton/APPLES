@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-04T23:28:36Z",
+  "body": "Founder live report: '/' key did nothing to open chat, so slash-commands like /help were unreachable without first pressing Enter/C/Y/T. Added SDLK_SLASH as an open-chat binding in both the Town and in-match event loops, seeding the buffer with '/' itself (same non-leaking keydown-before-StartTextInput shape Enter/C/Y/T already use). The underlying dispatch (chat_send_or_command routing '/'-prefixed lines to the real MUD via town_send_command) already existed and worked -- the gap was purely that '/' itself never opened chat. Live-verified end-to-end via a temporary Xvfb + synthetic-SDL-event test hook (reverted before commit): real disposable login, injected / -\u003e help -\u003e Enter, confirmed cmdHelp's real output landed in the shared combat log. go test ./... clean. Commit 5fae09d.",
+  "id": 12078,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "GoblinFoxDragon",
+  "title": "Town/in-match chat: \"/\" opens chat pre-seeded with \"/\" for quick MUD slash-commands"
+}
