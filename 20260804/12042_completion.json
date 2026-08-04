@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-04T19:11:50Z",
+  "body": "Founder: 'write the blog post on the tech stack for dragonsnshit' then 'and then another blog post on what we are building for bedrock racers because i honestly forgot'. Published both live via the real POST /api/v1/blog/posts API (EMILY-PRIME agent JWT, blog.write permission, real M2M auth exchange via /api/v1/auth/agent). 'The Shape of DragonsNShit' (/blog/the-shape-of-dragonsnshit/) covers the real architecture: GoblinFoxDragon as a Dragonfly/Bedrock fork, worldapi's real procedural heightmap now shared live between the MUD client and WEAKNIGHT_BEDROCK_RACERS, apps2/mud's server-authoritative combat backend, battlegrounds_gui's bespoke SDL2/GL client (not the real Bedrock client) hosting both Town/Meadow and a separate MOBA-style arena mode with RL-trained bot AI, and IDUNA as the shared identity/trust layer underneath all of it. 'What We're Building With Bedrock Racers' (/blog/what-we-are-building-with-bedrock-racers/) recaps the original VS0 pitch (F1-tier physics, destructible terrain, emergent systems) and reports Phase 0 (just shipped this session, Apple #12041) as real, verified progress: a server-authoritative vehicle actually driving on real worldapi terrain. Both plain-paragraph prose (OKEMILY blog.Renderer only supports blank-line-split paragraphs, no markdown yet -- a known, already-logged gap).",
+  "id": 12042,
+  "metadata": null,
+  "run_id": "blog-posts-1785870710",
+  "source_repo": "OKEMILY",
+  "title": "Published two blog posts: DragonsNShit tech stack + Bedrock Racers explainer"
+}
