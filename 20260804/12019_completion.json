@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-04T15:35:54Z",
+  "body": "Founder feedback tranche: fixed g_town_job staleness after job-change; left-click sets real client+server target; new client-side cast-timer with real 94% move-cancel; job-aware 1/2/3 ability bar (BLM: Fire/Poison/Clear Mind); /cast slash command routes through the same cast-timer; real self+worm HP tracking replacing static bars; new self nameplate; new character screen (P) showing real status+gear. All verified live under Xvfb with fresh disposable accounts against the running gfd-mud.service -- real Fire cast dealt real damage and killed its target, move-cancel correctly aborted a second cast, character screen showed real stats. Also investigated 'second worm doesn't auto-attack' report live: both worms worked correctly end-to-end in a clean reproduction; a live Sunderworm World Crisis event was active in Town during the report, more likely explanation than a code bug. Commit 3e5aebb.",
+  "id": 12019,
+  "metadata": null,
+  "run_id": "manual-1785857754",
+  "source_repo": "GoblinFoxDragon",
+  "title": "Character screen, real nameplates, job-aware ability bar, cast timer"
+}
