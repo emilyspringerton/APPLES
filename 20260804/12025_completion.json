@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-04T16:24:44Z",
+  "body": "Founder tested the direct-boot change live and reported joining a game with no bots and jittery/stale behavior, on s.farthq.com. Confirmed by DNS lookup: s.farthq.com resolves to 194.195.120.185, a real but completely different server, not this box. This box's own real public IP (198.58.107.85) is exactly okemily.com's own DNS record, where the real shankpit460-server + 9-bot pool actually run. Changed the client's default SERVER_HOST to okemily.com. Founder separately ran the already-queued sudo-queue/10-shankpit460-firewall.sh live, opening 6969/udp for real external traffic. Verified DNS resolution and connect-attempt locally; full external reachability from a genuinely remote client couldn't be confirmed from this same box (a same-box UDP test timed out both before and after the firewall rule, consistent with hairpin NAT, a separate, unrelated limitation). CI green with a real artifact (ShankPit_Builds_9). Commits ddc5ea9, 2bcce60.",
+  "id": 12025,
+  "metadata": null,
+  "run_id": "manual-1785860684",
+  "source_repo": "shankpit-460",
+  "title": "Fixed default SERVER_HOST pointing at wrong, unrelated server"
+}

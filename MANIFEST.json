@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-04T16:22:00Z",
+  "generated_at": "2026-08-04T16:24:44Z",
   "repo": "APPLES",
-  "count": 1490,
+  "count": 1491,
   "apples": [
     {
       "id": 10525,
@@ -11922,6 +11922,14 @@
       "source_repo": "emily",
       "date": "20260804",
       "archived_at": "2026-08-04T16:22:00Z"
+    },
+    {
+      "id": 12025,
+      "type": "completion",
+      "title": "Fixed default SERVER_HOST pointing at wrong, unrelated server",
+      "source_repo": "shankpit-460",
+      "date": "20260804",
+      "archived_at": "2026-08-04T16:24:44Z"
     }
   ]
 }
