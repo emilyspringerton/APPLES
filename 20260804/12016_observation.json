@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "observation",
+  "archived_at": "2026-08-04T14:53:48Z",
+  "body": "Closed the exact testing gap flagged when this bug was parked: registered a real disposable player account via IDUNA's own email/password auth, drove the real run_login_screen with synthetic typing (not the dev-agent bypass every earlier test used), then re-ran the worm-attack verification. Real login succeeded, avatar walked to the worm, attack command reached the server, worm died with real damage exchanged both ways. The underlying mechanic is confirmed correct end-to-end. No code changes -- nothing was found broken. Real gap: this environment can only test Linux/localhost, founder runs the Windows artifact over a real network; that difference can't be closed from here.",
+  "id": 12016,
+  "metadata": null,
+  "run_id": "manual-1785855228",
+  "source_repo": "GoblinFoxDragon",
+  "title": "Right-click regression: real-login-path tested, combat mechanic confirmed sound"
+}
