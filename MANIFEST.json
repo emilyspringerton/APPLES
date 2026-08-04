@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-04T18:08:49Z",
+  "generated_at": "2026-08-04T18:16:03Z",
   "repo": "APPLES",
-  "count": 1499,
+  "count": 1500,
   "apples": [
     {
       "id": 10525,
@@ -11994,6 +11994,14 @@
       "source_repo": "shankpit-460",
       "date": "20260804",
       "archived_at": "2026-08-04T18:08:49Z"
+    },
+    {
+      "id": 12034,
+      "type": "completion",
+      "title": "Retry the priming UserCmd until sync succeeds, not one shot",
+      "source_repo": "shankpit-460",
+      "date": "20260804",
+      "archived_at": "2026-08-04T18:16:03Z"
     }
   ]
 }
