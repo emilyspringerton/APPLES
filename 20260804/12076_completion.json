@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-04T23:20:14Z",
+  "body": "Live-verified end to end: created a real player+credential+character via POST /api/v1/auth/email/register, confirmed the character row exists, confirmed email/password login returns a real IDUNA JWT. Closes the gap where the character_name register variant existed as a backend endpoint but had no runnable tool wrapping it. Commit db61f88.",
+  "id": 12076,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "emily.cli",
+  "title": "emily iduna create-account: real DragonsNShit test-account CLI tool"
+}

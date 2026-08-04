@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-04T23:20:08Z",
+  "generated_at": "2026-08-04T23:20:14Z",
   "repo": "APPLES",
-  "count": 1541,
+  "count": 1542,
   "apples": [
     {
       "id": 10525,
@@ -12330,6 +12330,14 @@
       "source_repo": "emily.cli",
       "date": "20260804",
       "archived_at": "2026-08-04T23:20:08Z"
+    },
+    {
+      "id": 12076,
+      "type": "completion",
+      "title": "emily iduna create-account: real DragonsNShit test-account CLI tool",
+      "source_repo": "emily.cli",
+      "date": "20260804",
+      "archived_at": "2026-08-04T23:20:14Z"
     }
   ]
 }
