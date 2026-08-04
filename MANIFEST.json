@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-04T08:50:17Z",
+  "generated_at": "2026-08-04T09:05:52Z",
   "repo": "APPLES",
-  "count": 1452,
+  "count": 1453,
   "apples": [
     {
       "id": 10525,
@@ -11618,6 +11618,14 @@
       "source_repo": "emily",
       "date": "20260804",
       "archived_at": "2026-08-04T08:50:17Z"
+    },
+    {
+      "id": 11987,
+      "type": "audit",
+      "title": "Cycle 9963 — idle (no queued tasks)",
+      "source_repo": "emily",
+      "date": "20260804",
+      "archived_at": "2026-08-04T09:05:52Z"
     }
   ]
 }
