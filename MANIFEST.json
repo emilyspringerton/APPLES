@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-04T19:42:00Z",
+  "generated_at": "2026-08-04T19:46:13Z",
   "repo": "APPLES",
-  "count": 1514,
+  "count": 1515,
   "apples": [
     {
       "id": 10525,
@@ -12114,6 +12114,14 @@
       "source_repo": "MJOLNIR",
       "date": "20260804",
       "archived_at": "2026-08-04T19:42:00Z"
+    },
+    {
+      "id": 12049,
+      "type": "completion",
+      "title": "CI fix: added missing cutscene.c/audio.c to Windows client build",
+      "source_repo": "SHANKPIT",
+      "date": "20260804",
+      "archived_at": "2026-08-04T19:46:13Z"
     }
   ]
 }
