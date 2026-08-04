@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-04T19:32:41Z",
+  "body": "Founder: do pressure sensitive controls for bedrock racers for my controller (xbox one controller). Client now opens the first SDL_GameController found at startup (with SDL_CONTROLLERDEVICEADDED/REMOVED hot-plug support), falling back to the existing keyboard scheme when none is connected. RT/LT drive real analog throttle/brake via SDL_CONTROLLER_AXIS_TRIGGERRIGHT/LEFT's true 0..32767 trigger travel -- a light tap genuinely produces less throttle than a full pull, composited into the same signed throttle value the sim already expects. Left stick X drives steering with a real 0.15 dead zone against mechanical stick drift. Left bumper sends the same RC_BTN_HANDBRAKE bit Space already does. Verified for real: built a standalone harness confirming SDL's virtual-joystick API round-trips real axis/button values through SDL_GameController in this environment, then temporarily wired an env-var-gated virtual pad directly into the real client binary (reverted before commit) forcing a real half-pulled trigger and full-right stick -- live server tick log showed genuine partial-then-ramping acceleration and a continuous turn at exactly RC_TURN_RATE_MAX (2.2 rad/s), confirmed against real tick-over-tick yaw deltas, not asserted. gcc -Wall -Wextra clean. Commit ddef03f.",
+  "id": 12045,
+  "metadata": null,
+  "run_id": "bedrock-controller-1785871961",
+  "source_repo": "WEAKNIGHT_BEDROCK_RACERS",
+  "title": "Real Xbox controller support: pressure-sensitive triggers, analog steering"
+}
