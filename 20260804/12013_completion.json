@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-04T14:34:42Z",
+  "body": "Founder pivot from combat debugging: fixed cmdCastBlackMagic/dia bypassing mob aggro (reg.Hit), added Poison as BLM's second starter spell, added 2 starter abilities each for MNK/BLM/RDM/THF, added a real Town vendor NPC (Quartermaster) with starter catalog, added a job-change menu (Guild House) and a shop buy/sell menu (Potions) in battlegrounds_gui modeled on the Auction House UI. All verified live against the running gfd-mud.service and a real Xvfb-driven client: poison aggro confirmed via the (!) indicator, Chakra/Convert numeric effects confirmed, job-change confirmed via a direct jobs probe, shop buy/sell round-trip confirmed via flow balance (5000-\u003e4950-\u003e4975). CI green with a real artifact. Commits 1bba8da, 6f56b67, 5d1a2e7.",
+  "id": 12013,
+  "metadata": null,
+  "run_id": "manual-1785854082",
+  "source_repo": "GoblinFoxDragon",
+  "title": "Job-change NPC, BLM Poison spell, starter ability kits, Town shop"
+}
