@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-04T13:59:24Z",
+  "body": "http_extract_json_string_field was skipping backslash escapes instead of decoding them, corrupting every multi-line MUD response (\\r\\n became literal 'rn'). This silently broke combat-log line-splitting and the new damage-popup feature. Fixed to decode real JSON escapes to real bytes; verified via unit test (byte-level CRLF check) and live Xvfb end-to-end test (clean combat log, correct damage popups, real worm kill). All temp instrumentation and disposable test characters cleaned up.",
+  "id": 12010,
+  "metadata": null,
+  "run_id": "manual-1785851964",
+  "source_repo": "GoblinFoxDragon",
+  "title": "Fixed JSON escape decoding bug in http_client.h"
+}

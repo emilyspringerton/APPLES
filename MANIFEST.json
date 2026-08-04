@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-04T13:51:24Z",
+  "generated_at": "2026-08-04T13:59:24Z",
   "repo": "APPLES",
-  "count": 1475,
+  "count": 1476,
   "apples": [
     {
       "id": 10525,
@@ -11802,6 +11802,14 @@
       "source_repo": "emily",
       "date": "20260804",
       "archived_at": "2026-08-04T13:51:24Z"
+    },
+    {
+      "id": 12010,
+      "type": "completion",
+      "title": "Fixed JSON escape decoding bug in http_client.h",
+      "source_repo": "GoblinFoxDragon",
+      "date": "20260804",
+      "archived_at": "2026-08-04T13:59:24Z"
     }
   ]
 }
