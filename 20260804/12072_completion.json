@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-04T23:08:10Z",
+  "body": "Founder: ensure we have controller mappings for all games. Same pattern as WEAKNIGHT_BEDROCK_RACERS/shankpit-460: SDL_GameController, hot-plug, keyboard fallback, real pressure-sensitive fire off real trigger travel, dual-stick move/look, A/B/X/Y/RB mapped to jump/crouch/reload/use/ability (reload suppressed while in a helicopter, matching the existing keyboard convention). gcc clean, smoke-tested live under Xvfb (clean launch, no crash).",
+  "id": 12072,
+  "metadata": null,
+  "run_id": "shankpit-pad-1785884890",
+  "source_repo": "SHANKPIT",
+  "title": "Real Xbox controller support"
+}
