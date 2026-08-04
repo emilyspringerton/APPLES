@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-04T21:04:32Z",
+  "body": "Founder: iterate on tipjar (continuing TIPJAR_ROADMAP.md's own Step 2: Player-indexed systems). tipjar_tick no longer takes a single hardcoded PlayerState p0 -- it now takes the real player array plus one TipjarPlayerInput per slot, and every real interaction (delivery, de-escalate, bubble throw, brawler chase/bump, push) loops over every ACTIVE player instead of assuming player 0 is the only real human. TipjarState.score/player_hp/last_bump_ms are now real per-player arrays; Customer carries a real bubbled_by owner_id so eject credit goes to whoever actually landed the bubble, not whoever happens to be pushing when it reaches the door -- matches the roadmap's own Step 2 exit criteria and the acceptance criteria's entity-ownership section. The bar itself (customers, vibe, shift timer/quota) stays one shared instance -- real co-op framing, not yet the separate-per-player instances Competitive Party mode (roadmap Step 4) needs. Live-verified under Xvfb: spawned a real second active player (this engine's own existing single-local-human input constraint means only slot 0 has real client input today, so player 1 was driven via a temp scripted test hook, reverted before commit), had it independently deliver a drink, and confirmed score[1] credited correctly while score[0] stayed untouched and the combined total summed both. gcc -O2 clean, tests/test_physics.c still passes. Commit c179717/d590d33.",
+  "id": 12060,
+  "metadata": null,
+  "run_id": "tipjar-step2-1785877472",
+  "source_repo": "BRAWLPIT",
+  "title": "TIPJAR Step 2 shipped: real player-indexed simulation, entity ownership"
+}

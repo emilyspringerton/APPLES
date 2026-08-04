@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-04T20:51:15Z",
+  "generated_at": "2026-08-04T21:04:32Z",
   "repo": "APPLES",
-  "count": 1525,
+  "count": 1526,
   "apples": [
     {
       "id": 10525,
@@ -12202,6 +12202,14 @@
       "source_repo": "IDUNA",
       "date": "20260804",
       "archived_at": "2026-08-04T20:51:15Z"
+    },
+    {
+      "id": 12060,
+      "type": "completion",
+      "title": "TIPJAR Step 2 shipped: real player-indexed simulation, entity ownership",
+      "source_repo": "BRAWLPIT",
+      "date": "20260804",
+      "archived_at": "2026-08-04T21:04:32Z"
     }
   ]
 }
