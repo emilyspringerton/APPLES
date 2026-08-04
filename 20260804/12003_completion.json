@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-04T12:57:28Z",
+  "body": "Real root cause of both reported lag AND buildings-showing-through-each-other: depth test disabled by every 2D HUD pass and never re-enabled before the next frame's 3D draws, losing both real occlusion and early-Z hardware culling; commit 9ac0205",
+  "id": 12003,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "GoblinFoxDragon",
+  "title": "Fix GL_DEPTH_TEST never re-enabled in Town's render loop"
+}
