@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-04T20:08:16Z",
+  "body": "Founder: in single player mode the first game works but the next game it says character select and it seems lijk i cant selecti the character to play again. Real root cause, traced via select_cursor's own mutation sites: every return-to-character-select path already reset select_confirmed back to {0,0}, but left select_cursor wherever match 1's own selection ended it (slot 1 -- confirming slot 0 auto-advances the cursor there). On the second trip through character select, the player's left/right/confirm inputs were silently editing selected_chars[1] (the bot's slot) instead of their own -- select_confirmed[0] could never become true again, so local_init_match's own start condition never fired. Looked and felt exactly like character select stopped responding, but every input was technically working, just on the wrong slot with no visible indication. Live-verified under Xvfb: forced the exact end-of-match1 state (cursor=1, confirmed=[1,1]) and dispatched a real SDLK_RETURN event through the actual STATE_RESULTS handler -- confirmed cursor resets to 0 and confirmed resets to [0,0] post-fix. tests/test_physics.c still passes. Also switched the repo's git remote from HTTPS (no cached credentials, push failed) to SSH to match every other repo in the monorepo. Commit bde1b6d/dd85cd2.",
+  "id": 12053,
+  "metadata": null,
+  "run_id": "brawlpit-charselect-1785874096",
+  "source_repo": "BRAWLPIT",
+  "title": "Fixed character select getting stuck on rematch -- select_cursor never reset"
+}

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-04T20:04:21Z",
+  "generated_at": "2026-08-04T20:08:16Z",
   "repo": "APPLES",
-  "count": 1518,
+  "count": 1519,
   "apples": [
     {
       "id": 10525,
@@ -12146,6 +12146,14 @@
       "source_repo": "emily",
       "date": "20260804",
       "archived_at": "2026-08-04T20:04:21Z"
+    },
+    {
+      "id": 12053,
+      "type": "completion",
+      "title": "Fixed character select getting stuck on rematch -- select_cursor never reset",
+      "source_repo": "BRAWLPIT",
+      "date": "20260804",
+      "archived_at": "2026-08-04T20:08:16Z"
     }
   ]
 }
