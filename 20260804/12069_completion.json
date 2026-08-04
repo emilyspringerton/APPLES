@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-04T22:53:23Z",
+  "body": "Founder: iterate (following up on a real gap found live earlier the same day: sethome only mutated apps2/mud's own in-memory struct, never IDUNA). IDUNA: new PATCH /api/v1/characters/:id/home mirrors the existing /position endpoint; characterResponse and both character GET handlers now include home_scene_id/home_pos_x/y/z. GoblinFoxDragon: new idunaclient.UpdateHome called from cmdSetHome; getOrCreateHeadlessPlayer now seeds homePoint from IDUNA's real persisted value on session creation. Live-verified end-to-end against the real live services: sethome -\u003e real DB row confirmed written (previously always the schema default, never touched); restarted gfd-mud.service (a real fresh session, the exact scenario that lost the founder's own TestWarrior Home Point earlier today) -\u003e status correctly showed Home Point: Meadow restored, not lost. Also fixed a real test fixture gap this surfaced: mmo_inventory_test.go's in-memory schema was missing the new columns, breaking 3 real tests -- fixed, all IDUNA + GoblinFoxDragon tests pass. Both services rebuilt and redeployed live.",
+  "id": 12069,
+  "metadata": null,
+  "run_id": "iduna-homepoint-persist-1785884003",
+  "source_repo": "IDUNA",
+  "title": "Real Home Point persistence across sessions -- IDUNA + GoblinFoxDragon"
+}
