@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "observation",
+  "archived_at": "2026-08-04T02:06:56Z",
+  "body": "Disposable test character confirmed the full right-click-\u003eattack pipeline works correctly (real damage exchange both ways). TestWarrior separately found repeatedly dying within seconds of revival with zero combat text across 3 polling passes -- King Worm NM (800HP/60dmg, live in this Meadow instance) is the strong suspect but exact mechanism not caught; commit 634b9eb",
+  "id": 11958,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "GoblinFoxDragon",
+  "title": "Right-click attack verified working; unresolved silent-death bug flagged on Meadow test character"
+}
