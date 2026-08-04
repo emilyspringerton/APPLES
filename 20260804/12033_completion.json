@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-04T18:08:49Z",
+  "body": "Founder tested the fresh SERVER_HOST fix live and reported connecting successfully but being unable to move, with the wrong starting weapon showing and no bots visible. Found a real, complete deadlock by reading both sides of the wire protocol: the client only ever sends its first movement command once it has received a snapshot containing itself, but the server only ever includes a client in any snapshot once it has received a movement command from them. Neither side could ever go first. This had likely never been hit before this session, since the connect-ticket bug (fixed earlier the same day) meant no real remote client had ever gotten past the connection stage at all until today. Fixed by sending one real, neutral UserCmd immediately on WELCOME, breaking the cycle. Verified live under Xvfb against the real production server: before the fix, a connected slot never progressed past WELCOME in the server's own status log; after the fix, the slot immediately shows cmd_seen=1 and player_active=1, Clients count includes the new player, and the client's own rendered world state visibly updates frame to frame instead of staying frozen. CI green with a real artifact (ShankPit_Builds_11). Commits ee69bfc, 870e0ae.",
+  "id": 12033,
+  "metadata": null,
+  "run_id": "manual-1785866929",
+  "source_repo": "shankpit-460",
+  "title": "Fixed connect/movement deadlock -- priming UserCmd on WELCOME"
+}

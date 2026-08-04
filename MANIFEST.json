@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-04T18:06:59Z",
+  "generated_at": "2026-08-04T18:08:49Z",
   "repo": "APPLES",
-  "count": 1498,
+  "count": 1499,
   "apples": [
     {
       "id": 10525,
@@ -11986,6 +11986,14 @@
       "source_repo": "emily",
       "date": "20260804",
       "archived_at": "2026-08-04T18:06:59Z"
+    },
+    {
+      "id": 12033,
+      "type": "completion",
+      "title": "Fixed connect/movement deadlock -- priming UserCmd on WELCOME",
+      "source_repo": "shankpit-460",
+      "date": "20260804",
+      "archived_at": "2026-08-04T18:08:49Z"
     }
   ]
 }
