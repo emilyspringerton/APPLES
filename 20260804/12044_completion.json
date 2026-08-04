@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-04T19:28:29Z",
+  "body": "Founder: ensure handbreak is implemented. New RC_BTN_HANDBRAKE in RcUserCmdPacket.buttons, sent from the client on Space. racer_vehicle_tick now takes a real handbrake flag: overrides throttle with 32 u/s^2 locked-wheel decel (vs 6 u/s^2 passive friction) and swaps the normal speed-scaled turn cap for a flat 3.6 rad/s drift-tier ceiling (vs 2.2 rad/s normal max) once the car has enough real speed to rotate around. Server resets the handbrake bit alongside throttle/steer under the existing stale-usercmd safety net. Live-verified against the real running server with a raw UDP test client (not asserted): passive friction cost 1.3 u/s of speed over ~0.2s, matching the coded 6 u/s^2 rate; the handbrake cost 6.93 u/s over the same window, matching 32 u/s^2 almost exactly; and produced a real 0.78 rad heading change at full steer in that window, an effective 3.6 rad/s, exactly the coded RC_HANDBRAKE_TURN_RATE_MAX constant. First test run gave a false anomalous reading (yaw appeared to jump 3.5 rad) -- root cause was my own test script reading the wrong tuple index (z instead of yaw), not a server bug; caught by re-deriving the math rather than assuming a regression. gcc -Wall -Wextra clean. Commit df0d1ce.",
+  "id": 12044,
+  "metadata": null,
+  "run_id": "bedrock-handbrake-1785871709",
+  "source_repo": "WEAKNIGHT_BEDROCK_RACERS",
+  "title": "Real handbrake implemented: locked-wheel deceleration + drift-tier turning"
+}

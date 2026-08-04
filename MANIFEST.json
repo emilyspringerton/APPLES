@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-04T19:19:56Z",
+  "generated_at": "2026-08-04T19:28:29Z",
   "repo": "APPLES",
-  "count": 1509,
+  "count": 1510,
   "apples": [
     {
       "id": 10525,
@@ -12074,6 +12074,14 @@
       "source_repo": "emily",
       "date": "20260804",
       "archived_at": "2026-08-04T19:19:56Z"
+    },
+    {
+      "id": 12044,
+      "type": "completion",
+      "title": "Real handbrake implemented: locked-wheel deceleration + drift-tier turning",
+      "source_repo": "WEAKNIGHT_BEDROCK_RACERS",
+      "date": "20260804",
+      "archived_at": "2026-08-04T19:28:29Z"
     }
   ]
 }
