@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-04T19:08:19Z",
+  "body": "Founder: go phase 0. New apps/server (UDP, fixed 60Hz) fetches GoblinFoxDragon/server/worldapi's real, already-deployed /heightmap HTTP endpoint (port 7070) at startup and resolves a real arcade-tier vehicle sim (packages/common/racer_vehicle.h: accel/friction/braking, speed-scaled turn rate, real terrain-relative Y every tick) purely from client UDP UserCmd packets -- never trusts client-claimed position. Found and fixed a real gap live during verification: a hung/disconnected client left the vehicle stuck at max throttle forever with no input-staleness check; added a 300ms stale-usercmd zeroing safety net. New apps/client (SDL2+legacy GL) fetches the same real heightmap, renders it as a real sloped triangle mesh (not a flat placeholder), renders the vehicle at the server's own authoritative snapshot position via a real chase camera. packages/common ported http_client.h/mat4.h verbatim from GoblinFoxDragon (real reuse per NORTHSTAR's own decision) plus new racer_protocol.h/racer_vehicle.h sized for one vehicle instead of forking shankpit-460's much larger FPS protocol wholesale. Live-verified end-to-end: a raw UDP test client drove the server vehicle through real accel/turn/coast-to-stop (confirmed via snapshot data matching expected physics), and the SDL2 client under Xvfb (real keyboard input stood in for via a temp env-var test hook, reverted before commit) showed the vehicle actually moving across real rolling Meadow terrain in a live screenshot. gcc -Wall -Wextra clean on both binaries. Commit 6d01e17.",
+  "id": 12041,
+  "metadata": null,
+  "run_id": "bedrock-phase0-1785870499",
+  "source_repo": "WEAKNIGHT_BEDROCK_RACERS",
+  "title": "Phase 0 shipped: real vehicle drives on real voxel terrain, server-authoritative"
+}

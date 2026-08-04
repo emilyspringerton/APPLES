@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-04T19:04:22Z",
+  "generated_at": "2026-08-04T19:08:19Z",
   "repo": "APPLES",
-  "count": 1506,
+  "count": 1507,
   "apples": [
     {
       "id": 10525,
@@ -12050,6 +12050,14 @@
       "source_repo": "emily",
       "date": "20260804",
       "archived_at": "2026-08-04T19:04:22Z"
+    },
+    {
+      "id": 12041,
+      "type": "completion",
+      "title": "Phase 0 shipped: real vehicle drives on real voxel terrain, server-authoritative",
+      "source_repo": "WEAKNIGHT_BEDROCK_RACERS",
+      "date": "20260804",
+      "archived_at": "2026-08-04T19:08:19Z"
     }
   ]
 }
