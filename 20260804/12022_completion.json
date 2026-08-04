@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-04T15:59:22Z",
+  "body": "Added real 13-kill win condition alongside the existing 5-minute timer. Found and fixed a real bug: the graphical client never sent a connect ticket, so it could never actually connect to the real production server (ticket auth has required one, fail-closed, since S156-02). Fixed by minting a real HMAC-SHA256 ticket client-side, mirroring emily-bot's own proven approach. Client now boots directly into a networked match instead of waiting at the lobby menu. Considered and reverted a server-simulated bot-AI system before committing -- the fork already has a proven, live bot-pool mechanism (shankpit460-emily-bot.service, real network-connected bots); bumped that pool 6-\u003e9 instead of duplicating it. Verified live end-to-end under Xvfb against the real local production server: client skipped the lobby, connected with a real ticket (server log: CLIENT 10 CONNECTED), rendered the real in-game HUD alongside 9 connected bots; kill-count win condition separately confirmed live (MATCH_WIN_BY_KILLS client=3 kills=13). Commits 5340dc3, ca11d3f.",
+  "id": 12022,
+  "metadata": null,
+  "run_id": "manual-1785859162",
+  "source_repo": "shankpit-460",
+  "title": "Deathmatch win condition, real client ticket auth, direct-boot to bot pool"
+}
