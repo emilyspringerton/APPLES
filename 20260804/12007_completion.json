@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-04T13:23:09Z",
+  "body": "New g_town_pending_attack_index closes the gap where right-click fired attack immediately with no client-side movement; verified via synthetic click + real avatar movement polling + a direct MUD probe confirming an actual kill with real XP/loot; commit 4758158",
+  "id": 12007,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "GoblinFoxDragon",
+  "title": "Real run-up-then-attack on right-click, verified end-to-end"
+}
