@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-04T23:56:51Z",
+  "body": "Ported SHANKPIT's real init_stadium_terrain() heightfield generator (ring/noise/ridge/bowl/berm terms + dirt-track carve driven by stadium_rally_loop) verbatim into a new self-contained racer_track_stadium.h, selected via --track stadium on both server and client (default meadow unchanged). Deterministic, no rand() -- both sides independently generate byte-identical terrain, no wire-protocol change needed. Deliberately NOT a second voxel engine (see file's own doc comment re: this repo's CLAUDE.md constraint) -- one hardcoded height function for one fixed circuit, same shape SHANKPIT's own stadium already is. Live-verified under Xvfb: server log confirmed slot0 Y=3.00 at (0,14), the exact flattened arena-center height the formula targets; screenshot confirmed bots navigating real dirt-track terrain. Both binaries build clean. Commit d36e93b.",
+  "id": 12082,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "WEAKNIGHT_BEDROCK_RACERS",
+  "title": "Second selectable circuit: SHANKPIT's coliseum arena ported as --track stadium"
+}
