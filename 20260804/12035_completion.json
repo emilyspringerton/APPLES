@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-04T18:20:48Z",
+  "body": "Proactive follow-up while investigating the priming-UserCmd retry fix -- found the same class of bug one stage earlier: net_connect() was only ever called once at boot, with nothing to retry it if the CONNECT packet or the server's WELCOME reply is lost in transit. A lost CONNECT or WELCOME leaves the client stuck on its own local-mode fallback view forever, indistinguishable from the other stuck-session reports chased down earlier the same day. Now retries every 2s for as long as my_client_id is unset, safe to repeat since the guard only fires before any real WELCOME lands. Verified live: clean single connect, no retry spam once welcomed, same cmd_seen=1/Clients:10 result as the other verified fixes today. CI green with a real artifact (ShankPit_Builds_15). Commit 7a6e202.",
+  "id": 12035,
+  "metadata": null,
+  "run_id": "manual-1785867648",
+  "source_repo": "shankpit-460",
+  "title": "Retry the initial CONNECT itself, not just the priming UserCmd"
+}

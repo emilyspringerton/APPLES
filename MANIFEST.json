@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-04T18:16:03Z",
+  "generated_at": "2026-08-04T18:20:48Z",
   "repo": "APPLES",
-  "count": 1500,
+  "count": 1501,
   "apples": [
     {
       "id": 10525,
@@ -12002,6 +12002,14 @@
       "source_repo": "shankpit-460",
       "date": "20260804",
       "archived_at": "2026-08-04T18:16:03Z"
+    },
+    {
+      "id": 12035,
+      "type": "completion",
+      "title": "Retry the initial CONNECT itself, not just the priming UserCmd",
+      "source_repo": "shankpit-460",
+      "date": "20260804",
+      "archived_at": "2026-08-04T18:20:48Z"
     }
   ]
 }
