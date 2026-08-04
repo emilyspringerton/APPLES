@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-04T02:13:29Z",
+  "body": "Real bug: click-to-move/right-click hit-tests all used a y=0 ground plane assumption that was never correct for Meadow's real rolling terrain, causing every click to resolve ~2x overshot. Fixed with iterative refinement against dfzone_height_at; commit 27995b2",
+  "id": 11959,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "GoblinFoxDragon",
+  "title": "Fix screen_to_ground solving against wrong y=0 plane in Meadow"
+}
