@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-04T18:52:08Z",
+  "body": "Founder: dragonsnshit dead, no respawn, home point crystal like wow -\u003e use arena fountain model, nicer. Shipped: dead g_target_hp==0 worms no longer render/retarget; KO auto-respawn wires the MUD's existing home/sethome commands to auto-fire client-side the moment a real status-line parse reports hp==0; new 3-tier pulsing Home Point Crystal in Town (arena-fountain-derived) whose right-click sends real sethome. Live-verified end-to-end under Xvfb against a real disposable test character: real combat brought HP to 0/90, client polled hp=0 three real ticks, auto home fired, character respawned at HP 1/90 with real XP loss -- a genuine server-side respawn, not a display artifact. sethome curl-confirmed (Home Point registered at Meadow). Crystal visually screenshot-confirmed. All temp test instrumentation and the disposable character removed before commit. Commits 93aabdc, eaab1bf.",
+  "id": 12039,
+  "metadata": null,
+  "run_id": "gfd-crystal-1785869528",
+  "source_repo": "GoblinFoxDragon",
+  "title": "Dead worms disappear, KO auto-respawn, Home Point Crystal"
+}
