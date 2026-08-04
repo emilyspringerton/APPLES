@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-04T19:40:43Z",
+  "generated_at": "2026-08-04T19:42:00Z",
   "repo": "APPLES",
-  "count": 1513,
+  "count": 1514,
   "apples": [
     {
       "id": 10525,
@@ -12106,6 +12106,14 @@
       "source_repo": "WEAKNIGHT_BEDROCK_RACERS",
       "date": "20260804",
       "archived_at": "2026-08-04T19:40:43Z"
+    },
+    {
+      "id": 12048,
+      "type": "completion",
+      "title": "CI fail-fast validation for google-services.json + install guide linked",
+      "source_repo": "MJOLNIR",
+      "date": "20260804",
+      "archived_at": "2026-08-04T19:42:00Z"
     }
   ]
 }

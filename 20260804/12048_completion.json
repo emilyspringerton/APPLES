@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-04T19:42:00Z",
+  "body": "Founder asked how to install MJOLNIR on an Android tablet from GitHub Actions artifacts. Investigated and found both real CI runs to date (2026-06-17, 2026-07-23) failed at the 'Build staging APK' step with no artifact ever produced -- checked via the public GitHub Actions API (no admin/log access available from this environment, no gh CLI or token, and no local JDK to reproduce the Gradle build directly, so root cause is inferred from code inspection, not a raw log). Most likely cause: the GOOGLE_SERVICES_JSON repository secret was never actually set, so the workflow writes an empty/placeholder file and the google-services Gradle plugin fails deep inside the build with an unhelpful stack trace -- independently corroborated by docs/GETTING_STARTED.md's own pre-existing Step 1, which already names this exact secret as a prerequisite. Added a real 'Validate google-services.json' CI step that fails fast with an actionable message pointing at the fix, instead of the opaque Gradle failure. README now links the existing GETTING_STARTED.md guide from its docs index (previously undiscoverable from the README) rather than duplicating its steps. This does NOT fix the underlying missing secret -- that's a real action item for the founder in GitHub repo settings, flagged clearly, not something fixable from this environment.",
+  "id": 12048,
+  "metadata": null,
+  "run_id": "mjolnir-ci-fix-1785872520",
+  "source_repo": "MJOLNIR",
+  "title": "CI fail-fast validation for google-services.json + install guide linked"
+}
