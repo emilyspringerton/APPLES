@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-04T19:40:43Z",
+  "body": "Founder: can we get 8 player online bot matches? same pattern as before 7 bots so i can queue into a game. Same real shape shankpit-460's own bot pool used: fixed slot count, direct-connect into a running match (no separate matchmaker/lobby yet, matching that fork's own earlier-stage simplification). RC_MAX_VEHICLES=8; RcSnapshotPacket now carries all 8 vehicles plus active/is_bot flags. Slot 0 reserved for the first human; slots 1-7 spawn active and bot-controlled at server start, spread around a real starting circle. New racer_bot_drive_toward: real reactive waypoint-seeking through the exact same racer_vehicle_tick physics every vehicle uses -- no cheating/teleporting, no pre-baked path -- each bot picks a randomized point inside the real terrain chunk every few seconds (or early on arrival) and derives throttle/steer fresh every tick from current heading error, slowing for sharp turns. Client renders every active slot, own car red, others blue-grey, camera anchored on slot 0. Live-verified: server tick log showed real bot movement/heading changes before any human connected, and a live screenshot after joining showed five distinct bot cars at different real positions and orientations (independent headings, not a shared script) alongside the player's own car. gcc -Wall -Wextra clean on both binaries. Commit 3d4c9f3.",
+  "id": 12047,
+  "metadata": null,
+  "run_id": "bedrock-8slot-1785872443",
+  "source_repo": "WEAKNIGHT_BEDROCK_RACERS",
+  "title": "8-slot bot match: 1 human + 7 real autonomous bots"
+}

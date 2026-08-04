@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-04T19:35:22Z",
+  "generated_at": "2026-08-04T19:40:43Z",
   "repo": "APPLES",
-  "count": 1512,
+  "count": 1513,
   "apples": [
     {
       "id": 10525,
@@ -12098,6 +12098,14 @@
       "source_repo": "emily",
       "date": "20260804",
       "archived_at": "2026-08-04T19:35:22Z"
+    },
+    {
+      "id": 12047,
+      "type": "completion",
+      "title": "8-slot bot match: 1 human + 7 real autonomous bots",
+      "source_repo": "WEAKNIGHT_BEDROCK_RACERS",
+      "date": "20260804",
+      "archived_at": "2026-08-04T19:40:43Z"
     }
   ]
 }
