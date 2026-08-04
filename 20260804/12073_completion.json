@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-04T23:10:25Z",
+  "body": "Founder: ensure we have controller mappings for all games. SDL_GameController, hot-plug via CONTROLLERDEVICE events, keyboard fallback -- one shared pad instance read independently by Town/Meadow's own WASD block and the Arena's own separate WASD block (two genuinely different movement systems in this file), left stick only overriding when the keyboard gave nothing that frame so mixed keyboard+pad play can't fight itself. gcc -Wall clean, smoke-tested live under Xvfb (clean launch, no crash). Completes the controller-mappings audit across all 6 game repos (BRAWLPIT and WEAKNIGHT_BEDROCK_RACERS already had it; shankpit-460, SHANKPIT, and this repo shipped it today).",
+  "id": 12073,
+  "metadata": null,
+  "run_id": "gfd-pad-1785885025",
+  "source_repo": "GoblinFoxDragon",
+  "title": "Real Xbox controller support for Town/Meadow + Arena"
+}
