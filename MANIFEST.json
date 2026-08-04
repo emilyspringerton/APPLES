@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-04T19:49:44Z",
+  "generated_at": "2026-08-04T20:03:18Z",
   "repo": "APPLES",
-  "count": 1516,
+  "count": 1517,
   "apples": [
     {
       "id": 10525,
@@ -12130,6 +12130,14 @@
       "source_repo": "emily",
       "date": "20260804",
       "archived_at": "2026-08-04T19:49:44Z"
+    },
+    {
+      "id": 12051,
+      "type": "completion",
+      "title": "Fixed helicopter HUD text overlap -- flight physics were never broken",
+      "source_repo": "SHANKPIT",
+      "date": "20260804",
+      "archived_at": "2026-08-04T20:03:18Z"
     }
   ]
 }

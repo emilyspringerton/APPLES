@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-04T20:03:18Z",
+  "body": "Founder: get the hellicopter working in og engine shankpit currently it dont quite work -\u003e its close i think but it dont work. Live-tested under Xvfb using a temp env-var test hook (SHANKPIT_HELI_TEST, reverted before commit): forced local mode, VOXWORLD scene, positioned near the red helicopter spawn, scripted a real F-to-enter then forward+ascend input sequence, logged position/velocity every tick. Result: flight physics were never broken -- clean liftoff (y climbed 83-\u003e132 over ~2s), real forward+lateral thrust matching the tuning constants, and a rock-solid hover (vy decayed cleanly to 0.000 and held position exactly) once input stopped. The real bug was purely visual, found via screenshot: HELI ONLINE draws at scale 12 (a real ~84px-tall string, each glyph is a 7-row bitmap cell per turtle_text.h's turtle_draw_glyph) but the HP/ALT status line below it was only offset by 14px, so the two completely overlapped into unreadable garbled text -- that's what actually felt like it 'dont quite work' despite the simulation underneath being correct the whole time. Fixed by deriving the gap from the real glyph height (7 * scale) instead of a magic-number offset that happened to fit a different scale once. gcc build clean. Commit 86fa6c2/459cad1.",
+  "id": 12051,
+  "metadata": null,
+  "run_id": "shankpit-heli-fix-1785873798",
+  "source_repo": "SHANKPIT",
+  "title": "Fixed helicopter HUD text overlap -- flight physics were never broken"
+}
