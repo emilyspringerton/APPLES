@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-05T01:21:37Z",
+  "generated_at": "2026-08-05T01:32:13Z",
   "repo": "APPLES",
-  "count": 1567,
+  "count": 1568,
   "apples": [
     {
       "id": 10525,
@@ -12538,6 +12538,14 @@
       "source_repo": "IDUNA",
       "date": "20260805",
       "archived_at": "2026-08-05T01:21:37Z"
+    },
+    {
+      "id": 12102,
+      "type": "completion",
+      "title": "changelog(IDUNA): Back Office expansion: fixed /admin/ 404 (nginx trailing-sl…",
+      "source_repo": "IDUNA",
+      "date": "20260805",
+      "archived_at": "2026-08-05T01:32:13Z"
     }
   ]
 }
