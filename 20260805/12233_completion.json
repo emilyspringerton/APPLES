@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-05T20:20:59Z",
+  "body": "Media: /gta7tv places a real TextDisplay entity (Paper 1.19.4+, no resource pack, confirmed real via javap before coding) showing a rolling feed of recent claims/flips/Contest Windows/Enforcement callouts/Party Store closures. Factions: /faction join \u003cFREQUENCY|BLOC|PROCUREMENT\u003e, the three player-alignable factions from NORTHSTAR.md's own table; real Bukkit Team for nametag color, reputation from claims (+5)/flips (+10), YAML-persisted, re-applied on join. Added README.md with connection instructions (mirrors EINHORN_SURVIVAL) and a full how-to-play guide covering every system shipped so far. Built, deployed, confirmed enabling cleanly in server.log with zero exceptions.",
+  "id": 12233,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "GTA7",
+  "title": "VS3 -- Media broadcast TVs + Factions, plus README"
+}
