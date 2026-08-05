@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-05T16:48:57Z",
+  "body": "Founder reported lag and 'swimming' motion on the real skinned Tyler. Benchmarked CPU skinning directly (0.12ms/frame against real 2922-vert mesh) to rule it out before guessing -- applied glBufferSubData buffer-orphaning as the evidence-narrowed next fix for the lag (well-known CPU/GPU sync stall cause). For the swimming: confirmed with real numbers that the founder's actual rig has ~178 degree rest rotation baked into L_Arm/R_Arm bones (checked directly against the real uploaded file) -- the hand-authored tyler_idle/walk.gband clips assumed zero rest rotation (correct for the synthetic proof skeleton, wrong for a real Blender rig), producing genuinely wrong-axis motion, not a subtle offset. Fixed by scoping animation clips per mesh_name and generating real tyler_body_idle/walk.gband directly on the founder's actual rig via real Blender, exported through the already-verified pipeline. Live-verified under Xvfb: model now reads as a coherent upright humanoid (clear head/torso/shoulders) instead of the previous propeller-like cross shape. REDGARDEN commits f6293f4 (perf) / 2af8591 (animation) / c8c6f7b (changelog).",
+  "id": 12201,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "REDGARDEN",
+  "title": "Real animation mismatch fixed (swimming Tyler) + perf fix, both live-verified"
+}
