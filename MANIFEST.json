@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-05T16:27:20Z",
+  "generated_at": "2026-08-05T16:31:08Z",
   "repo": "APPLES",
-  "count": 1661,
+  "count": 1662,
   "apples": [
     {
       "id": 10525,
@@ -13290,6 +13290,14 @@
       "source_repo": "emily",
       "date": "20260805",
       "archived_at": "2026-08-05T16:27:20Z"
+    },
+    {
+      "id": 12196,
+      "type": "completion",
+      "title": "changelog(REDGARDEN): fix(ci): bundle assets/goldenband into RedGarden_Client zip…",
+      "source_repo": "REDGARDEN",
+      "date": "20260805",
+      "archived_at": "2026-08-05T16:31:08Z"
     }
   ]
 }
