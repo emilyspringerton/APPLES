@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-05T19:41:13Z",
+  "generated_at": "2026-08-05T19:53:23Z",
   "repo": "APPLES",
-  "count": 1691,
+  "count": 1692,
   "apples": [
     {
       "id": 10525,
@@ -13530,6 +13530,14 @@
       "source_repo": "emily",
       "date": "20260805",
       "archived_at": "2026-08-05T19:41:13Z"
+    },
+    {
+      "id": 12226,
+      "type": "completion",
+      "title": "GTA7 IDUNA integration test",
+      "source_repo": "GTA7",
+      "date": "20260805",
+      "archived_at": "2026-08-05T19:53:23Z"
     }
   ]
 }
