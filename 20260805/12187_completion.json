@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-05T15:36:29Z",
+  "body": "CHANGELOG updated in GOLDENBAND: fix(tools): finish + verify export_gband_rig.py against real Blender 4.2.23 - completed export_animation (was referenced but unwritten), fixed 3 real bugs found via actual testing, full pipeline verified end-to-end through the real C loader (sess-20260723-2347-df115bd5)",
+  "id": 12187,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "GOLDENBAND",
+  "title": "changelog(GOLDENBAND): fix(tools): finish + verify export_gband_rig.py against rea…"
+}

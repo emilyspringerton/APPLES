@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-05T15:27:08Z",
+  "generated_at": "2026-08-05T15:36:29Z",
   "repo": "APPLES",
-  "count": 1652,
+  "count": 1653,
   "apples": [
     {
       "id": 10525,
@@ -13218,6 +13218,14 @@
       "source_repo": "emily",
       "date": "20260805",
       "archived_at": "2026-08-05T15:27:08Z"
+    },
+    {
+      "id": 12187,
+      "type": "completion",
+      "title": "changelog(GOLDENBAND): fix(tools): finish + verify export_gband_rig.py against rea…",
+      "source_repo": "GOLDENBAND",
+      "date": "20260805",
+      "archived_at": "2026-08-05T15:36:29Z"
     }
   ]
 }
