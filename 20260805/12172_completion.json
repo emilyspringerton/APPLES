@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-05T13:36:27Z",
+  "body": "Founder reported no skeleton Tyler animation visible on a downloaded build, asked if a hotkey was needed. Real bug, not a hotkey gap: build.yml's DragonsNShit_MUD_GUI_Client packaging step only ever copied the .exe + SDL2.dll, never apps2/battlegrounds_gui/assets/goldenband. gband_rig_init(\"assets/goldenband\") is a CWD-relative path (the client folder itself for a double-clicked PLAY.bat) -- missing on every distributed build, so gband_rig_ready() correctly and silently fell back to Tyler's old plain box, no crash, no error. Also separately fixed the mingw cross-compile step itself, which was missing the two new GOLDENBAND source files entirely (undefined-reference link failure, caught from the founder's 'build failed on cross compile step' report). GoblinFoxDragon commits 7dc8efc (cross-compile sources), 022172d/252fad6 (asset bundling).",
+  "id": 12172,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "GoblinFoxDragon",
+  "title": "Real bug: distributed client zip never bundled GOLDENBAND .gband assets"
+}
