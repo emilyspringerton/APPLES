@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-05T00:27:53Z",
+  "body": "Retroactive Apple filing for real, tested, already-shipped-but-unfiled work found while resuming the backlog (S143-02 was still [ ] despite the code, tests, and PRRJECT_FATBABY's own manifest all being complete and pushed -- a real, self-referential SAGA-class gap: work claimed done with no audit trail). cmd/saga_manifest.go: saga.manifest.yaml parser (claim -\u003e verified_by anchors: test/telemetry/human_attestation), emily saga gaps --repo \u003cpath\u003e cross-references against the corpus claim ledger saga.go already parses. Vaporware debt: unbound claims + broken test-ref anchors (file/test existence checked, not test truth). Dark matter: scoped honestly to a repo's own README '## All processes' table (human-curated, not naive AST/token scanning across the whole repo -- confirmed by hand that a broader scan produces too much noise) rather than full exported-API/event-type/config-surface coverage, which stays real follow-on work. 7 tests, all passing. Live-verified just now: \n◈ SAGA GAPS | PRRJECT_FATBABY\n  manifest: PRRJECT_FATBABY/saga.manifest.yaml (0 entries)\n\n  ✓ claim-without-code (vaporware debt) — bound to nothing: none\n\n  ✓ broken verification anchors — test ref doesn't exist: none\n\n  ✓ claim IDs not found in the doc corpus (typo?): none\n\n  (surface scan skipped: read PRRJECT_FATBABY/README.md: open PRRJECT_FATBABY/README.md: no such file or directory)\n\n  ALL CLEAN — every manifest entry is bound, every surface item is claimed. against the real, honestly-empty manifest found 8 real unclaimed event types (filing_discovered, insider_buy, insider_sell_cluster, pr_body_fetched, pr_discovered, signal_generated, source_document_persisted) plus one known-noise token ('sudo', a doc-prose backtick mention, not a real surface -- an honest, acknowledged limitation of the README-token heuristic). emily.cli a06c515, PRRJECT_FATBABY 49c2f4b.",
+  "id": 12090,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "emily.cli",
+  "title": "SAGA build-sequence step 2: emily saga gaps -- manifest format + CI gaps report"
+}

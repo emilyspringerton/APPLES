@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-05T00:27:39Z",
+  "generated_at": "2026-08-05T00:27:53Z",
   "repo": "APPLES",
-  "count": 1555,
+  "count": 1556,
   "apples": [
     {
       "id": 10525,
@@ -12442,6 +12442,14 @@
       "source_repo": "PRRJECT_FATBABY",
       "date": "20260805",
       "archived_at": "2026-08-05T00:27:39Z"
+    },
+    {
+      "id": 12090,
+      "type": "completion",
+      "title": "SAGA build-sequence step 2: emily saga gaps -- manifest format + CI gaps report",
+      "source_repo": "emily.cli",
+      "date": "20260805",
+      "archived_at": "2026-08-05T00:27:53Z"
     }
   ]
 }
