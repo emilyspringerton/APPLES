@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-05T00:03:51Z",
+  "generated_at": "2026-08-05T00:18:00Z",
   "repo": "APPLES",
-  "count": 1549,
+  "count": 1550,
   "apples": [
     {
       "id": 10525,
@@ -12394,6 +12394,14 @@
       "source_repo": "emily",
       "date": "20260805",
       "archived_at": "2026-08-05T00:03:51Z"
+    },
+    {
+      "id": 12084,
+      "type": "completion",
+      "title": "changelog(IDUNA): PATCH /api/v1/characters/:id/job -- persist real job_main/j…",
+      "source_repo": "IDUNA",
+      "date": "20260805",
+      "archived_at": "2026-08-05T00:18:00Z"
     }
   ]
 }
