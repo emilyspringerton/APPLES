@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-05T00:18:25Z",
+  "generated_at": "2026-08-05T00:27:38Z",
   "repo": "APPLES",
-  "count": 1553,
+  "count": 1554,
   "apples": [
     {
       "id": 10525,
@@ -12426,6 +12426,14 @@
       "source_repo": "emily",
       "date": "20260805",
       "archived_at": "2026-08-05T00:18:25Z"
+    },
+    {
+      "id": 12088,
+      "type": "completion",
+      "title": "changelog(emily.cli): emily saga gaps --repo \u003cpath\u003e -- saga.manifest.yaml format …",
+      "source_repo": "emily.cli",
+      "date": "20260805",
+      "archived_at": "2026-08-05T00:27:38Z"
     }
   ]
 }
