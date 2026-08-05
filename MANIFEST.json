@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-05T00:54:42Z",
+  "generated_at": "2026-08-05T00:56:45Z",
   "repo": "APPLES",
-  "count": 1559,
+  "count": 1560,
   "apples": [
     {
       "id": 10525,
@@ -12474,6 +12474,14 @@
       "source_repo": "PRRJECT_FATBABY",
       "date": "20260805",
       "archived_at": "2026-08-05T00:54:42Z"
+    },
+    {
+      "id": 12094,
+      "type": "completion",
+      "title": "entity-graph: stop discarding freshly-computed signals when no new 8-K arrived (newssite staleness root cause)",
+      "source_repo": "PRRJECT_FATBABY",
+      "date": "20260805",
+      "archived_at": "2026-08-05T00:56:45Z"
     }
   ]
 }
