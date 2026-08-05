@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-05T02:11:11Z",
+  "body": "Founder, live: 'we need to start tracking price action/reaction when a pr is released and then at certain time intervals after the release so we can start tracking how certain companies respond to news.' Founder-confirmed sample schedule (asked via clarifying question since the exact intervals would shape the event schema): T+0 (release), +15min, +1h, EOD (real trading-day close), +1 trading day, +3 trading days. New cmd/pr-reaction-watcher + internal/prreaction: market-calendar-aware target-time math (real NYSE trading days/early closes via internal/marketcal), Yahoo Finance v8 chart API quotes (1m resolution for intraday offsets, daily for close-based ones, same retry shape cmd/market-data-watcher already uses). Reads secwatch's filing_discovered + prwatch's pr_discovered (both already carry a ticker directly), writes its own var/pr-reaction store; state rebuilds from that store's own history on restart. Real gap found and fixed before shipping: a naive first pass scheduled (and would never sample) every historical filing a cold-start backfill saw (AAPL alone goes back to 2017) -- added a 96h horizon guard. go test ./... clean (schedule_test.go covers the trading-calendar math directly: after-hours rollover, weekend rollover, t1d/t3d trading-day arithmetic). Live-verified against the real read-only input stores before deploying (no crash, correct horizon-guarded scheduling), then deployed for real via systemd, confirmed clean startup. Commits 5e23b16 (feat) + 9dffd20 (changelog).",
+  "id": 12110,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "PRRJECT_FATBABY",
+  "title": "New pr-reaction-watcher: real stock price reaction tracking after PR/filing releases"
+}
