@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-05T19:57:35Z",
+  "body": "VS1: per-Field-Office Watcher alertness (claims +15, contests +25, flips +15, nearby PvP +10, decays -5/30s); at alertness \u003e=65 a 2-mob Enforcement squad spawns and targets the FO owner if online/nearby (real vanilla Mob#setTarget AI, confirmed against the actual paper-api-26.2 jar's Pathfinder/MobGoals classes before writing code, not guessed). IDUNA integration: new GTA7-SERVER agent, IdunaClient replaces VS0's CLI-shell-out with direct HTTP auth+Apple-posting. WOTAN integration: every joining player registered into IDUNA's real player registry (provider=minecraft), same identity system REDGARDEN-BOTS uses. All verified end-to-end via curl before Java was written, and the plugin boots clean with zero exceptions on the live server. Real gameplay (claim/contest/enforcement/join-linking) not yet exercised by a real connected client.",
+  "id": 12230,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "GTA7",
+  "title": "VS1 + IDUNA/WOTAN integration live"
+}

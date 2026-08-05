@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-05T19:57:27Z",
+  "generated_at": "2026-08-05T19:57:35Z",
   "repo": "APPLES",
-  "count": 1695,
+  "count": 1696,
   "apples": [
     {
       "id": 10525,
@@ -13562,6 +13562,14 @@
       "source_repo": "IDUNA",
       "date": "20260805",
       "archived_at": "2026-08-05T19:57:27Z"
+    },
+    {
+      "id": 12230,
+      "type": "completion",
+      "title": "VS1 + IDUNA/WOTAN integration live",
+      "source_repo": "GTA7",
+      "date": "20260805",
+      "archived_at": "2026-08-05T19:57:35Z"
     }
   ]
 }
