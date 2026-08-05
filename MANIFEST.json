@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-05T16:41:48Z",
+  "generated_at": "2026-08-05T16:48:44Z",
   "repo": "APPLES",
-  "count": 1664,
+  "count": 1665,
   "apples": [
     {
       "id": 10525,
@@ -13314,6 +13314,14 @@
       "source_repo": "emily",
       "date": "20260805",
       "archived_at": "2026-08-05T16:41:48Z"
+    },
+    {
+      "id": 12199,
+      "type": "completion",
+      "title": "changelog(REDGARDEN): fix(arena): perf (VBO orphaning, benchmarked skinning first…",
+      "source_repo": "REDGARDEN",
+      "date": "20260805",
+      "archived_at": "2026-08-05T16:48:44Z"
     }
   ]
 }
