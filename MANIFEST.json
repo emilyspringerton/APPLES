@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-05T01:50:15Z",
+  "generated_at": "2026-08-05T01:58:10Z",
   "repo": "APPLES",
-  "count": 1571,
+  "count": 1572,
   "apples": [
     {
       "id": 10525,
@@ -12570,6 +12570,14 @@
       "source_repo": "emily",
       "date": "20260805",
       "archived_at": "2026-08-05T01:50:15Z"
+    },
+    {
+      "id": 12106,
+      "type": "completion",
+      "title": "changelog(PRRJECT_FATBABY): fix(processor): LLM taken out of the critical path -- new H…",
+      "source_repo": "PRRJECT_FATBABY",
+      "date": "20260805",
+      "archived_at": "2026-08-05T01:58:10Z"
     }
   ]
 }

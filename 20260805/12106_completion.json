@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-05T01:58:10Z",
+  "body": "CHANGELOG updated in PRRJECT_FATBABY: fix(processor): LLM taken out of the critical path -- new HeuristicProvider (never fails) is the default, Haiku/ArchetypeProvider now require -enable-llm. fix(prwatch): loadBodySeenIDs migrated to eventstore.Scan (was the same O(n^2) paged-ReadFrom bug class already fixed elsewhere); resolved an 11-day prwatch-body stall (sess-20260723-2347-df115bd5)",
+  "id": 12106,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "PRRJECT_FATBABY",
+  "title": "changelog(PRRJECT_FATBABY): fix(processor): LLM taken out of the critical path -- new H…"
+}
