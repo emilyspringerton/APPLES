@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-05T19:07:53Z",
+  "body": "Added emily survival logs/status/restart to emily.cli (SurvivalRoot config, cmd/survival.go), matching the shankpit/redgarden systemd --user pattern. Live-tested: emily survival logs and emily survival status both confirmed against the running server. Registered EINHORN_SURVIVAL/CLAUDE.md as a golden doc (EINHORN-SURVIVAL-NORTH). Founder direction: 'the minecraft server is now a first class citizen', plus a 30-year operating horizon durability bar noted for future work on this repo.",
+  "id": 12219,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "emily.cli",
+  "title": "emily survival — first-class CLI ops for EINHORN_SURVIVAL"
+}
