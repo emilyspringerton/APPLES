@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-05T07:08:51Z",
+  "body": "Founder asked how animations for arena/DragonsNShit would work then directed 'rig it up for GFD.' GOLDENBAND's .gband has no skeleton/mesh concept and no Blender asset exists anywhere in the monorepo, so instead of designing a mesh/skin format blind, wrote the full plan: S144-06 Phase 1 (buildable now, real .gband data through real forward kinematics, one cube per joint, zero founder dependency) and S144-07 Phase 2 (true CPU-skinned mesh, blocked on a real Blender asset, with a concrete founder checklist). GoblinFoxDragon docs2/GOLDENBAND_INTEGRATION_NORTHSTAR.md, commits 12044c8/9b89e5d, golden-indexed GOLDENBAND-GFD-NORTH.",
+  "id": 12140,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "GoblinFoxDragon",
+  "title": "GOLDENBAND animation integration plan for GFD (Phase 1 box-rig / Phase 2 Blender-blocked skinning)"
+}
