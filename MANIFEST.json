@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-05T18:22:23Z",
+  "generated_at": "2026-08-05T18:26:52Z",
   "repo": "APPLES",
-  "count": 1679,
+  "count": 1680,
   "apples": [
     {
       "id": 10525,
@@ -13434,6 +13434,14 @@
       "source_repo": "EINHORN_SURVIVAL",
       "date": "20260805",
       "archived_at": "2026-08-05T18:22:23Z"
+    },
+    {
+      "id": 12214,
+      "type": "audit",
+      "title": "Cycle 10097 — idle (no queued tasks)",
+      "source_repo": "emily",
+      "date": "20260805",
+      "archived_at": "2026-08-05T18:26:52Z"
     }
   ]
 }
