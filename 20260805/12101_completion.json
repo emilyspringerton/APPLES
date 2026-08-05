@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-05T01:21:37Z",
+  "body": "Founder, live: 'i need you to make me an admin login' -\u003e 'call the login name eddy' -\u003e 'make the secret at least 25 characters'. New cmd/create-admin-agent CLI provisions a real agent with iduna.admin via the same Store methods the Back Office's own agent UI uses. Created agent EDDY (64-char hex secret, well over the 25-char minimum asked for), verified end-to-end login against both http://localhost:8080/admin/login and https://okemily.com/admin/login (real session cookie, iduna.admin in its permissions). Secret stored in ~/.ssh/iduna-admin-eddy.txt (mode 600, founder's own explicit request) -- not included here or in BACKLOG.md, since both are far more widely synced/visible than a single local file. go test ./... clean. Commit b068ff1.",
+  "id": 12101,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "IDUNA",
+  "title": "Provisioned a real Back Office admin login (EDDY) for the founder"
+}
