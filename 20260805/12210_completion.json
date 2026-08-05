@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-05T17:59:44Z",
+  "body": "Founder: 'we need to set up a real EINHORN_INDUSTRIAL community survival minecraft server i will setup dns will dragonfly work for that.' Clarified GFD's existing 'Dragonfly fork' is a custom UDP protocol, not real Bedrock protocol, not suitable. Founder chose Paper (modern Spigot-API-compatible). Built Paper 26.1.2 build 74 (checked the real PaperMC API for the STABLE channel, not the newer-but-still-ALPHA 26.2 branch), Temurin 25 LTS vendored locally (no JDK/root on this box). Real first-boot test confirmed world generation + clean SIGTERM shutdown before wiring into a user-level systemd service (no root needed). Live now: enabled, running, listening on :25565, lingering already enabled so it survives reboots. Real config decisions documented: online-mode=true, whitelist on by default, 3G heap with Aikar's flags. New repo EINHORN_SURVIVAL created and registered in the top-level CLAUDE.md. Commit 5511511.",
+  "id": 12210,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "EINHORN_SURVIVAL",
+  "title": "Real EINHORN_INDUSTRIAL community Minecraft survival server - live and running"
+}
