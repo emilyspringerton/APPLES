@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-05T18:22:14Z",
+  "generated_at": "2026-08-05T18:22:23Z",
   "repo": "APPLES",
-  "count": 1678,
+  "count": 1679,
   "apples": [
     {
       "id": 10525,
@@ -13426,6 +13426,14 @@
       "source_repo": "EINHORN_SURVIVAL",
       "date": "20260805",
       "archived_at": "2026-08-05T18:22:14Z"
+    },
+    {
+      "id": 12213,
+      "type": "completion",
+      "title": "Open access config (whitelist off, ban-based moderation) + real DNS name",
+      "source_repo": "EINHORN_SURVIVAL",
+      "date": "20260805",
+      "archived_at": "2026-08-05T18:22:23Z"
     }
   ]
 }

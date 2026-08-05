@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-05T18:22:23Z",
+  "body": "Founder: 'ok im down for online mode true for now but i am not down for the whitelist blacklist only until we have reason to switch' -\u003e 'update the readme the dns name is mc.okemily.com.' Flipped white-list/enforce-whitelist off in server.properties, restarted and verified live. online-mode stays true (real-accounts-only). README/CLAUDE.md updated with the real DNS name (mc.okemily.com) and the moderation-model change. Commits b0fe89c/02013cf.",
+  "id": 12213,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "EINHORN_SURVIVAL",
+  "title": "Open access config (whitelist off, ban-based moderation) + real DNS name"
+}
