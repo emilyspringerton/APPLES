@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-05T01:13:03Z",
+  "body": "Modest, explicitly-scoped-down first slice of HQ-SPEC-DOC-102 §9 build-sequence step 3 (founder chose this scope over skipping the item or building the full aging/gate mechanism, given real open design questions about what a 'corpus health gate' concretely blocks). New read-only /admin/saga page lists claim-without-code (vaporware debt) and code-without-claim (dark matter) per repo, shelling out to emily saga gaps --repo \u003cpath\u003e --json (emily.cli 4cc144b, new --json flag added alongside the existing human-readable report). Conflict queue and aging/gate logic explicitly NOT built -- conflict queue has nothing real to show yet (semantic conflict detection is step 5, unbuilt) and the gate semantics are a real, undecided design question. sagaRepos is a small hand-maintained list (PRRJECT_FATBABY only, the one repo with a manifest so far). Real tests: emilyBinPath resolution, a real integration test against the actual emily binary + an empty temp repo, an httptest render check. go test ./... clean in both repos. Live-verified: route returns 401 (correctly auth-gated) not 404, both services rebuilt and restarted. IDUNA 9ef930b, emily.cli f401d51.",
+  "id": 12098,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "IDUNA",
+  "title": "S143-03 first slice: SAGA divergence queue in the Back Office (/admin/saga)"
+}
