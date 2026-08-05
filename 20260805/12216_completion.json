@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-05T18:53:25Z",
+  "body": "Founder: 'lol im tryna connect with bedrock - theres a way to allow both to connect whats that called we need that' -\u003e 'yes floodgate please make haste' -\u003e 'set it all up for me to connect from bedrock and then update the readme once its ready.' Downloaded Geyser+Floodgate's real Spigot builds via GeyserMC's actual download API, deployed into the live server, confirmed both loaded in server.log. Found a real port conflict (not assumed): Geyser's default Bedrock port 19132 was already owned by a separate, unrelated real Dragonfly server (/home/fatbaby/dragonfly, running 2+ days) -- confirmed via ss -ulnp. Moved Geyser to 19133 rather than touch a service this project doesn't own. Switched auth-type to floodgate (Geyser's generated default was 'online', which would have defeated the point of installing Floodgate). Re-verified clean: 'Started Geyser on UDP port 19133'. Floodgate's real generated secret key (key.pem) correctly gitignored. Firewall script updated (sudo-queue/11-einhorn-survival-firewall.sh, 19133/udp added). README/CLAUDE.md updated with real per-edition connection instructions. Commits bd37f82/9bdfe86.",
+  "id": 12216,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "EINHORN_SURVIVAL",
+  "title": "Geyser + Floodgate installed - real Bedrock connectivity, verified live, real port conflict found+fixed"
+}
