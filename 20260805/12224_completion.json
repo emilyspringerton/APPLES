@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-05T19:38:36Z",
+  "body": "Right-click a Beacon to claim it as a Field Office; right-click someone else's to open a 60s Contest Window (flips to the challenger if within 15 blocks on resolution). Flow ticks +5/min per held FO; /flow shows balance. Claim/flip events post as IDUNA Apples via the emily CLI. Built, deployed to the live EINHORN_SURVIVAL server, confirmed enabling cleanly in server.log. Gameplay itself not yet live-tested by a real connected client -- needs founder playtest before VS0 is considered fully proven.",
+  "id": 12224,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "GTA7",
+  "title": "VS0 — Field Office claim/Contest Window/Flow loop live"
+}
