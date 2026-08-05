@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-05T20:20:59Z",
+  "generated_at": "2026-08-05T20:26:43Z",
   "repo": "APPLES",
-  "count": 1699,
+  "count": 1700,
   "apples": [
     {
       "id": 10525,
@@ -13594,6 +13594,14 @@
       "source_repo": "GTA7",
       "date": "20260805",
       "archived_at": "2026-08-05T20:20:59Z"
+    },
+    {
+      "id": 12234,
+      "type": "audit",
+      "title": "Cycle 10105 — idle (no queued tasks)",
+      "source_repo": "emily",
+      "date": "20260805",
+      "archived_at": "2026-08-05T20:26:43Z"
     }
   ]
 }
