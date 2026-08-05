@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-05T17:42:19Z",
+  "generated_at": "2026-08-05T17:47:38Z",
   "repo": "APPLES",
-  "count": 1672,
+  "count": 1673,
   "apples": [
     {
       "id": 10525,
@@ -13378,6 +13378,14 @@
       "source_repo": "emily",
       "date": "20260805",
       "archived_at": "2026-08-05T17:42:19Z"
+    },
+    {
+      "id": 12207,
+      "type": "signal_observation",
+      "title": "[INFO] portfolio alerts",
+      "source_repo": "CLI",
+      "date": "20260805",
+      "archived_at": "2026-08-05T17:47:38Z"
     }
   ]
 }
