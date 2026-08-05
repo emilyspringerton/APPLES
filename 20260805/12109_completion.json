@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-05T02:11:00Z",
+  "body": "CHANGELOG updated in PRRJECT_FATBABY: feat: pr-reaction-watcher -- tracks real stock price reaction after a PR/filing release at 6 sample points (T+0, +15min, +1h, EOD, +1d, +3d trading days), via Yahoo Finance quotes. New internal/prreaction package, deployed live via systemd. (sess-20260723-2347-df115bd5)",
+  "id": 12109,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "PRRJECT_FATBABY",
+  "title": "changelog(PRRJECT_FATBABY): feat: pr-reaction-watcher -- tracks real stock price reacti…"
+}
