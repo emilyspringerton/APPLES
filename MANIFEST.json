@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-05T14:28:59Z",
+  "generated_at": "2026-08-05T14:29:15Z",
   "repo": "APPLES",
-  "count": 1646,
+  "count": 1647,
   "apples": [
     {
       "id": 10525,
@@ -13170,6 +13170,14 @@
       "source_repo": "GOLDENBAND",
       "date": "20260805",
       "archived_at": "2026-08-05T14:28:59Z"
+    },
+    {
+      "id": 12181,
+      "type": "completion",
+      "title": "Headless Blender Tools CI - founder can't run scripts locally (Windows, disk-constrained)",
+      "source_repo": "GOLDENBAND",
+      "date": "20260805",
+      "archived_at": "2026-08-05T14:29:15Z"
     }
   ]
 }

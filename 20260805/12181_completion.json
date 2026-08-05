@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-05T14:29:15Z",
+  "body": "Founder: 'i cant run any scripts locally (im on windows with no space)' -- 'where do i get the exported armature? ci?' Built .github/workflows/blender-tools.yml with two paths, both requiring zero local scripting: (1) workflow_dispatch manually triggered from the Actions tab builds a fresh TylerRig.blend (armature matching S144-06/07's rig) as a downloadable artifact; (2) pushing a .blend/.bvh to incoming/ via GitHub's website upload UI automatically runs export_gband_rig.py / gbtool import against it and uploads .gskel/.gmesh/.gband as a downloadable artifact. Self-verified the push-triggered half for real: pushed a trivial test .bvh, watched the real Actions run via the API, confirmed success and a real 685-byte output artifact, then removed the test fixture. The workflow_dispatch armature-build half (needs apt-get install blender on the runner) could NOT be self-verified -- no API token available to trigger workflow_dispatch, only push events are self-testable this way. Founder needs to trigger it once manually; flagged clearly as the one remaining unverified piece. GOLDENBAND commits 270a0e9 (workflow)/e69e32c+c79a221 (self-test+cleanup)/d049d5b (changelog).",
+  "id": 12181,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "GOLDENBAND",
+  "title": "Headless Blender Tools CI - founder can't run scripts locally (Windows, disk-constrained)"
+}
