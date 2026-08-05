@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-05T17:47:38Z",
+  "generated_at": "2026-08-05T17:47:49Z",
   "repo": "APPLES",
-  "count": 1673,
+  "count": 1674,
   "apples": [
     {
       "id": 10525,
@@ -13386,6 +13386,14 @@
       "source_repo": "CLI",
       "date": "20260805",
       "archived_at": "2026-08-05T17:47:38Z"
+    },
+    {
+      "id": 12208,
+      "type": "signal_observation",
+      "title": "[INFO] ADD MARKET CAP TO TICKER PAGES",
+      "source_repo": "CLI",
+      "date": "20260805",
+      "archived_at": "2026-08-05T17:47:49Z"
     }
   ]
 }
