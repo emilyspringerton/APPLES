@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-05T14:13:58Z",
+  "body": "Founder: 'next i need a mesh - do i need to rig it or will you rig it to the skeleton you already made.' Built the full engine-side skinning pipeline: .gskel (skeleton: joints, rest pose, precomputed inverse-bind matrices) and .gmesh (skinned geometry: position/normal/UV + up to 4 bone weights per vertex) binary formats + C loaders in GOLDENBAND (pure data, no engine dependency, matching gband.c's own philosophy), real CPU linear-blend skinning in REDGARDEN's packages/goldenband/gband_mesh_rig.c driven by the SAME tyler_idle.gband/tyler_walk.gband clips S144-06 already uses. Proven with a synthetic test mesh (gen_synthetic_body.py, real multi-bone blended weights up the torso, not rigid boxes) live-verified under Xvfb via a new F9 debug toggle in apps/arena -- renders as a real tapered continuous silhouette with two arm nubs, confirmed not a box. Deliberately NOT wired to any real hero (test content only). Also wrote (but could not run -- no Blender in this environment) two Blender scripts: create_tyler_armature.py (builds the matching 5-bone armature so the founder doesn't place bones by hand) and export_gband_rig.py (writes real .gskel/.gmesh from a rigged+skinned mesh, via a documented axis-conversion caveat as the one real unknown). Founder does: model, run the armature script, Ctrl+P auto-weight, animate, export. REDGARDEN commits 1ea9fa0/f8236f6, GOLDENBAND commits 79f2bd6/06a20bf/53ca67d. Full plan updated: GoblinFoxDragon/docs2/GOLDENBAND_INTEGRATION_NORTHSTAR.md.",
+  "id": 12178,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "REDGARDEN",
+  "title": "S144-07 engine side: real vertex-weighted skinned mesh + Blender export tooling (unrun)"
+}

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-05T14:13:45Z",
+  "generated_at": "2026-08-05T14:13:58Z",
   "repo": "APPLES",
-  "count": 1643,
+  "count": 1644,
   "apples": [
     {
       "id": 10525,
@@ -13146,6 +13146,14 @@
       "source_repo": "REDGARDEN",
       "date": "20260805",
       "archived_at": "2026-08-05T14:13:45Z"
+    },
+    {
+      "id": 12178,
+      "type": "completion",
+      "title": "S144-07 engine side: real vertex-weighted skinned mesh + Blender export tooling (unrun)",
+      "source_repo": "REDGARDEN",
+      "date": "20260805",
+      "archived_at": "2026-08-05T14:13:58Z"
     }
   ]
 }
