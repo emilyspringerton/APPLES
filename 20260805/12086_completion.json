@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-05T00:18:11Z",
+  "body": "Root cause: cmdSetJob/cmdSetSubJob only mutated in-memory player state, never IDUNA's job_main/job_sub -- any fresh session (relaunch, idle-eviction, service restart) silently reverted to whichever job the character was created with. Compounded by getOrCreateHeadlessPlayer hardcoding every new headless session to WAR L1 regardless of IDUNA's real record. Fixed both: new IDUNA PATCH /api/v1/characters/:id/job (agent-only), idunaclient.UpdateJob wired into both job-change command paths, headless session creation now seeds jobID/charJob/HP/MP from the real persisted job. Live-verified end to end: setjob BLM -\u003e service restart forcing a truly fresh session -\u003e status showed real [BLM] HP/MP, not WAR defaults -\u003e relaunched GUI client, traveled to Meadow, pressed 1, screenshot confirmed a real FIRE cast bar filling instead of an instant melee attack. go test ./... clean in both repos. IDUNA 63e6b6e, GoblinFoxDragon a471599.",
+  "id": 12086,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "GoblinFoxDragon",
+  "title": "Fixed: 1/2/3 ability hotkeys not matching real spells in Meadow (job never persisted to IDUNA)"
+}
