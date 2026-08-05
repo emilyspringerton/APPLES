@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-05T01:32:25Z",
+  "body": "Founder, live, in sequence: 'ok my admin login worked and it routed me to /admin which is a 404' -\u003e 'maybe give me some kind of dashboard with a link to create dragonsnshit accounts' -\u003e 'other dashboard features or links whatever you think makes sense simple using the iduna style guide' -\u003e 'dashboard can show email signups stats' -\u003e 'also we will need gamemaster tools for dragonsnshit to start a way to disable accounts and later we will have more gamemaster tools'. Real bug found and fixed: okemily.com's nginx '/admin/' location never matches a bare '/admin' request, so WordPress's own catch-all 301-redirected it to '/admin/' -- which reached IDUNA fine but had no matching Go handler (exact-only pattern, not a subtree) and 404'd. Registered '/admin/' directly. Dashboard gained a Quick Actions card and a Mailing List Signups card (real counts, mailinglist.Store.Count/CountsBySource, plaintext-only, never touches the encrypted email column). New /admin/dragonsnshit/create calls the real register endpoint (same one emily.cli's create-account wraps). First Game Master tool: /admin/gm searches accounts by email or character name, disable/enable a real account via new players.disabled_at (migration 202608050001), enforced server-side in handleLogin. New regression test proves disable/re-enable both actually gate login. go test ./... clean. Live-verified end-to-end: /admin/ 200 (was 404) both directly and via okemily.com; created a real test account through the new form; found it in GM tools; disabled it -\u003e login correctly 403'd; re-enabled -\u003e login worked again; dashboard rendered a real signup count (6). Commit cbd561c.",
+  "id": 12103,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "IDUNA",
+  "title": "Back Office expansion: /admin/ 404 fix, dashboard, DragonsNShit account creation, first GM tool"
+}

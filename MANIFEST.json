@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-05T01:32:13Z",
+  "generated_at": "2026-08-05T01:32:25Z",
   "repo": "APPLES",
-  "count": 1568,
+  "count": 1569,
   "apples": [
     {
       "id": 10525,
@@ -12546,6 +12546,14 @@
       "source_repo": "IDUNA",
       "date": "20260805",
       "archived_at": "2026-08-05T01:32:13Z"
+    },
+    {
+      "id": 12103,
+      "type": "completion",
+      "title": "Back Office expansion: /admin/ 404 fix, dashboard, DragonsNShit account creation, first GM tool",
+      "source_repo": "IDUNA",
+      "date": "20260805",
+      "archived_at": "2026-08-05T01:32:25Z"
     }
   ]
 }
