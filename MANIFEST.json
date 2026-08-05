@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-05T01:18:58Z",
+  "generated_at": "2026-08-05T01:21:27Z",
   "repo": "APPLES",
-  "count": 1565,
+  "count": 1566,
   "apples": [
     {
       "id": 10525,
@@ -12522,6 +12522,14 @@
       "source_repo": "emily",
       "date": "20260805",
       "archived_at": "2026-08-05T01:18:58Z"
+    },
+    {
+      "id": 12100,
+      "type": "completion",
+      "title": "changelog(IDUNA): cmd/create-admin-agent -- provision a human-operator Back O…",
+      "source_repo": "IDUNA",
+      "date": "20260805",
+      "archived_at": "2026-08-05T01:21:27Z"
     }
   ]
 }
