@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-05T00:54:42Z",
+  "body": "CHANGELOG updated in PRRJECT_FATBABY: fix(entity-graph): stop discarding freshly-computed signals (governance_health, decay, board_decay) on any batch whose new records weren't a new 8-K -- root cause of newssite header pages/live feeds being stale for 5 days (sess-20260723-2347-df115bd5)",
+  "id": 12093,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "PRRJECT_FATBABY",
+  "title": "changelog(PRRJECT_FATBABY): fix(entity-graph): stop discarding freshly-computed signals…"
+}

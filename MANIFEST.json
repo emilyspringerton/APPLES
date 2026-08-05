@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-05T00:49:00Z",
+  "generated_at": "2026-08-05T00:54:42Z",
   "repo": "APPLES",
-  "count": 1558,
+  "count": 1559,
   "apples": [
     {
       "id": 10525,
@@ -12466,6 +12466,14 @@
       "source_repo": "emily",
       "date": "20260805",
       "archived_at": "2026-08-05T00:49:00Z"
+    },
+    {
+      "id": 12093,
+      "type": "completion",
+      "title": "changelog(PRRJECT_FATBABY): fix(entity-graph): stop discarding freshly-computed signals…",
+      "source_repo": "PRRJECT_FATBABY",
+      "date": "20260805",
+      "archived_at": "2026-08-05T00:54:42Z"
     }
   ]
 }
