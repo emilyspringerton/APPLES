@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-05T02:27:04Z",
+  "generated_at": "2026-08-05T02:27:21Z",
   "repo": "APPLES",
-  "count": 1580,
+  "count": 1581,
   "apples": [
     {
       "id": 10525,
@@ -12642,6 +12642,14 @@
       "source_repo": "MJOLNIR",
       "date": "20260805",
       "archived_at": "2026-08-05T02:27:04Z"
+    },
+    {
+      "id": 12115,
+      "type": "completion",
+      "title": "MJOLNIR README: clearer install-blocker step split",
+      "source_repo": "MJOLNIR",
+      "date": "20260805",
+      "archived_at": "2026-08-05T02:27:21Z"
     }
   ]
 }

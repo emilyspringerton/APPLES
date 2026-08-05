@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-05T02:27:21Z",
+  "body": "Founder asked how to get MJOLNIR installed on their Android tablet; answered live, then asked to add that walkthrough to the README. Content was already there -- restructured into explicit Step 1 (only the founder can do: add the real GOOGLE_SERVICES_JSON secret) vs Step 2 (tablet-only download/install), and refreshed the stale run-count (was citing run #4, live CI check showed run #5 as the current failure, same blocker). Commits f6235b8 (readme) + 157ee02 (changelog).",
+  "id": 12115,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "MJOLNIR",
+  "title": "MJOLNIR README: clearer install-blocker step split"
+}
