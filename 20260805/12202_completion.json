@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-05T16:49:03Z",
+  "body": "Same fixes as REDGARDEN Apple #12201, ported into GFD's battlegrounds_gui: VBO buffer-orphaning for the reported lag, and per-mesh-scoped animation clips (tyler_body_idle/walk.gband) fixing the wrong-axis 'swimming' motion caused by reusing flat-convention clips against the founder's real rig (~178 degree rest rotation on arm bones). Live-verified under Xvfb: same coherent upright-humanoid fix confirmed. mud rebuilt. GoblinFoxDragon commits 799296d/8441b69.",
+  "id": 12202,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "GoblinFoxDragon",
+  "title": "Perf + animation-mismatch fixes ported from REDGARDEN, same session"
+}
