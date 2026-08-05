@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-05T16:31:08Z",
+  "generated_at": "2026-08-05T16:33:38Z",
   "repo": "APPLES",
-  "count": 1662,
+  "count": 1663,
   "apples": [
     {
       "id": 10525,
@@ -13298,6 +13298,14 @@
       "source_repo": "REDGARDEN",
       "date": "20260805",
       "archived_at": "2026-08-05T16:31:08Z"
+    },
+    {
+      "id": 12197,
+      "type": "completion",
+      "title": "Real bug: RedGarden_Client zip never bundled Tyler's real assets - fixed",
+      "source_repo": "REDGARDEN",
+      "date": "20260805",
+      "archived_at": "2026-08-05T16:33:38Z"
     }
   ]
 }

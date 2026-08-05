@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-05T16:33:38Z",
+  "body": "Founder: 'i launched redgarden it seemed like the tyler model was not updated so i closed the game.' Real bug, same class already found and fixed for GFD earlier this session but missed here: RedGarden_Client_*.zip's packaging step only ever copied RedGarden.exe + SDL2.dll, never assets/goldenband/ -- gband_rig_init/gband_mesh_rig_init fail soft (no crash, no error) and silently fall back to Tyler's original plain box on every downloaded build. Fixed, CI confirmed green (run 31025663067) before reporting back, not just pushed blind. REDGARDEN commits f59f31b/1443616.",
+  "id": 12197,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "REDGARDEN",
+  "title": "Real bug: RedGarden_Client zip never bundled Tyler's real assets - fixed"
+}
