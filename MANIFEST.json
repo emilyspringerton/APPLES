@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-05T01:12:48Z",
+  "generated_at": "2026-08-05T01:12:54Z",
   "repo": "APPLES",
-  "count": 1562,
+  "count": 1563,
   "apples": [
     {
       "id": 10525,
@@ -12498,6 +12498,14 @@
       "source_repo": "IDUNA",
       "date": "20260805",
       "archived_at": "2026-08-05T01:12:48Z"
+    },
+    {
+      "id": 12097,
+      "type": "completion",
+      "title": "changelog(emily.cli): emily saga gaps --json -- machine-readable output for IDUNA…",
+      "source_repo": "emily.cli",
+      "date": "20260805",
+      "archived_at": "2026-08-05T01:12:54Z"
     }
   ]
 }
