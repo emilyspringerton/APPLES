@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-05T19:03:08Z",
+  "body": "Bedrock connection attempt was rejected with 'server software does not support the Java version that Geyser requires (26.2, 26.1.1, 26.1.2)'. Installed ViaVersion 5.11.0 (Release channel, via PaperMC Hangar API) into server/plugins/, restarted the live systemd service, and confirmed via server.log that ViaVersion loaded/enabled cleanly and the version-mismatch warning did not reappear on a clean boot.",
+  "id": 12218,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "EINHORN_SURVIVAL",
+  "title": "Install ViaVersion to fix Geyser/Bedrock Java-protocol-version rejection"
+}
