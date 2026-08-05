@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-05T16:20:11Z",
+  "body": "Same wiring as REDGARDEN's S144-07 Apple #12193, ported into GFD's own battlegrounds_gui (the real DragonsNShit MOBA client, not just the REDGARDEN original). Real bug caught specific to this port: testing from the wrong working directory (repo root vs apps2/battlegrounds_gui, where this client's assets/goldenband actually lives) made both gband_rig_init and gband_mesh_rig_init silently fail, falling back to the plain box -- looked identical to a real regression until traced to cwd. Live-verified correct once run from the right directory. Also proactively fixed CI (build.yml cross-compile source list + distributed-zip asset bundling) for the 3 new source files and .gskel/.gmesh assets, same gap class as the earlier S144-06 CI incident this session -- caught before a founder bug report this time. GoblinFoxDragon commits b8b6052/13a3e17/ff38809.",
+  "id": 12194,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "GoblinFoxDragon",
+  "title": "Real founder-modeled Tyler mesh ported to battlegrounds_gui - S144-07 complete in the real DragonsNShit client"
+}
