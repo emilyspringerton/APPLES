@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-05T16:20:03Z",
+  "body": "Founder said 'assume its correct and ship it' after the real Blender export pipeline was fully debugged and verified (version mismatch chase, active-object robustness fix, unit-scale fix). Wired tyler_body.gskel/.gmesh (real founder-modeled + rigged + auto-weighted mesh, exported from GOLDENBAND/incoming/TYLER-rigged3.blend) into Tyler's actual hero rendering, replacing both the old plain box and the S144-06 box-rig. Fallback chain: real mesh -\u003e box-rig -\u003e plain box. F9 now A/B-toggles real mesh vs box-rig for live comparison. Real bug found+fixed: dynamic VBO vertex cap (512, sized for the synthetic proof mesh) silently dropped every draw call for the real model's 2922 flattened verts -- raised to 8192. Live-verified under Xvfb: real model geometry renders, correctly team-tinted via the existing shader (no texture/paint needed). REDGARDEN commits f59b310/fcca4db.",
+  "id": 12193,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "REDGARDEN",
+  "title": "Real founder-modeled Tyler mesh live - S144-07 complete, ships as actual Tyler"
+}
