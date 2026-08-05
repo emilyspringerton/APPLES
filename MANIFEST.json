@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-05T01:58:10Z",
+  "generated_at": "2026-08-05T01:58:25Z",
   "repo": "APPLES",
-  "count": 1572,
+  "count": 1573,
   "apples": [
     {
       "id": 10525,
@@ -12578,6 +12578,14 @@
       "source_repo": "PRRJECT_FATBABY",
       "date": "20260805",
       "archived_at": "2026-08-05T01:58:10Z"
+    },
+    {
+      "id": 12107,
+      "type": "completion",
+      "title": "Removed LLM from processor's critical path (heuristic default); fixed an 11-day prwatch-body stall",
+      "source_repo": "PRRJECT_FATBABY",
+      "date": "20260805",
+      "archived_at": "2026-08-05T01:58:25Z"
     }
   ]
 }

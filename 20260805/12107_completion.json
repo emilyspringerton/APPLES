@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-05T01:58:25Z",
+  "body": "Continuation of the newssite-staleness investigation. Two real, separate root causes found and fixed. (1) prwatch-body: loadBodySeenIDs used the same O(n^2) paged-ReadFrom(from:=1) pattern already fixed in 9 other places this session -- migrated to eventstore.Scan. The real, live symptom this was entangled with: prwatch-body had been running continuously since 2026-07-25 with zero restarts, completing only one real batch per day; restarting it live drained an 11-day backlog (13+ press releases per batch, real earnings/dividend content included) in under a minute. (2) Founder, live: 'we dont need the llm in the critical path of the data... figure out a way around it for now' -\u003e 'i never really asked for the llm sentiment anyway... we dont want llm generated data like that in the critical path for now.' Root cause: worker.go's handleOne persists source_document_persisted before calling Provider.AnalyzeText, but returns early with NO signal_generated and no retry if AnalyzeText errors -- confirmed live, every filing since 2026-08-03 12:06 UTC was silently dropped because the Anthropic account ran out of credit (confirmed via a live API call, still exhausted as of this fix -- founder is aware, deprioritized as a cost/revenue tradeoff, not chased further here). New HeuristicProvider (never calls out, so AnalyzeText can never fail) is now cmd/processor/main.go's default; Haiku/ArchetypeProvider (unchanged, not deleted) require a new explicit -enable-llm flag. go test ./... clean, new heuristic_provider_test.go. Live-verified: both services rebuilt and restarted; processor logs provider=heuristic and completed its real startup backfill scan (12428 seen signals) with zero LLM calls. Commits 86c66b6 (fix) + 68ed030 (changelog).",
+  "id": 12107,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "PRRJECT_FATBABY",
+  "title": "Removed LLM from processor's critical path (heuristic default); fixed an 11-day prwatch-body stall"
+}
