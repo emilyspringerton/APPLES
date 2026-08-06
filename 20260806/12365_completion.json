@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-06T20:27:57Z",
+  "body": "Founder: 'continue'. Real correction found mid-implementation: the spec's original 'internal/chatbridge' proposal was scrapped after discovering IDUNA already has an equivalent endpoint (/api/v1/chat/messages, built for mud\u003c-\u003ebattlegrounds) -- extended it instead (gfd_server/einhorn_survival sources, gta7 channel) rather than building a parallel system, same 'check for an existing system first' discipline already applied once today on shankpit-460's bot AI. Verified end-to-end via curl (GTA7-SERVER's existing credential works with zero new IDUNA provisioning) before writing Java. ChatBridgeListener posts real player chat (AsyncChatEvent -\u003e PlainTextComponentSerializer -\u003e IdunaClient.postChat) async off the main thread (AsyncChatEvent already fires async). ChatBridgePoller polls every 5s, hops back to the main thread via Bukkit.getScheduler().runTask for broadcastMessage, prefixes [DragonsNShit], starts from the current high-water mark (no history replay on restart). Built, deployed, confirmed enabling cleanly with zero exceptions. Noted honestly: deploying this required a full systemctl restart (dropping the connected player) -- no RCON/console access exists to do a lighter plugin-only reload, a real tooling gap, not ignored. GFD side (clientAddrs needs lifting to package scope) not yet built.",
+  "id": 12365,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "GTA7",
+  "title": "S171-04 chat bridge -- EINHORN_SURVIVAL side live"
+}
