@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-06T20:43:04Z",
+  "body": "CHANGELOG updated in GoblinFoxDragon: S171-04 chat bridge, GFD side complete: EncodeChat exported, PostChatMessageAs added, ChatYell publish hook + broadcast poller (reused existing broadcastCh, no clientAddrs restructuring needed). Found and fixed a real deploy incident: the live server-go was an unsupervised orphan process blocking the systemd unit. All 3 sides of S171-04 now built; real player-facing verification still pending. (sess-20260723-2347-df115bd5)",
+  "id": 12369,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "GoblinFoxDragon",
+  "title": "changelog(GoblinFoxDragon): S171-04 chat bridge, GFD side complete: EncodeChat exported…"
+}
