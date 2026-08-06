@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-06T22:24:24Z",
+  "generated_at": "2026-08-06T22:29:19Z",
   "repo": "APPLES",
-  "count": 1852,
+  "count": 1853,
   "apples": [
     {
       "id": 10525,
@@ -14818,6 +14818,14 @@
       "source_repo": "emily.cli",
       "date": "20260806",
       "archived_at": "2026-08-06T22:24:24Z"
+    },
+    {
+      "id": 12387,
+      "type": "completion",
+      "title": "S132: closed the last 3 repos missing GitHub Actions CI",
+      "source_repo": "EMILY",
+      "date": "20260806",
+      "archived_at": "2026-08-06T22:29:19Z"
     }
   ]
 }
