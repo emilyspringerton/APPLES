@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-06T19:14:04Z",
+  "body": "Founder: 'then have emergency watch the packets' -\u003e clarified via AskUserQuestion as 'Emiree' misread + real packet capture -\u003e 'as paymen[t]' / 'publish' / 'guest' / 'do a report' / 'Qa' / 'as the duck' (author attribution). Attempted real tcpdump capture on EINHORN_SURVIVAL -- confirmed no root/CAP_NET_RAW available (matches this session's standing no-sudo constraint), so used real socket-level data instead (ss, no root needed): confirmed 25565/tcp (Java) and 19133/udp (Bedrock via Geyser) both listening, zero established player connections at observation time (GarbageMan4147 had just disconnected -- slain by a Spider, per server.log), 2 real outbound HTTPS(443) connections from the java process (session/profile auth lookups). Published honestly framing the root-access gap as a real operational limit, not glossed over. Also: founder flagged 'we are not a security company we have a security product or two in our ecosystem' / 'we're getting ahead of it' -- saved as a persistent feedback memory so future security/monitoring-flavored content doesn't imply a company-identity pivot.",
+  "id": 12337,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "OKEMILY",
+  "title": "Field Report: Two Doors (author: The Duck)"
+}
