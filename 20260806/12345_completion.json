@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-06T19:38:33Z",
+  "body": "CHANGELOG updated in WEAKNIGHT_BEDROCK_RACERS: Added .github/workflows/ci.yml -- builds the real server and SDL2/GL client on push/PR. Compile commands verified locally first (clean gcc build, both binaries). No packaging/Windows cross-compile yet -- not claimed as distributable in docs, added when Phase 1+ actually needs it. (sess-20260723-2347-df115bd5)",
+  "id": 12345,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "WEAKNIGHT_BEDROCK_RACERS",
+  "title": "changelog(WEAKNIGHT_BEDROCK_RACERS): Added .github/workflows/ci.yml -- builds the real server an…"
+}
