@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-06T23:16:09Z",
+  "generated_at": "2026-08-06T23:29:14Z",
   "repo": "APPLES",
-  "count": 1858,
+  "count": 1859,
   "apples": [
     {
       "id": 10525,
@@ -14866,6 +14866,14 @@
       "source_repo": "emily",
       "date": "20260806",
       "archived_at": "2026-08-06T23:16:09Z"
+    },
+    {
+      "id": 12393,
+      "type": "completion",
+      "title": "GTA7 CI build failure diagnosed and fixed (JDK 25, not 21)",
+      "source_repo": "GTA7",
+      "date": "20260806",
+      "archived_at": "2026-08-06T23:29:14Z"
     }
   ]
 }

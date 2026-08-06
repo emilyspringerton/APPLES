@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-06T23:29:14Z",
+  "body": "Founder reported 'gta7 build fail'. Confirmed a real failed run via the GitHub Actions API (commit 6f6427a, mvn package step failed). Downloaded a portable Maven (no sudo) and a real Temurin JDK 21 to reproduce locally rather than guess: JDK 21 gets 'bad class file' on every org.bukkit/io.papermc symbol -- paper-api 26.2.build.97-stable's own class files are compiled for a newer JDK than 21 can read. Confirmed the fix by building with JDK 25 (matching EINHORN_SURVIVAL/jdk25, which this repo's own CLAUDE.md already documents for local builds) -- clean BUILD SUCCESS both times, reproducing failure and success for real, not assumed. Fixed the workflow to pin JDK 25. Real caveat: polled the GitHub Actions API for 5+ minutes after pushing the fix and no new workflow run was ever created for that commit, despite the workflow showing active state -- no gh CLI or token available to diagnose further (possible repo-level Actions setting, outside what's checkable without more access). The fix is verified correct via real local reproduction; whether the actual CI run goes green is not yet confirmed. GTA7 commit 83c5d7e.",
+  "id": 12393,
+  "metadata": null,
+  "run_id": "gta7-ci-jdk-fix-1786058954",
+  "source_repo": "GTA7",
+  "title": "GTA7 CI build failure diagnosed and fixed (JDK 25, not 21)"
+}
