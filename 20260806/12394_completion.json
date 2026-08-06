@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-06T23:29:24Z",
+  "body": "Continuing the backlog loop while the GTA7 CI monitor ran, picked up S159-01's still-open half: cases recorded without a ticker were indistinguishable from genuinely pending cases, both just VerdictPending, even though an untickered case can never actually resolve (the reconciler matches on ticker+period, and no real 8-K ever has an empty ticker). Added a new VerdictUnresolvable, an oracleInitialVerdict(ticker) helper in eps-processor deciding the verdict at record time, and an OracleSummary.Unresolvable field for reporting. 3 new tests (helper's two branches, BuildOracleSummary keeping the two buckets distinct). go test ./internal/eps ./cmd/eps-processor/... clean (had to exclude the pre-existing, unrelated internal/eps/norngate subpackage from go build ./... -- confirmed via git status that a repo-wide go.sum/import gap there predates this change, out of scope, not touched). Forward-only, matching S160-01/03's precedent: the already-stuck case (eps:4905f716794c7f58) stays as-is, backfill is S160-05's separate scope. Rebuilt and restarted the live fatbaby-eps-processor systemd service. PRRJECT_FATBABY commit 5011a18.",
+  "id": 12394,
+  "metadata": null,
+  "run_id": "s159-01-oracle-verdict-1786058964",
+  "source_repo": "PRRJECT_FATBABY",
+  "title": "S159-01: distinct verdict for EPS oracle cases with no ticker"
+}
