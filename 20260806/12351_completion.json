@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-06T19:53:31Z",
+  "body": "Founder: 'then continue' (following the plan published in 'The Plan, As Far As It Goes' -- finish GTA7's scoped work before starting anything new). Rogue Swarms: triggers automatically at Watcher alertness 90 (above Enforcement's 65), 3 real containment objectives around the FO, any faction's damage counts toward participation, 3-minute timer. Success rewards all participants with faction rep regardless of faction (real cross-faction cooperation per NORTHSTAR.md's own VS4 spec). Failure scars the FO: reverts to unclaimed, halved Flow generation persists through the next claim (FieldOfficeManager.scar()/claimScarred()). Custody Lock: dying to a named Enforcement mob sends the player to a real jail (GameMode.SPECTATOR, 2-minute real restriction, re-applied on rejoin if still serving), /gta7jail (op-only) sets the location. Deliberately left the 10-man/Annex/1-man housing-tier split unimplemented since TRAPX's own source doctrine lists it as undecided -- didn't invent an answer to a question the spec itself hasn't settled. Built, deployed, confirmed enabling cleanly in server.log with zero exceptions (VS0/VS1/VS2/VS3/VS4 all live). Real gameplay (containment success/failure, custody flow) not yet exercised by a real connected client. First GTA7 commits under the new Traditional-Chinese-commit-description convention.",
+  "id": 12351,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "GTA7",
+  "title": "VS4 -- Rogue Swarms + Custody Lock, all 5 milestones live"
+}
