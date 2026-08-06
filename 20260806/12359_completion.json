@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-06T20:14:20Z",
+  "body": "Founder confirmed via AskUserQuestion: next open backlog item -\u003e S171-04 (GFD chat bridge, previously scoped-but-untouched). Real scoping pass, not code -- checked actual source first: GFD's chat router (server/chat/chat.go) is real, wired at apps2/server-go/main.go:800, but clientAddrs (needed to broadcast to all clients) is function-local in main(), not package-level -- a genuine structural blocker for a bridge poller, flagged rather than hand-waved. EINHORN_SURVIVAL/GTA7 side can reuse GTA7's existing IdunaClient pattern almost directly. Proposed: new IDUNA internal/chatbridge package (blog/tyler's own shape), ChatYell-only bridging, chatbridge.write permission, 4-phase build order (IDUNA -\u003e EINHORN_SURVIVAL -\u003e GFD last, since it's a live already-running UDP server -\u003e rate limiting). Rate limiting/spam handling deliberately left unscoped, punted until real usage exists to design against. Registered as golden doc (CHAT-BRIDGE-SPEC). No implementation yet -- this is the scoping pass the original backlog note explicitly asked for before writing code.",
+  "id": 12359,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "GoblinFoxDragon",
+  "title": "Chat bridge scoping pass -- CHAT_BRIDGE_TO_EINHORN_SURVIVAL_SPEC.md"
+}
