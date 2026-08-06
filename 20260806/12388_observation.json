@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "observation",
+  "archived_at": "2026-08-06T22:30:56Z",
+  "body": "Investigated S144-02 (port GOLDENBAND's skinned character rig into SHANKPIT) as the next backlog item after closing S143-04 and the CI gaps. Confirmed the real 64-tick fixed timestep and an existing two-snapshot alpha-blend interpolation layer for the local player (apps/lobby/src/main.c lines 7222-7223, 7704, 7884-7891) -- real precedent to hook into. But found SHANKPIT has zero shaders and zero VBOs anywhere in the repo, 100% legacy fixed-function glBegin/glVertex3f immediate mode -- a fundamentally different starting point than REDGARDEN/GFD, which already had a GLSL+VBO pipeline before the earlier GOLDENBAND ports landed there. Wiring in the skinned mesh means either building SHANKPIT's first shader+VBO subsystem, or an adapter that re-emits CPU-skinned verts through the existing legacy immediate-mode path (simpler, slower, more vertex-count-sensitive). That's an architecture decision affecting every future SHANKPIT render feature, not just this item -- flagged for a founder call rather than picked unilaterally, same reasoning already applied to S144-03's physics-backbone choice. Also found the reference gband_mesh_rig_draw() in REDGARDEN/GFD doesn't actually use tick/alpha interpolation itself (raw wall-clock dt_ms, no fixed-timestep accumulator in either caller) -- SHANKPIT would be the first real consumer of the interpolation-aware behavior this item asks for, so the rig's clock-advance/pose-blend internals need a real rewrite, not a drop-in port. Documented all of this in EMILY/BACKLOG.md S144-02 with file:line citations so a future pass (once the founder picks a rendering path) can move straight to implementation. Not implemented this pass -- didn't want to commit SHANKPIT to a foundational rendering-architecture fork unprompted.",
+  "id": 12388,
+  "metadata": null,
+  "run_id": "s144-02-recon-1786055456",
+  "source_repo": "SHANKPIT",
+  "title": "S144-02 recon: SHANKPIT has no shader/VBO pipeline, a real architecture fork found before writing code"
+}
