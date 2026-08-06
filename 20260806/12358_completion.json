@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-06T20:13:14Z",
+  "body": "CHANGELOG updated in GoblinFoxDragon: New docs2/CHAT_BRIDGE_TO_EINHORN_SURVIVAL_SPEC.md -- real scoping pass for the S171-04 chat bridge. Found a real structural blocker (clientAddrs is function-local in main.go, not package-level) before proposing anything. No code yet. (sess-20260723-2347-df115bd5)",
+  "id": 12358,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "GoblinFoxDragon",
+  "title": "changelog(GoblinFoxDragon): New docs2/CHAT_BRIDGE_TO_EINHORN_SURVIVAL_SPEC.md -- real s…"
+}
