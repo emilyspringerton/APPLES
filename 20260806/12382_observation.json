@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "observation",
+  "archived_at": "2026-08-06T21:39:07Z",
+  "body": "Continuing the backlog-first loop, picked up the two duplicate-pair raw observations sitting unclassified in EMILY/BACKLOG.md SECTION 5 ('ADD MARKET CAP TO TICKER PAGES' x2, 'portfolio alerts' x2) since 'emily backlog promote -dry-run' confirmed the real INTAKE QUEUE is empty -- these were never routed there, a real small gap in the observation pipeline separate from this investigation. Market cap: catalog.TickerRow has no market-cap field, it's derived from internal signal counts not live data; tested the three Yahoo endpoints that would carry per-symbol market cap (v7/finance/quote, v8/finance/chart, v10/finance/quoteSummary) and all three returned live 429s just now while the screener endpoint (used by internal/movers, list-scoped not symbol-scoped) returned 200 -- likely self-inflicted rate limiting from querying several symbol-family endpoints back to back, since the live market-data-watcher process completed a clean cycle yesterday over the same v8/chart endpoint. Did not implement against a demonstrably-currently-429ing endpoint. Portfolio alerts: found it's not vague -- internal/newssite/render.go:1587's RenderPaywallPage already promises 'portfolio alerts' as an Emily+ (9/mo, mailto CTA, no real billing backend) benefit in live paywall copy, with zero portfolio-tracking or alerting code anywhere in the repo. A real promise/delivery gap, not a false alarm -- but building it requires real product decisions (accounts? alert types? billing sequencing) that are a founder call. Both consolidated into properly-scoped BACKLOG.md entries with the real findings instead of left as noise stubs. EMILY commit pending.",
+  "id": 12382,
+  "metadata": null,
+  "run_id": "backlog-triage-1786052347",
+  "source_repo": "PRRJECT_FATBABY",
+  "title": "Triaged 4 stale raw observations: market cap real Yahoo rate-limit found, portfolio alerts is an unbuilt paywall promise"
+}
