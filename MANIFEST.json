@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-06T22:18:53Z",
+  "generated_at": "2026-08-06T22:24:24Z",
   "repo": "APPLES",
-  "count": 1851,
+  "count": 1852,
   "apples": [
     {
       "id": 10525,
@@ -14810,6 +14810,14 @@
       "source_repo": "emily",
       "date": "20260806",
       "archived_at": "2026-08-06T22:18:53Z"
+    },
+    {
+      "id": 12386,
+      "type": "completion",
+      "title": "S143-04: SAGA which-doc-governs/status/conflicts query commands",
+      "source_repo": "emily.cli",
+      "date": "20260806",
+      "archived_at": "2026-08-06T22:24:24Z"
     }
   ]
 }

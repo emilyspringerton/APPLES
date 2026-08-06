@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-06T22:24:24Z",
+  "body": "Continuing the backlog loop, picked S143-04 (SAGA agent v0, deterministic parts first) as the lowest-numbered actionable open item after S142 (KAREN, blocked on legal/QBO credential decisions) and Section 151 (FATES DNS, blocked on Cloudflare token) were confirmed genuinely human-blocked. Built emily.cli/cmd/saga_query.go atop the existing claim-ledger parser (S143-01/02): which-doc-governs \u003cclaim-id\u003e resolves the current governing doc by walking the amends/supersedes graph (partial amendment checked before full supersession, cycle-safe via visited set); status [doc-id] prints a corpus-wide or per-doc claim/authority table; conflicts adds two structural checks lint's hard-error pass doesn't already cover -- an amends entry naming a claim ID that isn't declared anywhere, and a claim whose governance has moved to a doc with lower authority (draft) than its original owner (golden or higher) -- while explicitly staying out of semantic conflict detection (S143-05, gated on NORN/S141). 8 new tests (governance resolution incl. partial-amend-beats-full-supersession, both new conflict classes, clean-corpus negative case), go test ./... clean, go vet clean. Live-verified against the real EMILY/docs/hq-specs corpus: status shows all 7 docs retaining 100% of their own claims, conflicts finds 0 (a genuinely clean corpus, not an untested command). emily.cli commit 71cf083.",
+  "id": 12386,
+  "metadata": null,
+  "run_id": "s143-04-saga-query-1786055063",
+  "source_repo": "emily.cli",
+  "title": "S143-04: SAGA which-doc-governs/status/conflicts query commands"
+}
