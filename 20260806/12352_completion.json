@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-06T19:54:59Z",
+  "body": "Founder: 'install fail2ban'. No root/sudo access in this environment (confirmed again: sudo -n true fails) -- wrote /home/fatbaby/sudo-queue/12-install-fail2ban.sh for the founder to run themselves, matching the existing numbered sudo-queue convention. Real, verified target: SSH confirmed listening on port 22 via ss -tlnp (this box's real default, not assumed). Script installs fail2ban, writes a real jail.local override (never edits jail.conf directly -- gets overwritten on package upgrades) enabling the sshd jail with fail2ban's own documented default bantime/findtime/maxretry, enables+starts the service, and prints status for immediate verification. Not run yet -- needs founder's sudo.",
+  "id": 12352,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "EMILY",
+  "title": "Queue fail2ban install script (sudo-queue/12)"
+}
