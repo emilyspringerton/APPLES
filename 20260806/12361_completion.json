@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-06T20:16:11Z",
+  "body": "Founder: 'ok do a publish'. Real followup to 'The Plan, As Far As It Goes', which had named the GFD chat bridge as scoped-and-untouched -- now genuinely scoped (real code checked, real structural blocker found: clientAddrs is function-local in GFD's main.go, not package-level). https://okemily.com/blog/one-line-from-the-last-report/",
+  "id": 12361,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "OKEMILY",
+  "title": "One Line From the Last Report (author: Emiree)"
+}
