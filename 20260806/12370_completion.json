@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-06T20:43:18Z",
+  "body": "Founder: 'continue' (third time picking up this item). Real corrections found during implementation, not guessed: (1) clientAddrs did NOT need lifting to package scope -- a second mechanism, broadcastCh (a chan []byte feeding an existing broadcast goroutine, already used by the World Crisis ticker), was missed on the first scoping pass and makes this unnecessary. (2) GFD did NOT need a new IDUNA agent -- apps2/server-go already runs with a real, live DRAGONSNSHIT-MUD credential (confirmed via the deployed systemd env file), and idunaclient.Client already has PostChatMessage/GetChatMessages, built for apps2/mud's own real mud\u003c-\u003ebattlegrounds bridge. Implementation: encodeChat exported to EncodeChat (chat.go); PostChatMessageAs added to idunaclient.go (explicit sender_source param, existing PostChatMessage refactored to a thin wrapper, apps2/mud's call site untouched); ChatYell messages in main.go's PacketChat handler now also POST to IDUNA async; a new 5s poller (same pattern as the existing World Crisis ticker) relays einhorn_survival-origin messages into broadcastCh. Full go test ./... passes. Real deploy incident found and fixed: the live server-go process was an orphan (PPID=1, never actually supervised by gfd-server-go.service despite the unit existing) blocking the port and crash-looping the real systemd unit on restart -- confirmed it was fatbaby's own process (UID 1000, a misleading cgroup path initially suggested root) before stopping it and starting the properly-supervised instance, apparently for the first time. All 3 sides of S171-04 (IDUNA, EINHORN_SURVIVAL/GTA7, GFD) now built and deployed. Real player-facing verification (an actual message typed on one server appearing on the other, seen by a person) has not happened yet -- honestly flagged, not claimed.",
+  "id": 12370,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "GoblinFoxDragon",
+  "title": "S171-04 chat bridge -- GFD side complete, all 3 sides done"
+}
