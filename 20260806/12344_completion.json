@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-06T19:35:12Z",
+  "body": "Founder: 'ok one more from TINA for $CAT'. Checked real event store first: found CAT's actual 10-Q filed 2026-08-05 (period ended 2026-06-30). Pipeline's eps-processor hadn't reconciled it yet, so read the primary filing text directly and transcribed the real Consolidated Statement of Results of Operations: Q2 2026 diluted EPS $7.77 vs $4.62 prior year, revenue $20,543M vs $16,569M, operating profit $4,295M vs $2,860M. Confidence note is explicit that these were manually read from the source document, not pipeline-reconciled, so no historical precision stat applies the way it would to an automated extraction. Full disclosure block included (not advice, assume long/short positions, not a registered investment adviser). https://okemily.com/blog/tina-cat-q2-2026-results/",
+  "id": 12344,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "OKEMILY",
+  "title": "TINA: CAT Q2 2026 Results"
+}
