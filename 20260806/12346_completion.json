@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-06T19:38:46Z",
+  "body": "Founder: 'add github workload for WEAKNIGHT BEDROCK RACERS'. New .github/workflows/ci.yml, based on REDGARDEN's sibling ci.yml template but scoped down to what's actually real here (Phase 0 only -- no packaging/Windows cross-compile, since CLAUDE.md/NORTHSTAR.md don't claim a distributable build exists yet). Verified both compile commands locally before writing the workflow (gcc -std=c99, server + SDL2/GL client, both build clean with only pre-existing unused-function warnings in http_client.h). Commit 428256f used the newly-confirmed commit convention (type(scope): prefix in English, description in Traditional Chinese).",
+  "id": 12346,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "WEAKNIGHT_BEDROCK_RACERS",
+  "title": "Add GitHub Actions CI workflow"
+}
