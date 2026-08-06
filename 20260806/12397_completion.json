@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-06T23:54:21Z",
+  "body": "Continuing the backlog loop, picked S160-04: founder didn't recognize 'The Wire' as the press-releases page. Renamed the nav label to 'Press Releases' and added a /press-releases route alias pointing at the same serveWire handler -- /wire still works for any existing links/bookmarks. Left the page's own internal heading/branding ('The Wire') untouched, same pattern as 'Boardroom'/'Auditor Watch' being named sections rather than literal descriptions -- the item only scoped the nav-discoverability problem, not a full rebrand. 1 new test confirming the alias serves identically. Found and fixed a real, unrelated pre-existing go.sum gap while rebuilding (missing go.mod checksum for golang.org/x/sys v0.46.0) that was silently blocking go build ./cmd/newssite entirely -- purely additive fix, verified via git diff before committing, no dependency version changed. Rebuilt and restarted fatbaby-newssite.service, verified both /wire and /press-releases return 200 live and the front page's nav now shows the new label. PRRJECT_FATBABY commit eee221d.",
+  "id": 12397,
+  "metadata": null,
+  "run_id": "s160-04-wire-rename-1786060461",
+  "source_repo": "PRRJECT_FATBABY",
+  "title": "S160-04: Wire nav label renamed to Press Releases + new alias route"
+}
