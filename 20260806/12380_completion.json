@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-06T21:22:41Z",
+  "body": "Founder: 'continue Tyler series x'. All 5 unnumbered interludes (x00-x04) were already published as of earlier today; the 5 numbered Series X ground-state episodes (S00E-1 The Determination, S00E00 Pontiac, S00E01 Neptune, S00E02 Arrival, S00E03 July 4) were not. Published all 5 to the TYLER reading room via the tyler.write endpoint, stripping each episode file's leading title/build header block per the established convention, publishing in story-chronological order (S00E-1 first, per its own in-file bridge-episode note, even though it was produced last). Verified all 5 live via public HTTPS (200). Series X is now fully represented in the reading room -- 10 of 10 pieces. The ~80 numbered S01-S11 season episodes remain a separate, deliberately undecided scope question, not touched here. TYLER commit 8f758fa.",
+  "id": 12380,
+  "metadata": null,
+  "run_id": "tyler-seriesx-groundstate-1786051361",
+  "source_repo": "TYLER",
+  "title": "TYLER Series X ground-state episodes published to reading room"
+}
