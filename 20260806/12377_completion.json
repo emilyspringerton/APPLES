@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-06T21:05:14Z",
+  "body": "Founder asked 'can we make 25 character instrument identifiers?' then 'hallucinate a project name for it' then 'unlicense'. Shipped SKULDMARK-25: EIN prefix + 4-char ISO 10383 MIC + 10-char padded ticker + 7-digit zero-padded SEC CIK + 1 base-36 checksum = 25 chars exactly, derived from real fields FatBaby's identity.SecurityRef already tracks rather than an arbitrary serial. New standalone repo, public domain (Unlicense), full test coverage, registered in top-level CLAUDE.md non-workspace table. Not yet wired into any real pipeline.",
+  "id": 12377,
+  "metadata": null,
+  "run_id": "skuldmark-init-1786050314",
+  "source_repo": "SKULDMARK",
+  "title": "SKULDMARK-25: 25-character instrument identifier format"
+}
