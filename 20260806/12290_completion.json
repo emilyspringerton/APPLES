@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-06T09:18:45Z",
+  "body": "New internal/tyler package: own SQLite store, real dependency-free markdown-to-HTML converter (headers/bold/italic/code/rules/fences/tables/checklists -- unit tested against real TYLER syntax including an XSS-escaping test), IDUNA-style-guide-themed Renderer (cream/gold/serif, not the blog's dark theme) with a speechSynthesis 'Listen' audio button. tyler.write permission (migration 202608050002... 202608060001) granted to EMILY-PRIME. Deployed live, verified via curl publish + reading the actual rendered HTML on disk. All 5 existing Series X interludes (x00-x04) published: okemily.com/tyler/. Founder: 'please create a reading experience separate from the blog on okemily for the tyler content with audio play button and nice reading experience iduna style guide.'",
+  "id": 12290,
+  "metadata": null,
+  "run_id": "sess-20260723-2347-df115bd5",
+  "source_repo": "IDUNA",
+  "title": "TYLER reading room -- dedicated okemily.com/tyler/ pages"
+}
