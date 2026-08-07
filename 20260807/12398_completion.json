@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-07T00:00:49Z",
+  "body": "Continuing the backlog loop, picked S161-02: entitygraph already computes a governance health score + trend per batch (ScoreGovernanceHealthTrend) but nothing surfaced it on the product. Added entitygraph.LoadHealthHistorySeries (full per-ticker series in file order, distinct from the existing latest-only LoadHealthHistory used by the reconciliation loop), graphread.Store.HealthTrendFor(ticker) keeping just the last 2 snapshots per ticker in memory (populated during the existing Refresh() cycle, same pattern as DirectorsFor/AuditorFor), and a new Fact Box row on the ticker page showing score + trend arrow + label (improving/deteriorating/steady). 7 new tests across entitygraph, graphread, and newssite. Live-verified against real production data after rebuild+restart: BEN shows 20% (steady), AAPL shows 86% (steady). Noted but not fixed (pre-existing, out of scope): AAPL's page also shows an older still-valid narrative signal text claiming the score went '0.76 -\u003e 0.64' -- that's a separately-lifecycled Signal object (its own ValidThrough window) from an earlier point in time, not a bug in the new Fact Box, which reads the current raw health_history data (confirmed the real underlying file: AAPL's last 5 entries are all 0.86, most recent 2026-08-06). PRRJECT_FATBABY commit ea77d25.",
+  "id": 12398,
+  "metadata": null,
+  "run_id": "s161-02-health-trend-1786060849",
+  "source_repo": "PRRJECT_FATBABY",
+  "title": "S161-02: governance health score + trend surfaced on ticker pages"
+}
