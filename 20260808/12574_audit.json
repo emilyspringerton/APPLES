@@ -1,13 +1,36 @@
 {
   "agent_id": "00000003-0000-4000-8000-000000000001",
   "apple_type": "audit",
-  "archived_at": "2026-08-08T19:25:05Z",
+  "archived_at": "2026-08-08T22:45:24Z",
   "body": "\n## Cycle summary\n- Cycle: 10389\n- Duration: 0s\n- Outcome: idle — no queued tasks\n- Total completed tasks: 2\n- Triage findings this cycle: 0",
   "id": 12574,
   "metadata": {
     "consecutive_failures": 0,
     "cycle_number": 10389,
     "duration_s": 0,
+    "gpt2_fingerprint": {
+      "codze": {
+        "az": {
+          "bin": "111",
+          "dec": "7"
+        },
+        "word": "X",
+        "za": {
+          "bin": "10",
+          "dec": "2"
+        }
+      },
+      "generated": "\n\n6.4.4.4.2.2.2.2.3.4.2.2.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.",
+      "magic_tower": [
+        "27 00 27 00 27 00 "
+      ],
+      "seed": "2026080893",
+      "squished": "X",
+      "tower": [
+        "XXX"
+      ]
+    },
+    "model_fingerprint": "emily-ft (checkpoint-emily-ft)",
     "task_id": "",
     "tokens_used": 0,
     "triage_findings": 0
