@@ -1,0 +1,18 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "audit",
+  "archived_at": "2026-08-08T07:10:46Z",
+  "body": "\n## Cycle summary\n- Cycle: 10340\n- Duration: 0s\n- Outcome: idle — no queued tasks\n- Total completed tasks: 2\n- Triage findings this cycle: 0",
+  "id": 12525,
+  "metadata": {
+    "consecutive_failures": 0,
+    "cycle_number": 10340,
+    "duration_s": 0,
+    "task_id": "",
+    "tokens_used": 0,
+    "triage_findings": 0
+  },
+  "run_id": "emily-cycle-10340-20260808T071046Z",
+  "source_repo": "emily",
+  "title": "Cycle 10340 — idle (no queued tasks)"
+}
