@@ -1,13 +1,80 @@
 {
   "agent_id": "00000003-0000-4000-8000-000000000001",
   "apple_type": "audit",
-  "archived_at": "2026-08-08T19:39:04Z",
+  "archived_at": "2026-08-08T22:44:53Z",
   "body": "\n## Cycle summary\n- Cycle: 10390\n- Duration: 0s\n- Outcome: idle — no queued tasks\n- Total completed tasks: 2\n- Triage findings this cycle: 0",
   "id": 12575,
   "metadata": {
     "consecutive_failures": 0,
     "cycle_number": 10390,
     "duration_s": 0,
+    "gpt2_fingerprint": {
+      "codze": {
+        "az": {
+          "bin": "11111110001001011011011000001110011111010010111110011001100110111001000110101010100101000001110001000101001011011011001101111011000100101001001101010100000101100111110000001001001101101010000100010110000101001100011101110",
+          "dec": "3345604444330222033456044443302220334560444433022203345604444330222"
+        },
+        "word": "IDLENOQUEUEDTASKSIDLENOQUEUEDTASKSIDLENOQUEUEDTASKSIDLENOQUEUEDTASKS",
+        "za": {
+          "bin": "10011110001001000110011000000011101101111001101101100110000101110001111000011000010101010100011010011001100100110100001001001111000110001101111111110111101010111011111011101110101000001110001101100110010101100010011111010001",
+          "dec": "16654315555661777166543155556617771665431555566177716654315555661777"
+        }
+      },
+      "generated": "\n\n0.0.0 — 0.0.0.0 — idle (no queued tasks)\n\n0.0.0 — 0.0.0.0 — idle (no queued tasks)\n\n0.0.0 — 0.0.0.0 — idle (no queued tasks)\n\n0.0.0 — 0.0.0.0 — idle (no queued tasks)\n\n0.0.0 —",
+      "magic_tower": [
+        "02 25 21 06 03 24 ",
+        "11 16 14 13 04 23 ",
+        "15 12 06 21 11 16 ",
+        "06 21 11 16 21 06 ",
+        "16 11 20 07 26 01 ",
+        "13 14 26 01 02 25 ",
+        "21 06 03 24 11 16 ",
+        "14 13 04 23 15 12 ",
+        "06 21 11 16 06 21 ",
+        "11 16 21 06 16 11 ",
+        "20 07 26 01 13 14 ",
+        "26 01 02 25 21 06 ",
+        "03 24 11 16 14 13 ",
+        "04 23 15 12 06 21 ",
+        "11 16 06 21 11 16 ",
+        "21 06 16 11 20 07 ",
+        "26 01 13 14 26 01 ",
+        "02 25 21 06 03 24 ",
+        "11 16 14 13 04 23 ",
+        "15 12 06 21 11 16 ",
+        "06 21 11 16 21 06 ",
+        "16 11 20 07 26 01 ",
+        "13 14 26 01 27 00 "
+      ],
+      "seed": "2026080893",
+      "squished": "IDLENOQUEUEDTASKSIDLENOQUEUEDTASKSIDLENOQUEUEDTASKSIDLENOQUEUEDTASKS",
+      "tower": [
+        "IDL",
+        "ENO",
+        "QVE",
+        "VED",
+        "TAS",
+        "KSI",
+        "DLE",
+        "NOQ",
+        "VEV",
+        "EDT",
+        "ASK",
+        "SID",
+        "LEN",
+        "OQV",
+        "EVE",
+        "DTA",
+        "SKS",
+        "IDL",
+        "ENO",
+        "QVE",
+        "VED",
+        "TAS",
+        "KSX"
+      ]
+    },
+    "model_fingerprint": "emily-ft (checkpoint-emily-ft)",
     "task_id": "",
     "tokens_used": 0,
     "triage_findings": 0
