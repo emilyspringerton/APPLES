@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-09T15:46:07Z",
+  "generated_at": "2026-08-09T15:46:23Z",
   "repo": "APPLES",
-  "count": 2153,
+  "count": 2154,
   "apples": [
     {
       "id": 10525,
@@ -17226,6 +17226,14 @@
       "source_repo": "CLI",
       "date": "20260809",
       "archived_at": "2026-08-09T15:46:07Z"
+    },
+    {
+      "id": 12688,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: SKULDMARK format needs an API/version bump from v0 to v1 (accompanying th…",
+      "source_repo": "CLI",
+      "date": "20260809",
+      "archived_at": "2026-08-09T15:46:23Z"
     }
   ]
 }
