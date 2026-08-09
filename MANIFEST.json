@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-09T14:19:39Z",
+  "generated_at": "2026-08-09T14:19:41Z",
   "repo": "APPLES",
-  "count": 2118,
+  "count": 2119,
   "apples": [
     {
       "id": 10525,
@@ -16946,6 +16946,14 @@
       "source_repo": "CLI",
       "date": "20260809",
       "archived_at": "2026-08-09T14:19:39Z"
+    },
+    {
+      "id": 12653,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: enforce emily session new/current tagging on all Apples, CHANGELOGs, and …",
+      "source_repo": "CLI",
+      "date": "20260809",
+      "archived_at": "2026-08-09T14:19:41Z"
     }
   ]
 }
