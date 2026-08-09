@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-09T15:39:13Z",
+  "generated_at": "2026-08-09T15:40:30Z",
   "repo": "APPLES",
-  "count": 2150,
+  "count": 2151,
   "apples": [
     {
       "id": 10525,
@@ -17202,6 +17202,14 @@
       "source_repo": "emily",
       "date": "20260809",
       "archived_at": "2026-08-09T15:39:13Z"
+    },
+    {
+      "id": 12685,
+      "type": "signal_observation",
+      "title": "[WARN] Founder real-time: shankpit-460 boot-straight-into-game is broken — player gets into a mat…",
+      "source_repo": "CLI",
+      "date": "20260809",
+      "archived_at": "2026-08-09T15:40:30Z"
     }
   ]
 }
