@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-09T14:36:19Z",
+  "generated_at": "2026-08-09T14:36:55Z",
   "repo": "APPLES",
-  "count": 2133,
+  "count": 2134,
   "apples": [
     {
       "id": 10525,
@@ -17066,6 +17066,14 @@
       "source_repo": "WEAKNIGHT_BEDROCK_RACERS",
       "date": "20260809",
       "archived_at": "2026-08-09T14:36:19Z"
+    },
+    {
+      "id": 12668,
+      "type": "completion",
+      "title": "WEAKNIGHT_BEDROCK_RACERS: Windows client artifacts now match SHANKPIT/REDGARDEN pattern",
+      "source_repo": "CLI",
+      "date": "20260809",
+      "archived_at": "2026-08-09T14:36:55Z"
     }
   ]
 }

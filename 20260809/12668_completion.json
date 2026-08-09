@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-09T14:36:55Z",
+  "body": "Added .github/workflows/ci.yml Windows job: mingw-w64 + SDL2 mingw devel cross-compile of apps/client/src/main.c to WeaknightRacers.exe, bundled with SDL2.dll + generated run.bat into a zip artifact — same proven pattern as SHANKPIT's release.yml and REDGARDEN's ci.yml. Added missing _WIN32/winsock2 guards (WSAStartup/ioctlsocket/closesocket) to apps/client/src/main.c, ported from SHANKPIT apps/lobby/src/main.c — the file had zero Windows portability before this, mingw would have failed on raw POSIX socket headers. Server stays Linux-only, matching both sibling repos. Verified the Linux gcc build still compiles clean after the edits (no mingw available locally, no sudo — cross-compile itself validated via CI, same as SHANKPIT/REDGARDEN's own workflow). Commit WEAKNIGHT_BEDROCK_RACERS b4fa80d.",
+  "id": 12668,
+  "metadata": null,
+  "run_id": "sess-20260809-1420-e9d3d7f8",
+  "source_repo": "CLI",
+  "title": "WEAKNIGHT_BEDROCK_RACERS: Windows client artifacts now match SHANKPIT/REDGARDEN pattern"
+}
