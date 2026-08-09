@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-09T14:19:42Z",
+  "generated_at": "2026-08-09T14:19:43Z",
   "repo": "APPLES",
-  "count": 2120,
+  "count": 2121,
   "apples": [
     {
       "id": 10525,
@@ -16962,6 +16962,14 @@
       "source_repo": "CLI",
       "date": "20260809",
       "archived_at": "2026-08-09T14:19:42Z"
+    },
+    {
+      "id": 12655,
+      "type": "signal_observation",
+      "title": "[INFO] Founder standing process directive: route all real-time founder input through 'emily observe…",
+      "source_repo": "CLI",
+      "date": "20260809",
+      "archived_at": "2026-08-09T14:19:43Z"
     }
   ]
 }
