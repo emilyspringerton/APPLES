@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-09T15:50:59Z",
+  "body": "Founder reported: 'boot right into a game... stuck in the center of the Osaka garage.' Investigated apps/lobby/src/main.c (the real shipped client, NOT apps2/lobby which is confirmed-dead uncommitted S169-02 work) and apps/server/src/main.c. Found: the running shank_server process had been up since Aug 4 15:50:52, 2+ hours BEFORE the connect/movement deadlock fixes (ee69bfc/68597e3/7a6e202/f45e625, all same-day) landed -- 5 days stale. Rebuilt clean from current HEAD (gcc clean, only pre-existing warnings), restarted the server with the correct SHANKPIT_TICKET_SECRET (first restart attempt lost the env var in a kill/read race, caught and corrected), rebuilt bin/emily-bot (had gone missing, source at apps2/emily-bot, GOWORK=off go build), relaunched the 9-bot pool cleanly (hit and cleaned up a duplicate-process mess along the way). Live end-to-end verified twice under Xvfb: fresh bin/shank_lobby --host 127.0.0.1 connects (WELCOME, client id 10) and moves (NET reconcile ack incrementing steadily, no deadlock) against both the original stale-secret-fixed server and the final clean restart. Conclusion: the code is correct and verified working: the founder's symptom matches exactly what the OLD pre-fix client did, so this is very likely a stale/cached client build on their end. CI (run 31320530538, commit 39e531b) has a fresh Windows client artifact 'ShankPit_Builds_21' including all fixes -- founder should redownload rather than reuse an old build. shankpit-460 changelog entry + commit 730724e.",
+  "id": 12691,
+  "metadata": null,
+  "run_id": "sess-20260809-1420-e9d3d7f8",
+  "source_repo": "CLI",
+  "title": "shankpit-460: diagnosed 'stuck in Osaka garage' report — server was stale (5 days), fixed; root cause is a stale client build"
+}

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-09T15:50:38Z",
+  "generated_at": "2026-08-09T15:50:59Z",
   "repo": "APPLES",
-  "count": 2156,
+  "count": 2157,
   "apples": [
     {
       "id": 10525,
@@ -17250,6 +17250,14 @@
       "source_repo": "shankpit-460",
       "date": "20260809",
       "archived_at": "2026-08-09T15:50:38Z"
+    },
+    {
+      "id": 12691,
+      "type": "completion",
+      "title": "shankpit-460: diagnosed 'stuck in Osaka garage' report — server was stale (5 days), fixed; root cause is a stale client build",
+      "source_repo": "CLI",
+      "date": "20260809",
+      "archived_at": "2026-08-09T15:50:59Z"
     }
   ]
 }
