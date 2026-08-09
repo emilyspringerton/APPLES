@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-09T15:55:11Z",
+  "generated_at": "2026-08-09T15:55:37Z",
   "repo": "APPLES",
-  "count": 2161,
+  "count": 2162,
   "apples": [
     {
       "id": 10525,
@@ -17290,6 +17290,14 @@
       "source_repo": "emily.cli",
       "date": "20260809",
       "archived_at": "2026-08-09T15:55:11Z"
+    },
+    {
+      "id": 12696,
+      "type": "completion",
+      "title": "emily.cli: session tag now embedded in git commit messages, not just CHANGELOG.md text",
+      "source_repo": "CLI",
+      "date": "20260809",
+      "archived_at": "2026-08-09T15:55:37Z"
     }
   ]
 }

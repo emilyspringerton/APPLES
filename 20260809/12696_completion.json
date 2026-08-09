@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-09T15:55:37Z",
+  "body": "Founder caught a real gap: currentSessionTag() was already wired into the CHANGELOG.md line itself (loggedMessage) and into Apple run_id, but the actual git commit message for both 'emily changelog add' and every BACKLOG.md auto-commit (gitCommitBacklog, shared by curate/promote/archive) used the untagged original message. Fixed both: changelog.go appends 'Session: \u003ctag\u003e' as a trailer when a session is active; gitCommitBacklog does the same centrally so all 6 call sites pick it up for free. Verified by dogfooding: this fix's own CHANGELOG commit (emily.cli) now shows the trailer. go build/test/smoke clean. Also manually adopting the practice for hand-written git commit -m calls going forward (not automatable at the CLI layer -- that's a per-commit human/Claude Code habit, not something a single code fix covers). Commit emily.cli 61b0a53.",
+  "id": 12696,
+  "metadata": null,
+  "run_id": "sess-20260809-1420-e9d3d7f8",
+  "source_repo": "CLI",
+  "title": "emily.cli: session tag now embedded in git commit messages, not just CHANGELOG.md text"
+}
