@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-09T14:50:08Z",
+  "generated_at": "2026-08-09T14:50:30Z",
   "repo": "APPLES",
-  "count": 2139,
+  "count": 2140,
   "apples": [
     {
       "id": 10525,
@@ -17114,6 +17114,14 @@
       "source_repo": "GTA7",
       "date": "20260809",
       "archived_at": "2026-08-09T14:50:08Z"
+    },
+    {
+      "id": 12674,
+      "type": "completion",
+      "title": "GTA7: /sudoku self-KO respawn command added",
+      "source_repo": "CLI",
+      "date": "20260809",
+      "archived_at": "2026-08-09T14:50:30Z"
     }
   ]
 }

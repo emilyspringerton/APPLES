@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-09T14:50:30Z",
+  "body": "New SudokuCommand: cosmetic strikeLightningEffect + setHealth(0.0) guaranteed KO, no killer LivingEntity so CustodyListener's Enforcement-check never fires (doesn't jail the player). Registered in GTA7Plugin.onEnable, plugin.yml commands.sudoku entry added, self-service (no op gate) matching FlowCommand's pattern. mvn package builds clean (target/gta7-0.1.0.jar). Not deployed to the live EINHORN_SURVIVAL server yet -- only deploy path documented is a full systemctl --user restart einhorn-survival.service, which drops connected players (feedback-respawn-not-reboot convention flags this as a known gap); holding off on the restart pending founder confirmation. Commit GTA7 c3b6bbd.",
+  "id": 12674,
+  "metadata": null,
+  "run_id": "sess-20260809-1420-e9d3d7f8",
+  "source_repo": "CLI",
+  "title": "GTA7: /sudoku self-KO respawn command added"
+}
