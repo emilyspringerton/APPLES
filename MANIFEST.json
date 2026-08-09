@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-09T14:38:21Z",
+  "generated_at": "2026-08-09T14:39:52Z",
   "repo": "APPLES",
-  "count": 2136,
+  "count": 2137,
   "apples": [
     {
       "id": 10525,
@@ -17090,6 +17090,14 @@
       "source_repo": "emily",
       "date": "20260809",
       "archived_at": "2026-08-09T14:38:21Z"
+    },
+    {
+      "id": 12671,
+      "type": "completion",
+      "title": "changelog(SHANKPIT): fix(ci): 修復 Windows client 交叉編譯連結失敗 —…",
+      "source_repo": "SHANKPIT",
+      "date": "20260809",
+      "archived_at": "2026-08-09T14:39:52Z"
     }
   ]
 }

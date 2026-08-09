@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-09T14:39:51Z",
+  "body": "CHANGELOG updated in SHANKPIT: fix(ci): 修復 Windows client 交叉編譯連結失敗 — S144-02 新增的 packages/render/gl_shader.c 從未加進 tests.yml/release.yml 硬編碼的原始碼清單，導致 apps/lobby/src/main.c 呼叫的 gl_shader_* 符號在連結階段找不到定義（Makefile 的 LOBBY_SRC 有更新，但 CI 走的是獨立的 gcc 呼叫，兩邊沒同步） (sess-20260809-1420-e9d3d7f8)",
+  "id": 12671,
+  "metadata": null,
+  "run_id": "sess-20260809-1420-e9d3d7f8",
+  "source_repo": "SHANKPIT",
+  "title": "changelog(SHANKPIT): fix(ci): 修復 Windows client 交叉編譯連結失敗 —…"
+}
