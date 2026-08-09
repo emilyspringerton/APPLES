@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-09T14:24:53Z",
+  "body": "Found live 2026-08-09: 6 rapid emily observe calls collided on second-precision filenames, 5 of 6 observations silently lost. Fixed internal/obs/writer.go to detect collision and append numeric suffix instead of overwriting. Also wired currentSessionTag() into emily observe (payload.SessionTag + Apple RunID), matching apples post / changelog add. go test ./... green, build.sh smoke tests pass. Commit emily.cli 8ac855f + c3b14f9.",
+  "id": 12658,
+  "metadata": null,
+  "run_id": "sess-20260809-1420-e9d3d7f8",
+  "source_repo": "CLI",
+  "title": "emily.cli: fix observe filename-collision data loss + wire session tag"
+}

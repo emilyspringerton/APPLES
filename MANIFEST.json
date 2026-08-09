@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-09T14:24:33Z",
+  "generated_at": "2026-08-09T14:24:53Z",
   "repo": "APPLES",
-  "count": 2123,
+  "count": 2124,
   "apples": [
     {
       "id": 10525,
@@ -16986,6 +16986,14 @@
       "source_repo": "emily.cli",
       "date": "20260809",
       "archived_at": "2026-08-09T14:24:33Z"
+    },
+    {
+      "id": 12658,
+      "type": "completion",
+      "title": "emily.cli: fix observe filename-collision data loss + wire session tag",
+      "source_repo": "CLI",
+      "date": "20260809",
+      "archived_at": "2026-08-09T14:24:53Z"
     }
   ]
 }
