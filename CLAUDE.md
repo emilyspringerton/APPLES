@@ -74,3 +74,11 @@ Then commit and push EMILY:
 cd /home/fatbaby/EMILY && git add context/golden-docs-index.md && git commit -m "golden-index: add NAME" && git push
 ```
 
+## Founder Real-Time Direction
+
+Whenever the founder gives real-time direction — a new ask, a correction, a "can we also..." —
+route it through `emily observe -s info "Founder real-time: <summary>"` first, even if it isn't
+this repo's usual domain, then sprint-plan it into `EMILY/BACKLOG.md` (`emily backlog curate`,
+scoped into a real SECTION/sub-item, not just a one-line log), and only then implement. See
+`EMILY/docs/THE_EMILY_WAY.md` Principle 18 ("Pave the Cow Paths").
+
