@@ -1,10 +1,72 @@
 {
   "agent_id": "00000003-0000-4000-8000-000000000001",
   "apple_type": "signal_observation",
-  "archived_at": "2026-08-09T15:40:30Z",
+  "archived_at": "2026-08-09T15:44:40Z",
   "body": "severity: warn\n\nsource: emily observe (CLI)",
   "id": 12685,
-  "metadata": null,
+  "metadata": {
+    "gpt2_fingerprint": {
+      "codze": {
+        "az": {
+          "bin": "10111001100110011101001001110010011111010000100110000100111000010010110011110001000001101011010001111000101110001100110011100111101110111000001101101110011000111000100001101011011001101010111011011000010000",
+          "dec": "74562273726064341426460327545736034540341406434146656245757456"
+        },
+        "word": "PMNOKKHTPSWYOUTUBECOMWATCHVUVHLWQDEFEATUREYOUTUBEWOVWCMVXVPMNO",
+        "za": {
+          "bin": "111111010100011101101010111000111111110100100111000011101011001111100001100011000110110000101011111000011000001010010111100100110101100111100001011001110110111001100011011101010110010000100100100111101111",
+          "dec": "25437726273135650573531672454263165451650513565053343754242543"
+        }
+      },
+      "generated": "\n\n16 0/9/2016 16:13:00 PM No. 21711 -724 -1023 946 2.9k 20.8k https://www.youtube.com/watch?v=uvHlW6QQD8E\u0026feature=youtu.be/wOvW9cM5VXV8\n\n17 0/9/2016 16:13:00 PM No. 221254 -722 -",
+      "magic_tower": [
+        "25 02 24 03 14 13 ",
+        "04 23 13 14 12 15 ",
+        "16 11 25 02 26 01 ",
+        "06 21 17 10 04 23 ",
+        "06 21 16 11 06 21 ",
+        "10 17 11 16 00 27 ",
+        "04 23 24 03 06 21 ",
+        "20 07 16 11 00 27 ",
+        "12 15 06 21 12 15 ",
+        "03 24 06 21 15 12 ",
+        "21 06 11 16 01 26 ",
+        "11 16 20 07 16 11 ",
+        "06 21 05 22 11 16 ",
+        "17 10 04 23 06 21 ",
+        "16 11 06 21 10 17 ",
+        "11 16 06 21 04 23 ",
+        "06 21 00 27 24 03 ",
+        "06 21 27 00 06 21 ",
+        "25 02 24 03 14 13 ",
+        "04 23 27 00 27 00 "
+      ],
+      "seed": "2026080964",
+      "squished": "PMNOKKHTPSWYOUTUBECOMWATCHVUVHLWQDEFEATUREYOUTUBEWOVWCMVXVPMNO",
+      "tower": [
+        "PMN",
+        "OKH",
+        "TPS",
+        "VYO",
+        "VTV",
+        "BEC",
+        "OMV",
+        "ATC",
+        "HVH",
+        "LVQ",
+        "DEF",
+        "EAT",
+        "VRE",
+        "YOV",
+        "TVB",
+        "EVO",
+        "VCM",
+        "VXV",
+        "PMN",
+        "OXX"
+      ]
+    },
+    "model_fingerprint": "emily-ft (checkpoint-emily-ft)"
+  },
   "run_id": "sess-20260809-1420-e9d3d7f8",
   "source_repo": "CLI",
   "title": "[WARN] Founder real-time: shankpit-460 boot-straight-into-game is broken — player gets into a mat…"
