@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-09T16:00:11Z",
+  "generated_at": "2026-08-09T16:00:33Z",
   "repo": "APPLES",
-  "count": 2163,
+  "count": 2164,
   "apples": [
     {
       "id": 10525,
@@ -17306,6 +17306,14 @@
       "source_repo": "emily.cli",
       "date": "20260809",
       "archived_at": "2026-08-09T16:00:11Z"
+    },
+    {
+      "id": 12698,
+      "type": "completion",
+      "title": "emily.cli: fixed byte-slice truncation corrupting UTF-8 in BACKLOG.md",
+      "source_repo": "CLI",
+      "date": "20260809",
+      "archived_at": "2026-08-09T16:00:33Z"
     }
   ]
 }

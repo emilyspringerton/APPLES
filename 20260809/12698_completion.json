@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-09T16:00:33Z",
+  "body": "Found live while curating SKULDMARK observations: the shared truncate() helper (cmd/apples.go, 17+ call sites incl. backlog.go's INTAKE QUEUE bullet generation) byte-sliced instead of rune-slicing, producing invalid UTF-8 replacement-char sequences when a truncation boundary landed mid-multibyte-character. This silently made some plain 'grep' calls on BACKLOG.md treat the whole 13000+ line file as binary and return zero matches -- caused real confusion this session (thought S170-269 content had vanished, it hadn't; grep -a fixed it). Root-caused and fixed truncate() to slice on []rune. Manually repaired the two already-corrupted BACKLOG.md lines via a byte-level Python script (Edit tool couldn't match the invalid-UTF-8 old_string). go build/test/smoke clean. Left several other same-bug-class inline byte-slice truncations (observe.go/primetask.go/sync.go/status.go title/commit truncation) untouched -- same class, no reported symptom yet, noted as a follow-up rather than swept in this pass. Commit emily.cli ab0084d.",
+  "id": 12698,
+  "metadata": null,
+  "run_id": "sess-20260809-1420-e9d3d7f8",
+  "source_repo": "CLI",
+  "title": "emily.cli: fixed byte-slice truncation corrupting UTF-8 in BACKLOG.md"
+}
