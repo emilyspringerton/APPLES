@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-09T17:44:07Z",
+  "generated_at": "2026-08-09T17:44:30Z",
   "repo": "APPLES",
-  "count": 2184,
+  "count": 2185,
   "apples": [
     {
       "id": 10525,
@@ -17474,6 +17474,14 @@
       "source_repo": "CLI",
       "date": "20260809",
       "archived_at": "2026-08-09T17:44:07Z"
+    },
+    {
+      "id": 12719,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: use the exact GPT-2 output line 'the only airplanes to do anything are bu…",
+      "source_repo": "CLI",
+      "date": "20260809",
+      "archived_at": "2026-08-09T17:44:30Z"
     }
   ]
 }
