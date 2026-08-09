@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-09T17:20:55Z",
+  "body": "Founder confirmed the S01E01 x2 experiment landed well and asked for the same treatment on the next canonical script, explicitly requesting correct series/episode identifiers this time. Confirmed via episodes/ listing that s01e02_school.md ('The School That Isn't There') is the real next file -- S00 material is a separate prequel/interlude numbering, not next in the S01 line. Wrote TYLER/episodes/s01e02_school_coldopen_x2_experimental.md: same real cold-open beats, 5 sequential POST :8088/generate calls (max_tokens 16/32/64/128/256, ~12 min total this run) seeded from the episode's own 'it wasn't there Thursday... then Friday morning there's a school' hook, framed as the same in-universe Emily OS memory-render conceit as S01E01's variant. This run's drift differs meaningfully from the first: unprompted screenplay-format slugs, an invented voice called 'Kernel', and an unprompted swerve into 'the first year of World War II' by the final pass -- flagged as open creative questions (does the WWII drift deserve a real thread, given the show's own unstuck-in-time premise) rather than resolved. Not promoted to canon. TYLER commit abaa6f3.",
+  "id": 12715,
+  "metadata": null,
+  "run_id": "sess-20260809-1420-e9d3d7f8",
+  "source_repo": "CLI",
+  "title": "TYLER: S01E02 cold open x2 — second GPT-2-assisted experimental variant complete"
+}
