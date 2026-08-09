@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-09T16:00:11Z",
+  "body": "CHANGELOG updated in emily.cli: fix(truncate): rune-aware, not byte-slice — the shared truncate() helper (17+ call sites incl. BACKLOG.md INTAKE QUEUE bullets) could cut mid-multibyte-UTF-8-char on any non-ASCII text, corrupting BACKLOG.md and making grep silently treat it as binary on some invocations. Found live while curating SKULDMARK observations today. (sess-20260809-1420-e9d3d7f8)",
+  "id": 12697,
+  "metadata": null,
+  "run_id": "sess-20260809-1420-e9d3d7f8",
+  "source_repo": "emily.cli",
+  "title": "changelog(emily.cli): fix(truncate): rune-aware, not byte-slice — the shared trun…"
+}
