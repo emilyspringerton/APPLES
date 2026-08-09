@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-09T14:25:39Z",
+  "generated_at": "2026-08-09T14:25:43Z",
   "repo": "APPLES",
-  "count": 2128,
+  "count": 2129,
   "apples": [
     {
       "id": 10525,
@@ -17026,6 +17026,14 @@
       "source_repo": "CLI",
       "date": "20260809",
       "archived_at": "2026-08-09T14:25:39Z"
+    },
+    {
+      "id": 12663,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: read all blog posts (okemily.com) to build context on the last 1-2 weeks …",
+      "source_repo": "CLI",
+      "date": "20260809",
+      "archived_at": "2026-08-09T14:25:43Z"
     }
   ]
 }
