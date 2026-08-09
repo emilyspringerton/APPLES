@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-09T14:19:38Z",
+  "generated_at": "2026-08-09T14:19:39Z",
   "repo": "APPLES",
-  "count": 2117,
+  "count": 2118,
   "apples": [
     {
       "id": 10525,
@@ -16938,6 +16938,14 @@
       "source_repo": "CLI",
       "date": "20260809",
       "archived_at": "2026-08-09T14:19:38Z"
+    },
+    {
+      "id": 12652,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: verify SHANKPIT CI/CD is passing on the recent build",
+      "source_repo": "CLI",
+      "date": "20260809",
+      "archived_at": "2026-08-09T14:19:39Z"
     }
   ]
 }
