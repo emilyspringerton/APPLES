@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-09T15:10:10Z",
+  "generated_at": "2026-08-09T15:13:36Z",
   "repo": "APPLES",
-  "count": 2145,
+  "count": 2146,
   "apples": [
     {
       "id": 10525,
@@ -17162,6 +17162,14 @@
       "source_repo": "emily.cli",
       "date": "20260809",
       "archived_at": "2026-08-09T15:10:10Z"
+    },
+    {
+      "id": 12680,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: propagate the observe-first/sprint-plan-then-iterate instruction to ALL C…",
+      "source_repo": "CLI",
+      "date": "20260809",
+      "archived_at": "2026-08-09T15:13:36Z"
     }
   ]
 }
