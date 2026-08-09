@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-09T15:07:30Z",
+  "body": "Founder approved the restart. Fixed XDG_RUNTIME_DIR=/run/user/1000 (same known issue as the redgarden permission-denied fix -- this shell inherits root's runtime dir) to actually reach the user systemd bus, copied gta7-0.1.0.jar into server/plugins/, systemctl --user restart einhorn-survival.service. Server log confirms clean load: '[GTA7] Enabling GTA7 v0.1.0' -\u003e '[GTA7] GTA7 enabled -- VS0/VS1/VS2/VS3/VS4 + IDUNA integration + chat bridge live.' with no exceptions. /sudoku is live for any connected player.",
+  "id": 12676,
+  "metadata": null,
+  "run_id": "sess-20260809-1420-e9d3d7f8",
+  "source_repo": "CLI",
+  "title": "GTA7 /sudoku deployed live to EINHORN_SURVIVAL"
+}
