@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-09T15:55:11Z",
+  "body": "CHANGELOG updated in emily.cli: fix(git): 讓 emily changelog add 和 BACKLOG.md 自動 commit（curate/promote/archive 共用的 gitCommitBacklog）也在 commit message 裡帶上 session tag，之前只有 CHANGELOG.md 那行文字有標，git commit message 本身沒有 (sess-20260809-1420-e9d3d7f8)",
+  "id": 12695,
+  "metadata": null,
+  "run_id": "sess-20260809-1420-e9d3d7f8",
+  "source_repo": "emily.cli",
+  "title": "changelog(emily.cli): fix(git): 讓 emily changelog add 和 BACKLOG.md 自動 com…"
+}
