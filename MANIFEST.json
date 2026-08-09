@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-09T15:48:32Z",
+  "generated_at": "2026-08-09T15:50:38Z",
   "repo": "APPLES",
-  "count": 2155,
+  "count": 2156,
   "apples": [
     {
       "id": 10525,
@@ -17242,6 +17242,14 @@
       "source_repo": "CLI",
       "date": "20260809",
       "archived_at": "2026-08-09T15:48:32Z"
+    },
+    {
+      "id": 12690,
+      "type": "completion",
+      "title": "changelog(shankpit-460): ops: restarted stale live server (running since Aug 4 15:50…",
+      "source_repo": "shankpit-460",
+      "date": "20260809",
+      "archived_at": "2026-08-09T15:50:38Z"
     }
   ]
 }

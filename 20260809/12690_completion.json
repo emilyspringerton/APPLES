@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-09T15:50:38Z",
+  "body": "CHANGELOG updated in shankpit-460: ops: restarted stale live server (running since Aug 4 15:50, 5 days pre-dating the connect/movement priming-fix commits) + rebuilt/relaunched the emily-bot pool (bin/emily-bot binary had gone missing, rebuilt from apps2/emily-bot). Live-verified end-to-end under Xvfb: fresh client connects and moves cleanly (reconcile ack incrementing, no deadlock) against the fresh server. Root cause of founder's 'stuck in Osaka garage' report is almost certainly a stale cached client build predating the Aug 4 fixes -- code itself is correct and verified working (sess-20260809-1420-e9d3d7f8)",
+  "id": 12690,
+  "metadata": null,
+  "run_id": "sess-20260809-1420-e9d3d7f8",
+  "source_repo": "shankpit-460",
+  "title": "changelog(shankpit-460): ops: restarted stale live server (running since Aug 4 15:50…"
+}
