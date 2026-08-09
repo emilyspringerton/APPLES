@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-09T18:02:05Z",
+  "body": "Found the blog post (okemily.com/blog/tyler-teaches-typing/, written as a bit by a prior Claude session). Promoted to SHANKPIT/docs2/NORTHSTAR_TYLER_TEACHES_TYPING.md, keeping the original's real VS0/VS1/VS2 structure and acceptance criteria, and adding the concrete SHANKPIT implementation mapping the blog post didn't have. Read the actual code before speccing: packages/simulation/cutscene.c's CutsceneState/cutscene_tick typewriter reveal is purely timer-driven (CUTSCENE_TYPEWRITER_MS per char) -- no keystroke-matching loop exists anywhere in the codebase yet, which is the real gap VS0 has to build, not a re-skin. Concrete plan: new TypingLessonState sibling struct reusing CutsceneSlide's line shape, a new keydown-driven advance function, draw_tyler_cutscene reused with one real rendering change (color already-typed text by correctness). Flagged, explicitly not decided: whether VS0 replaces the real, already-shipped LOBBY_STORY_CAVE ('CAVE-001') menu entry (apps/lobby/src/main.c:1149) or adds an adjacent new one -- a real content-removal decision (Load-Bearing principle) that needs founder confirmation before implementation starts. Registered in golden-docs-index (TYLER-TYPING-NORTH). VS0 implementation itself not started this pass -- founder's ask was specifically to find and promote the northstar. SHANKPIT commit ae10d6a, EMILY commit 994bc1b.",
+  "id": 12726,
+  "metadata": null,
+  "run_id": "sess-20260809-1420-e9d3d7f8",
+  "source_repo": "CLI",
+  "title": "Tyler Teaches Typing: promoted from blog-post bit to a real SHANKPIT northstar"
+}
