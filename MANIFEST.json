@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-09T14:30:51Z",
+  "generated_at": "2026-08-09T14:36:19Z",
   "repo": "APPLES",
-  "count": 2132,
+  "count": 2133,
   "apples": [
     {
       "id": 10525,
@@ -17058,6 +17058,14 @@
       "source_repo": "CLI",
       "date": "20260809",
       "archived_at": "2026-08-09T14:30:51Z"
+    },
+    {
+      "id": 12667,
+      "type": "completion",
+      "title": "changelog(WEAKNIGHT_BEDROCK_RACERS): feat(ci): Windows client cross-compile + SDL2 bundle + run.…",
+      "source_repo": "WEAKNIGHT_BEDROCK_RACERS",
+      "date": "20260809",
+      "archived_at": "2026-08-09T14:36:19Z"
     }
   ]
 }
