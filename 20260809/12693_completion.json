@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-09T15:53:33Z",
+  "body": "CHANGELOG updated in SKULDMARK: fix(format): v1 layout — swap SYMBOL/CIK field widths (SYMBOL 10-\u003e7, CIK 7-\u003e10). Founder: ticker padding was way more than needed while CIK didn't cover the SEC's own real 10-digit max. Fixed before any real identifier was ever issued under the v0 layout — a correction, not a migration. Total Length stays 25. go test + go vet clean. (sess-20260809-1420-e9d3d7f8)",
+  "id": 12693,
+  "metadata": null,
+  "run_id": "sess-20260809-1420-e9d3d7f8",
+  "source_repo": "SKULDMARK",
+  "title": "changelog(SKULDMARK): fix(format): v1 layout — swap SYMBOL/CIK field widths (SY…"
+}

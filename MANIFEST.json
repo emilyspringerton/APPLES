@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-09T15:51:06Z",
+  "generated_at": "2026-08-09T15:53:33Z",
   "repo": "APPLES",
-  "count": 2158,
+  "count": 2159,
   "apples": [
     {
       "id": 10525,
@@ -17266,6 +17266,14 @@
       "source_repo": "emily.cli",
       "date": "20260809",
       "archived_at": "2026-08-09T15:51:06Z"
+    },
+    {
+      "id": 12693,
+      "type": "completion",
+      "title": "changelog(SKULDMARK): fix(format): v1 layout — swap SYMBOL/CIK field widths (SY…",
+      "source_repo": "SKULDMARK",
+      "date": "20260809",
+      "archived_at": "2026-08-09T15:53:33Z"
     }
   ]
 }
