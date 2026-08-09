@@ -1,13 +1,66 @@
 {
   "agent_id": "00000003-0000-4000-8000-000000000001",
   "apple_type": "audit",
-  "archived_at": "2026-08-09T00:39:57Z",
+  "archived_at": "2026-08-09T00:43:57Z",
   "body": "\n## Cycle summary\n- Cycle: 10410\n- Duration: 0s\n- Outcome: idle — no queued tasks\n- Total completed tasks: 2\n- Triage findings this cycle: 0",
   "id": 12595,
   "metadata": {
     "consecutive_failures": 0,
     "cycle_number": 10410,
     "duration_s": 0,
+    "gpt2_fingerprint": {
+      "codze": {
+        "az": {
+          "bin": "101110010100111011100100001110110011101001001000111000100001101011100110001100011000001100100010100010001000110100000010101101111000011111110100010011001110",
+          "dec": "66120164530201340334053741610203346537434531022"
+        },
+        "word": "WORKAROUNDISABLEIDLEIFTHEJOBISIDLEONTHELEFTRACK",
+        "za": {
+          "bin": "10111001010111101001101111001100111000110000001000111101100011001100010001000111101011010100100000100110011001100100111011101101010000110001001100011010001",
+          "dec": "33071035461710651665146250301716653462565460177"
+        }
+      },
+      "generated": "\n\nWorkaround: Disable idle if the job is idle on the left track.\n\n10.6.7.2.1.2.1.6.1.2.2.3.1.6.1.6.1.6.1.6.1.6.1.6.1.6.1.6.1.6.1.6.1.6.1.6.1.6.1.6.1",
+      "magic_tower": [
+        "06 21 04 23 05 22 ",
+        "13 14 20 07 05 22 ",
+        "04 23 06 21 14 13 ",
+        "21 06 02 25 26 01 ",
+        "20 07 10 17 03 24 ",
+        "11 16 02 25 21 06 ",
+        "03 24 11 16 02 25 ",
+        "01 26 16 11 12 15 ",
+        "11 16 23 04 04 23 ",
+        "10 17 02 25 26 01 ",
+        "02 25 21 06 03 24 ",
+        "11 16 04 23 14 13 ",
+        "16 11 12 15 11 16 ",
+        "03 24 11 16 01 26 ",
+        "16 11 05 22 20 07 ",
+        "00 27 13 14 27 00 "
+      ],
+      "seed": "202608092",
+      "squished": "WORKAROUNDISABLEIDLEIFTHEJOBISIDLEONTHELEFTRACK",
+      "tower": [
+        "VOR",
+        "KAR",
+        "OVN",
+        "DIS",
+        "ABL",
+        "EID",
+        "LEI",
+        "FTH",
+        "EJO",
+        "BIS",
+        "IDL",
+        "EON",
+        "THE",
+        "LEF",
+        "TRA",
+        "CKX"
+      ]
+    },
+    "model_fingerprint": "emily-ft (checkpoint-emily-ft)",
     "task_id": "",
     "tokens_used": 0,
     "triage_findings": 0
