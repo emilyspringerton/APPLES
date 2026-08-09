@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-09T14:50:08Z",
+  "body": "CHANGELOG updated in GTA7: feat(cmd): /sudoku self-KO command — strikeLightningEffect (cosmetic) + setHealth(0.0) for a guaranteed respawn if stuck in terrain; no killer LivingEntity involved so CustodyListener's Enforcement-kill check never fires, doesn't send the player to jail (sess-20260809-1420-e9d3d7f8)",
+  "id": 12673,
+  "metadata": null,
+  "run_id": "sess-20260809-1420-e9d3d7f8",
+  "source_repo": "GTA7",
+  "title": "changelog(GTA7): feat(cmd): /sudoku self-KO command — strikeLightningEffec…"
+}

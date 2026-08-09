@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-09T14:44:21Z",
+  "generated_at": "2026-08-09T14:50:08Z",
   "repo": "APPLES",
-  "count": 2138,
+  "count": 2139,
   "apples": [
     {
       "id": 10525,
@@ -17106,6 +17106,14 @@
       "source_repo": "CLI",
       "date": "20260809",
       "archived_at": "2026-08-09T14:44:21Z"
+    },
+    {
+      "id": 12673,
+      "type": "completion",
+      "title": "changelog(GTA7): feat(cmd): /sudoku self-KO command — strikeLightningEffec…",
+      "source_repo": "GTA7",
+      "date": "20260809",
+      "archived_at": "2026-08-09T14:50:08Z"
     }
   ]
 }
