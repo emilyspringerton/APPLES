@@ -1,10 +1,82 @@
 {
   "agent_id": "00000003-0000-4000-8000-000000000001",
   "apple_type": "curation",
-  "archived_at": "2026-08-09T15:40:36Z",
+  "archived_at": "2026-08-09T15:43:41Z",
   "body": "Curated 1 FatBaby observations into EMILY/BACKLOG.md INTAKE QUEUE.\n\nItems:\n- Founder real-time: shankpit-460 boot-straight-into-game is broken — player gets into a match but is stuck in the center of the Osaka garage map, can't seem to actually play (2026-08-09T15:40:30Z)\n",
   "id": 12686,
-  "metadata": null,
+  "metadata": {
+    "gpt2_fingerprint": {
+      "codze": {
+        "az": {
+          "bin": "110101110101110100101011011101111111110111001100100111010100010110101010101110100011111110000101010000001100001100100011101101011000001101100111000101101100001101101000111001101101110011110101000001101101111110011011100001100011000101001110001010001",
+          "dec": "761030306503761030306503761030306503761030306503761030306503761030306503761"
+        },
+        "word": "XORADITIONALXORADITIONALXORADITIONALXORADITIONALXORADITIONALXORADITIONALXOR",
+        "za": {
+          "bin": "10000010010001000101000010111000101010101100110100000101101000101101111100101001010001001110100010101011000010000001111110100010010001001001000011001011111100101101001000110111110111111010100110110000000001001100111000101010110110010110011100100110",
+          "dec": "230161613416230161613416230161613416230161613416230161613416230161613416230"
+        }
+      },
+      "generated": " [ 6.2572 ] xor [ 1 ] : ADDITIONAL [ 6.2572 ] xor [ 1 ] : ADDITIONAL [ 6.2572 ] xor [ 1 ] : ADDITIONAL [ 6.2572 ] xor [ 1 ] : ADDITIONAL [ 6.2572 ] xor [ 1 ] : ADDITIONAL [ 6.2572 ] xor [ 1 ] : ADDITIONAL [ 6.2572 ] xor [ 1",
+      "magic_tower": [
+        "27 00 04 23 05 22 ",
+        "20 07 21 06 02 25 ",
+        "16 11 02 25 04 23 ",
+        "14 13 20 07 03 24 ",
+        "27 00 04 23 05 22 ",
+        "20 07 21 06 02 25 ",
+        "16 11 02 25 04 23 ",
+        "14 13 20 07 03 24 ",
+        "27 00 04 23 05 22 ",
+        "20 07 21 06 02 25 ",
+        "16 11 02 25 04 23 ",
+        "14 13 20 07 03 24 ",
+        "27 00 04 23 05 22 ",
+        "20 07 21 06 02 25 ",
+        "16 11 02 25 04 23 ",
+        "14 13 20 07 03 24 ",
+        "27 00 04 23 05 22 ",
+        "20 07 21 06 02 25 ",
+        "16 11 02 25 04 23 ",
+        "14 13 20 07 03 24 ",
+        "27 00 04 23 05 22 ",
+        "20 07 21 06 02 25 ",
+        "16 11 02 25 04 23 ",
+        "14 13 20 07 03 24 ",
+        "27 00 04 23 05 22 "
+      ],
+      "seed": "2026080964",
+      "squished": "XORADITIONALXORADITIONALXORADITIONALXORADITIONALXORADITIONALXORADITIONALXOR",
+      "tower": [
+        "XOR",
+        "ADI",
+        "TIO",
+        "NAL",
+        "XOR",
+        "ADI",
+        "TIO",
+        "NAL",
+        "XOR",
+        "ADI",
+        "TIO",
+        "NAL",
+        "XOR",
+        "ADI",
+        "TIO",
+        "NAL",
+        "XOR",
+        "ADI",
+        "TIO",
+        "NAL",
+        "XOR",
+        "ADI",
+        "TIO",
+        "NAL",
+        "XOR"
+      ]
+    },
+    "model_fingerprint": "emily-ft (checkpoint-emily-ft)"
+  },
   "run_id": "backlog-curate-1786290036",
   "source_repo": "emily.cli",
   "title": "backlog curate: 1 obs -\u003e INTAKE QUEUE"
