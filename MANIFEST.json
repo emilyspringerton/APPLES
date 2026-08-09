@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-09T15:40:36Z",
+  "generated_at": "2026-08-09T15:46:07Z",
   "repo": "APPLES",
-  "count": 2152,
+  "count": 2153,
   "apples": [
     {
       "id": 10525,
@@ -17218,6 +17218,14 @@
       "source_repo": "emily.cli",
       "date": "20260809",
       "archived_at": "2026-08-09T15:40:36Z"
+    },
+    {
+      "id": 12687,
+      "type": "signal_observation",
+      "title": "[WARN] Founder real-time: SKULDMARK padding is wrong — ticker is padded to 10 chars (way more tha…",
+      "source_repo": "CLI",
+      "date": "20260809",
+      "archived_at": "2026-08-09T15:46:07Z"
     }
   ]
 }
