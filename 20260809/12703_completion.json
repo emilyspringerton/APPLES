@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-09T16:31:00Z",
+  "body": "CHANGELOG updated in TYLER: feat(episodes): S1E0 cold open x2 — experimental GPT-2-assisted rewrite (s01e01_pilot_coldopen_x2_experimental.md). Same broadcast-cut beats (the 'he just smiled and came in' interview, the coin flip) restaged with 5 real gpt2-alpine-c inference calls (16/32/64/128/256 max_tokens, ramping per founder spec) framed in-universe as Emily OS memory-render attempts — raw model output quoted verbatim in the RENDER inserts, drift and all (a 'watermelon'/'Zidane' hallucination the model produced unprompted by the 128/256-token passes). Not promoted to canon; a variant alongside s01e01_pilot.md's broadcast cut. (sess-20260809-1420-e9d3d7f8)",
+  "id": 12703,
+  "metadata": null,
+  "run_id": "sess-20260809-1420-e9d3d7f8",
+  "source_repo": "TYLER",
+  "title": "changelog(TYLER): feat(episodes): S1E0 cold open x2 — experimental GPT-2-assi…"
+}

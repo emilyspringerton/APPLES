@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-09T16:23:11Z",
+  "generated_at": "2026-08-09T16:31:00Z",
   "repo": "APPLES",
-  "count": 2168,
+  "count": 2169,
   "apples": [
     {
       "id": 10525,
@@ -17346,6 +17346,14 @@
       "source_repo": "emily",
       "date": "20260809",
       "archived_at": "2026-08-09T16:23:11Z"
+    },
+    {
+      "id": 12703,
+      "type": "completion",
+      "title": "changelog(TYLER): feat(episodes): S1E0 cold open x2 — experimental GPT-2-assi…",
+      "source_repo": "TYLER",
+      "date": "20260809",
+      "archived_at": "2026-08-09T16:31:00Z"
     }
   ]
 }
