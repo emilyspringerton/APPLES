@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-09T14:19:36Z",
+  "generated_at": "2026-08-09T14:19:38Z",
   "repo": "APPLES",
-  "count": 2116,
+  "count": 2117,
   "apples": [
     {
       "id": 10525,
@@ -16930,6 +16930,14 @@
       "source_repo": "CLI",
       "date": "20260809",
       "archived_at": "2026-08-09T14:19:36Z"
+    },
+    {
+      "id": 12651,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: WEAKNIGHT_BEDROCK_RACERS needs build artifacts matching SHANKPIT/REDGARDE…",
+      "source_repo": "CLI",
+      "date": "20260809",
+      "archived_at": "2026-08-09T14:19:38Z"
     }
   ]
 }
