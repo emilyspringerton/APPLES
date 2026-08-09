@@ -1,13 +1,52 @@
 {
   "agent_id": "00000003-0000-4000-8000-000000000001",
   "apple_type": "audit",
-  "archived_at": "2026-08-09T13:38:28Z",
+  "archived_at": "2026-08-09T13:38:36Z",
   "body": "\n## Cycle summary\n- Cycle: 10462\n- Duration: 0s\n- Outcome: idle — no queued tasks\n- Total completed tasks: 2\n- Triage findings this cycle: 0",
   "id": 12647,
   "metadata": {
     "consecutive_failures": 0,
     "cycle_number": 10462,
     "duration_s": 0,
+    "gpt2_fingerprint": {
+      "codze": {
+        "az": {
+          "bin": "1011011111011100011001001000001010000011111010110101100110100011111101010010010010",
+          "dec": "3473034370230235140445330"
+        },
+        "word": "ILUPDATETHISLISTFREQUENTLY",
+        "za": {
+          "bin": "110110101011100011010011101111000110100011100011110000011001011010101001000101100101",
+          "dec": "16526165621761764051554661"
+        }
+      },
+      "generated": " —\n\nI'll update this list frequently",
+      "magic_tower": [
+        "02 25 03 24 06 21 ",
+        "25 02 21 06 20 07 ",
+        "16 11 11 16 16 11 ",
+        "12 15 02 25 26 01 ",
+        "03 24 02 25 26 01 ",
+        "16 11 01 26 05 22 ",
+        "11 16 15 12 06 21 ",
+        "11 16 14 13 16 11 ",
+        "03 24 17 10 27 00 "
+      ],
+      "seed": "2026080955",
+      "squished": "ILUPDATETHISLISTFREQUENTLY",
+      "tower": [
+        "ILV",
+        "PDA",
+        "TET",
+        "HIS",
+        "LIS",
+        "TFR",
+        "EQV",
+        "ENT",
+        "LYX"
+      ]
+    },
+    "model_fingerprint": "emily-ft (checkpoint-emily-ft)",
     "task_id": "",
     "tokens_used": 0,
     "triage_findings": 0
