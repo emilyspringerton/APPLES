@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-09T18:54:16Z",
+  "body": "Fifth GPT-2 render in the chain, second full episode. Seeded from x05's own emergent line ('I don't remember saying goodbye or anything'), same 5-call ramp (16/32/64/128/256, ~11 min, 18:40-18:51). This run's drift is qualitatively different from the prior four and worth flagging explicitly: the final passes fabricated a mock press-conference transcript -- an invented reporter ('Sarah Carter') and invented official ('Mr Lech') discussing race in America, naming a real public figure only as the subject of the invented speakers' claims (never given fabricated dialogue of his own -- deliberate writing constraint, not an accident of the source). Wrote the episode to treat this as a real finding rather than a joke: the in-scene crew reacts with professional alarm specifically because a small uncredentialed model manufacturing plausible-looking political-transcript content on a real subject is a different category of risk than garbled historical trivia. Closing card states plainly, in-text, that none of the named speakers exist and nothing quoted happened. Production note explicitly recommends against auto-chaining future GPT-2 seeds from this episode's own output without review first, given the drift trend. Not promoted to canon. TYLER commit ab04fa6.",
+  "id": 12733,
+  "metadata": null,
+  "run_id": "sess-20260809-1420-e9d3d7f8",
+  "source_repo": "CLI",
+  "title": "TYLER: x06 'The Press Conference That Never Happened' — fifth render experiment, flagged content finding"
+}
