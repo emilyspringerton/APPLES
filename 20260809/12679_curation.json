@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "curation",
+  "archived_at": "2026-08-09T15:10:10Z",
+  "body": "Curated 1 FatBaby observations into EMILY/BACKLOG.md INTAKE QUEUE.\n\nItems:\n- Founder real-time: SHANKPIT needs Android build artifacts (a real Android client build, distinct from MJOLNIR) — confirmed no existing backlog item, CI, or docs cover this; needs real scoping (SDL2-on-Android is Gradle+NDK, a different build shape than the Linux/mingw-Windows pattern already in place) (2026-08-09T15:09:50Z)\n",
+  "id": 12679,
+  "metadata": null,
+  "run_id": "backlog-curate-1786288210",
+  "source_repo": "emily.cli",
+  "title": "backlog curate: 1 obs -\u003e INTAKE QUEUE"
+}
