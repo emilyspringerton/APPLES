@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "curation",
+  "archived_at": "2026-08-09T16:14:49Z",
+  "body": "Curated 1 FatBaby observations into EMILY/BACKLOG.md INTAKE QUEUE.\n\nItems:\n- Founder real-time: experimental TYLER x2 — redo the S1E0 cold open ('he just smiled and came in') from the original pilot episode, but use the GPT-2 inference API to help write it. Guidance: GPT-2 API output caps around 512 tokens per call; generate iteratively in chunks (start at 16 tokens so context locks in cleanly, then scale up to ~256 tokens per call) (2026-08-09T16:10:28Z)\n",
+  "id": 12701,
+  "metadata": null,
+  "run_id": "backlog-curate-1786292089",
+  "source_repo": "emily.cli",
+  "title": "backlog curate: 1 obs -\u003e INTAKE QUEUE"
+}
