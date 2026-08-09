@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-09T14:24:53Z",
+  "generated_at": "2026-08-09T14:25:14Z",
   "repo": "APPLES",
-  "count": 2124,
+  "count": 2125,
   "apples": [
     {
       "id": 10525,
@@ -16994,6 +16994,14 @@
       "source_repo": "CLI",
       "date": "20260809",
       "archived_at": "2026-08-09T14:24:53Z"
+    },
+    {
+      "id": 12659,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: ensure full state hydration via 'emily cli context' to compile the golden…",
+      "source_repo": "CLI",
+      "date": "20260809",
+      "archived_at": "2026-08-09T14:25:14Z"
     }
   ]
 }
