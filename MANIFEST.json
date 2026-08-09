@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-09T14:23:12Z",
+  "generated_at": "2026-08-09T14:24:33Z",
   "repo": "APPLES",
-  "count": 2122,
+  "count": 2123,
   "apples": [
     {
       "id": 10525,
@@ -16978,6 +16978,14 @@
       "source_repo": "emily",
       "date": "20260809",
       "archived_at": "2026-08-09T14:23:12Z"
+    },
+    {
+      "id": 12657,
+      "type": "completion",
+      "title": "changelog(emily.cli): fix(observe): 修復 emily observe 檔案名稱碰撞導致…",
+      "source_repo": "emily.cli",
+      "date": "20260809",
+      "archived_at": "2026-08-09T14:24:33Z"
     }
   ]
 }

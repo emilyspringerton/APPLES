@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-09T14:24:33Z",
+  "body": "CHANGELOG updated in emily.cli: fix(observe): 修復 emily observe 檔案名稱碰撞導致觀察紀錄靜默遺失的問題（同一秒內多次呼叫會覆寫前一筆），並為 observe/apples/changelog 補上一致的 session 標籤機制 (sess-20260809-1420-e9d3d7f8)",
+  "id": 12657,
+  "metadata": null,
+  "run_id": "sess-20260809-1420-e9d3d7f8",
+  "source_repo": "emily.cli",
+  "title": "changelog(emily.cli): fix(observe): 修復 emily observe 檔案名稱碰撞導致…"
+}
