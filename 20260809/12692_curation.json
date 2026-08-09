@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "curation",
+  "archived_at": "2026-08-09T15:51:06Z",
+  "body": "Curated 3 FatBaby observations into EMILY/BACKLOG.md INTAKE QUEUE.\n\nItems:\n- Founder real-time: the LLM/emily session ID is not showing up in git commit messages anywhere — needs to go in ALL commit messages going forward, not just Apples/CHANGELOG/observations. Referenced via 'emily session new' from the CLI. (2026-08-09T15:48:32Z)\n- Founder real-time: SKULDMARK format needs an API/version bump from v0 to v1 (accompanying the CIK/ticker padding fix — this is a breaking format change) (2026-08-09T15:46:23Z)\n- Founder real-time: SKULDMARK padding is wrong — ticker is padded to 10 chars (way more than enough), CIK is NOT padded even though CIK could be up to 10 digits; need to swap: pad CIK to 10 (with X's or similar), pad ticker to only 7 (2026-08-09T15:46:07Z)\n",
+  "id": 12692,
+  "metadata": null,
+  "run_id": "backlog-curate-1786290666",
+  "source_repo": "emily.cli",
+  "title": "backlog curate: 3 obs -\u003e INTAKE QUEUE"
+}
