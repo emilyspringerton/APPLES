@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-09T16:31:30Z",
+  "body": "Wrote TYLER/episodes/s01e01_pilot_coldopen_x2_experimental.md: same broadcast-cut beats as s01e01_pilot.md's cold open ('he just smiled and came in' interview, coin flip), restaged with 5 real gpt2-alpine-c inference calls against the fine-tuned checkpoint (POST :8088/generate, max_tokens 16/32/64/128/256 ramping per founder spec, each output fed back as the next call's growing context). Framed in-universe as an Emily OS 'memory render' attempt so the raw model output could be quoted verbatim rather than smoothed over -- the model holds the thread for the first two calls then drifts into an unprompted watermelon/'Zidane' hallucination by the 128/256-token passes, which the script uses honestly as the actual finding (more context window did not mean better memory here). Confirmed ~4min/call latency live (single-threaded stdlib HTTPServer, load average 10 on a 4-core box) -- founder already aware, explicitly said work within the constraint for now. Not promoted to canon; a variant alongside the broadcast cut. TYLER commit 8e949d7.",
+  "id": 12704,
+  "metadata": null,
+  "run_id": "sess-20260809-1420-e9d3d7f8",
+  "source_repo": "CLI",
+  "title": "TYLER: S1E0 cold open x2 — GPT-2-assisted experimental variant complete"
+}

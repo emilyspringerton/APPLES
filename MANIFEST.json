@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-09T16:31:00Z",
+  "generated_at": "2026-08-09T16:31:30Z",
   "repo": "APPLES",
-  "count": 2169,
+  "count": 2170,
   "apples": [
     {
       "id": 10525,
@@ -17354,6 +17354,14 @@
       "source_repo": "TYLER",
       "date": "20260809",
       "archived_at": "2026-08-09T16:31:00Z"
+    },
+    {
+      "id": 12704,
+      "type": "completion",
+      "title": "TYLER: S1E0 cold open x2 — GPT-2-assisted experimental variant complete",
+      "source_repo": "CLI",
+      "date": "20260809",
+      "archived_at": "2026-08-09T16:31:30Z"
     }
   ]
 }
