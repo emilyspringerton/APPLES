@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-09T17:57:39Z",
+  "body": "First full-episode (not just cold-open) GPT-2-assisted render experiment. Seeded from the S01E02 experiment's own emergent output line rather than an existing script -- a render seeding a new render. Same 5-call ramp (16/32/64/128/256 max_tokens, ~11 min, 17:44-17:55). Final pass fabricated a complete archival citation format with two named witnesses (KINGSTON, JOHN / DREIFER, PAUL) and a Kennedy/Johnson/Vietnam conflation against the WWII seed -- built the episode's actual plot around investigating that fabrication, explicit in-text that the names are verified against nothing because there's nothing to verify them against. Placed as Series X unnumbered (x05), documentary-crew format (not the RED GARDEN garage format), explicitly scoped to not touch Season 6's Hastings Street/Constructions continuity. Not promoted to canon. TYLER commit 587fa4c.",
+  "id": 12722,
+  "metadata": null,
+  "run_id": "sess-20260809-1420-e9d3d7f8",
+  "source_repo": "CLI",
+  "title": "TYLER: x05 'The Only Airplanes Are Buses' — full episode, third GPT-2 render experiment"
+}
