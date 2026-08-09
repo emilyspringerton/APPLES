@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "curation",
+  "archived_at": "2026-08-09T14:25:47Z",
+  "body": "Curated 5 FatBaby observations into EMILY/BACKLOG.md INTAKE QUEUE.\n\nItems:\n- Founder real-time: read all blog posts (okemily.com) to build context on the last 1-2 weeks of work (2026-08-09T14:25:43Z)\n- Founder real-time: verify SHANKPIT CI/CD is passing on the recent build (2026-08-09T14:25:36Z)\n- Founder real-time: WEAKNIGHT_BEDROCK_RACERS needs build artifacts matching SHANKPIT/REDGARDEN pattern — Windows client artifacts, run.bat, SDL2 (2026-08-09T14:25:35Z)\n- Founder real-time: update run.sh — it's what actually launches the session right now and may be stale / need a better startup prompt/context bundle (2026-08-09T14:25:35Z)\n- Founder real-time: ensure full state hydration via 'emily cli context' to compile the golden doc index (2026-08-09T14:25:14Z)\n",
+  "id": 12664,
+  "metadata": null,
+  "run_id": "backlog-curate-1786285547",
+  "source_repo": "emily.cli",
+  "title": "backlog curate: 5 obs -\u003e INTAKE QUEUE"
+}
