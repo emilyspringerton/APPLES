@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-09T14:44:21Z",
+  "body": "Root cause: S144-02 (a5a04c2) added packages/render/gl_shader.c and wired apps/lobby/src/main.c to call gl_shader_load_extensions/gl_compile_shader/gl_link_program/gl_dynamic_vbo_init/gl_dynamic_vbo_draw, but tests.yml/release.yml's mingw cross-compile step hardcodes its own gcc source list (doesn't use the Makefile, which had been updated correctly) -- so the linker couldn't find those symbols, exit 1. Fixed both workflow files to include the missing source file. Verified: native Linux make build clean (bin/shank_lobby + bin/shank_server), GOWORK=off go test ./... green. Pushed 0d3a363 -- new CI run (31319045332) fully green, all steps including Build Windows Client succeeded. Also confirmed WEAKNIGHT_BEDROCK_RACERS's new Windows CI job (b4fa80d, S170-263) passed on its first real run.",
+  "id": 12672,
+  "metadata": null,
+  "run_id": "sess-20260809-1420-e9d3d7f8",
+  "source_repo": "CLI",
+  "title": "SHANKPIT CI fixed and confirmed green: Windows client cross-compile linker failure"
+}

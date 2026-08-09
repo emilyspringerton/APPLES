@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-09T14:39:52Z",
+  "generated_at": "2026-08-09T14:44:21Z",
   "repo": "APPLES",
-  "count": 2137,
+  "count": 2138,
   "apples": [
     {
       "id": 10525,
@@ -17098,6 +17098,14 @@
       "source_repo": "SHANKPIT",
       "date": "20260809",
       "archived_at": "2026-08-09T14:39:52Z"
+    },
+    {
+      "id": 12672,
+      "type": "completion",
+      "title": "SHANKPIT CI fixed and confirmed green: Windows client cross-compile linker failure",
+      "source_repo": "CLI",
+      "date": "20260809",
+      "archived_at": "2026-08-09T14:44:21Z"
     }
   ]
 }
