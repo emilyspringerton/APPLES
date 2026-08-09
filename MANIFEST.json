@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-09T14:36:55Z",
+  "generated_at": "2026-08-09T14:37:52Z",
   "repo": "APPLES",
-  "count": 2134,
+  "count": 2135,
   "apples": [
     {
       "id": 10525,
@@ -17074,6 +17074,14 @@
       "source_repo": "CLI",
       "date": "20260809",
       "archived_at": "2026-08-09T14:36:55Z"
+    },
+    {
+      "id": 12669,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: add a GTA7 slash command /sudoku that self-smites the player (KO -\u003e respa…",
+      "source_repo": "CLI",
+      "date": "20260809",
+      "archived_at": "2026-08-09T14:37:52Z"
     }
   ]
 }
