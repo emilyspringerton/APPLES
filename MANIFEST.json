@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-09T15:09:18Z",
+  "generated_at": "2026-08-09T15:09:50Z",
   "repo": "APPLES",
-  "count": 2143,
+  "count": 2144,
   "apples": [
     {
       "id": 10525,
@@ -17146,6 +17146,14 @@
       "source_repo": "emily",
       "date": "20260809",
       "archived_at": "2026-08-09T15:09:18Z"
+    },
+    {
+      "id": 12678,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: SHANKPIT needs Android build artifacts (a real Android client build, dist…",
+      "source_repo": "CLI",
+      "date": "20260809",
+      "archived_at": "2026-08-09T15:09:50Z"
     }
   ]
 }
