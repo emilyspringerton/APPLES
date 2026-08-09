@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-09T14:25:14Z",
+  "generated_at": "2026-08-09T14:25:35Z",
   "repo": "APPLES",
-  "count": 2125,
+  "count": 2126,
   "apples": [
     {
       "id": 10525,
@@ -17002,6 +17002,14 @@
       "source_repo": "CLI",
       "date": "20260809",
       "archived_at": "2026-08-09T14:25:14Z"
+    },
+    {
+      "id": 12660,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: update run.sh — it's what actually launches the session right now and m…",
+      "source_repo": "CLI",
+      "date": "20260809",
+      "archived_at": "2026-08-09T14:25:35Z"
     }
   ]
 }
