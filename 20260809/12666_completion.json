@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-09T14:30:51Z",
+  "body": "run.sh now runs 'emily session new' before invoking claude, and the launch prompt tells the session to run 'emily backlog curate --all' and check the observation queue/SECTION 170 for anything filed while offline before picking backlog work (Principle 18). Separately investigated S170-265 (emily cli context / golden doc index hydration): emily context build + emily-agent's internal GoldenDocCompiler both already exist and both are blocked on the same root cause as HITL-11 (ANTHROPIC_API_KEY credit balance dead since 2026-07-19, re-confirmed dead today via a live emily context build --dry-run run — all 45/45 sources failed with 'credit balance too low'). Flagged a side-finding: full-system-context.md's fresh mtime likely masks stale cached compression content, same failure mode already named for GOLDEN.md in HITL-11. No code gap to fix — genuinely blocked on founder topping up credits. root monorepo commit 2505c4e, EMILY BACKLOG.md pending.",
+  "id": 12666,
+  "metadata": null,
+  "run_id": "sess-20260809-1420-e9d3d7f8",
+  "source_repo": "CLI",
+  "title": "run.sh refreshed: session tag + offline-observation catch-up on startup; S170-265 investigated (blocked on HITL-11)"
+}

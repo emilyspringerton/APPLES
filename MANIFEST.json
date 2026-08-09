@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-09T14:27:20Z",
+  "generated_at": "2026-08-09T14:30:51Z",
   "repo": "APPLES",
-  "count": 2131,
+  "count": 2132,
   "apples": [
     {
       "id": 10525,
@@ -17050,6 +17050,14 @@
       "source_repo": "CLI",
       "date": "20260809",
       "archived_at": "2026-08-09T14:27:20Z"
+    },
+    {
+      "id": 12666,
+      "type": "completion",
+      "title": "run.sh refreshed: session tag + offline-observation catch-up on startup; S170-265 investigated (blocked on HITL-11)",
+      "source_repo": "CLI",
+      "date": "20260809",
+      "archived_at": "2026-08-09T14:30:51Z"
     }
   ]
 }
