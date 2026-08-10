@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-10T02:02:59Z",
+  "body": "CHANGELOG updated in CarePyre: Contact Us 改成真的表單,送到 IDUNA 新的 /api/v1/carepyre/contact 端點(移除 hello@carepyre.org mailto 連結),nginx 加上 /api/ proxy 到 IDUNA(:8080),與 okemily.com 同樣模式 (sess-20260809-1420-e9d3d7f8)",
+  "id": 12790,
+  "metadata": null,
+  "run_id": "sess-20260809-1420-e9d3d7f8",
+  "source_repo": "CarePyre",
+  "title": "changelog(CarePyre): Contact Us 改成真的表單,送到 IDUNA 新的 /api/v1/carepyre/contact 端點(移…"
+}

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-10T02:02:42Z",
+  "generated_at": "2026-08-10T02:02:59Z",
   "repo": "APPLES",
-  "count": 2255,
+  "count": 2256,
   "apples": [
     {
       "id": 10525,
@@ -18042,6 +18042,14 @@
       "source_repo": "IDUNA",
       "date": "20260810",
       "archived_at": "2026-08-10T02:02:42Z"
+    },
+    {
+      "id": 12790,
+      "type": "completion",
+      "title": "changelog(CarePyre): Contact Us 改成真的表單,送到 IDUNA 新的 /api/v1/carepyre/contact 端點(移…",
+      "source_repo": "CarePyre",
+      "date": "20260810",
+      "archived_at": "2026-08-10T02:02:59Z"
     }
   ]
 }
