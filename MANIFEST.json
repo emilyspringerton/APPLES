@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-10T08:44:17Z",
+  "generated_at": "2026-08-10T08:45:07Z",
   "repo": "APPLES",
-  "count": 2329,
+  "count": 2330,
   "apples": [
     {
       "id": 10525,
@@ -18634,6 +18634,14 @@
       "source_repo": "CLI",
       "date": "20260810",
       "archived_at": "2026-08-10T08:44:17Z"
+    },
+    {
+      "id": 12864,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time (GTA7 party stores TNT+potions thread, full spec now settled): (1) TNT sel…",
+      "source_repo": "CLI",
+      "date": "20260810",
+      "archived_at": "2026-08-10T08:45:07Z"
     }
   ]
 }
