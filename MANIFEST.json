@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-10T01:42:23Z",
+  "generated_at": "2026-08-10T01:42:54Z",
   "repo": "APPLES",
-  "count": 2247,
+  "count": 2248,
   "apples": [
     {
       "id": 10525,
@@ -17978,6 +17978,14 @@
       "source_repo": "CLI",
       "date": "20260810",
       "archived_at": "2026-08-10T01:42:23Z"
+    },
+    {
+      "id": 12782,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: do NOT register a golden doc for CarePyre in EMILY (one-off job until int…",
+      "source_repo": "CLI",
+      "date": "20260810",
+      "archived_at": "2026-08-10T01:42:54Z"
     }
   ]
 }
