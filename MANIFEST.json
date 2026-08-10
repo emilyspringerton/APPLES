@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-10T05:12:37Z",
+  "generated_at": "2026-08-10T05:12:45Z",
   "repo": "APPLES",
-  "count": 2283,
+  "count": 2284,
   "apples": [
     {
       "id": 10525,
@@ -18266,6 +18266,14 @@
       "source_repo": "CLI",
       "date": "20260810",
       "archived_at": "2026-08-10T05:12:37Z"
+    },
+    {
+      "id": 12818,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: write up a new NORTHSTAR covering the bleeding-edge R\u0026D findings pulled f…",
+      "source_repo": "CLI",
+      "date": "20260810",
+      "archived_at": "2026-08-10T05:12:45Z"
     }
   ]
 }
