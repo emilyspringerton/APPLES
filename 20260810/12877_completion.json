@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-10T09:22:27Z",
+  "body": "Two things landed together: (1) the VS5 CRAZY_KRANKENVAGEN feature itself (boat-as-ambulance, pick up a wounded NPC, race to a hospital point, escalating reputation reward for chained runs) was fully built earlier this session but never committed -- KrankenvagenManager/Listener/HospitalCommand were sitting untracked. (2) This session's founder real-time thread extending it: 'can we turn the wandering trader with the llamas into a krankenvagen?' -\u003e 'when a player is super low health dispatch a krankenvagen' -\u003e 'it heals them as it rides the player around the terrain on one of the llamas at incredible speed' -\u003e 'like the blue guy shows up with the 3 llamas and then if you jump on one of the llamas it turns into a krankenvagen.' The wounded-pickup NPC is now a real WanderingTrader with 3 real TRADER_LLAMA spawned alongside it, not a plain Villager -- caught and fixed a real type bug along the way (WanderingTrader is NOT a Villager subtype in Bukkit, it's an AbstractVillager sibling; KrankenvagenListener's original instanceof Villager check on the pickup interaction would never have matched a WanderingTrader, silently breaking the whole pickup flow -- fixed to instanceof AbstractVillager). New self-contained rescue mechanic: mounting any Krankenvagen llama (EntityMountEvent) re-enables its AI, cranks MOVEMENT_SPEED to 0.6 (vanilla baseline ~0.175), heals the rider 1 heart/sec for 10s, then auto-ejects -- independent of the boat/hospital delivery mission, no driving required. New auto-dispatch: EntityDamageEvent at MONITOR priority computes post-damage health (getHealth() pre-event is stale, event.getFinalDamage() hasn't been applied yet) and spawns a Krankenvagen group near any player who drops to \u003c=2 hearts, 60s per-player cooldown. Built, deployed, systemctl --user restart clean, server.log confirms GTA7 enabled with no exceptions. GTA7 commit 9ad8cd7.",
+  "id": 12877,
+  "metadata": null,
+  "run_id": "sess-20260810-0505-a53abca2",
+  "source_repo": "GTA7",
+  "title": "VS5 CRAZY_KRANKENVAGEN complete + llama-ride rescue + auto-dispatch on low health"
+}
