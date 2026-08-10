@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-10T05:54:41Z",
+  "generated_at": "2026-08-10T05:56:22Z",
   "repo": "APPLES",
-  "count": 2298,
+  "count": 2299,
   "apples": [
     {
       "id": 10525,
@@ -18386,6 +18386,14 @@
       "source_repo": "emily",
       "date": "20260810",
       "archived_at": "2026-08-10T05:54:41Z"
+    },
+    {
+      "id": 12833,
+      "type": "completion",
+      "title": "Bot AI heuristic: prefer already-damaged towers over rushing full-health nodes",
+      "source_repo": "REDGARDEN",
+      "date": "20260810",
+      "archived_at": "2026-08-10T05:56:22Z"
     }
   ]
 }

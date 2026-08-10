@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-10T05:56:22Z",
+  "body": "Founder real-time (obs 05:48:12Z): bots currently rush node capture immediately on sight; real advantage comes from letting the opponent engage a node's tower first, then capitalizing since they now have to fight both the tower and your team. Implemented as a bounded, real preference (not a hard block, no deadlock risk): hero_squad_target_node's greedy nearest-node pick now applies ARENA_BOT_DAMAGED_TOWER_PATIENCE_BONUS (15 map units) to any node whose tower already shows damage (ArenaTowerSnapshot.hp \u003c max_hp, wire-visible), making it look closer in the distance comparison. Falls back to plain nearest-node behavior when no tower is damaged, same as before this change. Doesn't distinguish which team caused the damage (protocol carries no last-attacker field for towers) -- acceptable for this heuristic's purpose since whoever started it already paid a real tempo cost. Explicitly scoped as a first-pass heuristic only, not the full wholistic bot-training/commander-squad answer the founder also asked to fold this into (NORTHSTAR §26) -- that remains a separate open BACKLOG item. test_arena.sh green (untouched by this file, confirms no regression elsewhere), test_10_bots.sh confirms the real bot binary runs stably with the new logic compiled in. Commit REDGARDEN ba5d5a4.",
+  "id": 12833,
+  "metadata": null,
+  "run_id": "sess-20260810-0505-a53abca2",
+  "source_repo": "REDGARDEN",
+  "title": "Bot AI heuristic: prefer already-damaged towers over rushing full-health nodes"
+}
