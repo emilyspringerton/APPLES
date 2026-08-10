@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "curation",
+  "archived_at": "2026-08-10T01:48:34Z",
+  "body": "Curated 5 FatBaby observations into EMILY/BACKLOG.md INTAKE QUEUE.\n\nItems:\n- Founder real-time: CarePyre design direction pivot — light blue/white/cyan/orange, friendly healthcare vibe, not the dark EINHORN_INDUSTRIAL 'stark' aesthetic. Wants a style guide committed to the repo first, before the full landing page. (2026-08-10T01:44:51Z)\n- Founder real-time: pulling okemily.com down may be needed to get a certbot cert for carepyre.org — a real, disruptive action on a live site; needs explicit founder execution/confirmation, not something to do unilaterally, and Claude doesn't have sudo access to run certbot/nginx reload anyway (2026-08-10T01:43:12Z)\n- Founder real-time: do NOT register a golden doc for CarePyre in EMILY (one-off job until integration/divestment decision). carepyre.org DNS is already pointed at this box. (2026-08-10T01:42:54Z)\n- Founder real-time: stand up carepyre.org the same way okemily.com was stood up, following the existing golden doc that documents that process (2026-08-10T01:42:23Z)\n- Founder real-time: build the main CarePyre landing site — explicitly exclude the 'become our own healthcare plan / Medicaid MCO displacement' competitive strategy content, but include the rest of the plan (mission, community SDOH infrastructure vision, etc.) (2026-08-10T01:42:14Z)\n",
+  "id": 12787,
+  "metadata": null,
+  "run_id": "backlog-curate-1786326513",
+  "source_repo": "emily.cli",
+  "title": "backlog curate: 5 obs -\u003e INTAKE QUEUE"
+}
