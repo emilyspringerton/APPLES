@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "curation",
+  "archived_at": "2026-08-10T01:01:05Z",
+  "body": "Curated 1 FatBaby observations into EMILY/BACKLOG.md INTAKE QUEUE.\n\nItems:\n- Founder real-time: paused shankpit-460 troubleshooting mid-session ('stop trying'). State to preserve: ticket-secret fix (ae7b63e) + PLAY.bat pause fix (28fcd2f) deployed server + CI, live rejection log confirmed founder's real IP (174.210.229.148) reaches the server (rules out network/firewall), but rejection was on an old client build -- end-to-end success with the new build (run 31345437812, ShankPit_Builds_23+) not yet confirmed. Do not resume without explicit founder go-ahead. (2026-08-10T01:00:58Z)\n",
+  "id": 12767,
+  "metadata": null,
+  "run_id": "backlog-curate-1786323665",
+  "source_repo": "emily.cli",
+  "title": "backlog curate: 1 obs -\u003e INTAKE QUEUE"
+}
