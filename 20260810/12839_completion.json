@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-10T06:30:36Z",
+  "body": "Founder never specified whether a defeated King respawns; resolved as a real, documented judgment call (yes, on ARENA_KING_RESPAWN_MS = 2:30) rather than left open indefinitely, following this game's established 'faster than real MOBA precedent' timer-scaling convention already used throughout (lane waves, camp waves, King's own first-spawn delay). Implementation reuses the existing king_spawn_timer_ms field for both first-spawn and respawn countdowns (mutually exclusive states, no ambiguity), resetting to 0 the instant a King dies. 1 new smoke test (no early respawn, respawns at full HP at the camp's fixed position once the timer elapses). Full test_arena.sh green, test_10_bots.sh confirmed stable on retry (first attempt hit a transient port-collision flake from rapid repeated test invocations this session, unrelated to this change). This completes all 5 milestones in GoblinFoxDragon/docs2/JUNGLE_CAMPS_NORTHSTAR.md for REDGARDEN -- remaining work per that doc is Milestone 5 (port validated implementation back to GFD's apps2/battlegrounds_gui fork, explicitly deferred by founder until further validation). Commit REDGARDEN fc745ac.",
+  "id": 12839,
+  "metadata": null,
+  "run_id": "sess-20260810-0505-a53abca2",
+  "source_repo": "REDGARDEN",
+  "title": "Jungle Camps Milestone 4 -- King respawn timer (resolves the northstar's own §5 open question)"
+}
