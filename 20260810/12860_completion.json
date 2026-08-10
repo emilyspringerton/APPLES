@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-10T08:42:00Z",
+  "body": "Python-side opponent-pool sampler for NORTHSTAR §25.4, the piece explicitly deferred at the end of the same-day session-tag/critical-bug-fix pass that built its C-level prerequisite (sim_get_obs_team_any/sim_step_team_vs_actions, commit e6effc1). ArenaTeamVecEnv (scripts/rl_env_team.py, autocurriculum=True) maintains opponent_pool: permanent 'heuristic' slot + up to MAX_CHECKPOINT_OPPONENTS=5 past self-play checkpoints (oldest evicted first). Samples one opponent per episode via Prioritized Fictitious Self-Play (AlphaStar's own (1-win_rate)^2 weighting, Beta(1,1)-smoothed, PFSP_MIN_WEIGHT floor). When a checkpoint opponent is sampled, team B is driven by that checkpoint's loaded SB3 policy against its own real perspective (sim_get_obs_team_any, my_team=1) via sim_step_team_vs_actions, instead of the fixed heuristic. rl_train_team.py --autocurriculum feeds each newly-saved checkpoint into the running pool live. Verified via a standalone ctypes+SB3 script against 2 real checkpoints pulled from this session's own in-progress background training run: opponent sampling/switching across episodes, real model.predict()-driven team-B actions, pool eviction at the cap -- all correct. Both --smoke-test (ctypes-only) and the real SB3 VecEnv rollout still pass. NORTHSTAR §25.4/§25.5 updated to honestly reflect status: plumbing is real and verified, but no full end-to-end model.learn() run has completed with autocurriculum enabled yet, so whether it measurably improves the resulting policy over the fixed-heuristic baseline remains open. REDGARDEN commit e5cee20.",
+  "id": 12860,
+  "metadata": null,
+  "run_id": "sess-20260810-0505-a53abca2",
+  "source_repo": "REDGARDEN",
+  "title": "§25.4 autocurriculum: PFSP opponent-pool sampling implemented for team training"
+}
