@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-10T07:56:03Z",
+  "generated_at": "2026-08-10T08:07:06Z",
   "repo": "APPLES",
-  "count": 2316,
+  "count": 2317,
   "apples": [
     {
       "id": 10525,
@@ -18530,6 +18530,14 @@
       "source_repo": "CLI",
       "date": "20260810",
       "archived_at": "2026-08-10T07:56:03Z"
+    },
+    {
+      "id": 12851,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: found that automated 'emily backlog curate'/'emily backlog promote' git c…",
+      "source_repo": "CLI",
+      "date": "20260810",
+      "archived_at": "2026-08-10T08:07:06Z"
     }
   ]
 }
