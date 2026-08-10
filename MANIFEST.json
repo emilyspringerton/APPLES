@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-10T00:41:24Z",
+  "generated_at": "2026-08-10T00:48:26Z",
   "repo": "APPLES",
-  "count": 2228,
+  "count": 2229,
   "apples": [
     {
       "id": 10525,
@@ -17826,6 +17826,14 @@
       "source_repo": "emily",
       "date": "20260810",
       "archived_at": "2026-08-10T00:41:24Z"
+    },
+    {
+      "id": 12763,
+      "type": "completion",
+      "title": "changelog(shankpit-460): fix(net): CI-bundled Windows client never had a valid conne…",
+      "source_repo": "shankpit-460",
+      "date": "20260810",
+      "archived_at": "2026-08-10T00:48:26Z"
     }
   ]
 }

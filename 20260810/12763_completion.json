@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-10T00:48:26Z",
+  "body": "CHANGELOG updated in shankpit-460: fix(net): CI-bundled Windows client never had a valid connect ticket — root cause of every 'stuck in Osaka garage, can't move' report since this shipped. mint_client_ticket() reads SHANKPIT_TICKET_SECRET from the environment; that var only ever existed in this server's own shell config, never in the distributed PLAY.bat. Every real downloaded client signed its ticket with an empty-string key, the server's verify_connect_ticket() silently dropped it (no slot, no WELCOME, nothing logged) -- looked identical to a network/firewall block from every angle that doesn't know to check this. Fixed both tests.yml and release.yml to set SHANKPIT_TICKET_SECRET in the generated PLAY.bat, same pattern REDGARDEN's own PLAY.bat already uses for its ticket secret. Live-verified: a client using only this env var (no other config) connects clean, real WELCOME, real snapshot reconciliation. (sess-20260809-1420-e9d3d7f8)",
+  "id": 12763,
+  "metadata": null,
+  "run_id": "sess-20260809-1420-e9d3d7f8",
+  "source_repo": "shankpit-460",
+  "title": "changelog(shankpit-460): fix(net): CI-bundled Windows client never had a valid conne…"
+}
