@@ -1,13 +1,46 @@
 {
   "agent_id": "00000003-0000-4000-8000-000000000001",
   "apple_type": "audit",
-  "archived_at": "2026-08-10T12:48:29Z",
+  "archived_at": "2026-08-10T15:39:41Z",
   "body": "\n## Cycle summary\n- Cycle: 10556\n- Duration: 0s\n- Outcome: idle — no queued tasks\n- Total completed tasks: 2\n- Triage findings this cycle: 0",
   "id": 12892,
   "metadata": {
     "consecutive_failures": 0,
     "cycle_number": 10556,
     "duration_s": 0,
+    "gpt2_fingerprint": {
+      "codze": {
+        "az": {
+          "bin": "101010101000111000101100110111011010110010111000111101110000010111101101001101011001110001001110000100001001101011001011100110000110010101010111101000011110001110001110001110001110001110001110001",
+          "dec": "33456044443302227777777777777777777777777777777777777777777"
+        },
+        "word": "IDLENOQUEUEDTASKSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "za": {
+          "bin": "11010100010000010011110101100111000010000111000110011011111101011101111000110011010111001101000100011110101011001101110101111011001101011010101110000111100001110001110001110001110001110001110001110",
+          "dec": "166543155556617772222222222222222222222222222222222222222222"
+        }
+      },
+      "generated": "\n\n10556 — idle (no queued tasks) 2x 2x 2x 2x 2x 2x 2x 2x 2x 2x 2x 2x 2x 2x 2x 2x 2x 2x 2x 2x 2x 2x\n\n2x 2x 2x 2x 2x 2x 2x 2x 2x 2x 2x 2x 2x 2x 2x 2x 2x 2x 2x 2x 2x",
+      "magic_tower": [
+        "02 25 21 06 03 24 ",
+        "11 16 14 13 04 23 ",
+        "15 12 06 21 11 16 ",
+        "06 21 11 16 21 06 ",
+        "16 11 20 07 26 01 ",
+        "13 14 26 01 27 00 "
+      ],
+      "seed": "2026081064",
+      "squished": "IDLENOQUEUEDTASKSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "tower": [
+        "IDL",
+        "ENO",
+        "QVE",
+        "VED",
+        "TAS",
+        "KSX"
+      ]
+    },
+    "model_fingerprint": "emily-ft (checkpoint-emily-ft)",
     "task_id": "",
     "tokens_used": 0,
     "triage_findings": 0
