@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-10T05:12:33Z",
+  "generated_at": "2026-08-10T05:12:37Z",
   "repo": "APPLES",
-  "count": 2282,
+  "count": 2283,
   "apples": [
     {
       "id": 10525,
@@ -18258,6 +18258,14 @@
       "source_repo": "CLI",
       "date": "20260810",
       "archived_at": "2026-08-10T05:12:33Z"
+    },
+    {
+      "id": 12817,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: box upgrade means more memory is now available to run training (context: …",
+      "source_repo": "CLI",
+      "date": "20260810",
+      "archived_at": "2026-08-10T05:12:37Z"
     }
   ]
 }
