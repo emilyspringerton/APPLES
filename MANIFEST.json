@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-10T02:26:41Z",
+  "generated_at": "2026-08-10T02:27:03Z",
   "repo": "APPLES",
-  "count": 2259,
+  "count": 2260,
   "apples": [
     {
       "id": 10525,
@@ -18074,6 +18074,14 @@
       "source_repo": "CLI",
       "date": "20260810",
       "archived_at": "2026-08-10T02:26:41Z"
+    },
+    {
+      "id": 12794,
+      "type": "completion",
+      "title": "changelog(CarePyre): 移除首頁對傳統慈善/非營利夥伴的酸言酸語(原本『legacy systems extracting』『not just…",
+      "source_repo": "CarePyre",
+      "date": "20260810",
+      "archived_at": "2026-08-10T02:27:03Z"
     }
   ]
 }
