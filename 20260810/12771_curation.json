@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "curation",
+  "archived_at": "2026-08-10T01:08:20Z",
+  "body": "Curated 2 FatBaby observations into EMILY/BACKLOG.md INTAKE QUEUE.\n\nItems:\n- Founder real-time: 'ensure ops' — after finding shankpit460-server.service (already-enabled systemd unit) was crash-looping 3316+ times because a manually-launched process fought it for the same port all session, fixed by killing the manual process and letting systemd own it. Applied same lesson to WEAKNIGHT_BEDROCK_RACERS: racer_server was never deployed at all (CI-build-only), stood up a new systemd unit for it instead of ad-hoc nohup (2026-08-10T01:08:15Z)\n- Founder real-time: WEAKNIGHT_BEDROCK_RACERS Windows client fails with 'FATAL: could not load real terrain from worldapi localhost:7070' — run.bat defaults to localhost, which on the founder's own machine isn't where worldapi actually runs (2026-08-10T01:03:27Z)\n",
+  "id": 12771,
+  "metadata": null,
+  "run_id": "backlog-curate-1786324100",
+  "source_repo": "emily.cli",
+  "title": "backlog curate: 2 obs -\u003e INTAKE QUEUE"
+}
