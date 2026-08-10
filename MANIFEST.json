@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-10T07:39:52Z",
+  "generated_at": "2026-08-10T07:55:21Z",
   "repo": "APPLES",
-  "count": 2313,
+  "count": 2314,
   "apples": [
     {
       "id": 10525,
@@ -18506,6 +18506,14 @@
       "source_repo": "emily",
       "date": "20260810",
       "archived_at": "2026-08-10T07:39:52Z"
+    },
+    {
+      "id": 12848,
+      "type": "escalation",
+      "title": "CRITICAL: team-mode RL training pipeline was silently broken since it was written -- sim_step_team called the 1v1-only arena_update tick",
+      "source_repo": "REDGARDEN",
+      "date": "20260810",
+      "archived_at": "2026-08-10T07:55:21Z"
     }
   ]
 }

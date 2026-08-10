@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "escalation",
+  "archived_at": "2026-08-10T07:55:21Z",
+  "body": "sim_step_team (apps/arena_training/src/headless.c, written earlier the same day this training pipeline was built) called arena_update(dt_ms) -- the 1v1-only tick, hardcoded to heroes[0]/heroes[1]. Every other hero in a team match (team_size-1 more per side) never moved, fought, or got simulated at all, for the entire lifetime of this pipeline. Discovered while scoping NORTHSTAR §25.4 autocurriculum, verified directly (team-A slot 2 given a real move command, position unchanged). This invalidated: the earlier interrupted training run from this morning (4 checkpoints), and a real ~2-hour, in-progress background 500k-timestep PPO run using this session's own noisy-gestalt feature. Founder real-time, explicit authorization: 'ok if there is an issue fix it, if you must cancel current training and restart after thats ok.' Fixed: sim_step_team + new sim_step_team_vs_actions now call arena_update_teams (the real team-mode tick). Verified via --smoke-test: real episodes now actually end with meaningfully varied per-agent rewards instead of the frozen-statue degenerate result. All invalid checkpoints deleted (gitignored, not version controlled -- no history loss). Training killed and restarted fresh with the fix. Also landed the real C-level prerequisite NORTHSTAR §25.4's autocurriculum design needs: sim_step_team_vs_actions (externally-driven team B for self-play/checkpoint-pool opponent sampling) + sim_get_obs_team_any (team B's own real perspective observation, not team A's). 4 targeted ctypes verification checks all pass. Commits REDGARDEN e6effc1, d9e7f0b.",
+  "id": 12848,
+  "metadata": null,
+  "run_id": "sess-20260810-0505-a53abca2",
+  "source_repo": "REDGARDEN",
+  "title": "CRITICAL: team-mode RL training pipeline was silently broken since it was written -- sim_step_team called the 1v1-only arena_update tick"
+}
