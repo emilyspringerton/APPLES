@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-10T05:24:22Z",
+  "generated_at": "2026-08-10T05:27:56Z",
   "repo": "APPLES",
-  "count": 2290,
+  "count": 2291,
   "apples": [
     {
       "id": 10525,
@@ -18322,6 +18322,14 @@
       "source_repo": "emily",
       "date": "20260810",
       "archived_at": "2026-08-10T05:24:22Z"
+    },
+    {
+      "id": 12825,
+      "type": "completion",
+      "title": "Jungle Camps Milestone 1 (minion waves) ported from GFD fork into REDGARDEN's own apps/arena_server",
+      "source_repo": "REDGARDEN",
+      "date": "20260810",
+      "archived_at": "2026-08-10T05:27:56Z"
     }
   ]
 }

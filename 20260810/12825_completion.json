@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-10T05:27:56Z",
+  "body": "Founder real-time redirect: build the Four Heavenly Kings jungle-camp system in REDGARDEN first (reversing JUNGLE_CAMPS_NORTHSTAR.md's original GFD-first-then-backport plan), validate here, then port to GFD -- table stakes for NORTHSTAR §25/§26 autocurriculum/UED work. Ported ArenaCampMinion type + arena_camp_position/arena_tick_camp_minions/arena_hero_attack_camp_minions from GoblinFoxDragon/apps2/battlegrounds_gui verbatim (constants/functions matched 1:1, REDGARDEN's own arena_game.c/.h already had every dependency: apply_damage, hero_is_hittable, arena_nearest_enemy, etc). 4 camps (N/S/E/W edge midpoints) wave neutral-hostile minions from the opening bell. Wired into arena_update_teams(). 4 new smoke tests added (positions, wave timing, damage, kill reward) -- full test_arena.sh suite green, 10-bot live matchmaker/server smoke test stable. Milestone 2 (the actual Kings + buff mechanics, including a new team-viral buff-carrier primitive for Music) not yet built -- genuinely the larger half of the doc. Commit REDGARDEN 1402702.",
+  "id": 12825,
+  "metadata": null,
+  "run_id": "sess-20260810-0505-a53abca2",
+  "source_repo": "REDGARDEN",
+  "title": "Jungle Camps Milestone 1 (minion waves) ported from GFD fork into REDGARDEN's own apps/arena_server"
+}
