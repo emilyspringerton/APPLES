@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-10T01:44:51Z",
+  "generated_at": "2026-08-10T01:47:32Z",
   "repo": "APPLES",
-  "count": 2250,
+  "count": 2251,
   "apples": [
     {
       "id": 10525,
@@ -18002,6 +18002,14 @@
       "source_repo": "CLI",
       "date": "20260810",
       "archived_at": "2026-08-10T01:44:51Z"
+    },
+    {
+      "id": 12785,
+      "type": "completion",
+      "title": "changelog(CarePyre): feat(site): landing page + deployment prep for carepyre.org…",
+      "source_repo": "CarePyre",
+      "date": "20260810",
+      "archived_at": "2026-08-10T01:47:32Z"
     }
   ]
 }
