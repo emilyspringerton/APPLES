@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-10T03:36:52Z",
+  "generated_at": "2026-08-10T03:36:57Z",
   "repo": "APPLES",
-  "count": 2266,
+  "count": 2267,
   "apples": [
     {
       "id": 10525,
@@ -18130,6 +18130,14 @@
       "source_repo": "CLI",
       "date": "20260810",
       "archived_at": "2026-08-10T03:36:52Z"
+    },
+    {
+      "id": 12801,
+      "type": "completion",
+      "title": "changelog(REDGARDEN): NORTHSTAR §25-28: 多智能體 RL 團隊訓練(角色發現、noisy gestalt、synergy d…",
+      "source_repo": "REDGARDEN",
+      "date": "20260810",
+      "archived_at": "2026-08-10T03:36:57Z"
     }
   ]
 }
