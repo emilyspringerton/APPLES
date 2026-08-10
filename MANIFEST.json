@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-10T04:41:56Z",
+  "generated_at": "2026-08-10T04:45:52Z",
   "repo": "APPLES",
-  "count": 2276,
+  "count": 2277,
   "apples": [
     {
       "id": 10525,
@@ -18210,6 +18210,14 @@
       "source_repo": "emily",
       "date": "20260810",
       "archived_at": "2026-08-10T04:41:56Z"
+    },
+    {
+      "id": 12811,
+      "type": "signal_observation",
+      "title": "[INFO] Founder: update start.sh for maximum/gold-standard context hydration. Merged run.sh's full E…",
+      "source_repo": "CLI",
+      "date": "20260810",
+      "archived_at": "2026-08-10T04:45:52Z"
     }
   ]
 }
