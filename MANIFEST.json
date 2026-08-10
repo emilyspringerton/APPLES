@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-10T03:25:59Z",
+  "generated_at": "2026-08-10T03:36:52Z",
   "repo": "APPLES",
-  "count": 2265,
+  "count": 2266,
   "apples": [
     {
       "id": 10525,
@@ -18122,6 +18122,14 @@
       "source_repo": "emily",
       "date": "20260810",
       "archived_at": "2026-08-10T03:25:59Z"
+    },
+    {
+      "id": 12800,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: pull AGI/multi-agent RL research from the CarePyre transcript into real r…",
+      "source_repo": "CLI",
+      "date": "20260810",
+      "archived_at": "2026-08-10T03:36:52Z"
     }
   ]
 }
