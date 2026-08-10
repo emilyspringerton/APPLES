@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-10T05:10:58Z",
+  "generated_at": "2026-08-10T05:12:05Z",
   "repo": "APPLES",
-  "count": 2280,
+  "count": 2281,
   "apples": [
     {
       "id": 10525,
@@ -18242,6 +18242,14 @@
       "source_repo": "CLI",
       "date": "20260810",
       "archived_at": "2026-08-10T05:10:58Z"
+    },
+    {
+      "id": 12815,
+      "type": "curation",
+      "title": "backlog promote: 2 promoted, 0 removed",
+      "source_repo": "emily.cli",
+      "date": "20260810",
+      "archived_at": "2026-08-10T05:12:05Z"
     }
   ]
 }
