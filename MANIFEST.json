@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-10T08:07:06Z",
+  "generated_at": "2026-08-10T08:07:17Z",
   "repo": "APPLES",
-  "count": 2317,
+  "count": 2318,
   "apples": [
     {
       "id": 10525,
@@ -18538,6 +18538,14 @@
       "source_repo": "CLI",
       "date": "20260810",
       "archived_at": "2026-08-10T08:07:06Z"
+    },
+    {
+      "id": 12852,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: ensure the ENTIRE monorepo always includes the session ID in ALL commits …",
+      "source_repo": "CLI",
+      "date": "20260810",
+      "archived_at": "2026-08-10T08:07:17Z"
     }
   ]
 }
