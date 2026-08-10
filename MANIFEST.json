@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-10T00:48:26Z",
+  "generated_at": "2026-08-10T00:54:48Z",
   "repo": "APPLES",
-  "count": 2229,
+  "count": 2230,
   "apples": [
     {
       "id": 10525,
@@ -17834,6 +17834,14 @@
       "source_repo": "shankpit-460",
       "date": "20260810",
       "archived_at": "2026-08-10T00:48:26Z"
+    },
+    {
+      "id": 12764,
+      "type": "completion",
+      "title": "changelog(shankpit-460): fix(ci): PLAY.bat now invokes ShankPit.exe directly + ends …",
+      "source_repo": "shankpit-460",
+      "date": "20260810",
+      "archived_at": "2026-08-10T00:54:48Z"
     }
   ]
 }
