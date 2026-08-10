@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-10T04:11:27Z",
+  "generated_at": "2026-08-10T04:16:17Z",
   "repo": "APPLES",
-  "count": 2272,
+  "count": 2273,
   "apples": [
     {
       "id": 10525,
@@ -18178,6 +18178,14 @@
       "source_repo": "emily",
       "date": "20260810",
       "archived_at": "2026-08-10T04:11:27Z"
+    },
+    {
+      "id": 12807,
+      "type": "signal_observation",
+      "title": "[INFO] Founder: introduce a gaussian filter to the heuristic vs RL-policy blend, deploy the frontie…",
+      "source_repo": "CLI",
+      "date": "20260810",
+      "archived_at": "2026-08-10T04:16:17Z"
     }
   ]
 }
