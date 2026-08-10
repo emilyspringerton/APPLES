@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-10T05:08:58Z",
+  "generated_at": "2026-08-10T05:10:58Z",
   "repo": "APPLES",
-  "count": 2279,
+  "count": 2280,
   "apples": [
     {
       "id": 10525,
@@ -18234,6 +18234,14 @@
       "source_repo": "emily",
       "date": "20260810",
       "archived_at": "2026-08-10T05:08:58Z"
+    },
+    {
+      "id": 12814,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: once we are stabilized (post-reboot recovery), continue work on the Four …",
+      "source_repo": "CLI",
+      "date": "20260810",
+      "archived_at": "2026-08-10T05:10:58Z"
     }
   ]
 }
