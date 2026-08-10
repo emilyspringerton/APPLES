@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-10T06:08:27Z",
+  "body": "Founder real-time: 'ensure we are doing some of the new exotic training' now that double the memory headroom is available. Implemented NORTHSTAR §25.2.3's alternating variant for real: ArenaTeamVecEnv (scripts/rl_env_team.py) now alternates Johnny phase (synergy reward -- proximity bonus to living teammates, read straight off sim_get_obs_team's existing teammate block, zero new C-side plumbing) and Spike phase (synergy off, plain baseline reward) every --gestalt-phase-ticks env ticks. A grounded, simpler stand-in for the transcript's own mutual-information formulation (which needs model internals SB3's stock PPO doesn't expose per-tick). CLI wired via rl_train_team.py --noisy-gestalt/--gestalt-phase-ticks. Also completed export_rl_policy_to_c.py's symbol_prefix parameter (was referenced but uncommitted from earlier today's pipeline-build session) and corrected a stale doc comment claiming the team pipeline had 'NOT been run end-to-end' (4 real checkpoints already existed proving otherwise). Verified: ctypes smoke test passes, a short real PPO run confirms correct phase alternation by tick count. Launched a real 500k-timestep background training run with --noisy-gestalt enabled (rl_team_checkpoints/, gitignored as generated output) -- genuinely running, not just implemented-and-idle. Remaining exotic threads still spec-only: role discovery (§25.2.2), synergy decay (§25.3, a live-match mechanic not a training technique), autocurriculum (§25.4). Commits REDGARDEN d826c91, b87e26c.",
+  "id": 12836,
+  "metadata": null,
+  "run_id": "sess-20260810-0505-a53abca2",
+  "source_repo": "REDGARDEN",
+  "title": "Noisy-gestalt alternating training schedule implemented + real 500k-timestep training run launched"
+}
