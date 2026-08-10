@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-10T01:08:20Z",
+  "generated_at": "2026-08-10T01:09:26Z",
   "repo": "APPLES",
-  "count": 2237,
+  "count": 2238,
   "apples": [
     {
       "id": 10525,
@@ -17898,6 +17898,14 @@
       "source_repo": "emily.cli",
       "date": "20260810",
       "archived_at": "2026-08-10T01:08:20Z"
+    },
+    {
+      "id": 12772,
+      "type": "completion",
+      "title": "shankpit-460: found and fixed a second, independent bug — systemd unit fighting a manually-launched process for the same port",
+      "source_repo": "CLI",
+      "date": "20260810",
+      "archived_at": "2026-08-10T01:09:26Z"
     }
   ]
 }

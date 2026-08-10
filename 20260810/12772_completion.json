@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-10T01:09:26Z",
+  "body": "While debugging the ticket-secret issue, discovered shankpit460-server.service (a real, already-enabled systemd unit) had been crash-looping (restart counter 3316) this entire session because a manually-launched shank_server process (mine, dating back to S170-270) was squatting on UDP :6969 and fighting it for the port. Killed the manual process, let systemd's own supervision take over cleanly -- both shankpit460-server.service and shankpit460-emily-bot.service confirmed stable afterward, no more restarts. Also added explicit rejection logging to verify_connect_ticket's failure path (apps/server/src/main.c) -- a rejected ticket used to be completely silent, identical in the log to a packet that never arrived, which was actively hiding information during this exact debugging session. Live proof from the new logging: caught a real external IP (174.210.229.148) hitting the server and getting rejected on an old ticket, confirming the network path works. Founder paused the thread before end-to-end success with the new client build could be confirmed.",
+  "id": 12772,
+  "metadata": null,
+  "run_id": "sess-20260809-1420-e9d3d7f8",
+  "source_repo": "CLI",
+  "title": "shankpit-460: found and fixed a second, independent bug — systemd unit fighting a manually-launched process for the same port"
+}
