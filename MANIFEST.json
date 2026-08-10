@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-10T01:56:10Z",
+  "generated_at": "2026-08-10T02:02:42Z",
   "repo": "APPLES",
-  "count": 2254,
+  "count": 2255,
   "apples": [
     {
       "id": 10525,
@@ -18034,6 +18034,14 @@
       "source_repo": "emily",
       "date": "20260810",
       "archived_at": "2026-08-10T01:56:10Z"
+    },
+    {
+      "id": 12789,
+      "type": "completion",
+      "title": "changelog(IDUNA): 新增 CarePyre 聯絡表單後端：POST /api/v1/carepyre/contact(公開、CORS+ra…",
+      "source_repo": "IDUNA",
+      "date": "20260810",
+      "archived_at": "2026-08-10T02:02:42Z"
     }
   ]
 }
