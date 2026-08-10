@@ -1,10 +1,54 @@
 {
   "agent_id": "00000003-0000-4000-8000-000000000001",
   "apple_type": "completion",
-  "archived_at": "2026-08-10T00:48:26Z",
+  "archived_at": "2026-08-10T00:48:41Z",
   "body": "CHANGELOG updated in shankpit-460: fix(net): CI-bundled Windows client never had a valid connect ticket — root cause of every 'stuck in Osaka garage, can't move' report since this shipped. mint_client_ticket() reads SHANKPIT_TICKET_SECRET from the environment; that var only ever existed in this server's own shell config, never in the distributed PLAY.bat. Every real downloaded client signed its ticket with an empty-string key, the server's verify_connect_ticket() silently dropped it (no slot, no WELCOME, nothing logged) -- looked identical to a network/firewall block from every angle that doesn't know to check this. Fixed both tests.yml and release.yml to set SHANKPIT_TICKET_SECRET in the generated PLAY.bat, same pattern REDGARDEN's own PLAY.bat already uses for its ticket secret. Live-verified: a client using only this env var (no other config) connects clean, real WELCOME, real snapshot reconciliation. (sess-20260809-1420-e9d3d7f8)",
   "id": 12763,
-  "metadata": null,
+  "metadata": {
+    "gpt2_fingerprint": {
+      "codze": {
+        "az": {
+          "bin": "11001101011000001000110011101110000001110001101001011100101100111010101101010001001110100100000111110100",
+          "dec": "16271654250036034103541302444532"
+        },
+        "word": "JOSHJONESVIATWITERADVERTISEMENTS",
+        "za": {
+          "bin": "101110111101010001010111011110011111000101000010011100001101010000000010011011111100111011101000001011",
+          "dec": "3720345741163165016450617555467"
+        }
+      },
+      "generated": "\n\n– Josh Jones, via Twitter\n\nAdvertisements",
+      "magic_tower": [
+        "23 04 04 23 26 01 ",
+        "12 15 23 04 04 23 ",
+        "14 13 11 16 26 01 ",
+        "06 21 02 25 20 07 ",
+        "16 11 06 21 02 25 ",
+        "16 11 11 16 05 22 ",
+        "20 07 21 06 06 21 ",
+        "11 16 05 22 16 11 ",
+        "02 25 26 01 11 16 ",
+        "24 03 11 16 14 13 ",
+        "16 11 26 01 27 00 "
+      ],
+      "seed": "202608102",
+      "squished": "JOSHJONESVIATWITERADVERTISEMENTS",
+      "tower": [
+        "JOS",
+        "HJO",
+        "NES",
+        "VIA",
+        "TVI",
+        "TER",
+        "ADV",
+        "ERT",
+        "ISE",
+        "MEN",
+        "TSX"
+      ]
+    },
+    "model_fingerprint": "emily-ft (checkpoint-emily-ft)"
+  },
   "run_id": "sess-20260809-1420-e9d3d7f8",
   "source_repo": "shankpit-460",
   "title": "changelog(shankpit-460): fix(net): CI-bundled Windows client never had a valid conne…"
