@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-10T05:13:03Z",
+  "generated_at": "2026-08-10T05:13:05Z",
   "repo": "APPLES",
-  "count": 2286,
+  "count": 2287,
   "apples": [
     {
       "id": 10525,
@@ -18290,6 +18290,14 @@
       "source_repo": "CLI",
       "date": "20260810",
       "archived_at": "2026-08-10T05:13:03Z"
+    },
+    {
+      "id": 12821,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time (fragment, part of REDGARDEN squad training scheme thread): role discovery",
+      "source_repo": "CLI",
+      "date": "20260810",
+      "archived_at": "2026-08-10T05:13:05Z"
     }
   ]
 }
