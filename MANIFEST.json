@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-10T08:33:06Z",
+  "generated_at": "2026-08-10T08:33:18Z",
   "repo": "APPLES",
-  "count": 2323,
+  "count": 2324,
   "apples": [
     {
       "id": 10525,
@@ -18586,6 +18586,14 @@
       "source_repo": "EMILY",
       "date": "20260810",
       "archived_at": "2026-08-10T08:33:06Z"
+    },
+    {
+      "id": 12858,
+      "type": "completion",
+      "title": "changelog(EMILY): CLAUDE.md 規範宣導：session tag commit 規則推廣到全 monorepo 21 個 sub-…",
+      "source_repo": "EMILY",
+      "date": "20260810",
+      "archived_at": "2026-08-10T08:33:18Z"
     }
   ]
 }
