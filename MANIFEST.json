@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-10T01:42:54Z",
+  "generated_at": "2026-08-10T01:43:12Z",
   "repo": "APPLES",
-  "count": 2248,
+  "count": 2249,
   "apples": [
     {
       "id": 10525,
@@ -17986,6 +17986,14 @@
       "source_repo": "CLI",
       "date": "20260810",
       "archived_at": "2026-08-10T01:42:54Z"
+    },
+    {
+      "id": 12783,
+      "type": "signal_observation",
+      "title": "[WARN] Founder real-time: pulling okemily.com down may be needed to get a certbot cert for carepyre…",
+      "source_repo": "CLI",
+      "date": "20260810",
+      "archived_at": "2026-08-10T01:43:12Z"
     }
   ]
 }
