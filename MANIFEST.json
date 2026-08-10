@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-10T00:38:19Z",
+  "generated_at": "2026-08-10T00:41:12Z",
   "repo": "APPLES",
-  "count": 2226,
+  "count": 2227,
   "apples": [
     {
       "id": 10525,
@@ -17810,6 +17810,14 @@
       "source_repo": "emily.cli",
       "date": "20260810",
       "archived_at": "2026-08-10T00:38:19Z"
+    },
+    {
+      "id": 12761,
+      "type": "signal_observation",
+      "title": "[WARN] Founder real-time: shankpit-460 — 'I have never been in a bot game.' Reported after this s…",
+      "source_repo": "CLI",
+      "date": "20260810",
+      "archived_at": "2026-08-10T00:41:12Z"
     }
   ]
 }
