@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-10T08:33:06Z",
+  "body": "Founder, real-time: 'update all the claude files' -- following the S174-01 session-tag commit-path audit/fix. Added a paragraph to the Commit Protocol section of all 21 sub-repo CLAUDE.md files sharing the common template (EDIS, GTA7, QUEENSALLYONLINEBOOKOFMAGIFICATIONANDUNICOR, WEAKNIGHT_BEDROCK_RACERS, CarePyre, GOLDENBAND, gpt2-alpine-c, EINHORN_SURVIVAL, EMILY, EmilyOS, PITVIPER, emily.cli, NORN, IDUNA, MJOLNIR, OKEMILY, shankpit-460, SHANKPIT, TYLER, PRRJECT_FATBABY, REDGARDEN) plus APPLES/CLAUDE.md (which lacked a Commit Protocol section entirely, added one) and root CLAUDE.md (backfilled a missing Frame-Break Reframing section while in there). Deliberately did NOT touch redgarden-stable or redgarden-deploy -- both are deploy checkouts of the same REDGARDEN origin that intentionally lag behind main until manually promoted; committing there directly would have broken that separation. All 21 sub-repo commits + APPLES pushed clean to origin/main (or master for GOLDENBAND/SHANKPIT). Root CLAUDE.md committed locally (no remote configured for the monorepo home repo).",
+  "id": 12857,
+  "metadata": null,
+  "run_id": "sess-20260810-0505-a53abca2",
+  "source_repo": "EMILY",
+  "title": "Session-tag commit rule propagated to all monorepo CLAUDE.md files"
+}

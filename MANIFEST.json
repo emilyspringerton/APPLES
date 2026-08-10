@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-10T08:23:27Z",
+  "generated_at": "2026-08-10T08:33:06Z",
   "repo": "APPLES",
-  "count": 2322,
+  "count": 2323,
   "apples": [
     {
       "id": 10525,
@@ -18578,6 +18578,14 @@
       "source_repo": "OKEMILY",
       "date": "20260810",
       "archived_at": "2026-08-10T08:23:27Z"
+    },
+    {
+      "id": 12857,
+      "type": "completion",
+      "title": "Session-tag commit rule propagated to all monorepo CLAUDE.md files",
+      "source_repo": "EMILY",
+      "date": "20260810",
+      "archived_at": "2026-08-10T08:33:06Z"
     }
   ]
 }
