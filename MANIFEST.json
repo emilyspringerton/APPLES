@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-10T01:03:27Z",
+  "generated_at": "2026-08-10T01:07:46Z",
   "repo": "APPLES",
-  "count": 2234,
+  "count": 2235,
   "apples": [
     {
       "id": 10525,
@@ -17874,6 +17874,14 @@
       "source_repo": "CLI",
       "date": "20260810",
       "archived_at": "2026-08-10T01:03:27Z"
+    },
+    {
+      "id": 12769,
+      "type": "completion",
+      "title": "changelog(WEAKNIGHT_BEDROCK_RACERS): fix(net): run.bat pointed at localhost for both worldapi an…",
+      "source_repo": "WEAKNIGHT_BEDROCK_RACERS",
+      "date": "20260810",
+      "archived_at": "2026-08-10T01:07:46Z"
     }
   ]
 }
