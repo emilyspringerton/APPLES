@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-10T01:09:51Z",
+  "body": "Founder tested the Windows client and hit 'FATAL: could not load real terrain from worldapi localhost:7070' -- same class of bug shankpit-460 just had (client pointed at localhost instead of the real box). Fixed ci.yml to point run.bat's WORLDAPI_HOST/SERVER_HOST at 198.58.107.85. Found and fixed a second problem underneath: racer_server had never been deployed anywhere, only ever built in CI as a compile check. Built it and deployed under a new systemd user unit (ops/systemd/weaknight-racers-server.service, Restart=on-failure) rather than ad-hoc nohup, matching shankpit460-server.service's proven shape -- learned that lesson in the same session. Confirmed real terrain load, 7 bots, 60Hz tick, stable. Live-verified end-to-end against the real public IP: heightmap fetch, UDP connect, WELCOME, real rendering. No ticket-auth system exists in this server (confirmed by reading source), so shankpit-460's specific silent-rejection bug class doesn't apply. CI green, fresh artifact confirmed: run 31346281633, weaknight-bedrock-racers-client (794059 bytes). WEAKNIGHT_BEDROCK_RACERS commit 09893ef.",
+  "id": 12773,
+  "metadata": null,
+  "run_id": "sess-20260809-1420-e9d3d7f8",
+  "source_repo": "CLI",
+  "title": "WEAKNIGHT_BEDROCK_RACERS: fixed localhost bug + deployed real server under systemd"
+}
