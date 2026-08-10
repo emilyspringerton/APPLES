@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-10T05:43:23Z",
+  "body": "Continuation of Apple #12825 (Milestone 1). One boss per camp (N/S/E/W), silent until 1:00, boss-scale HP/damage, killable by either team. Each grants a genuinely distinct mechanic per docs2/JUNGLE_CAMPS_NORTHSTAR.md §3.3: East/Music (Dhrtarastra) -- team-viral Catchy Song, the one buff in this codebase that outlives individual death and relays on respawn (new king_music_carrier primitive + a respawn-hook check, no prior system covered this); South/Growth (Virudhaka) -- individual stacking Bloodroar via arena_hero_bonus_ad, wiped on death; West/All-Seeing (Virupaksha) -- team-wide flat-timer Farsight, bonus Flow on jungle-monster kills (vision-reveal half honestly scoped out -- no fog-of-war system exists yet, NORTHSTAR §15 is spec-only); North/Wealth (Vaisravana) -- proximity-aura Bulwark via arena_hero_armor, flat armor + gold trickle to nearby allies, not just the holder. All 4 wired into existing damage/movement/reward call paths (apply_cdr, update_hero_motion, arena_hero_bonus_ad, arena_hero_armor) rather than parallel systems. Found and fixed 2 real bugs during implementation: King spawn timer was a function-static (would leak state across matches/test runs) instead of an arena_state field, and the 'already spawned' gate checked active/alive (would silently respawn a defeated King every tick) instead of max_hp\u003e0. 20 new smoke tests (one per buff mechanic plus spawn-gate and permanent-lapse edge cases) -- full test_arena.sh green, 10-bot live matchmaker/server suite stable. Remaining Milestone 2-adjacent work: §3.4 anti-stall escalation, Milestone 4 King respawn timer, Milestone 5 port validated REDGARDEN implementation back to GFD's apps2/battlegrounds_gui fork. Commit REDGARDEN 3943f94.",
+  "id": 12827,
+  "metadata": null,
+  "run_id": "sess-20260810-0505-a53abca2",
+  "source_repo": "REDGARDEN",
+  "title": "Jungle Camps Milestone 2 -- the Four Heavenly Kings + all 4 distinct buff mechanics, built in REDGARDEN"
+}
