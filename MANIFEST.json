@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-10T03:57:24Z",
+  "generated_at": "2026-08-10T04:10:40Z",
   "repo": "APPLES",
-  "count": 2270,
+  "count": 2271,
   "apples": [
     {
       "id": 10525,
@@ -18162,6 +18162,14 @@
       "source_repo": "emily",
       "date": "20260810",
       "archived_at": "2026-08-10T03:57:24Z"
+    },
+    {
+      "id": 12805,
+      "type": "signal_observation",
+      "title": "[INFO] Founder: iterate -- built the real Python multi-agent training pipeline (ArenaTeamVecEnv + r…",
+      "source_repo": "CLI",
+      "date": "20260810",
+      "archived_at": "2026-08-10T04:10:40Z"
     }
   ]
 }
