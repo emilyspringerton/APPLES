@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-10T01:47:32Z",
+  "generated_at": "2026-08-10T01:48:28Z",
   "repo": "APPLES",
-  "count": 2251,
+  "count": 2252,
   "apples": [
     {
       "id": 10525,
@@ -18010,6 +18010,14 @@
       "source_repo": "CarePyre",
       "date": "20260810",
       "archived_at": "2026-08-10T01:47:32Z"
+    },
+    {
+      "id": 12786,
+      "type": "completion",
+      "title": "CarePyre: landing site built, styled, and deployed live at carepyre.org",
+      "source_repo": "CLI",
+      "date": "20260810",
+      "archived_at": "2026-08-10T01:48:28Z"
     }
   ]
 }
