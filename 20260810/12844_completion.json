@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-10T07:15:28Z",
+  "body": "Distinct from the training-side work (noisy-gestalt is a training schedule; this is a live-match game mechanic, NORTHSTAR §25.3 explicitly separates the two despite the shared word, and it's also unrelated to this session's own §3.4 anti-stall camp-minion escalation -- a third same-word naming collision). Team cohesion tier (0-3) re-rolls every 8s, weighted toward more decay the further ahead a team is in the resource race, scaling a small ambient CDR/move-speed bonus (reusing East King Music's own buff shape). Source: CarePyre transcript's StochasticSynergyController, base_probs ported faithfully. Found and fixed 3 real bugs during implementation, all documented in code comments: (1) the source design's own probability-shift formula adds a constant to every tier's softmax logit, which is mathematically a no-op under softmax -- not reproduced, replaced with a per-tier-index scaled shift that actually works; (2) the field's memset default (tier 0 = strongest) is backwards from every other buff field's 'off by default' convention in this file, which would have silently granted the full bonus to every team match from the opening whistle and broke several pre-existing exact-cooldown tests -- fixed by explicitly initializing to the weakest tier in arena_init_teams(); (3) my own team-mode detection guard got broken by this test suite's own common 'deactivate every other hero for isolation' pattern -- confirmed the guard's real-gameplay invariant is sound and fixed the test instead. 5 new smoke tests, full test_arena.sh + test_10_bots.sh green. Commits REDGARDEN cc7f560, 0d53d52.",
+  "id": 12844,
+  "metadata": null,
+  "run_id": "sess-20260810-0505-a53abca2",
+  "source_repo": "REDGARDEN",
+  "title": "NORTHSTAR §25.3 synergy decay -- real live-match comeback mechanic implemented"
+}
