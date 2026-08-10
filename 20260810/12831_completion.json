@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-10T05:51:55Z",
+  "body": "Continuation of Apples #12825/#12827. A camp with a continuously-living minion for ARENA_CAMP_ESCALATION_THRESHOLD_MS (1:30) escalates: its minions stop being stationary and march toward the nearest ArenaNode, reusing the step-toward-target idiom lane creeps already use, still stopping to fight any hittable hero in range along the way. Re-arms (resets to fully passive) the instant the camp is fully cleared. Resolved §1's own open question about 'assaulting the towers' by deliberately NOT building a new tower-attack system -- lane creeps themselves don't attack towers either (despawn at the enemy spawn line, no structure to hit), so escalated camp minions matching that same limitation is consistency with existing precedent, not a cut corner; the real pressure is board presence at a contested node. 3 new smoke tests (threshold gate, march-toward-node, re-arm-on-clear) -- found and fixed a test-design bug of my own mid-build (a single giant tick both crossed the escalation threshold AND covered the full march distance in the same call, leaving nothing to observe moving in a follow-up tick). Full test_arena.sh + test_10_bots.sh green. Commit REDGARDEN d539588.",
+  "id": 12831,
+  "metadata": null,
+  "run_id": "sess-20260810-0505-a53abca2",
+  "source_repo": "REDGARDEN",
+  "title": "Jungle Camps §3.4 anti-stall escalation -- uncleared camps march toward the nearest node"
+}
