@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-10T01:26:29Z",
+  "generated_at": "2026-08-10T01:32:43Z",
   "repo": "APPLES",
-  "count": 2241,
+  "count": 2242,
   "apples": [
     {
       "id": 10525,
@@ -17930,6 +17930,14 @@
       "source_repo": "emily",
       "date": "20260810",
       "archived_at": "2026-08-10T01:26:29Z"
+    },
+    {
+      "id": 12776,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: new repo 'CarePyre' created on GitHub — clone it locally, add a stub RE…",
+      "source_repo": "CLI",
+      "date": "20260810",
+      "archived_at": "2026-08-10T01:32:43Z"
     }
   ]
 }
