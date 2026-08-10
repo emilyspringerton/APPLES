@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-10T06:56:17Z",
+  "body": "Founder real-time: fold tower-siege patience (Apple #12833) into the wholistic commander-squad R\u0026D thread rather than leave it a standalone heuristic. The full §26.3 spec (hierarchical RL, learned commander directives to sub-agents) needs a restructured training loop -- genuinely bigger scope, hierarchy depth/branching remains an open founder decision per §26.4. Built a real, smaller, rule-based first step instead: commander_posture_multiplier() (apps/arena_bot/src/main.c) reads the live resource race and scales the tower-patience bonus -- team meaningfully ahead plays PATIENT (1.5x, protect the lead), team meaningfully behind goes AGGRESSIVE (0.3x, can't afford to wait while falling further behind), real MOBA precedent not invented. A genuine team-wide signal now changes individual squad decisions, not just per-bot local info -- a real structural step toward the fractal hierarchy, honestly scoped smaller than the full learned version. Full test_arena.sh + test_10_bots.sh green. Commits REDGARDEN eb44a2e, d451f73.",
+  "id": 12842,
+  "metadata": null,
+  "run_id": "sess-20260810-0505-a53abca2",
+  "source_repo": "REDGARDEN",
+  "title": "NORTHSTAR §26.3 fractal commander/soldier hierarchy -- first real step, resource-aware team posture"
+}
