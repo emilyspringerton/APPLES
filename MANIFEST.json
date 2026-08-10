@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-10T01:01:05Z",
+  "generated_at": "2026-08-10T01:03:27Z",
   "repo": "APPLES",
-  "count": 2233,
+  "count": 2234,
   "apples": [
     {
       "id": 10525,
@@ -17866,6 +17866,14 @@
       "source_repo": "emily.cli",
       "date": "20260810",
       "archived_at": "2026-08-10T01:01:05Z"
+    },
+    {
+      "id": 12768,
+      "type": "signal_observation",
+      "title": "[WARN] Founder real-time: WEAKNIGHT_BEDROCK_RACERS Windows client fails with 'FATAL: could not load…",
+      "source_repo": "CLI",
+      "date": "20260810",
+      "archived_at": "2026-08-10T01:03:27Z"
     }
   ]
 }
