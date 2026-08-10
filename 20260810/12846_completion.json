@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-10T07:35:21Z",
+  "body": "The full ROMA/RODE-style learned-embedding technique needs a dedicated embedding module + training machinery, genuinely bigger scope. Implemented the real minimal mechanism it depends on: sim_get_obs_team (apps/arena_training/src/headless.c) now appends a team_size-long agent-identity one-hot to each agent's own observation. Without this, the shared PPO policy has no signal for 'which of my team_size copies am I' and cannot mathematically differentiate behavior by slot even if that would score higher -- the exact hive-mind collapse NORTHSTAR §25.2 names as the problem. This lands the prerequisite a dedicated embedding module would consume, honestly short of the full technique (not claimed as complete role discovery). rl_env_team.py's team_obs_size() updated to match. Verified via --smoke-test: obs_size correctly grew 86-\u003e89 at team_size=3, tail of the printed observation shows the correct one-hot, and a real SB3 VecEnv rollout completes cleanly. The background 500k-timestep noisy-gestalt training run (started earlier this session) is unaffected -- it has the old .so already loaded in memory, unaffected by rebuilding the file on disk. Commits REDGARDEN 6d6e853, 95a3e6f.",
+  "id": 12846,
+  "metadata": null,
+  "run_id": "sess-20260810-0505-a53abca2",
+  "source_repo": "REDGARDEN",
+  "title": "NORTHSTAR §25.2.2 role discovery -- agent-identity conditioning prerequisite implemented"
+}
