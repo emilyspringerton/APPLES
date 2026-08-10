@@ -82,6 +82,12 @@ this repo's usual domain, then sprint-plan it into `EMILY/BACKLOG.md` (`emily ba
 scoped into a real SECTION/sub-item, not just a one-line log), and only then implement. See
 `EMILY/docs/THE_EMILY_WAY.md` Principle 18 ("Pave the Cow Paths").
 
+## Commit Protocol (standing instruction)
+
+Always commit and push completed work immediately — don't wait to be asked. This is the default for every repo in this monorepo.
+
+Every commit to this repo — including `emily sync --apples-git-dir`'s own automated archive commits — must carry the active `emily session` fingerprint as a `session: <tag>` trailer (blank line, then the trailer). This was silently missing from several independently-implemented automated commit helpers across the monorepo (this repo's own apple-git-archive commit path in `emily.cli/cmd/sync.go` among them) until an audit on 2026-08-10 (founder, real-time: "where in the fuck is my llm session id anywhere"). If you add a new automated git-commit code path anywhere, wire in the session tag the same way — don't assume an existing helper already does it.
+
 ## Frame-Break Reframing
 
 Founder-sourced prompting technique (REDGARDEN/NORTHSTAR.md §28, full origin in
