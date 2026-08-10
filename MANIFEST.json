@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-10T08:42:27Z",
+  "generated_at": "2026-08-10T08:43:59Z",
   "repo": "APPLES",
-  "count": 2327,
+  "count": 2328,
   "apples": [
     {
       "id": 10525,
@@ -18618,6 +18618,14 @@
       "source_repo": "REDGARDEN",
       "date": "20260810",
       "archived_at": "2026-08-10T08:42:27Z"
+    },
+    {
+      "id": 12862,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: increase party store TNT sell chance by ~90000% (i.e. massively multiply …",
+      "source_repo": "CLI",
+      "date": "20260810",
+      "archived_at": "2026-08-10T08:43:59Z"
     }
   ]
 }
