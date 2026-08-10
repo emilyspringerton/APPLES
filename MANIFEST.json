@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-10T00:55:49Z",
+  "generated_at": "2026-08-10T01:00:58Z",
   "repo": "APPLES",
-  "count": 2231,
+  "count": 2232,
   "apples": [
     {
       "id": 10525,
@@ -17850,6 +17850,14 @@
       "source_repo": "emily",
       "date": "20260810",
       "archived_at": "2026-08-10T00:55:49Z"
+    },
+    {
+      "id": 12766,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: paused shankpit-460 troubleshooting mid-session ('stop trying'). State to…",
+      "source_repo": "CLI",
+      "date": "20260810",
+      "archived_at": "2026-08-10T01:00:58Z"
     }
   ]
 }
