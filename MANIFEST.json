@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-10T09:12:26Z",
+  "generated_at": "2026-08-10T09:15:25Z",
   "repo": "APPLES",
-  "count": 2338,
+  "count": 2339,
   "apples": [
     {
       "id": 10525,
@@ -18706,6 +18706,14 @@
       "source_repo": "CLI",
       "date": "20260810",
       "archived_at": "2026-08-10T09:12:26Z"
+    },
+    {
+      "id": 12873,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time (GTA7 Krankenvagen thread): (1) turn the Wandering Trader (the one that sp…",
+      "source_repo": "CLI",
+      "date": "20260810",
+      "archived_at": "2026-08-10T09:15:25Z"
     }
   ]
 }

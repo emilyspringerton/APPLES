@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-10T09:15:25Z",
+  "body": "Founder real-time: 'ok HTA7 this shit is hard' -\u003e AskUserQuestion identified Enforcement squads specifically as the pain point -\u003e 'can i please always respawn with wooden sword' -\u003e 'all players' -\u003e 'always'. EnforcementManager previously spawned plain vanilla Zombies (20 HP, 3 base attack damage stock stats) with zero explicit tuning -- a real unintentional difficulty spike, not a designed one. Added ENFORCEMENT_MAX_HEALTH=14/ENFORCEMENT_ATTACK_DAMAGE=2 via Attribute.MAX_HEALTH/Attribute.ATTACK_DAMAGE -- softened, not trivialized, still a real fight. New RespawnGearListener gives every player a wooden sword on every respawn if they don't already have one -- directly complements the Enforcement tuning since a death-to-Enforcement respawn (the exact scenario driving the complaint) no longer leaves the player barehanded. Built, deployed, systemctl --user restart clean, server.log confirms GTA7 enabled with no exceptions -- restarted while a real player (.GarbageMan4147) was already connected. GTA7 commit 526e085.",
+  "id": 12874,
+  "metadata": null,
+  "run_id": "sess-20260810-0505-a53abca2",
+  "source_repo": "GTA7",
+  "title": "GTA7 difficulty fix: Enforcement squad stats tuned down + guaranteed wooden sword on respawn"
+}
