@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-10T04:26:55Z",
+  "generated_at": "2026-08-10T04:41:44Z",
   "repo": "APPLES",
-  "count": 2274,
+  "count": 2275,
   "apples": [
     {
       "id": 10525,
@@ -18194,6 +18194,14 @@
       "source_repo": "emily",
       "date": "20260810",
       "archived_at": "2026-08-10T04:26:55Z"
+    },
+    {
+      "id": 12809,
+      "type": "signal_observation",
+      "title": "[INFO] Founder: implement fountain camping + powerup awareness heuristically in REDGARDEN bots (don…",
+      "source_repo": "CLI",
+      "date": "20260810",
+      "archived_at": "2026-08-10T04:41:44Z"
     }
   ]
 }
