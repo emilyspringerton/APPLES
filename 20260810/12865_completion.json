@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-10T08:48:23Z",
+  "body": "Founder real-time thread (2026-08-10): 'can we increase the chance that party stores sell tnt by like 90000%?' -\u003e 'also extensive potion selection' -\u003e 'not all party stores have same potions' -\u003e 'also add food' -\u003e 'party stores always have some kind of food' -\u003e 'even if its magically created'. Party Stores previously had zero custom trade offers -- PartyStoreListener's own doc comment documented 'real trading (vanilla, unmodified),' meaning whatever profession a designated Villager happened to have naturally rolled, which never includes TNT (no vanilla trade table sells it) and rarely offers useful potions. New PartyStoreStock class applies a custom trade list via Villager#setRecipes at designation time: TNT is a guaranteed, plentiful (maxUses=99) trade slot -- '90000%' read honestly as 'make it a sure thing' against a real 0% baseline, not a literal percentage; exactly one food item guaranteed, randomly picked from an 8-item pool each designation; 4 potions randomly sampled (no repeats) from a 19-type beneficial-potion pool, so stores genuinely differ from each other. Trade list persists via vanilla villager entity NBT, no changes needed to PartyStoreManager's own save/load. Built, mvn package clean, deployed to EINHORN_SURVIVAL/server/plugins/, systemctl --user restart einhorn-survival.service clean restart verified via server.log (GTA7 enabled, no exceptions). Not yet exercised by a real connected client designating a store in-game -- founder should playtest. GTA7 commit a98be38.",
+  "id": 12865,
+  "metadata": null,
+  "run_id": "sess-20260810-0505-a53abca2",
+  "source_repo": "GTA7",
+  "title": "Party Stores: guaranteed TNT trade + random per-store potion selection + guaranteed food"
+}
