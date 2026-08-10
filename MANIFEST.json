@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-10T09:15:25Z",
+  "generated_at": "2026-08-10T09:15:27Z",
   "repo": "APPLES",
-  "count": 2339,
+  "count": 2340,
   "apples": [
     {
       "id": 10525,
@@ -18714,6 +18714,14 @@
       "source_repo": "CLI",
       "date": "20260810",
       "archived_at": "2026-08-10T09:15:25Z"
+    },
+    {
+      "id": 12874,
+      "type": "completion",
+      "title": "GTA7 difficulty fix: Enforcement squad stats tuned down + guaranteed wooden sword on respawn",
+      "source_repo": "GTA7",
+      "date": "20260810",
+      "archived_at": "2026-08-10T09:15:27Z"
     }
   ]
 }
