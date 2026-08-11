@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-11T12:58:23Z",
+  "generated_at": "2026-08-11T13:01:07Z",
   "repo": "APPLES",
-  "count": 2484,
+  "count": 2485,
   "apples": [
     {
       "id": 10525,
@@ -19874,6 +19874,14 @@
       "source_repo": "PRRJECT_FATBABY",
       "date": "20260811",
       "archived_at": "2026-08-11T12:58:23Z"
+    },
+    {
+      "id": 13019,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: 'it looks like fatbaby pipeline is failing but im not sure' -- reported c…",
+      "source_repo": "CLI",
+      "date": "20260811",
+      "archived_at": "2026-08-11T13:01:07Z"
     }
   ]
 }
