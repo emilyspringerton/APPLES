@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-11T12:35:05Z",
+  "generated_at": "2026-08-11T12:36:26Z",
   "repo": "APPLES",
-  "count": 2474,
+  "count": 2475,
   "apples": [
     {
       "id": 10525,
@@ -19794,6 +19794,14 @@
       "source_repo": "EXODUS",
       "date": "20260811",
       "archived_at": "2026-08-11T12:35:05Z"
+    },
+    {
+      "id": 13009,
+      "type": "completion",
+      "title": "Market cap added to newssite ticker pages, sourced from SEC EDGAR shares outstanding",
+      "source_repo": "PRRJECT_FATBABY",
+      "date": "20260811",
+      "archived_at": "2026-08-11T12:36:26Z"
     }
   ]
 }

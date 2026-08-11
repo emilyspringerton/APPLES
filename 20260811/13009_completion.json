@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-11T12:36:26Z",
+  "body": "SECTION 5's 'ADD MARKET CAP TO TICKER PAGES' item, picked up as the lowest-numbered actionable open backlog item (SECTION 2's items were human-blocked on a Pexels API key). Prior investigation (2026-08-06) confirmed Yahoo's v8/finance/chart carries no market cap field at all, and the endpoints that do (v7/finance/quote, v10/finance/quoteSummary, the screener) all 401 without a session crumb -- not worth the fragility for one field. Real fix: market-data-watcher now also pulls shares-outstanding from SEC EDGAR's free, unauthenticated XBRL company-facts API (same host family cmd/secwatch already talks to), cached per-ticker with a 168h refresh interval since it's a cover-page number that barely moves, piggybacked onto the existing paced per-ticker fetch loop rather than a new unpaced path. market_cap = latest close * cached shares outstanding. catalog.TickerRow gained a MarketCap field, cmd/newssite/main.go hoists the shared marketdata.Store so both the chart handler and catalog builder use it, ticker page fact box renders a T/B/M/K-formatted market cap row (hidden entirely when unknown, never shows '/bin/bash'). go build/vet clean, go test green across internal/newssite/... and cmd/market-data-watcher/.... PRRJECT_FATBABY commit 8e3d245.",
+  "id": 13009,
+  "metadata": null,
+  "run_id": "sess-20260810-0505-a53abca2",
+  "source_repo": "PRRJECT_FATBABY",
+  "title": "Market cap added to newssite ticker pages, sourced from SEC EDGAR shares outstanding"
+}
