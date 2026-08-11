@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-11T12:58:00Z",
+  "body": "Founder real-time: 'we dont have money for anthropic api key right now work around it.' Investigating what that touched surfaced a real, currently-active, credit-unrelated bug: the batch cursor had accumulated 149 new observations (78 nontrivial) and every poll cycle was failing with 'fork/exec .../claude: argument list too long' -- an OS-level ARG_MAX exec failure, not a claude API error, so invokeWithRetry's own output-sniffing (isCreditExhaustedOutput/isRateLimitOutput) never matched (the process never even started, no output to inspect) and the batch failed immediately with no retry. Since the cursor only ever advances on success, the exact same oversized batch would retry and fail identically forever -- a real permanent stall, not a transient issue. Fixed: pollBatched now caps at maxBatchObs=20 nontrivial observations per invocation, advancing the cursor only to the last INCLUDED observation (not the true newest file) so the remainder gets correctly picked up on the next poll instead of silently skipped. New regression test TestPollBatchedCapsLargeBatchAndAdvancesCursorPartially. Restarted the live observation-watcher process to verify: the fix worked immediately -- the batch capped correctly and the invocation actually started this time (no more exec-level crash), surfacing the REAL underlying constraint (credit balance too low), which the existing circuit-breaker already handles gracefully (auto-pause 10 min, resumes automatically, no wasted retries). Directly answers the founder's 'work around it': the pipeline-stall bug is fixed; the credit constraint itself was already handled as gracefully as possible and needs no further workaround, just a top-up whenever there's money for it. go build/vet clean, go test green. PRRJECT_FATBABY commit 01308c0.",
+  "id": 13017,
+  "metadata": null,
+  "run_id": "sess-20260810-0505-a53abca2",
+  "source_repo": "PRRJECT_FATBABY",
+  "title": "Fixed observation-watcher's ARG_MAX batch-cursor stall (found while responding to a founder credit-balance note)"
+}
