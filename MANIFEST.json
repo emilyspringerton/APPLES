@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-11T12:36:26Z",
+  "generated_at": "2026-08-11T12:36:55Z",
   "repo": "APPLES",
-  "count": 2475,
+  "count": 2476,
   "apples": [
     {
       "id": 10525,
@@ -19802,6 +19802,14 @@
       "source_repo": "PRRJECT_FATBABY",
       "date": "20260811",
       "archived_at": "2026-08-11T12:36:26Z"
+    },
+    {
+      "id": 13010,
+      "type": "completion",
+      "title": "changelog(PRRJECT_FATBABY): Ticker 頁面加上市值（SEC EDGAR shares outstanding 來源） (sess-202608…",
+      "source_repo": "PRRJECT_FATBABY",
+      "date": "20260811",
+      "archived_at": "2026-08-11T12:36:55Z"
     }
   ]
 }
