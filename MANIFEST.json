@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-11T12:58:00Z",
+  "generated_at": "2026-08-11T12:58:23Z",
   "repo": "APPLES",
-  "count": 2483,
+  "count": 2484,
   "apples": [
     {
       "id": 10525,
@@ -19866,6 +19866,14 @@
       "source_repo": "PRRJECT_FATBABY",
       "date": "20260811",
       "archived_at": "2026-08-11T12:58:00Z"
+    },
+    {
+      "id": 13018,
+      "type": "completion",
+      "title": "changelog(PRRJECT_FATBABY): 修掉 observation-watcher 的 ARG_MAX batch cursor 卡死 bug；確認 cre…",
+      "source_repo": "PRRJECT_FATBABY",
+      "date": "20260811",
+      "archived_at": "2026-08-11T12:58:23Z"
     }
   ]
 }
