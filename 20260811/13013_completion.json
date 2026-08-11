@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-11T12:43:48Z",
+  "body": "Found while investigating other BACKLOG.md items ('TTT repo created on GitHub' was sitting in the raw intake queue, unclassified). Probed for the real repo name (TTT existed, empty), cloned, and scaffolded with a stub README.md/CLAUDE.md matching the CarePyre precedent -- explicitly does NOT assume this repo is a code home for the feature; points to SHANKPIT's own real VS0 implementation instead, since that's where the actual working typing_lesson.h/.c logic layer landed this session. Registered in root CLAUDE.md. Commit 88c1738.",
+  "id": 13013,
+  "metadata": null,
+  "run_id": "sess-20260810-0505-a53abca2",
+  "source_repo": "TTT",
+  "title": "TTT repo scaffolded as a stub, pointing to SHANKPIT's real implementation"
+}
