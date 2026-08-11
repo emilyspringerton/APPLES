@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-11T11:47:33Z",
+  "generated_at": "2026-08-11T11:49:53Z",
   "repo": "APPLES",
-  "count": 2450,
+  "count": 2451,
   "apples": [
     {
       "id": 10525,
@@ -19602,6 +19602,14 @@
       "source_repo": "CLI",
       "date": "20260811",
       "archived_at": "2026-08-11T11:47:33Z"
+    },
+    {
+      "id": 12985,
+      "type": "completion",
+      "title": "First real end-to-end noisy-gestalt training run completed -- 500K timesteps, 100% eval win rate vs. fixed heuristic",
+      "source_repo": "REDGARDEN",
+      "date": "20260811",
+      "archived_at": "2026-08-11T11:49:53Z"
     }
   ]
 }

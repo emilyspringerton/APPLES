@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-11T11:49:53Z",
+  "body": "The background 500k-timestep team-training run launched right after the critical sim_step_team bug fix (--team-size 3 --noisy-gestalt --gestalt-phase-ticks 50000) completed cleanly: ran ~5.5 hours (07:54-13:39), zero errors/tracebacks across the full log, 20 real checkpoints saved plus a final model. Noisy-gestalt's Johnny/Spike phase alternation fired exactly as designed and is visible live in the log (tick 1 Johnny, tick 50000 Spike, tick 100000 Johnny, tick 150000 Spike, ...). Final eval: 20W/0L/0D over 20 episodes, 100% team win rate against the fixed heuristic bot team. Flagged honestly, not just touted: this eval is against the SAME fixed heuristic the policy trained against the whole run -- a policy perfectly beating one fixed, non-adaptive opponent is an expected RL outcome (it can mean genuine skill, or it can mean the policy learned to exploit that one heuristic's specific weaknesses without acquiring general robustness) and doesn't by itself confirm the policy would hold up against a varied opponent pool. This is actually a clean, concrete illustration of exactly why NORTHSTAR §25.4's autocurriculum work matters -- a fixed-opponent eval can't distinguish 'genuinely strong' from 'overfit to one heuristic,' which a PFSP opponent-pool eval (heuristic + past checkpoints) could. This run did NOT have --autocurriculum enabled (only --noisy-gestalt) -- a real end-to-end run WITH autocurriculum enabled to test that hypothesis is still the open item. Checkpoints + final model in rl_team_checkpoints/ (gitignored, local only).",
+  "id": 12985,
+  "metadata": null,
+  "run_id": "sess-20260810-0505-a53abca2",
+  "source_repo": "REDGARDEN",
+  "title": "First real end-to-end noisy-gestalt training run completed -- 500K timesteps, 100% eval win rate vs. fixed heuristic"
+}
