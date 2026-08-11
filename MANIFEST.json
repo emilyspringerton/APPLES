@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-11T12:16:52Z",
+  "generated_at": "2026-08-11T12:18:22Z",
   "repo": "APPLES",
-  "count": 2462,
+  "count": 2463,
   "apples": [
     {
       "id": 10525,
@@ -19698,6 +19698,14 @@
       "source_repo": "CLI",
       "date": "20260811",
       "archived_at": "2026-08-11T12:16:52Z"
+    },
+    {
+      "id": 12997,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time (same items thread): use GPT-2 (gpt2-alpine-c) to generate NEW original it…",
+      "source_repo": "CLI",
+      "date": "20260811",
+      "archived_at": "2026-08-11T12:18:22Z"
     }
   ]
 }
