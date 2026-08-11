@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-11T12:32:47Z",
+  "generated_at": "2026-08-11T12:34:47Z",
   "repo": "APPLES",
-  "count": 2472,
+  "count": 2473,
   "apples": [
     {
       "id": 10525,
@@ -19778,6 +19778,14 @@
       "source_repo": "CLI",
       "date": "20260811",
       "archived_at": "2026-08-11T12:32:47Z"
+    },
+    {
+      "id": 13007,
+      "type": "completion",
+      "title": "EXODUS repo scaffolded: CLAUDE.md + README.md for autocurriculum open-release prep",
+      "source_repo": "EXODUS",
+      "date": "20260811",
+      "archived_at": "2026-08-11T12:34:47Z"
     }
   ]
 }

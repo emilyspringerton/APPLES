@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-11T12:34:47Z",
+  "body": "Founder real-time: 'github upstream created for autocurriculum' -\u003e 'EXODUS' -\u003e 'keep any autocurriculum specific bits there we can prepare for open release.' Probed candidate GitHub repo names (autocurriculum: not found; EXODUS: found, empty) and cloned the real one. Wrote README.md documenting the repo's purpose (a home for REDGARDEN NORTHSTAR §25.4's PFSP opponent-pool autocurriculum research, extracted for eventual public release) with an honest provenance section -- nothing has actually moved here yet, the real working implementation still lives in REDGARDEN (scripts/rl_env_team.py's _sample_opponent/add_opponent_checkpoint, the genuinely game-agnostic half; the C-level sim_step_team_vs_actions/sim_get_obs_team_any plumbing, which is NOT game-agnostic and wouldn't move as-is) -- plus a real, unresolved design-questions section (framework interface, REDGARDEN coupling model, licensing) rather than pretending those are decided. CLAUDE.md follows the monorepo's standard per-repo template. Registered in root CLAUDE.md's Non-Workspace Repos table. EXODUS commit f890dfc, root commit c9c25d8.",
+  "id": 13007,
+  "metadata": null,
+  "run_id": "sess-20260810-0505-a53abca2",
+  "source_repo": "EXODUS",
+  "title": "EXODUS repo scaffolded: CLAUDE.md + README.md for autocurriculum open-release prep"
+}
