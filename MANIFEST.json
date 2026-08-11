@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-11T12:30:01Z",
+  "generated_at": "2026-08-11T12:32:47Z",
   "repo": "APPLES",
-  "count": 2471,
+  "count": 2472,
   "apples": [
     {
       "id": 10525,
@@ -19770,6 +19770,14 @@
       "source_repo": "REDGARDEN",
       "date": "20260811",
       "archived_at": "2026-08-11T12:30:01Z"
+    },
+    {
+      "id": 13006,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: a new GitHub upstream repo has been created for 'autocurriculum' (possibl…",
+      "source_repo": "CLI",
+      "date": "20260811",
+      "archived_at": "2026-08-11T12:32:47Z"
     }
   ]
 }
