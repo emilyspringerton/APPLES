@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "audit",
+  "archived_at": "2026-08-11T13:02:59Z",
+  "body": "Founder real-time concern: 'it looks like fatbaby pipeline is failing but im not sure.' Full sweep: emily status --fatbaby (all 7 core processes ✓, IDUNA ✓), fresh log activity across secwatch/prwatch/prwatch-body/processor/eps-processor/eps-reconciler/entity-graph/signalapi/newssite/market-data-watcher/form4-watcher (all within the last few hours, real data flowing -- secwatch round 150, prwatch round 3543, entity-graph batch 256 directors/154 signals), error grep across every pipeline log since 11:00 today. Findings, all benign: (1) a newssite panic in the log -- traced to 2026-06-07, over 2 months old, process auto-restarted clean and has run fine since, a false-positive from an untimestamped panic line matching a broad grep, not current; (2) entity-graph's own 'needs_attention' status -- a standing, weeks-old routine self-QA finding about signal-precision recalibration gaps, not a crash, real batches still processing normally; (3) nt-watcher/schd13-watcher hitting intermittent EDGAR EFTS 500s and pr-reaction-watcher hitting Yahoo 404s for specific tickers (SMAR, KCAC.U -- plausibly delisted/renamed) -- external API flakiness already handled gracefully (skip-and-continue, no accumulating failure). Disk 24% used, plenty free. Live HTTP checks: newssite homepage 200, public okemily.com 200, news.okemily.com 200. Conclusion: pipeline is healthy right now, no active failure found. Separately, and unrelated to this specific concern: found and fixed a real observation-watcher ARG_MAX batch-cursor stall earlier this session (Apple #13017) -- that WAS a real bug, now fixed, but it affects the Emily-observation-to-Claude-dispatch loop specifically, not the FatBaby signal pipeline itself.",
+  "id": 13020,
+  "metadata": null,
+  "run_id": "sess-20260810-0505-a53abca2",
+  "source_repo": "PRRJECT_FATBABY",
+  "title": "FatBaby pipeline health check: no active failure found"
+}
