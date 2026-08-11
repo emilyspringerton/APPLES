@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-11T12:42:23Z",
+  "body": "Found substantial uncommitted work sitting in the SHANKPIT working tree (typing_lesson.c/h, complete logic layer -- TypingLessonState, start/on_text/advance, real WPM/accuracy calc, miss-flash, 13-line VS0 slide table verbatim from TYLER episode scripts) with only a header #include actually wired into apps/lobby/src/main.c and the file not even in the Makefile's LOBBY_SRC (wouldn't have compiled into the real binary). NORTHSTAR_TYLER_TEACHES_TYPING.md's own 'VS0's Menu Placement' section explicitly flags a real, unresolved founder decision (replace CAVE-001's menu slot vs. add adjacent) that must be confirmed before implementation proceeds -- asked directly, founder confirmed 'replace CAVE-001,' matching the original literal phrasing. Wired typing_lesson.c into the Makefile, make lobby build clean. Deliberately did NOT attempt the actual menu/render wiring in the same pass -- apps/lobby/src/main.c is a ~8700-line, live-tested client with app_state/event-dispatch control flow this session hasn't read carefully, and no display is available here to verify an interactive change. Logic layer lands as verified-via-compile dead code; menu/rendering wiring is the real, clearly scoped next step, documented in the northstar doc's own updated Status section. GOWORK=off go test ./... green (Go backend unaffected by the C-side change; also surfaces a real pre-existing environment quirk -- this repo's own go test needs GOWORK=off to avoid being shadowed by the monorepo root's go.work). SHANKPIT commit b3c3bb3.",
+  "id": 13012,
+  "metadata": null,
+  "run_id": "sess-20260810-0505-a53abca2",
+  "source_repo": "SHANKPIT",
+  "title": "Tyler Teaches Typing VS0: logic layer complete, menu-placement confirmed, UI wiring scoped as next step"
+}
