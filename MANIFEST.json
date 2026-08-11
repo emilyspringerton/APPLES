@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-11T18:46:35Z",
+  "generated_at": "2026-08-11T18:47:00Z",
   "repo": "APPLES",
-  "count": 2510,
+  "count": 2511,
   "apples": [
     {
       "id": 10525,
@@ -20082,6 +20082,14 @@
       "source_repo": "REDGARDEN",
       "date": "20260811",
       "archived_at": "2026-08-11T18:46:35Z"
+    },
+    {
+      "id": 13045,
+      "type": "completion",
+      "title": "changelog(REDGARDEN): §25.4 autocurriculum 端對端訓練跑完：75% vs 固定 heuristic（比 noisy-ge…",
+      "source_repo": "REDGARDEN",
+      "date": "20260811",
+      "archived_at": "2026-08-11T18:47:00Z"
     }
   ]
 }
