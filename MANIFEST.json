@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-11T12:25:42Z",
+  "generated_at": "2026-08-11T12:26:40Z",
   "repo": "APPLES",
-  "count": 2466,
+  "count": 2467,
   "apples": [
     {
       "id": 10525,
@@ -19730,6 +19730,14 @@
       "source_repo": "REDGARDEN",
       "date": "20260811",
       "archived_at": "2026-08-11T12:25:42Z"
+    },
+    {
+      "id": 13001,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time (GPT-2 item-name-generation thread, methodology detail): prompt the GPT-2 …",
+      "source_repo": "CLI",
+      "date": "20260811",
+      "archived_at": "2026-08-11T12:26:40Z"
     }
   ]
 }
