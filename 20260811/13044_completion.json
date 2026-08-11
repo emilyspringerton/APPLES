@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-11T18:46:35Z",
+  "body": "First real end-to-end --autocurriculum run finished (launched 12:29, completed ~18:45, ~6h15m total, 500K+ timesteps team_size=3). Real confirmations throughout: opponent pool grew and correctly evicted at the MAX_CHECKPOINT_OPPONENTS=5 cap (verified live in the log multiple times, e.g. pool cycling from early checkpoints to ['heuristic', step_417792, step_442368, step_466944, step_491520, step_503808] by the end), PFSP sampling ran the whole way through with zero errors. Final eval (against the FIXED heuristic only, same known limitation as the noisy-gestalt run): 15W/5L/0D, 75.0% win rate -- meaningfully lower than the noisy-gestalt-only run's 100% (20W/0L). Honest interpretation, not just the number: this is the expected signature of autocurriculum actually doing its job, not necessarily a worse policy -- the noisy-gestalt run specialized its entire training budget against one fixed opponent and became very good at beating exactly that opponent; this run split training time fighting a growing pool of its own past checkpoints too, so it's less over-fit to the heuristic specifically. Whether 75% reflects a genuinely more general/robust policy or a genuinely weaker one can't be distinguished by this eval alone, since it only ever tests against the fixed heuristic -- the real next step (still not built) is a pool-based eval comparing both final policies against a shared, varied opponent set, which is the only way to actually answer 'did autocurriculum help.' Checkpoints in rl_team_checkpoints_autocurriculum/ (gitignored, local only), final model ppo_arena_team_final.zip.",
+  "id": 13044,
+  "metadata": null,
+  "run_id": "sess-20260810-0505-a53abca2",
+  "source_repo": "REDGARDEN",
+  "title": "Autocurriculum end-to-end training run complete: 75% win rate vs. fixed heuristic (75.0%, 15W/5L/0D)"
+}
