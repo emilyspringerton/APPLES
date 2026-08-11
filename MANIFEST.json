@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-11T12:07:00Z",
+  "generated_at": "2026-08-11T12:07:43Z",
   "repo": "APPLES",
-  "count": 2456,
+  "count": 2457,
   "apples": [
     {
       "id": 10525,
@@ -19650,6 +19650,14 @@
       "source_repo": "CLI",
       "date": "20260811",
       "archived_at": "2026-08-11T12:07:00Z"
+    },
+    {
+      "id": 12991,
+      "type": "completion",
+      "title": "Team-trained checkpoint wired into live frontier bots via a new 3v3 queue",
+      "source_repo": "REDGARDEN",
+      "date": "20260811",
+      "archived_at": "2026-08-11T12:07:43Z"
     }
   ]
 }

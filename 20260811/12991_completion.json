@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-11T12:07:43Z",
+  "body": "Founder real-time: 'ensure the updated model makes it into our frontier bots on the server' -\u003e 'let me know when the upgraded bots are ready for me to playtest on the live matchmaking.' apps/arena_bot/src/main.c gained team_rl_engage_nudge() -- the live analog of the existing 1v1 rl_engage_nudge, driven by the real noisy-gestalt team checkpoint (500K timesteps, 100% eval win rate vs. fixed heuristic, Apple #12985), reconstructing sim_get_obs_team_any's exact observation layout from live wire data. Hard, honestly-flagged constraint: this checkpoint is team_size=3, a fixed shape that cannot drive the live 10v10 pool -- hard-gated no-op there. New, real, separate 3v3 queue stood up instead (ports :7780, redgarden-matchmaker-bots-3v3.service + redgarden-bot-pool-3v3.service, 5 bots + 1 open human slot), verified via a real 6-bot test match (draft through live play, zero crashes) before switching to the 5-bot founder-facing deploy. Two real bugs found and fixed along the way: export_rl_policy_to_c.py's symbol_prefix mechanism never actually prefixed the per-layer weight-array symbols (only caught once both exported headers got #included together for the first time -- 'conflicting types for layer0_w'); run_bot_pool.sh's orphan-guard pkill (already fixed once for cross-checkout collision) had the same bug class recur one level finer, two pools in one checkout on different ports could still cross-kill on restart -- fixed by scoping to --matchmaker-port too. Both existing pools (10v10 R\u0026D :7778, verified 19 bots still healthy; stable :8778, untouched) confirmed unaffected. Full test_arena.sh + build green throughout. NORTHSTAR.md §25.5 updated with the full honest writeup. REDGARDEN commit ca09652. Live 3v3 queue at :7780 ready for the founder to connect and playtest directly.",
+  "id": 12991,
+  "metadata": null,
+  "run_id": "sess-20260810-0505-a53abca2",
+  "source_repo": "REDGARDEN",
+  "title": "Team-trained checkpoint wired into live frontier bots via a new 3v3 queue"
+}
