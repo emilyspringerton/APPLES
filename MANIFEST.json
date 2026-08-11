@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-11T12:28:17Z",
+  "generated_at": "2026-08-11T12:30:01Z",
   "repo": "APPLES",
-  "count": 2470,
+  "count": 2471,
   "apples": [
     {
       "id": 10525,
@@ -19762,6 +19762,14 @@
       "source_repo": "EMILY",
       "date": "20260811",
       "archived_at": "2026-08-11T12:28:17Z"
+    },
+    {
+      "id": 13005,
+      "type": "completion",
+      "title": "changelog(REDGARDEN): §25.4 autocurriculum 真的端對端訓練跑起來了（500K timesteps，team_size=3…",
+      "source_repo": "REDGARDEN",
+      "date": "20260811",
+      "archived_at": "2026-08-11T12:30:01Z"
     }
   ]
 }
