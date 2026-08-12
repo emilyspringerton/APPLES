@@ -1,13 +1,64 @@
 {
   "agent_id": "00000003-0000-4000-8000-000000000001",
   "apple_type": "audit",
-  "archived_at": "2026-08-12T02:09:50Z",
+  "archived_at": "2026-08-12T04:33:15Z",
   "body": "\n## Cycle summary\n- Cycle: 10705\n- Duration: 0s\n- Outcome: idle — no queued tasks\n- Total completed tasks: 2\n- Triage findings this cycle: 0",
   "id": 13075,
   "metadata": {
     "consecutive_failures": 0,
     "cycle_number": 10705,
     "duration_s": 0,
+    "gpt2_fingerprint": {
+      "codze": {
+        "az": {
+          "bin": "111001001000111000010011001011011100100001111111011010111101001101100110001100011101100101101001001010111100101101111001000100001111011001110110010000001001000100101110",
+          "dec": "334033477703340334777033403347770334033477703340334"
+        },
+        "word": "IDLEIDLEXXXIDLEIDLEXXXIDLEIDLEXXXIDLEIDLEXXXIDLEIDLE",
+        "za": {
+          "bin": "100011100110101101001101001010010110010111000101100001111111001111000110010111111001100011011100110010110111001111011100001100110001011110001110110000010001001101110010001",
+          "dec": "1665166522216651665222166516652221665166522216651665"
+        }
+      },
+      "generated": " — idle (0)\n\n— idle (0) 0x0x0x0 [1] — idle (0)\n\n— idle (0) 0x0x0x0 [2] — idle (0)\n\n— idle (0) 0x0x0x0 [3] — idle (0)\n\n— idle (0) 0x0x0x0 [4] — idle (0)\n\n— idle (0)",
+      "magic_tower": [
+        "02 25 21 06 03 24 ",
+        "11 16 02 25 21 06 ",
+        "03 24 11 16 27 00 ",
+        "02 25 21 06 03 24 ",
+        "11 16 02 25 21 06 ",
+        "03 24 11 16 27 00 ",
+        "02 25 21 06 03 24 ",
+        "11 16 02 25 21 06 ",
+        "03 24 11 16 27 00 ",
+        "02 25 21 06 03 24 ",
+        "11 16 02 25 21 06 ",
+        "03 24 11 16 27 00 ",
+        "02 25 21 06 03 24 ",
+        "11 16 02 25 21 06 ",
+        "03 24 11 16 27 00 "
+      ],
+      "seed": "2026081217",
+      "squished": "IDLEIDLEXXXIDLEIDLEXXXIDLEIDLEXXXIDLEIDLEXXXIDLEIDLE",
+      "tower": [
+        "IDL",
+        "EID",
+        "LEX",
+        "IDL",
+        "EID",
+        "LEX",
+        "IDL",
+        "EID",
+        "LEX",
+        "IDL",
+        "EID",
+        "LEX",
+        "IDL",
+        "EID",
+        "LEX"
+      ]
+    },
+    "model_fingerprint": "emily-ft (checkpoint-emily-ft)",
     "task_id": "",
     "tokens_used": 0,
     "triage_findings": 0
