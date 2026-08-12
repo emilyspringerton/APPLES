@@ -1,0 +1,51 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "audit",
+  "archived_at": "2026-08-12T04:03:12Z",
+  "body": "\n## Cycle summary\n- Cycle: 10694\n- Duration: 0s\n- Outcome: idle — no queued tasks\n- Total completed tasks: 2\n- Triage findings this cycle: 0",
+  "id": 13064,
+  "metadata": {
+    "consecutive_failures": 0,
+    "cycle_number": 10694,
+    "duration_s": 0,
+    "gpt2_fingerprint": {
+      "codze": {
+        "az": {
+          "bin": "11010010000100011100011100100001000000010011010111001100000",
+          "dec": "473034336473034336"
+        },
+        "word": "UPDATEDTOUPDATEDTO",
+        "za": {
+          "bin": "11101001101010100001110001000011011011111000001110010011111",
+          "dec": "526165663526165663"
+        }
+      },
+      "generated": "\n\n11/5/2014 — updated to 12/2015\n\n13/11/2014 — updated to 14/2015",
+      "magic_tower": [
+        "06 21 25 02 21 06 ",
+        "20 07 16 11 11 16 ",
+        "21 06 16 11 04 23 ",
+        "06 21 25 02 21 06 ",
+        "20 07 16 11 11 16 ",
+        "21 06 16 11 04 23 "
+      ],
+      "seed": "2026081215",
+      "squished": "UPDATEDTOUPDATEDTO",
+      "tower": [
+        "VPD",
+        "ATE",
+        "DTO",
+        "VPD",
+        "ATE",
+        "DTO"
+      ]
+    },
+    "model_fingerprint": "emily-ft (checkpoint-emily-ft)",
+    "task_id": "",
+    "tokens_used": 0,
+    "triage_findings": 0
+  },
+  "run_id": "emily-cycle-10694-20260811T232803Z",
+  "source_repo": "emily",
+  "title": "Cycle 10694 — idle (no queued tasks)"
+}
