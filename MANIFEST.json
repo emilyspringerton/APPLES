@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-13T22:20:32Z",
+  "generated_at": "2026-08-13T22:22:27Z",
   "repo": "APPLES",
-  "count": 2741,
+  "count": 2742,
   "apples": [
     {
       "id": 10525,
@@ -21930,6 +21930,14 @@
       "source_repo": "REDGARDEN",
       "date": "20260813",
       "archived_at": "2026-08-13T22:20:32Z"
+    },
+    {
+      "id": 13276,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: wants full descriptions of the nature/lore of all items just added to RED…",
+      "source_repo": "CLI",
+      "date": "20260813",
+      "archived_at": "2026-08-13T22:22:27Z"
     }
   ]
 }
