@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-13T22:00:00Z",
+  "generated_at": "2026-08-13T22:00:02Z",
   "repo": "APPLES",
-  "count": 2716,
+  "count": 2717,
   "apples": [
     {
       "id": 10525,
@@ -21730,6 +21730,14 @@
       "source_repo": "CLI",
       "date": "20260813",
       "archived_at": "2026-08-13T22:00:00Z"
+    },
+    {
+      "id": 13251,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: processify the gpt2-alpine-c serve.py + broker manual restarts (give them…",
+      "source_repo": "CLI",
+      "date": "20260813",
+      "archived_at": "2026-08-13T22:00:02Z"
     }
   ]
 }
