@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-13T22:00:58Z",
+  "generated_at": "2026-08-13T22:02:47Z",
   "repo": "APPLES",
-  "count": 2719,
+  "count": 2720,
   "apples": [
     {
       "id": 10525,
@@ -21754,6 +21754,14 @@
       "source_repo": "emily",
       "date": "20260813",
       "archived_at": "2026-08-13T22:00:58Z"
+    },
+    {
+      "id": 13254,
+      "type": "audit",
+      "title": "Post-reboot gpt2 smoke test: serve.py + broker manually restarted",
+      "source_repo": "gpt2-alpine-c",
+      "date": "20260813",
+      "archived_at": "2026-08-13T22:02:47Z"
     }
   ]
 }

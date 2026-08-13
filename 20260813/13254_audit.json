@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "audit",
+  "archived_at": "2026-08-13T22:02:47Z",
+  "body": "Reboot recovery (Phase 1). serve.py (:8088, checkpoint-emily-ft) and cmd/broker (:8679) had no\nsystemd unit and were down after the box upgrade — both restarted manually per\nEMILY/docs/REBOOT_RUNBOOK.md, with one doc correction: the runbook's cd/path for cmd/broker\n(gpt2-alpine-c) was wrong — the actual source lives in PRRJECT_FATBABY/cmd/broker, with\ngpt2-alpine-c/config/broker-routes.json as the routing config for the emily-prime tenant.\n\nDirect smoke test against serve.py /generate (prompt=\"test\", max_tokens=5):\n  {\"text\": \"\\n\\nIf you are\", \"prompt\": \"test\", \"tokens\": 5, \"model\": \"emily-ft (checkpoint-emily-ft)\"}\nTook ~8 minutes wall time (single-threaded CPU inference, cold start) — HTTP 200.\n\nBroker path (localhost:8679/generate) failed with 502 \"upstream unavailable\" on the same request,\nthree times. Root cause: cmd/broker/main.go hardcodes a 30s ResponseHeaderTimeout / context\ntimeout on the upstream call, well under serve.py's real inference latency. This predates the\nreboot (not something the reboot broke) but effectively means the broker path is non-functional\nfor any real generation request today. Flagging for backlog scoping rather than patching\nunilaterally during reboot recovery.",
+  "id": 13254,
+  "metadata": null,
+  "run_id": "sess-20260813-2154-dda37e8b",
+  "source_repo": "gpt2-alpine-c",
+  "title": "Post-reboot gpt2 smoke test: serve.py + broker manually restarted"
+}
