@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-13T22:39:26Z",
+  "generated_at": "2026-08-13T22:40:35Z",
   "repo": "APPLES",
-  "count": 2768,
+  "count": 2769,
   "apples": [
     {
       "id": 10525,
@@ -22146,6 +22146,14 @@
       "source_repo": "emily.cli",
       "date": "20260813",
       "archived_at": "2026-08-13T22:39:26Z"
+    },
+    {
+      "id": 13303,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: wants EMILY's initial README/git commit (the original ~24-line scope) che…",
+      "source_repo": "CLI",
+      "date": "20260813",
+      "archived_at": "2026-08-13T22:40:35Z"
     }
   ]
 }
