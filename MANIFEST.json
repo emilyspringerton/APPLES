@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-13T22:34:33Z",
+  "generated_at": "2026-08-13T22:35:31Z",
   "repo": "APPLES",
-  "count": 2761,
+  "count": 2762,
   "apples": [
     {
       "id": 10525,
@@ -22090,6 +22090,14 @@
       "source_repo": "CLI",
       "date": "20260813",
       "archived_at": "2026-08-13T22:34:33Z"
+    },
+    {
+      "id": 13296,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time, resolving the CLAIRE population question via AskUserQuestion: build a rea…",
+      "source_repo": "CLI",
+      "date": "20260813",
+      "archived_at": "2026-08-13T22:35:31Z"
     }
   ]
 }
