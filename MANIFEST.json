@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-13T23:58:12Z",
+  "generated_at": "2026-08-13T23:58:27Z",
   "repo": "APPLES",
-  "count": 2812,
+  "count": 2813,
   "apples": [
     {
       "id": 10525,
@@ -22498,6 +22498,14 @@
       "source_repo": "OKEMILY",
       "date": "20260813",
       "archived_at": "2026-08-13T23:58:12Z"
+    },
+    {
+      "id": 13347,
+      "type": "signal_observation",
+      "title": "[WARN] Finding: entity-graph's own observation-writer (var/emily-observations/*.json, source=entity…",
+      "source_repo": "CLI",
+      "date": "20260813",
+      "archived_at": "2026-08-13T23:58:27Z"
     }
   ]
 }
