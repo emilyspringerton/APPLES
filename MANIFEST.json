@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-13T23:20:49Z",
+  "generated_at": "2026-08-13T23:27:12Z",
   "repo": "APPLES",
-  "count": 2796,
+  "count": 2797,
   "apples": [
     {
       "id": 10525,
@@ -22370,6 +22370,14 @@
       "source_repo": "emily.cli",
       "date": "20260813",
       "archived_at": "2026-08-13T23:20:49Z"
+    },
+    {
+      "id": 13331,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: wants 12 total unique-author blog posts this batch (currently at 4: Paimo…",
+      "source_repo": "CLI",
+      "date": "20260813",
+      "archived_at": "2026-08-13T23:27:12Z"
     }
   ]
 }
