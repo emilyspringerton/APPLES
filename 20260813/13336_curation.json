@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "curation",
+  "archived_at": "2026-08-13T23:29:31Z",
+  "body": "Curated 3 FatBaby observations into EMILY/BACKLOG.md INTAKE QUEUE.\n\nItems:\n- Finding: PITVIPER has substantial real code (689-line main.go, 842-line vterm, PTY handling, font rendering -- CLAUDE.md's 'Milestone 0 not started' claim is stale) but currently fails to compile: cmd/pitviper/main.go:228 passes terminal.Close (func()) where a func() error is expected. Real, small, fixable bug -- not touched yet, deferring to finish the 12-blog-post priority first. (2026-08-13T23:27:23Z)\n- Finding: gpt2 generation has now failed 3 consecutive attempts (40 tokens/10min timeout, 12 tokens/15min timeout, 6 tokens/30min timeout) -- system genuinely overloaded right now, not just slow. Deferring the gpt2-assisted blog followup until load settles; prioritizing the explicit 12-blog-post directive instead. (2026-08-13T23:27:23Z)\n- Founder real-time: wants 12 total unique-author blog posts this batch (currently at 4: Paimon, Unicorn/Mid-Piano, TINA, K9 Unit) -- need 8 more, each a genuinely distinct author/topic, avoiding the founder-chaos/discipline theme per the earlier instruction (2026-08-13T23:27:12Z)\n",
+  "id": 13336,
+  "metadata": null,
+  "run_id": "backlog-curate-1786663771",
+  "source_repo": "emily.cli",
+  "title": "backlog curate: 3 obs -\u003e INTAKE QUEUE"
+}
