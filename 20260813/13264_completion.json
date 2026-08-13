@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-13T22:12:03Z",
+  "body": "Founder real-time direction: \"we need to processify that\" (re: gpt2 serve.py + broker manual\nrestarts). Built and enabled two new systemd --user units, both Type=simple/Restart=on-failure/\nWantedBy=default.target, matching the existing fatbaby-*.service pattern:\n\n- gpt2-serve.service (gpt2-alpine-c/ops/systemd/gpt2-serve.service) — serve.py on :8088\n- fatbaby-broker.service (PRRJECT_FATBABY/ops/systemd/fatbaby-broker.service) — broker on :8679,\n  routes at gpt2-alpine-c/config/broker-routes.json\n\nKilled the manually-nohup'd processes from earlier in this session, verified both units start\ncleanly via daemon-reload + enable --now, confirmed PPID=systemd (not a login shell), confirmed\nboth listening and serve.py health check passing. REBOOT_RUNBOOK.md updated to remove these from\nthe manual-restart list; also corrected a stale doc claim that cmd/broker's source lived in\ngpt2-alpine-c (it's actually PRRJECT_FATBABY/cmd/broker).\n\nCommits: PRRJECT_FATBABY 8216962, gpt2-alpine-c e732e36.\n\nKnown issue carried forward, not fixed by this change (separate scope): cmd/broker's 30s\nupstream timeout is shorter than serve.py's real cold-inference latency (~8min observed),\nso the broker path still 502s on real generation calls. Documented in the runbook and in\nApple #13254.",
+  "id": 13264,
+  "metadata": null,
+  "run_id": "sess-20260813-2154-dda37e8b",
+  "source_repo": "PRRJECT_FATBABY",
+  "title": "Processified gpt2 serve.py + broker into real systemd units"
+}

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-13T22:11:32Z",
+  "generated_at": "2026-08-13T22:12:03Z",
   "repo": "APPLES",
-  "count": 2729,
+  "count": 2730,
   "apples": [
     {
       "id": 10525,
@@ -21834,6 +21834,14 @@
       "source_repo": "EMILY",
       "date": "20260813",
       "archived_at": "2026-08-13T22:11:32Z"
+    },
+    {
+      "id": 13264,
+      "type": "completion",
+      "title": "Processified gpt2 serve.py + broker into real systemd units",
+      "source_repo": "PRRJECT_FATBABY",
+      "date": "20260813",
+      "archived_at": "2026-08-13T22:12:03Z"
     }
   ]
 }
