@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-13T22:00:02Z",
+  "generated_at": "2026-08-13T22:00:03Z",
   "repo": "APPLES",
-  "count": 2717,
+  "count": 2718,
   "apples": [
     {
       "id": 10525,
@@ -21738,6 +21738,14 @@
       "source_repo": "CLI",
       "date": "20260813",
       "archived_at": "2026-08-13T22:00:02Z"
+    },
+    {
+      "id": 13252,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: file an Apple with whatever comes back from the gpt2 broker/serve.py smok…",
+      "source_repo": "CLI",
+      "date": "20260813",
+      "archived_at": "2026-08-13T22:00:03Z"
     }
   ]
 }
