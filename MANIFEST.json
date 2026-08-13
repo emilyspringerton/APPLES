@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-13T22:14:22Z",
+  "generated_at": "2026-08-13T22:14:24Z",
   "repo": "APPLES",
-  "count": 2731,
+  "count": 2732,
   "apples": [
     {
       "id": 10525,
@@ -21850,6 +21850,14 @@
       "source_repo": "CLI",
       "date": "20260813",
       "archived_at": "2026-08-13T22:14:22Z"
+    },
+    {
+      "id": 13266,
+      "type": "signal_observation",
+      "title": "[WARN] Founder real-time: newssite press releases page is not updating",
+      "source_repo": "CLI",
+      "date": "20260813",
+      "archived_at": "2026-08-13T22:14:24Z"
     }
   ]
 }
