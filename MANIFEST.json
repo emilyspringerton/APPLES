@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-13T22:16:07Z",
+  "generated_at": "2026-08-13T22:16:41Z",
   "repo": "APPLES",
-  "count": 2737,
+  "count": 2738,
   "apples": [
     {
       "id": 10525,
@@ -21898,6 +21898,14 @@
       "source_repo": "emily",
       "date": "20260813",
       "archived_at": "2026-08-13T22:16:07Z"
+    },
+    {
+      "id": 13272,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: wants current-status updates (READMEs/status sections) refreshed across a…",
+      "source_repo": "CLI",
+      "date": "20260813",
+      "archived_at": "2026-08-13T22:16:41Z"
     }
   ]
 }
