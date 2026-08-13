@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-13T23:27:23Z",
+  "generated_at": "2026-08-13T23:27:24Z",
   "repo": "APPLES",
-  "count": 2798,
+  "count": 2799,
   "apples": [
     {
       "id": 10525,
@@ -22386,6 +22386,14 @@
       "source_repo": "CLI",
       "date": "20260813",
       "archived_at": "2026-08-13T23:27:23Z"
+    },
+    {
+      "id": 13333,
+      "type": "signal_observation",
+      "title": "[INFO] Finding: PITVIPER has substantial real code (689-line main.go, 842-line vterm, PTY handling,…",
+      "source_repo": "CLI",
+      "date": "20260813",
+      "archived_at": "2026-08-13T23:27:24Z"
     }
   ]
 }
