@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-13T22:46:55Z",
+  "generated_at": "2026-08-13T22:50:00Z",
   "repo": "APPLES",
-  "count": 2777,
+  "count": 2778,
   "apples": [
     {
       "id": 10525,
@@ -22218,6 +22218,14 @@
       "source_repo": "CLI",
       "date": "20260813",
       "archived_at": "2026-08-13T22:46:55Z"
+    },
+    {
+      "id": 13312,
+      "type": "signal_observation",
+      "title": "[INFO] Finding while building pr-indexer: eventstore.FileStore's sequence counter (s.latest) is pur…",
+      "source_repo": "CLI",
+      "date": "20260813",
+      "archived_at": "2026-08-13T22:50:00Z"
     }
   ]
 }
