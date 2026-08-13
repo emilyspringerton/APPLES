@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-13T22:43:22Z",
+  "generated_at": "2026-08-13T22:44:24Z",
   "repo": "APPLES",
-  "count": 2774,
+  "count": 2775,
   "apples": [
     {
       "id": 10525,
@@ -22194,6 +22194,14 @@
       "source_repo": "CLI",
       "date": "20260813",
       "archived_at": "2026-08-13T22:43:22Z"
+    },
+    {
+      "id": 13309,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: check whether we're saving price-action data against stocks-on-the-move (…",
+      "source_repo": "CLI",
+      "date": "20260813",
+      "archived_at": "2026-08-13T22:44:24Z"
     }
   ]
 }
