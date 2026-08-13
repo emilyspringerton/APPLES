@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-13T22:52:49Z",
+  "generated_at": "2026-08-13T22:52:50Z",
   "repo": "APPLES",
-  "count": 2781,
+  "count": 2782,
   "apples": [
     {
       "id": 10525,
@@ -22250,6 +22250,14 @@
       "source_repo": "CLI",
       "date": "20260813",
       "archived_at": "2026-08-13T22:52:49Z"
+    },
+    {
+      "id": 13316,
+      "type": "signal_observation",
+      "title": "[INFO] Finding while verifying the pr-indexer fix live: press release body text carries PR Newswire…",
+      "source_repo": "CLI",
+      "date": "20260813",
+      "archived_at": "2026-08-13T22:52:50Z"
     }
   ]
 }
