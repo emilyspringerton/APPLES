@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-13T22:45:52Z",
+  "generated_at": "2026-08-13T22:46:55Z",
   "repo": "APPLES",
-  "count": 2776,
+  "count": 2777,
   "apples": [
     {
       "id": 10525,
@@ -22210,6 +22210,14 @@
       "source_repo": "emily",
       "date": "20260813",
       "archived_at": "2026-08-13T22:45:52Z"
+    },
+    {
+      "id": 13311,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: reprioritize -- after finishing the current task (newssite PR-indexing fi…",
+      "source_repo": "CLI",
+      "date": "20260813",
+      "archived_at": "2026-08-13T22:46:55Z"
     }
   ]
 }
