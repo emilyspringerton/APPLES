@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-13T22:34:32Z",
+  "generated_at": "2026-08-13T22:34:33Z",
   "repo": "APPLES",
-  "count": 2760,
+  "count": 2761,
   "apples": [
     {
       "id": 10525,
@@ -22082,6 +22082,14 @@
       "source_repo": "CLI",
       "date": "20260813",
       "archived_at": "2026-08-13T22:34:32Z"
+    },
+    {
+      "id": 13295,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: at some point ensure a full process sync (unspecified scope -- likely ref…",
+      "source_repo": "CLI",
+      "date": "20260813",
+      "archived_at": "2026-08-13T22:34:33Z"
     }
   ]
 }
