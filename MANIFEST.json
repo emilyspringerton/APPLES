@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-13T22:09:24Z",
+  "generated_at": "2026-08-13T22:11:08Z",
   "repo": "APPLES",
-  "count": 2725,
+  "count": 2726,
   "apples": [
     {
       "id": 10525,
@@ -21802,6 +21802,14 @@
       "source_repo": "CLI",
       "date": "20260813",
       "archived_at": "2026-08-13T22:09:24Z"
+    },
+    {
+      "id": 13260,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: add a startup ceremony that calls gpt2 with a test prompt once it's confi…",
+      "source_repo": "CLI",
+      "date": "20260813",
+      "archived_at": "2026-08-13T22:11:08Z"
     }
   ]
 }
