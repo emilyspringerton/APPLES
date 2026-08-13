@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-13T22:18:45Z",
+  "generated_at": "2026-08-13T22:20:30Z",
   "repo": "APPLES",
-  "count": 2739,
+  "count": 2740,
   "apples": [
     {
       "id": 10525,
@@ -21914,6 +21914,14 @@
       "source_repo": "EMILY",
       "date": "20260813",
       "archived_at": "2026-08-13T22:18:45Z"
+    },
+    {
+      "id": 13274,
+      "type": "completion",
+      "title": "Full README refresh: new work documented + accidental content duplication fixed",
+      "source_repo": "REDGARDEN",
+      "date": "20260813",
+      "archived_at": "2026-08-13T22:20:30Z"
     }
   ]
 }

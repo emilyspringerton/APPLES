@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-13T22:20:30Z",
+  "body": "Founder real-time: \"i need all the items in the readme for redgarden the old items are there\nthere are new items we need a full readme refresh.\"\n\nChanges:\n1. Documented substantial work missing since the README's last \"Current Status\" update\n   (2026-07-23): the 3v3 queue (:7780) and team_rl_engage_nudge live consumer, the R\u0026D vs Stable\n   deployment split (2026-08-10), Jungle Camps/Four Heavenly Kings (all 5 milestones + GFD port),\n   and the full arena bot AI research program (role discovery prerequisite, synergy decay,\n   commander posture first step, noisy-gestalt training 100% eval, PFSP autocurriculum training\n   75% eval, open founder-flagged decision points).\n2. Updated the item catalog section + table: was documented as 27 items, is actually 33\n   (ARENA_ITEM_COUNT) -- added the 3 pre-existing trinket/back items that were already missing\n   from the table (Blink Dagger, Donkey, Haste Trinket) plus the 6 new page-4 items from the\n   2026-08-11 \"expand the play space\" pass (Gae Bolg, Masamune, Muramasa, Balance Ring, Empress\n   Hairpin, Ninja Tekko), with 3 new columns (CDR%, True Dmg, Lifesteal%) for their new mechanics.\n   Verified every row directly against packages/simulation/arena_game.c's ARENA_ITEMS array, not\n   guessed. Updated the Shift+1/2/3 shop-page keybind row to Shift+1-4 (verified generically\n   correct in apps/arena/src/main.c, no hardcoded page-3 assumption).\n3. Fixed a real, separate bug found while reading the file: the \"Full Technical Design Document\"\n   section (original vertical-slice spec, ~600 lines) existed as two full copies back to back --\n   one raw/unformatted with broken code-fence boundaries, one properly formatted -- almost\n   certainly debris from an earlier bad edit. Removed the broken raw duplicate, kept one clean\n   formatted copy (still retained as historical design capture, not deleted outright).",
+  "id": 13274,
+  "metadata": null,
+  "run_id": "sess-20260813-2154-dda37e8b",
+  "source_repo": "REDGARDEN",
+  "title": "Full README refresh: new work documented + accidental content duplication fixed"
+}
