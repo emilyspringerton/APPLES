@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "curation",
+  "archived_at": "2026-08-13T22:15:44Z",
+  "body": "Curated 7 FatBaby observations into EMILY/BACKLOG.md INTAKE QUEUE.\n\nItems:\n- Founder real-time: many press releases arrive daily with (EXCHANGE:TICKER)-format mentions in the body text -- likely why not all tickered press releases are surfacing, ticker extraction/linking may not be catching this body-text format (2026-08-13T22:14:37Z)\n- Founder real-time: ticker display standard is parenthetical exchange-prefixed, e.g. (NYSE:F) -- applies to the press-releases/ticker-linking work above (2026-08-13T22:14:31Z)\n- Founder real-time: expects to see all tickered press releases on the press releases page (may be same root cause as the not-updating report above) (2026-08-13T22:14:22Z)\n- Founder real-time: newssite press releases page is not updating (2026-08-13T22:14:22Z)\n- Founder real-time: FatBaby newssite republishing the same governance story for BAC/BEN/BA/AMZN/F over and over -- likely duplicate-detection bug (2026-08-13T22:14:22Z)\n- Founder real-time: add a startup ceremony that calls gpt2 with a test prompt once it's confirmed stable/healthy, and always logs the response as an Apple (recurring on every startup, not a one-off smoke test) (2026-08-13T22:11:08Z)\n- Founder real-time: any future updates to the startup/reboot process (systemd units, runbook changes) should be queued through the same emily observe -\u003e backlog curate pipeline, not done ad hoc (2026-08-13T22:09:24Z)\n",
+  "id": 13270,
+  "metadata": null,
+  "run_id": "backlog-curate-1786659344",
+  "source_repo": "emily.cli",
+  "title": "backlog curate: 7 obs -\u003e INTAKE QUEUE"
+}
