@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-13T22:40:35Z",
+  "generated_at": "2026-08-13T22:41:12Z",
   "repo": "APPLES",
-  "count": 2769,
+  "count": 2770,
   "apples": [
     {
       "id": 10525,
@@ -22154,6 +22154,14 @@
       "source_repo": "CLI",
       "date": "20260813",
       "archived_at": "2026-08-13T22:40:35Z"
+    },
+    {
+      "id": 13304,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: need to get 'HX' set up with a GitHub upstream (repo name/scope unclear, …",
+      "source_repo": "CLI",
+      "date": "20260813",
+      "archived_at": "2026-08-13T22:41:12Z"
     }
   ]
 }
