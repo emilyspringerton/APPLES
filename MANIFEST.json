@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-13T22:02:47Z",
+  "generated_at": "2026-08-13T22:04:03Z",
   "repo": "APPLES",
-  "count": 2720,
+  "count": 2721,
   "apples": [
     {
       "id": 10525,
@@ -21762,6 +21762,14 @@
       "source_repo": "gpt2-alpine-c",
       "date": "20260813",
       "archived_at": "2026-08-13T22:02:47Z"
+    },
+    {
+      "id": 13255,
+      "type": "signal_observation",
+      "title": "[WARN] Founder real-time: new claire.md.txt file uploaded to EMILY + MONOREPO repos (identical cont…",
+      "source_repo": "CLI",
+      "date": "20260813",
+      "archived_at": "2026-08-13T22:04:03Z"
     }
   ]
 }
