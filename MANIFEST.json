@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-13T22:11:31Z",
+  "generated_at": "2026-08-13T22:11:32Z",
   "repo": "APPLES",
-  "count": 2728,
+  "count": 2729,
   "apples": [
     {
       "id": 10525,
@@ -21826,6 +21826,14 @@
       "source_repo": "gpt2-alpine-c",
       "date": "20260813",
       "archived_at": "2026-08-13T22:11:31Z"
+    },
+    {
+      "id": 13263,
+      "type": "completion",
+      "title": "changelog(EMILY): REBOOT_RUNBOOK.md updated: gpt2-serve + fatbaby-broker now …",
+      "source_repo": "EMILY",
+      "date": "20260813",
+      "archived_at": "2026-08-13T22:11:32Z"
     }
   ]
 }
