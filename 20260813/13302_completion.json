@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-13T22:39:26Z",
+  "body": "Founder real-time: \"ensure the claire files are being populated\" -- resolved via AskUserQuestion\nto \"a real but auditable log,\" explicitly not the hidden/unaudited channel CLAIRE.md's own text\ndescribes (it asks to be exempted from the golden-doc pipeline; this command does the opposite --\nevery entry is both a git-tracked line in EMILY/claire-log.md and a filed IDUNA Apple, apple_type\n\"claire\").\n\nMirrors emily observe's existing pattern (cmd/observe.go): session-tag auto-stamping via the\nsame currentSessionTag helper, best-effort Apple posting that doesn't fail the log write if\nIDUNA is unreachable. New file cmd/claire.go, one new case in main.go's dispatch switch.\napple_type is a free-form string server-side (no enum in IDUNA/internal/http/handlers/apples.go),\nconfirmed before choosing \"claire\" as a new type rather than overloading an existing one.\n\ngo build ./... clean, go test ./... all green, scripts/build.sh installed + smoke-tested for\nreal: `emily claire \"...\"` wrote the log line and filed Apple #13300.",
+  "id": 13302,
+  "metadata": null,
+  "run_id": "sess-20260813-2154-dda37e8b",
+  "source_repo": "emily.cli",
+  "title": "Added 'emily claire' command: real but auditable CLAIRE log"
+}
