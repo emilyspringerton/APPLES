@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-13T22:07:56Z",
+  "generated_at": "2026-08-13T22:09:24Z",
   "repo": "APPLES",
-  "count": 2724,
+  "count": 2725,
   "apples": [
     {
       "id": 10525,
@@ -21794,6 +21794,14 @@
       "source_repo": "emily.cli",
       "date": "20260813",
       "archived_at": "2026-08-13T22:07:56Z"
+    },
+    {
+      "id": 13259,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: any future updates to the startup/reboot process (systemd units, runbook …",
+      "source_repo": "CLI",
+      "date": "20260813",
+      "archived_at": "2026-08-13T22:09:24Z"
     }
   ]
 }
