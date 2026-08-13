@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-13T23:58:09Z",
+  "body": "Founder real-time: \"24 more.\"\n\n24 posts, 24 more distinct authors/voices, none repeating any of the 24 already published this\nsession. Spanned: 6 REDGARDEN heroes not yet voiced (MnM, Ghost, Zagan, Vassago, Cain, The\nMorrigan -- each checked against docs/HEROES_VS0.md's real kit descriptions), 3 existing personas\non new topics (The Pizza, The Tree in French, Emily Prime), 8 infrastructure/systems voices\n(IDUNA, APPLES, EmilyOS, observation-watcher, .gband, SKULDMARK, HEIMDAL, gpt2-alpine-c -- each\nchecked against real CLAUDE.md/README/format docs), 7 games/products (SHANKPIT, SHANKPIT-460,\nDragonsNShit MUD, WEAKNIGHT_BEDROCK_RACERS, EINHORN_SURVIVAL, MJOLNIR, TYLER).\n\nEvery post grounded in real, checked material -- no invented facts. All 24 verified live via\nindividual HTTP 200 checks (one initial publish call was silently dropped mid-batch --\neighty-two-episodes-and-counting/TYLER -- caught by the verification pass, not just assumed\nsuccessful, and republished).\n\nRunning total: 48 blog posts, 48 unique authors, this session.",
+  "id": 13345,
+  "metadata": null,
+  "run_id": "sess-20260813-2154-dda37e8b",
+  "source_repo": "OKEMILY",
+  "title": "Published 24 MORE blog posts (48 total this session), all unique authors"
+}
