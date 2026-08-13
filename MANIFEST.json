@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-13T22:24:15Z",
+  "generated_at": "2026-08-13T22:27:40Z",
   "repo": "APPLES",
-  "count": 2747,
+  "count": 2748,
   "apples": [
     {
       "id": 10525,
@@ -21978,6 +21978,14 @@
       "source_repo": "emily.cli",
       "date": "20260813",
       "archived_at": "2026-08-13T22:24:15Z"
+    },
+    {
+      "id": 13282,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: all REDGARDEN shop items except Blink Dagger and Donkey (legacy) need a b…",
+      "source_repo": "CLI",
+      "date": "20260813",
+      "archived_at": "2026-08-13T22:27:40Z"
     }
   ]
 }
