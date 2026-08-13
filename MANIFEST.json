@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-13T23:27:12Z",
+  "generated_at": "2026-08-13T23:27:23Z",
   "repo": "APPLES",
-  "count": 2797,
+  "count": 2798,
   "apples": [
     {
       "id": 10525,
@@ -22378,6 +22378,14 @@
       "source_repo": "CLI",
       "date": "20260813",
       "archived_at": "2026-08-13T23:27:12Z"
+    },
+    {
+      "id": 13332,
+      "type": "signal_observation",
+      "title": "[WARN] Finding: gpt2 generation has now failed 3 consecutive attempts (40 tokens/10min timeout, 12 …",
+      "source_repo": "CLI",
+      "date": "20260813",
+      "archived_at": "2026-08-13T23:27:23Z"
     }
   ]
 }
