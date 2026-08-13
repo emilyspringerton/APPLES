@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-13T22:22:40Z",
+  "body": "Founder real-time: \"i have the rig provided skeleton and the model how do i attach themm add to\ngolden band readme in blender.\" GOLDENBAND had no README.md at all (CLAUDE.md only) -- created\none.\n\nCore content answers the literal question (attaching a rig-provided skeleton + a model): open\nTylerRig.blend (repo root or tools/blender_export/), position the model around it, Ctrl+P -\u003e\n\"With Automatic Weights\" to skin, save uncompressed. Then two export paths depending on setup --\nupload the .blend to incoming/ via GitHub's website for automatic CI export (no local Blender\nscripting needed, matches the founder's own known disk-space-constrained-on-Windows situation\nper the blender-tools.yml workflow's own comment), or run export_gband_rig.py locally/headless.\nEverything cross-checked against real files already in the repo (TylerRig.blend x2,\ntools/blender_export/*.py's own header comments, incoming/README.md, .github/workflows/\nblender-tools.yml) rather than reconstructed from the northstar doc alone, which had gone\nslightly stale -- export_gband_rig.py's header now says it was verified against a real Blender\n5.2 install on 2026-08-05 (3 real bugs found and fixed then), not \"unrun/unverified\" as\nGoblinFoxDragon/docs2/GOLDENBAND_INTEGRATION_NORTHSTAR.md still says.",
+  "id": 13277,
+  "metadata": null,
+  "run_id": "sess-20260813-2154-dda37e8b",
+  "source_repo": "GOLDENBAND",
+  "title": "Created README.md with Blender rig-attachment instructions"
+}
