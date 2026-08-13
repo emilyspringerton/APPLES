@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-13T22:18:45Z",
+  "body": "Earlier this session, claire.md.txt (arrived via GitHub \"Add files via upload\" in both EMILY and\nthe monorepo root) was flagged as reading like a prompt-injection attempt: it self-describes as\n\"the untrusted, un-audited counter-weight to IDUNA\" and explicitly asks to be barred from the\nGoldenDocCompiler pipeline. Not registered at that time. Apple #13255.\n\nFounder then explicitly asked, real-time, to register it as a golden doc anyway. Given the\nstakes (golden-doc registration feeds Emily Prime's autonomous RSI context on every future\ncycle) and the document's own internally-contradictory framing (asking to be exempt from the\nexact process being invoked), asked for explicit confirmation via AskUserQuestion rather than\nsilently complying or silently refusing -- laid out the specific concern, offered \"register\nas-is\" / \"don't register\" / \"rewrite first\" as options. Founder chose \"register it as-is\n(Recommended if you wrote it yourself)\".\n\nRegistered as CLAIRE in EMILY/context/golden-docs-index.md (tier 2, budget 1000), with the\nindex entry itself carrying the full flag history and explicit-confirmation note so any future\nreader (human or Emily Prime) sees the provenance, not just the file content. Noted separately\nin the index: the file's own table of contents references \"Rules of Claire\"/\"System Hooks \u0026\nImplementation\" sections that don't actually exist in the 23-line file as received.",
+  "id": 13273,
+  "metadata": null,
+  "run_id": "sess-20260813-2154-dda37e8b",
+  "source_repo": "EMILY",
+  "title": "Registered claire.md.txt as golden doc CLAIRE, on explicit founder confirmation"
+}
