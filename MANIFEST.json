@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-13T22:52:50Z",
+  "generated_at": "2026-08-13T22:53:11Z",
   "repo": "APPLES",
-  "count": 2782,
+  "count": 2783,
   "apples": [
     {
       "id": 10525,
@@ -22258,6 +22258,14 @@
       "source_repo": "CLI",
       "date": "20260813",
       "archived_at": "2026-08-13T22:52:50Z"
+    },
+    {
+      "id": 13317,
+      "type": "completion",
+      "title": "Fixed newssite press-releases pipeline: added pr-indexer, fixed truncate-before-filter bug",
+      "source_repo": "PRRJECT_FATBABY",
+      "date": "20260813",
+      "archived_at": "2026-08-13T22:53:11Z"
     }
   ]
 }
