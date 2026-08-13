@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-13T22:04:03Z",
+  "generated_at": "2026-08-13T22:04:12Z",
   "repo": "APPLES",
-  "count": 2721,
+  "count": 2722,
   "apples": [
     {
       "id": 10525,
@@ -21770,6 +21770,14 @@
       "source_repo": "CLI",
       "date": "20260813",
       "archived_at": "2026-08-13T22:04:03Z"
+    },
+    {
+      "id": 13256,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: REDGARDEN README needs a full refresh -- old items are still there but ne…",
+      "source_repo": "CLI",
+      "date": "20260813",
+      "archived_at": "2026-08-13T22:04:12Z"
     }
   ]
 }
