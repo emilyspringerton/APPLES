@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-13T22:35:40Z",
+  "body": "Founder real-time, across ~10 messages: new REDGARDEN game mode \"ECOWAR\" -- maps to the original\nvertical-slice doc's \"Ecosystem War (2v2)\" mode but reframed as a genre synthesis (\"bringing the\nmoba full circle back to RTS with TCG as the moonchild... deck building as the affordance for\ncommanding your army\"). Separate game mode, separate matchmaking, separate client (client\nunification explicitly deferred -- \"we will unify clients later,\" existing headless bot client\nis fine for now).\n\nWrote REDGARDEN/NORTHSTAR.md §29, checked directly against real code before writing anything:\npackages/simulation/local_game.c/.h (the existing 274/54-line card-RTS MVP -- 4 cards, GridCell\nautomaton, influence economy, an unused tech_tier[3] field) and arena_game.c/.h (26 heroes, 33\nitems, the full bot AI research program) are two genuinely separate, already-isolated codepaths\nneither of which has ever shared state -- apps/matchmaker's own dual-role pattern (same binary,\n--lobby-size/--server-bin flags switch between card-RTS and arena team modes) is a real, direct\nprecedent for how ECOWAR's own matchmaking should probably work.\n\nExplicitly scoping-only, not a build: 4 real open architecture questions flagged rather than\nguessed at (does the player get a directly-piloted hero too, or purely command via cards; are\narmy units full hero kits or a simpler tier; what \"dragon objective\" mechanically means; which\nsimulation loop ECOWAR actually runs on). No milestone plan written -- matches this repo's own\nestablished discipline of not inventing milestone numbers ahead of a real design decision.",
+  "id": 13297,
+  "metadata": null,
+  "run_id": "sess-20260813-2154-dda37e8b",
+  "source_repo": "REDGARDEN",
+  "title": "ECOWAR NORTHSTAR §29: scoping doc, genre-synthesis game mode"
+}
