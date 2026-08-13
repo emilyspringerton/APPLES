@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-13T22:41:12Z",
+  "generated_at": "2026-08-13T22:41:14Z",
   "repo": "APPLES",
-  "count": 2770,
+  "count": 2771,
   "apples": [
     {
       "id": 10525,
@@ -22162,6 +22162,14 @@
       "source_repo": "CLI",
       "date": "20260813",
       "archived_at": "2026-08-13T22:41:12Z"
+    },
+    {
+      "id": 13305,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: get PITVIPER working (memory conflicts on current state -- reboot runbook…",
+      "source_repo": "CLI",
+      "date": "20260813",
+      "archived_at": "2026-08-13T22:41:14Z"
     }
   ]
 }
