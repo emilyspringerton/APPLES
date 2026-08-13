@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-13T22:39:16Z",
+  "generated_at": "2026-08-13T22:39:20Z",
   "repo": "APPLES",
-  "count": 2766,
+  "count": 2767,
   "apples": [
     {
       "id": 10525,
@@ -22130,6 +22130,14 @@
       "source_repo": "CLI",
       "date": "20260813",
       "archived_at": "2026-08-13T22:39:16Z"
+    },
+    {
+      "id": 13301,
+      "type": "completion",
+      "title": "changelog(emily.cli): Added 'emily claire' command -- real but auditable log for …",
+      "source_repo": "emily.cli",
+      "date": "20260813",
+      "archived_at": "2026-08-13T22:39:20Z"
     }
   ]
 }
