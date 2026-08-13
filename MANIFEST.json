@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-13T21:46:15Z",
+  "generated_at": "2026-08-13T22:00:00Z",
   "repo": "APPLES",
-  "count": 2715,
+  "count": 2716,
   "apples": [
     {
       "id": 10525,
@@ -21722,6 +21722,14 @@
       "source_repo": "emily",
       "date": "20260813",
       "archived_at": "2026-08-13T21:46:15Z"
+    },
+    {
+      "id": 13250,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: fully sync with --rebase, new file in EMILY and root MONOREPO repos",
+      "source_repo": "CLI",
+      "date": "20260813",
+      "archived_at": "2026-08-13T22:00:00Z"
     }
   ]
 }
