@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-13T22:41:30Z",
+  "generated_at": "2026-08-13T22:42:02Z",
   "repo": "APPLES",
-  "count": 2772,
+  "count": 2773,
   "apples": [
     {
       "id": 10525,
@@ -22178,6 +22178,14 @@
       "source_repo": "CLI",
       "date": "20260813",
       "archived_at": "2026-08-13T22:41:30Z"
+    },
+    {
+      "id": 13307,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: PITVIPER detail -- should be installable as a terminal client the same wa…",
+      "source_repo": "CLI",
+      "date": "20260813",
+      "archived_at": "2026-08-13T22:42:02Z"
     }
   ]
 }
