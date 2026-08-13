@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-13T22:11:29Z",
+  "body": "CHANGELOG updated in EMILY: REBOOT_RUNBOOK.md updated: gpt2-serve + fatbaby-broker now real systemd units, not manual-restart; documented broker's hardcoded 30s timeout vs serve.py's real multi-minute cold-inference latency (sess-20260813-2154-dda37e8b)",
+  "id": 13263,
+  "metadata": null,
+  "run_id": "sess-20260813-2154-dda37e8b",
+  "source_repo": "EMILY",
+  "title": "changelog(EMILY): REBOOT_RUNBOOK.md updated: gpt2-serve + fatbaby-broker now …"
+}

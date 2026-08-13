@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-13T22:11:29Z",
+  "generated_at": "2026-08-13T22:11:31Z",
   "repo": "APPLES",
-  "count": 2727,
+  "count": 2728,
   "apples": [
     {
       "id": 10525,
@@ -21818,6 +21818,14 @@
       "source_repo": "PRRJECT_FATBABY",
       "date": "20260813",
       "archived_at": "2026-08-13T22:11:29Z"
+    },
+    {
+      "id": 13262,
+      "type": "completion",
+      "title": "changelog(gpt2-alpine-c): Added gpt2-serve.service systemd unit (processified the man…",
+      "source_repo": "gpt2-alpine-c",
+      "date": "20260813",
+      "archived_at": "2026-08-13T22:11:31Z"
     }
   ]
 }
