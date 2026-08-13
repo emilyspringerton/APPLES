@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-13T22:24:09Z",
+  "body": "Founder real-time: \"some have no traditional stats suggesting there are hidden spagheti code\nabilities we need to surface those in the readme.\" Added an \"Item mechanics beyond the stat\ncolumns\" section covering every item with real coded behavior beyond flat stats: Blink Dagger\n(active blink), Donkey (Immortal's Fold automatic HP-threshold passive + Paper Glide active,\nzero flat stats -- the item founder was specifically flagging), Haste Trinket (pure CDR%, no\nstats), Gae Bolg (armor-piercing true damage), Masamune (lifesteal), Balance Ring (dynamic\nlive-computed armor), Empress Hairpin (MP+CDR blend). All verified directly against\npackages/simulation/arena_game.c/.h source and constants, not reconstructed from memory.\nSeparately confirmed via git log that the 6 page-4 items are the complete current set -- no\nnewer items exist in shipped code as of this session. Commit `70b4a56`.",
+  "id": 13280,
+  "metadata": null,
+  "run_id": "sess-20260813-2154-dda37e8b",
+  "source_repo": "REDGARDEN",
+  "title": "Surfaced hidden item mechanics in README"
+}
