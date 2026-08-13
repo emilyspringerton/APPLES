@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-13T22:27:40Z",
+  "generated_at": "2026-08-13T22:30:21Z",
   "repo": "APPLES",
-  "count": 2748,
+  "count": 2749,
   "apples": [
     {
       "id": 10525,
@@ -21986,6 +21986,14 @@
       "source_repo": "CLI",
       "date": "20260813",
       "archived_at": "2026-08-13T22:27:40Z"
+    },
+    {
+      "id": 13283,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: check on a previous long-running REDGARDEN AI training run that was in pr…",
+      "source_repo": "CLI",
+      "date": "20260813",
+      "archived_at": "2026-08-13T22:30:21Z"
     }
   ]
 }
