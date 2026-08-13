@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "curation",
+  "archived_at": "2026-08-13T22:35:50Z",
+  "body": "Curated 5 FatBaby observations into EMILY/BACKLOG.md INTAKE QUEUE.\n\nItems:\n- Founder real-time, resolving the CLAIRE population question via AskUserQuestion: build a real but auditable log capturing the entropy/debris CLAIRE.md describes (failed approaches, environment quirks) -- still routes through normal Apple/CHANGELOG logging, not a hidden/unaudited channel. Confirms CLAIRE stays inside the audit trail despite the doc's own framing. (2026-08-13T22:35:31Z)\n- Founder real-time: at some point ensure a full process sync (unspecified scope -- likely referring to the monorepo-wide systemd/runbook process coverage, needs clarification when picked up) (2026-08-13T22:34:32Z)\n- Founder real-time: at some point ensure the CANNON/siege-minion feature (REDGARDEN NORTHSTAR §20.4, already flagged as an open gap) lands clean -- non-urgent, general reminder not tied to the current ECOWAR work (2026-08-13T22:34:32Z)\n- Founder real-time: ECOWAR should also incorporate bot/hero MOBA elements from the arena side, not purely the original card-RTS deck-building -- a hybrid design, real architecture question (two very different sim loops: local_game.c's grid automaton vs arena_game.c's real-time hero combat), not something to assume a specific merge for without confirming (2026-08-13T22:32:56Z)\n- Founder real-time: ECOWAR needs a fully separate client too -- 'separate everything' (mode, matchmaking, client), not sharing arena's client/queue infrastructure at all (2026-08-13T22:31:57Z)\n",
+  "id": 13299,
+  "metadata": null,
+  "run_id": "backlog-curate-1786660550",
+  "source_repo": "emily.cli",
+  "title": "backlog curate: 5 obs -\u003e INTAKE QUEUE"
+}
