@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-13T22:42:02Z",
+  "generated_at": "2026-08-13T22:43:22Z",
   "repo": "APPLES",
-  "count": 2773,
+  "count": 2774,
   "apples": [
     {
       "id": 10525,
@@ -22186,6 +22186,14 @@
       "source_repo": "CLI",
       "date": "20260813",
       "archived_at": "2026-08-13T22:42:02Z"
+    },
+    {
+      "id": 13308,
+      "type": "signal_observation",
+      "title": "[WARN] Founder real-time: newssite's SEC filings display is 'a garbled mess' -- needs cleanup for a…",
+      "source_repo": "CLI",
+      "date": "20260813",
+      "archived_at": "2026-08-13T22:43:22Z"
     }
   ]
 }
