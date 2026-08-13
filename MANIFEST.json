@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-13T22:51:41Z",
+  "generated_at": "2026-08-13T22:52:19Z",
   "repo": "APPLES",
-  "count": 2779,
+  "count": 2780,
   "apples": [
     {
       "id": 10525,
@@ -22234,6 +22234,14 @@
       "source_repo": "CLI",
       "date": "20260813",
       "archived_at": "2026-08-13T22:51:41Z"
+    },
+    {
+      "id": 13314,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: the 'Building at Infinity' blog post should be written as the Paimon pers…",
+      "source_repo": "CLI",
+      "date": "20260813",
+      "archived_at": "2026-08-13T22:52:19Z"
     }
   ]
 }
