@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-13T22:35:50Z",
+  "generated_at": "2026-08-13T22:39:16Z",
   "repo": "APPLES",
-  "count": 2765,
+  "count": 2766,
   "apples": [
     {
       "id": 10525,
@@ -22122,6 +22122,14 @@
       "source_repo": "emily.cli",
       "date": "20260813",
       "archived_at": "2026-08-13T22:35:50Z"
+    },
+    {
+      "id": 13300,
+      "type": "claire",
+      "title": "smoke test: emily claire command wired up correctly, verifying log write + Apple filing",
+      "source_repo": "CLI",
+      "date": "20260813",
+      "archived_at": "2026-08-13T22:39:16Z"
     }
   ]
 }
