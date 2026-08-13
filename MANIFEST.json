@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-13T22:41:14Z",
+  "generated_at": "2026-08-13T22:41:30Z",
   "repo": "APPLES",
-  "count": 2771,
+  "count": 2772,
   "apples": [
     {
       "id": 10525,
@@ -22170,6 +22170,14 @@
       "source_repo": "CLI",
       "date": "20260813",
       "archived_at": "2026-08-13T22:41:14Z"
+    },
+    {
+      "id": 13306,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: PITVIPER detail -- needs a hotkey that SSHes into iduna.farthq.com using …",
+      "source_repo": "CLI",
+      "date": "20260813",
+      "archived_at": "2026-08-13T22:41:30Z"
     }
   ]
 }
