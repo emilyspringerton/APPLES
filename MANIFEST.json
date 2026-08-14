@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-14T02:06:19Z",
+  "generated_at": "2026-08-14T02:06:27Z",
   "repo": "APPLES",
-  "count": 2920,
+  "count": 2921,
   "apples": [
     {
       "id": 10525,
@@ -23362,6 +23362,14 @@
       "source_repo": "emily.cli",
       "date": "20260814",
       "archived_at": "2026-08-14T02:06:19Z"
+    },
+    {
+      "id": 13455,
+      "type": "signal_observation",
+      "title": "[INFO] 創辦人即時指示:優先確保發布成功,以防之後遇到 rate limit——現在立�…",
+      "source_repo": "CLI",
+      "date": "20260814",
+      "archived_at": "2026-08-14T02:06:27Z"
     }
   ]
 }
