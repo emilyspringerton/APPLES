@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "curation",
+  "archived_at": "2026-08-14T01:20:29Z",
+  "body": "Curated 2 FatBaby observations into EMILY/BACKLOG.md INTAKE QUEUE.\n\nItems:\n- Self-correction: commit 7bcde2b's message claims the HITL-11 SECTION 5 items were marked [x] -- they were not, and correctly weren't (still genuinely blocked on a credit top-up, not done). Only the misleading 'run with ANTHROPIC_API_KEY' wording was corrected to point at HITL-11; all 19 items plus HITL-11 itself remain [ ] in BACKLOG.md as intended. Commit message overclaimed. (2026-08-14T01:20:27Z)\n- Founder real-time: ensure we are updating clare.md/claire.md files per the new EMILY northstar per recent updates (2026-08-14T01:18:12Z)\n",
+  "id": 13400,
+  "metadata": null,
+  "run_id": "backlog-curate-1786670429",
+  "source_repo": "emily.cli",
+  "title": "backlog curate: 2 obs -\u003e INTAKE QUEUE"
+}
