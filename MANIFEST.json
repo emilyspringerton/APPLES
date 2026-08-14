@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-14T02:01:06Z",
+  "generated_at": "2026-08-14T02:01:57Z",
   "repo": "APPLES",
-  "count": 2905,
+  "count": 2906,
   "apples": [
     {
       "id": 10525,
@@ -23242,6 +23242,14 @@
       "source_repo": "emily.cli",
       "date": "20260814",
       "archived_at": "2026-08-14T02:01:06Z"
+    },
+    {
+      "id": 13440,
+      "type": "signal_observation",
+      "title": "[INFO] 創辦人即時指示:接近本次 session 額度上限,先暫停開新的大型實作(SKULD…",
+      "source_repo": "CLI",
+      "date": "20260814",
+      "archived_at": "2026-08-14T02:01:57Z"
     }
   ]
 }
