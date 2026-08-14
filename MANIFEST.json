@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-14T02:08:53Z",
+  "generated_at": "2026-08-14T02:10:27Z",
   "repo": "APPLES",
-  "count": 2924,
+  "count": 2925,
   "apples": [
     {
       "id": 10525,
@@ -23394,6 +23394,14 @@
       "source_repo": "EMILY",
       "date": "20260814",
       "archived_at": "2026-08-14T02:08:53Z"
+    },
+    {
+      "id": 13459,
+      "type": "signal_observation",
+      "title": "[INFO] 創辦人即時指示:continue(繼續處理 backlog 隊列)——鑑於先前 session 額度…",
+      "source_repo": "CLI",
+      "date": "20260814",
+      "archived_at": "2026-08-14T02:10:27Z"
     }
   ]
 }
