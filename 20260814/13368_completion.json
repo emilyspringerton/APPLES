@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-14T00:59:57Z",
+  "body": "Founder real-time: \"i need an okemily manifest text file on the server that serves all blog posts\nas a single text file with norobots.\" (Refined from an earlier, broader \"manifest\" ask that turned\nout to mean something different -- a repo-file index built as a GitHub Actions artifact, built\nseparately in OKEMILY/.github/workflows/repo-manifest.yml + scripts/generate_repo_manifest.py.)\n\nNew Renderer.RenderManifest (internal/blog/render.go) writes every post's full plain-text content,\nnewest-first, into one file at OutputDir's parent (/var/www/okemily/blog-manifest.txt, alongside\nOutputDir=/var/www/okemily/blog). Wired into both the live publish path\n(handlers/blog.go's Create, same place RenderIndex already runs) and cmd/blog-rerender (backfill\ntool) so it never drifts from the DB.\n\nReal bug found and fixed along the way, the hard way: okemily-deploy.sh's rsync --delete wiped\nthe manifest immediately after first generating it, because it lives at the OKEMILY repo's static\nroot but isn't part of that repo (server-rendered, not tracked) -- the exact same failure mode the\nscript's own header already documents for blog/ and tyler/ (a real prior incident, 2026-07-19).\nAdded the missing --exclude='blog-manifest.txt'.\n\nrobots.txt added to OKEMILY (Disallow: /blog-manifest.txt) -- the founder's own \"norobots\" ask,\nto avoid a duplicate-content SEO penalty against the individually-indexed blog post pages.\n\nVerified live, not just built: go build/go test clean, IDUNA restarted, manifest regenerated (156\nposts, 490KB) and confirmed to survive a second deploy run, robots.txt and blog-manifest.txt both\nreturn real HTTP 200 at https://okemily.com/.",
+  "id": 13368,
+  "metadata": null,
+  "run_id": "sess-20260813-2154-dda37e8b",
+  "source_repo": "IDUNA",
+  "title": "Blog manifest text file: live at okemily.com/blog-manifest.txt, robots-excluded"
+}

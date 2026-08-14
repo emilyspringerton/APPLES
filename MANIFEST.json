@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-14T00:56:52Z",
+  "generated_at": "2026-08-14T00:59:57Z",
   "repo": "APPLES",
-  "count": 2833,
+  "count": 2834,
   "apples": [
     {
       "id": 10525,
@@ -22666,6 +22666,14 @@
       "source_repo": "CLI",
       "date": "20260814",
       "archived_at": "2026-08-14T00:56:52Z"
+    },
+    {
+      "id": 13368,
+      "type": "completion",
+      "title": "Blog manifest text file: live at okemily.com/blog-manifest.txt, robots-excluded",
+      "source_repo": "IDUNA",
+      "date": "20260814",
+      "archived_at": "2026-08-14T00:59:57Z"
     }
   ]
 }
