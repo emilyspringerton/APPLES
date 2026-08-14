@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-14T01:15:02Z",
+  "generated_at": "2026-08-14T01:16:39Z",
   "repo": "APPLES",
-  "count": 2857,
+  "count": 2858,
   "apples": [
     {
       "id": 10525,
@@ -22858,6 +22858,14 @@
       "source_repo": "emily",
       "date": "20260814",
       "archived_at": "2026-08-14T01:15:02Z"
+    },
+    {
+      "id": 13392,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: iterate (continue normal backlog picking now that queue is clear)",
+      "source_repo": "CLI",
+      "date": "20260814",
+      "archived_at": "2026-08-14T01:16:39Z"
     }
   ]
 }
