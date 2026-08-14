@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "curation",
+  "archived_at": "2026-08-14T01:05:47Z",
+  "body": "Curated 1 FatBaby observations into EMILY/BACKLOG.md INTAKE QUEUE.\n\nItems:\n- Correction to the earlier 'emily backlog curate silently drops valid observations' finding (obs 2026-08-13T22:59:14Z, Apple #13321): traced fully -- there is no separate curate-tool bug. isTrivialObs's substring allowlist doesn't match the '24 more' summary at all, so that's not it either. The real, full explanation is the entity-graph collision bug alone (now fixed, Apple #13374): entity-graph's own periodic health check overwrote the '24 more' observation file at the exact same-second timestamp BEFORE curate ever read it, so curate correctly saw an unparseable entity-graph-format record there and printed 'skip: empty summary' -- not a second bug, the same one manifesting two ways. No further action needed on this thread. (2026-08-14T01:05:44Z)\n",
+  "id": 13379,
+  "metadata": null,
+  "run_id": "backlog-curate-1786669547",
+  "source_repo": "emily.cli",
+  "title": "backlog curate: 1 obs -\u003e INTAKE QUEUE"
+}
