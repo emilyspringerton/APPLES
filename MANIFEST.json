@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-14T01:00:10Z",
+  "generated_at": "2026-08-14T01:00:36Z",
   "repo": "APPLES",
-  "count": 2836,
+  "count": 2837,
   "apples": [
     {
       "id": 10525,
@@ -22690,6 +22690,14 @@
       "source_repo": "OKEMILY",
       "date": "20260814",
       "archived_at": "2026-08-14T01:00:10Z"
+    },
+    {
+      "id": 13371,
+      "type": "signal_observation",
+      "title": "[INFO] Both manifest asks done: (1) live blog manifest text file at https://okemily.com/blog-manife…",
+      "source_repo": "CLI",
+      "date": "20260814",
+      "archived_at": "2026-08-14T01:00:36Z"
     }
   ]
 }
