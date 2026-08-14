@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-14T01:12:34Z",
+  "body": "Founder real-time: \"at some point ensure a full process sync\" (unspecified scope, flagged\nearlier). Interpreted concretely: check whether any currently-running service is on a binary\nolder than its own source, given several commits landed this session.\n\nTraced package dependencies rather than guessed: internal/processor/fetch_clean.go (this\nsession's earlier XBRL ix:header fix, Apple #13361) is imported directly by cmd/processor AND\ntransitively by cmd/prwatch-body (via prwatch/crawler.go's own import) -- both were still running\nbinaries built well before that fix (processor: 2026-08-05, prwatch-body: 2026-08-05), meaning\nthe real SEC-filing/press-release cleaning bug fix was committed but not actually live yet.\n\nAlso checked internal/newssite/docindex (used by newssite -- already rebuilt this session -- and\nsignalapi, unaffected since RecentByType is additive) and internal/entitygraph (used by several\nwatchers, but only entity-graph itself -- already rebuilt -- calls the fixed\nPublishObservation) -- neither needed further action.\n\nRebuilt bin/processor + bin/prwatch-body, restarted both services, confirmed healthy and actively\nprocessing (real fetches within seconds of restart, per their own logs).",
+  "id": 13387,
+  "metadata": null,
+  "run_id": "sess-20260813-2154-dda37e8b",
+  "source_repo": "PRRJECT_FATBABY",
+  "title": "Process sync: rebuilt+restarted processor and prwatch-body to pick up the XBRL fix"
+}

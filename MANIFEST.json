@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-14T01:12:01Z",
+  "generated_at": "2026-08-14T01:12:34Z",
   "repo": "APPLES",
-  "count": 2852,
+  "count": 2853,
   "apples": [
     {
       "id": 10525,
@@ -22818,6 +22818,14 @@
       "source_repo": "CLI",
       "date": "20260814",
       "archived_at": "2026-08-14T01:12:01Z"
+    },
+    {
+      "id": 13387,
+      "type": "completion",
+      "title": "Process sync: rebuilt+restarted processor and prwatch-body to pick up the XBRL fix",
+      "source_repo": "PRRJECT_FATBABY",
+      "date": "20260814",
+      "archived_at": "2026-08-14T01:12:34Z"
     }
   ]
 }
