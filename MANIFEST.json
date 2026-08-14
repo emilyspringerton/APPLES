@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-14T01:12:39Z",
+  "generated_at": "2026-08-14T01:12:56Z",
   "repo": "APPLES",
-  "count": 2854,
+  "count": 2855,
   "apples": [
     {
       "id": 10525,
@@ -22834,6 +22834,14 @@
       "source_repo": "PRRJECT_FATBABY",
       "date": "20260814",
       "archived_at": "2026-08-14T01:12:39Z"
+    },
+    {
+      "id": 13389,
+      "type": "signal_observation",
+      "title": "[INFO] Process sync done: rebuilt+restarted processor and prwatch-body (were running pre-XBRL-fix b…",
+      "source_repo": "CLI",
+      "date": "20260814",
+      "archived_at": "2026-08-14T01:12:56Z"
     }
   ]
 }
