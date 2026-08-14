@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-14T02:00:17Z",
+  "generated_at": "2026-08-14T02:00:23Z",
   "repo": "APPLES",
-  "count": 2895,
+  "count": 2896,
   "apples": [
     {
       "id": 10525,
@@ -23162,6 +23162,14 @@
       "source_repo": "CLI",
       "date": "20260814",
       "archived_at": "2026-08-14T02:00:17Z"
+    },
+    {
+      "id": 13430,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time, new thread: 'we are going to publish our data' + direct question 'how big…",
+      "source_repo": "CLI",
+      "date": "20260814",
+      "archived_at": "2026-08-14T02:00:23Z"
     }
   ]
 }
