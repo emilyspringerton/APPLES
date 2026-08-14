@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-14T21:10:44Z",
+  "body": "cache命中判斷只比對hash,不區分真正haiku壓縮還是fallback截斷版。實測45個來源32個(71%)卡住,含THE_EMILY_WAY.md/NORTHSTAR.md等核心操作文件。修復兩處:Build()跟MaybeRebuild()都要認IsFallback欄位(只改一處會漏,MaybeRebuild自己有獨立判斷邏輯不會呼叫到Build)。5個新回歸測試。golden-cache.json一次性遷移32個entry。live確認:重啟後32個來源真的被重新嘗試(仍受HITL-11影響降級,但邏輯正確,HITL-11一修好自動修復)。commit 70b1857。",
+  "id": 13569,
+  "metadata": null,
+  "run_id": "sess-20260813-2154-dda37e8b",
+  "source_repo": "EMILY",
+  "title": "S157-02 完成:goldenbuild fallback entries從沒被自動重試,71%來源永久卡在500字元劣化版本(真bug,不是safe no-op)"
+}

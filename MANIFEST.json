@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-14T21:09:54Z",
+  "generated_at": "2026-08-14T21:10:44Z",
   "repo": "APPLES",
-  "count": 3034,
+  "count": 3035,
   "apples": [
     {
       "id": 10525,
@@ -24274,6 +24274,14 @@
       "source_repo": "emily",
       "date": "20260814",
       "archived_at": "2026-08-14T21:09:54Z"
+    },
+    {
+      "id": 13569,
+      "type": "completion",
+      "title": "S157-02 完成:goldenbuild fallback entries從沒被自動重試,71%來源永久卡在500字元劣化版本(真bug,不是safe no-op)",
+      "source_repo": "EMILY",
+      "date": "20260814",
+      "archived_at": "2026-08-14T21:10:44Z"
     }
   ]
 }

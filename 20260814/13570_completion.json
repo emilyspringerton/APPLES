@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-14T21:10:44Z",
+  "body": "CHANGELOG updated in EMILY: goldenbuild: fallback entries(500字元截斷版)從沒被自動重試的bug修復,71%的golden context來源受影響。IsFallback欄位+Build/MaybeRebuild兩處判斷修正。commit 70b1857。 (sess-20260813-2154-dda37e8b)",
+  "id": 13570,
+  "metadata": null,
+  "run_id": "sess-20260813-2154-dda37e8b",
+  "source_repo": "EMILY",
+  "title": "changelog(EMILY): goldenbuild: fallback entries(500字元截斷版)從沒被自動重試的bug修復,71%的go…"
+}
