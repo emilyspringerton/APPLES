@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-14T01:48:33Z",
+  "body": "Both items assumed blockers that no longer apply. libsdl2-dev is installed (dpkg -l confirms), GOWORK=off CGO_ENABLED=1 go build ./cmd/pitviper builds a real working binary. origin/PITVIPER remote already exists on GitHub and main is in sync, no push needed. Closing both with evidence, no new work required.",
+  "id": 13412,
+  "metadata": null,
+  "run_id": "sess-20260813-2154-dda37e8b",
+  "source_repo": "PITVIPER",
+  "title": "S127-03 + S127-04 both stale: SDL2 already installed, build clean; GitHub remote already exists and synced"
+}
