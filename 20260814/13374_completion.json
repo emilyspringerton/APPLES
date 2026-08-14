@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-14T01:04:23Z",
+  "body": "Found earlier this session (Apple #13321/#13347): entity-graph's PublishObservation\n(internal/entitygraph/observer.go) wrote straight to \u003ctimestamp-to-the-second\u003e.json with no\ncollision check -- confirmed live, it silently clobbered a real founder directive (\"24 more\" blog\nposts) that happened to land on the exact same second as one of entity-graph's own periodic\nhealth-report observations. emily observe's own writer (internal/obs/writer.go) already had this\nexact numeric-suffix collision guard, added 2026-08-09 after losing observations the same way --\nentity-graph's independently-implemented writer never got the same fix.\n\nFixed: same collision-avoidance pattern (stat, bump to -2/-3/... suffix until a free name is\nfound), refactored PublishObservation into a thin wrapper over a new publishObservationAt(obs,\ndir, ts) so the collision logic is directly unit-testable without depending on real wall-clock\ntiming. Two new regression tests (TestPublishObservation_DoesNotClobberSameSecondArchive,\nTestPublishObservation_LatestJSONAlwaysReflectsMostRecentWrite) -- the first reproduces the exact\nreal failure and confirms both writes now survive under distinct filenames, the second confirms\nlatest.json (unlike the archive) is still correctly always-overwrite (that's its whole point,\nunaffected by this fix).\n\ngo test ./... clean across the whole module. Rebuilt bin/entity-graph, restarted\nfatbaby-entity-graph.service, confirmed healthy.",
+  "id": 13374,
+  "metadata": null,
+  "run_id": "sess-20260813-2154-dda37e8b",
+  "source_repo": "PRRJECT_FATBABY",
+  "title": "Fixed entity-graph observation-writer collision bug (real data loss, caught this session)"
+}
