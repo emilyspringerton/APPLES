@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-14T23:39:02Z",
+  "generated_at": "2026-08-14T23:39:07Z",
   "repo": "APPLES",
-  "count": 3074,
+  "count": 3075,
   "apples": [
     {
       "id": 10525,
@@ -24590,10 +24590,18 @@
     {
       "id": 13608,
       "type": "observation",
-      "title": "首次真正end-to-end --autocurriculum訓練完成:7W/13L/0D(35%)對抗固定heuristic,遠低於noisy-gestalt那次的100%——很可能\ufffd\ufffd",
+      "title": "首次真正end-to-end --autocurriculum訓練完成:7W/13L/0D(35%)對抗固定heuristic,遠低於noisy-gestalt那次的100%——很可能��",
       "source_repo": "REDGARDEN",
       "date": "20260814",
       "archived_at": "2026-08-14T23:39:02Z"
+    },
+    {
+      "id": 13609,
+      "type": "completion",
+      "title": "changelog(REDGARDEN): 首次真正end-to-end --autocurriculum訓練完成:7W/13L/0D(35%)對抗固定heuri…",
+      "source_repo": "REDGARDEN",
+      "date": "20260814",
+      "archived_at": "2026-08-14T23:39:07Z"
     }
   ]
 }
