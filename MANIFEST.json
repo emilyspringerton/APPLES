@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-14T02:00:59Z",
+  "generated_at": "2026-08-14T02:01:04Z",
   "repo": "APPLES",
-  "count": 2903,
+  "count": 2904,
   "apples": [
     {
       "id": 10525,
@@ -23226,6 +23226,14 @@
       "source_repo": "emily.cli",
       "date": "20260814",
       "archived_at": "2026-08-14T02:00:59Z"
+    },
+    {
+      "id": 13438,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time, final detail: SKULDMARK integration should be v1 (real/complete), not v0 …",
+      "source_repo": "CLI",
+      "date": "20260814",
+      "archived_at": "2026-08-14T02:01:04Z"
     }
   ]
 }
