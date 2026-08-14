@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-14T01:00:03Z",
+  "generated_at": "2026-08-14T01:00:10Z",
   "repo": "APPLES",
-  "count": 2835,
+  "count": 2836,
   "apples": [
     {
       "id": 10525,
@@ -22682,6 +22682,14 @@
       "source_repo": "IDUNA",
       "date": "20260814",
       "archived_at": "2026-08-14T01:00:03Z"
+    },
+    {
+      "id": 13370,
+      "type": "completion",
+      "title": "changelog(OKEMILY): Added robots.txt (Disallow: /blog-manifest.txt) for the new…",
+      "source_repo": "OKEMILY",
+      "date": "20260814",
+      "archived_at": "2026-08-14T01:00:10Z"
     }
   ]
 }
