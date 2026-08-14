@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-14T21:41:33Z",
+  "body": "追查鏈:先誤以為是GoblinFoxDragon/apps2/mud的binary過舊(那是MUD文字世界,跟Four Kings所在的battlegrounds_gui是完全不同系統,mud服務本身沒問題)。真正問題是redgarden-stable這個獨立clone(CLAUDE.md記載:GFD Battlegrounds真正在跑的部署,需要手動promote)最後一次git pull是2026-08-10 03:48,早於Four Kings commit(434c629,08:56)以及之後4天多所有REDGARDEN更新。已執行標準promote流程:git pull(594行arena_game.c變動)+build(exit 0,測試test_arena.sh全過)+重啟redgarden-stable-matchmaker-bots/bot-pool兩個服務,live確認健康運行。",
+  "id": 13584,
+  "metadata": null,
+  "run_id": "sess-20260813-2154-dda37e8b",
+  "source_repo": "REDGARDEN",
+  "title": "找到並修復founder看不到Four Kings的真正原因:redgarden-stable(GFD Battlegrounds真正在跑的部署)自08-10就沒被promote過,錯過了Four Kings"
+}
