@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-14T20:36:15Z",
+  "body": "founder 回報'chat bridge需要key'。查證後發現真正根因是 Paper 自己的 enforce-secure-profile 強制聊天簽名機制(玩家.GarbageMan4147撞到'Chat disabled due to missing profile public key'),不是 GTA7 plugin 的 ChatBridgePoller/ChatBridgeListener 出問題。已改 enforce-secure-profile=false,online-mode保持true。無人在線時安全重啟,開機日誌乾淨。commit 14e07c7。",
+  "id": 13544,
+  "metadata": null,
+  "run_id": "sess-20260813-2154-dda37e8b",
+  "source_repo": "EINHORN_SURVIVAL",
+  "title": "修復玩家聊天被鎖問題:根因是 Paper 內建 secure-chat,跟 GTA7 chat bridge 無關"
+}

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-14T20:35:17Z",
+  "generated_at": "2026-08-14T20:36:15Z",
   "repo": "APPLES",
-  "count": 3009,
+  "count": 3010,
   "apples": [
     {
       "id": 10525,
@@ -24074,6 +24074,14 @@
       "source_repo": "emily.cli",
       "date": "20260814",
       "archived_at": "2026-08-14T20:35:17Z"
+    },
+    {
+      "id": 13544,
+      "type": "completion",
+      "title": "修復玩家聊天被鎖問題:根因是 Paper 內建 secure-chat,跟 GTA7 chat bridge 無關",
+      "source_repo": "EINHORN_SURVIVAL",
+      "date": "20260814",
+      "archived_at": "2026-08-14T20:36:15Z"
     }
   ]
 }
