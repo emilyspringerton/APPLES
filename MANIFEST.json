@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-14T01:58:16Z",
+  "generated_at": "2026-08-14T01:58:38Z",
   "repo": "APPLES",
-  "count": 2883,
+  "count": 2884,
   "apples": [
     {
       "id": 10525,
@@ -23066,6 +23066,14 @@
       "source_repo": "emily.cli",
       "date": "20260814",
       "archived_at": "2026-08-14T01:58:16Z"
+    },
+    {
+      "id": 13418,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: ensure all fatbaby (PRRJECT_FATBABY) operations are tip top",
+      "source_repo": "CLI",
+      "date": "20260814",
+      "archived_at": "2026-08-14T01:58:38Z"
     }
   ]
 }
