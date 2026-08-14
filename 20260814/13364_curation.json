@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "curation",
+  "archived_at": "2026-08-14T00:53:17Z",
+  "body": "Curated 1 FatBaby observations into EMILY/BACKLOG.md INTAKE QUEUE.\n\nItems:\n- Fixed the real SEC-filings-display bug (garbled mess = leaked Inline-XBRL ix:header content, 6.5% of a real Costco 10-Q). Apple #13361, commit 21d625d. Real follow-up flagged, not done: existing already-persisted source_document_persisted events fetched BEFORE this fix still have the old corrupted CleanedText -- only new fetches get clean text going forward. A backfill/re-clean pass against historical filings is separate, real work. (2026-08-14T00:53:14Z)\n",
+  "id": 13364,
+  "metadata": null,
+  "run_id": "backlog-curate-1786668797",
+  "source_repo": "emily.cli",
+  "title": "backlog curate: 1 obs -\u003e INTAKE QUEUE"
+}
