@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-14T01:52:48Z",
+  "body": "make install fixed a real go.work bug (every target silently broken, needed GOWORK=off) and now installs to ~/.local/bin matching emily.cli/IDUNA CLI convention. Ctrl+Alt+I hotkey verified live via Xvfb+XTest+screenshot -- real ssh connection attempt to iduna.farthq.com confirmed in the captured frame. First README.md this repo has had. Commit d9cce1a.",
+  "id": 13413,
+  "metadata": null,
+  "run_id": "sess-20260813-2154-dda37e8b",
+  "source_repo": "PITVIPER",
+  "title": "Installable via make install (~/.local/bin) + Ctrl+Alt+I SSH-to-IDUNA hotkey, both live-verified"
+}

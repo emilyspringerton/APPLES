@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-14T01:48:33Z",
+  "generated_at": "2026-08-14T01:52:48Z",
   "repo": "APPLES",
-  "count": 2878,
+  "count": 2879,
   "apples": [
     {
       "id": 10525,
@@ -23026,6 +23026,14 @@
       "source_repo": "PITVIPER",
       "date": "20260814",
       "archived_at": "2026-08-14T01:48:33Z"
+    },
+    {
+      "id": 13413,
+      "type": "completion",
+      "title": "Installable via make install (~/.local/bin) + Ctrl+Alt+I SSH-to-IDUNA hotkey, both live-verified",
+      "source_repo": "PITVIPER",
+      "date": "20260814",
+      "archived_at": "2026-08-14T01:52:48Z"
     }
   ]
 }
