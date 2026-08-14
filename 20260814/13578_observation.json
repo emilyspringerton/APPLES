@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "observation",
+  "archived_at": "2026-08-14T21:31:49Z",
+  "body": "追查鏈:earningscal要求source_document_persisted.Form=='8-K',但AAPL等ticker的記錄form是空字串+source_type錯標press_release,即使原始filing_discovered事件本身正確(form_type:8-K已驗證)。根因:2026-05-30當天processor用pre-S160-01的sourceTypeForForm邏輯寫入這些記錄,S160-01(07-19)修好了往後的邏輯但沒有回填已寫壞的舊記錄,而processor自己的seen.hasSource去重邏輯讓這些記錄永久卡住不會重新產生。完整範圍量測:1104/13744筆source_document_persisted跨11個ticker(AAPL 279/MSTR 212/IBKR 128等)。真正修復需要兩處:(a)從filing_discovered反查正確form並emit修正事件,(b)docindex.Ingest是first-write-wins,不修這裡的話修正事件會被靜默忽略。未在這次動手修(涉及兩層去重邏輯,範圍值得獨立一個pass做),已完整記錄進backlog S166-01+S160-05(S160-05優先級從'optional low priority'上修)。",
+  "id": 13578,
+  "metadata": null,
+  "run_id": "sess-20260813-2154-dda37e8b",
+  "source_repo": "PRRJECT_FATBABY",
+  "title": "S166-01根因完整追查:earnings widget顯示陳舊資料的真正原因是S160-05低估的資料品質bug,實際影響1104筆/11檔ticker,需要兩處程式碼修復"
+}

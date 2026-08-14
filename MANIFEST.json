@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-14T21:25:47Z",
+  "generated_at": "2026-08-14T21:31:49Z",
   "repo": "APPLES",
-  "count": 3043,
+  "count": 3044,
   "apples": [
     {
       "id": 10525,
@@ -24346,6 +24346,14 @@
       "source_repo": "emily",
       "date": "20260814",
       "archived_at": "2026-08-14T21:25:47Z"
+    },
+    {
+      "id": 13578,
+      "type": "observation",
+      "title": "S166-01根因完整追查:earnings widget顯示陳舊資料的真正原因是S160-05低估的資料品質bug,實際影響1104筆/11檔ticker",
+      "source_repo": "PRRJECT_FATBABY",
+      "date": "20260814",
+      "archived_at": "2026-08-14T21:31:49Z"
     }
   ]
 }
