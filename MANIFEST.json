@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-14T02:00:23Z",
+  "generated_at": "2026-08-14T02:00:27Z",
   "repo": "APPLES",
-  "count": 2896,
+  "count": 2897,
   "apples": [
     {
       "id": 10525,
@@ -23170,6 +23170,14 @@
       "source_repo": "CLI",
       "date": "20260814",
       "archived_at": "2026-08-14T02:00:23Z"
+    },
+    {
+      "id": 13431,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: tease the upcoming data-publishing product on the blog",
+      "source_repo": "CLI",
+      "date": "20260814",
+      "archived_at": "2026-08-14T02:00:27Z"
     }
   ]
 }
