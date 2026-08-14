@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-14T00:53:17Z",
+  "generated_at": "2026-08-14T00:54:19Z",
   "repo": "APPLES",
-  "count": 2830,
+  "count": 2831,
   "apples": [
     {
       "id": 10525,
@@ -22642,6 +22642,14 @@
       "source_repo": "emily.cli",
       "date": "20260814",
       "archived_at": "2026-08-14T00:53:17Z"
+    },
+    {
+      "id": 13365,
+      "type": "signal_observation",
+      "title": "[INFO] Answer: yes, movers-watcher has been saving real structured price-action data (market_movers…",
+      "source_repo": "CLI",
+      "date": "20260814",
+      "archived_at": "2026-08-14T00:54:19Z"
     }
   ]
 }
