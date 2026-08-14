@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-14T23:09:05Z",
+  "body": "docindex.Ingest改成last-write-wins(4個新測試),processor.SourceTypeForForm export重用,新cmd/backfill-source-doc-labels一次性migration(4個新測試,dry-run/live-run都是1104/1104筆修正,0 no_match)。Live部署鏈:migration→重啟earnings-calendar(cursor tail撿到修正)→重啟newssite(重新載入docindex/earningscal)。Live驗證:AAPL ticker頁面Earnings widget從'Jan 22, 2008'變成'Jan 29, 2026',NVDA/GOOG同步確認。commit c9e94be。BLK仍獨立不在此次範圍(CIK問題,SECTION 175已記錄)。",
+  "id": 13603,
+  "metadata": null,
+  "run_id": "sess-20260813-2154-dda37e8b",
+  "source_repo": "PRRJECT_FATBABY",
+  "title": "S166-01/S160-05 真正修復:1104筆/11檔ticker的earnings widget陳舊資料bug,兩處程式碼修復+migration,live驗證AAPL/NVDA/GOOG正確"
+}
