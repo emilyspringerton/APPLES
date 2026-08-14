@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-14T21:10:44Z",
+  "generated_at": "2026-08-14T21:10:46Z",
   "repo": "APPLES",
-  "count": 3035,
+  "count": 3036,
   "apples": [
     {
       "id": 10525,
@@ -24282,6 +24282,14 @@
       "source_repo": "EMILY",
       "date": "20260814",
       "archived_at": "2026-08-14T21:10:44Z"
+    },
+    {
+      "id": 13570,
+      "type": "completion",
+      "title": "changelog(EMILY): goldenbuild: fallback entries(500字元截斷版)從沒被自動重試的bug修復,71%的go…",
+      "source_repo": "EMILY",
+      "date": "20260814",
+      "archived_at": "2026-08-14T21:10:46Z"
     }
   ]
 }
