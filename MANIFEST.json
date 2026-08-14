@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-14T20:36:15Z",
+  "generated_at": "2026-08-14T20:36:17Z",
   "repo": "APPLES",
-  "count": 3010,
+  "count": 3011,
   "apples": [
     {
       "id": 10525,
@@ -24082,6 +24082,14 @@
       "source_repo": "EINHORN_SURVIVAL",
       "date": "20260814",
       "archived_at": "2026-08-14T20:36:15Z"
+    },
+    {
+      "id": 13545,
+      "type": "completion",
+      "title": "changelog(EINHORN_SURVIVAL): enforce-secure-profile=false -- 修復玩家聊天被Paper自身安全機制鎖住的問題(誤以為…",
+      "source_repo": "EINHORN_SURVIVAL",
+      "date": "20260814",
+      "archived_at": "2026-08-14T20:36:17Z"
     }
   ]
 }
