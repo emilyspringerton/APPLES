@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-14T00:45:54Z",
+  "generated_at": "2026-08-14T00:46:01Z",
   "repo": "APPLES",
-  "count": 2824,
+  "count": 2825,
   "apples": [
     {
       "id": 10525,
@@ -22594,6 +22594,14 @@
       "source_repo": "PITVIPER",
       "date": "20260814",
       "archived_at": "2026-08-14T00:45:54Z"
+    },
+    {
+      "id": 13359,
+      "type": "signal_observation",
+      "title": "[INFO] PITVIPER: fixed the real compile error (terminal.Close type mismatch). Also flagged the foun…",
+      "source_repo": "CLI",
+      "date": "20260814",
+      "archived_at": "2026-08-14T00:46:01Z"
     }
   ]
 }
