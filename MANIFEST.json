@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-14T23:39:07Z",
+  "generated_at": "2026-08-14T23:39:45Z",
   "repo": "APPLES",
-  "count": 3075,
+  "count": 3076,
   "apples": [
     {
       "id": 10525,
@@ -24602,6 +24602,14 @@
       "source_repo": "REDGARDEN",
       "date": "20260814",
       "archived_at": "2026-08-14T23:39:07Z"
+    },
+    {
+      "id": 13610,
+      "type": "signal_observation",
+      "title": "[WARN] 自我修正:剛才Apple #13608跟REDGARDEN commit都誤稱這是'首次'真正end-to-end --…",
+      "source_repo": "CLI",
+      "date": "20260814",
+      "archived_at": "2026-08-14T23:39:45Z"
     }
   ]
 }
