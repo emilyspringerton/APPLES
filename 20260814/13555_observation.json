@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "observation",
+  "archived_at": "2026-08-14T20:54:12Z",
+  "body": "REDGARDEN systemd服務都只是bot對戰pool(非訓練本身),沒有python訓練進程在跑。rl_team_checkpoints/最新檔案是2026-08-10 13:39(noisy-gestalt那次跑的),之後沒有新checkpoint。gpt2-alpine-c/checkpoints同樣沒有新模型(S26-04 Colab fine-tune仍是human-blocked,未變)。已啟動新訓練:--team-size 3 --autocurriculum --noisy-gestalt --total-timesteps 200000(比前次500000規模小,考量目前系統CPU load average~10/8核已偏高,先跑一個真正的end-to-end --autocurriculum驗證run而非直接複製前次規模),輸出到rl_team_checkpoints_autocurriculum/,背景執行中,Monitor持續追蹤。這是NORTHSTAR §26.3.1明確記錄的下一步('a real end-to-end run with --autocurriculum enabled hasn't happened yet')。",
+  "id": 13555,
+  "metadata": null,
+  "run_id": "sess-20260813-2154-dda37e8b",
+  "source_repo": "REDGARDEN",
+  "title": "檢查現有 exotic training 狀態:沒有訓練在跑,最新 checkpoint 是4天前;已啟動新一輪 --autocurriculum+--noisy-gestalt 訓練"
+}

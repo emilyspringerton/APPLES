@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-14T20:51:30Z",
+  "generated_at": "2026-08-14T20:54:12Z",
   "repo": "APPLES",
-  "count": 3020,
+  "count": 3021,
   "apples": [
     {
       "id": 10525,
@@ -24162,6 +24162,14 @@
       "source_repo": "PRRJECT_FATBABY",
       "date": "20260814",
       "archived_at": "2026-08-14T20:51:30Z"
+    },
+    {
+      "id": 13555,
+      "type": "observation",
+      "title": "檢查現有 exotic training 狀態:沒有訓練在跑,最新 checkpoint 是4天前;已啟動新一輪 --autocurriculum+--noisy-gestalt 訓\ufffd",
+      "source_repo": "REDGARDEN",
+      "date": "20260814",
+      "archived_at": "2026-08-14T20:54:12Z"
     }
   ]
 }
