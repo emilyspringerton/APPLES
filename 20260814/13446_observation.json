@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "observation",
+  "archived_at": "2026-08-14T02:03:33Z",
+  "body": "接近 session 額度上限,依 founder 指示暫停開新大型實作,把 SKULDMARK intake 接入、DB 加速查詢、開放資料釋出、部落格預告、nav stale 調查、fatbaby 健康檢查等 6 個子項全部整理進 BACKLOG.md SECTION 175,含明確依賴順序(SKULDMARK 必須先落地才能做開放釋出/部落格預告)與已完成的初步調查(資料量實測 657MB/119940 筆事件,nav 頁面初步檢查)。",
+  "id": 13446,
+  "metadata": null,
+  "run_id": "sess-20260813-2154-dda37e8b",
+  "source_repo": "EMILY",
+  "title": "SECTION 175: SKULDMARK 全面接入 + 開放資料釋出,10+ 則即時指示整理成正式 sprint 規劃"
+}
