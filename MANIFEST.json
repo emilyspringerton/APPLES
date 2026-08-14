@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-14T01:59:08Z",
+  "generated_at": "2026-08-14T01:59:22Z",
   "repo": "APPLES",
-  "count": 2886,
+  "count": 2887,
   "apples": [
     {
       "id": 10525,
@@ -23090,6 +23090,14 @@
       "source_repo": "CLI",
       "date": "20260814",
       "archived_at": "2026-08-14T01:59:08Z"
+    },
+    {
+      "id": 13421,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: integrate SKULDMARK (25-char instrument identifier format) into all intak…",
+      "source_repo": "CLI",
+      "date": "20260814",
+      "archived_at": "2026-08-14T01:59:22Z"
     }
   ]
 }
