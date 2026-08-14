@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-14T20:31:00Z",
+  "generated_at": "2026-08-14T20:32:19Z",
   "repo": "APPLES",
-  "count": 3002,
+  "count": 3003,
   "apples": [
     {
       "id": 10525,
@@ -24018,6 +24018,14 @@
       "source_repo": "emily.cli",
       "date": "20260814",
       "archived_at": "2026-08-14T20:31:00Z"
+    },
+    {
+      "id": 13537,
+      "type": "signal_observation",
+      "title": "[WARN] 創辦人即時指示:Minecraft 端 chat bridge 出錯,顯示需要一組 key,founder 認為…",
+      "source_repo": "CLI",
+      "date": "20260814",
+      "archived_at": "2026-08-14T20:32:19Z"
     }
   ]
 }
