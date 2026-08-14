@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-14T01:21:10Z",
+  "generated_at": "2026-08-14T01:21:37Z",
   "repo": "APPLES",
-  "count": 2868,
+  "count": 2869,
   "apples": [
     {
       "id": 10525,
@@ -22946,6 +22946,14 @@
       "source_repo": "emily.cli",
       "date": "20260814",
       "archived_at": "2026-08-14T01:21:10Z"
+    },
+    {
+      "id": 13403,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: asking status + wants the okemily blog-manifest URL surfaced now",
+      "source_repo": "CLI",
+      "date": "20260814",
+      "archived_at": "2026-08-14T01:21:37Z"
     }
   ]
 }
