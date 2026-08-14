@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-14T20:50:28Z",
+  "generated_at": "2026-08-14T20:50:33Z",
   "repo": "APPLES",
-  "count": 3015,
+  "count": 3016,
   "apples": [
     {
       "id": 10525,
@@ -24122,6 +24122,14 @@
       "source_repo": "emily.cli",
       "date": "20260814",
       "archived_at": "2026-08-14T20:50:28Z"
+    },
+    {
+      "id": 13550,
+      "type": "signal_observation",
+      "title": "[INFO] 創辦人即時指示補充:同時檢查有沒有新的模型(model checkpoints)產出",
+      "source_repo": "CLI",
+      "date": "20260814",
+      "archived_at": "2026-08-14T20:50:33Z"
     }
   ]
 }
