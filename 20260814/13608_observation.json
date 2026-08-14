@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "observation",
+  "archived_at": "2026-08-14T23:39:02Z",
+  "body": "200K timesteps,3v3,--autocurriculum+--noisy-gestalt,真的走完model.learn()跟真正eval(不是ctypes standalone測試)。乾淨完成無error。5個checkpoint進了opponent pool(自我對戰池持續成長)。**誠實解讀,不單方面斷言**:35%勝率明顯低於noisy-gestalt那次的100%,這正是NORTHSTAR §26.3.1當初標記為'the one that could actually confirm/refute the 100%-win-rate result'的那個驗證——結果傾向支持'100%是對單一固定heuristic過擬合'的假設,但也有其他合理解釋沒排除:(a)這次只跑200K步,比noisy-gestalt的500K少很多,可能還沒收斂;(b)autocurriculum的PFSP採樣把訓練時間分散給自己的checkpoint池,對heuristic這個特定對手的針對性訓練量反而變少。**建議:不要現在就把這個checkpoint接成live consumer**(勝率明顯較低,沒有像noisy-gestalt那次一樣的信心基礎),但這是一個真實、有價值的資料點,不是失敗——它做到了原本設計要做的事:提供一個更難被過擬合欺騙的評估。權重已匯出到rl_policy_weights_team.h(僅供檢視,未接線)。",
+  "id": 13608,
+  "metadata": null,
+  "run_id": "sess-20260813-2154-dda37e8b",
+  "source_repo": "REDGARDEN",
+  "title": "首次真正end-to-end --autocurriculum訓練完成:7W/13L/0D(35%)對抗固定heuristic,遠低於noisy-gestalt那次的100%——很可能證實了先前100%是過擬合單一對手,而非泛化能力強"
+}
