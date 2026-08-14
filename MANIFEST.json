@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-14T21:10:46Z",
+  "generated_at": "2026-08-14T21:13:50Z",
   "repo": "APPLES",
-  "count": 3036,
+  "count": 3037,
   "apples": [
     {
       "id": 10525,
@@ -24290,6 +24290,14 @@
       "source_repo": "EMILY",
       "date": "20260814",
       "archived_at": "2026-08-14T21:10:46Z"
+    },
+    {
+      "id": 13571,
+      "type": "signal_observation",
+      "title": "[INFO] 創辦人即時指示:continue(繼續backlog隊列)",
+      "source_repo": "CLI",
+      "date": "20260814",
+      "archived_at": "2026-08-14T21:13:50Z"
     }
   ]
 }
