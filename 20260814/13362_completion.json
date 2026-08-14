@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-14T00:53:04Z",
+  "body": "CHANGELOG updated in PRRJECT_FATBABY: Fixed real bug: SEC filing text extraction leaked the hidden Inline-XBRL \u003cix:header\u003e block's raw content (58KB of context/unit identifiers on a real Costco 10-Q) into CleanedText, ahead of the actual filing text -- this is what newssite readers saw as 'garbled' (sess-20260813-2154-dda37e8b)",
+  "id": 13362,
+  "metadata": null,
+  "run_id": "sess-20260813-2154-dda37e8b",
+  "source_repo": "PRRJECT_FATBABY",
+  "title": "changelog(PRRJECT_FATBABY): Fixed real bug: SEC filing text extraction leaked the hidde…"
+}

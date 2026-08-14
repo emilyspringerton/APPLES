@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-14T00:52:55Z",
+  "generated_at": "2026-08-14T00:53:04Z",
   "repo": "APPLES",
-  "count": 2827,
+  "count": 2828,
   "apples": [
     {
       "id": 10525,
@@ -22618,6 +22618,14 @@
       "source_repo": "PRRJECT_FATBABY",
       "date": "20260814",
       "archived_at": "2026-08-14T00:52:55Z"
+    },
+    {
+      "id": 13362,
+      "type": "completion",
+      "title": "changelog(PRRJECT_FATBABY): Fixed real bug: SEC filing text extraction leaked the hidde…",
+      "source_repo": "PRRJECT_FATBABY",
+      "date": "20260814",
+      "archived_at": "2026-08-14T00:53:04Z"
     }
   ]
 }
