@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-14T01:11:54Z",
+  "generated_at": "2026-08-14T01:12:01Z",
   "repo": "APPLES",
-  "count": 2851,
+  "count": 2852,
   "apples": [
     {
       "id": 10525,
@@ -22810,6 +22810,14 @@
       "source_repo": "BRAWLPIT",
       "date": "20260814",
       "archived_at": "2026-08-14T01:11:54Z"
+    },
+    {
+      "id": 13386,
+      "type": "signal_observation",
+      "title": "[INFO] TIPJAR/BRAWLPIT build checked thoroughly -- was never actually broken (fresh clone + gcc bui…",
+      "source_repo": "CLI",
+      "date": "20260814",
+      "archived_at": "2026-08-14T01:12:01Z"
     }
   ]
 }
