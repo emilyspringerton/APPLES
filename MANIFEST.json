@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-14T20:54:12Z",
+  "generated_at": "2026-08-14T20:54:16Z",
   "repo": "APPLES",
-  "count": 3021,
+  "count": 3022,
   "apples": [
     {
       "id": 10525,
@@ -24166,10 +24166,18 @@
     {
       "id": 13555,
       "type": "observation",
-      "title": "檢查現有 exotic training 狀態:沒有訓練在跑,最新 checkpoint 是4天前;已啟動新一輪 --autocurriculum+--noisy-gestalt 訓\ufffd",
+      "title": "檢查現有 exotic training 狀態:沒有訓練在跑,最新 checkpoint 是4天前;已啟動新一輪 --autocurriculum+--noisy-gestalt 訓�",
       "source_repo": "REDGARDEN",
       "date": "20260814",
       "archived_at": "2026-08-14T20:54:12Z"
+    },
+    {
+      "id": 13556,
+      "type": "completion",
+      "title": "changelog(REDGARDEN): 啟動新一輪 --autocurriculum + --noisy-gestalt 訓練(200K timesteps,…",
+      "source_repo": "REDGARDEN",
+      "date": "20260814",
+      "archived_at": "2026-08-14T20:54:16Z"
     }
   ]
 }
