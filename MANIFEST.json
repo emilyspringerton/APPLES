@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-14T00:53:04Z",
+  "generated_at": "2026-08-14T00:53:14Z",
   "repo": "APPLES",
-  "count": 2828,
+  "count": 2829,
   "apples": [
     {
       "id": 10525,
@@ -22626,6 +22626,14 @@
       "source_repo": "PRRJECT_FATBABY",
       "date": "20260814",
       "archived_at": "2026-08-14T00:53:04Z"
+    },
+    {
+      "id": 13363,
+      "type": "signal_observation",
+      "title": "[INFO] Fixed the real SEC-filings-display bug (garbled mess = leaked Inline-XBRL ix:header content,…",
+      "source_repo": "CLI",
+      "date": "20260814",
+      "archived_at": "2026-08-14T00:53:14Z"
     }
   ]
 }
