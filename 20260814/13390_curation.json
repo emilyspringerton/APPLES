@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "curation",
+  "archived_at": "2026-08-14T01:12:56Z",
+  "body": "Curated 2 FatBaby observations into EMILY/BACKLOG.md INTAKE QUEUE.\n\nItems:\n- Process sync done: rebuilt+restarted processor and prwatch-body (were running pre-XBRL-fix binaries). Apple #13387. Also: TIPJAR/BRAWLPIT build checked and confirmed never broken, added missing scripts/build.sh. Apple #13384/13386. (2026-08-14T01:12:56Z)\n- TIPJAR/BRAWLPIT build checked thoroughly -- was never actually broken (fresh clone + gcc build both pass clean, exit 0). Real gap found instead: repo had no build script at all (unlike every sibling repo), so running 'make' fails with no Makefile -- added scripts/build.sh to close that gap. Apple #13384, commit 6872f01. (2026-08-14T01:12:00Z)\n",
+  "id": 13390,
+  "metadata": null,
+  "run_id": "backlog-curate-1786669976",
+  "source_repo": "emily.cli",
+  "title": "backlog curate: 2 obs -\u003e INTAKE QUEUE"
+}
