@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-14T20:32:21Z",
+  "generated_at": "2026-08-14T20:32:26Z",
   "repo": "APPLES",
-  "count": 3004,
+  "count": 3005,
   "apples": [
     {
       "id": 10525,
@@ -24034,6 +24034,14 @@
       "source_repo": "emily.cli",
       "date": "20260814",
       "archived_at": "2026-08-14T20:32:21Z"
+    },
+    {
+      "id": 13539,
+      "type": "signal_observation",
+      "title": "[INFO] 創辦人即時指示:確認要修——立即開始調查 chat bridge 的 key 錯誤",
+      "source_repo": "CLI",
+      "date": "20260814",
+      "archived_at": "2026-08-14T20:32:26Z"
     }
   ]
 }
