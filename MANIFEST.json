@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-14T01:04:30Z",
+  "generated_at": "2026-08-14T01:04:35Z",
   "repo": "APPLES",
-  "count": 2841,
+  "count": 2842,
   "apples": [
     {
       "id": 10525,
@@ -22730,6 +22730,14 @@
       "source_repo": "PRRJECT_FATBABY",
       "date": "20260814",
       "archived_at": "2026-08-14T01:04:30Z"
+    },
+    {
+      "id": 13376,
+      "type": "signal_observation",
+      "title": "[INFO] Fixed the entity-graph observation-writer collision bug (Apple #13374, PRRJECT_FATBABY commi…",
+      "source_repo": "CLI",
+      "date": "20260814",
+      "archived_at": "2026-08-14T01:04:35Z"
     }
   ]
 }
