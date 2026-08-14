@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-14T00:45:46Z",
+  "body": "Founder real-time: \"get PITVIPER working\" (obs 2026-08-13T22:41:12Z).\n\nReal compile bug fixed: cmd/pitviper/main.go:228 assigned terminal.Close (func(), PTY's real\nsignature) to connClose (declared func() error, matching mudconn.Conn.Close's real signature) --\nwrapped in a closure rather than changing PTY's own public API for one caller. GOWORK=off go\nbuild and go test both clean now.\n\nAlso found and flagged (not fully audited): CLAUDE.md's \"Milestone 0 not started\" claim is stale\n-- real code already exists well past Milestone 0 (689-line main.go, 842-line vterm with its own\n555-line test file, PTY handling, GFD API integration, MUD connection support).\ndocs/NORTHSTAR.md's own per-milestone status checkboxes look similarly stale. A real\nmilestone-by-milestone audit against actual code wasn't done this pass -- separate, real\nfollow-up work, flagged honestly rather than guessed at.\n\nFounder's other 2 PITVIPER asks (SSH hotkey into iduna.farthq.com, installable-as-terminal-client\nlike SHANKPIT/GFD/REDGARDEN) not started -- real feature work on top of a codebase whose actual\ncurrent milestone status isn't yet verified, so scoping those precisely should probably wait for\nthe audit above.\n\nCommit: \u003cpending, see git log\u003e.",
+  "id": 13357,
+  "metadata": null,
+  "run_id": "sess-20260813-2154-dda37e8b",
+  "source_repo": "PITVIPER",
+  "title": "Fixed compile error; flagged stale Milestone 0 claim"
+}
