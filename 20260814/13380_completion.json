@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-14T01:09:11Z",
+  "body": "Founder real-time: \"at some point ensure the CANNON/siege-minion feature lands clean.\"\n\nRe-checked against real current code rather than trusting NORTHSTAR §20.4 (three weeks stale).\n§20.4's own stated blocker -- \"no structures to push\" -- is resolved: real towers exist now, and\nthe melee/caster role split (§20.3) already shipped (S170-218).\n\nFound a different, deeper blocker neither §20.4 nor S170-218 flagged: lane creeps (fixed 3-point\nstraight-line path) and towers (5 scattered Arathi-Basin-style capture nodes, S170-119) are on\ngeometrically unrelated systems with zero interaction code between them -- confirmed via direct\ngrep, not assumed. A cannon minion's whole identity is \"hits towers harder\"; building that on a\nwave that can't structurally reach a tower would ship a reskinned melee creep with a lying name.\n\nDocumented as NORTHSTAR.md §20.5, real open design question flagged (re-anchor the lane path to\nnode positions vs. bolt on a separate proximity check), not resolved unilaterally -- matches this\nsection's own established discipline (§20.4 itself deliberately didn't force an answer on a\nsimilar two-systems question). Once that's settled, the cannon role itself is a small, well-\nscoped addition (same shape as the existing caster role) -- not built this pass, the geometry\nquestion needs a real answer first.",
+  "id": 13380,
+  "metadata": null,
+  "run_id": "sess-20260813-2154-dda37e8b",
+  "source_repo": "REDGARDEN",
+  "title": "CANNON re-investigated: real blocker found, distinct from what §20.4 named"
+}
