@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-14T21:13:53Z",
+  "generated_at": "2026-08-14T21:21:03Z",
   "repo": "APPLES",
-  "count": 3038,
+  "count": 3039,
   "apples": [
     {
       "id": 10525,
@@ -24306,6 +24306,14 @@
       "source_repo": "emily.cli",
       "date": "20260814",
       "archived_at": "2026-08-14T21:13:53Z"
+    },
+    {
+      "id": 13573,
+      "type": "signal_observation",
+      "title": "[INFO] 創辦人即時指示:then/continue(訓練持續正常,30720+43008 timesteps進度確認)—…",
+      "source_repo": "CLI",
+      "date": "20260814",
+      "archived_at": "2026-08-14T21:21:03Z"
     }
   ]
 }
