@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-14T01:11:49Z",
+  "body": "Founder real-time: \"i think tipjar build is failing not sure.\"\n\nChecked thoroughly, not assumed: fresh git clone into a scratch dir + raw gcc build (the exact\nREADME-documented command) both succeeded cleanly, exit 0. The TIPJAR Step 3 code committed\nearlier this session (5376a84) is genuinely fine.\n\nReal gap found instead: this repo never had a build script at all, unlike every sibling repo in\nthis monorepo (REDGARDEN/GOLDENBAND/PRRJECT_FATBABY all have scripts/build.sh or a Makefile). If\n`make` was what got tried -- the natural first move, matching every other repo's own convention --\nit fails with \"No targets specified and no makefile found,\" since no Makefile exists either. That\nalmost certainly reads as \"the build is failing\" even though the actual C code was never at\nfault.\n\nAdded scripts/build.sh (builds + runs the physics smoke test, matching sibling repos'\nconvention), updated README.md to lead with it. Verified for real: ran the new script end to end,\nclean build + test pass.",
+  "id": 13384,
+  "metadata": null,
+  "run_id": "sess-20260813-2154-dda37e8b",
+  "source_repo": "BRAWLPIT",
+  "title": "Build was never actually broken -- added the missing scripts/build.sh"
+}
