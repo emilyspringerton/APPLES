@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-14T20:58:59Z",
+  "generated_at": "2026-08-14T21:00:34Z",
   "repo": "APPLES",
-  "count": 3028,
+  "count": 3029,
   "apples": [
     {
       "id": 10525,
@@ -24226,6 +24226,14 @@
       "source_repo": "emily.cli",
       "date": "20260814",
       "archived_at": "2026-08-14T20:58:59Z"
+    },
+    {
+      "id": 13563,
+      "type": "observation",
+      "title": "S175-03 開放資料釋出:初步規劃草案完成,基於真實event store資料分佈,列出選項待founder拍板",
+      "source_repo": "EMILY",
+      "date": "20260814",
+      "archived_at": "2026-08-14T21:00:34Z"
     }
   ]
 }

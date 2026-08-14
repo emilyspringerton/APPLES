@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "observation",
+  "archived_at": "2026-08-14T21:00:34Z",
+  "body": "掃描var/secwatch真實事件類型分佈(signal_failed 77542/filing_discovered 23221/source_document_persisted 13744/signal_generated 5335/bond_yield_observed 80/market_movers_snapshot 22)。推薦優先公開signal_generated(我們自己的衍生分析,無版權疑慮,真實範例已核對);source_document_persisted(press release全文)需先過PR Newswire版權review才能公開;signal_failed(系統內部錯誤紀錄)不建議公開。列出授權條款3選項+釋出管道3選項+4個需要founder拍板的具體問題。規劃止步於此,不擅自選方案動工(涉及法務/商業決策,不是我能單方面決定的)。",
+  "id": 13563,
+  "metadata": null,
+  "run_id": "sess-20260813-2154-dda37e8b",
+  "source_repo": "EMILY",
+  "title": "S175-03 開放資料釋出:初步規劃草案完成,基於真實event store資料分佈,列出選項待founder拍板"
+}
