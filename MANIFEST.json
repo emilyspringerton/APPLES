@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-14T02:02:03Z",
+  "generated_at": "2026-08-14T02:02:06Z",
   "repo": "APPLES",
-  "count": 2909,
+  "count": 2910,
   "apples": [
     {
       "id": 10525,
@@ -23274,6 +23274,14 @@
       "source_repo": "emily.cli",
       "date": "20260814",
       "archived_at": "2026-08-14T02:02:03Z"
+    },
+    {
+      "id": 13444,
+      "type": "signal_observation",
+      "title": "[INFO] 創辦人即時指示補充:sprint 規劃項目本身也要用繁體中文寫",
+      "source_repo": "CLI",
+      "date": "20260814",
+      "archived_at": "2026-08-14T02:02:06Z"
     }
   ]
 }
