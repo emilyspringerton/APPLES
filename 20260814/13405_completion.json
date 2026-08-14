@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-14T01:27:38Z",
+  "body": "New internal/moversindex package, GET /v1/movers-history/{ticker}[?limit=N] endpoint. Verified live against real recorded data (AAPL 2026-07-31 loser snapshot). go test ./... clean. commit 74e6b0f.",
+  "id": 13405,
+  "metadata": null,
+  "run_id": "sess-20260813-2154-dda37e8b",
+  "source_repo": "PRRJECT_FATBABY",
+  "title": "GET /v1/movers-history/{ticker}: surfaces movers-watcher's previously write-only price-action history"
+}

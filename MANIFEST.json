@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-14T01:21:54Z",
+  "generated_at": "2026-08-14T01:27:38Z",
   "repo": "APPLES",
-  "count": 2870,
+  "count": 2871,
   "apples": [
     {
       "id": 10525,
@@ -22962,6 +22962,14 @@
       "source_repo": "emily.cli",
       "date": "20260814",
       "archived_at": "2026-08-14T01:21:54Z"
+    },
+    {
+      "id": 13405,
+      "type": "completion",
+      "title": "GET /v1/movers-history/{ticker}: surfaces movers-watcher's previously write-only price-action history",
+      "source_repo": "PRRJECT_FATBABY",
+      "date": "20260814",
+      "archived_at": "2026-08-14T01:27:38Z"
     }
   ]
 }
