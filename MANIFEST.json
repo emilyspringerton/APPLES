@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-14T00:54:19Z",
+  "generated_at": "2026-08-14T00:55:23Z",
   "repo": "APPLES",
-  "count": 2831,
+  "count": 2832,
   "apples": [
     {
       "id": 10525,
@@ -22650,6 +22650,14 @@
       "source_repo": "CLI",
       "date": "20260814",
       "archived_at": "2026-08-14T00:54:19Z"
+    },
+    {
+      "id": 13366,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: wants a manifest file indexing all repos' files, built as a GitHub Action…",
+      "source_repo": "CLI",
+      "date": "20260814",
+      "archived_at": "2026-08-14T00:55:23Z"
     }
   ]
 }
