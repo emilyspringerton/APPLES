@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-14T20:32:19Z",
+  "generated_at": "2026-08-14T20:32:21Z",
   "repo": "APPLES",
-  "count": 3003,
+  "count": 3004,
   "apples": [
     {
       "id": 10525,
@@ -24026,6 +24026,14 @@
       "source_repo": "CLI",
       "date": "20260814",
       "archived_at": "2026-08-14T20:32:19Z"
+    },
+    {
+      "id": 13538,
+      "type": "curation",
+      "title": "backlog curate: 1 obs -\u003e INTAKE QUEUE",
+      "source_repo": "emily.cli",
+      "date": "20260814",
+      "archived_at": "2026-08-14T20:32:21Z"
     }
   ]
 }
