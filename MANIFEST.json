@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-14T20:50:33Z",
+  "generated_at": "2026-08-14T20:50:48Z",
   "repo": "APPLES",
-  "count": 3016,
+  "count": 3017,
   "apples": [
     {
       "id": 10525,
@@ -24130,6 +24130,14 @@
       "source_repo": "CLI",
       "date": "20260814",
       "archived_at": "2026-08-14T20:50:33Z"
+    },
+    {
+      "id": 13551,
+      "type": "signal_observation",
+      "title": "[INFO] 創辦人即時指示補充:檢查完現有訓練狀態後,啟動新一輪 autocurriculum ��…",
+      "source_repo": "CLI",
+      "date": "20260814",
+      "archived_at": "2026-08-14T20:50:48Z"
     }
   ]
 }
