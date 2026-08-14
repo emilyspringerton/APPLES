@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-14T20:51:28Z",
+  "body": "internal/skuldmarkid adapter + 兩個最早intake端點都會mint真正的25碼識別碼。watchlist.json 49/51補上真實Exchange(SEC官方資料核對),BLK/XOM因CIK資料品質問題誠實留空不猜測。順手修正SKULDMARK自己過時的README v0範例。go build/vet/test全綠,live重啟確認正確運作。commit fcefbe2。解鎖S175-03(開放資料釋出)的前置依賴。",
+  "id": 13553,
+  "metadata": null,
+  "run_id": "sess-20260813-2154-dda37e8b",
+  "source_repo": "PRRJECT_FATBABY",
+  "title": "S175-01 完成:SKULDMARK-25 真正接進 secwatch+prwatch intake,v1 不是 v0"
+}
