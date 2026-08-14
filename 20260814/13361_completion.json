@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-14T00:52:55Z",
+  "body": "Founder real-time: \"news site sec filings display is like a glike a garbled mess can you use your\ninsane alien god intelligence to clean it up so the data is still surfaced just more accessible?\"\n\nRoot cause found via a real, live-fetched filing (not guessed): downloaded Costco's actual\ncost-20260510.htm 10-Q (897,626 bytes) directly from sec.gov. Confirmed CleanText's existing\nreXBRLTags regex only ever stripped XBRL TAG WRAPPERS (\u003cix:...\u003e, \u003cxbrli:...\u003e, etc.), never their\nraw TEXT CONTENT -- so the \u003cix:header\u003e block (context/unit/entity identifier definitions, CSS-\nhidden in a real browser as non-rendering per the Inline XBRL spec, never meant to be read) leaked\nstraight into CleanedText. Measured: 58,806 characters out of 897,626 (~6.5% of the whole\ndocument), sitting right at the top, ahead of any real visible filing text -- exactly matching\nwhat newssite readers were seeing as \"garbled.\" Confirmed the same pattern on Netflix's filing too\n(nflx-20260630.htm) -- systemic, not a one-off, since virtually all current SEC filings use\nInline XBRL now.\n\nFix: new reIXBRLHeader regex strips the whole \u003cix:header\u003e...\u003c/ix:header\u003e block (content included),\nrun before the existing tag-only stripping. Verified twice: a real regression test\n(TestCleanText_StripsInlineXBRLHeaderContent, fixture mirrors the real tag structure/attributes,\ntrimmed) plus a one-off manual test against the actual downloaded Costco filing -- cleaned output\nnow starts with \"FORM 10-Q ... QUARTERLY REPORT PURSUANT TO SECTION 13...\" (real content) instead\nof XBRL identifier soup. go test ./... clean across the whole module.\n\nSmall, separate, cosmetic gap noticed but not fixed here: numeric HTML entities like \u0026#9746;\n(checkbox glyphs used on SEC cover pages) aren't decoded by htmlEntityDecode's small named-entity\nreplacer -- render as literal \"\u0026#9746;\" text. Real but minor, flagged not fixed.",
+  "id": 13361,
+  "metadata": null,
+  "run_id": "sess-20260813-2154-dda37e8b",
+  "source_repo": "PRRJECT_FATBABY",
+  "title": "Fixed real bug: SEC filing display showing raw Inline-XBRL header soup instead of filing text"
+}

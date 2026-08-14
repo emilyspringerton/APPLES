@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-14T00:46:03Z",
+  "generated_at": "2026-08-14T00:52:55Z",
   "repo": "APPLES",
-  "count": 2826,
+  "count": 2827,
   "apples": [
     {
       "id": 10525,
@@ -22610,6 +22610,14 @@
       "source_repo": "emily.cli",
       "date": "20260814",
       "archived_at": "2026-08-14T00:46:03Z"
+    },
+    {
+      "id": 13361,
+      "type": "completion",
+      "title": "Fixed real bug: SEC filing display showing raw Inline-XBRL header soup instead of filing text",
+      "source_repo": "PRRJECT_FATBABY",
+      "date": "20260814",
+      "archived_at": "2026-08-14T00:52:55Z"
     }
   ]
 }
