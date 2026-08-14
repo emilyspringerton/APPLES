@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-14T01:58:47Z",
+  "generated_at": "2026-08-14T01:59:08Z",
   "repo": "APPLES",
-  "count": 2885,
+  "count": 2886,
   "apples": [
     {
       "id": 10525,
@@ -23082,6 +23082,14 @@
       "source_repo": "CLI",
       "date": "20260814",
       "archived_at": "2026-08-14T01:58:47Z"
+    },
+    {
+      "id": 13420,
+      "type": "signal_observation",
+      "title": "[WARN] Founder real-time, clarifying: nav items stale except 'Stocks on the Move' -- same pattern a…",
+      "source_repo": "CLI",
+      "date": "20260814",
+      "archived_at": "2026-08-14T01:59:08Z"
     }
   ]
 }
