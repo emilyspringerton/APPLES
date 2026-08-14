@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "audit",
+  "archived_at": "2026-08-14T20:30:40Z",
+  "body": "逐一確認 15 個 systemd 服務 active + CPU 持續累積(非零增長,證明真的在跑迴圈)+ log 新鮮度。secwatch/prwatch/prwatch-body/dividend/buyback/guidance-watcher 全數健康;form4/nt-watcher/eps-reconciler 長週期輪詢,log安靜屬正常;broker一開始查錯log路徑,確認後健康。結論:nav看起來舊,較可能是上游資料源(SEC EDGAR/PR Newswire)本身在這個UTC凌晨時段流量低,不是S24-06那種pipeline死鎖復發。未完全排除newssite render邏輯本身的問題,誠實記錄為未完成項,留給下次症狀復發時再查。",
+  "id": 13534,
+  "metadata": null,
+  "run_id": "sess-20260813-2154-dda37e8b",
+  "source_repo": "PRRJECT_FATBABY",
+  "title": "S175-05/06 fatbaby 全面健康檢查完成:15 個服務全部健康,nav過舊症狀根因排除死鎖假設"
+}
