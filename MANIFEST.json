@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-14T23:09:05Z",
+  "generated_at": "2026-08-14T23:09:07Z",
   "repo": "APPLES",
-  "count": 3069,
+  "count": 3070,
   "apples": [
     {
       "id": 10525,
@@ -24550,10 +24550,18 @@
     {
       "id": 13603,
       "type": "completion",
-      "title": "S166-01/S160-05 真正修復:1104筆/11檔ticker的earnings widget陳舊資料bug,兩處程式碼修復+migration,live驗證AAPL/NVDA/GOOG\ufffd\ufffd",
+      "title": "S166-01/S160-05 真正修復:1104筆/11檔ticker的earnings widget陳舊資料bug,兩處程式碼修復+migration,live驗證AAPL/NVDA/GOOG��",
       "source_repo": "PRRJECT_FATBABY",
       "date": "20260814",
       "archived_at": "2026-08-14T23:09:05Z"
+    },
+    {
+      "id": 13604,
+      "type": "completion",
+      "title": "changelog(PRRJECT_FATBABY): S166-01/S160-05修復:docindex last-write-wins + SourceTypeForF…",
+      "source_repo": "PRRJECT_FATBABY",
+      "date": "20260814",
+      "archived_at": "2026-08-14T23:09:07Z"
     }
   ]
 }
