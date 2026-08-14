@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-14T01:27:38Z",
+  "generated_at": "2026-08-14T01:27:39Z",
   "repo": "APPLES",
-  "count": 2871,
+  "count": 2872,
   "apples": [
     {
       "id": 10525,
@@ -22970,6 +22970,14 @@
       "source_repo": "PRRJECT_FATBABY",
       "date": "20260814",
       "archived_at": "2026-08-14T01:27:38Z"
+    },
+    {
+      "id": 13406,
+      "type": "completion",
+      "title": "changelog(PRRJECT_FATBABY): New GET /v1/movers-history/{ticker} endpoint surfaces mover…",
+      "source_repo": "PRRJECT_FATBABY",
+      "date": "20260814",
+      "archived_at": "2026-08-14T01:27:39Z"
     }
   ]
 }
