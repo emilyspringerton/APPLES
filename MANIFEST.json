@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-14T02:01:57Z",
+  "generated_at": "2026-08-14T02:01:59Z",
   "repo": "APPLES",
-  "count": 2906,
+  "count": 2907,
   "apples": [
     {
       "id": 10525,
@@ -23250,6 +23250,14 @@
       "source_repo": "CLI",
       "date": "20260814",
       "archived_at": "2026-08-14T02:01:57Z"
+    },
+    {
+      "id": 13441,
+      "type": "signal_observation",
+      "title": "[INFO] 創辦人即時指示:之後所有 thinking 都改用繁體中文",
+      "source_repo": "CLI",
+      "date": "20260814",
+      "archived_at": "2026-08-14T02:01:59Z"
     }
   ]
 }
