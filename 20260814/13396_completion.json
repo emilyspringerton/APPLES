@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-14T01:19:56Z",
+  "body": "Founder real-time ask: keep clare.md files in sync with the EMILY northstar. NORTHSTAR.md had zero mention of Claire despite it being registered as a golden doc + having a real CLI command (emily claire) built this session. Added a Claire section documenting what's actually verified true (Tier 2 registration means GoldenDocCompiler's loadGoldenIndex excludes it from full-system-context.md -- confirmed by reading the tier filter, not assumed) plus the real audit trail (claire-log.md). Did not rewrite claire.md.txt's own content -- that file was explicitly kept as-received per prior founder confirmation (2026-08-13), and is flagged as possible prompt-injection-style content; only the northstar doc was updated to reflect ground truth.",
+  "id": 13396,
+  "metadata": null,
+  "run_id": "sess-20260813-2154-dda37e8b",
+  "source_repo": "EMILY",
+  "title": "EMILY NORTHSTAR.md updated with real Claire state (Tier 2, not compiled, emily claire CLI, claire-log.md)"
+}

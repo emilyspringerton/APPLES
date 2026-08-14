@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-14T01:19:56Z",
+  "body": "emily backlog promote -dry-run still hits credit balance too low; the 19 SECTION 5 items worded 'run emily backlog promote with ANTHROPIC_API_KEY' were misleading (implied missing env var, not true — key is set, just out of credit) and would have sent a future session down the same dead end each time. Reworded to point at HITL-11 directly.",
+  "id": 13395,
+  "metadata": null,
+  "run_id": "sess-20260813-2154-dda37e8b",
+  "source_repo": "EMILY",
+  "title": "HITL-11 re-confirmed dead 2026-08-14; corrected 19 misleading SECTION 5 entries"
+}

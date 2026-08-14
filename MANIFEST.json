@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-14T01:18:12Z",
+  "generated_at": "2026-08-14T01:19:56Z",
   "repo": "APPLES",
-  "count": 2860,
+  "count": 2861,
   "apples": [
     {
       "id": 10525,
@@ -22882,6 +22882,14 @@
       "source_repo": "CLI",
       "date": "20260814",
       "archived_at": "2026-08-14T01:18:12Z"
+    },
+    {
+      "id": 13395,
+      "type": "completion",
+      "title": "HITL-11 re-confirmed dead 2026-08-14; corrected 19 misleading SECTION 5 entries",
+      "source_repo": "EMILY",
+      "date": "20260814",
+      "archived_at": "2026-08-14T01:19:56Z"
     }
   ]
 }
