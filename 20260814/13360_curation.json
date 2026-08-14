@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "curation",
+  "archived_at": "2026-08-14T00:46:01Z",
+  "body": "Curated 1 FatBaby observations into EMILY/BACKLOG.md INTAKE QUEUE.\n\nItems:\n- PITVIPER: fixed the real compile error (terminal.Close type mismatch). Also flagged the founder's other 2 PITVIPER asks (SSH hotkey, installable-as-terminal-client) as needing a real milestone-status audit first since CLAUDE.md/NORTHSTAR.md's own status claims are stale against actual code. Apple #13357, commit 4d77827. (2026-08-14T00:46:01Z)\n",
+  "id": 13360,
+  "metadata": null,
+  "run_id": "backlog-curate-1786668361",
+  "source_repo": "emily.cli",
+  "title": "backlog curate: 1 obs -\u003e INTAKE QUEUE"
+}
