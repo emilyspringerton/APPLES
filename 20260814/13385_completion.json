@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-14T01:11:54Z",
+  "body": "CHANGELOG updated in BRAWLPIT: Added scripts/build.sh (repo never had one, unlike every sibling repo) -- verified the TIPJAR build was never actually broken, running 'make' with no Makefile is almost certainly what looked like a build failure (sess-20260813-2154-dda37e8b)",
+  "id": 13385,
+  "metadata": null,
+  "run_id": "sess-20260813-2154-dda37e8b",
+  "source_repo": "BRAWLPIT",
+  "title": "changelog(BRAWLPIT): Added scripts/build.sh (repo never had one, unlike every si…"
+}
