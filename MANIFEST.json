@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-14T01:52:48Z",
+  "generated_at": "2026-08-14T01:52:49Z",
   "repo": "APPLES",
-  "count": 2879,
+  "count": 2880,
   "apples": [
     {
       "id": 10525,
@@ -23034,6 +23034,14 @@
       "source_repo": "PITVIPER",
       "date": "20260814",
       "archived_at": "2026-08-14T01:52:48Z"
+    },
+    {
+      "id": 13414,
+      "type": "completion",
+      "title": "changelog(PITVIPER): make install now works (GOWORK=off fix) and installs to ~/.…",
+      "source_repo": "PITVIPER",
+      "date": "20260814",
+      "archived_at": "2026-08-14T01:52:49Z"
     }
   ]
 }
