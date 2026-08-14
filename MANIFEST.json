@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-14T01:46:01Z",
+  "generated_at": "2026-08-14T01:47:39Z",
   "repo": "APPLES",
-  "count": 2876,
+  "count": 2877,
   "apples": [
     {
       "id": 10525,
@@ -23010,6 +23010,14 @@
       "source_repo": "emily.cli",
       "date": "20260814",
       "archived_at": "2026-08-14T01:46:01Z"
+    },
+    {
+      "id": 13411,
+      "type": "audit",
+      "title": "S31-01 DIS 24h checklist: partial pass, 5/10 verified live, rest permission-blocked or deliberately deferred",
+      "source_repo": "EDIS",
+      "date": "20260814",
+      "archived_at": "2026-08-14T01:47:39Z"
     }
   ]
 }
