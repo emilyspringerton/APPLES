@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "curation",
+  "archived_at": "2026-08-14T01:04:35Z",
+  "body": "Curated 1 FatBaby observations into EMILY/BACKLOG.md INTAKE QUEUE.\n\nItems:\n- Fixed the entity-graph observation-writer collision bug (Apple #13374, PRRJECT_FATBABY commit c0e1932) -- the same class of data loss that clobbered the '24 more' blog-post directive earlier this session is now fixed, with regression tests. (2026-08-14T01:04:35Z)\n",
+  "id": 13377,
+  "metadata": null,
+  "run_id": "backlog-curate-1786669475",
+  "source_repo": "emily.cli",
+  "title": "backlog curate: 1 obs -\u003e INTAKE QUEUE"
+}
