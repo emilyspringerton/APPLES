@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-14T01:04:37Z",
+  "generated_at": "2026-08-14T01:05:45Z",
   "repo": "APPLES",
-  "count": 2843,
+  "count": 2844,
   "apples": [
     {
       "id": 10525,
@@ -22746,6 +22746,14 @@
       "source_repo": "emily.cli",
       "date": "20260814",
       "archived_at": "2026-08-14T01:04:37Z"
+    },
+    {
+      "id": 13378,
+      "type": "signal_observation",
+      "title": "[INFO] Correction to the earlier 'emily backlog curate silently drops valid observations' finding (…",
+      "source_repo": "CLI",
+      "date": "20260814",
+      "archived_at": "2026-08-14T01:05:45Z"
     }
   ]
 }
