@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-14T01:04:23Z",
+  "generated_at": "2026-08-14T01:04:30Z",
   "repo": "APPLES",
-  "count": 2840,
+  "count": 2841,
   "apples": [
     {
       "id": 10525,
@@ -22722,6 +22722,14 @@
       "source_repo": "PRRJECT_FATBABY",
       "date": "20260814",
       "archived_at": "2026-08-14T01:04:23Z"
+    },
+    {
+      "id": 13375,
+      "type": "completion",
+      "title": "changelog(PRRJECT_FATBABY): Fixed entity-graph's observation-writer collision bug: Publ…",
+      "source_repo": "PRRJECT_FATBABY",
+      "date": "20260814",
+      "archived_at": "2026-08-14T01:04:30Z"
     }
   ]
 }
