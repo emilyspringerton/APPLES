@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-14T01:59:25Z",
+  "generated_at": "2026-08-14T01:59:32Z",
   "repo": "APPLES",
-  "count": 2888,
+  "count": 2889,
   "apples": [
     {
       "id": 10525,
@@ -23106,6 +23106,14 @@
       "source_repo": "emily.cli",
       "date": "20260814",
       "archived_at": "2026-08-14T01:59:25Z"
+    },
+    {
+      "id": 13423,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time, refining SKULDMARK ask: tickerize as early in the pipeline as possible",
+      "source_repo": "CLI",
+      "date": "20260814",
+      "archived_at": "2026-08-14T01:59:32Z"
     }
   ]
 }
