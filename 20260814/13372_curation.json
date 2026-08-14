@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "curation",
+  "archived_at": "2026-08-14T01:00:40Z",
+  "body": "Curated 4 FatBaby observations into EMILY/BACKLOG.md INTAKE QUEUE.\n\nItems:\n- Both manifest asks done: (1) live blog manifest text file at https://okemily.com/blog-manifest.txt (all 156 posts concatenated, robots-excluded via new robots.txt) -- IDUNA commit fde6149, Apple #13368; (2) GitHub Actions repo-file-index workflow in OKEMILY/.github/workflows/repo-manifest.yml (needs a MANIFEST_PAT secret set by the founder to actually run) -- OKEMILY commit 6af891a. Also fixed a real bug found live: okemily-deploy.sh's rsync --delete wiped the manifest immediately after generating it (same failure mode as the documented blog/tyler incident) -- root MONOREPO commit 54fc435. (2026-08-14T01:00:36Z)\n- Founder real-time, refining the manifest ask: wants a single text file served LIVE on the okemily.com server containing all blog posts concatenated (distinct from the GitHub-Actions repo-file-index manifest already built), with robots exclusion (noindex/robots.txt disallow) to avoid a duplicate-content SEO penalty against the individually-indexed blog post pages (2026-08-14T00:56:52Z)\n- Founder real-time: wants a manifest file indexing all repos' files, built as a GitHub Actions artifact (workflow_dispatch pattern, matching GOLDENBAND's blender-tools.yml), for use as blog-post artifacts on okemily -- if/when surfaced as a public page, needs noindex/robots exclusion to avoid a duplicate-content SEO penalty (2026-08-14T00:55:23Z)\n- Answer: yes, movers-watcher has been saving real structured price-action data (market_movers_snapshot events -- price, change%, volume, market cap per ticker, gainers+losers) daily since 2026-07-28, durably in var/secwatch. Currently write-only though -- nothing reads the historical snapshots back yet (only used once for the same-day commentary article). A real trend/history feature on top of this data is a separate, unbuilt follow-up. (2026-08-14T00:54:19Z)\n",
+  "id": 13372,
+  "metadata": null,
+  "run_id": "backlog-curate-1786669239",
+  "source_repo": "emily.cli",
+  "title": "backlog curate: 4 obs -\u003e INTAKE QUEUE"
+}
