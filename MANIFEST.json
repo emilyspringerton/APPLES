@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-14T00:01:33Z",
+  "generated_at": "2026-08-14T00:04:51Z",
   "repo": "APPLES",
-  "count": 2814,
+  "count": 2815,
   "apples": [
     {
       "id": 10525,
@@ -22514,6 +22514,14 @@
       "source_repo": "emily",
       "date": "20260814",
       "archived_at": "2026-08-14T00:01:33Z"
+    },
+    {
+      "id": 13349,
+      "type": "signal_observation",
+      "title": "[WARN] Finding: S135-03 (EDIS WooCommerce sticker listing, backlog claims 'Emily Prime can create p…",
+      "source_repo": "CLI",
+      "date": "20260814",
+      "archived_at": "2026-08-14T00:04:51Z"
     }
   ]
 }
