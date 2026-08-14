@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-14T01:16:42Z",
+  "generated_at": "2026-08-14T01:18:12Z",
   "repo": "APPLES",
-  "count": 2859,
+  "count": 2860,
   "apples": [
     {
       "id": 10525,
@@ -22874,6 +22874,14 @@
       "source_repo": "emily.cli",
       "date": "20260814",
       "archived_at": "2026-08-14T01:16:42Z"
+    },
+    {
+      "id": 13394,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: ensure we are updating clare.md/claire.md files per the new EMILY northst…",
+      "source_repo": "CLI",
+      "date": "20260814",
+      "archived_at": "2026-08-14T01:18:12Z"
     }
   ]
 }
