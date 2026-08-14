@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-14T22:35:05Z",
+  "body": "IDUNA blog API沒有update端點(只有POST create,重複slug回409),故用獨立slug(-en後綴)發布同一個故事的英文版,而非嘗試更新原文。Live: https://okemily.com/blog/the-king-who-existed-in-source-only-en/(200確認)。",
+  "id": 13596,
+  "metadata": null,
+  "run_id": "sess-20260813-2154-dda37e8b",
+  "source_repo": "OKEMILY",
+  "title": "英文版 Four Kings 部落格文章已發布(North/Vaisravana,同一人設)"
+}
