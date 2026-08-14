@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-14T01:09:18Z",
+  "generated_at": "2026-08-14T01:09:26Z",
   "repo": "APPLES",
-  "count": 2847,
+  "count": 2848,
   "apples": [
     {
       "id": 10525,
@@ -22778,6 +22778,14 @@
       "source_repo": "REDGARDEN",
       "date": "20260814",
       "archived_at": "2026-08-14T01:09:18Z"
+    },
+    {
+      "id": 13382,
+      "type": "signal_observation",
+      "title": "[INFO] CANNON: re-investigated for real, found a different blocker than what NORTHSTAR §20.4 named…",
+      "source_repo": "CLI",
+      "date": "20260814",
+      "archived_at": "2026-08-14T01:09:26Z"
     }
   ]
 }
