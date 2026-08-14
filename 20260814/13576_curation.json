@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "curation",
+  "archived_at": "2026-08-14T21:23:21Z",
+  "body": "Curated 3 FatBaby observations into EMILY/BACKLOG.md INTAKE QUEUE.\n\nItems:\n- 創辦人即時指示補充串:(1) especially Live/Breaking等即時頁面要優先確保當前內容 (2) ALL newswires都要涵蓋,不只PR Newswire (3) also skuldmark(這次修復也要考慮SKULDMARK標記) (4) newssite某頁面('newsier page')內容看起來異常稀疏,需要查證 (2026-08-14T21:23:20Z)\n- 創辦人即時指示補充:確保所有fatbaby top-level nav項目都有當前內容——重申並擴大先前nav過舊的要求,不只是earnings widget一項 (2026-08-14T21:23:09Z)\n- 創辦人即時指示:then/continue(訓練持續正常,30720+43008 timesteps進度確認)——繼續深查S166-01根因(已追到processor unmarshal filing_discovered的欄位缺失問題) (2026-08-14T21:21:03Z)\n",
+  "id": 13576,
+  "metadata": null,
+  "run_id": "backlog-curate-1786742601",
+  "source_repo": "emily.cli",
+  "title": "backlog curate: 3 obs -\u003e INTAKE QUEUE"
+}
