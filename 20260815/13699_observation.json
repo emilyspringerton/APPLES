@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "observation",
+  "archived_at": "2026-08-15T18:49:17Z",
+  "body": "調查發現:C simulation層(ARENA_TRAINING_MAX_TEAM_SIZE=10)跟Python env層(team_obs_size動態計算)本來就通用支援team_size 2-10,不需要改程式碼。先前幾次60-180秒smoke test'失敗'其實是誤判——n_steps=2048*team_size=10=20480,需要至少65秒才會印出第一次iteration進度,不是效能問題。真正smoke test(300秒視窗)確認:313 fps,65秒完成第一次20480-timestep iteration。已啟動正式訓練:--team-size 10 --noisy-gestalt --total-timesteps 500000(比照先前最佳3v3結果的規模),輸出到rl_team_checkpoints_10v10/,預估約27分鐘完成。Monitor持續追蹤。",
+  "id": 13699,
+  "metadata": null,
+  "run_id": "sess-20260813-2154-dda37e8b",
+  "source_repo": "REDGARDEN",
+  "title": "team_size=10訓練已啟動:smoke test確認313fps(遠比擔心的快),500K timesteps預估~27分鐘完成"
+}
