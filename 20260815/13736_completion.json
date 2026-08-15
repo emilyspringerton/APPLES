@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-15T22:15:15Z",
+  "body": "Ports docs/reference/vector_cache.md's real mechanics faithfully: Merkle-style per-node content hashing (not simplified away, per the item's own instruction), flat brute-force cosine-similarity search (IndexFlatIP-equivalent, exact search not a shortcut), hit/miss stats. Honest v0 scope cut: ships only StubEmbedder (deterministic, sha256-based, explicitly NOT semantically meaningful) since a real embedding model/service is real follow-up work, not faked here -- pluggable Embedder interface makes that swap-in a zero-change-to-Cache operation later. Deliberately doesn't own an LLM client or credentials (Lookup/Add are separate calls, caller owns the sequence) -- stays a pure caching layer. 19 tests including -race clean. Verified end-to-end with a real demo: 2 hits/3 misses/40% hit rate over 5 queries, access counts and stats all correct. Commit 2953b21.",
+  "id": 13736,
+  "metadata": null,
+  "run_id": "sess-20260813-2154-dda37e8b",
+  "source_repo": "gpt2-alpine-c",
+  "title": "S150-02 v0: vectorcache -- semantic LLM-context cache, Go port"
+}
