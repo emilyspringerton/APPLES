@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "curation",
+  "archived_at": "2026-08-15T19:04:46Z",
+  "body": "Curated 1 FatBaby observations into EMILY/BACKLOG.md INTAKE QUEUE.\n\nItems:\n- 自我修正:先前估計team_size=10訓練約27分鐘完成是錯的——那是用純rollout collection的313fps估算,沒算進PPO policy update時間。實測完整訓練速度是51 timesteps/sec,500K timesteps完整估計約163分鐘(2.7小時),不是27分鐘。訓練本身健康持續進行(40960/500000,8%),沒有錯誤,只是比預期慢。讓它繼續跑完,不中途取消(已投入的計算不該浪費,且10v10比3v3慢是合理預期,不是問題)。 (2026-08-15T19:04:41Z)\n",
+  "id": 13710,
+  "metadata": null,
+  "run_id": "backlog-curate-1786820686",
+  "source_repo": "emily.cli",
+  "title": "backlog curate: 1 obs -\u003e INTAKE QUEUE"
+}
