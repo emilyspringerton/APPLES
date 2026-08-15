@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-15T22:08:59Z",
+  "body": "Teaches a fine-tuned checkpoint to natively produce the house transform (squish/tower/gematria). New cmd/towerprint-cli -- Python shells out to it rather than reimplementing pkg/towerprint's logic, one source of truth. New --towerprint-augment flag in prime_directive_dataset.py: deterministic sha256-keyed sampling (not Python's randomized hash()), 5% default fraction per the item's own instruction to decide and document it rather than default to 100%. 4 Go tests + 10 Python tests, full suite 65/65 + 4/4 green. Verified end-to-end: 347 real {text}-\u003e{tower} pairs generated from a 20% sample against the live corpus, 0 skipped, inspected output confirms correct pairing. Commit 00da185.",
+  "id": 13734,
+  "metadata": null,
+  "run_id": "sess-20260813-2154-dda37e8b",
+  "source_repo": "gpt2-alpine-c",
+  "title": "S150-01: towerprint-augmented training records"
+}

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-15T22:03:45Z",
+  "generated_at": "2026-08-15T22:08:59Z",
   "repo": "APPLES",
-  "count": 3199,
+  "count": 3200,
   "apples": [
     {
       "id": 10525,
@@ -25594,6 +25594,14 @@
       "source_repo": "emily",
       "date": "20260815",
       "archived_at": "2026-08-15T22:03:45Z"
+    },
+    {
+      "id": 13734,
+      "type": "completion",
+      "title": "S150-01: towerprint-augmented training records",
+      "source_repo": "gpt2-alpine-c",
+      "date": "20260815",
+      "archived_at": "2026-08-15T22:08:59Z"
     }
   ]
 }
