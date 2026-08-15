@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-15T20:34:56Z",
+  "generated_at": "2026-08-15T20:40:22Z",
   "repo": "APPLES",
-  "count": 3191,
+  "count": 3192,
   "apples": [
     {
       "id": 10525,
@@ -25530,6 +25530,14 @@
       "source_repo": "emily",
       "date": "20260815",
       "archived_at": "2026-08-15T20:34:56Z"
+    },
+    {
+      "id": 13726,
+      "type": "completion",
+      "title": "S146-05: corpus_stats.py provenance audit mode",
+      "source_repo": "gpt2-alpine-c",
+      "date": "20260815",
+      "archived_at": "2026-08-15T20:40:22Z"
     }
   ]
 }

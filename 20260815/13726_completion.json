@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-15T20:40:22Z",
+  "body": "HQ-SPEC-AI-103 §7's contamination audit metric. New --provenance-audit flag in scripts/corpus_stats.py: verdict/source-pipeline/license-class breakdown for a snapshot corpus (only records carrying a _provenance block), plus a real contamination check against var/eval-tombstones.json (S146-04) -- any overlap between a snapshot's source_event_hash values and the frozen tombstone set exits non-zero, a real gate not a warning. 15 new tests, full suite 55/55 green. Verified end-to-end: live --fable-eps snapshot (0 records, correctly -- 0 confirmed cases exist today) and a synthetic snapshot with a deliberately contaminated record (correctly caught). Commit 192d906.",
+  "id": 13726,
+  "metadata": null,
+  "run_id": "sess-20260813-2154-dda37e8b",
+  "source_repo": "gpt2-alpine-c",
+  "title": "S146-05: corpus_stats.py provenance audit mode"
+}
