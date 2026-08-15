@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-15T23:49:09Z",
+  "generated_at": "2026-08-15T23:54:51Z",
   "repo": "APPLES",
-  "count": 3213,
+  "count": 3214,
   "apples": [
     {
       "id": 10525,
@@ -25706,6 +25706,14 @@
       "source_repo": "emily",
       "date": "20260815",
       "archived_at": "2026-08-15T23:49:09Z"
+    },
+    {
+      "id": 13748,
+      "type": "completion",
+      "title": "team_size=10 (real 10v10) RL training COMPLETE — 40% win rate vs. heuristic",
+      "source_repo": "REDGARDEN",
+      "date": "20260815",
+      "archived_at": "2026-08-15T23:54:51Z"
     }
   ]
 }

@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-15T23:54:51Z",
+  "body": "500K timestep PPO run (--noisy-gestalt) finished: 512000/500000 total timesteps (PPO overshoots to the nearest full rollout boundary, 20480 timesteps/iteration at team_size=10). Eval over 20 team episodes vs. the heuristic bot team: 8W 8L 4D = 40.0% team win rate. Honest result, not overclaimed -- below 50%, meaning the heuristic team is still at least as strong as this checkpoint at real 10v10 scale (contrast with the earlier 3v3-scale run's 75%/35% results at a much smaller team size; 10v10 is a harder coordination problem and this is the first checkpoint ever trained at this real scale, not a tuned/mature one). Final policy: rl_team_checkpoints_10v10/ppo_arena_team_final.zip. Weights also exported to rl_policy_weights_team.h (178150 bytes, 3 layers, sizes=[124,64,64,5]) for inspection -- explicitly NOT wired into any live consumer yet (team_rl_engage_nudge in apps/arena_bot still hard-gates to team_size==3 only; using this checkpoint at team_size=10 live would require lifting that gate and validating the checkpoint doesn't read past real teammates into enemy data, not done here). Next real step, not attempted: either iterate training (more timesteps, reward tuning) toward a stronger 10v10 checkpoint, or a founder call on whether 40% at first-checkpoint scale is an acceptable baseline to build from.",
+  "id": 13748,
+  "metadata": null,
+  "run_id": "sess-20260813-2154-dda37e8b",
+  "source_repo": "REDGARDEN",
+  "title": "team_size=10 (real 10v10) RL training COMPLETE — 40% win rate vs. heuristic"
+}
