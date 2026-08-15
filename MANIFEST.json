@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-15T18:49:23Z",
+  "generated_at": "2026-08-15T18:53:00Z",
   "repo": "APPLES",
-  "count": 3166,
+  "count": 3167,
   "apples": [
     {
       "id": 10525,
@@ -25330,6 +25330,14 @@
       "source_repo": "REDGARDEN",
       "date": "20260815",
       "archived_at": "2026-08-15T18:49:23Z"
+    },
+    {
+      "id": 13701,
+      "type": "signal_observation",
+      "title": "[WARN] 發現真bug:emily backlog curate把過長observation摘要截斷時,沒有考慮UTF-8字元…",
+      "source_repo": "CLI",
+      "date": "20260815",
+      "archived_at": "2026-08-15T18:53:00Z"
     }
   ]
 }
