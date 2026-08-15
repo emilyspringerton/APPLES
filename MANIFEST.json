@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-15T20:07:07Z",
+  "generated_at": "2026-08-15T20:10:19Z",
   "repo": "APPLES",
-  "count": 3184,
+  "count": 3185,
   "apples": [
     {
       "id": 10525,
@@ -25474,6 +25474,14 @@
       "source_repo": "SHANKPIT",
       "date": "20260815",
       "archived_at": "2026-08-15T20:07:07Z"
+    },
+    {
+      "id": 13719,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: 'ho' (garbled/truncated keystroke, no clear new content -- consistent wit…",
+      "source_repo": "CLI",
+      "date": "20260815",
+      "archived_at": "2026-08-15T20:10:19Z"
     }
   ]
 }
