@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-15T19:28:14Z",
+  "body": "Refresh() now dedups articles.ndjson rows by ID (last-write-wins) before building the in-memory Store, fixing duplicate cards from same-day writer re-runs/retries (movers-watcher and similar, S167-03's own finding). No live NDJSON duplicates existed at fix time so no migration was needed. Pattern mirrors docindex's last-write-wins correction logic. go test ./... green, deployed to fatbaby-newssite, verified live.",
+  "id": 13714,
+  "metadata": null,
+  "run_id": "sess-20260813-2154-dda37e8b",
+  "source_repo": "PRRJECT_FATBABY",
+  "title": "S167-05: commentary.Store dedups by article ID, last-write-wins"
+}

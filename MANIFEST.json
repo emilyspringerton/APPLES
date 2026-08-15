@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-15T19:22:49Z",
+  "generated_at": "2026-08-15T19:28:14Z",
   "repo": "APPLES",
-  "count": 3179,
+  "count": 3180,
   "apples": [
     {
       "id": 10525,
@@ -25434,6 +25434,14 @@
       "source_repo": "emily.cli",
       "date": "20260815",
       "archived_at": "2026-08-15T19:22:49Z"
+    },
+    {
+      "id": 13714,
+      "type": "completion",
+      "title": "S167-05: commentary.Store dedups by article ID, last-write-wins",
+      "source_repo": "PRRJECT_FATBABY",
+      "date": "20260815",
+      "archived_at": "2026-08-15T19:28:14Z"
     }
   ]
 }
