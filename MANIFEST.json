@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-15T18:31:33Z",
+  "generated_at": "2026-08-15T18:33:44Z",
   "repo": "APPLES",
-  "count": 3159,
+  "count": 3160,
   "apples": [
     {
       "id": 10525,
@@ -25274,6 +25274,14 @@
       "source_repo": "emily",
       "date": "20260815",
       "archived_at": "2026-08-15T18:31:33Z"
+    },
+    {
+      "id": 13694,
+      "type": "signal_observation",
+      "title": "[INFO] 創辦人決策(AskUserQuestion):啟動全新team_size=10訓練(大工程,推薦先確認範…",
+      "source_repo": "CLI",
+      "date": "20260815",
+      "archived_at": "2026-08-15T18:33:44Z"
     }
   ]
 }
