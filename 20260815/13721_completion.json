@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-15T20:18:00Z",
+  "body": "Self-caught after landing the first pass: BACKLOG.md's own SECTION 146 documents gpt2-alpine-c's Python prototype (S146-02, scripts/prime_directive_dataset.py) as the established contract fabledata should inherit, and that prototype gates on confirmed-only -- my Go v0 wrongly included contradicts too. A contradicts verdict means the extraction got the headline wrong; training on it would teach a generator to reproduce the error, not grade it against reality. Fixed: BuildExamples now returns (examples, Stats, error), only confirmed cases are included, contradicts/pending both excluded and counted separately (not silently dropped, matching the spec's own Lobian rule 1 language). Re-verified live: 0 confirmed, 39 excluded-pending, 0 contradicts, correct given the current corpus state. All 11 tests updated and green, go build/vet/test ./... clean. Commit 5743e97.",
+  "id": 13721,
+  "metadata": null,
+  "run_id": "sess-20260813-2154-dda37e8b",
+  "source_repo": "PRRJECT_FATBABY",
+  "title": "S145-01 follow-up: fabledata verdict gating corrected to confirmed-only"
+}
