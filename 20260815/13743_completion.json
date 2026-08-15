@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-15T23:00:52Z",
+  "body": "Two pieces per the item's own scoping: (a) RSS poller over the Fed's public monetary-policy feed, same discover-\u003eload-seen-\u003ededupe-\u003eappend shape as prwatch.RunDiscovery, real encoding/xml parsing (not regex -- this source is well-formed RSS unlike PR Newswire); (b) the Fed's own published FOMC meeting calendar 2021-2027, fetched live from federalreserve.gov and cross-checked against the live press feed's own statement dates (both match exactly) -- sourced from the Fed's schedule, not invented. New cmd/fed-watch, one-shot systemd-timer idiom like bond-watcher. 20 tests using a real RSS fixture captured live, not synthesized. go build/vet/test ./... clean. Verified end-to-end against the real live feed: 15 real press releases discovered/persisted/deduped correctly across two runs, next-meeting computation correct (Sep 15-16 2026). Commit 06705e2.",
+  "id": 13743,
+  "metadata": null,
+  "run_id": "sess-20260813-2154-dda37e8b",
+  "source_repo": "PRRJECT_FATBABY",
+  "title": "S165-03: fedwatch -- Federal Reserve / FOMC data, Phase 3"
+}
