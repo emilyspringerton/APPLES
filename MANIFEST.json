@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-15T19:03:39Z",
+  "generated_at": "2026-08-15T19:04:41Z",
   "repo": "APPLES",
-  "count": 3174,
+  "count": 3175,
   "apples": [
     {
       "id": 10525,
@@ -25394,6 +25394,14 @@
       "source_repo": "EMILY",
       "date": "20260815",
       "archived_at": "2026-08-15T19:03:39Z"
+    },
+    {
+      "id": 13709,
+      "type": "signal_observation",
+      "title": "[INFO] 自我修正:先前估計team_size=10訓練約27分鐘完成是錯的——那是用純rollo…",
+      "source_repo": "CLI",
+      "date": "20260815",
+      "archived_at": "2026-08-15T19:04:41Z"
     }
   ]
 }
