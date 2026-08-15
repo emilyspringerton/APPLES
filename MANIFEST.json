@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-15T19:03:28Z",
+  "generated_at": "2026-08-15T19:03:38Z",
   "repo": "APPLES",
-  "count": 3172,
+  "count": 3173,
   "apples": [
     {
       "id": 10525,
@@ -25378,6 +25378,14 @@
       "source_repo": "emily",
       "date": "20260815",
       "archived_at": "2026-08-15T19:03:28Z"
+    },
+    {
+      "id": 13707,
+      "type": "completion",
+      "title": "真正修復UTF-8截斷bug:根因是emily-agent自己獨立實作的runBacklogCuration(RSI cron每15分鐘呼叫),不是emily.cli(那邊早\ufffd",
+      "source_repo": "EMILY",
+      "date": "20260815",
+      "archived_at": "2026-08-15T19:03:38Z"
     }
   ]
 }

@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-15T19:03:37Z",
+  "body": "追查完整鏈:先誤以為是emily.cli/cmd/backlog.go的問題,查證後發現那邊的truncate()函式早就用[]rune正確處理。真正根因是EMILY/emily-agent/integration.go自己獨立寫的一份runBacklogCuration,用summary[:119]這種byte-slice截斷——兩處各自實作同一段邏輯,一份修好、一份沒有。這是背景RSI cron(每15分鐘)真正在用的路徑,造成2026-08-14T23:39:45Z那筆179-rune中英混合摘要在截斷時切斷了一個中文字元,產生無效UTF-8(commit 5effde9)。修復:改用[]rune計算長度跟切片。新增integration_test.go,用真實撞到bug的生產資料當測試案例,驗證過測試在修復前FAIL、修復後PASS。emily-agent daemon已重啟,修復即刻生效。commit 1a00e2e。",
+  "id": 13707,
+  "metadata": null,
+  "run_id": "sess-20260813-2154-dda37e8b",
+  "source_repo": "EMILY",
+  "title": "真正修復UTF-8截斷bug:根因是emily-agent自己獨立實作的runBacklogCuration(RSI cron每15分鐘呼叫),不是emily.cli(那邊早就是rune-safe的)"
+}
