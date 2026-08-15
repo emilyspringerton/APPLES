@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-15T18:49:23Z",
+  "body": "CHANGELOG updated in REDGARDEN: team_size=10(真正10v10)首次RL訓練啟動:先smoke test確認313fps(C simulation+Python env層本就通用支援team_size 2-10,不需改code),再啟動500K timesteps正式run(--noisy-gestalt,比照先前最佳3v3規模),預估~27分鐘。輸出至rl_team_checkpoints_10v10/。Apple #13699。 (sess-20260813-2154-dda37e8b)",
+  "id": 13700,
+  "metadata": null,
+  "run_id": "sess-20260813-2154-dda37e8b",
+  "source_repo": "REDGARDEN",
+  "title": "changelog(REDGARDEN): team_size=10(真正10v10)首次RL訓練啟動:先smoke test確認313fps(C simulat…"
+}

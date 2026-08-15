@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-15T18:49:17Z",
+  "generated_at": "2026-08-15T18:49:23Z",
   "repo": "APPLES",
-  "count": 3165,
+  "count": 3166,
   "apples": [
     {
       "id": 10525,
@@ -25322,6 +25322,14 @@
       "source_repo": "REDGARDEN",
       "date": "20260815",
       "archived_at": "2026-08-15T18:49:17Z"
+    },
+    {
+      "id": 13700,
+      "type": "completion",
+      "title": "changelog(REDGARDEN): team_size=10(真正10v10)首次RL訓練啟動:先smoke test確認313fps(C simulat…",
+      "source_repo": "REDGARDEN",
+      "date": "20260815",
+      "archived_at": "2026-08-15T18:49:23Z"
     }
   ]
 }
