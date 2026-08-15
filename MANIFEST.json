@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-15T19:03:38Z",
+  "generated_at": "2026-08-15T19:03:39Z",
   "repo": "APPLES",
-  "count": 3173,
+  "count": 3174,
   "apples": [
     {
       "id": 10525,
@@ -25382,10 +25382,18 @@
     {
       "id": 13707,
       "type": "completion",
-      "title": "真正修復UTF-8截斷bug:根因是emily-agent自己獨立實作的runBacklogCuration(RSI cron每15分鐘呼叫),不是emily.cli(那邊早\ufffd",
+      "title": "真正修復UTF-8截斷bug:根因是emily-agent自己獨立實作的runBacklogCuration(RSI cron每15分鐘呼叫),不是emily.cli(那邊早�",
       "source_repo": "EMILY",
       "date": "20260815",
       "archived_at": "2026-08-15T19:03:38Z"
+    },
+    {
+      "id": 13708,
+      "type": "completion",
+      "title": "changelog(EMILY): emily-agent/integration.go: runBacklogCuration截斷summary改用ru…",
+      "source_repo": "EMILY",
+      "date": "20260815",
+      "archived_at": "2026-08-15T19:03:39Z"
     }
   ]
 }
