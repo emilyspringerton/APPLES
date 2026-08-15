@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-15T18:23:51Z",
+  "generated_at": "2026-08-15T18:23:57Z",
   "repo": "APPLES",
-  "count": 3153,
+  "count": 3154,
   "apples": [
     {
       "id": 10525,
@@ -25226,6 +25226,14 @@
       "source_repo": "emily.cli",
       "date": "20260815",
       "archived_at": "2026-08-15T18:23:51Z"
+    },
+    {
+      "id": 13688,
+      "type": "signal_observation",
+      "title": "[INFO] 創辦人即時指示:檢查目前long running訓練狀態(之前的200K autocurriculum已��…",
+      "source_repo": "CLI",
+      "date": "20260815",
+      "archived_at": "2026-08-15T18:23:57Z"
     }
   ]
 }
