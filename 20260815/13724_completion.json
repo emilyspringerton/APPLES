@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-15T20:28:53Z",
+  "body": "HQ-SPEC-AI-103 §4d, build order step 2. New internal/fableeval package: mirrors internal/eps/norngate's EPSOracle pattern (S141-02) but for headline-generation quality instead of extraction accuracy. Grades eps.Generate() -- the one real generator that exists today -- against a frozen 4-case fixture set (one per buildHeadline branch: GAAP positive/loss, adjusted-only, full-year). Same interface a future FABLE E0 checkpoint gets graded through once S145-03 lands -- swap eps.Generate() for a checkpoint inference call, no harness change needed. Fixture-based for the same disclosed reason EPSOracle is: the live fabledata corpus (S145-01) has zero confirmed cases today, no real ground truth to freeze yet. 5 tests including a negative control. go build/vet/test ./... clean. Commit 92c7934.",
+  "id": 13724,
+  "metadata": null,
+  "run_id": "sess-20260813-2154-dda37e8b",
+  "source_repo": "PRRJECT_FATBABY",
+  "title": "S145-02: fableeval -- frozen EPS headline eval suite, oracle v1"
+}
