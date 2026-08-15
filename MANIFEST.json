@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-15T18:23:59Z",
+  "generated_at": "2026-08-15T18:24:15Z",
   "repo": "APPLES",
-  "count": 3155,
+  "count": 3156,
   "apples": [
     {
       "id": 10525,
@@ -25242,6 +25242,14 @@
       "source_repo": "emily.cli",
       "date": "20260815",
       "archived_at": "2026-08-15T18:23:59Z"
+    },
+    {
+      "id": 13690,
+      "type": "audit",
+      "title": "訓練狀態檢查:目前無訓練在跑,昨晚的200K autocurriculum已完成(35% win rate)",
+      "source_repo": "REDGARDEN",
+      "date": "20260815",
+      "archived_at": "2026-08-15T18:24:15Z"
     }
   ]
 }
