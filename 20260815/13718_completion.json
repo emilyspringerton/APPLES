@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-15T20:07:07Z",
+  "body": "Ported REDGARDEN/GFD's S144-07 gband_mesh_rig onto Stage A's shader/VBO foundation (2026-08-07). New packages/goldenband/ (loaders + CPU skinning), packages/common/mat4.h, assets/goldenband/tyler_body.*. Two real bugs found and fixed via Xvfb screenshot verification, not assumed: (1) hero_y hardcoded to 0 in the original -- added a real hero_y parameter since SHANKPIT has real jumping/verticality unlike REDGARDEN's flat arena; (2) facing_rad formula initially copied the box body's (180-draw_yaw) but the mesh's BVH-imported bind pose faces 180 degrees opposite the box's own +Z-authored bind pose -- caught by comparing box vs mesh renders at identical yaw=0 (box showed its back as expected, mesh showed its front), fixed to -draw_yaw, re-verified at yaw=0/90/180 (back/profile/front-with-face all correct). Stage A's magenta-square pipeline-proof removed, superseded by the real mesh. MAX_SLOTS bumped 64-\u003e70 to match SHANKPIT's own MAX_CLIENTS. Not done: mingw Windows cross-compile verification (no toolchain in this environment, same gap Stage A already flagged); Stage C per-part material variety for other Tyler-skinned use. Commit f31cfcd.",
+  "id": 13718,
+  "metadata": null,
+  "run_id": "sess-20260813-2154-dda37e8b",
+  "source_repo": "SHANKPIT",
+  "title": "S144-02 Stage B: GOLDENBAND skinned mesh replaces Tyler's box body"
+}
