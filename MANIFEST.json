@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-15T18:46:22Z",
+  "generated_at": "2026-08-15T18:47:57Z",
   "repo": "APPLES",
-  "count": 3162,
+  "count": 3163,
   "apples": [
     {
       "id": 10525,
@@ -25298,6 +25298,14 @@
       "source_repo": "emily",
       "date": "20260815",
       "archived_at": "2026-08-15T18:46:22Z"
+    },
+    {
+      "id": 13697,
+      "type": "signal_observation",
+      "title": "[INFO] 創辦人即時指示:continue——team_size=10 smoke test還在背景跑(5分鐘上限,測…",
+      "source_repo": "CLI",
+      "date": "20260815",
+      "archived_at": "2026-08-15T18:47:57Z"
     }
   ]
 }
