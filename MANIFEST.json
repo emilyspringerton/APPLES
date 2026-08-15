@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-15T20:10:19Z",
+  "generated_at": "2026-08-15T20:14:50Z",
   "repo": "APPLES",
-  "count": 3185,
+  "count": 3186,
   "apples": [
     {
       "id": 10525,
@@ -25482,6 +25482,14 @@
       "source_repo": "CLI",
       "date": "20260815",
       "archived_at": "2026-08-15T20:10:19Z"
+    },
+    {
+      "id": 13720,
+      "type": "completion",
+      "title": "S145-01: fabledata -- content-addressed training snapshots over the EPS oracle corpus",
+      "source_repo": "PRRJECT_FATBABY",
+      "date": "20260815",
+      "archived_at": "2026-08-15T20:14:50Z"
     }
   ]
 }

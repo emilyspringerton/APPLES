@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-15T20:14:49Z",
+  "body": "HQ-SPEC-AI-103 §4a build order step 1. New internal/fabledata package + cmd/fabledata: joins articles.ndjson against oracle.ndjson by SourceIdentity, keeps only reality-graded verdicts (confirmed/contradicts) per the spec's Lobian rule #1, computes a content-addressed manifest (sha256 over sorted example IDs, immutable once written), and wires the contamination-tombstone mechanism now even though fableeval/S145-02 hasn't landed yet (empty tombstone list today). 11 new tests, all green. go build/vet/test ./... clean across the whole repo. Ran against the live corpus: 0 graded examples today, correctly -- all 39 current oracle cases are pending (eps-reconciler hasn't resolved any yet), honest quiescence not a bug. Commit fff1d0e.",
+  "id": 13720,
+  "metadata": null,
+  "run_id": "sess-20260813-2154-dda37e8b",
+  "source_repo": "PRRJECT_FATBABY",
+  "title": "S145-01: fabledata -- content-addressed training snapshots over the EPS oracle corpus"
+}
