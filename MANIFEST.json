@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-16T10:11:27Z",
+  "generated_at": "2026-08-16T10:17:03Z",
   "repo": "APPLES",
-  "count": 3265,
+  "count": 3266,
   "apples": [
     {
       "id": 10525,
@@ -26122,6 +26122,14 @@
       "source_repo": "CLI",
       "date": "20260816",
       "archived_at": "2026-08-16T10:11:27Z"
+    },
+    {
+      "id": 13800,
+      "type": "completion",
+      "title": "S169-10: TAB-held scoreboard backported from SHANKPIT (FFA path)",
+      "source_repo": "shankpit-460",
+      "date": "20260816",
+      "archived_at": "2026-08-16T10:17:03Z"
     }
   ]
 }

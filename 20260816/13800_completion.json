@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-16T10:17:03Z",
+  "body": "FFA path only, deliberately. SHANKPIT's own draw_tab_scoreboard also has a team-mode (TDM/CTF) branch, but shankpit-460's GameMode enum never gained SHANKPIT's post-fork 'B'/'O' bot-compatible team variants and PlayerState.team_id is declared but never assigned anywhere in this codebase (confirmed by grep). Porting team-mode UI on top of nonexistent team assignment would be a hollow display, so scoped to FFA only, which has real live-tracked data (kills/deaths, confirmed incremented in packages/simulation/local_game.h, working live in the bot regression test's own per-bot columns). Verified visually via a temporary throwaway build (TAB-gate bypassed, never touching committed source -- confirmed via grep after) run against a real server under Xvfb: panel/border/header/columns all render correctly. Real server+bot regression test also PASS on the actual committed binary. Team-mode scoreboard stays open, flagged not dropped. Commit 4ba4e94.",
+  "id": 13800,
+  "metadata": null,
+  "run_id": "sess-20260813-2154-dda37e8b",
+  "source_repo": "shankpit-460",
+  "title": "S169-10: TAB-held scoreboard backported from SHANKPIT (FFA path)"
+}
