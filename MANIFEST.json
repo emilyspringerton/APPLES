@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-16T10:40:50Z",
+  "generated_at": "2026-08-16T10:47:54Z",
   "repo": "APPLES",
-  "count": 3272,
+  "count": 3273,
   "apples": [
     {
       "id": 10525,
@@ -26178,6 +26178,14 @@
       "source_repo": "CLI",
       "date": "20260816",
       "archived_at": "2026-08-16T10:40:50Z"
+    },
+    {
+      "id": 13807,
+      "type": "completion",
+      "title": "S153-11 (partial): status page incident-timeline history",
+      "source_repo": "IDUNA",
+      "date": "20260816",
+      "archived_at": "2026-08-16T10:47:54Z"
     }
   ]
 }

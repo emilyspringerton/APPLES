@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-16T10:47:54Z",
+  "body": "GET /api/v1/status/history?target=\u003cname\u003e\u0026hours=\u003cn\u003e — raw per-check history (up/down + latency_ms), capped at 500 samples/168h, backed by statuspage.Store.History over the existing checks table (no schema change, every check already retained). status.html renders it as a colored-bar incident timeline per service, hover for exact time/status/latency. Live-verified through okemily.com's public proxy against real production check history (iduna: 61 real checks/1h). 9 new tests across both packages, go build/vet/test -race clean. Latency-graph-as-chart and a public postmortem log remain open, disclosed not attempted. IDUNA bb83539, OKEMILY 20c6936.",
+  "id": 13807,
+  "metadata": null,
+  "run_id": "sess-20260813-2154-dda37e8b",
+  "source_repo": "IDUNA",
+  "title": "S153-11 (partial): status page incident-timeline history"
+}
