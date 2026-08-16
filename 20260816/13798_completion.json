@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-16T10:08:18Z",
+  "body": "Per docs2/NORTHSTAR.md §7's design record: a port, not a fresh build. SHANKPIT's procedural PCM synthesis engine (MIDI-style weapon sounds, pentatonic footsteps, sin(angle) spatial panning + distance rolloff) carried over unchanged, wrapped behind a new SoundEngine vtable interface (play_weapon/play_footstep/play_ambient/shutdown) per NORTHSTAR §7's own instruction -- a future real-asset backend can be a second implementation behind the same call sites. play_ambient added as a real callable no-op (didn't exist in SHANKPIT's original) since no ambient content is designed yet. Wired audio_init/shutdown into main(), audio_play_weapon into the existing shooting-edge-detection point, spatialized against the local listener. Footstep/ambient call-site wiring not attempted -- no existing movement-cadence hook, flagged as real follow-on. 11 new unit tests for the spatial-gain math (position/panning/rolloff/yaw all verified). Both binaries build clean. Real server+bot regression test PASS. Client verified live under Xvfb: starts clean, audio's own graceful no-device fallback logs and continues normally, not a crash. Commit 9904e04.",
+  "id": 13798,
+  "metadata": null,
+  "run_id": "sess-20260813-2154-dda37e8b",
+  "source_repo": "shankpit-460",
+  "title": "S169-09: spatial audio backported from SHANKPIT"
+}
