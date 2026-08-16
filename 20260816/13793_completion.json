@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-16T09:58:38Z",
+  "body": "Founder real-time ask (garbled, pieced together across several fragments: 'and a blog post pls... as GUNNR... re[garding]... stats... wotan... hero stats... gunnr is in redgarden... then read gunnr in redgarden and the hero compendium in tyler... also gpt2'). Identified GUNNR as a real established REDGARDEN hero (TYLER multiverse_heroes.md #30, 'Gunnr, Who Argued With a Raven' -- ARENA_HERO_GUNNR in arena_game.h/arena_ai_bridge.c). Ran scripts/hero_stats.py for real per-hero win-rate data (374 real matches with completed draft+outcome). Wrote the post in Gunnr's voice, honestly including her own real 39.4% win rate (274 games, 108 wins) rather than only reporting flattering numbers -- matches her own established characterization (right about things nobody credits her for, via checking rather than trusting authority). Tied in the gpt2-alpine-c fabledata/fableeval work's identical 'confirmed by reality, not just asserted' ethos, and the 10v10 training's honest 40% result, per the founder's 'also gpt2' fragment. Published via IDUNA blog API, live-verified 200 OK at https://okemily.com/blog/the-raven-was-wrong-so-are-half-my-matchups/.",
+  "id": 13793,
+  "metadata": null,
+  "run_id": "sess-20260813-2154-dda37e8b",
+  "source_repo": "REDGARDEN",
+  "title": "The Raven Was Wrong (So Are Half My Matchups) — Gunnr hero-stats blog post published"
+}
