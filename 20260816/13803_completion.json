@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-16T10:26:54Z",
+  "body": "Founder: '2 buttons bots and online... a third for empty.' Adapted the already-existing (wrong-tree, apps2/lobby/src/main.c, confirmed dead by S169-01) reference implementation into the real apps/lobby/src/main.c's own more evolved menu architecture rather than copying verbatim: LobbyAction enum + LOBBY_LABELS trimmed from 6 to 3 entries, flows through the existing generic N-item list renderer/hit-tester/server-driven-override/double-click-rename machinery with zero changes to any of it. TDM/CTF/Evolution/direct-remote-join removed from the front door (still in the codebase, matches this repo's lean-esports-fork mission). ONLINE targets 127.0.0.1 explicitly (the design decision re-confirmed on port), not SERVER_HOST's own okemily.com default. Verified visually: the lobby is normally bypassed by an unconditional auto-connect-to-bot-pool boot hook, so a temporary throwaway build skipped just that hook to reach STATE_LOBBY for a screenshot (confirmed via grep after that the real source's hook is untouched) -- BOTS/ONLINE/EMPTY render correctly as color-coded boxes through the existing list UI. Real server+bot regression test also PASS on the committed binary. Commit 009a5b4.",
+  "id": 13803,
+  "metadata": null,
+  "run_id": "sess-20260813-2154-dda37e8b",
+  "source_repo": "shankpit-460",
+  "title": "S169-02: 3-button front door (BOTS/ONLINE/EMPTY)"
+}
