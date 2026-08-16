@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-16T10:08:18Z",
+  "generated_at": "2026-08-16T10:11:27Z",
   "repo": "APPLES",
-  "count": 3264,
+  "count": 3265,
   "apples": [
     {
       "id": 10525,
@@ -26114,6 +26114,14 @@
       "source_repo": "shankpit-460",
       "date": "20260816",
       "archived_at": "2026-08-16T10:08:18Z"
+    },
+    {
+      "id": 13799,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: 'CMTIMIE' (garbled all-caps voice-to-text artifact, consistent with this …",
+      "source_repo": "CLI",
+      "date": "20260816",
+      "archived_at": "2026-08-16T10:11:27Z"
     }
   ]
 }
