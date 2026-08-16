@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-16T00:10:54Z",
+  "body": "Founder: 'portals should work without a hotkey' / 'jump in them and you go thru.' Both server's authoritative check and client's local-mode prediction required use_pressed ANDed onto scene_portal_triggered's own proximity check. Fixed on both sides: portal entry no longer needs a keypress; vehicle enter/exit (shares the same button) stays keypress-gated, split into its own branch. Existing anti-retrigger guards (portal_cooldown_until_ms server-side, transition_timer client-side) unchanged, verified still correct by reading through their logic. Both binaries build clean. Real server+bot regression smoke test (emily-bot, 3 bots, 8s, real ticket auth): PASS -- confirms no regression to connection/combat/respawn. Honest gap: portal walk-through itself verified via code tracing of the unchanged proximity math, not a live bot walkthrough (building portal-position-aware bot movement was judged disproportionate scope for this fix, flagged not silently skipped). Commit d48e57c.",
+  "id": 13751,
+  "metadata": null,
+  "run_id": "sess-20260813-2154-dda37e8b",
+  "source_repo": "shankpit-460",
+  "title": "S169-08: portals trigger on proximity, no hotkey needed"
+}

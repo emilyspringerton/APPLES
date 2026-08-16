@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-16T00:05:26Z",
+  "generated_at": "2026-08-16T00:10:54Z",
   "repo": "APPLES",
-  "count": 3216,
+  "count": 3217,
   "apples": [
     {
       "id": 10525,
@@ -25730,6 +25730,14 @@
       "source_repo": "CLI",
       "date": "20260816",
       "archived_at": "2026-08-16T00:05:26Z"
+    },
+    {
+      "id": 13751,
+      "type": "completion",
+      "title": "S169-08: portals trigger on proximity, no hotkey needed",
+      "source_repo": "shankpit-460",
+      "date": "20260816",
+      "archived_at": "2026-08-16T00:10:54Z"
     }
   ]
 }
