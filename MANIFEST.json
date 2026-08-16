@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-16T09:58:38Z",
+  "generated_at": "2026-08-16T09:59:35Z",
   "repo": "APPLES",
-  "count": 3259,
+  "count": 3260,
   "apples": [
     {
       "id": 10525,
@@ -26074,6 +26074,14 @@
       "source_repo": "REDGARDEN",
       "date": "20260816",
       "archived_at": "2026-08-16T09:58:38Z"
+    },
+    {
+      "id": 13794,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: ok continue (standard reaffirmation, keep working the backlog queue auton…",
+      "source_repo": "CLI",
+      "date": "20260816",
+      "archived_at": "2026-08-16T09:59:35Z"
     }
   ]
 }
