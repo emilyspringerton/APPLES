@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-16T09:55:25Z",
+  "generated_at": "2026-08-16T09:55:48Z",
   "repo": "APPLES",
-  "count": 3257,
+  "count": 3258,
   "apples": [
     {
       "id": 10525,
@@ -26058,6 +26058,14 @@
       "source_repo": "CLI",
       "date": "20260816",
       "archived_at": "2026-08-16T09:55:25Z"
+    },
+    {
+      "id": 13792,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: 'and a blog pody pld' / 'pls' (garbled, read as 'and a blog post please')…",
+      "source_repo": "CLI",
+      "date": "20260816",
+      "archived_at": "2026-08-16T09:55:48Z"
     }
   ]
 }
