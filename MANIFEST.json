@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-16T10:26:54Z",
+  "generated_at": "2026-08-16T10:34:32Z",
   "repo": "APPLES",
-  "count": 3269,
+  "count": 3270,
   "apples": [
     {
       "id": 10525,
@@ -26154,6 +26154,14 @@
       "source_repo": "shankpit-460",
       "date": "20260816",
       "archived_at": "2026-08-16T10:26:54Z"
+    },
+    {
+      "id": 13804,
+      "type": "completion",
+      "title": "S141-04 (partial): norn CLI — read-only golden/history/status over NDJSON registries",
+      "source_repo": "NORN",
+      "date": "20260816",
+      "archived_at": "2026-08-16T10:34:32Z"
     }
   ]
 }

@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-16T10:34:32Z",
+  "body": "Built cmd/norn, the first of S141-04's three remaining pieces (nornd daemon, CLI, Back Office panel). Three read-only subcommands: golden, history, status — never writes to a registry, the migration CLIs stay the only writers. -kind defaults to the registry filename per the one-kind-per-file convention every real instantiation already follows. Live-verified against both real production registries in PRRJECT_FATBABY/var/norn/ (eps_extractor, entity_graph_rules) — status/golden/history all round-tripped the real recorded data correctly. Unit test + a real-binary integration test. go build/vet/test -race clean across the whole workspace. nornd daemon and Back Office panel remain not started, disclosed not papered over. Commit 9d2f5c7.",
+  "id": 13804,
+  "metadata": null,
+  "run_id": "sess-20260813-2154-dda37e8b",
+  "source_repo": "NORN",
+  "title": "S141-04 (partial): norn CLI — read-only golden/history/status over NDJSON registries"
+}
