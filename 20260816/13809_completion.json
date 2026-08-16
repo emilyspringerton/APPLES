@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-16T10:59:24Z",
+  "body": "Investigated the item's three named gaps (insider clusters, dividend/buyback, guidance) before building anything. Found insider_sell_cluster/dividend_raise/buyback_authorization signals already render live on ticker pages via the generic graphread.LiveSignals signal-card mechanism -- verified with real curl against PLTR/TGT -- so that part of S154-02 was already done, same class of stale-premise correction as S154-01. The real gap: guidanceread.Store.ForTicker existed, tested, unused since /section/guidance landed -- wired into serveTicker via the existing GuidanceItemsFrom conversion, new Guidance sidebar box on the ticker page. Self-caught bug during the build: first attempt inserted the panel into the wrong html/template block (frontTemplate instead of tickerTemplate -- both structs share an Earnings field name, which masked the mistake past go build/vet), which would have broken the live front page with a template execution error the moment Lead was non-nil. Found via a direct render test before it ever reached production, fixed, and added TestTickerPage_Guidance + TestTickerPage_Guidance_NilStore to lock in the correct wiring. Live-verified against real production data on DOV (Dover's real 'raises FY 2026 EPS guidance to $8.94-$9.14' guidance) with the front page and a no-guidance ticker (AAPL) both confirmed render-error-free. go build/vet/test ./... clean. Commit b861e1f.",
+  "id": 13809,
+  "metadata": null,
+  "run_id": "sess-20260813-2154-dda37e8b",
+  "source_repo": "PRRJECT_FATBABY",
+  "title": "S154-02 (partial): guidance panel wired onto ticker pages"
+}
