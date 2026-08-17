@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-17T20:32:41Z",
+  "generated_at": "2026-08-17T20:33:46Z",
   "repo": "APPLES",
-  "count": 3444,
+  "count": 3445,
   "apples": [
     {
       "id": 10525,
@@ -27554,6 +27554,14 @@
       "source_repo": "CLI",
       "date": "20260817",
       "archived_at": "2026-08-17T20:32:41Z"
+    },
+    {
+      "id": 13979,
+      "type": "completion",
+      "title": "Prompt-o-verse: tag-normalization, taxonomy-as-graph, and the steering-mechanism resolution",
+      "source_repo": "EMILY",
+      "date": "20260817",
+      "archived_at": "2026-08-17T20:33:46Z"
     }
   ]
 }

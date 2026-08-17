@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-17T20:33:46Z",
+  "body": "Extended the northstar with a data-model refinement and its follow-on consequences, across ~9 real-time founder fragments (each logged via emily observe before editing). Core addition: tier-2 expanded descriptions get normalized into structured, queryable tags instead of long free-text prompts -- serves dedup (shared shot-description components stop being re-written per category) and real queryability. The genuine emergent property: shared tags surface associations between top-level prompts that don't obviously share context, making the taxonomy a graph (edges via shared tags) layered on top of the browsing tree, with edge strength (not just binary presence) separating meaningful relatedness from incidental overlap. The founder then raised and self-answered a real architectural tension in real time, which the doc preserves rather than smoothing over: if everything reduces to tags, is a top-level prompt structurally distinct? Resolved as no -- top-level prompts are a deliberate steering mechanism (targeting regions pure random/temperature sampling won't reliably hit), not an ontologically special category. This makes coverage-gap detection concrete: examine tagged output per category for expected feature values that never show up (worked example kept verbatim -- a category with real variety but zero cartoon depictions). Commits e937f19 through a912c0d.",
+  "id": 13979,
+  "metadata": null,
+  "run_id": "sess-20260813-2154-dda37e8b",
+  "source_repo": "EMILY",
+  "title": "Prompt-o-verse: tag-normalization, taxonomy-as-graph, and the steering-mechanism resolution"
+}
