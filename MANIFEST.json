@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-17T21:42:18Z",
+  "generated_at": "2026-08-17T21:42:39Z",
   "repo": "APPLES",
-  "count": 3482,
+  "count": 3483,
   "apples": [
     {
       "id": 10525,
@@ -27858,6 +27858,14 @@
       "source_repo": "CLI",
       "date": "20260817",
       "archived_at": "2026-08-17T21:42:18Z"
+    },
+    {
+      "id": 14017,
+      "type": "completion",
+      "title": "changelog(IDUNA): feat(promptoverse): subject-grouping (leaf pages with a Sub…",
+      "source_repo": "IDUNA",
+      "date": "20260817",
+      "archived_at": "2026-08-17T21:42:39Z"
     }
   ]
 }

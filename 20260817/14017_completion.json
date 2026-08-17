@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-17T21:42:39Z",
+  "body": "CHANGELOG updated in IDUNA: feat(promptoverse): subject-grouping (leaf pages with a Subject that has ≥ 2 published leaves get a linked '/subject/\u003cslug\u003e/' page and a clickable Applied-to line); RenderAll now re-renders every node + subject pages on every publish (not just the new node + index) so an OLDER sibling gains its link the moment a SECOND leaf under the same Subject goes live; added cmd/promptoverse-rerender (mirrors cmd/blog-rerender) and used it to backfill all 28 existing nodes, which also fixed a stale published_at=0001-01-01 baked into early VS0 leaf pages from before RenderAll existed (DB values were always correct -- the static HTML just never got re-rendered with them until now) (sess-20260813-2154-dda37e8b)",
+  "id": 14017,
+  "metadata": null,
+  "run_id": "sess-20260813-2154-dda37e8b",
+  "source_repo": "IDUNA",
+  "title": "changelog(IDUNA): feat(promptoverse): subject-grouping (leaf pages with a Sub…"
+}
