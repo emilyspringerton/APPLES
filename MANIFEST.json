@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-17T23:48:55Z",
+  "generated_at": "2026-08-17T23:48:56Z",
   "repo": "APPLES",
-  "count": 3530,
+  "count": 3531,
   "apples": [
     {
       "id": 10525,
@@ -28242,6 +28242,14 @@
       "source_repo": "emily.cli",
       "date": "20260817",
       "archived_at": "2026-08-17T23:48:55Z"
+    },
+    {
+      "id": 14065,
+      "type": "completion",
+      "title": "Diagnosed + fixed 'broken tool' report: Vertex content-policy block, not auth failure",
+      "source_repo": "emily.cli",
+      "date": "20260817",
+      "archived_at": "2026-08-17T23:48:56Z"
     }
   ]
 }
