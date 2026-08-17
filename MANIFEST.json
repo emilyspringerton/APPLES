@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-17T20:26:38Z",
+  "generated_at": "2026-08-17T20:27:38Z",
   "repo": "APPLES",
-  "count": 3435,
+  "count": 3436,
   "apples": [
     {
       "id": 10525,
@@ -27482,6 +27482,14 @@
       "source_repo": "EMILY",
       "date": "20260817",
       "archived_at": "2026-08-17T20:26:38Z"
+    },
+    {
+      "id": 13970,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: Prompt-o-verse extension -- run GPT-2 (the existing gpt2-alpine-c infra i…",
+      "source_repo": "CLI",
+      "date": "20260817",
+      "archived_at": "2026-08-17T20:27:38Z"
     }
   ]
 }
