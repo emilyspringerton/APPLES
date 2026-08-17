@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-17T23:33:26Z",
+  "generated_at": "2026-08-17T23:44:08Z",
   "repo": "APPLES",
-  "count": 3526,
+  "count": 3527,
   "apples": [
     {
       "id": 10525,
@@ -28210,6 +28210,14 @@
       "source_repo": "emily",
       "date": "20260817",
       "archived_at": "2026-08-17T23:33:26Z"
+    },
+    {
+      "id": 14061,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time (continued burst): (1) requeue command to re-pick queued styles with fixed…",
+      "source_repo": "CLI",
+      "date": "20260817",
+      "archived_at": "2026-08-17T23:44:08Z"
     }
   ]
 }
