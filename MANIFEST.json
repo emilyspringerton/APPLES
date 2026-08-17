@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-17T20:33:46Z",
+  "generated_at": "2026-08-17T20:33:55Z",
   "repo": "APPLES",
-  "count": 3445,
+  "count": 3446,
   "apples": [
     {
       "id": 10525,
@@ -27562,6 +27562,14 @@
       "source_repo": "EMILY",
       "date": "20260817",
       "archived_at": "2026-08-17T20:33:46Z"
+    },
+    {
+      "id": 13980,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: 'ensure all is ingested and planned and then iterate' -- closing signal o…",
+      "source_repo": "CLI",
+      "date": "20260817",
+      "archived_at": "2026-08-17T20:33:55Z"
     }
   ]
 }
