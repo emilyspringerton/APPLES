@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-17T21:50:45Z",
+  "body": "selectStylesForSubject skips styles already published or queued for the exact subject, orders remaining by ascending global usage. Registry widened with 4 promoted styles (outer space, underwater, robot, made of candy). Commit bf937e4.",
+  "id": 14025,
+  "metadata": null,
+  "run_id": "sess-20260813-2154-dda37e8b",
+  "source_repo": "emily.cli",
+  "title": "Prompt-o-verse add: dedup + variety-weighted style selection"
+}
