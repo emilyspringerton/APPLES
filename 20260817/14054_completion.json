@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-17T23:17:17Z",
+  "body": "CHANGELOG updated in emily.cli: feat(promptoverse): new 'brainstorm' subcommand prompts GPT-2 (base checkpoint) with the current style registry as a seed list and parses candidate tags from the completion, review-only, nothing auto-added. feat(promptoverse): add gained --tag \u003cstyle\u003e to force a specific style (creating + persisting it via Vertex AI if new) as slot 1, filling the rest via the existing dedup/variety selection. (sess-20260813-2154-dda37e8b)",
+  "id": 14054,
+  "metadata": null,
+  "run_id": "sess-20260813-2154-dda37e8b",
+  "source_repo": "emily.cli",
+  "title": "changelog(emily.cli): feat(promptoverse): new 'brainstorm' subcommand prompts GPT…"
+}
