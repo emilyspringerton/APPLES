@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-17T22:05:31Z",
+  "generated_at": "2026-08-17T22:11:27Z",
   "repo": "APPLES",
-  "count": 3498,
+  "count": 3499,
   "apples": [
     {
       "id": 10525,
@@ -27986,6 +27986,14 @@
       "source_repo": "emily.cli",
       "date": "20260817",
       "archived_at": "2026-08-17T22:05:31Z"
+    },
+    {
+      "id": 14033,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: promptoverse should keep a local variable estimating retry backoff across…",
+      "source_repo": "CLI",
+      "date": "20260817",
+      "archived_at": "2026-08-17T22:11:27Z"
     }
   ]
 }

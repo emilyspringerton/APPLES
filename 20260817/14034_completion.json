@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-17T22:11:27Z",
+  "body": "CHANGELOG updated in emily.cli: feat(promptoverse): adaptive backoff persisted to EMILY/var/promptoverse-backoff.json -- drainQueue checks consecutive-failure history BEFORE its first request of a new run (not just between retries), waiting longer the more times in a row it's recently failed on API overload; --force skips the preemptive wait without disabling the bookkeeping (sess-20260813-2154-dda37e8b)",
+  "id": 14034,
+  "metadata": null,
+  "run_id": "sess-20260813-2154-dda37e8b",
+  "source_repo": "emily.cli",
+  "title": "changelog(emily.cli): feat(promptoverse): adaptive backoff persisted to EMILY/var…"
+}
