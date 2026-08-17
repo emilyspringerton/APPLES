@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-17T20:37:38Z",
+  "generated_at": "2026-08-17T20:37:47Z",
   "repo": "APPLES",
-  "count": 3449,
+  "count": 3450,
   "apples": [
     {
       "id": 10525,
@@ -27594,6 +27594,14 @@
       "source_repo": "CLI",
       "date": "20260817",
       "archived_at": "2026-08-17T20:37:38Z"
+    },
+    {
+      "id": 13984,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: 'need to circle back to see if the google cloud has sorted itself out or …",
+      "source_repo": "CLI",
+      "date": "20260817",
+      "archived_at": "2026-08-17T20:37:47Z"
     }
   ]
 }
