@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-17T21:01:21Z",
+  "body": "Built the real VS0 gallery: new internal/promptoverse package (store+render, same shape as internal/tyler) + PromptOVerseHandler, wired into okemily.com at /prompt-o-verse/. Each node shows exactly the 3 pieces of data the founder specified -- top-level prompt, generated image, labeled taxonomy tags -- using real semantic HTML (article/figure-figcaption/dl-dt-dd/time) per explicit direction, not div soup. Seeded with a real 20-prompt batch: 3 historical anchors (1910s tobacco card, 1990s glossy rookie card, 2020s chrome refractor) + 17 fun/surreal transformations (ice cream novelty, claymation, LEGO, stained glass, Renaissance painting, etc.) explicitly aimed at people new to generative AI per founder direction. Generated via Vertex AI's gemini-2.5-flash-image using this box's existing gcloud ADC -- 17/20 succeeded before hitting real rate limits, stopped there per founder's own 'proceed with what you have' call rather than hammering the API. New promptoverse.write permission granted to EMILY-PRIME. okemily-deploy.sh fixed to exclude prompt-o-verse/ from its rsync (same protection blog/tyler already have). 11 new tests, go build/vet/test ./... clean. Live-verified: real generated images rendering correctly at okemily.com/prompt-o-verse/. Commit fbc795c.",
+  "id": 13995,
+  "metadata": null,
+  "run_id": "sess-20260813-2154-dda37e8b",
+  "source_repo": "IDUNA",
+  "title": "Prompt-o-verse VS0 MVP shipped live on okemily.com"
+}
