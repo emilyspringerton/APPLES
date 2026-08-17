@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-17T21:50:45Z",
+  "generated_at": "2026-08-17T21:50:46Z",
   "repo": "APPLES",
-  "count": 3489,
+  "count": 3490,
   "apples": [
     {
       "id": 10525,
@@ -27914,6 +27914,14 @@
       "source_repo": "CLI",
       "date": "20260817",
       "archived_at": "2026-08-17T21:50:45Z"
+    },
+    {
+      "id": 14024,
+      "type": "completion",
+      "title": "changelog(emily.cli): feat(promptoverse): add dedupes against published+queued st…",
+      "source_repo": "emily.cli",
+      "date": "20260817",
+      "archived_at": "2026-08-17T21:50:46Z"
     }
   ]
 }
