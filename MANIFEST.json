@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-17T22:48:05Z",
+  "generated_at": "2026-08-17T22:48:07Z",
   "repo": "APPLES",
-  "count": 3514,
+  "count": 3515,
   "apples": [
     {
       "id": 10525,
@@ -28114,6 +28114,14 @@
       "source_repo": "CLI",
       "date": "20260817",
       "archived_at": "2026-08-17T22:48:05Z"
+    },
+    {
+      "id": 14049,
+      "type": "completion",
+      "title": "changelog(emily.cli): feat(promptoverse): added Whiteboard, Paper-craft, Anime, K…",
+      "source_repo": "emily.cli",
+      "date": "20260817",
+      "archived_at": "2026-08-17T22:48:07Z"
     }
   ]
 }
