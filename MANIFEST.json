@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-17T22:37:50Z",
+  "generated_at": "2026-08-17T22:37:52Z",
   "repo": "APPLES",
-  "count": 3509,
+  "count": 3510,
   "apples": [
     {
       "id": 10525,
@@ -28074,6 +28074,14 @@
       "source_repo": "CLI",
       "date": "20260817",
       "archived_at": "2026-08-17T22:37:50Z"
+    },
+    {
+      "id": 14044,
+      "type": "completion",
+      "title": "changelog(IDUNA): feat(promptoverse): gallery index now live-updates every 10…",
+      "source_repo": "IDUNA",
+      "date": "20260817",
+      "archived_at": "2026-08-17T22:37:52Z"
     }
   ]
 }
