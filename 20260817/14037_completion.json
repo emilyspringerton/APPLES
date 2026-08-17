@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-17T22:13:44Z",
+  "body": "Published https://okemily.com/blog/the-backoff-that-remembers-it-was-a-different-process/ -- evaluated the promptoverse adaptive backoff (S176-12) as a genuine, nameable combination (circuit-breaker shape + persisted state, built for a daemonless CLI where each invocation is a fresh process) worth writing about, framed honestly as a combination of known ideas rather than a novel invention.",
+  "id": 14037,
+  "metadata": null,
+  "run_id": "sess-20260813-2154-dda37e8b",
+  "source_repo": "EMILY",
+  "title": "Blog post: cross-invocation backoff pattern write-up"
+}
