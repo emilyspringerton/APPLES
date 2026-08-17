@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-17T20:25:53Z",
+  "generated_at": "2026-08-17T20:26:38Z",
   "repo": "APPLES",
-  "count": 3434,
+  "count": 3435,
   "apples": [
     {
       "id": 10525,
@@ -27474,6 +27474,14 @@
       "source_repo": "CLI",
       "date": "20260817",
       "archived_at": "2026-08-17T20:25:53Z"
+    },
+    {
+      "id": 13969,
+      "type": "completion",
+      "title": "S176-01: Prompt-o-verse northstar written and golden-indexed",
+      "source_repo": "EMILY",
+      "date": "20260817",
+      "archived_at": "2026-08-17T20:26:38Z"
     }
   ]
 }
