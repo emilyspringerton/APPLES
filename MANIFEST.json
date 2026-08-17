@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-17T20:25:01Z",
+  "generated_at": "2026-08-17T20:25:32Z",
   "repo": "APPLES",
-  "count": 3432,
+  "count": 3433,
   "apples": [
     {
       "id": 10525,
@@ -27458,6 +27458,14 @@
       "source_repo": "CLI",
       "date": "20260817",
       "archived_at": "2026-08-17T20:25:01Z"
+    },
+    {
+      "id": 13967,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: pipeline clarification -- 'we have the label (top level prompt), then the…",
+      "source_repo": "CLI",
+      "date": "20260817",
+      "archived_at": "2026-08-17T20:25:32Z"
     }
   ]
 }
