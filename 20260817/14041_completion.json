@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-17T22:22:56Z",
+  "body": "Root cause: subject/\u003cslug\u003e/index.html is one directory deeper than leaf pages, so the bare \u003cslug\u003e/\u003cfile\u003e relative img src (correct on the index) resolved to a nonexistent nested path. Fixed to an absolute /prompt-o-verse/ path, matching the href pattern already in the same template. Regression test added (checked actual resolved src, not just href). Rebuilt, restarted iduna.service, re-ran promptoverse-rerender against live data. Commit 4d0b39d.",
+  "id": 14041,
+  "metadata": null,
+  "run_id": "sess-20260813-2154-dda37e8b",
+  "source_repo": "IDUNA",
+  "title": "Fixed broken image links on Prompt-o-verse subject pages"
+}

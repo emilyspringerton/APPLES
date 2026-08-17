@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-17T22:22:56Z",
+  "body": "CHANGELOG updated in IDUNA: fix(promptoverse): subject page \u003cimg src\u003e used a bare relative path that only resolves correctly from the top-level index, not from subject/\u003cslug\u003e/ which is one directory deeper -- every subject page's images 404ed. Switched to the absolute /prompt-o-verse/\u003cslug\u003e/\u003cfile\u003e path already used by the \u003ca href\u003es in the same template. Re-ran cmd/promptoverse-rerender to fix already-published pages. (sess-20260813-2154-dda37e8b)",
+  "id": 14040,
+  "metadata": null,
+  "run_id": "sess-20260813-2154-dda37e8b",
+  "source_repo": "IDUNA",
+  "title": "changelog(IDUNA): fix(promptoverse): subject page \u003cimg src\u003e used a bare relat…"
+}

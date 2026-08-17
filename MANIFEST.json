@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-17T22:18:46Z",
+  "generated_at": "2026-08-17T22:22:56Z",
   "repo": "APPLES",
-  "count": 3504,
+  "count": 3505,
   "apples": [
     {
       "id": 10525,
@@ -28034,6 +28034,14 @@
       "source_repo": "emily",
       "date": "20260817",
       "archived_at": "2026-08-17T22:18:46Z"
+    },
+    {
+      "id": 14039,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: subject pages work but the images are broken links",
+      "source_repo": "CLI",
+      "date": "20260817",
+      "archived_at": "2026-08-17T22:22:56Z"
     }
   ]
 }
