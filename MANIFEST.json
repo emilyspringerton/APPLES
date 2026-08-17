@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-17T20:40:49Z",
+  "generated_at": "2026-08-17T20:42:30Z",
   "repo": "APPLES",
-  "count": 3452,
+  "count": 3453,
   "apples": [
     {
       "id": 10525,
@@ -27618,6 +27618,14 @@
       "source_repo": "CLI",
       "date": "20260817",
       "archived_at": "2026-08-17T20:40:49Z"
+    },
+    {
+      "id": 13987,
+      "type": "completion",
+      "title": "Prompt-o-verse VS0 unblocked: real image generation working via gcloud + Vertex AI",
+      "source_repo": "EMILY",
+      "date": "20260817",
+      "archived_at": "2026-08-17T20:42:30Z"
     }
   ]
 }

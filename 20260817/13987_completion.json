@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-17T20:42:30Z",
+  "body": "Founder proposed bypassing Google Cloud Console (where a prior ~2-hour GEMINI_API_KEY attempt died in a real, live-web-search-confirmed still-active Google-side bug) in favor of gcloud/service-account provisioning. This box already had working gcloud ADC (garybifrost@gmail.com) with aiplatform.googleapis.com enabled and active billing. Tested the deprecated Gemini CLI OAuth path first -- confirmed dead (IneligibleTierError, Google migrated free-tier individual access to 'Antigravity'). Then tested Vertex AI directly via gcloud auth print-access-token against gemini-2.5-flash-image ('Nano Banana') -- real success on the first attempt, producing a genuinely convincing 1024x1024 '1990s glossy baseball rookie card portrait' from the exact EZ-tier prompt style the northstar describes. This is real empirical proof Prompt-o-verse's core VS0 mechanic (top-level prompt -\u003e generated data) works right now, not just a researched-viable backend. Saved as the project's first real artifact at EMILY/docs/prompt-o-verse/vs0-proof/. Northstar's §5 open question fully rewritten from 'unpicked' to 'resolved,' golden-docs-index description and BACKLOG.md updated to match. Commits f6221dc, b8cb750.",
+  "id": 13987,
+  "metadata": null,
+  "run_id": "sess-20260813-2154-dda37e8b",
+  "source_repo": "EMILY",
+  "title": "Prompt-o-verse VS0 unblocked: real image generation working via gcloud + Vertex AI"
+}
