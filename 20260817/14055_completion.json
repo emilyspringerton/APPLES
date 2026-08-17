@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-17T23:17:22Z",
+  "body": "brainstorm subcommand prompts gpt2-serve with the current registry as a seed list, parses candidate tags (tested against real captured completions). --tag \u003cstyle\u003e on add forces a specific style, creating+persisting it via Vertex AI (expandNamedStyle) if new, filling the rest via the existing dedup selection. Live-verified: 'add princess 4 --tag gladiator' created gladiator, forced it, filled 3 more, and it was reused for a second subject moments later. Also restarted a stuck gpt2-serve process found along the way (wedged since Aug 13). Commits b2a6fd1, b8c0a84, 94b5f59.",
+  "id": 14055,
+  "metadata": null,
+  "run_id": "sess-20260813-2154-dda37e8b",
+  "source_repo": "emily.cli",
+  "title": "Prompt-o-verse: GPT-2 brainstorm tool + --tag forced-style flag"
+}
