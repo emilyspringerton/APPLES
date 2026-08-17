@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-17T22:00:57Z",
+  "generated_at": "2026-08-17T22:00:59Z",
   "repo": "APPLES",
-  "count": 3493,
+  "count": 3494,
   "apples": [
     {
       "id": 10525,
@@ -27946,6 +27946,14 @@
       "source_repo": "emily.cli",
       "date": "20260817",
       "archived_at": "2026-08-17T22:00:57Z"
+    },
+    {
+      "id": 14028,
+      "type": "completion",
+      "title": "Prompt-o-verse: self-healing queue + style discovery via Vertex AI",
+      "source_repo": "emily.cli",
+      "date": "20260817",
+      "archived_at": "2026-08-17T22:00:59Z"
     }
   ]
 }
