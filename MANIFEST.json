@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-17T23:17:36Z",
+  "generated_at": "2026-08-17T23:21:15Z",
   "repo": "APPLES",
-  "count": 3522,
+  "count": 3523,
   "apples": [
     {
       "id": 10525,
@@ -28178,6 +28178,14 @@
       "source_repo": "emily",
       "date": "20260817",
       "archived_at": "2026-08-17T23:17:36Z"
+    },
+    {
+      "id": 14057,
+      "type": "completion",
+      "title": "changelog(emily.cli): feat(promptoverse): --slow flag doubles all inter-request/b…",
+      "source_repo": "emily.cli",
+      "date": "20260817",
+      "archived_at": "2026-08-17T23:21:15Z"
     }
   ]
 }
