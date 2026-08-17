@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "audit",
+  "archived_at": "2026-08-17T10:50:06Z",
+  "body": "Founder real-time ask, clarified mid-turn: 'exotic training' = REDGARDEN's --autocurriculum PFSP training specifically. Audited current state before acting: no training process was running; the last two autocurriculum-family runs (2026-08-14 200K/35%, 2026-08-15 10v10 512K/40%) had both already completed cleanly and been reported (Apple #13608/#13610, #13748) -- no silent crash, no stuck process, no missing report. Found one real gap while auditing: the 35% run changed two variables at once versus the 75% reference run (halved timesteps AND added --noisy-gestalt), so the standing 'probably under-convergence, not regression' hypothesis was never actually isolated. Relaunched a clean control run matching the 75% run's exact config (team_size=3, 500K timesteps, --autocurriculum only, noisy-gestalt off) to properly test that hypothesis. Verified healthy: process alive, real startup banner printed, fps=99, writing checkpoints normally. PID 522839, log var/logs/rl_train_autocurriculum_20260817T104814Z.log, output rl_team_checkpoints_autocurriculum_500k/. REDGARDEN commit f101106. Run in progress -- will report final win rate on completion, same honest-reporting discipline as prior runs.",
+  "id": 13908,
+  "metadata": null,
+  "run_id": "sess-20260813-2154-dda37e8b",
+  "source_repo": "REDGARDEN",
+  "title": "Ensure-ops check: exotic (autocurriculum) training healthy, relaunched clean control run"
+}

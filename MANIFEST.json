@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-17T10:47:34Z",
+  "generated_at": "2026-08-17T10:50:06Z",
   "repo": "APPLES",
-  "count": 3373,
+  "count": 3374,
   "apples": [
     {
       "id": 10525,
@@ -26986,6 +26986,14 @@
       "source_repo": "CLI",
       "date": "20260817",
       "archived_at": "2026-08-17T10:47:34Z"
+    },
+    {
+      "id": 13908,
+      "type": "audit",
+      "title": "Ensure-ops check: exotic (autocurriculum) training healthy, relaunched clean control run",
+      "source_repo": "REDGARDEN",
+      "date": "20260817",
+      "archived_at": "2026-08-17T10:50:06Z"
     }
   ]
 }
