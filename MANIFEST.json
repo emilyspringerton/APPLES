@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-17T20:27:38Z",
+  "generated_at": "2026-08-17T20:29:13Z",
   "repo": "APPLES",
-  "count": 3436,
+  "count": 3437,
   "apples": [
     {
       "id": 10525,
@@ -27490,6 +27490,14 @@
       "source_repo": "CLI",
       "date": "20260817",
       "archived_at": "2026-08-17T20:27:38Z"
+    },
+    {
+      "id": 13971,
+      "type": "completion",
+      "title": "Prompt-o-verse northstar: added GPT-2-assisted extrapolation for undiscovered categories",
+      "source_repo": "EMILY",
+      "date": "20260817",
+      "archived_at": "2026-08-17T20:29:13Z"
     }
   ]
 }

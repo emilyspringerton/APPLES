@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-17T20:29:13Z",
+  "body": "Founder asked to run GPT-2 (the existing gpt2-alpine-c fine-tune+inference pipeline already built for Emily Prime) over segments of the taxonomy data to identify/generate prompts for 'realities that don't yet exist as far as we are aware.' Grounded the connection in gpt2-alpine-c's real, already-built capabilities (prime_directive_dataset.py's corpus pattern, Colab fine-tune flow, serve.py inference API proxied through emily-agent) rather than inventing new infra. Distinguished this from section 2's pure observation-based discovery: this is extrapolation, training on the taxonomy-so-far to propose categories nobody has generated an example of yet -- a second-order use of the reverse-labeled dataset framing (labels generating more labels). Fits as a concrete NORN Proposer candidate for the discovery loop's existing Oracle/Gate. Disclosed honestly, not glossed: gpt2-alpine-c's Colab fine-tune pipeline exists in code but hasn't completed a first real run yet (S26-04, still open) -- this would be a new consumer of that pipeline, not something that resolves it. Also bumped the golden-docs-index token budget (2500-\u003e4500) to match the document's real size after several rounds of enrichment. Commits e937f19, 854d814, 082aab5, 3bfc8ee, 618f181.",
+  "id": 13971,
+  "metadata": null,
+  "run_id": "sess-20260813-2154-dda37e8b",
+  "source_repo": "EMILY",
+  "title": "Prompt-o-verse northstar: added GPT-2-assisted extrapolation for undiscovered categories"
+}
