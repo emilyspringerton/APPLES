@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-17T22:22:56Z",
+  "generated_at": "2026-08-17T22:22:57Z",
   "repo": "APPLES",
-  "count": 3505,
+  "count": 3506,
   "apples": [
     {
       "id": 10525,
@@ -28042,6 +28042,14 @@
       "source_repo": "CLI",
       "date": "20260817",
       "archived_at": "2026-08-17T22:22:56Z"
+    },
+    {
+      "id": 14040,
+      "type": "completion",
+      "title": "changelog(IDUNA): fix(promptoverse): subject page \u003cimg src\u003e used a bare relat…",
+      "source_repo": "IDUNA",
+      "date": "20260817",
+      "archived_at": "2026-08-17T22:22:57Z"
     }
   ]
 }
