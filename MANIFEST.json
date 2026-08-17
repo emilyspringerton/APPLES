@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-17T21:42:55Z",
+  "generated_at": "2026-08-17T21:43:16Z",
   "repo": "APPLES",
-  "count": 3484,
+  "count": 3485,
   "apples": [
     {
       "id": 10525,
@@ -27874,6 +27874,14 @@
       "source_repo": "IDUNA",
       "date": "20260817",
       "archived_at": "2026-08-17T21:42:55Z"
+    },
+    {
+      "id": 14019,
+      "type": "completion",
+      "title": "changelog(emily.cli): feat(promptoverse): durable FIFO queue for gen requests -- …",
+      "source_repo": "emily.cli",
+      "date": "20260817",
+      "archived_at": "2026-08-17T21:43:16Z"
     }
   ]
 }

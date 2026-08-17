@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-17T21:43:16Z",
+  "body": "CHANGELOG updated in emily.cli: feat(promptoverse): durable FIFO queue for gen requests -- emily promptoverse add/work now enqueue to EMILY/var/promptoverse-queue.jsonl and drain strictly front-to-back instead of firing Vertex AI calls immediately per invocation, addressing repeated 429s plausibly worsened by unordered concurrent add invocations. Stops (not retries) on failure, preserving remaining queue order; rewrites queue file after every success for crash-safety. emily promptoverse queue lists pending items. (sess-20260813-2154-dda37e8b)",
+  "id": 14019,
+  "metadata": null,
+  "run_id": "sess-20260813-2154-dda37e8b",
+  "source_repo": "emily.cli",
+  "title": "changelog(emily.cli): feat(promptoverse): durable FIFO queue for gen requests -- …"
+}

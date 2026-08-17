@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-17T21:43:16Z",
+  "body": "cmd/promptoverse.go rewritten with a durable JSONL FIFO queue (add/work/queue/styles); this closes the gap between the queue rewrite (built earlier this session, used live for the tuxedo-duck backfill) and it actually landing in git. Commit 06f9d86.",
+  "id": 14020,
+  "metadata": null,
+  "run_id": "sess-20260813-2154-dda37e8b",
+  "source_repo": "emily.cli",
+  "title": "Prompt-o-verse FIFO queue infrastructure committed"
+}
