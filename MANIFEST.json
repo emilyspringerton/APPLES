@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-17T20:35:06Z",
+  "generated_at": "2026-08-17T20:37:12Z",
   "repo": "APPLES",
-  "count": 3447,
+  "count": 3448,
   "apples": [
     {
       "id": 10525,
@@ -27578,6 +27578,14 @@
       "source_repo": "CLI",
       "date": "20260817",
       "archived_at": "2026-08-17T20:35:06Z"
+    },
+    {
+      "id": 13982,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: 'gemini api key is so hard to get i tried for like 2 hours the other day'…",
+      "source_repo": "CLI",
+      "date": "20260817",
+      "archived_at": "2026-08-17T20:37:12Z"
     }
   ]
 }
