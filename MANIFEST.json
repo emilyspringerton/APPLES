@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-17T20:29:13Z",
+  "generated_at": "2026-08-17T20:30:03Z",
   "repo": "APPLES",
-  "count": 3437,
+  "count": 3438,
   "apples": [
     {
       "id": 10525,
@@ -27498,6 +27498,14 @@
       "source_repo": "EMILY",
       "date": "20260817",
       "archived_at": "2026-08-17T20:29:13Z"
+    },
+    {
+      "id": 13972,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: Prompt-o-verse data-model refinement -- the expanded/tier-2 description s…",
+      "source_repo": "CLI",
+      "date": "20260817",
+      "archived_at": "2026-08-17T20:30:03Z"
     }
   ]
 }
