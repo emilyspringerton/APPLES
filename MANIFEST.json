@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-17T22:02:47Z",
+  "generated_at": "2026-08-17T22:05:27Z",
   "repo": "APPLES",
-  "count": 3495,
+  "count": 3496,
   "apples": [
     {
       "id": 10525,
@@ -27962,6 +27962,14 @@
       "source_repo": "emily",
       "date": "20260817",
       "archived_at": "2026-08-17T22:02:47Z"
+    },
+    {
+      "id": 14030,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: when draining the promptoverse queue we need a longer wait between reques…",
+      "source_repo": "CLI",
+      "date": "20260817",
+      "archived_at": "2026-08-17T22:05:27Z"
     }
   ]
 }

@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-17T22:05:27Z",
+  "body": "CHANGELOG updated in emily.cli: tune(promptoverse): bumped default inter-request delay 6s -\u003e 20s (still hitting 429s at 6s), overridable via PROMPTOVERSE_INTER_REQUEST_DELAY_SECONDS so future tuning doesn't need a code change (sess-20260813-2154-dda37e8b)",
+  "id": 14031,
+  "metadata": null,
+  "run_id": "sess-20260813-2154-dda37e8b",
+  "source_repo": "emily.cli",
+  "title": "changelog(emily.cli): tune(promptoverse): bumped default inter-request delay 6s -…"
+}
