@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-17T22:00:57Z",
+  "body": "CHANGELOG updated in emily.cli: fix(promptoverse): drainQueue now skips (not stops on) a 409 'already exists' response, so a stale/duplicate queue entry no longer permanently jams every request behind it; appendQueue dedupes on write, closing a race between concurrent add calls. feat(promptoverse): add now makes one attempt to discover a genuinely new style via Vertex AI's Gemini text model when the registry ran short for a subject's 2nd+ generation -- the model can decline rather than being forced to pad with something frivolous. Discovered styles persist to EMILY/var/promptoverse-discovered-styles.json. (sess-20260813-2154-dda37e8b)",
+  "id": 14027,
+  "metadata": null,
+  "run_id": "sess-20260813-2154-dda37e8b",
+  "source_repo": "emily.cli",
+  "title": "changelog(emily.cli): fix(promptoverse): drainQueue now skips (not stops on) a 40…"
+}

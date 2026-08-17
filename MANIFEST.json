@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-17T21:56:15Z",
+  "generated_at": "2026-08-17T22:00:57Z",
   "repo": "APPLES",
-  "count": 3492,
+  "count": 3493,
   "apples": [
     {
       "id": 10525,
@@ -27938,6 +27938,14 @@
       "source_repo": "CLI",
       "date": "20260817",
       "archived_at": "2026-08-17T21:56:15Z"
+    },
+    {
+      "id": 14027,
+      "type": "completion",
+      "title": "changelog(emily.cli): fix(promptoverse): drainQueue now skips (not stops on) a 40…",
+      "source_repo": "emily.cli",
+      "date": "20260817",
+      "archived_at": "2026-08-17T22:00:57Z"
     }
   ]
 }
