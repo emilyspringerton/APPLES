@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-17T20:25:32Z",
+  "generated_at": "2026-08-17T20:25:53Z",
   "repo": "APPLES",
-  "count": 3433,
+  "count": 3434,
   "apples": [
     {
       "id": 10525,
@@ -27466,6 +27466,14 @@
       "source_repo": "CLI",
       "date": "20260817",
       "archived_at": "2026-08-17T20:25:32Z"
+    },
+    {
+      "id": 13968,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: 'there is a great deal of variation -- we can generate multiple gens from…",
+      "source_repo": "CLI",
+      "date": "20260817",
+      "archived_at": "2026-08-17T20:25:53Z"
     }
   ]
 }
