@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-17T22:13:44Z",
+  "generated_at": "2026-08-17T22:13:45Z",
   "repo": "APPLES",
-  "count": 3502,
+  "count": 3503,
   "apples": [
     {
       "id": 10525,
@@ -28018,6 +28018,14 @@
       "source_repo": "EMILY",
       "date": "20260817",
       "archived_at": "2026-08-17T22:13:44Z"
+    },
+    {
+      "id": 14037,
+      "type": "completion",
+      "title": "Blog post: cross-invocation backoff pattern write-up",
+      "source_repo": "EMILY",
+      "date": "20260817",
+      "archived_at": "2026-08-17T22:13:45Z"
     }
   ]
 }
