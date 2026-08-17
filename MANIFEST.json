@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-17T20:33:55Z",
+  "generated_at": "2026-08-17T20:35:06Z",
   "repo": "APPLES",
-  "count": 3446,
+  "count": 3447,
   "apples": [
     {
       "id": 10525,
@@ -27570,6 +27570,14 @@
       "source_repo": "CLI",
       "date": "20260817",
       "archived_at": "2026-08-17T20:33:55Z"
+    },
+    {
+      "id": 13981,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: 'lets see if we can use nano banana api to go from top level to the gen d…",
+      "source_repo": "CLI",
+      "date": "20260817",
+      "archived_at": "2026-08-17T20:35:06Z"
     }
   ]
 }
