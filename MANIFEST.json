@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-17T20:44:29Z",
+  "generated_at": "2026-08-17T20:45:24Z",
   "repo": "APPLES",
-  "count": 3456,
+  "count": 3457,
   "apples": [
     {
       "id": 10525,
@@ -27650,6 +27650,14 @@
       "source_repo": "CLI",
       "date": "20260817",
       "archived_at": "2026-08-17T20:44:29Z"
+    },
+    {
+      "id": 13991,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: 'prompt-o-verse will be the upstream git repo i cant create it we need to…",
+      "source_repo": "CLI",
+      "date": "20260817",
+      "archived_at": "2026-08-17T20:45:24Z"
     }
   ]
 }
