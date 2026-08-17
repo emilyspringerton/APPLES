@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-17T23:17:17Z",
+  "generated_at": "2026-08-17T23:17:18Z",
   "repo": "APPLES",
-  "count": 3519,
+  "count": 3520,
   "apples": [
     {
       "id": 10525,
@@ -28154,6 +28154,14 @@
       "source_repo": "CLI",
       "date": "20260817",
       "archived_at": "2026-08-17T23:17:17Z"
+    },
+    {
+      "id": 14054,
+      "type": "completion",
+      "title": "changelog(emily.cli): feat(promptoverse): new 'brainstorm' subcommand prompts GPT…",
+      "source_repo": "emily.cli",
+      "date": "20260817",
+      "archived_at": "2026-08-17T23:17:18Z"
     }
   ]
 }
