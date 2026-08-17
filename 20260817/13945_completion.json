@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-17T17:14:34Z",
+  "body": "Follow-through on the ensure-ops relaunch (Apple #13908): the clean control run (team_size=3, 503808/500000 timesteps, --autocurriculum only, matching the 2026-08-11 75%-win-rate reference run's exact config) finished cleanly. Result: 14W-6L-0D, 70.0% win rate -- same tier as the 75% reference, not the 35% outlier from the confounded 2026-08-14 run. This confirms the hypothesis this control run was built to test: the 35% score was under-convergence from halved timesteps plus a simultaneously-added --noisy-gestalt flag, not a regression in the autocurriculum mechanism itself. 70% vs 75% is normal run-to-run variance at matched config, not a new finding to chase. Final policy rl_team_checkpoints_autocurriculum_500k/ppo_arena_team_final.zip, weights exported to rl_policy_weights_team.h for inspection only -- explicitly not wired into any live consumer, same discipline as every other training run this session. REDGARDEN commit 0a0df1b.",
+  "id": 13945,
+  "metadata": null,
+  "run_id": "sess-20260813-2154-dda37e8b",
+  "source_repo": "REDGARDEN",
+  "title": "Clean autocurriculum control run complete: 70.0% win rate, confirms under-convergence hypothesis"
+}
