@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-17T21:43:17Z",
+  "generated_at": "2026-08-17T21:44:25Z",
   "repo": "APPLES",
-  "count": 3486,
+  "count": 3487,
   "apples": [
     {
       "id": 10525,
@@ -27890,6 +27890,14 @@
       "source_repo": "emily.cli",
       "date": "20260817",
       "archived_at": "2026-08-17T21:43:17Z"
+    },
+    {
+      "id": 14021,
+      "type": "completion",
+      "title": "emily.cli README updated to document all 27 commands",
+      "source_repo": "emily.cli",
+      "date": "20260817",
+      "archived_at": "2026-08-17T21:44:25Z"
     }
   ]
 }
