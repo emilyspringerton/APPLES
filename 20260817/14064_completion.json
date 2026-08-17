@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-17T23:48:53Z",
+  "body": "CHANGELOG updated in emily.cli: fix(promptoverse): vertexGenerateImage now surfaces finishReason/finishMessage instead of a generic 'no image data in response' -- diagnosed a real live failure that looked like a broken API key but was actually Vertex's IMAGE_PROHIBITED_CONTENT filter blocking Rapunzel (Disney IP). New errVertexContentBlocked sentinel: drainQueue skips permanently-blocked items instead of jamming the queue behind them, same treatment as the earlier duplicate-entry fix. (sess-20260813-2154-dda37e8b)",
+  "id": 14064,
+  "metadata": null,
+  "run_id": "sess-20260813-2154-dda37e8b",
+  "source_repo": "emily.cli",
+  "title": "changelog(emily.cli): fix(promptoverse): vertexGenerateImage now surfaces finishR…"
+}

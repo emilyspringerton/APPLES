@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-17T23:48:39Z",
+  "generated_at": "2026-08-17T23:48:53Z",
   "repo": "APPLES",
-  "count": 3528,
+  "count": 3529,
   "apples": [
     {
       "id": 10525,
@@ -28226,6 +28226,14 @@
       "source_repo": "emily",
       "date": "20260817",
       "archived_at": "2026-08-17T23:48:39Z"
+    },
+    {
+      "id": 14063,
+      "type": "signal_observation",
+      "title": "[ERROR] Founder real-time: tool broken, 'bad key error' then 'no image data in response' -- diagnos…",
+      "source_repo": "CLI",
+      "date": "20260817",
+      "archived_at": "2026-08-17T23:48:53Z"
     }
   ]
 }

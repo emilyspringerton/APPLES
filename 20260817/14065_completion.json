@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-17T23:48:53Z",
+  "body": "Root cause: finishReason IMAGE_PROHIBITED_CONTENT for Rapunzel (Disney IP), misleadingly surfaced as generic 'no image data in response' which looked like a bad key. Fixed error surfacing + added skip-on-permanent-block to drainQueue so it can't jam the queue. Live-verified: re-drain correctly skipped 2 more Rapunzel items then stopped cleanly on a real 429. 3 new tests. Commit 4048b63.",
+  "id": 14065,
+  "metadata": null,
+  "run_id": "sess-20260813-2154-dda37e8b",
+  "source_repo": "emily.cli",
+  "title": "Diagnosed + fixed 'broken tool' report: Vertex content-policy block, not auth failure"
+}
