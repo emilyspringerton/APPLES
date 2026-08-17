@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-17T22:34:04Z",
+  "generated_at": "2026-08-17T22:37:50Z",
   "repo": "APPLES",
-  "count": 3508,
+  "count": 3509,
   "apples": [
     {
       "id": 10525,
@@ -28066,6 +28066,14 @@
       "source_repo": "emily",
       "date": "20260817",
       "archived_at": "2026-08-17T22:34:04Z"
+    },
+    {
+      "id": 14043,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: (1) make the promptoverse gallery home page live-update when new nodes ar…",
+      "source_repo": "CLI",
+      "date": "20260817",
+      "archived_at": "2026-08-17T22:37:50Z"
     }
   ]
 }
