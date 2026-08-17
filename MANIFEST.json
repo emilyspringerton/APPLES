@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-17T21:34:35Z",
+  "generated_at": "2026-08-17T21:42:18Z",
   "repo": "APPLES",
-  "count": 3481,
+  "count": 3482,
   "apples": [
     {
       "id": 10525,
@@ -27850,6 +27850,14 @@
       "source_repo": "CLI",
       "date": "20260817",
       "archived_at": "2026-08-17T21:34:35Z"
+    },
+    {
+      "id": 14016,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: (1) update emily.cli README with all commands including promptoverse; (2)…",
+      "source_repo": "CLI",
+      "date": "20260817",
+      "archived_at": "2026-08-17T21:42:18Z"
     }
   ]
 }
