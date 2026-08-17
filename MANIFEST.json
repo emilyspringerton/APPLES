@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-17T22:11:28Z",
+  "generated_at": "2026-08-17T22:11:30Z",
   "repo": "APPLES",
-  "count": 3500,
+  "count": 3501,
   "apples": [
     {
       "id": 10525,
@@ -28002,6 +28002,14 @@
       "source_repo": "emily.cli",
       "date": "20260817",
       "archived_at": "2026-08-17T22:11:28Z"
+    },
+    {
+      "id": 14035,
+      "type": "completion",
+      "title": "Prompt-o-verse: adaptive cross-invocation backoff + --force flag",
+      "source_repo": "emily.cli",
+      "date": "20260817",
+      "archived_at": "2026-08-17T22:11:30Z"
     }
   ]
 }
