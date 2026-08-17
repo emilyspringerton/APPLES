@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-17T21:25:23Z",
+  "generated_at": "2026-08-17T21:26:43Z",
   "repo": "APPLES",
-  "count": 3475,
+  "count": 3476,
   "apples": [
     {
       "id": 10525,
@@ -27802,6 +27802,14 @@
       "source_repo": "CLI",
       "date": "20260817",
       "archived_at": "2026-08-17T21:25:23Z"
+    },
+    {
+      "id": 14010,
+      "type": "completion",
+      "title": "emily promptoverse add/styles: real CLI for Prompt-o-verse generation",
+      "source_repo": "emily.cli",
+      "date": "20260817",
+      "archived_at": "2026-08-17T21:26:43Z"
     }
   ]
 }

@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-17T21:26:43Z",
+  "body": "Formalized the ad-hoc Python generation scripts written by hand across the Prompt-o-verse build into real emily.cli infrastructure. New emily promptoverse add \u003csubject\u003e \u003ccount\u003e generates N reusable styles applied to a subject via Vertex AI (this box's existing gcloud ADC, no new credential) and publishes directly to the live gallery via a new iduna.Client.PostPromptOVerseNode. 10-style registry keeps only genuinely subject-agnostic art styles -- transformation concepts specific to their original subject (ice cream novelty) were deliberately excluded rather than forced into a reusable frame that doesn't fit. 4 new tests. Live-verified end to end on the first real run (a red panda, 1910s tobacco card style) plus seeded 2 previously-generated-but-unpublished duck images. Also caught and fixed a real error from earlier in the session: I'd told the founder no 'emily cli key' command existed for storing a future GitHub token -- it does (emily key set, S153-05) -- corrected in EMILY/BACKLOG.md's HITL-12 rather than left standing. Declined a follow-up request to generate 'swimsuit models' given the gallery is public with no content-moderation policy yet (the northstar's own §5 already flags this gap) -- flagged, not executed, with a lower-risk alternative suggested. Commit 0f8f03d.",
+  "id": 14010,
+  "metadata": null,
+  "run_id": "sess-20260813-2154-dda37e8b",
+  "source_repo": "emily.cli",
+  "title": "emily promptoverse add/styles: real CLI for Prompt-o-verse generation"
+}
