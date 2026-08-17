@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-17T21:50:46Z",
+  "generated_at": "2026-08-17T21:50:48Z",
   "repo": "APPLES",
-  "count": 3490,
+  "count": 3491,
   "apples": [
     {
       "id": 10525,
@@ -27922,6 +27922,14 @@
       "source_repo": "emily.cli",
       "date": "20260817",
       "archived_at": "2026-08-17T21:50:46Z"
+    },
+    {
+      "id": 14025,
+      "type": "completion",
+      "title": "Prompt-o-verse add: dedup + variety-weighted style selection",
+      "source_repo": "emily.cli",
+      "date": "20260817",
+      "archived_at": "2026-08-17T21:50:48Z"
     }
   ]
 }
