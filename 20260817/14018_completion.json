@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-17T21:42:55Z",
+  "body": "Subject pages (/subject/\u003cslug\u003e/) now link every leaf that shares a Subject with \u003e=2 published siblings; RenderAll re-renders the whole corpus on every publish. cmd/promptoverse-rerender backfilled all 28 existing nodes, fixing a stale published_at=0001-01-01 baked into early leaf pages. Commit a1766e0. Rebuilt + restarted iduna.service, health check green.",
+  "id": 14018,
+  "metadata": null,
+  "run_id": "sess-20260813-2154-dda37e8b",
+  "source_repo": "IDUNA",
+  "title": "Prompt-o-verse subject-grouping pages live + published-date bug fixed"
+}
