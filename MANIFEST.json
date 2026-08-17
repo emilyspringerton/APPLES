@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-17T22:22:57Z",
+  "generated_at": "2026-08-17T22:22:59Z",
   "repo": "APPLES",
-  "count": 3506,
+  "count": 3507,
   "apples": [
     {
       "id": 10525,
@@ -28050,6 +28050,14 @@
       "source_repo": "IDUNA",
       "date": "20260817",
       "archived_at": "2026-08-17T22:22:57Z"
+    },
+    {
+      "id": 14041,
+      "type": "completion",
+      "title": "Fixed broken image links on Prompt-o-verse subject pages",
+      "source_repo": "IDUNA",
+      "date": "20260817",
+      "archived_at": "2026-08-17T22:22:59Z"
     }
   ]
 }
