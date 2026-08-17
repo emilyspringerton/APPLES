@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-17T21:32:50Z",
+  "generated_at": "2026-08-17T21:33:47Z",
   "repo": "APPLES",
-  "count": 3479,
+  "count": 3480,
   "apples": [
     {
       "id": 10525,
@@ -27834,6 +27834,14 @@
       "source_repo": "emily",
       "date": "20260817",
       "archived_at": "2026-08-17T21:32:50Z"
+    },
+    {
+      "id": 14014,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: 'if taxonomies have at least 2 leaf nodes make the taxonomy tag like a du…",
+      "source_repo": "CLI",
+      "date": "20260817",
+      "archived_at": "2026-08-17T21:33:47Z"
     }
   ]
 }
