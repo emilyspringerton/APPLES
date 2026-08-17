@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-17T20:38:53Z",
+  "generated_at": "2026-08-17T20:40:49Z",
   "repo": "APPLES",
-  "count": 3451,
+  "count": 3452,
   "apples": [
     {
       "id": 10525,
@@ -27610,6 +27610,14 @@
       "source_repo": "CLI",
       "date": "20260817",
       "archived_at": "2026-08-17T20:38:53Z"
+    },
+    {
+      "id": 13986,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time context led to a major empirical success: tested Vertex AI's Gemini image …",
+      "source_repo": "CLI",
+      "date": "20260817",
+      "archived_at": "2026-08-17T20:40:49Z"
     }
   ]
 }
