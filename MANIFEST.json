@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-17T22:05:29Z",
+  "generated_at": "2026-08-17T22:05:31Z",
   "repo": "APPLES",
-  "count": 3497,
+  "count": 3498,
   "apples": [
     {
       "id": 10525,
@@ -27978,6 +27978,14 @@
       "source_repo": "emily.cli",
       "date": "20260817",
       "archived_at": "2026-08-17T22:05:29Z"
+    },
+    {
+      "id": 14032,
+      "type": "completion",
+      "title": "Prompt-o-verse drain delay bumped 6s -\u003e 20s, now configurable",
+      "source_repo": "emily.cli",
+      "date": "20260817",
+      "archived_at": "2026-08-17T22:05:31Z"
     }
   ]
 }
