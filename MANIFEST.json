@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-17T22:05:27Z",
+  "generated_at": "2026-08-17T22:05:29Z",
   "repo": "APPLES",
-  "count": 3496,
+  "count": 3497,
   "apples": [
     {
       "id": 10525,
@@ -27970,6 +27970,14 @@
       "source_repo": "CLI",
       "date": "20260817",
       "archived_at": "2026-08-17T22:05:27Z"
+    },
+    {
+      "id": 14031,
+      "type": "completion",
+      "title": "changelog(emily.cli): tune(promptoverse): bumped default inter-request delay 6s -…",
+      "source_repo": "emily.cli",
+      "date": "20260817",
+      "archived_at": "2026-08-17T22:05:29Z"
     }
   ]
 }
