@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-17T22:37:56Z",
+  "generated_at": "2026-08-17T22:37:58Z",
   "repo": "APPLES",
-  "count": 3512,
+  "count": 3513,
   "apples": [
     {
       "id": 10525,
@@ -28098,6 +28098,14 @@
       "source_repo": "IDUNA",
       "date": "20260817",
       "archived_at": "2026-08-17T22:37:56Z"
+    },
+    {
+      "id": 14047,
+      "type": "completion",
+      "title": "Prompt-o-verse: escalating per-run inter-request delay",
+      "source_repo": "emily.cli",
+      "date": "20260817",
+      "archived_at": "2026-08-17T22:37:58Z"
     }
   ]
 }
