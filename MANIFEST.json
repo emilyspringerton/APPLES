@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-17T21:27:06Z",
+  "generated_at": "2026-08-17T21:29:44Z",
   "repo": "APPLES",
-  "count": 3477,
+  "count": 3478,
   "apples": [
     {
       "id": 10525,
@@ -27818,6 +27818,14 @@
       "source_repo": "CLI",
       "date": "20260817",
       "archived_at": "2026-08-17T21:27:06Z"
+    },
+    {
+      "id": 14012,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: 'run gen requestws fifo so duck is after the previous request' -- real in…",
+      "source_repo": "CLI",
+      "date": "20260817",
+      "archived_at": "2026-08-17T21:29:44Z"
     }
   ]
 }
