@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-17T20:50:07Z",
+  "generated_at": "2026-08-17T20:53:38Z",
   "repo": "APPLES",
-  "count": 3459,
+  "count": 3460,
   "apples": [
     {
       "id": 10525,
@@ -27674,6 +27674,14 @@
       "source_repo": "CLI",
       "date": "20260817",
       "archived_at": "2026-08-17T20:50:07Z"
+    },
+    {
+      "id": 13994,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: 'if you got some data but are now rate limited just proceed with what you…",
+      "source_repo": "CLI",
+      "date": "20260817",
+      "archived_at": "2026-08-17T20:53:38Z"
     }
   ]
 }
