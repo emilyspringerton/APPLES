@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-17T12:25:26Z",
+  "generated_at": "2026-08-17T12:29:24Z",
   "repo": "APPLES",
-  "count": 3389,
+  "count": 3390,
   "apples": [
     {
       "id": 10525,
@@ -27114,6 +27114,14 @@
       "source_repo": "CLI",
       "date": "20260817",
       "archived_at": "2026-08-17T12:25:26Z"
+    },
+    {
+      "id": 13924,
+      "type": "completion",
+      "title": "S157-01: reconciled 3 stale HEIMDAL sprints, fixed the real blocker",
+      "source_repo": "IDUNA",
+      "date": "20260817",
+      "archived_at": "2026-08-17T12:29:24Z"
     }
   ]
 }

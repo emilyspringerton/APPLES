@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-17T12:29:24Z",
+  "body": "Investigated before assuming HITL-11 (dead ANTHROPIC_API_KEY credit balance) was the real blocker, per the item's own suggestion to check directly rather than wait. Found the actual cause: PATCH /api/v1/heimdal/sprints/{id} requires heimdal.process or apples.admin -- neither permission was ever granted to any agent in config/agents.json, despite heimdal.process being seeded in the permissions catalog since day one with the comment 'Process HEIMDAL sprints and update status (Emily Prime only)' and the handler's own doc comment naming Emily Prime as the intended caller. The 3 sprints weren't stuck on a broken translation pipeline; nothing could ever PATCH them regardless of credit balance. Granted heimdal.process to EMILY-PRIME, dry-ran cmd/bootstrap first to confirm no credential rotation/destruction (the S141-04 writeSecretsEnv merge fix holds), applied for real, verified a freshly minted JWT carries the permission. Reconciled all 3 sprints by hand against already-confirmed BACKLOG.md state rather than waiting for haiku translation against month-old context (sprint 1 = S21-03, cleanly done 2026-06-13; sprint 2 = production server provisioning, done under news.okemily.com not the sprint's stale fatbaby.io acceptance criteria; sprint 3 = the flip, S24-01+S23-01 both done, S23-01b HTTPS/merge correctly left open as its own separate BACKLOG item, not folded into this closure). IDUNA commit 9236c56.",
+  "id": 13924,
+  "metadata": null,
+  "run_id": "sess-20260813-2154-dda37e8b",
+  "source_repo": "IDUNA",
+  "title": "S157-01: reconciled 3 stale HEIMDAL sprints, fixed the real blocker"
+}
