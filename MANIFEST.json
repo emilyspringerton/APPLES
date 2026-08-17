@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-17T11:24:05Z",
+  "generated_at": "2026-08-17T11:30:08Z",
   "repo": "APPLES",
-  "count": 3380,
+  "count": 3381,
   "apples": [
     {
       "id": 10525,
@@ -27042,6 +27042,14 @@
       "source_repo": "emily",
       "date": "20260817",
       "archived_at": "2026-08-17T11:24:05Z"
+    },
+    {
+      "id": 13915,
+      "type": "completion",
+      "title": "S175-02: SKULDMARK ID wired into governance_signals/entity_timeline CQRS projections",
+      "source_repo": "PRRJECT_FATBABY",
+      "date": "20260817",
+      "archived_at": "2026-08-17T11:30:08Z"
     }
   ]
 }

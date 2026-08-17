@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-17T11:30:08Z",
+  "body": "The backlog text undersold this as 'add a column + index' -- the real gap was deeper: S175-01 mints SKULDMARK IDs in secwatch and writes them onto FilingDiscovered.Identity.PrimaryTicker.SkuldmarkID, but internal/processor unmarshals real event JSON into a parallel struct, FilingDiscoveredEvent, that had no Identity field at all -- json.Unmarshal was silently dropping the identity data on every real filing_discovered event, so the ID never reached the processor let alone any projection. Fixed at the source: added Identity to FilingDiscoveredEvent (mirrors the write-side struct, not invented) + a nil-safe SkuldmarkID() helper; worker.go propagates it into signal.RawMetadata the same way source_published_at already does; cmd/projector reads it into both governance_signals and entity_timeline via sql.NullString (NULL not empty-string when unminted); new migration 202608170001_add_skuldmark_id.sql, idempotent ADD COLUMN/INDEX IF NOT EXISTS matching house style. 6 new regression tests across secwatch/internal/processor, all exercising the real production code paths (real minting function, real JSON marshal/unmarshal, real handleOne against a real httptest server). go build/vet/test ./... clean. Disclosed, not papered over: secwatch/processor (both live production services) rebuilt and restarted, but no genuinely new real SEC filing has come in since the restart to confirm the live end-to-end path with a fresh event; cmd/projector itself is not deployed anywhere (MYSQL_URL unset, S30-02 still open, pre-existing gap not created by this work) so the projector's SQL logic is code-verified only, not live-verified against real MySQL. Commit 9c623be.",
+  "id": 13915,
+  "metadata": null,
+  "run_id": "sess-20260813-2154-dda37e8b",
+  "source_repo": "PRRJECT_FATBABY",
+  "title": "S175-02: SKULDMARK ID wired into governance_signals/entity_timeline CQRS projections"
+}
