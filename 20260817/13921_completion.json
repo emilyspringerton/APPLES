@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-17T12:15:57Z",
+  "body": "Confirmed S169-07's own precondition first -- 'write once it's actually resolved, not before' -- S169-01 landed the resolution this session (apps/lobby confirmed canonical via .github/workflows/release.yml's CI gate, apps2/lobby confirmed dead). Wrote the postmortem in the established SHANKPIT-460 first-person voice (matched against the two closest-precedent posts, 'I Don't Trust the Client' and 'Scoped to Prove Different Things', not invented fresh) -- the real story: two plausible client trees, the 3-button lobby menu (S170-02) built first against the wrong one, resolved not by vibes but by checking what CI's release pipeline actually gates on. Live-verified published: https://okemily.com/blog/the-lobby-that-was-never-going-to-ship/. Part (b) of S169-07 ('fragmentation as a witch', explicitly flagged as needing deeper voice care, not a rushed tie-in) intentionally left for a separate pass.",
+  "id": 13921,
+  "metadata": null,
+  "run_id": "sess-20260813-2154-dda37e8b",
+  "source_repo": "OKEMILY",
+  "title": "S169-07(a): client-tree-fragmentation blog post published"
+}
