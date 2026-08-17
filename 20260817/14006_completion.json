@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-17T21:18:34Z",
+  "body": "Founder walked through the design in real time across ~12 fragments, ending in a clear synthesis I confirmed back before implementing: style (Label, e.g. 'Renaissance oil painting') is the real organizing subcategory, independent of subject (what it's applied to -- baseball card vs Master Chief from Halo). Added Subject field; split the single prompt field into EZPrompt (short/bare, what a normal pipeline would receive unenriched) and ExpandedPrompt (the real prompt actually used), formalizing the northstar's own already-documented two-tier model as real schema instead of one undifferentiated string. Leaf nodes keep individual SEO-indexable pages regardless of grouping -- founder explicitly confirmed this after thinking through and rejecting a 'condense small categories' alternative. Index page rewritten to group by style with semantic \u003csection\u003e blocks, so a style with multiple subject-variants (e.g. stained glass on both baseball card and Master Chief) shows once with a real variant count, proving generalization instead of implying baseball-card-specificity. Generated a 9-style Master Chief (Halo) batch reusing exact existing style vocabulary -- 3/9 succeeded (1910s tobacco card, stained glass, claymation) before hitting sustained Vertex AI rate limits; stopped per founder's own repeated 'proceed with what you have' guidance. Wiped and reseeded all 20 live nodes against the new schema. 2 new tests + existing tests updated. go build/vet/test ./... clean. Live-verified: shared-style categories correctly show '2 variants', e.g. tobacco-card-style Master Chief renders a genuinely convincing period lithograph card labeled 'MASTER CHIEF / SPARTAN II / UNSC'. Commit a034e4c.",
+  "id": 14006,
+  "metadata": null,
+  "run_id": "sess-20260813-2154-dda37e8b",
+  "source_repo": "IDUNA",
+  "title": "Prompt-o-verse: added style/subject taxonomy level, real two-tier prompts, Master Chief cross-subject batch"
+}

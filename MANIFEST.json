@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-17T21:18:30Z",
+  "generated_at": "2026-08-17T21:18:34Z",
   "repo": "APPLES",
-  "count": 3471,
+  "count": 3472,
   "apples": [
     {
       "id": 10525,
@@ -27770,6 +27770,14 @@
       "source_repo": "emily",
       "date": "20260817",
       "archived_at": "2026-08-17T21:18:30Z"
+    },
+    {
+      "id": 14006,
+      "type": "completion",
+      "title": "Prompt-o-verse: added style/subject taxonomy level, real two-tier prompts, Master Chief cross-subject batch",
+      "source_repo": "IDUNA",
+      "date": "20260817",
+      "archived_at": "2026-08-17T21:18:34Z"
     }
   ]
 }
