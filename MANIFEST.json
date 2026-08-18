@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-18T19:55:41Z",
+  "generated_at": "2026-08-18T19:55:48Z",
   "repo": "APPLES",
-  "count": 3773,
+  "count": 3774,
   "apples": [
     {
       "id": 10525,
@@ -30186,6 +30186,14 @@
       "source_repo": "IDUNA",
       "date": "20260818",
       "archived_at": "2026-08-18T19:55:41Z"
+    },
+    {
+      "id": 14308,
+      "type": "completion",
+      "title": "Prompt-o-verse sprite-generation subsystem",
+      "source_repo": "emily.cli",
+      "date": "20260818",
+      "archived_at": "2026-08-18T19:55:48Z"
     }
   ]
 }

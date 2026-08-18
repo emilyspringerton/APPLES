@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-18T19:55:48Z",
+  "body": "draw_sprite_quad now enables GL_BLEND with GL_SRC_ALPHA/GL_ONE_MINUS_SRC_ALPHA and restores the caller's prior blend state, needed for the upcoming chroma-keyed sprite output to render with real transparency instead of a flat green square. Commit BRAWLPIT c76e98a.",
+  "id": 14309,
+  "metadata": null,
+  "run_id": "sess-20260813-2154-dda37e8b",
+  "source_repo": "BRAWLPIT",
+  "title": "Fix sprite alpha blending state"
+}

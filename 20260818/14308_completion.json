@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-18T19:55:48Z",
+  "body": "New 'game sprite' style (solid green #00FF00 chroma-key background, neutral idle pose) + drainQueue post-processing via ImageMagick convert -fuzz 12% -transparent to turn the flat green into real alpha transparency before publish. Verified against a synthetic test PNG (chroma-keyed corner confirmed srgba(0,0,0,0), subject pixel opaque). Falls back to publishing the ungreened original if the strip step fails. Commit emily.cli 29fa278.",
+  "id": 14308,
+  "metadata": null,
+  "run_id": "sess-20260813-2154-dda37e8b",
+  "source_repo": "emily.cli",
+  "title": "Prompt-o-verse sprite-generation subsystem"
+}
