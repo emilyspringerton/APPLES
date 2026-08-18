@@ -1,10 +1,84 @@
 {
   "agent_id": "00000003-0000-4000-8000-000000000001",
   "apple_type": "completion",
-  "archived_at": "2026-08-18T01:46:37Z",
+  "archived_at": "2026-08-18T01:48:26Z",
   "body": "CHANGELOG updated in IDUNA: Fixed stale live-reload JS: iduna.service was running a binary built 21s before the incremental-DOM-patch fix landed, restarted with current code (sess-20260813-2154-dda37e8b)",
   "id": 14149,
-  "metadata": null,
+  "metadata": {
+    "gpt2_fingerprint": {
+      "codze": {
+        "az": {
+          "bin": "110111010110000011111110100001101100001000101111010010110110001000101110000000100110011011010011001000101000100000100110100110001000101101001011010001111100110011101000110101000111001100110011011100111000000110010010001000101010010000111111011110100111000000",
+          "dec": "400530054127102301305673726037412643050434022364005202344043761402704323013056"
+        },
+        "word": "MAINTAINERCHRISTIRLINGHTPSGITHUBCOMDANIELMICKDOMAINSYSTEMAUTHORMICHAELSTIRLING",
+        "za": {
+          "bin": "1000110101011000100101111111101101101100011001110010100000111110111100101001111001000010101111000011101100001010000010011100000010000010000000100101001010000010100010110101111000001010011101011001000110001000001101100100110000001001100010011001000010110011111",
+          "dec": "511461145072017610614326273162507356141565177635114717655156230517215676106143"
+        }
+      },
+      "generated": "\n\nMaintainer\n\nChris Stirling\n\nhttps://github.com/daniel_mick/domainsystem\n\nAuthor\n\nMichael Stirling",
+      "magic_tower": [
+        "24 03 20 07 02 25 ",
+        "14 13 16 11 20 07 ",
+        "02 25 14 13 11 16 ",
+        "05 22 00 27 12 15 ",
+        "05 22 02 25 26 01 ",
+        "16 11 02 25 05 22 ",
+        "03 24 02 25 14 13 ",
+        "22 05 12 15 16 11 ",
+        "25 02 26 01 22 05 ",
+        "02 25 16 11 12 15 ",
+        "06 21 10 17 00 27 ",
+        "04 23 24 03 21 06 ",
+        "20 07 14 13 02 25 ",
+        "11 16 03 24 24 03 ",
+        "02 25 00 27 13 14 ",
+        "21 06 04 23 24 03 ",
+        "20 07 02 25 14 13 ",
+        "26 01 17 10 26 01 ",
+        "16 11 11 16 24 03 ",
+        "20 07 06 21 16 11 ",
+        "12 15 04 23 05 22 ",
+        "24 03 02 25 00 27 ",
+        "12 15 20 07 11 16 ",
+        "03 24 26 01 16 11 ",
+        "02 25 05 22 03 24 ",
+        "02 25 14 13 22 05 "
+      ],
+      "seed": "202608186",
+      "squished": "MAINTAINERCHRISTIRLINGHTPSGITHUBCOMDANIELMICKDOMAINSYSTEMAUTHORMICHAELSTIRLING",
+      "tower": [
+        "MAI",
+        "NTA",
+        "INE",
+        "RCH",
+        "RIS",
+        "TIR",
+        "LIN",
+        "GHT",
+        "PSG",
+        "ITH",
+        "VBC",
+        "OMD",
+        "ANI",
+        "ELM",
+        "ICK",
+        "DOM",
+        "AIN",
+        "SYS",
+        "TEM",
+        "AVT",
+        "HOR",
+        "MIC",
+        "HAE",
+        "LST",
+        "IRL",
+        "ING"
+      ]
+    },
+    "model_fingerprint": "gpt2-base"
+  },
   "run_id": "sess-20260813-2154-dda37e8b",
   "source_repo": "IDUNA",
   "title": "changelog(IDUNA): Fixed stale live-reload JS: iduna.service was running a bin…"
