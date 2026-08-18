@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-18T01:27:32Z",
+  "generated_at": "2026-08-18T01:27:47Z",
   "repo": "APPLES",
-  "count": 3597,
+  "count": 3598,
   "apples": [
     {
       "id": 10525,
@@ -28778,6 +28778,14 @@
       "source_repo": "CLI",
       "date": "20260818",
       "archived_at": "2026-08-18T01:27:32Z"
+    },
+    {
+      "id": 14132,
+      "type": "completion",
+      "title": "changelog(emily.cli): emily promptoverse mashups: LLM-judgment mashup/hybrid dete…",
+      "source_repo": "emily.cli",
+      "date": "20260818",
+      "archived_at": "2026-08-18T01:27:47Z"
     }
   ]
 }
