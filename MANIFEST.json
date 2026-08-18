@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-18T21:50:07Z",
+  "generated_at": "2026-08-18T21:50:09Z",
   "repo": "APPLES",
-  "count": 3796,
+  "count": 3797,
   "apples": [
     {
       "id": 10525,
@@ -30370,6 +30370,14 @@
       "source_repo": "emily.cli",
       "date": "20260818",
       "archived_at": "2026-08-18T21:50:07Z"
+    },
+    {
+      "id": 14331,
+      "type": "completion",
+      "title": "changelog(emily.cli): Added Prompt-o-verse style sweeps: add \u003ccount\u003e --tag X with…",
+      "source_repo": "emily.cli",
+      "date": "20260818",
+      "archived_at": "2026-08-18T21:50:09Z"
     }
   ]
 }
