@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-18T05:13:18Z",
+  "generated_at": "2026-08-18T05:13:20Z",
   "repo": "APPLES",
-  "count": 3702,
+  "count": 3703,
   "apples": [
     {
       "id": 10525,
@@ -29618,6 +29618,14 @@
       "source_repo": "IDUNA",
       "date": "20260818",
       "archived_at": "2026-08-18T05:13:18Z"
+    },
+    {
+      "id": 14237,
+      "type": "completion",
+      "title": "Fixed: auth strip never refreshed its token",
+      "source_repo": "IDUNA",
+      "date": "20260818",
+      "archived_at": "2026-08-18T05:13:20Z"
     }
   ]
 }
