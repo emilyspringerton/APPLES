@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-18T04:25:20Z",
+  "generated_at": "2026-08-18T04:26:03Z",
   "repo": "APPLES",
-  "count": 3658,
+  "count": 3659,
   "apples": [
     {
       "id": 10525,
@@ -29266,6 +29266,14 @@
       "source_repo": "CLI",
       "date": "20260818",
       "archived_at": "2026-08-18T04:25:20Z"
+    },
+    {
+      "id": 14193,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time, further clarifying the variants design (matches what's being built): 'if …",
+      "source_repo": "CLI",
+      "date": "20260818",
+      "archived_at": "2026-08-18T04:26:03Z"
     }
   ]
 }
