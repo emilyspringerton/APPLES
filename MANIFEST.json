@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-18T21:29:46Z",
+  "generated_at": "2026-08-18T21:29:48Z",
   "repo": "APPLES",
-  "count": 3793,
+  "count": 3794,
   "apples": [
     {
       "id": 10525,
@@ -30346,6 +30346,14 @@
       "source_repo": "emily.cli",
       "date": "20260818",
       "archived_at": "2026-08-18T21:29:46Z"
+    },
+    {
+      "id": 14328,
+      "type": "completion",
+      "title": "changelog(emily.cli): Documented emily backup in README.md + docs/COMMANDS.md (pr…",
+      "source_repo": "emily.cli",
+      "date": "20260818",
+      "archived_at": "2026-08-18T21:29:48Z"
     }
   ]
 }
