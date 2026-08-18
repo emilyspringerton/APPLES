@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-18T05:10:36Z",
+  "body": "-- Founder: 'the live reload kind of snaps a bunch in when it loads a bunch in can we animate them in... on a jitter?' / 'section by section not snapping all 3 sections in at once'. Explains the earlier flicker report a real MutationObserver investigation found no DOM bug for -- the patch was already clean, the arrival just had zero transition. New cardEntranceCSS fade-in keyframe + staggered per-section (index) / per-card (subject/style) insertion with a jittered 1.5-5s delay. Commit 8973376, deployed and re-rendered live.",
+  "id": 14233,
+  "metadata": null,
+  "run_id": "sess-20260813-2154-dda37e8b",
+  "source_repo": "IDUNA",
+  "title": "New cards/sections stagger in with a jittered fade-in, no more instant snap-in"
+}
