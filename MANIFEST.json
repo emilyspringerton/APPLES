@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-18T01:46:34Z",
+  "generated_at": "2026-08-18T01:46:37Z",
   "repo": "APPLES",
-  "count": 3614,
+  "count": 3615,
   "apples": [
     {
       "id": 10525,
@@ -28914,6 +28914,14 @@
       "source_repo": "IDUNA",
       "date": "20260818",
       "archived_at": "2026-08-18T01:46:34Z"
+    },
+    {
+      "id": 14149,
+      "type": "completion",
+      "title": "changelog(IDUNA): Fixed stale live-reload JS: iduna.service was running a bin…",
+      "source_repo": "IDUNA",
+      "date": "20260818",
+      "archived_at": "2026-08-18T01:46:37Z"
     }
   ]
 }
