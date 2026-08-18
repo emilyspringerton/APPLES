@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-18T05:07:25Z",
+  "generated_at": "2026-08-18T05:08:04Z",
   "repo": "APPLES",
-  "count": 3691,
+  "count": 3692,
   "apples": [
     {
       "id": 10525,
@@ -29530,6 +29530,14 @@
       "source_repo": "CLI",
       "date": "20260818",
       "archived_at": "2026-08-18T05:07:25Z"
+    },
+    {
+      "id": 14226,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time, expanding the systemd request: 'ensure all our systemd jobs for mission c…",
+      "source_repo": "CLI",
+      "date": "20260818",
+      "archived_at": "2026-08-18T05:08:04Z"
     }
   ]
 }
