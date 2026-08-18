@@ -1,13 +1,78 @@
 {
   "agent_id": "00000003-0000-4000-8000-000000000001",
   "apple_type": "audit",
-  "archived_at": "2026-08-18T08:42:17Z",
+  "archived_at": "2026-08-18T08:43:29Z",
   "body": "\n## Cycle summary\n- Cycle: 11308\n- Duration: 0s\n- Outcome: idle — no queued tasks\n- Total completed tasks: 2\n- Triage findings this cycle: 0",
   "id": 14260,
   "metadata": {
     "consecutive_failures": 0,
     "cycle_number": 11308,
     "duration_s": 0,
+    "gpt2_fingerprint": {
+      "codze": {
+        "az": {
+          "bin": "10101100010100001011110011000001010100010000001011000110000111011011000001001001110001000101011000101010100011100011100000110111011100110001011110110010100001010110001110101011101101110110010000100001101100010110",
+          "dec": "4430402240224022402240224022402240224022402240224022402240224022"
+        },
+        "word": "METAMISCMISCMISCMISCMISCMISCMISCMISCMISCMISCMISCMISCMISCMISCMISC",
+        "za": {
+          "bin": "11011000010011110000111001001111011100110111111110110110011101011111001100011101011110001011010111000110111001010101111100000100001111111111010101110000000000110100011011110001110101110111111100101010111111001001",
+          "dec": "5561517751775177517751775177517751775177517751775177517751775177"
+        }
+      },
+      "generated": " 5.087\n\n[META]\n\n[MISC]\n\n[MISC]\n\n[MISC]\n\n[MISC]\n\n[MISC]\n\n[MISC]\n\n[MISC]\n\n[MISC]\n\n[MISC]\n\n[MISC]\n\n[MISC]\n\n[MISC]\n\n[MISC]\n\n[MISC]\n\n[MISC]",
+      "magic_tower": [
+        "24 03 11 16 16 11 ",
+        "20 07 24 03 02 25 ",
+        "26 01 00 27 24 03 ",
+        "02 25 26 01 00 27 ",
+        "24 03 02 25 26 01 ",
+        "00 27 24 03 02 25 ",
+        "26 01 00 27 24 03 ",
+        "02 25 26 01 00 27 ",
+        "24 03 02 25 26 01 ",
+        "00 27 24 03 02 25 ",
+        "26 01 00 27 24 03 ",
+        "02 25 26 01 00 27 ",
+        "24 03 02 25 26 01 ",
+        "00 27 24 03 02 25 ",
+        "26 01 00 27 24 03 ",
+        "02 25 26 01 00 27 ",
+        "24 03 02 25 26 01 ",
+        "00 27 24 03 02 25 ",
+        "26 01 00 27 24 03 ",
+        "02 25 26 01 00 27 ",
+        "24 03 02 25 26 01 ",
+        "00 27 27 00 27 00 "
+      ],
+      "seed": "2026081835",
+      "squished": "METAMISCMISCMISCMISCMISCMISCMISCMISCMISCMISCMISCMISCMISCMISCMISC",
+      "tower": [
+        "MET",
+        "AMI",
+        "SCM",
+        "ISC",
+        "MIS",
+        "CMI",
+        "SCM",
+        "ISC",
+        "MIS",
+        "CMI",
+        "SCM",
+        "ISC",
+        "MIS",
+        "CMI",
+        "SCM",
+        "ISC",
+        "MIS",
+        "CMI",
+        "SCM",
+        "ISC",
+        "MIS",
+        "CXX"
+      ]
+    },
+    "model_fingerprint": "gpt2-base",
     "task_id": "",
     "tokens_used": 0,
     "triage_findings": 0
