@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-18T04:38:08Z",
+  "generated_at": "2026-08-18T04:38:26Z",
   "repo": "APPLES",
-  "count": 3666,
+  "count": 3667,
   "apples": [
     {
       "id": 10525,
@@ -29330,6 +29330,14 @@
       "source_repo": "CLI",
       "date": "20260818",
       "archived_at": "2026-08-18T04:38:08Z"
+    },
+    {
+      "id": 14201,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time, fragment (logged, unclear scope): 'updating the vs0 description at the to…",
+      "source_repo": "CLI",
+      "date": "20260818",
+      "archived_at": "2026-08-18T04:38:26Z"
     }
   ]
 }
