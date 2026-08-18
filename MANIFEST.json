@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-18T20:27:39Z",
+  "generated_at": "2026-08-18T20:27:41Z",
   "repo": "APPLES",
-  "count": 3782,
+  "count": 3783,
   "apples": [
     {
       "id": 10525,
@@ -30258,6 +30258,14 @@
       "source_repo": "IDUNA",
       "date": "20260818",
       "archived_at": "2026-08-18T20:27:39Z"
+    },
+    {
+      "id": 14317,
+      "type": "completion",
+      "title": "Style hybrids (repeated --tag) + slugifyPO double-hyphen fix",
+      "source_repo": "emily.cli",
+      "date": "20260818",
+      "archived_at": "2026-08-18T20:27:41Z"
     }
   ]
 }
