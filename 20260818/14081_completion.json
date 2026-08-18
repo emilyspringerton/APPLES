@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-18T00:36:35Z",
+  "body": "Live-update poll now skips re-rendering when the node list is unchanged (slug-order signature comparison) instead of rebuilding the whole grid every 10s tick regardless. Commit e158f00.",
+  "id": 14081,
+  "metadata": null,
+  "run_id": "sess-20260813-2154-dda37e8b",
+  "source_repo": "IDUNA",
+  "title": "Fixed gallery index page flicker"
+}
