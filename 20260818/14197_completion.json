@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-18T04:36:22Z",
+  "body": "-- Founder, after multiple 'live reload is still broken' reports and every previous fix targeting the index page: 'LIVE RELOAD STILL BROKEN WTF BRO'. Root cause: grepping render.go for setInterval/insertNewCards before this fix showed exactly ONE hit -- only indexTemplate had a poll script. subjectTemplate and styleTemplate never had one, so rebuilding/restarting iduna.service for the index page's mechanism could never have fixed pages that had nothing to fix. New shared leafPollScript spliced into both templates. Live-verified via curl (correct poll script + data-filter attributes on the real Pinup Girl subject page) and a real Playwright/Chromium browser (zero console/page errors, confirmed working end-to-end on the index page with a real 175-\u003e176 card-count change caught live). IDUNA b6b5187.",
+  "id": 14197,
+  "metadata": null,
+  "run_id": "sess-20260813-2154-dda37e8b",
+  "source_repo": "IDUNA",
+  "title": "Found and fixed the real live-reload bug: subject/style pages never had polling"
+}
