@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-18T00:53:12Z",
+  "body": "IDUNA Client.Auth() used to skip re-fetching as long as the cached token claimed \u003e5min of life left. That couldn't self-heal from a token invalidated some other way mid-run (e.g. across an IDUNA restart), which is exactly the UNAUTHENTICATED error the founder hit live. Removed the cache-reuse early-return; Auth() now always POSTs to /api/v1/auth/agent. New test TestAuth_AlwaysFetchesFreshEvenWithinExpiryWindow confirms 2 calls = 2 real auth requests. Commit 6ef3945.",
+  "id": 14095,
+  "metadata": null,
+  "run_id": "sess-20260813-2154-dda37e8b",
+  "source_repo": "emily.cli",
+  "title": "Fix stale-JWT UNAUTHENTICATED errors: always fetch fresh token"
+}

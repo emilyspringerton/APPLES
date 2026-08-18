@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-18T00:52:36Z",
+  "generated_at": "2026-08-18T00:53:12Z",
   "repo": "APPLES",
-  "count": 3560,
+  "count": 3561,
   "apples": [
     {
       "id": 10525,
@@ -28482,6 +28482,14 @@
       "source_repo": "emily.cli",
       "date": "20260818",
       "archived_at": "2026-08-18T00:52:36Z"
+    },
+    {
+      "id": 14095,
+      "type": "completion",
+      "title": "Fix stale-JWT UNAUTHENTICATED errors: always fetch fresh token",
+      "source_repo": "emily.cli",
+      "date": "20260818",
+      "archived_at": "2026-08-18T00:53:12Z"
     }
   ]
 }
