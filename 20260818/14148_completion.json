@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-18T01:46:34Z",
+  "body": "-- Founder: 'livereload seems broken - prioritize that fix.' Root cause: the running iduna binary was built and the service started at 00:41:34 UTC, ~21 seconds BEFORE commit 8a836b7 (the real incremental-DOM-patch flicker fix) landed at 00:41:55 -- a race during this session's reboot-recovery build. The service kept re-stamping the OLD full-innerHTML-rebuild JS onto index.html on every single publish since, including through the mashups feature work. Fixed by rebuilding iduna from current HEAD and restarting iduna.service (clean restart, health check passed), then re-rendering all 134 live nodes. Live-verified: served HTML now contains insertNewCards/knownSlugs (the incremental patch) and no longer contains the old root.innerHTML=html full-rebuild line.",
+  "id": 14148,
+  "metadata": null,
+  "run_id": "sess-20260813-2154-dda37e8b",
+  "source_repo": "IDUNA",
+  "title": "Fixed: live gallery running stale pre-incremental-patch JS since service start"
+}

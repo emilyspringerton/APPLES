@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-18T01:44:37Z",
+  "generated_at": "2026-08-18T01:46:34Z",
   "repo": "APPLES",
-  "count": 3613,
+  "count": 3614,
   "apples": [
     {
       "id": 10525,
@@ -28906,6 +28906,14 @@
       "source_repo": "CLI",
       "date": "20260818",
       "archived_at": "2026-08-18T01:44:37Z"
+    },
+    {
+      "id": 14148,
+      "type": "completion",
+      "title": "Fixed: live gallery running stale pre-incremental-patch JS since service start",
+      "source_repo": "IDUNA",
+      "date": "20260818",
+      "archived_at": "2026-08-18T01:46:34Z"
     }
   ]
 }
