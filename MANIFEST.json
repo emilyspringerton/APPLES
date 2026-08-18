@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-18T05:09:53Z",
+  "generated_at": "2026-08-18T05:10:13Z",
   "repo": "APPLES",
-  "count": 3696,
+  "count": 3697,
   "apples": [
     {
       "id": 10525,
@@ -29570,6 +29570,14 @@
       "source_repo": "CLI",
       "date": "20260818",
       "archived_at": "2026-08-18T05:09:53Z"
+    },
+    {
+      "id": 14231,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time, unclear referent (logged, will clarify at the status checkpoint): 'add th…",
+      "source_repo": "CLI",
+      "date": "20260818",
+      "archived_at": "2026-08-18T05:10:13Z"
     }
   ]
 }
