@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-18T21:50:07Z",
+  "body": "add \u003ccount\u003e --tag X (subject omitted) now locks \u003ccount\u003e DIFFERENT auto-picked subjects to one style, instead of the old (wrong-for-this-case) meaning of X as one of \u003ccount\u003e styles for a single auto-picked subject. Resolves/creates the style once up front; never repeats a subject within the sweep or one that already has it. pickSubject gained an extraExclude param. Live-verified: add 3 --tag \"game sprite\" queued Raccoon/Aphrodite/Mr. T, first published at okemily.com/prompt-o-verse/raccoon-game-sprite/. Documented in --help, docs/COMMANDS.md, README.md. Commits emily.cli 88da91c, 9949557.",
+  "id": 14330,
+  "metadata": null,
+  "run_id": "sess-20260813-2154-dda37e8b",
+  "source_repo": "emily.cli",
+  "title": "Style sweeps: add \u003ccount\u003e --tag X with no subject"
+}
