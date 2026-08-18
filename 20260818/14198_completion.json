@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-18T04:36:28Z",
+  "body": "-- Founder: 'i need to gen lil wayne papercraft with a red hoodie instead of a grey goodie' -\u003e 'add that feature to the cli'. First design (overwrite-in-place) caught and corrected mid-build by the founder: 'we need to keep both and i think for seo reasons we should condense the forced feature leaf nodes onto the same html page'. New node_variants table, Store.AddVariant/ListVariants, POST /api/v1/promptoverse/nodes/{slug}/variants, node pages render every variant's full metadata alongside the original on the same URL. emily.cli: emily promptoverse regenerate \u003cslug\u003e --note. 20 new tests across both repos. Live-verified for real against production: lil-wayne-paper-craft now shows both the original grey-hoodie image and a new red-hoodie variant on the same page. IDUNA b6b5187, emily.cli 00e791f.",
+  "id": 14198,
+  "metadata": null,
+  "run_id": "sess-20260813-2154-dda37e8b",
+  "source_repo": "IDUNA",
+  "title": "Regenerate-with-variation (S176-30) shipped: additive variants on the same leaf page"
+}
