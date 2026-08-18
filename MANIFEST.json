@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-18T20:27:44Z",
+  "generated_at": "2026-08-18T20:38:42Z",
   "repo": "APPLES",
-  "count": 3785,
+  "count": 3786,
   "apples": [
     {
       "id": 10525,
@@ -30282,6 +30282,14 @@
       "source_repo": "IDUNA",
       "date": "20260818",
       "archived_at": "2026-08-18T20:27:44Z"
+    },
+    {
+      "id": 14320,
+      "type": "completion",
+      "title": "Full emily promptoverse command documentation",
+      "source_repo": "emily.cli",
+      "date": "20260818",
+      "archived_at": "2026-08-18T20:38:42Z"
     }
   ]
 }
