@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-18T01:04:29Z",
+  "generated_at": "2026-08-18T01:04:43Z",
   "repo": "APPLES",
-  "count": 3577,
+  "count": 3578,
   "apples": [
     {
       "id": 10525,
@@ -28618,6 +28618,14 @@
       "source_repo": "emily",
       "date": "20260818",
       "archived_at": "2026-08-18T01:04:29Z"
+    },
+    {
+      "id": 14112,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: 'ensure our semantics blog post is prioritized' -- resolves the earlier a…",
+      "source_repo": "CLI",
+      "date": "20260818",
+      "archived_at": "2026-08-18T01:04:43Z"
     }
   ]
 }
