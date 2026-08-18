@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-18T19:55:55Z",
+  "generated_at": "2026-08-18T19:55:56Z",
   "repo": "APPLES",
-  "count": 3777,
+  "count": 3778,
   "apples": [
     {
       "id": 10525,
@@ -30218,6 +30218,14 @@
       "source_repo": "emily.cli",
       "date": "20260818",
       "archived_at": "2026-08-18T19:55:55Z"
+    },
+    {
+      "id": 14312,
+      "type": "completion",
+      "title": "changelog(BRAWLPIT): Fixed draw_sprite_quad to enable/restore GL alpha blending …",
+      "source_repo": "BRAWLPIT",
+      "date": "20260818",
+      "archived_at": "2026-08-18T19:55:56Z"
     }
   ]
 }
