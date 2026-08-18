@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-18T01:35:10Z",
+  "generated_at": "2026-08-18T01:35:32Z",
   "repo": "APPLES",
-  "count": 3607,
+  "count": 3608,
   "apples": [
     {
       "id": 10525,
@@ -28858,6 +28858,14 @@
       "source_repo": "emily",
       "date": "20260818",
       "archived_at": "2026-08-18T01:35:10Z"
+    },
+    {
+      "id": 14142,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time, possible live bug report (uncertain): 'live reload seems broken not sure …",
+      "source_repo": "CLI",
+      "date": "20260818",
+      "archived_at": "2026-08-18T01:35:32Z"
     }
   ]
 }
