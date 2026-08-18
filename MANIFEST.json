@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-18T01:28:49Z",
+  "generated_at": "2026-08-18T01:29:35Z",
   "repo": "APPLES",
-  "count": 3603,
+  "count": 3604,
   "apples": [
     {
       "id": 10525,
@@ -28826,6 +28826,14 @@
       "source_repo": "CLI",
       "date": "20260818",
       "archived_at": "2026-08-18T01:28:49Z"
+    },
+    {
+      "id": 14138,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time, musing/uncertain, not a concrete request: 'i dunno where on the ontology …",
+      "source_repo": "CLI",
+      "date": "20260818",
+      "archived_at": "2026-08-18T01:29:35Z"
     }
   ]
 }
