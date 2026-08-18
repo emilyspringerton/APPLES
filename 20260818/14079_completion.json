@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-18T00:36:35Z",
+  "body": "CHANGELOG updated in IDUNA: fix(promptoverse): gallery index no longer re-renders on every live-update poll tick when the node list hasn't actually changed -- was causing visible flicker, especially the first card in each category (sess-20260813-2154-dda37e8b)",
+  "id": 14079,
+  "metadata": null,
+  "run_id": "sess-20260813-2154-dda37e8b",
+  "source_repo": "IDUNA",
+  "title": "changelog(IDUNA): fix(promptoverse): gallery index no longer re-renders on ev…"
+}

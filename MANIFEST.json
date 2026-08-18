@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-18T00:36:00Z",
+  "generated_at": "2026-08-18T00:36:35Z",
   "repo": "APPLES",
-  "count": 3543,
+  "count": 3544,
   "apples": [
     {
       "id": 10525,
@@ -28346,6 +28346,14 @@
       "source_repo": "CLI",
       "date": "20260818",
       "archived_at": "2026-08-18T00:36:00Z"
+    },
+    {
+      "id": 14078,
+      "type": "completion",
+      "title": "changelog(emily.cli): feat(promptoverse): topic/subject discovery mirroring the e…",
+      "source_repo": "emily.cli",
+      "date": "20260818",
+      "archived_at": "2026-08-18T00:36:35Z"
     }
   ]
 }

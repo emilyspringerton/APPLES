@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-18T00:36:35Z",
+  "body": "New cmd/promptoverse_subjects.go: subjectPool, selectSubject (marble bag), maybeDiscoverSubject (Vertex AI), promote-subject. add \u003ccount\u003e auto-picks a subject. Live-verified: spontaneous discovery persisted a real new subject via Vertex AI ('A sentient, Victorian-era teapot'). 22 new tests. Commit 2fb229e.",
+  "id": 14080,
+  "metadata": null,
+  "run_id": "sess-20260813-2154-dda37e8b",
+  "source_repo": "emily.cli",
+  "title": "Topic/subject discovery live -- mirrors style-discovery system"
+}
