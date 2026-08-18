@@ -1,13 +1,64 @@
 {
   "agent_id": "00000003-0000-4000-8000-000000000001",
   "apple_type": "audit",
-  "archived_at": "2026-08-18T16:40:52Z",
+  "archived_at": "2026-08-18T16:43:34Z",
   "body": "\n## Cycle summary\n- Cycle: 11340\n- Duration: 0s\n- Outcome: idle — no queued tasks\n- Total completed tasks: 2\n- Triage findings this cycle: 0",
   "id": 14292,
   "metadata": {
     "consecutive_failures": 0,
     "cycle_number": 11340,
     "duration_s": 0,
+    "gpt2_fingerprint": {
+      "codze": {
+        "az": {
+          "bin": "110111100011000101001001001111010110001010011010111010001101000100001111001110011010011101110110001000110001000110111011100110110010100011101110100011010100111010000110",
+          "dec": "324734737337033332473473733703337356073560735305350"
+        },
+        "word": "DSUHDUHDHDDPADDDDSUHDUHDHDDPADDDHDVGAHDVGAHDVDAVDVI",
+        "za": {
+          "bin": "1110011100000100100000101100111100101101011000011001111100001011111101001100110100101011001100111000001001110100011010010001011010110011100011110110010010010100011110001",
+          "dec": "675265262662166667526526266216662643126431264614641"
+        }
+      },
+      "generated": "\n\n\n3DS UHD / UHD + HD 2D: 1:25:46\n\nPAD / 2D / 3D: 4:01:34\n\n\n3DS UHD / UHD + HD 2D: 0:20:45\n\nPAD / 2D / 3D: 0:28:43\n\n\nHD VGA / HD VGA: 0:20:46\n\nHD DVD / AV-D / DVI: 0:26",
+      "magic_tower": [
+        "21 06 26 01 06 21 ",
+        "12 15 21 06 06 21 ",
+        "12 15 21 06 12 15 ",
+        "21 06 25 02 20 07 ",
+        "21 06 26 01 06 21 ",
+        "12 15 21 06 06 21 ",
+        "12 15 21 06 12 15 ",
+        "21 06 25 02 20 07 ",
+        "21 06 12 15 21 06 ",
+        "06 21 22 05 20 07 ",
+        "12 15 21 06 06 21 ",
+        "22 05 20 07 12 15 ",
+        "21 06 06 21 21 06 ",
+        "20 07 06 21 21 06 ",
+        "06 21 02 25 27 00 "
+      ],
+      "seed": "2026081868",
+      "squished": "DSUHDUHDHDDPADDDDSUHDUHDHDDPADDDHDVGAHDVGAHDVDAVDVI",
+      "tower": [
+        "DSV",
+        "HDV",
+        "HDH",
+        "DPA",
+        "DSV",
+        "HDV",
+        "HDH",
+        "DPA",
+        "DHD",
+        "VGA",
+        "HDV",
+        "GAH",
+        "DVD",
+        "AVD",
+        "VIX"
+      ]
+    },
+    "model_fingerprint": "gpt2-base",
     "task_id": "",
     "tokens_used": 0,
     "triage_findings": 0
