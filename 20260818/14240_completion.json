@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-18T05:16:23Z",
+  "body": "-- Founder: 'can we add pixel art to the brawlpit engine? use the 5 pixel art generated... add at least 4 characters to brawlpit via the promtoverse pixel art gens.' TYLER lore written first (multiverse_heroes.md #116-119, commit 44f8f72), then BRAWLPIT implementation derived from it: new stb_image.h-based texture pipeline (this engine had zero image-loading capability before -- pure flat-color OpenGL immediate mode), sprites.h (texture cache + lazy GL upload + textured quad, falls back to colored-rect if load fails), 4 new CharacterId/FighterDef entries with stats argued from their lore. Baseball-card art skipped as planned (character reads small in the card composition). Real headless smoke test: clean build, launched under Xvfb, screenshot confirms the actual menu renders with no crash. Commit 084032a.",
+  "id": 14240,
+  "metadata": null,
+  "run_id": "sess-20260813-2154-dda37e8b",
+  "source_repo": "BRAWLPIT",
+  "title": "4 pixel-art fighters added via real Prompt-o-verse generations"
+}
