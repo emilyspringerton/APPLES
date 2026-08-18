@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-18T01:00:16Z",
+  "generated_at": "2026-08-18T01:02:20Z",
   "repo": "APPLES",
-  "count": 3569,
+  "count": 3570,
   "apples": [
     {
       "id": 10525,
@@ -28554,6 +28554,14 @@
       "source_repo": "CLI",
       "date": "20260818",
       "archived_at": "2026-08-18T01:00:16Z"
+    },
+    {
+      "id": 14104,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time, ontology thread continued (now written up, not just logged): 'identifying…",
+      "source_repo": "CLI",
+      "date": "20260818",
+      "archived_at": "2026-08-18T01:02:20Z"
     }
   ]
 }
