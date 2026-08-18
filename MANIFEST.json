@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-18T01:36:01Z",
+  "generated_at": "2026-08-18T01:36:11Z",
   "repo": "APPLES",
-  "count": 3610,
+  "count": 3611,
   "apples": [
     {
       "id": 10525,
@@ -28882,6 +28882,14 @@
       "source_repo": "CLI",
       "date": "20260818",
       "archived_at": "2026-08-18T01:36:01Z"
+    },
+    {
+      "id": 14145,
+      "type": "completion",
+      "title": "PromptOVerse: --tag forced items jump to front of queue",
+      "source_repo": "emily.cli",
+      "date": "20260818",
+      "archived_at": "2026-08-18T01:36:11Z"
     }
   ]
 }

@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-18T01:36:10Z",
+  "body": "-- Founder: 'add fox 3 --tag outer-space fifos the tag subject combo to the top of the queue and starts on that (force or not force) but the other 2 gens get added end of queue same as always.' New prependQueue() puts --tag-forced items ahead of everything already pending. parseAddPositionalArgs adds a subject-with-no-count shape for --tag, defaulting count to 1. 11 new tests. Commit 73421bb.",
+  "id": 14145,
+  "metadata": null,
+  "run_id": "sess-20260813-2154-dda37e8b",
+  "source_repo": "emily.cli",
+  "title": "PromptOVerse: --tag forced items jump to front of queue"
+}
