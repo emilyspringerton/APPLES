@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-18T19:55:53Z",
+  "generated_at": "2026-08-18T19:55:55Z",
   "repo": "APPLES",
-  "count": 3776,
+  "count": 3777,
   "apples": [
     {
       "id": 10525,
@@ -30210,6 +30210,14 @@
       "source_repo": "IDUNA",
       "date": "20260818",
       "archived_at": "2026-08-18T19:55:53Z"
+    },
+    {
+      "id": 14311,
+      "type": "completion",
+      "title": "changelog(emily.cli): Added Prompt-o-verse 'game sprite' style + ImageMagick chro…",
+      "source_repo": "emily.cli",
+      "date": "20260818",
+      "archived_at": "2026-08-18T19:55:55Z"
     }
   ]
 }
