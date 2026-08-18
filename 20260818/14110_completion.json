@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-18T01:03:36Z",
+  "body": "Founder: 'all of that needs to be requirementized' after the mashup-discovery scoping thread surfaced real ambiguity (tuxedo duck vs tuxedo, tuxedo duck vs duck wearing a tuxedo vs duck tuxedo, president vs the president, Rapunzel content-policy drift over time). Wrote up as two docs: EMILY/docs/NORTHSTAR_PROMPT_O_VERSE.md §9 (mashup/hybrid discovery requirements -- why lexical matching fails, what a real solution needs, deferred per founder's own AskUserQuestion answer) and emily.cli/README.md 'Ontology' section (subject-identity requirements: compositional ambiguity, paraphrase equivalence and its limits, definite vs indefinite reference, stateless vs stateful execution, fixed points/zero points in time, styles/tags flagged as likely-same-issue but explicitly deferred). No code implements any of this -- S176-29 stays deferred, this is documentation of requirements only. EMILY 8bbae85, emily.cli c9cf55f+1460cee.",
+  "id": 14110,
+  "metadata": null,
+  "run_id": "sess-20260813-2154-dda37e8b",
+  "source_repo": "EMILY",
+  "title": "Requirementized mashup/hybrid discovery + ontology (deferred, docs only)"
+}
