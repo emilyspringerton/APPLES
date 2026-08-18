@@ -1,10 +1,80 @@
 {
   "agent_id": "00000003-0000-4000-8000-000000000001",
   "apple_type": "completion",
-  "archived_at": "2026-08-18T01:36:10Z",
+  "archived_at": "2026-08-18T01:38:37Z",
   "body": "-- Founder: 'add fox 3 --tag outer-space fifos the tag subject combo to the top of the queue and starts on that (force or not force) but the other 2 gens get added end of queue same as always.' New prependQueue() puts --tag-forced items ahead of everything already pending. parseAddPositionalArgs adds a subject-with-no-count shape for --tag, defaulting count to 1. 11 new tests. Commit 73421bb.",
   "id": 14145,
-  "metadata": null,
+  "metadata": {
+    "gpt2_fingerprint": {
+      "codze": {
+        "az": {
+          "bin": "1111101010000010111111101011010010101011010001001101110101100000000000011000111011000010111110101111000001010111111100100000010101011111111011101001111101111100111101101110111111001100110100001010011110101001110010000011100100001000110",
+          "dec": "54030256356543065612430344214473651653650444405403025635654240326240326"
+        },
+        "word": "IFUIDISNOTNONETAGFORCEDITEMSJUMPTOFRONTOFQUEUEIFUIDISNOTNONESEALSOSEALSO",
+        "za": {
+          "bin": "101010000100001011001001010111011110101101011010000111000111111010000010111011100111001011101001000000001011001100000001110000000110000010001000101010110110000101011101001001100011100010100100010010110101111011010011001111100100001111001",
+          "dec": "145161743643456134307561655705526340346341555514516174364345751673751673"
+        }
+      },
+      "generated": " if uid is not None --tag forced items jump to front of queue if uid is not None\n\nSee also\n\nSee Also",
+      "magic_tower": [
+        "02 25 01 26 06 21 ",
+        "02 25 21 06 02 25 ",
+        "26 01 14 13 04 23 ",
+        "16 11 14 13 04 23 ",
+        "14 13 11 16 16 11 ",
+        "20 07 22 05 01 26 ",
+        "04 23 05 22 00 27 ",
+        "11 16 21 06 02 25 ",
+        "16 11 11 16 24 03 ",
+        "26 01 23 04 06 21 ",
+        "24 03 25 02 16 11 ",
+        "04 23 01 26 05 22 ",
+        "04 23 14 13 16 11 ",
+        "04 23 01 26 15 12 ",
+        "06 21 11 16 06 21 ",
+        "11 16 02 25 01 26 ",
+        "06 21 02 25 21 06 ",
+        "02 25 26 01 14 13 ",
+        "04 23 16 11 14 13 ",
+        "04 23 14 13 11 16 ",
+        "26 01 11 16 20 07 ",
+        "03 24 26 01 04 23 ",
+        "26 01 11 16 20 07 ",
+        "03 24 26 01 04 23 "
+      ],
+      "seed": "202608185",
+      "squished": "IFUIDISNOTNONETAGFORCEDITEMSJUMPTOFRONTOFQUEUEIFUIDISNOTNONESEALSOSEALSO",
+      "tower": [
+        "IFV",
+        "IDI",
+        "SNO",
+        "TNO",
+        "NET",
+        "AGF",
+        "ORC",
+        "EDI",
+        "TEM",
+        "SJV",
+        "MPT",
+        "OFR",
+        "ONT",
+        "OFQ",
+        "VEV",
+        "EIF",
+        "VID",
+        "ISN",
+        "OTN",
+        "ONE",
+        "SEA",
+        "LSO",
+        "SEA",
+        "LSO"
+      ]
+    },
+    "model_fingerprint": "gpt2-base"
+  },
   "run_id": "sess-20260813-2154-dda37e8b",
   "source_repo": "emily.cli",
   "title": "PromptOVerse: --tag forced items jump to front of queue"
