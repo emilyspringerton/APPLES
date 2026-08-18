@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-18T00:22:03Z",
+  "generated_at": "2026-08-18T00:22:05Z",
   "repo": "APPLES",
-  "count": 3539,
+  "count": 3540,
   "apples": [
     {
       "id": 10525,
@@ -28314,6 +28314,14 @@
       "source_repo": "CLI",
       "date": "20260818",
       "archived_at": "2026-08-18T00:22:03Z"
+    },
+    {
+      "id": 14074,
+      "type": "completion",
+      "title": "changelog(IDUNA): feat(promptoverse): new cmd/promptoverse-thumbnails (system…",
+      "source_repo": "IDUNA",
+      "date": "20260818",
+      "archived_at": "2026-08-18T00:22:05Z"
     }
   ]
 }
