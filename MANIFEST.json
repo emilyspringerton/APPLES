@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-18T05:08:59Z",
+  "generated_at": "2026-08-18T05:09:07Z",
   "repo": "APPLES",
-  "count": 3694,
+  "count": 3695,
   "apples": [
     {
       "id": 10525,
@@ -29554,6 +29554,14 @@
       "source_repo": "CLI",
       "date": "20260818",
       "archived_at": "2026-08-18T05:08:59Z"
+    },
+    {
+      "id": 14229,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: 'find claire northstar' -- likely 'find Claude northstar', searching for …",
+      "source_repo": "CLI",
+      "date": "20260818",
+      "archived_at": "2026-08-18T05:09:07Z"
     }
   ]
 }
