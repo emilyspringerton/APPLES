@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-18T00:37:39Z",
+  "generated_at": "2026-08-18T00:40:18Z",
   "repo": "APPLES",
-  "count": 3548,
+  "count": 3549,
   "apples": [
     {
       "id": 10525,
@@ -28386,6 +28386,14 @@
       "source_repo": "CLI",
       "date": "20260818",
       "archived_at": "2026-08-18T00:37:39Z"
+    },
+    {
+      "id": 14083,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time, further clarifying the (not-yet-built) subject voting feature: gate votin…",
+      "source_repo": "CLI",
+      "date": "20260818",
+      "archived_at": "2026-08-18T00:40:18Z"
     }
   ]
 }
