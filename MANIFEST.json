@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-18T20:27:42Z",
+  "generated_at": "2026-08-18T20:27:44Z",
   "repo": "APPLES",
-  "count": 3784,
+  "count": 3785,
   "apples": [
     {
       "id": 10525,
@@ -30274,6 +30274,14 @@
       "source_repo": "emily.cli",
       "date": "20260818",
       "archived_at": "2026-08-18T20:27:42Z"
+    },
+    {
+      "id": 14319,
+      "type": "completion",
+      "title": "changelog(IDUNA): Added Store.MergeTags + PATCH /api/v1/promptoverse/nodes/{s…",
+      "source_repo": "IDUNA",
+      "date": "20260818",
+      "archived_at": "2026-08-18T20:27:44Z"
     }
   ]
 }
