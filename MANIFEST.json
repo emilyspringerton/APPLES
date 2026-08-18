@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-18T04:57:57Z",
+  "generated_at": "2026-08-18T05:01:18Z",
   "repo": "APPLES",
-  "count": 3684,
+  "count": 3685,
   "apples": [
     {
       "id": 10525,
@@ -29474,6 +29474,14 @@
       "source_repo": "CLI",
       "date": "20260818",
       "archived_at": "2026-08-18T04:57:57Z"
+    },
+    {
+      "id": 14219,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: 'topic pages should also live reload' -- likely referring to subject page…",
+      "source_repo": "CLI",
+      "date": "20260818",
+      "archived_at": "2026-08-18T05:01:18Z"
     }
   ]
 }
