@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-18T01:04:43Z",
+  "generated_at": "2026-08-18T01:06:11Z",
   "repo": "APPLES",
-  "count": 3578,
+  "count": 3579,
   "apples": [
     {
       "id": 10525,
@@ -28626,6 +28626,14 @@
       "source_repo": "CLI",
       "date": "20260818",
       "archived_at": "2026-08-18T01:04:43Z"
+    },
+    {
+      "id": 14113,
+      "type": "completion",
+      "title": "Published blog post: 'Tuxedo Duck Is Not Duck Tuxedo' (semantics/ontology writeup)",
+      "source_repo": "EMILY",
+      "date": "20260818",
+      "archived_at": "2026-08-18T01:06:11Z"
     }
   ]
 }

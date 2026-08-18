@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-18T01:06:11Z",
+  "body": "Founder: 'ensure our semantics blog post is prioritized.' Wrote and published a first-person narrative post on the mashup-discovery ontology thread (tuxedo duck vs tuxedo, tuxedo duck vs a duck wearing a tuxedo vs duck tuxedo, the president vs president, Rapunzel trademark drift) via IDUNA's blog API (EMILY-PRIME agent, blog.write permission). Live-verified at https://okemily.com/blog/tuxedo-duck-is-not-duck-tuxedo/ (HTTP 301 -\u003e 200 through the real nginx/Host-header path, title tag confirmed). Companion to EMILY/docs/NORTHSTAR_PROMPT_O_VERSE.md §9 and emily.cli/README.md's Ontology section.",
+  "id": 14113,
+  "metadata": null,
+  "run_id": "sess-20260813-2154-dda37e8b",
+  "source_repo": "EMILY",
+  "title": "Published blog post: 'Tuxedo Duck Is Not Duck Tuxedo' (semantics/ontology writeup)"
+}
