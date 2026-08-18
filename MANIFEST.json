@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-18T22:22:40Z",
+  "generated_at": "2026-08-18T22:29:28Z",
   "repo": "APPLES",
-  "count": 3802,
+  "count": 3803,
   "apples": [
     {
       "id": 10525,
@@ -30418,6 +30418,14 @@
       "source_repo": "emily",
       "date": "20260818",
       "archived_at": "2026-08-18T22:22:40Z"
+    },
+    {
+      "id": 14337,
+      "type": "completion",
+      "title": "Fix vertexTextGenerate 30s timeout causing silent style-creation hangs",
+      "source_repo": "emily.cli",
+      "date": "20260818",
+      "archived_at": "2026-08-18T22:29:28Z"
     }
   ]
 }

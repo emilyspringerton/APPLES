@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-18T22:29:28Z",
+  "body": "Founder hit 'add Fox --tag emo --tag FFXI' failing with context deadline exceeded and no queued output -- root cause was vertexTextGenerate's 30s HTTP timeout (used to create new forced/hybrid styles), far tighter than vertexGenerateImage's 90s, and running before anything gets queued. Bumped to 90s. Live-verified: same exact command now creates the hybrid style and publishes successfully (fox-emo-ffxi). Commit emily.cli 4536e9e.",
+  "id": 14337,
+  "metadata": null,
+  "run_id": "sess-20260813-2154-dda37e8b",
+  "source_repo": "emily.cli",
+  "title": "Fix vertexTextGenerate 30s timeout causing silent style-creation hangs"
+}
