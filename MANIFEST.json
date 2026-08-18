@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-18T20:25:40Z",
+  "generated_at": "2026-08-18T20:27:37Z",
   "repo": "APPLES",
-  "count": 3780,
+  "count": 3781,
   "apples": [
     {
       "id": 10525,
@@ -30242,6 +30242,14 @@
       "source_repo": "emily",
       "date": "20260818",
       "archived_at": "2026-08-18T20:25:40Z"
+    },
+    {
+      "id": 14315,
+      "type": "completion",
+      "title": "Subject-level prompt annotations for Prompt-o-verse",
+      "source_repo": "emily.cli",
+      "date": "20260818",
+      "archived_at": "2026-08-18T20:27:37Z"
     }
   ]
 }
