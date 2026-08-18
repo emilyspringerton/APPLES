@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-18T04:26:03Z",
+  "generated_at": "2026-08-18T04:31:11Z",
   "repo": "APPLES",
-  "count": 3659,
+  "count": 3660,
   "apples": [
     {
       "id": 10525,
@@ -29274,6 +29274,14 @@
       "source_repo": "CLI",
       "date": "20260818",
       "archived_at": "2026-08-18T04:26:03Z"
+    },
+    {
+      "id": 14194,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time, frustrated: 'LIVE RELOAD STILL BROKEN WTF BRO' -- correctly calling out t…",
+      "source_repo": "CLI",
+      "date": "20260818",
+      "archived_at": "2026-08-18T04:31:11Z"
     }
   ]
 }
