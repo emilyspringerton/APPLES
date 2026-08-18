@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-18T22:43:00Z",
+  "generated_at": "2026-08-18T22:43:02Z",
   "repo": "APPLES",
-  "count": 3806,
+  "count": 3807,
   "apples": [
     {
       "id": 10525,
@@ -30450,6 +30450,14 @@
       "source_repo": "emily.cli",
       "date": "20260818",
       "archived_at": "2026-08-18T22:43:00Z"
+    },
+    {
+      "id": 14341,
+      "type": "completion",
+      "title": "changelog(emily.cli): Replaced vacuum-based spontaneous subject discovery with st…",
+      "source_repo": "emily.cli",
+      "date": "20260818",
+      "archived_at": "2026-08-18T22:43:02Z"
     }
   ]
 }
