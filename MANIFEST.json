@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-18T04:47:29Z",
+  "generated_at": "2026-08-18T04:49:13Z",
   "repo": "APPLES",
-  "count": 3674,
+  "count": 3675,
   "apples": [
     {
       "id": 10525,
@@ -29394,6 +29394,14 @@
       "source_repo": "CLI",
       "date": "20260818",
       "archived_at": "2026-08-18T04:47:29Z"
+    },
+    {
+      "id": 14209,
+      "type": "signal_observation",
+      "title": "[INFO] Flicker investigation results: real Playwright/Chromium MutationObserver watching both the i…",
+      "source_repo": "CLI",
+      "date": "20260818",
+      "archived_at": "2026-08-18T04:49:13Z"
     }
   ]
 }
