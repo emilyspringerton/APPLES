@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-18T00:52:26Z",
+  "generated_at": "2026-08-18T00:52:31Z",
   "repo": "APPLES",
-  "count": 3558,
+  "count": 3559,
   "apples": [
     {
       "id": 10525,
@@ -28466,6 +28466,14 @@
       "source_repo": "CLI",
       "date": "20260818",
       "archived_at": "2026-08-18T00:52:26Z"
+    },
+    {
+      "id": 14093,
+      "type": "completion",
+      "title": "changelog(emily.cli): emily backup run/decrypt: Google Cloud backup tooling for i…",
+      "source_repo": "emily.cli",
+      "date": "20260818",
+      "archived_at": "2026-08-18T00:52:31Z"
     }
   ]
 }
