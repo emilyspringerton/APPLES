@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-18T04:18:05Z",
+  "generated_at": "2026-08-18T04:18:11Z",
   "repo": "APPLES",
-  "count": 3648,
+  "count": 3649,
   "apples": [
     {
       "id": 10525,
@@ -29186,6 +29186,14 @@
       "source_repo": "CLI",
       "date": "20260818",
       "archived_at": "2026-08-18T04:18:05Z"
+    },
+    {
+      "id": 14183,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time, new taxonomy idea (logged, not acted on -- staying on the live-reload fix…",
+      "source_repo": "CLI",
+      "date": "20260818",
+      "archived_at": "2026-08-18T04:18:11Z"
     }
   ]
 }
