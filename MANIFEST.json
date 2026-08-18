@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-18T04:21:15Z",
+  "generated_at": "2026-08-18T04:22:08Z",
   "repo": "APPLES",
-  "count": 3654,
+  "count": 3655,
   "apples": [
     {
       "id": 10525,
@@ -29234,6 +29234,14 @@
       "source_repo": "emily",
       "date": "20260818",
       "archived_at": "2026-08-18T04:21:15Z"
+    },
+    {
+      "id": 14189,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time, fragment (unclear, logged not acted on, staying on live-reload verificati…",
+      "source_repo": "CLI",
+      "date": "20260818",
+      "archived_at": "2026-08-18T04:22:08Z"
     }
   ]
 }
