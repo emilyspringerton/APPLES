@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-18T05:11:04Z",
+  "generated_at": "2026-08-18T05:11:25Z",
   "repo": "APPLES",
-  "count": 3700,
+  "count": 3701,
   "apples": [
     {
       "id": 10525,
@@ -29602,6 +29602,14 @@
       "source_repo": "CLI",
       "date": "20260818",
       "archived_at": "2026-08-18T05:11:04Z"
+    },
+    {
+      "id": 14235,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time, potential real bug: 'we are still failing to refresh our token' / 'also a…",
+      "source_repo": "CLI",
+      "date": "20260818",
+      "archived_at": "2026-08-18T05:11:25Z"
     }
   ]
 }
