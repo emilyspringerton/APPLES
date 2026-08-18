@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-18T01:15:54Z",
+  "generated_at": "2026-08-18T01:16:00Z",
   "repo": "APPLES",
-  "count": 3588,
+  "count": 3589,
   "apples": [
     {
       "id": 10525,
@@ -28706,6 +28706,14 @@
       "source_repo": "CLI",
       "date": "20260818",
       "archived_at": "2026-08-18T01:15:54Z"
+    },
+    {
+      "id": 14123,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time, design note tying two deferred/in-progress threads together: 'social feat…",
+      "source_repo": "CLI",
+      "date": "20260818",
+      "archived_at": "2026-08-18T01:16:00Z"
     }
   ]
 }
