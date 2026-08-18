@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-18T00:58:46Z",
+  "generated_at": "2026-08-18T00:59:25Z",
   "repo": "APPLES",
-  "count": 3566,
+  "count": 3567,
   "apples": [
     {
       "id": 10525,
@@ -28530,6 +28530,14 @@
       "source_repo": "CLI",
       "date": "20260818",
       "archived_at": "2026-08-18T00:58:46Z"
+    },
+    {
+      "id": 14101,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time, immediately following approval to build article-normalization dedup: 'pre…",
+      "source_repo": "CLI",
+      "date": "20260818",
+      "archived_at": "2026-08-18T00:59:25Z"
     }
   ]
 }
