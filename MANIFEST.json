@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-18T05:02:31Z",
+  "generated_at": "2026-08-18T05:05:15Z",
   "repo": "APPLES",
-  "count": 3687,
+  "count": 3688,
   "apples": [
     {
       "id": 10525,
@@ -29498,6 +29498,14 @@
       "source_repo": "CLI",
       "date": "20260818",
       "archived_at": "2026-08-18T05:02:31Z"
+    },
+    {
+      "id": 14222,
+      "type": "signal_observation",
+      "title": "[INFO] Decision: NOT firing the remaining 5 FFXI garage-gang generations right now -- the backgroun…",
+      "source_repo": "CLI",
+      "date": "20260818",
+      "archived_at": "2026-08-18T05:05:15Z"
     }
   ]
 }
