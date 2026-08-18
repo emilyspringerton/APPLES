@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-18T20:27:41Z",
+  "generated_at": "2026-08-18T20:27:42Z",
   "repo": "APPLES",
-  "count": 3783,
+  "count": 3784,
   "apples": [
     {
       "id": 10525,
@@ -30266,6 +30266,14 @@
       "source_repo": "emily.cli",
       "date": "20260818",
       "archived_at": "2026-08-18T20:27:41Z"
+    },
+    {
+      "id": 14318,
+      "type": "completion",
+      "title": "changelog(emily.cli): Added subject-level Prompt-o-verse prompt annotations (mult…",
+      "source_repo": "emily.cli",
+      "date": "20260818",
+      "archived_at": "2026-08-18T20:27:42Z"
     }
   ]
 }
