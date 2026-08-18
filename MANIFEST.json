@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-18T00:59:25Z",
+  "generated_at": "2026-08-18T00:59:42Z",
   "repo": "APPLES",
-  "count": 3567,
+  "count": 3568,
   "apples": [
     {
       "id": 10525,
@@ -28538,6 +28538,14 @@
       "source_repo": "CLI",
       "date": "20260818",
       "archived_at": "2026-08-18T00:59:25Z"
+    },
+    {
+      "id": 14102,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time, mashup/article-dedup thread, further confirming nuance (no design change,…",
+      "source_repo": "CLI",
+      "date": "20260818",
+      "archived_at": "2026-08-18T00:59:42Z"
     }
   ]
 }
