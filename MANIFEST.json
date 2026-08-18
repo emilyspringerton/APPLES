@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-18T01:03:13Z",
+  "generated_at": "2026-08-18T01:03:29Z",
   "repo": "APPLES",
-  "count": 3573,
+  "count": 3574,
   "apples": [
     {
       "id": 10525,
@@ -28586,6 +28586,14 @@
       "source_repo": "CLI",
       "date": "20260818",
       "archived_at": "2026-08-18T01:03:13Z"
+    },
+    {
+      "id": 14108,
+      "type": "completion",
+      "title": "changelog(emily.cli): README.md Ontology section: requirementizes subject-identit…",
+      "source_repo": "emily.cli",
+      "date": "20260818",
+      "archived_at": "2026-08-18T01:03:29Z"
     }
   ]
 }
