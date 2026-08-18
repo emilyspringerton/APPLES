@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-18T04:17:10Z",
+  "generated_at": "2026-08-18T04:18:05Z",
   "repo": "APPLES",
-  "count": 3647,
+  "count": 3648,
   "apples": [
     {
       "id": 10525,
@@ -29178,6 +29178,14 @@
       "source_repo": "CLI",
       "date": "20260818",
       "archived_at": "2026-08-18T04:17:10Z"
+    },
+    {
+      "id": 14182,
+      "type": "signal_observation",
+      "title": "[INFO] MAJOR FINDING, real root cause of the recurring live-reload complaints: setInterval/insertNe…",
+      "source_repo": "CLI",
+      "date": "20260818",
+      "archived_at": "2026-08-18T04:18:05Z"
     }
   ]
 }
