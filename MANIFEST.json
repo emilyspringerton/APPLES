@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-18T20:27:37Z",
+  "generated_at": "2026-08-18T20:27:39Z",
   "repo": "APPLES",
-  "count": 3781,
+  "count": 3782,
   "apples": [
     {
       "id": 10525,
@@ -30250,6 +30250,14 @@
       "source_repo": "emily.cli",
       "date": "20260818",
       "archived_at": "2026-08-18T20:27:37Z"
+    },
+    {
+      "id": 14316,
+      "type": "completion",
+      "title": "PATCH /nodes/{slug}/tags for Prompt-o-verse metadata backfill",
+      "source_repo": "IDUNA",
+      "date": "20260818",
+      "archived_at": "2026-08-18T20:27:39Z"
     }
   ]
 }
