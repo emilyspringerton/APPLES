@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-18T03:28:18Z",
+  "generated_at": "2026-08-18T03:30:22Z",
   "repo": "APPLES",
-  "count": 3630,
+  "count": 3631,
   "apples": [
     {
       "id": 10525,
@@ -29042,6 +29042,14 @@
       "source_repo": "CLI",
       "date": "20260818",
       "archived_at": "2026-08-18T03:28:18Z"
+    },
+    {
+      "id": 14165,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time direction 'you should be able to get iduna gcloud logins working' -- check…",
+      "source_repo": "CLI",
+      "date": "20260818",
+      "archived_at": "2026-08-18T03:30:22Z"
     }
   ]
 }
