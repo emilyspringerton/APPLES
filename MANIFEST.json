@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-18T00:46:06Z",
+  "generated_at": "2026-08-18T00:46:08Z",
   "repo": "APPLES",
-  "count": 3554,
+  "count": 3555,
   "apples": [
     {
       "id": 10525,
@@ -28434,6 +28434,14 @@
       "source_repo": "emily.cli",
       "date": "20260818",
       "archived_at": "2026-08-18T00:46:06Z"
+    },
+    {
+      "id": 14089,
+      "type": "completion",
+      "title": "Fixed stale-JWT UNAUTHENTICATED errors",
+      "source_repo": "emily.cli",
+      "date": "20260818",
+      "archived_at": "2026-08-18T00:46:08Z"
     }
   ]
 }
