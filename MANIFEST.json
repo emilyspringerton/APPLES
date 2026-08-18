@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-18T01:13:28Z",
+  "generated_at": "2026-08-18T01:13:40Z",
   "repo": "APPLES",
-  "count": 3583,
+  "count": 3584,
   "apples": [
     {
       "id": 10525,
@@ -28666,6 +28666,14 @@
       "source_repo": "CLI",
       "date": "20260818",
       "archived_at": "2026-08-18T01:13:28Z"
+    },
+    {
+      "id": 14118,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time, two terse fragments during the LLM-judgment mashup build, meaning not ful…",
+      "source_repo": "CLI",
+      "date": "20260818",
+      "archived_at": "2026-08-18T01:13:40Z"
     }
   ]
 }
