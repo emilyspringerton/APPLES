@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-18T04:38:26Z",
+  "generated_at": "2026-08-18T04:39:59Z",
   "repo": "APPLES",
-  "count": 3667,
+  "count": 3668,
   "apples": [
     {
       "id": 10525,
@@ -29338,6 +29338,14 @@
       "source_repo": "CLI",
       "date": "20260818",
       "archived_at": "2026-08-18T04:38:26Z"
+    },
+    {
+      "id": 14202,
+      "type": "completion",
+      "title": "changelog(IDUNA): Auth strip now shows a visible 'Sign in (coming soon)' plac…",
+      "source_repo": "IDUNA",
+      "date": "20260818",
+      "archived_at": "2026-08-18T04:39:59Z"
     }
   ]
 }

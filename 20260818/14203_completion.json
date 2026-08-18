@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-18T04:39:59Z",
+  "body": "-- Founder: 'ok where is my social funnel? at least a login button at the top?' The auth strip was already live on every page but rendered completely empty (JS did 'if (!clientId) return' with no fallback) since GOOGLE_CLIENT_ID isn't configured yet (S176-34). Now shows a disabled 'Sign in (coming soon)' pill. Live-verified with a real Playwright/Chromium browser: pill text confirmed, visible=true, zero page errors. Commit eba56df.",
+  "id": 14203,
+  "metadata": null,
+  "run_id": "sess-20260813-2154-dda37e8b",
+  "source_repo": "IDUNA",
+  "title": "Sign-in funnel now visible even before GOOGLE_CLIENT_ID is configured"
+}
