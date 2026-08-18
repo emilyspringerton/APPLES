@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-18T04:05:48Z",
+  "body": "-- Founder: 'ok but where is the funnel? like in the footer or the header or something a login button?' Sign-in previously only existed inside the subject-page nomination widget. New shared authStrip CSS/HTML/JS spliced into all 4 page templates (node, index, subject, style) -- header pill showing Sign in / Signed in, one shared localStorage token. Subject page's nomination widget simplified to read that shared token instead of its own duplicate sign-in logic. 3 new tests. Live-verified on all 4 page types through the real HTTPS path (node leaf, index, subject, style all confirmed serving the strip). Still blocked on GOOGLE_CLIENT_ID (S176-34, human action) before sign-in actually functions. Commit fdd9216.",
+  "id": 14172,
+  "metadata": null,
+  "run_id": "sess-20260813-2154-dda37e8b",
+  "source_repo": "IDUNA",
+  "title": "Site-wide sign-in funnel added to Prompt-o-verse"
+}
