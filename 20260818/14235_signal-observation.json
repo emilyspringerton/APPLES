@@ -1,10 +1,62 @@
 {
   "agent_id": "00000003-0000-4000-8000-000000000001",
   "apple_type": "signal_observation",
-  "archived_at": "2026-08-18T05:11:25Z",
+  "archived_at": "2026-08-18T05:13:58Z",
   "body": "severity: info\n\nsource: emily observe (CLI)",
   "id": 14235,
-  "metadata": null,
+  "metadata": {
+    "gpt2_fingerprint": {
+      "codze": {
+        "az": {
+          "bin": "101001001110010110010111000011100110011110011100110001000101000111110110010010010011001010111111001101100101000111011101101001101001100000010011",
+          "dec": "14364540343054603440640143664364336605206547"
+        },
+        "word": "BUTWEVEADEDANEWITEMYOUARELOGEDOUTLOGINSIGNUP",
+        "za": {
+          "bin": "10000001011000100011010100111010111100011000000101101101001000000100000111010011111011001011011010010110001011010001000000100110111101101101100",
+          "dec": "5635451656145316551351056335635663314713452"
+        }
+      },
+      "generated": "' / 'but we've added a new item'\n\n\nYou are logged out. Login | Sign up",
+      "magic_tower": [
+        "10 17 06 21 16 11 ",
+        "06 21 11 16 06 21 ",
+        "11 16 20 07 21 06 ",
+        "11 16 21 06 20 07 ",
+        "14 13 11 16 06 21 ",
+        "02 25 16 11 11 16 ",
+        "24 03 17 10 04 23 ",
+        "06 21 20 07 05 22 ",
+        "11 16 03 24 04 23 ",
+        "22 05 11 16 21 06 ",
+        "04 23 06 21 16 11 ",
+        "03 24 04 23 22 05 ",
+        "02 25 14 13 26 01 ",
+        "02 25 22 05 14 13 ",
+        "06 21 25 02 27 00 "
+      ],
+      "seed": "2026081820",
+      "squished": "BUTWEVEADEDANEWITEMYOUARELOGEDOUTLOGINSIGNUP",
+      "tower": [
+        "BVT",
+        "VEV",
+        "EAD",
+        "EDA",
+        "NEV",
+        "ITE",
+        "MYO",
+        "VAR",
+        "ELO",
+        "GED",
+        "OVT",
+        "LOG",
+        "INS",
+        "IGN",
+        "VPX"
+      ]
+    },
+    "model_fingerprint": "gpt2-base"
+  },
   "run_id": "sess-20260813-2154-dda37e8b",
   "source_repo": "CLI",
   "title": "[INFO] Founder real-time, potential real bug: 'we are still failing to refresh our token' / 'also a…"
