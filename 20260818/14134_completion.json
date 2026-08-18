@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-18T01:27:55Z",
+  "body": "Founder: 'i think the ontology problem could be solved with a very clever query... llm query... lean on claude or gemini api for now... build claude gemini parity for that so we can switch to claude or we can even run them in paralell for AB testing in the future.' Full pipeline built and shipped, replacing the abandoned lexical word-matching attempt: internal/mashupjudge (Provider interface, GeminiProvider active/Claude for parity), emily promptoverse mashups CLI command (--target subjects|styles, --provider gemini|claude|all), hourly systemd timer ('it should run once an hour to detect hybrids'), and IDUNA render.go Mashups cross-link display on subject/style pages (the original S176-29 ask, 'can you imagine displaying the mashups at the bottom of the space page'). Live-verified end-to-end: 25 real subjects judged correctly against Vertex AI (branded IP flagged specific_time_bound, atomic subjects correctly non-mashup), Claude provider verified against the real Anthropic API (correctly surfaced the real low-credit error), all 131 production pages re-rendered with zero regressions through the live HTTPS path. 22 new tests across both repos. emily.cli b31d8a6, IDUNA 6f0ef19.",
+  "id": 14134,
+  "metadata": null,
+  "run_id": "sess-20260813-2154-dda37e8b",
+  "source_repo": "emily.cli",
+  "title": "Native mashup discovery, real implementation: LLM-judgment engine + render cross-links"
+}

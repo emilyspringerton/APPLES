@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-18T01:27:48Z",
+  "generated_at": "2026-08-18T01:27:55Z",
   "repo": "APPLES",
-  "count": 3599,
+  "count": 3600,
   "apples": [
     {
       "id": 10525,
@@ -28794,6 +28794,14 @@
       "source_repo": "IDUNA",
       "date": "20260818",
       "archived_at": "2026-08-18T01:27:48Z"
+    },
+    {
+      "id": 14134,
+      "type": "completion",
+      "title": "Native mashup discovery, real implementation: LLM-judgment engine + render cross-links",
+      "source_repo": "emily.cli",
+      "date": "20260818",
+      "archived_at": "2026-08-18T01:27:55Z"
     }
   ]
 }
