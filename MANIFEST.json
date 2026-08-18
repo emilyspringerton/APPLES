@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-18T21:27:45Z",
+  "generated_at": "2026-08-18T21:29:46Z",
   "repo": "APPLES",
-  "count": 3792,
+  "count": 3793,
   "apples": [
     {
       "id": 10525,
@@ -30338,6 +30338,14 @@
       "source_repo": "CLI",
       "date": "20260818",
       "archived_at": "2026-08-18T21:27:45Z"
+    },
+    {
+      "id": 14327,
+      "type": "completion",
+      "title": "README.md audited for full command coverage",
+      "source_repo": "emily.cli",
+      "date": "20260818",
+      "archived_at": "2026-08-18T21:29:46Z"
     }
   ]
 }

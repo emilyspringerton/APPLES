@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-18T21:29:46Z",
+  "body": "Diffed README.md's documented commands against main.go's actual dispatch table -- found emily backup (GCS archive/encryption tool) entirely undocumented in both README.md and docs/COMMANDS.md, added to both. README's Prompt-o-verse section was also stale (missing regenerate/annotations/backfill-annotation/hybrids). Corrected stale test count (109 -\u003e 236). Commit emily.cli 5f5f74d.",
+  "id": 14327,
+  "metadata": null,
+  "run_id": "sess-20260813-2154-dda37e8b",
+  "source_repo": "emily.cli",
+  "title": "README.md audited for full command coverage"
+}
