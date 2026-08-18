@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-18T22:43:00Z",
+  "body": "Replaced pickSubject's vacuum-based spontaneous subject discovery with discoverSubjectAnchoredToStyle: picks a style via the same weighted marble-bag scheme, asks Vertex for that style's archetypal subject (inverse of the existing subject-\u003estyle discovery reasoning), retries with a different style if declined, until a subject is discovered or every style has been tried. Live-verified via direct call (bypassing the racy pity RNG gate): discovered 'Niobe' as a genuinely new subject. Commit emily.cli c8e995a.",
+  "id": 14340,
+  "metadata": null,
+  "run_id": "sess-20260813-2154-dda37e8b",
+  "source_repo": "emily.cli",
+  "title": "Style-anchored subject discovery"
+}

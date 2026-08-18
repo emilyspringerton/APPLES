@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-18T22:38:06Z",
+  "generated_at": "2026-08-18T22:43:00Z",
   "repo": "APPLES",
-  "count": 3805,
+  "count": 3806,
   "apples": [
     {
       "id": 10525,
@@ -30442,6 +30442,14 @@
       "source_repo": "emily",
       "date": "20260818",
       "archived_at": "2026-08-18T22:38:06Z"
+    },
+    {
+      "id": 14340,
+      "type": "completion",
+      "title": "Style-anchored subject discovery",
+      "source_repo": "emily.cli",
+      "date": "20260818",
+      "archived_at": "2026-08-18T22:43:00Z"
     }
   ]
 }
