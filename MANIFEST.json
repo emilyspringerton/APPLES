@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-18T00:46:05Z",
+  "generated_at": "2026-08-18T00:46:06Z",
   "repo": "APPLES",
-  "count": 3553,
+  "count": 3554,
   "apples": [
     {
       "id": 10525,
@@ -28426,6 +28426,14 @@
       "source_repo": "CLI",
       "date": "20260818",
       "archived_at": "2026-08-18T00:46:05Z"
+    },
+    {
+      "id": 14088,
+      "type": "completion",
+      "title": "changelog(emily.cli): fix(iduna): Client.Auth() now fetches a fresh JWT on every …",
+      "source_repo": "emily.cli",
+      "date": "20260818",
+      "archived_at": "2026-08-18T00:46:06Z"
     }
   ]
 }

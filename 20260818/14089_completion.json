@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-18T00:46:05Z",
+  "body": "Client.Auth() always fetches fresh now, no cache-reuse based on exp claim. Root cause: a long-running drain spanning an iduna.service restart had a token that was technically 'not expired' by its own claim but no longer valid server-side, with no way to self-heal. 1 new test. Commit 6ef3945.",
+  "id": 14089,
+  "metadata": null,
+  "run_id": "sess-20260813-2154-dda37e8b",
+  "source_repo": "emily.cli",
+  "title": "Fixed stale-JWT UNAUTHENTICATED errors"
+}
