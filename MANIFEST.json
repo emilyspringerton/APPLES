@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-18T01:14:47Z",
+  "generated_at": "2026-08-18T01:15:33Z",
   "repo": "APPLES",
-  "count": 3586,
+  "count": 3587,
   "apples": [
     {
       "id": 10525,
@@ -28690,6 +28690,14 @@
       "source_repo": "CLI",
       "date": "20260818",
       "archived_at": "2026-08-18T01:14:47Z"
+    },
+    {
+      "id": 14121,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time, further extending the graph-context idea (exploratory, not blocking curre…",
+      "source_repo": "CLI",
+      "date": "20260818",
+      "archived_at": "2026-08-18T01:15:33Z"
     }
   ]
 }
