@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-18T03:33:10Z",
+  "body": "-- Founder: 'build out mashup nomination as a social tool.' New mashup_nominations table, MashupNominationsHandler (create/list/review), promptoverse.mashups.review permission, frontend widget on every subject page (autocomplete + Google Sign-In via existing ID-token flow, no gate.farthq.com dependency). 16 new tests. Live-verified through the real HTTPS path (widget renders, GET/POST endpoints respond correctly, unauthenticated POST 401s). Blocked on a real GOOGLE_CLIENT_ID (human action, Google Cloud Console) before sign-in actually works -- widget shows a clear not-yet-available state until then. Commit 41a21b0.",
+  "id": 14167,
+  "metadata": null,
+  "run_id": "sess-20260813-2154-dda37e8b",
+  "source_repo": "IDUNA",
+  "title": "Mashup nomination social tool built and live-verified"
+}

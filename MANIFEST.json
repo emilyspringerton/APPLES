@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-18T03:30:22Z",
+  "generated_at": "2026-08-18T03:33:10Z",
   "repo": "APPLES",
-  "count": 3631,
+  "count": 3632,
   "apples": [
     {
       "id": 10525,
@@ -29050,6 +29050,14 @@
       "source_repo": "CLI",
       "date": "20260818",
       "archived_at": "2026-08-18T03:30:22Z"
+    },
+    {
+      "id": 14166,
+      "type": "completion",
+      "title": "changelog(IDUNA): Mashup nomination social tool: authenticated (Google ID-tok…",
+      "source_repo": "IDUNA",
+      "date": "20260818",
+      "archived_at": "2026-08-18T03:33:10Z"
     }
   ]
 }
