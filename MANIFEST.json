@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-18T04:36:16Z",
+  "generated_at": "2026-08-18T04:36:17Z",
   "repo": "APPLES",
-  "count": 3661,
+  "count": 3662,
   "apples": [
     {
       "id": 10525,
@@ -29290,6 +29290,14 @@
       "source_repo": "IDUNA",
       "date": "20260818",
       "archived_at": "2026-08-18T04:36:16Z"
+    },
+    {
+      "id": 14196,
+      "type": "completion",
+      "title": "changelog(emily.cli): emily promptoverse regenerate \u003cslug\u003e --note - client-side c…",
+      "source_repo": "emily.cli",
+      "date": "20260818",
+      "archived_at": "2026-08-18T04:36:17Z"
     }
   ]
 }
