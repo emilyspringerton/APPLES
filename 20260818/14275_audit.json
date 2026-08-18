@@ -1,13 +1,58 @@
 {
   "agent_id": "00000003-0000-4000-8000-000000000001",
   "apple_type": "audit",
-  "archived_at": "2026-08-18T12:28:12Z",
+  "archived_at": "2026-08-18T12:28:29Z",
   "body": "\n## Cycle summary\n- Cycle: 11323\n- Duration: 0s\n- Outcome: idle — no queued tasks\n- Total completed tasks: 2\n- Triage findings this cycle: 0",
   "id": 14275,
   "metadata": {
     "consecutive_failures": 0,
     "cycle_number": 11323,
     "duration_s": 0,
+    "gpt2_fingerprint": {
+      "codze": {
+        "az": {
+          "bin": "110111000101100100110010000101011010011010100001110111111111000001010110100001001111101101111110011100110111011110110",
+          "dec": "143014301430143014301430143014301430"
+        },
+        "word": "BETABETABETABETABETABETABETABETABETA",
+        "za": {
+          "bin": "10101100111000111000010111010001111110001110010101101000110100000100001111100010011011101010111000001011110101000001",
+          "dec": "56105610561056105610561056105610561"
+        }
+      },
+      "generated": " 1.8.0 (beta 3)\n\n1.9.0 (beta 4)\n\n1.9.1 (beta 5)\n\n1.9.2 (beta 6)\n\n1.9.3 (beta 7)\n\n1.9.4 (beta 8)\n\n1.9.5 (beta 9)\n\n1.9.6 (beta 10)\n\n1.9.7 (beta 11)\n\n1",
+      "magic_tower": [
+        "10 17 11 16 16 11 ",
+        "20 07 10 17 11 16 ",
+        "16 11 20 07 10 17 ",
+        "11 16 16 11 20 07 ",
+        "10 17 11 16 16 11 ",
+        "20 07 10 17 11 16 ",
+        "16 11 20 07 10 17 ",
+        "11 16 16 11 20 07 ",
+        "10 17 11 16 16 11 ",
+        "20 07 10 17 11 16 ",
+        "16 11 20 07 10 17 ",
+        "11 16 16 11 20 07 "
+      ],
+      "seed": "2026081850",
+      "squished": "BETABETABETABETABETABETABETABETABETA",
+      "tower": [
+        "BET",
+        "ABE",
+        "TAB",
+        "ETA",
+        "BET",
+        "ABE",
+        "TAB",
+        "ETA",
+        "BET",
+        "ABE",
+        "TAB",
+        "ETA"
+      ]
+    },
+    "model_fingerprint": "gpt2-base",
     "task_id": "",
     "tokens_used": 0,
     "triage_findings": 0
