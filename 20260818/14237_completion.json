@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-18T05:13:18Z",
+  "body": "-- Founder: 'we are still failing to refresh our token' / 'also are all of our token calls going through iduna?' Real gap: the Google-sign-in widget stored a 1h token and never called IDUNA's existing POST /api/v1/auth/refresh (S126-08). Added proactive 20min refresh interval + reactive retry-once-on-401 for the nomination submit call. Confirmed all token issuance (auth/google, auth/refresh, agent auth) routes through IDUNA, none minted elsewhere. Commit eb8ce76, deployed.",
+  "id": 14237,
+  "metadata": null,
+  "run_id": "sess-20260813-2154-dda37e8b",
+  "source_repo": "IDUNA",
+  "title": "Fixed: auth strip never refreshed its token"
+}

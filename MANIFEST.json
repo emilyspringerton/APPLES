@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-18T05:11:25Z",
+  "generated_at": "2026-08-18T05:13:18Z",
   "repo": "APPLES",
-  "count": 3701,
+  "count": 3702,
   "apples": [
     {
       "id": 10525,
@@ -29610,6 +29610,14 @@
       "source_repo": "CLI",
       "date": "20260818",
       "archived_at": "2026-08-18T05:11:25Z"
+    },
+    {
+      "id": 14236,
+      "type": "completion",
+      "title": "changelog(IDUNA): Auth strip now proactively refreshes its token via IDUNA's …",
+      "source_repo": "IDUNA",
+      "date": "20260818",
+      "archived_at": "2026-08-18T05:13:18Z"
     }
   ]
 }

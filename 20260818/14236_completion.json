@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-18T05:13:18Z",
+  "body": "CHANGELOG updated in IDUNA: Auth strip now proactively refreshes its token via IDUNA's existing /api/v1/auth/refresh, plus retries once on a real 401 (sess-20260813-2154-dda37e8b)",
+  "id": 14236,
+  "metadata": null,
+  "run_id": "sess-20260813-2154-dda37e8b",
+  "source_repo": "IDUNA",
+  "title": "changelog(IDUNA): Auth strip now proactively refreshes its token via IDUNA's …"
+}
