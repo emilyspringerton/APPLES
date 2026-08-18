@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-18T01:36:55Z",
+  "generated_at": "2026-08-18T01:44:37Z",
   "repo": "APPLES",
-  "count": 3612,
+  "count": 3613,
   "apples": [
     {
       "id": 10525,
@@ -28898,6 +28898,14 @@
       "source_repo": "EMILY",
       "date": "20260818",
       "archived_at": "2026-08-18T01:36:55Z"
+    },
+    {
+      "id": 14147,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: 'livereload seems broken - prioritize that fix' -- upgrades the earlier u…",
+      "source_repo": "CLI",
+      "date": "20260818",
+      "archived_at": "2026-08-18T01:44:37Z"
     }
   ]
 }
