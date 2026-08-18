@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-18T00:14:17Z",
+  "body": "GET /api/v1/promptoverse/discovery combines 4 EMILY/var files (hardcoded styles export, discovered styles, GPT-2 candidates, content-block dead-letters) into one public JSON response, degrading gracefully per-section on missing/malformed files. 5 new tests. Commit 3e70e0b.",
+  "id": 14070,
+  "metadata": null,
+  "run_id": "sess-20260813-2154-dda37e8b",
+  "source_repo": "IDUNA",
+  "title": "Prompt-o-verse discovery API live"
+}

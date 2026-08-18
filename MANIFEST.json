@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-18T00:14:17Z",
+  "generated_at": "2026-08-18T00:14:19Z",
   "repo": "APPLES",
-  "count": 3533,
+  "count": 3534,
   "apples": [
     {
       "id": 10525,
@@ -28266,6 +28266,14 @@
       "source_repo": "OKEMILY",
       "date": "20260818",
       "archived_at": "2026-08-18T00:14:17Z"
+    },
+    {
+      "id": 14068,
+      "type": "completion",
+      "title": "changelog(IDUNA): feat(promptoverse): GET /api/v1/promptoverse/discovery -- p…",
+      "source_repo": "IDUNA",
+      "date": "20260818",
+      "archived_at": "2026-08-18T00:14:19Z"
     }
   ]
 }
