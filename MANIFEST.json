@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-18T19:55:48Z",
+  "generated_at": "2026-08-18T19:55:50Z",
   "repo": "APPLES",
-  "count": 3774,
+  "count": 3775,
   "apples": [
     {
       "id": 10525,
@@ -30194,6 +30194,14 @@
       "source_repo": "emily.cli",
       "date": "20260818",
       "archived_at": "2026-08-18T19:55:48Z"
+    },
+    {
+      "id": 14309,
+      "type": "completion",
+      "title": "Fix sprite alpha blending state",
+      "source_repo": "BRAWLPIT",
+      "date": "20260818",
+      "archived_at": "2026-08-18T19:55:50Z"
     }
   ]
 }
