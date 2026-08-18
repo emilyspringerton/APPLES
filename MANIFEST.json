@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-18T20:38:42Z",
+  "generated_at": "2026-08-18T20:38:43Z",
   "repo": "APPLES",
-  "count": 3786,
+  "count": 3787,
   "apples": [
     {
       "id": 10525,
@@ -30290,6 +30290,14 @@
       "source_repo": "emily.cli",
       "date": "20260818",
       "archived_at": "2026-08-18T20:38:42Z"
+    },
+    {
+      "id": 14321,
+      "type": "completion",
+      "title": "changelog(emily.cli): Documented all emily promptoverse subcommands in docs/COMMA…",
+      "source_repo": "emily.cli",
+      "date": "20260818",
+      "archived_at": "2026-08-18T20:38:43Z"
     }
   ]
 }
