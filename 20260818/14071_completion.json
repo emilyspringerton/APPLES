@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-18T00:14:23Z",
+  "body": "New EMILY/var/promptoverse-content-blocked.jsonl (append-only, never retried) records permanently-blocked (subject, style) attempts with structured reason/message. contentBlockedError refactored to a typed error carrying these fields. Live-verified end to end against the real Vertex AI API (temporary smoke test, removed after confirming). writeHardcodedStylesSnapshot exports the compiled-in registry to EMILY/var so IDUNA's discovery page can see it. Commits 2276638, 528dd7a.",
+  "id": 14071,
+  "metadata": null,
+  "run_id": "sess-20260813-2154-dda37e8b",
+  "source_repo": "emily.cli",
+  "title": "Content-policy dead-letter dataset + hardcoded-styles export"
+}
