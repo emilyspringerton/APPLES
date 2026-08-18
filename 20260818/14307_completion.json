@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-18T19:55:41Z",
+  "body": "Fixed founder-reported fat-fingered queue entry (8x 'icelabdic horse' lines removed from EMILY/var/promptoverse-queue.jsonl), then built /admin/promptoverse-queue (list/add/remove-by-index) so future fixes don't need CLI access. Commit IDUNA 0e06c5e.",
+  "id": 14307,
+  "metadata": null,
+  "run_id": "sess-20260813-2154-dda37e8b",
+  "source_repo": "IDUNA",
+  "title": "Prompt-o-verse queue Back Office admin page"
+}
