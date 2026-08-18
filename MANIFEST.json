@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-18T21:24:26Z",
+  "generated_at": "2026-08-18T21:27:45Z",
   "repo": "APPLES",
-  "count": 3791,
+  "count": 3792,
   "apples": [
     {
       "id": 10525,
@@ -30330,6 +30330,14 @@
       "source_repo": "emily",
       "date": "20260818",
       "archived_at": "2026-08-18T21:24:26Z"
+    },
+    {
+      "id": 14326,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: 'ensure all emily cli functionality is documented in the readme' -- follo…",
+      "source_repo": "CLI",
+      "date": "20260818",
+      "archived_at": "2026-08-18T21:27:45Z"
     }
   ]
 }
