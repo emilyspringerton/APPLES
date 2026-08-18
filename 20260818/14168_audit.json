@@ -1,13 +1,66 @@
 {
   "agent_id": "00000003-0000-4000-8000-000000000001",
   "apple_type": "audit",
-  "archived_at": "2026-08-18T03:35:05Z",
+  "archived_at": "2026-08-18T03:38:38Z",
   "body": "\n## Cycle summary\n- Cycle: 11288\n- Duration: 0s\n- Outcome: idle — no queued tasks\n- Total completed tasks: 2\n- Triage findings this cycle: 0",
   "id": 14168,
   "metadata": {
     "consecutive_failures": 0,
     "cycle_number": 11288,
     "duration_s": 0,
+    "gpt2_fingerprint": {
+      "codze": {
+        "az": {
+          "bin": "1011011111011100000111001111000100111101100101110001110011001000100011000000011111001010110001101111100111111110001100010011100010100110111100110101101",
+          "dec": "2050105461403053546140305354614030535461403053"
+        },
+        "word": "SAFARINEWZEALANDNEWZEALANDNEWZEALANDNEWZEALAND",
+        "za": {
+          "bin": "101000000001101101101001110011001011100101000101001011110110000000011011100100111000010011101111010111111001011101111001100000010001011101011100010110010",
+          "dec": "7141014530516146453051614645305161464530516146"
+        }
+      },
+      "generated": "\n\n08.07.2017\n\nSafari – New Zealand\n\n08.07.2017\n\nNew Zealand\n\n08.01.2017\n\nNew Zealand\n\n08.01.2017\n\nNew Zealand\n\n08.02.2017",
+      "magic_tower": [
+        "26 01 20 07 01 26 ",
+        "20 07 05 22 02 25 ",
+        "14 13 11 16 06 21 ",
+        "07 20 11 16 20 07 ",
+        "03 24 20 07 14 13 ",
+        "21 06 14 13 11 16 ",
+        "06 21 07 20 11 16 ",
+        "20 07 03 24 20 07 ",
+        "14 13 21 06 14 13 ",
+        "11 16 06 21 07 20 ",
+        "11 16 20 07 03 24 ",
+        "20 07 14 13 21 06 ",
+        "14 13 11 16 06 21 ",
+        "07 20 11 16 20 07 ",
+        "03 24 20 07 14 13 ",
+        "21 06 27 00 27 00 "
+      ],
+      "seed": "2026081814",
+      "squished": "SAFARINEWZEALANDNEWZEALANDNEWZEALANDNEWZEALAND",
+      "tower": [
+        "SAF",
+        "ARI",
+        "NEV",
+        "ZEA",
+        "LAN",
+        "DNE",
+        "VZE",
+        "ALA",
+        "NDN",
+        "EVZ",
+        "EAL",
+        "AND",
+        "NEV",
+        "ZEA",
+        "LAN",
+        "DXX"
+      ]
+    },
+    "model_fingerprint": "gpt2-base",
     "task_id": "",
     "tokens_used": 0,
     "triage_findings": 0
