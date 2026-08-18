@@ -1,10 +1,52 @@
 {
   "agent_id": "00000003-0000-4000-8000-000000000001",
   "apple_type": "signal_observation",
-  "archived_at": "2026-08-18T21:27:45Z",
+  "archived_at": "2026-08-18T21:28:32Z",
   "body": "severity: info\n\nsource: emily observe (CLI)",
   "id": 14326,
-  "metadata": null,
+  "metadata": {
+    "gpt2_fingerprint": {
+      "codze": {
+        "az": {
+          "bin": "1001110011011001001101100011011010000101110011111001000010010011111100000110000101110111111101",
+          "dec": "12135563612135636121356361213"
+        },
+        "word": "RSRTNFOLORSRTFOLORSRTFOLORSRT",
+        "za": {
+          "bin": "101101101001110010000100100111001001101000010011101010110001010100111110010011111001001110010",
+          "dec": "7064436307064363070643630706"
+        }
+      },
+      "generated": " -- rssrttttttttttttttttttttttttttttn -- ... follo... -- rssrttttttttttttttttttttttttttttttttttttttttttttttttt -- ... follo... -- rssrttttttttttttttttttttttttttttttttttttttttttttttt -- ... follo... -- rssrtttttttttt",
+      "magic_tower": [
+        "05 22 26 01 05 22 ",
+        "16 11 14 13 01 26 ",
+        "04 23 03 24 04 23 ",
+        "05 22 26 01 05 22 ",
+        "16 11 01 26 04 23 ",
+        "03 24 04 23 05 22 ",
+        "26 01 05 22 16 11 ",
+        "01 26 04 23 03 24 ",
+        "04 23 05 22 26 01 ",
+        "05 22 16 11 27 00 "
+      ],
+      "seed": "2026081888",
+      "squished": "RSRTNFOLORSRTFOLORSRTFOLORSRT",
+      "tower": [
+        "RSR",
+        "TNF",
+        "OLO",
+        "RSR",
+        "TFO",
+        "LOR",
+        "SRT",
+        "FOL",
+        "ORS",
+        "RTX"
+      ]
+    },
+    "model_fingerprint": "gpt2-base"
+  },
   "run_id": "sess-20260813-2154-dda37e8b",
   "source_repo": "CLI",
   "title": "[INFO] Founder real-time: 'ensure all emily cli functionality is documented in the readme' -- follo…"
