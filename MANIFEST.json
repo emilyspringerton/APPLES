@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-18T01:15:33Z",
+  "generated_at": "2026-08-18T01:15:54Z",
   "repo": "APPLES",
-  "count": 3587,
+  "count": 3588,
   "apples": [
     {
       "id": 10525,
@@ -28698,6 +28698,14 @@
       "source_repo": "CLI",
       "date": "20260818",
       "archived_at": "2026-08-18T01:15:33Z"
+    },
+    {
+      "id": 14122,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: 'it should run once an hour to detect hybrids' -- concrete scheduling req…",
+      "source_repo": "CLI",
+      "date": "20260818",
+      "archived_at": "2026-08-18T01:15:54Z"
     }
   ]
 }
