@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-18T00:36:39Z",
+  "generated_at": "2026-08-18T00:37:39Z",
   "repo": "APPLES",
-  "count": 3547,
+  "count": 3548,
   "apples": [
     {
       "id": 10525,
@@ -28378,6 +28378,14 @@
       "source_repo": "IDUNA",
       "date": "20260818",
       "archived_at": "2026-08-18T00:36:39Z"
+    },
+    {
+      "id": 14082,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time, backup tooling scoping answered via AskUserQuestion: (1) new GCS bucket i…",
+      "source_repo": "CLI",
+      "date": "20260818",
+      "archived_at": "2026-08-18T00:37:39Z"
     }
   ]
 }
