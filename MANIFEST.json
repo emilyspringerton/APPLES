@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-18T04:22:23Z",
+  "generated_at": "2026-08-18T04:23:14Z",
   "repo": "APPLES",
-  "count": 3656,
+  "count": 3657,
   "apples": [
     {
       "id": 10525,
@@ -29250,6 +29250,14 @@
       "source_repo": "CLI",
       "date": "20260818",
       "archived_at": "2026-08-18T04:22:23Z"
+    },
+    {
+      "id": 14191,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time, direct go-ahead: 'add that feature to the cli whatever affordance makes s…",
+      "source_repo": "CLI",
+      "date": "20260818",
+      "archived_at": "2026-08-18T04:23:14Z"
     }
   ]
 }
