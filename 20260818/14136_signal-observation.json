@@ -1,10 +1,62 @@
 {
   "agent_id": "00000003-0000-4000-8000-000000000001",
   "apple_type": "signal_observation",
-  "archived_at": "2026-08-18T01:28:43Z",
+  "archived_at": "2026-08-18T01:35:45Z",
   "body": "severity: info\n\nsource: emily observe (CLI)",
   "id": 14136,
-  "metadata": null,
+  "metadata": {
+    "gpt2_fingerprint": {
+      "codze": {
+        "az": {
+          "bin": "11110001100001010011010100001011101000010101001110010010000100110111000001100100010000011111001010010011101100111010101100110101001011001011011110001",
+          "dec": "673260447162426732604471624267326044716242673"
+        },
+        "word": "GPTCGAMEPROCESGPTCGAMEPROCESGPTCGAMEPROCESGPT",
+        "za": {
+          "bin": "1110101001101011000110111011111100001000011100100010101111111110111101011011100010010001011001111011011111010001111100001011110111100111010100001110",
+          "dec": "326731552037573267315520375732673155203757326"
+        }
+      },
+      "generated": "' [1.00.03.11-1.00.03.112]: Gpt2 -\u003e CGame::Process() [0.00.03.11-1.00.03.112]: Gpt2 -\u003e CGame::Process() [0.00.03.11-1.00.03.112]: Gpt2 -\u003e CGame::Process() [0.00.03.11-1.00.03.112]: Gpt2 -\u003e",
+      "magic_tower": [
+        "22 05 25 02 16 11 ",
+        "00 27 22 05 20 07 ",
+        "24 03 11 16 25 02 ",
+        "05 22 04 23 00 27 ",
+        "11 16 26 01 22 05 ",
+        "25 02 16 11 00 27 ",
+        "22 05 20 07 24 03 ",
+        "11 16 25 02 05 22 ",
+        "04 23 00 27 11 16 ",
+        "26 01 22 05 25 02 ",
+        "16 11 00 27 22 05 ",
+        "20 07 24 03 11 16 ",
+        "25 02 05 22 04 23 ",
+        "00 27 11 16 26 01 ",
+        "22 05 25 02 16 11 "
+      ],
+      "seed": "202608185",
+      "squished": "GPTCGAMEPROCESGPTCGAMEPROCESGPTCGAMEPROCESGPT",
+      "tower": [
+        "GPT",
+        "CGA",
+        "MEP",
+        "ROC",
+        "ESG",
+        "PTC",
+        "GAM",
+        "EPR",
+        "OCE",
+        "SGP",
+        "TCG",
+        "AME",
+        "PRO",
+        "CES",
+        "GPT"
+      ]
+    },
+    "model_fingerprint": "gpt2-base"
+  },
   "run_id": "sess-20260813-2154-dda37e8b",
   "source_repo": "CLI",
   "title": "[INFO] Founder real-time, big-bang topic discovery thread: 'maybe we can use gpt2 in a novel chaos …"
