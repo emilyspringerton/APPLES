@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-18T04:43:30Z",
+  "generated_at": "2026-08-18T04:44:18Z",
   "repo": "APPLES",
-  "count": 3671,
+  "count": 3672,
   "apples": [
     {
       "id": 10525,
@@ -29370,6 +29370,14 @@
       "source_repo": "CLI",
       "date": "20260818",
       "archived_at": "2026-08-18T04:43:30Z"
+    },
+    {
+      "id": 14206,
+      "type": "completion",
+      "title": "Published blog post: 'A Counterexample To LLMs Can't Do Ops'",
+      "source_repo": "EMILY",
+      "date": "20260818",
+      "archived_at": "2026-08-18T04:44:18Z"
     }
   ]
 }
