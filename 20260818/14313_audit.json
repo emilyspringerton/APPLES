@@ -1,13 +1,36 @@
 {
   "agent_id": "00000003-0000-4000-8000-000000000001",
   "apple_type": "audit",
-  "archived_at": "2026-08-18T20:10:11Z",
+  "archived_at": "2026-08-18T20:13:53Z",
   "body": "\n## Cycle summary\n- Cycle: 11354\n- Duration: 0s\n- Outcome: idle — no queued tasks\n- Total completed tasks: 2\n- Triage findings this cycle: 0",
   "id": 14313,
   "metadata": {
     "consecutive_failures": 0,
     "cycle_number": 11354,
     "duration_s": 0,
+    "gpt2_fingerprint": {
+      "codze": {
+        "az": {
+          "bin": "0",
+          "dec": "0"
+        },
+        "word": "AAA",
+        "za": {
+          "bin": "1101111",
+          "dec": "111"
+        }
+      },
+      "generated": "\n\n\n#2949\n\n(4) 0.0.2, 1.18.12.2017\n\n@1.0a\n\n\n#2899\n\n(3) 0.0.0, 1.18.12.2017\n\n@1.2a\n\n\n#2771\n\n(1) 0.1.0, 1.18.12.2017\n\n@1.3a\n\n\n#2741\n\n(1)",
+      "magic_tower": [
+        "20 07 27 00 27 00 "
+      ],
+      "seed": "2026081883",
+      "squished": "AAA",
+      "tower": [
+        "AXX"
+      ]
+    },
+    "model_fingerprint": "gpt2-base",
     "task_id": "",
     "tokens_used": 0,
     "triage_findings": 0
