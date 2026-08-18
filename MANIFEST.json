@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-18T00:42:52Z",
+  "generated_at": "2026-08-18T00:46:05Z",
   "repo": "APPLES",
-  "count": 3552,
+  "count": 3553,
   "apples": [
     {
       "id": 10525,
@@ -28418,6 +28418,14 @@
       "source_repo": "CLI",
       "date": "20260818",
       "archived_at": "2026-08-18T00:42:52Z"
+    },
+    {
+      "id": 14087,
+      "type": "signal_observation",
+      "title": "[ERROR] Founder real-time: repeated UNAUTHENTICATED errors from the promptoverse tool. Diagnosed as…",
+      "source_repo": "CLI",
+      "date": "20260818",
+      "archived_at": "2026-08-18T00:46:05Z"
     }
   ]
 }

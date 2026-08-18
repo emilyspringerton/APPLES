@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-18T00:46:05Z",
+  "body": "CHANGELOG updated in emily.cli: fix(iduna): Client.Auth() now fetches a fresh JWT on every call instead of reusing a cached one until its exp claim says \u003c5min left -- fixes UNAUTHENTICATED errors from a token invalidated some other way mid-run (e.g. across an iduna.service restart) (sess-20260813-2154-dda37e8b)",
+  "id": 14088,
+  "metadata": null,
+  "run_id": "sess-20260813-2154-dda37e8b",
+  "source_repo": "emily.cli",
+  "title": "changelog(emily.cli): fix(iduna): Client.Auth() now fetches a fresh JWT on every …"
+}
