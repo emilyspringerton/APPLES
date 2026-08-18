@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-18T04:23:14Z",
+  "generated_at": "2026-08-18T04:25:20Z",
   "repo": "APPLES",
-  "count": 3657,
+  "count": 3658,
   "apples": [
     {
       "id": 10525,
@@ -29258,6 +29258,14 @@
       "source_repo": "CLI",
       "date": "20260818",
       "archived_at": "2026-08-18T04:23:14Z"
+    },
+    {
+      "id": 14192,
+      "type": "signal_observation",
+      "title": "[INFO] CRITICAL correction, arrived mid-build: 'to be clear we need to keep both and i think for se…",
+      "source_repo": "CLI",
+      "date": "20260818",
+      "archived_at": "2026-08-18T04:25:20Z"
     }
   ]
 }
