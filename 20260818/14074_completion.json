@@ -1,10 +1,62 @@
 {
   "agent_id": "00000003-0000-4000-8000-000000000001",
   "apple_type": "completion",
-  "archived_at": "2026-08-18T00:22:03Z",
+  "archived_at": "2026-08-18T00:23:54Z",
   "body": "CHANGELOG updated in IDUNA: feat(promptoverse): new cmd/promptoverse-thumbnails (systemd timer, 15min) idempotently generates a thumbnail + JPEG-optimized version of every node's image via ImageMagick convert, re-rendering afterward. Renderer resolves GalleryImageFile/HeroImageFile at render time (thumb/optimized if present, original otherwise); live-update JS falls back via onerror. Live: 1.9MB PNGs became 236KB optimized JPEGs + 24KB thumbnails. (sess-20260813-2154-dda37e8b)",
   "id": 14074,
-  "metadata": null,
+  "metadata": {
+    "gpt2_fingerprint": {
+      "codze": {
+        "az": {
+          "bin": "1011111001001000100001010111110110111110110000010001000000010011110101110100110111110101011111110100101011000001001100010100010011011110011110",
+          "dec": "4144003024420563744674504661205660376053662"
+        },
+        "word": "AMREMYILIKEUSINGTHEMWHENIMWORKINGWITHWINDOWS",
+        "za": {
+          "bin": "101011001101001100000010100100011110000001001100011111001111000011100100111011101111100011001011001010101101111111101101110000110100001101100001",
+          "dec": "15055116175571436255325415330714331623146337"
+        }
+      },
+      "generated": ")\n\n\n[20/09/2014, 8:25:50 AM] Remy: I like using them when I'm working with Windows",
+      "magic_tower": [
+        "20 07 24 03 05 22 ",
+        "11 16 24 03 17 10 ",
+        "02 25 03 24 02 25 ",
+        "13 14 11 16 06 21 ",
+        "26 01 02 25 14 13 ",
+        "22 05 16 11 12 15 ",
+        "11 16 24 03 06 21 ",
+        "12 15 11 16 14 13 ",
+        "02 25 24 03 06 21 ",
+        "04 23 05 22 13 14 ",
+        "02 25 14 13 22 05 ",
+        "06 21 02 25 16 11 ",
+        "12 15 06 21 02 25 ",
+        "14 13 21 06 04 23 ",
+        "06 21 26 01 27 00 "
+      ],
+      "seed": "202608180",
+      "squished": "AMREMYILIKEUSINGTHEMWHENIMWORKINGWITHWINDOWS",
+      "tower": [
+        "AMR",
+        "EMY",
+        "ILI",
+        "KEV",
+        "SIN",
+        "GTH",
+        "EMV",
+        "HEN",
+        "IMV",
+        "ORK",
+        "ING",
+        "VIT",
+        "HVI",
+        "NDO",
+        "VSX"
+      ]
+    },
+    "model_fingerprint": "gpt2-base"
+  },
   "run_id": "sess-20260813-2154-dda37e8b",
   "source_repo": "IDUNA",
   "title": "changelog(IDUNA): feat(promptoverse): new cmd/promptoverse-thumbnails (system…"
