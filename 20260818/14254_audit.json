@@ -1,13 +1,48 @@
 {
   "agent_id": "00000003-0000-4000-8000-000000000001",
   "apple_type": "audit",
-  "archived_at": "2026-08-18T07:10:09Z",
+  "archived_at": "2026-08-18T07:13:31Z",
   "body": "\n## Cycle summary\n- Cycle: 11302\n- Duration: 0s\n- Outcome: idle — no queued tasks\n- Total completed tasks: 2\n- Triage findings this cycle: 0",
   "id": 14254,
   "metadata": {
     "consecutive_failures": 0,
     "cycle_number": 11302,
     "duration_s": 0,
+    "gpt2_fingerprint": {
+      "codze": {
+        "az": {
+          "bin": "100101000100000101110010111001111010101001110001010010011000000",
+          "dec": "5341473065211045056"
+        },
+        "word": "INTERUPTIONSBRIEFING",
+        "za": {
+          "bin": "1100101101010001000111111110010111001111011000010001110100011111",
+          "dec": "14650526134700154143"
+        }
+      },
+      "generated": "\n\nInterruptions\n\nBriefing\n\n1.1:\n\n1.1:\n\n1.2:\n\n1.4:\n\n1.6:\n\n1.9:\n\n1.10:\n\n1.11:\n\n1.12:\n\n1.13:\n\n1.14:\n\n1.15:\n\n1.17:\n\n1.18:\n\n1.19:",
+      "magic_tower": [
+        "02 25 14 13 16 11 ",
+        "11 16 05 22 06 21 ",
+        "25 02 16 11 02 25 ",
+        "04 23 14 13 26 01 ",
+        "10 17 05 22 02 25 ",
+        "11 16 01 26 02 25 ",
+        "14 13 22 05 27 00 "
+      ],
+      "seed": "2026081829",
+      "squished": "INTERUPTIONSBRIEFING",
+      "tower": [
+        "INT",
+        "ERV",
+        "PTI",
+        "ONS",
+        "BRI",
+        "EFI",
+        "NGX"
+      ]
+    },
+    "model_fingerprint": "gpt2-base",
     "task_id": "",
     "tokens_used": 0,
     "triage_findings": 0
