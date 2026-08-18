@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-18T00:42:16Z",
+  "generated_at": "2026-08-18T00:42:52Z",
   "repo": "APPLES",
-  "count": 3551,
+  "count": 3552,
   "apples": [
     {
       "id": 10525,
@@ -28410,6 +28410,14 @@
       "source_repo": "CLI",
       "date": "20260818",
       "archived_at": "2026-08-18T00:42:16Z"
+    },
+    {
+      "id": 14086,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time, continuing the governance/access-control thread for future account-gated …",
+      "source_repo": "CLI",
+      "date": "20260818",
+      "archived_at": "2026-08-18T00:42:52Z"
     }
   ]
 }
