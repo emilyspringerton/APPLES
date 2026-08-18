@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-18T04:31:11Z",
+  "generated_at": "2026-08-18T04:36:16Z",
   "repo": "APPLES",
-  "count": 3660,
+  "count": 3661,
   "apples": [
     {
       "id": 10525,
@@ -29282,6 +29282,14 @@
       "source_repo": "CLI",
       "date": "20260818",
       "archived_at": "2026-08-18T04:31:11Z"
+    },
+    {
+      "id": 14195,
+      "type": "completion",
+      "title": "changelog(IDUNA): Fixed the real live-reload bug: subject/style pages never h…",
+      "source_repo": "IDUNA",
+      "date": "20260818",
+      "archived_at": "2026-08-18T04:36:16Z"
     }
   ]
 }
