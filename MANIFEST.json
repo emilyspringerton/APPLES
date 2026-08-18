@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-18T01:35:32Z",
+  "generated_at": "2026-08-18T01:35:48Z",
   "repo": "APPLES",
-  "count": 3608,
+  "count": 3609,
   "apples": [
     {
       "id": 10525,
@@ -28866,6 +28866,14 @@
       "source_repo": "CLI",
       "date": "20260818",
       "archived_at": "2026-08-18T01:35:32Z"
+    },
+    {
+      "id": 14143,
+      "type": "completion",
+      "title": "changelog(emily.cli): --tag forced add now jumps to the front of the queue (not j…",
+      "source_repo": "emily.cli",
+      "date": "20260818",
+      "archived_at": "2026-08-18T01:35:48Z"
     }
   ]
 }
