@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-18T04:39:59Z",
+  "generated_at": "2026-08-18T04:40:01Z",
   "repo": "APPLES",
-  "count": 3668,
+  "count": 3669,
   "apples": [
     {
       "id": 10525,
@@ -29346,6 +29346,14 @@
       "source_repo": "IDUNA",
       "date": "20260818",
       "archived_at": "2026-08-18T04:39:59Z"
+    },
+    {
+      "id": 14203,
+      "type": "completion",
+      "title": "Sign-in funnel now visible even before GOOGLE_CLIENT_ID is configured",
+      "source_repo": "IDUNA",
+      "date": "20260818",
+      "archived_at": "2026-08-18T04:40:01Z"
     }
   ]
 }
