@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-19T02:08:40Z",
+  "body": "Lore-first into TYLER #120-123, then sprite+stats+real neutral-special moves in BRAWLPIT -- discovered BTN_SPECIAL already had a working per-character-branchable framework (up-B/side-special/neutral-special), just needed new branches. Medusa=directional stun, Raccoon=pure-mobility dash, Second Tree=real AOE knockback, Uncrowned=defensive shield buff. Live-verified via headless test harness (13/13 checks), caught+fixed a real SHIELD_MAX scale bug along the way. Commit BRAWLPIT 8bb2119.",
+  "id": 14368,
+  "metadata": null,
+  "run_id": "sess-20260813-2154-dda37e8b",
+  "source_repo": "BRAWLPIT",
+  "title": "4 new fighters (Medusa/Raccoon/Second Tree/Uncrowned) with real unique specials"
+}
