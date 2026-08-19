@@ -1,10 +1,76 @@
 {
   "agent_id": "00000003-0000-4000-8000-000000000001",
   "apple_type": "completion",
-  "archived_at": "2026-08-19T00:37:12Z",
+  "archived_at": "2026-08-19T00:39:25Z",
   "body": "Scoped the founder's 3-tier rendering-quality roadmap against real apps/arena state; registered in golden-docs-index. Commit GoblinFoxDragon 01a4a17.",
   "id": 14352,
-  "metadata": null,
+  "metadata": {
+    "gpt2_fingerprint": {
+      "codze": {
+        "az": {
+          "bin": "11011001111011000111010111010101110001100011110010010000101011110000001010001110101000110111000000010110111001011001111011010110001101010111000100010010110011111110000010111111011100110010001010011001010000010011",
+          "dec": "5603037454734730340204034010334741053461426471474520543432643603"
+        },
+        "word": "VOILATHENEXTUPDATEISQUITEABITDEPERANDMORECOMPREHENSIVELETSGETOIT",
+        "za": {
+          "bin": "10100111110111110100010111010010000111110110101100110100100010010110000101110011101010000001001001111011010110010100011110011000111110101010000011010001010000011011010100101001000011100101100011011110101110011100",
+          "dec": "4316162545265261651715165101665250146530573520525471456567356316"
+        }
+      },
+      "generated": "\n\nVoila! The next update is quite a bit deeper and more comprehensive. Let's get to it!",
+      "magic_tower": [
+        "06 21 04 23 02 25 ",
+        "03 24 20 07 16 11 ",
+        "12 15 11 16 14 13 ",
+        "11 16 27 00 16 11 ",
+        "06 21 25 02 21 06 ",
+        "20 07 16 11 11 16 ",
+        "02 25 26 01 15 12 ",
+        "06 21 02 25 16 11 ",
+        "11 16 20 07 10 17 ",
+        "02 25 16 11 21 06 ",
+        "11 16 25 02 11 16 ",
+        "05 22 20 07 14 13 ",
+        "21 06 24 03 04 23 ",
+        "05 22 11 16 00 27 ",
+        "04 23 24 03 25 02 ",
+        "05 22 11 16 12 15 ",
+        "11 16 14 13 26 01 ",
+        "02 25 06 21 11 16 ",
+        "03 24 11 16 16 11 ",
+        "26 01 22 05 11 16 ",
+        "16 11 04 23 02 25 ",
+        "16 11 27 00 27 00 "
+      ],
+      "seed": "202608191",
+      "squished": "VOILATHENEXTUPDATEISQUITEABITDEPERANDMORECOMPREHENSIVELETSGETOIT",
+      "tower": [
+        "VOI",
+        "LAT",
+        "HEN",
+        "EXT",
+        "VPD",
+        "ATE",
+        "ISQ",
+        "VIT",
+        "EAB",
+        "ITD",
+        "EPE",
+        "RAN",
+        "DMO",
+        "REC",
+        "OMP",
+        "REH",
+        "ENS",
+        "IVE",
+        "LET",
+        "SGE",
+        "TOI",
+        "TXX"
+      ]
+    },
+    "model_fingerprint": "gpt2-base"
+  },
   "run_id": "sess-20260813-2154-dda37e8b",
   "source_repo": "GoblinFoxDragon",
   "title": "Rendering quality northstar (cel-shading -\u003e Source -\u003e Unreal tiers)"
