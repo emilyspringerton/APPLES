@@ -1,13 +1,64 @@
 {
   "agent_id": "00000003-0000-4000-8000-000000000001",
   "apple_type": "audit",
-  "archived_at": "2026-08-19T14:10:17Z",
+  "archived_at": "2026-08-19T14:14:18Z",
   "body": "\n## Cycle summary\n- Cycle: 11426\n- Duration: 0s\n- Outcome: idle — no queued tasks\n- Total completed tasks: 2\n- Triage findings this cycle: 0",
   "id": 14420,
   "metadata": {
     "consecutive_failures": 0,
     "cycle_number": 11426,
     "duration_s": 0,
+    "gpt2_fingerprint": {
+      "codze": {
+        "az": {
+          "bin": "10111011100001110001000111000011100001000101001011111111000000110000111111001111110001011101000111100000110101110110011110110010001011001001001100101001111",
+          "dec": "33456044443302220334560444433022237757757757775"
+        },
+        "word": "IDLENOQUEUEDTASKSIDLENOQUEUEDTASKSDHXFXXFXXFXXXF",
+        "za": {
+          "bin": "1110100101100000011011010101001001111111100110010100111011001010101100111011110010110100110110010110110110011011111110010000001111010010010110110011010110000",
+          "dec": "166543155556617771665431555566177762242242242224"
+        }
+      },
+      "generated": "\n\n— idle (no queued tasks) 11427 — idle (no queued tasks)\n\n4.18.5.11.2.2.2.1.2.8.1.7.1.1.4.1.1.1.2.5.1.2.2-D4-H5-3_X_F4X_X_F4X_X_F4X_X_X_F4",
+      "magic_tower": [
+        "02 25 21 06 03 24 ",
+        "11 16 14 13 04 23 ",
+        "15 12 06 21 11 16 ",
+        "06 21 11 16 21 06 ",
+        "16 11 20 07 26 01 ",
+        "13 14 26 01 02 25 ",
+        "21 06 03 24 11 16 ",
+        "14 13 04 23 15 12 ",
+        "06 21 11 16 06 21 ",
+        "11 16 21 06 16 11 ",
+        "20 07 26 01 13 14 ",
+        "26 01 21 06 12 15 ",
+        "27 00 01 26 27 00 ",
+        "01 26 27 00 01 26 ",
+        "27 00 01 26 27 00 "
+      ],
+      "seed": "2026081958",
+      "squished": "IDLENOQUEUEDTASKSIDLENOQUEUEDTASKSDHXFXXFXXFXXXF",
+      "tower": [
+        "IDL",
+        "ENO",
+        "QVE",
+        "VED",
+        "TAS",
+        "KSI",
+        "DLE",
+        "NOQ",
+        "VEV",
+        "EDT",
+        "ASK",
+        "SDH",
+        "XFX",
+        "FXF",
+        "XFX"
+      ]
+    },
+    "model_fingerprint": "gpt2-base",
     "task_id": "",
     "tokens_used": 0,
     "triage_findings": 0
