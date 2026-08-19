@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-19T01:46:36Z",
+  "generated_at": "2026-08-19T01:46:37Z",
   "repo": "APPLES",
-  "count": 3828,
+  "count": 3829,
   "apples": [
     {
       "id": 10525,
@@ -30626,6 +30626,14 @@
       "source_repo": "REDGARDEN",
       "date": "20260819",
       "archived_at": "2026-08-19T01:46:36Z"
+    },
+    {
+      "id": 14363,
+      "type": "completion",
+      "title": "changelog(REDGARDEN): Added procedural minimap to apps/arena (top-right circular …",
+      "source_repo": "REDGARDEN",
+      "date": "20260819",
+      "archived_at": "2026-08-19T01:46:37Z"
     }
   ]
 }
