@@ -1,13 +1,64 @@
 {
   "agent_id": "00000003-0000-4000-8000-000000000001",
   "apple_type": "audit",
-  "archived_at": "2026-08-19T01:25:12Z",
+  "archived_at": "2026-08-19T01:28:30Z",
   "body": "\n## Cycle summary\n- Cycle: 11375\n- Duration: 0s\n- Outcome: idle — no queued tasks\n- Total completed tasks: 2\n- Triage findings this cycle: 0",
   "id": 14358,
   "metadata": {
     "consecutive_failures": 0,
     "cycle_number": 11375,
     "duration_s": 0,
+    "gpt2_fingerprint": {
+      "codze": {
+        "az": {
+          "bin": "1001100101100001011100000001011110101100110001110011001111100000100011000011010001101011111111001001110010101100110001000001110110011000101110",
+          "dec": "3340334033403340334033403340334033403340334"
+        },
+        "word": "IDLEIDLEIDLEIDLEIDLEIDLEIDLEIDLEIDLEIDLEIDLE",
+        "za": {
+          "bin": "101111110010011011011000100010001100111101111000010000011111111001011011111100111110101011111100100010110100111000011101000010001000011010010001",
+          "dec": "16651665166516651665166516651665166516651665"
+        }
+      },
+      "generated": " 11.0.0.0 — idle 11.0.0.1 — idle 11.0.0.3 — idle 11.0.0.4 — idle 11.0.0.5 — idle 11.0.0.6 — idle 11.0.0.7 — idle 11.0.0.8 — idle 11.0.0.9 — idle 11.0.0.10 — idle 11.0.0.11 — idle 11",
+      "magic_tower": [
+        "02 25 21 06 03 24 ",
+        "11 16 02 25 21 06 ",
+        "03 24 11 16 02 25 ",
+        "21 06 03 24 11 16 ",
+        "02 25 21 06 03 24 ",
+        "11 16 02 25 21 06 ",
+        "03 24 11 16 02 25 ",
+        "21 06 03 24 11 16 ",
+        "02 25 21 06 03 24 ",
+        "11 16 02 25 21 06 ",
+        "03 24 11 16 02 25 ",
+        "21 06 03 24 11 16 ",
+        "02 25 21 06 03 24 ",
+        "11 16 02 25 21 06 ",
+        "03 24 11 16 27 00 "
+      ],
+      "seed": "202608195",
+      "squished": "IDLEIDLEIDLEIDLEIDLEIDLEIDLEIDLEIDLEIDLEIDLE",
+      "tower": [
+        "IDL",
+        "EID",
+        "LEI",
+        "DLE",
+        "IDL",
+        "EID",
+        "LEI",
+        "DLE",
+        "IDL",
+        "EID",
+        "LEI",
+        "DLE",
+        "IDL",
+        "EID",
+        "LEX"
+      ]
+    },
+    "model_fingerprint": "gpt2-base",
     "task_id": "",
     "tokens_used": 0,
     "triage_findings": 0
