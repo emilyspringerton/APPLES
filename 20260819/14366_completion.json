@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-19T01:59:41Z",
+  "body": "Rift Hound/Shambler Trooper/Gore Brute got real distinct abilities (dash, Frag Toss splash, Ground Slam splash) built on SHANKPIT's own existing combat mechanics, not invented systems. Added Storm Caller (real storm-charge sniper burst, previously reachable-but-unconsumed by any non-sniper weapon -- a real latent gap fixed) and Bombardier (real splash-AOE missile spammer) for genuine roster variety. Live-verified via a headless test harness exercising the real story_ai_tick loop (15/15 checks). Commit SHANKPIT 656106b.",
+  "id": 14366,
+  "metadata": null,
+  "run_id": "sess-20260813-2154-dda37e8b",
+  "source_repo": "SHANKPIT",
+  "title": "Real abilities for story-mode enemies + 2 new threat roles"
+}
