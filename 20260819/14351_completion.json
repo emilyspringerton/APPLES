@@ -1,10 +1,44 @@
 {
   "agent_id": "00000003-0000-4000-8000-000000000001",
   "apple_type": "completion",
-  "archived_at": "2026-08-19T00:37:12Z",
+  "archived_at": "2026-08-19T00:39:39Z",
   "body": "Outline (inverted-hull) + quantized 3-band diffuse shading, matching the founder-named 'gold standard' Prompt-o-verse Abraxas FFXI reference image. Live-verified via Xvfb+replay screenshot. Commit REDGARDEN 38d8c60.",
   "id": 14351,
-  "metadata": null,
+  "metadata": {
+    "gpt2_fingerprint": {
+      "codze": {
+        "az": {
+          "bin": "110111100100100000101000011110000011100010001111101100001101100001010110110011111010110100011100011",
+          "dec": "550343247613561062555555555555"
+        },
+        "word": "VVADEDSUPORTFORIOSVVVVVVVVVVVV",
+        "za": {
+          "bin": "101100100110001000111100111001001010010110100011011000010011000111001010000001111001001011100011100",
+          "dec": "441656752306430137444444444444"
+        }
+      },
+      "generated": " - v1.7.4 - v1.7.3 Added support for iOS 10.3 - v1.7.2 - v1.7.1 - v1.7.0 - v1.6.2 - v1.6.1 - v1.6.0 - v1.5.0 - v1.4.0 - v1.3.6 - v1.3.3 - v1.2.6 - v",
+      "magic_tower": [
+        "06 21 20 07 21 06 ",
+        "11 16 21 06 26 01 ",
+        "06 21 25 02 04 23 ",
+        "05 22 16 11 01 26 ",
+        "04 23 05 22 02 25 ",
+        "04 23 26 01 06 21 "
+      ],
+      "seed": "202608191",
+      "squished": "VVADEDSUPORTFORIOSVVVVVVVVVVVV",
+      "tower": [
+        "VAD",
+        "EDS",
+        "VPO",
+        "RTF",
+        "ORI",
+        "OSV"
+      ]
+    },
+    "model_fingerprint": "gpt2-base"
+  },
   "run_id": "sess-20260813-2154-dda37e8b",
   "source_repo": "REDGARDEN",
   "title": "Cel-shading pass for apps/arena (DragonsNShit Battlegrounds client)"
