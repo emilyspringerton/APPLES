@@ -1,13 +1,54 @@
 {
   "agent_id": "00000003-0000-4000-8000-000000000001",
   "apple_type": "audit",
-  "archived_at": "2026-08-19T04:52:18Z",
+  "archived_at": "2026-08-19T04:53:30Z",
   "body": "\n## Cycle summary\n- Cycle: 11389\n- Duration: 0s\n- Outcome: idle — no queued tasks\n- Total completed tasks: 2\n- Triage findings this cycle: 0",
   "id": 14383,
   "metadata": {
     "consecutive_failures": 0,
     "cycle_number": 11389,
     "duration_s": 0,
+    "gpt2_fingerprint": {
+      "codze": {
+        "az": {
+          "bin": "11101000101101101100100010001011111010101001110010101011000100111111001010100000110010000100",
+          "dec": "4501343364501343364501343364"
+        },
+        "word": "ENABLEDTOENABLEDTOENABLEDTOE",
+        "za": {
+          "bin": "100010111101110010111000110111110111100101100001000100111011111001111010110110010110101111011",
+          "dec": "5410656635410656635410656635"
+        }
+      },
+      "generated": "\n\n8.11.23 1.0.0 (1) (1) ENABLED to 0.6.5.6-1 (2) ENABLED to 0.6.5.6-1\n\n8.11.23 1.0.0 (1) (1) ENABLED to 0.6.5.6-1\n\n8.11.23 1.0.0 (1) (1) E",
+      "magic_tower": [
+        "11 16 14 13 20 07 ",
+        "10 17 03 24 11 16 ",
+        "21 06 16 11 04 23 ",
+        "11 16 14 13 20 07 ",
+        "10 17 03 24 11 16 ",
+        "21 06 16 11 04 23 ",
+        "11 16 14 13 20 07 ",
+        "10 17 03 24 11 16 ",
+        "21 06 16 11 04 23 ",
+        "11 16 27 00 27 00 "
+      ],
+      "seed": "2026081919",
+      "squished": "ENABLEDTOENABLEDTOENABLEDTOE",
+      "tower": [
+        "ENA",
+        "BLE",
+        "DTO",
+        "ENA",
+        "BLE",
+        "DTO",
+        "ENA",
+        "BLE",
+        "DTO",
+        "EXX"
+      ]
+    },
+    "model_fingerprint": "gpt2-base",
     "task_id": "",
     "tokens_used": 0,
     "triage_findings": 0
