@@ -1,13 +1,68 @@
 {
   "agent_id": "00000003-0000-4000-8000-000000000001",
   "apple_type": "audit",
-  "archived_at": "2026-08-19T22:41:45Z",
+  "archived_at": "2026-08-19T22:43:26Z",
   "body": "\n## Cycle summary\n- Cycle: 11460\n- Duration: 0s\n- Outcome: idle — no queued tasks\n- Total completed tasks: 2\n- Triage findings this cycle: 0",
   "id": 14454,
   "metadata": {
     "consecutive_failures": 0,
     "cycle_number": 11460,
     "duration_s": 0,
+    "gpt2_fingerprint": {
+      "codze": {
+        "az": {
+          "bin": "110111000010110101011011010011111111011100000110010010010001001100000000011011100000011010010000111011101111111010111011010011101101100101001001010100010100110110111",
+          "dec": "40223662641403433637460442034661042053572203260343"
+        },
+        "word": "MISCDOGSWEREADEDTOTHEGAMECATEGORIESANDNPCSALSOADED",
+        "za": {
+          "bin": "1000110110110101000011010000111011101010000000110010010101000110011010111011111111010100100001010010110100100111010010011001111110110100110010110011110000001100001000",
+          "dec": "51776337350516566362531557165330157146427716731656"
+        }
+      },
+      "generated": "\n\nMisc.\n\nDogs were added to the game.\n\nCategories and NPCs also added.",
+      "magic_tower": [
+        "24 03 02 25 26 01 ",
+        "00 27 21 06 04 23 ",
+        "22 05 26 01 06 21 ",
+        "11 16 05 22 11 16 ",
+        "20 07 21 06 11 16 ",
+        "21 06 16 11 04 23 ",
+        "16 11 12 15 11 16 ",
+        "22 05 20 07 24 03 ",
+        "11 16 00 27 20 07 ",
+        "16 11 11 16 22 05 ",
+        "04 23 05 22 02 25 ",
+        "11 16 26 01 20 07 ",
+        "14 13 21 06 14 13 ",
+        "25 02 00 27 26 01 ",
+        "20 07 03 24 26 01 ",
+        "04 23 20 07 21 06 ",
+        "11 16 21 06 27 00 "
+      ],
+      "seed": "2026081993",
+      "squished": "MISCDOGSWEREADEDTOTHEGAMECATEGORIESANDNPCSALSOADED",
+      "tower": [
+        "MIS",
+        "CDO",
+        "GSV",
+        "ERE",
+        "ADE",
+        "DTO",
+        "THE",
+        "GAM",
+        "ECA",
+        "TEG",
+        "ORI",
+        "ESA",
+        "NDN",
+        "PCS",
+        "ALS",
+        "OAD",
+        "EDX"
+      ]
+    },
+    "model_fingerprint": "gpt2-base",
     "task_id": "",
     "tokens_used": 0,
     "triage_findings": 0
