@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-19T01:46:21Z",
+  "generated_at": "2026-08-19T01:46:36Z",
   "repo": "APPLES",
-  "count": 3827,
+  "count": 3828,
   "apples": [
     {
       "id": 10525,
@@ -30618,6 +30618,14 @@
       "source_repo": "CLI",
       "date": "20260819",
       "archived_at": "2026-08-19T01:46:21Z"
+    },
+    {
+      "id": 14362,
+      "type": "completion",
+      "title": "Procedural minimap for apps/arena",
+      "source_repo": "REDGARDEN",
+      "date": "20260819",
+      "archived_at": "2026-08-19T01:46:36Z"
     }
   ]
 }
