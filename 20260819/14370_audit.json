@@ -1,13 +1,48 @@
 {
   "agent_id": "00000003-0000-4000-8000-000000000001",
   "apple_type": "audit",
-  "archived_at": "2026-08-19T02:10:11Z",
+  "archived_at": "2026-08-19T02:13:49Z",
   "body": "\n## Cycle summary\n- Cycle: 11378\n- Duration: 0s\n- Outcome: idle — no queued tasks\n- Total completed tasks: 2\n- Triage findings this cycle: 0",
   "id": 14370,
   "metadata": {
     "consecutive_failures": 0,
     "cycle_number": 11378,
     "duration_s": 0,
+    "gpt2_fingerprint": {
+      "codze": {
+        "az": {
+          "bin": "10110010010110011110111111111101001010011101001100100101000",
+          "dec": "401611465071434024"
+        },
+        "word": "AMAJORBUGFIXRELEASE",
+        "za": {
+          "bin": "1010011110101101010100101010101111000010101101100100110110111",
+          "dec": "1510300534120565175"
+        }
+      },
+      "generated": " 1.1.1.4 — A major bugfix release.",
+      "magic_tower": [
+        "20 07 24 03 20 07 ",
+        "23 04 04 23 05 22 ",
+        "10 17 06 21 22 05 ",
+        "01 26 02 25 27 00 ",
+        "05 22 11 16 03 24 ",
+        "11 16 20 07 26 01 ",
+        "11 16 27 00 27 00 "
+      ],
+      "seed": "202608198",
+      "squished": "AMAJORBUGFIXRELEASE",
+      "tower": [
+        "AMA",
+        "JOR",
+        "BVG",
+        "FIX",
+        "REL",
+        "EAS",
+        "EXX"
+      ]
+    },
+    "model_fingerprint": "gpt2-base",
     "task_id": "",
     "tokens_used": 0,
     "triage_findings": 0
