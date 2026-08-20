@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-20T04:23:08Z",
+  "body": "Added a send-only SMTP App Password path (GMAIL_SMTP_ADDRESS/GMAIL_SMTP_PASSWORD, real net/smtp + STARTTLS, no third-party dependency) to emily-agent's Gmail integration as a fallback for the existing OAuth2 refresh-token flow, which needs a one-time interactive browser consent flow the founder would have to complete manually. buildGmailClient() tries the real API first (enables read+send), falls back to SMTP (send-only) if only that's configured. Credentials go through the EXISTING generic 'emily key set' command, no new CLI subcommand needed. go test ./... (emily-agent module) passes clean. Explicit founder privacy boundary honored throughout: no email content gets logged into Apples/CHANGELOG/BACKLOG by this or any related code path.",
+  "id": 14575,
+  "metadata": null,
+  "run_id": "sess-20260813-2154-dda37e8b",
+  "source_repo": "EMILY",
+  "title": "Gmail integration — SMTP App Password fallback path added"
+}

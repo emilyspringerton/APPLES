@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T04:21:18Z",
+  "generated_at": "2026-08-20T04:23:08Z",
   "repo": "APPLES",
-  "count": 4040,
+  "count": 4041,
   "apples": [
     {
       "id": 10525,
@@ -32322,6 +32322,14 @@
       "source_repo": "CLI",
       "date": "20260820",
       "archived_at": "2026-08-20T04:21:18Z"
+    },
+    {
+      "id": 14575,
+      "type": "completion",
+      "title": "Gmail integration — SMTP App Password fallback path added",
+      "source_repo": "EMILY",
+      "date": "20260820",
+      "archived_at": "2026-08-20T04:23:08Z"
     }
   ]
 }
