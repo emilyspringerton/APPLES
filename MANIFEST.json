@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T20:57:56Z",
+  "generated_at": "2026-08-20T20:59:09Z",
   "repo": "APPLES",
-  "count": 4556,
+  "count": 4557,
   "apples": [
     {
       "id": 10525,
@@ -36450,6 +36450,14 @@
       "source_repo": "PARENA",
       "date": "20260820",
       "archived_at": "2026-08-20T20:57:56Z"
+    },
+    {
+      "id": 15091,
+      "type": "signal_observation",
+      "title": "[INFO] GitHub API 恢復正常,補上剛才因 rate limit 延遲的 CI 確認: PARENA commit 1b2805…",
+      "source_repo": "CLI",
+      "date": "20260820",
+      "archived_at": "2026-08-20T20:59:09Z"
     }
   ]
 }
