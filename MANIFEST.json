@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T11:34:03Z",
+  "generated_at": "2026-08-20T11:34:05Z",
   "repo": "APPLES",
-  "count": 4213,
+  "count": 4214,
   "apples": [
     {
       "id": 10525,
@@ -33706,6 +33706,14 @@
       "source_repo": "SHANKPIT",
       "date": "20260820",
       "archived_at": "2026-08-20T11:34:03Z"
+    },
+    {
+      "id": 14748,
+      "type": "completion",
+      "title": "Windows CI build fixed — stale build command after GOLDENBAND integration",
+      "source_repo": "SHANKPIT",
+      "date": "20260820",
+      "archived_at": "2026-08-20T11:34:05Z"
     }
   ]
 }
