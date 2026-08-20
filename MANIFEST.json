@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T19:58:14Z",
+  "generated_at": "2026-08-20T20:00:36Z",
   "repo": "APPLES",
-  "count": 4475,
+  "count": 4476,
   "apples": [
     {
       "id": 10525,
@@ -35802,6 +35802,14 @@
       "source_repo": "CLI",
       "date": "20260820",
       "archived_at": "2026-08-20T19:58:14Z"
+    },
+    {
+      "id": 15010,
+      "type": "signal_observation",
+      "title": "[INFO] Founder確認優先權: pentest stdlib 優先於 linked list 和 blog renderer 升級。開�…",
+      "source_repo": "CLI",
+      "date": "20260820",
+      "archived_at": "2026-08-20T20:00:36Z"
     }
   ]
 }
