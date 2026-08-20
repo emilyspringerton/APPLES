@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T10:46:37Z",
+  "generated_at": "2026-08-20T10:47:15Z",
   "repo": "APPLES",
-  "count": 4177,
+  "count": 4178,
   "apples": [
     {
       "id": 10525,
@@ -33418,6 +33418,14 @@
       "source_repo": "CLI",
       "date": "20260820",
       "archived_at": "2026-08-20T10:46:37Z"
+    },
+    {
+      "id": 14712,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time, real bug report on the just-shipped GFD web work: 'web GFD is a blank scr…",
+      "source_repo": "CLI",
+      "date": "20260820",
+      "archived_at": "2026-08-20T10:47:15Z"
     }
   ]
 }
