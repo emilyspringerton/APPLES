@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-20T23:09:38Z",
+  "body": "大批次真實增量,逐項驗證:(1) stdlib/yoko.prn(原生 Metasploit 型別系統,commit 4d97ec3)。(2) 真實抓到並修好一次 Bazel CI 中斷(has_region_marker 修復的連帶效應,editor_plugin_host_stubs.h 簽名對不上,commit ae0d9a5,遠端 CI 已確認 completed success)。(3) firefly.prn 持續逼近能編譯:true/false 字面值、非零參數 typed Fn、字串字面值 emit_expr 支援(含真正 C escape)、\u0026(ComplexType) 參考參數、skip() 的 current-arena 修成明確 dest 參數(commit 215eaae)。(4) compress/lz4.prn 應創辦人明確要求從 FFI 改寫成純 PARENA,新增 bitwise/mod 運算子,commit e22b52c;順手 commit 了先前未進版控的 pitviper/protocol.prn。(5) 根目錄 + PITVIPER 的 CLAUDE.md 補上 LZ4 全 monorepo 預設壓縮慣例(誠實記錄:並非全部 repo 都補齊)。tests/test_emit.c 121→135,每一步都用真正 gcc -Wall -Wextra -pedantic -Werror + bazel build + bazel test --config=asan 驗證過,不只信 parena build 自己的 exit code。\n\n⚓ ☃",
+  "id": 15121,
+  "metadata": null,
+  "run_id": "sess-20260820-0649-a3f19d93",
+  "source_repo": "PARENA",
+  "title": "YOKO + CI 中斷修復 + ladybug 持續推進 + LZ4 純 PARENA 化 + bitwise 運算子"
+}
