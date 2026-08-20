@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-20T20:23:16Z",
+  "body": "CHANGELOG updated in PARENA: 新增 STDLIB.md 缺口盤點文件:mapbuilder/tools.prn + world.prn 真實測試後找出的 8 個 VS0 編譯器缺口(多欄位 defenum payload、map 字面量 struct 建構、命名空間化 variant 建構、Vec 操作、參考型別、tuple 型別、set!、F64),規劃性質,尚未實作 (sess-20260820-0649-a3f19d93)\n\n⚓ ☃",
+  "id": 15047,
+  "metadata": null,
+  "run_id": "sess-20260820-0649-a3f19d93",
+  "source_repo": "PARENA",
+  "title": "changelog(PARENA): 新增 STDLIB.md 缺口盤點文件:mapbuilder/tools.prn + world.prn 真實測試後找…"
+}

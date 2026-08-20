@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T20:22:51Z",
+  "generated_at": "2026-08-20T20:23:16Z",
   "repo": "APPLES",
-  "count": 4512,
+  "count": 4513,
   "apples": [
     {
       "id": 10525,
@@ -36098,6 +36098,14 @@
       "source_repo": "CLI",
       "date": "20260820",
       "archived_at": "2026-08-20T20:22:51Z"
+    },
+    {
+      "id": 15047,
+      "type": "completion",
+      "title": "changelog(PARENA): 新增 STDLIB.md 缺口盤點文件:mapbuilder/tools.prn + world.prn 真實測試後找…",
+      "source_repo": "PARENA",
+      "date": "20260820",
+      "archived_at": "2026-08-20T20:23:16Z"
     }
   ]
 }
