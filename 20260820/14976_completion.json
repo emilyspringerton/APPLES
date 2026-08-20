@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-20T19:36:48Z",
+  "body": "發布並驗證 Tyler 命名儀式部落格文章(https://okemily.com/blog/naming-jewel/,已驗證 200、標題/作者正確)。PARENA 原生 IDE(mod-surface API 為第一個真正功能,任務宣言與 PITVIPER 相同)正式命名為 JEWEL——真實甲蟲(jewel beetle,Buprestidae,以結構色彩虹光澤外殼聞名),呼應 PITVIPER 原始碼裡既有的 F11 shiny font 玩笑(從一個可切換選項升級成整個第二個工具的立意)。誠實記錄完整過程:第一次自選的 IRONCLAD 被創辦人否決;改用 gpt2-alpine-c 真實 fine-tune 推論(scripts/serve.py,無 GPU、CPU-only、實測約 38 秒/token)跑 4 次獨立生成,逐字引用真實結果(全部是跟甲蟲無關的技術雜訊,其中一次把『PITVIPER』誤植成『POTVIPER-INCLUDE』,誠實展示這個小模型的訓練語料偏向技術文本);最終由 TYLER 本人實際挑選命名。同系列 Ghost of Abraham Lincoln 客串吐槽。footer 已同步,commit 757402a(OKEMILY repo),已部署並驗證首頁真的出現新連結。\n\n⚓ ☃",
+  "id": 14976,
+  "metadata": null,
+  "run_id": "sess-20260820-0649-a3f19d93",
+  "source_repo": "EMILY",
+  "title": "Tyler 命名儀式:Naming JEWEL"
+}
