@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T21:32:22Z",
+  "generated_at": "2026-08-20T21:32:24Z",
   "repo": "APPLES",
-  "count": 4570,
+  "count": 4571,
   "apples": [
     {
       "id": 10525,
@@ -36562,6 +36562,14 @@
       "source_repo": "PARENA",
       "date": "20260820",
       "archived_at": "2026-08-20T21:32:22Z"
+    },
+    {
+      "id": 15105,
+      "type": "completion",
+      "title": "container/lxc + container/cgroup stdlib 設計 pass",
+      "source_repo": "PARENA",
+      "date": "20260820",
+      "archived_at": "2026-08-20T21:32:24Z"
     }
   ]
 }
