@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T10:43:43Z",
+  "generated_at": "2026-08-20T10:43:52Z",
   "repo": "APPLES",
-  "count": 4167,
+  "count": 4168,
   "apples": [
     {
       "id": 10525,
@@ -33338,6 +33338,14 @@
       "source_repo": "CLI",
       "date": "20260820",
       "archived_at": "2026-08-20T10:43:43Z"
+    },
+    {
+      "id": 14702,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: 'in the ai' -- no clear standalone context (possibly a fragment of the pi…",
+      "source_repo": "CLI",
+      "date": "20260820",
+      "archived_at": "2026-08-20T10:43:52Z"
     }
   ]
 }
