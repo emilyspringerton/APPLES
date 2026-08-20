@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T03:47:06Z",
+  "generated_at": "2026-08-20T03:49:43Z",
   "repo": "APPLES",
-  "count": 3985,
+  "count": 3986,
   "apples": [
     {
       "id": 10525,
@@ -31882,6 +31882,14 @@
       "source_repo": "EMILY",
       "date": "20260820",
       "archived_at": "2026-08-20T03:47:06Z"
+    },
+    {
+      "id": 14520,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: confirmed gpt2 model calls usually take ~4 minutes (matches the documente…",
+      "source_repo": "CLI",
+      "date": "20260820",
+      "archived_at": "2026-08-20T03:49:43Z"
     }
   ]
 }
