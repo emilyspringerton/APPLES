@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T14:43:39Z",
+  "generated_at": "2026-08-20T14:43:41Z",
   "repo": "APPLES",
-  "count": 4293,
+  "count": 4294,
   "apples": [
     {
       "id": 10525,
@@ -34346,6 +34346,14 @@
       "source_repo": "PARENA",
       "date": "20260820",
       "archived_at": "2026-08-20T14:43:39Z"
+    },
+    {
+      "id": 14828,
+      "type": "completion",
+      "title": "pentest/* 工具集 + idvault/pitviper/expand + 完整依賴關係圖重整",
+      "source_repo": "PARENA",
+      "date": "20260820",
+      "archived_at": "2026-08-20T14:43:41Z"
     }
   ]
 }
