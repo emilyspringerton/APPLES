@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T11:52:25Z",
+  "generated_at": "2026-08-20T11:52:27Z",
   "repo": "APPLES",
-  "count": 4222,
+  "count": 4223,
   "apples": [
     {
       "id": 10525,
@@ -33778,6 +33778,14 @@
       "source_repo": "PARENA",
       "date": "20260820",
       "archived_at": "2026-08-20T11:52:25Z"
+    },
+    {
+      "id": 14757,
+      "type": "completion",
+      "title": "Bazel build system + pandas/gpt2-alpine-c-grounded stdlib extensions",
+      "source_repo": "PARENA",
+      "date": "20260820",
+      "archived_at": "2026-08-20T11:52:27Z"
     }
   ]
 }
