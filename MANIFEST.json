@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T09:55:29Z",
+  "generated_at": "2026-08-20T09:55:52Z",
   "repo": "APPLES",
-  "count": 4124,
+  "count": 4125,
   "apples": [
     {
       "id": 10525,
@@ -32994,6 +32994,14 @@
       "source_repo": "CLI",
       "date": "20260820",
       "archived_at": "2026-08-20T09:55:29Z"
+    },
+    {
+      "id": 14659,
+      "type": "signal_observation",
+      "title": "[INFO] Four Kings investigation complete (Explore agent, thorough, file:line-verified). VERDICT: re…",
+      "source_repo": "CLI",
+      "date": "20260820",
+      "archived_at": "2026-08-20T09:55:52Z"
     }
   ]
 }
