@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-20T03:14:19Z",
+  "body": "Faithful port of internal/posture/machine.go's pure decision logic (6 states, real transition table, GAME toggle, all 13 real capabilities + their per-posture overrides) into a Ravenscar-profile protected object. Honest status: UNVERIFIED, no GNAT toolchain existed in this monorepo before this session and this sandbox has no passwordless sudo -- queued as sudo-queue/17-install-gnat.sh. A complete selftest (posture_selftest.adb) is ready to run the moment the toolchain exists. Commit EmilyOS 4bb7a85.",
+  "id": 14480,
+  "metadata": null,
+  "run_id": "sess-20260813-2154-dda37e8b",
+  "source_repo": "EmilyOS",
+  "title": "Ravenscar Ada port of the posture state machine (module, unverified)"
+}

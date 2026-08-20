@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T03:12:38Z",
+  "generated_at": "2026-08-20T03:14:20Z",
   "repo": "APPLES",
-  "count": 3945,
+  "count": 3946,
   "apples": [
     {
       "id": 10525,
@@ -31562,6 +31562,14 @@
       "source_repo": "CLI",
       "date": "20260820",
       "archived_at": "2026-08-20T03:12:38Z"
+    },
+    {
+      "id": 14480,
+      "type": "completion",
+      "title": "Ravenscar Ada port of the posture state machine (module, unverified)",
+      "source_repo": "EmilyOS",
+      "date": "20260820",
+      "archived_at": "2026-08-20T03:14:20Z"
     }
   ]
 }
