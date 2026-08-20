@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T20:31:32Z",
+  "generated_at": "2026-08-20T20:32:27Z",
   "repo": "APPLES",
-  "count": 4526,
+  "count": 4527,
   "apples": [
     {
       "id": 10525,
@@ -36210,6 +36210,14 @@
       "source_repo": "CLI",
       "date": "20260820",
       "archived_at": "2026-08-20T20:31:32Z"
+    },
+    {
+      "id": 15061,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time,新需求: 「build data science utilks into PARENA cli」——要求把�…",
+      "source_repo": "CLI",
+      "date": "20260820",
+      "archived_at": "2026-08-20T20:32:27Z"
     }
   ]
 }
