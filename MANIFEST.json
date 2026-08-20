@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T11:34:48Z",
+  "generated_at": "2026-08-20T11:42:13Z",
   "repo": "APPLES",
-  "count": 4215,
+  "count": 4216,
   "apples": [
     {
       "id": 10525,
@@ -33722,6 +33722,14 @@
       "source_repo": "CLI",
       "date": "20260820",
       "archived_at": "2026-08-20T11:34:48Z"
+    },
+    {
+      "id": 14750,
+      "type": "signal_observation",
+      "title": "[INFO] SHANKPIT CI STILL shows failure on the fix commit (3506e55) at the same 'Build Windows Clien…",
+      "source_repo": "CLI",
+      "date": "20260820",
+      "archived_at": "2026-08-20T11:42:13Z"
     }
   ]
 }
