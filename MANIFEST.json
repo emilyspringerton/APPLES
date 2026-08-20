@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T20:25:26Z",
+  "generated_at": "2026-08-20T20:27:15Z",
   "repo": "APPLES",
-  "count": 4519,
+  "count": 4520,
   "apples": [
     {
       "id": 10525,
@@ -36154,6 +36154,14 @@
       "source_repo": "CLI",
       "date": "20260820",
       "archived_at": "2026-08-20T20:25:26Z"
+    },
+    {
+      "id": 15054,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time,新基礎設施需求: 「bring BAZEL as the build system for all projects…",
+      "source_repo": "CLI",
+      "date": "20260820",
+      "archived_at": "2026-08-20T20:27:15Z"
     }
   ]
 }
