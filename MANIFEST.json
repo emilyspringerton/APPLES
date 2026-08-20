@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T07:05:01Z",
+  "generated_at": "2026-08-20T07:05:05Z",
   "repo": "APPLES",
-  "count": 4088,
+  "count": 4089,
   "apples": [
     {
       "id": 10525,
@@ -32706,6 +32706,14 @@
       "source_repo": "CLI",
       "date": "20260820",
       "archived_at": "2026-08-20T07:05:01Z"
+    },
+    {
+      "id": 14623,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: 'from BRAWLPIT' -- clarifies Raccoon is an existing character from the BR…",
+      "source_repo": "CLI",
+      "date": "20260820",
+      "archived_at": "2026-08-20T07:05:05Z"
     }
   ]
 }
