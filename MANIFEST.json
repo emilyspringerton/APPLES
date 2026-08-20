@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T03:54:25Z",
+  "generated_at": "2026-08-20T03:54:30Z",
   "repo": "APPLES",
-  "count": 3994,
+  "count": 3995,
   "apples": [
     {
       "id": 10525,
@@ -31954,6 +31954,14 @@
       "source_repo": "CLI",
       "date": "20260820",
       "archived_at": "2026-08-20T03:54:25Z"
+    },
+    {
+      "id": 14529,
+      "type": "completion",
+      "title": "Mesh network research doc + CLAUDE.md refresh",
+      "source_repo": "CarePyre",
+      "date": "20260820",
+      "archived_at": "2026-08-20T03:54:30Z"
     }
   ]
 }

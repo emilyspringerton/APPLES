@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-20T03:54:30Z",
+  "body": "Added docs/MESH_NETWORK_RESEARCH.md answering the founder's real question (SMS/voice interop when off-mesh) with independent technical research grounded in real precedent (Detroit Community Technology Project's Equitable Internet Initiative, ~30mi from Pontiac) since the specific Gemini Flash-authored plan referenced isn't in this repo -- flagged that honestly rather than claiming to validate a document not available here. Also refreshed CLAUDE.md, which had gone stale (still said 'stub only, nothing built' despite a real shipped landing page + contact form + nginx prep already existing).",
+  "id": 14529,
+  "metadata": null,
+  "run_id": "sess-20260813-2154-dda37e8b",
+  "source_repo": "CarePyre",
+  "title": "Mesh network research doc + CLAUDE.md refresh"
+}
