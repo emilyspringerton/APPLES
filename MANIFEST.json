@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T06:53:47Z",
+  "generated_at": "2026-08-20T06:54:22Z",
   "repo": "APPLES",
-  "count": 4069,
+  "count": 4070,
   "apples": [
     {
       "id": 10525,
@@ -32554,6 +32554,14 @@
       "source_repo": "CLI",
       "date": "20260820",
       "archived_at": "2026-08-20T06:53:47Z"
+    },
+    {
+      "id": 14604,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time, resolving the Google Doc/Drive access ask: the account needs to log in wi…",
+      "source_repo": "CLI",
+      "date": "20260820",
+      "archived_at": "2026-08-20T06:54:22Z"
     }
   ]
 }
