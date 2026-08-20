@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T04:04:45Z",
+  "generated_at": "2026-08-20T04:05:14Z",
   "repo": "APPLES",
-  "count": 4016,
+  "count": 4017,
   "apples": [
     {
       "id": 10525,
@@ -32130,6 +32130,14 @@
       "source_repo": "CLI",
       "date": "20260820",
       "archived_at": "2026-08-20T04:04:45Z"
+    },
+    {
+      "id": 14551,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: naming resolved — 'osaka garage' (mentioned earlier re: PITVIPER/multiv…",
+      "source_repo": "CLI",
+      "date": "20260820",
+      "archived_at": "2026-08-20T04:05:14Z"
     }
   ]
 }
