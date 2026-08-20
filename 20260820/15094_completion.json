@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-20T21:06:42Z",
+  "body": "CHANGELOG updated in PARENA: 改名 firefly/gomega → firefly/ladybug(甲蟲命名慣例,呼應 firefly/scarab;gomega.prn 保留為 back-compat alias,exported API 不變,scarab.prn 的 import 已跟進改用新名);查證 firefly/ladybug/scarab 三檔各自仍卡在既有已知 gap(\u0026Any 參考型別、回傳型別、multi-field defenum payload),額外發現 VS0 emitter 目前尚無 module/import/export 真實連結機制 (sess-20260820-0649-a3f19d93)\n\n⚓ ☃",
+  "id": 15094,
+  "metadata": null,
+  "run_id": "sess-20260820-0649-a3f19d93",
+  "source_repo": "PARENA",
+  "title": "changelog(PARENA): 改名 firefly/gomega → firefly/ladybug(甲蟲命名慣例,呼應 firefly/scara…"
+}

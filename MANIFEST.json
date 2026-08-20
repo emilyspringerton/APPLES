@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T21:06:36Z",
+  "generated_at": "2026-08-20T21:06:42Z",
   "repo": "APPLES",
-  "count": 4559,
+  "count": 4560,
   "apples": [
     {
       "id": 10525,
@@ -36474,6 +36474,14 @@
       "source_repo": "CLI",
       "date": "20260820",
       "archived_at": "2026-08-20T21:06:36Z"
+    },
+    {
+      "id": 15094,
+      "type": "completion",
+      "title": "changelog(PARENA): 改名 firefly/gomega → firefly/ladybug(甲蟲命名慣例,呼應 firefly/scara…",
+      "source_repo": "PARENA",
+      "date": "20260820",
+      "archived_at": "2026-08-20T21:06:42Z"
     }
   ]
 }
