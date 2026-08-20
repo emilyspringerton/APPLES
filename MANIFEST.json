@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T23:39:37Z",
+  "generated_at": "2026-08-20T23:41:33Z",
   "repo": "APPLES",
-  "count": 4598,
+  "count": 4599,
   "apples": [
     {
       "id": 10525,
@@ -36786,6 +36786,14 @@
       "source_repo": "emily",
       "date": "20260820",
       "archived_at": "2026-08-20T23:39:37Z"
+    },
+    {
+      "id": 15133,
+      "type": "completion",
+      "title": "changelog(PARENA): 重大里程碑：parena build 支援多檔案編譯（parena build a.prn b.prn -o out.…",
+      "source_repo": "PARENA",
+      "date": "20260820",
+      "archived_at": "2026-08-20T23:41:33Z"
     }
   ]
 }
