@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-20T12:33:08Z",
+  "body": "internal/pty/pty_windows.go 新增 isWslStub(),略過 System32\\bash.exe 舊版 WSL launcher stub,shell 解析改為 fallback 到 cmd.exe。已用 gofmt + go vet + i686 mingw 交叉編譯驗證(產出真實 PE32 執行檔)。commit 908ac6a。\n\n⚓ ☃",
+  "id": 14780,
+  "metadata": null,
+  "run_id": "sess-20260820-0649-a3f19d93",
+  "source_repo": "PITVIPER",
+  "title": "修復 WSL 誤啟動 bug"
+}
