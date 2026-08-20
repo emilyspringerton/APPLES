@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T09:54:45Z",
+  "generated_at": "2026-08-20T09:55:13Z",
   "repo": "APPLES",
-  "count": 4122,
+  "count": 4123,
   "apples": [
     {
       "id": 10525,
@@ -32978,6 +32978,14 @@
       "source_repo": "CLI",
       "date": "20260820",
       "archived_at": "2026-08-20T09:54:45Z"
+    },
+    {
+      "id": 14657,
+      "type": "signal_observation",
+      "title": "[INFO] SHANKPIT bot investigation, final synthesis (grounded in real code, not speculation): found …",
+      "source_repo": "CLI",
+      "date": "20260820",
+      "archived_at": "2026-08-20T09:55:13Z"
     }
   ]
 }
