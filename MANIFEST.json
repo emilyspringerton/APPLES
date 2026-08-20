@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T04:20:04Z",
+  "generated_at": "2026-08-20T04:20:50Z",
   "repo": "APPLES",
-  "count": 4037,
+  "count": 4038,
   "apples": [
     {
       "id": 10525,
@@ -32298,6 +32298,14 @@
       "source_repo": "CLI",
       "date": "20260820",
       "archived_at": "2026-08-20T04:20:04Z"
+    },
+    {
+      "id": 14572,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: explicit privacy boundary — do NOT automatically log email contents int…",
+      "source_repo": "CLI",
+      "date": "20260820",
+      "archived_at": "2026-08-20T04:20:50Z"
     }
   ]
 }
