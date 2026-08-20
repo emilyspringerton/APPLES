@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T20:14:28Z",
+  "generated_at": "2026-08-20T20:14:36Z",
   "repo": "APPLES",
-  "count": 4491,
+  "count": 4492,
   "apples": [
     {
       "id": 10525,
@@ -35930,6 +35930,14 @@
       "source_repo": "CLI",
       "date": "20260820",
       "archived_at": "2026-08-20T20:14:28Z"
+    },
+    {
+      "id": 15026,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time,放寬 TS compiler 範圍: 「or at least in examples」+「and the dep st…",
+      "source_repo": "CLI",
+      "date": "20260820",
+      "archived_at": "2026-08-20T20:14:36Z"
     }
   ]
 }
