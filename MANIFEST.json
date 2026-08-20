@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T19:44:25Z",
+  "generated_at": "2026-08-20T19:44:43Z",
   "repo": "APPLES",
-  "count": 4456,
+  "count": 4457,
   "apples": [
     {
       "id": 10525,
@@ -35650,6 +35650,14 @@
       "source_repo": "CLI",
       "date": "20260820",
       "archived_at": "2026-08-20T19:44:25Z"
+    },
+    {
+      "id": 14991,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time,開放式架構思考: 「maybe parena compiles into go modules? or go cal…",
+      "source_repo": "CLI",
+      "date": "20260820",
+      "archived_at": "2026-08-20T19:44:43Z"
     }
   ]
 }
