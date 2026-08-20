@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-20T16:48:22Z",
+  "body": "發布並驗證 FATBABY_NEWSWIRE 新聞稿「PARENA Eats the Codebase From the Outside In」到 OKEMILY blog(https://okemily.com/blog/parena-eats-the-codebase-from-the-outside-in/)。內容涵蓋創辦人指定的完整範圍:PARENA compiler 本身(VS0 domain 1-4 現況)、九個 stdlib 套件(compress/crypto/editor/firefly/gfd/mapbuilder/net/pitviper/regex)、設計哲學(創辦人原話直接引用:『PARENA is a language to make your software more programmable via fluid and composible plugin APIS』與『slowly eats the codebase from the outside in』)、Bazel 建置系統遷移現況、以及規劃中後續工作(mod-surface API 全用 PARENA 寫、PITVIPER vterm mod、vim-like editor)。誠實列出真實未完成項目(型別檢查/函式簽章表缺口導致部分 stdlib 檔案還不能完整編譯、cond/defstruct/macro 未做),沒有誇大現況。透過 IDUNA blog API(EMILY-PRIME agent,blog.write scope)直接發布,已驗證 200 存活、標題/作者正確。footer 透過 sync-blog-footer.py 同步(順便補齊大量先前已發布但未同步的文章),commit 5812368,已用 okemily-deploy.sh 部署並驗證首頁 footer 真的出現新連結。\n\n⚓ ☃",
+  "id": 14898,
+  "metadata": null,
+  "run_id": "sess-20260820-0649-a3f19d93",
+  "source_repo": "EMILY",
+  "title": "FATBABY_NEWSWIRE:PARENA 新聞稿發布"
+}
