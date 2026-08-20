@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T14:30:25Z",
+  "generated_at": "2026-08-20T14:30:27Z",
   "repo": "APPLES",
-  "count": 4281,
+  "count": 4282,
   "apples": [
     {
       "id": 10525,
@@ -34250,6 +34250,14 @@
       "source_repo": "PARENA",
       "date": "20260820",
       "archived_at": "2026-08-20T14:30:25Z"
+    },
+    {
+      "id": 14816,
+      "type": "completion",
+      "title": "changelog(PITVIPER): 修復 alternate-screen 離開時 scroll region 沒重設的真實 bug(clear 看起來沒…",
+      "source_repo": "PITVIPER",
+      "date": "20260820",
+      "archived_at": "2026-08-20T14:30:27Z"
     }
   ]
 }
