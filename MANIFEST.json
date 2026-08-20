@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T04:17:56Z",
+  "generated_at": "2026-08-20T04:18:09Z",
   "repo": "APPLES",
-  "count": 4032,
+  "count": 4033,
   "apples": [
     {
       "id": 10525,
@@ -32258,6 +32258,14 @@
       "source_repo": "CLI",
       "date": "20260820",
       "archived_at": "2026-08-20T04:17:56Z"
+    },
+    {
+      "id": 14567,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: we need to get the email integration fixed",
+      "source_repo": "CLI",
+      "date": "20260820",
+      "archived_at": "2026-08-20T04:18:09Z"
     }
   ]
 }
