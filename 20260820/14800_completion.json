@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-20T13:43:26Z",
+  "body": "CHANGELOG updated in PARENA: VS0 domain 2(region analyzer)真正實作完成:單一遍歷 scope 追蹤器,通過 NORTHSTAR DoD 自己的正例/反例驗收(逐字相同的錯誤訊息、正確行號),8 個測試涵蓋真實邊界案例,ASan/UBSan 乾淨,CI 綠燈已用 API 直接確認 (sess-20260820-0649-a3f19d93)\n\n⚓ ☃",
+  "id": 14800,
+  "metadata": null,
+  "run_id": "sess-20260820-0649-a3f19d93",
+  "source_repo": "PARENA",
+  "title": "changelog(PARENA): VS0 domain 2(region analyzer)真正實作完成:單一遍歷 scope 追蹤器,通過 NORTH…"
+}

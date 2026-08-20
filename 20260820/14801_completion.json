@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-20T13:43:26Z",
+  "body": "src/region.c/h:單一遍歷 scope 追蹤器,實作 Region(Source)\u003e=Region(Destination) assignment invariant。parena analyze examples/test.prn 輸出跟 NORTHSTAR DoD 表格逐字相同:Compile Error: Escaping region pointer from :region/scratch to :region/buffer at line 16。8 個測試(DoD 正例/反例 + same-rank/方向相反/non-alloc-let/巢狀 with-arena 等真實邊界案例)全數通過,Makefile+Bazel(含 ASan/UBSan)兩條路徑皆驗證,既有 32 個 lexer/parser 測試零回歸。CI run 32375755240 confirmed green via GitHub API。main.c 新增 parena analyze 子指令。誠實範圍聲明:只做 assignment invariant,Return/Move invariant 與完整型別推論是真實、分開、未開始的後續工作。commits b6d1e43、45abf1b。\n\n⚓ ☃",
+  "id": 14801,
+  "metadata": null,
+  "run_id": "sess-20260820-0649-a3f19d93",
+  "source_repo": "PARENA",
+  "title": "VS0 domain 2 完成:真正的 region analyzer"
+}
