@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T16:50:10Z",
+  "generated_at": "2026-08-20T16:52:31Z",
   "repo": "APPLES",
-  "count": 4366,
+  "count": 4367,
   "apples": [
     {
       "id": 10525,
@@ -34930,6 +34930,14 @@
       "source_repo": "PARENA",
       "date": "20260820",
       "archived_at": "2026-08-20T16:50:10Z"
+    },
+    {
+      "id": 14901,
+      "type": "signal_observation",
+      "title": "[WARN] Founder real-time,補充更具體的重現條件: 「yea when you scale pitviper window vert…",
+      "source_repo": "CLI",
+      "date": "20260820",
+      "archived_at": "2026-08-20T16:52:31Z"
     }
   ]
 }
