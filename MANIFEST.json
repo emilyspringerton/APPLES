@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T20:07:55Z",
+  "generated_at": "2026-08-20T20:07:56Z",
   "repo": "APPLES",
-  "count": 4477,
+  "count": 4478,
   "apples": [
     {
       "id": 10525,
@@ -35818,6 +35818,14 @@
       "source_repo": "PARENA",
       "date": "20260820",
       "archived_at": "2026-08-20T20:07:55Z"
+    },
+    {
+      "id": 15012,
+      "type": "completion",
+      "title": "泛用 Arena @ Region 支援 + pentest stdlib",
+      "source_repo": "PARENA",
+      "date": "20260820",
+      "archived_at": "2026-08-20T20:07:56Z"
     }
   ]
 }
