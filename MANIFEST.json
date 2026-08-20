@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T03:10:41Z",
+  "generated_at": "2026-08-20T03:11:20Z",
   "repo": "APPLES",
-  "count": 3942,
+  "count": 3943,
   "apples": [
     {
       "id": 10525,
@@ -31538,6 +31538,14 @@
       "source_repo": "CLI",
       "date": "20260820",
       "archived_at": "2026-08-20T03:10:41Z"
+    },
+    {
+      "id": 14477,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: fourth piece queued -- 'emily do a blog post on system status i know i ju…",
+      "source_repo": "CLI",
+      "date": "20260820",
+      "archived_at": "2026-08-20T03:11:20Z"
     }
   ]
 }
