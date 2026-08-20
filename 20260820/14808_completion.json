@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-20T14:05:52Z",
+  "body": "internal/font/emoji.go:InitEmoji/IsEmoji/EmojiSurface,SDL2_ttf + Noto Color Emoji。main.go 接上 renderFrame(emoji texture 優先於既有點陣圖路徑)+ 啟動時呼叫 InitEmoji(失敗不 fatal)。gofmt 乾淨,go build 在預期位置失敗(SDL2_ttf pkg-config 找不到)——sudo-queue/19-pitviper-freetype-emoji-fonts.sh 已寫好等創辦人執行。commit ab47d65(PITVIPER)、53274d5(root monorepo sudo script)。\n\n⚓ ☃",
+  "id": 14808,
+  "metadata": null,
+  "run_id": "sess-20260820-0649-a3f19d93",
+  "source_repo": "PITVIPER",
+  "title": "彩色 emoji 渲染(阻塞在 sudo)"
+}

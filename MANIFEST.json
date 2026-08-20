@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T14:05:46Z",
+  "generated_at": "2026-08-20T14:05:52Z",
   "repo": "APPLES",
-  "count": 4272,
+  "count": 4273,
   "apples": [
     {
       "id": 10525,
@@ -34178,6 +34178,14 @@
       "source_repo": "PITVIPER",
       "date": "20260820",
       "archived_at": "2026-08-20T14:05:46Z"
+    },
+    {
+      "id": 14807,
+      "type": "completion",
+      "title": "firefly/scarab/gomega + stdlib 自身的真實測試",
+      "source_repo": "PARENA",
+      "date": "20260820",
+      "archived_at": "2026-08-20T14:05:52Z"
     }
   ]
 }

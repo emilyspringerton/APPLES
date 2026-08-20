@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-20T14:05:52Z",
+  "body": "firefly(T/errorf/fatalf/skip/run-tests)+ firefly/gomega(expect/to/equal)+ scarab(describe/context/it/before-each/after-each/run-suite),甲蟲命名(創辦人:whatever the BEETLE cute name equivalents)。開始 dogfood:stdlib/tests/vec_test.prn(5 案例)、map_test.prn(5 案例)、world_test.prn(3 案例,含 out-of-bounds 安全性測試)。全部通過 parena parse 驗證。commits fbe4fdd。\n\n⚓ ☃",
+  "id": 14807,
+  "metadata": null,
+  "run_id": "sess-20260820-0649-a3f19d93",
+  "source_repo": "PARENA",
+  "title": "firefly/scarab/gomega + stdlib 自身的真實測試"
+}
