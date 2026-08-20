@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T11:29:34Z",
+  "generated_at": "2026-08-20T11:29:36Z",
   "repo": "APPLES",
-  "count": 4209,
+  "count": 4210,
   "apples": [
     {
       "id": 10525,
@@ -33674,6 +33674,14 @@
       "source_repo": "BRAWLPIT",
       "date": "20260820",
       "archived_at": "2026-08-20T11:29:34Z"
+    },
+    {
+      "id": 14744,
+      "type": "completion",
+      "title": "Windows CI build fixed — real reserved-word collision, found by reproducing the exact cross-compile locally",
+      "source_repo": "BRAWLPIT",
+      "date": "20260820",
+      "archived_at": "2026-08-20T11:29:36Z"
     }
   ]
 }
