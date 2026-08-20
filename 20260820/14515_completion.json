@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-20T03:43:49Z",
+  "body": "Comb of TRAPX_NORTHSTAR.md, REDGARDEN-wiki SPEC-4/5, HEROES_VS0.md, RANKED_MATCHMAKING.md, and NORTHSTAR.md itself (via Explore agent) confirmed §29 already existed (2026-08-13) with 4 explicit open architecture questions and zero prior art anywhere in the monorepo for rarity/pack/pity card mechanics. Resolved question 1 (player directly pilots hero+pets+clones; everything else is a card) and question 4 (recommend apps/arena's arena_game.c as the base sim loop, extended, not local_game.c or a new third loop) directly from real-time founder fragments. Added a full net-new card/economy design section. Flagged, not silently resolved: a real Flow-naming collision between REDGARDEN's own kill-fed Flow and TRAPX/SHANKPIT's territory Flow. Questions 2 and 3 remain genuinely open.",
+  "id": 14515,
+  "metadata": null,
+  "run_id": "sess-20260813-2154-dda37e8b",
+  "source_repo": "REDGARDEN",
+  "title": "ECOWAR northstar (§29) addendum — 2 open questions resolved + full card/economy design"
+}
