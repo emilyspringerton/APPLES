@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T09:50:53Z",
+  "generated_at": "2026-08-20T09:51:22Z",
   "repo": "APPLES",
-  "count": 4114,
+  "count": 4115,
   "apples": [
     {
       "id": 10525,
@@ -32914,6 +32914,14 @@
       "source_repo": "CLI",
       "date": "20260820",
       "archived_at": "2026-08-20T09:50:53Z"
+    },
+    {
+      "id": 14649,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time, completing the slurp-button workflow spec: 'enqueues it in the background…",
+      "source_repo": "CLI",
+      "date": "20260820",
+      "archived_at": "2026-08-20T09:51:22Z"
     }
   ]
 }
