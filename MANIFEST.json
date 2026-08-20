@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T03:56:42Z",
+  "generated_at": "2026-08-20T03:57:13Z",
   "repo": "APPLES",
-  "count": 3999,
+  "count": 4000,
   "apples": [
     {
       "id": 10525,
@@ -31994,6 +31994,14 @@
       "source_repo": "CLI",
       "date": "20260820",
       "archived_at": "2026-08-20T03:56:42Z"
+    },
+    {
+      "id": 14534,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: (GFD HUD continued) buffs need to be positioned above the combat log, not…",
+      "source_repo": "CLI",
+      "date": "20260820",
+      "archived_at": "2026-08-20T03:57:13Z"
     }
   ]
 }
