@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T11:28:25Z",
+  "generated_at": "2026-08-20T11:29:34Z",
   "repo": "APPLES",
-  "count": 4208,
+  "count": 4209,
   "apples": [
     {
       "id": 10525,
@@ -33666,6 +33666,14 @@
       "source_repo": "emily",
       "date": "20260820",
       "archived_at": "2026-08-20T11:28:25Z"
+    },
+    {
+      "id": 14743,
+      "type": "completion",
+      "title": "changelog(BRAWLPIT): Fixed Windows build: 'near' reserved as a macro under MinGW…",
+      "source_repo": "BRAWLPIT",
+      "date": "20260820",
+      "archived_at": "2026-08-20T11:29:34Z"
     }
   ]
 }

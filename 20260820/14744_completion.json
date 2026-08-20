@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-20T11:29:34Z",
+  "body": "Founder real-time, twice: 'fix the brawlpit build' -\u003e 'FIX THE BRAWLPIT BUILD TOO.' Ruled out several hypotheses before finding the real cause: SDL2 download URL live, tarball structure matches what CI expects, SDL_opengl.h present, every Linux-side compile command (including the new sprite-loading code) succeeds clean locally. Genuinely blocked without mingw-w64 (not installed) or GitHub API access (rate-limited) -- asked the founder directly rather than guess further; they ran sudo-queue/09-mingw-w64.sh. With the real cross-compiler available, reproduced CI's exact failing command and found it immediately: packages/simulation/tipjar.h:256 declared 'int near = ...' -- near is a reserved macro in Windows/MinGW headers (legacy 16-bit-memory-model keyword), so it broke the instant any Windows-related header got pulled in transitively. Compiled clean on Linux the entire time, which is exactly why it was invisible without the real cross-compiler. Renamed to is_close, zero behavior change. Re-verified every step build.yml actually runs: physics test, Windows client cross-compile (the fix), Linux server build, full scripts/build.sh. Added a .gitignore (repo had none) for the build artifacts this investigation produced. Commit 223dea7.\n\n⚓ ☃",
+  "id": 14744,
+  "metadata": null,
+  "run_id": "sess-20260820-0649-a3f19d93",
+  "source_repo": "BRAWLPIT",
+  "title": "Windows CI build fixed — real reserved-word collision, found by reproducing the exact cross-compile locally"
+}
