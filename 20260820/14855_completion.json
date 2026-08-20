@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-20T16:25:07Z",
+  "body": "VS0 的 C emitter 新增 match 於 Result/Option 上的模式匹配支援。runtime/parena_runtime.h 新增 Result/Option 執行期表示（tag+void* value）與 result_ok/result_err/option_some/option_none 建構輔助函式，並誠實標註共用 void* payload 帶來的型別安全損失。emit_expr() 新增 None/(Ok x)/(Err x)/(Some x) 建構呼叫支援，含 payload 必須是指標型別的真實檢查。emit_match() 要求 scrutinee 型別恰為 Result 或 Option，將每個 clause 編譯為對 .tag 的 if/else-if 鏈。tests/test_emit.c 新增正面測試（驗證 result_ok/.tag==1/.tag==0/else-if 鏈等真實 emitted C 內容）與一則新的誠實負面測試（非 Result/Option scrutinee 仍如實報錯）。驗證：make build/test 全綠 30/30、ASan/UBSan domain-4 check 全綠、bazel test 全綠、GitHub Actions CI run 32391550879 completed success。commit 64f5527。\n\n⚓ ☃",
+  "id": 14855,
+  "metadata": null,
+  "run_id": "sess-20260820-0649-a3f19d93",
+  "source_repo": "PARENA",
+  "title": "emit_match：Result/Option 模式匹配"
+}

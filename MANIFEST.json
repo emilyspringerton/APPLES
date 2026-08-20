@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T16:24:59Z",
+  "generated_at": "2026-08-20T16:25:07Z",
   "repo": "APPLES",
-  "count": 4320,
+  "count": 4321,
   "apples": [
     {
       "id": 10525,
@@ -34562,6 +34562,14 @@
       "source_repo": "PARENA",
       "date": "20260820",
       "archived_at": "2026-08-20T16:24:59Z"
+    },
+    {
+      "id": 14855,
+      "type": "completion",
+      "title": "emit_match：Result/Option 模式匹配",
+      "source_repo": "PARENA",
+      "date": "20260820",
+      "archived_at": "2026-08-20T16:25:07Z"
     }
   ]
 }
