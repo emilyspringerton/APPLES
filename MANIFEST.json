@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T15:00:45Z",
+  "generated_at": "2026-08-20T15:01:32Z",
   "repo": "APPLES",
-  "count": 4300,
+  "count": 4301,
   "apples": [
     {
       "id": 10525,
@@ -34402,6 +34402,14 @@
       "source_repo": "CLI",
       "date": "20260820",
       "archived_at": "2026-08-20T15:00:45Z"
+    },
+    {
+      "id": 14835,
+      "type": "completion",
+      "title": "changelog(PITVIPER): F11 toggle 加入真實 JetBrains Mono shiny font(疊在 OG 點陣圖字型上,SDL2…",
+      "source_repo": "PITVIPER",
+      "date": "20260820",
+      "archived_at": "2026-08-20T15:01:32Z"
     }
   ]
 }
