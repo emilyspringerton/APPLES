@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T11:04:06Z",
+  "generated_at": "2026-08-20T11:05:24Z",
   "repo": "APPLES",
-  "count": 4193,
+  "count": 4194,
   "apples": [
     {
       "id": 10525,
@@ -33546,6 +33546,14 @@
       "source_repo": "CLI",
       "date": "20260820",
       "archived_at": "2026-08-20T11:04:06Z"
+    },
+    {
+      "id": 14728,
+      "type": "signal_observation",
+      "title": "[INFO] PARENA spec fully read (docx, python-docx extraction). Real, concrete, well-specified langua…",
+      "source_repo": "CLI",
+      "date": "20260820",
+      "archived_at": "2026-08-20T11:05:24Z"
     }
   ]
 }
