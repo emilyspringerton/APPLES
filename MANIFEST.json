@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T15:11:17Z",
+  "generated_at": "2026-08-20T15:11:19Z",
   "repo": "APPLES",
-  "count": 4306,
+  "count": 4307,
   "apples": [
     {
       "id": 10525,
@@ -34450,6 +34450,14 @@
       "source_repo": "PARENA",
       "date": "20260820",
       "archived_at": "2026-08-20T15:11:17Z"
+    },
+    {
+      "id": 14841,
+      "type": "completion",
+      "title": "C emitter 泛化:算術/比較/if/一般函式呼叫",
+      "source_repo": "PARENA",
+      "date": "20260820",
+      "archived_at": "2026-08-20T15:11:19Z"
     }
   ]
 }
