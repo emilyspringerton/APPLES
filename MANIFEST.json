@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T16:54:31Z",
+  "generated_at": "2026-08-20T16:55:09Z",
   "repo": "APPLES",
-  "count": 4370,
+  "count": 4371,
   "apples": [
     {
       "id": 10525,
@@ -34962,6 +34962,14 @@
       "source_repo": "CLI",
       "date": "20260820",
       "archived_at": "2026-08-20T16:54:31Z"
+    },
+    {
+      "id": 14905,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time,新的具體 vim 渲染回報: 「vim works except i cant see the part whe…",
+      "source_repo": "CLI",
+      "date": "20260820",
+      "archived_at": "2026-08-20T16:55:09Z"
     }
   ]
 }
