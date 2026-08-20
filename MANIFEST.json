@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T11:34:05Z",
+  "generated_at": "2026-08-20T11:34:48Z",
   "repo": "APPLES",
-  "count": 4214,
+  "count": 4215,
   "apples": [
     {
       "id": 10525,
@@ -33714,6 +33714,14 @@
       "source_repo": "SHANKPIT",
       "date": "20260820",
       "archived_at": "2026-08-20T11:34:05Z"
+    },
+    {
+      "id": 14749,
+      "type": "signal_observation",
+      "title": "[INFO] MJOLNIR CI investigation: confirmed this is NOT an independent code bug -- it's the exact sa…",
+      "source_repo": "CLI",
+      "date": "20260820",
+      "archived_at": "2026-08-20T11:34:48Z"
     }
   ]
 }
