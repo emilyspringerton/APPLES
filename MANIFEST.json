@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T20:18:20Z",
+  "generated_at": "2026-08-20T20:18:29Z",
   "repo": "APPLES",
-  "count": 4497,
+  "count": 4498,
   "apples": [
     {
       "id": 10525,
@@ -35978,6 +35978,14 @@
       "source_repo": "CLI",
       "date": "20260820",
       "archived_at": "2026-08-20T20:18:20Z"
+    },
+    {
+      "id": 15032,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time,收斂順序: 「any ymissing ststdlibdeps sure」(=any missing stdlib dep…",
+      "source_repo": "CLI",
+      "date": "20260820",
+      "archived_at": "2026-08-20T20:18:29Z"
     }
   ]
 }
