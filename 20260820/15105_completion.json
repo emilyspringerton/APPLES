@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-20T21:32:22Z",
+  "body": "應創辦人「LXC primatives」/「container primatives」/「chgroups」/「built into the standard library」/「plan the stdlib deps」,在 STDLIB.md 完成兩個真實、可分層使用的套件設計(commit 232c96d):container/lxc(FFI 綁定真正的 liblxc,比照既有 sdl2/pentest/git 的 FFI 綁定慣例,create/start/stop/destroy/set-config/running?)、container/cgroup(cgroups v2 真實檔案系統介面,搭在既有 io 套件的 open/read/write 之上,set-memory-max/set-pids-max/add-process/current-memory)。誠實記錄:兩者都卡在同一個本文件別處已經記錄過的既有缺口——VS0 目前沒有真正可用的檔案 I/O 原語(csv.prn 檔頭同樣的誠實但書),這不是新缺口,是設計完成、卡在既有 io 套件實作的狀態。順手修正 firefly/gomega/scarab 那節裡殘留的過期命名(改名成 ladybug 後忘了同步這裡)。\n\n⚓ ☃",
+  "id": 15105,
+  "metadata": null,
+  "run_id": "sess-20260820-0649-a3f19d93",
+  "source_repo": "PARENA",
+  "title": "container/lxc + container/cgroup stdlib 設計 pass"
+}
