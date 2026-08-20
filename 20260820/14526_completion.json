@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-20T03:53:54Z",
+  "body": "Founder set a new standing MO for GFD: mod API first, then the feature. Found EduScript VM (packages/education/) is already real and live in apps/lobby but has zero reach into apps2/battlegrounds_gui (the FPS 'edu edition' client, specifically prioritized) -- that's the real gap this doc scopes closing, not building a VM from scratch. Referenced Vintage Story's mod API and WC3's World Editor honestly (EduScript's binding pattern already resembles WC3 triggers structurally; Vintage Story's systemic block/entity-behavior hooks are the real depth target). Recommended sharing one destructible-geometry system between GFD and /home/fatbaby/skateboard's own real R6-Siege-style destructibility spec rather than building two. Scripting language left open. Flagged, not scoped: a separate PITVIPER-as-multiverse-portal idea.",
+  "id": 14526,
+  "metadata": null,
+  "run_id": "sess-20260813-2154-dda37e8b",
+  "source_repo": "GoblinFoxDragon",
+  "title": "Mod surface northstar — scoping only, EduScript VM identified as real incumbent"
+}
