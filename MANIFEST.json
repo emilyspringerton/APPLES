@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T09:52:08Z",
+  "generated_at": "2026-08-20T09:53:13Z",
   "repo": "APPLES",
-  "count": 4118,
+  "count": 4119,
   "apples": [
     {
       "id": 10525,
@@ -32946,6 +32946,14 @@
       "source_repo": "CLI",
       "date": "20260820",
       "archived_at": "2026-08-20T09:52:08Z"
+    },
+    {
+      "id": 14653,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time, two new threads: (1) bug report -- 'the shankpit bots are really twitchy …",
+      "source_repo": "CLI",
+      "date": "20260820",
+      "archived_at": "2026-08-20T09:53:13Z"
     }
   ]
 }
