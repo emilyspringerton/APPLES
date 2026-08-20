@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T06:59:45Z",
+  "generated_at": "2026-08-20T07:02:14Z",
   "repo": "APPLES",
-  "count": 4082,
+  "count": 4083,
   "apples": [
     {
       "id": 10525,
@@ -32658,6 +32658,14 @@
       "source_repo": "IDUNA",
       "date": "20260820",
       "archived_at": "2026-08-20T06:59:45Z"
+    },
+    {
+      "id": 14617,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: 'ensure we are ready to go build passing installable client just like we …",
+      "source_repo": "CLI",
+      "date": "20260820",
+      "archived_at": "2026-08-20T07:02:14Z"
     }
   ]
 }
