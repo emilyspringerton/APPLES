@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T12:32:47Z",
+  "generated_at": "2026-08-20T12:32:48Z",
   "repo": "APPLES",
-  "count": 4243,
+  "count": 4244,
   "apples": [
     {
       "id": 10525,
@@ -33946,6 +33946,14 @@
       "source_repo": "PARENA",
       "date": "20260820",
       "archived_at": "2026-08-20T12:32:47Z"
+    },
+    {
+      "id": 14778,
+      "type": "completion",
+      "title": "changelog(PITVIPER): 修復 Windows shell 解析:略過 System32 的舊版 WSL bash.exe stub,避免在未啟…",
+      "source_repo": "PITVIPER",
+      "date": "20260820",
+      "archived_at": "2026-08-20T12:32:48Z"
     }
   ]
 }
