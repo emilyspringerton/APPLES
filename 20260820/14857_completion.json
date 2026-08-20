@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-20T16:25:21Z",
+  "body": "根因：PITVIPER 的舊字型 Atlas 僅涵蓋 ASCII 可印字元 (0x20-0x7e)，加上先前已擴充的 box-drawing 區塊；Claude Code（Node.js CLI）的 spinner 動畫使用標準 cli-spinners 慣例，透過 Unicode Braille Pattern 區塊 (U+2800-U+28FF) 的字元循環播放，這整個區塊落在舊 Atlas 涵蓋範圍之外，因此全部 fallback 顯示成 '?'。修復：internal/font/font.go 新增 drawBrailleChar()，依真實 Unicode Braille 8-dot 編碼（bit N-1 對應第 N 個點，標準 2 欄 x 4 列排列）程序化繪製每個 glyph，並在 init() 中對整個 U+2800-U+28FF 256 字元區塊完整建表（非僅 spinner 用到的少數字元）。KnownGlyphs() 因為本來就泛用地迭代 extended map，GPU glyph atlas 自動撿到新字元範圍，無需額外接線。新增 font_test.go 的 TestGlyphBitsBraillePatterns：驗證全部 256 個真實 Braille 字元都不再 fallback 成 '?'、U+2800（無點）真的渲染成全空白、U+28FF（8 點全亮）真的有非零像素。commit 7d4ae3f。\n\n⚓ ☃",
+  "id": 14857,
+  "metadata": null,
+  "run_id": "sess-20260820-0649-a3f19d93",
+  "source_repo": "PITVIPER",
+  "title": "修復 Claude Code spinner 動畫顯示為 '?' 的 bug"
+}

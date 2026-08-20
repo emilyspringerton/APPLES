@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T16:25:12Z",
+  "generated_at": "2026-08-20T16:25:21Z",
   "repo": "APPLES",
-  "count": 4322,
+  "count": 4323,
   "apples": [
     {
       "id": 10525,
@@ -34578,6 +34578,14 @@
       "source_repo": "PITVIPER",
       "date": "20260820",
       "archived_at": "2026-08-20T16:25:12Z"
+    },
+    {
+      "id": 14857,
+      "type": "completion",
+      "title": "修復 Claude Code spinner 動畫顯示為 '?' 的 bug",
+      "source_repo": "PITVIPER",
+      "date": "20260820",
+      "archived_at": "2026-08-20T16:25:21Z"
     }
   ]
 }
