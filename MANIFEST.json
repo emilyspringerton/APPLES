@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T04:42:21Z",
+  "generated_at": "2026-08-20T04:44:14Z",
   "repo": "APPLES",
-  "count": 4044,
+  "count": 4045,
   "apples": [
     {
       "id": 10525,
@@ -32354,6 +32354,14 @@
       "source_repo": "emily",
       "date": "20260820",
       "archived_at": "2026-08-20T04:42:21Z"
+    },
+    {
+      "id": 14579,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: suggests trying the broker proxy (fatbaby-broker.service, :8679) instead …",
+      "source_repo": "CLI",
+      "date": "20260820",
+      "archived_at": "2026-08-20T04:44:14Z"
     }
   ]
 }
