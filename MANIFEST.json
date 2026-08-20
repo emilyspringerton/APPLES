@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T12:01:02Z",
+  "generated_at": "2026-08-20T12:01:21Z",
   "repo": "APPLES",
-  "count": 4229,
+  "count": 4230,
   "apples": [
     {
       "id": 10525,
@@ -33834,6 +33834,14 @@
       "source_repo": "PARENA",
       "date": "20260820",
       "archived_at": "2026-08-20T12:01:02Z"
+    },
+    {
+      "id": 14764,
+      "type": "completion",
+      "title": "Elite regex family (nfa/pcre/posix/glob) + grep/sed/awk designed, GFD mod-surface stdlib planning pass, CI artifact upload fixed",
+      "source_repo": "PARENA",
+      "date": "20260820",
+      "archived_at": "2026-08-20T12:01:21Z"
     }
   ]
 }
