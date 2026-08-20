@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T21:52:29Z",
+  "generated_at": "2026-08-20T21:53:30Z",
   "repo": "APPLES",
-  "count": 4580,
+  "count": 4581,
   "apples": [
     {
       "id": 10525,
@@ -36642,6 +36642,14 @@
       "source_repo": "emily",
       "date": "20260820",
       "archived_at": "2026-08-20T21:52:29Z"
+    },
+    {
+      "id": 15115,
+      "type": "completion",
+      "title": "changelog(PARENA): STDLIB.md 新增 fp 套件設計(Ramda 對等的 FP toolkit:map/filter/reduce…",
+      "source_repo": "PARENA",
+      "date": "20260820",
+      "archived_at": "2026-08-20T21:53:30Z"
     }
   ]
 }
