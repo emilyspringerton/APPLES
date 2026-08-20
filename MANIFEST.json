@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T14:05:52Z",
+  "generated_at": "2026-08-20T14:05:54Z",
   "repo": "APPLES",
-  "count": 4273,
+  "count": 4274,
   "apples": [
     {
       "id": 10525,
@@ -34186,6 +34186,14 @@
       "source_repo": "PARENA",
       "date": "20260820",
       "archived_at": "2026-08-20T14:05:52Z"
+    },
+    {
+      "id": 14808,
+      "type": "completion",
+      "title": "彩色 emoji 渲染(阻塞在 sudo)",
+      "source_repo": "PITVIPER",
+      "date": "20260820",
+      "archived_at": "2026-08-20T14:05:54Z"
     }
   ]
 }
