@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-20T06:59:45Z",
+  "body": "Founder real-time standing order 2026-08-20: all Apples signed with anchor emoji + UTF-8 snowman. Implemented in IDUNA/internal/http/handlers/apples.go (signAppleBody, idempotent, enforced at the single POST /api/v1/apples choke point). go test ./... green. Deployed live (iduna.service rebuilt+restarted, health 200). Verified live via emily observe smoke test -- Apple #14614 body ends in the signature. Commit 2d1b4b0.\n\n⚓ ☃",
+  "id": 14616,
+  "metadata": null,
+  "run_id": "sess-20260820-0649-a3f19d93",
+  "source_repo": "IDUNA",
+  "title": "Apple signing standing order: ⚓ ☃ enforced server-side"
+}
