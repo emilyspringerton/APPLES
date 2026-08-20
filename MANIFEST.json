@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T15:07:20Z",
+  "generated_at": "2026-08-20T15:11:17Z",
   "repo": "APPLES",
-  "count": 4305,
+  "count": 4306,
   "apples": [
     {
       "id": 10525,
@@ -34442,6 +34442,14 @@
       "source_repo": "emily",
       "date": "20260820",
       "archived_at": "2026-08-20T15:07:20Z"
+    },
+    {
+      "id": 14840,
+      "type": "completion",
+      "title": "changelog(PARENA): C emitter 加入算術/比較/if/一般函式呼叫,朝自我託管邁進一步。CI 已確認綠燈(run 32384381…",
+      "source_repo": "PARENA",
+      "date": "20260820",
+      "archived_at": "2026-08-20T15:11:17Z"
     }
   ]
 }
