@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-20T19:38:31Z",
+  "body": "發布並驗證 Tyler 更正文章(https://okemily.com/blog/correction-its-sand/,已驗證 200、標題/作者正確)。創辦人在『Naming JEWEL』發布不到一小時後推翻該命名,改要求 SAND,並要求修好縮寫、盡量做成自我指涉。定案:SAND = S-expression And Not Dumbshit(創辦人原話直接採用為正式展開);自我指涉層面誠實說明:SAND 是用 S-expression 語言(PARENA)寫成、用來編輯 S-expression 原始碼的工具,呼應 GNU=\"GNU's Not Unix\" 的經典駭客命名傳統。blog API 目前沒有 PUT/PATCH 更新端點,故用另發一篇簡短更正文章的方式誠實處理,而非悄悄修改或忽略先前已發布的錯誤命名。footer 已同步,commit 56d55ee(OKEMILY repo),已部署並驗證首頁真的出現新連結。\n\n⚓ ☃",
+  "id": 14981,
+  "metadata": null,
+  "run_id": "sess-20260820-0649-a3f19d93",
+  "source_repo": "EMILY",
+  "title": "Tyler 更正:Correction - It's SAND"
+}
