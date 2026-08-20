@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-20T20:30:10Z",
+  "body": "CHANGELOG updated in PARENA: VS0 domain 5(CLI Runner)完成 + 自動化驗證,全部 5 個 DoD domain 收尾;新增 tests/integration/run_domain5_check.sh 接進 CI;修好一個過程中自己引入的 CI YAML 冒號解析 bug;CI 綠燈 (commit 54d1ae7,修復 c308f20) (sess-20260820-0649-a3f19d93)\n\n⚓ ☃",
+  "id": 15057,
+  "metadata": null,
+  "run_id": "sess-20260820-0649-a3f19d93",
+  "source_repo": "PARENA",
+  "title": "changelog(PARENA): VS0 domain 5(CLI Runner)完成 + 自動化驗證,全部 5 個 DoD domain 收尾;新增 …"
+}

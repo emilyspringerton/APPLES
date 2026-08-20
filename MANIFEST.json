@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T20:28:27Z",
+  "generated_at": "2026-08-20T20:30:10Z",
   "repo": "APPLES",
-  "count": 4522,
+  "count": 4523,
   "apples": [
     {
       "id": 10525,
@@ -36178,6 +36178,14 @@
       "source_repo": "CLI",
       "date": "20260820",
       "archived_at": "2026-08-20T20:28:27Z"
+    },
+    {
+      "id": 15057,
+      "type": "completion",
+      "title": "changelog(PARENA): VS0 domain 5(CLI Runner)完成 + 自動化驗證,全部 5 個 DoD domain 收尾;新增 …",
+      "source_repo": "PARENA",
+      "date": "20260820",
+      "archived_at": "2026-08-20T20:30:10Z"
     }
   ]
 }

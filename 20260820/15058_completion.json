@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-20T20:30:10Z",
+  "body": "查證發現 domain 5『CLI Runner』的字面 DoD(./parena build input.prn -o output.c,exit 0 成功/1 錯誤)本來就已滿足,只是沒有自動化測試證明過。新增 tests/integration/run_domain5_check.sh:(1) 真實有效檔案回傳 0 且寫出真實非空輸出、(2) 真實 region 違規檔案(DoD 自己的字面範例)回傳 1 且不留殘留輸出檔(直接讀 cmd_build 原始碼確認,不是假設)。接進 Makefile test-domain5 + CI。更新 NORTHSTAR.md 過時狀態行,誠實宣告全部 5 個 domain 完成,同時重申 mod-surface stdlib 是分開、持續中的工作。過程中不小心在 step name 裡留了一個冒號讓 YAML 誤判,CI 整個 run 失敗(0 job 排程),立即定位根因(python3 yaml.safe_load 本地驗證)並修好,重新確認 CI 綠燈。commit 54d1ae7(修復 c308f20)。\n\n⚓ ☃",
+  "id": 15058,
+  "metadata": null,
+  "run_id": "sess-20260820-0649-a3f19d93",
+  "source_repo": "PARENA",
+  "title": "VS0 全部 5 個 DoD domain 完成(domain 5:CLI Runner)"
+}
