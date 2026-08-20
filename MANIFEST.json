@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T14:40:25Z",
+  "generated_at": "2026-08-20T14:43:39Z",
   "repo": "APPLES",
-  "count": 4292,
+  "count": 4293,
   "apples": [
     {
       "id": 10525,
@@ -34338,6 +34338,14 @@
       "source_repo": "CLI",
       "date": "20260820",
       "archived_at": "2026-08-20T14:40:25Z"
+    },
+    {
+      "id": 14827,
+      "type": "completion",
+      "title": "changelog(PARENA): pentest/* 六個套件(Kali 對應工具集)、idvault + pitviper/expand(刻意淺層設計…",
+      "source_repo": "PARENA",
+      "date": "20260820",
+      "archived_at": "2026-08-20T14:43:39Z"
     }
   ]
 }
