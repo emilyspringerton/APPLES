@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T18:25:06Z",
+  "generated_at": "2026-08-20T18:25:08Z",
   "repo": "APPLES",
-  "count": 4423,
+  "count": 4424,
   "apples": [
     {
       "id": 10525,
@@ -35386,6 +35386,14 @@
       "source_repo": "PARENA",
       "date": "20260820",
       "archived_at": "2026-08-20T18:25:06Z"
+    },
+    {
+      "id": 14958,
+      "type": "completion",
+      "title": "changelog(PARENA): editor_plugin.prn 進 examples/,新增真正的 Bazel target(genrule 產生…",
+      "source_repo": "PARENA",
+      "date": "20260820",
+      "archived_at": "2026-08-20T18:25:08Z"
     }
   ]
 }
