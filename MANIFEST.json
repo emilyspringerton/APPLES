@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T12:10:02Z",
+  "generated_at": "2026-08-20T12:10:41Z",
   "repo": "APPLES",
-  "count": 4235,
+  "count": 4236,
   "apples": [
     {
       "id": 10525,
@@ -33882,6 +33882,14 @@
       "source_repo": "CLI",
       "date": "20260820",
       "archived_at": "2026-08-20T12:10:02Z"
+    },
+    {
+      "id": 14770,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: resolved codec-scope AskUserQuestion with 'FFI-bind real libs' (matches l…",
+      "source_repo": "CLI",
+      "date": "20260820",
+      "archived_at": "2026-08-20T12:10:41Z"
     }
   ]
 }
