@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T03:31:53Z",
+  "generated_at": "2026-08-20T03:31:59Z",
   "repo": "APPLES",
-  "count": 3957,
+  "count": 3958,
   "apples": [
     {
       "id": 10525,
@@ -31658,6 +31658,14 @@
       "source_repo": "CLI",
       "date": "20260820",
       "archived_at": "2026-08-20T03:31:53Z"
+    },
+    {
+      "id": 14492,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: (ecowar continued) ecowar will have hero mechanics",
+      "source_repo": "CLI",
+      "date": "20260820",
+      "archived_at": "2026-08-20T03:31:59Z"
     }
   ]
 }
