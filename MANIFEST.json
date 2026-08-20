@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T11:01:26Z",
+  "generated_at": "2026-08-20T11:01:28Z",
   "repo": "APPLES",
-  "count": 4187,
+  "count": 4188,
   "apples": [
     {
       "id": 10525,
@@ -33498,6 +33498,14 @@
       "source_repo": "REDGARDEN",
       "date": "20260820",
       "archived_at": "2026-08-20T11:01:26Z"
+    },
+    {
+      "id": 14722,
+      "type": "completion",
+      "title": "changelog(GoblinFoxDragon): Ported REDGARDEN's King buff-HUD and King health-bar/name-t…",
+      "source_repo": "GoblinFoxDragon",
+      "date": "20260820",
+      "archived_at": "2026-08-20T11:01:28Z"
     }
   ]
 }
