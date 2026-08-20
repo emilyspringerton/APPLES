@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "audit",
+  "archived_at": "2026-08-20T19:41:58Z",
+  "body": "創辦人要求全面檢查 fatbaby 資料管線,確認新聞稿/SEC/財報/財測收集正常。結果:**核心資料收集管線全數健康**,即時運作中,近期日誌零錯誤:secwatch(SEC EDGAR,poll 5m,round 57 完成,discovered=1)、prwatch(PR Newswire,poll 30s,round 1376)、prwatch-body(全文抓取,poll 15s,持續 fetch_done)、guidance-watcher(財測擷取,poll 30s,持續 batch done)、eps-processor/eps-reconciler(EPS 擷取+對帳,持續運作)、entity-graph、form4-watcher、nt-watcher、schd13-watcher、pr-indexer、pr-reaction-watcher、market-data-watcher、earnings-calendar、dividend-watcher、buyback-watcher、broker(:8679 監聽中)、signalapi(:9091 監聽中)——全部確認正在跑、資料新鮮(多數 var/ 目錄在過去幾分鐘內更新過)。**真實發現的問題**:(1)  從 2026-05-30 起就沒成功啟動過,原因是 port :8080 跟 IDUNA 衝突(bind: address already in use)——需要換 port 或決定 dashboard 是否還要保留。(2) 、 自 2026-06-17 起沒再啟動過(jon-agent 設定裡的 model 字串是舊的 claude-sonnet-4-6,即使重啟也需要先更新)。(3)  今天(19:46)有嘗試啟動但索引建置過程被取消(context canceled),疑似手動啟動後又被中斷,不是真正的 crash。(4) 、 不是持續進程而是排程式一次性任務,最近一次執行都成功(movers 8/20 13:45、bond 8/19 22:00),健康。(5) bin/ 目錄裡有比 CLAUDE.md 既有 process 表格更多的二進位檔案(bond-watcher/kgraph-server/movers-watcher/newssite/pr-indexer/pr-reaction-watcher/earnings-calendar/schd13-watcher/market-data-watcher/projector),CLAUDE.md 的 process 表格本身已經過時,沒有反映這些真實存在的處理程序。結論:創辦人具體點名的『press releases、SEC、earnings、guidance』收集全部健康,下游展示層(dashboard/newssite/jon-agent/feedserver)有真實、待修的問題,已誠實記錄不誇大。\n\n⚓ ☃",
+  "id": 14986,
+  "metadata": null,
+  "run_id": "sess-20260820-0649-a3f19d93",
+  "source_repo": "PRRJECT_FATBABY",
+  "title": "資料管線健康檢查"
+}

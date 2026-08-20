@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T19:41:42Z",
+  "generated_at": "2026-08-20T19:41:58Z",
   "repo": "APPLES",
-  "count": 4451,
+  "count": 4452,
   "apples": [
     {
       "id": 10525,
@@ -35610,6 +35610,14 @@
       "source_repo": "CLI",
       "date": "20260820",
       "archived_at": "2026-08-20T19:41:42Z"
+    },
+    {
+      "id": 14986,
+      "type": "audit",
+      "title": "資料管線健康檢查",
+      "source_repo": "PRRJECT_FATBABY",
+      "date": "20260820",
+      "archived_at": "2026-08-20T19:41:58Z"
     }
   ]
 }
