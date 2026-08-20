@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T20:51:47Z",
+  "generated_at": "2026-08-20T20:51:54Z",
   "repo": "APPLES",
-  "count": 4550,
+  "count": 4551,
   "apples": [
     {
       "id": 10525,
@@ -36402,6 +36402,14 @@
       "source_repo": "CLI",
       "date": "20260820",
       "archived_at": "2026-08-20T20:51:47Z"
+    },
+    {
+      "id": 15085,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time,澄清前一則: 「we can have a local master and worker node」——確…",
+      "source_repo": "CLI",
+      "date": "20260820",
+      "archived_at": "2026-08-20T20:51:54Z"
     }
   ]
 }
