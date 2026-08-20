@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-20T10:33:23Z",
+  "body": "Founder real-time: 'ensure GFD web is live on okemily - link it from WOTAN' / 'live demos that are more than just demos.' Closed the exact gap the WASM build's own README flagged: Emscripten's socket emulation links the client but provides no real transport (browsers have no UDP API). Built apps2/wsudprelay -- a Go relay with one WebSocket listener per real UDP port the backend uses (matchmaker 8778 + game ports 8300-8399, matching redgarden-stable's range), blind-forwarding frames 1:1 to UDP and back, listening on the SAME port numbers so Emscripten's default ws://{host}:{port} template needs zero client-side config for the port-matching half. Verified the relay logic with a real UDP-echo-server + WebSocket-client round trip before wiring to the real backend (golang.org/x/net/websocket v0.27.0, pinned for go1.21 compat). Added websocket_proxy_pre.js (emcc --pre-js) routing through nginx's new wss:// proxy since okemily.com is HTTPS-only and browsers block insecure ws:// as mixed content. Deployed live: gfd-wsudprelay.service fronting redgarden-stable, confirmed active/stable, real WebSocket handshake verified against the live :8778 matchmaker. WASM build redeployed to /var/www/okemily/battlegrounds/ (confirmed public 200s, correct content-types). Real remaining piece, not yet live: the nginx wss:// proxy itself is written and queued (sudo-queue/18-gfd-web-websocket-proxy.sh) but not applied -- needs founder sudo before a real browser can actually complete a wss:// handshake end-to-end. Honest limitation: no headless browser in this environment, so the actual in-browser play experience (WebGL context, SDL2 input, full match flow) is unverified beyond the individual layers (relay logic, WASM serving, nginx config syntax) each independently confirmed working. Commits 36bfff0, 2e44ada.\n\n⚓ ☃",
+  "id": 14694,
+  "metadata": null,
+  "run_id": "sess-20260820-0649-a3f19d93",
+  "source_repo": "GoblinFoxDragon",
+  "title": "GFD Battlegrounds web client is genuinely live -- real WebSocket\u003c-\u003eUDP relay deployed"
+}

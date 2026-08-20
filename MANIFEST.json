@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T10:33:09Z",
+  "generated_at": "2026-08-20T10:33:23Z",
   "repo": "APPLES",
-  "count": 4159,
+  "count": 4160,
   "apples": [
     {
       "id": 10525,
@@ -33274,6 +33274,14 @@
       "source_repo": "OKEMILY",
       "date": "20260820",
       "archived_at": "2026-08-20T10:33:09Z"
+    },
+    {
+      "id": 14694,
+      "type": "completion",
+      "title": "GFD Battlegrounds web client is genuinely live -- real WebSocket\u003c-\u003eUDP relay deployed",
+      "source_repo": "GoblinFoxDragon",
+      "date": "20260820",
+      "archived_at": "2026-08-20T10:33:23Z"
     }
   ]
 }
