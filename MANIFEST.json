@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T11:53:40Z",
+  "generated_at": "2026-08-20T11:55:24Z",
   "repo": "APPLES",
-  "count": 4224,
+  "count": 4225,
   "apples": [
     {
       "id": 10525,
@@ -33794,6 +33794,14 @@
       "source_repo": "CLI",
       "date": "20260820",
       "archived_at": "2026-08-20T11:53:40Z"
+    },
+    {
+      "id": 14759,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: 'ok where are the build artifacts?' -\u003e 'for PARENA?' -\u003e 'i see a bazel bu…",
+      "source_repo": "CLI",
+      "date": "20260820",
+      "archived_at": "2026-08-20T11:55:24Z"
     }
   ]
 }
