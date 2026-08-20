@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T14:30:42Z",
+  "generated_at": "2026-08-20T14:32:43Z",
   "repo": "APPLES",
-  "count": 4284,
+  "count": 4285,
   "apples": [
     {
       "id": 10525,
@@ -34274,6 +34274,14 @@
       "source_repo": "PITVIPER",
       "date": "20260820",
       "archived_at": "2026-08-20T14:30:42Z"
+    },
+    {
+      "id": 14819,
+      "type": "signal_observation",
+      "title": "[INFO] 創辦人:「we need to build a FIRE TTS model into pitviper」→ AskUserQuestion 確認是…",
+      "source_repo": "CLI",
+      "date": "20260820",
+      "archived_at": "2026-08-20T14:32:43Z"
     }
   ]
 }
