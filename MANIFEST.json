@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T19:49:52Z",
+  "generated_at": "2026-08-20T19:54:14Z",
   "repo": "APPLES",
-  "count": 4465,
+  "count": 4466,
   "apples": [
     {
       "id": 10525,
@@ -35722,6 +35722,14 @@
       "source_repo": "CLI",
       "date": "20260820",
       "archived_at": "2026-08-20T19:49:52Z"
+    },
+    {
+      "id": 15000,
+      "type": "completion",
+      "title": "changelog(PARENA): 新增 defenum:真正的使用者自訂 tagged union(重用 Result/Option 的 {tag; v…",
+      "source_repo": "PARENA",
+      "date": "20260820",
+      "archived_at": "2026-08-20T19:54:14Z"
     }
   ]
 }
