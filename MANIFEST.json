@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T17:09:07Z",
+  "generated_at": "2026-08-20T17:09:30Z",
   "repo": "APPLES",
-  "count": 4392,
+  "count": 4393,
   "apples": [
     {
       "id": 10525,
@@ -35138,6 +35138,14 @@
       "source_repo": "emily",
       "date": "20260820",
       "archived_at": "2026-08-20T17:09:07Z"
+    },
+    {
+      "id": 14927,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time,新要求: 「wrap all the deps in parena modules」——要求把相依�…",
+      "source_repo": "CLI",
+      "date": "20260820",
+      "archived_at": "2026-08-20T17:09:30Z"
     }
   ]
 }
