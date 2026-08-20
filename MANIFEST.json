@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T17:55:36Z",
+  "generated_at": "2026-08-20T18:00:33Z",
   "repo": "APPLES",
-  "count": 4415,
+  "count": 4416,
   "apples": [
     {
       "id": 10525,
@@ -35322,6 +35322,14 @@
       "source_repo": "emily",
       "date": "20260820",
       "archived_at": "2026-08-20T17:55:36Z"
+    },
+    {
+      "id": 14950,
+      "type": "signal_observation",
+      "title": "[ERROR] Founder real-time,標記為 critical bug,明確要求立即中斷手上工作切換過去: …",
+      "source_repo": "CLI",
+      "date": "20260820",
+      "archived_at": "2026-08-20T18:00:33Z"
     }
   ]
 }
