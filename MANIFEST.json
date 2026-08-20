@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T03:39:28Z",
+  "generated_at": "2026-08-20T03:39:44Z",
   "repo": "APPLES",
-  "count": 3973,
+  "count": 3974,
   "apples": [
     {
       "id": 10525,
@@ -31786,6 +31786,14 @@
       "source_repo": "CLI",
       "date": "20260820",
       "archived_at": "2026-08-20T03:39:28Z"
+    },
+    {
+      "id": 14508,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: (ecowar continued) resource speed-up mechanic — after ~2 minutes, a cat…",
+      "source_repo": "CLI",
+      "date": "20260820",
+      "archived_at": "2026-08-20T03:39:44Z"
     }
   ]
 }
