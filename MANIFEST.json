@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T10:21:29Z",
+  "generated_at": "2026-08-20T10:26:00Z",
   "repo": "APPLES",
-  "count": 4155,
+  "count": 4156,
   "apples": [
     {
       "id": 10525,
@@ -33242,6 +33242,14 @@
       "source_repo": "CLI",
       "date": "20260820",
       "archived_at": "2026-08-20T10:21:29Z"
+    },
+    {
+      "id": 14690,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: 'fix the brawlpit build' -- concrete instruction on S188-03's queued BRAW…",
+      "source_repo": "CLI",
+      "date": "20260820",
+      "archived_at": "2026-08-20T10:26:00Z"
     }
   ]
 }
