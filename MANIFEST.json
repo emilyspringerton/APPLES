@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T16:28:18Z",
+  "generated_at": "2026-08-20T16:32:28Z",
   "repo": "APPLES",
-  "count": 4327,
+  "count": 4328,
   "apples": [
     {
       "id": 10525,
@@ -34618,6 +34618,14 @@
       "source_repo": "CLI",
       "date": "20260820",
       "archived_at": "2026-08-20T16:28:18Z"
+    },
+    {
+      "id": 14862,
+      "type": "signal_observation",
+      "title": "[WARN] Founder real-time回報真實 bug: 「ok none of my stuff for crystal/main.go is working exc…",
+      "source_repo": "CLI",
+      "date": "20260820",
+      "archived_at": "2026-08-20T16:32:28Z"
     }
   ]
 }
