@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T06:59:32Z",
+  "generated_at": "2026-08-20T06:59:41Z",
   "repo": "APPLES",
-  "count": 4080,
+  "count": 4081,
   "apples": [
     {
       "id": 10525,
@@ -32642,6 +32642,14 @@
       "source_repo": "CLI",
       "date": "20260820",
       "archived_at": "2026-08-20T06:59:32Z"
+    },
+    {
+      "id": 14615,
+      "type": "completion",
+      "title": "changelog(IDUNA): Sign every filed Apple with anchor + snowman (⚓ ☃), enforce…",
+      "source_repo": "IDUNA",
+      "date": "20260820",
+      "archived_at": "2026-08-20T06:59:41Z"
     }
   ]
 }
