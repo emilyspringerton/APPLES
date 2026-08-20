@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T20:00:36Z",
+  "generated_at": "2026-08-20T20:07:55Z",
   "repo": "APPLES",
-  "count": 4476,
+  "count": 4477,
   "apples": [
     {
       "id": 10525,
@@ -35810,6 +35810,14 @@
       "source_repo": "CLI",
       "date": "20260820",
       "archived_at": "2026-08-20T20:00:36Z"
+    },
+    {
+      "id": 15011,
+      "type": "completion",
+      "title": "changelog(PARENA): 泛用 Arena @ Region 支援(參數+回傳型別)+ 新增 pentest stdlib(nmap/Wires…",
+      "source_repo": "PARENA",
+      "date": "20260820",
+      "archived_at": "2026-08-20T20:07:55Z"
     }
   ]
 }

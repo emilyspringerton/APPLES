@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-20T20:07:55Z",
+  "body": "emit_defn() 的 has_region_marker() 把『是不是 region-scoped Arena 參數』的判斷從只認字面 :region/x keyword 擴大成也認裸符號的泛型 region 變數(Arena @ Region),回傳型別標註解析同步擴充支援 Type @ Region 這種尾巴。誠實範圍:跟既有判斷一樣只認標記存在,不對特定 region 名稱做語意處理。新增 stdlib/pentest/*(scan/pcap/webapp/wireless/crack/exploit,對應 STDLIB.md 既有設計,FFI 綁定 nmap/Wireshark/sqlmap+Nikto/Aircrack-ng/John the Ripper+Hashcat/Metasploit,EINHORN_INDUSTRIAL 自家基礎設施的已授權測試工具)。真實驗證:5/6 檔案完整編譯成功並拿真正 gcc 確認零警告(只有 pcap.prn 卡在已知、獨立的 \u0026mut Capture 參考型別參數缺口)。tests/test_emit.c 新增 4 個測試,63→69 全綠。Makefile+Bazel+ASan/UBSan+domain4 全數通過,GitHub Actions CI run 32412142784 completed success。commit d5456d1。\n\n⚓ ☃",
+  "id": 15012,
+  "metadata": null,
+  "run_id": "sess-20260820-0649-a3f19d93",
+  "source_repo": "PARENA",
+  "title": "泛用 Arena @ Region 支援 + pentest stdlib"
+}
