@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T15:58:14Z",
+  "generated_at": "2026-08-20T15:59:40Z",
   "repo": "APPLES",
-  "count": 4313,
+  "count": 4314,
   "apples": [
     {
       "id": 10525,
@@ -34506,6 +34506,14 @@
       "source_repo": "PARENA",
       "date": "20260820",
       "archived_at": "2026-08-20T15:58:14Z"
+    },
+    {
+      "id": 14848,
+      "type": "completion",
+      "title": "C emitter 加入 loop/recur,CI 確認綠燈",
+      "source_repo": "PARENA",
+      "date": "20260820",
+      "archived_at": "2026-08-20T15:59:40Z"
     }
   ]
 }

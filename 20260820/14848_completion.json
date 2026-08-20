@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-20T15:59:40Z",
+  "body": "emit_loop/emit_loop_tail:真正的 C while(1),真實同時賦值語意(recur 的每個新值先算進暫存變數,全部算完才賦值回去,swap 案例才會正確)。真實驗證:0 加到 9 的累加函式,gcc -Wall -Wextra -pedantic 零警告,ASan 下功能正確回傳 45。順手修掉函式參數的 unused warning。test_emit.c 24 個測試全過(loop/recur 升級為正向案例,match 是新的誠實負向案例)。Makefile+Bazel+ASan/UBSan+domain4 全數通過,CI 用 GitHub Actions API 確認綠燈(run 32389216575,GitHub API rate limit 短暫延遲後確認)。commit c84624e。另記錄兩個 PITVIPER 真實回報待查:WASM MUD GUI 仍是空白畫面、Claude Code 自己的 TUI 動畫在 PITVIPER 裡渲染異常(文字隨機更新)。\n\n⚓ ☃",
+  "id": 14848,
+  "metadata": null,
+  "run_id": "sess-20260820-0649-a3f19d93",
+  "source_repo": "PARENA",
+  "title": "C emitter 加入 loop/recur,CI 確認綠燈"
+}
