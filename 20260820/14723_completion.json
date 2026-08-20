@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-20T11:01:26Z",
+  "body": "Two real follow-ups to the Four Kings fix (S188-01), both from live playtesting: (1) 'i killed the purple king and couldnt even tell if i got a buff' -- same class of bug as the Kings-invisibility fix, buff state (king_music_carrier/king_growth_ms/king_wealth_ms/king_allseeing_team_ms) fully real server-side but zero wire representation. Added king_buff_flags to ArenaHeroSnapshot, populated server-side, rendered as a bottom-right buff-icon HUD client-side (per-King thematic colors, Bloodroar's real stack count shown). (2) 'the 4 kings need health bars and name tags' -- added, reusing heroes' own HP-bar idiom scaled up for boss-tier read. Both ported to GFD's battlegrounds_gui fork (commits 72b6615, 2a1ccfb) and deployed live to redgarden-stable (the actual GFD Battlegrounds backend) via the documented promotion procedure, both services confirmed active/stable post-restart. go test/build clean throughout. REDGARDEN commits 3c2f131, 546a4ca.\n\n⚓ ☃",
+  "id": 14723,
+  "metadata": null,
+  "run_id": "sess-20260820-0649-a3f19d93",
+  "source_repo": "REDGARDEN",
+  "title": "King buff HUD + King health bars/name tags -- deployed live"
+}
