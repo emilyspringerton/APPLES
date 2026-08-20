@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T11:46:25Z",
+  "generated_at": "2026-08-20T11:47:22Z",
   "repo": "APPLES",
-  "count": 4219,
+  "count": 4220,
   "apples": [
     {
       "id": 10525,
@@ -33754,6 +33754,14 @@
       "source_repo": "CLI",
       "date": "20260820",
       "archived_at": "2026-08-20T11:46:25Z"
+    },
+    {
+      "id": 14754,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time, further stdlib extension: 'and pandas build pandas into the standard libr…",
+      "source_repo": "CLI",
+      "date": "20260820",
+      "archived_at": "2026-08-20T11:47:22Z"
     }
   ]
 }
