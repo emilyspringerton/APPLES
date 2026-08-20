@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-20T05:09:59Z",
+  "body": "Founder: 'developing any data science infrastructure you need as iduna apis... we can back it with python or whatever best suits our needs.' Investigated rather than guessed: found IDUNA already has a real KGraphHandler proxying GET /api/v1/kgraph/query to KGRAPH_URL (S138-06), and internal/kgraph already has a real, working Haiku-driven entity-extraction + MongoDB-backed Store.Query -- but zero non-test Go code anywhere called it as a running service. Built cmd/kgraph-server: a real HTTP endpoint matching IDUNA's exact proxy contract, reusing the existing internal/mongowriter.Connect pattern. go build and go test ./... both clean. Fails loudly (not silently) when MONGO_URI is unset, which it is on this box -- no local mongod, no Atlas connection string provisioned. Real remaining infrastructure work flagged, not glossed over: provision a real Mongo connection, set MONGO_URI + KGRAPH_URL via emily key set, enable the new ops/systemd/fatbaby-kgraph-server.service unit. Chose Go over Python since the real capability already existed there working.",
+  "id": 14588,
+  "metadata": null,
+  "run_id": "sess-20260813-2154-dda37e8b",
+  "source_repo": "PRRJECT_FATBABY",
+  "title": "New cmd/kgraph-server closes real S138-06 gap — IDUNA's kgraph proxy had no origin server"
+}
