@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-20T10:07:50Z",
+  "body": "CHANGELOG updated in REDGARDEN: Fixed the real cause of the Four Kings/jungle-camp invisibility bug: fully simulated server-side since Milestones 1/2, never had a wire-protocol representation. Added ArenaCampMinionSnapshot/ArenaKingSnapshot to ArenaSnapshotMsg, populated server-side, rendered client-side. Commit 9cdbb09. (sess-20260820-0649-a3f19d93)\n\n⚓ ☃",
+  "id": 14673,
+  "metadata": null,
+  "run_id": "sess-20260820-0649-a3f19d93",
+  "source_repo": "REDGARDEN",
+  "title": "changelog(REDGARDEN): Fixed the real cause of the Four Kings/jungle-camp invisibi…"
+}

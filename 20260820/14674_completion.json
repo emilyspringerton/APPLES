@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-20T10:07:50Z",
+  "body": "Founder real-time: 'where are the 4 kings anywhere? i played redgarden and i played gfd battlegrounds i dont see them in either.' Investigated first (Explore agent), confirmed root cause with file:line evidence before touching code: King/camp-minion simulation has run unconditionally every match on REDGARDEN main, GFD's battlegrounds_gui fork, AND the live redgarden-stable deployment (backing GFD's :8778) since Jungle Camps Milestones 1/2 -- but packages/common/protocol.h's ArenaSnapshotMsg never had fields for camp_minions/kings, and arena_server's snapshot-fill function never populated them. Fully simulated, fully invisible on every branch. Added ArenaCampMinionSnapshot (sparse pool, pack-only-active) + ArenaKingSnapshot (always fully populated, one per camp) to the wire protocol, matching the exact existing conventions for lane creeps/node towers. Server populates both every broadcast tick; client parses + renders them (camp minions: neutral olive boxes; Kings: boss-scaled boxes in per-camp thematic colors -- gold/green/magenta/cyan for Wealth/Growth/Music/All-Seeing). Build clean, full existing test suite green. Ported the identical fix into GFD's battlegrounds_gui fork (same-session commit 81d8076) matching the established Milestone 5 porting precedent. Deployed to redgarden-stable, the actual live GFD Battlegrounds backend at :8778 -- git pull + rebuild + systemctl restart per the documented promotion procedure, both services confirmed active/stable post-restart. Honest limitation: a full live 60-second-into-match King sighting wasn't captured this session (Kings have a 60s spawn delay; corpus/match-event logs don't carry raw snapshot content, and standing up a raw UDP protocol-inspection client was out of scope for the time available) -- confidence rests on build+test-green plus exact pattern-matching against proven identical serialization idioms, not a literal observed King. REDGARDEN commit 9cdbb09.\n\n⚓ ☃",
+  "id": 14674,
+  "metadata": null,
+  "run_id": "sess-20260820-0649-a3f19d93",
+  "source_repo": "REDGARDEN",
+  "title": "Four Kings invisibility bug: fixed, a wire-protocol gap not a deploy or docs issue"
+}

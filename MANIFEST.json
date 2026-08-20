@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T10:02:13Z",
+  "generated_at": "2026-08-20T10:07:50Z",
   "repo": "APPLES",
-  "count": 4138,
+  "count": 4139,
   "apples": [
     {
       "id": 10525,
@@ -33106,6 +33106,14 @@
       "source_repo": "CLI",
       "date": "20260820",
       "archived_at": "2026-08-20T10:02:13Z"
+    },
+    {
+      "id": 14673,
+      "type": "completion",
+      "title": "changelog(REDGARDEN): Fixed the real cause of the Four Kings/jungle-camp invisibi…",
+      "source_repo": "REDGARDEN",
+      "date": "20260820",
+      "archived_at": "2026-08-20T10:07:50Z"
     }
   ]
 }
