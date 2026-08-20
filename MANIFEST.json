@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T21:29:15Z",
+  "generated_at": "2026-08-20T21:30:47Z",
   "repo": "APPLES",
-  "count": 4568,
+  "count": 4569,
   "apples": [
     {
       "id": 10525,
@@ -36546,6 +36546,14 @@
       "source_repo": "EMILY",
       "date": "20260820",
       "archived_at": "2026-08-20T21:29:15Z"
+    },
+    {
+      "id": 15103,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: 「sudo scripts 19 and 20 ran」——已驗證兩者真的成功(dpkg ��…",
+      "source_repo": "CLI",
+      "date": "20260820",
+      "archived_at": "2026-08-20T21:30:47Z"
     }
   ]
 }
