@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T18:00:33Z",
+  "generated_at": "2026-08-20T18:09:05Z",
   "repo": "APPLES",
-  "count": 4416,
+  "count": 4417,
   "apples": [
     {
       "id": 10525,
@@ -35330,6 +35330,14 @@
       "source_repo": "CLI",
       "date": "20260820",
       "archived_at": "2026-08-20T18:00:33Z"
+    },
+    {
+      "id": 14951,
+      "type": "completion",
+      "title": "changelog(PITVIPER): 修復中鍵貼上(middle-click paste)只讀內部 lastSelected 導致貼出過期內容的 criti…",
+      "source_repo": "PITVIPER",
+      "date": "20260820",
+      "archived_at": "2026-08-20T18:09:05Z"
     }
   ]
 }

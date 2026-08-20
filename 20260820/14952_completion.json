@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-20T18:09:05Z",
+  "body": "創辦人即時回報 critical bug:中鍵貼上(middle-click paste)只讀 PITVIPER 內部的 lastSelected 變數,這個變數只有在 PITVIPER 自己完成一次 drag-select 之後才會更新,任何透過其他途徑寫進真正 OS 剪貼簿的內容都不會同步進 lastSelected,導致中鍵貼上可能貼出過期的內部選取內容(即使真正的 OS 剪貼簿、Ctrl+Shift+V、貼到其他程式如 Notepad 早就是最新內容)。修復:中鍵貼上改成優先讀真正的 OS 剪貼簿(sdl.GetClipboardText),只有讀取失敗或剪貼簿是空的時候才退回讀 lastSelected。驗證:SDL2_ttf 本環境未安裝,用既有暫時 stub 手法(暫時替換 internal/font/shiny.go、emoji.go 為 no-op,跑完後照原樣還原,git diff 確認除了 main.go 沒有其他變動)確認 go build ./... 全乾淨、go vet ./... 只剩一個既有無關的警告、go test ./... 全過。GitHub Actions CI run 32401074345 completed success。commit 254fb39。創辦人明確要求打破稍早的『everything as a mod,不開特例』政策,即時直接修 Go 原始碼。\n\n⚓ ☃",
+  "id": 14952,
+  "metadata": null,
+  "run_id": "sess-20260820-0649-a3f19d93",
+  "source_repo": "PITVIPER",
+  "title": "critical fix: 中鍵貼上讀取過期內容"
+}

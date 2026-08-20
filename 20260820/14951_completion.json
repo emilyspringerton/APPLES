@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-20T18:09:05Z",
+  "body": "CHANGELOG updated in PITVIPER: 修復中鍵貼上(middle-click paste)只讀內部 lastSelected 導致貼出過期內容的 critical bug,改成優先讀真正的 OS 剪貼簿,只有讀取失敗/空的時候才退回 lastSelected;CI 綠燈 (commit 254fb39) (sess-20260820-0649-a3f19d93)\n\n⚓ ☃",
+  "id": 14951,
+  "metadata": null,
+  "run_id": "sess-20260820-0649-a3f19d93",
+  "source_repo": "PITVIPER",
+  "title": "changelog(PITVIPER): 修復中鍵貼上(middle-click paste)只讀內部 lastSelected 導致貼出過期內容的 criti…"
+}
