@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T03:57:24Z",
+  "generated_at": "2026-08-20T03:57:29Z",
   "repo": "APPLES",
-  "count": 4001,
+  "count": 4002,
   "apples": [
     {
       "id": 10525,
@@ -32010,6 +32010,14 @@
       "source_repo": "emily",
       "date": "20260820",
       "archived_at": "2026-08-20T03:57:24Z"
+    },
+    {
+      "id": 14536,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: (HUD config interface continued) founder thinks the underlying plumbing f…",
+      "source_repo": "CLI",
+      "date": "20260820",
+      "archived_at": "2026-08-20T03:57:29Z"
     }
   ]
 }
