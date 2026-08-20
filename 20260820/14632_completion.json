@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-20T07:20:33Z",
+  "body": "Founder real-time S187-02: PITVIPER needed to be a real installable client on Windows (matching SHANKPIT/GFD/REDGARDEN), with SSH working, copy/paste working, and a full README. Two real gaps closed: (1) cmd/pitviper/main.go was gated linux-only despite having zero Linux-specific code -- widened to (linux||windows)\u0026\u0026cgo. (2) internal/pty had no Windows implementation at all -- new pty_windows.go wraps ConPTY (CreatePseudoConsole) behind the same PTY.Master/.Resize()/.Close() shape pty_linux.go exposes. Shell resolution on Windows: $SHELL -\u003e Git Bash's bash.exe -\u003e cmd.exe fallback, per founder's 'git bash figures it out.' New: mouse-drag selection with live highlight, copy-on-release, Ctrl+Shift+C/V (avoids colliding with real shell Ctrl+C/V), middle-click paste (PITVIPER's own last-selection buffer -- documented honestly as not real OS primary-selection, since Windows has no equivalent to hook into, and explicitly NOT the only paste path per founder's 'it better not be the only way'). README fully rewritten: Windows build mechanics (ConPTY vs POSIX PTY, why MSYS2/MinGW64 not cross-compilation, why exe+DLLs+bat not one static binary), full keybinding table, brief philosophy section grounded in docs/NORTHSTAR.md. Verified live via Xvfb+XTest (real mouse drag + key events): selection highlight renders correctly, Ctrl+Shift+V pastes real copied text, Ctrl+C still interrupts with no collision, middle-click paste works. Verified via real CI run (not just local compile): both 'Test, Build \u0026 Construct' (Linux) and 'Build Windows Binary' (windows-latest/MSYS2) jobs green on commit a8d5014, run 32343167493 -- the Windows job was failing before this change. go test ./... green. Commit a8d5014.\n\n⚓ ☃",
+  "id": 14632,
+  "metadata": null,
+  "run_id": "sess-20260820-0649-a3f19d93",
+  "source_repo": "PITVIPER",
+  "title": "PITVIPER Windows build passing + mouse selection/clipboard + README refresh"
+}
