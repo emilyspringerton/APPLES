@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T20:18:40Z",
+  "generated_at": "2026-08-20T20:18:50Z",
   "repo": "APPLES",
-  "count": 4499,
+  "count": 4500,
   "apples": [
     {
       "id": 10525,
@@ -35994,6 +35994,14 @@
       "source_repo": "CLI",
       "date": "20260820",
       "archived_at": "2026-08-20T20:18:40Z"
+    },
+    {
+      "id": 15034,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time,新指示: 「sstart working on PARENA cli」——要求開始做 PARENA …",
+      "source_repo": "CLI",
+      "date": "20260820",
+      "archived_at": "2026-08-20T20:18:50Z"
     }
   ]
 }
