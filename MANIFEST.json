@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T03:06:35Z",
+  "generated_at": "2026-08-20T03:06:36Z",
   "repo": "APPLES",
-  "count": 3938,
+  "count": 3939,
   "apples": [
     {
       "id": 10525,
@@ -31506,6 +31506,14 @@
       "source_repo": "BRAWLPIT",
       "date": "20260820",
       "archived_at": "2026-08-20T03:06:35Z"
+    },
+    {
+      "id": 14473,
+      "type": "completion",
+      "title": "changelog(BRAWLPIT): Fixed a real fallthrough bug: Raccoon's dash-on-cooldown st…",
+      "source_repo": "BRAWLPIT",
+      "date": "20260820",
+      "archived_at": "2026-08-20T03:06:36Z"
     }
   ]
 }
