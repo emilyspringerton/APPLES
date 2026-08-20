@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T11:47:22Z",
+  "generated_at": "2026-08-20T11:50:37Z",
   "repo": "APPLES",
-  "count": 4220,
+  "count": 4221,
   "apples": [
     {
       "id": 10525,
@@ -33762,6 +33762,14 @@
       "source_repo": "CLI",
       "date": "20260820",
       "archived_at": "2026-08-20T11:47:22Z"
+    },
+    {
+      "id": 14755,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: 'add any more stdlib you can think of that would be needed to port gpt2al…",
+      "source_repo": "CLI",
+      "date": "20260820",
+      "archived_at": "2026-08-20T11:50:37Z"
     }
   ]
 }
