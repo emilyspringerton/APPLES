@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T12:01:21Z",
+  "generated_at": "2026-08-20T12:03:19Z",
   "repo": "APPLES",
-  "count": 4230,
+  "count": 4231,
   "apples": [
     {
       "id": 10525,
@@ -33842,6 +33842,14 @@
       "source_repo": "PARENA",
       "date": "20260820",
       "archived_at": "2026-08-20T12:01:21Z"
+    },
+    {
+      "id": 14765,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: PARENA STDLIB — \"do any remaining dependency planning.\" Concrete gap: e…",
+      "source_repo": "CLI",
+      "date": "20260820",
+      "archived_at": "2026-08-20T12:03:19Z"
     }
   ]
 }
