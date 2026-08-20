@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T12:29:10Z",
+  "generated_at": "2026-08-20T12:32:47Z",
   "repo": "APPLES",
-  "count": 4242,
+  "count": 4243,
   "apples": [
     {
       "id": 10525,
@@ -33938,6 +33938,14 @@
       "source_repo": "CLI",
       "date": "20260820",
       "archived_at": "2026-08-20T12:29:10Z"
+    },
+    {
+      "id": 14777,
+      "type": "completion",
+      "title": "changelog(PARENA): 標準函式庫大量擴充:regex 全引擎家族、grep/sed/awk、vec/map、net tcp/udp/http…",
+      "source_repo": "PARENA",
+      "date": "20260820",
+      "archived_at": "2026-08-20T12:32:47Z"
     }
   ]
 }
