@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T18:25:18Z",
+  "generated_at": "2026-08-20T18:25:20Z",
   "repo": "APPLES",
-  "count": 4425,
+  "count": 4426,
   "apples": [
     {
       "id": 10525,
@@ -35402,6 +35402,14 @@
       "source_repo": "PARENA",
       "date": "20260820",
       "archived_at": "2026-08-20T18:25:18Z"
+    },
+    {
+      "id": 14960,
+      "type": "completion",
+      "title": "editor_plugin.prn 進 examples/ + Bazel 編譯驗證",
+      "source_repo": "PARENA",
+      "date": "20260820",
+      "archived_at": "2026-08-20T18:25:20Z"
     }
   ]
 }
