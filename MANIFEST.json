@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T21:33:40Z",
+  "generated_at": "2026-08-20T21:37:44Z",
   "repo": "APPLES",
-  "count": 4574,
+  "count": 4575,
   "apples": [
     {
       "id": 10525,
@@ -36594,6 +36594,14 @@
       "source_repo": "PARENA",
       "date": "20260820",
       "archived_at": "2026-08-20T21:33:40Z"
+    },
+    {
+      "id": 15109,
+      "type": "completion",
+      "title": "根治 Antigravity CLI 無法登入的真正 root cause(DBUS_SESSION_BUS_ADDRESS 指向 root 的 runtime dir)",
+      "source_repo": "EMILY",
+      "date": "20260820",
+      "archived_at": "2026-08-20T21:37:44Z"
     }
   ]
 }

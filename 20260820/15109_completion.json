@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-20T21:37:44Z",
+  "body": "創辦人持續追問「i really need to get antigravity ai working」/「but seriously also i need antigravity cli」,深入查證 agy 自己的真實 log(~/.gemini/antigravity-cli/log/cli-*.log)找到真正 root cause,不是單純的『需要互動登入』表面現象:這台機器的 shell 環境 XDG_RUNTIME_DIR 被設成 /run/user/0(root 的 runtime dir),DBUS_SESSION_BUS_ADDRESS 也獨立釘死在 unix:path=/run/user/0/bus——但實際登入的是 fatbaby(uid 1000),導致 agy 的 keyring token storage 每次都撞到「dial unix /run/user/0/bus: connect: permission denied」,退回 file-based token store 後仍持續回報「You are not logged into Antigravity」。fatbaby 自己真實、可存取的 session bus 其實好好地在 /run/user/1000/bus(已確認存在、uid 正確)。已在 start_antigravity.sh 加上正確覆寫兩個環境變數,實測後 log 裡的 dbus permission-denied 錯誤已經完全消失(重新執行後 grep 該錯誤 0 筆命中)。誠實記錄:這修掉的是造成登入狀態一直存不住的底層環境 bug,但登入本身仍需要創辦人在自己可控的終端機互動完成一次全新的 OAuth 流程(之前在壞掉的環境下嘗試的登入很可能沒有真正寫入,需要重來一次)。\n\n⚓ ☃",
+  "id": 15109,
+  "metadata": null,
+  "run_id": "sess-20260820-0649-a3f19d93",
+  "source_repo": "EMILY",
+  "title": "根治 Antigravity CLI 無法登入的真正 root cause(DBUS_SESSION_BUS_ADDRESS 指向 root 的 runtime dir)"
+}
