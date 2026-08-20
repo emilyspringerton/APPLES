@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T07:05:05Z",
+  "generated_at": "2026-08-20T07:09:12Z",
   "repo": "APPLES",
-  "count": 4089,
+  "count": 4090,
   "apples": [
     {
       "id": 10525,
@@ -32714,6 +32714,14 @@
       "source_repo": "CLI",
       "date": "20260820",
       "archived_at": "2026-08-20T07:05:05Z"
+    },
+    {
+      "id": 14624,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time question: does MJOLNIR have SSH capabilities? Logged per Principle 18, che…",
+      "source_repo": "CLI",
+      "date": "20260820",
+      "archived_at": "2026-08-20T07:09:12Z"
     }
   ]
 }
