@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T13:24:54Z",
+  "generated_at": "2026-08-20T13:25:03Z",
   "repo": "APPLES",
-  "count": 4260,
+  "count": 4261,
   "apples": [
     {
       "id": 10525,
@@ -34082,6 +34082,14 @@
       "source_repo": "PITVIPER",
       "date": "20260820",
       "archived_at": "2026-08-20T13:24:54Z"
+    },
+    {
+      "id": 14795,
+      "type": "completion",
+      "title": "mapbuilder+world、pty/shell/ssh/crypto、gfd/browser 標準函式庫擴建",
+      "source_repo": "PARENA",
+      "date": "20260820",
+      "archived_at": "2026-08-20T13:25:03Z"
     }
   ]
 }

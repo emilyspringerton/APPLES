@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-20T13:25:02Z",
+  "body": "mapbuilder/tools(真實完整實作,直接類推 PITVIPER mouse-drag-selection)+ layout(constraint-based auto-layout 設計)+ template(prefab 實例化設計)+ world(真實 Terrain/PlacedObject,依 SHANKPIT/GoblinFoxDragon 真實結構)。pty/shell(真實完整實作,直接對應 PITVIPER isWslStub/findGitBash)/ssh/crypto(hash/aes/ed25519,FFI 綁定真實函式庫)。gfd/browser(FFI 綁定真實 CEF 等級 embeddable engine,誠實安全考量已寫明)。NORTHSTAR 加入 V8 JIT 長期構想。commits 66b41d3..cc442e9。\n\n⚓ ☃",
+  "id": 14795,
+  "metadata": null,
+  "run_id": "sess-20260820-0649-a3f19d93",
+  "source_repo": "PARENA",
+  "title": "mapbuilder+world、pty/shell/ssh/crypto、gfd/browser 標準函式庫擴建"
+}
