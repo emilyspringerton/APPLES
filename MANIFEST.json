@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T16:52:31Z",
+  "generated_at": "2026-08-20T16:52:45Z",
   "repo": "APPLES",
-  "count": 4367,
+  "count": 4368,
   "apples": [
     {
       "id": 10525,
@@ -34938,6 +34938,14 @@
       "source_repo": "CLI",
       "date": "20260820",
       "archived_at": "2026-08-20T16:52:31Z"
+    },
+    {
+      "id": 14902,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time,把先前針對 vterm/ncurses 修復的『make it a mod』指示,擴大成…",
+      "source_repo": "CLI",
+      "date": "20260820",
+      "archived_at": "2026-08-20T16:52:45Z"
     }
   ]
 }
