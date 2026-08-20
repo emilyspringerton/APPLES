@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T11:59:10Z",
+  "generated_at": "2026-08-20T12:00:59Z",
   "repo": "APPLES",
-  "count": 4227,
+  "count": 4228,
   "apples": [
     {
       "id": 10525,
@@ -33818,6 +33818,14 @@
       "source_repo": "CLI",
       "date": "20260820",
       "archived_at": "2026-08-20T11:59:10Z"
+    },
+    {
+      "id": 14762,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: PARENA regex should span multiple engine packages (regex/nfa linear-guara…",
+      "source_repo": "CLI",
+      "date": "20260820",
+      "archived_at": "2026-08-20T12:00:59Z"
     }
   ]
 }
