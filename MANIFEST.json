@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T14:30:27Z",
+  "generated_at": "2026-08-20T14:30:40Z",
   "repo": "APPLES",
-  "count": 4282,
+  "count": 4283,
   "apples": [
     {
       "id": 10525,
@@ -34258,6 +34258,14 @@
       "source_repo": "PITVIPER",
       "date": "20260820",
       "archived_at": "2026-08-20T14:30:27Z"
+    },
+    {
+      "id": 14817,
+      "type": "completion",
+      "title": "VS0 domain 4 完成 + CI 自我修復;pitviper/protocol、compress/lz4、profile、staticanalysis、git 五個新套件",
+      "source_repo": "PARENA",
+      "date": "20260820",
+      "archived_at": "2026-08-20T14:30:40Z"
     }
   ]
 }

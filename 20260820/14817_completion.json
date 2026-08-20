@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-20T14:30:40Z",
+  "body": "domain 4:tests/integration/(driver_valid_only.c、deliberately_broken.c、run_domain4_check.sh)真實兩層驗證(happy path 乾淨、反例真的被抓到)。真實 CI 壞掉又修好:check 3 重用了 ASan 物件檔導致連結失敗(undefined reference to __asan_init 等),已本地重現確認根因、修好、CI 用 GitHub API 直接確認轉綠(run 32379966809 之後)。新套件:pitviper/protocol+compress/lz4(呼應「lz4ify the fuck out of everything」的完整遠端 IDE 協定設計)、profile(FFI 綁定 perf_event_open/callgrind,heap-snapshot 是原生的)、staticanalysis(FFI 綁定 clang-tidy/cppcheck)、git(包裝真實 git CLI)。commits 4efcf91..542f79d。\n\n⚓ ☃",
+  "id": 14817,
+  "metadata": null,
+  "run_id": "sess-20260820-0649-a3f19d93",
+  "source_repo": "PARENA",
+  "title": "VS0 domain 4 完成 + CI 自我修復;pitviper/protocol、compress/lz4、profile、staticanalysis、git 五個新套件"
+}
