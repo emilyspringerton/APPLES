@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T14:53:25Z",
+  "generated_at": "2026-08-20T14:54:54Z",
   "repo": "APPLES",
-  "count": 4298,
+  "count": 4299,
   "apples": [
     {
       "id": 10525,
@@ -34386,6 +34386,14 @@
       "source_repo": "CLI",
       "date": "20260820",
       "archived_at": "2026-08-20T14:53:25Z"
+    },
+    {
+      "id": 14833,
+      "type": "signal_observation",
+      "title": "[INFO] Google Cloud Shell API 已在 project-d24a71e9-2daf-4b2d-917 上啟用(gcloud services enabl…",
+      "source_repo": "CLI",
+      "date": "20260820",
+      "archived_at": "2026-08-20T14:54:54Z"
     }
   ]
 }
