@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T03:36:58Z",
+  "generated_at": "2026-08-20T03:37:02Z",
   "repo": "APPLES",
-  "count": 3970,
+  "count": 3971,
   "apples": [
     {
       "id": 10525,
@@ -31762,6 +31762,14 @@
       "source_repo": "CLI",
       "date": "20260820",
       "archived_at": "2026-08-20T03:36:58Z"
+    },
+    {
+      "id": 14505,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: (context note) simple tower models already exist in the codebase — rele…",
+      "source_repo": "CLI",
+      "date": "20260820",
+      "archived_at": "2026-08-20T03:37:02Z"
     }
   ]
 }
