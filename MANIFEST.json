@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T12:15:16Z",
+  "generated_at": "2026-08-20T12:22:24Z",
   "repo": "APPLES",
-  "count": 4238,
+  "count": 4239,
   "apples": [
     {
       "id": 10525,
@@ -33906,6 +33906,14 @@
       "source_repo": "CLI",
       "date": "20260820",
       "archived_at": "2026-08-20T12:15:16Z"
+    },
+    {
+      "id": 14773,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: resolves NORTHSTAR's own previously-open 'editor shell: Electron/Tauri/GT…",
+      "source_repo": "CLI",
+      "date": "20260820",
+      "archived_at": "2026-08-20T12:22:24Z"
     }
   ]
 }
