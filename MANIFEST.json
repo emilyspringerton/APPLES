@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T07:09:55Z",
+  "generated_at": "2026-08-20T07:10:09Z",
   "repo": "APPLES",
-  "count": 4093,
+  "count": 4094,
   "apples": [
     {
       "id": 10525,
@@ -32746,6 +32746,14 @@
       "source_repo": "CLI",
       "date": "20260820",
       "archived_at": "2026-08-20T07:09:55Z"
+    },
+    {
+      "id": 14628,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: 'oh that was on a different gcp i think' -- the Firebase console setup ma…",
+      "source_repo": "CLI",
+      "date": "20260820",
+      "archived_at": "2026-08-20T07:10:09Z"
     }
   ]
 }
