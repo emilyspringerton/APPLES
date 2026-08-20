@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T20:31:09Z",
+  "generated_at": "2026-08-20T20:31:32Z",
   "repo": "APPLES",
-  "count": 4525,
+  "count": 4526,
   "apples": [
     {
       "id": 10525,
@@ -36202,6 +36202,14 @@
       "source_repo": "CLI",
       "date": "20260820",
       "archived_at": "2026-08-20T20:31:09Z"
+    },
+    {
+      "id": 15060,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time,查證完成: 「build the longma functionality into the PARENA stdlibs」…",
+      "source_repo": "CLI",
+      "date": "20260820",
+      "archived_at": "2026-08-20T20:31:32Z"
     }
   ]
 }
