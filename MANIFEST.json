@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T10:07:52Z",
+  "generated_at": "2026-08-20T10:07:59Z",
   "repo": "APPLES",
-  "count": 4140,
+  "count": 4141,
   "apples": [
     {
       "id": 10525,
@@ -33122,6 +33122,14 @@
       "source_repo": "REDGARDEN",
       "date": "20260820",
       "archived_at": "2026-08-20T10:07:52Z"
+    },
+    {
+      "id": 14675,
+      "type": "completion",
+      "title": "changelog(GoblinFoxDragon): Ported REDGARDEN's Four Kings/jungle-camp wire-protocol fix…",
+      "source_repo": "GoblinFoxDragon",
+      "date": "20260820",
+      "archived_at": "2026-08-20T10:07:59Z"
     }
   ]
 }

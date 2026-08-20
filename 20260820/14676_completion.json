@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-20T10:07:59Z",
+  "body": "Same investigation/fix as REDGARDEN Apple #14674 -- battlegrounds_gui's own arena_game.c already had verbatim King simulation logic (confirmed by this session's own investigation) but the same wire-protocol gap. Ported protocol.h verbatim (was already byte-identical elsewhere) and patched src/main.c's snapshot-parse + render loops with the same logic REDGARDEN's apps/arena client got, adapted to this file's own line offsets. gcc -fsyntax-only clean; full mingw cross-compile (this fork's real CI target) pending CI confirmation, not verified locally (no mingw-w64 toolchain on this box). Commit 81d8076.\n\n⚓ ☃",
+  "id": 14676,
+  "metadata": null,
+  "run_id": "sess-20260820-0649-a3f19d93",
+  "source_repo": "GoblinFoxDragon",
+  "title": "Four Kings fix ported into battlegrounds_gui"
+}

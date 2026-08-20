@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-20T10:07:59Z",
+  "body": "CHANGELOG updated in GoblinFoxDragon: Ported REDGARDEN's Four Kings/jungle-camp wire-protocol fix into apps2/battlegrounds_gui (commit 81d8076) -- same root cause (fully simulated server-side, never serialized/rendered), same fix, matching Milestone 5's porting precedent. (sess-20260820-0649-a3f19d93)\n\n⚓ ☃",
+  "id": 14675,
+  "metadata": null,
+  "run_id": "sess-20260820-0649-a3f19d93",
+  "source_repo": "GoblinFoxDragon",
+  "title": "changelog(GoblinFoxDragon): Ported REDGARDEN's Four Kings/jungle-camp wire-protocol fix…"
+}
