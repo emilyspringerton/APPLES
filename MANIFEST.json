@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T11:14:12Z",
+  "generated_at": "2026-08-20T11:14:14Z",
   "repo": "APPLES",
-  "count": 4197,
+  "count": 4198,
   "apples": [
     {
       "id": 10525,
@@ -33578,6 +33578,14 @@
       "source_repo": "PARENA",
       "date": "20260820",
       "archived_at": "2026-08-20T11:14:12Z"
+    },
+    {
+      "id": 14732,
+      "type": "completion",
+      "title": "VS0 lexer + parser implemented and CI-verified",
+      "source_repo": "PARENA",
+      "date": "20260820",
+      "archived_at": "2026-08-20T11:14:14Z"
     }
   ]
 }
