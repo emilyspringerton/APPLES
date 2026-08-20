@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T16:32:30Z",
+  "generated_at": "2026-08-20T16:32:38Z",
   "repo": "APPLES",
-  "count": 4329,
+  "count": 4330,
   "apples": [
     {
       "id": 10525,
@@ -34634,6 +34634,14 @@
       "source_repo": "CLI",
       "date": "20260820",
       "archived_at": "2026-08-20T16:32:30Z"
+    },
+    {
+      "id": 14864,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time,新問題(能力詢問): 「are you able to use your magic gcloud context …",
+      "source_repo": "CLI",
+      "date": "20260820",
+      "archived_at": "2026-08-20T16:32:38Z"
     }
   ]
 }
