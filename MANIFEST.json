@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T20:33:03Z",
+  "generated_at": "2026-08-20T20:38:08Z",
   "repo": "APPLES",
-  "count": 4530,
+  "count": 4531,
   "apples": [
     {
       "id": 10525,
@@ -36242,6 +36242,14 @@
       "source_repo": "CLI",
       "date": "20260820",
       "archived_at": "2026-08-20T20:33:03Z"
+    },
+    {
+      "id": 15065,
+      "type": "completion",
+      "title": "changelog(PARENA): resolve_declared_type 支援 Bool/F64,修好 parena_runtime.h 缺少的 O…",
+      "source_repo": "PARENA",
+      "date": "20260820",
+      "archived_at": "2026-08-20T20:38:08Z"
     }
   ]
 }

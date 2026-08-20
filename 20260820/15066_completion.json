@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-20T20:38:08Z",
+  "body": "resolve_declared_type() 新增 Bool(→int)/F64(→double),STDLIB.md 缺口盤點 S189-47 第 8 項(最小、最機械式)。stdlib/gfd.prn 整個檔案現在完整編譯成功。真實踩坑:拿真正 gcc 編譯 gfd.prn 產生的 C 才發現 6 個 stdlib 檔案(gfd/thread/io/sdl2/editor-buffer/pentest-pcap,18 個呼叫點)的 #target inline-c 內容都假設有 OK/ERR 裸巨集,但 parena_runtime.h 從沒定義過——parena build 自己不驗證 inline-c 內容,不會抓到這個。修法:parena_runtime.h 補上 #define OK (result_ok(NULL)) / #define ERR (result_err(NULL))。tests/test_emit.c 新增 8 個測試,81→89 全綠。Makefile+Bazel+ASan/UBSan+domain4/5 全數通過,CI run 32414976078 completed success。commit c9fc3b5。\n\n⚓ ☃",
+  "id": 15066,
+  "metadata": null,
+  "run_id": "sess-20260820-0649-a3f19d93",
+  "source_repo": "PARENA",
+  "title": "Bool/F64 型別 + 修好 runtime OK/ERR 巨集缺口"
+}
