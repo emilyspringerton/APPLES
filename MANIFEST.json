@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T03:33:41Z",
+  "generated_at": "2026-08-20T03:35:30Z",
   "repo": "APPLES",
-  "count": 3961,
+  "count": 3962,
   "apples": [
     {
       "id": 10525,
@@ -31690,6 +31690,14 @@
       "source_repo": "CLI",
       "date": "20260820",
       "archived_at": "2026-08-20T03:33:41Z"
+    },
+    {
+      "id": 14496,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: (ecowar cards continued) Prompt-o-verse-style selection algo for card pac…",
+      "source_repo": "CLI",
+      "date": "20260820",
+      "archived_at": "2026-08-20T03:35:30Z"
     }
   ]
 }
