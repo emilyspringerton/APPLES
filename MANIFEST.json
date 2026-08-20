@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T16:59:19Z",
+  "generated_at": "2026-08-20T17:03:10Z",
   "repo": "APPLES",
-  "count": 4382,
+  "count": 4383,
   "apples": [
     {
       "id": 10525,
@@ -35058,6 +35058,14 @@
       "source_repo": "CLI",
       "date": "20260820",
       "archived_at": "2026-08-20T16:59:19Z"
+    },
+    {
+      "id": 14917,
+      "type": "completion",
+      "title": "changelog(PARENA): emit_defn 支援不帶 region 標註的純 I32/String 參數,對應 stdlib/editor/u…",
+      "source_repo": "PARENA",
+      "date": "20260820",
+      "archived_at": "2026-08-20T17:03:10Z"
     }
   ]
 }

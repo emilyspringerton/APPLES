@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-20T17:03:10Z",
+  "body": "擴充 emit_defn() 參數迴圈:找不到 region keyword 時,先檢查是否是 (name : I32)/(name : String) 這種純值型別參數(stdlib/editor/ui.prn 的 set-gutter-marker/show-popup 真實會用到的形狀),符合則綁定成真正的 C 值(int/char*)而非 Arena*。其餘情況(自訂具名型別、裸符號泛型 region 變數)維持誠實失敗。tests/test_emit.c 新增 6 個測試,41→47 全綠。用真實 stdlib/editor/ui.prn 驗證 set-gutter-marker 完整編譯成功;stdlib/pitviper/protocol.prn 的 serve 參數也編譯成功,卡在函式主體內一個獨立、已知的既有限制(match 一般函式呼叫的推論型別 void*)。Makefile+Bazel+ASan/UBSan+domain4 全數通過,GitHub Actions CI run 32395113988 completed success。commit cf14d96。\n\n⚓ ☃",
+  "id": 14918,
+  "metadata": null,
+  "run_id": "sess-20260820-0649-a3f19d93",
+  "source_repo": "PARENA",
+  "title": "emit_defn:純 I32/String 參數支援"
+}
