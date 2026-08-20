@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T16:41:22Z",
+  "generated_at": "2026-08-20T16:41:45Z",
   "repo": "APPLES",
-  "count": 4348,
+  "count": 4349,
   "apples": [
     {
       "id": 10525,
@@ -34786,6 +34786,14 @@
       "source_repo": "CLI",
       "date": "20260820",
       "archived_at": "2026-08-20T16:41:22Z"
+    },
+    {
+      "id": 14883,
+      "type": "signal_observation",
+      "title": "[ERROR] Founder real-time回報,可能是即時阻斷性問題: 「i tried to expand the screen and…",
+      "source_repo": "CLI",
+      "date": "20260820",
+      "archived_at": "2026-08-20T16:41:45Z"
     }
   ]
 }
