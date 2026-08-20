@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T03:36:45Z",
+  "generated_at": "2026-08-20T03:36:47Z",
   "repo": "APPLES",
-  "count": 3967,
+  "count": 3968,
   "apples": [
     {
       "id": 10525,
@@ -31738,6 +31738,14 @@
       "source_repo": "EMILY",
       "date": "20260820",
       "archived_at": "2026-08-20T03:36:45Z"
+    },
+    {
+      "id": 14502,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: use the Prompt-o-verse pipeline to generate reference art wherever needed…",
+      "source_repo": "CLI",
+      "date": "20260820",
+      "archived_at": "2026-08-20T03:36:47Z"
     }
   ]
 }
