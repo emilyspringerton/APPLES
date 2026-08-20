@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-20T11:52:25Z",
+  "body": "CHANGELOG updated in PARENA: Migrated to Bazel as primary build system (bazelisk installed, MODULE.bazel/BUILD.bazel/.bazelrc with a real --config=asan, CI updated, verified green). Extended stdlib design: dataframe (pandas-equivalent), nn/tokenizer/sort + io/read-floats (grounded in porting the real gpt2-alpine-c source). (sess-20260820-0649-a3f19d93)\n\n⚓ ☃",
+  "id": 14756,
+  "metadata": null,
+  "run_id": "sess-20260820-0649-a3f19d93",
+  "source_repo": "PARENA",
+  "title": "changelog(PARENA): Migrated to Bazel as primary build system (bazelisk install…"
+}

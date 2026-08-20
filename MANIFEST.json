@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T11:50:37Z",
+  "generated_at": "2026-08-20T11:52:25Z",
   "repo": "APPLES",
-  "count": 4221,
+  "count": 4222,
   "apples": [
     {
       "id": 10525,
@@ -33770,6 +33770,14 @@
       "source_repo": "CLI",
       "date": "20260820",
       "archived_at": "2026-08-20T11:50:37Z"
+    },
+    {
+      "id": 14756,
+      "type": "completion",
+      "title": "changelog(PARENA): Migrated to Bazel as primary build system (bazelisk install…",
+      "source_repo": "PARENA",
+      "date": "20260820",
+      "archived_at": "2026-08-20T11:52:25Z"
     }
   ]
 }
