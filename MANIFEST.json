@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T10:44:11Z",
+  "generated_at": "2026-08-20T10:44:52Z",
   "repo": "APPLES",
-  "count": 4170,
+  "count": 4171,
   "apples": [
     {
       "id": 10525,
@@ -33362,6 +33362,14 @@
       "source_repo": "CLI",
       "date": "20260820",
       "archived_at": "2026-08-20T10:44:11Z"
+    },
+    {
+      "id": 14705,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time, ping-system design refinement, ties into an EXISTING built system: 'and e…",
+      "source_repo": "CLI",
+      "date": "20260820",
+      "archived_at": "2026-08-20T10:44:52Z"
     }
   ]
 }
