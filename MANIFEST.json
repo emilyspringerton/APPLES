@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T20:18:29Z",
+  "generated_at": "2026-08-20T20:18:40Z",
   "repo": "APPLES",
-  "count": 4498,
+  "count": 4499,
   "apples": [
     {
       "id": 10525,
@@ -35986,6 +35986,14 @@
       "source_repo": "CLI",
       "date": "20260820",
       "archived_at": "2026-08-20T20:18:29Z"
+    },
+    {
+      "id": 15033,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: 「make sure we are using our BDD library for test」——重申測試��…",
+      "source_repo": "CLI",
+      "date": "20260820",
+      "archived_at": "2026-08-20T20:18:40Z"
     }
   ]
 }
