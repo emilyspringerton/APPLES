@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T23:38:20Z",
+  "generated_at": "2026-08-20T23:38:22Z",
   "repo": "APPLES",
-  "count": 4596,
+  "count": 4597,
   "apples": [
     {
       "id": 10525,
@@ -36770,6 +36770,14 @@
       "source_repo": "PARENA",
       "date": "20260820",
       "archived_at": "2026-08-20T23:38:20Z"
+    },
+    {
+      "id": 15131,
+      "type": "completion",
+      "title": "多欄位 defenum variant payload 落地",
+      "source_repo": "PARENA",
+      "date": "20260820",
+      "archived_at": "2026-08-20T23:38:22Z"
     }
   ]
 }
