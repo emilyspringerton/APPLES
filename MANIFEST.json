@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T19:34:23Z",
+  "generated_at": "2026-08-20T19:34:31Z",
   "repo": "APPLES",
-  "count": 4434,
+  "count": 4435,
   "apples": [
     {
       "id": 10525,
@@ -35474,6 +35474,14 @@
       "source_repo": "CLI",
       "date": "20260820",
       "archived_at": "2026-08-20T19:34:23Z"
+    },
+    {
+      "id": 14969,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time,再次確認: IRONCLAD 維持被否決,不會使用。已經改用 GPT-2 �…",
+      "source_repo": "CLI",
+      "date": "20260820",
+      "archived_at": "2026-08-20T19:34:31Z"
     }
   ]
 }
