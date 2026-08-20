@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T11:14:14Z",
+  "generated_at": "2026-08-20T11:15:09Z",
   "repo": "APPLES",
-  "count": 4198,
+  "count": 4199,
   "apples": [
     {
       "id": 10525,
@@ -33586,6 +33586,14 @@
       "source_repo": "PARENA",
       "date": "20260820",
       "archived_at": "2026-08-20T11:14:14Z"
+    },
+    {
+      "id": 14733,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: 'ok but after we have a compiler we also need to write parena in parena' …",
+      "source_repo": "CLI",
+      "date": "20260820",
+      "archived_at": "2026-08-20T11:15:09Z"
     }
   ]
 }
