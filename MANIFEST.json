@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T03:29:45Z",
+  "generated_at": "2026-08-20T03:29:47Z",
   "repo": "APPLES",
-  "count": 3952,
+  "count": 3953,
   "apples": [
     {
       "id": 10525,
@@ -31618,6 +31618,14 @@
       "source_repo": "CLI",
       "date": "20260820",
       "archived_at": "2026-08-20T03:29:45Z"
+    },
+    {
+      "id": 14487,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: finish the EmilyOS Ravenscar Ada module",
+      "source_repo": "CLI",
+      "date": "20260820",
+      "archived_at": "2026-08-20T03:29:47Z"
     }
   ]
 }
