@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T16:22:57Z",
+  "generated_at": "2026-08-20T16:24:59Z",
   "repo": "APPLES",
-  "count": 4319,
+  "count": 4320,
   "apples": [
     {
       "id": 10525,
@@ -34554,6 +34554,14 @@
       "source_repo": "emily",
       "date": "20260820",
       "archived_at": "2026-08-20T16:22:57Z"
+    },
+    {
+      "id": 14854,
+      "type": "completion",
+      "title": "changelog(PARENA): emit_match：新增 Result/Option 上的模式匹配支援（Ok/Err/Some/None），含新的執…",
+      "source_repo": "PARENA",
+      "date": "20260820",
+      "archived_at": "2026-08-20T16:24:59Z"
     }
   ]
 }
