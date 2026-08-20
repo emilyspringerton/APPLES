@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T11:43:01Z",
+  "generated_at": "2026-08-20T11:46:18Z",
   "repo": "APPLES",
-  "count": 4217,
+  "count": 4218,
   "apples": [
     {
       "id": 10525,
@@ -33738,6 +33738,14 @@
       "source_repo": "emily",
       "date": "20260820",
       "archived_at": "2026-08-20T11:43:01Z"
+    },
+    {
+      "id": 14752,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: 'continue PARENA build it with BAZEL' -- wants PARENA development to cont…",
+      "source_repo": "CLI",
+      "date": "20260820",
+      "archived_at": "2026-08-20T11:46:18Z"
     }
   ]
 }
