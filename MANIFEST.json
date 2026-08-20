@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T12:00:59Z",
+  "generated_at": "2026-08-20T12:01:02Z",
   "repo": "APPLES",
-  "count": 4228,
+  "count": 4229,
   "apples": [
     {
       "id": 10525,
@@ -33826,6 +33826,14 @@
       "source_repo": "CLI",
       "date": "20260820",
       "archived_at": "2026-08-20T12:00:59Z"
+    },
+    {
+      "id": 14763,
+      "type": "completion",
+      "title": "changelog(PARENA): STDLIB.md: multi-engine regex family (regex/syntax, regex/n…",
+      "source_repo": "PARENA",
+      "date": "20260820",
+      "archived_at": "2026-08-20T12:01:02Z"
     }
   ]
 }
