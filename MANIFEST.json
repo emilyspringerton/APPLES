@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T04:02:38Z",
+  "generated_at": "2026-08-20T04:03:02Z",
   "repo": "APPLES",
-  "count": 4010,
+  "count": 4011,
   "apples": [
     {
       "id": 10525,
@@ -32082,6 +32082,14 @@
       "source_repo": "CLI",
       "date": "20260820",
       "archived_at": "2026-08-20T04:02:38Z"
+    },
+    {
+      "id": 14545,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: (newssite sort continued) quick UI toggle to flip between different sort …",
+      "source_repo": "CLI",
+      "date": "20260820",
+      "archived_at": "2026-08-20T04:03:02Z"
     }
   ]
 }
