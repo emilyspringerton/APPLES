@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T09:40:59Z",
+  "generated_at": "2026-08-20T09:50:24Z",
   "repo": "APPLES",
-  "count": 4112,
+  "count": 4113,
   "apples": [
     {
       "id": 10525,
@@ -32898,6 +32898,14 @@
       "source_repo": "emily",
       "date": "20260820",
       "archived_at": "2026-08-20T09:40:59Z"
+    },
+    {
+      "id": 14647,
+      "type": "signal_observation",
+      "title": "[INFO] Research complete on the chess/Osaka-Garage/METALVERSE ask (Explore agent, read-only, no cod…",
+      "source_repo": "CLI",
+      "date": "20260820",
+      "archived_at": "2026-08-20T09:50:24Z"
     }
   ]
 }
