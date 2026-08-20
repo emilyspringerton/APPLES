@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T18:09:05Z",
+  "generated_at": "2026-08-20T18:09:07Z",
   "repo": "APPLES",
-  "count": 4417,
+  "count": 4418,
   "apples": [
     {
       "id": 10525,
@@ -35338,6 +35338,14 @@
       "source_repo": "PITVIPER",
       "date": "20260820",
       "archived_at": "2026-08-20T18:09:05Z"
+    },
+    {
+      "id": 14952,
+      "type": "completion",
+      "title": "critical fix: 中鍵貼上讀取過期內容",
+      "source_repo": "PITVIPER",
+      "date": "20260820",
+      "archived_at": "2026-08-20T18:09:07Z"
     }
   ]
 }
