@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T16:50:09Z",
+  "generated_at": "2026-08-20T16:50:10Z",
   "repo": "APPLES",
-  "count": 4365,
+  "count": 4366,
   "apples": [
     {
       "id": 10525,
@@ -34922,6 +34922,14 @@
       "source_repo": "PARENA",
       "date": "20260820",
       "archived_at": "2026-08-20T16:50:09Z"
+    },
+    {
+      "id": 14900,
+      "type": "completion",
+      "title": "emit_defn:#target/inline-c FFI 機制",
+      "source_repo": "PARENA",
+      "date": "20260820",
+      "archived_at": "2026-08-20T16:50:10Z"
     }
   ]
 }
