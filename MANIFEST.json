@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T09:50:24Z",
+  "generated_at": "2026-08-20T09:50:53Z",
   "repo": "APPLES",
-  "count": 4113,
+  "count": 4114,
   "apples": [
     {
       "id": 10525,
@@ -32906,6 +32906,14 @@
       "source_repo": "CLI",
       "date": "20260820",
       "archived_at": "2026-08-20T09:50:24Z"
+    },
+    {
+      "id": 14648,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time, CORRECTING my prior 'per agent directories = stick with service account' …",
+      "source_repo": "CLI",
+      "date": "20260820",
+      "archived_at": "2026-08-20T09:50:53Z"
     }
   ]
 }
