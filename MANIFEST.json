@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T16:34:13Z",
+  "generated_at": "2026-08-20T16:35:04Z",
   "repo": "APPLES",
-  "count": 4331,
+  "count": 4332,
   "apples": [
     {
       "id": 10525,
@@ -34650,6 +34650,14 @@
       "source_repo": "CLI",
       "date": "20260820",
       "archived_at": "2026-08-20T16:34:13Z"
+    },
+    {
+      "id": 14866,
+      "type": "signal_observation",
+      "title": "[INFO] Founder補充澄清 crystal/main.go 符號渲染的分階段目標: 「yes once we get the s…",
+      "source_repo": "CLI",
+      "date": "20260820",
+      "archived_at": "2026-08-20T16:35:04Z"
     }
   ]
 }
