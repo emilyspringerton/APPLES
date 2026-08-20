@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-20T21:13:31Z",
+  "body": "改名 firefly/gomega.prn → firefly/ladybug.prn(甲蟲命名慣例,呼應既有 firefly/scarab;gomega.prn 保留為 back-compat alias,exported API 不變),scarab.prn 的 import 已跟進改用新名(commit ef8a302)。應 founder 要求 'golden docks ladybug as the official einhorn industrial bdd framework',獨立發布成新 repo github.com/emilyspringerton/ladybug(commit 0313498):真實內容(firefly/ladybug/gomega-alias/scarab 四個 .prn 檔案原樣拷貝),README.md 誠實列出目前狀態——VS0 domain 1(parse)+ domain 2(region-analyze)全數通過,已做成真實、目前會過的 Bazel/CI gate;domain 3(parena build)誠實地尚未接進去,因為卡在既有已追蹤的 emitter gap(Vec 作為泛型欄位型別、\u0026Any/\u0026mut T 參考型別、非零參數的 typed Fn callback、scarab 的 multi-field defenum payload)。golden-docs-index.md 已補上 LADYBUG-NORTH 條目(EMILY commit 5c368d8)。\n\n⚓ ☃",
+  "id": 15097,
+  "metadata": null,
+  "run_id": "sess-20260820-0649-a3f19d93",
+  "source_repo": "PARENA",
+  "title": "Beetle 命名修正:firefly/gomega → firefly/ladybug + 獨立 repo 發布"
+}

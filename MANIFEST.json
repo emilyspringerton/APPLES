@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T21:09:21Z",
+  "generated_at": "2026-08-20T21:13:31Z",
   "repo": "APPLES",
-  "count": 4562,
+  "count": 4563,
   "apples": [
     {
       "id": 10525,
@@ -36498,6 +36498,14 @@
       "source_repo": "CLI",
       "date": "20260820",
       "archived_at": "2026-08-20T21:09:21Z"
+    },
+    {
+      "id": 15097,
+      "type": "completion",
+      "title": "Beetle 命名修正:firefly/gomega → firefly/ladybug + 獨立 repo 發布",
+      "source_repo": "PARENA",
+      "date": "20260820",
+      "archived_at": "2026-08-20T21:13:31Z"
     }
   ]
 }
