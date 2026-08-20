@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T19:46:45Z",
+  "generated_at": "2026-08-20T19:49:20Z",
   "repo": "APPLES",
-  "count": 4463,
+  "count": 4464,
   "apples": [
     {
       "id": 10525,
@@ -35706,6 +35706,14 @@
       "source_repo": "CLI",
       "date": "20260820",
       "archived_at": "2026-08-20T19:46:45Z"
+    },
+    {
+      "id": 14998,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time,PHP 構想再延伸: 「our in house PHP implementation that includes PARE…",
+      "source_repo": "CLI",
+      "date": "20260820",
+      "archived_at": "2026-08-20T19:49:20Z"
     }
   ]
 }
