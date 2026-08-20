@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T11:01:30Z",
+  "generated_at": "2026-08-20T11:03:29Z",
   "repo": "APPLES",
-  "count": 4189,
+  "count": 4190,
   "apples": [
     {
       "id": 10525,
@@ -33514,6 +33514,14 @@
       "source_repo": "REDGARDEN",
       "date": "20260820",
       "archived_at": "2026-08-20T11:01:30Z"
+    },
+    {
+      "id": 14724,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time, PARENA resolved: 'New -- build it from scratch' (AskUserQuestion). PARENA…",
+      "source_repo": "CLI",
+      "date": "20260820",
+      "archived_at": "2026-08-20T11:03:29Z"
     }
   ]
 }
