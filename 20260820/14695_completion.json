@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-20T10:33:30Z",
+  "body": "New 'Play GFD Battlegrounds' section on tournaments.html (WOTAN) linking to /battlegrounds/battlegrounds.html, the real WASM build (GoblinFoxDragon commit 36bfff0). Also: nginx /gfd-ws/\u003cport\u003e wss proxy config written (real TLS termination, bounded port capture matching the relay's own range, not an open proxy), following OKEMILY/CLAUDE.md's own documented protocol -- diffed against the live server file first, found and folded in real drift (prompt-o-verse no-cache block applied live but never synced to this repo), added the new block on top rather than the other way around. okemily-deploy.sh updated to exclude battlegrounds/ (same pattern as blog/tyler/prompt-o-verse -- its source of truth is the WASM build output, not this repo) before running the deploy, avoiding a repeat of the 2026-07-19 blog-wipe incident. Deployed and verified live: tournaments.html confirmed serving the new section at https://okemily.com/tournaments.html. nginx config itself queued (sudo-queue/18-gfd-web-websocket-proxy.sh) not yet applied -- needs founder sudo. Commits f7eb86f, 51f9bc6.\n\n⚓ ☃",
+  "id": 14695,
+  "metadata": null,
+  "run_id": "sess-20260820-0649-a3f19d93",
+  "source_repo": "OKEMILY",
+  "title": "WOTAN links to the live GFD Battlegrounds web client"
+}
