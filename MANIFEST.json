@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T04:18:09Z",
+  "generated_at": "2026-08-20T04:18:28Z",
   "repo": "APPLES",
-  "count": 4033,
+  "count": 4034,
   "apples": [
     {
       "id": 10525,
@@ -32266,6 +32266,14 @@
       "source_repo": "CLI",
       "date": "20260820",
       "archived_at": "2026-08-20T04:18:09Z"
+    },
+    {
+      "id": 14568,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: (email integration continued) make it work for the GCP account we have at…",
+      "source_repo": "CLI",
+      "date": "20260820",
+      "archived_at": "2026-08-20T04:18:28Z"
     }
   ]
 }
