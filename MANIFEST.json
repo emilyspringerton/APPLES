@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T21:38:14Z",
+  "generated_at": "2026-08-20T21:50:56Z",
   "repo": "APPLES",
-  "count": 4577,
+  "count": 4578,
   "apples": [
     {
       "id": 10525,
@@ -36618,6 +36618,14 @@
       "source_repo": "CLI",
       "date": "20260820",
       "archived_at": "2026-08-20T21:38:14Z"
+    },
+    {
+      "id": 15112,
+      "type": "completion",
+      "title": "changelog(PARENA): emit.c 新增 \u0026Type/\u0026mut T 參考型別、(Vec T)、do/set!/deref 特殊形式、get-…",
+      "source_repo": "PARENA",
+      "date": "20260820",
+      "archived_at": "2026-08-20T21:50:56Z"
     }
   ]
 }

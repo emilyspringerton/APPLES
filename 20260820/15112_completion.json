@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-20T21:50:55Z",
+  "body": "CHANGELOG updated in PARENA: emit.c 新增 \u0026Type/\u0026mut T 參考型別、(Vec T)、do/set!/deref 特殊形式、get-field 自動穿透參考;修掉 has_region_marker() 的真實既有 bug(任何 Type @ Region 都被誤判成 Arena *,不只 Arena 本身)+ ISO C99 void 函式 return 表達式的真實 gcc -pedantic bug;test_emit.c 95→121;firefly.prn 真的通過 Vec 欄位那關,推進到下一個已知、獨立的 gap (sess-20260820-0649-a3f19d93)\n\n⚓ ☃",
+  "id": 15112,
+  "metadata": null,
+  "run_id": "sess-20260820-0649-a3f19d93",
+  "source_repo": "PARENA",
+  "title": "changelog(PARENA): emit.c 新增 \u0026Type/\u0026mut T 參考型別、(Vec T)、do/set!/deref 特殊形式、get-…"
+}

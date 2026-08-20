@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-20T21:50:56Z",
+  "body": "應創辦人「ladybug first」持續要求,commit 53f9359:emit.c 新增 \u0026Type(單 token)/\u0026mut Type(雙 token)參考型別(defstruct 欄位/defn 參數/回傳型別三處都支援,Any 對應 void)、(Vec T) 型別(erasure 到真正的 runtime Vec struct,arena-allocated 不是 malloc,vec_new/vec_push_/vec_get/vec_len 四個真實函式,命名直接對齊 mangle() 的真實輸出不需特殊處理)、do 特殊形式(之前完全沒實作,退化成假的 do(...) function call)、set!(真正的 C assignment,對應 STDLIB.md 缺口 #7)、deref(真正的 C dereference)、get-field 自動穿透一層參考(T * 用 -\u003e,T 用 .)。過程中用真正 gcc 編譯揪出兩個真實既有 bug:(1) has_region_marker() 自己的 doc 一直寫『Arena @ ...』但實作從來沒真的檢查型別是 Arena,導致任何『Type @ Region』都被誤判成 Arena *,悄悄丟掉真正宣告的型別(從沒被抓到是因為在此之前沒有真的編譯過『非 Arena 型別 + region 標註』同時出現在參數上的組合)——已修正,舊測試斷言錯誤行為的部分已改掉並補上真正回歸測試證明 Arena @ region 這個真正該支援的 case 仍然正常。(2) ISO C99 真的禁止在回傳 void 的函式裡寫『return 表達式;』即使表達式本身型別就是 void——emit_body 的 tail 處理現在對 void 型別改成純陳述句。tests/test_emit.c 95→121,全數以真正 gcc -Wall -Wextra -pedantic -Werror 編譯驗證過。誠實現況:firefly.prn 真的通過原本的 Vec 欄位那一關,推進到下一個獨立、已知的 gap((Fn [\u0026mut T] Unit) 非零參數 typed callback);firefly/ladybug.prn 與 firefly/gomega.prn 卡在既有的『沒有模組連結』缺口(T 型別在 firefly.prn 定義,單獨編譯 ladybug.prn 時看不到——用一個把 T+Expectation 兜在同一個檔案的組合測試證明參考型別機制本身完全正常、真的能跟 gcc 連結成功);scarab.prn 這次沒動,仍卡在原本的 multi-field defenum payload 缺口。domain4(含真正 Valgrind)、domain5 全數重跑確認無回歸。\n\n⚓ ☃",
+  "id": 15113,
+  "metadata": null,
+  "run_id": "sess-20260820-0649-a3f19d93",
+  "source_repo": "PARENA",
+  "title": "參考型別 + Vec + do/set!/deref 落地,外加兩個真實既有 bug 修復"
+}
