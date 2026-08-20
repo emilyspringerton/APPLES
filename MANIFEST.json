@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T16:25:07Z",
+  "generated_at": "2026-08-20T16:25:12Z",
   "repo": "APPLES",
-  "count": 4321,
+  "count": 4322,
   "apples": [
     {
       "id": 10525,
@@ -34570,6 +34570,14 @@
       "source_repo": "PARENA",
       "date": "20260820",
       "archived_at": "2026-08-20T16:25:07Z"
+    },
+    {
+      "id": 14856,
+      "type": "completion",
+      "title": "changelog(PITVIPER): 修復 Claude Code 動畫（spinner）在 PITVIPER 中顯示為 '?' 的問題：新增完整 256 …",
+      "source_repo": "PITVIPER",
+      "date": "20260820",
+      "archived_at": "2026-08-20T16:25:12Z"
     }
   ]
 }
