@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T04:02:11Z",
+  "generated_at": "2026-08-20T04:02:38Z",
   "repo": "APPLES",
-  "count": 4009,
+  "count": 4010,
   "apples": [
     {
       "id": 10525,
@@ -32074,6 +32074,14 @@
       "source_repo": "CLI",
       "date": "20260820",
       "archived_at": "2026-08-20T04:02:11Z"
+    },
+    {
+      "id": 14544,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: (newssite sort ordering continued) should have a settings option to confi…",
+      "source_repo": "CLI",
+      "date": "20260820",
+      "archived_at": "2026-08-20T04:02:38Z"
     }
   ]
 }
