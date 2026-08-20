@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-20T20:57:54Z",
+  "body": "CHANGELOG updated in PARENA: LONGMA(streaming CSV chunker,github.com/emilyspringerton/longma)功能真正移植進 PARENA:新增 stdlib/csv.prn,並在 longma fork 本身建立完整 Bazel+PARENA 交叉 repo 建置(MODULE.bazel git_override 釘死 commit、BUILD.bazel genrule+cc_library、CI workflow),本地驗證 bazel clean 後重新建置零警告全過;遠端 CI 因 GitHub API rate limit 待後續確認,誠實記錄 (sess-20260820-0649-a3f19d93)\n\n⚓ ☃",
+  "id": 15089,
+  "metadata": null,
+  "run_id": "sess-20260820-0649-a3f19d93",
+  "source_repo": "PARENA",
+  "title": "changelog(PARENA): LONGMA(streaming CSV chunker,github.com/emilyspringerton/lo…"
+}

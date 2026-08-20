@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-20T20:57:54Z",
+  "body": "新增 stdlib/csv.prn:LONGMA(github.com/emilyspringerton/longma,fork 自 mailtruck/longma)這個真實、已在跑的 streaming CSV 檔案分割/分塊 Go 工具的真正 PARENA 移植(不是 FFI 綁定既有二進位檔)。SplitOptions defstruct 對應 longma 自己真實的 split 指令旗標。誠實限縮:VS0 目前沒有檔案 I/O 原語,file I/O 部分用 #target 宣告,README 明確說明這個現況。在 longma fork 本身(/home/fatbaby/longma,commit 5aeba35)建立完整跨 repo Bazel 整合:MODULE.bazel 用 git_override 釘死 PARENA 的真實 commit(1b2805c,不是浮動的 main branch,呼應創辦人另一個真實需求『ensure PARENA has a separate deterministic construct build』),BUILD.bazel 的 genrule 呼叫真正的 parena binary 產生 C,用 sed 插入誠實的 host 函式宣告(csv_split/csv_generate),cc_library 用 DoD 同一套 -std=c99 -Wall -Wextra -pedantic -Werror 旗標編譯。真實驗證:bazel clean 後重新從零建置,零警告全過。CI workflow 已新增並推送,YAML 用 python3 yaml.safe_load 本地驗證過語法(吸取本 session 稍早 PARENA 自己 CI 被冒號弄壞的教訓)。GitHub API 這個 session 大量呼叫後持續 rate limit,遠端 CI 綠燈待後續確認,誠實記錄不假裝。commit 5aeba35(longma repo)、1b2805c(PARENA repo,csv.prn 原始來源)。\n\n⚓ ☃",
+  "id": 15090,
+  "metadata": null,
+  "run_id": "sess-20260820-0649-a3f19d93",
+  "source_repo": "PARENA",
+  "title": "LONGMA 真正移植進 PARENA + longma repo Bazel 整合"
+}
