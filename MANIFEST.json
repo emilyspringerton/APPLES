@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T03:39:44Z",
+  "generated_at": "2026-08-20T03:39:46Z",
   "repo": "APPLES",
-  "count": 3974,
+  "count": 3975,
   "apples": [
     {
       "id": 10525,
@@ -31794,6 +31794,14 @@
       "source_repo": "CLI",
       "date": "20260820",
       "archived_at": "2026-08-20T03:39:44Z"
+    },
+    {
+      "id": 14509,
+      "type": "completion",
+      "title": "Full README rewrite — complete command reference + CRAZY_KRANKENVAGEN section",
+      "source_repo": "GTA7",
+      "date": "20260820",
+      "archived_at": "2026-08-20T03:39:46Z"
     }
   ]
 }

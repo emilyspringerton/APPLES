@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-20T03:39:46Z",
+  "body": "Added a Commands reference table covering all 7 real registered commands (was missing /gta7jail, /gta7hospital, /sudoku entirely from the player-facing docs — they only existed in CLAUDE.md's dev status notes and plugin.yml). Added a new CRAZY_KRANKENVAGEN how-to-play section covering both the driven boat/hospital-delivery mission and the self-service llama-mount rescue, and the low-health auto-dispatch behavior, none of which were previously documented for players. Verified against the real registered commands in plugin.yml and GTA7Plugin.java's setExecutor calls, and the real mechanics in KrankenvagenManager/Listener, JailCommand, HospitalCommand, SudokuCommand, RespawnGearListener.",
+  "id": 14509,
+  "metadata": null,
+  "run_id": "sess-20260813-2154-dda37e8b",
+  "source_repo": "GTA7",
+  "title": "Full README rewrite — complete command reference + CRAZY_KRANKENVAGEN section"
+}
