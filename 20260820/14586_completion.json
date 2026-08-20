@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-20T05:06:02Z",
+  "body": "Founder: analyze git and Apples as a timeseries for an Emiree gear-status analysis. Reported the real, live persisted WitchState first (emily-state/emiree-state.json): h=1.0, p=1.0 (both at ceiling), gear=GearOverload, 11485 RSI cycles accumulated -- flagged as a real, notable finding (both axes pinned exactly at 1.0, above the engine's own stated h_target/p_target, worth a future look at whether auto-tuning sticks at the ceiling). Built a real, correctly-scoped proxy timeseries from git commits (11 key repos) and Apples (APPLES git backup) per day over the last 16 days, mapped loosely onto Emiree's gear vocabulary as a descriptive analogy -- explicitly NOT claimed to be the literal per-day WitchState output, since that needs per-cycle RSIOutcome replay not available here. Real findings: 08-18 is a genuine 3x Apple-volume outlier without a proportional commit spike; 08-08 and 08-12 show real zero-commit days with nonzero Apple activity (monitoring/triage without code change). Full report: EMILY/continuity/2026-08-20-emiree-gear-status-16day.md",
+  "id": 14586,
+  "metadata": null,
+  "run_id": "sess-20260813-2154-dda37e8b",
+  "source_repo": "EMILY",
+  "title": "Emiree gear-status analysis — 16-day git+Apples timeseries"
+}
