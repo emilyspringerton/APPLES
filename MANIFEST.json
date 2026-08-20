@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T04:45:10Z",
+  "generated_at": "2026-08-20T04:46:25Z",
   "repo": "APPLES",
-  "count": 4047,
+  "count": 4048,
   "apples": [
     {
       "id": 10525,
@@ -32378,6 +32378,14 @@
       "source_repo": "CLI",
       "date": "20260820",
       "archived_at": "2026-08-20T04:45:10Z"
+    },
+    {
+      "id": 14582,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: wants any data-science infrastructure needed exposed as real IDUNA APIs, …",
+      "source_repo": "CLI",
+      "date": "20260820",
+      "archived_at": "2026-08-20T04:46:25Z"
     }
   ]
 }
