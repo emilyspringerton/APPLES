@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-20T16:50:08Z",
+  "body": "新增 resolve_declared_type():defn 參數向量後可選的明確 : \u003cType\u003e 回傳型別標註,理解 Unit/I32/String,以及 (Result ..)/(Option ..) 兩種形式(對應既有 emit_match 已用的 Result/Option 執行期型別,不檢查內層型別參數)。新增 emit_target_defn():解讀 #target {:c (inline-c \"...\")} FFI 逃逸出口,讓 stdlib/editor 的 plugin/buffer/events/ui 介面檔案能宣告『真正實作在 host 端』的函式。Unit 回傳原樣輸出成陳述式,其餘型別包成 return (...)。tests/test_emit.c 新增 11 個測試,30→41 全綠。用真實 stdlib/editor/*.prn + stdlib/pitviper/protocol.prn 驗證:#target 語法現在能被辨識,卡在下一個已知、獨立限制(非 Arena 型別參數),誠實記錄待辦。Makefile+Bazel+ASan/UBSan+domain4 全數通過,GitHub Actions CI run 32393761859 completed success。commit aa25d6b。\n\n⚓ ☃",
+  "id": 14900,
+  "metadata": null,
+  "run_id": "sess-20260820-0649-a3f19d93",
+  "source_repo": "PARENA",
+  "title": "emit_defn:#target/inline-c FFI 機制"
+}

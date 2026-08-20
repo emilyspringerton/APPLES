@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T16:48:22Z",
+  "generated_at": "2026-08-20T16:50:09Z",
   "repo": "APPLES",
-  "count": 4364,
+  "count": 4365,
   "apples": [
     {
       "id": 10525,
@@ -34914,6 +34914,14 @@
       "source_repo": "EMILY",
       "date": "20260820",
       "archived_at": "2026-08-20T16:48:22Z"
+    },
+    {
+      "id": 14899,
+      "type": "completion",
+      "title": "changelog(PARENA): emit_defn 新增 #target/inline-c FFI 逃逸機制 + 明確回傳型別標註(Unit/I32/…",
+      "source_repo": "PARENA",
+      "date": "20260820",
+      "archived_at": "2026-08-20T16:50:09Z"
     }
   ]
 }
