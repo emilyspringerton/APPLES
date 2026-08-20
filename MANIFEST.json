@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T16:55:09Z",
+  "generated_at": "2026-08-20T16:55:20Z",
   "repo": "APPLES",
-  "count": 4371,
+  "count": 4372,
   "apples": [
     {
       "id": 10525,
@@ -34970,6 +34970,14 @@
       "source_repo": "CLI",
       "date": "20260820",
       "archived_at": "2026-08-20T16:55:09Z"
+    },
+    {
+      "id": 14906,
+      "type": "signal_observation",
+      "title": "[WARN] Founder real-time,補充更精確的症狀描述: 「i cant see the command si type they are…",
+      "source_repo": "CLI",
+      "date": "20260820",
+      "archived_at": "2026-08-20T16:55:20Z"
     }
   ]
 }
