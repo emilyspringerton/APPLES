@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T04:09:17Z",
+  "generated_at": "2026-08-20T04:09:33Z",
   "repo": "APPLES",
-  "count": 4027,
+  "count": 4028,
   "apples": [
     {
       "id": 10525,
@@ -32218,6 +32218,14 @@
       "source_repo": "CLI",
       "date": "20260820",
       "archived_at": "2026-08-20T04:09:17Z"
+    },
+    {
+      "id": 14562,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: (EmilyOS continued) exploring whether EmilyOS is 'the bare metal of our s…",
+      "source_repo": "CLI",
+      "date": "20260820",
+      "archived_at": "2026-08-20T04:09:33Z"
     }
   ]
 }
