@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T16:55:20Z",
+  "generated_at": "2026-08-20T16:55:35Z",
   "repo": "APPLES",
-  "count": 4372,
+  "count": 4373,
   "apples": [
     {
       "id": 10525,
@@ -34978,6 +34978,14 @@
       "source_repo": "CLI",
       "date": "20260820",
       "archived_at": "2026-08-20T16:55:20Z"
+    },
+    {
+      "id": 14907,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time,更多細節: 「also when i am typing commands the pane doesnt scroll」+…",
+      "source_repo": "CLI",
+      "date": "20260820",
+      "archived_at": "2026-08-20T16:55:35Z"
     }
   ]
 }
