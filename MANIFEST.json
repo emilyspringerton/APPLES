@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T13:55:29Z",
+  "generated_at": "2026-08-20T13:56:22Z",
   "repo": "APPLES",
-  "count": 4268,
+  "count": 4269,
   "apples": [
     {
       "id": 10525,
@@ -34146,6 +34146,14 @@
       "source_repo": "emily",
       "date": "20260820",
       "archived_at": "2026-08-20T13:55:29Z"
+    },
+    {
+      "id": 14803,
+      "type": "signal_observation",
+      "title": "[INFO] 創辦人即時指令:「add testing to the stdlib」——PARENA 自己的測試框架(比�…",
+      "source_repo": "CLI",
+      "date": "20260820",
+      "archived_at": "2026-08-20T13:56:22Z"
     }
   ]
 }
