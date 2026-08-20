@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T04:08:02Z",
+  "generated_at": "2026-08-20T04:08:44Z",
   "repo": "APPLES",
-  "count": 4024,
+  "count": 4025,
   "apples": [
     {
       "id": 10525,
@@ -32194,6 +32194,14 @@
       "source_repo": "CLI",
       "date": "20260820",
       "archived_at": "2026-08-20T04:08:02Z"
+    },
+    {
+      "id": 14559,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: (GFD web client continued) delegates exact repo placement to Claude's jud…",
+      "source_repo": "CLI",
+      "date": "20260820",
+      "archived_at": "2026-08-20T04:08:44Z"
     }
   ]
 }
