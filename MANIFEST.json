@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T09:56:03Z",
+  "generated_at": "2026-08-20T09:56:25Z",
   "repo": "APPLES",
-  "count": 4127,
+  "count": 4128,
   "apples": [
     {
       "id": 10525,
@@ -33018,6 +33018,14 @@
       "source_repo": "CLI",
       "date": "20260820",
       "archived_at": "2026-08-20T09:56:03Z"
+    },
+    {
+      "id": 14662,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time, two build failures surfacing from the 'check all the recent builds' instr…",
+      "source_repo": "CLI",
+      "date": "20260820",
+      "archived_at": "2026-08-20T09:56:25Z"
     }
   ]
 }
