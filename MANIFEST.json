@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T20:38:08Z",
+  "generated_at": "2026-08-20T20:38:10Z",
   "repo": "APPLES",
-  "count": 4531,
+  "count": 4532,
   "apples": [
     {
       "id": 10525,
@@ -36250,6 +36250,14 @@
       "source_repo": "PARENA",
       "date": "20260820",
       "archived_at": "2026-08-20T20:38:08Z"
+    },
+    {
+      "id": 15066,
+      "type": "completion",
+      "title": "Bool/F64 型別 + 修好 runtime OK/ERR 巨集缺口",
+      "source_repo": "PARENA",
+      "date": "20260820",
+      "archived_at": "2026-08-20T20:38:10Z"
     }
   ]
 }
