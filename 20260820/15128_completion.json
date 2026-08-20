@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-20T23:29:21Z",
+  "body": "CHANGELOG updated in PARENA: 里程碑:firefly.prn(ladybug BDD 框架的地基)真的通過真正 gcc -Wall -Wextra -pedantic -Werror 編譯——這一輪額外抓到並修好五個真實 bug(呼叫一等函式值、defstruct 的 Fn 欄位語法接錯位置、emit_call 對已知函式回傳型別的猜測蓋掉了正確答案、deref 少轉型導致對 void* 直接解參考、sb_appendf 固定 1024 bytes 緩衝區默默截斷過長的函式本體),外加補上 g_vec_elem_hints(Vec 元素型別追蹤)跟真正的 string_concat runtime 實作 (sess-20260820-0649-a3f19d93)\n\n⚓ ☃",
+  "id": 15128,
+  "metadata": null,
+  "run_id": "sess-20260820-0649-a3f19d93",
+  "source_repo": "PARENA",
+  "title": "changelog(PARENA): 里程碑:firefly.prn(ladybug BDD 框架的地基)真的通過真正 gcc -Wall -Wextra …"
+}

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T23:25:08Z",
+  "generated_at": "2026-08-20T23:29:21Z",
   "repo": "APPLES",
-  "count": 4593,
+  "count": 4594,
   "apples": [
     {
       "id": 10525,
@@ -36746,6 +36746,14 @@
       "source_repo": "emily",
       "date": "20260820",
       "archived_at": "2026-08-20T23:25:08Z"
+    },
+    {
+      "id": 15128,
+      "type": "completion",
+      "title": "changelog(PARENA): 里程碑:firefly.prn(ladybug BDD 框架的地基)真的通過真正 gcc -Wall -Wextra …",
+      "source_repo": "PARENA",
+      "date": "20260820",
+      "archived_at": "2026-08-20T23:29:21Z"
     }
   ]
 }
