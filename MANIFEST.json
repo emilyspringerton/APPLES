@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T06:57:49Z",
+  "generated_at": "2026-08-20T06:58:11Z",
   "repo": "APPLES",
-  "count": 4077,
+  "count": 4078,
   "apples": [
     {
       "id": 10525,
@@ -32618,6 +32618,14 @@
       "source_repo": "CLI",
       "date": "20260820",
       "archived_at": "2026-08-20T06:57:49Z"
+    },
+    {
+      "id": 14612,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time, self-flagged as uncertain: 'we need to do log streaming and then like ide…",
+      "source_repo": "CLI",
+      "date": "20260820",
+      "archived_at": "2026-08-20T06:58:11Z"
     }
   ]
 }
