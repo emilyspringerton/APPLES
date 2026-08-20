@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T14:05:44Z",
+  "generated_at": "2026-08-20T14:05:46Z",
   "repo": "APPLES",
-  "count": 4271,
+  "count": 4272,
   "apples": [
     {
       "id": 10525,
@@ -34170,6 +34170,14 @@
       "source_repo": "PARENA",
       "date": "20260820",
       "archived_at": "2026-08-20T14:05:44Z"
+    },
+    {
+      "id": 14806,
+      "type": "completion",
+      "title": "changelog(PITVIPER): 真實彩色 emoji 渲染(SDL2_ttf + Noto Color Emoji),阻塞在 sudo-queue/1…",
+      "source_repo": "PITVIPER",
+      "date": "20260820",
+      "archived_at": "2026-08-20T14:05:46Z"
     }
   ]
 }
