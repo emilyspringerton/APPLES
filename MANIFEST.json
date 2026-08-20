@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T13:24:52Z",
+  "generated_at": "2026-08-20T13:24:54Z",
   "repo": "APPLES",
-  "count": 4259,
+  "count": 4260,
   "apples": [
     {
       "id": 10525,
@@ -34074,6 +34074,14 @@
       "source_repo": "PARENA",
       "date": "20260820",
       "archived_at": "2026-08-20T13:24:52Z"
+    },
+    {
+      "id": 14794,
+      "type": "completion",
+      "title": "changelog(PITVIPER): 自動尋找 Git for Windows 安裝路徑(不只依賴 PATH)、Photoshop 風格縮放快捷鍵(Ctrl…",
+      "source_repo": "PITVIPER",
+      "date": "20260820",
+      "archived_at": "2026-08-20T13:24:54Z"
     }
   ]
 }
