@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T20:51:28Z",
+  "generated_at": "2026-08-20T20:51:34Z",
   "repo": "APPLES",
-  "count": 4548,
+  "count": 4549,
   "apples": [
     {
       "id": 10525,
@@ -36386,6 +36386,14 @@
       "source_repo": "CLI",
       "date": "20260820",
       "archived_at": "2026-08-20T20:51:28Z"
+    },
+    {
+      "id": 15083,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: 「also we need kubernetetes to work on reaspberry pi too」——RPi Arc…",
+      "source_repo": "CLI",
+      "date": "20260820",
+      "archived_at": "2026-08-20T20:51:34Z"
     }
   ]
 }
