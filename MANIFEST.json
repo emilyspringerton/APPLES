@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T13:09:57Z",
+  "generated_at": "2026-08-20T13:16:47Z",
   "repo": "APPLES",
-  "count": 4255,
+  "count": 4256,
   "apples": [
     {
       "id": 10525,
@@ -34042,6 +34042,14 @@
       "source_repo": "emily",
       "date": "20260820",
       "archived_at": "2026-08-20T13:09:57Z"
+    },
+    {
+      "id": 14790,
+      "type": "signal_observation",
+      "title": "[INFO] Gemini CLI Vertex AI 設定進度:.bashrc 已加入 GOOGLE_GENAI_USE_VERTEXAI/GOOGLE_CLOUD_P…",
+      "source_repo": "CLI",
+      "date": "20260820",
+      "archived_at": "2026-08-20T13:16:47Z"
     }
   ]
 }
