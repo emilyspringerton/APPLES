@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T21:50:56Z",
+  "generated_at": "2026-08-20T21:50:57Z",
   "repo": "APPLES",
-  "count": 4578,
+  "count": 4579,
   "apples": [
     {
       "id": 10525,
@@ -36626,6 +36626,14 @@
       "source_repo": "PARENA",
       "date": "20260820",
       "archived_at": "2026-08-20T21:50:56Z"
+    },
+    {
+      "id": 15113,
+      "type": "completion",
+      "title": "參考型別 + Vec + do/set!/deref 落地,外加兩個真實既有 bug 修復",
+      "source_repo": "PARENA",
+      "date": "20260820",
+      "archived_at": "2026-08-20T21:50:57Z"
     }
   ]
 }
