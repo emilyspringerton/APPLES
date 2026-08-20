@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T12:22:24Z",
+  "generated_at": "2026-08-20T12:24:35Z",
   "repo": "APPLES",
-  "count": 4239,
+  "count": 4240,
   "apples": [
     {
       "id": 10525,
@@ -33914,6 +33914,14 @@
       "source_repo": "CLI",
       "date": "20260820",
       "archived_at": "2026-08-20T12:22:24Z"
+    },
+    {
+      "id": 14774,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time, AskUserQuestion resolved 'something currently broken in PITVIPER' -- \"pit…",
+      "source_repo": "CLI",
+      "date": "20260820",
+      "archived_at": "2026-08-20T12:24:35Z"
     }
   ]
 }
