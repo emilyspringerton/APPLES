@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T06:52:44Z",
+  "generated_at": "2026-08-20T06:52:48Z",
   "repo": "APPLES",
-  "count": 4064,
+  "count": 4065,
   "apples": [
     {
       "id": 10525,
@@ -32514,6 +32514,14 @@
       "source_repo": "CLI",
       "date": "20260820",
       "archived_at": "2026-08-20T06:52:44Z"
+    },
+    {
+      "id": 14599,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time, clarifying the PITVIPER SSH ask: have it use the regular/default ssh key …",
+      "source_repo": "CLI",
+      "date": "20260820",
+      "archived_at": "2026-08-20T06:52:48Z"
     }
   ]
 }
