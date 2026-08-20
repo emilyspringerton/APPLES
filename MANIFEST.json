@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T21:33:38Z",
+  "generated_at": "2026-08-20T21:33:40Z",
   "repo": "APPLES",
-  "count": 4573,
+  "count": 4574,
   "apples": [
     {
       "id": 10525,
@@ -36586,6 +36586,14 @@
       "source_repo": "PARENA",
       "date": "20260820",
       "archived_at": "2026-08-20T21:33:38Z"
+    },
+    {
+      "id": 15108,
+      "type": "completion",
+      "title": "container/docker stdlib 設計(第三個容器後端,連結 Emily OS)",
+      "source_repo": "PARENA",
+      "date": "20260820",
+      "archived_at": "2026-08-20T21:33:40Z"
     }
   ]
 }
