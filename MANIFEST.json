@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T20:39:27Z",
+  "generated_at": "2026-08-20T20:41:49Z",
   "repo": "APPLES",
-  "count": 4539,
+  "count": 4540,
   "apples": [
     {
       "id": 10525,
@@ -36314,6 +36314,14 @@
       "source_repo": "CLI",
       "date": "20260820",
       "archived_at": "2026-08-20T20:39:27Z"
+    },
+    {
+      "id": 15074,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time,新需求: 「ensure PARENA has a separate deterministic construct build��…",
+      "source_repo": "CLI",
+      "date": "20260820",
+      "archived_at": "2026-08-20T20:41:49Z"
     }
   ]
 }
