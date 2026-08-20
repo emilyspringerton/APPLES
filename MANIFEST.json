@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T17:10:08Z",
+  "generated_at": "2026-08-20T17:10:28Z",
   "repo": "APPLES",
-  "count": 4397,
+  "count": 4398,
   "apples": [
     {
       "id": 10525,
@@ -35178,6 +35178,14 @@
       "source_repo": "CLI",
       "date": "20260820",
       "archived_at": "2026-08-20T17:10:08Z"
+    },
+    {
+      "id": 14932,
+      "type": "signal_observation",
+      "title": "[WARN] Founder real-time,新回報,解釋剛才的『~』(其實是在測試 copy-paste): 「oh wai…",
+      "source_repo": "CLI",
+      "date": "20260820",
+      "archived_at": "2026-08-20T17:10:28Z"
     }
   ]
 }
