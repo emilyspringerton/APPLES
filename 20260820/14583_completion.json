@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-20T04:47:27Z",
+  "body": "Founder confirmed intent to use their Gmail app password (same credential as the SMTP send path) for IMAP read access, specifically to fetch a language-spec email sent to emilyspringerton@gmail.com. Wrote a plain, on-demand script (stdlib imaplib/email, no dependencies) rather than a service, matching the founder's own stated scope for email access ('queryable source, not chunking through yet'). Honors the explicit no-auto-logging-email-content privacy boundary. Syntax-verified but not yet run against a real mailbox -- credential not set yet as of this commit.",
+  "id": 14583,
+  "metadata": null,
+  "run_id": "sess-20260813-2154-dda37e8b",
+  "source_repo": "EMILY",
+  "title": "Added on-demand Gmail IMAP read tool (scripts/gmail_imap_fetch.py)"
+}

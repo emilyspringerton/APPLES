@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T04:46:25Z",
+  "generated_at": "2026-08-20T04:47:27Z",
   "repo": "APPLES",
-  "count": 4048,
+  "count": 4049,
   "apples": [
     {
       "id": 10525,
@@ -32386,6 +32386,14 @@
       "source_repo": "CLI",
       "date": "20260820",
       "archived_at": "2026-08-20T04:46:25Z"
+    },
+    {
+      "id": 14583,
+      "type": "completion",
+      "title": "Added on-demand Gmail IMAP read tool (scripts/gmail_imap_fetch.py)",
+      "source_repo": "EMILY",
+      "date": "20260820",
+      "archived_at": "2026-08-20T04:47:27Z"
     }
   ]
 }
