@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T09:58:23Z",
+  "generated_at": "2026-08-20T09:58:37Z",
   "repo": "APPLES",
-  "count": 4135,
+  "count": 4136,
   "apples": [
     {
       "id": 10525,
@@ -33082,6 +33082,14 @@
       "source_repo": "CLI",
       "date": "20260820",
       "archived_at": "2026-08-20T09:58:23Z"
+    },
+    {
+      "id": 14670,
+      "type": "signal_observation",
+      "title": "[INFO] GFD-web research complete (Explore agent). Key findings: a real Emscripten WASM build of the…",
+      "source_repo": "CLI",
+      "date": "20260820",
+      "archived_at": "2026-08-20T09:58:37Z"
     }
   ]
 }
