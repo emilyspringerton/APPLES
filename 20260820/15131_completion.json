@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-20T23:38:20Z",
+  "body": "繼續 ladybug first，commit 0a51bab：defenum variant 不再卡死在最多一個 payload 欄位。零/一欄位變體維持原本的執行期結構完全不變（零回歸風險），兩個以上欄位的變體得到一個真正新的、額外的結構：一個 companion payload struct（每個欄位都是真正、獨立的 C 型別，跟 defstruct 自己欄位一樣的不共用 void* 原則），配置進建構子自己第一個參數明確拿到的 Arena，指標存進跟零/一欄位變體共用的同一個 void* value 欄位裡。真正 gcc -Wall -Wextra -pedantic -Werror 驗證過，加上 bazel build、bazel test asan、domain4、domain5 全過。tests/test_emit.c 163→173。誠實結果：scarab.prn 現在真的推進過了自己的多欄位 payload 卡點，落在跟 firefly/ladybug.prn、firefly/gomega.prn 完全同一個既有的模組連結缺口上（T 在 firefly.prn 定義，單獨編譯時看不到）。剩下三個 ladybug 檔案現在統一卡在同一個真實、單一、架構層級的缺口上，這次沒動——這是更大、獨立的工程（真正的多檔案編譯/模組解析），不是快速修復。match 語句對多欄位 payload 的解構（一次綁定多個名稱）也還沒做，建構的部分是真的、能動的，解構是另一塊未開始的工作。\n\n⚓ ☃",
+  "id": 15131,
+  "metadata": null,
+  "run_id": "sess-20260820-0649-a3f19d93",
+  "source_repo": "PARENA",
+  "title": "多欄位 defenum variant payload 落地"
+}
