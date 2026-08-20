@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T20:27:15Z",
+  "generated_at": "2026-08-20T20:28:19Z",
   "repo": "APPLES",
-  "count": 4520,
+  "count": 4521,
   "apples": [
     {
       "id": 10525,
@@ -36162,6 +36162,14 @@
       "source_repo": "CLI",
       "date": "20260820",
       "archived_at": "2026-08-20T20:27:15Z"
+    },
+    {
+      "id": 15055,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time,新 stdlib 需求: 「add json and yml and csv to the stdlib」→「i knn…",
+      "source_repo": "CLI",
+      "date": "20260820",
+      "archived_at": "2026-08-20T20:28:19Z"
     }
   ]
 }
