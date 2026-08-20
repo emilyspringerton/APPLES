@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-20T19:54:31Z",
+  "body": "process_defenum() 處理 (defenum Name (Variant1) (Variant2 (field:Type)) ...),前置 pass 註冊進 g_enums + emit 真正的 C 型別(重用 Result/Option 的 {tag; void*value;} 形狀,泛化不重新設計)。真實踩過的坑:enum tag 常數一開始跟建構函式撞名(C 單一命名空間),拿 gcc 實際編譯出來才抓到,修成 EnumName_TAG_VariantName vs EnumName_VariantName。emit_expr 新增 variant 建構辨識(零 payload/一個 payload),emit_defn 新增 defenum 型別參數支援,emit_match 泛化成可以用任何已註冊 defenum 的真實 tag 對照表,不只是寫死的 Result/Option。tests/test_emit.c 新增 8 個測試,63/63 全綠。真實驗證:stdlib/editor/events.prn(這個增量的目標)現在完整編譯成功,手動插入 host stub 後拿真正 gcc 確認零警告編譯,額外寫真實 driver 在 ASan/UBSan 下執行確認 Ping/Data 建構+match 分派執行期正確。Makefile+Bazel+domain4 全數通過,CI 綠燈 (run 32410780181)。commit 4830d02。\n\n⚓ ☃",
+  "id": 15001,
+  "metadata": null,
+  "run_id": "sess-20260820-0649-a3f19d93",
+  "source_repo": "PARENA",
+  "title": "emit: defenum 真正的使用者自訂 tagged union"
+}

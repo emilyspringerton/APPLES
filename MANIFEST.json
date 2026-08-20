@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T19:54:14Z",
+  "generated_at": "2026-08-20T19:54:31Z",
   "repo": "APPLES",
-  "count": 4466,
+  "count": 4467,
   "apples": [
     {
       "id": 10525,
@@ -35730,6 +35730,14 @@
       "source_repo": "PARENA",
       "date": "20260820",
       "archived_at": "2026-08-20T19:54:14Z"
+    },
+    {
+      "id": 15001,
+      "type": "completion",
+      "title": "emit: defenum 真正的使用者自訂 tagged union",
+      "source_repo": "PARENA",
+      "date": "20260820",
+      "archived_at": "2026-08-20T19:54:31Z"
     }
   ]
 }
