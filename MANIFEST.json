@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T11:15:26Z",
+  "generated_at": "2026-08-20T11:15:52Z",
   "repo": "APPLES",
-  "count": 4201,
+  "count": 4202,
   "apples": [
     {
       "id": 10525,
@@ -33610,6 +33610,14 @@
       "source_repo": "CLI",
       "date": "20260820",
       "archived_at": "2026-08-20T11:15:26Z"
+    },
+    {
+      "id": 14736,
+      "type": "signal_observation",
+      "title": "[INFO] Checked for 'Building the Plane Through Stillness' -- not found. Searched all 175 blog posts…",
+      "source_repo": "CLI",
+      "date": "20260820",
+      "archived_at": "2026-08-20T11:15:52Z"
     }
   ]
 }
