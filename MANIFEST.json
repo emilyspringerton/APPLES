@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T14:30:40Z",
+  "generated_at": "2026-08-20T14:30:42Z",
   "repo": "APPLES",
-  "count": 4283,
+  "count": 4284,
   "apples": [
     {
       "id": 10525,
@@ -34266,6 +34266,14 @@
       "source_repo": "PARENA",
       "date": "20260820",
       "archived_at": "2026-08-20T14:30:40Z"
+    },
+    {
+      "id": 14818,
+      "type": "completion",
+      "title": "alternate-screen scroll-region 真實 bug 修復 + GPU 字形圖集 + panic recover + 願景文件",
+      "source_repo": "PITVIPER",
+      "date": "20260820",
+      "archived_at": "2026-08-20T14:30:42Z"
     }
   ]
 }
