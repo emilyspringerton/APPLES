@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T17:03:10Z",
+  "generated_at": "2026-08-20T17:03:12Z",
   "repo": "APPLES",
-  "count": 4383,
+  "count": 4384,
   "apples": [
     {
       "id": 10525,
@@ -35066,6 +35066,14 @@
       "source_repo": "PARENA",
       "date": "20260820",
       "archived_at": "2026-08-20T17:03:10Z"
+    },
+    {
+      "id": 14918,
+      "type": "completion",
+      "title": "emit_defn:純 I32/String 參數支援",
+      "source_repo": "PARENA",
+      "date": "20260820",
+      "archived_at": "2026-08-20T17:03:12Z"
     }
   ]
 }
