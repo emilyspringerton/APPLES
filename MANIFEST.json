@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T17:15:06Z",
+  "generated_at": "2026-08-20T17:15:15Z",
   "repo": "APPLES",
-  "count": 4409,
+  "count": 4410,
   "apples": [
     {
       "id": 10525,
@@ -35274,6 +35274,14 @@
       "source_repo": "CLI",
       "date": "20260820",
       "archived_at": "2026-08-20T17:15:06Z"
+    },
+    {
+      "id": 14944,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time,補充 GPT-2 生成參數: 「pon a fib for characters returned」(推測=…",
+      "source_repo": "CLI",
+      "date": "20260820",
+      "archived_at": "2026-08-20T17:15:15Z"
     }
   ]
 }
