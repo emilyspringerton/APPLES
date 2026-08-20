@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T04:01:02Z",
+  "generated_at": "2026-08-20T04:02:11Z",
   "repo": "APPLES",
-  "count": 4008,
+  "count": 4009,
   "apples": [
     {
       "id": 10525,
@@ -32066,6 +32066,14 @@
       "source_repo": "CLI",
       "date": "20260820",
       "archived_at": "2026-08-20T04:01:02Z"
+    },
+    {
+      "id": 14543,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: (newssite freshness continued) unsure whether published/ingested dates ac…",
+      "source_repo": "CLI",
+      "date": "20260820",
+      "archived_at": "2026-08-20T04:02:11Z"
     }
   ]
 }
