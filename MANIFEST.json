@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T04:18:28Z",
+  "generated_at": "2026-08-20T04:18:52Z",
   "repo": "APPLES",
-  "count": 4034,
+  "count": 4035,
   "apples": [
     {
       "id": 10525,
@@ -32274,6 +32274,14 @@
       "source_repo": "CLI",
       "date": "20260820",
       "archived_at": "2026-08-20T04:18:28Z"
+    },
+    {
+      "id": 14569,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: (email integration continued) offers to provide a password and use SMTP i…",
+      "source_repo": "CLI",
+      "date": "20260820",
+      "archived_at": "2026-08-20T04:18:52Z"
     }
   ]
 }
