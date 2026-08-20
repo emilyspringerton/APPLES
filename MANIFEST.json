@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T16:53:43Z",
+  "generated_at": "2026-08-20T16:54:31Z",
   "repo": "APPLES",
-  "count": 4369,
+  "count": 4370,
   "apples": [
     {
       "id": 10525,
@@ -34954,6 +34954,14 @@
       "source_repo": "emily",
       "date": "20260820",
       "archived_at": "2026-08-20T16:53:43Z"
+    },
+    {
+      "id": 14904,
+      "type": "signal_observation",
+      "title": "[INFO] Founder確認: 對剛才發現的 vterm.Screen.Resize() 真實 out-of-bounds crash 風險(sc…",
+      "source_repo": "CLI",
+      "date": "20260820",
+      "archived_at": "2026-08-20T16:54:31Z"
     }
   ]
 }
