@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T06:52:48Z",
+  "generated_at": "2026-08-20T06:52:55Z",
   "repo": "APPLES",
-  "count": 4065,
+  "count": 4066,
   "apples": [
     {
       "id": 10525,
@@ -32522,6 +32522,14 @@
       "source_repo": "CLI",
       "date": "20260820",
       "archived_at": "2026-08-20T06:52:48Z"
+    },
+    {
+      "id": 14600,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time, further constraint on the PITVIPER SSH ask: it has to work on Windows too…",
+      "source_repo": "CLI",
+      "date": "20260820",
+      "archived_at": "2026-08-20T06:52:55Z"
     }
   ]
 }
