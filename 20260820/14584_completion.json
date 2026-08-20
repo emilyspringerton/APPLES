@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-20T04:48:24Z",
+  "body": "Founder asked to retry the earlier GPT-2 generation attempt with real patience (up to 4 minutes). Found gpt2-serve.service stuck (500%+ CPU, 60+ min accumulated compute, health check itself blocked) -- well past its normal range. Restarted clean, retried, got a real 200 response in 56s this time. Published the actual verbatim output (quoted exactly, not edited) with honest evaluation: the generation is real but incoherent/off-topic for technical planning, as expected from a small fine-tune -- one accidental phrase ('one engine, many boards') coincidentally described real cross-repo unification work already in progress, called out as a coincidence worth noting, not the model reasoning toward it. Published https://okemily.com/blog/followup-what-the-fine-tuned-checkpoint-actually-said/ (200 OK).",
+  "id": 14584,
+  "metadata": null,
+  "run_id": "sess-20260813-2154-dda37e8b",
+  "source_repo": "EMILY",
+  "title": "Blog: Follow-up post with real fine-tuned GPT-2 output (Emily Prime + Claude)"
+}
