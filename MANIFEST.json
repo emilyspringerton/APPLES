@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T10:19:36Z",
+  "generated_at": "2026-08-20T10:20:53Z",
   "repo": "APPLES",
-  "count": 4152,
+  "count": 4153,
   "apples": [
     {
       "id": 10525,
@@ -33218,6 +33218,14 @@
       "source_repo": "CLI",
       "date": "20260820",
       "archived_at": "2026-08-20T10:19:36Z"
+    },
+    {
+      "id": 14687,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time, status check questions: 'is slurp done?' -\u003e answer: no, S187-03/S188-05 (…",
+      "source_repo": "CLI",
+      "date": "20260820",
+      "archived_at": "2026-08-20T10:20:53Z"
     }
   ]
 }
