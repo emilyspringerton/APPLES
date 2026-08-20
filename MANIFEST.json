@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T19:57:10Z",
+  "generated_at": "2026-08-20T19:57:35Z",
   "repo": "APPLES",
-  "count": 4473,
+  "count": 4474,
   "apples": [
     {
       "id": 10525,
@@ -35786,6 +35786,14 @@
       "source_repo": "CLI",
       "date": "20260820",
       "archived_at": "2026-08-20T19:57:10Z"
+    },
+    {
+      "id": 15008,
+      "type": "signal_observation",
+      "title": "[ERROR] Founder real-time,確認真實根因 + 修復方向: 「fix it on the render side somehow��…",
+      "source_repo": "CLI",
+      "date": "20260820",
+      "archived_at": "2026-08-20T19:57:35Z"
     }
   ]
 }
