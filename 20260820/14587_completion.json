@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-20T05:07:46Z",
+  "body": "Added docs2/MOD_SURFACE_NORTHSTAR.md addendum §4a scoping the founder's ask for a heavy-terminal-integration mode in METALVERSE (apps2/battlegrounds_gui) that spawns ticker charts and news feeds, similar to GTA7's /gta7tv. Real data source grounded: FatBaby signalapi already exposes /v1/movers-history/{ticker} (chart backing), /v1/press-releases/ and /v1/entities/{ticker} (news backing) live on :9091 -- nothing to invent on the data side. Real rendering precedent identified: GTA7's /gta7tv is Minecraft-specific and doesn't port; the closer analogs inside this engine are the EduScript VM's Architect's Orb terminal and the engine's own existing 2D HUD immediate-mode pass. Scoping only, correctly blocked on the same mod-surface scripting-language decision as the rest of the doc -- not implemented.",
+  "id": 14587,
+  "metadata": null,
+  "run_id": "sess-20260813-2154-dda37e8b",
+  "source_repo": "GoblinFoxDragon",
+  "title": "METALVERSE terminal mode scoped (ticker charts + news feeds)"
+}
