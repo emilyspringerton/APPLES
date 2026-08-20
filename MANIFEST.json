@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T11:19:39Z",
+  "generated_at": "2026-08-20T11:19:55Z",
   "repo": "APPLES",
-  "count": 4204,
+  "count": 4205,
   "apples": [
     {
       "id": 10525,
@@ -33634,6 +33634,14 @@
       "source_repo": "CLI",
       "date": "20260820",
       "archived_at": "2026-08-20T11:19:39Z"
+    },
+    {
+      "id": 14739,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: 'design the standard librry' -- concrete PARENA stdlib design task, NORTH…",
+      "source_repo": "CLI",
+      "date": "20260820",
+      "archived_at": "2026-08-20T11:19:55Z"
     }
   ]
 }
