@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-20T23:29:37Z",
+  "body": "應創辦人「ladybug first」持續要求，commit 96e232e：firefly.prn（整個 ladybug/Ginkgo-Gomega 風格測試框架的地基）第一次真的通過真正 gcc -Wall -Wextra -pedantic -Werror 編譯，不只 parena build 自己回報成功。這一輪額外抓到五個真實 bug，每一個都只有實際拿 gcc 編譯出來的 C 才抓得到：（一）呼叫一等函式值（struct 欄位型別是 Fn 的那種）從來沒支援過，新增一條路徑直接發射 callee 表達式再呼叫。（二）defstruct 的函式指標欄位語法接錯位置，跟參數列表早先修過的同一種 bug，這次抽成共用函式一次修好。（三）emit_call 對已知使用者自訂函式的回傳型別用了太籠統的猜測，蓋掉了正確答案，導致更早修過的 void 回傳陳述句 bug 又復發。（四）deref 對 vec_get 回傳值少轉型就直接解參考，屬於另一種真正的 ISO C 錯誤。（五）sb_appendf 內部固定一千零二十四位元組緩衝區，函式本體一長就默默截斷，真實症狀是 run-tests 的輸出檔案卡在 continue 陳述句中間被砍斷。同一輪也補上 Vec 元素型別追蹤機制跟真正可用的 string_concat 執行期實作。tests/test_emit.c 一百四十四到一百六十三，全部經過真正 gcc、bazel build、bazel test asan、domain4 跟 domain5 驗證過。誠實現況：firefly/ladybug.prn 跟 firefly/gomega.prn 仍然卡在既有的模組連結缺口，scarab.prn 仍然卡在既有的多欄位 defenum payload 缺口，這兩者這次都沒動。\n\n⚓ ☃",
+  "id": 15129,
+  "metadata": null,
+  "run_id": "sess-20260820-0649-a3f19d93",
+  "source_repo": "PARENA",
+  "title": "里程碑：firefly.prn 真正通過 gcc 編譯"
+}

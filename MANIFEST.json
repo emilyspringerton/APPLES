@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T23:29:21Z",
+  "generated_at": "2026-08-20T23:29:37Z",
   "repo": "APPLES",
-  "count": 4594,
+  "count": 4595,
   "apples": [
     {
       "id": 10525,
@@ -36754,6 +36754,14 @@
       "source_repo": "PARENA",
       "date": "20260820",
       "archived_at": "2026-08-20T23:29:21Z"
+    },
+    {
+      "id": 15129,
+      "type": "completion",
+      "title": "里程碑：firefly.prn 真正通過 gcc 編譯",
+      "source_repo": "PARENA",
+      "date": "20260820",
+      "archived_at": "2026-08-20T23:29:37Z"
     }
   ]
 }
