@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T11:03:50Z",
+  "generated_at": "2026-08-20T11:04:06Z",
   "repo": "APPLES",
-  "count": 4192,
+  "count": 4193,
   "apples": [
     {
       "id": 10525,
@@ -33538,6 +33538,14 @@
       "source_repo": "CLI",
       "date": "20260820",
       "archived_at": "2026-08-20T11:03:50Z"
+    },
+    {
+      "id": 14727,
+      "type": "signal_observation",
+      "title": "[INFO] Found the real 'LANGUAGE SPEC FOUND' artifact: PARENA repo (emilyspringerton/PARENA) contain…",
+      "source_repo": "CLI",
+      "date": "20260820",
+      "archived_at": "2026-08-20T11:04:06Z"
     }
   ]
 }
