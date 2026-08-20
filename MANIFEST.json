@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T06:56:24Z",
+  "generated_at": "2026-08-20T06:57:09Z",
   "repo": "APPLES",
-  "count": 4075,
+  "count": 4076,
   "apples": [
     {
       "id": 10525,
@@ -32602,6 +32602,14 @@
       "source_repo": "CLI",
       "date": "20260820",
       "archived_at": "2026-08-20T06:56:24Z"
+    },
+    {
+      "id": 14610,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time, NEW STANDING ORDER: all Apples must be signed with an anchor emoji (⚓) …",
+      "source_repo": "CLI",
+      "date": "20260820",
+      "archived_at": "2026-08-20T06:57:09Z"
     }
   ]
 }
