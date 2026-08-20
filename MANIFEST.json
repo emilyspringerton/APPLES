@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T16:38:13Z",
+  "generated_at": "2026-08-20T16:39:17Z",
   "repo": "APPLES",
-  "count": 4342,
+  "count": 4343,
   "apples": [
     {
       "id": 10525,
@@ -34738,6 +34738,14 @@
       "source_repo": "CLI",
       "date": "20260820",
       "archived_at": "2026-08-20T16:38:13Z"
+    },
+    {
+      "id": 14877,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time,新問題: 「can we use shaders on the gpu to reduce the flickering」—…",
+      "source_repo": "CLI",
+      "date": "20260820",
+      "archived_at": "2026-08-20T16:39:17Z"
     }
   ]
 }
