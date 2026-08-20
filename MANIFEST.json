@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T16:58:42Z",
+  "generated_at": "2026-08-20T16:59:13Z",
   "repo": "APPLES",
-  "count": 4380,
+  "count": 4381,
   "apples": [
     {
       "id": 10525,
@@ -35042,6 +35042,14 @@
       "source_repo": "CLI",
       "date": "20260820",
       "archived_at": "2026-08-20T16:58:42Z"
+    },
+    {
+      "id": 14915,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time,新功能需求: 「make sure we are set up to do full syntax highlighting…",
+      "source_repo": "CLI",
+      "date": "20260820",
+      "archived_at": "2026-08-20T16:59:13Z"
     }
   ]
 }
