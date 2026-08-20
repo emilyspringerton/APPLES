@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T12:03:19Z",
+  "generated_at": "2026-08-20T12:05:07Z",
   "repo": "APPLES",
-  "count": 4231,
+  "count": 4232,
   "apples": [
     {
       "id": 10525,
@@ -33850,6 +33850,14 @@
       "source_repo": "CLI",
       "date": "20260820",
       "archived_at": "2026-08-20T12:03:19Z"
+    },
+    {
+      "id": 14766,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: PARENA stdlib expansion continues -- \"also the stdlibs we need for the ed…",
+      "source_repo": "CLI",
+      "date": "20260820",
+      "archived_at": "2026-08-20T12:05:07Z"
     }
   ]
 }
