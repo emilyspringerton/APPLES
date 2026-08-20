@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T04:03:04Z",
+  "generated_at": "2026-08-20T04:03:22Z",
   "repo": "APPLES",
-  "count": 4012,
+  "count": 4013,
   "apples": [
     {
       "id": 10525,
@@ -32098,6 +32098,14 @@
       "source_repo": "CLI",
       "date": "20260820",
       "archived_at": "2026-08-20T04:03:04Z"
+    },
+    {
+      "id": 14547,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: (Prompt-o-verse into newssite continued) specifically article thumbnails …",
+      "source_repo": "CLI",
+      "date": "20260820",
+      "archived_at": "2026-08-20T04:03:22Z"
     }
   ]
 }
