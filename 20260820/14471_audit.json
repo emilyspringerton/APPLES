@@ -1,13 +1,68 @@
 {
   "agent_id": "00000003-0000-4000-8000-000000000001",
   "apple_type": "audit",
-  "archived_at": "2026-08-20T02:56:14Z",
+  "archived_at": "2026-08-20T02:58:32Z",
   "body": "\n## Cycle summary\n- Cycle: 11477\n- Duration: 0s\n- Outcome: idle — no queued tasks\n- Total completed tasks: 2\n- Triage findings this cycle: 0",
   "id": 14471,
   "metadata": {
     "consecutive_failures": 0,
     "cycle_number": 11477,
     "duration_s": 0,
+    "gpt2_fingerprint": {
+      "codze": {
+        "az": {
+          "bin": "111101100100011011001001001010010110010101011000101111011100111111000011001000011011101011011011001010011100000110101110111011101001101110001001111100001000111001010010010101",
+          "dec": "23035745164367033035705164105364143036160375603303573"
+        },
+        "word": "CTIDVXEFROMTOPATTIDVXYFROMRANDOMREDITORWITHNOATTIDVXD",
+        "za": {
+          "bin": "11001011100100011011001010000110111011100011001000001111110001101110100100001101110001010101001101110010010110000101010111111010110000110110110111100001010010111111111011101010",
+          "dec": "76164254035632166164214035014635056163031624316616426"
+        }
+      },
+      "generated": " (c) 2018-09-29T06:16:34-07:00 (id d8v5x6e) 1114040 (11478) from TOP_20 at 2016-11-29T06:16:38-07:00 (id d8v5x6y) 1114041 (11479) from RandomRedditorWithNo at 2016-11-29T06:16:43-07:00 (id d8v5x7d)",
+      "magic_tower": [
+        "00 27 16 11 02 25 ",
+        "21 06 06 21 27 00 ",
+        "11 16 01 26 05 22 ",
+        "04 23 24 03 16 11 ",
+        "04 23 25 02 20 07 ",
+        "16 11 02 25 21 06 ",
+        "06 21 27 00 17 10 ",
+        "01 26 05 22 04 23 ",
+        "24 03 05 22 20 07 ",
+        "14 13 21 06 04 23 ",
+        "24 03 05 22 11 16 ",
+        "21 06 02 25 16 11 ",
+        "04 23 05 22 06 21 ",
+        "02 25 16 11 12 15 ",
+        "14 13 04 23 20 07 ",
+        "16 11 02 25 21 06 ",
+        "06 21 27 00 21 06 "
+      ],
+      "seed": "2026082011",
+      "squished": "CTIDVXEFROMTOPATTIDVXYFROMRANDOMREDITORWITHNOATTIDVXD",
+      "tower": [
+        "CTI",
+        "DVX",
+        "EFR",
+        "OMT",
+        "OPA",
+        "TID",
+        "VXY",
+        "FRO",
+        "MRA",
+        "NDO",
+        "MRE",
+        "DIT",
+        "ORV",
+        "ITH",
+        "NOA",
+        "TID",
+        "VXD"
+      ]
+    },
+    "model_fingerprint": "gpt2-base",
     "task_id": "",
     "tokens_used": 0,
     "triage_findings": 0
