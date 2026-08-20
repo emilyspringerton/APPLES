@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T18:24:32Z",
+  "generated_at": "2026-08-20T18:25:06Z",
   "repo": "APPLES",
-  "count": 4422,
+  "count": 4423,
   "apples": [
     {
       "id": 10525,
@@ -35378,6 +35378,14 @@
       "source_repo": "emily",
       "date": "20260820",
       "archived_at": "2026-08-20T18:24:32Z"
+    },
+    {
+      "id": 14957,
+      "type": "completion",
+      "title": "changelog(PARENA): (Fn [] ..) callback 泛化支援任意回傳型別 + 新增 cache stdlib(Russian do…",
+      "source_repo": "PARENA",
+      "date": "20260820",
+      "archived_at": "2026-08-20T18:25:06Z"
     }
   ]
 }
