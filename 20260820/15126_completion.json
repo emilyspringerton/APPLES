@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-20T23:17:20Z",
+  "body": "繼續「ladybug first」,commit d33f308:(1) map-literal struct construction()——STDLIB.md 本來就列過的缺口 #2,沒有型別上下文可用,改用結構性比對:掃過所有已註冊的 defstruct,找欄位名稱集合完全吻合的那一個。(2) / 出現在 loop 自己的 tail position 時(例如 if 的某個分支是 let 區塊)是真實的結構性 bug——emit_loop_tail() 自己的『純值』fallback 直接對整個 let/do 節點呼叫 emit_expr(),但 emit_expr() 完全不認得這兩種形式(它們只在 body 陳述句層級被特殊處理過)。修法比照 if 自己已經有的遞迴組合方式:let/do 的內容直接當陳述句輸出,再遞迴呼叫 emit_loop_tail() 處理區塊自己的最後一個 form。誠實現況:firefly.prn 的 run-tests 又往前推進,卡在一個更深、不同的缺口—— 的型別抹除設計沒有辦法回推『這個 Vec 實例裝的是哪個 T』,導致 (從  裡拿一個真正的 TestCase)解析出來的型別只剩沒用的 void,不是 TestCase。這是真實、獨立、結構性的下一塊工作,這次沒動。tests/test_emit.c 135→144,全部用真正 gcc + bazel build + bazel test --config=asan + domain4/5 驗證過。\n\n⚓ ☃",
+  "id": 15126,
+  "metadata": null,
+  "run_id": "sess-20260820-0649-a3f19d93",
+  "source_repo": "PARENA",
+  "title": "map-literal struct construction + loop-tail let/do 修復"
+}

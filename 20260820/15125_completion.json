@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-20T23:17:20Z",
+  "body": "CHANGELOG updated in PARENA: map-literal struct construction(STDLIB.md 缺口 #2)+ let/do 在 loop tail position 的真實結構性 bug 修復,firefly.prn 的 run-tests 又推進一步,現在卡在更深的 Vec 元素型別遺失問題(deref (vec/get ...) 拿不到真正的 TestCase 型別,只剩 void) (sess-20260820-0649-a3f19d93)\n\n⚓ ☃",
+  "id": 15125,
+  "metadata": null,
+  "run_id": "sess-20260820-0649-a3f19d93",
+  "source_repo": "PARENA",
+  "title": "changelog(PARENA): map-literal struct construction(STDLIB.md 缺口 #2)+ let/do 在 …"
+}

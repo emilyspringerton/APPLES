@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T23:13:20Z",
+  "generated_at": "2026-08-20T23:17:20Z",
   "repo": "APPLES",
-  "count": 4590,
+  "count": 4591,
   "apples": [
     {
       "id": 10525,
@@ -36722,6 +36722,14 @@
       "source_repo": "CLI",
       "date": "20260820",
       "archived_at": "2026-08-20T23:13:20Z"
+    },
+    {
+      "id": 15125,
+      "type": "completion",
+      "title": "changelog(PARENA): map-literal struct construction(STDLIB.md 缺口 #2)+ let/do 在 …",
+      "source_repo": "PARENA",
+      "date": "20260820",
+      "archived_at": "2026-08-20T23:17:20Z"
     }
   ]
 }
