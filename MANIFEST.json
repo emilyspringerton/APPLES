@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T10:43:15Z",
+  "generated_at": "2026-08-20T10:43:34Z",
   "repo": "APPLES",
-  "count": 4165,
+  "count": 4166,
   "apples": [
     {
       "id": 10525,
@@ -33322,6 +33322,14 @@
       "source_repo": "CLI",
       "date": "20260820",
       "archived_at": "2026-08-20T10:43:15Z"
+    },
+    {
+      "id": 14700,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: 'so you can have the ui match for both GFD and REDGARDEN' -- confirms the…",
+      "source_repo": "CLI",
+      "date": "20260820",
+      "archived_at": "2026-08-20T10:43:34Z"
     }
   ]
 }
