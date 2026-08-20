@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T04:03:22Z",
+  "generated_at": "2026-08-20T04:04:13Z",
   "repo": "APPLES",
-  "count": 4013,
+  "count": 4014,
   "apples": [
     {
       "id": 10525,
@@ -32106,6 +32106,14 @@
       "source_repo": "CLI",
       "date": "20260820",
       "archived_at": "2026-08-20T04:03:22Z"
+    },
+    {
+      "id": 14548,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: build out tournaments into the GFD MUD GUI client",
+      "source_repo": "CLI",
+      "date": "20260820",
+      "archived_at": "2026-08-20T04:04:13Z"
     }
   ]
 }
