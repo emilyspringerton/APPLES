@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T03:29:47Z",
+  "generated_at": "2026-08-20T03:29:49Z",
   "repo": "APPLES",
-  "count": 3953,
+  "count": 3954,
   "apples": [
     {
       "id": 10525,
@@ -31626,6 +31626,14 @@
       "source_repo": "CLI",
       "date": "20260820",
       "archived_at": "2026-08-20T03:29:47Z"
+    },
+    {
+      "id": 14488,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: enqueue all pending real-time direction into BACKLOG.md as real sprint it…",
+      "source_repo": "CLI",
+      "date": "20260820",
+      "archived_at": "2026-08-20T03:29:49Z"
     }
   ]
 }
