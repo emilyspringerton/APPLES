@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T10:20:53Z",
+  "generated_at": "2026-08-20T10:21:00Z",
   "repo": "APPLES",
-  "count": 4153,
+  "count": 4154,
   "apples": [
     {
       "id": 10525,
@@ -33226,6 +33226,14 @@
       "source_repo": "CLI",
       "date": "20260820",
       "archived_at": "2026-08-20T10:20:53Z"
+    },
+    {
+      "id": 14688,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: '15 and 15' -- no clear context, logging verbatim per Principle 18 rather…",
+      "source_repo": "CLI",
+      "date": "20260820",
+      "archived_at": "2026-08-20T10:21:00Z"
     }
   ]
 }
