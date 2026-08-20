@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T16:36:12Z",
+  "generated_at": "2026-08-20T16:37:37Z",
   "repo": "APPLES",
-  "count": 4337,
+  "count": 4338,
   "apples": [
     {
       "id": 10525,
@@ -34698,6 +34698,14 @@
       "source_repo": "CLI",
       "date": "20260820",
       "archived_at": "2026-08-20T16:36:12Z"
+    },
+    {
+      "id": 14872,
+      "type": "signal_observation",
+      "title": "[WARN] Founder real-time回報真實 bug: 「htop doesnt animate at all on pitviper」——htop ��…",
+      "source_repo": "CLI",
+      "date": "20260820",
+      "archived_at": "2026-08-20T16:37:37Z"
     }
   ]
 }
