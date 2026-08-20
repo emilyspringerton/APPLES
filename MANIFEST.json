@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T20:41:49Z",
+  "generated_at": "2026-08-20T20:41:56Z",
   "repo": "APPLES",
-  "count": 4540,
+  "count": 4541,
   "apples": [
     {
       "id": 10525,
@@ -36322,6 +36322,14 @@
       "source_repo": "CLI",
       "date": "20260820",
       "archived_at": "2026-08-20T20:41:49Z"
+    },
+    {
+      "id": 15075,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: 「check the linux build for pitviper for an example」——確定性建…",
+      "source_repo": "CLI",
+      "date": "20260820",
+      "archived_at": "2026-08-20T20:41:56Z"
     }
   ]
 }
