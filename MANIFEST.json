@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T03:40:48Z",
+  "generated_at": "2026-08-20T03:41:14Z",
   "repo": "APPLES",
-  "count": 3976,
+  "count": 3977,
   "apples": [
     {
       "id": 10525,
@@ -31810,6 +31810,14 @@
       "source_repo": "CLI",
       "date": "20260820",
       "archived_at": "2026-08-20T03:40:48Z"
+    },
+    {
+      "id": 14511,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: data point / possible bug — some GFD accounts appear to already have Fl…",
+      "source_repo": "CLI",
+      "date": "20260820",
+      "archived_at": "2026-08-20T03:41:14Z"
     }
   ]
 }
