@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-20T14:30:25Z",
+  "body": "CHANGELOG updated in PITVIPER: 修復 alternate-screen 離開時 scroll region 沒重設的真實 bug(clear 看起來沒作用);GPU 字形圖集取代逐像素繪圖;PTY 讀取迴圈加 panic recover;記錄 PITVIPER=VPS-as-IDE 的整體願景 (sess-20260820-0649-a3f19d93)\n\n⚓ ☃",
+  "id": 14816,
+  "metadata": null,
+  "run_id": "sess-20260820-0649-a3f19d93",
+  "source_repo": "PITVIPER",
+  "title": "changelog(PITVIPER): 修復 alternate-screen 離開時 scroll region 沒重設的真實 bug(clear 看起來沒…"
+}

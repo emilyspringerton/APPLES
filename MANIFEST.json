@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T14:29:30Z",
+  "generated_at": "2026-08-20T14:30:25Z",
   "repo": "APPLES",
-  "count": 4280,
+  "count": 4281,
   "apples": [
     {
       "id": 10525,
@@ -34242,6 +34242,14 @@
       "source_repo": "CLI",
       "date": "20260820",
       "archived_at": "2026-08-20T14:29:30Z"
+    },
+    {
+      "id": 14815,
+      "type": "completion",
+      "title": "changelog(PARENA): VS0 domain 4(記憶體驗證)完成 + CI 修復(ASan/Valgrind 物件檔混用 bug);新增 p…",
+      "source_repo": "PARENA",
+      "date": "20260820",
+      "archived_at": "2026-08-20T14:30:25Z"
     }
   ]
 }
