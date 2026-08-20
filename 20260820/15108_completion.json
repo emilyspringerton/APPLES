@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-20T21:33:38Z",
+  "body": "應創辦人「docker APIS」/「parena underneath」/「into EMILY os」,STDLIB.md 新增 container/docker(commit 6897e1a):真實 Docker Engine API 設計(HTTP over /var/run/docker.sock,搭在既有 net/http 之上,不是包 docker CLI 二進位的假綁定)。明確標註這是既有 backlog S189-56d(Arch-based Emily OS,RPi + k3s master/worker 叢集)實際要用來部署 workload 的容器後端,跟 container/lxc(單一長駐 process 隔離,如 OpenClaw)是互補而非取代關係。誠實記錄:跟另外兩個容器套件一樣卡在同一個既有缺口(io 的檔案 I/O + net/http 目前缺 unix socket 支援),設計完成、非新缺口。\n\n⚓ ☃",
+  "id": 15108,
+  "metadata": null,
+  "run_id": "sess-20260820-0649-a3f19d93",
+  "source_repo": "PARENA",
+  "title": "container/docker stdlib 設計(第三個容器後端,連結 Emily OS)"
+}

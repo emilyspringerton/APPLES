@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T21:33:29Z",
+  "generated_at": "2026-08-20T21:33:38Z",
   "repo": "APPLES",
-  "count": 4572,
+  "count": 4573,
   "apples": [
     {
       "id": 10525,
@@ -36578,6 +36578,14 @@
       "source_repo": "CLI",
       "date": "20260820",
       "archived_at": "2026-08-20T21:33:29Z"
+    },
+    {
+      "id": 15107,
+      "type": "completion",
+      "title": "changelog(PARENA): STDLIB.md 新增 container/docker 設計(Docker Engine API,搭在 net/h…",
+      "source_repo": "PARENA",
+      "date": "20260820",
+      "archived_at": "2026-08-20T21:33:38Z"
     }
   ]
 }
