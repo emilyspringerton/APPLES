@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-20T18:25:18Z",
+  "body": "創辦人指示『right into effing PARENA in examples』+『built with bazel』+『of course』。新增 examples/BUILD.bazel:每個範例一個 genrule(跑真正的 parena binary)+一個 cc_library(用 DoD 同一套 -std=c99 -Wall -Wextra -pedantic -Werror 旗標真的編譯產生出來的 C)。editor_plugin.prn 的 #target/inline-c body 呼叫的 host-side 符號還不存在(真實、未開始的工作,不是 bug),新增 editor_plugin_host_stubs.h 提供誠實 extern 宣告 + editor_plugin_check.c 包起來編譯,守住零警告驗收標準而非放寬 -Werror。runtime/BUILD.bazel 補上 includes=[\".\"] 讓其他 package 能解析裸 include。驗證:bazel build //... 全部 15 個 target、bazel test 三個套件全過。GitHub Actions CI run 32402871822 completed success。commit 90a8cfa。\n\n⚓ ☃",
+  "id": 14960,
+  "metadata": null,
+  "run_id": "sess-20260820-0649-a3f19d93",
+  "source_repo": "PARENA",
+  "title": "editor_plugin.prn 進 examples/ + Bazel 編譯驗證"
+}

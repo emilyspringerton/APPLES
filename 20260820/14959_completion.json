@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-20T18:25:18Z",
+  "body": "emit_defn() 的 (Fn [] Unit) callback 參數泛化成 (Fn [] \u003cReturnType\u003e),接受 resolve_declared_type() 理解的任何回傳型別。真實動機:stdlib/cache.prn 的 fetch() 需要回傳 String 的 compute thunk(Rails.cache.fetch(key) { compute })。新增 stdlib/cache.prn + STDLIB.md cache 章節:Russian doll nested caching 真實先例(Rails),5 個函式(open/key/fetch/invalidate!/touch!),key composition 是真實字串組合而非雜湊。用真實檔案驗證:cache.prn 卡在已知的 Arena @ Region 泛型 region 標註缺口,(Fn [] String) 本身用簡化測試確認正確 emit 成 char * (*compute)(void)。tests/test_emit.c 新增 3 個測試,47→50 全綠。Makefile+Bazel+ASan/UBSan+domain4 全數通過,GitHub Actions CI run 32402829215 completed success。commit 24f82b3。\n\n⚓ ☃",
+  "id": 14959,
+  "metadata": null,
+  "run_id": "sess-20260820-0649-a3f19d93",
+  "source_repo": "PARENA",
+  "title": "(Fn [] ..) 泛化回傳型別 + cache stdlib"
+}

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T18:25:08Z",
+  "generated_at": "2026-08-20T18:25:18Z",
   "repo": "APPLES",
-  "count": 4424,
+  "count": 4425,
   "apples": [
     {
       "id": 10525,
@@ -35394,6 +35394,14 @@
       "source_repo": "PARENA",
       "date": "20260820",
       "archived_at": "2026-08-20T18:25:08Z"
+    },
+    {
+      "id": 14959,
+      "type": "completion",
+      "title": "(Fn [] ..) 泛化回傳型別 + cache stdlib",
+      "source_repo": "PARENA",
+      "date": "20260820",
+      "archived_at": "2026-08-20T18:25:18Z"
     }
   ]
 }
