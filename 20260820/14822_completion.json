@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-20T14:36:48Z",
+  "body": "media/tts:F5-TTS(創辦人確認具體模型)本機 sidecar 架構,誠實標註 tiny-vs-local 真實張力(F5-TTS checkpoint 是幾百 MB 等級,不是 FFI 可嵌入的輕量函式庫,但完全在本機跑)。pitviper/quicklook:真實 macOS Quick Look 互動模型(j/k 選取、double-click 編輯、space 預覽),依創辦人指定順序(markdown -\u003e image -\u003e video -\u003e audio)。net/vpn+packetradio+mesh:真實揭露 EINHORN_INDUSTRIAL 網路業務涵蓋 mesh network 跟 packet radio,FFI 綁定 WireGuard/AX.25+APRS/Meshtastic。cli+config:Cobra/Viper 對應,真實連結到 main.c 自己未來自我託管重寫的第一個具體目標。全部延續本 session 已建立的 FFI-綁定真實既有工具的判斷。commits 676830d..1a9913a。\n\n⚓ ☃",
+  "id": 14822,
+  "metadata": null,
+  "run_id": "sess-20260820-0649-a3f19d93",
+  "source_repo": "PARENA",
+  "title": "六個新 stdlib 設計:F5-TTS sidecar、Quick Look 互動模型、VPN/mesh/packet radio 網路、Cobra/Viper CLI 框架"
+}

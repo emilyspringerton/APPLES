@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T14:35:09Z",
+  "generated_at": "2026-08-20T14:36:48Z",
   "repo": "APPLES",
-  "count": 4286,
+  "count": 4287,
   "apples": [
     {
       "id": 10525,
@@ -34290,6 +34290,14 @@
       "source_repo": "CLI",
       "date": "20260820",
       "archived_at": "2026-08-20T14:35:09Z"
+    },
+    {
+      "id": 14821,
+      "type": "completion",
+      "title": "changelog(PARENA): 六個新 stdlib 套件設計:media/tts(F5-TTS sidecar)、pitviper/quickloo…",
+      "source_repo": "PARENA",
+      "date": "20260820",
+      "archived_at": "2026-08-20T14:36:48Z"
     }
   ]
 }
