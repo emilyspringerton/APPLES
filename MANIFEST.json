@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T12:34:41Z",
+  "generated_at": "2026-08-20T12:36:08Z",
   "repo": "APPLES",
-  "count": 4247,
+  "count": 4248,
   "apples": [
     {
       "id": 10525,
@@ -33978,6 +33978,14 @@
       "source_repo": "CLI",
       "date": "20260820",
       "archived_at": "2026-08-20T12:34:41Z"
+    },
+    {
+      "id": 14782,
+      "type": "completion",
+      "title": "changelog(PARENA): 新增 ringo(matplotlib 對應套件,依 array + sdl2),真實 .prn 原始碼已通過 par…",
+      "source_repo": "PARENA",
+      "date": "20260820",
+      "archived_at": "2026-08-20T12:36:08Z"
     }
   ]
 }
