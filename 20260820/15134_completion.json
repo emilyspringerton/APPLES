@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-20T23:41:44Z",
+  "body": "commit bfef2b5：parena build 現在可以吃多個 .prn 檔案，把它們各自的頂層形式合併成同一個編譯單元再跑 region-analysis 跟 emit（parena build firefly.prn firefly/ladybug.prn -o out.c）。誠實範圍：不是真正的 linker，沒有分開的編譯單元，沒有真正的模組命名空間，就是把每個輸入檔案自己解析出來的頂層形式串在一起，檔案順序還是要人工排對。但這正好解掉這整個 session 一直反覆撞到的那個真實缺口：ladybug/gomega/scarab 三個檔案全部卡在 T 這個型別在 firefly.prn 定義、單獨編譯時看不到。真實驗證分兩步：examples/multifile_a.prn 定義 T、examples/multifile_b.prn 用 T，兩個一起編譯出真正 gcc 乾淨的 C；b.prn 單獨編譯依然誠實失敗，證明第一步的成功是真的跨檔案解析，不是巧合。新增 run_multifile_check.sh 整合測試（跟 domain4/5 同一套『檢查要有牙齒』的紀律），接進 Makefile 的 test-multifile 目標跟 CI。順手用這個新機制實際測 firefly.prn+ladybug.prn 一起編譯，確認真的推進過了模組連結那道牆，落在一個全新、獨立、完全還沒開始的缺口上——匿名函式/closure（(fn [args] body)，ladybug.prn 自己的 equal 函式：捕捉外層 expected 參數的真正 closure），VS0 目前每個 Fn 值都只是裸的 C 函式指標，沒有真正的 closure 表示法，這次沒動。\n\n⚓ ☃",
+  "id": 15134,
+  "metadata": null,
+  "run_id": "sess-20260820-0649-a3f19d93",
+  "source_repo": "PARENA",
+  "title": "重大里程碑：parena build 真正支援多檔案編譯"
+}
