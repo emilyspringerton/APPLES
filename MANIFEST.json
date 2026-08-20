@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T19:43:02Z",
+  "generated_at": "2026-08-20T19:43:24Z",
   "repo": "APPLES",
-  "count": 4454,
+  "count": 4455,
   "apples": [
     {
       "id": 10525,
@@ -35634,6 +35634,14 @@
       "source_repo": "CLI",
       "date": "20260820",
       "archived_at": "2026-08-20T19:43:02Z"
+    },
+    {
+      "id": 14989,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time,補完自我更新機制細節: 「it receives and validates an updated as…",
+      "source_repo": "CLI",
+      "date": "20260820",
+      "archived_at": "2026-08-20T19:43:24Z"
     }
   ]
 }
