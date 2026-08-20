@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T19:54:51Z",
+  "generated_at": "2026-08-20T19:55:34Z",
   "repo": "APPLES",
-  "count": 4468,
+  "count": 4469,
   "apples": [
     {
       "id": 10525,
@@ -35746,6 +35746,14 @@
       "source_repo": "emily",
       "date": "20260820",
       "archived_at": "2026-08-20T19:54:51Z"
+    },
+    {
+      "id": 15003,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time,語言設計問題: 「fo we need structs to help us with composable tests…",
+      "source_repo": "CLI",
+      "date": "20260820",
+      "archived_at": "2026-08-20T19:55:34Z"
     }
   ]
 }
