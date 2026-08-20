@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-20T11:34:03Z",
+  "body": "CHANGELOG updated in SHANKPIT: Fixed Windows client CI build: packages/goldenband/*.c (gband.c/gband_mesh_rig.c/gmesh.c/gskel.c) were never added to the mingw build command after S144-02 Stage B introduced real calls to gband_mesh_rig_init/draw -- undefined reference at link time. Verified against the real mingw-w64 cross-compiler. (sess-20260820-0649-a3f19d93)\n\n⚓ ☃",
+  "id": 14747,
+  "metadata": null,
+  "run_id": "sess-20260820-0649-a3f19d93",
+  "source_repo": "SHANKPIT",
+  "title": "changelog(SHANKPIT): Fixed Windows client CI build: packages/goldenband/*.c (gba…"
+}

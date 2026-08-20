@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T11:31:11Z",
+  "generated_at": "2026-08-20T11:34:03Z",
   "repo": "APPLES",
-  "count": 4212,
+  "count": 4213,
   "apples": [
     {
       "id": 10525,
@@ -33698,6 +33698,14 @@
       "source_repo": "PARENA",
       "date": "20260820",
       "archived_at": "2026-08-20T11:31:11Z"
+    },
+    {
+      "id": 14747,
+      "type": "completion",
+      "title": "changelog(SHANKPIT): Fixed Windows client CI build: packages/goldenband/*.c (gba…",
+      "source_repo": "SHANKPIT",
+      "date": "20260820",
+      "archived_at": "2026-08-20T11:34:03Z"
     }
   ]
 }

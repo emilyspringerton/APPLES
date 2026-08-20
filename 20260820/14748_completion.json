@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-20T11:34:03Z",
+  "body": "Founder real-time: 'the build is failing for mainline shankpit?' (S189-08b). Reproduced CI's exact mingw cross-compile locally (mingw-w64 already installed this session for BRAWLPIT). Root cause: commit f31cfcd added real gband_mesh_rig_init/gband_mesh_rig_draw calls to apps/lobby/src/main.c (GOLDENBAND mesh-rig skinning, S144-02 Stage B) but never updated .github/workflows/tests.yml's Windows Client build gcc command to compile+link packages/goldenband/*.c -- undefined reference at link time, invisible without actually running the mingw linker (go test and plain Linux gcc compiles of the same source were both clean the whole time). Fixed: added the 4 real goldenband source files + include path. Verified clean against the real cross-compiler. Linux Server build confirmed unaffected (zero goldenband references in server/main.c). Commit e807597.\n\n⚓ ☃",
+  "id": 14748,
+  "metadata": null,
+  "run_id": "sess-20260820-0649-a3f19d93",
+  "source_repo": "SHANKPIT",
+  "title": "Windows CI build fixed — stale build command after GOLDENBAND integration"
+}
