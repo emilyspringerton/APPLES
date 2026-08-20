@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T11:03:42Z",
+  "generated_at": "2026-08-20T11:03:50Z",
   "repo": "APPLES",
-  "count": 4191,
+  "count": 4192,
   "apples": [
     {
       "id": 10525,
@@ -33530,6 +33530,14 @@
       "source_repo": "CLI",
       "date": "20260820",
       "archived_at": "2026-08-20T11:03:42Z"
+    },
+    {
+      "id": 14726,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: 'clone me down skootz' -- confirmed PARENA repo exists (emilyspringerton/…",
+      "source_repo": "CLI",
+      "date": "20260820",
+      "archived_at": "2026-08-20T11:03:50Z"
     }
   ]
 }
