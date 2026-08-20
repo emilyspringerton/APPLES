@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T03:46:57Z",
+  "generated_at": "2026-08-20T03:47:06Z",
   "repo": "APPLES",
-  "count": 3984,
+  "count": 3985,
   "apples": [
     {
       "id": 10525,
@@ -31874,6 +31874,14 @@
       "source_repo": "CLI",
       "date": "20260820",
       "archived_at": "2026-08-20T03:46:57Z"
+    },
+    {
+      "id": 14519,
+      "type": "completion",
+      "title": "Diagnosed gpt2-serve FT timeouts — matches known single-threaded-server issue, restarted under systemd",
+      "source_repo": "EMILY",
+      "date": "20260820",
+      "archived_at": "2026-08-20T03:47:06Z"
     }
   ]
 }

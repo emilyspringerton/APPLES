@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-20T03:47:06Z",
+  "body": "Root cause is not new: REBOOT_RUNBOOK.md already documents (Apple #13254) that serve.py's stdlib single-threaded http.server can take up to ~8 minutes on a cold /generate call — my 3 attempts tonight (up to 200s) simply weren't long enough, not a hang. Separately found gpt2-serve.service (a real, enabled systemd unit added 2026-08-13) had been cleanly SIGTERM'd and sitting dead since 2026-08-17 — 3 days unsupervised. My earlier manual kill+restart (python3 serve.py \u0026) created an orphan process outside systemd's supervision. Fixed: killed the orphan, restarted the real service via systemctl --user start gpt2-serve.service (needed XDG_RUNTIME_DIR=/run/user/$(id -u) set explicitly — not present by default in this Bash tool's environment, worth remembering for future systemctl --user calls from a session). Confirmed healthy and running the FT checkpoint. Not fixed tonight, left as the same documented gap: serve.py's single-threaded server, and fatbaby-broker's mismatched 30s upstream timeout vs the server's real worst-case latency — a genuine code change, deliberately not rushed under time pressure without verifying the underlying generation code's thread-safety first.",
+  "id": 14519,
+  "metadata": null,
+  "run_id": "sess-20260813-2154-dda37e8b",
+  "source_repo": "EMILY",
+  "title": "Diagnosed gpt2-serve FT timeouts — matches known single-threaded-server issue, restarted under systemd"
+}
