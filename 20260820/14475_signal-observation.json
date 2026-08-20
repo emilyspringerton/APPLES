@@ -1,10 +1,52 @@
 {
   "agent_id": "00000003-0000-4000-8000-000000000001",
   "apple_type": "signal_observation",
-  "archived_at": "2026-08-20T03:09:42Z",
+  "archived_at": "2026-08-20T03:15:03Z",
   "body": "severity: info\n\nsource: emily observe (CLI)",
   "id": 14475,
-  "metadata": null,
+  "metadata": {
+    "gpt2_fingerprint": {
+      "codze": {
+        "az": {
+          "bin": "111110000001100011010101101010101101111100011001111110101100000011010110100110111111000110100000101101110101",
+          "dec": "314500324030250303324200334134133"
+        },
+        "word": "DBEFAADCEADACFADADDCECAADDEBDEBDD",
+        "za": {
+          "bin": "1110111011001010111101010000001001110100110100111000000110000011110011011000010100001011111000100110001101010",
+          "dec": "605411675161741616675711665065066"
+        }
+      },
+      "generated": "\n\n11:20.33 0d 4be 23ff 0721 016a 0a5d d7c8 00e6 0a5d 0a4c 007f 0a5d 0a5d 0717\n\n11:19.29 0d 4946 03c4 0742 0018 0e9c 7a8a d6d0 e8bd 0050 0e8bd 0217\n\n11:19.28 0d",
+      "magic_tower": [
+        "21 06 10 17 11 16 ",
+        "01 26 20 07 21 06 ",
+        "00 27 11 16 20 07 ",
+        "21 06 20 07 00 27 ",
+        "01 26 20 07 21 06 ",
+        "20 07 21 06 00 27 ",
+        "11 16 00 27 20 07 ",
+        "21 06 11 16 10 17 ",
+        "21 06 11 16 10 17 ",
+        "21 06 27 00 27 00 "
+      ],
+      "seed": "2026082012",
+      "squished": "DBEFAADCEADACFADADDCECAADDEBDEBDD",
+      "tower": [
+        "DBE",
+        "FAD",
+        "CEA",
+        "DAC",
+        "FAD",
+        "ADC",
+        "ECA",
+        "DEB",
+        "DEB",
+        "DXX"
+      ]
+    },
+    "model_fingerprint": "gpt2-base"
+  },
   "run_id": "sess-20260813-2154-dda37e8b",
   "source_repo": "CLI",
   "title": "[INFO] Founder real-time, big new ask arriving mid-Ada-module-work: 'as TYLER do a product update i…"
