@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-20T04:07:37Z",
+  "body": "Found and fixed: eventstore.FileStore.ReadFrom's closed-file skip-cache incorrectly froze the actively-growing journal file when read by a SEPARATE reader-only FileStore handle (cmd/prwatch-body reading cmd/prwatch's own discovery store, and structurally any other cross-process reader in this pipeline). The 'never cache the active journal' check relied on s.current, only non-nil for a handle that itself calls Append -- a reader-only handle's s.current is always nil, so today's file got wrongly treated as closed and cached after its first read, silently swallowing everything the writer appended for the rest of the day. Confirmed live via var/logs/prwatch-body.log: exactly 4 body fetches in ~28h despite prwatch discovering roughly one new press release every few minutes throughout. Fixed by identifying the active journal as the newest-dated file in the sorted path list (process-independent) instead of via s.current. New regression test added. go test ./... passes clean, including fixing an unrelated pre-existing stale test fixture in internal/newssite (hardcoded 2026-05-22 dates had aged past the real 90-day historical cutoff).",
+  "id": 14557,
+  "metadata": null,
+  "run_id": "sess-20260813-2154-dda37e8b",
+  "source_repo": "PRRJECT_FATBABY",
+  "title": "Fixed real cross-process eventstore staleness bug — root cause of newssite homepage staleness complaint"
+}
