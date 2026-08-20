@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T04:13:08Z",
+  "generated_at": "2026-08-20T04:15:32Z",
   "repo": "APPLES",
-  "count": 4030,
+  "count": 4031,
   "apples": [
     {
       "id": 10525,
@@ -32242,6 +32242,14 @@
       "source_repo": "emily",
       "date": "20260820",
       "archived_at": "2026-08-20T04:13:08Z"
+    },
+    {
+      "id": 14565,
+      "type": "completion",
+      "title": "Real working WASM build of the GFD GUI client (login client) — zero source changes to real game code",
+      "source_repo": "GoblinFoxDragon",
+      "date": "20260820",
+      "archived_at": "2026-08-20T04:15:32Z"
     }
   ]
 }

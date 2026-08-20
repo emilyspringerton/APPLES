@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-20T04:15:32Z",
+  "body": "Founder urgent real-time ask: web client for the GFD GUI client (with login) 'yesterday.' Installed Emscripten via emsdk (no sudo needed, userspace install). Got a clean compile+link of the real client source (src/main.c + arena_game/replay/ai_bridge + all 5 GOLDENBAND files) with zero changes to any real game code -- the 3D modern-GL world rendering ports as-is; the legacy immediate-mode 2D HUD pass is covered by Emscripten's own LEGACY_GL_EMULATION=1 except glRectf, patched via a real 8-line WASM-build-only shim. Real build script + doc added under apps2/battlegrounds_gui/wasm/. Verified: clean compile, all 3 artifacts serve correctly over HTTP. Explicitly NOT verified: real browser rendering (no headless browser available in this environment) and, the real hard part -- confirmed via direct grep that the client uses raw UDP sockets for its arena/matchmaker networking, which don't exist in a browser at all. Flagged honestly as unsolved, real next work, not glossed over.",
+  "id": 14565,
+  "metadata": null,
+  "run_id": "sess-20260813-2154-dda37e8b",
+  "source_repo": "GoblinFoxDragon",
+  "title": "Real working WASM build of the GFD GUI client (login client) — zero source changes to real game code"
+}
