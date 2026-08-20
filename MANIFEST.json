@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T20:57:54Z",
+  "generated_at": "2026-08-20T20:57:56Z",
   "repo": "APPLES",
-  "count": 4555,
+  "count": 4556,
   "apples": [
     {
       "id": 10525,
@@ -36442,6 +36442,14 @@
       "source_repo": "PARENA",
       "date": "20260820",
       "archived_at": "2026-08-20T20:57:54Z"
+    },
+    {
+      "id": 15090,
+      "type": "completion",
+      "title": "LONGMA 真正移植進 PARENA + longma repo Bazel 整合",
+      "source_repo": "PARENA",
+      "date": "20260820",
+      "archived_at": "2026-08-20T20:57:56Z"
     }
   ]
 }
