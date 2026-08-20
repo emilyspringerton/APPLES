@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T02:56:14Z",
+  "generated_at": "2026-08-20T03:06:35Z",
   "repo": "APPLES",
-  "count": 3937,
+  "count": 3938,
   "apples": [
     {
       "id": 10525,
@@ -31498,6 +31498,14 @@
       "source_repo": "emily",
       "date": "20260820",
       "archived_at": "2026-08-20T02:56:14Z"
+    },
+    {
+      "id": 14472,
+      "type": "completion",
+      "title": "Fix Raccoon special-move fallthrough into generic turnip",
+      "source_repo": "BRAWLPIT",
+      "date": "20260820",
+      "archived_at": "2026-08-20T03:06:35Z"
     }
   ]
 }

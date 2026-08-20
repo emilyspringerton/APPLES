@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-20T03:06:35Z",
+  "body": "Real bug: Raccoon's dash gates on dodge_cooldown, the generic turnip fallback right after it gates on turnip_cooldown (a different field Raccoon never touches, always 0) -- dash on cooldown fell through to spawn a turnip anyway, breaking Raccoon's no-offense identity. Fixed by excluding all 4 custom-special characters explicitly from the fallback rather than relying on coincidental shared gating fields. Regression test added (5/5). Commit BRAWLPIT 5db7468.",
+  "id": 14472,
+  "metadata": null,
+  "run_id": "sess-20260813-2154-dda37e8b",
+  "source_repo": "BRAWLPIT",
+  "title": "Fix Raccoon special-move fallthrough into generic turnip"
+}
