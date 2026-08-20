@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T19:57:00Z",
+  "generated_at": "2026-08-20T19:57:10Z",
   "repo": "APPLES",
-  "count": 4472,
+  "count": 4473,
   "apples": [
     {
       "id": 10525,
@@ -35778,6 +35778,14 @@
       "source_repo": "EMILY",
       "date": "20260820",
       "archived_at": "2026-08-20T19:57:00Z"
+    },
+    {
+      "id": 15007,
+      "type": "signal_observation",
+      "title": "[ERROR] Founder real-time,回報真實 render bug: 「you have been writing a lot of blog posts wit…",
+      "source_repo": "CLI",
+      "date": "20260820",
+      "archived_at": "2026-08-20T19:57:10Z"
     }
   ]
 }
