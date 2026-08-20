@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T20:54:13Z",
+  "generated_at": "2026-08-20T20:57:38Z",
   "repo": "APPLES",
-  "count": 4553,
+  "count": 4554,
   "apples": [
     {
       "id": 10525,
@@ -36426,6 +36426,14 @@
       "source_repo": "emily",
       "date": "20260820",
       "archived_at": "2026-08-20T20:54:13Z"
+    },
+    {
+      "id": 15088,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time,新需求: 「add fuzz testing primatives to the stdlib」——要求把 …",
+      "source_repo": "CLI",
+      "date": "20260820",
+      "archived_at": "2026-08-20T20:57:38Z"
     }
   ]
 }
