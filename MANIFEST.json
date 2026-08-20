@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T20:42:30Z",
+  "generated_at": "2026-08-20T20:48:07Z",
   "repo": "APPLES",
-  "count": 4543,
+  "count": 4544,
   "apples": [
     {
       "id": 10525,
@@ -36346,6 +36346,14 @@
       "source_repo": "CLI",
       "date": "20260820",
       "archived_at": "2026-08-20T20:42:30Z"
+    },
+    {
+      "id": 15078,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time,大量新指示: 「add bazel and makefile primatives incliding tries and …",
+      "source_repo": "CLI",
+      "date": "20260820",
+      "archived_at": "2026-08-20T20:48:07Z"
     }
   ]
 }
