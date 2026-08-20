@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-20T15:01:41Z",
+  "body": "internal/font/shiny.go:InitShinyFont/ShinyFontAvailable/ShinyGlyphSurface,跟 emoji.go 同一套真實失敗處理模式。F11 切換 useShinyFont,shinyTexture cache,renderFrame 疊在既有點陣圖路徑之前。誠實授權聲明:JetBrains Mono 是 SIL OFL 1.1(自由開放但不是字面 public domain),選它是因為 CLAUDE.md 自己早就寫著這個既有意圖。sudo-queue/19 加裝 fonts-jetbrains-mono。已用暫時 stub 完整編譯驗證,gofmt 乾淨。commit c8e20ea。\n\n⚓ ☃",
+  "id": 14837,
+  "metadata": null,
+  "run_id": "sess-20260820-0649-a3f19d93",
+  "source_repo": "PITVIPER",
+  "title": "F11 shiny font toggle(JetBrains Mono)"
+}
