@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T07:02:51Z",
+  "generated_at": "2026-08-20T07:02:59Z",
   "repo": "APPLES",
-  "count": 4085,
+  "count": 4086,
   "apples": [
     {
       "id": 10525,
@@ -32682,6 +32682,14 @@
       "source_repo": "CLI",
       "date": "20260820",
       "archived_at": "2026-08-20T07:02:51Z"
+    },
+    {
+      "id": 14620,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time, further clipboard requirement: middle-mouse paste (X11-primary-selection-…",
+      "source_repo": "CLI",
+      "date": "20260820",
+      "archived_at": "2026-08-20T07:02:59Z"
     }
   ]
 }
