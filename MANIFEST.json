@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T15:57:53Z",
+  "generated_at": "2026-08-20T15:58:14Z",
   "repo": "APPLES",
-  "count": 4312,
+  "count": 4313,
   "apples": [
     {
       "id": 10525,
@@ -34498,6 +34498,14 @@
       "source_repo": "CLI",
       "date": "20260820",
       "archived_at": "2026-08-20T15:57:53Z"
+    },
+    {
+      "id": 14847,
+      "type": "completion",
+      "title": "changelog(PARENA): C emitter 加入 loop/recur(真正的迴圈,含真實同時賦值語意),朝自我託管邁進一步。本地 Makef…",
+      "source_repo": "PARENA",
+      "date": "20260820",
+      "archived_at": "2026-08-20T15:58:14Z"
     }
   ]
 }
