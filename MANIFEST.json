@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T07:16:36Z",
+  "generated_at": "2026-08-20T07:20:23Z",
   "repo": "APPLES",
-  "count": 4096,
+  "count": 4097,
   "apples": [
     {
       "id": 10525,
@@ -32770,6 +32770,14 @@
       "source_repo": "CLI",
       "date": "20260820",
       "archived_at": "2026-08-20T07:16:36Z"
+    },
+    {
+      "id": 14631,
+      "type": "completion",
+      "title": "changelog(PITVIPER): Windows build passing (ConPTY PTY backend, internal/pty/pty…",
+      "source_repo": "PITVIPER",
+      "date": "20260820",
+      "archived_at": "2026-08-20T07:20:23Z"
     }
   ]
 }
