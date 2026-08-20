@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T05:11:33Z",
+  "generated_at": "2026-08-20T05:16:46Z",
   "repo": "APPLES",
-  "count": 4055,
+  "count": 4056,
   "apples": [
     {
       "id": 10525,
@@ -32442,6 +32442,14 @@
       "source_repo": "emily",
       "date": "20260820",
       "archived_at": "2026-08-20T05:11:33Z"
+    },
+    {
+      "id": 14590,
+      "type": "completion",
+      "title": "Documented Gmail app-password setup in README",
+      "source_repo": "emily.cli",
+      "date": "20260820",
+      "archived_at": "2026-08-20T05:16:46Z"
     }
   ]
 }

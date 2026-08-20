@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-20T05:16:46Z",
+  "body": "Founder asked directly to make sure the README has instructions for adding the Gmail password. Added a concrete example under the existing emily key section covering both GMAIL_SMTP_ADDRESS/GMAIL_SMTP_PASSWORD (no new CLI subcommand, the generic emily key set form already handles it), pointing at both the SMTP send path and the IMAP read script, with an explicit note against pasting the password into chat.",
+  "id": 14590,
+  "metadata": null,
+  "run_id": "sess-20260813-2154-dda37e8b",
+  "source_repo": "emily.cli",
+  "title": "Documented Gmail app-password setup in README"
+}
