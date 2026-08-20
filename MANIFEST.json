@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T10:46:28Z",
+  "generated_at": "2026-08-20T10:46:37Z",
   "repo": "APPLES",
-  "count": 4176,
+  "count": 4177,
   "apples": [
     {
       "id": 10525,
@@ -33410,6 +33410,14 @@
       "source_repo": "CLI",
       "date": "20260820",
       "archived_at": "2026-08-20T10:46:28Z"
+    },
+    {
+      "id": 14711,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time, camp/minion balance tuning ask: 'more minions spawned early game and afte…",
+      "source_repo": "CLI",
+      "date": "20260820",
+      "archived_at": "2026-08-20T10:46:37Z"
     }
   ]
 }
