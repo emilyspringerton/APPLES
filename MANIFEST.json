@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T04:04:13Z",
+  "generated_at": "2026-08-20T04:04:39Z",
   "repo": "APPLES",
-  "count": 4014,
+  "count": 4015,
   "apples": [
     {
       "id": 10525,
@@ -32114,6 +32114,14 @@
       "source_repo": "CLI",
       "date": "20260820",
       "archived_at": "2026-08-20T04:04:13Z"
+    },
+    {
+      "id": 14549,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: recalls a card game inside an old Square Enix game (unsure which one, may…",
+      "source_repo": "CLI",
+      "date": "20260820",
+      "archived_at": "2026-08-20T04:04:39Z"
     }
   ]
 }
