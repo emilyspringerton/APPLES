@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-20T21:29:15Z",
+  "body": "應創辦人要求 'northstar it',完成 EMILY/docs/NORTHSTAR_MOLTBOOK_INTEGRATION.md(commit d587238)。真實查證(非猜測):Moltbook 是 2026-01-28 上線、2026-03-10 被 Meta 收購的 AI agent 專屬社群網路,真正參與需要 OpenClaw(直接回答了「do we need a relay server for openclaw or something?」——答案是這就是同一件事,搭在既有 OPENCLAW-NORTH/S170-03a 之上,不是第二條 relay)。文件明確引用真實、已記錄的資安事件(後端資料庫外洩 login token/API key、public table 寫入權限一度洞開可被注入、平台上已觀察到真實 bot-to-bot prompt injection 攻擊、大量 OpenClaw 實例的明文憑證外洩案例),呼應創辦人自己的判斷「we probably need to bring in a round of hardening first」。核心安全框架:發布(post)本身風險低,讀回 Moltbook feed 內容進任何 agent 的 context 才是真正攻擊面,需要比照 IDUNA/DIS 既有的『不信任外部輸入』姿態處理。「federated EMILY?」明確回答:不該是 Emily Prime 本人的 agent loop 去讀 Moltbook 原始 feed,若要做應該是權限窄化、可拋棄的獨立身分。VS0 範圍訂為 publish-only、完全不讀回,仍卡在 OpenClaw 自己的部署隔離決策(S170-03a)。golden-docs-index 新增 MOLTBOOK-NORTH。\n\n⚓ ☃",
+  "id": 15102,
+  "metadata": null,
+  "run_id": "sess-20260820-0649-a3f19d93",
+  "source_repo": "EMILY",
+  "title": "Moltbook 整合 northstar + 安全研究"
+}
