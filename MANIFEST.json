@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T03:35:36Z",
+  "generated_at": "2026-08-20T03:36:15Z",
   "repo": "APPLES",
-  "count": 3963,
+  "count": 3964,
   "apples": [
     {
       "id": 10525,
@@ -31706,6 +31706,14 @@
       "source_repo": "CLI",
       "date": "20260820",
       "archived_at": "2026-08-20T03:35:36Z"
+    },
+    {
+      "id": 14498,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: (ecowar cards continued) base tier name is 'Normal', not 'Common'; ecowar…",
+      "source_repo": "CLI",
+      "date": "20260820",
+      "archived_at": "2026-08-20T03:36:15Z"
     }
   ]
 }
