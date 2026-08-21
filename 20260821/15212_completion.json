@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-21T09:35:24Z",
+  "body": "CHANGELOG updated in PARENA: 補齊 pty.prn 的 Pty/PtyError 型別定義;修好 shell.prn 自己原始碼裡的 getenv/libc 撞名 bug(改名 env-lookup);pty.prn+shell.prn 組合編譯剩下的都是已知 FFI 缺口;Apple #15211,commit 96aabe6 (sess-20260820-0649-a3f19d93)\n\n⚓ ☃",
+  "id": 15212,
+  "metadata": null,
+  "run_id": "sess-20260820-0649-a3f19d93",
+  "source_repo": "PARENA",
+  "title": "changelog(PARENA): 補齊 pty.prn 的 Pty/PtyError 型別定義;修好 shell.prn 自己原始碼裡的 getenv/…"
+}

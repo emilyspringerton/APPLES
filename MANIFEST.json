@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-21T09:35:20Z",
+  "generated_at": "2026-08-21T09:35:24Z",
   "repo": "APPLES",
-  "count": 4677,
+  "count": 4678,
   "apples": [
     {
       "id": 10525,
@@ -37418,6 +37418,14 @@
       "source_repo": "PARENA",
       "date": "20260821",
       "archived_at": "2026-08-21T09:35:20Z"
+    },
+    {
+      "id": 15212,
+      "type": "completion",
+      "title": "changelog(PARENA): 補齊 pty.prn 的 Pty/PtyError 型別定義;修好 shell.prn 自己原始碼裡的 getenv/…",
+      "source_repo": "PARENA",
+      "date": "20260821",
+      "archived_at": "2026-08-21T09:35:24Z"
     }
   ]
 }
