@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-21T10:31:25Z",
+  "generated_at": "2026-08-21T10:34:11Z",
   "repo": "APPLES",
-  "count": 4701,
+  "count": 4702,
   "apples": [
     {
       "id": 10525,
@@ -37610,6 +37610,14 @@
       "source_repo": "PARENA",
       "date": "20260821",
       "archived_at": "2026-08-21T10:31:25Z"
+    },
+    {
+      "id": 15236,
+      "type": "completion",
+      "title": "補齊 glob.prn 缺少的 char-eq?/char-at-eq?/match-bracket-class",
+      "source_repo": "PARENA",
+      "date": "20260821",
+      "archived_at": "2026-08-21T10:34:11Z"
     }
   ]
 }

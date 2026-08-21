@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-21T10:34:10Z",
+  "body": "commit be56d5b -- 修好 glob-match 呼叫但從未定義的三個函式,同一類 pcap.prn/io.prn/array.prn/string.prn 已修過的缺定義缺口。char-eq?/char-at-eq? 是 char-at 的薄 wrapper。match-bracket-class 是真正 bracket class matcher(字面字元集合+單一連續範圍+開頭否定)。用 17 組真實 case 的執行期 harness 驗證全部算對。純 stdlib 修復,emit.c 無變動,make test 290 passed 無迴歸。\n\n⚓ ☃",
+  "id": 15236,
+  "metadata": null,
+  "run_id": "sess-20260820-0649-a3f19d93",
+  "source_repo": "PARENA",
+  "title": "補齊 glob.prn 缺少的 char-eq?/char-at-eq?/match-bracket-class"
+}
