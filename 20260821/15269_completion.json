@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-21T14:49:50Z",
+  "body": "CHANGELOG updated in PARENA: compress/lz4.prn 改成真正、純 PARENA 的 LZ4-style 壓縮器(不再是 FFI stub);round-trip 驗證正確含 overlap-copy 情境。補齊 \u0026mut (ComplexType) 參數 + loop 空結果 return 兩個編譯器缺口。新增 325→331 個迴歸測試。Apple #15268,commit 923a24c。 (sess-20260820-0649-a3f19d93)\n\n⚓ ☃",
+  "id": 15269,
+  "metadata": null,
+  "run_id": "sess-20260820-0649-a3f19d93",
+  "source_repo": "PARENA",
+  "title": "changelog(PARENA): compress/lz4.prn 改成真正、純 PARENA 的 LZ4-style 壓縮器(不再是 FFI stub…"
+}

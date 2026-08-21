@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-21T14:49:46Z",
+  "generated_at": "2026-08-21T14:49:50Z",
   "repo": "APPLES",
-  "count": 4734,
+  "count": 4735,
   "apples": [
     {
       "id": 10525,
@@ -37874,6 +37874,14 @@
       "source_repo": "PARENA",
       "date": "20260821",
       "archived_at": "2026-08-21T14:49:46Z"
+    },
+    {
+      "id": 15269,
+      "type": "completion",
+      "title": "changelog(PARENA): compress/lz4.prn 改成真正、純 PARENA 的 LZ4-style 壓縮器(不再是 FFI stub…",
+      "source_repo": "PARENA",
+      "date": "20260821",
+      "archived_at": "2026-08-21T14:49:50Z"
     }
   ]
 }
