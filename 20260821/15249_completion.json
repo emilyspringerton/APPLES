@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-21T11:21:27Z",
+  "body": "commit 4df1176 -- 新增 (return expr):真正的非局部控制流,firefly.prn 早就點名缺的原語。實作比想像簡單:C 的 return 本來就跳出整個函式,不管巢多少層 loop,不需要傳遞邏輯。已用獨立 harness 驗證執行期正確(提早跳出+fall-through 都對)。column 補上 dest 參數 + ColumnNotFoundError 定義,gcc 乾淨編譯。select 卡在一個新的、更深的缺口(String 元素的 vec_get hint 沒有正確 round-trip),誠實記錄未修。新增 317→319 個迴歸測試。make test/test-domain4/5/test-multifile/bazel build/bazel asan 全數通過。\n\n⚓ ☃",
+  "id": 15249,
+  "metadata": null,
+  "run_id": "sess-20260820-0649-a3f19d93",
+  "source_repo": "PARENA",
+  "title": "新增 return 非局部控制流,column.prn 缺口補齊"
+}

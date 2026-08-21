@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-21T11:15:31Z",
+  "generated_at": "2026-08-21T11:21:27Z",
   "repo": "APPLES",
-  "count": 4714,
+  "count": 4715,
   "apples": [
     {
       "id": 10525,
@@ -37714,6 +37714,14 @@
       "source_repo": "PARENA",
       "date": "20260821",
       "archived_at": "2026-08-21T11:15:31Z"
+    },
+    {
+      "id": 15249,
+      "type": "completion",
+      "title": "新增 return 非局部控制流,column.prn 缺口補齊",
+      "source_repo": "PARENA",
+      "date": "20260821",
+      "archived_at": "2026-08-21T11:21:27Z"
     }
   ]
 }
