@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-21T02:59:37Z",
+  "body": "commit 91cdfec。清查全 stdlib 編譯狀態時發現：io.prn 自己的六個函式簽章一直在用 FileHandle/IoError，卻從來沒真的定義過，跟 pcap.prn 剛修好的同一類缺口。已補上真實、最小的定義。誠實現況：io.prn 現在能在 parena build 層級正確解析型別，但它自己的 #target body 有真實、獨立、早就存在的 host glue 缺口（缺 #include \u003cstdio.h\u003e，還有 FileHandle 當作真正 struct 跟 body 本身假設直接拿到 FILE* 之間的語意落差，例如 fputs(s, f) 預期 f 就是 FILE*）——這跟這個 stdlib 裡其他 FFI 綁定檔案『宣告了但 host 端實作還沒寫』的誠實邊界一樣，這次沒動。順手做了一次全 stdlib 掃描（parena build 每一個 .prn 檔案），確認 pentest/* 六個檔案全過、firefly.prn/csv.prn/gfd.prn/crypto/*/editor/*(除 ui.prn)/yoko.prn/lz4.prn 都過，剩下大量檔案卡在類似『引用了從沒定義過的型別』或其他各自獨立的缺口，範圍太大這次沒有逐一修。\n\n⚓ ☃",
+  "id": 15153,
+  "metadata": null,
+  "run_id": "sess-20260820-0649-a3f19d93",
+  "source_repo": "PARENA",
+  "title": "io.prn 補齊 FileHandle/IoError 型別定義"
+}
