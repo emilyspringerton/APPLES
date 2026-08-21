@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-21T08:41:04Z",
+  "generated_at": "2026-08-21T08:46:47Z",
   "repo": "APPLES",
-  "count": 4661,
+  "count": 4662,
   "apples": [
     {
       "id": 10525,
@@ -37290,6 +37290,14 @@
       "source_repo": "emily",
       "date": "20260821",
       "archived_at": "2026-08-21T08:41:04Z"
+    },
+    {
+      "id": 15196,
+      "type": "completion",
+      "title": "修好 vec/get 誤解析真實 regression(自己抓到)+ 補上 unit 字面值",
+      "source_repo": "PARENA",
+      "date": "20260821",
+      "archived_at": "2026-08-21T08:46:47Z"
     }
   ]
 }

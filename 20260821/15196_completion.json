@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-21T08:46:47Z",
+  "body": "commit bea812f。自己抓到並立刻修好上一輪 mangle_call_name 引入的真實 regression:array.prn 的 product 呼叫 (vec/get shape i),但 array.prn 自己在後面又定義了不相關的 get 函式,裸名字判斷不夠精確,vec/get 被誤解析成呼叫使用者自己的 get——parena build 自己輸出的 C 就已經是錯的。修正:vec 前綴明確排除在裸名字解析之外(確認過的、寫死的 runtime pseudo-module,不會有真實 vec.prn 檔案能合法撞名)。同時補上 unit 字面值——Unit 型別的單例值,buffer.prn/array.prn 真實用到 (Ok unit),之前完全沒處理,報未知識別碼;修正為保留字面值,輸出 NULL,型別 void *,不需要裝箱。驗證:array.prn 回到修正前的已知牆,不再誤判;math/inc、string.prn+glob.prn 組合重新驗證行為不變;buffer.prn 過了 unit 這關,卡在下一道獨立、誠實記錄的牆(raw-buffer-write!/read 從未定義)。tests/test_emit.c 238→245。全套驗證(make test、bazel build/test asan、domain4 valgrind、domain5、multifile)全綠。\n\n⚓ ☃",
+  "id": 15196,
+  "metadata": null,
+  "run_id": "sess-20260820-0649-a3f19d93",
+  "source_repo": "PARENA",
+  "title": "修好 vec/get 誤解析真實 regression(自己抓到)+ 補上 unit 字面值"
+}
