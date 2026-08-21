@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-21T09:35:20Z",
+  "body": "commit 96aabe6。補齊 Pty/PtyError——每個 pty.prn 裡的函式都用到但檔案自己從未定義過,跟 pcap.prn/io.prn/net/tcp.prn 之前補的同一類真實缺口。Pty 是最小、不透明的 fd handle。同時修好 shell.prn 自己原始碼裡的真實 bug:有函式直接叫 getenv,跟 libc 真正的 getenv 撞名(現在每個產生的檔案都無條件引入 \u003cstdlib.h\u003e),產生真正的 gcc conflicting types 錯誤——不是 compiler 缺口。改名成 env-lookup。驗證:pty.prn 單獨編譯通過型別定義關,剩下的是已知未實作的 host FFI 原語。pty.prn+shell.prn 組合編譯,getenv 撞名錯誤消失,剩下全部是已記錄的 FFI/輔助函式缺口,沒有新的結構性錯誤。這輪純粹是 .prn 原始碼修正,沒動到 compiler,make test 269 passed,既有檔案重新確認無迴歸。\n\n⚓ ☃",
+  "id": 15211,
+  "metadata": null,
+  "run_id": "sess-20260820-0649-a3f19d93",
+  "source_repo": "PARENA",
+  "title": "補齊 pty.prn 缺少的 Pty/PtyError + 修好 shell.prn 的 getenv 撞名 bug"
+}
