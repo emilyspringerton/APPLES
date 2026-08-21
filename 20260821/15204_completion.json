@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-21T09:10:08Z",
+  "body": "commit b194864。補齊 TcpListener/TcpStream/UdpSocket/NetError/SocketAddr——之前都被真實呼叫端引用,但兩個檔案自己從未定義過,跟 pcap.prn/io.prn/array.prn/string.prn 之前補的同一類真實缺口。TcpListener/TcpStream/UdpSocket 是單一 fd:I32 欄位的最小、不透明 handle;SocketAddr 是 host+port 的最小 struct;NetError 在兩個檔案裡各自獨立定義(刻意的範圍決定——這個 compiler 沒有真正的 per-module namespace,三個 net 檔案不會被同時組合編譯,分開定義對每個真實用法都安全)。驗證:net/tcp.prn/net/udp.prn 各自單獨編譯過了型別定義關,剩下的都是真實、預期中的未實作 host FFI 原語。net/http.prn 的 get/post 現在推進到第三道、不同的真實缺口:connect-from-url/build-get-request/parse-http-response/build-post-request 全部從未設計過,等於要從零設計 HTTP client,明顯是更大的獨立工作。serve 自己另外還卡著 current-arena builtin(已記錄)跟 loop-as-match-clause-body(emit_match_clause_body 還沒處理 loop,較窄的獨立缺口)。這輪純粹是 .prn 原始碼修正,沒動到 compiler,make test 257 passed,既有檔案重新確認無迴歸。\n\n⚓ ☃",
+  "id": 15204,
+  "metadata": null,
+  "run_id": "sess-20260820-0649-a3f19d93",
+  "source_repo": "PARENA",
+  "title": "補齊 net/tcp.prn / net/udp.prn 缺少的型別定義,net/http.prn 錯誤前緣推進到第三道獨立缺口"
+}
