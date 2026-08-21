@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-21T10:12:18Z",
+  "generated_at": "2026-08-21T10:12:22Z",
   "repo": "APPLES",
-  "count": 4694,
+  "count": 4695,
   "apples": [
     {
       "id": 10525,
@@ -37554,6 +37554,14 @@
       "source_repo": "PARENA",
       "date": "20260821",
       "archived_at": "2026-08-21T10:12:18Z"
+    },
+    {
+      "id": 15229,
+      "type": "completion",
+      "title": "changelog(PARENA): 補齊 STDLIB.md 記錄的 parse-i32 + array/get/set! 缺少 dest Arena 參…",
+      "source_repo": "PARENA",
+      "date": "20260821",
+      "archived_at": "2026-08-21T10:12:22Z"
     }
   ]
 }
