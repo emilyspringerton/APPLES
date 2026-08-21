@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-21T14:06:04Z",
+  "generated_at": "2026-08-21T14:07:02Z",
   "repo": "APPLES",
-  "count": 4728,
+  "count": 4729,
   "apples": [
     {
       "id": 10525,
@@ -37826,6 +37826,14 @@
       "source_repo": "emily",
       "date": "20260821",
       "archived_at": "2026-08-21T14:06:04Z"
+    },
+    {
+      "id": 15263,
+      "type": "completion",
+      "title": "修好 vec_get 對指標型別元素的雙重間接參照 + 單一 token \u0026name 的 hint 查找",
+      "source_repo": "PARENA",
+      "date": "20260821",
+      "archived_at": "2026-08-21T14:07:02Z"
     }
   ]
 }

@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-21T14:07:02Z",
+  "body": "commit 741ce36 -- 補齊 dataframe.prn 的 column 過程中抓到兩個真實、通用、影響範圍很廣的編譯器 bug:(1) 單一 token 的 \u0026name 形式(比兩個 sibling node 的 \u0026 (expr) 常見得多)的 hint 查找從未正確 unwrap,查找 key 跟註冊 key 對不上。(2) vec_get 對指標representable 元素(String)的 hint cast 過去一律多加一層間接參照,產生無效的雙重指標 cast。column 已重新驗證 gcc 乾淨編譯 + 執行期正確。vec_test.prn/world_test.prn 兩個既有測試檔案順便修好(current-arena → with-arena),現在都透過 firefly/run-tests 真的跑過 3/3。select 卡在第三個獨立缺口(resolve_declared_type 不認得 Result/Option payload 裡的 (\u0026Type)),誠實記錄未修。新增 319→325 個迴歸測試。make test/test-domain4/5/test-multifile/bazel build/bazel asan 全數通過。\n\n⚓ ☃",
+  "id": 15263,
+  "metadata": null,
+  "run_id": "sess-20260820-0649-a3f19d93",
+  "source_repo": "PARENA",
+  "title": "修好 vec_get 對指標型別元素的雙重間接參照 + 單一 token \u0026name 的 hint 查找"
+}
