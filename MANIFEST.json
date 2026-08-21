@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-21T02:10:02Z",
+  "generated_at": "2026-08-21T02:24:45Z",
   "repo": "APPLES",
-  "count": 4610,
+  "count": 4611,
   "apples": [
     {
       "id": 10525,
@@ -36882,6 +36882,14 @@
       "source_repo": "emily",
       "date": "20260821",
       "archived_at": "2026-08-21T02:10:02Z"
+    },
+    {
+      "id": 15145,
+      "type": "completion",
+      "title": "changelog(PARENA): 真實修好 defenum/defstruct 前處理順序 bug——用新的多檔案編譯測真正的 ladybug/scar…",
+      "source_repo": "PARENA",
+      "date": "20260821",
+      "archived_at": "2026-08-21T02:24:45Z"
     }
   ]
 }

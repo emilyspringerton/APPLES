@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-21T02:24:45Z",
+  "body": "用新落地的多檔案 parena build 去實測真正的 ladybug/scarab 組合檔案時發現一個真實、結構性的排序 bug：commit 41a14c5。emit_c 原本是兩個分開的 pre-pass 迴圈——先把整個程式裡所有 defenum 處理完，再處理所有 defstruct，完全不管每個形式實際出現在檔案裡的哪個位置。scarab.prn 自己真實的 SuiteNode 就撞上這個：它的 Spec 變體有兩個真正欄位（name、body），body 的型別是 firefly.prn 定義的 T 相關 Fn 型別，兩個檔案合併編譯時 T 明明排在前面（firefly.prn 的形式先進去），卻因為舊的『不管順序，defenum 一律先處理完』邏輯而找不到。修法：把兩個迴圈合併成一個，照合併後的真實檔案順序一起處理 defenum 跟 defstruct，既有的『被參照的型別要排在前面』這條限制沒有變寬，只是現在真的照實際順序算。驗證：單獨最小重現案例過了；真正的四檔案 ladybug/scarab 組合現在真的推進過這一關，落回到早就找到、獨立的 closure 缺口上，不是新問題。bazel build、bazel test asan、domain4、domain5、新的多檔案檢查全過。tests/test_emit.c 173→175。\n\n⚓ ☃",
+  "id": 15146,
+  "metadata": null,
+  "run_id": "sess-20260820-0649-a3f19d93",
+  "source_repo": "PARENA",
+  "title": "真實修好 defenum defstruct 前處理順序 bug"
+}

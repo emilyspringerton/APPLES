@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-21T02:24:45Z",
+  "body": "CHANGELOG updated in PARENA: 真實修好 defenum/defstruct 前處理順序 bug——用新的多檔案編譯測真正的 ladybug/scarab 組合時發現：原本把整個程式所有 defenum 一次處理完才輪到所有 defstruct，不管真實檔案順序，導致 scarab.prn 的 SuiteNode（Spec 變體用到 firefly.prn 定義的 T）明明 T 排在前面卻找不到。改成合併成一個 pass、照真實合併後的檔案順序處理 (sess-20260820-0649-a3f19d93)\n\n⚓ ☃",
+  "id": 15145,
+  "metadata": null,
+  "run_id": "sess-20260820-0649-a3f19d93",
+  "source_repo": "PARENA",
+  "title": "changelog(PARENA): 真實修好 defenum/defstruct 前處理順序 bug——用新的多檔案編譯測真正的 ladybug/scar…"
+}
