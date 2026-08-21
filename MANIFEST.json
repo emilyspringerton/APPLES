@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-21T04:43:02Z",
+  "generated_at": "2026-08-21T04:43:06Z",
   "repo": "APPLES",
-  "count": 4635,
+  "count": 4636,
   "apples": [
     {
       "id": 10525,
@@ -37082,6 +37082,14 @@
       "source_repo": "PARENA",
       "date": "20260821",
       "archived_at": "2026-08-21T04:43:02Z"
+    },
+    {
+      "id": 15170,
+      "type": "completion",
+      "title": "changelog(PARENA): 新增 defn 前向宣告 pre-pass,修好函式間跨行前向參照(string.prn/regex/glob.prn…",
+      "source_repo": "PARENA",
+      "date": "20260821",
+      "archived_at": "2026-08-21T04:43:06Z"
     }
   ]
 }

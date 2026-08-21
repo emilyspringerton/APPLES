@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-21T04:43:06Z",
+  "body": "CHANGELOG updated in PARENA: 新增 defn 前向宣告 pre-pass,修好函式間跨行前向參照(string.prn/regex/glob.prn 之前誠實記錄的缺口);舊式空括號 C 宣告,不複製完整參數型別解析邏輯;順手提早註冊 g_defn_return_types;Apple #15169,commit 7036ce1 (sess-20260820-0649-a3f19d93)\n\n⚓ ☃",
+  "id": 15170,
+  "metadata": null,
+  "run_id": "sess-20260820-0649-a3f19d93",
+  "source_repo": "PARENA",
+  "title": "changelog(PARENA): 新增 defn 前向宣告 pre-pass,修好函式間跨行前向參照(string.prn/regex/glob.prn…"
+}
