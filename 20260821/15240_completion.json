@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-21T10:48:00Z",
+  "body": "commit 3d49190 -- 補齊兩個真實編譯器缺口:Vec 字面值當值使用(g_veclit_helpers)、unwrap(Rust 式語意,限定只能用在直接呼叫已知函式,因 VS0 沒有泛型)。用真正的執行期 harness 驗證 matmul 時,抓到一個真實、重大、這次沒有修的缺口:loop 變數用整數字面值起始在 C 層被宣告成 double,box 進 I32 Vec 時靜默壞掉(記憶體層級型別混淆)。誠實記錄在 STDLIB.md,matmul/transpose 標記為編譯乾淨但未驗證正確;dot 已用真實數值驗證正確。新增 296→301 個迴歸測試。make test/test-domain4/5/test-multifile/bazel build/bazel asan 全數通過。\n\n⚓ ☃",
+  "id": 15240,
+  "metadata": null,
+  "run_id": "sess-20260820-0649-a3f19d93",
+  "source_repo": "PARENA",
+  "title": "新增 Vec 字面值 + unwrap;誠實記錄 loop 變數 int/double 混淆真實缺口"
+}

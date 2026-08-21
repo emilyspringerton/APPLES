@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-21T10:37:18Z",
+  "generated_at": "2026-08-21T10:48:00Z",
   "repo": "APPLES",
-  "count": 4705,
+  "count": 4706,
   "apples": [
     {
       "id": 10525,
@@ -37642,6 +37642,14 @@
       "source_repo": "emily",
       "date": "20260821",
       "archived_at": "2026-08-21T10:37:18Z"
+    },
+    {
+      "id": 15240,
+      "type": "completion",
+      "title": "新增 Vec 字面值 + unwrap;誠實記錄 loop 變數 int/double 混淆真實缺口",
+      "source_repo": "PARENA",
+      "date": "20260821",
+      "archived_at": "2026-08-21T10:48:00Z"
     }
   ]
 }
