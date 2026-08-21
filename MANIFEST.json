@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-21T14:07:02Z",
+  "generated_at": "2026-08-21T14:07:07Z",
   "repo": "APPLES",
-  "count": 4729,
+  "count": 4730,
   "apples": [
     {
       "id": 10525,
@@ -37834,6 +37834,14 @@
       "source_repo": "PARENA",
       "date": "20260821",
       "archived_at": "2026-08-21T14:07:02Z"
+    },
+    {
+      "id": 15264,
+      "type": "completion",
+      "title": "changelog(PARENA): 修好兩個真實、通用的編譯器 bug:單一 token \u0026name 的 hint 查找、vec_get 對指標型別元素的…",
+      "source_repo": "PARENA",
+      "date": "20260821",
+      "archived_at": "2026-08-21T14:07:07Z"
     }
   ]
 }
