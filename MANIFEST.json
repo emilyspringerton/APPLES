@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-21T08:57:35Z",
+  "generated_at": "2026-08-21T09:04:11Z",
   "repo": "APPLES",
-  "count": 4666,
+  "count": 4667,
   "apples": [
     {
       "id": 10525,
@@ -37330,6 +37330,14 @@
       "source_repo": "PARENA",
       "date": "20260821",
       "archived_at": "2026-08-21T08:57:35Z"
+    },
+    {
+      "id": 15201,
+      "type": "completion",
+      "title": "net/http.prn:(Map K V) 型別擦除 + Fn 型別參數列表支援裸 Arena,兩個真實缺口",
+      "source_repo": "PARENA",
+      "date": "20260821",
+      "archived_at": "2026-08-21T09:04:11Z"
     }
   ]
 }

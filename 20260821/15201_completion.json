@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-21T09:04:11Z",
+  "body": "commit 8325a08。做完整重新掃描找下一個能推進的檔案,轉往 net/http.prn。(1) (Map K V) 當結構欄位/回傳型別——resolve_declared_type() 原本有處理 Result/Option/Vec 但沒有 Map,HttpRequest/HttpResponse 都有 (Map String String) 欄位。擦除成 void *(不是具名 struct,刻意比 Vec 窄——沒有真實 runtime Map 實作,map.prn 自己卡在真正的泛型支援)。(2) Fn 型別參數列表裡的裸 Arena——serve 的 handler 參數是 (Fn [\u0026HttpRequest Arena] HttpResponse),resolve_base_type_name() 裸符號表沒有 Arena(每個其他 Arena 用法都走 Type @ Region 那條路,Fn 參數列表不走)。修正後解析成真正的 Arena *。驗證後錯誤前緣從第 44 行一路推進到第 47 行一道正當的多檔案依賴牆(net/tcp.prn 自己也有獨立缺口)。tests/test_emit.c 251→257。全套驗證(make test、bazel build/test asan、domain4 valgrind、domain5、multifile)全綠。\n\n⚓ ☃",
+  "id": 15201,
+  "metadata": null,
+  "run_id": "sess-20260820-0649-a3f19d93",
+  "source_repo": "PARENA",
+  "title": "net/http.prn:(Map K V) 型別擦除 + Fn 型別參數列表支援裸 Arena,兩個真實缺口"
+}
