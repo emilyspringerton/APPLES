@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-21T04:27:15Z",
+  "generated_at": "2026-08-21T04:35:43Z",
   "repo": "APPLES",
-  "count": 4631,
+  "count": 4632,
   "apples": [
     {
       "id": 10525,
@@ -37050,6 +37050,14 @@
       "source_repo": "emily",
       "date": "20260821",
       "archived_at": "2026-08-21T04:27:15Z"
+    },
+    {
+      "id": 15166,
+      "type": "completion",
+      "title": "里程碑:cond 特殊形式 + if-in-tail 陳述式化 + alloc 尺寸運算式 + mid-body #target,連續五個真實缺口",
+      "source_repo": "PARENA",
+      "date": "20260821",
+      "archived_at": "2026-08-21T04:35:43Z"
     }
   ]
 }

@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-21T04:35:43Z",
+  "body": "commit 03a6c56。從 array.prn 轉往 regex/glob.prn 撞到的 cond 缺口,連續抓到並修好五個真實、獨立的 gcc-verified 缺口:(1) cond 特殊形式(純值版三元折疊 + loop-tail 陳述式版),四個真實 stdlib 檔案都在用,先前完全沒實作。過程中自己抓到並修好 loop-tail cond 結果型別只看最後 clause 的真實 bug。(2) if 在函式尾端位置的陳述式化(讓 loop/let 等能當 if 的分支值)。(3) alloc 支援尺寸運算式,不再只認字串字面值。(4) #target 支援當成函式本體中段的陳述式。(5) 補上 #include \u003cstdint.h\u003e。全部靠實際 gcc 編譯抓到,parena build 自己的 exit code 都沒抓到。string.prn/regex/glob.prn 本身還撞到下一層獨立缺口(函式間前向參照排序、多個未定義的型別/函式),誠實記錄在 STDLIB.md,沒有追下去。tests/test_emit.c 209→227。全套驗證(make test、bazel build/test asan、domain4 valgrind、domain5、multifile)全綠,既有已驗證檔案重新確認無迴歸。\n\n⚓ ☃",
+  "id": 15166,
+  "metadata": null,
+  "run_id": "sess-20260820-0649-a3f19d93",
+  "source_repo": "PARENA",
+  "title": "里程碑:cond 特殊形式 + if-in-tail 陳述式化 + alloc 尺寸運算式 + mid-body #target,連續五個真實缺口"
+}
