@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-21T04:43:02Z",
+  "body": "commit 7036ce1。正面解決上一輪誠實記錄、沒追下去的缺口:string.prn 的 parse-i32 呼叫定義在後面的 is-valid-i32-text?,regex/glob.prn 的 matches 呼叫定義在後面的 glob-match——VS0 之前只有 defenum/defstruct 有前置宣告 pass,defn 完全沒有,任何跨行前向呼叫都會撞上真正的 gcc implicit-declaration 錯誤,parena build 自己抓不到。修正:新增前向宣告 pre-pass,對每個有明確回傳型別標註的 defn 輸出舊式空括號 C 宣告(先用獨立 gcc 測試確認這在 -pedantic -Werror 下完全乾淨,刻意不用複製 emit_defn 龐大的參數型別解析邏輯)。順手讓解析出的回傳型別也提早註冊進 g_defn_return_types,forward-referenced 函式的回傳型別對 emit_call 也正確可見。驗證:獨立雙向互相前向參照測試 gcc-clean;string.prn/regex/glob.prn 的前向參照錯誤消失,兩檔案各自剩下的獨立缺口(未定義型別/函式)不變,沒有新問題。tests/test_emit.c 227→231。全套驗證(make test、bazel build/test asan、domain4 valgrind、domain5、multifile)全綠,既有已驗證檔案重新確認無迴歸。\n\n⚓ ☃",
+  "id": 15169,
+  "metadata": null,
+  "run_id": "sess-20260820-0649-a3f19d93",
+  "source_repo": "PARENA",
+  "title": "里程碑:defn 前向宣告 pre-pass,修好函式間跨行前向參照"
+}
