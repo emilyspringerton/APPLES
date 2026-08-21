@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-21T04:35:46Z",
+  "body": "CHANGELOG updated in PARENA: cond 特殊形式(純值三元折疊 + loop-tail 陳述式版,含自己抓到的結果型別 bug 修正)+ if-in-tail 陳述式化 + alloc 尺寸運算式 + mid-body #target + #include \u003cstdint.h\u003e;string.prn/regex/glob.prn 卡在下一層獨立缺口(函式前向參照排序、未定義型別/函式),誠實記錄未解;Apple #15166,commit 03a6c56 (sess-20260820-0649-a3f19d93)\n\n⚓ ☃",
+  "id": 15167,
+  "metadata": null,
+  "run_id": "sess-20260820-0649-a3f19d93",
+  "source_repo": "PARENA",
+  "title": "changelog(PARENA): cond 特殊形式(純值三元折疊 + loop-tail 陳述式版,含自己抓到的結果型別 bug 修正)+ if-in…"
+}

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-21T04:35:43Z",
+  "generated_at": "2026-08-21T04:35:46Z",
   "repo": "APPLES",
-  "count": 4632,
+  "count": 4633,
   "apples": [
     {
       "id": 10525,
@@ -37058,6 +37058,14 @@
       "source_repo": "PARENA",
       "date": "20260821",
       "archived_at": "2026-08-21T04:35:43Z"
+    },
+    {
+      "id": 15167,
+      "type": "completion",
+      "title": "changelog(PARENA): cond 特殊形式(純值三元折疊 + loop-tail 陳述式版,含自己抓到的結果型別 bug 修正)+ if-in…",
+      "source_repo": "PARENA",
+      "date": "20260821",
+      "archived_at": "2026-08-21T04:35:46Z"
     }
   ]
 }
