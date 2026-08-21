@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-21T03:33:01Z",
+  "generated_at": "2026-08-21T03:33:19Z",
   "repo": "APPLES",
-  "count": 4622,
+  "count": 4623,
   "apples": [
     {
       "id": 10525,
@@ -36978,6 +36978,14 @@
       "source_repo": "PARENA",
       "date": "20260821",
       "archived_at": "2026-08-21T03:33:01Z"
+    },
+    {
+      "id": 15157,
+      "type": "completion",
+      "title": "里程碑：world.prn 真正通過 gcc 編譯",
+      "source_repo": "PARENA",
+      "date": "20260821",
+      "archived_at": "2026-08-21T03:33:19Z"
     }
   ]
 }

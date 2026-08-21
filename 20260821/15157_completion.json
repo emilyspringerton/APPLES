@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-21T03:33:19Z",
+  "body": "commit 66a8e3b。清查全 stdlib 編譯狀態、應「continue」持續推進時發現：world.prn（terrain/heightfield 真實資料結構，源自 SHANKPIT/GoblinFoxDragon 的既有設計）撞到四個獨立、真實的缺口，每一個都只有實際拿 gcc 編譯出來的 C 才抓得到：（一）N-ary and/or——emit_binop 原本只接受剛好兩個參數，world.prn 自己的 in-bounds? 需要真正的四路 and。修法只針對 \u0026\u0026 跟 ||（語意上真的可以左結合折疊），刻意不擴大到比較/算術運算子（naive 折疊 (\u003c a b c) 這種真實鏈式比較會算錯）。（二）when 特殊形式——真正、常見的 Lisp 單分支條件式，之前完全沒實作。跟 if 不一樣，when 沒有真正的 else 值，所以當成陳述式層級的真正 C if 處理，不是三元運算子。（三）mangle() 沒有處理問號結尾——world.prn 自己的 in-bounds? 這種真實、常見的 Scheme/Lisp/Ruby predicate 命名慣例產生出不合法的 C，補上問號轉底線。（四，這批裡最深的修法）Vec 純量裝箱——world.prn 自己真實的 Terrain.heights（(Vec F64)）。Vec 存 void* item，對指標型別的元素沒問題，但原生的 F64/I32 需要真正配置一個 arena cell 讓指標指過去（parena_runtime.h 新增 vec_box_i32/vec_box_f64），不是 bit-boxing 技巧——因為 world.prn 自己真實的 get-height 已經對 vec/get 統一用 deref 包起來，不分純量還是 struct 元素，所以純量 Vec 的儲存項目真的要是指向真實 cell 的真指標，跟 struct 指標元素同一種形狀。這需要把 g_vec_elem_hints（原本只覆蓋 \u0026(Vec ElemType) 參數）擴大到也覆蓋透過 get-field 存取的 Vec 型別 struct 欄位。過程中抓到自己寫的一個真實 bug：boxing 包裝邏輯一開始誤用累積中的 args.data（裡面已經含有前面所有參數，不只目標 Vec），導致 world.prn 自己真實的 index-for(t, x, z) 這種多參數呼叫當索引值時產生錯誤的 C——已修正成用獨立捕捉的目標文字，不靠重新解析逗號分隔的字串。順手補上 vec-set-at! 這個 STDLIB.md 自己設計文件裡本來就漏掉的操作定義。tests/test_emit.c 181→195，全部經過真正 gcc、bazel build、bazel test asan、domain4、domain5、多檔案檢查驗證過。\n\n⚓ ☃",
+  "id": 15157,
+  "metadata": null,
+  "run_id": "sess-20260820-0649-a3f19d93",
+  "source_repo": "PARENA",
+  "title": "里程碑：world.prn 真正通過 gcc 編譯"
+}
