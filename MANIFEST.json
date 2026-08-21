@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-21T09:59:53Z",
+  "generated_at": "2026-08-21T09:59:58Z",
   "repo": "APPLES",
-  "count": 4687,
+  "count": 4688,
   "apples": [
     {
       "id": 10525,
@@ -37498,6 +37498,14 @@
       "source_repo": "PARENA",
       "date": "20260821",
       "archived_at": "2026-08-21T09:59:53Z"
+    },
+    {
+      "id": 15222,
+      "type": "completion",
+      "title": "changelog(PARENA): 新增 stdlib/ci/status.prn(native PARENA CI 查詢模組)+ tools/ci-st…",
+      "source_repo": "PARENA",
+      "date": "20260821",
+      "archived_at": "2026-08-21T09:59:58Z"
     }
   ]
 }
