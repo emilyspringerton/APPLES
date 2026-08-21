@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-21T03:33:01Z",
+  "body": "CHANGELOG updated in PARENA: 里程碑:world.prn 真正通過真正 gcc 編譯。這一輪抓到四個獨立、真實的缺口:N-ary and/or(左結合折疊,只針對邏輯運算子)、when 特殊形式(真正的陳述式層級 if、不是三元運算子)、mangle() 補上問號結尾的 predicate 命名慣例、Vec 純量裝箱(讓 F64/I32 元素真正配置成真的可解參考的 cell,不是 bit-boxing 技巧,跟既有 deref 慣例完全一致)。順手補上 vec-set-at! 這個 STDLIB.md 自己設計文件裡本來就漏掉的操作 (sess-20260820-0649-a3f19d93)\n\n⚓ ☃",
+  "id": 15156,
+  "metadata": null,
+  "run_id": "sess-20260820-0649-a3f19d93",
+  "source_repo": "PARENA",
+  "title": "changelog(PARENA): 里程碑:world.prn 真正通過真正 gcc 編譯。這一輪抓到四個獨立、真實的缺口:N-ary and/or(左結…"
+}
