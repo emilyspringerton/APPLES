@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-21T09:04:15Z",
+  "body": "CHANGELOG updated in PARENA: (Map K V) 型別擦除(erased to void*,無真實 runtime 實作)+ Fn 型別參數列表支援裸 Arena(解析成 Arena *);net/http.prn 錯誤前緣推進到 net/tcp.prn 的多檔案依賴牆;Apple #15201,commit 8325a08 (sess-20260820-0649-a3f19d93)\n\n⚓ ☃",
+  "id": 15202,
+  "metadata": null,
+  "run_id": "sess-20260820-0649-a3f19d93",
+  "source_repo": "PARENA",
+  "title": "changelog(PARENA): (Map K V) 型別擦除(erased to void*,無真實 runtime 實作)+ Fn 型別參數列表支援…"
+}

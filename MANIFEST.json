@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-21T09:04:11Z",
+  "generated_at": "2026-08-21T09:04:15Z",
   "repo": "APPLES",
-  "count": 4667,
+  "count": 4668,
   "apples": [
     {
       "id": 10525,
@@ -37338,6 +37338,14 @@
       "source_repo": "PARENA",
       "date": "20260821",
       "archived_at": "2026-08-21T09:04:11Z"
+    },
+    {
+      "id": 15202,
+      "type": "completion",
+      "title": "changelog(PARENA): (Map K V) 型別擦除(erased to void*,無真實 runtime 實作)+ Fn 型別參數列表支援…",
+      "source_repo": "PARENA",
+      "date": "20260821",
+      "archived_at": "2026-08-21T09:04:15Z"
     }
   ]
 }
