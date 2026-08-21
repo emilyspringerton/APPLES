@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-21T02:57:31Z",
+  "generated_at": "2026-08-21T02:57:33Z",
   "repo": "APPLES",
-  "count": 4616,
+  "count": 4617,
   "apples": [
     {
       "id": 10525,
@@ -36930,6 +36930,14 @@
       "source_repo": "PARENA",
       "date": "20260821",
       "archived_at": "2026-08-21T02:57:31Z"
+    },
+    {
+      "id": 15151,
+      "type": "completion",
+      "title": "修好 mangle 開頭驚嘆號 bug + pcap.prn 補齊缺失型別定義",
+      "source_repo": "PARENA",
+      "date": "20260821",
+      "archived_at": "2026-08-21T02:57:33Z"
     }
   ]
 }
