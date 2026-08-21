@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-21T07:58:43Z",
+  "generated_at": "2026-08-21T07:58:48Z",
   "repo": "APPLES",
-  "count": 4654,
+  "count": 4655,
   "apples": [
     {
       "id": 10525,
@@ -37234,6 +37234,14 @@
       "source_repo": "PARENA",
       "date": "20260821",
       "archived_at": "2026-08-21T07:58:43Z"
+    },
+    {
+      "id": 15189,
+      "type": "completion",
+      "title": "changelog(PARENA): 新增 mangle_call_name() 修正跨模組 module/function 呼叫解析——之前一律誤 man…",
+      "source_repo": "PARENA",
+      "date": "20260821",
+      "archived_at": "2026-08-21T07:58:48Z"
     }
   ]
 }
