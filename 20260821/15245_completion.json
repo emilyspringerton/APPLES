@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-21T11:09:23Z",
+  "body": "commit f1e84eb -- founder 明確要求看 ladybug/scarab 測試。firefly/ladybug.prn 原本從沒真的編譯過(\u0026Any + deep-eq?/is-none? 未定義),改成 F64 特化,matcher 從 closure 設計(今天新增的 fn 字面值刻意不支援 capture)改成 Matcher tagged union + match 分派。過程中補齊四個真實、通用的編譯器缺口:match 對多欄位 defenum 的解構、單欄位 pattern 綁定值的真實型別追蹤(讓 deref 能正確 cast)、裸 symbol 指向已知頂層 defn 當值使用、vec/push! 對 struct VALUE 的 boxing。新增 examples/stats_ladybug_test.prn:真正完整可執行的 PARENA BDD 測試,對 stats.prn 寫了 4 個真實 case,gcc 乾淨編譯 + 執行期真的跑過 firefly/run-tests,passed=4 failed=0。scarab 自己的 Describe/It 巢狀機制需要頂層 def 這種 VS0 完全沒有的 ambient state 支援,誠實記錄未修。新增 301→311 個迴歸測試。make test/test-domain4/5/test-multifile/bazel build/bazel asan 全數通過。\n\n⚓ ☃",
+  "id": 15245,
+  "metadata": null,
+  "run_id": "sess-20260820-0649-a3f19d93",
+  "source_repo": "PARENA",
+  "title": "firefly/ladybug 真的能跑了,新增真實 BDD 範例測試(4/4 通過)"
+}
