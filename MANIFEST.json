@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-21T09:25:18Z",
+  "generated_at": "2026-08-21T09:31:48Z",
   "repo": "APPLES",
-  "count": 4674,
+  "count": 4675,
   "apples": [
     {
       "id": 10525,
@@ -37394,6 +37394,14 @@
       "source_repo": "emily",
       "date": "20260821",
       "archived_at": "2026-08-21T09:25:18Z"
+    },
+    {
+      "id": 15209,
+      "type": "completion",
+      "title": "里程碑:修好 current-arena(改用明確 dest 參數)+ match 支援當 loop 尾端 + recur 貫穿,net/http.prn serve 只剩已知 FFI 缺",
+      "source_repo": "PARENA",
+      "date": "20260821",
+      "archived_at": "2026-08-21T09:31:48Z"
     }
   ]
 }
