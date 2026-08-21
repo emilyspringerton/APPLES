@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-21T02:24:45Z",
+  "generated_at": "2026-08-21T02:24:47Z",
   "repo": "APPLES",
-  "count": 4611,
+  "count": 4612,
   "apples": [
     {
       "id": 10525,
@@ -36890,6 +36890,14 @@
       "source_repo": "PARENA",
       "date": "20260821",
       "archived_at": "2026-08-21T02:24:45Z"
+    },
+    {
+      "id": 15146,
+      "type": "completion",
+      "title": "真實修好 defenum defstruct 前處理順序 bug",
+      "source_repo": "PARENA",
+      "date": "20260821",
+      "archived_at": "2026-08-21T02:24:47Z"
     }
   ]
 }
