@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-21T04:09:01Z",
+  "generated_at": "2026-08-21T04:09:04Z",
   "repo": "APPLES",
-  "count": 4626,
+  "count": 4627,
   "apples": [
     {
       "id": 10525,
@@ -37010,6 +37010,14 @@
       "source_repo": "PARENA",
       "date": "20260821",
       "archived_at": "2026-08-21T04:09:01Z"
+    },
+    {
+      "id": 15161,
+      "type": "completion",
+      "title": "changelog(PARENA): 修正非引用型 (Vec T) @ Region 參數形狀(array.prn 的 zeros/from-vec/res…",
+      "source_repo": "PARENA",
+      "date": "20260821",
+      "archived_at": "2026-08-21T04:09:04Z"
     }
   ]
 }
