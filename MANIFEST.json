@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-21T09:20:44Z",
+  "generated_at": "2026-08-21T09:20:48Z",
   "repo": "APPLES",
-  "count": 4672,
+  "count": 4673,
   "apples": [
     {
       "id": 10525,
@@ -37378,6 +37378,14 @@
       "source_repo": "PARENA",
       "date": "20260821",
       "archived_at": "2026-08-21T09:20:44Z"
+    },
+    {
+      "id": 15207,
+      "type": "completion",
+      "title": "changelog(PARENA): loop 支援直接當 match clause body(emit_loop_core 從 emit_loop 拆出來…",
+      "source_repo": "PARENA",
+      "date": "20260821",
+      "archived_at": "2026-08-21T09:20:48Z"
     }
   ]
 }

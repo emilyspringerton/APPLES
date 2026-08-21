@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-21T09:20:48Z",
+  "body": "CHANGELOG updated in PARENA: loop 支援直接當 match clause body(emit_loop_core 從 emit_loop 拆出來,共用 result_var);修好丟棄陳述式的通用 -Wunused-value 缺口(所有丟棄的陳述式包上 void(...));net/http.prn 的 serve 只剩 current-arena 一個獨立缺口;Apple #15206,commit 2932a95 (sess-20260820-0649-a3f19d93)\n\n⚓ ☃",
+  "id": 15207,
+  "metadata": null,
+  "run_id": "sess-20260820-0649-a3f19d93",
+  "source_repo": "PARENA",
+  "title": "changelog(PARENA): loop 支援直接當 match clause body(emit_loop_core 從 emit_loop 拆出來…"
+}
