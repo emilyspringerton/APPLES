@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-21T08:26:57Z",
+  "generated_at": "2026-08-21T08:33:29Z",
   "repo": "APPLES",
-  "count": 4657,
+  "count": 4658,
   "apples": [
     {
       "id": 10525,
@@ -37258,6 +37258,14 @@
       "source_repo": "emily",
       "date": "20260821",
       "archived_at": "2026-08-21T08:26:57Z"
+    },
+    {
+      "id": 15192,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time:提供了 GitHub PAT,已透過 emily key set GITHUB_TOKEN 存進 EMILY/var…",
+      "source_repo": "CLI",
+      "date": "20260821",
+      "archived_at": "2026-08-21T08:33:29Z"
     }
   ]
 }
