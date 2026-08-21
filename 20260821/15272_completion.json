@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-21T14:56:48Z",
+  "body": "CHANGELOG updated in PARENA: dataframe.prn 全檔完工:select 修好後也真的能跑了。修好兩個新缺口:resolve_declared_type 對 (\u0026Type) 的括號解析、match void-typed clause 的宣告+assign 問題。新增 331→336 個迴歸測試。Apple #15271,commit 4dbd60f。 (sess-20260820-0649-a3f19d93)\n\n⚓ ☃",
+  "id": 15272,
+  "metadata": null,
+  "run_id": "sess-20260820-0649-a3f19d93",
+  "source_repo": "PARENA",
+  "title": "changelog(PARENA): dataframe.prn 全檔完工:select 修好後也真的能跑了。修好兩個新缺口:resolve_declare…"
+}
