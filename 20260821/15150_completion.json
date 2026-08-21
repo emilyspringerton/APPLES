@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-21T02:57:31Z",
+  "body": "CHANGELOG updated in PARENA: 修好 mangle() 的開頭驚嘆號處理——之前錯誤地轉成底線（_t/_m/_cap），但多個真實 stdlib 檔案自己手寫的 #target inline-C body（thread.prn 的 lock、pcap.prn 的 read-packet/filter）都是用去掉驚嘆號後的原始名稱（m、cap）直接引用參數，改成整個去掉開頭驚嘆號才對；中間/結尾的驚嘆號（vec/push!、set!）維持轉底線不變。順手把 pcap.prn 自己真正缺的 Capture/Packet/PcapError 型別定義補上——pentest/* 六個檔案現在全部真的能編譯 (sess-20260820-0649-a3f19d93)\n\n⚓ ☃",
+  "id": 15150,
+  "metadata": null,
+  "run_id": "sess-20260820-0649-a3f19d93",
+  "source_repo": "PARENA",
+  "title": "changelog(PARENA): 修好 mangle() 的開頭驚嘆號處理——之前錯誤地轉成底線（_t/_m/_cap），但多個真實 stdlib 檔案…"
+}

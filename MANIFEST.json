@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-21T02:56:35Z",
+  "generated_at": "2026-08-21T02:57:31Z",
   "repo": "APPLES",
-  "count": 4615,
+  "count": 4616,
   "apples": [
     {
       "id": 10525,
@@ -36922,6 +36922,14 @@
       "source_repo": "emily",
       "date": "20260821",
       "archived_at": "2026-08-21T02:56:35Z"
+    },
+    {
+      "id": 15150,
+      "type": "completion",
+      "title": "changelog(PARENA): 修好 mangle() 的開頭驚嘆號處理——之前錯誤地轉成底線（_t/_m/_cap），但多個真實 stdlib 檔案",
+      "source_repo": "PARENA",
+      "date": "20260821",
+      "archived_at": "2026-08-21T02:57:31Z"
     }
   ]
 }
