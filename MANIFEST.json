@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-21T08:39:01Z",
+  "generated_at": "2026-08-21T08:39:05Z",
   "repo": "APPLES",
-  "count": 4659,
+  "count": 4660,
   "apples": [
     {
       "id": 10525,
@@ -37274,6 +37274,14 @@
       "source_repo": "PARENA",
       "date": "20260821",
       "archived_at": "2026-08-21T08:39:01Z"
+    },
+    {
+      "id": 15194,
+      "type": "completion",
+      "title": "changelog(PARENA): string.prn 補齊 char-at/str-eq?/is-digit?/substring/ParseErro…",
+      "source_repo": "PARENA",
+      "date": "20260821",
+      "archived_at": "2026-08-21T08:39:05Z"
     }
   ]
 }
