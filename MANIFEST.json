@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-21T08:57:30Z",
+  "generated_at": "2026-08-21T08:57:35Z",
   "repo": "APPLES",
-  "count": 4665,
+  "count": 4666,
   "apples": [
     {
       "id": 10525,
@@ -37322,6 +37322,14 @@
       "source_repo": "PARENA",
       "date": "20260821",
       "archived_at": "2026-08-21T08:57:30Z"
+    },
+    {
+      "id": 15200,
+      "type": "completion",
+      "title": "changelog(PARENA): match 支援巢狀(拆成公開入口 + 可遞迴的 core,共用 result_var)+ emit_loop_tai…",
+      "source_repo": "PARENA",
+      "date": "20260821",
+      "archived_at": "2026-08-21T08:57:35Z"
     }
   ]
 }
