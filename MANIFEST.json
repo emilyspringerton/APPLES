@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-21T10:34:12Z",
+  "generated_at": "2026-08-21T10:34:57Z",
   "repo": "APPLES",
-  "count": 4703,
+  "count": 4704,
   "apples": [
     {
       "id": 10525,
@@ -37626,6 +37626,14 @@
       "source_repo": "PARENA",
       "date": "20260821",
       "archived_at": "2026-08-21T10:34:12Z"
+    },
+    {
+      "id": 15238,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: 'continue adding all the posix stuff that is reasonable into stdlib' → …",
+      "source_repo": "CLI",
+      "date": "20260821",
+      "archived_at": "2026-08-21T10:34:57Z"
     }
   ]
 }
