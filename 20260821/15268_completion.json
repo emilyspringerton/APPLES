@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-21T14:49:46Z",
+  "body": "commit 923a24c -- compress/lz4.prn 從 FFI-bound 設計改成真正、純 PARENA 的 LZ4-style 壓縮器(founder 明確要求「it needs to be a pure parena implementation」)。今天稍早修好的 scalar boxing + vec_get hint 查找解除了原本擋住它的架構限制。已用真正的 round-trip harness 驗證:重複片語、run-length/重疊複製(LZ4 最刁鑽的情境)、邊界情況全部位元組級精確還原;100 bytes 高重複輸入壓成 3 個 token,確認真的有壓縮效果。過程中抓到並修好兩個真實、通用的編譯器缺口:\u0026mut (ComplexType) 參數形狀完全沒被支援過;loop 當函式 tail 但沒有真正結果值時會無條件 return 未賦值變數的 bug(emit_loop/emit_match 都修)。新增 325→331 個迴歸測試。make test/test-domain4/5/test-multifile/bazel build/bazel asan 全數通過。\n\n⚓ ☃",
+  "id": 15268,
+  "metadata": null,
+  "run_id": "sess-20260820-0649-a3f19d93",
+  "source_repo": "PARENA",
+  "title": "新增真正、純 PARENA 的 LZ4 壓縮實作(里程碑)"
+}
