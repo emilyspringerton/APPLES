@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-21T09:20:44Z",
+  "body": "commit 2932a95。收尾 net/http.prn serve 的 loop-as-match-clause-body 缺口:把 emit_loop_core 從 emit_loop 拆出來,讓 match 的新 loop clause body 分支能遞迴呼叫,共用外層的 result_var。驗證過程中自己抓到並修好更深的一個通用 bug:emit_match_clause_body 的 let/do 非最後 body form 也是直接呼叫 emit_expr(),修好後又浮現丟棄陳述式若解析成裸變數會產生真正的 gcc -Wunused-value 錯誤——用完全不涉及 match/loop 的一般函式本體就能重現,證實是通用、早就存在的缺口。修正:所有被丟棄的陳述式都包上 (void)(...)。驗證:獨立隔離測試全部 gcc-clean,既有已驗證乾淨的檔案(world.prn、array.prn 系列)重新用 gcc 驗證完全無迴歸,其他本來就卡在已知 FFI 缺口的檔案行為不變。tests/test_emit.c 257→264。全套驗證(make test、bazel build/test asan、domain4 valgrind、domain5、multifile)全綠。\n\n⚓ ☃",
+  "id": 15206,
+  "metadata": null,
+  "run_id": "sess-20260820-0649-a3f19d93",
+  "source_repo": "PARENA",
+  "title": "里程碑:loop 支援當 match clause body + 修好丟棄陳述式的 -Wunused-value 通用缺口"
+}

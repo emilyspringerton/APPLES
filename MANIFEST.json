@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-21T09:10:13Z",
+  "generated_at": "2026-08-21T09:20:44Z",
   "repo": "APPLES",
-  "count": 4671,
+  "count": 4672,
   "apples": [
     {
       "id": 10525,
@@ -37370,6 +37370,14 @@
       "source_repo": "PARENA",
       "date": "20260821",
       "archived_at": "2026-08-21T09:10:13Z"
+    },
+    {
+      "id": 15206,
+      "type": "completion",
+      "title": "里程碑:loop 支援當 match clause body + 修好丟棄陳述式的 -Wunused-value 通用缺口",
+      "source_repo": "PARENA",
+      "date": "20260821",
+      "archived_at": "2026-08-21T09:20:44Z"
     }
   ]
 }
