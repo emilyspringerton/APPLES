@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-21T10:21:58Z",
+  "body": "commit 5312f6e -- 修好 array.prn 的 add/mul-elementwise 卡住的 (fn [x y] ...) lambda 字面值缺口。新增 g_lambda_helpers 機制(比照 g_box_helpers):每個 lambda 產生一個真正、可定址、file-scope 的 static C 函式。刻意窄範圍:每個參數需明確型別標注,不支援真正 closure。自己抓到一個真實 bug:新程式碼一開始放在通用 symbol-headed-call dispatch 之後,完全不可達,移到 catch-all 之前才生效。獨立測試驗證 gcc 乾淨編譯 + 執行期正確性(3+4=7、3*4=12)。新增 278 個迴歸測試(272→278)。array.prn 整檔仍卡在三個獨立、無關的既有缺口(vec-eq?/not/間接呼叫回傳值 boxing),已在 STDLIB.md 誠實記錄,未一併處理。make test / test-domain4/5 / test-multifile / bazel build / bazel asan 全數通過。\n\n⚓ ☃",
+  "id": 15231,
+  "metadata": null,
+  "run_id": "sess-20260820-0649-a3f19d93",
+  "source_repo": "PARENA",
+  "title": "新增 fn lambda 字面值支援(非捕獲、需明確型別標注)"
+}

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-21T10:17:06Z",
+  "generated_at": "2026-08-21T10:21:58Z",
   "repo": "APPLES",
-  "count": 4696,
+  "count": 4697,
   "apples": [
     {
       "id": 10525,
@@ -37570,6 +37570,14 @@
       "source_repo": "CLI",
       "date": "20260821",
       "archived_at": "2026-08-21T10:17:06Z"
+    },
+    {
+      "id": 15231,
+      "type": "completion",
+      "title": "新增 fn lambda 字面值支援(非捕獲、需明確型別標注)",
+      "source_repo": "PARENA",
+      "date": "20260821",
+      "archived_at": "2026-08-21T10:21:58Z"
     }
   ]
 }
