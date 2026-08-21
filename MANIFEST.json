@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-21T09:54:50Z",
+  "generated_at": "2026-08-21T09:59:53Z",
   "repo": "APPLES",
-  "count": 4686,
+  "count": 4687,
   "apples": [
     {
       "id": 10525,
@@ -37490,6 +37490,14 @@
       "source_repo": "emily",
       "date": "20260821",
       "archived_at": "2026-08-21T09:54:50Z"
+    },
+    {
+      "id": 15221,
+      "type": "completion",
+      "title": "里程碑:新增 native PARENA ci-status 工具(stdlib/ci/status.prn),真正 dogfood PARENA 本身,已用它自己輪詢真實 CI 到通過",
+      "source_repo": "PARENA",
+      "date": "20260821",
+      "archived_at": "2026-08-21T09:59:53Z"
     }
   ]
 }

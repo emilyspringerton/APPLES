@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-21T09:59:53Z",
+  "body": "commit 269e090。Founder 要求用 native PARENA 取代這個 session 一直在用的 python3 GitHub API 查詢 one-liner。先做真正的 module(stdlib/ci/status.prn)export 一個真正、可重用的 check 函式,回傳有意義的 exit-code(0=全綠、1=還在跑、2=有失敗、3=沒找到/request 失敗)。#target FFI 走跟 io.prn/net/tcp.prn/pty.prn 同一個既有慣例(host 端真正工作交給手寫 C,這次真的寫出來了,tools/ci_status_host.c,透過 popen 呼叫 curl + strstr 粗略欄位擷取,誠實不是真正 JSON parse)。對真實 GitHub API 測試時自己抓到並修好兩個真實 bug:(1) GitHub 回應冒號後有空格,原本的 strstr pattern 找不到;(2) GitHub 的錯誤回應本身也有 status 欄位(HTTP 狀態碼字串),會被誤判成 pending,改成先確認有 check_runs 陣列才開始掃。新增 Makefile tools target(兩階段:parena 編譯 module 成 C,再跟 host 實作連結)。已經真的用這個工具自己輪詢這次 commit 的 CI 到通過(pending→success 全部正確)。make test 269 passed 無迴歸。下一步:wire 進 parena CLI 自己的 subcommand(founder 明確要求),目前還是獨立 binary。\n\n⚓ ☃",
+  "id": 15221,
+  "metadata": null,
+  "run_id": "sess-20260820-0649-a3f19d93",
+  "source_repo": "PARENA",
+  "title": "里程碑:新增 native PARENA ci-status 工具(stdlib/ci/status.prn),真正 dogfood PARENA 本身,已用它自己輪詢真實 CI 到通過"
+}
