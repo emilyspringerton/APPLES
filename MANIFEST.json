@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-21T11:15:28Z",
+  "generated_at": "2026-08-21T11:15:31Z",
   "repo": "APPLES",
-  "count": 4713,
+  "count": 4714,
   "apples": [
     {
       "id": 10525,
@@ -37706,6 +37706,14 @@
       "source_repo": "PARENA",
       "date": "20260821",
       "archived_at": "2026-08-21T11:15:28Z"
+    },
+    {
+      "id": 15248,
+      "type": "completion",
+      "title": "changelog(PARENA): nn.prn 全檔編譯過關並用真實數值驗證正確(layernorm/gelu/softmax/relu/leaky-r…",
+      "source_repo": "PARENA",
+      "date": "20260821",
+      "archived_at": "2026-08-21T11:15:31Z"
     }
   ]
 }

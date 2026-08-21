@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-21T11:15:31Z",
+  "body": "CHANGELOG updated in PARENA: nn.prn 全檔編譯過關並用真實數值驗證正確(layernorm/gelu/softmax/relu/leaky-relu/sigmoid/tanh-activation)。新增 exp-of/tanh-of(#target FFI 包 libm)。新增 311→316 個迴歸測試。Apple #15247,commit 7f4e9a5。 (sess-20260820-0649-a3f19d93)\n\n⚓ ☃",
+  "id": 15248,
+  "metadata": null,
+  "run_id": "sess-20260820-0649-a3f19d93",
+  "source_repo": "PARENA",
+  "title": "changelog(PARENA): nn.prn 全檔編譯過關並用真實數值驗證正確(layernorm/gelu/softmax/relu/leaky-r…"
+}
