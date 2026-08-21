@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-21T04:09:01Z",
+  "body": "修正 emit.c 的 Type @ Region 參數分支,原本只接受裸符號型別,現在也接受 (Vec T) 這種複合型別——array.prn 的 zeros/from-vec/reshape 用的正是這個形狀。product/strides-for/zeros 三個函式現在完全乾淨編譯。from-vec 揭露了下一個獨立缺口:Ok/Err/Some 目前只接受指標型別 payload,map-literal 結構值跟 deref 純量需要 arena 裝箱,但 emit_expr 純運算式架構還不支援,誠實記錄在 STDLIB.md 沒有追下去。全套驗證(make test 198 passed、bazel build/test asan、domain4 valgrind、domain5、multifile)全綠。commit 899bef0。\n\n⚓ ☃",
+  "id": 15160,
+  "metadata": null,
+  "run_id": "sess-20260820-0649-a3f19d93",
+  "source_repo": "PARENA",
+  "title": "array.prn 參數形狀缺口修正:非引用型 (Vec T) @ Region"
+}

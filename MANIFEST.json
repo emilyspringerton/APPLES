@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-21T03:57:32Z",
+  "generated_at": "2026-08-21T04:09:01Z",
   "repo": "APPLES",
-  "count": 4625,
+  "count": 4626,
   "apples": [
     {
       "id": 10525,
@@ -37002,6 +37002,14 @@
       "source_repo": "emily",
       "date": "20260821",
       "archived_at": "2026-08-21T03:57:32Z"
+    },
+    {
+      "id": 15160,
+      "type": "completion",
+      "title": "array.prn 參數形狀缺口修正:非引用型 (Vec T) @ Region",
+      "source_repo": "PARENA",
+      "date": "20260821",
+      "archived_at": "2026-08-21T04:09:01Z"
     }
   ]
 }
