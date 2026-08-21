@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-21T10:23:15Z",
+  "generated_at": "2026-08-21T10:31:22Z",
   "repo": "APPLES",
-  "count": 4699,
+  "count": 4700,
   "apples": [
     {
       "id": 10525,
@@ -37594,6 +37594,14 @@
       "source_repo": "emily",
       "date": "20260821",
       "archived_at": "2026-08-21T10:23:15Z"
+    },
+    {
+      "id": 15234,
+      "type": "completion",
+      "title": "array.prn 全檔編譯過關並驗證數值正確(not/vec-eq?/間接呼叫 boxing + strides-for 真實 bug 修復)",
+      "source_repo": "PARENA",
+      "date": "20260821",
+      "archived_at": "2026-08-21T10:31:22Z"
     }
   ]
 }
