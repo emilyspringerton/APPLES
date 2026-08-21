@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-21T07:57:15Z",
+  "generated_at": "2026-08-21T07:58:43Z",
   "repo": "APPLES",
-  "count": 4653,
+  "count": 4654,
   "apples": [
     {
       "id": 10525,
@@ -37226,6 +37226,14 @@
       "source_repo": "emily",
       "date": "20260821",
       "archived_at": "2026-08-21T07:57:15Z"
+    },
+    {
+      "id": 15188,
+      "type": "completion",
+      "title": "里程碑:跨模組 module/function 呼叫解析,修正整個 stdlib 大範圍誤 mangle 問題",
+      "source_repo": "PARENA",
+      "date": "20260821",
+      "archived_at": "2026-08-21T07:58:43Z"
     }
   ]
 }

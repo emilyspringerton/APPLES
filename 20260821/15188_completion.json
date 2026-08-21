@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-21T07:58:43Z",
+  "body": "commit b139bd9。string.prn+regex/glob.prn 組合編譯後,glob-match 的 string/length 撞上新錯誤 implicit declaration of string_length。根因:mangle() 只是單純把 / 換成 _,呼叫端文字被轉成從來不是任何真實 defn 編譯結果的名字(defn 自己的名字從不被 module 前綴)。這個 compiler 的多檔案編譯沒有真正的 per-module symbol table,一律扁平 C namespace。用真實使用次數確認影響遠比一個檔案大:map/*、array/*、io/*、stats/*、sdl2/*、pty/* 整個 stdlib 到處都是。修正:新增 mangle_call_name(),先試裸名字(靠上一輪前向宣告 pre-pass 已經填好的 g_defn_return_types 判斷是否為真實 defn),找不到才退回舊有完整 mangle——刻意保守,vec/push!、單檔案 string/concat 案例完全不受影響。驗證:獨立跨模組呼叫測試 gcc-clean,順手證實回傳型別解析正確性紅利(vec_box_i32 而非誤判 vec_box_f64)。string.prn+glob.prn 組合的 string_length 錯誤消失,其餘各自誠實記錄的獨立缺口不受影響。tests/test_emit.c 231→235。全套驗證(make test、bazel build/test asan、domain4 valgrind、domain5、multifile)全綠。\n\n⚓ ☃",
+  "id": 15188,
+  "metadata": null,
+  "run_id": "sess-20260820-0649-a3f19d93",
+  "source_repo": "PARENA",
+  "title": "里程碑:跨模組 module/function 呼叫解析,修正整個 stdlib 大範圍誤 mangle 問題"
+}
