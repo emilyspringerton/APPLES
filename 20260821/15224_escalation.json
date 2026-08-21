@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "escalation",
+  "archived_at": "2026-08-21T10:02:52Z",
+  "body": "PARENA 從 NORTHSTAR-only 走到現在,第一次有一個真正用 PARENA 語言寫的模組(stdlib/ci/status.prn)被拿來做這個 monorepo 自己真實、每天都在用的工作(查 GitHub Actions CI 狀態),取代原本的 python3 one-liner。這是 NORTHSTAR.md 自己講的 strangler-fig 自我證明策略——先小範圍、真實地把 PARENA 用在production toolchain 裡——第一個具體、可指認的實例。過程中對真實的 GitHub API 測試,自己抓到並修好兩個真實 bug(JSON 空格假設錯誤、錯誤回應自己的 status 欄位誤判),已經用這個工具本身成功輪詢過好幾次真實的 CI run 到通過。commit 269e090(PARENA)。下一步:wire 進 parena CLI 自己的 subcommand,讓 parena ci-status \u003crepo\u003e \u003csha\u003e 直接可用,不用再獨立編譯 binary。\n\n⚓ ☃",
+  "id": 15224,
+  "metadata": null,
+  "run_id": "sess-20260820-0649-a3f19d93",
+  "source_repo": "PARENA",
+  "title": "🎉 里程碑:PARENA 第一個真正進入 production 工作流的工具——ci-status"
+}

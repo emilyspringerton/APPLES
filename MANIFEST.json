@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-21T10:02:42Z",
+  "generated_at": "2026-08-21T10:02:52Z",
   "repo": "APPLES",
-  "count": 4689,
+  "count": 4690,
   "apples": [
     {
       "id": 10525,
@@ -37514,6 +37514,14 @@
       "source_repo": "CLI",
       "date": "20260821",
       "archived_at": "2026-08-21T10:02:42Z"
+    },
+    {
+      "id": 15224,
+      "type": "escalation",
+      "title": "🎉 里程碑:PARENA 第一個真正進入 production 工作流的工具——ci-status",
+      "source_repo": "PARENA",
+      "date": "20260821",
+      "archived_at": "2026-08-21T10:02:52Z"
     }
   ]
 }
