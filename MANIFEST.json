@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-21T09:35:24Z",
+  "generated_at": "2026-08-21T09:37:00Z",
   "repo": "APPLES",
-  "count": 4678,
+  "count": 4679,
   "apples": [
     {
       "id": 10525,
@@ -37426,6 +37426,14 @@
       "source_repo": "PARENA",
       "date": "20260821",
       "archived_at": "2026-08-21T09:35:24Z"
+    },
+    {
+      "id": 15213,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time:「whenever a build passes release it as a minor version」→「like a . …",
+      "source_repo": "CLI",
+      "date": "20260821",
+      "archived_at": "2026-08-21T09:37:00Z"
     }
   ]
 }
