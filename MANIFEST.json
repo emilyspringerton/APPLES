@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-21T09:31:48Z",
+  "generated_at": "2026-08-21T09:31:54Z",
   "repo": "APPLES",
-  "count": 4675,
+  "count": 4676,
   "apples": [
     {
       "id": 10525,
@@ -37402,6 +37402,14 @@
       "source_repo": "PARENA",
       "date": "20260821",
       "archived_at": "2026-08-21T09:31:48Z"
+    },
+    {
+      "id": 15210,
+      "type": "completion",
+      "title": "changelog(PARENA): 修好 current-arena(reshape/serve 改用明確 dest 參數,沿用 skip 已有做法);e…",
+      "source_repo": "PARENA",
+      "date": "20260821",
+      "archived_at": "2026-08-21T09:31:54Z"
     }
   ]
 }
