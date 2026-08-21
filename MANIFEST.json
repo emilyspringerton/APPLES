@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-21T10:31:22Z",
+  "generated_at": "2026-08-21T10:31:25Z",
   "repo": "APPLES",
-  "count": 4700,
+  "count": 4701,
   "apples": [
     {
       "id": 10525,
@@ -37602,6 +37602,14 @@
       "source_repo": "PARENA",
       "date": "20260821",
       "archived_at": "2026-08-21T10:31:22Z"
+    },
+    {
+      "id": 15235,
+      "type": "completion",
+      "title": "changelog(PARENA): array.prn 全檔編譯過關並驗證數值正確:新增 unary not、vec-eq?、間接呼叫回傳值 boxing…",
+      "source_repo": "PARENA",
+      "date": "20260821",
+      "archived_at": "2026-08-21T10:31:25Z"
     }
   ]
 }

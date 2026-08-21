@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-21T10:31:25Z",
+  "body": "CHANGELOG updated in PARENA: array.prn 全檔編譯過關並驗證數值正確:新增 unary not、vec-eq?、間接呼叫回傳值 boxing;修好 strides-for 真實 bug(stride 推入順序反了)。新增 272→290 個迴歸測試。Apple #15234,commit 55d13d6。 (sess-20260820-0649-a3f19d93)\n\n⚓ ☃",
+  "id": 15235,
+  "metadata": null,
+  "run_id": "sess-20260820-0649-a3f19d93",
+  "source_repo": "PARENA",
+  "title": "changelog(PARENA): array.prn 全檔編譯過關並驗證數值正確:新增 unary not、vec-eq?、間接呼叫回傳值 boxing…"
+}
