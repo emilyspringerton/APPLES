@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-21T04:21:03Z",
+  "body": "CHANGELOG updated in PARENA: Ok/Err/Some 非指標 payload 裝箱(生成 per-type box 輔助函式)+ when-in-loop-tail 處理 + 純量裝箱判斷改看值型別而非 hint;補齊 array.prn 的 ShapeError/IndexError 型別定義;product/strides-for/zeros/flat-index/from-vec 五個函式真正 gcc-clean;get/set! 卡在新的、更深的 stdlib 設計缺口(誠實記錄,未解);Apple #15163,commit 3735d28 (sess-20260820-0649-a3f19d93)\n\n⚓ ☃",
+  "id": 15164,
+  "metadata": null,
+  "run_id": "sess-20260820-0649-a3f19d93",
+  "source_repo": "PARENA",
+  "title": "changelog(PARENA): Ok/Err/Some 非指標 payload 裝箱(生成 per-type box 輔助函式)+ when-in-l…"
+}
