@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-21T11:09:27Z",
+  "generated_at": "2026-08-21T11:15:28Z",
   "repo": "APPLES",
-  "count": 4712,
+  "count": 4713,
   "apples": [
     {
       "id": 10525,
@@ -37698,6 +37698,14 @@
       "source_repo": "PARENA",
       "date": "20260821",
       "archived_at": "2026-08-21T11:09:27Z"
+    },
+    {
+      "id": 15247,
+      "type": "completion",
+      "title": "nn.prn 全檔編譯過關並用真實數值驗證正確",
+      "source_repo": "PARENA",
+      "date": "20260821",
+      "archived_at": "2026-08-21T11:15:28Z"
     }
   ]
 }

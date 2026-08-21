@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-21T11:15:28Z",
+  "body": "commit 7f4e9a5 -- nn.prn(layernorm/gelu/softmax/relu/leaky-relu/sigmoid/tanh-activation)現在 gcc 全檔乾淨編譯,用獨立執行期 harness 對照真實參考值驗證每個函式都算對。新增 exp-of/tanh-of(#target FFI 包 libm,founder 明確允許用 escape hatch)。leaky-relu 的 alpha 從 inline fn capture 改成獨立具名 helper(跟今天稍早 fn 字面值不支援 capture 同一個原因)。softmax 用兩個 helper 繞開 loop-in-let 缺口跟 hint-less-Vec 缺口。自己抓到並修好一個真實 bug:vec_push_ struct-boxing 誤判 void 型別。新增 311→316 個迴歸測試。make test/test-domain4/5/test-multifile/bazel build/bazel asan 全數通過。\n\n⚓ ☃",
+  "id": 15247,
+  "metadata": null,
+  "run_id": "sess-20260820-0649-a3f19d93",
+  "source_repo": "PARENA",
+  "title": "nn.prn 全檔編譯過關並用真實數值驗證正確"
+}
