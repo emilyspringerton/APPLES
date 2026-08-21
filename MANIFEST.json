@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-21T08:33:29Z",
+  "generated_at": "2026-08-21T08:39:01Z",
   "repo": "APPLES",
-  "count": 4658,
+  "count": 4659,
   "apples": [
     {
       "id": 10525,
@@ -37266,6 +37266,14 @@
       "source_repo": "CLI",
       "date": "20260821",
       "archived_at": "2026-08-21T08:33:29Z"
+    },
+    {
+      "id": 15193,
+      "type": "completion",
+      "title": "string.prn 補齊 char-at/str-eq?/is-digit?/substring/ParseError + 修好三個原始碼 bug,10/11 函式真正 gcc-clean",
+      "source_repo": "PARENA",
+      "date": "20260821",
+      "archived_at": "2026-08-21T08:39:01Z"
     }
   ]
 }

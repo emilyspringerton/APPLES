@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-21T08:39:01Z",
+  "body": "commit e36ed21。補齊 ParseError/substring/str-eq?/is-digit?/char-at/raw-parse-i32——之前被真實呼叫端引用但檔案自己從未定義過,STDLIB.md 也沒設計過,這輪是真正原始設計。char-at/str-eq? 走 #target FFI(strlen 同一種形狀),is-digit? 純 ASCII 範圍檢查,substring 用 alloc+#target memcpy(跟 concat 一樣的形狀),ParseError 是單欄位 defstruct。補上每個生成檔案前導區塊的 #include \u003cstdlib.h\u003e(raw-parse-i32 需要 atoi)。過程中在檔案自己的原始碼找到並修好三個真實 bug:starts-with-sign?/is-valid-i32-text? 原本把 s 自己傳進 substring 的 dest 參數(那兩個函式根本沒有 Arena 參數),改用不需要配置記憶體的 char-at;split 的分隔符檢查原本用 char-at 的無效三參數形式,改成明確的相等比較。驗證後 10 個函式(length/char-at/str-eq?/is-digit?/substring/raw-parse-i32/starts-with-sign?/is-valid-i32-text?/concat/split)全部真正 gcc-clean,parse-i32 自己卡在跟 array.prn get/set! 同一類、已誠實記錄的 stdlib 設計問題(純量 payload 裝箱需要 Arena,但簽章沒有)。tests/test_emit.c 235→238。全套驗證(make test、bazel build/test asan、domain4 valgrind、domain5、multifile)全綠。\n\n⚓ ☃",
+  "id": 15193,
+  "metadata": null,
+  "run_id": "sess-20260820-0649-a3f19d93",
+  "source_repo": "PARENA",
+  "title": "string.prn 補齊 char-at/str-eq?/is-digit?/substring/ParseError + 修好三個原始碼 bug,10/11 函式真正 gcc-clean"
+}
