@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-21T10:08:55Z",
+  "generated_at": "2026-08-21T10:12:18Z",
   "repo": "APPLES",
-  "count": 4693,
+  "count": 4694,
   "apples": [
     {
       "id": 10525,
@@ -37546,6 +37546,14 @@
       "source_repo": "emily",
       "date": "20260821",
       "archived_at": "2026-08-21T10:08:55Z"
+    },
+    {
+      "id": 15228,
+      "type": "completion",
+      "title": "補齊 parse-i32 + array/get/set! 缺少的 dest Arena 參數",
+      "source_repo": "PARENA",
+      "date": "20260821",
+      "archived_at": "2026-08-21T10:12:18Z"
     }
   ]
 }

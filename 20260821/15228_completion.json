@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-21T10:12:18Z",
+  "body": "commit 33da3e1 -- 修好 STDLIB.md 記錄的兩個 STILL-not-fixed 缺口:string.prn 的 parse-i32、array.prn 的 get/set!,都因為需要 box 非指標的 Err/Ok payload 但簽名沒有任何 Arena 參數可用。比照 reshape/serve 已建立的作法,加上明確 dest : Arena @ Region 參數。三個函式都在獨立測試檔驗證 gcc -Wall -Wextra -pedantic -Werror 乾淨編譯。新增 tests/test_emit.c 迴歸測試(272 passed)。make test / test-domain4/5 / test-multifile / bazel build / bazel asan 全數通過。\n\n⚓ ☃",
+  "id": 15228,
+  "metadata": null,
+  "run_id": "sess-20260820-0649-a3f19d93",
+  "source_repo": "PARENA",
+  "title": "補齊 parse-i32 + array/get/set! 缺少的 dest Arena 參數"
+}
