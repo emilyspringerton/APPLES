@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-21T08:55:26Z",
+  "generated_at": "2026-08-21T08:57:30Z",
   "repo": "APPLES",
-  "count": 4664,
+  "count": 4665,
   "apples": [
     {
       "id": 10525,
@@ -37314,6 +37314,14 @@
       "source_repo": "emily",
       "date": "20260821",
       "archived_at": "2026-08-21T08:55:26Z"
+    },
+    {
+      "id": 15199,
+      "type": "completion",
+      "title": "里程碑:match 支援巢狀 + when-loop-tail 非尾端陳述式支援,修好同一類缺口的三個真實出現位置",
+      "source_repo": "PARENA",
+      "date": "20260821",
+      "archived_at": "2026-08-21T08:57:30Z"
     }
   ]
 }

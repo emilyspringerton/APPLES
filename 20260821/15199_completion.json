@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-21T08:57:30Z",
+  "body": "commit 49c2f59。shell.prn 真實的 resolve 撞到巢狀 match(政策鏈:Option 檢查一個接一個,None 就往下試)——emit_match 原本 clause body 直接呼叫純運算式 emit_expr(),對 match/if/let/do 這類陳述式形狀完全沒處理,巢狀 match 被誤判成函式呼叫,報出離真因很遠的 unknown identifier s。修正:emit_match 拆成公開入口(擁有唯一 result_var 宣告)+ 可遞迴的 emit_match_core(寫入共用 result_var),加上 emit_match_clause_body 處理 if/let/do/match 各種 clause body 形狀。過程中發現同一類缺口第三次出現:emit_loop_tail 的 when 處理裡非最後 body form 也是直接呼叫 emit_expr(),用忠實重現 dataframe.prn 真實巢狀結構的隔離測試抓到,修正為委派給 emit_body() 本身處理。順手補上 match 自己 result_var 的 unused attribute(跟 loop 早就有的一樣)。驗證:獨立隔離測試(巢狀 match、loop-tail when 非尾端 match)全部 gcc-clean,既有已驗證檔案重新確認無迴歸。shell.prn 過了這關,卡在下一批獨立缺口(自己原始碼有真實 bug——函式叫 getenv 跟 libc 撞名,還有多個未定義的 FFI 原語)。tests/test_emit.c 245→251。全套驗證(make test、bazel build/test asan、domain4 valgrind、domain5、multifile)全綠。\n\n⚓ ☃",
+  "id": 15199,
+  "metadata": null,
+  "run_id": "sess-20260820-0649-a3f19d93",
+  "source_repo": "PARENA",
+  "title": "里程碑:match 支援巢狀 + when-loop-tail 非尾端陳述式支援,修好同一類缺口的三個真實出現位置"
+}
