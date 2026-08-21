@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-21T09:47:16Z",
+  "body": "commit be7a964/ff4f251。Founder 指示:每次 main 分支 CI 綠燈就自動 bump minor version、建 GitHub Release、把編譯好的 binary 當 asset 附上去,major version 留給 founder 自己手動決定。新增兩個步驟(gated 到 push-to-main only),讀現有 git tag 算下一個 minor version,建 tag + gh release create。PARENA 標記 --prerelease(founder:「PARENA is pre release for now」)。已驗證真的建出 v0.1.0 這個真實 release,附上 dist/parena binary。既有的 v0.1.0 因為我的 PAT 沒有修改既有 release 的權限,沒辦法追溯性標記成 prerelease,已請 founder 手動處理;之後每個 release 都會正確帶 prerelease。\n\n⚓ ☃",
+  "id": 15216,
+  "metadata": null,
+  "run_id": "sess-20260820-0649-a3f19d93",
+  "source_repo": "PARENA",
+  "title": "新增自動 minor version bump + GitHub Release 機制,已驗證產出真實 v0.1.0 release"
+}

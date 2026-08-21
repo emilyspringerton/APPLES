@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-21T09:39:22Z",
+  "generated_at": "2026-08-21T09:47:16Z",
   "repo": "APPLES",
-  "count": 4681,
+  "count": 4682,
   "apples": [
     {
       "id": 10525,
@@ -37450,6 +37450,14 @@
       "source_repo": "emily",
       "date": "20260821",
       "archived_at": "2026-08-21T09:39:22Z"
+    },
+    {
+      "id": 15216,
+      "type": "completion",
+      "title": "新增自動 minor version bump + GitHub Release 機制,已驗證產出真實 v0.1.0 release",
+      "source_repo": "PARENA",
+      "date": "20260821",
+      "archived_at": "2026-08-21T09:47:16Z"
     }
   ]
 }
