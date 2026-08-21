@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-21T10:22:00Z",
+  "body": "CHANGELOG updated in PARENA: 新增 fn lambda 字面值支援(非捕獲、需明確型別標注),修好 array.prn 的 add/mul-elementwise 缺口;新增 278 個迴歸測試。Apple #15231,commit 5312f6e。 (sess-20260820-0649-a3f19d93)\n\n⚓ ☃",
+  "id": 15232,
+  "metadata": null,
+  "run_id": "sess-20260820-0649-a3f19d93",
+  "source_repo": "PARENA",
+  "title": "changelog(PARENA): 新增 fn lambda 字面值支援(非捕獲、需明確型別標注),修好 array.prn 的 add/mul-elem…"
+}

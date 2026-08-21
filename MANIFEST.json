@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-21T10:21:58Z",
+  "generated_at": "2026-08-21T10:22:00Z",
   "repo": "APPLES",
-  "count": 4697,
+  "count": 4698,
   "apples": [
     {
       "id": 10525,
@@ -37578,6 +37578,14 @@
       "source_repo": "PARENA",
       "date": "20260821",
       "archived_at": "2026-08-21T10:21:58Z"
+    },
+    {
+      "id": 15232,
+      "type": "completion",
+      "title": "changelog(PARENA): 新增 fn lambda 字面值支援(非捕獲、需明確型別標注),修好 array.prn 的 add/mul-elem…",
+      "source_repo": "PARENA",
+      "date": "20260821",
+      "archived_at": "2026-08-21T10:22:00Z"
     }
   ]
 }
