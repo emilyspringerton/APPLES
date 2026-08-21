@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-21T07:51:43Z",
+  "generated_at": "2026-08-21T07:52:00Z",
   "repo": "APPLES",
-  "count": 4651,
+  "count": 4652,
   "apples": [
     {
       "id": 10525,
@@ -37210,6 +37210,14 @@
       "source_repo": "CLI",
       "date": "20260821",
       "archived_at": "2026-08-21T07:51:43Z"
+    },
+    {
+      "id": 15186,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time(釐清前一則「need a github token」旁白的具體指示):「ensure e…",
+      "source_repo": "CLI",
+      "date": "20260821",
+      "archived_at": "2026-08-21T07:52:00Z"
     }
   ]
 }
