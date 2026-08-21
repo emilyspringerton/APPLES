@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-21T04:12:01Z",
+  "generated_at": "2026-08-21T04:20:59Z",
   "repo": "APPLES",
-  "count": 4628,
+  "count": 4629,
   "apples": [
     {
       "id": 10525,
@@ -37026,6 +37026,14 @@
       "source_repo": "emily",
       "date": "20260821",
       "archived_at": "2026-08-21T04:12:01Z"
+    },
+    {
+      "id": 15163,
+      "type": "completion",
+      "title": "里程碑:Ok/Err/Some 非指標 payload 裝箱機制 + when-in-loop-tail + 通用純量裝箱判斷,連續三個真實缺口",
+      "source_repo": "PARENA",
+      "date": "20260821",
+      "archived_at": "2026-08-21T04:20:59Z"
     }
   ]
 }

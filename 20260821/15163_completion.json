@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-21T04:20:59Z",
+  "body": "commit 3735d28。這一輪連續抓到並修好三個真實、獨立的 gcc-verified 缺口:(1) Ok/Err/Some 現在能裝箱非指標 payload(struct 值/純量),透過生成的 per-type TypeName_box 輔助函式,不用 GNU 擴充也不用改 emit_expr 架構。(2) when 在 loop 尾端位置的處理——array.prn 真實的 strides-for 撞到的,parena build 自己沒抓到,實際 gcc 編譯才抓到。(3) 純量裝箱判斷從 hint-only 改成看值本身型別,修好 let-bound 局部 Vec 的裝箱。順手補齊 array.prn 自己缺少的 ShapeError/IndexError 型別定義。驗證後 product/strides-for/zeros/flat-index/from-vec 五個函式真正 gcc-clean。get/set! 撞到下一道更深、不同性質的牆(stdlib 設計問題,不是編譯器缺口),誠實記錄在 STDLIB.md,沒有在這輪硬解。tests/test_emit.c 198→209。全套驗證(make test、bazel build/test asan、domain4 valgrind、domain5、multifile)全綠。\n\n⚓ ☃",
+  "id": 15163,
+  "metadata": null,
+  "run_id": "sess-20260820-0649-a3f19d93",
+  "source_repo": "PARENA",
+  "title": "里程碑:Ok/Err/Some 非指標 payload 裝箱機制 + when-in-loop-tail + 通用純量裝箱判斷,連續三個真實缺口"
+}
