@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-21T11:21:27Z",
+  "generated_at": "2026-08-21T11:21:31Z",
   "repo": "APPLES",
-  "count": 4715,
+  "count": 4716,
   "apples": [
     {
       "id": 10525,
@@ -37722,6 +37722,14 @@
       "source_repo": "PARENA",
       "date": "20260821",
       "archived_at": "2026-08-21T11:21:27Z"
+    },
+    {
+      "id": 15250,
+      "type": "completion",
+      "title": "changelog(PARENA): 新增 (return expr) 非局部控制流(真正的 C return,無需傳遞邏輯);column.prn 補齊 …",
+      "source_repo": "PARENA",
+      "date": "20260821",
+      "archived_at": "2026-08-21T11:21:31Z"
     }
   ]
 }

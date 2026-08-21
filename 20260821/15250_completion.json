@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-21T11:21:31Z",
+  "body": "CHANGELOG updated in PARENA: 新增 (return expr) 非局部控制流(真正的 C return,無需傳遞邏輯);column.prn 補齊 dest 參數 + ColumnNotFoundError,gcc 乾淨編譯;select 卡在 String 元素 vec_get hint 的新缺口,誠實記錄。新增 317→319 個迴歸測試。Apple #15249,commit 4df1176。 (sess-20260820-0649-a3f19d93)\n\n⚓ ☃",
+  "id": 15250,
+  "metadata": null,
+  "run_id": "sess-20260820-0649-a3f19d93",
+  "source_repo": "PARENA",
+  "title": "changelog(PARENA): 新增 (return expr) 非局部控制流(真正的 C return,無需傳遞邏輯);column.prn 補齊 …"
+}
