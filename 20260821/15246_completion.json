@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-21T11:09:27Z",
+  "body": "CHANGELOG updated in PARENA: firefly/ladybug 真的能跑了(F64 特化,matcher 改為 tagged union);新增真實 BDD 範例測試(4/4 通過);補齊 4 個通用編譯器缺口(多欄位 match 解構、單欄位型別追蹤、裸 defn-name 當值、struct 值的 vec/push! boxing)。新增 301→311 個迴歸測試。Apple #15245,commit f1e84eb。 (sess-20260820-0649-a3f19d93)\n\n⚓ ☃",
+  "id": 15246,
+  "metadata": null,
+  "run_id": "sess-20260820-0649-a3f19d93",
+  "source_repo": "PARENA",
+  "title": "changelog(PARENA): firefly/ladybug 真的能跑了(F64 特化,matcher 改為 tagged union);新增真實 …"
+}

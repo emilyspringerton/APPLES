@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-21T11:09:23Z",
+  "generated_at": "2026-08-21T11:09:27Z",
   "repo": "APPLES",
-  "count": 4711,
+  "count": 4712,
   "apples": [
     {
       "id": 10525,
@@ -37690,6 +37690,14 @@
       "source_repo": "PARENA",
       "date": "20260821",
       "archived_at": "2026-08-21T11:09:23Z"
+    },
+    {
+      "id": 15246,
+      "type": "completion",
+      "title": "changelog(PARENA): firefly/ladybug 真的能跑了(F64 特化,matcher 改為 tagged union);新增真實 …",
+      "source_repo": "PARENA",
+      "date": "20260821",
+      "archived_at": "2026-08-21T11:09:27Z"
     }
   ]
 }
