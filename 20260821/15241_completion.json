@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-21T10:48:03Z",
+  "body": "CHANGELOG updated in PARENA: 新增 Vec 字面值 + unwrap;用執行期 harness 抓到 loop 變數 int/double 混淆的真實缺口(誠實記錄未修)。新增 296→301 個迴歸測試。Apple #15240,commit 3d49190。 (sess-20260820-0649-a3f19d93)\n\n⚓ ☃",
+  "id": 15241,
+  "metadata": null,
+  "run_id": "sess-20260820-0649-a3f19d93",
+  "source_repo": "PARENA",
+  "title": "changelog(PARENA): 新增 Vec 字面值 + unwrap;用執行期 harness 抓到 loop 變數 int/double 混淆的真…"
+}

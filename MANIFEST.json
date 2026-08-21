@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-21T10:48:00Z",
+  "generated_at": "2026-08-21T10:48:03Z",
   "repo": "APPLES",
-  "count": 4706,
+  "count": 4707,
   "apples": [
     {
       "id": 10525,
@@ -37650,6 +37650,14 @@
       "source_repo": "PARENA",
       "date": "20260821",
       "archived_at": "2026-08-21T10:48:00Z"
+    },
+    {
+      "id": 15241,
+      "type": "completion",
+      "title": "changelog(PARENA): 新增 Vec 字面值 + unwrap;用執行期 harness 抓到 loop 變數 int/double 混淆的真…",
+      "source_repo": "PARENA",
+      "date": "20260821",
+      "archived_at": "2026-08-21T10:48:03Z"
     }
   ]
 }
