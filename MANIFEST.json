@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-21T09:47:28Z",
+  "generated_at": "2026-08-21T09:47:29Z",
   "repo": "APPLES",
-  "count": 4684,
+  "count": 4685,
   "apples": [
     {
       "id": 10525,
@@ -37474,6 +37474,14 @@
       "source_repo": "PARENA",
       "date": "20260821",
       "archived_at": "2026-08-21T09:47:28Z"
+    },
+    {
+      "id": 15219,
+      "type": "completion",
+      "title": "changelog(PITVIPER): 新增 CI 自動 minor version bump + GitHub Release 機制(真正 release …",
+      "source_repo": "PITVIPER",
+      "date": "20260821",
+      "archived_at": "2026-08-21T09:47:29Z"
     }
   ]
 }
