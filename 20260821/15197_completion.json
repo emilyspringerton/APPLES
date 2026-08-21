@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-21T08:46:51Z",
+  "body": "CHANGELOG updated in PARENA: 修好 vec/get 被誤解析成使用者自己同名 get 函式的真實 regression(自己抓到,vec 前綴明確排除在裸名字解析之外);補上 unit 字面值(Unit 型別單例值,輸出 NULL);Apple #15196,commit bea812f (sess-20260820-0649-a3f19d93)\n\n⚓ ☃",
+  "id": 15197,
+  "metadata": null,
+  "run_id": "sess-20260820-0649-a3f19d93",
+  "source_repo": "PARENA",
+  "title": "changelog(PARENA): 修好 vec/get 被誤解析成使用者自己同名 get 函式的真實 regression(自己抓到,vec 前綴明確排…"
+}

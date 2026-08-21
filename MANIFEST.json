@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-21T08:46:47Z",
+  "generated_at": "2026-08-21T08:46:51Z",
   "repo": "APPLES",
-  "count": 4662,
+  "count": 4663,
   "apples": [
     {
       "id": 10525,
@@ -37298,6 +37298,14 @@
       "source_repo": "PARENA",
       "date": "20260821",
       "archived_at": "2026-08-21T08:46:47Z"
+    },
+    {
+      "id": 15197,
+      "type": "completion",
+      "title": "changelog(PARENA): 修好 vec/get 被誤解析成使用者自己同名 get 函式的真實 regression(自己抓到,vec 前綴明確排…",
+      "source_repo": "PARENA",
+      "date": "20260821",
+      "archived_at": "2026-08-21T08:46:51Z"
     }
   ]
 }
