@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-21T09:10:08Z",
+  "generated_at": "2026-08-21T09:10:13Z",
   "repo": "APPLES",
-  "count": 4670,
+  "count": 4671,
   "apples": [
     {
       "id": 10525,
@@ -37362,6 +37362,14 @@
       "source_repo": "PARENA",
       "date": "20260821",
       "archived_at": "2026-08-21T09:10:08Z"
+    },
+    {
+      "id": 15205,
+      "type": "completion",
+      "title": "changelog(PARENA): 補齊 net/tcp.prn(TcpListener/TcpStream/NetError)+ net/udp.prn…",
+      "source_repo": "PARENA",
+      "date": "20260821",
+      "archived_at": "2026-08-21T09:10:13Z"
     }
   ]
 }
