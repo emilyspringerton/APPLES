@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-21T02:59:37Z",
+  "generated_at": "2026-08-21T02:59:39Z",
   "repo": "APPLES",
-  "count": 4618,
+  "count": 4619,
   "apples": [
     {
       "id": 10525,
@@ -36946,6 +36946,14 @@
       "source_repo": "PARENA",
       "date": "20260821",
       "archived_at": "2026-08-21T02:59:37Z"
+    },
+    {
+      "id": 15153,
+      "type": "completion",
+      "title": "io.prn 補齊 FileHandle/IoError 型別定義",
+      "source_repo": "PARENA",
+      "date": "20260821",
+      "archived_at": "2026-08-21T02:59:39Z"
     }
   ]
 }
