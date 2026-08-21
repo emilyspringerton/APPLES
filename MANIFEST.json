@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-21T10:02:52Z",
+  "generated_at": "2026-08-21T10:08:40Z",
   "repo": "APPLES",
-  "count": 4690,
+  "count": 4691,
   "apples": [
     {
       "id": 10525,
@@ -37522,6 +37522,14 @@
       "source_repo": "PARENA",
       "date": "20260821",
       "archived_at": "2026-08-21T10:02:52Z"
+    },
+    {
+      "id": 15225,
+      "type": "completion",
+      "title": "PARENA 首個工具進入正式生產鏈:parena ci-status 接入 CLI 本體",
+      "source_repo": "PARENA",
+      "date": "20260821",
+      "archived_at": "2026-08-21T10:08:40Z"
     }
   ]
 }
