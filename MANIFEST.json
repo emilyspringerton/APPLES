@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-21T10:08:40Z",
+  "generated_at": "2026-08-21T10:08:43Z",
   "repo": "APPLES",
-  "count": 4691,
+  "count": 4692,
   "apples": [
     {
       "id": 10525,
@@ -37530,6 +37530,14 @@
       "source_repo": "PARENA",
       "date": "20260821",
       "archived_at": "2026-08-21T10:08:40Z"
+    },
+    {
+      "id": 15226,
+      "type": "completion",
+      "title": "changelog(PARENA): ci-status 接入 parena CLI 本體(兩階段 bootstrap:.parena-bootstrap …",
+      "source_repo": "PARENA",
+      "date": "20260821",
+      "archived_at": "2026-08-21T10:08:43Z"
     }
   ]
 }

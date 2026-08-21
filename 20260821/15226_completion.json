@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-21T10:08:43Z",
+  "body": "CHANGELOG updated in PARENA: ci-status 接入 parena CLI 本體(兩階段 bootstrap:.parena-bootstrap 產生模組 C,PARENA_HAS_CI_STATUS 重編 main.c 連結進最終 binary);移除已取代的 tools/ci_status_main.c 獨立 binary。Apple #15225,commit ff93388。 (sess-20260820-0649-a3f19d93)\n\n⚓ ☃",
+  "id": 15226,
+  "metadata": null,
+  "run_id": "sess-20260820-0649-a3f19d93",
+  "source_repo": "PARENA",
+  "title": "changelog(PARENA): ci-status 接入 parena CLI 本體(兩階段 bootstrap:.parena-bootstrap …"
+}
