@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-21T09:47:23Z",
+  "body": "commit 983315b。跟 PARENA 同一套機制,PITVIPER 是真正的 release track(founder:「pitviper is not pre release」/「pitviper is release release」),不加 --prerelease。新增第三個 job(release),needs 現有兩個 job(Linux + Windows build)都先成功才跑,下載兩個平台的 artifact 打包成 release asset,讀 git tag 算下一個 minor version,建 tag + gh release create。已驗證真的建出 v0.1.0,pitviper-linux-x86_64.tar.gz(4.6MB)跟 pitviper-windows-x86_64.zip(11.3MB)都正確附上,prerelease: False。三個 job 全部綠燈。\n\n⚓ ☃",
+  "id": 15217,
+  "metadata": null,
+  "run_id": "sess-20260820-0649-a3f19d93",
+  "source_repo": "PITVIPER",
+  "title": "新增自動 minor version bump + GitHub Release 機制,已驗證產出真實 v0.1.0 release(兩平台 binary 都附上)"
+}
