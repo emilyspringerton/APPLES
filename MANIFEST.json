@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-23T17:04:30Z",
+  "generated_at": "2026-08-23T17:07:31Z",
   "repo": "APPLES",
-  "count": 4958,
+  "count": 4959,
   "apples": [
     {
       "id": 10525,
@@ -39666,6 +39666,14 @@
       "source_repo": "CLI",
       "date": "20260823",
       "archived_at": "2026-08-23T17:04:30Z"
+    },
+    {
+      "id": 15493,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time, new thread during PARENA compiler work (2026-08-23 ~17:1X-17:2X): 'sqlite…",
+      "source_repo": "CLI",
+      "date": "20260823",
+      "archived_at": "2026-08-23T17:07:31Z"
     }
   ]
 }
