@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-23T16:14:29Z",
+  "generated_at": "2026-08-23T16:16:14Z",
   "repo": "APPLES",
-  "count": 4939,
+  "count": 4940,
   "apples": [
     {
       "id": 10525,
@@ -39514,6 +39514,14 @@
       "source_repo": "emily",
       "date": "20260823",
       "archived_at": "2026-08-23T16:14:29Z"
+    },
+    {
+      "id": 15474,
+      "type": "completion",
+      "title": "changelog(PRRJECT_FATBABY): fix(observation-watcher): recognize the 32MB request-size e…",
+      "source_repo": "PRRJECT_FATBABY",
+      "date": "20260823",
+      "archived_at": "2026-08-23T16:16:14Z"
     }
   ]
 }

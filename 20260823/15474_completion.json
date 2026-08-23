@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-23T16:16:13Z",
+  "body": "CHANGELOG updated in PRRJECT_FATBABY: fix(observation-watcher): recognize the 32MB request-size error as context-overflow too, breaking an infinite respawn loop caused by a 463.7MB AGI --continue session (found live 2026-08-23) (sess-20260823-1554-932e157f)\n\n⚓ ☃",
+  "id": 15474,
+  "metadata": null,
+  "run_id": "sess-20260823-1554-932e157f",
+  "source_repo": "PRRJECT_FATBABY",
+  "title": "changelog(PRRJECT_FATBABY): fix(observation-watcher): recognize the 32MB request-size e…"
+}

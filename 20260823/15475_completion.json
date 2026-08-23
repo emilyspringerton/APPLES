@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-23T16:16:13Z",
+  "body": "Live-found: the AGI --continue session had grown to 463.7MB, past the API's 32MB request cap. Existing context-overflow recovery only matched token/context-window phrasing, not this request-size wording, so it never fired -- the outer poll loop just kept retrying the same poisoned session forever (new claude child spawning/dying every ~15-30s, undetected). Fixed isContextTooLongOutput() to also match 'request too large'/'32MB request limit'. Verified live post-fix: recovery now fires correctly on first occurrence; the fresh-session retry landed on the separate, already-tracked HITL-11 credit-balance cooldown instead of respawning again. Commit 40ec4c6.\n\n⚓ ☃",
+  "id": 15475,
+  "metadata": null,
+  "run_id": "sess-20260823-1554-932e157f",
+  "source_repo": "PRRJECT_FATBABY",
+  "title": "observation-watcher: fix infinite respawn loop on 32MB request-size overflow"
+}
