@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-23T16:34:40Z",
+  "body": "CHANGELOG updated in PARENA: feat(regex): real, working recursive-descent parser for regex/syntax.prn -- literals/alternation/quantifiers/capture groups/char classes/anchors/escapes, gcc-clean, ASan-clean, 13/13 well-formed + 4/4 malformed test cases correct. Real remaining gap for grep/sed/awk: regex/nfa.prn's matcher (Thompson NFA + Pike's VM) is still unbuilt. (sess-20260823-1554-932e157f)\n\n⚓ ☃",
+  "id": 15482,
+  "metadata": null,
+  "run_id": "sess-20260823-1554-932e157f",
+  "source_repo": "PARENA",
+  "title": "changelog(PARENA): feat(regex): real, working recursive-descent parser for reg…"
+}

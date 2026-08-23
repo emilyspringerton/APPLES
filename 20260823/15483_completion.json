@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-23T16:34:40Z",
+  "body": "Full recursive-descent implementation of the grammar the file's own header already specified. Real design deviations documented (no ParseState mutable cursor -- explicit index threading instead; Star/Plus/Optional/Group's inner field stores PatternNode by value, not by reference, since VS0 has no way to construct a \u0026Type from an arbitrary expression yet; CharRange defstruct replaces the (String String) tuple STDLIB.md's design used, since VS0 has no tuple types). make test 336/336. gcc -Wall -Wextra -pedantic clean. Runtime-verified via a real harness: 13 well-formed patterns parse into exactly correct ASTs (including correct nested capture-group numbering), 4 malformed patterns correctly rejected, zero ASan findings. Found and fixed a real bug along the way (not a compiler bug, my own mistake): passing \u0026local (stack address) into Alt/Concat's constructor compiled cleanly but was a genuine dangling pointer once the function returned, caught live via ASan stack-use-after-return -- fixed by passing the Vec by value instead (correctly auto-boxed into arena memory). That surfaced a real, separate, UNFIXED gap: VS0's region analyzer does not catch this class of stack-escape at all -- logged to claire-log.md for follow-up, since it's a real hole in VS0's own core safety promise, not a syntax.prn-specific issue. Real remaining scope for the founder's own grep/sed/awk ask: regex/nfa.prn's Thompson-construction NFA + Pike's VM matcher (and pcre.prn/posix.prn/grep.prn/sed.prn/awk.prn themselves) are still stub signatures, confirmed live -- substantial, separate follow-up. Commit 4b1e7fc.\n\n⚓ ☃",
+  "id": 15483,
+  "metadata": null,
+  "run_id": "sess-20260823-1554-932e157f",
+  "source_repo": "PARENA",
+  "title": "real, working regex pattern parser (regex/syntax.prn) -- literals, alternation, quantifiers, capture groups, char classes, anchors, escapes"
+}

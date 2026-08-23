@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-23T16:30:00Z",
+  "generated_at": "2026-08-23T16:34:40Z",
   "repo": "APPLES",
-  "count": 4947,
+  "count": 4948,
   "apples": [
     {
       "id": 10525,
@@ -39578,6 +39578,14 @@
       "source_repo": "emily",
       "date": "20260823",
       "archived_at": "2026-08-23T16:30:00Z"
+    },
+    {
+      "id": 15482,
+      "type": "completion",
+      "title": "changelog(PARENA): feat(regex): real, working recursive-descent parser for reg…",
+      "source_repo": "PARENA",
+      "date": "20260823",
+      "archived_at": "2026-08-23T16:34:40Z"
     }
   ]
 }
