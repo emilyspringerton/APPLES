@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-23T17:12:48Z",
+  "body": "Founder direction: 'build it in' rather than keep routing around the nesting bugs found building regex/nfa.prn. Root cause: emit_let()'s own binding-value processing called bare emit_expr(), which has no case for match/loop/when/cond/do (only ever special-cased in the statement-shaped dispatchers, never emit_expr's own table) -- confirmed by this file's own existing 'if in tail position' comment describing the identical class of gap. Fixed emit_let() itself (the real general handler, reached from both emit_body's non-last-form dispatch and the function-tail dispatch) for the match/loop case: builds into a scratch buffer via emit_match_core/emit_loop_core directly, generates a fresh temp var, uses it as the binding value -- same pattern emit_match()/emit_loop() themselves already use as public entry points, without touching those entry points or their own callers. Verified: make test 336/336, test-multifile, test-domain4 (gcc/ASan/UBSan/Valgrind) all clean. Minimal repro of the original failure now compiles clean with correct generated C. regex/nfa.prn rebuilds byte-identical in its own remaining (unrelated) warning count, confirming purely additive. Real, honest, narrower scope: only match/loop as a let-value fixed -- cond/when/if/do as a let-value, and match in a cond-test/when-body/non-tail-do-statement remain open (3 of the original 5 instances), tracked in claire-log.md. Commit 94feafa.\n\n⚓ ☃",
+  "id": 15495,
+  "metadata": null,
+  "run_id": "sess-20260823-1554-932e157f",
+  "source_repo": "PARENA",
+  "title": "root-cause compiler fix: let-binding value recognizes match/loop (not a workaround)"
+}

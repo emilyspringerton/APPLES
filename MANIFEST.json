@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-23T17:07:31Z",
+  "generated_at": "2026-08-23T17:12:48Z",
   "repo": "APPLES",
-  "count": 4959,
+  "count": 4960,
   "apples": [
     {
       "id": 10525,
@@ -39674,6 +39674,14 @@
       "source_repo": "CLI",
       "date": "20260823",
       "archived_at": "2026-08-23T17:07:31Z"
+    },
+    {
+      "id": 15494,
+      "type": "completion",
+      "title": "changelog(PARENA): fix(emit): let-binding value now recognizes match/loop as s…",
+      "source_repo": "PARENA",
+      "date": "20260823",
+      "archived_at": "2026-08-23T17:12:48Z"
     }
   ]
 }
