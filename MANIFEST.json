@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-23T16:49:51Z",
+  "generated_at": "2026-08-23T16:49:53Z",
   "repo": "APPLES",
-  "count": 4952,
+  "count": 4953,
   "apples": [
     {
       "id": 10525,
@@ -39618,6 +39618,14 @@
       "source_repo": "PARENA",
       "date": "20260823",
       "archived_at": "2026-08-23T16:49:51Z"
+    },
+    {
+      "id": 15487,
+      "type": "completion",
+      "title": "real, working NFA compiler for regex/nfa.prn -- Thompson construction, 31/31 test cases pass",
+      "source_repo": "PARENA",
+      "date": "20260823",
+      "archived_at": "2026-08-23T16:49:53Z"
     }
   ]
 }
