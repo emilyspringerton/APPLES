@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-23T16:34:40Z",
+  "generated_at": "2026-08-23T16:34:42Z",
   "repo": "APPLES",
-  "count": 4948,
+  "count": 4949,
   "apples": [
     {
       "id": 10525,
@@ -39586,6 +39586,14 @@
       "source_repo": "PARENA",
       "date": "20260823",
       "archived_at": "2026-08-23T16:34:40Z"
+    },
+    {
+      "id": 15483,
+      "type": "completion",
+      "title": "real, working regex pattern parser (regex/syntax.prn) -- literals, alternation, quantifiers, capture groups, char classes, anchors, escapes",
+      "source_repo": "PARENA",
+      "date": "20260823",
+      "archived_at": "2026-08-23T16:34:42Z"
     }
   ]
 }
