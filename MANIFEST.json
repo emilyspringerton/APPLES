@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-23T17:03:53Z",
+  "generated_at": "2026-08-23T17:04:02Z",
   "repo": "APPLES",
-  "count": 4956,
+  "count": 4957,
   "apples": [
     {
       "id": 10525,
@@ -39650,6 +39650,14 @@
       "source_repo": "PARENA",
       "date": "20260823",
       "archived_at": "2026-08-23T17:03:53Z"
+    },
+    {
+      "id": 15491,
+      "type": "claire",
+      "title": "Found a systemic pattern this session, not just one-off bugs: VS0's emit.c only recognizes match (a…",
+      "source_repo": "CLI",
+      "date": "20260823",
+      "archived_at": "2026-08-23T17:04:02Z"
     }
   ]
 }

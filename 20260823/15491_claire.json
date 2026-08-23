@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "claire",
+  "archived_at": "2026-08-23T17:04:02Z",
+  "body": "Found a systemic pattern this session, not just one-off bugs: VS0's emit.c only recognizes match (and separately, let) as a real special form in a narrow set of positions -- confirmed-safe: as a function's own direct body, as a direct if-branch tail, as a do sequence's own LAST statement. Confirmed-BROKEN, each a real, live, reproducible repro (not guessed): match/let as a when's direct body, as a let-binding's own value, as a cond test slot, and match as a non-tail (followed-by-another-statement) do-sequence member. A 5th, separate, deeper bug: even in a safe position, nesting match/if 4 levels deep corrupted a result-variable assignment several scopes up (found in add-thread's AnchorI handling in regex/nfa.prn). All 5 found and worked around (not fixed) while building regex/nfa.prn's Pike's VM runner (PARENA commit 55c9107) -- every instance is documented in-place in that file's own comments with the exact repro. Also: 2 harmless-in-practice but real -Wreturn-type warnings (return-with-value in a void-returning function) remain unresolved on add-thread/step's own outer if-with-unit-else-branch -- a when-based loop tail already gets real 'no return statement for a genuinely valueless result' suppression elsewhere in this stdlib, but the analogous if-based case at the top level of a Unit-returning function doesn't. Real, worthwhile follow-up: a dedicated audit of emit_let/emit_when/emit_cond's own dispatch to see if there's one shared underlying cause (a narrower 'is this a recognized special form' check reused in some but not all of these call sites) rather than 5 independent gaps -- given how consistently the SAME three positions kept failing, this smells like one root cause, not five.\n\nsource: emily claire (CLI)\nlog: EMILY/claire-log.md\n\n⚓ ☃",
+  "id": 15491,
+  "metadata": null,
+  "run_id": "sess-20260823-1554-932e157f",
+  "source_repo": "CLI",
+  "title": "Found a systemic pattern this session, not just one-off bugs: VS0's emit.c only recognizes match (a…"
+}
