@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-23T17:12:50Z",
+  "generated_at": "2026-08-23T17:12:57Z",
   "repo": "APPLES",
-  "count": 4961,
+  "count": 4962,
   "apples": [
     {
       "id": 10525,
@@ -39690,6 +39690,14 @@
       "source_repo": "PARENA",
       "date": "20260823",
       "archived_at": "2026-08-23T17:12:50Z"
+    },
+    {
+      "id": 15496,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time, extended thread during the compiler-fix work (2026-08-23 ~17:15-17:25Z): …",
+      "source_repo": "CLI",
+      "date": "20260823",
+      "archived_at": "2026-08-23T17:12:57Z"
     }
   ]
 }
