@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-23T16:59:16Z",
+  "generated_at": "2026-08-23T17:03:51Z",
   "repo": "APPLES",
-  "count": 4954,
+  "count": 4955,
   "apples": [
     {
       "id": 10525,
@@ -39634,6 +39634,14 @@
       "source_repo": "emily",
       "date": "20260823",
       "archived_at": "2026-08-23T16:59:16Z"
+    },
+    {
+      "id": 15489,
+      "type": "completion",
+      "title": "changelog(PARENA): feat(regex): real, working Pike's VM runner (is-match) for …",
+      "source_repo": "PARENA",
+      "date": "20260823",
+      "archived_at": "2026-08-23T17:03:51Z"
     }
   ]
 }

@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-23T17:03:51Z",
+  "body": "is-match is real and complete: unanchored, breadth-first thread-stepping search (add-thread epsilon-closure, step consumes one char, run-vm's per-position loop seeds a fresh start thread every position for real unanchored search). No backtracking anywhere in the run loop -- honors the file's own design contract fully, not just at compile time. Found and worked around 5 more real compiler bugs live: match isn't recognized as a special form in 4 distinct nested VALUE positions (when-body, let-value, cond-test, non-tail do-statement) -- only match-as-function-body/if-branch-tail/do-last-statement are safe; a 5th, separate bug is about nesting DEPTH corrupting a result-variable several match/if levels down, fixed by factoring into its own function rather than chasing the depth bug. Also fixed two missed derefs (Jmp.target/AnyCharI.next, same boxed-I32-payload convention already established). One honest unresolved residual: 2 -Wreturn-type warnings (return-with-value-in-void-function) -- compiles/links clean, harmless in practice, flagged not fixed. make test 336/336. Real standalone C harness (not PARENA) verified 35 (pattern,text,expected) cases including real unanchored mid-string search, alternation, all quantifiers, nested groups, char classes, anchors against true text boundaries, escapes -- 35/35 pass, zero ASan findings. Real remaining scope: find/find-all (need match position tracking) and the actual grep/sed/awk CLI tools -- regex/nfa.prn itself, the shared engine, is now real end to end. Commit 55c9107.\n\n⚓ ☃",
+  "id": 15490,
+  "metadata": null,
+  "run_id": "sess-20260823-1554-932e157f",
+  "source_repo": "PARENA",
+  "title": "real, working Pike's VM runner (is-match) for regex/nfa.prn -- 35/35 test cases, no backtracking"
+}
