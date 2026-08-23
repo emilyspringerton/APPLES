@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-23T16:00:21Z",
+  "generated_at": "2026-08-23T16:02:47Z",
   "repo": "APPLES",
-  "count": 4936,
+  "count": 4937,
   "apples": [
     {
       "id": 10525,
@@ -39490,6 +39490,14 @@
       "source_repo": "emily",
       "date": "20260823",
       "archived_at": "2026-08-23T16:00:21Z"
+    },
+    {
+      "id": 15471,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: wants grep/sed/awk (and the Bash tool's use of them in this session) repl…",
+      "source_repo": "CLI",
+      "date": "20260823",
+      "archived_at": "2026-08-23T16:02:47Z"
     }
   ]
 }
