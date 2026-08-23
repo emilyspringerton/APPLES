@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-23T16:16:14Z",
+  "generated_at": "2026-08-23T16:16:15Z",
   "repo": "APPLES",
-  "count": 4940,
+  "count": 4941,
   "apples": [
     {
       "id": 10525,
@@ -39522,6 +39522,14 @@
       "source_repo": "PRRJECT_FATBABY",
       "date": "20260823",
       "archived_at": "2026-08-23T16:16:14Z"
+    },
+    {
+      "id": 15475,
+      "type": "completion",
+      "title": "observation-watcher: fix infinite respawn loop on 32MB request-size overflow",
+      "source_repo": "PRRJECT_FATBABY",
+      "date": "20260823",
+      "archived_at": "2026-08-23T16:16:15Z"
     }
   ]
 }
