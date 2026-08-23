@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "claire",
+  "archived_at": "2026-08-23T16:18:43Z",
+  "body": "PARENA/src/emit.c collision: an interactive session and an obs-watcher-dispatched AGI-loop session (--continue, PID 263193 then respawning successors) both had uncommitted edits in the same file at once mid-session (2026-08-23). No data was lost -- reconciled and committed together (PARENA 63c71e2) -- but a git stash/stash-pop round-trip mid-collision was genuinely risky (could have raced a concurrent writer). Real root cause of WHY the background session kept respawning found separately in the same incident: the AGI --continue session had silently grown to 463.7MB, past the API's 32MB request cap, and the existing context-overflow recovery only matched token/context-window error wording, not this request-size wording -- so it never fired, and the outer poll loop just kept retrying the same poisoned session forever, spawning a new claude child every ~15-30s, undetected until caught live via ps. Fixed (PRRJECT_FATBABY 40ec4c6) and verified live. Lesson for next time this class of collision shows up: check 'pgrep -af dangerously-skip-permissions' + each PID's cwd before hand-editing a shared file if an AGI loop is active in the same repo; prefer committing whatever's on disk over destructive git ops (stash/reset/checkout) once a concurrent writer is confirmed live.\n\nsource: emily claire (CLI)\nlog: EMILY/claire-log.md\n\n⚓ ☃",
+  "id": 15480,
+  "metadata": null,
+  "run_id": "sess-20260823-1554-932e157f",
+  "source_repo": "CLI",
+  "title": "PARENA/src/emit.c collision: an interactive session and an obs-watcher-dispatched AGI-loop session …"
+}
