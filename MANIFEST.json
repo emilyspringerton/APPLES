@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-23T17:12:48Z",
+  "generated_at": "2026-08-23T17:12:50Z",
   "repo": "APPLES",
-  "count": 4960,
+  "count": 4961,
   "apples": [
     {
       "id": 10525,
@@ -39682,6 +39682,14 @@
       "source_repo": "PARENA",
       "date": "20260823",
       "archived_at": "2026-08-23T17:12:48Z"
+    },
+    {
+      "id": 15495,
+      "type": "completion",
+      "title": "root-cause compiler fix: let-binding value recognizes match/loop (not a workaround)",
+      "source_repo": "PARENA",
+      "date": "20260823",
+      "archived_at": "2026-08-23T17:12:50Z"
     }
   ]
 }
