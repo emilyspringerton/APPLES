@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-23T17:04:02Z",
+  "generated_at": "2026-08-23T17:04:30Z",
   "repo": "APPLES",
-  "count": 4957,
+  "count": 4958,
   "apples": [
     {
       "id": 10525,
@@ -39658,6 +39658,14 @@
       "source_repo": "CLI",
       "date": "20260823",
       "archived_at": "2026-08-23T17:04:02Z"
+    },
+    {
+      "id": 15492,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: 'ensure we have stdlibs for fourier transforms' -- wants an FFT stdlib pa…",
+      "source_repo": "CLI",
+      "date": "20260823",
+      "archived_at": "2026-08-23T17:04:30Z"
     }
   ]
 }
