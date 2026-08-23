@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-23T16:34:42Z",
+  "generated_at": "2026-08-23T16:34:49Z",
   "repo": "APPLES",
-  "count": 4949,
+  "count": 4950,
   "apples": [
     {
       "id": 10525,
@@ -39594,6 +39594,14 @@
       "source_repo": "PARENA",
       "date": "20260823",
       "archived_at": "2026-08-23T16:34:42Z"
+    },
+    {
+      "id": 15484,
+      "type": "claire",
+      "title": "VS0's region analyzer (domain 2) has a real, confirmed gap: it does NOT catch a \u0026local (address of …",
+      "source_repo": "CLI",
+      "date": "20260823",
+      "archived_at": "2026-08-23T16:34:49Z"
     }
   ]
 }
