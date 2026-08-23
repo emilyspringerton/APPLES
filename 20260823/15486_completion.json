@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-23T16:49:51Z",
+  "body": "CHANGELOG updated in PARENA: feat(regex): real, working Thompson-construction NFA compiler (compile: AST -\u003e bytecode) for regex/nfa.prn -- literals, concat, alternation, quantifiers, groups, char classes, anchors. 31/31 runtime test cases pass, zero ASan findings. is-match/find/find-all (the Pike's VM runner) still real, deferred follow-up. (sess-20260823-1554-932e157f)\n\n⚓ ☃",
+  "id": 15486,
+  "metadata": null,
+  "run_id": "sess-20260823-1554-932e157f",
+  "source_repo": "PARENA",
+  "title": "changelog(PARENA): feat(regex): real, working Thompson-construction NFA compil…"
+}

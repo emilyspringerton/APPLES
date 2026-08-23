@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-23T16:49:51Z",
+  "body": "compile() (AST -\u003e NfaInstr bytecode) is real and complete: literals, concat, alternation, Star/Plus/Optional, groups (transparent, no capture extraction yet), char classes (ranges+negation), anchors. No backpatch-list needed for Concat/Alt/Optional (explicit exit-threading + returned start-index, standard recursive-descent codegen); Star/Plus's real loop-back edge needed genuine backpatching via vec-set-at!, a real runtime primitive already added previously for world.prn. Found and fixed a real bug in regex/syntax.prn along the way: AnchorKind/CharRange were declared AFTER PatternNode despite being referenced by it -- process_defenum's pre-pass requires earlier-or-self declaration order, silently fell back to untyped void* with no build error. make test 336/336. A real, standalone C test harness (Pike's-VM-style simulator, not part of PARENA) verified 31 (pattern,text,expected) cases across every construct including nested quantifiers/groups -- 31/31 pass, zero ASan findings. Real remaining scope for the founder's own grep/sed/awk ask: is-match/find/find-all (the actual VM runner: live thread-set stepping, epsilon-closure, PC dedup) are still signature-only -- deliberately not rushed as a backtracking walker, which would violate this file's own 'no backtracking, ever' design contract. Commit 62a520a.\n\n⚓ ☃",
+  "id": 15487,
+  "metadata": null,
+  "run_id": "sess-20260823-1554-932e157f",
+  "source_repo": "PARENA",
+  "title": "real, working NFA compiler for regex/nfa.prn -- Thompson construction, 31/31 test cases pass"
+}

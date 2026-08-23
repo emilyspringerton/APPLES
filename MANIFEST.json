@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-23T16:44:17Z",
+  "generated_at": "2026-08-23T16:49:51Z",
   "repo": "APPLES",
-  "count": 4951,
+  "count": 4952,
   "apples": [
     {
       "id": 10525,
@@ -39610,6 +39610,14 @@
       "source_repo": "emily",
       "date": "20260823",
       "archived_at": "2026-08-23T16:44:17Z"
+    },
+    {
+      "id": 15486,
+      "type": "completion",
+      "title": "changelog(PARENA): feat(regex): real, working Thompson-construction NFA compil…",
+      "source_repo": "PARENA",
+      "date": "20260823",
+      "archived_at": "2026-08-23T16:49:51Z"
     }
   ]
 }
