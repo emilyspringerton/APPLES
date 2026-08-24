@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-24T23:30:24Z",
+  "generated_at": "2026-08-24T23:30:37Z",
   "repo": "APPLES",
-  "count": 5111,
+  "count": 5112,
   "apples": [
     {
       "id": 10525,
@@ -40890,6 +40890,14 @@
       "source_repo": "CLI",
       "date": "20260824",
       "archived_at": "2026-08-24T23:30:24Z"
+    },
+    {
+      "id": 15646,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time, clarifying obs 23:29:xxZ ('build the parena apis as that'): 'but they wil…",
+      "source_repo": "CLI",
+      "date": "20260824",
+      "archived_at": "2026-08-24T23:30:37Z"
     }
   ]
 }
