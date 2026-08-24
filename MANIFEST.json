@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-24T23:13:18Z",
+  "generated_at": "2026-08-24T23:14:10Z",
   "repo": "APPLES",
-  "count": 5100,
+  "count": 5101,
   "apples": [
     {
       "id": 10525,
@@ -40802,6 +40802,14 @@
       "source_repo": "CLI",
       "date": "20260824",
       "archived_at": "2026-08-24T23:13:18Z"
+    },
+    {
+      "id": 15635,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time, elaborating the Erlang-scheduler northstar just logged (obs 2026-08-24T23…",
+      "source_repo": "CLI",
+      "date": "20260824",
+      "archived_at": "2026-08-24T23:14:10Z"
     }
   ]
 }
