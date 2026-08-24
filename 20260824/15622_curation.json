@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "curation",
+  "archived_at": "2026-08-24T22:56:03Z",
+  "body": "Curated 5 FatBaby observations into EMILY/BACKLOG.md INTAKE QUEUE.\n\nItems:\n- Founder real-time: floated killing the emily-agent RSI cron (says it needs more engineering) but explicitly deferred the call to me ('leave it whatever stresses you out less') — choosing to leave it running: it's the core RSI loop (CLAUDE.md calls it 'the product'), currently mid-reboot-recovery session which depends on it being up, and the ask was ambiguous/non-committal rather than a firm kill order. Flagging for real scoping/engineering discussion rather than an ad hoc kill. (2026-08-24T22:55:51Z)\n- Founder real-time: wants PATH symlink magic to replace system sed/awk/grep with turbo-sed/turbo-grep/turbo-awk (PARENA-built) once those tools exist — flagging risk: system-wide binary replacement needs careful scoping (POSIX drop-in compat, rollback plan) before doing it, not safe to just symlink over /usr/bin blind; not yet actioned, needs real scoping in BACKLOG (2026-08-24T22:55:07Z)\n- Founder real-time: wants turbo-sed/turbo-grep/turbo-awk to be actual tool names (likely PARENA stdlib/tooling, continuing to hammer on parena per earlier msg) — needs scoping, not yet actioned (2026-08-24T22:54:45Z)\n- Founder real-time: turbo-sed turbo-grep turbo-awk (2026-08-24T22:54:33Z)\n- Founder real-time: continuing to hammer on parena (2026-08-24T22:54:28Z)\n\n⚓ ☃",
+  "id": 15622,
+  "metadata": null,
+  "run_id": "backlog-curate-1787612163",
+  "source_repo": "emily.cli",
+  "title": "backlog curate: 5 obs -\u003e INTAKE QUEUE"
+}
