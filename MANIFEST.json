@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-24T22:56:03Z",
+  "generated_at": "2026-08-24T22:56:58Z",
   "repo": "APPLES",
-  "count": 5088,
+  "count": 5089,
   "apples": [
     {
       "id": 10525,
@@ -40706,6 +40706,14 @@
       "source_repo": "emily.cli",
       "date": "20260824",
       "archived_at": "2026-08-24T22:56:03Z"
+    },
+    {
+      "id": 15623,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: wants a SAND editor plugin that ports PARENA's vim syntax highlighting (e…",
+      "source_repo": "CLI",
+      "date": "20260824",
+      "archived_at": "2026-08-24T22:56:58Z"
     }
   ]
 }
