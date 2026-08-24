@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-24T23:44:19Z",
+  "generated_at": "2026-08-24T23:45:13Z",
   "repo": "APPLES",
-  "count": 5139,
+  "count": 5140,
   "apples": [
     {
       "id": 10525,
@@ -41114,6 +41114,14 @@
       "source_repo": "CLI",
       "date": "20260824",
       "archived_at": "2026-08-24T23:44:19Z"
+    },
+    {
+      "id": 15674,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: 'and on some level the compiler should have a flag to to turn that off' (…",
+      "source_repo": "CLI",
+      "date": "20260824",
+      "archived_at": "2026-08-24T23:45:13Z"
     }
   ]
 }
