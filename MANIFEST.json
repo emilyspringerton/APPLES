@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-24T23:13:10Z",
+  "generated_at": "2026-08-24T23:13:12Z",
   "repo": "APPLES",
-  "count": 5098,
+  "count": 5099,
   "apples": [
     {
       "id": 10525,
@@ -40786,6 +40786,14 @@
       "source_repo": "emily",
       "date": "20260824",
       "archived_at": "2026-08-24T23:13:10Z"
+    },
+    {
+      "id": 15633,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time, architecture decision (resolves the deferred EduScript/PARENA question fr…",
+      "source_repo": "CLI",
+      "date": "20260824",
+      "archived_at": "2026-08-24T23:13:12Z"
     }
   ]
 }
