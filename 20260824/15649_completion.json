@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-24T23:32:12Z",
+  "body": "CHANGELOG updated in PARENA: regex/pcre.prn rewritten closures-free (VS0's fn literals can't capture) -- compile/is-match/matcher internals gcc-clean; grep.prn updated to match; 2 real emit.c bugs fixed (set! ref-var deref-assign, struct-literal generic-pointer cast); io.prn's own missing host glue is the remaining end-to-end grep blocker (sess-20260824-2252-ce890e4f)\n\n⚓ ☃",
+  "id": 15649,
+  "metadata": null,
+  "run_id": "sess-20260824-2252-ce890e4f",
+  "source_repo": "PARENA",
+  "title": "changelog(PARENA): regex/pcre.prn rewritten closures-free (VS0's fn literals c…"
+}

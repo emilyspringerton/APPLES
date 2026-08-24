@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-24T23:32:08Z",
+  "generated_at": "2026-08-24T23:32:12Z",
   "repo": "APPLES",
-  "count": 5114,
+  "count": 5115,
   "apples": [
     {
       "id": 10525,
@@ -40914,6 +40914,14 @@
       "source_repo": "PARENA",
       "date": "20260824",
       "archived_at": "2026-08-24T23:32:08Z"
+    },
+    {
+      "id": 15649,
+      "type": "completion",
+      "title": "changelog(PARENA): regex/pcre.prn rewritten closures-free (VS0's fn literals c…",
+      "source_repo": "PARENA",
+      "date": "20260824",
+      "archived_at": "2026-08-24T23:32:12Z"
     }
   ]
 }
