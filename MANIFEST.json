@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-24T23:31:08Z",
+  "generated_at": "2026-08-24T23:32:08Z",
   "repo": "APPLES",
-  "count": 5113,
+  "count": 5114,
   "apples": [
     {
       "id": 10525,
@@ -40906,6 +40906,14 @@
       "source_repo": "CLI",
       "date": "20260824",
       "archived_at": "2026-08-24T23:31:08Z"
+    },
+    {
+      "id": 15648,
+      "type": "completion",
+      "title": "regex/pcre.prn closures rewrite -- turbo-grep unblocked, io.prn glue remains",
+      "source_repo": "PARENA",
+      "date": "20260824",
+      "archived_at": "2026-08-24T23:32:08Z"
     }
   ]
 }

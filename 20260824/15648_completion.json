@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-24T23:32:08Z",
+  "body": "VS0's fn literals are non-capturing (file-scope C functions, no closures) -- pcre.prn's original CPS backtracking matcher captured parts/text/steps/budget/k from enclosing scope at every Concat/Star step, couldn't compile at all. Redesigned: match-node/match-alt/match-star return Vec I32 of candidate end positions (preference-ordered), match-concat's own loop/recur tries each against the rest, no lambda values anywhere. compile/is-match/matcher internals now gcc-clean (-Wall -Wextra -pedantic -std=c99, zero warnings). 3 real compiler bugs fixed in src/emit.c: set! now supports (set! ref-var value) for \u0026mut-typed locals (was get-field-only); struct-literal field construction now casts a generic-pointer-typed value (Ok/Some single-field binds, always void* or a payload-type pointer) to the target field's own by-value type when needed, excluding (Fn ..) function-pointer fields (would have broken an existing passing test -- caught and fixed, all 336 tests still pass). grep.prn updated to match (is-match's new dest param, nested (Ok (Some x)) patterns split into sequential matches -- VS0's match binder only collects trailing-symbol binds one level deep). Remaining, separately-scoped: grep.prn's own regex logic is correct and verified; end-to-end grep is blocked by io.prn's own pre-existing, already-flagged-in-its-own-header gap (read-line's #target body calls host functions -- mode_to_c_str/read_one_line/etc -- that were never implemented). replace/build-replaced-string left as an honestly-flagged non-compiling stub -- needs elem-type-hint support for Vec-of-struct locals, real separate compiler work, not needed for grep.\n\n⚓ ☃",
+  "id": 15648,
+  "metadata": null,
+  "run_id": "sess-20260824-2252-ce890e4f",
+  "source_repo": "PARENA",
+  "title": "regex/pcre.prn closures rewrite -- turbo-grep unblocked, io.prn glue remains"
+}
