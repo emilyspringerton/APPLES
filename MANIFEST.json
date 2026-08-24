@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-24T22:56:58Z",
+  "generated_at": "2026-08-24T22:57:04Z",
   "repo": "APPLES",
-  "count": 5089,
+  "count": 5090,
   "apples": [
     {
       "id": 10525,
@@ -40714,6 +40714,14 @@
       "source_repo": "CLI",
       "date": "20260824",
       "archived_at": "2026-08-24T22:56:58Z"
+    },
+    {
+      "id": 15624,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: sequencing clarification on the SAND-plugin/vim-highlighting ask (obs 202…",
+      "source_repo": "CLI",
+      "date": "20260824",
+      "archived_at": "2026-08-24T22:57:04Z"
     }
   ]
 }
