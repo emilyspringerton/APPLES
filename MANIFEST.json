@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-24T23:33:44Z",
+  "generated_at": "2026-08-24T23:33:47Z",
   "repo": "APPLES",
-  "count": 5118,
+  "count": 5119,
   "apples": [
     {
       "id": 10525,
@@ -40946,6 +40946,14 @@
       "source_repo": "EMILY",
       "date": "20260824",
       "archived_at": "2026-08-24T23:33:44Z"
+    },
+    {
+      "id": 15653,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time, clarifying obs 23:34:xxZ: 'it parses our backlog to show the sprints and …",
+      "source_repo": "CLI",
+      "date": "20260824",
+      "archived_at": "2026-08-24T23:33:47Z"
     }
   ]
 }
