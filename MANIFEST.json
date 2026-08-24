@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-24T22:44:32Z",
+  "generated_at": "2026-08-24T22:54:28Z",
   "repo": "APPLES",
-  "count": 5082,
+  "count": 5083,
   "apples": [
     {
       "id": 10525,
@@ -40658,6 +40658,14 @@
       "source_repo": "emily",
       "date": "20260824",
       "archived_at": "2026-08-24T22:44:32Z"
+    },
+    {
+      "id": 15617,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: continuing to hammer on parena",
+      "source_repo": "CLI",
+      "date": "20260824",
+      "archived_at": "2026-08-24T22:54:28Z"
     }
   ]
 }
