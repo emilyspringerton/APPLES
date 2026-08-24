@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-24T23:37:36Z",
+  "generated_at": "2026-08-24T23:38:43Z",
   "repo": "APPLES",
-  "count": 5132,
+  "count": 5133,
   "apples": [
     {
       "id": 10525,
@@ -41058,6 +41058,14 @@
       "source_repo": "CLI",
       "date": "20260824",
       "archived_at": "2026-08-24T23:37:36Z"
+    },
+    {
+      "id": 15667,
+      "type": "completion",
+      "title": "parena fmt -- gofmt-style auto-formatter",
+      "source_repo": "PARENA",
+      "date": "20260824",
+      "archived_at": "2026-08-24T23:38:43Z"
     }
   ]
 }

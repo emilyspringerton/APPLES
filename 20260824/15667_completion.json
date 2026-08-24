@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-24T23:38:43Z",
+  "body": "Added src/fmt.c/fmt.h + parena fmt [-w] \u003cfile.prn\u003e... subcommand. Text-level re-indenter (not AST round-trip -- ast.h has no comment nodes, comments are dropped entirely during lexing, so an AST-based pretty-printer would silently delete every ;; doc comment in this stdlib). Tracks paren/bracket/brace depth, correctly skips over string literals and line comments (matching lexer.c's own escape/comment rules exactly), re-indents each line to depth*2 spaces. Verified: comments/strings survive verbatim, output re-parses and re-compiles (tested against stdlib/string.prn -- still gcc-clean after formatting), idempotent (formatting twice = formatting once). Real, honest scope: depth-based, not semantic Lisp-style alignment (a hand-aligned multi-line loop binding vector gets flattened to the mechanical depth indent, not preserved) -- flagged in fmt.c's own header comment.\n\n⚓ ☃",
+  "id": 15667,
+  "metadata": null,
+  "run_id": "sess-20260824-2252-ce890e4f",
+  "source_repo": "PARENA",
+  "title": "parena fmt -- gofmt-style auto-formatter"
+}
