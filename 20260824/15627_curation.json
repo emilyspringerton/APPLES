@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "curation",
+  "archived_at": "2026-08-24T22:57:31Z",
+  "body": "Curated 3 FatBaby observations into EMILY/BACKLOG.md INTAKE QUEUE.\n\nItems:\n- Founder real-time: prioritization -- 'turbo tools first tho' -- turbo-sed/turbo-grep/turbo-awk (PARENA-native, PATH-replacement) should be sequenced ahead of the SAND-editor vim-highlighting-plugin/mod-API thread (obs 2026-08-24T22:56:57Z/22:57:04Z). Consolidating: this session's PARENA/SAND/turbo-tools founder burst (5 obs, 22:54:28Z-22:57:04Z, plus this one) all needs real scoping as a single thread, not yet actioned. (2026-08-24T22:57:27Z)\n- Founder real-time: sequencing clarification on the SAND-plugin/vim-highlighting ask (obs 2026-08-24T22:56:57Z) -- 'mod api first then implement' -- confirms PARENA's plugin/mod-surface API is the real prerequisite, build that before the SAND vim-highlighting plugin itself (2026-08-24T22:57:04Z)\n- Founder real-time: wants a SAND editor plugin that ports PARENA's vim syntax highlighting (existing, from 2026-08-23 ask) to work inside SAND itself, built using PARENA's own plugin/mod-surface API -- consistent with SAND/NORTHSTAR's stated plan (mod-surface API is SAND's first real feature) but SAND has no code yet (stub-only per CLAUDE.md) and PARENA's plugin API itself isn't confirmed built -- real prerequisite chain needs scoping before this is actionable, not yet started (2026-08-24T22:56:57Z)\n\n⚓ ☃",
+  "id": 15627,
+  "metadata": null,
+  "run_id": "backlog-curate-1787612251",
+  "source_repo": "emily.cli",
+  "title": "backlog curate: 3 obs -\u003e INTAKE QUEUE"
+}
