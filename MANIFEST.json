@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-24T23:28:29Z",
+  "generated_at": "2026-08-24T23:29:10Z",
   "repo": "APPLES",
-  "count": 5103,
+  "count": 5104,
   "apples": [
     {
       "id": 10525,
@@ -40826,6 +40826,14 @@
       "source_repo": "CLI",
       "date": "20260824",
       "archived_at": "2026-08-24T23:28:29Z"
+    },
+    {
+      "id": 15638,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time, elaborating SARENA_NOTEBOOK (obs 23:28:29Z): 'build our libplot shit into…",
+      "source_repo": "CLI",
+      "date": "20260824",
+      "archived_at": "2026-08-24T23:29:10Z"
     }
   ]
 }
