@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-24T22:54:45Z",
+  "generated_at": "2026-08-24T22:55:07Z",
   "repo": "APPLES",
-  "count": 5085,
+  "count": 5086,
   "apples": [
     {
       "id": 10525,
@@ -40682,6 +40682,14 @@
       "source_repo": "CLI",
       "date": "20260824",
       "archived_at": "2026-08-24T22:54:45Z"
+    },
+    {
+      "id": 15620,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: wants PATH symlink magic to replace system sed/awk/grep with turbo-sed/tu…",
+      "source_repo": "CLI",
+      "date": "20260824",
+      "archived_at": "2026-08-24T22:55:07Z"
     }
   ]
 }
