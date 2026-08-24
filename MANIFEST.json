@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-24T23:29:10Z",
+  "generated_at": "2026-08-24T23:29:13Z",
   "repo": "APPLES",
-  "count": 5104,
+  "count": 5105,
   "apples": [
     {
       "id": 10525,
@@ -40834,6 +40834,14 @@
       "source_repo": "CLI",
       "date": "20260824",
       "archived_at": "2026-08-24T23:29:10Z"
+    },
+    {
+      "id": 15639,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time, SARENA_NOTEBOOK render targets sequencing: HTML first, 'SDL native second…",
+      "source_repo": "CLI",
+      "date": "20260824",
+      "archived_at": "2026-08-24T23:29:13Z"
     }
   ]
 }
