@@ -1,13 +1,54 @@
 {
   "agent_id": "00000003-0000-4000-8000-000000000001",
   "apple_type": "audit",
-  "archived_at": "2026-08-24T02:39:53Z",
+  "archived_at": "2026-08-24T02:55:37Z",
   "body": "\n## Cycle summary\n- Cycle: 11862\n- Duration: 0s\n- Outcome: idle — no queued tasks\n- Total completed tasks: 2\n- Triage findings this cycle: 0\n\n⚓ ☃",
   "id": 15535,
   "metadata": {
     "consecutive_failures": 0,
     "cycle_number": 11862,
     "duration_s": 0,
+    "gpt2_fingerprint": {
+      "codze": {
+        "az": {
+          "bin": "10001100110101010010011010110001001101110011001000111110001111011110011010000110001010100011100010",
+          "dec": "174342341174174342341174274274"
+        },
+        "word": "BPMTESTERBPMBPMTESTERBPMCPMCPM",
+        "za": {
+          "bin": "10100101110011110000010101110101110011001111000101010110011111010011111100100011111111100011101",
+          "dec": "25657650025025657650025725725"
+        }
+      },
+      "generated": " 679.53 1.27, 11.42 bpm 0.39 0.00, 0.00 tester 1.00 0.37, 1.54 bpm 0.00 1.12, 1.21 bpm 0.00 1.58, 1.58 tester 0.43 0.43, 0.90 bpm 0.00 0.87, 0.20 cpm 0.00 0.99, 0.04 cpm 0.00",
+      "magic_tower": [
+        "10 17 25 02 24 03 ",
+        "16 11 11 16 26 01 ",
+        "16 11 11 16 05 22 ",
+        "10 17 25 02 24 03 ",
+        "10 17 25 02 24 03 ",
+        "16 11 11 16 26 01 ",
+        "16 11 11 16 05 22 ",
+        "10 17 25 02 24 03 ",
+        "00 27 25 02 24 03 ",
+        "00 27 25 02 24 03 "
+      ],
+      "seed": "2026082411",
+      "squished": "BPMTESTERBPMBPMTESTERBPMCPMCPM",
+      "tower": [
+        "BPM",
+        "TES",
+        "TER",
+        "BPM",
+        "BPM",
+        "TES",
+        "TER",
+        "BPM",
+        "CPM",
+        "CPM"
+      ]
+    },
+    "model_fingerprint": "emily-ft (checkpoint-emily-ft)",
     "task_id": "",
     "tokens_used": 0,
     "triage_findings": 0
