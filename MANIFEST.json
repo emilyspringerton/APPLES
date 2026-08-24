@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-24T23:48:58Z",
+  "generated_at": "2026-08-24T23:49:18Z",
   "repo": "APPLES",
-  "count": 5147,
+  "count": 5148,
   "apples": [
     {
       "id": 10525,
@@ -41178,6 +41178,14 @@
       "source_repo": "CLI",
       "date": "20260824",
       "archived_at": "2026-08-24T23:48:58Z"
+    },
+    {
+      "id": 15682,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time, clarifying unagent-lint use case: 'we also want to translate it with unag…",
+      "source_repo": "CLI",
+      "date": "20260824",
+      "archived_at": "2026-08-24T23:49:18Z"
     }
   ]
 }
