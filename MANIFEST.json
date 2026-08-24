@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-24T22:54:33Z",
+  "generated_at": "2026-08-24T22:54:45Z",
   "repo": "APPLES",
-  "count": 5084,
+  "count": 5085,
   "apples": [
     {
       "id": 10525,
@@ -40674,6 +40674,14 @@
       "source_repo": "CLI",
       "date": "20260824",
       "archived_at": "2026-08-24T22:54:33Z"
+    },
+    {
+      "id": 15619,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: wants turbo-sed/turbo-grep/turbo-awk to be actual tool names (likely PARE…",
+      "source_repo": "CLI",
+      "date": "20260824",
+      "archived_at": "2026-08-24T22:54:45Z"
     }
   ]
 }
