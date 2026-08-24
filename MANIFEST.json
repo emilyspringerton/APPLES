@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-24T23:40:24Z",
+  "generated_at": "2026-08-24T23:40:31Z",
   "repo": "APPLES",
-  "count": 5135,
+  "count": 5136,
   "apples": [
     {
       "id": 10525,
@@ -41082,6 +41082,14 @@
       "source_repo": "CLI",
       "date": "20260824",
       "archived_at": "2026-08-24T23:40:24Z"
+    },
+    {
+      "id": 15670,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time, full plan: 'do some tests against the corpus of our full mono repo... sys…",
+      "source_repo": "CLI",
+      "date": "20260824",
+      "archived_at": "2026-08-24T23:40:31Z"
     }
   ]
 }
