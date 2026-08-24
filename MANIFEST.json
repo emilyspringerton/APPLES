@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-24T23:34:44Z",
+  "generated_at": "2026-08-24T23:34:50Z",
   "repo": "APPLES",
-  "count": 5126,
+  "count": 5127,
   "apples": [
     {
       "id": 10525,
@@ -41010,6 +41010,14 @@
       "source_repo": "CLI",
       "date": "20260824",
       "archived_at": "2026-08-24T23:34:44Z"
+    },
+    {
+      "id": 15661,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: 'all the templating languages into the stdlibs' -- concrete ask: stdlib/t…",
+      "source_repo": "CLI",
+      "date": "20260824",
+      "archived_at": "2026-08-24T23:34:50Z"
     }
   ]
 }
