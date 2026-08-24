@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-24T23:34:27Z",
+  "generated_at": "2026-08-24T23:34:29Z",
   "repo": "APPLES",
-  "count": 5122,
+  "count": 5123,
   "apples": [
     {
       "id": 10525,
@@ -40978,6 +40978,14 @@
       "source_repo": "CLI",
       "date": "20260824",
       "archived_at": "2026-08-24T23:34:27Z"
+    },
+    {
+      "id": 15657,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: 'handlebars' -- naming Handlebars.js as a specific template-engine refere…",
+      "source_repo": "CLI",
+      "date": "20260824",
+      "archived_at": "2026-08-24T23:34:29Z"
     }
   ]
 }
