@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-24T23:45:13Z",
+  "generated_at": "2026-08-24T23:45:19Z",
   "repo": "APPLES",
-  "count": 5140,
+  "count": 5141,
   "apples": [
     {
       "id": 10525,
@@ -41122,6 +41122,14 @@
       "source_repo": "CLI",
       "date": "20260824",
       "archived_at": "2026-08-24T23:45:13Z"
+    },
+    {
+      "id": 15675,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: 'like we can turn rng off at compile time if you think about it' -- exten…",
+      "source_repo": "CLI",
+      "date": "20260824",
+      "archived_at": "2026-08-24T23:45:19Z"
     }
   ]
 }
