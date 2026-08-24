@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-24T22:55:07Z",
+  "generated_at": "2026-08-24T22:55:52Z",
   "repo": "APPLES",
-  "count": 5086,
+  "count": 5087,
   "apples": [
     {
       "id": 10525,
@@ -40690,6 +40690,14 @@
       "source_repo": "CLI",
       "date": "20260824",
       "archived_at": "2026-08-24T22:55:07Z"
+    },
+    {
+      "id": 15621,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: floated killing the emily-agent RSI cron (says it needs more engineering)…",
+      "source_repo": "CLI",
+      "date": "20260824",
+      "archived_at": "2026-08-24T22:55:52Z"
     }
   ]
 }
