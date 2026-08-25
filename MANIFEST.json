@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T19:08:14Z",
+  "generated_at": "2026-08-25T19:08:17Z",
   "repo": "APPLES",
-  "count": 5390,
+  "count": 5391,
   "apples": [
     {
       "id": 10525,
@@ -43122,6 +43122,14 @@
       "source_repo": "IDUNA",
       "date": "20260825",
       "archived_at": "2026-08-25T19:08:14Z"
+    },
+    {
+      "id": 15925,
+      "type": "completion",
+      "title": "changelog(IDUNA): New developer notebook portal: GET /portal/login (Google SS…",
+      "source_repo": "IDUNA",
+      "date": "20260825",
+      "archived_at": "2026-08-25T19:08:17Z"
     }
   ]
 }
