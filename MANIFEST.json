@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T22:56:26Z",
+  "generated_at": "2026-08-25T22:57:09Z",
   "repo": "APPLES",
-  "count": 5491,
+  "count": 5492,
   "apples": [
     {
       "id": 10525,
@@ -43930,6 +43930,14 @@
       "source_repo": "emily",
       "date": "20260825",
       "archived_at": "2026-08-25T22:56:26Z"
+    },
+    {
+      "id": 16026,
+      "type": "completion",
+      "title": "changelog(PARENA): turboawk dogfooding finished: expr.prn's parse-expr/EvalErr…",
+      "source_repo": "PARENA",
+      "date": "20260825",
+      "archived_at": "2026-08-25T22:57:09Z"
     }
   ]
 }
