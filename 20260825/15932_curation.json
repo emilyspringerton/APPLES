@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "curation",
+  "archived_at": "2026-08-25T19:18:36Z",
+  "body": "Curated 1 FatBaby observations into EMILY/BACKLOG.md INTAKE QUEUE.\n\nItems:\n- Founder real-time: 'give me a new agent admin login for okemily this time i need it put into a file in the treeiii home directory as a file and do not print it to the terminal as you create it' -- created new IDUNA admin agent BOOTS3 (iduna.admin) via cmd/create-admin-agent, stdout redirected straight to /home/treeiii/iduna-admin-boots3-credentials.txt (chmod 600), never surfaced in the tool-call transcript. Immediately followed by: 'put a link to the login in okemily footer' -- added /portal/login (the notebook portal login, no footer link existed yet -- /admin/login already had one) to OKEMILY's footer, plus a matching nginx /portal same-origin proxy block (both server stanzas), queued as sudo-queue/27-okemily-portal-nginx-proxy.sh (not yet applied live). (2026-08-25T19:18:34Z)\n\n⚓ ☃",
+  "id": 15932,
+  "metadata": null,
+  "run_id": "backlog-curate-1787685516",
+  "source_repo": "emily.cli",
+  "title": "backlog curate: 1 obs -\u003e INTAKE QUEUE"
+}
