@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-25T22:41:02Z",
+  "body": "Founder real-time, live and urgent: 'im playing redgarden on latest and the tree is not generating health from auto attacking the other trees ensure the server knows about that and its all wired up to work', followed by 'fully explain the hero passive in the redgarden readme'. Root cause: arena_tick_daynight/arena_tick_obstacles/arena_hero_tree_passive were wired into arena_update_teams (team-mode tick) but never into arena_update (the 1v1 tick apps/arena_server/src/main.c uses for lobby_size==2, i.e. the founder's own 1v1 matchmaker on :7779) -- Tree's passive silently never fired outside team-mode matches. Verified broken via a standalone repro before the fix, confirmed fixed after (obstacle hp -10, hero hp +4 per strike through the real arena_update() tick). New regression test exercises the real top-level tick function, not just the passive in isolation. All 4 build paths reverified (build.sh, build_arena.sh, test_arena.sh, real mingw cross-compile), full suite green. Added a new 'Hero passives' README section fully documenting Tree's passive (mechanic, all 5 real numbers, server-authoritative + PARENA-mod-driven split, and this bug as real history). REDGARDEN 0d6aa6d (fix) + e5fc500 (docs).\n\n⚓ ☃",
+  "id": 16023,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "REDGARDEN",
+  "title": "Fixed live bug: Tree passive missing from 1v1 tick + fully documented in README"
+}

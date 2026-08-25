@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T22:40:44Z",
+  "generated_at": "2026-08-25T22:41:03Z",
   "repo": "APPLES",
-  "count": 5488,
+  "count": 5489,
   "apples": [
     {
       "id": 10525,
@@ -43906,6 +43906,14 @@
       "source_repo": "emily",
       "date": "20260825",
       "archived_at": "2026-08-25T22:40:44Z"
+    },
+    {
+      "id": 16023,
+      "type": "completion",
+      "title": "Fixed live bug: Tree passive missing from 1v1 tick + fully documented in README",
+      "source_repo": "REDGARDEN",
+      "date": "20260825",
+      "archived_at": "2026-08-25T22:41:03Z"
     }
   ]
 }
