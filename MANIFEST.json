@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T21:06:42Z",
+  "generated_at": "2026-08-25T21:08:28Z",
   "repo": "APPLES",
-  "count": 5449,
+  "count": 5450,
   "apples": [
     {
       "id": 10525,
@@ -43594,6 +43594,14 @@
       "source_repo": "CLI",
       "date": "20260825",
       "archived_at": "2026-08-25T21:06:42Z"
+    },
+    {
+      "id": 15984,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: update SHANKPIT (or SHANKPIT-460, unclear which) to add Capture The Flag …",
+      "source_repo": "CLI",
+      "date": "20260825",
+      "archived_at": "2026-08-25T21:08:28Z"
     }
   ]
 }
