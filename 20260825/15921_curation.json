@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "curation",
+  "archived_at": "2026-08-25T19:02:41Z",
+  "body": "Curated 1 FatBaby observations into EMILY/BACKLOG.md INTAKE QUEUE.\n\nItems:\n- Founder real-time, SARENA_NOTEBOOK/Jupyter access decision thread (after the 'build a PARENA kernel for JUPYTER first' pivot): need a real login form for Jupyter -- 'it can be public at first but not for very long', considered okemily.com/py, settled on gating it behind a real IDUNA SSO page ('login with IDUNA' / 'i know its scope creep but we neeed that pattern') using a user-facing Sign-in-with-Google button (IDUNA has none yet anywhere -- put it on the new notebook portal page, not the backoffice). Final shape: a new portal page listing links to Jupyter and (eventually) SARENA, gated by IDUNA login, styled like the Linode Cloud Manager's Linodes list view. Explicit hard constraint, repeated: must not ship nakedly public for any meaningful length of time -- 'if you dont [figure out] the security on the python notbook wont work figure it out'. (2026-08-25T19:02:37Z)\n\n⚓ ☃",
+  "id": 15921,
+  "metadata": null,
+  "run_id": "backlog-curate-1787684561",
+  "source_repo": "emily.cli",
+  "title": "backlog curate: 1 obs -\u003e INTAKE QUEUE"
+}
