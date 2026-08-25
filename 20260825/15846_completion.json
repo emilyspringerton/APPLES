@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-25T13:41:50Z",
+  "body": "CHANGELOG updated in PARENA: Real json.prn and yaml.prn stdlib parsers, both live-verified against real inputs (json: 24 checks; yaml: 28 checks including a real bukkit.yml-shaped test); found and fixed 2 real compiler bugs (same-named #target self-recursion, and-argument loop misparse) along the way. (sess-20260825-0828-cc32a704)\n\n⚓ ☃",
+  "id": 15846,
+  "metadata": null,
+  "run_id": "sess-20260825-0828-cc32a704",
+  "source_repo": "PARENA",
+  "title": "changelog(PARENA): Real json.prn and yaml.prn stdlib parsers, both live-verifi…"
+}

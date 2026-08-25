@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T13:34:05Z",
+  "generated_at": "2026-08-25T13:41:50Z",
   "repo": "APPLES",
-  "count": 5311,
+  "count": 5312,
   "apples": [
     {
       "id": 10525,
@@ -42490,6 +42490,14 @@
       "source_repo": "REDGARDEN",
       "date": "20260825",
       "archived_at": "2026-08-25T13:34:05Z"
+    },
+    {
+      "id": 15846,
+      "type": "completion",
+      "title": "changelog(PARENA): Real json.prn and yaml.prn stdlib parsers, both live-verifi…",
+      "source_repo": "PARENA",
+      "date": "20260825",
+      "archived_at": "2026-08-25T13:41:50Z"
     }
   ]
 }
