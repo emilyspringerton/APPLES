@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T00:09:56Z",
+  "generated_at": "2026-08-25T00:10:12Z",
   "repo": "APPLES",
-  "count": 5158,
+  "count": 5159,
   "apples": [
     {
       "id": 10525,
@@ -41266,6 +41266,14 @@
       "source_repo": "CLI",
       "date": "20260825",
       "archived_at": "2026-08-25T00:09:56Z"
+    },
+    {
+      "id": 15693,
+      "type": "completion",
+      "title": "turbogrep verification report -- 7/7 patterns byte-identical vs real GNU grep on 949-file corpus",
+      "source_repo": "PARENA",
+      "date": "20260825",
+      "archived_at": "2026-08-25T00:10:12Z"
     }
   ]
 }

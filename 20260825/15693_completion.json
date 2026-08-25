@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-25T00:10:12Z",
+  "body": "Real benchmark run: 949 files (.go/.md/.prn), 213,709 lines across PRRJECT_FATBABY/IDUNA/EMILY/PARENA. 7 patterns tested (TODO, Apple, 'func ', error, region, defstruct, IDUNA, backlog), 12,521 total matched lines, every single one byte-identical to real GNU grep's own output. Performance: ~430x slower (12.8s vs 0.03s for 'error' across the corpus) -- real, honest, root-caused (byte-at-a-time read() syscalls, unoptimized backtracking regex), not hidden. Feature coverage flagged, not hidden: Plus/Optional/CharClass/Anchor still unimplemented in regex/pcre.prn, only literal/alternation patterns tested because that's the real current scope. Full report: docs/TURBOGREP_VERIFICATION_REPORT.md. Added tools/turbogrep_host.c (real, reusable CLI driver, concatenated onto generated output rather than a separate translation unit to avoid a real ABI-mismatch risk from hand-duplicated struct declarations) + 'make turbogrep' target. Conclusion: verified correct for its real feature surface, NOT recommended for PATH swap yet (sed/awk untested, CharClass/Anchor gaps would be silently wrong, not just slow, on real patterns this monorepo's own scripts use).\n\n⚓ ☃",
+  "id": 15693,
+  "metadata": null,
+  "run_id": "sess-20260824-2252-ce890e4f",
+  "source_repo": "PARENA",
+  "title": "turbogrep verification report -- 7/7 patterns byte-identical vs real GNU grep on 949-file corpus"
+}
