@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-25T01:36:34Z",
+  "body": "Founder: 'update the parena readme with the good bits that are actually true.' Verified and added: the real parena ci-status subcommand (exit codes 0/1/2/3 confirmed against stdlib/ci/status.prn directly), its honest narrow FFI-to-curl scope, and the real two-stage bootstrap build (Makefile). Deliberately excluded an external AI's broader unverified 'replacing Python' framing -- no such initiative exists in this repo. Commit e940d58.\n\n⚓ ☃",
+  "id": 15737,
+  "metadata": null,
+  "run_id": "sess-20260824-2252-ce890e4f",
+  "source_repo": "PARENA",
+  "title": "README documents the real ci-status/bootstrap dogfooding story"
+}

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T01:33:52Z",
+  "generated_at": "2026-08-25T01:36:34Z",
   "repo": "APPLES",
-  "count": 5202,
+  "count": 5203,
   "apples": [
     {
       "id": 10525,
@@ -41618,6 +41618,14 @@
       "source_repo": "EMILY",
       "date": "20260825",
       "archived_at": "2026-08-25T01:33:52Z"
+    },
+    {
+      "id": 15737,
+      "type": "completion",
+      "title": "README documents the real ci-status/bootstrap dogfooding story",
+      "source_repo": "PARENA",
+      "date": "20260825",
+      "archived_at": "2026-08-25T01:36:34Z"
     }
   ]
 }
