@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T00:11:33Z",
+  "generated_at": "2026-08-25T00:13:50Z",
   "repo": "APPLES",
-  "count": 5161,
+  "count": 5162,
   "apples": [
     {
       "id": 10525,
@@ -41290,6 +41290,14 @@
       "source_repo": "CLI",
       "date": "20260825",
       "archived_at": "2026-08-25T00:11:33Z"
+    },
+    {
+      "id": 15696,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: 'is turbogrep actually faster?' -- answered directly: NO, ~430x SLOWER (~…",
+      "source_repo": "CLI",
+      "date": "20260825",
+      "archived_at": "2026-08-25T00:13:50Z"
     }
   ]
 }
