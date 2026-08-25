@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-25T21:39:05Z",
+  "body": "Founder real-time: 'ensure all our core repos have auto release non pre release.' New release job in build.yml, gated on push to main, correctly gated on needs:[build] -- honest caveat: won't actually fire until 'Build staging APK' succeeds, which it never has in either real CI run to date (2026-06-17/2026-07-23), most likely because the GOOGLE_SERVICES_JSON repo secret was never set (human-only, same class as IDUNA's GOOGLE_CLIENT_ID gap found this session). Wired up and ready the moment that's fixed, not fixed here. MJOLNIR 7b1305f.\n\n⚓ ☃",
+  "id": 16005,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "MJOLNIR",
+  "title": "Auto-release CI wired up, matching PITVIPER's pattern (blocked on a pre-existing build gap)"
+}

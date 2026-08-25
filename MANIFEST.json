@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T21:39:02Z",
+  "generated_at": "2026-08-25T21:39:05Z",
   "repo": "APPLES",
-  "count": 5466,
+  "count": 5467,
   "apples": [
     {
       "id": 10525,
@@ -43730,6 +43730,14 @@
       "source_repo": "emily.cli",
       "date": "20260825",
       "archived_at": "2026-08-25T21:39:02Z"
+    },
+    {
+      "id": 16001,
+      "type": "completion",
+      "title": "Auto-release CI, matching PITVIPER's pattern",
+      "source_repo": "WEAKNIGHT_BEDROCK_RACERS",
+      "date": "20260825",
+      "archived_at": "2026-08-25T21:39:05Z"
     }
   ]
 }

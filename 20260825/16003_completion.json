@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-25T21:39:05Z",
+  "body": "Founder real-time: 'ensure all our core repos have auto release non pre release.' New release job in ci.yml, gated on push to main, attaches the built plugin jar, auto-bumps MINOR version only, real (non-prerelease) GitHub release -- real versioned-rollback value even though this plugin is deployed by manual cp into EINHORN_SURVIVAL/server/plugins/, not downloaded by end users. GTA7 7a01b53.\n\n⚓ ☃",
+  "id": 16003,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "GTA7",
+  "title": "Auto-release CI, matching PITVIPER's pattern"
+}
