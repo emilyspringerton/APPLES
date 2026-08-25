@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T18:21:31Z",
+  "generated_at": "2026-08-25T18:21:33Z",
   "repo": "APPLES",
-  "count": 5373,
+  "count": 5374,
   "apples": [
     {
       "id": 10525,
@@ -42986,6 +42986,14 @@
       "source_repo": "IDUNA",
       "date": "20260825",
       "archived_at": "2026-08-25T18:21:31Z"
+    },
+    {
+      "id": 15908,
+      "type": "completion",
+      "title": "changelog(IDUNA): SECURITY FIX: suspended agent's live Back Office session is…",
+      "source_repo": "IDUNA",
+      "date": "20260825",
+      "archived_at": "2026-08-25T18:21:33Z"
     }
   ]
 }
