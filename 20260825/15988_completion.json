@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-25T21:13:46Z",
+  "body": "Founder real-time: 'ensure care pyre change stack update landed' -\u003e 'there should be a new change stack specific update.' change.html (commit 333f2f8, six-pillar C.H.A.N.G.E. framework) was committed to git hours ago but /var/www/carepyre/ still only had the Aug 10 index.html -- never deployed. Also deployed the current index.html (also newer than what was live). No deploy script existed for this repo (unlike OKEMILY's own ~/okemily-deploy.sh) -- deployed manually via rsync to the fatbaby-owned webroot (no sudo needed), verified both pages live (200 on carepyre.org/change.html and /index.html).\n\n⚓ ☃",
+  "id": 15988,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "CarePyre",
+  "title": "Deployed the C.H.A.N.G.E. Initiative page (change.html) -- was committed but never went live"
+}
