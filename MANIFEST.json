@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T19:42:40Z",
+  "generated_at": "2026-08-25T19:47:35Z",
   "repo": "APPLES",
-  "count": 5406,
+  "count": 5407,
   "apples": [
     {
       "id": 10525,
@@ -43250,6 +43250,14 @@
       "source_repo": "CLI",
       "date": "20260825",
       "archived_at": "2026-08-25T19:42:40Z"
+    },
+    {
+      "id": 15941,
+      "type": "completion",
+      "title": "changelog(EMILY): reboot-recovery session: confirmed S176-34's Google OAuth c…",
+      "source_repo": "EMILY",
+      "date": "20260825",
+      "archived_at": "2026-08-25T19:47:35Z"
     }
   ]
 }
