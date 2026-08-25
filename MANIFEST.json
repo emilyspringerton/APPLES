@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T10:00:52Z",
+  "generated_at": "2026-08-25T10:02:31Z",
   "repo": "APPLES",
-  "count": 5292,
+  "count": 5293,
   "apples": [
     {
       "id": 10525,
@@ -42338,6 +42338,14 @@
       "source_repo": "CLI",
       "date": "20260825",
       "archived_at": "2026-08-25T10:00:52Z"
+    },
+    {
+      "id": 15827,
+      "type": "completion",
+      "title": "SDL2 bundling for bin-installable Linux distribution — CI-verified",
+      "source_repo": "PITVIPER",
+      "date": "20260825",
+      "archived_at": "2026-08-25T10:02:31Z"
     }
   ]
 }

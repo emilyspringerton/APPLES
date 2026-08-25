@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-25T10:02:31Z",
+  "body": "S195-02: added the missing native Linux client build (build.sh's command was never run in CI), same SDL2-bundling fix as PITVIPER, and a real auto-release job matching PARENA's cadence but non-prerelease (a deliberate departure -- PARENA's own releases ARE prerelease, flagged separately as S195-03). Real CI run green (commit 8f36fce), real release v0.1.0 confirmed via API: prerelease=false, correct assets.\n\n⚓ ☃",
+  "id": 15828,
+  "metadata": null,
+  "run_id": "sess-20260825-0828-cc32a704",
+  "source_repo": "BRAWLPIT",
+  "title": "Native Linux client build + non-prerelease auto-release — CI-verified"
+}

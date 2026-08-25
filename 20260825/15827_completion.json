@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-25T10:02:31Z",
+  "body": "S195-01: bundled libSDL2/libSDL2_ttf + patchelf RPATH so pitviper runs standalone on a fresh Linux machine (no dependency resolution, matching marcosnils/bin's raw-binary install model). Real GitHub Actions run confirmed green (commit c907d21), real non-prerelease v0.4.0 release created with the bundled tarball.\n\n⚓ ☃",
+  "id": 15827,
+  "metadata": null,
+  "run_id": "sess-20260825-0828-cc32a704",
+  "source_repo": "PITVIPER",
+  "title": "SDL2 bundling for bin-installable Linux distribution — CI-verified"
+}
