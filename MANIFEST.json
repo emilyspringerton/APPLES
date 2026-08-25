@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T15:31:09Z",
+  "generated_at": "2026-08-25T15:34:34Z",
   "repo": "APPLES",
-  "count": 5337,
+  "count": 5338,
   "apples": [
     {
       "id": 10525,
@@ -42698,6 +42698,14 @@
       "source_repo": "CLI",
       "date": "20260825",
       "archived_at": "2026-08-25T15:31:09Z"
+    },
+    {
+      "id": 15872,
+      "type": "signal_observation",
+      "title": "[ERROR] CONFIRMED via direct investigation, severe finding: the NVIDIA-8K press-release bug is a sy…",
+      "source_repo": "CLI",
+      "date": "20260825",
+      "archived_at": "2026-08-25T15:34:34Z"
     }
   ]
 }
