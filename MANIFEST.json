@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T23:05:10Z",
+  "generated_at": "2026-08-25T23:05:35Z",
   "repo": "APPLES",
-  "count": 5495,
+  "count": 5496,
   "apples": [
     {
       "id": 10525,
@@ -43962,6 +43962,14 @@
       "source_repo": "emily.cli",
       "date": "20260825",
       "archived_at": "2026-08-25T23:05:10Z"
+    },
+    {
+      "id": 16030,
+      "type": "completion",
+      "title": "changelog(EMILY): GoldenDocCompiler rewritten pure-CLI (no LLM, no ANTHROPIC_…",
+      "source_repo": "EMILY",
+      "date": "20260825",
+      "archived_at": "2026-08-25T23:05:35Z"
     }
   ]
 }

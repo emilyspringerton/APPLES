@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-25T23:05:35Z",
+  "body": "CHANGELOG updated in EMILY: GoldenDocCompiler rewritten pure-CLI (no LLM, no ANTHROPIC_API_KEY): deterministic header+lead-line extractive summary replaces claude-haiku compression, closing the HITL-11 stale-cache side-finding structurally (no more real-vs-degraded distinction to lose track of). emily context build's one-shot path live-verified: 47/47 sources compile with the key unset. Daemon-side restart queued (sudo-queue/28, needs fatbaby -- treeiii can't signal fatbaby's PID). Commits EMILY 1822e22, emily.cli 79bc797+b60ca6e. (sess-20260825-1938-f6bd411e)\n\n⚓ ☃",
+  "id": 16030,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "EMILY",
+  "title": "changelog(EMILY): GoldenDocCompiler rewritten pure-CLI (no LLM, no ANTHROPIC_…"
+}
