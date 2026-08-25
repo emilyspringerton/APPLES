@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T19:48:16Z",
+  "generated_at": "2026-08-25T19:49:55Z",
   "repo": "APPLES",
-  "count": 5408,
+  "count": 5409,
   "apples": [
     {
       "id": 10525,
@@ -43266,6 +43266,14 @@
       "source_repo": "CLI",
       "date": "20260825",
       "archived_at": "2026-08-25T19:48:16Z"
+    },
+    {
+      "id": 15943,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: DragonsNShit (GFD) web player still shows a black screen -- emscripten bu…",
+      "source_repo": "CLI",
+      "date": "20260825",
+      "archived_at": "2026-08-25T19:49:55Z"
     }
   ]
 }
