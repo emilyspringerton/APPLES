@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T15:40:18Z",
+  "generated_at": "2026-08-25T15:41:59Z",
   "repo": "APPLES",
-  "count": 5342,
+  "count": 5343,
   "apples": [
     {
       "id": 10525,
@@ -42738,6 +42738,14 @@
       "source_repo": "CLI",
       "date": "20260825",
       "archived_at": "2026-08-25T15:40:18Z"
+    },
+    {
+      "id": 15877,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time, building out the golden-repo-status tool spec: 'we already have a tool fo…",
+      "source_repo": "CLI",
+      "date": "20260825",
+      "archived_at": "2026-08-25T15:41:59Z"
     }
   ]
 }
