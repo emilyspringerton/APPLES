@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T21:36:11Z",
+  "generated_at": "2026-08-25T21:36:45Z",
   "repo": "APPLES",
-  "count": 5458,
+  "count": 5459,
   "apples": [
     {
       "id": 10525,
@@ -43666,6 +43666,14 @@
       "source_repo": "CLI",
       "date": "20260825",
       "archived_at": "2026-08-25T21:36:11Z"
+    },
+    {
+      "id": 15993,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: GTA7 -- add real wired networking via redstone ('redvine'?), deliberately…",
+      "source_repo": "CLI",
+      "date": "20260825",
+      "archived_at": "2026-08-25T21:36:45Z"
     }
   ]
 }
