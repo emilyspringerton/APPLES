@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T08:42:41Z",
+  "generated_at": "2026-08-25T08:50:29Z",
   "repo": "APPLES",
-  "count": 5246,
+  "count": 5247,
   "apples": [
     {
       "id": 10525,
@@ -41970,6 +41970,14 @@
       "source_repo": "IDUNA",
       "date": "20260825",
       "archived_at": "2026-08-25T08:42:41Z"
+    },
+    {
+      "id": 15781,
+      "type": "signal_observation",
+      "title": "[WARN] Founder real-time pivot: 'can we get pitviper to work with tmux pane scrolling? doesnt work …",
+      "source_repo": "CLI",
+      "date": "20260825",
+      "archived_at": "2026-08-25T08:50:29Z"
     }
   ]
 }
