@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T21:39:09Z",
+  "generated_at": "2026-08-25T21:39:11Z",
   "repo": "APPLES",
-  "count": 5469,
+  "count": 5470,
   "apples": [
     {
       "id": 10525,
@@ -43754,6 +43754,14 @@
       "source_repo": "GTA7",
       "date": "20260825",
       "archived_at": "2026-08-25T21:39:09Z"
+    },
+    {
+      "id": 16004,
+      "type": "completion",
+      "title": "changelog(GTA7): added auto-release CI job (PITVIPER pattern): real, non-pre…",
+      "source_repo": "GTA7",
+      "date": "20260825",
+      "archived_at": "2026-08-25T21:39:11Z"
     }
   ]
 }
