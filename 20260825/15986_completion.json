@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-25T21:12:17Z",
+  "body": "Founder real-time: 'can you update shankpit so CTF with bots' -\u003e 'that mode should pick voxworld or the oil tanker not just the oil tanker figure it out.' local_init_match's MODE_CTFB branch hardcoded SCENE_OIL_TANKER unconditionally; TDM-with-bots (MODE_TDMB) right above it already randomizes maps via scene_random_tdmb_map(). New scene_random_ctfb_map() scoped to exactly Voxworld+Oil Tanker (not the full 5-map TDMB rotation) -- confirmed via get_ctf_flag_home/get_ctf_pedestal_anchor that only these two scenes have real CTF flag/pedestal placement, every other map falls back to a generic non-CTF marker. apps/server/src/main.c compiles clean. SHANKPIT 1bdd26f.\n\n⚓ ☃",
+  "id": 15986,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "SHANKPIT",
+  "title": "CTF-with-bots now randomly picks Voxworld or Oil Tanker, not just Oil Tanker"
+}

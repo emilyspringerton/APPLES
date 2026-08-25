@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T21:10:29Z",
+  "generated_at": "2026-08-25T21:12:17Z",
   "repo": "APPLES",
-  "count": 5451,
+  "count": 5452,
   "apples": [
     {
       "id": 10525,
@@ -43610,6 +43610,14 @@
       "source_repo": "emily",
       "date": "20260825",
       "archived_at": "2026-08-25T21:10:29Z"
+    },
+    {
+      "id": 15986,
+      "type": "completion",
+      "title": "CTF-with-bots now randomly picks Voxworld or Oil Tanker, not just Oil Tanker",
+      "source_repo": "SHANKPIT",
+      "date": "20260825",
+      "archived_at": "2026-08-25T21:12:17Z"
     }
   ]
 }
