@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-25T21:04:22Z",
+  "body": "CHANGELOG updated in shankpit-460: fixed CI: Windows client build was missing packages/audio/{audio,audio_synth}.c link since 2026-08-16 (S169-09 spatial audio), every download since was stale (sess-20260825-1938-f6bd411e)\n\n⚓ ☃",
+  "id": 15981,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "shankpit-460",
+  "title": "changelog(shankpit-460): fixed CI: Windows client build was missing packages/audio/{…"
+}

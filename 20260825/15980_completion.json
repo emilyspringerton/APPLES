@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-25T21:04:21Z",
+  "body": "Founder real-time, live: 'lets get shankpit 460 bot matches working stil not working im stuck in osaka garage check everything.' Root cause: CI's Windows client cross-compile (tests.yml + release.yml) never got packages/audio/{audio,audio_synth}.c added when S169-09 (spatial audio backport, 4ba4e94, 2026-08-16) landed -- undefined reference to audio_init/audio_play_weapon/audio_shutdown, every CI run since has failed. The local Makefile already had the correct source list; only the two CI workflow files' own separate mingw invocations were missed. No successful downloadable Windows client has existed since 2026-08-16 -- every download has been 9+ days stale, missing the real 2026-08-04 Osaka-garage movement-deadlock retry fix (apps/lobby/src/main.c's own priming-packet-retry logic) among others. Reproduced locally via a real mingw cross-compile against CI's exact SDL2-devel-2.30.10-mingw package, verified fix builds clean. shankpit-460 509b4d8.\n\n⚓ ☃",
+  "id": 15980,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "shankpit-460",
+  "title": "CI fix -- Windows client build broken since 2026-08-16, missing audio.c/audio_synth.c link"
+}
