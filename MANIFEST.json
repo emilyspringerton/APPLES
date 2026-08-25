@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T08:36:37Z",
+  "generated_at": "2026-08-25T08:38:01Z",
   "repo": "APPLES",
-  "count": 5239,
+  "count": 5240,
   "apples": [
     {
       "id": 10525,
@@ -41914,6 +41914,14 @@
       "source_repo": "CLI",
       "date": "20260825",
       "archived_at": "2026-08-25T08:36:37Z"
+    },
+    {
+      "id": 15774,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: confirmed 'secondtree' Linux account (uid 1001, created 2026-08-22 during…",
+      "source_repo": "CLI",
+      "date": "20260825",
+      "archived_at": "2026-08-25T08:38:01Z"
     }
   ]
 }
