@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "curation",
+  "archived_at": "2026-08-25T08:35:40Z",
+  "body": "Curated 3 FatBaby observations into EMILY/BACKLOG.md INTAKE QUEUE.\n\nItems:\n- Founder real-time, rapid burst during the security scoping session: (1) 'i want you to do intrusion detection on this system' — escalates the infra/network exposure audit into explicit intrusion detection. (2) 'using parena tools' — wants the investigation done with PARENA-native tools. (3) 'build the tools in parena' — build out PARENA's grep/sed/awk CLI tools (regex/nfa.prn engine already lands per S190-01, but grep.prn/sed.prn/awk.prn themselves are confirmed still unbuilt/untouched per that same backlog item). Tension: PARENA's own grep/sed/awk CLIs don't exist yet, so 'using parena tools' for intrusion detection right now is not literally possible — proceeding with standard shell tools for the time-sensitive intrusion-detection pass, treating the PARENA grep/sed/awk CLI build as separate follow-up work continuing S190-01's own already-tracked remaining scope. Will surface this tradeoff directly rather than silently picking one. (2026-08-25T08:35:23Z)\n- Founder real-time: reports unexpected logouts — 'some weird stuff has been happening where i get logged out when i shouldnt be.' Potential IDUNA session/JWT auth bug or a real security concern (forced session invalidation, token lifetime bug, possible credential/session compromise). Surfaced mid-scoping of a broader infra/network exposure audit (founder chose 'check all processes on this box' + infra/network exposure audit as the security check type). Needs investigation as part of or alongside that audit. (2026-08-25T08:34:16Z)\n- Founder real-time: wants assurance the system is secure — scope unspecified (which repo/service, and what kind of security check: code vuln review, infra/network exposure, credential hygiene, dependency audit). Needs clarification before scoping into a real backlog item. (2026-08-25T08:32:41Z)\n\n⚓ ☃",
+  "id": 15771,
+  "metadata": null,
+  "run_id": "backlog-curate-1787646940",
+  "source_repo": "emily.cli",
+  "title": "backlog curate: 3 obs -\u003e INTAKE QUEUE"
+}
