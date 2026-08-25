@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T21:04:23Z",
+  "generated_at": "2026-08-25T21:06:26Z",
   "repo": "APPLES",
-  "count": 5447,
+  "count": 5448,
   "apples": [
     {
       "id": 10525,
@@ -43578,6 +43578,14 @@
       "source_repo": "shankpit-460",
       "date": "20260825",
       "archived_at": "2026-08-25T21:04:23Z"
+    },
+    {
+      "id": 15982,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: ensure all core repos have a separate 'construct'-only build -- a concate…",
+      "source_repo": "CLI",
+      "date": "20260825",
+      "archived_at": "2026-08-25T21:06:26Z"
     }
   ]
 }
