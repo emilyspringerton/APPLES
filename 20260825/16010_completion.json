@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-25T21:39:45Z",
+  "body": "Founder real-time: 'ensure all our core repos have auto release non pre release.' New release job in release.yml, gated on push to master, auto-bumps MINOR version only, real (non-prerelease) GitHub release with the existing 3 build zips. Also found and fixed a real, pre-existing bug while verifying: tests.yml and release.yml shared the literal same concurrency group, so every push raced the two workflows against each other and whichever lost got cancelled outright -- release.yml (the only workflow carrying the release job) had gone a real stretch of today's pushes without ever completing as a result, independent of a separate known-flaky mingw/SDL2 download step. Scoped each file to its own group. SHANKPIT b8d260d.\n\n⚓ ☃",
+  "id": 16010,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "SHANKPIT",
+  "title": "Auto-release CI, matching PITVIPER's pattern -- plus a real pre-existing concurrency bug found and fixed"
+}
