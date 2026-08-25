@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T00:51:21Z",
+  "generated_at": "2026-08-25T00:51:58Z",
   "repo": "APPLES",
-  "count": 5184,
+  "count": 5185,
   "apples": [
     {
       "id": 10525,
@@ -41474,6 +41474,14 @@
       "source_repo": "CLI",
       "date": "20260825",
       "archived_at": "2026-08-25T00:51:21Z"
+    },
+    {
+      "id": 15719,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: 'we also need to be logging the speeds of the grep invocations so we can …",
+      "source_repo": "CLI",
+      "date": "20260825",
+      "archived_at": "2026-08-25T00:51:58Z"
     }
   ]
 }
