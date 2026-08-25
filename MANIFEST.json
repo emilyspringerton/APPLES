@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T00:44:26Z",
+  "generated_at": "2026-08-25T00:44:34Z",
   "repo": "APPLES",
-  "count": 5177,
+  "count": 5178,
   "apples": [
     {
       "id": 10525,
@@ -41418,6 +41418,14 @@
       "source_repo": "CLI",
       "date": "20260825",
       "archived_at": "2026-08-25T00:44:26Z"
+    },
+    {
+      "id": 15712,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: 'so we can study how claude code works so we can make it faster' -- confi…",
+      "source_repo": "CLI",
+      "date": "20260825",
+      "archived_at": "2026-08-25T00:44:34Z"
     }
   ]
 }

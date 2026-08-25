@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-25T00:44:34Z",
+  "body": "Real, confirmed-live gap from the audit closed: turbogrep '[0-9]' file was silently matching zero lines where real grep finds matches. Implemented char-class-matches?/char-in-any-range? + a vec-charrange-at #target helper (same elem-type-hint-gap workaround pattern used throughout this session). Verified against real grep: [0-9], [a-m] (range), and negated [^0-9] all byte-identical. Full 7-pattern regression suite still passes, all 336 compiler tests pass.\n\n⚓ ☃",
+  "id": 15713,
+  "metadata": null,
+  "run_id": "sess-20260824-2252-ce890e4f",
+  "source_repo": "PARENA",
+  "title": "CharClass ([abc]/[a-z]/[^abc]) implemented -- closes the most dangerous audit finding"
+}
