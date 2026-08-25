@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T00:15:37Z",
+  "generated_at": "2026-08-25T00:28:13Z",
   "repo": "APPLES",
-  "count": 5164,
+  "count": 5165,
   "apples": [
     {
       "id": 10525,
@@ -41314,6 +41314,14 @@
       "source_repo": "CLI",
       "date": "20260825",
       "archived_at": "2026-08-25T00:15:37Z"
+    },
+    {
+      "id": 15699,
+      "type": "completion",
+      "title": "buffered read-line -- 3,786x fewer syscalls, turbogrep 18x faster (12.6s -\u003e 0.69s)",
+      "source_repo": "PARENA",
+      "date": "20260825",
+      "archived_at": "2026-08-25T00:28:13Z"
     }
   ]
 }

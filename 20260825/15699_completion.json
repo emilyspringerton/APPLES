@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-25T00:28:13Z",
+  "body": "Root-caused the 430-660x slowdown with strace, not guesswork: 2,699,542 real read() syscalls on just 50 files, 98.87% of runtime, one syscall per BYTE in read-line. Fixed with a real per-fd buffered-read layer in runtime/parena_runtime.h (IoBufState, 4096-byte refills instead of 1-byte reads) -- transparent to io.prn's own public API, no .prn-level signature changes. raw-close now releases the buffer via a real raw_close_impl, closing a real correctness hazard (OS fd reuse inheriting a stale buffer). Re-measured: read() syscalls on the same 50-file test dropped to 713 (3,786x fewer). Full-corpus wall time: 12.6s -\u003e 0.69s (~18x faster). turbogrep is now ~23x slower than system grep, not ~430-660x. All 7 correctness patterns re-verified byte-identical against real grep after the fix. All 336 compiler tests pass.\n\n⚓ ☃",
+  "id": 15699,
+  "metadata": null,
+  "run_id": "sess-20260824-2252-ce890e4f",
+  "source_repo": "PARENA",
+  "title": "buffered read-line -- 3,786x fewer syscalls, turbogrep 18x faster (12.6s -\u003e 0.69s)"
+}
