@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T09:50:40Z",
+  "generated_at": "2026-08-25T09:53:35Z",
   "repo": "APPLES",
-  "count": 5287,
+  "count": 5288,
   "apples": [
     {
       "id": 10525,
@@ -42298,6 +42298,14 @@
       "source_repo": "CLI",
       "date": "20260825",
       "archived_at": "2026-08-25T09:50:40Z"
+    },
+    {
+      "id": 15822,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time burst on release/distribution: 'there is a popular tool on github to insta…",
+      "source_repo": "CLI",
+      "date": "20260825",
+      "archived_at": "2026-08-25T09:53:35Z"
     }
   ]
 }
