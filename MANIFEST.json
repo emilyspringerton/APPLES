@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T09:39:34Z",
+  "generated_at": "2026-08-25T09:39:53Z",
   "repo": "APPLES",
-  "count": 5272,
+  "count": 5273,
   "apples": [
     {
       "id": 10525,
@@ -42178,6 +42178,14 @@
       "source_repo": "emily",
       "date": "20260825",
       "archived_at": "2026-08-25T09:39:34Z"
+    },
+    {
+      "id": 15807,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: 'build stdlibs into parena for low level networking.' New PARENA stdlib t…",
+      "source_repo": "CLI",
+      "date": "20260825",
+      "archived_at": "2026-08-25T09:39:53Z"
     }
   ]
 }
