@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-25T09:25:24Z",
+  "body": "S191-04/S191-06 sudo-queue scripts (21, 22) executed by the founder. Verified live: secondtree shell is /usr/sbin/nologin (locked out). treeiii exists (uid 1002), fatbaby-group member, own home dir, no sudo. ACL grant on /home/fatbaby confirmed for both fatbaby and treeiii, including default ACL entries (so future files inherit access for both -- the 'permissions cant be fucked up when fatbaby comes back' fix). Both exclusions (emily-secrets.env, agent-secrets.env) confirmed still owner-only, no treeiii ACL entry.\n\n⚓ ☃",
+  "id": 15796,
+  "metadata": null,
+  "run_id": "sess-20260825-0828-cc32a704",
+  "source_repo": "EMILY",
+  "title": "secondtree lockdown + treeiii creation — execution confirmed live"
+}
