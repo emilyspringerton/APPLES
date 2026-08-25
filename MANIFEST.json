@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T18:48:14Z",
+  "generated_at": "2026-08-25T18:48:15Z",
   "repo": "APPLES",
-  "count": 5380,
+  "count": 5381,
   "apples": [
     {
       "id": 10525,
@@ -43042,6 +43042,14 @@
       "source_repo": "IDUNA",
       "date": "20260825",
       "archived_at": "2026-08-25T18:48:14Z"
+    },
+    {
+      "id": 15915,
+      "type": "completion",
+      "title": "changelog(IDUNA): The ladybug admin-session-revocation regression spec now ac…",
+      "source_repo": "IDUNA",
+      "date": "20260825",
+      "archived_at": "2026-08-25T18:48:15Z"
     }
   ]
 }
