@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T13:42:04Z",
+  "generated_at": "2026-08-25T13:48:57Z",
   "repo": "APPLES",
-  "count": 5314,
+  "count": 5315,
   "apples": [
     {
       "id": 10525,
@@ -42514,6 +42514,14 @@
       "source_repo": "emily",
       "date": "20260825",
       "archived_at": "2026-08-25T13:42:04Z"
+    },
+    {
+      "id": 15849,
+      "type": "audit",
+      "title": "CI sweep follow-up (S188-03) -- 2/3 fixed, 1 confirmed correct behavior",
+      "source_repo": "EMILY",
+      "date": "20260825",
+      "archived_at": "2026-08-25T13:48:57Z"
     }
   ]
 }
