@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T13:49:12Z",
+  "generated_at": "2026-08-25T13:54:21Z",
   "repo": "APPLES",
-  "count": 5316,
+  "count": 5317,
   "apples": [
     {
       "id": 10525,
@@ -42530,6 +42530,14 @@
       "source_repo": "CLI",
       "date": "20260825",
       "archived_at": "2026-08-25T13:49:12Z"
+    },
+    {
+      "id": 15851,
+      "type": "signal_observation",
+      "title": "[INFO] Continuing backlog: picked S189-10/S187-03 (IDUNA Back Office Drive slurp feature) as the ne…",
+      "source_repo": "CLI",
+      "date": "20260825",
+      "archived_at": "2026-08-25T13:54:21Z"
     }
   ]
 }
