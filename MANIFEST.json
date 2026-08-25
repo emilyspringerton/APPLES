@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T21:39:46Z",
+  "generated_at": "2026-08-25T21:39:48Z",
   "repo": "APPLES",
-  "count": 5477,
+  "count": 5478,
   "apples": [
     {
       "id": 10525,
@@ -43818,6 +43818,14 @@
       "source_repo": "SHANKPIT",
       "date": "20260825",
       "archived_at": "2026-08-25T21:39:46Z"
+    },
+    {
+      "id": 16012,
+      "type": "completion",
+      "title": "Auto-release CI, matching PITVIPER's pattern -- verified live, 2 real releases (v0.1.0, v0.2.0)",
+      "source_repo": "shankpit-460",
+      "date": "20260825",
+      "archived_at": "2026-08-25T21:39:48Z"
     }
   ]
 }
