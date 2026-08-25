@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T09:56:39Z",
+  "generated_at": "2026-08-25T10:00:52Z",
   "repo": "APPLES",
-  "count": 5291,
+  "count": 5292,
   "apples": [
     {
       "id": 10525,
@@ -42330,6 +42330,14 @@
       "source_repo": "EmilyOS",
       "date": "20260825",
       "archived_at": "2026-08-25T09:56:39Z"
+    },
+    {
+      "id": 15826,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: 'ensure we have stdlibs for json parsing and yaml parsing.' New PARENA st…",
+      "source_repo": "CLI",
+      "date": "20260825",
+      "archived_at": "2026-08-25T10:00:52Z"
     }
   ]
 }
