@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T14:04:48Z",
+  "generated_at": "2026-08-25T14:05:06Z",
   "repo": "APPLES",
-  "count": 5320,
+  "count": 5321,
   "apples": [
     {
       "id": 10525,
@@ -42562,6 +42562,14 @@
       "source_repo": "IDUNA",
       "date": "20260825",
       "archived_at": "2026-08-25T14:04:48Z"
+    },
+    {
+      "id": 15855,
+      "type": "completion",
+      "title": "Drive slurp feature built, real build+vet+test+race verified",
+      "source_repo": "IDUNA",
+      "date": "20260825",
+      "archived_at": "2026-08-25T14:05:06Z"
     }
   ]
 }
