@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-25T19:04:55Z",
+  "body": "CHANGELOG updated in IDUNA: Fix: RequireCookieAuth no longer treats human Google-login cookie sessions as agent sessions during the live-status recheck (was bouncing every human session to login) (sess-20260825-0828-cc32a704)\n\n⚓ ☃",
+  "id": 15923,
+  "metadata": null,
+  "run_id": "sess-20260825-0828-cc32a704",
+  "source_repo": "IDUNA",
+  "title": "changelog(IDUNA): Fix: RequireCookieAuth no longer treats human Google-login …"
+}

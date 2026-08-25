@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "improvement",
+  "archived_at": "2026-08-25T19:04:55Z",
+  "body": "Found wiring up the notebook portal's SSO cookie login: GetAgentByID-based live recheck (added for the suspended-agent fix) only checks the agents table, so a human Google session's sub (a user ID) always missed and got incorrectly bounced to login on every request. Gated the recheck on absence of the 'email' claim (agent-issued tokens never carry it). New regression test TestRequireCookieAuth_HumanGoogleSessionNotTreatedAsAgent, verified red/green. Commit b1fd92f.\n\n⚓ ☃",
+  "id": 15922,
+  "metadata": null,
+  "run_id": "sess-20260825-0828-cc32a704",
+  "source_repo": "IDUNA",
+  "title": "Fix: RequireCookieAuth live-status recheck must not treat human sessions as agents"
+}

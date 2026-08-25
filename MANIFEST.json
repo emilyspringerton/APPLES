@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T19:02:41Z",
+  "generated_at": "2026-08-25T19:04:55Z",
   "repo": "APPLES",
-  "count": 5387,
+  "count": 5388,
   "apples": [
     {
       "id": 10525,
@@ -43098,6 +43098,14 @@
       "source_repo": "emily.cli",
       "date": "20260825",
       "archived_at": "2026-08-25T19:02:41Z"
+    },
+    {
+      "id": 15922,
+      "type": "improvement",
+      "title": "Fix: RequireCookieAuth live-status recheck must not treat human sessions as agents",
+      "source_repo": "IDUNA",
+      "date": "20260825",
+      "archived_at": "2026-08-25T19:04:55Z"
     }
   ]
 }
