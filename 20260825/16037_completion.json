@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-25T23:38:45Z",
+  "body": "Built 'emily golden {list,enable,disable,status}' (emily.cli/cmd/golden.go): a real per-repo enable/disable config (EMILY/context/golden-repos.json, EMILY/TYLER/PRRJECT_FATBABY/PARENA/PITVIPER enabled, REDGARDEN/GoblinFoxDragon/SHANKPIT/shankpit-460/BRAWLPIT/GTA7 listed disabled per the founder's own 'not a guess made here' framing) plus real GitHub Actions API polling, replacing this session's own manual curl+python one-liners. Deliberately pure Go, not a PARENA mod -- every existing PARENA-mod integration in this monorepo uses cgo, which would regress emily.cli's own just-shipped pure-Go cross-compiled release pipeline (S202-20); flagged as a real, non-unilateral tradeoff rather than silently built anyway. 10 new tests, go test ./... green. emily.cli commit 8427414. Live-verified against the real API and immediately earned its keep: the tool's very first run correctly reported EMILY/TYLER/PARENA/PITVIPER green and surfaced a real, currently-broken PRRJECT_FATBABY CI run, 2 days stale. Root-caused (not guessed): go.mod's local-path 'replace' directives (skuldmark, and norn -- which had NO require/replace at all, relying entirely on go.work's implicit linkage) point at sibling monorepo directories that only exist on this box's own checkout; construct-bundle.yml's single-repo actions/checkout never had them, so go build/test failed at module resolution before any of this repo's own code ran. Fixed: added the missing norn require/replace, and two new checkout steps fetch NORN + SKULDMARK as real OS-level siblings. First fix attempt (path: ../NORN directly on the checkout step) was tried live and failed live (actions/checkout can't escape , confirmed not assumed) -- corrected to checkout-into-subdir-then-mv, verified in a real isolated single-repo simulation before each push. Live-verified in real CI, fully green: run 32911493075 (b4dfd6c), all sibling checkouts plus the full 71-package go test ./... suite passed. PRRJECT_FATBABY commits d203e0f + b4dfd6c.\n\n⚓ ☃",
+  "id": 16037,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "emily.cli,PRRJECT_FATBABY",
+  "title": "S200-04: golden-repo CI polling tool built + immediately found/fixed a real 2-day CI outage"
+}

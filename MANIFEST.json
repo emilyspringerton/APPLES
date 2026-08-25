@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T23:25:05Z",
+  "generated_at": "2026-08-25T23:38:45Z",
   "repo": "APPLES",
-  "count": 5502,
+  "count": 5503,
   "apples": [
     {
       "id": 10525,
@@ -44018,6 +44018,14 @@
       "source_repo": "CLI",
       "date": "20260825",
       "archived_at": "2026-08-25T23:25:05Z"
+    },
+    {
+      "id": 16037,
+      "type": "completion",
+      "title": "S200-04: golden-repo CI polling tool built + immediately found/fixed a real 2-day CI outage",
+      "source_repo": "emily.cli,PRRJECT_FATBABY",
+      "date": "20260825",
+      "archived_at": "2026-08-25T23:38:45Z"
     }
   ]
 }
