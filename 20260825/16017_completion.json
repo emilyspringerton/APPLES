@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-25T22:07:31Z",
+  "body": "Founder real-time: 'continue the exotic auto curriculum redgarden work' -\u003e 'training' -\u003e 'parena mod driven first'. Landed stdlib/redgarden/item_curriculum_mod.prn (PARENA) -\u003e on-generate-counter-item -\u003e redgarden_host_item_curriculum_generate_counter_item (arena_game.c), which blends two ARENA_ITEMS catalog entries' stats (deterministic average+jitter) into one of 4 runtime-mutable curriculum slots, kept separate from the fixed const ARENA_ITEMS catalog. 15 new tests, live round-trip through the real compiled PARENA mod, full test_arena.sh suite green, verified via a real mingw cross-compile, all 4 build paths wired up front. Honest scope: this is the generation primitive only -- deciding which items to blend from (reading the dominant team composition, not observable to the Python training loop today) and evaluating whether a generated item counters the meta remain real, unresolved next steps. REDGARDEN 6d0443d/76fccc3, PARENA d63590a.\n\n⚓ ☃",
+  "id": 16017,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "REDGARDEN",
+  "title": "Item curriculum: PARENA-mod-driven generation primitive for NORTHSTAR §26.3.2"
+}
