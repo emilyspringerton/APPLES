@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T00:04:21Z",
+  "generated_at": "2026-08-25T00:04:33Z",
   "repo": "APPLES",
-  "count": 5154,
+  "count": 5155,
   "apples": [
     {
       "id": 10525,
@@ -41234,6 +41234,14 @@
       "source_repo": "PARENA",
       "date": "20260825",
       "archived_at": "2026-08-25T00:04:21Z"
+    },
+    {
+      "id": 15689,
+      "type": "completion",
+      "title": "changelog(PARENA): io.prn real host implementation (POSIX raw-fd glue) + 2 rea…",
+      "source_repo": "PARENA",
+      "date": "20260825",
+      "archived_at": "2026-08-25T00:04:33Z"
     }
   ]
 }
