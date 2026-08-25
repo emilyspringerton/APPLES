@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-25T19:59:50Z",
+  "body": "Root cause: main.c unconditionally requested a desktop OpenGL 3.2 Compatibility SDL_GL context (unsupported by Emscripten's WebGL/EGL emulation) and used desktop GLSL 150 shaders (in/out qualifiers, rejected by WebGL1's GLSL ES 1.00 compiler). Both guarded behind #ifdef __EMSCRIPTEN__ with WebGL1-compatible equivalents; native/Windows builds unchanged and verified still compiling clean. Verified fix via headless Chromium: SDL_GL_CreateContext now succeeds, zero shader/WebGL errors (vs fatal errors pre-fix), arena match log written normally. Rebuilt and deployed battlegrounds.html/js/wasm to /var/www/okemily/battlegrounds/. GoblinFoxDragon d57ac6c.\n\n⚓ ☃",
+  "id": 15947,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "GoblinFoxDragon",
+  "title": "Fixed DragonsNShit web player black screen -- SDL GL context + GLSL version mismatch"
+}
