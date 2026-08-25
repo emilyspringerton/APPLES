@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T00:14:42Z",
+  "generated_at": "2026-08-25T00:15:37Z",
   "repo": "APPLES",
-  "count": 5163,
+  "count": 5164,
   "apples": [
     {
       "id": 10525,
@@ -41306,6 +41306,14 @@
       "source_repo": "emily",
       "date": "20260825",
       "archived_at": "2026-08-25T00:14:42Z"
+    },
+    {
+      "id": 15698,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: 'do any fixes from the report' -- applying the smallest, bounded, safe fi…",
+      "source_repo": "CLI",
+      "date": "20260825",
+      "archived_at": "2026-08-25T00:15:37Z"
     }
   ]
 }
