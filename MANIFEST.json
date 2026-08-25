@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T21:04:22Z",
+  "generated_at": "2026-08-25T21:04:23Z",
   "repo": "APPLES",
-  "count": 5446,
+  "count": 5447,
   "apples": [
     {
       "id": 10525,
@@ -43570,6 +43570,14 @@
       "source_repo": "shankpit-460",
       "date": "20260825",
       "archived_at": "2026-08-25T21:04:22Z"
+    },
+    {
+      "id": 15981,
+      "type": "completion",
+      "title": "changelog(shankpit-460): fixed CI: Windows client build was missing packages/audio/{…",
+      "source_repo": "shankpit-460",
+      "date": "20260825",
+      "archived_at": "2026-08-25T21:04:23Z"
     }
   ]
 }
