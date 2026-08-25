@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T00:44:34Z",
+  "generated_at": "2026-08-25T00:44:36Z",
   "repo": "APPLES",
-  "count": 5178,
+  "count": 5179,
   "apples": [
     {
       "id": 10525,
@@ -41426,6 +41426,14 @@
       "source_repo": "CLI",
       "date": "20260825",
       "archived_at": "2026-08-25T00:44:34Z"
+    },
+    {
+      "id": 15713,
+      "type": "completion",
+      "title": "CharClass ([abc]/[a-z]/[^abc]) implemented -- closes the most dangerous audit finding",
+      "source_repo": "PARENA",
+      "date": "20260825",
+      "archived_at": "2026-08-25T00:44:36Z"
     }
   ]
 }
