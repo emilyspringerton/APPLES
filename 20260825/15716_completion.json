@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-25T00:46:59Z",
+  "body": "Real, safe wrapper closing the audit's own biggest safety concern (silent wrong answers on unimplemented features): tools/turbogrep-router.sh checks turbogrep's own new exit code 3 (a real, distinct sentinel from pattern-supported?, which walks the actual parsed AST for Plus/Optional/Anchor -- not a text-level heuristic) and falls back to real GNU grep for exactly those patterns, verified against real grep across 6 test patterns (3 turbogrep-routed, 3 grep-fallback, all correct). Every invocation logged as one NDJSON line (pattern, engine used, duration, match count) to var/grep-invocations.ndjson -- real usage data to prioritize future turbogrep work against, once wired into Claude Code's own Bash tool as the default grep, per founder direction ('so we can study how claude code works so we can make it faster').\n\n⚓ ☃",
+  "id": 15716,
+  "metadata": null,
+  "run_id": "sess-20260824-2252-ce890e4f",
+  "source_repo": "PARENA",
+  "title": "turbogrep router + NDJSON usage logging -- routes to real grep for unsupported patterns"
+}

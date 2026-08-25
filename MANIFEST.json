@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T00:45:44Z",
+  "generated_at": "2026-08-25T00:46:59Z",
   "repo": "APPLES",
-  "count": 5181,
+  "count": 5182,
   "apples": [
     {
       "id": 10525,
@@ -41450,6 +41450,14 @@
       "source_repo": "emily",
       "date": "20260825",
       "archived_at": "2026-08-25T00:45:44Z"
+    },
+    {
+      "id": 15716,
+      "type": "completion",
+      "title": "turbogrep router + NDJSON usage logging -- routes to real grep for unsupported patterns",
+      "source_repo": "PARENA",
+      "date": "20260825",
+      "archived_at": "2026-08-25T00:46:59Z"
     }
   ]
 }
