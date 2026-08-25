@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T09:29:56Z",
+  "generated_at": "2026-08-25T09:30:27Z",
   "repo": "APPLES",
-  "count": 5265,
+  "count": 5266,
   "apples": [
     {
       "id": 10525,
@@ -42122,6 +42122,14 @@
       "source_repo": "CLI",
       "date": "20260825",
       "archived_at": "2026-08-25T09:29:56Z"
+    },
+    {
+      "id": 15800,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time, adds concrete detail to the already-logged day/night-cycle-from-SHANKPIT …",
+      "source_repo": "CLI",
+      "date": "20260825",
+      "archived_at": "2026-08-25T09:30:27Z"
     }
   ]
 }
