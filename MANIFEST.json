@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T10:02:31Z",
+  "generated_at": "2026-08-25T10:02:33Z",
   "repo": "APPLES",
-  "count": 5293,
+  "count": 5294,
   "apples": [
     {
       "id": 10525,
@@ -42346,6 +42346,14 @@
       "source_repo": "PITVIPER",
       "date": "20260825",
       "archived_at": "2026-08-25T10:02:31Z"
+    },
+    {
+      "id": 15828,
+      "type": "completion",
+      "title": "Native Linux client build + non-prerelease auto-release — CI-verified",
+      "source_repo": "BRAWLPIT",
+      "date": "20260825",
+      "archived_at": "2026-08-25T10:02:33Z"
     }
   ]
 }
