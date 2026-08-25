@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T00:35:46Z",
+  "generated_at": "2026-08-25T00:36:17Z",
   "repo": "APPLES",
-  "count": 5170,
+  "count": 5171,
   "apples": [
     {
       "id": 10525,
@@ -41362,6 +41362,14 @@
       "source_repo": "CLI",
       "date": "20260825",
       "archived_at": "2026-08-25T00:35:46Z"
+    },
+    {
+      "id": 15705,
+      "type": "completion",
+      "title": "literal fast path -- turbogrep another 4x faster (0.69s -\u003e 0.168s), ~75x total, ~8x slower than grep",
+      "source_repo": "PARENA",
+      "date": "20260825",
+      "archived_at": "2026-08-25T00:36:17Z"
     }
   ]
 }

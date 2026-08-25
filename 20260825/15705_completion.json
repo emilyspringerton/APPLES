@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-25T00:36:17Z",
+  "body": "Investigated why a first fast-path attempt showed zero improvement rather than assuming it worked: isolated is-match benchmark unchanged, root-caused directly -- regex/syntax.prn's parser always wraps the pattern in an Alt node (even with no real |), and the literal-detector only matched Literal/Concat, so it silently never fired for any real pattern. Fixed by unwrapping a single-branch Alt (a real multi-branch Alt still correctly falls through to the general matcher). Re-measured: full corpus 0.69s -\u003e 0.168s (~4x), ~75x faster than the original 12.6s baseline, turbogrep now ~8x slower than system grep instead of ~430-660x. All 7 correctness patterns re-verified byte-identical. All 336 compiler tests pass.\n\n⚓ ☃",
+  "id": 15705,
+  "metadata": null,
+  "run_id": "sess-20260824-2252-ce890e4f",
+  "source_repo": "PARENA",
+  "title": "literal fast path -- turbogrep another 4x faster (0.69s -\u003e 0.168s), ~75x total, ~8x slower than grep"
+}
