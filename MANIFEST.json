@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T17:38:53Z",
+  "generated_at": "2026-08-25T17:39:08Z",
   "repo": "APPLES",
-  "count": 5358,
+  "count": 5359,
   "apples": [
     {
       "id": 10525,
@@ -42866,6 +42866,14 @@
       "source_repo": "CLI",
       "date": "20260825",
       "archived_at": "2026-08-25T17:38:53Z"
+    },
+    {
+      "id": 15893,
+      "type": "escalation",
+      "title": "SECURITY: suspended IDUNA agent's active Back Office session is not revoked",
+      "source_repo": "IDUNA",
+      "date": "20260825",
+      "archived_at": "2026-08-25T17:39:08Z"
     }
   ]
 }

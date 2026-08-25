@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "escalation",
+  "archived_at": "2026-08-25T17:39:08Z",
+  "body": "Founder-reported, live: suspending an agent (status -\u003e SUSPENDED) correctly blocks NEW logins (401 on /api/v1/auth/agent), but does NOT invalidate an already-issued session/JWT for that agent -- a suspended agent that was already logged into the Back Office can keep clicking around and, critically, can un-suspend itself (self-reinstatement), fully undoing the suspension. Concrete exploit path just demonstrated in this session: BOOTS's secret leaked -\u003e suspended -\u003e if BOOTS had an open Back Office tab at leak time, suspension would not have kicked that session out, and the holder could simply un-suspend BOOTS again. Root cause under investigation now: admin auth appears to validate the session/JWT's signature and expiry only, not re-check the agent's current status in the store on each authenticated request. Disclosing before fixing per founder instruction. Investigating internal/http admin auth middleware next.\n\n⚓ ☃",
+  "id": 15893,
+  "metadata": null,
+  "run_id": "sess-20260825-0828-cc32a704",
+  "source_repo": "IDUNA",
+  "title": "SECURITY: suspended IDUNA agent's active Back Office session is not revoked"
+}
