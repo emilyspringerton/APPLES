@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T22:10:41Z",
+  "generated_at": "2026-08-25T22:12:22Z",
   "repo": "APPLES",
-  "count": 5484,
+  "count": 5485,
   "apples": [
     {
       "id": 10525,
@@ -43874,6 +43874,14 @@
       "source_repo": "emily",
       "date": "20260825",
       "archived_at": "2026-08-25T22:10:41Z"
+    },
+    {
+      "id": 16019,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: 'keep working on the self bootstrap compiler for parena' -- continue PARE…",
+      "source_repo": "CLI",
+      "date": "20260825",
+      "archived_at": "2026-08-25T22:12:22Z"
     }
   ]
 }
