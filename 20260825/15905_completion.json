@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-25T18:20:31Z",
+  "body": "CHANGELOG updated in PARENA: Real WebDriver-protocol client (stdlib/net/webdriver.prn) -- Selenium bindings, built on net/http.prn+json.prn. New stdlib/process.prn (real fork+exec FFI). 13/13 e2e checks against a real Go fixture server, spawned via PARENA FFI. (sess-20260825-0828-cc32a704)\n\n⚓ ☃",
+  "id": 15905,
+  "metadata": null,
+  "run_id": "sess-20260825-0828-cc32a704",
+  "source_repo": "PARENA",
+  "title": "changelog(PARENA): Real WebDriver-protocol client (stdlib/net/webdriver.prn) -…"
+}
