@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T09:46:56Z",
+  "generated_at": "2026-08-25T09:47:17Z",
   "repo": "APPLES",
-  "count": 5279,
+  "count": 5280,
   "apples": [
     {
       "id": 10525,
@@ -42234,6 +42234,14 @@
       "source_repo": "CLI",
       "date": "20260825",
       "archived_at": "2026-08-25T09:46:56Z"
+    },
+    {
+      "id": 15814,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time, gives concrete design guidance for the distro pivot: 'we use gnu tools fo…",
+      "source_repo": "CLI",
+      "date": "20260825",
+      "archived_at": "2026-08-25T09:47:17Z"
     }
   ]
 }
