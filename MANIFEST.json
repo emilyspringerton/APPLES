@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T21:01:09Z",
+  "generated_at": "2026-08-25T21:02:43Z",
   "repo": "APPLES",
-  "count": 5444,
+  "count": 5445,
   "apples": [
     {
       "id": 10525,
@@ -43554,6 +43554,14 @@
       "source_repo": "CLI",
       "date": "20260825",
       "archived_at": "2026-08-25T21:01:09Z"
+    },
+    {
+      "id": 15979,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: SHANKPIT-460 -- link/bundle as a single binary instead of separate client…",
+      "source_repo": "CLI",
+      "date": "20260825",
+      "archived_at": "2026-08-25T21:02:43Z"
     }
   ]
 }
