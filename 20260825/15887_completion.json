@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-25T17:20:09Z",
+  "body": "Backend already exposed latency_ms on every /api/v1/status/history check (checker.go's Check struct doc comment named this exact follow-up as the still-open item) -- no IDUNA change needed, pure frontend addition. Added a bar chart under each service's existing incident timeline, reusing the same already-fetched history response (no second API call): bar height scaled relative to the min/max latency in the visible window (not an absolute scale, since healthy latency varies a lot by target), red for down checks, caption shows min/avg/max ms. Verified the scaling math against real production data via node (500 real iduna checks, all bars landed in the valid 12-100% range, min=0ms avg=1ms max=13ms). Deployed via ~/okemily-deploy.sh (no sudo needed, per OKEMILY/CLAUDE.md's group-writable /var/www/okemily); rsync threw chmod/mtime warnings (files now owned treeiii:treeiii instead of fatbaby:fatbaby, other-read still intact) but content transfer succeeded -- confirmed live: https://okemily.com/status.html returns 200 with the new chart code present. Commit OKEMILY \u003cpending\u003e.\n\n⚓ ☃",
+  "id": 15887,
+  "metadata": null,
+  "run_id": "sess-20260825-0828-cc32a704",
+  "source_repo": "OKEMILY",
+  "title": "S153-11 follow-up: per-target latency chart on status.html"
+}

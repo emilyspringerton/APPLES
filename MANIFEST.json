@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T17:18:20Z",
+  "generated_at": "2026-08-25T17:20:09Z",
   "repo": "APPLES",
-  "count": 5352,
+  "count": 5353,
   "apples": [
     {
       "id": 10525,
@@ -42818,6 +42818,14 @@
       "source_repo": "CLI",
       "date": "20260825",
       "archived_at": "2026-08-25T17:18:20Z"
+    },
+    {
+      "id": 15887,
+      "type": "completion",
+      "title": "S153-11 follow-up: per-target latency chart on status.html",
+      "source_repo": "OKEMILY",
+      "date": "20260825",
+      "archived_at": "2026-08-25T17:20:09Z"
     }
   ]
 }
