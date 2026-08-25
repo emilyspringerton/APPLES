@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T21:37:04Z",
+  "generated_at": "2026-08-25T21:38:53Z",
   "repo": "APPLES",
-  "count": 5460,
+  "count": 5461,
   "apples": [
     {
       "id": 10525,
@@ -43682,6 +43682,14 @@
       "source_repo": "CLI",
       "date": "20260825",
       "archived_at": "2026-08-25T21:37:04Z"
+    },
+    {
+      "id": 15995,
+      "type": "completion",
+      "title": "Auto-release CI, matching PITVIPER's pattern (non-prerelease, auto minor-version bump)",
+      "source_repo": "REDGARDEN",
+      "date": "20260825",
+      "archived_at": "2026-08-25T21:38:53Z"
     }
   ]
 }
