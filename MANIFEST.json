@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T13:57:51Z",
+  "generated_at": "2026-08-25T14:00:55Z",
   "repo": "APPLES",
-  "count": 5318,
+  "count": 5319,
   "apples": [
     {
       "id": 10525,
@@ -42546,6 +42546,14 @@
       "source_repo": "emily",
       "date": "20260825",
       "archived_at": "2026-08-25T13:57:51Z"
+    },
+    {
+      "id": 15853,
+      "type": "signal_observation",
+      "title": "[INFO] test check from worktree fork",
+      "source_repo": "CLI",
+      "date": "20260825",
+      "archived_at": "2026-08-25T14:00:55Z"
     }
   ]
 }
