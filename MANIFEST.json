@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T20:30:04Z",
+  "generated_at": "2026-08-25T20:30:06Z",
   "repo": "APPLES",
-  "count": 5430,
+  "count": 5431,
   "apples": [
     {
       "id": 10525,
@@ -43442,6 +43442,14 @@
       "source_repo": "CLI",
       "date": "20260825",
       "archived_at": "2026-08-25T20:30:04Z"
+    },
+    {
+      "id": 15965,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: REDGARDEN -- experiment with tech trees as item templates",
+      "source_repo": "CLI",
+      "date": "20260825",
+      "archived_at": "2026-08-25T20:30:06Z"
     }
   ]
 }
