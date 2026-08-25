@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-25T17:58:25Z",
+  "body": "Founder ask: build Selenium bindings into PARENA. First real blocker found: net/tcp.prn had zero working host implementation (FFI declared, never implemented) and a Result-boxing bug that meant it never actually compiled to valid C either. Fixed both: real tcp_connect_impl/tcp_listen_impl/tcp_accept_impl/tcp_read_impl/tcp_write_impl/tcp_close_impl in runtime/parena_runtime.h (real getaddrinfo+socket+connect BSD sockets, same house style as io.prn's raw_*_impl), plus renamed the public API (connect/listen/accept/read/write/close -\u003e tcp-connect/tcp-listen/tcp-accept/tcp-read/tcp-write/tcp-close) after finding those names collide with literal libc functions once any system header is included -- VS0 emits top-level defn names as bare unprefixed C identifiers, no module mangling for a module's own definitions. Live-verified against the real running IDUNA service on :8080 (real HTTP/1.1 GET, real 200 OK JSON response received back through compiled PARENA-generated C), not just compiled. make test: 336/336 still green. PARENA commit b0fe56b.\n\n⚓ ☃",
+  "id": 15899,
+  "metadata": null,
+  "run_id": "sess-20260825-0828-cc32a704",
+  "source_repo": "PARENA",
+  "title": "Real BSD socket host glue for net/tcp.prn -- first working PARENA network I/O"
+}

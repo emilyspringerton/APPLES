@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T17:56:44Z",
+  "generated_at": "2026-08-25T17:58:25Z",
   "repo": "APPLES",
-  "count": 5364,
+  "count": 5365,
   "apples": [
     {
       "id": 10525,
@@ -42914,6 +42914,14 @@
       "source_repo": "emily",
       "date": "20260825",
       "archived_at": "2026-08-25T17:56:44Z"
+    },
+    {
+      "id": 15899,
+      "type": "completion",
+      "title": "Real BSD socket host glue for net/tcp.prn -- first working PARENA network I/O",
+      "source_repo": "PARENA",
+      "date": "20260825",
+      "archived_at": "2026-08-25T17:58:25Z"
     }
   ]
 }
