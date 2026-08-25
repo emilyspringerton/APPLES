@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-25T19:59:41Z",
+  "body": "CHANGELOG updated in GoblinFoxDragon: fixed WASM battlegrounds black screen: guarded desktop-only SDL_GL_SetAttribute(3.2 Compat) calls and swapped VS_SRC/FS_SRC to GLSL ES 1.00 for __EMSCRIPTEN__ builds; verified via headless Chromium (zero WebGL/shader errors post-fix vs fatal errors before), deployed to /var/www/okemily/battlegrounds/ (sess-20260825-1938-f6bd411e)\n\n⚓ ☃",
+  "id": 15946,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "GoblinFoxDragon",
+  "title": "changelog(GoblinFoxDragon): fixed WASM battlegrounds black screen: guarded desktop-only…"
+}
