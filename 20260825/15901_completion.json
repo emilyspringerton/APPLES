@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-25T18:04:49Z",
+  "body": "Continuing toward Selenium bindings: net/http.prn never actually compiled (K/V generic Map for headers fails VS0's emitter, same constraint json.prn's JObject already documents) and every function called undefined helpers. Real implementation: headers as parallel Vec Strings (json.prn precedent), url-free host/port/path API (no URL parser needed by real callers), real request builder + response parser. Found and fixed 3 more real compiler/stdlib limitations along the way: lexer's \\r escape gap (worked around with bare \\n, verified real servers tolerate it), let can't rebind the same name twice (nested concat calls, sed.prn's idiom), boxed-scalar-vs-pointer deref distinction. Also fixed pitviper/protocol.prn's 4 call sites onto net/tcp's renamed API. Live-verified: real GET and POST round trips against the actual running IDUNA service on :8080 (200 health check, 401 bad-credential JSON error), not simulated. make test 336/336 green. PARENA commit 3ad6abb.\n\n⚓ ☃",
+  "id": 15901,
+  "metadata": null,
+  "run_id": "sess-20260825-0828-cc32a704",
+  "source_repo": "PARENA",
+  "title": "Real working HTTP client (net/http.prn) -- second half of PARENA's network I/O gap"
+}
