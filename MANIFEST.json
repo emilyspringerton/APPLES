@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T21:39:12Z",
+  "generated_at": "2026-08-25T21:39:14Z",
   "repo": "APPLES",
-  "count": 5471,
+  "count": 5472,
   "apples": [
     {
       "id": 10525,
@@ -43770,6 +43770,14 @@
       "source_repo": "MJOLNIR",
       "date": "20260825",
       "archived_at": "2026-08-25T21:39:12Z"
+    },
+    {
+      "id": 16006,
+      "type": "completion",
+      "title": "changelog(MJOLNIR): wired up auto-release CI job (PITVIPER pattern) -- blocked …",
+      "source_repo": "MJOLNIR",
+      "date": "20260825",
+      "archived_at": "2026-08-25T21:39:14Z"
     }
   ]
 }
