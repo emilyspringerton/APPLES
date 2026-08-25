@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T20:27:52Z",
+  "generated_at": "2026-08-25T20:30:04Z",
   "repo": "APPLES",
-  "count": 5429,
+  "count": 5430,
   "apples": [
     {
       "id": 10525,
@@ -43434,6 +43434,14 @@
       "source_repo": "REDGARDEN",
       "date": "20260825",
       "archived_at": "2026-08-25T20:27:52Z"
+    },
+    {
+      "id": 15964,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: start tracking GFD Battlegrounds player stats, surfaced on WOTAN",
+      "source_repo": "CLI",
+      "date": "20260825",
+      "archived_at": "2026-08-25T20:30:04Z"
     }
   ]
 }
