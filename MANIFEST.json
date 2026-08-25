@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T19:39:32Z",
+  "generated_at": "2026-08-25T19:39:51Z",
   "repo": "APPLES",
-  "count": 5403,
+  "count": 5404,
   "apples": [
     {
       "id": 10525,
@@ -43226,6 +43226,14 @@
       "source_repo": "CLI",
       "date": "20260825",
       "archived_at": "2026-08-25T19:39:32Z"
+    },
+    {
+      "id": 15938,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: use PARENA whenever possible going forward",
+      "source_repo": "CLI",
+      "date": "20260825",
+      "archived_at": "2026-08-25T19:39:51Z"
     }
   ]
 }
