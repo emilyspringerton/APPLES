@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-25T00:54:03Z",
+  "body": "CHANGELOG updated in PARENA: grep router rewritten flag-safe (delegates any flag/stdin usage straight to real grep) + installed at ~/.local/bin/grep + fixed a real symlink-resolution bug (dirname doesn't follow symlinks) (sess-20260824-2252-ce890e4f)\n\n⚓ ☃",
+  "id": 15721,
+  "metadata": null,
+  "run_id": "sess-20260824-2252-ce890e4f",
+  "source_repo": "PARENA",
+  "title": "changelog(PARENA): grep router rewritten flag-safe (delegates any flag/stdin u…"
+}
