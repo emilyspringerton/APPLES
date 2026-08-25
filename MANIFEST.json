@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T15:40:12Z",
+  "generated_at": "2026-08-25T15:40:18Z",
   "repo": "APPLES",
-  "count": 5341,
+  "count": 5342,
   "apples": [
     {
       "id": 10525,
@@ -42730,6 +42730,14 @@
       "source_repo": "CLI",
       "date": "20260825",
       "archived_at": "2026-08-25T15:40:12Z"
+    },
+    {
+      "id": 15876,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time, valuable tooling request: 'we need a tool to poll all our golden repo sta…",
+      "source_repo": "CLI",
+      "date": "20260825",
+      "archived_at": "2026-08-25T15:40:18Z"
     }
   ]
 }
