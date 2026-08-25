@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T17:28:53Z",
+  "generated_at": "2026-08-25T17:38:53Z",
   "repo": "APPLES",
-  "count": 5357,
+  "count": 5358,
   "apples": [
     {
       "id": 10525,
@@ -42858,6 +42858,14 @@
       "source_repo": "OKEMILY",
       "date": "20260825",
       "archived_at": "2026-08-25T17:28:53Z"
+    },
+    {
+      "id": 15892,
+      "type": "signal_observation",
+      "title": "[WARN] Founder real-time: IDUNA Back Office session-revocation vulnerability — a suspended agent'…",
+      "source_repo": "CLI",
+      "date": "20260825",
+      "archived_at": "2026-08-25T17:38:53Z"
     }
   ]
 }
