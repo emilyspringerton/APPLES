@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T01:15:23Z",
+  "generated_at": "2026-08-25T01:15:25Z",
   "repo": "APPLES",
-  "count": 5194,
+  "count": 5195,
   "apples": [
     {
       "id": 10525,
@@ -41554,6 +41554,14 @@
       "source_repo": "PARENA",
       "date": "20260825",
       "archived_at": "2026-08-25T01:15:23Z"
+    },
+    {
+      "id": 15729,
+      "type": "completion",
+      "title": "changelog(PARENA): Forward-declaration typing gap fixed: src/emit.c's defn pre…",
+      "source_repo": "PARENA",
+      "date": "20260825",
+      "archived_at": "2026-08-25T01:15:25Z"
     }
   ]
 }
