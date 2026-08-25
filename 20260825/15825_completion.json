@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-25T09:56:39Z",
+  "body": "Verified the fork's claims directly (rebuilt, retested -- go build/test clean across all packages) before committing. EmilyOS commit eb6b867 (cap.fs.grant/revoke RBAC, internal/fsacl, internal/fsaclmod cgo\u003c-\u003ePARENA bridge, emilyos CLI verb), PARENA commit 20ea055 (stdlib/emilyos/fsacl.prn, parses clean). Live-verified: Admin granted, Operator denied, audit log recorded both, denylist (secrets files, SSH keys) survives the actual cgo-\u003ePARENA-\u003ecgo round trip.\n\n⚓ ☃",
+  "id": 15825,
+  "metadata": null,
+  "run_id": "sess-20260825-0828-cc32a704",
+  "source_repo": "EmilyOS",
+  "title": "GRANT-FS/REVOKE-FS landed and integrated (S193-02)"
+}

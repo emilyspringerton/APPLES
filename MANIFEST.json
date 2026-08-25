@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T09:55:18Z",
+  "generated_at": "2026-08-25T09:56:39Z",
   "repo": "APPLES",
-  "count": 5290,
+  "count": 5291,
   "apples": [
     {
       "id": 10525,
@@ -42322,6 +42322,14 @@
       "source_repo": "emily",
       "date": "20260825",
       "archived_at": "2026-08-25T09:55:18Z"
+    },
+    {
+      "id": 15825,
+      "type": "completion",
+      "title": "GRANT-FS/REVOKE-FS landed and integrated (S193-02)",
+      "source_repo": "EmilyOS",
+      "date": "20260825",
+      "archived_at": "2026-08-25T09:56:39Z"
     }
   ]
 }
