@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T15:35:52Z",
+  "generated_at": "2026-08-25T15:39:56Z",
   "repo": "APPLES",
-  "count": 5339,
+  "count": 5340,
   "apples": [
     {
       "id": 10525,
@@ -42714,6 +42714,14 @@
       "source_repo": "CLI",
       "date": "20260825",
       "archived_at": "2026-08-25T15:35:52Z"
+    },
+    {
+      "id": 15874,
+      "type": "signal_observation",
+      "title": "[ERROR] Founder real-time, urgent: 'SHANKPIT build is down.' Likely connects to the earlier flagged…",
+      "source_repo": "CLI",
+      "date": "20260825",
+      "archived_at": "2026-08-25T15:39:56Z"
     }
   ]
 }
