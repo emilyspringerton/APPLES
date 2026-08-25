@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-25T14:15:48Z",
+  "body": "New apps2/crystal -seed/-seed-out flags (headless N-tick run + JSON world-snapshot dump). server/mob/crystal.go: MeadowCrystalSpawns loads a seed, converts goblins/foxes into real Mob entities (kind-differentiated stats, world-coordinate-mapped positions matching MeadowWormSpawns' own ring). Wired into apps2/mud/main.go's world init behind CRYSTAL_SEED_PATH env var, optional/additive. Live-verified: real seed generated (48 goblins/32 foxes @ tick 100), real load producing 80 correctly-positioned/typed mobs, real mud server boot with seed loaded, zero errors. 4 new automated tests, full repo build+test clean. NOT git-committed -- this worktree blocks git against the shared GoblinFoxDragon checkout; code changes are written to their real destination paths and fully verified there, but need a manual git add+commit+push. Files: apps2/crystal/main.go (modified), server/mob/crystal.go (new), server/mob/crystal_test.go (new), apps2/mud/main.go (modified: import log, wire MeadowCrystalSpawns call after MeadowWormSpawns).\n\n⚓ ☃",
+  "id": 15861,
+  "metadata": null,
+  "run_id": "sess-20260825-0828-cc32a704",
+  "source_repo": "GoblinFoxDragon",
+  "title": "Meadow seeded with crystal-generated NPCs (S189-07)"
+}
