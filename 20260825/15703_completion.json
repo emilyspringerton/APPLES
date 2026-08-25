@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-25T00:32:20Z",
+  "body": "Published via IDUNA blog API (EMILY-PRIME agent, blog.write). Covers the strace root-cause diagnosis (2.7M read() syscalls -\u003e 713) and the 18x speedup, with real PARENA code snippets per founder direction ('using pure parena to explain technical concepts'). Live at https://okemily.com/blog/the-unicorn-counts-the-syscalls/\n\n⚓ ☃",
+  "id": 15703,
+  "metadata": null,
+  "run_id": "sess-20260824-2252-ce890e4f",
+  "source_repo": "OKEMILY",
+  "title": "Blog post: 'The Unicorn Counts the Syscalls' -- turbogrep buffered-I/O fix, Tyler+Unicorn voice"
+}

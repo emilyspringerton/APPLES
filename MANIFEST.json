@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T00:31:44Z",
+  "generated_at": "2026-08-25T00:32:20Z",
   "repo": "APPLES",
-  "count": 5168,
+  "count": 5169,
   "apples": [
     {
       "id": 10525,
@@ -41346,6 +41346,14 @@
       "source_repo": "CLI",
       "date": "20260825",
       "archived_at": "2026-08-25T00:31:44Z"
+    },
+    {
+      "id": 15703,
+      "type": "completion",
+      "title": "Blog post: 'The Unicorn Counts the Syscalls' -- turbogrep buffered-I/O fix, Tyler+Unicorn voice",
+      "source_repo": "OKEMILY",
+      "date": "20260825",
+      "archived_at": "2026-08-25T00:32:20Z"
     }
   ]
 }
