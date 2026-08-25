@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-25T09:49:05Z",
+  "body": "CHANGELOG updated in PARENA: stdlib/redgarden/bloodflower_mod.prn: REDGARDEN's first real PARENA mod (on-moon-zenith), compiled via 'parena build' and linked directly into REDGARDEN's C binaries -- pure C-to-C, no cgo layer needed. Verified live: REDGARDEN's new tests/test_bloodflower.c exercises the real compiled mod end-to-end. (sess-20260825-0828-cc32a704)\n\n⚓ ☃",
+  "id": 15819,
+  "metadata": null,
+  "run_id": "sess-20260825-0828-cc32a704",
+  "source_repo": "PARENA",
+  "title": "changelog(PARENA): stdlib/redgarden/bloodflower_mod.prn: REDGARDEN's first rea…"
+}
