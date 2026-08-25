@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T09:31:32Z",
+  "generated_at": "2026-08-25T09:32:34Z",
   "repo": "APPLES",
-  "count": 5270,
+  "count": 5271,
   "apples": [
     {
       "id": 10525,
@@ -42162,6 +42162,14 @@
       "source_repo": "CLI",
       "date": "20260825",
       "archived_at": "2026-08-25T09:31:32Z"
+    },
+    {
+      "id": 15805,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time, reverses build-order priority immediately after the GFD mod-surface fork …",
+      "source_repo": "CLI",
+      "date": "20260825",
+      "archived_at": "2026-08-25T09:32:34Z"
     }
   ]
 }
