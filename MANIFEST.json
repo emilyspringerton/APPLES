@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T20:39:13Z",
+  "generated_at": "2026-08-25T20:52:40Z",
   "repo": "APPLES",
-  "count": 5436,
+  "count": 5437,
   "apples": [
     {
       "id": 10525,
@@ -43490,6 +43490,14 @@
       "source_repo": "emily",
       "date": "20260825",
       "archived_at": "2026-08-25T20:39:13Z"
+    },
+    {
+      "id": 15971,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: set up REDGARDEN auto-releases (non-pre-production/real releases), matchi…",
+      "source_repo": "CLI",
+      "date": "20260825",
+      "archived_at": "2026-08-25T20:52:40Z"
     }
   ]
 }
