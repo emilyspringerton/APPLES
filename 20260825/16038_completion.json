@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-25T23:38:58Z",
+  "body": "CHANGELOG updated in emily.cli: S200-04: 'emily golden {list,enable,disable,status}' -- toggleable golden-repo config + real GitHub Actions CI-status polling, replacing manual curl+python one-liners. Deliberately pure Go (cgo would regress the pure-Go cross-compile release pipeline S202-20 just shipped), flagged not silently decided. 10 new tests, go test ./... green. Live-verified: first run correctly surfaced a real, currently-broken PRRJECT_FATBABY CI outage. Apple #16037. (sess-20260825-1938-f6bd411e)\n\n⚓ ☃",
+  "id": 16038,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "emily.cli",
+  "title": "changelog(emily.cli): S200-04: 'emily golden {list,enable,disable,status}' -- tog…"
+}

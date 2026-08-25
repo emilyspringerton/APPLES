@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T23:38:45Z",
+  "generated_at": "2026-08-25T23:38:58Z",
   "repo": "APPLES",
-  "count": 5503,
+  "count": 5504,
   "apples": [
     {
       "id": 10525,
@@ -44026,6 +44026,14 @@
       "source_repo": "emily.cli,PRRJECT_FATBABY",
       "date": "20260825",
       "archived_at": "2026-08-25T23:38:45Z"
+    },
+    {
+      "id": 16038,
+      "type": "completion",
+      "title": "changelog(emily.cli): S200-04: 'emily golden {list,enable,disable,status}' -- tog…",
+      "source_repo": "emily.cli",
+      "date": "20260825",
+      "archived_at": "2026-08-25T23:38:58Z"
     }
   ]
 }
