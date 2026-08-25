@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T23:24:30Z",
+  "generated_at": "2026-08-25T23:25:05Z",
   "repo": "APPLES",
-  "count": 5501,
+  "count": 5502,
   "apples": [
     {
       "id": 10525,
@@ -44010,6 +44010,14 @@
       "source_repo": "emily",
       "date": "20260825",
       "archived_at": "2026-08-25T23:24:30Z"
+    },
+    {
+      "id": 16036,
+      "type": "signal_observation",
+      "title": "[WARN] PRRJECT_FATBABY's latest GitHub Actions CI run (commit 40ec4c6, 2026-08-23, 2 days stale) is…",
+      "source_repo": "CLI",
+      "date": "20260825",
+      "archived_at": "2026-08-25T23:25:05Z"
     }
   ]
 }
