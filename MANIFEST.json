@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T18:48:01Z",
+  "generated_at": "2026-08-25T18:48:06Z",
   "repo": "APPLES",
-  "count": 5378,
+  "count": 5379,
   "apples": [
     {
       "id": 10525,
@@ -43026,6 +43026,14 @@
       "source_repo": "PARENA",
       "date": "20260825",
       "archived_at": "2026-08-25T18:48:01Z"
+    },
+    {
+      "id": 15913,
+      "type": "completion",
+      "title": "scarab.prn now compiles and runs -- fixed invented qualified-variant syntax + dest threading",
+      "source_repo": "ladybug",
+      "date": "20260825",
+      "archived_at": "2026-08-25T18:48:06Z"
     }
   ]
 }

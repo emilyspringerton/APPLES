@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-25T18:48:06Z",
+  "body": "Real bugs, not deeper compiler gaps: (1) SuiteNode/Group-qualified enum construction was never real syntax anywhere in this stdlib (confirmed: zero precedent, VS0 parses it as a plain mangled call name) -- fixed to bare Group/Spec/BeforeHook/AfterHook; (2) describe/it/before-each/after-each needed a real dest : Arena @ Region param for multi-field enum-variant boxing, plus the generated C constructor takes dest FIRST not last (parena build's own success doesn't validate argument order, only count -- caught by actually gcc-compiling). The suite-tree global-state gap flagged in this file's own comments for weeks is now closed too, via PARENA's new (def ...)/(current-arena) support (companion commit). Real, live proof: IDUNA's admin_session_revocation_spec.prn, built on this fixed file, now compiles/links/runs against a real fixture WebDriver server, real passed=1 via this file's own run-suite. ladybug commit 6d2fc89.\n\n⚓ ☃",
+  "id": 15913,
+  "metadata": null,
+  "run_id": "sess-20260825-0828-cc32a704",
+  "source_repo": "ladybug",
+  "title": "scarab.prn now compiles and runs -- fixed invented qualified-variant syntax + dest threading"
+}
