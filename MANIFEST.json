@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T18:47:59Z",
+  "generated_at": "2026-08-25T18:48:01Z",
   "repo": "APPLES",
-  "count": 5377,
+  "count": 5378,
   "apples": [
     {
       "id": 10525,
@@ -43018,6 +43018,14 @@
       "source_repo": "PARENA",
       "date": "20260825",
       "archived_at": "2026-08-25T18:47:59Z"
+    },
+    {
+      "id": 15912,
+      "type": "completion",
+      "title": "changelog(PARENA): Real top-level (def) globals + current-arena + fn-lambda \u0026m…",
+      "source_repo": "PARENA",
+      "date": "20260825",
+      "archived_at": "2026-08-25T18:48:01Z"
     }
   ]
 }
