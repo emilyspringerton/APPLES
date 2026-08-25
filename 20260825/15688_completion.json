@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-25T00:04:21Z",
+  "body": "io.prn rewritten with real POSIX raw-fd host glue (open/close/read/write, replacing the FILE*/I32 type confusion + un-boxed #target bodies from before). grep.prn now compiles gcc-clean end-to-end AND runs correctly against a real file (verified: matched exactly 3/6 lines for pattern 'line', not all 6). Found and fixed 2 more real compiler bugs along the way: (1) scope_lookup was bang-sensitive -- a !-prefixed parameter's bare-name reference (io.prn's own real 'f' in '(get-field f :fd)') never resolved in ordinary Parena code, only inside #target strings; fixed by making Local lookup bang-insensitive on both sides rather than picking one convention and breaking the other (an existing passing test used the with-bang convention). (2) A genuinely dangerous one: match-clause destructuring has no concept of literal-value patterns, only binding names -- '(Ok true)' silently bound a NEW local named 'true' and matched on every Ok regardless of the real boolean value, with zero compile-time or gcc signal. Caught via a real runtime smoke test (grep matched all 6 lines instead of 3), not by any build step. Added a compiler-level guard: matching 'true'/'false' as a bind name is now a real compile error with the actual workaround suggested, so this can't silently recur anywhere else in the stdlib. Fixed by binding+checking explicitly instead. One cosmetic gcc warning remains (int/void* placeholder-type mismatch across an if's two branches inside a match clause, real but doesn't affect correctness -- verified via the same runtime test). All 336 compiler tests still pass.\n\n⚓ ☃",
+  "id": 15688,
+  "metadata": null,
+  "run_id": "sess-20260824-2252-ce890e4f",
+  "source_repo": "PARENA",
+  "title": "io.prn real host implementation + 2 real, silently-wrong compiler bugs fixed -- turbo-grep verified end-to-end"
+}
