@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T00:42:01Z",
+  "generated_at": "2026-08-25T00:42:08Z",
   "repo": "APPLES",
-  "count": 5174,
+  "count": 5175,
   "apples": [
     {
       "id": 10525,
@@ -41394,6 +41394,14 @@
       "source_repo": "PARENA",
       "date": "20260825",
       "archived_at": "2026-08-25T00:42:01Z"
+    },
+    {
+      "id": 15709,
+      "type": "completion",
+      "title": "changelog(PARENA): full bottleneck audit before further point fixes: 7 perf it…",
+      "source_repo": "PARENA",
+      "date": "20260825",
+      "archived_at": "2026-08-25T00:42:08Z"
     }
   ]
 }
