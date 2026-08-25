@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-25T08:42:39Z",
+  "body": "Moved plaintext ~/.ssh/iduna-admin-eddy.txt (IDUNA Back Office admin secret for agent EDDY) into IDUNA Vault as api_key item #1; verified round-trip via 'emily vault get'; deleted the plaintext file. Founder real-time, part of the 2026-08-25 intrusion-detection pass that also found the secondtree account and queued its lockdown in sudo-queue/21-lock-secondtree-account.sh.\n\n⚓ ☃",
+  "id": 15779,
+  "metadata": null,
+  "run_id": "sess-20260825-0828-cc32a704",
+  "source_repo": "IDUNA",
+  "title": "Migrated EDDY admin credential into IDUNA Vault"
+}

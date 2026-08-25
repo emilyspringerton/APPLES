@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T08:41:22Z",
+  "generated_at": "2026-08-25T08:42:39Z",
   "repo": "APPLES",
-  "count": 5244,
+  "count": 5245,
   "apples": [
     {
       "id": 10525,
@@ -41954,6 +41954,14 @@
       "source_repo": "emily.cli",
       "date": "20260825",
       "archived_at": "2026-08-25T08:41:22Z"
+    },
+    {
+      "id": 15779,
+      "type": "completion",
+      "title": "Migrated EDDY admin credential into IDUNA Vault",
+      "source_repo": "IDUNA",
+      "date": "20260825",
+      "archived_at": "2026-08-25T08:42:39Z"
     }
   ]
 }
