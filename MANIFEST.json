@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T09:49:30Z",
+  "generated_at": "2026-08-25T09:50:40Z",
   "repo": "APPLES",
-  "count": 5286,
+  "count": 5287,
   "apples": [
     {
       "id": 10525,
@@ -42290,6 +42290,14 @@
       "source_repo": "EmilyOS",
       "date": "20260825",
       "archived_at": "2026-08-25T09:49:30Z"
+    },
+    {
+      "id": 15821,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: 'there is a popular tool on github to install software called bin.' Likel…",
+      "source_repo": "CLI",
+      "date": "20260825",
+      "archived_at": "2026-08-25T09:50:40Z"
     }
   ]
 }
