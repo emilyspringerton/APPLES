@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T22:58:56Z",
+  "generated_at": "2026-08-25T23:05:10Z",
   "repo": "APPLES",
-  "count": 5494,
+  "count": 5495,
   "apples": [
     {
       "id": 10525,
@@ -43954,6 +43954,14 @@
       "source_repo": "CLI",
       "date": "20260825",
       "archived_at": "2026-08-25T22:58:56Z"
+    },
+    {
+      "id": 16029,
+      "type": "completion",
+      "title": "changelog(emily.cli): emily context build rewritten pure-CLI (no LLM, no ANTHROPI…",
+      "source_repo": "emily.cli",
+      "date": "20260825",
+      "archived_at": "2026-08-25T23:05:10Z"
     }
   ]
 }
