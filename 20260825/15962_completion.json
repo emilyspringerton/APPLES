@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-25T20:27:50Z",
+  "body": "Founder real-time: 'redgarden build is failing.' Root cause: scripts/build_arena.sh (Linux sanity-check step) and ci.yml's Windows mingw cross-compile are separate, redundant build paths from scripts/build.sh -- both were missed when tree_passive_mod.c landed (same gap class bloodflower_mod.c hit before, its own prior comment named this exact risk). Fixed both, verified bash scripts/build_arena.sh exits 0 locally. REDGARDEN da1a4ca.\n\n⚓ ☃",
+  "id": 15962,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "REDGARDEN",
+  "title": "CI fix -- wired tree_passive_mod.c into build_arena.sh + Windows cross-compile"
+}
