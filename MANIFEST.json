@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T08:50:29Z",
+  "generated_at": "2026-08-25T08:50:54Z",
   "repo": "APPLES",
-  "count": 5247,
+  "count": 5248,
   "apples": [
     {
       "id": 10525,
@@ -41978,6 +41978,14 @@
       "source_repo": "CLI",
       "date": "20260825",
       "archived_at": "2026-08-25T08:50:29Z"
+    },
+    {
+      "id": 15782,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time, immediately after the PITVIPER tmux-scrolling bug report: 'using parena' …",
+      "source_repo": "CLI",
+      "date": "20260825",
+      "archived_at": "2026-08-25T08:50:54Z"
     }
   ]
 }
