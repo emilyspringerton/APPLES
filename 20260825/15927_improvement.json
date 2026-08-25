@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "improvement",
+  "archived_at": "2026-08-25T19:15:12Z",
+  "body": "Portal login/home pages now use IDUNA's real cream/gold ceremony aesthetic (Cormorant Garamond + Spectral, matching IDUNA/index.html and IDUNA/styles.css) instead of an invented dark-tech placeholder, with real Prompt-o-verse gallery art (fenrir-robot, fox-robot) served as static files under /portal/images/. Added /portal/logout. Designed via /design canvas 'notebook-portal' first, then ported into the live Go templates. go build/go test clean. Commit 8489324.\n\n⚓ ☃",
+  "id": 15927,
+  "metadata": null,
+  "run_id": "sess-20260825-0828-cc32a704",
+  "source_repo": "IDUNA",
+  "title": "Restyled notebook portal to the real IDUNA style guide + Prompt-o-verse art"
+}
