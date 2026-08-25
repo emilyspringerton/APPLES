@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T01:07:17Z",
+  "generated_at": "2026-08-25T01:07:20Z",
   "repo": "APPLES",
-  "count": 5192,
+  "count": 5193,
   "apples": [
     {
       "id": 10525,
@@ -41538,6 +41538,14 @@
       "source_repo": "PARENA",
       "date": "20260825",
       "archived_at": "2026-08-25T01:07:17Z"
+    },
+    {
+      "id": 15727,
+      "type": "completion",
+      "title": "changelog(PARENA): Plus/Optional regex quantifiers implemented (match-plus/mat…",
+      "source_repo": "PARENA",
+      "date": "20260825",
+      "archived_at": "2026-08-25T01:07:20Z"
     }
   ]
 }
