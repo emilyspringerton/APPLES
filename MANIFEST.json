@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T08:52:00Z",
+  "generated_at": "2026-08-25T08:58:43Z",
   "repo": "APPLES",
-  "count": 5251,
+  "count": 5252,
   "apples": [
     {
       "id": 10525,
@@ -42010,6 +42010,14 @@
       "source_repo": "emily",
       "date": "20260825",
       "archived_at": "2026-08-25T08:52:00Z"
+    },
+    {
+      "id": 15786,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: 'continue working on PARENA.' Already have one fork running in an isolate…",
+      "source_repo": "CLI",
+      "date": "20260825",
+      "archived_at": "2026-08-25T08:58:43Z"
     }
   ]
 }
