@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T08:34:04Z",
+  "generated_at": "2026-08-25T08:34:16Z",
   "repo": "APPLES",
-  "count": 5233,
+  "count": 5234,
   "apples": [
     {
       "id": 10525,
@@ -41866,6 +41866,14 @@
       "source_repo": "EMILY",
       "date": "20260825",
       "archived_at": "2026-08-25T08:34:04Z"
+    },
+    {
+      "id": 15768,
+      "type": "signal_observation",
+      "title": "[WARN] Founder real-time: reports unexpected logouts — 'some weird stuff has been happening where…",
+      "source_repo": "CLI",
+      "date": "20260825",
+      "archived_at": "2026-08-25T08:34:16Z"
     }
   ]
 }
