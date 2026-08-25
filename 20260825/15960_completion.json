@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-25T20:24:15Z",
+  "body": "Both chat input boxes (Town + Battlegrounds/in-match) gained Ctrl+V paste (SDL_GetClipboardText, same pattern the 2026-08-05 login-screen fix established) and Ctrl+C copy-scrollback-to-clipboard (no per-glyph text selection -- this is an immediate-mode-GL client with no hit-testing subsystem to build that on). Plain Ctrl+V chosen over PITVIPER's Ctrl+Shift+V deliberately -- that reservation is terminal-SIGINT-specific, doesn't apply here, and this file already had an established plain-Ctrl+V precedent. Native build verified clean, WASM rebuilt+redeployed to /var/www/okemily/battlegrounds/. GoblinFoxDragon 6e58e18.\n\n⚓ ☃",
+  "id": 15960,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "GoblinFoxDragon",
+  "title": "Chat copy/paste bindings for battlegrounds_gui, same pattern as PITVIPER"
+}
