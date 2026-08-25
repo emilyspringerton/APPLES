@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "observation",
+  "archived_at": "2026-08-25T09:49:30Z",
+  "body": "Founder proposed a real reversal of EmilyOS's existing 'not a bare-metal OS' stance -- building an installable Arch-based distro with EmilyOS's policy kernel baked in as the OS's own security layer. Wrote NORTHSTAR_DISTRO.md (golden-indexed EMILYOS-DISTRO-NORTH) reconciling this with the existing SOC2 mission rather than treating it as a contradiction, capturing concrete included-by-default guidance (PARENA, vim, emily CLI, ssh, systemd, gcc+gnat grounded in the existing EmilyOS/ada/posture/ implementation) and flagging the real blocking open question (from-scratch ISO vs installer-on-real-Arch). Scoping only per Emily Way Principle 2 -- not handed to implementation given the real scale.\n\n⚓ ☃",
+  "id": 15820,
+  "metadata": null,
+  "run_id": "sess-20260825-0828-cc32a704",
+  "source_repo": "EmilyOS",
+  "title": "EmilyOS installable-distro north star scoped (S193-03)"
+}

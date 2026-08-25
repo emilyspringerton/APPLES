@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T09:49:05Z",
+  "generated_at": "2026-08-25T09:49:30Z",
   "repo": "APPLES",
-  "count": 5285,
+  "count": 5286,
   "apples": [
     {
       "id": 10525,
@@ -42282,6 +42282,14 @@
       "source_repo": "PARENA",
       "date": "20260825",
       "archived_at": "2026-08-25T09:49:05Z"
+    },
+    {
+      "id": 15820,
+      "type": "observation",
+      "title": "EmilyOS installable-distro north star scoped (S193-03)",
+      "source_repo": "EmilyOS",
+      "date": "20260825",
+      "archived_at": "2026-08-25T09:49:30Z"
     }
   ]
 }
