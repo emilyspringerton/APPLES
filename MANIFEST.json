@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T20:30:06Z",
+  "generated_at": "2026-08-25T20:30:08Z",
   "repo": "APPLES",
-  "count": 5431,
+  "count": 5432,
   "apples": [
     {
       "id": 10525,
@@ -43450,6 +43450,14 @@
       "source_repo": "CLI",
       "date": "20260825",
       "archived_at": "2026-08-25T20:30:06Z"
+    },
+    {
+      "id": 15966,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: REDGARDEN -- choosing a build (tech-tree/item-template) could let you aut…",
+      "source_repo": "CLI",
+      "date": "20260825",
+      "archived_at": "2026-08-25T20:30:08Z"
     }
   ]
 }
