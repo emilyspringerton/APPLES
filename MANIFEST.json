@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T20:58:27Z",
+  "generated_at": "2026-08-25T20:59:14Z",
   "repo": "APPLES",
-  "count": 5440,
+  "count": 5441,
   "apples": [
     {
       "id": 10525,
@@ -43522,6 +43522,14 @@
       "source_repo": "REDGARDEN",
       "date": "20260825",
       "archived_at": "2026-08-25T20:58:27Z"
+    },
+    {
+      "id": 15975,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: add a reconnect feature to REDGARDEN (rejoin an in-progress match after d…",
+      "source_repo": "CLI",
+      "date": "20260825",
+      "archived_at": "2026-08-25T20:59:14Z"
     }
   ]
 }
