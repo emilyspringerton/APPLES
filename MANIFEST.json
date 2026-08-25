@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T21:39:14Z",
+  "generated_at": "2026-08-25T21:39:16Z",
   "repo": "APPLES",
-  "count": 5472,
+  "count": 5473,
   "apples": [
     {
       "id": 10525,
@@ -43778,6 +43778,14 @@
       "source_repo": "MJOLNIR",
       "date": "20260825",
       "archived_at": "2026-08-25T21:39:14Z"
+    },
+    {
+      "id": 16007,
+      "type": "completion",
+      "title": "Auto-release CI, matching PITVIPER's pattern",
+      "source_repo": "gpt2-alpine-c",
+      "date": "20260825",
+      "archived_at": "2026-08-25T21:39:16Z"
     }
   ]
 }
