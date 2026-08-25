@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "improvement",
+  "archived_at": "2026-08-25T19:18:24Z",
+  "body": "Added /portal/login to the OKEMILY footer (alongside the existing /admin/login link). Added a matching /portal same-origin nginx proxy block (both server stanzas) so it resolves on okemily.com, mirroring /admin/'s existing reasoning -- not yet applied live, queued as sudo-queue/27-okemily-portal-nginx-proxy.sh. Deployed content via okemily-deploy.sh. Commit 557e70d.\n\n⚓ ☃",
+  "id": 15929,
+  "metadata": null,
+  "run_id": "sess-20260825-0828-cc32a704",
+  "source_repo": "OKEMILY",
+  "title": "Footer: linked notebook portal login + queued its nginx proxy"
+}
