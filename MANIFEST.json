@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T08:38:01Z",
+  "generated_at": "2026-08-25T08:40:25Z",
   "repo": "APPLES",
-  "count": 5240,
+  "count": 5241,
   "apples": [
     {
       "id": 10525,
@@ -41922,6 +41922,14 @@
       "source_repo": "CLI",
       "date": "20260825",
       "archived_at": "2026-08-25T08:38:01Z"
+    },
+    {
+      "id": 15775,
+      "type": "completion",
+      "title": "S191-02: admin session sliding-expiration fix",
+      "source_repo": "IDUNA",
+      "date": "20260825",
+      "archived_at": "2026-08-25T08:40:25Z"
     }
   ]
 }
