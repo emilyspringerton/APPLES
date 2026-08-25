@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T09:48:31Z",
+  "generated_at": "2026-08-25T09:48:36Z",
   "repo": "APPLES",
-  "count": 5282,
+  "count": 5283,
   "apples": [
     {
       "id": 10525,
@@ -42258,6 +42258,14 @@
       "source_repo": "REDGARDEN",
       "date": "20260825",
       "archived_at": "2026-08-25T09:48:31Z"
+    },
+    {
+      "id": 15817,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time, more additions to the minimal-distro included-package list: 'build in ada…",
+      "source_repo": "CLI",
+      "date": "20260825",
+      "archived_at": "2026-08-25T09:48:36Z"
     }
   ]
 }
