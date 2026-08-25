@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T19:47:35Z",
+  "generated_at": "2026-08-25T19:48:16Z",
   "repo": "APPLES",
-  "count": 5407,
+  "count": 5408,
   "apples": [
     {
       "id": 10525,
@@ -43258,6 +43258,14 @@
       "source_repo": "EMILY",
       "date": "20260825",
       "archived_at": "2026-08-25T19:47:35Z"
+    },
+    {
+      "id": 15942,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: GoblinFoxDragon (DragonsNShit) needs automated pre-release releases in CI…",
+      "source_repo": "CLI",
+      "date": "20260825",
+      "archived_at": "2026-08-25T19:48:16Z"
     }
   ]
 }
