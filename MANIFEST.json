@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T13:27:40Z",
+  "generated_at": "2026-08-25T13:34:05Z",
   "repo": "APPLES",
-  "count": 5310,
+  "count": 5311,
   "apples": [
     {
       "id": 10525,
@@ -42482,6 +42482,14 @@
       "source_repo": "REDGARDEN",
       "date": "20260825",
       "archived_at": "2026-08-25T13:27:40Z"
+    },
+    {
+      "id": 15845,
+      "type": "completion",
+      "title": "REDGARDEN CI confirmed green -- second fix needed, verified for real this time",
+      "source_repo": "REDGARDEN",
+      "date": "20260825",
+      "archived_at": "2026-08-25T13:34:05Z"
     }
   ]
 }
