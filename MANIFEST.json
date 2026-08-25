@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T08:40:25Z",
+  "generated_at": "2026-08-25T08:40:29Z",
   "repo": "APPLES",
-  "count": 5241,
+  "count": 5242,
   "apples": [
     {
       "id": 10525,
@@ -41930,6 +41930,14 @@
       "source_repo": "IDUNA",
       "date": "20260825",
       "archived_at": "2026-08-25T08:40:25Z"
+    },
+    {
+      "id": 15776,
+      "type": "completion",
+      "title": "changelog(IDUNA): S191-02: admin session sliding-expiration refresh — fixes s…",
+      "source_repo": "IDUNA",
+      "date": "20260825",
+      "archived_at": "2026-08-25T08:40:29Z"
     }
   ]
 }
