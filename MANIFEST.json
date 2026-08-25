@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T09:39:53Z",
+  "generated_at": "2026-08-25T09:40:15Z",
   "repo": "APPLES",
-  "count": 5273,
+  "count": 5274,
   "apples": [
     {
       "id": 10525,
@@ -42186,6 +42186,14 @@
       "source_repo": "CLI",
       "date": "20260825",
       "archived_at": "2026-08-25T09:39:53Z"
+    },
+    {
+      "id": 15808,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time reinforcement: 'SYNACK' -- TCP three-way handshake reference, confirms wan…",
+      "source_repo": "CLI",
+      "date": "20260825",
+      "archived_at": "2026-08-25T09:40:15Z"
     }
   ]
 }
