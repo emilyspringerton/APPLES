@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "improvement",
+  "archived_at": "2026-08-25T19:02:08Z",
+  "body": "GoogleAuthHandler now sets an HttpOnly iduna_session cookie alongside its bearer JSON response; RefreshHandler accepts/refreshes that cookie. Prerequisite for gating the planned Jupyter/SARENA notebook portal behind real IDUNA login (cookie survives plain browser nav + nginx auth_request, unlike a bearer token). Commit a02bb87.\n\n⚓ ☃",
+  "id": 15918,
+  "metadata": null,
+  "run_id": "sess-20260825-0828-cc32a704",
+  "source_repo": "IDUNA",
+  "title": "Cookie-capable Google SSO + refresh sync (notebook portal auth foundation)"
+}

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T18:57:17Z",
+  "generated_at": "2026-08-25T19:02:08Z",
   "repo": "APPLES",
-  "count": 5383,
+  "count": 5384,
   "apples": [
     {
       "id": 10525,
@@ -43066,6 +43066,14 @@
       "source_repo": "emily",
       "date": "20260825",
       "archived_at": "2026-08-25T18:57:17Z"
+    },
+    {
+      "id": 15918,
+      "type": "improvement",
+      "title": "Cookie-capable Google SSO + refresh sync (notebook portal auth foundation)",
+      "source_repo": "IDUNA",
+      "date": "20260825",
+      "archived_at": "2026-08-25T19:02:08Z"
     }
   ]
 }
