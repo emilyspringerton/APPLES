@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T15:39:56Z",
+  "generated_at": "2026-08-25T15:40:12Z",
   "repo": "APPLES",
-  "count": 5340,
+  "count": 5341,
   "apples": [
     {
       "id": 10525,
@@ -42722,6 +42722,14 @@
       "source_repo": "CLI",
       "date": "20260825",
       "archived_at": "2026-08-25T15:39:56Z"
+    },
+    {
+      "id": 15875,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time, additional request: 'can we build paruna mod apis into emily cxcli?' (PAR…",
+      "source_repo": "CLI",
+      "date": "20260825",
+      "archived_at": "2026-08-25T15:40:12Z"
     }
   ]
 }
