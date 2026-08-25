@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T19:02:10Z",
+  "generated_at": "2026-08-25T19:02:37Z",
   "repo": "APPLES",
-  "count": 5385,
+  "count": 5386,
   "apples": [
     {
       "id": 10525,
@@ -43082,6 +43082,14 @@
       "source_repo": "IDUNA",
       "date": "20260825",
       "archived_at": "2026-08-25T19:02:10Z"
+    },
+    {
+      "id": 15920,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time, SARENA_NOTEBOOK/Jupyter access decision thread (after the 'build a PARENA…",
+      "source_repo": "CLI",
+      "date": "20260825",
+      "archived_at": "2026-08-25T19:02:37Z"
     }
   ]
 }
