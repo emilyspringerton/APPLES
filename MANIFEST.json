@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T20:59:15Z",
+  "generated_at": "2026-08-25T20:59:17Z",
   "repo": "APPLES",
-  "count": 5442,
+  "count": 5443,
   "apples": [
     {
       "id": 10525,
@@ -43538,6 +43538,14 @@
       "source_repo": "CLI",
       "date": "20260825",
       "archived_at": "2026-08-25T20:59:15Z"
+    },
+    {
+      "id": 15977,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: reconnect -- 'GFD first then if so' (ambiguous -- possibly: build/verify …",
+      "source_repo": "CLI",
+      "date": "20260825",
+      "archived_at": "2026-08-25T20:59:17Z"
     }
   ]
 }
