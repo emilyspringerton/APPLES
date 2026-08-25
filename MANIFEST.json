@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T00:40:41Z",
+  "generated_at": "2026-08-25T00:42:01Z",
   "repo": "APPLES",
-  "count": 5173,
+  "count": 5174,
   "apples": [
     {
       "id": 10525,
@@ -41386,6 +41386,14 @@
       "source_repo": "CLI",
       "date": "20260825",
       "archived_at": "2026-08-25T00:40:41Z"
+    },
+    {
+      "id": 15708,
+      "type": "completion",
+      "title": "turbogrep/PARENA stdlib bottleneck audit -- 20 items, perf + correctness, verified not guessed",
+      "source_repo": "PARENA",
+      "date": "20260825",
+      "archived_at": "2026-08-25T00:42:01Z"
     }
   ]
 }

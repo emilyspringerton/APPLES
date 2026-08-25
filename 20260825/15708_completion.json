@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-25T00:42:01Z",
+  "body": "Full audit before further point fixes, per founder direction. 7 perf items (2 already fixed this session, 5 open, ranked), 13 correctness items (2 confirmed live via real tests -- CharClass silently matches zero lines where grep finds real matches; sed.prn/awk.prn both have real, distinct, previously-untested compile failures), rest confirmed by code inspection or explicitly marked unverified where a test was inconclusive (MatchBudget's own long-line behavior accidentally routed through the new literal fast path, doesn't actually test the original concern). Plus 3 compiler-level hazards found this session (flat module namespace, Vec-of-struct elem-hint gap, the #target-trusted-verbatim class of bug). Full doc: docs/TURBOGREP_BOTTLENECK_AUDIT.md\n\n⚓ ☃",
+  "id": 15708,
+  "metadata": null,
+  "run_id": "sess-20260824-2252-ce890e4f",
+  "source_repo": "PARENA",
+  "title": "turbogrep/PARENA stdlib bottleneck audit -- 20 items, perf + correctness, verified not guessed"
+}
