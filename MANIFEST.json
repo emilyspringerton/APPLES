@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T19:04:55Z",
+  "generated_at": "2026-08-25T19:04:57Z",
   "repo": "APPLES",
-  "count": 5388,
+  "count": 5389,
   "apples": [
     {
       "id": 10525,
@@ -43106,6 +43106,14 @@
       "source_repo": "IDUNA",
       "date": "20260825",
       "archived_at": "2026-08-25T19:04:55Z"
+    },
+    {
+      "id": 15923,
+      "type": "completion",
+      "title": "changelog(IDUNA): Fix: RequireCookieAuth no longer treats human Google-login …",
+      "source_repo": "IDUNA",
+      "date": "20260825",
+      "archived_at": "2026-08-25T19:04:57Z"
     }
   ]
 }
