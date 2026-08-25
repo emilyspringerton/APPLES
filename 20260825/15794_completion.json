@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-25T09:11:42Z",
+  "body": "regex/pcre.prn's replace() was a real stub (returned input unchanged). Implemented for real via the same #target escape-hatch pattern vec-i32-at/vec-string-at already establish. sed.prn's substitute/stream-substitute fixed (stale read-line arity, same nested-match compiler-gap grep.prn already worked around). Two real bugs found live via full-corpus diff against real GNU sed (68 .prn files, not assumed correct): find-all's substring-relative-position bug (hung/OOM'd on multi-match input, never exercised before) and a resulting off-by-one that silently skipped adjacent matches (s/e/E/g failed 43/68 files before, 0/68 after). Added explicit global? param (s/// vs s///g). tools/turbosed_host.c + tools/turbosed-router.sh mirror turbogrep's layered-safety shape; deliberately not symlinked into ~/.local/bin/sed given sed's higher correctness bar (mutates real pipelines). make test 336/336, bazel build clean. turboawk not attempted -- real usage survey done, scoping note left. PARENA commit fb81481. Full report: docs/TURBOSED_VERIFICATION_REPORT.md.\n\n⚓ ☃",
+  "id": 15794,
+  "metadata": null,
+  "run_id": "sess-20260825-0828-cc32a704",
+  "source_repo": "PARENA",
+  "title": "turbosed: real replace() implementation, two real bugs found+fixed via full-corpus diff"
+}

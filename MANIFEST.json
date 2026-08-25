@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T09:08:50Z",
+  "generated_at": "2026-08-25T09:11:42Z",
   "repo": "APPLES",
-  "count": 5259,
+  "count": 5260,
   "apples": [
     {
       "id": 10525,
@@ -42074,6 +42074,14 @@
       "source_repo": "PITVIPER",
       "date": "20260825",
       "archived_at": "2026-08-25T09:08:50Z"
+    },
+    {
+      "id": 15794,
+      "type": "completion",
+      "title": "turbosed: real replace() implementation, two real bugs found+fixed via full-corpus diff",
+      "source_repo": "PARENA",
+      "date": "20260825",
+      "archived_at": "2026-08-25T09:11:42Z"
     }
   ]
 }
