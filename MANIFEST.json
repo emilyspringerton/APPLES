@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T00:42:08Z",
+  "generated_at": "2026-08-25T00:44:15Z",
   "repo": "APPLES",
-  "count": 5175,
+  "count": 5176,
   "apples": [
     {
       "id": 10525,
@@ -41402,6 +41402,14 @@
       "source_repo": "PARENA",
       "date": "20260825",
       "archived_at": "2026-08-25T00:42:08Z"
+    },
+    {
+      "id": 15710,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: 'ok we need to make a grep router that can route between regular grep and…",
+      "source_repo": "CLI",
+      "date": "20260825",
+      "archived_at": "2026-08-25T00:44:15Z"
     }
   ]
 }
