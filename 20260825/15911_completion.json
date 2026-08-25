@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-25T18:47:59Z",
+  "body": "Closes the suite-tree global-state gap ladybug's own scarab.prn flagged for weeks as 'never designed, doesn't fit VS0's own memory model': (1) top-level (def NAME EXPR) is now a real recognized form (new g_globals EmitScope, process_defs pre-pass, real GCC-constructor initialization); (2) (current-arena) is now a real builtin backed by a permanent process-lifetime Arena; (3) fn lambda parameters now accept \u0026mut T/\u0026Type two-token reference types (emit_defn already had this, fn's own lambda emitter never consulted it -- ladybug's own (Fn [\u0026mut T] Unit) shape needed it). make test 336/336, make test-webdriver 13/13 still green. Real, live proof beyond 'it compiles': the full chain (this compiler + net/webdriver.prn + ladybug's fixed scarab.prn + IDUNA's real security-fix regression spec) now compiles, links, and RUNS, reporting a real passing test via firefly's own runner. PARENA commit 4c6e3c3.\n\n⚓ ☃",
+  "id": 15911,
+  "metadata": null,
+  "run_id": "sess-20260825-0828-cc32a704",
+  "source_repo": "PARENA",
+  "title": "Real top-level (def) globals + current-arena + fn-lambda reference params -- 3 real compiler fixes"
+}

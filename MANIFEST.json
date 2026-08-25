@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T18:41:46Z",
+  "generated_at": "2026-08-25T18:47:59Z",
   "repo": "APPLES",
-  "count": 5376,
+  "count": 5377,
   "apples": [
     {
       "id": 10525,
@@ -43010,6 +43010,14 @@
       "source_repo": "emily",
       "date": "20260825",
       "archived_at": "2026-08-25T18:41:46Z"
+    },
+    {
+      "id": 15911,
+      "type": "completion",
+      "title": "Real top-level (def) globals + current-arena + fn-lambda reference params -- 3 real compiler fixes",
+      "source_repo": "PARENA",
+      "date": "20260825",
+      "archived_at": "2026-08-25T18:47:59Z"
     }
   ]
 }
