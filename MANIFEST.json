@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T15:25:54Z",
+  "generated_at": "2026-08-25T15:26:04Z",
   "repo": "APPLES",
-  "count": 5333,
+  "count": 5334,
   "apples": [
     {
       "id": 10525,
@@ -42666,6 +42666,14 @@
       "source_repo": "CLI",
       "date": "20260825",
       "archived_at": "2026-08-25T15:25:54Z"
+    },
+    {
+      "id": 15868,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time, confirms mod-surface-first pattern applies to this fix too: 'mod api firs…",
+      "source_repo": "CLI",
+      "date": "20260825",
+      "archived_at": "2026-08-25T15:26:04Z"
     }
   ]
 }
