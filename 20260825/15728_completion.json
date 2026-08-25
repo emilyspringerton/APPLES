@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-25T01:15:23Z",
+  "body": "Founder: 'fix the forward-declaration typing gap.' Added resolve_param_prototype_type()/build_defn_prototype() to src/emit.c, mirroring emit_defn's own parameter-shape matching. Forward decls are now fully typed (RetType name(T1,T2,...);) instead of empty-parens/K\u0026R-style, falling back to empty parens only for shapes the mirror doesn't recognize. Verified with a standalone repro that this turns the exact by-value/pointer bug class that caused the Star segfault (fixed in 9a622f5) into a hard gcc compile ERROR, no -Wall needed. All 336 compiler tests pass (2 updated for the new typed prototype format). Rebuilt turbogrep, re-verified byte-identical against real grep across the 951-file corpus, Star repro still correct. Commit 99ef91a.\n\n⚓ ☃",
+  "id": 15728,
+  "metadata": null,
+  "run_id": "sess-20260824-2252-ce890e4f",
+  "source_repo": "PARENA",
+  "title": "Forward-declaration typing gap fixed (G4) — gcc now catches by-value/pointer mismatches at compile time"
+}

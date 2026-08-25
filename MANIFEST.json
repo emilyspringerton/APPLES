@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T01:07:20Z",
+  "generated_at": "2026-08-25T01:15:23Z",
   "repo": "APPLES",
-  "count": 5193,
+  "count": 5194,
   "apples": [
     {
       "id": 10525,
@@ -41546,6 +41546,14 @@
       "source_repo": "PARENA",
       "date": "20260825",
       "archived_at": "2026-08-25T01:07:20Z"
+    },
+    {
+      "id": 15728,
+      "type": "completion",
+      "title": "Forward-declaration typing gap fixed (G4) — gcc now catches by-value/pointer mismatches at compile time",
+      "source_repo": "PARENA",
+      "date": "20260825",
+      "archived_at": "2026-08-25T01:15:23Z"
     }
   ]
 }
