@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T14:00:55Z",
+  "generated_at": "2026-08-25T14:04:48Z",
   "repo": "APPLES",
-  "count": 5319,
+  "count": 5320,
   "apples": [
     {
       "id": 10525,
@@ -42554,6 +42554,14 @@
       "source_repo": "CLI",
       "date": "20260825",
       "archived_at": "2026-08-25T14:00:55Z"
+    },
+    {
+      "id": 15854,
+      "type": "completion",
+      "title": "changelog(IDUNA): Drive slurp feature (S187-03/S188-05/S189-10): OAuth-based …",
+      "source_repo": "IDUNA",
+      "date": "20260825",
+      "archived_at": "2026-08-25T14:04:48Z"
     }
   ]
 }
