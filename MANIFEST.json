@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T22:41:03Z",
+  "generated_at": "2026-08-25T22:42:13Z",
   "repo": "APPLES",
-  "count": 5489,
+  "count": 5490,
   "apples": [
     {
       "id": 10525,
@@ -43914,6 +43914,14 @@
       "source_repo": "REDGARDEN",
       "date": "20260825",
       "archived_at": "2026-08-25T22:41:03Z"
+    },
+    {
+      "id": 16024,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: 'ensure we have some redgarden bot training running' -- checking current …",
+      "source_repo": "CLI",
+      "date": "20260825",
+      "archived_at": "2026-08-25T22:42:13Z"
     }
   ]
 }
