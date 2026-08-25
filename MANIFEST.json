@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T00:51:58Z",
+  "generated_at": "2026-08-25T00:53:53Z",
   "repo": "APPLES",
-  "count": 5185,
+  "count": 5186,
   "apples": [
     {
       "id": 10525,
@@ -41482,6 +41482,14 @@
       "source_repo": "CLI",
       "date": "20260825",
       "archived_at": "2026-08-25T00:51:58Z"
+    },
+    {
+      "id": 15720,
+      "type": "completion",
+      "title": "grep router installed at ~/.local/bin/grep -- flag-safe rewrite + symlink resolution fix",
+      "source_repo": "PARENA",
+      "date": "20260825",
+      "archived_at": "2026-08-25T00:53:53Z"
     }
   ]
 }

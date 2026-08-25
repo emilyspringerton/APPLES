@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-25T00:53:53Z",
+  "body": "Rewrote the router to safely delegate ANY flag-using or stdin invocation straight to real grep (turbogrep implements none of grep's real flag surface -- -i/-r/-n/-v/-c/-l/-A/-B/-C/-e/etc) -- only the exact bare 'grep PATTERN FILE...' shape is a turbogrep candidate, verified against real grep's -n line-numbering format too. Installed as ~/.local/bin/grep (real system-wide-for-this-account PATH override, no narrower 'Claude-Code-only' mechanism exists -- flagged explicitly to founder before installing, confirmed as an informed, deliberate tradeoff: 'its ok that its slower if its logging the data that will make turbogrep faster'). Real bug found on first actual invocation through the installed symlink: dirname on  doesn't resolve symlinks, so SCRIPT_DIR pointed at ~/.local/bin instead of PARENA/tools/, turbogrep binary not found, exit 127. Fixed with readlink -f. Verified working through the real installed symlink: bare pattern (turbogrep path) and -n flag (real grep fallback) both correct, both logged to NDJSON. Real finding, not fixed here: Claude Code's own Bash tool has a harness-injected 'grep' shell FUNCTION (routes to ugrep via the claude binary itself) that takes priority over any PATH override -- this router affects the account's other shells/scripts but not my own Bash tool's grep calls specifically, since bash resolves functions before PATH and this function isn't something I should try to override (core CLI internals, not a dotfile).\n\n⚓ ☃",
+  "id": 15720,
+  "metadata": null,
+  "run_id": "sess-20260824-2252-ce890e4f",
+  "source_repo": "PARENA",
+  "title": "grep router installed at ~/.local/bin/grep -- flag-safe rewrite + symlink resolution fix"
+}
