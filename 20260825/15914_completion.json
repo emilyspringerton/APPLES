@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-25T18:48:13Z",
+  "body": "Founder: 'ok the ladybug test says it doesnt run fix that.' Fixed for real, not documented-around: run-spec + run-suite now report passed=1 failed=0 against a real fixture WebDriver server. Needed 3 PARENA compiler fixes (commit 4c6e3c3) + 1 scarab.prn fix (ladybug commit 6d2fc89), plus 2 real bugs in this file itself: (1) nested fn lambdas tried to capture 'dest' from the enclosing function -- VS0 has no lambda closures; fixed by extracting each lambda's logic into named defns (fn lambda bodies also only support one bare expression, a second real gap) and using (current-arena) where the (Fn ...) shape genuinely has no dest slot; (2) a Result payload bound via (Ok sess), not (Ok !sess), needed explicit deref -- fixed to match net/tcp.prn's own established !-prefix convention. Header comment corrected to match reality (previously said it didn't compile at all). IDUNA commit a764c1e.\n\n⚓ ☃",
+  "id": 15914,
+  "metadata": null,
+  "run_id": "sess-20260825-0828-cc32a704",
+  "source_repo": "IDUNA",
+  "title": "Fixed: the ladybug security regression spec now actually runs (passed=1 failed=0)"
+}
