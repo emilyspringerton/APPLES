@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-25T14:11:20Z",
+  "body": "Same rolling-12 combat-log design as REDGARDEN commit 6292c9e, ported to apps2/battlegrounds_gui. Independently re-verified via a full clean gcc compile before committing (exit 0, zero errors). No headless test suite exists for this client, so compile-verified only -- flagged honestly. Commit 04f825a.\n\n⚓ ☃",
+  "id": 15858,
+  "metadata": null,
+  "run_id": "sess-20260825-0828-cc32a704",
+  "source_repo": "GoblinFoxDragon",
+  "title": "Damage log ported to GFD (S189-01)"
+}
