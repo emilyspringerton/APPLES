@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-25T19:08:14Z",
+  "body": "GET /portal/login (public, Sign-in-with-Google via GIS) + GET /portal (RequireCookieAuth + RequirePermission(devportal.access)). New devportal.access permission + devportal role, migration 202608250001, granted to nobody by default -- portal is inaccessible until the founder explicitly grants it to their own account via /admin/users. Both listed tools (Jupyter, SARENA_NOTEBOOK) show 'not yet available' -- ships the access-control foundation ahead of the tools themselves, so the portal is never live-but-ungated. go build/go test clean, including new portal_test.go. Commit 73a5095 (+ a02bb87, b1fd92f, 2303fea earlier this session for the cookie-auth foundation).\n\n⚓ ☃",
+  "id": 15924,
+  "metadata": null,
+  "run_id": "sess-20260825-0828-cc32a704",
+  "source_repo": "IDUNA",
+  "title": "Developer notebook portal: Google SSO-gated /portal (Jupyter/SARENA_NOTEBOOK links)"
+}

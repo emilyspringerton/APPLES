@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T19:04:57Z",
+  "generated_at": "2026-08-25T19:08:14Z",
   "repo": "APPLES",
-  "count": 5389,
+  "count": 5390,
   "apples": [
     {
       "id": 10525,
@@ -43114,6 +43114,14 @@
       "source_repo": "IDUNA",
       "date": "20260825",
       "archived_at": "2026-08-25T19:04:57Z"
+    },
+    {
+      "id": 15924,
+      "type": "completion",
+      "title": "Developer notebook portal: Google SSO-gated /portal (Jupyter/SARENA_NOTEBOOK links)",
+      "source_repo": "IDUNA",
+      "date": "20260825",
+      "archived_at": "2026-08-25T19:08:14Z"
     }
   ]
 }
