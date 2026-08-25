@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-25T17:20:18Z",
+  "body": "Found while working the backlog top-down (Emily Way Principle 1, lowest-numbered open section): S153-14 (opened 2026-07-19) describes the exact same entity-graph/signalapi/newssite full-in-memory-replay fragility that SECTION 1's top-priority item already fully resolved via Phases 0-3 (streaming eventstore.Scan API, Apple #9989; SQLite checkpoints for signalapi Apple #10207 and newssite Apple #10209; entity-graph checkpoint enabling the previously-disabled service, Apple #10503) -- same symptom (AMZN 'we don't cover' during rebuild), same three processes, same root cause. S153-14 was simply never marked done because the fix landed under a different, earlier section rather than being cross-referenced back. No new code -- documentation correction only, marking the checkbox true to match already-shipped/verified reality (same pattern as this backlog's own S23-01/S154-01 stale-checkbox corrections).\n\n⚓ ☃",
+  "id": 15888,
+  "metadata": null,
+  "run_id": "sess-20260825-0828-cc32a704",
+  "source_repo": "EMILY",
+  "title": "S153-14 stale-checkbox correction: already fixed by SECTION 1 replay-fragility work"
+}
