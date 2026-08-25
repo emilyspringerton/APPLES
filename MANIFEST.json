@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T08:40:29Z",
+  "generated_at": "2026-08-25T08:41:11Z",
   "repo": "APPLES",
-  "count": 5242,
+  "count": 5243,
   "apples": [
     {
       "id": 10525,
@@ -41938,6 +41938,14 @@
       "source_repo": "IDUNA",
       "date": "20260825",
       "archived_at": "2026-08-25T08:40:29Z"
+    },
+    {
+      "id": 15777,
+      "type": "completion",
+      "title": "changelog(EMILY): SECTION 191: security audit + IDUNA admin session logout fi…",
+      "source_repo": "EMILY",
+      "date": "20260825",
+      "archived_at": "2026-08-25T08:41:11Z"
     }
   ]
 }

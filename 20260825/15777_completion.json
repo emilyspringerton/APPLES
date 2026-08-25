@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-25T08:41:11Z",
+  "body": "CHANGELOG updated in EMILY: SECTION 191: security audit + IDUNA admin session logout fix — read-only sweep found no signs of intrusion (permission-limited on auth.log/fail2ban, consistent with existing no-sudo constraint), root-caused and fixed the admin session's silent 8h hard-cutoff logout (S191-02, IDUNA Apple #15775), PARENA intrusion-detection tooling deferred to S190-01's already-tracked gap (S191-03). (sess-20260825-0828-cc32a704)\n\n⚓ ☃",
+  "id": 15777,
+  "metadata": null,
+  "run_id": "sess-20260825-0828-cc32a704",
+  "source_repo": "EMILY",
+  "title": "changelog(EMILY): SECTION 191: security audit + IDUNA admin session logout fi…"
+}
