@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T17:10:38Z",
+  "generated_at": "2026-08-25T17:18:20Z",
   "repo": "APPLES",
-  "count": 5351,
+  "count": 5352,
   "apples": [
     {
       "id": 10525,
@@ -42810,6 +42810,14 @@
       "source_repo": "emily",
       "date": "20260825",
       "archived_at": "2026-08-25T17:10:38Z"
+    },
+    {
+      "id": 15886,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: continued backlog-first session (chmod workaround for IDUNA agent secrets…",
+      "source_repo": "CLI",
+      "date": "20260825",
+      "archived_at": "2026-08-25T17:18:20Z"
     }
   ]
 }
