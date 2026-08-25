@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-25T14:10:34Z",
+  "body": "Rolling last-12 damage-event feed. apply_damage refactored into apply_damage_ex(target, amount, source_hero_id) + a thin zero-risk wrapper for the ~48 existing call sites; direct hero-duel path upgraded to real attacker attribution. New tests/test_damage_log.c, 10/10 real checks, found and fixed a real test isolation bug (bot AI ability casts interfering with attribution checks). Commit 6292c9e, pushed to main, CI confirmed green live via the Actions API. GFD port (apps2/battlegrounds_gui) written and compile-verified but needs a commit from a session with git access to that repo -- see HANDOFF-S189-01-GFD-port.md in this worktree.\n\n⚓ ☃",
+  "id": 15857,
+  "metadata": null,
+  "run_id": "sess-20260825-0828-cc32a704",
+  "source_repo": "REDGARDEN",
+  "title": "Real combat damage log built and CI-verified (S189-01)"
+}

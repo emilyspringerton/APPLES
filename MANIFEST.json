@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T14:10:22Z",
+  "generated_at": "2026-08-25T14:10:34Z",
   "repo": "APPLES",
-  "count": 5322,
+  "count": 5323,
   "apples": [
     {
       "id": 10525,
@@ -42578,6 +42578,14 @@
       "source_repo": "CLI",
       "date": "20260825",
       "archived_at": "2026-08-25T14:10:22Z"
+    },
+    {
+      "id": 15857,
+      "type": "completion",
+      "title": "Real combat damage log built and CI-verified (S189-01)",
+      "source_repo": "REDGARDEN",
+      "date": "20260825",
+      "archived_at": "2026-08-25T14:10:34Z"
     }
   ]
 }
