@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T20:30:08Z",
+  "generated_at": "2026-08-25T20:37:11Z",
   "repo": "APPLES",
-  "count": 5432,
+  "count": 5433,
   "apples": [
     {
       "id": 10525,
@@ -43458,6 +43458,14 @@
       "source_repo": "CLI",
       "date": "20260825",
       "archived_at": "2026-08-25T20:30:08Z"
+    },
+    {
+      "id": 15967,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: REDGARDEN build-templates feature -- UI affordances undecided, chat/comma…",
+      "source_repo": "CLI",
+      "date": "20260825",
+      "archived_at": "2026-08-25T20:37:11Z"
     }
   ]
 }
