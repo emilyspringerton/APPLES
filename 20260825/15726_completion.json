@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-25T01:07:16Z",
+  "body": "Founder: 'implement plus and optional next.' match-plus/match-optional added to stdlib/regex/pcre.prn, verified byte-identical to real grep (a+b, colou?r) across the 949-file monorepo corpus. Critical finding along the way: match-node's Star dispatch passed inner BY VALUE where match_star's C signature expects PatternNode* -- silently broken all session, undetected by gcc because emit.c's forward declarations are empty-parens/K\u0026R-style (no call-site arg type-checking). Confirmed live segfault (./turbogrep 'a*b' file -\u003e exit 139) on what was already the account's installed system grep. Fixed with \u0026inner at the Star/Plus/Optional dispatch call sites. node-supported? also missing explicit Plus/Optional cases, added. Commit 9a622f5.\n\n⚓ ☃",
+  "id": 15726,
+  "metadata": null,
+  "run_id": "sess-20260824-2252-ce890e4f",
+  "source_repo": "PARENA",
+  "title": "Plus/Optional implemented; critical Star segfault found+fixed"
+}
