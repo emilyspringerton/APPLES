@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "curation",
+  "archived_at": "2026-08-25T08:41:22Z",
+  "body": "Curated 2 FatBaby observations into EMILY/BACKLOG.md INTAKE QUEUE.\n\nItems:\n- Founder real-time: confirmed 'secondtree' Linux account (uid 1001, created 2026-08-22 during boot/maintenance, never logged in) is founder-made, not an intrusion artifact — but wants it locked down (disable login) rather than left active. Proceeding to lock the account (expire password + disable shell), pending sudo access (session currently has no TTY/password for sudo, checking passwordless sudo first). (2026-08-25T08:38:01Z)\n- Founder real-time, fragments during the live intrusion-detection pass: 'start building ptraece in parena' / 'ptrace' / 'into the stdlibs' — reads as wanting a PARENA-native ptrace stdlib binding (syscall-level process tracing), likely in service of the 'and/or syscalls' intrusion-detection angle raised moments earlier. Real, legitimate ask but a substantial new PARENA stdlib build (kernel ptrace(2) FFI/syscall wrapper) — not started here. Deliberately not context-switching into it yet: two real, unresolved findings just surfaced in the live intrusion-detection pass (unrecognized second user account 'secondtree' on the box, and an oddly-named ~/.ssh/iduna-admin-eddy.txt credential file) that need founder confirmation before this thread is called safe to set down. Will scope the PARENA ptrace stdlib work as a real backlog item right after. (2026-08-25T08:36:37Z)\n\n⚓ ☃",
+  "id": 15778,
+  "metadata": null,
+  "run_id": "backlog-curate-1787647282",
+  "source_repo": "emily.cli",
+  "title": "backlog curate: 2 obs -\u003e INTAKE QUEUE"
+}
