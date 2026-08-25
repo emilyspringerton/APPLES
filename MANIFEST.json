@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T21:38:53Z",
+  "generated_at": "2026-08-25T21:38:54Z",
   "repo": "APPLES",
-  "count": 5461,
+  "count": 5462,
   "apples": [
     {
       "id": 10525,
@@ -43690,6 +43690,14 @@
       "source_repo": "REDGARDEN",
       "date": "20260825",
       "archived_at": "2026-08-25T21:38:53Z"
+    },
+    {
+      "id": 15996,
+      "type": "completion",
+      "title": "changelog(REDGARDEN): added auto-release CI job (PITVIPER pattern): real, non-pre…",
+      "source_repo": "REDGARDEN",
+      "date": "20260825",
+      "archived_at": "2026-08-25T21:38:54Z"
     }
   ]
 }
