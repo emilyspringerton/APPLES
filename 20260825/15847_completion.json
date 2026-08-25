@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-25T13:41:56Z",
+  "body": "Both parsers built, verified end-to-end against the actual compiled+linked binaries (not just compile-checked). json.prn: 24/24 real checks pass (nested objects/arrays, string escapes, malformed-input error paths). yaml.prn: 28/28 real checks pass, scoped honestly to this monorepo's real YAML usage (block mappings/sequences/scalars/comments, no flow/anchors/multi-doc) after surveying every real .yaml/.yml file in the monorepo first; also live-verified against the actual EINHORN_SURVIVAL/server/bukkit.yml file (5 real top-level keys extracted correctly). Two real parena compiler bugs found and documented: a same-named #target inline-c call is genuine self-recursion not a forward declaration; a single-var loop as a direct and/or argument misparses as a vec literal. make test: 336/336, no regressions. Commit c6d309a.\n\n⚓ ☃",
+  "id": 15847,
+  "metadata": null,
+  "run_id": "sess-20260825-0828-cc32a704",
+  "source_repo": "PARENA",
+  "title": "json.prn and yaml.prn -- real, live-verified stdlib parsers"
+}
