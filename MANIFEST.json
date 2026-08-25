@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T13:10:26Z",
+  "generated_at": "2026-08-25T13:25:19Z",
   "repo": "APPLES",
-  "count": 5307,
+  "count": 5308,
   "apples": [
     {
       "id": 10525,
@@ -42458,6 +42458,14 @@
       "source_repo": "emily",
       "date": "20260825",
       "archived_at": "2026-08-25T13:10:26Z"
+    },
+    {
+      "id": 15842,
+      "type": "signal_observation",
+      "title": "[ERROR] Founder real-time, urgent: 'redgarden build is down' (repeated twice). Also: JSON/YAML PARE…",
+      "source_repo": "CLI",
+      "date": "20260825",
+      "archived_at": "2026-08-25T13:25:19Z"
     }
   ]
 }
