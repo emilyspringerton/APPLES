@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T00:46:59Z",
+  "generated_at": "2026-08-25T00:47:10Z",
   "repo": "APPLES",
-  "count": 5182,
+  "count": 5183,
   "apples": [
     {
       "id": 10525,
@@ -41458,6 +41458,14 @@
       "source_repo": "PARENA",
       "date": "20260825",
       "archived_at": "2026-08-25T00:46:59Z"
+    },
+    {
+      "id": 15717,
+      "type": "completion",
+      "title": "changelog(PARENA): turbogrep router (tools/turbogrep-router.sh): falls back to…",
+      "source_repo": "PARENA",
+      "date": "20260825",
+      "archived_at": "2026-08-25T00:47:10Z"
     }
   ]
 }
