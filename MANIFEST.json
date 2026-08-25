@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T21:39:11Z",
+  "generated_at": "2026-08-25T21:39:12Z",
   "repo": "APPLES",
-  "count": 5470,
+  "count": 5471,
   "apples": [
     {
       "id": 10525,
@@ -43762,6 +43762,14 @@
       "source_repo": "GTA7",
       "date": "20260825",
       "archived_at": "2026-08-25T21:39:11Z"
+    },
+    {
+      "id": 16005,
+      "type": "completion",
+      "title": "Auto-release CI wired up, matching PITVIPER's pattern (blocked on a pre-existing build gap)",
+      "source_repo": "MJOLNIR",
+      "date": "20260825",
+      "archived_at": "2026-08-25T21:39:12Z"
     }
   ]
 }
