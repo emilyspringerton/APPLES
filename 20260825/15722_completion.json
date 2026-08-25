@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-25T00:56:48Z",
+  "body": "Implemented anchor-matches? (zero-width assertion: Start checks pos==0, End checks pos==string-length, matching real grep's per-line default semantics since read-line already strips each line) + node-supported?/pattern-supported? updated to correctly report Start/End as supported while honestly flagging WordBoundary (a real AnchorKind variant the parser never actually produces -- no \\b handling exists) as still unsupported rather than claiming blanket Anchor support. Hit the same single-field-defenum-bind void* gap as grep.prn's own unbox-bool -- added unbox-anchor-kind, same #target escape hatch. Verified against real grep: ^hello, hello$, ^hello$ all byte-identical. Full 10-pattern regression (including the earlier CharClass fix) all match. Router correctly now routes ^-anchored patterns to turbogrep instead of falling back to real grep. All 336 compiler tests pass.\n\n⚓ ☃",
+  "id": 15722,
+  "metadata": null,
+  "run_id": "sess-20260824-2252-ce890e4f",
+  "source_repo": "PARENA",
+  "title": "Anchor (^/$) implemented -- closes another real audit finding"
+}
