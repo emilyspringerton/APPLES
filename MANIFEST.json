@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T17:42:52Z",
+  "generated_at": "2026-08-25T17:49:50Z",
   "repo": "APPLES",
-  "count": 5361,
+  "count": 5362,
   "apples": [
     {
       "id": 10525,
@@ -42890,6 +42890,14 @@
       "source_repo": "EMILY",
       "date": "20260825",
       "archived_at": "2026-08-25T17:42:52Z"
+    },
+    {
+      "id": 15896,
+      "type": "completion",
+      "title": "Security notice banner on the okemily.com funnel",
+      "source_repo": "OKEMILY",
+      "date": "20260825",
+      "archived_at": "2026-08-25T17:49:50Z"
     }
   ]
 }

@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-25T17:49:50Z",
+  "body": "Founder ask: publish a security notice at the top of the emily okemily funnel with a link to the news/press release (the Mid-Piano disclosure post from Apple #15895). Added .security-notice at the very top of index.html's .wrap, above the header -- same badge idiom as the existing .news-tag component, new --notice amber token (distinct from --accent on purpose, a notice isn't a link) verified WCAG AA in both light/dark (8.459:1 dark, 5.589:1 light against --bg-card). Links to https://okemily.com/blog/mid-piano-presents-the-memory-ceremony/. Deployed via ~/okemily-deploy.sh; live-verified 200, banner markup confirmed present.\n\n⚓ ☃",
+  "id": 15896,
+  "metadata": null,
+  "run_id": "sess-20260825-0828-cc32a704",
+  "source_repo": "OKEMILY",
+  "title": "Security notice banner on the okemily.com funnel"
+}
