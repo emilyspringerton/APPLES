@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-25T23:39:05Z",
+  "body": "CHANGELOG updated in PRRJECT_FATBABY: CI had been broken for 2 days: go.mod's local-path 'replace' directives (skuldmark, and norn -- which had no require/replace at all) point at sibling monorepo dirs that don't exist in construct-bundle.yml's single-repo checkout. Fixed: added the missing norn require/replace, two new checkout-into-subdir-then-mv steps fetch NORN + SKULDMARK as real OS-level siblings (a direct 'path: ../NORN' on the checkout step was tried live and failed live -- actions/checkout can't escape $GITHUB_WORKSPACE). Live-verified in real CI, fully green (run 32911493075). Surfaced by the new 'emily golden status' tool's very first run. Apple #16037. (sess-20260825-1938-f6bd411e)\n\n⚓ ☃",
+  "id": 16040,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "PRRJECT_FATBABY",
+  "title": "changelog(PRRJECT_FATBABY): CI had been broken for 2 days: go.mod's local-path 'replace…"
+}

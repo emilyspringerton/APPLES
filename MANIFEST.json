@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T23:39:05Z",
+  "generated_at": "2026-08-25T23:39:08Z",
   "repo": "APPLES",
-  "count": 5505,
+  "count": 5506,
   "apples": [
     {
       "id": 10525,
@@ -44042,6 +44042,14 @@
       "source_repo": "emily",
       "date": "20260825",
       "archived_at": "2026-08-25T23:39:05Z"
+    },
+    {
+      "id": 16040,
+      "type": "completion",
+      "title": "changelog(PRRJECT_FATBABY): CI had been broken for 2 days: go.mod's local-path 'replace…",
+      "source_repo": "PRRJECT_FATBABY",
+      "date": "20260825",
+      "archived_at": "2026-08-25T23:39:08Z"
     }
   ]
 }
