@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-25T09:48:31Z",
+  "body": "Founder real-time, redirected mid-session from GFD to REDGARDEN first (upstream of GFD's apps2/battlegrounds_gui fork): day/night cycle + lighting ported from SHANKPIT's retro_sky.c/retro_lighting.c reference implementation into packages/simulation/arena_game.c (server-authoritative, ticked from arena_update_teams), with a moon-zenith-triggered Bloodflower world event delivered as REDGARDEN's first real PARENA mod (stdlib/redgarden/bloodflower_mod.prn, compiled via 'parena build' to packages/simulation/bloodflower_mod.c, linked directly into red_garden_arena_server and red_garden_arena -- pure C-to-C, no cgo layer needed unlike PITVIPER's Go host). Event-driven per founder's own framing ('it should all be events with parena mods'). Live round-trip verified: new tests/test_bloodflower.c (12 checks, all PASS) actually drives arena_tick_daynight through a full simulated cycle and confirms the moon-zenith event fires through the real compiled PARENA mod (not a direct call), fires within 0-3s of the independently-computed analytical zenith, spawns a real claimable world object at map center, and correctly despawns/re-arms. Full existing test suite (8 binaries, 100+ pre-existing checks) still green -- zero regressions. Ambient lighting wired into apps/arena's in-match render loop only (not the pre-match queuing/draft screens). Written from a git-worktree-isolated fork -- could not run git against REDGARDEN's shared checkout, only plain file writes; real destination files written directly, needs git add/commit/push by whoever has git access.\n\n⚓ ☃",
+  "id": 15816,
+  "metadata": null,
+  "run_id": "sess-20260825-0828-cc32a704",
+  "source_repo": "REDGARDEN",
+  "title": "REDGARDEN day/night cycle + Bloodflower: first real PARENA mod"
+}
