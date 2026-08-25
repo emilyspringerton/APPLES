@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T01:32:46Z",
+  "generated_at": "2026-08-25T01:33:50Z",
   "repo": "APPLES",
-  "count": 5200,
+  "count": 5201,
   "apples": [
     {
       "id": 10525,
@@ -41602,6 +41602,14 @@
       "source_repo": "CLI",
       "date": "20260825",
       "archived_at": "2026-08-25T01:32:46Z"
+    },
+    {
+      "id": 15735,
+      "type": "completion",
+      "title": "External-AI hallucination case study written up (EmilyOS name collision)",
+      "source_repo": "EMILY",
+      "date": "20260825",
+      "archived_at": "2026-08-25T01:33:50Z"
     }
   ]
 }
