@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T15:25:40Z",
+  "generated_at": "2026-08-25T15:25:54Z",
   "repo": "APPLES",
-  "count": 5332,
+  "count": 5333,
   "apples": [
     {
       "id": 10525,
@@ -42658,6 +42658,14 @@
       "source_repo": "CLI",
       "date": "20260825",
       "archived_at": "2026-08-25T15:25:40Z"
+    },
+    {
+      "id": 15867,
+      "type": "signal_observation",
+      "title": "[WARN] Founder real-time, concrete bug details: 'from the press release page' / 'its a prnerswire' …",
+      "source_repo": "CLI",
+      "date": "20260825",
+      "archived_at": "2026-08-25T15:25:54Z"
     }
   ]
 }
