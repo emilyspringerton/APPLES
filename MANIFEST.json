@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T19:02:08Z",
+  "generated_at": "2026-08-25T19:02:10Z",
   "repo": "APPLES",
-  "count": 5384,
+  "count": 5385,
   "apples": [
     {
       "id": 10525,
@@ -43074,6 +43074,14 @@
       "source_repo": "IDUNA",
       "date": "20260825",
       "archived_at": "2026-08-25T19:02:08Z"
+    },
+    {
+      "id": 15919,
+      "type": "completion",
+      "title": "changelog(IDUNA): GoogleAuthHandler sets HttpOnly iduna_session cookie on log…",
+      "source_repo": "IDUNA",
+      "date": "20260825",
+      "archived_at": "2026-08-25T19:02:10Z"
     }
   ]
 }
