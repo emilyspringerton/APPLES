@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T09:47:17Z",
+  "generated_at": "2026-08-25T09:47:22Z",
   "repo": "APPLES",
-  "count": 5280,
+  "count": 5281,
   "apples": [
     {
       "id": 10525,
@@ -42242,6 +42242,14 @@
       "source_repo": "CLI",
       "date": "20260825",
       "archived_at": "2026-08-25T09:47:17Z"
+    },
+    {
+      "id": 15815,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time, concrete package/scope list for the minimal distro: 'make it super small …",
+      "source_repo": "CLI",
+      "date": "20260825",
+      "archived_at": "2026-08-25T09:47:22Z"
     }
   ]
 }
