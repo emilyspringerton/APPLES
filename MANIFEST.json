@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T20:18:56Z",
+  "generated_at": "2026-08-25T20:19:06Z",
   "repo": "APPLES",
-  "count": 5417,
+  "count": 5418,
   "apples": [
     {
       "id": 10525,
@@ -43338,6 +43338,14 @@
       "source_repo": "CLI",
       "date": "20260825",
       "archived_at": "2026-08-25T20:18:56Z"
+    },
+    {
+      "id": 15952,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: fog-of-war ability should be added to REDGARDEN hero 'Duck' (clarifies th…",
+      "source_repo": "CLI",
+      "date": "20260825",
+      "archived_at": "2026-08-25T20:19:06Z"
     }
   ]
 }
