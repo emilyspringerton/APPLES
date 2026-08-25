@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T00:10:21Z",
+  "generated_at": "2026-08-25T00:11:33Z",
   "repo": "APPLES",
-  "count": 5160,
+  "count": 5161,
   "apples": [
     {
       "id": 10525,
@@ -41282,6 +41282,14 @@
       "source_repo": "PARENA",
       "date": "20260825",
       "archived_at": "2026-08-25T00:10:21Z"
+    },
+    {
+      "id": 15695,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: 'we need stats' -- wants proper statistical treatment on the turbogrep ti…",
+      "source_repo": "CLI",
+      "date": "20260825",
+      "archived_at": "2026-08-25T00:11:33Z"
     }
   ]
 }
