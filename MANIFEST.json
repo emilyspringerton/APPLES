@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T20:59:14Z",
+  "generated_at": "2026-08-25T20:59:15Z",
   "repo": "APPLES",
-  "count": 5441,
+  "count": 5442,
   "apples": [
     {
       "id": 10525,
@@ -43530,6 +43530,14 @@
       "source_repo": "CLI",
       "date": "20260825",
       "archived_at": "2026-08-25T20:59:14Z"
+    },
+    {
+      "id": 15976,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: reconnect feature may need real IDUNA logins (not just self-minted connec…",
+      "source_repo": "CLI",
+      "date": "20260825",
+      "archived_at": "2026-08-25T20:59:15Z"
     }
   ]
 }
