@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T20:19:17Z",
+  "generated_at": "2026-08-25T20:23:08Z",
   "repo": "APPLES",
-  "count": 5421,
+  "count": 5422,
   "apples": [
     {
       "id": 10525,
@@ -43370,6 +43370,14 @@
       "source_repo": "CLI",
       "date": "20260825",
       "archived_at": "2026-08-25T20:19:17Z"
+    },
+    {
+      "id": 15956,
+      "type": "completion",
+      "title": "Tree hero passive -- auto-attacks nearby jungle trees for self-heal, PARENA mod",
+      "source_repo": "REDGARDEN",
+      "date": "20260825",
+      "archived_at": "2026-08-25T20:23:08Z"
     }
   ]
 }

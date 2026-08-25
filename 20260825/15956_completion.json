@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-25T20:23:08Z",
+  "body": "ARENA_HERO_TREE now auto-attacks nearby ARENA_OBSTACLE_TREE jungle decoration within ARENA_ATTACK_RANGE, healing itself per hit; trees are a permanent regenerating resource, never destroyed. Strike routes through a real compiled PARENA mod (stdlib/redgarden/tree_passive_mod.prn -\u003e on_tree_passive_strike -\u003e redgarden_host_tree_passive_strike), matching bloodflower_mod.prn's established split. Wire-synced (protocol.h ArenaSnapshotMsg.obstacle_hp) so real networked matches show it; client plays a local squish/jiggle hit-reaction on the tree canopy (same decaying-cosine bounce as hero squish) the instant a snapshot shows hp decrease. 6 new tests, live round-trip through the real compiled mod. Full 10-binary suite green. REDGARDEN c0e3ee6, PARENA 36920c1.\n\n⚓ ☃",
+  "id": 15956,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "REDGARDEN",
+  "title": "Tree hero passive -- auto-attacks nearby jungle trees for self-heal, PARENA mod"
+}
