@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T00:04:33Z",
+  "generated_at": "2026-08-25T00:08:10Z",
   "repo": "APPLES",
-  "count": 5155,
+  "count": 5156,
   "apples": [
     {
       "id": 10525,
@@ -41242,6 +41242,14 @@
       "source_repo": "PARENA",
       "date": "20260825",
       "archived_at": "2026-08-25T00:04:33Z"
+    },
+    {
+      "id": 15690,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time, exploratory: 'is there a way we can physically build memory to expect lz4…",
+      "source_repo": "CLI",
+      "date": "20260825",
+      "archived_at": "2026-08-25T00:08:10Z"
     }
   ]
 }
