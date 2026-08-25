@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T01:30:37Z",
+  "generated_at": "2026-08-25T01:32:46Z",
   "repo": "APPLES",
-  "count": 5199,
+  "count": 5200,
   "apples": [
     {
       "id": 10525,
@@ -41594,6 +41594,14 @@
       "source_repo": "emily",
       "date": "20260825",
       "archived_at": "2026-08-25T01:30:37Z"
+    },
+    {
+      "id": 15734,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: investigate the external-AI hallucination artifact (Martin Robson LinkedI…",
+      "source_repo": "CLI",
+      "date": "20260825",
+      "archived_at": "2026-08-25T01:32:46Z"
     }
   ]
 }
