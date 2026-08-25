@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-25T17:28:49Z",
+  "body": "Founder ask (via /design): update WOTAN with some of the art from Prompt-o-verse. Drafted as a design canvas first (published Artifact for review), then shipped for real per founder follow-up ('finish the wotan stuff first i want to see that online first'). Picked two Norse-themed real Prompt-o-verse generations matching WOTAN's own branding (WOTAN = Odin/Wotan): 'viking warrior' (Unreal Engine style) as a hero banner under the header, and 'Fenrir' (chained rune-wolf, Unreal Engine style) paired alongside the 'How it's built' principles section -- a deliberate pairing, not arbitrary (a bound, disciplined beast beside principles about closed economies and server authority). Downsampled from the live 1024x1024 Prompt-o-verse originals (viking-warrior-unreal, fenrir-unreal) to 900px/700px JPEGs (176K/92K) via imagemagick, stored as real files at OKEMILY/images/ (first image assets ever checked into this repo -- previously text/HTML only). Same card visual language as the existing .game-card system (var(--bg-card), var(--border) hairline, 10px radius) so the art reads as part of the design system, not pasted in. Deployed via ~/okemily-deploy.sh; live-verified: https://okemily.com/tournaments.html returns 200 with both new markup blocks present, both images return 200. Design canvas preview also published for reference: https://claude.ai/code/artifact/07ce4bbc-40a3-4bb8-ab5e-802c82c73b81. Commit OKEMILY \u003cpending\u003e.\n\n⚓ ☃",
+  "id": 15890,
+  "metadata": null,
+  "run_id": "sess-20260825-0828-cc32a704",
+  "source_repo": "OKEMILY",
+  "title": "WOTAN page updated with Prompt-o-verse art (viking warrior + Fenrir)"
+}
