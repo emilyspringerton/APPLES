@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T15:34:34Z",
+  "generated_at": "2026-08-25T15:35:52Z",
   "repo": "APPLES",
-  "count": 5338,
+  "count": 5339,
   "apples": [
     {
       "id": 10525,
@@ -42706,6 +42706,14 @@
       "source_repo": "CLI",
       "date": "20260825",
       "archived_at": "2026-08-25T15:34:34Z"
+    },
+    {
+      "id": 15873,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time, extends the just-shipped S189-01 damage log: 'add kills and item purchase…",
+      "source_repo": "CLI",
+      "date": "20260825",
+      "archived_at": "2026-08-25T15:35:52Z"
     }
   ]
 }
