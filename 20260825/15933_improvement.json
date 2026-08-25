@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "improvement",
+  "archived_at": "2026-08-25T19:22:36Z",
+  "body": "admin_login.go's login page now uses the same IDUNA cream/gold ceremony aesthetic (Cormorant Garamond + Spectral) as the notebook portal login, with eye-of-providence-robot as hero art, served via /portal/images/. Cross-linked with /portal/login. Designed via /design canvas 'IDUNA Back Office Login' (clean + error states) first, then ported into the live template. go build/go test clean. Commit f394094.\n\n⚓ ☃",
+  "id": 15933,
+  "metadata": null,
+  "run_id": "sess-20260825-0828-cc32a704",
+  "source_repo": "IDUNA",
+  "title": "Restyled IDUNA Back Office login to match the portal's cream/gold style guide + Prompt-o-verse art"
+}

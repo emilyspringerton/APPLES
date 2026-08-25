@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T19:18:36Z",
+  "generated_at": "2026-08-25T19:22:36Z",
   "repo": "APPLES",
-  "count": 5398,
+  "count": 5399,
   "apples": [
     {
       "id": 10525,
@@ -43186,6 +43186,14 @@
       "source_repo": "emily.cli",
       "date": "20260825",
       "archived_at": "2026-08-25T19:18:36Z"
+    },
+    {
+      "id": 15933,
+      "type": "improvement",
+      "title": "Restyled IDUNA Back Office login to match the portal's cream/gold style guide + Prompt-o-verse art",
+      "source_repo": "IDUNA",
+      "date": "20260825",
+      "archived_at": "2026-08-25T19:22:36Z"
     }
   ]
 }
