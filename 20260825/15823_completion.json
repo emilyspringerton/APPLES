@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-25T09:54:49Z",
+  "body": "cap.fs.grant/cap.fs.revoke (Admin-only), internal/fsacl (denylist-protected setfacl/getfacl), internal/fsaclmod (cgo\u003c-\u003ePARENA bridge, same shape as PITVIPER scrollmod S192-01), stdlib/emilyos/fsacl.prn, emilyos CLI fs grant/revoke subcommand. Live round-trip verified: 6 new Go tests + real end-to-end CLI run (RBAC deny/allow, getfacl-confirmed ACL, hash-chained audit trail, revoke confirmed). Files written directly to their real destinations in the live EmilyOS checkout (git commit/push there is a hand-off -- this worktree's isolation covers only EMILY). BACKLOG.md update pushed on branch worktree-agent-adfe29269fe46e592, needs merge to main.\n\n⚓ ☃",
+  "id": 15823,
+  "metadata": null,
+  "run_id": "sess-20260825-0828-cc32a704",
+  "source_repo": "EmilyOS",
+  "title": "GRANT_FS/REVOKE_FS built as a real PARENA mod, S193-02"
+}
