@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T20:59:17Z",
+  "generated_at": "2026-08-25T21:01:09Z",
   "repo": "APPLES",
-  "count": 5443,
+  "count": 5444,
   "apples": [
     {
       "id": 10525,
@@ -43546,6 +43546,14 @@
       "source_repo": "CLI",
       "date": "20260825",
       "archived_at": "2026-08-25T20:59:17Z"
+    },
+    {
+      "id": 15978,
+      "type": "signal_observation",
+      "title": "[WARN] Founder real-time, live/urgent: SHANKPIT-460 bot matches still not working, founder is curre…",
+      "source_repo": "CLI",
+      "date": "20260825",
+      "archived_at": "2026-08-25T21:01:09Z"
     }
   ]
 }
