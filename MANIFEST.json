@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T09:45:52Z",
+  "generated_at": "2026-08-25T09:46:56Z",
   "repo": "APPLES",
-  "count": 5278,
+  "count": 5279,
   "apples": [
     {
       "id": 10525,
@@ -42226,6 +42226,14 @@
       "source_repo": "PARENA",
       "date": "20260825",
       "archived_at": "2026-08-25T09:45:52Z"
+    },
+    {
+      "id": 15813,
+      "type": "signal_observation",
+      "title": "[WARN] Founder real-time, major scope escalation: 'oh yea cool lets build our own installable distr…",
+      "source_repo": "CLI",
+      "date": "20260825",
+      "archived_at": "2026-08-25T09:46:56Z"
     }
   ]
 }
