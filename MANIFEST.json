@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T00:36:17Z",
+  "generated_at": "2026-08-25T00:36:25Z",
   "repo": "APPLES",
-  "count": 5171,
+  "count": 5172,
   "apples": [
     {
       "id": 10525,
@@ -41370,6 +41370,14 @@
       "source_repo": "PARENA",
       "date": "20260825",
       "archived_at": "2026-08-25T00:36:17Z"
+    },
+    {
+      "id": 15706,
+      "type": "completion",
+      "title": "changelog(PARENA): literal fast path in is-match: turbogrep another 4x faster …",
+      "source_repo": "PARENA",
+      "date": "20260825",
+      "archived_at": "2026-08-25T00:36:25Z"
     }
   ]
 }

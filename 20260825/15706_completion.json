@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-25T00:36:25Z",
+  "body": "CHANGELOG updated in PARENA: literal fast path in is-match: turbogrep another 4x faster (0.69s -\u003e 0.168s), ~75x faster than original baseline, ~8x slower than system grep (was ~430-660x) (sess-20260824-2252-ce890e4f)\n\n⚓ ☃",
+  "id": 15706,
+  "metadata": null,
+  "run_id": "sess-20260824-2252-ce890e4f",
+  "source_repo": "PARENA",
+  "title": "changelog(PARENA): literal fast path in is-match: turbogrep another 4x faster …"
+}
