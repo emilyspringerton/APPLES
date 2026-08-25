@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-25T18:21:31Z",
+  "body": "Closes the vulnerability disclosed via Apple #15893/#15895 (Mid-Piano Presents: The Memory Ceremony, published before this fix per founder-approved transparency-first sequencing). RequireCookieAuth now re-checks the agent's live status (and re-derives live permissions) on every admin request via new store.IAMStore.GetAgentByID, not just at login -- a suspended agent's already-issued session cookie is now rejected and cleared on its very next request, and a revoked permission takes effect immediately too. 2 new regression tests (TestRequireCookieAuth_SuspendedAgentSessionRejected, TestRequireCookieAuth_RevokedPermissionTakesEffectImmediately), both fail pre-fix/pass post-fix. Full go test ./... green. Companion: IDUNA/tests/ladybug/admin_session_revocation_spec.prn -- the real, intended browser-driven regression spec written in ladybug (PARENA's BDD framework) using PARENA's new net/webdriver.prn Selenium bindings; honestly flagged as not yet self-executing (no real browser/driver installed + ladybug's own separate, pre-existing compiler gaps). IDUNA commit 84dd76e. Binary rebuilt at ~/.local/bin/iduna; needs 'systemctl --user restart iduna.service' (as fatbaby) to go live -- not yet confirmed restarted.\n\n⚓ ☃",
+  "id": 15907,
+  "metadata": null,
+  "run_id": "sess-20260825-0828-cc32a704",
+  "source_repo": "IDUNA",
+  "title": "FIXED: suspended agent's live Back Office session is now actually revoked"
+}

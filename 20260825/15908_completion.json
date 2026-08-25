@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-25T18:21:31Z",
+  "body": "CHANGELOG updated in IDUNA: SECURITY FIX: suspended agent's live Back Office session is now actually revoked -- RequireCookieAuth re-checks live agent status+permissions every request, not just at login. Apple #15908. (sess-20260825-0828-cc32a704)\n\n⚓ ☃",
+  "id": 15908,
+  "metadata": null,
+  "run_id": "sess-20260825-0828-cc32a704",
+  "source_repo": "IDUNA",
+  "title": "changelog(IDUNA): SECURITY FIX: suspended agent's live Back Office session is…"
+}
