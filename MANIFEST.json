@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T13:48:57Z",
+  "generated_at": "2026-08-25T13:49:12Z",
   "repo": "APPLES",
-  "count": 5315,
+  "count": 5316,
   "apples": [
     {
       "id": 10525,
@@ -42522,6 +42522,14 @@
       "source_repo": "EMILY",
       "date": "20260825",
       "archived_at": "2026-08-25T13:48:57Z"
+    },
+    {
+      "id": 15850,
+      "type": "signal_observation",
+      "title": "[INFO] Continuing backlog per founder's 'continue backlog' instruction. Picked S189-01 (damage log …",
+      "source_repo": "CLI",
+      "date": "20260825",
+      "archived_at": "2026-08-25T13:49:12Z"
     }
   ]
 }
