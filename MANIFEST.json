@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T20:19:06Z",
+  "generated_at": "2026-08-25T20:19:09Z",
   "repo": "APPLES",
-  "count": 5418,
+  "count": 5419,
   "apples": [
     {
       "id": 10525,
@@ -43346,6 +43346,14 @@
       "source_repo": "CLI",
       "date": "20260825",
       "archived_at": "2026-08-25T20:19:06Z"
+    },
+    {
+      "id": 15953,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: no ambient/global fog of war -- just give Duck a 'smoke bomb' ability (lo…",
+      "source_repo": "CLI",
+      "date": "20260825",
+      "archived_at": "2026-08-25T20:19:09Z"
     }
   ]
 }
