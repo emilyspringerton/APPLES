@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T08:42:39Z",
+  "generated_at": "2026-08-25T08:42:41Z",
   "repo": "APPLES",
-  "count": 5245,
+  "count": 5246,
   "apples": [
     {
       "id": 10525,
@@ -41962,6 +41962,14 @@
       "source_repo": "IDUNA",
       "date": "20260825",
       "archived_at": "2026-08-25T08:42:39Z"
+    },
+    {
+      "id": 15780,
+      "type": "completion",
+      "title": "changelog(IDUNA): Migrated EDDY admin credential (Back Office iduna.admin sec…",
+      "source_repo": "IDUNA",
+      "date": "20260825",
+      "archived_at": "2026-08-25T08:42:41Z"
     }
   ]
 }
