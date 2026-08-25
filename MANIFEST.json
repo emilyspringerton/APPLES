@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T20:23:08Z",
+  "generated_at": "2026-08-25T20:23:10Z",
   "repo": "APPLES",
-  "count": 5422,
+  "count": 5423,
   "apples": [
     {
       "id": 10525,
@@ -43378,6 +43378,14 @@
       "source_repo": "REDGARDEN",
       "date": "20260825",
       "archived_at": "2026-08-25T20:23:08Z"
+    },
+    {
+      "id": 15957,
+      "type": "completion",
+      "title": "changelog(REDGARDEN): Tree hero passive: auto-attacks nearby jungle trees for sel…",
+      "source_repo": "REDGARDEN",
+      "date": "20260825",
+      "archived_at": "2026-08-25T20:23:10Z"
     }
   ]
 }
