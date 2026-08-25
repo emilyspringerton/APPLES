@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-25T18:20:57Z",
+  "body": "Building IDUNA's admin_session_revocation_spec.prn (a real ladybug-format regression spec for the IDUNA session-revocation security fix, needing PARENA's new net/webdriver.prn Selenium bindings) surfaced two real compile issues in firefly/ladybug.prn against the current PARENA compiler: (1) unannotated fn lambda params -- fixed, VS0 requires explicit (name : Type) on every param, no inference; (2) equal's own lambda body can't see equal's own 'expected' parameter -- VS0 fn literals have no parent scope, real closure support not built yet, NOT fixed (real, deeper compiler work). be-true/be-nil aren't affected by the closure gap, only by deep-eq?/is-none? still being undefined. scarab.prn's own separate suite-tree global-state gap still independently blocks the runner. ladybug commit 108aca3.\n\n⚓ ☃",
+  "id": 15906,
+  "metadata": null,
+  "run_id": "sess-20260825-0828-cc32a704",
+  "source_repo": "ladybug",
+  "title": "Fixed fn lambda param annotations; documented the real closure gap blocking equal"
+}

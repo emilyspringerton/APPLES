@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T18:20:32Z",
+  "generated_at": "2026-08-25T18:20:58Z",
   "repo": "APPLES",
-  "count": 5371,
+  "count": 5372,
   "apples": [
     {
       "id": 10525,
@@ -42970,6 +42970,14 @@
       "source_repo": "PARENA",
       "date": "20260825",
       "archived_at": "2026-08-25T18:20:32Z"
+    },
+    {
+      "id": 15906,
+      "type": "completion",
+      "title": "Fixed fn lambda param annotations; documented the real closure gap blocking equal",
+      "source_repo": "ladybug",
+      "date": "20260825",
+      "archived_at": "2026-08-25T18:20:58Z"
     }
   ]
 }
