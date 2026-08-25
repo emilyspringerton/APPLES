@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-25T17:42:52Z",
+  "body": "Published 'Mid-Piano Presents: The Memory Ceremony' (Tyler + garage crew: Duck, Gary, Loki, MnM, Unicorn) as a public, in-character disclosure of the vulnerability from Apple #15893 -- founder instruction: disclose before the fix ships, not after. Voice-matched against the closest precedents before writing: 'Mid-Piano Presents: The Squad' (ensemble transcript format/cast voices) and 'Uptime Is Not Aliveness' (incident-memorial genre). Covers the real mechanics accurately in-character: suspend blocks new logins but not an already-issued session cookie, since RequireCookieAuth only verifies JWT signature/expiry, never re-checks live agent status -- so a suspended agent with an open Back Office tab can keep acting, including un-suspending itself. Honestly flags what's NOT known (whether the leaked BOOTS key was ever used to log in before it was caught -- no session log exists yet to check that retroactively) rather than asserting comfort. States plainly the fix is in progress, not shipped, at time of publish. Live: https://okemily.com/blog/mid-piano-presents-the-memory-ceremony/ (200). Draft kept at scratchpad, not committed to a repo (blog content lives in IDUNA's blog.db, not git, per OKEMILY/CLAUDE.md).\n\n⚓ ☃",
+  "id": 15895,
+  "metadata": null,
+  "run_id": "sess-20260825-0828-cc32a704",
+  "source_repo": "EMILY",
+  "title": "Public disclosure: IDUNA suspended-agent session-revocation gap"
+}
