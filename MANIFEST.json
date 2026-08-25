@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T09:29:39Z",
+  "generated_at": "2026-08-25T09:29:56Z",
   "repo": "APPLES",
-  "count": 5264,
+  "count": 5265,
   "apples": [
     {
       "id": 10525,
@@ -42114,6 +42114,14 @@
       "source_repo": "CLI",
       "date": "20260825",
       "archived_at": "2026-08-25T09:29:39Z"
+    },
+    {
+      "id": 15799,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time, new parallel thread while GFD/EduScript investigation is mid-flight: 'bri…",
+      "source_repo": "CLI",
+      "date": "20260825",
+      "archived_at": "2026-08-25T09:29:56Z"
     }
   ]
 }
