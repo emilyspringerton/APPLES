@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T17:58:25Z",
+  "generated_at": "2026-08-25T17:58:27Z",
   "repo": "APPLES",
-  "count": 5365,
+  "count": 5366,
   "apples": [
     {
       "id": 10525,
@@ -42922,6 +42922,14 @@
       "source_repo": "PARENA",
       "date": "20260825",
       "archived_at": "2026-08-25T17:58:25Z"
+    },
+    {
+      "id": 15900,
+      "type": "completion",
+      "title": "changelog(PARENA): Real BSD socket host glue for net/tcp.prn (renamed API: tcp…",
+      "source_repo": "PARENA",
+      "date": "20260825",
+      "archived_at": "2026-08-25T17:58:27Z"
     }
   ]
 }
