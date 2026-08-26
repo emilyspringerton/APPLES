@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-26T16:53:13Z",
+  "generated_at": "2026-08-26T16:56:25Z",
   "repo": "APPLES",
-  "count": 5662,
+  "count": 5663,
   "apples": [
     {
       "id": 10525,
@@ -45298,6 +45298,14 @@
       "source_repo": "emily",
       "date": "20260826",
       "archived_at": "2026-08-26T16:53:13Z"
+    },
+    {
+      "id": 16197,
+      "type": "completion",
+      "title": "Real syntax-highlighted PARENA source rendering -- theme+tokenizer+grammar+renderer tied together, TextMate feature milestone",
+      "source_repo": "PARENA",
+      "date": "20260826",
+      "archived_at": "2026-08-26T16:56:25Z"
     }
   ]
 }
