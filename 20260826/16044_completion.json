@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-26T00:01:58Z",
+  "body": "Founder real-time: 'do fog of war as an ability' -\u003e 'add to the duck' -\u003e 'there is no natural fog of war just duck smoke bomb' -\u003e 'server authorittive' -\u003e 'as a parena mod' -\u003e 'mod first dev.' This engine has no vision/LOS system anywhere -- Smoke Bomb implements the one honest, buildable analog: hero_obscured_from blocks arena_nearest_enemy from selecting a hero standing inside an active smoke cloud when the caster is outside it (symmetric per-cloud). New duck_smoke_ms/x/z fields on ArenaHero (new W-slot zone, Duck's R has none of its own). Cast via arena_toggle_w's new DUCK case, routed through the PARENA-compiled on_duck_smoke_bomb_cast (PARENA commit 191c342) -- mod is the trigger. Decremented inside the shared tick_hero_kit (not duplicated per top-level tick function) -- deliberately avoiding the exact S202-23 Tree-passive bug class, verified through both arena_update and arena_update_teams. Wire-synced + client-rendered (real cloud footprint + cast-radius preview). 13 new tests, all passing. All 4 build paths wired up front. Found (not fixed, out of scope, flagged) a pre-existing test_arena_replay segfault, confirmed via git-stash bisect to predate this change. REDGARDEN commit 18ef461.\n\n⚓ ☃",
+  "id": 16044,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "REDGARDEN",
+  "title": "Duck W -- Smoke Bomb shipped, real target-denial AoE (S202-10)"
+}
