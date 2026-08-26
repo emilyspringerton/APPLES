@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-26T01:45:54Z",
+  "body": "Founder worried they'd lost/forgotten the password used to encrypt existing GCS backups. Investigated: the emily backup key isn't a memorized password -- it's a generated 32-byte AES-256 key file at IDUNA/var/backup-encryption.key, created 2026-08-18, still present and intact. Nothing was actually lost; no rotation performed (would have made every existing encrypted backup permanently unreadable for no reason). Founder chose 'keep current key' when asked. Made a redundant local copy at IDUNA/var/key-backups/backup-encryption.key.20260826 (0600, ACL-readable by fatbaby) so an accidental deletion of the primary doesn't strand it. True off-box durability (a copy on different physical storage/in a password manager) still needs the founder to personally move it off this box -- flagged, not silently done on their behalf since picking an external destination for a raw crypto key is their call, not mine.\n\n⚓ ☃",
+  "id": 16078,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "IDUNA",
+  "title": "Backup encryption key confirmed intact + redundant local copy made"
+}
