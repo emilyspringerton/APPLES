@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-26T22:29:24Z",
+  "generated_at": "2026-08-26T22:30:53Z",
   "repo": "APPLES",
-  "count": 5702,
+  "count": 5703,
   "apples": [
     {
       "id": 10525,
@@ -45618,6 +45618,14 @@
       "source_repo": "PARENA",
       "date": "20260826",
       "archived_at": "2026-08-26T22:29:24Z"
+    },
+    {
+      "id": 16237,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: cross-platform PARENA editor release artifacts (Windows/Linux/macOS edito…",
+      "source_repo": "CLI",
+      "date": "20260826",
+      "archived_at": "2026-08-26T22:30:53Z"
     }
   ]
 }
