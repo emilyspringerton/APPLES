@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-26T03:39:42Z",
+  "body": "Founder real-time, live: after extensive debugging of Abraham's manual ground-click fireball cast couldn't be conclusively root-caused from the client side, founder redesigned the ability: 'fuck it have the fireball go infinitely across the map' -\u003e 'have it fire at the nearest enemy no matter how far away'. Abraham's W now auto-targets the nearest living enemy (arena_nearest_enemy, no range cap), removing the manual ground-target click entirely -- client W-press now casts immediately like every other hero. Added real server-side diagnostic logging (arena_server inherits the matchmaker's own stdout/stderr to var/logs/matchmaker-bots.log, readable directly with no relay needed) per founder's own 'i cant read shit off a screen to you'. Separately: 'switch the targeted ability to another hero who has a trash w and give them moira orb from overwatch' -\u003e 'give it to xehinhshu' (He Xiangu) -\u003e 'someone that has a toggle have their toggle switch between light and dark' -- He Xiangu's old instant-hitscan Q replaced with Moira Orb, a real homing projectile reusing the same auto-target code path; her W toggle reframed into a real Light/Dark stance (Light=regen, Dark=flat armor). Both verified via direct headless repros. Also completed the REDGARDEN Bazel migration (S202-36, founder: 'i want the bazel migration done now') -- all 7 binaries + 14 test targets build/pass under bazel build/test //..., following PARENA's own existing Bazel precedent; found and fixed a real structural gap along the way (arena_game.c now #includes all 6 mod host headers directly, closing the 'a new mod misses one -include flag' bug class that hit this session 3 separate times). Full 1099-check shell-script test suite also green, real mingw cross-compile verified. REDGARDEN 6a27f00 (gameplay), 1158929 (bazel).\n\n⚓ ☃",
+  "id": 16101,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "REDGARDEN",
+  "title": "Abraham W + He Xiangu Q redesigned to auto-target; REDGARDEN migrated to Bazel"
+}

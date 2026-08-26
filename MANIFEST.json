@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-26T03:38:40Z",
+  "generated_at": "2026-08-26T03:39:42Z",
   "repo": "APPLES",
-  "count": 5566,
+  "count": 5567,
   "apples": [
     {
       "id": 10525,
@@ -44530,6 +44530,14 @@
       "source_repo": "emily",
       "date": "20260826",
       "archived_at": "2026-08-26T03:38:40Z"
+    },
+    {
+      "id": 16101,
+      "type": "completion",
+      "title": "Abraham W + He Xiangu Q redesigned to auto-target; REDGARDEN migrated to Bazel",
+      "source_repo": "REDGARDEN",
+      "date": "20260826",
+      "archived_at": "2026-08-26T03:39:42Z"
     }
   ]
 }
