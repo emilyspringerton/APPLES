@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-26T22:54:31Z",
+  "generated_at": "2026-08-26T23:01:56Z",
   "repo": "APPLES",
-  "count": 5705,
+  "count": 5706,
   "apples": [
     {
       "id": 10525,
@@ -45642,6 +45642,14 @@
       "source_repo": "emily",
       "date": "20260826",
       "archived_at": "2026-08-26T22:54:31Z"
+    },
+    {
+      "id": 16240,
+      "type": "completion",
+      "title": "Real cross-platform editor-demo release binaries + regular (non-prerelease) auto-releases",
+      "source_repo": "PARENA",
+      "date": "20260826",
+      "archived_at": "2026-08-26T23:01:56Z"
     }
   ]
 }
