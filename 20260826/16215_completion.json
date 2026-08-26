@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-26T20:21:34Z",
+  "body": "Founder real-time: 'continue working on parena editor' (continuation).\n\nClosed a real gap: sdl2/key-left and sdl2/key-right were added alongside key-backspace/key-return earlier the same day but never actually wired into a real edit loop. stdlib/editor/buffer.prn gained move-cursor-left/move-cursor-right (plain Buffer-returning, clamped at both edges rather than Result-wrapped -- an arrow key at the line's start/end is a real no-op, not an error). Wired into examples/editor_main.c's real event loop.\n\nVerified with real tests: moving the cursor left then inserting text lands the new text at the real, moved position (not just checking the cursor's own reported value) -- 'Hello' -\u003e move left twice -\u003e insert 'X' -\u003e genuinely 'HelXlo', confirming the cursor position actually drives where edits land. Real clamping confirmed at both buffer edges. Clean under -Werror and ASan+UBSan. Zero regression in the full suite + make editor-demo-smoke.\n\nCommit: 986dc91.\n\n⚓ ☃",
+  "id": 16215,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "PARENA",
+  "title": "Real Left/Right arrow-key cursor movement wired into the PARENA editor"
+}

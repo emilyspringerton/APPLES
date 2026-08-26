@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-26T20:06:51Z",
+  "generated_at": "2026-08-26T20:21:34Z",
   "repo": "APPLES",
-  "count": 5680,
+  "count": 5681,
   "apples": [
     {
       "id": 10525,
@@ -45442,6 +45442,14 @@
       "source_repo": "emily",
       "date": "20260826",
       "archived_at": "2026-08-26T20:06:51Z"
+    },
+    {
+      "id": 16215,
+      "type": "completion",
+      "title": "Real Left/Right arrow-key cursor movement wired into the PARENA editor",
+      "source_repo": "PARENA",
+      "date": "20260826",
+      "archived_at": "2026-08-26T20:21:34Z"
     }
   ]
 }
