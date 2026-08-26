@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-26T00:17:15Z",
+  "generated_at": "2026-08-26T00:21:32Z",
   "repo": "APPLES",
-  "count": 5518,
+  "count": 5519,
   "apples": [
     {
       "id": 10525,
@@ -44146,6 +44146,14 @@
       "source_repo": "CLI",
       "date": "20260826",
       "archived_at": "2026-08-26T00:17:15Z"
+    },
+    {
+      "id": 16053,
+      "type": "completion",
+      "title": "Kanban prioritization layer shipped -- 3-column GUI + agent API",
+      "source_repo": "IDUNA,emily.cli",
+      "date": "20260826",
+      "archived_at": "2026-08-26T00:21:32Z"
     }
   ]
 }

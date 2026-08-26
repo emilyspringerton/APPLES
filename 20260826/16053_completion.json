@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-26T00:21:31Z",
+  "body": "Founder real-time, built up across several messages: 'ok lets build a kanban layer on top of our sprints that lets us assign priority for the next open dev to picj up - for now it can be simple 2 tiers of special next queues priority and cruise' -\u003e 'it allows us to drag from backlog into 1 of the 2 priority queues backlog numbers stay the same it gets a kanban tracking something' -\u003e 'gui kanban interface 3 columns in iduna' -\u003e 'i can ask the ai agent to work from the priority or cruise backlog' -\u003e 'theoretically 2 agents could work in paralell without as much risk of colliding priorities.' New kanban_cards table (backlog_item_id + queue + position) is a real overlay, not a replacement -- BACKLOG.md stays the authoritative source of an item's content/status. KanbanHandler (GET/POST/PATCH/DELETE /api/v1/kanban/cards) mounted twice with the same instance: cookie-gated under /admin/kanban/api/ (iduna.admin) for the browser board, bearer-gated under /api/v1/ with a new, narrower kanban.access permission for CLI/agent access -- principle of least privilege, granted to EMILY-PRIME. KanbanPageHandler is the real 3-column drag-and-drop GUI (Backlog/Priority/Cruise), cream/gold IDUNA style. emily.cli's new 'emily kanban list/add/move/rm' is the agent-facing half ('i can ask the ai agent to work from the priority or cruise backlog'). 9 new IDUNA tests + 8 new emily.cli tests, all passing. Live-verified: the new table and permission grant are both already applied to the real production var/iduna.db (one-shot local run + a direct additive agent_permissions grant); only the running binary needs swapping, queued as sudo-queue/29-restart-iduna-for-kanban-layer.sh for fatbaby. IDUNA commit 88825a3, emily.cli commit 324ad53.\n\n⚓ ☃",
+  "id": 16053,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "IDUNA,emily.cli",
+  "title": "Kanban prioritization layer shipped -- 3-column GUI + agent API"
+}
