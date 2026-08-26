@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-26T03:25:18Z",
+  "generated_at": "2026-08-26T03:25:36Z",
   "repo": "APPLES",
-  "count": 5564,
+  "count": 5565,
   "apples": [
     {
       "id": 10525,
@@ -44514,6 +44514,14 @@
       "source_repo": "CLI",
       "date": "20260826",
       "archived_at": "2026-08-26T03:25:18Z"
+    },
+    {
+      "id": 16099,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time (continuing to refine the new hero feature): 'someone that has a toggle ha…",
+      "source_repo": "CLI",
+      "date": "20260826",
+      "archived_at": "2026-08-26T03:25:36Z"
     }
   ]
 }
