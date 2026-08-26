@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-26T03:23:57Z",
+  "generated_at": "2026-08-26T03:25:18Z",
   "repo": "APPLES",
-  "count": 5563,
+  "count": 5564,
   "apples": [
     {
       "id": 10525,
@@ -44506,6 +44506,14 @@
       "source_repo": "CLI",
       "date": "20260826",
       "archived_at": "2026-08-26T03:23:57Z"
+    },
+    {
+      "id": 16098,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time (new feature, arrived mid-Abraham-fix): 'switch the targeted ability to an…",
+      "source_repo": "CLI",
+      "date": "20260826",
+      "archived_at": "2026-08-26T03:25:18Z"
     }
   ]
 }
