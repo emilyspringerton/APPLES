@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-26T21:03:46Z",
+  "body": "Founder real-time: 'continue working on parena editor' (continuation).\n\nThe next real keys a single-line edit loop needs once Left/Right cursor movement existed: Home/End jump the cursor to the start/end of the line (always succeeds); Delete removes the character AHEAD of the cursor (Backspace covers the one behind), a real, honest OutOfRange when nothing is ahead. runtime/parena_runtime.h gained the real SDLK_HOME/SDLK_END/SDLK_DELETE getters, sdl2.prn wraps them, editor/buffer.prn gained move-cursor-home/move-cursor-end/delete-forward-at-cursor, wired into examples/editor_main.c's real event loop.\n\nVerified with real tests: Home jumps to 0, forward-delete from there removes the real correct character, End jumps to the real end, forward-delete there correctly reports OutOfRange (not a crash or silent no-op). Clean under -Werror and ASan+UBSan. Zero regression in the full suite + make editor-demo-smoke.\n\nCommit: 688cf3b.\n\n⚓ ☃",
+  "id": 16220,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "PARENA",
+  "title": "Real Home/End keys + forward-delete wired into the PARENA editor"
+}
