@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-26T05:37:27Z",
+  "generated_at": "2026-08-26T05:38:06Z",
   "repo": "APPLES",
-  "count": 5590,
+  "count": 5591,
   "apples": [
     {
       "id": 10525,
@@ -44722,6 +44722,14 @@
       "source_repo": "CLI",
       "date": "20260826",
       "archived_at": "2026-08-26T05:37:27Z"
+    },
+    {
+      "id": 16125,
+      "type": "completion",
+      "title": "Autocurriculum RL training run complete: 503808/500000 timesteps, 35% win rate",
+      "source_repo": "REDGARDEN",
+      "date": "20260826",
+      "archived_at": "2026-08-26T05:38:06Z"
     }
   ]
 }

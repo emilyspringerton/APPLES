@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-26T05:38:06Z",
+  "body": "team_size=3 PPO autocurriculum run (rl_team_checkpoints_autocurriculum_20260825/) finished: 503808 timesteps (~6h wall clock), final model ppo_arena_team_final.zip. Eval: 7W 13L 0D over 20 episodes vs. the heuristic bot team -- 35% win rate, WORSE than the 50% baseline a coin-flip would get, reported honestly rather than glossed over. Exported rl_policy_weights_team.h (146300 bytes, 3 layers, sizes=[89,64,64,5]) for inspection only -- deliberately NOT git-synced automatically and NOT wired into any live consumer (per the training script's own stated policy: promoting a team-trained policy into production is a real design decision, not a side effect of a training run finishing). This resolves S202-31's own stated blocker ('training run finishing') -- the actual integration work (wiring inference into arena_game.c's bot_cast_kit_if_ready or a generalization of it) remains genuinely not started, still tracked as its own open item, now unblocked to actually begin. Real design questions still open before wiring makes sense given the mediocre win rate: is this policy actually worth deploying over the existing heuristic bot AI, or does it need more training / a different reward shape first.\n\n⚓ ☃",
+  "id": 16125,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "REDGARDEN",
+  "title": "Autocurriculum RL training run complete: 503808/500000 timesteps, 35% win rate"
+}
