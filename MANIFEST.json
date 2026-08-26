@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-26T00:02:14Z",
+  "generated_at": "2026-08-26T00:03:09Z",
   "repo": "APPLES",
-  "count": 5512,
+  "count": 5513,
   "apples": [
     {
       "id": 10525,
@@ -44098,6 +44098,14 @@
       "source_repo": "CLI",
       "date": "20260826",
       "archived_at": "2026-08-26T00:02:14Z"
+    },
+    {
+      "id": 16047,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: 'ok lets build a kanban layer on top of our sprints that lets us assign p…",
+      "source_repo": "CLI",
+      "date": "20260826",
+      "archived_at": "2026-08-26T00:03:09Z"
     }
   ]
 }
