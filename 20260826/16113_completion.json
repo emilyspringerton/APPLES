@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-26T04:53:47Z",
+  "body": "Founder real-time: 'make bacon buck w instead of a toggle have it turn into sghadow step use the targeting system you had for abraham fireball before we changed it' -\u003e 'but have it click on a hero to teleport roughly behind them' -\u003e 'add a sense of hero direction i guess so we can actually teleport behind them' -\u003e 'hive it a generous range but not crazy like give it the same range as the ranged auto attacks'. Added a real, new server-side concept: ArenaHero.facing_rad, updated from live movement direction -- the first time hero facing exists as real simulation state, not just client-visual interpolation. Shadow Step reads the TARGET's own facing_rad (verified via a real test flipping it and confirming the blink direction flips too), not the caster's approach angle. Revived the ground-targeting reticle machinery left in place when Abraham's own W moved off it, but the confirm click now detects a hovered HERO (g_hover_target, same mechanism click-to-attack already uses) instead of a ground point. Range = ARENA_GARY_ATTACK_RANGE exactly, instant blink (no windup), real cooldown/mana, real no-op on miss/ally/out-of-range (no wasted cooldown). Bacon+Puck's Q simplified since its own w_active-gated bonus duration depended on the now-gone toggle. Removed the earlier temporary Abraham click-debug stderr traces while in the area (resolved by that ability's own redesign). 7 new tests, full 1119-check suite green, bazel test passes, real mingw cross-compile verified. REDGARDEN 14e37e1.\n\n⚓ ☃",
+  "id": 16113,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "REDGARDEN",
+  "title": "Bacon+Puck's W replaced with Shadow Step: blink behind a targeted enemy (real facing tracked server-side)"
+}
