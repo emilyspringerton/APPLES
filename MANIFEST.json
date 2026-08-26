@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-26T01:34:11Z",
+  "generated_at": "2026-08-26T01:34:16Z",
   "repo": "APPLES",
-  "count": 5537,
+  "count": 5538,
   "apples": [
     {
       "id": 10525,
@@ -44298,6 +44298,14 @@
       "source_repo": "EmilyOS",
       "date": "20260826",
       "archived_at": "2026-08-26T01:34:11Z"
+    },
+    {
+      "id": 16072,
+      "type": "completion",
+      "title": "README.md refresh: real policy kernel, not stale GUI v0.1 doc",
+      "source_repo": "EmilyOS",
+      "date": "20260826",
+      "archived_at": "2026-08-26T01:34:16Z"
     }
   ]
 }

@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-26T01:34:16Z",
+  "body": "Replaced README.md's entirely disconnected 'GUI v0.1 - Game-UI Filesystem' design capture with accurate content describing EmilyOS as the real Go policy kernel (make build/test/verify, posture/verb/audit/snapshot/fs CLI surface, GRANT_FS/REVOKE_FS via fsaclmod PARENA mod, Ravenscar Ada posture port, NORTHSTAR_DISTRO.md pivot pointer). Old content archived to docs/legacy-archive/gui-v0.1-design-capture.md per that dir's own convention. Commit 422dd6d. Part of the monorepo-wide README refresh pass.\n\n⚓ ☃",
+  "id": 16072,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "EmilyOS",
+  "title": "README.md refresh: real policy kernel, not stale GUI v0.1 doc"
+}
