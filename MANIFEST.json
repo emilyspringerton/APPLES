@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-26T01:16:58Z",
+  "generated_at": "2026-08-26T01:22:48Z",
   "repo": "APPLES",
-  "count": 5532,
+  "count": 5533,
   "apples": [
     {
       "id": 10525,
@@ -44258,6 +44258,14 @@
       "source_repo": "CLI",
       "date": "20260826",
       "archived_at": "2026-08-26T01:16:58Z"
+    },
+    {
+      "id": 16067,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: 'ensure our iduna swagger spec is fully updated wherever it lives' -- arr…",
+      "source_repo": "CLI",
+      "date": "20260826",
+      "archived_at": "2026-08-26T01:22:48Z"
     }
   ]
 }
