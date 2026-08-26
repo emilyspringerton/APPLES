@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-26T06:00:01Z",
+  "generated_at": "2026-08-26T06:00:04Z",
   "repo": "APPLES",
-  "count": 5598,
+  "count": 5599,
   "apples": [
     {
       "id": 10525,
@@ -44786,6 +44786,14 @@
       "source_repo": "PARENA",
       "date": "20260826",
       "archived_at": "2026-08-26T06:00:01Z"
+    },
+    {
+      "id": 16133,
+      "type": "completion",
+      "title": "changelog(PARENA): pty.prn + shell.prn: real forkpty-based host implementation…",
+      "source_repo": "PARENA",
+      "date": "20260826",
+      "archived_at": "2026-08-26T06:00:04Z"
     }
   ]
 }

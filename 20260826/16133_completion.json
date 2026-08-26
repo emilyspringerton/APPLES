@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-26T06:00:04Z",
+  "body": "CHANGELOG updated in PARENA: pty.prn + shell.prn: real forkpty-based host implementation (spawn/read/write/resize/close, env lookup, PATH search, Git Bash detection) -- the concrete PARENA-eats-PITVIPER step, verified with a real end-to-end pty round trip (make test-shell) (sess-20260825-1938-f6bd411e)\n\n⚓ ☃",
+  "id": 16133,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "PARENA",
+  "title": "changelog(PARENA): pty.prn + shell.prn: real forkpty-based host implementation…"
+}
