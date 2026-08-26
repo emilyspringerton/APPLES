@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-26T22:29:22Z",
+  "body": "commit b000f55: wrapped net/tcp.prn+pty.prn+process.prn glue in runtime/parena_runtime.h in #ifndef _WIN32 (pty.h on Linux, util.h on macOS); replaced string.prn's contains-ci? glibc strcasestr call with a portable string_contains_ci_impl. Found and verified via a real x86_64-w64-mingw32-gcc cross-compile of the full editor-demo source (stub SDL2 headers). Zero regressions: 336 local unit tests, domain4 valgrind, domain5, sdl2/editor/render/io suites, editor-demo native -Werror build, bazel build+test all pass. Unblocks the pending cross-platform release-artifact work.\n\n⚓ ☃",
+  "id": 16235,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "PARENA",
+  "title": "Windows-portable runtime.h + string.prn (real mingw-verified)"
+}
