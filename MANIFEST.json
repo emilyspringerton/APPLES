@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-26T22:09:29Z",
+  "generated_at": "2026-08-26T22:10:03Z",
   "repo": "APPLES",
-  "count": 5694,
+  "count": 5695,
   "apples": [
     {
       "id": 10525,
@@ -45554,6 +45554,14 @@
       "source_repo": "emily",
       "date": "20260826",
       "archived_at": "2026-08-26T22:09:29Z"
+    },
+    {
+      "id": 16229,
+      "type": "completion",
+      "title": "Real multi-line editing shipped -- the last major scope item for the PARENA editor",
+      "source_repo": "PARENA",
+      "date": "20260826",
+      "archived_at": "2026-08-26T22:10:03Z"
     }
   ]
 }

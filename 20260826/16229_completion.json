@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-26T22:10:03Z",
+  "body": "Founder real-time: 'continue working on parena editor' (continuation).\n\nReturn now inserts a real newline. Buffer.text needed NO core changes to support this -- it was already a plain String, which can already hold embedded '\\n' bytes; only rendering and cursor row/column tracking needed real multi-line awareness. editor/render.prn gained render-highlighted-text (splits on real newlines via the already-real string/split, draws each real line via render-highlighted-line at increasing Y). examples/editor_main.c gained real row/column cursor tracking (scans up to the real cursor byte-offset counting newlines), switched load from io/read-line to io/read-string (whole file) now that multi-line is real, and resized the window for real multi-line room.\n\nReal, honest v0 scope, stated plainly, not silently glossed: Home/End still jump to the whole buffer's start/end, not the current line -- the more common per-line behavior needs real line-aware cursor functions this pass doesn't add.\n\nVerified for real: a real running instance typed 'L1', real Return, 'L2', saved with F2 -- the real file on disk genuinely contains 'L1\\nL2' (confirmed via cat -A showing the real newline byte, not an escaped literal). A second real instance's load correctly restored that exact multi-line text. A real bounded render loop against that real multi-line file ran clean. Also a real unit test rendering a real 3-line PARENA snippet with embedded newlines. Clean under -Werror and ASan+UBSan. Zero regression in the full suite + bazel build/test + editor-demo-smoke.\n\nThis closes out the last major scope gap flagged across this session's editor thread (single-line -\u003e multi-line). Remaining real, deliberate scope gaps: no selection, no undo, no per-line Home/End, no glyph-atlas caching.\n\nCommit: cffbd3b.\n\n⚓ ☃",
+  "id": 16229,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "PARENA",
+  "title": "Real multi-line editing shipped -- the last major scope item for the PARENA editor"
+}
