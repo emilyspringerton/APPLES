@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-26T05:28:02Z",
+  "generated_at": "2026-08-26T05:28:14Z",
   "repo": "APPLES",
-  "count": 5584,
+  "count": 5585,
   "apples": [
     {
       "id": 10525,
@@ -44674,6 +44674,14 @@
       "source_repo": "JEWEL",
       "date": "20260826",
       "archived_at": "2026-08-26T05:28:02Z"
+    },
+    {
+      "id": 16119,
+      "type": "completion",
+      "title": "changelog(JEWEL): shipped v0: real ipykernel.kernelbase.Kernel subclass compi…",
+      "source_repo": "JEWEL",
+      "date": "20260826",
+      "archived_at": "2026-08-26T05:28:14Z"
     }
   ]
 }
