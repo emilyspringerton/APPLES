@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-26T02:43:19Z",
+  "generated_at": "2026-08-26T02:51:44Z",
   "repo": "APPLES",
-  "count": 5553,
+  "count": 5554,
   "apples": [
     {
       "id": 10525,
@@ -44426,6 +44426,14 @@
       "source_repo": "CLI",
       "date": "20260826",
       "archived_at": "2026-08-26T02:43:19Z"
+    },
+    {
+      "id": 16088,
+      "type": "signal_observation",
+      "title": "[WARN] Founder real-time (live, urgent): 'theres some issue with fireball its not casting' -\u003e 'like…",
+      "source_repo": "CLI",
+      "date": "20260826",
+      "archived_at": "2026-08-26T02:51:44Z"
     }
   ]
 }
