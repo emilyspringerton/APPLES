@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-26T23:26:26Z",
+  "body": "Founder actually ran the shipped v0.69.0 Windows editor-demo release and hit a real, live crash: 'ok i tried the editor on windows' -\u003e 'its missing the batch file to run it' -\u003e 'then i ran it and it opened 2 black screens then closed' -\u003e 'the second time 2 same black screens just faster then close'. Root cause: examples/editor_main.c hardcoded a Linux-only font path (/usr/share/fonts/truetype/jetbrains-mono/...), open-font failed on Windows, program exits immediately by design -- the '2 black screens' were the real MinGW console window + the real SDL window, both closing together the instant font load failed. Fixed: vendored JetBrainsMono-Regular.ttf into the repo (assets/fonts/, Apache-2.0), open_font_with_fallback tries an ordered list of real candidate paths, -mwindows added to the Windows build (removes the console window entirely), dist/RUN.bat added to the Windows zip (same real convention PITVIPER already ships). Verified live: downloaded the actual new release zip (v0.70.0) and confirmed RUN.bat + JetBrainsMono-Regular.ttf + editor-demo.exe + every required DLL are genuinely present with correct byte-for-byte content. Also shipped, same push: real text SELECTION -- Buffer gained selection-anchor (Shift+Left/Right extend it via a new sdl2/shift-held? modifier query), Backspace/Delete/typed-replacement act on the whole selection, plain arrow keys collapse it, rendered as a highlight rect drawn before the text. 17 new real assertions in test_editor.c. Zero regressions: full local suite (336 tests) + domain4/5/multifile + sdl2/editor/render/io + editor-demo-smoke + bazel build/test, plus a corrected mingw stub header re-verifying the new SDL_GetModState call links clean. PARENA commit bf56a16, release v0.70.0 (all 4 platform CI jobs green on the first try).\n\n⚓ ☃",
+  "id": 16245,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "PARENA",
+  "title": "Fixed real Windows editor launch failure (font path) + shipped real text selection"
+}
