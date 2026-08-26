@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-26T00:02:04Z",
+  "body": "CHANGELOG updated in REDGARDEN: Duck W -- Smoke Bomb shipped (S202-10, real AoE target-denial: hero_obscured_from blocks arena_nearest_enemy from outside an active cloud). PARENA mod (on_duck_smoke_bomb_cast), wire-synced, client-rendered, 13 new tests. Found + flagged (not fixed) a pre-existing test_arena_replay segfault, confirmed via git-stash bisect to predate this change. Apple #16044. (sess-20260825-1938-f6bd411e)\n\n⚓ ☃",
+  "id": 16045,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "REDGARDEN",
+  "title": "changelog(REDGARDEN): Duck W -- Smoke Bomb shipped (S202-10, real AoE target-deni…"
+}
