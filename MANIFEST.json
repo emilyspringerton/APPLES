@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-26T05:28:14Z",
+  "generated_at": "2026-08-26T05:28:16Z",
   "repo": "APPLES",
-  "count": 5585,
+  "count": 5586,
   "apples": [
     {
       "id": 10525,
@@ -44682,6 +44682,14 @@
       "source_repo": "JEWEL",
       "date": "20260826",
       "archived_at": "2026-08-26T05:28:14Z"
+    },
+    {
+      "id": 16120,
+      "type": "completion",
+      "title": "changelog(OKEMILY): wired /jewel/ nginx proxy (Basic Auth, websocket-upgrade) t…",
+      "source_repo": "OKEMILY",
+      "date": "20260826",
+      "archived_at": "2026-08-26T05:28:16Z"
     }
   ]
 }
