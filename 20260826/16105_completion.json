@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-26T04:03:36Z",
+  "body": "Founder real-time: 'make it so that the fireball ignites the enemies it touches making them have burning too' -\u003e 'via parena mods' -\u003e 'make the fireball move just a bit faster'. Reused the existing generic on_hit_burn_ms/on_hit_burn_dps ArenaProjectile mechanic (same one Pizza/Flute Debt/Tyler's Q already use) -- the per-hit resolution code already runs once per enemy a piercing shot passes through, so setting two fields at spawn was the whole change, no new plumbing. Burn duration/DPS match Pizza's own Q burn (3000ms/5dps), a real established baseline not invented fresh. Confirmed 'via parena mods' already holds -- the burn fields are set in the same host function (redgarden_host_abraham_fireball_cast) the real compiled PARENA mod (on_abraham_fireball_cast) already calls into, no bypass. Fireball speed bumped 3.0-\u003e4.0 (now matches hero move speed exactly). Verified via a direct headless repro before touching tests: burn applies at impact and ticks correctly to expiry. New test added. Full 1101-check suite green, real mingw cross-compile verified.\n\n⚓ ☃",
+  "id": 16105,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "REDGARDEN",
+  "title": "Abraham fireball now ignites enemies (burn DoT) + slightly faster travel"
+}

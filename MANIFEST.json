@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-26T03:59:33Z",
+  "generated_at": "2026-08-26T04:03:36Z",
   "repo": "APPLES",
-  "count": 5570,
+  "count": 5571,
   "apples": [
     {
       "id": 10525,
@@ -44562,6 +44562,14 @@
       "source_repo": "CLI",
       "date": "20260826",
       "archived_at": "2026-08-26T03:59:33Z"
+    },
+    {
+      "id": 16105,
+      "type": "completion",
+      "title": "Abraham fireball now ignites enemies (burn DoT) + slightly faster travel",
+      "source_repo": "REDGARDEN",
+      "date": "20260826",
+      "archived_at": "2026-08-26T04:03:36Z"
     }
   ]
 }
