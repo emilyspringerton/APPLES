@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-26T23:26:29Z",
+  "body": "CHANGELOG updated in PARENA: Fixed real Windows editor-demo launch failure (hardcoded Linux-only font path caused instant crash) -- vendored JetBrainsMono-Regular.ttf, added RUN.bat + -mwindows to the Windows release. Shipped real text selection (Shift+Left/Right, Backspace/Delete/typed-replace act on selection, visual highlight). v0.70.0 (sess-20260825-1938-f6bd411e)\n\n⚓ ☃",
+  "id": 16246,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "PARENA",
+  "title": "changelog(PARENA): Fixed real Windows editor-demo launch failure (hardcoded Li…"
+}
