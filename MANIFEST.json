@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-26T20:21:34Z",
+  "generated_at": "2026-08-26T20:21:38Z",
   "repo": "APPLES",
-  "count": 5681,
+  "count": 5682,
   "apples": [
     {
       "id": 10525,
@@ -45450,6 +45450,14 @@
       "source_repo": "PARENA",
       "date": "20260826",
       "archived_at": "2026-08-26T20:21:34Z"
+    },
+    {
+      "id": 16216,
+      "type": "completion",
+      "title": "changelog(PARENA): editor/buffer.prn: real move-cursor-left/move-cursor-right,…",
+      "source_repo": "PARENA",
+      "date": "20260826",
+      "archived_at": "2026-08-26T20:21:38Z"
     }
   ]
 }
