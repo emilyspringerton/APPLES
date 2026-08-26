@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-26T15:01:16Z",
+  "body": "Founder real-time: 'deploy it into our weights and continue'.\n\nDeployed rl_team_checkpoints_autocurriculum_20260825/rl_policy_weights_team.h (500K-timestep autocurriculum run, 7W/13L/0D = 35.0% eval vs the fixed heuristic bot team) into packages/common/rl_policy_weights_team.h, replacing the 2026-08-11 noisy-gestalt-only checkpoint that had been live since S170's team_rl_engage_nudge() wiring. Rebuilt (scripts/build.sh, zero new warnings beyond the pre-existing, already-documented ones) and restarted the live 3v3 R\u0026D services (redgarden-matchmaker-bots-3v3.service, redgarden-bot-pool-3v3.service, port 7780) so the deploy is actually serving, not just committed -- confirmed fresh PIDs running the freshly-rebuilt binary. REDGARDEN commit f5e43db.\n\nHonest context flagged in the commit message and to the founder directly, not silently swapped: BACKLOG.md's own prior note on an earlier, same-shaped autocurriculum run explicitly recommended against deploying on this basis (lower fixed-heuristic score, no confidence basis yet vs. a varied opponent pool). This deploy is a direct, explicit founder override of that caution.\n\n'and continue': launched the next training generation in the background -- python3 scripts/rl_train_team.py --team-size 3 --total-timesteps 500000 --autocurriculum --output-dir rl_team_checkpoints_autocurriculum_20260826, logging to var/rl_train_autocurriculum_20260826.log, confirmed actively running (real CPU usage, not stalled) after launch. No --resume/--seed-from flag exists in rl_train_team.py to continue from the prior run's own weights -- this is a fresh PPO init using the same, already-proven recipe, matching how every prior 'next generation' run in this thread has been launched.\n\n⚓ ☃",
+  "id": 16172,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "REDGARDEN",
+  "title": "Deployed autocurriculum RL policy to live 3v3 weights; launched next training generation"
+}

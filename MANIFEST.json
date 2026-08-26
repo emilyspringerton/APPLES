@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-26T14:58:35Z",
+  "generated_at": "2026-08-26T15:01:16Z",
   "repo": "APPLES",
-  "count": 5637,
+  "count": 5638,
   "apples": [
     {
       "id": 10525,
@@ -45098,6 +45098,14 @@
       "source_repo": "CLI",
       "date": "20260826",
       "archived_at": "2026-08-26T14:58:35Z"
+    },
+    {
+      "id": 16172,
+      "type": "completion",
+      "title": "Deployed autocurriculum RL policy to live 3v3 weights; launched next training generation",
+      "source_repo": "REDGARDEN",
+      "date": "20260826",
+      "archived_at": "2026-08-26T15:01:16Z"
     }
   ]
 }
