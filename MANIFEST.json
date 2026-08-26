@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-26T00:03:43Z",
+  "generated_at": "2026-08-26T00:04:03Z",
   "repo": "APPLES",
-  "count": 5514,
+  "count": 5515,
   "apples": [
     {
       "id": 10525,
@@ -44114,6 +44114,14 @@
       "source_repo": "CLI",
       "date": "20260826",
       "archived_at": "2026-08-26T00:03:43Z"
+    },
+    {
+      "id": 16049,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time, kanban layer fully scoped now (4 messages in a row elaborating the same a…",
+      "source_repo": "CLI",
+      "date": "20260826",
+      "archived_at": "2026-08-26T00:04:03Z"
     }
   ]
 }
