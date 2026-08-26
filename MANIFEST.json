@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-26T22:20:27Z",
+  "generated_at": "2026-08-26T22:20:31Z",
   "repo": "APPLES",
-  "count": 5698,
+  "count": 5699,
   "apples": [
     {
       "id": 10525,
@@ -45586,6 +45586,14 @@
       "source_repo": "PARENA",
       "date": "20260826",
       "archived_at": "2026-08-26T22:20:27Z"
+    },
+    {
+      "id": 16233,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time, two new release-process requests for PARENA: (1) 'ensure editor binaries …",
+      "source_repo": "CLI",
+      "date": "20260826",
+      "archived_at": "2026-08-26T22:20:31Z"
     }
   ]
 }
