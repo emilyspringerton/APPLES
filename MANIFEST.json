@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-26T03:21:04Z",
+  "generated_at": "2026-08-26T03:22:19Z",
   "repo": "APPLES",
-  "count": 5560,
+  "count": 5561,
   "apples": [
     {
       "id": 10525,
@@ -44482,6 +44482,14 @@
       "source_repo": "CLI",
       "date": "20260826",
       "archived_at": "2026-08-26T03:21:04Z"
+    },
+    {
+      "id": 16095,
+      "type": "signal_observation",
+      "title": "[WARN] Founder real-time: 'set up server side logging from the client or someghing' -\u003e 'i cant read…",
+      "source_repo": "CLI",
+      "date": "20260826",
+      "archived_at": "2026-08-26T03:22:19Z"
     }
   ]
 }
