@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-26T00:32:28Z",
+  "body": "Founder real-time: 'we need to add body blocking' -\u003e 'currently players can ghost through eachother.' New resolve_hero_hero_collision, same shape as the existing resolve_hero_obstacle_collision -- a hero is now also a circle (ARENA_HERO_COLLISION_RADIUS) every other hero pushes itself back out of. Called from update_hero_motion's own movement step, same donkey-glide skip as obstacle collision. Applies regardless of team (real MOBA convention) and across the full clone range. Deliberately not applied to forced displacement (pulls/dashes) -- those bypass update_hero_motion, next tick's normal movement self-corrects. update_hero_motion gained a self_index param, all 3 call sites updated. 4 new tests, full suite (857 checks) green. No PARENA mod -- pure engine mechanic, not asked for as a mod. REDGARDEN commit ce3176a.\n\n⚓ ☃",
+  "id": 16057,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "REDGARDEN",
+  "title": "Body blocking shipped -- real hero-hero collision (S202-27)"
+}
