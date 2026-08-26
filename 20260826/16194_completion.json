@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-26T16:52:45Z",
+  "body": "Founder real-time, live gameplay QA: 'AT ONE POINT I GOT STUCK SIDEWAYS AND HE WAS LIKE TRYING TO ROTATE TO RUN WHERE I WANTED BUT KIND ACOULDNT' -\u003e 'CAN WE ADD LOGS TO HELP DEBUG IT?' -\u003e 'MAYBE WE MAKE A RESET CHARACER BUTTON...' -\u003e 'LOG ALL OF THAT AND KEEP MOVING'.\n\nServer-side: every real PACKET_ARENA_MOVE now logs [move-debug] (target, current position, facing, and every real movement-blocking state: rooted_ms/stunned_ms/attack_windup_ms_remaining/casting_slot), readable from var/logs/matchmaker-bots.log. Client-side: new F10 debug key forces the local hero's own client-side hero_facing_rad back to a known value and logs the real before/after, giving a concrete data point next time the bug recurs.\n\nDeliberately NOT a fix -- root cause not found yet (founder's own explicit call: 'IM NOT TOTALLY SURE LOG IT AND KLEEP MOVING', 'I THINK A DEATH FIXES IT SO ITS NOT THE END OF THE WORLD' -- low priority, non-blocking). The rebuilt arena_server binary is already live for the NEXT match automatically (the matchmaker execs a fresh server process per match from build/red_garden_arena_server, no service restart needed) -- an in-progress match at the time of this commit would still be running the old binary until it ends. REDGARDEN commit 1bb0369.\n\n⚓ ☃",
+  "id": 16194,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "REDGARDEN",
+  "title": "Real move-command diagnostics + F10 reset-rotation debug tool for the live rotation/movement bug report"
+}

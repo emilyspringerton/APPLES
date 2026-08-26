@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-26T16:49:02Z",
+  "generated_at": "2026-08-26T16:52:45Z",
   "repo": "APPLES",
-  "count": 5659,
+  "count": 5660,
   "apples": [
     {
       "id": 10525,
@@ -45274,6 +45274,14 @@
       "source_repo": "CLI",
       "date": "20260826",
       "archived_at": "2026-08-26T16:49:02Z"
+    },
+    {
+      "id": 16194,
+      "type": "completion",
+      "title": "Real move-command diagnostics + F10 reset-rotation debug tool for the live rotation/movement bug report",
+      "source_repo": "REDGARDEN",
+      "date": "20260826",
+      "archived_at": "2026-08-26T16:52:45Z"
     }
   ]
 }
