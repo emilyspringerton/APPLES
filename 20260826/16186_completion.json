@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-26T16:18:52Z",
+  "body": "CHANGELOG updated in PARENA: editor/buffer.prn: real keyboard-driven text buffer (Buffer{text,cursor}, insert-at-cursor/backspace-at-cursor), sdl2.prn's EventKind gained real KeyDown/TextInput payloads -- real edit sequence verified end-to-end through real SDL events (make test-editor) (sess-20260825-1938-f6bd411e)\n\n⚓ ☃",
+  "id": 16186,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "PARENA",
+  "title": "changelog(PARENA): editor/buffer.prn: real keyboard-driven text buffer (Buffer…"
+}
