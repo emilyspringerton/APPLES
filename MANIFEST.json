@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-26T17:02:34Z",
+  "generated_at": "2026-08-26T17:02:40Z",
   "repo": "APPLES",
-  "count": 5666,
+  "count": 5667,
   "apples": [
     {
       "id": 10525,
@@ -45330,6 +45330,14 @@
       "source_repo": "PARENA",
       "date": "20260826",
       "archived_at": "2026-08-26T17:02:34Z"
+    },
+    {
+      "id": 16201,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: 'continue working on parena editor' (fourth occurrence, direct continuati…",
+      "source_repo": "CLI",
+      "date": "20260826",
+      "archived_at": "2026-08-26T17:02:40Z"
     }
   ]
 }
