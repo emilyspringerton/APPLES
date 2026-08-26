@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-26T00:21:40Z",
+  "generated_at": "2026-08-26T00:21:49Z",
   "repo": "APPLES",
-  "count": 5520,
+  "count": 5521,
   "apples": [
     {
       "id": 10525,
@@ -44162,6 +44162,14 @@
       "source_repo": "IDUNA",
       "date": "20260826",
       "archived_at": "2026-08-26T00:21:40Z"
+    },
+    {
+      "id": 16055,
+      "type": "completion",
+      "title": "changelog(emily.cli): emily kanban {list,add,move,rm} shipped -- agent/CLI half o…",
+      "source_repo": "emily.cli",
+      "date": "20260826",
+      "archived_at": "2026-08-26T00:21:49Z"
     }
   ]
 }
