@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-26T05:38:06Z",
+  "generated_at": "2026-08-26T05:38:31Z",
   "repo": "APPLES",
-  "count": 5591,
+  "count": 5592,
   "apples": [
     {
       "id": 10525,
@@ -44730,6 +44730,14 @@
       "source_repo": "REDGARDEN",
       "date": "20260826",
       "archived_at": "2026-08-26T05:38:06Z"
+    },
+    {
+      "id": 16126,
+      "type": "completion",
+      "title": "changelog(REDGARDEN): Autocurriculum RL training run complete (team_size=3, 50380…",
+      "source_repo": "REDGARDEN",
+      "date": "20260826",
+      "archived_at": "2026-08-26T05:38:31Z"
     }
   ]
 }
