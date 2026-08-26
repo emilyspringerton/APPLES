@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-26T15:53:26Z",
+  "body": "Founder real-time: 'continue working on parena editor'.\n\nsdl2.prn's own #target bodies had the same never-boxes bug every other file in this stdlib has already had fixed, plus Window/Sdl2Error/Event were referenced but never defined -- rewritten to net/tcp.prn's own established raw-primitive-plus-plain-PARENA-boxing shape. Window/Renderer are real opaque I32 handles into a real host-side table (runtime/parena_runtime.h's g_sdl2_windows/g_sdl2_renderers), not a raw pointer struct field (a deliberate, pragmatic choice -- untested territory in this compiler, not risked here).\n\nAlso closes STDLIB.md's own explicitly-flagged-but-deferred gap: real create-renderer/set-draw-color/render-clear/render-fill-rect/render-present -- 'the next real extension once a renderer-owning program actually needs it.' This is that program: PITVIPER's own real cmd/pitviper/main.go renderFrame per-cell shape (SetDrawColor+FillRect per cell, Clear+Present once per frame) ported one real primitive at a time.\n\nVerified with a real end-to-end test (tests/test_sdl2.c, 'make test-sdl2'): actually opens a real SDL2 window under a real, self-launched, scratch Xvfb X server (this box has no real display), creates a real renderer, draws a real multi-frame checkerboard cell grid, drains the real SDL event queue (confirmed real window-lifecycle events come through correctly, not just a canned value), tears down cleanly. Clean under ASan+UBSan. Confirmed zero regression in test/test-domain4/test-domain5/test-shell.\n\nHonest scope, not overclaimed: this is real window+renderer+solid-color-rect primitives, not yet glyph/text rendering (needs font/texture loading, real, separate, deferred follow-up) -- still real distance from a usable text editor, but the actual SDL2 plumbing PITVIPER's own port needs is now real and proven working end to end, not just designed.\n\nCommits: 7968229 (real implementation), 6136420 (STDLIB.md gap-closed note).\n\n⚓ ☃",
+  "id": 16177,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "PARENA",
+  "title": "sdl2.prn real host implementation + real renderer calls -- first slice of the PARENA editor, real window/render verified under Xvfb"
+}
