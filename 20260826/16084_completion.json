@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-26T02:35:04Z",
+  "body": "Replaced Abraham's W (a free toggle that only boosted Q's damage) with A Line of Fire: a real ground-targeted, slow, long-range, piercing skill-shot. New generic ground-target cast protocol (ArenaCastCmd.has_ground_target/target_x/target_z), a real piercing ArenaProjectile (pierce/pierced_mask, damages every enemy in its path in one pass), a 400ms GOLDENBAND-driven ease-in/out rotation + golden-ratio squish/flick windup animation (client-visual only), and a homing/ranged basic auto-attack matching Gary's mechanic with its own color. abraham_fireball_mod.prn is REDGARDEN's 6th real PARENA mod. Q's damage buffed to the old 'channeling' value since W's toggle is gone. 7 new tests, all real assertions in scripts/test_arena.sh pass, scripts/test_10_bots.sh verified live (5 matches, 10 bots). Commit 961d500.\n\n⚓ ☃",
+  "id": 16084,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "REDGARDEN",
+  "title": "Abraham W rework: A Line of Fire, ground-targeted piercing fireball (S202-34)"
+}
