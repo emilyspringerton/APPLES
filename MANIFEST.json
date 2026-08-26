@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-26T21:03:46Z",
+  "generated_at": "2026-08-26T21:03:50Z",
   "repo": "APPLES",
-  "count": 5686,
+  "count": 5687,
   "apples": [
     {
       "id": 10525,
@@ -45490,6 +45490,14 @@
       "source_repo": "PARENA",
       "date": "20260826",
       "archived_at": "2026-08-26T21:03:46Z"
+    },
+    {
+      "id": 16221,
+      "type": "completion",
+      "title": "changelog(PARENA): editor: real Home/End keys + forward-delete (move-cursor-ho…",
+      "source_repo": "PARENA",
+      "date": "20260826",
+      "archived_at": "2026-08-26T21:03:50Z"
     }
   ]
 }
