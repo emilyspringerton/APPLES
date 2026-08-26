@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-26T05:51:52Z",
+  "generated_at": "2026-08-26T06:00:01Z",
   "repo": "APPLES",
-  "count": 5597,
+  "count": 5598,
   "apples": [
     {
       "id": 10525,
@@ -44778,6 +44778,14 @@
       "source_repo": "emily",
       "date": "20260826",
       "archived_at": "2026-08-26T05:51:52Z"
+    },
+    {
+      "id": 16132,
+      "type": "completion",
+      "title": "pty/shell real host implementation shipped -- forkpty-based, real end-to-end verified",
+      "source_repo": "PARENA",
+      "date": "20260826",
+      "archived_at": "2026-08-26T06:00:01Z"
     }
   ]
 }
