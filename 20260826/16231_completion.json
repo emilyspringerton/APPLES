@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-26T22:20:25Z",
+  "body": "Founder real-time: 'continue working on parena editor' (continuation).\n\nHome/End originally jumped to the start/end of the WHOLE buffer -- correct while single-line-only, wrong real editor UX once multi-line shipped earlier the same day. Fixed move-cursor-home/move-cursor-end directly (not a new function under a different name) via new real line-start-before/line-end-after backward/forward newline scans.\n\nVerified with a real multi-line test: Home/End from different positions across a real 3-line buffer correctly stay within the current line's own real boundaries, not the whole buffer's. The pre-existing single-line tests needed no changes (never actually distinguished the two behaviors). Clean under -Werror and ASan+UBSan, zero regression.\n\nCommit: 3671e07.\n\n⚓ ☃",
+  "id": 16231,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "PARENA",
+  "title": "Real, line-aware Home/End -- fixed from whole-buffer to per-line now that multi-line editing is real"
+}

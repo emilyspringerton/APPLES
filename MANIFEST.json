@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-26T22:10:07Z",
+  "generated_at": "2026-08-26T22:20:25Z",
   "repo": "APPLES",
-  "count": 5696,
+  "count": 5697,
   "apples": [
     {
       "id": 10525,
@@ -45570,6 +45570,14 @@
       "source_repo": "PARENA",
       "date": "20260826",
       "archived_at": "2026-08-26T22:10:07Z"
+    },
+    {
+      "id": 16231,
+      "type": "completion",
+      "title": "Real, line-aware Home/End -- fixed from whole-buffer to per-line now that multi-line editing is real",
+      "source_repo": "PARENA",
+      "date": "20260826",
+      "archived_at": "2026-08-26T22:20:25Z"
     }
   ]
 }
