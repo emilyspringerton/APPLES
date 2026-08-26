@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-26T23:02:00Z",
+  "body": "CHANGELOG updated in PARENA: Real per-platform (Windows/Linux/macOS) editor-demo binaries now attached to every GitHub Release; releases switched from --prerelease to regular. Fixed 3 real compiler/CI bugs found via live cross-platform CI (SDL2main Windows link, macOS SDL_ttf.h include, and a general emit.c uninitialized-match-result gap + unused-constructor warnings only Clang catches). v0.69.0 (sess-20260825-1938-f6bd411e)\n\n⚓ ☃",
+  "id": 16241,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "PARENA",
+  "title": "changelog(PARENA): Real per-platform (Windows/Linux/macOS) editor-demo binarie…"
+}
