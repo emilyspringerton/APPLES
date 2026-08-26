@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-26T05:22:55Z",
+  "generated_at": "2026-08-26T05:28:02Z",
   "repo": "APPLES",
-  "count": 5583,
+  "count": 5584,
   "apples": [
     {
       "id": 10525,
@@ -44666,6 +44666,14 @@
       "source_repo": "emily",
       "date": "20260826",
       "archived_at": "2026-08-26T05:22:55Z"
+    },
+    {
+      "id": 16118,
+      "type": "completion",
+      "title": "JEWEL v0 shipped: real PARENA Jupyter kernel, live behind persistent systemd, Basic Auth queued for sudo deploy",
+      "source_repo": "JEWEL",
+      "date": "20260826",
+      "archived_at": "2026-08-26T05:28:02Z"
     }
   ]
 }

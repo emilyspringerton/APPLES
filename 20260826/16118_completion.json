@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-26T05:28:02Z",
+  "body": "Founder chain: 'work on our parena JUPYTER backend just use basic auth to protect it for now until we get google oauthg to work' -\u003e 'call it JEWEL' -\u003e 'upstream github JEWEL created in case its useful' -\u003e 'put the parena backend for jupyter there'.\n\nShipped: JEWEL/jewel_kernel.py (real ipykernel.kernelbase.Kernel subclass, compiles+links+runs each cell via the real parena build compiler + gcc), JEWEL/install_kernel.py, JEWEL/ops/systemd/jewel-jupyter.service (user systemd, persistent, jupyterlab on 127.0.0.1:8890 with base_url=/jewel/). Verified at three levels: direct _run_cell() calls (real compile success/error/link-error surfacing), full jupyter_client.KernelManager protocol round-trip (real stdout streamed through iopub), and the live systemd-managed server answering /api/kernelspecs with both python3 and jewel listed.\n\nIDUNA portal.go's Jupyter tool row now links to the real URL (was href=\"#\"/Install pending). OKEMILY/ops/nginx-okemily.conf has the /jewel/ proxy + auth_basic wired into both server stanzas (websocket-upgrade headers for the real kernel protocol). Root CLAUDE.md repo table updated.\n\nNOT yet done: sudo-queue/31-jewel-nginx-basic-auth.sh (creates /etc/nginx/.htpasswd-jewel, deploys the nginx config, reloads) has not been run -- no sudo in this session. Until that runs, JEWEL is live on localhost only, not reachable from okemily.com. Basic Auth credentials (user 'jewel') generated and reported to the founder out of band, never committed in plaintext -- only the one-way SHA-256-crypt hash is in the sudo-queue script.\n\nCommits: JEWEL 25700aa, OKEMILY b27c78a, IDUNA 6105acc, root c9946de.\n\n⚓ ☃",
+  "id": 16118,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "JEWEL",
+  "title": "JEWEL v0 shipped: real PARENA Jupyter kernel, live behind persistent systemd, Basic Auth queued for sudo deploy"
+}
