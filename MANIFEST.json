@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-26T16:08:31Z",
+  "generated_at": "2026-08-26T16:09:24Z",
   "repo": "APPLES",
-  "count": 5647,
+  "count": 5648,
   "apples": [
     {
       "id": 10525,
@@ -45178,6 +45178,14 @@
       "source_repo": "emily",
       "date": "20260826",
       "archived_at": "2026-08-26T16:08:31Z"
+    },
+    {
+      "id": 16182,
+      "type": "completion",
+      "title": "sdl2.prn real text rendering (SDL2_ttf) -- second slice of the PARENA editor, verified with real JetBrains Mono glyphs under Xvfb",
+      "source_repo": "PARENA",
+      "date": "20260826",
+      "archived_at": "2026-08-26T16:09:24Z"
     }
   ]
 }

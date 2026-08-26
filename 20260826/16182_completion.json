@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-26T16:09:24Z",
+  "body": "Founder real-time: 'continue working on parena editor' (direct continuation of the same-day renderer-calls work).\n\nReal SDL2_ttf host implementation: ttf-init/ttf-quit/open-font/close-font/render-text/measure-text-width/measure-text-height, using PITVIPER's own real font (JetBrains Mono, the same one its own F11 'shiny font' toggle loads via SDL2_ttf, cmd/pitviper/main.go's shinyTexture). Font is a real opaque I32 handle into a real host-side table, same reasoning as Window/Renderer. render-text is a real, honest v0 (fresh surface-\u003etexture-\u003eblit-\u003efree every call, no glyph-atlas caching yet -- documented as real future work, not a corner cut).\n\nReal, useful finding along the way: confirmed live (not assumed) that VS0's emitter does not support tuple return types yet -- a real 'unsupported return type form' error trying (I32 I32) -- so measure-text-width/height are two separate calls instead of one tuple-returning one. Worth knowing for any future stdlib package design.\n\nVerified with a real end-to-end test (tests/test_sdl2.c, 'make test-sdl2'): loads the real JetBrains Mono TTF (confirms a real nonexistent-font-path correctly fails, not a false Ok), draws real text onto the real renderer under a real self-launched Xvfb display, confirms real positive glyph-cell measurements, confirms an empty string is a real honest no-op. Clean under ASan+UBSan. Confirmed zero regression in test/test-domain4/test-domain5/test-shell.\n\nHonest scope: still real distance from a usable editor (no text buffer/cursor/input-to-text pipeline yet), but the actual window+render+text SDL2 plumbing PITVIPER's port needs is now real and proven end to end, not designed on paper.\n\nCommits: 55a70fc (real implementation), 8a564c8 (STDLIB.md gap-closed note).\n\n⚓ ☃",
+  "id": 16182,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "PARENA",
+  "title": "sdl2.prn real text rendering (SDL2_ttf) -- second slice of the PARENA editor, verified with real JetBrains Mono glyphs under Xvfb"
+}
