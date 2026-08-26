@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-26T16:52:45Z",
+  "generated_at": "2026-08-26T16:52:50Z",
   "repo": "APPLES",
-  "count": 5660,
+  "count": 5661,
   "apples": [
     {
       "id": 10525,
@@ -45282,6 +45282,14 @@
       "source_repo": "REDGARDEN",
       "date": "20260826",
       "archived_at": "2026-08-26T16:52:45Z"
+    },
+    {
+      "id": 16195,
+      "type": "completion",
+      "title": "changelog(REDGARDEN): real [move-debug] server-side trace on every move command +…",
+      "source_repo": "REDGARDEN",
+      "date": "20260826",
+      "archived_at": "2026-08-26T16:52:50Z"
     }
   ]
 }
