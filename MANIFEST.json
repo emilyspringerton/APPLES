@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-26T05:46:11Z",
+  "generated_at": "2026-08-26T05:46:13Z",
   "repo": "APPLES",
-  "count": 5594,
+  "count": 5595,
   "apples": [
     {
       "id": 10525,
@@ -44754,6 +44754,14 @@
       "source_repo": "PRRJECT_FATBABY",
       "date": "20260826",
       "archived_at": "2026-08-26T05:46:11Z"
+    },
+    {
+      "id": 16129,
+      "type": "completion",
+      "title": "changelog(OKEMILY): fixed /jewel/ nginx location to proxy the fatbaby-broker in…",
+      "source_repo": "OKEMILY",
+      "date": "20260826",
+      "archived_at": "2026-08-26T05:46:13Z"
     }
   ]
 }
