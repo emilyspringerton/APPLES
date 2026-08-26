@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-26T01:23:53Z",
+  "generated_at": "2026-08-26T01:27:48Z",
   "repo": "APPLES",
-  "count": 5534,
+  "count": 5535,
   "apples": [
     {
       "id": 10525,
@@ -44274,6 +44274,14 @@
       "source_repo": "emily",
       "date": "20260826",
       "archived_at": "2026-08-26T01:23:53Z"
+    },
+    {
+      "id": 16069,
+      "type": "completion",
+      "title": "OpenAPI/Swagger spec updated with kanban + dev portal (founder ask)",
+      "source_repo": "IDUNA",
+      "date": "20260826",
+      "archived_at": "2026-08-26T01:27:48Z"
     }
   ]
 }
