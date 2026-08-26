@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-26T04:16:57Z",
+  "body": "Founder real-time: 'when you hit w on abraham and you are moving dont have it blow the cooldown and do nothing have it freeze the player for the length of the cast for that ability'. Root cause: tick_hero_kit's own generic cast-interrupt rule (S170-203, Gary's own established 'movement interrupts cast' mechanic) silently cancelled Abraham's fireball cast on any position drift from the cast-start anchor, with no refund of the already-spent mana/cooldown -- pressing W while already walking wasted the ability every time. Fixed scoped to Abraham only: update_hero_motion now freezes him while casting_slot != 0, and the movement-interrupt check is skipped for him specifically. Gary's own established feel untouched. Verified via a direct headless repro: position stays frozen every tick of the windup, cast completes, fireball fires, movement resumes right after. New test added. Full 1105-check suite green, real mingw cross-compile verified.\n\n⚓ ☃",
+  "id": 16108,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "REDGARDEN",
+  "title": "Abraham's W now freezes the caster instead of wasting the cast on movement"
+}

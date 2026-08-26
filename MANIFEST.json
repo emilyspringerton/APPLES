@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-26T04:09:48Z",
+  "generated_at": "2026-08-26T04:16:57Z",
   "repo": "APPLES",
-  "count": 5573,
+  "count": 5574,
   "apples": [
     {
       "id": 10525,
@@ -44586,6 +44586,14 @@
       "source_repo": "CLI",
       "date": "20260826",
       "archived_at": "2026-08-26T04:09:48Z"
+    },
+    {
+      "id": 16108,
+      "type": "completion",
+      "title": "Abraham's W now freezes the caster instead of wasting the cast on movement",
+      "source_repo": "REDGARDEN",
+      "date": "20260826",
+      "archived_at": "2026-08-26T04:16:57Z"
     }
   ]
 }
