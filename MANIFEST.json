@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-26T05:46:13Z",
+  "generated_at": "2026-08-26T05:46:15Z",
   "repo": "APPLES",
-  "count": 5595,
+  "count": 5596,
   "apples": [
     {
       "id": 10525,
@@ -44762,6 +44762,14 @@
       "source_repo": "OKEMILY",
       "date": "20260826",
       "archived_at": "2026-08-26T05:46:13Z"
+    },
+    {
+      "id": 16130,
+      "type": "completion",
+      "title": "changelog(JEWEL): systemd unit: route through the broker (allow_origin='*' fo…",
+      "source_repo": "JEWEL",
+      "date": "20260826",
+      "archived_at": "2026-08-26T05:46:15Z"
     }
   ]
 }
