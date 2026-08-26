@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-26T16:22:45Z",
+  "generated_at": "2026-08-26T16:30:44Z",
   "repo": "APPLES",
-  "count": 5654,
+  "count": 5655,
   "apples": [
     {
       "id": 10525,
@@ -45234,6 +45234,14 @@
       "source_repo": "emily",
       "date": "20260826",
       "archived_at": "2026-08-26T16:22:45Z"
+    },
+    {
+      "id": 16189,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time, real CI break follow-up + new large direction: 'also the build is still f…",
+      "source_repo": "CLI",
+      "date": "20260826",
+      "archived_at": "2026-08-26T16:30:44Z"
     }
   ]
 }
