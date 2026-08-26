@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-26T22:20:25Z",
+  "generated_at": "2026-08-26T22:20:27Z",
   "repo": "APPLES",
-  "count": 5697,
+  "count": 5698,
   "apples": [
     {
       "id": 10525,
@@ -45578,6 +45578,14 @@
       "source_repo": "PARENA",
       "date": "20260826",
       "archived_at": "2026-08-26T22:20:25Z"
+    },
+    {
+      "id": 16232,
+      "type": "completion",
+      "title": "changelog(PARENA): editor: fixed Home/End to be line-aware (was whole-buffer),…",
+      "source_repo": "PARENA",
+      "date": "20260826",
+      "archived_at": "2026-08-26T22:20:27Z"
     }
   ]
 }
