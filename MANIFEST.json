@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-26T03:11:05Z",
+  "generated_at": "2026-08-26T03:17:03Z",
   "repo": "APPLES",
-  "count": 5558,
+  "count": 5559,
   "apples": [
     {
       "id": 10525,
@@ -44466,6 +44466,14 @@
       "source_repo": "CLI",
       "date": "20260826",
       "archived_at": "2026-08-26T03:11:05Z"
+    },
+    {
+      "id": 16093,
+      "type": "signal_observation",
+      "title": "[WARN] Founder real-time (live, still urgent, after the auto-attack windup fix): 'i still catnt cca…",
+      "source_repo": "CLI",
+      "date": "20260826",
+      "archived_at": "2026-08-26T03:17:03Z"
     }
   ]
 }
