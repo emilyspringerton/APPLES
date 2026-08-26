@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-26T00:04:03Z",
+  "generated_at": "2026-08-26T00:05:23Z",
   "repo": "APPLES",
-  "count": 5515,
+  "count": 5516,
   "apples": [
     {
       "id": 10525,
@@ -44122,6 +44122,14 @@
       "source_repo": "CLI",
       "date": "20260826",
       "archived_at": "2026-08-26T00:04:03Z"
+    },
+    {
+      "id": 16050,
+      "type": "signal_observation",
+      "title": "[WARN] CORRECTION to the test_arena_replay segfault finding I just posted/committed (REDGARDEN S202…",
+      "source_repo": "CLI",
+      "date": "20260826",
+      "archived_at": "2026-08-26T00:05:23Z"
     }
   ]
 }
