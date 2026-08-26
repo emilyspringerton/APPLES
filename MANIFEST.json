@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-26T01:27:48Z",
+  "generated_at": "2026-08-26T01:27:51Z",
   "repo": "APPLES",
-  "count": 5535,
+  "count": 5536,
   "apples": [
     {
       "id": 10525,
@@ -44282,6 +44282,14 @@
       "source_repo": "IDUNA",
       "date": "20260826",
       "archived_at": "2026-08-26T01:27:48Z"
+    },
+    {
+      "id": 16070,
+      "type": "completion",
+      "title": "changelog(IDUNA): OpenAPI/Swagger spec updated with kanban + dev portal endpo…",
+      "source_repo": "IDUNA",
+      "date": "20260826",
+      "archived_at": "2026-08-26T01:27:51Z"
     }
   ]
 }
