@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-26T01:27:51Z",
+  "generated_at": "2026-08-26T01:34:11Z",
   "repo": "APPLES",
-  "count": 5536,
+  "count": 5537,
   "apples": [
     {
       "id": 10525,
@@ -44290,6 +44290,14 @@
       "source_repo": "IDUNA",
       "date": "20260826",
       "archived_at": "2026-08-26T01:27:51Z"
+    },
+    {
+      "id": 16071,
+      "type": "completion",
+      "title": "changelog(EmilyOS): README.md rewritten to reflect the real Go policy kernel (w…",
+      "source_repo": "EmilyOS",
+      "date": "20260826",
+      "archived_at": "2026-08-26T01:34:11Z"
     }
   ]
 }
