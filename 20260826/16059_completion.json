@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-26T00:36:08Z",
+  "body": "Founder real-time: 'dd a rig for an ant hero.' Same pattern create_tyler_armature.py already established. Real, distinct 11-bone body plan (not TylerRig's humanoid layout reused): Abdomen-\u003eThorax-\u003eHead laid out horizontally/low, 6 single-bone legs off the Thorax in front/mid/rear pairs, 2 antennae off the Head. New build-ant-armature CI job, same shape as the existing build-armature job. Scope note: armature only (GOLDENBAND's own stated scope) -- whether Ant becomes a real REDGARDEN roster hero is a separate, later decision, not assumed. Honest gap: the actual Blender build isn't live-verified (bpy needs a real Blender process, workflow_dispatch needs an authenticated trigger this session has no token for) -- verified Python syntax + a static structural check of the JOINTS table instead, queued for the founder to trigger via the Actions tab. GOLDENBAND commit c8e1481.\n\n⚓ ☃",
+  "id": 16059,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "GOLDENBAND",
+  "title": "AntRig armature added -- new Ant hero rig (S202-28)"
+}
