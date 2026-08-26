@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-26T15:01:16Z",
+  "generated_at": "2026-08-26T15:01:20Z",
   "repo": "APPLES",
-  "count": 5638,
+  "count": 5639,
   "apples": [
     {
       "id": 10525,
@@ -45106,6 +45106,14 @@
       "source_repo": "REDGARDEN",
       "date": "20260826",
       "archived_at": "2026-08-26T15:01:16Z"
+    },
+    {
+      "id": 16173,
+      "type": "completion",
+      "title": "changelog(REDGARDEN): deployed the 2026-08-25/26 autocurriculum RL policy (35.0% …",
+      "source_repo": "REDGARDEN",
+      "date": "20260826",
+      "archived_at": "2026-08-26T15:01:20Z"
     }
   ]
 }
