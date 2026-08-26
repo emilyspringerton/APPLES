@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-26T02:53:43Z",
+  "generated_at": "2026-08-26T03:05:47Z",
   "repo": "APPLES",
-  "count": 5555,
+  "count": 5556,
   "apples": [
     {
       "id": 10525,
@@ -44442,6 +44442,14 @@
       "source_repo": "emily",
       "date": "20260826",
       "archived_at": "2026-08-26T02:53:43Z"
+    },
+    {
+      "id": 16090,
+      "type": "completion",
+      "title": "Fixed live bug: Abraham never auto-attacked (windup-start hardcoded to Gary); bot AI stale for W rework; added Kite String",
+      "source_repo": "REDGARDEN",
+      "date": "20260826",
+      "archived_at": "2026-08-26T03:05:47Z"
     }
   ]
 }

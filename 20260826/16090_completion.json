@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-26T03:05:47Z",
+  "body": "Founder real-time, live: 'theres some issue with fireball its not casting' -\u003e 'i get the cast target thingy but i click and nothing' -\u003e 'and it doesnt go on cooldown' -\u003e 'also his auto attack is broken' -\u003e 'abraham'. Root cause 1: arena_tick_attack_targets' windup-START trigger (team-mode, the founder's own live match) was hardcoded to ARENA_HERO_GARY only -- S202-34 excluded Abraham from the old melee loop at 6 sites but never added him to this one, so he never auto-attacked at all, which is likely why the fireball itself looked broken too (nothing about his kit visibly worked). Root cause 2: bot_cast_kit_if_ready's Abraham case still ran the pre-rework kit, calling arena_toggle_w without ever setting a ground target first -- bot Abrahams have never cast a fireball since the rework landed. Verified via direct headless repros: confirmed broken before, confirmed a real homing shot fires and lands damage after (foe hp 100-\u003e92). Also finished Kite String (S202-34 trinket, 4% auto-attack range, 3333 flow), found as real uncommitted half-finished work while checking for in-flight state -- header fields existed with no catalog entry or stat wiring. All 4 build paths verified green, full 1099-check test suite, 0 failures, real mingw cross-compile. REDGARDEN d4fd6c7 (fix+item) + ea0787a (earlier CI wiring fix for abraham_fireball_mod missing from Windows cross-compile).\n\n⚓ ☃",
+  "id": 16090,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "REDGARDEN",
+  "title": "Fixed live bug: Abraham never auto-attacked (windup-start hardcoded to Gary); bot AI stale for W rework; added Kite String"
+}
