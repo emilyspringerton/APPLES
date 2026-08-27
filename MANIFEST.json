@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-27T11:27:02Z",
+  "generated_at": "2026-08-27T11:33:44Z",
   "repo": "APPLES",
-  "count": 5801,
+  "count": 5802,
   "apples": [
     {
       "id": 10525,
@@ -46410,6 +46410,14 @@
       "source_repo": "emily",
       "date": "20260827",
       "archived_at": "2026-08-27T11:27:02Z"
+    },
+    {
+      "id": 16336,
+      "type": "completion",
+      "title": "v0.85.0: real first step toward a self-hosted PARENA compiler -- lexer.prn",
+      "source_repo": "PARENA",
+      "date": "20260827",
+      "archived_at": "2026-08-27T11:33:44Z"
     }
   ]
 }
