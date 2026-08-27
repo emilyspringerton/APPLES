@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-27T22:23:20Z",
+  "generated_at": "2026-08-27T22:23:54Z",
   "repo": "APPLES",
-  "count": 5922,
+  "count": 5923,
   "apples": [
     {
       "id": 10525,
@@ -47378,6 +47378,14 @@
       "source_repo": "CLI",
       "date": "20260827",
       "archived_at": "2026-08-27T22:23:20Z"
+    },
+    {
+      "id": 16458,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: 'parena repo build is fail' -- flagging PARENA CI. Already caught mid-fix…",
+      "source_repo": "CLI",
+      "date": "20260827",
+      "archived_at": "2026-08-27T22:23:54Z"
     }
   ]
 }
