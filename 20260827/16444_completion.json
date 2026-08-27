@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-27T21:40:05Z",
+  "body": "Founder real-time: \"ok if i double click on parena construct in\nparena editor it crashes this is a 2 mb txt file we eneed to open it\nstreaming or whatever\".\n\nRoot cause, confirmed live: render-highlighted-text's own line walk\n(render-lines) used a plain self-recursive function call, not a real\nloop/recur -- one C stack frame per line. For a real 2.7MB/57,524-\nline file (a real local repro of PARENA_CONSTRUCT.txt, byte-for-byte\nmatching CI's own generation logic), that's 57,524 levels of C\ncall-stack depth, and gcc's own TCO isn't guaranteed for this shape\n(the call sits inside a match arm inside a let inside an if). The\nreal, reproducible crash (loads, then dies within ~6 seconds, default\n8MB stack) matches a real stack overflow exactly.\n\nFixed by rewriting as a real loop/recur, the same genuinely iterative\nconstruct every other line-at-a-time walk in this stdlib already\nuses. Verified live: the same real 2.7MB file now stays running and\nstable (confirmed alive at ~19 seconds continuous runtime vs. crashing\nwithin ~6 before). Full local suite (336 tests) + test-editor-render\n(real Xvfb render) clean, zero regressions. CI green on all 4 jobs.\n\nReal, honest scope: fixes the crash, does not yet address \"streaming\"\nin the fuller sense -- the render path still re-splits/re-tokenizes\nthe WHOLE file every frame regardless of scroll position (confirmed\nlive: CPU pins near 100%, memory climbs continuously with a large\nfile open). True windowed rendering (only the visible lines) is real,\nseparate, larger follow-up work.\n\nPARENA commit c946ae9. CI run 33118828738: all 4 jobs green.\n\nsession: sess-20260825-1938-f6bd411e\n\n⚓ ☃",
+  "id": 16444,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "PARENA",
+  "title": "Fixed real stack-overflow crash opening a large (~2MB/57k-line) file in the editor"
+}
