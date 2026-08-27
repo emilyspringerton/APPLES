@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-27T04:23:55Z",
+  "body": "Founder real-time: 'continue working on parena editor' -- the last real gap besides redo-coalescing/glyph-atlas/macOS-dylib-bundling. Real click positions the cursor (buffer.prn's new set-cursor), real click-drag selects (set-selection, sets anchor+cursor independently -- the direct complement to extend-selection-* which only moves one unit at a time). Real SDL2 mouse event plumbing added (MouseDown/Up/Motion, left-click only), pos_from_mouse in editor_main.c does the real screen-to-byte-offset inverse of the existing cursor-rendering math. Deep, genuinely isolated finding along the way: a pushed SDL2 event can require the queue be 'touched' twice before SDL_PollEvent returns it, even though SDL_PeepEvents' own PEEKEVENT mode confirms it's really sitting there the whole time -- traced via ~15 minimal repros from 'maybe window position' down to the real cause (a single poll-event call right after push-event isn't safe to assume is that event), never hits real production input (which arrives via a different code path). Fixed test_sdl2.c's own poll_until_tag to retry through empty polls, not just non-matching ones -- an earlier draft bailed on the first empty poll, which is why MouseUp specifically kept failing. 19 new real assertions across test_sdl2.c + test_editor.c, each SDL2 test re-run 3x confirming it's not flaky. Zero regressions, all 4 CI platform jobs green. PARENA commit 46716ce, release v0.74.0.\n\n⚓ ☃",
+  "id": 16276,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "PARENA",
+  "title": "Real mouse-driven selection (click + click-drag)"
+}
