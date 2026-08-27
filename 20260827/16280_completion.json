@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-27T04:32:07Z",
+  "body": "Founder real-time: 'make sure we support .md syntax highlighting' -- until now the editor only had a grammar for PARENA source, even though real .md files (this repo's own CLAUDE.md/BACKLOG.md/NORTHSTAR.md) are a real, common thing to open in it. Shipped stdlib/editor/textmate_markdown.prn -- a real 9-rule TextMate-style grammar (headings, bold, italic x2, inline code, blockquote, list markers x2, plain-word catch-all), built on the same engine editor/textmate_parena.prn already uses. theme.prn gained 6 new real scope colors approximating VS Code Dark+. editor_main.c now selects the grammar by real file extension (.md picks Markdown, everything else stays PARENA). Real, documented v0 gaps: no fenced code blocks (needs a multi-line begin/end span this engine doesn't have) and no [link](url) syntax (needs excluding ']' in a character class -- regex/syntax.prn's own parse-class has a real, confirmed, already-documented gap: 'no escaped ] inside a class'). Real bug found and fixed along the way: this file's own private add-rule helper collided with textmate_parena.prn's identically-named private helper the moment both compiled together -- the same 'private top-level names aren't module-scoped' VS0 gap found several times this session; renamed to add-markdown-rule. 15 new real assertions, including a real render pass over 4 lines lifted from this repo's own actual .md files. Zero regressions, all 4 CI platform jobs green. PARENA commit e41a7b0, release v0.75.0.\n\n⚓ ☃",
+  "id": 16280,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "PARENA",
+  "title": "Real Markdown (.md) syntax highlighting"
+}
