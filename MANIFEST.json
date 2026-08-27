@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-27T22:29:04Z",
+  "generated_at": "2026-08-27T22:39:58Z",
   "repo": "APPLES",
-  "count": 5924,
+  "count": 5925,
   "apples": [
     {
       "id": 10525,
@@ -47394,6 +47394,14 @@
       "source_repo": "emily",
       "date": "20260827",
       "archived_at": "2026-08-27T22:29:04Z"
+    },
+    {
+      "id": 16460,
+      "type": "completion",
+      "title": "Terminal/editor toggle UI + Windows pty stub + O_BINARY CRLF fix",
+      "source_repo": "PARENA",
+      "date": "20260827",
+      "archived_at": "2026-08-27T22:39:58Z"
     }
   ]
 }

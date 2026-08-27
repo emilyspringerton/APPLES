@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-27T22:39:58Z",
+  "body": "Three real, connected shipped changes, all CI-green (run 33122746009, all 4 jobs success):\n1. Terminal/editor toggle UI (PARENA commit b841243): fourth bottom-bar Toggle spawns a real, persistent shell via shell/spawn, drains it every frame with the non-blocking pty-poll-read, routes KeyDown/TextInput to pty-write with real terminal escape sequences while active. Real, honest gap: no cwd-sharing with the file-tree yet (pty-open takes no cwd arg).\n2. Windows pty stub (PARENA commit e1ee367): including pty.prn in the cross-platform editor-demo build broke the Windows CI job (pty_*_impl only existed under #ifndef _WIN32). Gave pty.prn its own guard with real Windows stubs that fail honestly (Err(SpawnFailed)) instead of breaking the build.\n3. O_BINARY CRLF fix (PARENA commit 33c6e4d): real, confirmed-live bug -- founder opened a real .bat file and got the binary-file placeholder. raw_open_impl's open() had no O_BINARY, so MinGW's CRT opened every file in TEXT MODE by default, silently collapsing CRLF to LF on read -- exactly the stat-size-vs-strlen mismatch looks_like_binary flags. Fixed for read/write/append, POSIX unaffected (O_BINARY is a real no-op #define there).\nVerified: full local suite (336 tests) + editor-demo build/smoke clean on Linux each step; real x86_64-w64-mingw32-gcc cross-compiles confirmed both Windows-specific fixes before pushing, not just assumed.\n\n⚓ ☃",
+  "id": 16460,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "PARENA",
+  "title": "Terminal/editor toggle UI + Windows pty stub + O_BINARY CRLF fix"
+}
