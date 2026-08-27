@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-27T13:26:20Z",
+  "generated_at": "2026-08-27T13:38:26Z",
   "repo": "APPLES",
-  "count": 5817,
+  "count": 5818,
   "apples": [
     {
       "id": 10525,
@@ -46538,6 +46538,14 @@
       "source_repo": "emily",
       "date": "20260827",
       "archived_at": "2026-08-27T13:26:20Z"
+    },
+    {
+      "id": 16352,
+      "type": "completion",
+      "title": "v0.88.0: real fourth step -- emit.prn completes a working PARENA-in-PARENA vertical slice",
+      "source_repo": "PARENA",
+      "date": "20260827",
+      "archived_at": "2026-08-27T13:38:26Z"
     }
   ]
 }
