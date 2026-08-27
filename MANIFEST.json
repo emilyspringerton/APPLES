@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-27T20:55:44Z",
+  "generated_at": "2026-08-27T20:56:27Z",
   "repo": "APPLES",
-  "count": 5896,
+  "count": 5897,
   "apples": [
     {
       "id": 10525,
@@ -47170,6 +47170,14 @@
       "source_repo": "PARENA",
       "date": "20260827",
       "archived_at": "2026-08-27T20:55:44Z"
+    },
+    {
+      "id": 16432,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: 'ok i dropped a large file onto parena editor and it crashed ensure we ar…",
+      "source_repo": "CLI",
+      "date": "20260827",
+      "archived_at": "2026-08-27T20:56:27Z"
     }
   ]
 }
