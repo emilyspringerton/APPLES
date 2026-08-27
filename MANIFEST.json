@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-27T21:57:42Z",
+  "generated_at": "2026-08-27T21:58:43Z",
   "repo": "APPLES",
-  "count": 5914,
+  "count": 5915,
   "apples": [
     {
       "id": 10525,
@@ -47314,6 +47314,14 @@
       "source_repo": "PARENA",
       "date": "20260827",
       "archived_at": "2026-08-27T21:57:42Z"
+    },
+    {
+      "id": 16450,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: 'continue' -- resuming the PARENA editor queue, next item: the 'Linnen' s…",
+      "source_repo": "CLI",
+      "date": "20260827",
+      "archived_at": "2026-08-27T21:58:43Z"
     }
   ]
 }
