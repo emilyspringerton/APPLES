@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-27T03:26:02Z",
+  "body": "Founder real-time, actually using the editor: 'left and right arrow work in the editor but up down doesnt work with arrow keys' -- real, confirmed-live gap, neither key had ever been wired up. Fixed: key-up/key-down (SDLK_UP/SDLK_DOWN), stdlib/editor/buffer.prn's move-cursor-up/move-cursor-down (real 'same column' behavior, clamped to the target line's own length if shorter, real honest clamp at first/last line), extend-selection-up/down for Shift+Up/Down matching the existing Shift+Left/Right shape. 12 new real assertions in test_editor.c, every expected byte offset computed via a real Python simulation of the exact recursive logic, not guessed. Same push, next real editor increment: real Ctrl+Z undo -- a plain stack of PAST Buffer values (push_undo/pop_undo in examples/editor_main.c), a natural fit for VS0's own 'every edit returns a new value' design. Real v0 scope: every keystroke its own undo step, no redo, no coalescing. New tests/test_editor_undo.c (13 real assertions incl. a precisely-traced overflow test) + new make test-editor-undo target. Zero regressions: full local suite (336 tests) + domain4/5/multifile + sdl2/editor/render/io/undo suites + editor-demo-smoke + bazel build/test; mingw cross-compile clean. PARENA commit 4589154, release v0.72.0, all 4 CI platform jobs green on the first try.\n\n⚓ ☃",
+  "id": 16266,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "PARENA",
+  "title": "Real Up/Down arrow movement + real Ctrl+Z undo"
+}

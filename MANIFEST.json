@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-27T03:14:18Z",
+  "generated_at": "2026-08-27T03:26:02Z",
   "repo": "APPLES",
-  "count": 5731,
+  "count": 5732,
   "apples": [
     {
       "id": 10525,
@@ -45850,6 +45850,14 @@
       "source_repo": "CLI",
       "date": "20260827",
       "archived_at": "2026-08-27T03:14:18Z"
+    },
+    {
+      "id": 16266,
+      "type": "completion",
+      "title": "Real Up/Down arrow movement + real Ctrl+Z undo",
+      "source_repo": "PARENA",
+      "date": "20260827",
+      "archived_at": "2026-08-27T03:26:02Z"
     }
   ]
 }
