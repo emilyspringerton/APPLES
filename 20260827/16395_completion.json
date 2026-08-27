@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-27T19:15:28Z",
+  "body": "AOE circle indicators: fixed a real gap where Cart's own W/R delivery zone never got a circle indicator (arena_hero_r_zone_radius had no CART case since his radius varies per-cast); added zone_radius_x10 to the wire protocol + a dual W/R cast preview. Marble-bag + Fibonacci pity: first real implementation of NORTHSTAR's long-documented pull algorithm anywhere in this repo (arena_fibonacci/arena_marble_bag_pick, generic/exported), replacing cart_trigger_delivery's flat rand()%4. Outcomes bumped for impact (heal/mana 25-\u003e35%, Flow 50-\u003e90) and a real 5th outcome added: King's Growth buff grant, the founder's own literal example for the random-buff ask. R finally gets genuinely better-weighted odds than W, a doc-stated intent never built until now. 21 new tests, real live end-to-end round-trip, gcc + bazel build/test clean (only the pre-existing sandbox-only test_arena_replay segfault, unrelated). Commit 1515caf.\n\n⚓ ☃",
+  "id": 16395,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "REDGARDEN",
+  "title": "Cart hero: AOE zone indicators, marble-bag+pity RNG, better-weighted R (S202-09)"
+}
