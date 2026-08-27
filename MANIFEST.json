@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-27T12:42:49Z",
+  "generated_at": "2026-08-27T12:53:24Z",
   "repo": "APPLES",
-  "count": 5809,
+  "count": 5810,
   "apples": [
     {
       "id": 10525,
@@ -46474,6 +46474,14 @@
       "source_repo": "emily",
       "date": "20260827",
       "archived_at": "2026-08-27T12:42:49Z"
+    },
+    {
+      "id": 16344,
+      "type": "completion",
+      "title": "v0.86.0: real second step toward a self-hosted PARENA compiler -- parser.prn",
+      "source_repo": "PARENA",
+      "date": "20260827",
+      "archived_at": "2026-08-27T12:53:24Z"
     }
   ]
 }
