@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-27T20:19:14Z",
+  "generated_at": "2026-08-27T20:27:21Z",
   "repo": "APPLES",
-  "count": 5883,
+  "count": 5884,
   "apples": [
     {
       "id": 10525,
@@ -47066,6 +47066,14 @@
       "source_repo": "CLI",
       "date": "20260827",
       "archived_at": "2026-08-27T20:19:14Z"
+    },
+    {
+      "id": 16419,
+      "type": "completion",
+      "title": "Real ECOWAR rebrand + fixed client connecting to REDGARDEN's own 10v10 pool instead of ECOWAR's 1v1",
+      "source_repo": "ECOWAR",
+      "date": "20260827",
+      "archived_at": "2026-08-27T20:27:21Z"
     }
   ]
 }
