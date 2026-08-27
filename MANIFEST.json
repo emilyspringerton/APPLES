@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-27T21:57:37Z",
+  "generated_at": "2026-08-27T21:57:42Z",
   "repo": "APPLES",
-  "count": 5913,
+  "count": 5914,
   "apples": [
     {
       "id": 10525,
@@ -47306,6 +47306,14 @@
       "source_repo": "PARENA",
       "date": "20260827",
       "archived_at": "2026-08-27T21:57:37Z"
+    },
+    {
+      "id": 16449,
+      "type": "completion",
+      "title": "changelog(PARENA): Mouse wheel now routes to whichever pane (file-tree sidebar…",
+      "source_repo": "PARENA",
+      "date": "20260827",
+      "archived_at": "2026-08-27T21:57:42Z"
     }
   ]
 }

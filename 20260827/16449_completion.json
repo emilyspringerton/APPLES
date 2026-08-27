@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-27T21:57:42Z",
+  "body": "CHANGELOG updated in PARENA: Mouse wheel now routes to whichever pane (file-tree sidebar vs code editor) the cursor is hovering over, instead of always scrolling the code buffer. Fixed Spotlight's own scroll-past-view bug: Down past row 11 used to move the real selection off-screen with nothing visible changing -- added spotlight_scroll_offset + spotlight_keep_selection_visible so the selection always stays in the rendered window. Full suite clean, CI green on all 4 jobs. PARENA commit c3afbea, Apple #16448. session: sess-20260825-1938-f6bd411e (sess-20260825-1938-f6bd411e)\n\n⚓ ☃",
+  "id": 16449,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "PARENA",
+  "title": "changelog(PARENA): Mouse wheel now routes to whichever pane (file-tree sidebar…"
+}
