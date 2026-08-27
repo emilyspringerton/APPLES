@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-27T17:15:40Z",
+  "generated_at": "2026-08-27T17:21:21Z",
   "repo": "APPLES",
-  "count": 5844,
+  "count": 5845,
   "apples": [
     {
       "id": 10525,
@@ -46754,6 +46754,14 @@
       "source_repo": "emily",
       "date": "20260827",
       "archived_at": "2026-08-27T17:15:40Z"
+    },
+    {
+      "id": 16379,
+      "type": "completion",
+      "title": "selfhost/emit.prn: emit-params now reads a param's own real declared C type",
+      "source_repo": "PARENA",
+      "date": "20260827",
+      "archived_at": "2026-08-27T17:21:21Z"
     }
   ]
 }
