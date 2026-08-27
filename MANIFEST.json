@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-27T20:35:48Z",
+  "generated_at": "2026-08-27T20:35:52Z",
   "repo": "APPLES",
-  "count": 5888,
+  "count": 5889,
   "apples": [
     {
       "id": 10525,
@@ -47106,6 +47106,14 @@
       "source_repo": "PARENA",
       "date": "20260827",
       "archived_at": "2026-08-27T20:35:48Z"
+    },
+    {
+      "id": 16424,
+      "type": "completion",
+      "title": "changelog(PARENA): CI: 2 additional compressed Construct artifacts (PARENA_CON…",
+      "source_repo": "PARENA",
+      "date": "20260827",
+      "archived_at": "2026-08-27T20:35:52Z"
     }
   ]
 }

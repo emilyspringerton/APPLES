@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-27T20:35:52Z",
+  "body": "CHANGELOG updated in PARENA: CI: 2 additional compressed Construct artifacts (PARENA_CONSTRUCT.tar.gz, PARENA_CONSTRUCT.zip) alongside the existing raw .txt, and the Construct file is now bundled into every real client release build (Linux/macOS tar.gz, Windows zip) so a downloaded build can be traced back to its exact source snapshot. Verified live against the real v0.97.0 release. PARENA commit c6411e2, Apple #16423. session: sess-20260825-1938-f6bd411e (sess-20260825-1938-f6bd411e)\n\n⚓ ☃",
+  "id": 16424,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "PARENA",
+  "title": "changelog(PARENA): CI: 2 additional compressed Construct artifacts (PARENA_CON…"
+}
