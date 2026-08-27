@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-27T05:31:09Z",
+  "generated_at": "2026-08-27T05:31:11Z",
   "repo": "APPLES",
-  "count": 5763,
+  "count": 5764,
   "apples": [
     {
       "id": 10525,
@@ -46106,6 +46106,14 @@
       "source_repo": "PARENA",
       "date": "20260827",
       "archived_at": "2026-08-27T05:31:09Z"
+    },
+    {
+      "id": 16298,
+      "type": "completion",
+      "title": "changelog(PARENA): Root-caused and fixed a real Windows DPI-awareness bug maki…",
+      "source_repo": "PARENA",
+      "date": "20260827",
+      "archived_at": "2026-08-27T05:31:11Z"
     }
   ]
 }
