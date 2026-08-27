@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-27T19:38:19Z",
+  "body": "Hard forked ECOWAR from REDGARDEN (full git history preserved, 446+ commits), superseding the 2026-08-20 GFD-battlegrounds_gui-based scoping per this session's real-time redirect ('actually lets do a hard fork from redgarden repo wise'). Build+test verified in the new checkout (gcc + bazel, same clean result REDGARDEN itself gets). Staged ECOWAR's own 1v1 matchmaker+bot-pool (:9779, distinct from REDGARDEN's 777x/877x range), verified live end-to-end locally (real matchmaker, 2 bots, a real match played). Shipped ECOWAR's own 16-card system (ECOWAR_CARDS catalog + ecowar_resolve_card_effect, 16 cards grounded in real TYLER/multiverse_heroes.md entries, mapped to 5 proven engine mechanics), with the first mod in this fork's history to do real PARENA decision logic (a genuine I32 branch over all 16 card ids computing MYTHIC/MUNDANE tier-scaled magnitude) rather than just a bare trigger -- per the founder's own 'do the whole game in pure parena as much as you can.' 9 new tests, all passing. Queued all 16 real Prompt-o-verse card-art generations; draining blocked on this session's own missing gcloud credentials, flagged honestly as a real environmental gap. Not yet wired into a real in-match input (no deck/hand UI -- 'more specific mechanic direction to follow' per the founder). REDGARDEN commit 1515caf (fork point); ECOWAR commits eddde42/2233d08/a508a08/fc257c4/1d96086; PARENA commit dc7a2ae.\n\n⚓ ☃",
+  "id": 16402,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "ECOWAR",
+  "title": "ECOWAR hard fork from REDGARDEN + own matchmaking + 16-card system"
+}

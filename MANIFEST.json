@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-27T19:37:16Z",
+  "generated_at": "2026-08-27T19:38:20Z",
   "repo": "APPLES",
-  "count": 5867,
+  "count": 5868,
   "apples": [
     {
       "id": 10525,
@@ -46938,6 +46938,14 @@
       "source_repo": "CLI",
       "date": "20260827",
       "archived_at": "2026-08-27T19:37:16Z"
+    },
+    {
+      "id": 16402,
+      "type": "completion",
+      "title": "ECOWAR hard fork from REDGARDEN + own matchmaking + 16-card system",
+      "source_repo": "ECOWAR",
+      "date": "20260827",
+      "archived_at": "2026-08-27T19:38:20Z"
     }
   ]
 }
