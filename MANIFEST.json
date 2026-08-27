@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-27T23:18:50Z",
+  "generated_at": "2026-08-27T23:21:00Z",
   "repo": "APPLES",
-  "count": 5938,
+  "count": 5939,
   "apples": [
     {
       "id": 10525,
@@ -47506,6 +47506,14 @@
       "source_repo": "CLI",
       "date": "20260827",
       "archived_at": "2026-08-27T23:18:50Z"
+    },
+    {
+      "id": 16474,
+      "type": "completion",
+      "title": "NORTHSTAR scoping: Arena API + Map Editor tool + ECOWAR CLI epic",
+      "source_repo": "ECOWAR",
+      "date": "20260827",
+      "archived_at": "2026-08-27T23:21:00Z"
     }
   ]
 }
