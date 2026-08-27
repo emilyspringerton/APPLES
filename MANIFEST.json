@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-27T20:01:07Z",
+  "generated_at": "2026-08-27T20:13:52Z",
   "repo": "APPLES",
-  "count": 5878,
+  "count": 5879,
   "apples": [
     {
       "id": 10525,
@@ -47026,6 +47026,14 @@
       "source_repo": "emily",
       "date": "20260827",
       "archived_at": "2026-08-27T20:01:07Z"
+    },
+    {
+      "id": 16413,
+      "type": "completion",
+      "title": "Spotlight: real Ctrl+T/Cmd+T command palette, plugin-extensible provider registry",
+      "source_repo": "PARENA",
+      "date": "20260827",
+      "archived_at": "2026-08-27T20:13:52Z"
     }
   ]
 }
