@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-27T11:33:48Z",
+  "body": "CHANGELOG updated in PARENA: Real first step toward a self-hosted PARENA compiler: selfhost/lexer.prn, a faithful PARENA-language port of src/lexer.c, 60 real assertions cross-checked against the C reference. Found and fixed 2 real emitter truncation bugs (emit_if/emit_binop's fixed-size snprintf buffers silently corrupting deeply-nested expressions) along the way. v0.85.0 (sess-20260825-1938-f6bd411e) (sess-20260825-1938-f6bd411e)\n\n⚓ ☃",
+  "id": 16337,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "PARENA",
+  "title": "changelog(PARENA): Real first step toward a self-hosted PARENA compiler: selfh…"
+}

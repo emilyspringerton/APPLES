@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-27T11:33:44Z",
+  "generated_at": "2026-08-27T11:33:48Z",
   "repo": "APPLES",
-  "count": 5802,
+  "count": 5803,
   "apples": [
     {
       "id": 10525,
@@ -46418,6 +46418,14 @@
       "source_repo": "PARENA",
       "date": "20260827",
       "archived_at": "2026-08-27T11:33:44Z"
+    },
+    {
+      "id": 16337,
+      "type": "completion",
+      "title": "changelog(PARENA): Real first step toward a self-hosted PARENA compiler: selfh…",
+      "source_repo": "PARENA",
+      "date": "20260827",
+      "archived_at": "2026-08-27T11:33:48Z"
     }
   ]
 }
