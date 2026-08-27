@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-27T04:40:42Z",
+  "generated_at": "2026-08-27T04:46:48Z",
   "repo": "APPLES",
-  "count": 5749,
+  "count": 5750,
   "apples": [
     {
       "id": 10525,
@@ -45994,6 +45994,14 @@
       "source_repo": "emily",
       "date": "20260827",
       "archived_at": "2026-08-27T04:40:42Z"
+    },
+    {
+      "id": 16284,
+      "type": "completion",
+      "title": "Real macOS dylib bundling for editor-demo release binary",
+      "source_repo": "PARENA",
+      "date": "20260827",
+      "archived_at": "2026-08-27T04:46:48Z"
     }
   ]
 }
