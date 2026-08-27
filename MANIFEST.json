@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-27T18:38:48Z",
+  "generated_at": "2026-08-27T18:41:26Z",
   "repo": "APPLES",
-  "count": 5855,
+  "count": 5856,
   "apples": [
     {
       "id": 10525,
@@ -46842,6 +46842,14 @@
       "source_repo": "CLI",
       "date": "20260827",
       "archived_at": "2026-08-27T18:38:48Z"
+    },
+    {
+      "id": 16390,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: 'ok do what you think' -- confirming the stdlib FFI-duplication audit I p…",
+      "source_repo": "CLI",
+      "date": "20260827",
+      "archived_at": "2026-08-27T18:41:26Z"
     }
   ]
 }
