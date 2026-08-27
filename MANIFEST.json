@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-27T23:05:27Z",
+  "generated_at": "2026-08-27T23:05:29Z",
   "repo": "APPLES",
-  "count": 5932,
+  "count": 5933,
   "apples": [
     {
       "id": 10525,
@@ -47458,6 +47458,14 @@
       "source_repo": "PARENA",
       "date": "20260827",
       "archived_at": "2026-08-27T23:05:27Z"
+    },
+    {
+      "id": 16468,
+      "type": "completion",
+      "title": "changelog(PARENA): Real fix for the large-file crash: windowed render-highligh…",
+      "source_repo": "PARENA",
+      "date": "20260827",
+      "archived_at": "2026-08-27T23:05:29Z"
     }
   ]
 }
