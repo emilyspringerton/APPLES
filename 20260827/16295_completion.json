@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-27T05:30:51Z",
+  "body": "Ctrl+= / Ctrl+- / Ctrl+0 / Ctrl+scroll zoom, ported directly from PITVIPER's own real, established convention (read cmd/pitviper/main.go to confirm the exact model: zoomScale float, 0.5-3.0 clamp, 0.1 step, Ctrl+scroll takes over the wheel entirely) — PARENA's port uses an I32 percent matching the file's own I32-everywhere convention. Found and fixed a real rendering bug via actual screenshot verification under Xvfb: the hover-reveal status bar (fixed logical Y) silently rendered off-screen past ~130% zoom because SDL_RenderSetScale shrinks the effective logical viewport without resizing the window; fixed by resetting scale to 100% before drawing the bar and using raw screen coordinates for its own hit-testing. F2 now runs the real parena fmt formatter on save via a new runtime/prnfmt_bridge.c bridge — required solving two real collisions: an Arena TYPE collision between src/arena.h (compiler's own bump allocator) and runtime/parena_runtime.h's own separately-defined Arena (solved by isolating the bridge in its own translation unit exposing only char*/size_t), and an Arena FUNCTION-NAME link collision (multiple definition of arena_init) once both objects landed in one binary, fixed via -D symbol-renaming (PRNFMT_RENAME) applied consistently across Makefile and all 3 CI platform build steps. Also caught and fixed a real use-after-free in the first draft (from_text stores the formatted pointer directly rather than copying it; fixed by arena-copying before calling from_text). CI green on Linux/Windows/macOS — first real verification of src/arena.c and src/fmt.c compiling clean under macOS Clang. Released as v0.80.0.\n\n⚓ ☃",
+  "id": 16295,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "PARENA",
+  "title": "v0.80.0: Ctrl+Zoom (matching PITVIPER convention) + prnfmt-on-save"
+}
