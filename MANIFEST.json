@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-27T19:19:52Z",
+  "generated_at": "2026-08-27T19:21:06Z",
   "repo": "APPLES",
-  "count": 5864,
+  "count": 5865,
   "apples": [
     {
       "id": 10525,
@@ -46914,6 +46914,14 @@
       "source_repo": "CLI",
       "date": "20260827",
       "archived_at": "2026-08-27T19:19:52Z"
+    },
+    {
+      "id": 16399,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: 'start working on ecowar in the redgarden repo -- we need separate bot po…",
+      "source_repo": "CLI",
+      "date": "20260827",
+      "archived_at": "2026-08-27T19:21:06Z"
     }
   ]
 }
