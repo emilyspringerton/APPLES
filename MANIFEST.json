@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-27T21:05:18Z",
+  "generated_at": "2026-08-27T21:05:23Z",
   "repo": "APPLES",
-  "count": 5899,
+  "count": 5900,
   "apples": [
     {
       "id": 10525,
@@ -47194,6 +47194,14 @@
       "source_repo": "PARENA",
       "date": "20260827",
       "archived_at": "2026-08-27T21:05:18Z"
+    },
+    {
+      "id": 16435,
+      "type": "completion",
+      "title": "changelog(PARENA): Fixed a real O(n^2) crash/choke on large files: raw_read_al…",
+      "source_repo": "PARENA",
+      "date": "20260827",
+      "archived_at": "2026-08-27T21:05:23Z"
     }
   ]
 }

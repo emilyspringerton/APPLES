@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-27T21:05:23Z",
+  "body": "CHANGELOG updated in PARENA: Fixed a real O(n^2) crash/choke on large files: raw_read_all_impl (read-string's own host primitive) grew its buffer in fixed 4096-byte steps, copying the whole buffer on every grow and never freeing intermediate allocations. Fixed with fstat-sized single allocation + doubling-growth fallback. Verified live: a ~10MB file that previously couldn't finish reading in 30 seconds now reads in 0.045s; a real 133.5MB file reads in 0.526s. New wall-clock regression test. CI green on all 4 jobs. Honest scope: whole file still loads into memory at once -- true streaming/windowing for GB-scale files is separate, larger, unstarted work. PARENA commit 54652f2, Apple #16434. session: sess-20260825-1938-f6bd411e (sess-20260825-1938-f6bd411e)\n\n⚓ ☃",
+  "id": 16435,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "PARENA",
+  "title": "changelog(PARENA): Fixed a real O(n^2) crash/choke on large files: raw_read_al…"
+}
