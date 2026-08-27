@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-27T04:46:48Z",
+  "generated_at": "2026-08-27T04:46:50Z",
   "repo": "APPLES",
-  "count": 5750,
+  "count": 5751,
   "apples": [
     {
       "id": 10525,
@@ -46002,6 +46002,14 @@
       "source_repo": "PARENA",
       "date": "20260827",
       "archived_at": "2026-08-27T04:46:48Z"
+    },
+    {
+      "id": 16285,
+      "type": "completion",
+      "title": "changelog(PARENA): Real macOS dylib bundling (otool/install_name_tool/codesign…",
+      "source_repo": "PARENA",
+      "date": "20260827",
+      "archived_at": "2026-08-27T04:46:50Z"
     }
   ]
 }
