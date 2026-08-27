@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-27T03:26:02Z",
+  "generated_at": "2026-08-27T03:26:04Z",
   "repo": "APPLES",
-  "count": 5732,
+  "count": 5733,
   "apples": [
     {
       "id": 10525,
@@ -45858,6 +45858,14 @@
       "source_repo": "PARENA",
       "date": "20260827",
       "archived_at": "2026-08-27T03:26:02Z"
+    },
+    {
+      "id": 16267,
+      "type": "completion",
+      "title": "changelog(PARENA): Real Up/Down arrow-key cursor movement (fixing a real gap t…",
+      "source_repo": "PARENA",
+      "date": "20260827",
+      "archived_at": "2026-08-27T03:26:04Z"
     }
   ]
 }
