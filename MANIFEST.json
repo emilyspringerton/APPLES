@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-27T19:17:12Z",
+  "generated_at": "2026-08-27T19:19:52Z",
   "repo": "APPLES",
-  "count": 5863,
+  "count": 5864,
   "apples": [
     {
       "id": 10525,
@@ -46906,6 +46906,14 @@
       "source_repo": "emily",
       "date": "20260827",
       "archived_at": "2026-08-27T19:17:12Z"
+    },
+    {
+      "id": 16398,
+      "type": "signal_observation",
+      "title": "[INFO] REDGARDEN backlog work: investigated S202-16 (shankpit-460 single-binary ask) -- found the l…",
+      "source_repo": "CLI",
+      "date": "20260827",
+      "archived_at": "2026-08-27T19:19:52Z"
     }
   ]
 }
