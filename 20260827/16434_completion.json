@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-27T21:05:18Z",
+  "body": "Founder real-time, actually dropping a real large file onto the\nPARENA editor: \"it crashed... if we try to open a too large file it\njust chokes\".\n\nRoot cause, confirmed live: raw_read_all_impl (read-string's own real\nhost primitive, called by the editor's own load_from_file) grew its\nbuffer in FIXED 4096-byte steps -- reallocating and copying the\nENTIRE buffer so far on every single grow (a bump arena, nothing ever\nfreed). Real O(N^2) copy work and real O(N^2) wasted memory for an\nN-byte file. Confirmed live: the pre-fix version couldn't even finish\nreading a real ~10MB file in 30 real seconds (timed out); a 100+MB\nfile would exhaust available memory outright.\n\nFixed with fstat(2)-sized single allocation (the only real caller,\nread-string, is documented FileHandle-only) + real doubling growth as\nthe fallback for when the size hint is wrong. Verified live: the\nfixed version reads a real 133.5MB file in 0.526 seconds; the same\n~10MB file the old version couldn't finish in 30 seconds now reads in\n0.045 seconds.\n\nNew real regression test in tests/test_editor_io.c (a real ~8MB file,\nasserts read-string completes in well under 2 real seconds -- a real\nwall-clock proof, not just \"does it crash\"). Full local suite (336\ntests) + all 5 selfhost domains + test-editor-io clean, zero\nregressions. CI green on all 4 jobs (real Windows/macOS included,\nconfirming the fstat/sys-stat.h portability was fine).\n\nReal, honest scope: this fixes the actual crash/choke -- loading is\nnow fast and bounded, not accidentally quadratic -- but the whole file\nstill ends up resident in memory at once. True streaming/windowing\n(only the visible portion of a truly huge, GB-scale file ever in\nmemory) is a real, separate, much larger editor-architecture question,\nnot attempted here.\n\nPARENA commit 54652f2. CI run 33116118774: all 4 jobs green.\n\nsession: sess-20260825-1938-f6bd411e\n\n⚓ ☃",
+  "id": 16434,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "PARENA",
+  "title": "Fixed real O(n^2) crash/choke on large files -- raw_read_all_impl grew in fixed 4096-byte steps"
+}

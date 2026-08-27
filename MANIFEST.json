@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-27T20:59:23Z",
+  "generated_at": "2026-08-27T21:05:18Z",
   "repo": "APPLES",
-  "count": 5898,
+  "count": 5899,
   "apples": [
     {
       "id": 10525,
@@ -47186,6 +47186,14 @@
       "source_repo": "emily",
       "date": "20260827",
       "archived_at": "2026-08-27T20:59:23Z"
+    },
+    {
+      "id": 16434,
+      "type": "completion",
+      "title": "Fixed real O(n^2) crash/choke on large files -- raw_read_all_impl grew in fixed 4096-byte steps",
+      "source_repo": "PARENA",
+      "date": "20260827",
+      "archived_at": "2026-08-27T21:05:18Z"
     }
   ]
 }
