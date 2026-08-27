@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-27T20:35:48Z",
+  "body": "Founder real-time: \"ensure parena ci uploads construct artifacts...\nhave 2 additional artifacts one targz the other zip of that file check\nshankpit and other repos for construct example... also include the\nconstruct file in the client artifact so we can identify specific\nversions if we find them later\".\n\nPARENA_CONSTRUCT.txt already got generated and uploaded as its own\nraw artifact (S202-19). Added two more, real, separately-downloadable\nartifacts of the exact same file: PARENA_CONSTRUCT.tar.gz and\nPARENA_CONSTRUCT.zip -- same real construct-generation shape SHANKPIT/\nEMILY/other repos already establish, tar.gz+zip named explicitly per\nthe founder's own ask here (this monorepo's own standing LZ4 default\ndoesn't apply -- an explicit, real override for this artifact type).\n\nThe release job now downloads the raw Construct artifact and copies\nit into dist-editor/{linux,macos,windows} before packaging, so the\nreal, downloadable client builds each carry their own\nPARENA_CONSTRUCT.txt -- verified live: downloaded the real v0.97.0\nrelease's editor-demo-linux-x86_64.tar.gz and confirmed\nPARENA_CONSTRUCT.txt is genuinely inside it, not just assumed.\n\nCI green on all 4 jobs. All 3 Construct artifacts (raw txt, targz,\nzip) confirmed present via the Actions API. PARENA commit c6411e2,\nrelease v0.97.0.\n\nsession: sess-20260825-1938-f6bd411e\n\n⚓ ☃",
+  "id": 16423,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "PARENA",
+  "title": "CI: 2 additional compressed Construct artifacts + bundled into every client release"
+}
