@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-27T20:50:12Z",
+  "generated_at": "2026-08-27T20:55:39Z",
   "repo": "APPLES",
-  "count": 5894,
+  "count": 5895,
   "apples": [
     {
       "id": 10525,
@@ -47154,6 +47154,14 @@
       "source_repo": "CLI",
       "date": "20260827",
       "archived_at": "2026-08-27T20:50:12Z"
+    },
+    {
+      "id": 16430,
+      "type": "completion",
+      "title": "pty.prn: non-blocking pty-poll-read + shell/spawn -- terminal panel backend, real CI green",
+      "source_repo": "PARENA",
+      "date": "20260827",
+      "archived_at": "2026-08-27T20:55:39Z"
     }
   ]
 }

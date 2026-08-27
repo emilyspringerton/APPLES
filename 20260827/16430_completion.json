@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-27T20:55:39Z",
+  "body": "Founder real-time: \"add a new button to the bottom of the parena\neditor to toggle between terminal and editor? unifying pitviper and\nthe parena editor - have it work just like pitviper where it auto\nfinds git bash for the terminal\". First real, foundational increment\ntoward that: the backend gap that had to be fixed before any UI\nwiring could work at all.\n\npty-read's own real, documented contract (\"reads until the peer side\ncloses\") is correct for test_shell.c's own \"run one command, exit\"\ncheck, but calling it every frame from the editor's own render loop\nagainst a long-lived, idle interactive shell would freeze the WHOLE\neditor the instant the shell sits at its next prompt.\n\nAdded pty_poll_read_impl + pty-poll-read: a real poll(2) check with a\nzero timeout before ever calling read(), so read() is only reached\nwhen data (or EOF) is actually pending -- can never block. Deliberately\ndoes NOT set O_NONBLOCK on the fd itself (would have silently changed\npty-read's own existing behavior for every caller); pty-read stays\nexactly as it was, zero regression.\n\nAdded shell/spawn: resolve's own real explicit\u003e$SHELL\u003eGit-Bash\u003e\nfallback policy combined with pty-open in one call, matching \"auto\nfinds git bash for the terminal\" directly.\n\n10 new real assertions (test_shell.c now 20 total), including a real\nwall-clock check proving pty-poll-read returns near-instantly against\na genuinely idle interactive shell (a regression back to blocking\nwould hang this exact test, not just run slow). Full local suite (336\ntests) + test-shell clean, zero regressions. CI green on all 4 jobs\n(Linux, real Windows, real macOS, Tag\u0026Release).\n\nReal, honest scope: backend only. The terminal panel's own UI (toggle\nbutton, render surface, keystroke routing, cwd sharing with the\nfile-tree sidebar) is real, separate, not-yet-started follow-up.\n\nPARENA commit 83bc177. CI run 33115344246: all 4 jobs green.\n\nsession: sess-20260825-1938-f6bd411e\n\n⚓ ☃",
+  "id": 16430,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "PARENA",
+  "title": "pty.prn: non-blocking pty-poll-read + shell/spawn -- terminal panel backend, real CI green"
+}
