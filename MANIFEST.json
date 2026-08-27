@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-27T08:55:54Z",
+  "generated_at": "2026-08-27T09:04:36Z",
   "repo": "APPLES",
-  "count": 5783,
+  "count": 5784,
   "apples": [
     {
       "id": 10525,
@@ -46266,6 +46266,14 @@
       "source_repo": "emily",
       "date": "20260827",
       "archived_at": "2026-08-27T08:55:54Z"
+    },
+    {
+      "id": 16318,
+      "type": "completion",
+      "title": "v0.83.0: real NERDTree-style file-tree sidebar v0",
+      "source_repo": "PARENA",
+      "date": "20260827",
+      "archived_at": "2026-08-27T09:04:36Z"
     }
   ]
 }

@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-27T09:04:36Z",
+  "body": "Founder real-time: 'we are going to need to do the nerd tree style implementation to display a tree of files' -- picked as the next real increment continuing this session's own PARENA editor thread. New stdlib/io.prn list-dir (+ runtime/parena_runtime.h's list_dir_impl, real portable dirent.h opendir/readdir/closedir -- MinGW-w64 ships a real dirent.h emulation, no #ifdef _WIN32 split needed unlike net/tcp.prn's sockets or pty.prn's forkpty; confirmed for real on the actual Windows AND macOS CI runners this release, not just local compile-only checks). Real '' on failure / newline-joined names on success convention matching env_get_impl/exec_lookpath_impl; the PARENA-level wrapper special-cases '' to a real empty Vec rather than string/split's own real one-blank-entry behavior on empty input. examples/editor_main.c: real fixed-width (180px) sidebar listing the current working directory (one flat level, not recursive -- real, separate, deferred), visibility toggled via a second real Toggle widget in the status bar (the widget system's real second caller, off by default), clicking an entry spawns a real new editor window via the existing spawn_new_instance drag-and-drop infra. Text/cursor/selection x-origin shifts by the sidebar's own real, zoom-corrected width when visible (SIDEBAR_WIDTH*100/zoom_percent, same integer-safe convention already used for mouse-coordinate conversion) so the sidebar keeps a real, constant on-screen width regardless of content zoom -- verified via two real screenshots under Xvfb (100% and 150% zoom). Directory/source tabs (founder's separate, related ask) stays deferred. 21 new real assertions in tests/test_editor_io.c. Full local suite + bazel build/test + real mingw cross-compile all clean, zero regressions. CI green on all 4 platform jobs including real Windows/macOS link verification. PARENA commit bec9f1f, release v0.83.0.\n\n⚓ ☃",
+  "id": 16318,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "PARENA",
+  "title": "v0.83.0: real NERDTree-style file-tree sidebar v0"
+}
