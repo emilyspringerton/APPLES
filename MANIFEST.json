@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-27T18:53:06Z",
+  "generated_at": "2026-08-27T18:53:11Z",
   "repo": "APPLES",
-  "count": 5858,
+  "count": 5859,
   "apples": [
     {
       "id": 10525,
@@ -46866,6 +46866,14 @@
       "source_repo": "PARENA",
       "date": "20260827",
       "archived_at": "2026-08-27T18:53:06Z"
+    },
+    {
+      "id": 16393,
+      "type": "completion",
+      "title": "changelog(PARENA): stdlib: consolidated 4 real, duplicated C FFI helpers found…",
+      "source_repo": "PARENA",
+      "date": "20260827",
+      "archived_at": "2026-08-27T18:53:11Z"
     }
   ]
 }
