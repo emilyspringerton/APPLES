@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-27T04:23:57Z",
+  "generated_at": "2026-08-27T04:24:21Z",
   "repo": "APPLES",
-  "count": 5743,
+  "count": 5744,
   "apples": [
     {
       "id": 10525,
@@ -45946,6 +45946,14 @@
       "source_repo": "PARENA",
       "date": "20260827",
       "archived_at": "2026-08-27T04:23:57Z"
+    },
+    {
+      "id": 16278,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: 'make sure we support .md syntax highlighting' -- building a real Markdow…",
+      "source_repo": "CLI",
+      "date": "20260827",
+      "archived_at": "2026-08-27T04:24:21Z"
     }
   ]
 }
