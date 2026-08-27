@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-27T22:13:26Z",
+  "generated_at": "2026-08-27T22:14:04Z",
   "repo": "APPLES",
-  "count": 5919,
+  "count": 5920,
   "apples": [
     {
       "id": 10525,
@@ -47354,6 +47354,14 @@
       "source_repo": "emily",
       "date": "20260827",
       "archived_at": "2026-08-27T22:13:26Z"
+    },
+    {
+      "id": 16455,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: opening a large file in PARENA editor still crashes -- 'we need to open a…",
+      "source_repo": "CLI",
+      "date": "20260827",
+      "archived_at": "2026-08-27T22:14:04Z"
     }
   ]
 }
