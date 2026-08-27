@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-27T21:05:23Z",
+  "generated_at": "2026-08-27T21:13:48Z",
   "repo": "APPLES",
-  "count": 5900,
+  "count": 5901,
   "apples": [
     {
       "id": 10525,
@@ -47202,6 +47202,14 @@
       "source_repo": "PARENA",
       "date": "20260827",
       "archived_at": "2026-08-27T21:05:23Z"
+    },
+    {
+      "id": 16436,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time correction: 'no double click on nerd tree should open a new window it just…",
+      "source_repo": "CLI",
+      "date": "20260827",
+      "archived_at": "2026-08-27T21:13:48Z"
     }
   ]
 }
