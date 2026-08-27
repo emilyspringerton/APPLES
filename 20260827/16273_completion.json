@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-27T04:04:38Z",
+  "body": "Founder real-time: 'continue' -- direct complement to Ctrl+Z undo (Apple #16266). push_stack/pop_stack now the one shared bounded-LIFO implementation for both undo and redo stacks; push_undo (every real new edit) clears redo, matching standard editor semantics. Real, confirmed-live bug caught while writing this feature's own test: the first draft of Ctrl+Z/Ctrl+Y unconditionally pushed onto the OPPOSITE stack even with nothing to undo/redo, leaving spurious duplicate entries -- fixed with the same 'only push on confirmed real change' guard already used for Backspace/Delete. 13 new real assertions in test_editor_undo.c. Zero regressions, all 4 CI platform jobs green. PARENA commit 21b106e, release v0.73.0.\n\n⚓ ☃",
+  "id": 16273,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "PARENA",
+  "title": "Real Ctrl+Y redo (+ fixed a spurious-push bug it caught)"
+}
