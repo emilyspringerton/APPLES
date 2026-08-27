@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-27T14:59:04Z",
+  "generated_at": "2026-08-27T15:10:21Z",
   "repo": "APPLES",
-  "count": 5829,
+  "count": 5830,
   "apples": [
     {
       "id": 10525,
@@ -46634,6 +46634,14 @@
       "source_repo": "CLI",
       "date": "20260827",
       "archived_at": "2026-08-27T14:59:04Z"
+    },
+    {
+      "id": 16364,
+      "type": "completion",
+      "title": "selfhost/main.prn: real domain 5, disk-to-disk self-hosted build pipeline",
+      "source_repo": "PARENA",
+      "date": "20260827",
+      "archived_at": "2026-08-27T15:10:21Z"
     }
   ]
 }
