@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-27T10:26:53Z",
+  "generated_at": "2026-08-27T10:36:08Z",
   "repo": "APPLES",
-  "count": 5795,
+  "count": 5796,
   "apples": [
     {
       "id": 10525,
@@ -46362,6 +46362,14 @@
       "source_repo": "emily",
       "date": "20260827",
       "archived_at": "2026-08-27T10:26:53Z"
+    },
+    {
+      "id": 16330,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: 'defer entire feature' -- explicit, direct decision (rejected the AskUser…",
+      "source_repo": "CLI",
+      "date": "20260827",
+      "archived_at": "2026-08-27T10:36:08Z"
     }
   ]
 }
