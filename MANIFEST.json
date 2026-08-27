@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-27T20:15:06Z",
+  "generated_at": "2026-08-27T20:16:26Z",
   "repo": "APPLES",
-  "count": 5880,
+  "count": 5881,
   "apples": [
     {
       "id": 10525,
@@ -47042,6 +47042,14 @@
       "source_repo": "emily",
       "date": "20260827",
       "archived_at": "2026-08-27T20:15:06Z"
+    },
+    {
+      "id": 16416,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: 'i dont see the card interface in the ecowar client' -- real bug report, …",
+      "source_repo": "CLI",
+      "date": "20260827",
+      "archived_at": "2026-08-27T20:16:26Z"
     }
   ]
 }
