@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-27T01:36:22Z",
+  "body": "Founder real-time: 'continue' -- next real editor increment after text selection (Apple #16245). Real clipboard integration through SDL2's own real SDL_SetClipboardText/SDL_GetClipboardText: runtime.h's sdl2_ctrl_held_impl (SDL_GetModState() \u0026 KMOD_CTRL) + sdl2_set_clipboard_text_impl/sdl2_get_clipboard_text_impl, sdl2.prn's ctrl-held?/get-clipboard-text/set-clipboard-text (closes that file's own previously-flagged 'get-clipboard-text... NOT closed in this pass' gap). Ctrl+C copies the selection, Ctrl+X copies then deletes it, Ctrl+V replaces any selection then inserts the clipboard text at the cursor. Real, confirmed-live finding along the way: SDL_PushEvent does NOT update SDL's own internal modifier-state tracking (SDL_GetModState reads state set by SDL_SendKeyboardKey, which a manually pushed queue entry bypasses) -- caught by writing a test using the established push-event technique, watching it genuinely fail, then switching to SDL_SetModState (the real, documented SDL2 API for exactly this). 4 new real assertions in test_sdl2.c. Zero regressions: full local suite (336 tests) + domain4/5/multifile + sdl2/editor/render/io + editor-demo-smoke + bazel build/test; mingw cross-compile re-verified clean. PARENA commit 84a2e4c, release v0.71.0, all 4 CI platform jobs green on the first try.\n\n⚓ ☃",
+  "id": 16256,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "PARENA",
+  "title": "Real Ctrl+C/X/V clipboard copy/cut/paste"
+}
