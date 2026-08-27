@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-27T16:59:18Z",
+  "generated_at": "2026-08-27T16:59:23Z",
   "repo": "APPLES",
-  "count": 5840,
+  "count": 5841,
   "apples": [
     {
       "id": 10525,
@@ -46722,6 +46722,14 @@
       "source_repo": "PARENA",
       "date": "20260827",
       "archived_at": "2026-08-27T16:59:18Z"
+    },
+    {
+      "id": 16375,
+      "type": "completion",
+      "title": "changelog(PARENA): selfhost/emit.prn: fixed a real, live segfault found via th…",
+      "source_repo": "PARENA",
+      "date": "20260827",
+      "archived_at": "2026-08-27T16:59:23Z"
     }
   ]
 }

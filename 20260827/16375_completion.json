@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-27T16:59:23Z",
+  "body": "CHANGELOG updated in PARENA: selfhost/emit.prn: fixed a real, live segfault found via the first real self-compile attempt (build-file'ing selfhost/lexer.prn through the pipeline itself). emit-let-bindings called emit-alloc-call unconditionally on every let-binding, crashing on a plain function-call binding (a real, in-scope shape this narrow v0 emitter never supported). Fixed with a real alloc-call-shaped? guard: unsupported shapes now emit a clean C #error instead of crashing. 3 new regression assertions, CI green on all 4 jobs. Honest gap remains: lexer.prn still doesn't fully compile through the pipeline -- crash fixed, real language-coverage gap (match/loop/arithmetic/closures/generics) documented, not closed. PARENA commit 836e854, Apple #16374. session: sess-20260825-1938-f6bd411e (sess-20260825-1938-f6bd411e)\n\n⚓ ☃",
+  "id": 16375,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "PARENA",
+  "title": "changelog(PARENA): selfhost/emit.prn: fixed a real, live segfault found via th…"
+}
