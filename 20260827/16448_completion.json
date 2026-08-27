@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-27T21:57:37Z",
+  "body": "Two real, queued bug reports fixed.\n\n1. \"nerd tree needs to scroll with mouse wheel if im hovering over\n   nerd tree vs hovering over text editor\". Mouse wheel used to always\n   scroll the code buffer regardless of cursor position. Added\n   file_tree_scroll_offset; the MouseWheel handler now checks the\n   same real sidebar hit-test the file-tree's own MouseDown handler\n   already uses, routing the wheel to whichever pane the cursor is\n   over. Click handling and rendering both fold in the offset so\n   clicks still target the correct entry; navigating resets scroll.\n\n2. \"ctrl t needs to scroll when you do down and it scrolls past the\n   view\". Root cause: spotlight_selected was clamped to the real\n   result count but the render loop always drew rows 0-11 with no\n   scroll offset -- pressing Down past row 11 moved the real\n   selection off-screen with nothing visible changing. Added\n   spotlight_scroll_offset + spotlight_keep_selection_visible, called\n   at every site that changes spotlight_selected; the render loop now\n   iterates from the scroll offset.\n\nFull local suite (336 tests) clean, zero regressions. CI green on all\n4 jobs.\n\nPARENA commit c3afbea. CI run 33120117080: all 4 jobs green.\n\nsession: sess-20260825-1938-f6bd411e\n\n⚓ ☃",
+  "id": 16448,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "PARENA",
+  "title": "Mouse-wheel routes to whichever pane is hovered; fixed Spotlight scroll-past-view"
+}

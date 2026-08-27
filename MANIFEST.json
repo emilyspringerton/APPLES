@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-27T21:48:48Z",
+  "generated_at": "2026-08-27T21:57:37Z",
   "repo": "APPLES",
-  "count": 5912,
+  "count": 5913,
   "apples": [
     {
       "id": 10525,
@@ -47298,6 +47298,14 @@
       "source_repo": "CLI",
       "date": "20260827",
       "archived_at": "2026-08-27T21:48:48Z"
+    },
+    {
+      "id": 16448,
+      "type": "completion",
+      "title": "Mouse-wheel routes to whichever pane is hovered; fixed Spotlight scroll-past-view",
+      "source_repo": "PARENA",
+      "date": "20260827",
+      "archived_at": "2026-08-27T21:57:37Z"
     }
   ]
 }
