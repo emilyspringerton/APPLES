@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-27T09:14:47Z",
+  "generated_at": "2026-08-27T09:23:15Z",
   "repo": "APPLES",
-  "count": 5788,
+  "count": 5789,
   "apples": [
     {
       "id": 10525,
@@ -46306,6 +46306,14 @@
       "source_repo": "CLI",
       "date": "20260827",
       "archived_at": "2026-08-27T09:14:47Z"
+    },
+    {
+      "id": 16323,
+      "type": "completion",
+      "title": "v0.84.0: real file-tree directory navigation (cd-into-dir + ..)",
+      "source_repo": "PARENA",
+      "date": "20260827",
+      "archived_at": "2026-08-27T09:23:15Z"
     }
   ]
 }

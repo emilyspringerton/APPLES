@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-27T09:23:15Z",
+  "body": "Closes v0.83.0's own honest gap: clicking a subdirectory entry in the file-tree sidebar previously opened it harmlessly as an empty file instead of descending into it. New stdlib/io.prn is-dir? (+ runtime/parena_runtime.h's is_dir_impl, reusing opendir()'s own real success/failure -- same dirent.h list-dir already needs, no new host concept). Sidebar entries now color-code directories (blue) vs files (gray), verified via a real screenshot against the actual repo tree. Row 0 is always a synthetic '..' entry; clicking it or a directory navigates via new parent_dir_of helper (real, deliberately bounded, not general path normalization -- documented cap: bounces between '.' and '..' rather than mis-parsing further '..' chains). A real bug caught by the new test suite BEFORE it shipped: the original last_slash\u003c=0 branch conflated 'no slash at all' with 'slash at index 0' (a real top-level absolute path), silently returning '.' instead of the real root '/' -- fixed by splitting into last_slash\u003c0 vs ==0. 7 new assertions in tests/test_editor_navigation.c, 4 new in tests/test_editor_io.c. Full local suite + bazel build/test + real mingw cross-compile all clean, zero regressions. CI green on all 4 platform jobs. PARENA commit 5135104, release v0.84.0.\n\n⚓ ☃",
+  "id": 16323,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "PARENA",
+  "title": "v0.84.0: real file-tree directory navigation (cd-into-dir + ..)"
+}
