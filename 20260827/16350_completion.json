@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-27T13:25:18Z",
+  "body": "CHANGELOG updated in PARENA: Real third step toward a self-hosted PARENA compiler: selfhost/region.prn, a faithful PARENA-language port of src/region.c. Found and fixed 3 more real bugs including a genuine logic bug of its own (walk-let-bindings dropping outer scope bindings) caught by lifting the C reference's own real test cases verbatim. v0.87.0 (sess-20260825-1938-f6bd411e) (sess-20260825-1938-f6bd411e)\n\n⚓ ☃",
+  "id": 16350,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "PARENA",
+  "title": "changelog(PARENA): Real third step toward a self-hosted PARENA compiler: selfh…"
+}
