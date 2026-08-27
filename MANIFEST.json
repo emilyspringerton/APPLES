@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-27T23:25:37Z",
+  "generated_at": "2026-08-27T23:27:47Z",
   "repo": "APPLES",
-  "count": 5941,
+  "count": 5942,
   "apples": [
     {
       "id": 10525,
@@ -47530,6 +47530,14 @@
       "source_repo": "CLI",
       "date": "20260827",
       "archived_at": "2026-08-27T23:25:37Z"
+    },
+    {
+      "id": 16477,
+      "type": "completion",
+      "title": "Recovered orphaned eventstore seqlock fix + REDGARDEN combat-log mod",
+      "source_repo": "PRRJECT_FATBABY",
+      "date": "20260827",
+      "archived_at": "2026-08-27T23:27:47Z"
     }
   ]
 }

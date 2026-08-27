@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-27T23:27:47Z",
+  "body": "Found two real, complete, uncommitted PARENA mods from an earlier git-worktree-isolated agent (each file's own header comment asked whoever has git access to commit them): PRRJECT_FATBABY's eventstore cross-process append lock (fixes a real, confirmed sequence-collision bug -- 15 independent Go processes racing on the same event store) and PARENA's redgarden/combat_log_mod.prn (combat-log v2 trigger layer). Verified both compile/build/test clean before committing. PARENA commit 4709fdd, PRRJECT_FATBABY commit 75a02ed.\n\n⚓ ☃",
+  "id": 16477,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "PRRJECT_FATBABY",
+  "title": "Recovered orphaned eventstore seqlock fix + REDGARDEN combat-log mod"
+}
