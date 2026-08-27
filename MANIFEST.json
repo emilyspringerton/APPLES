@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-27T16:44:14Z",
+  "generated_at": "2026-08-27T16:50:00Z",
   "repo": "APPLES",
-  "count": 5838,
+  "count": 5839,
   "apples": [
     {
       "id": 10525,
@@ -46706,6 +46706,14 @@
       "source_repo": "emily",
       "date": "20260827",
       "archived_at": "2026-08-27T16:44:14Z"
+    },
+    {
+      "id": 16373,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: 'continue working on self hosted parena compiler' -- continuing PARENA se…",
+      "source_repo": "CLI",
+      "date": "20260827",
+      "archived_at": "2026-08-27T16:50:00Z"
     }
   ]
 }
