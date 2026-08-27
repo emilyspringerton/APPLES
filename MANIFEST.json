@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-27T18:31:11Z",
+  "generated_at": "2026-08-27T18:38:48Z",
   "repo": "APPLES",
-  "count": 5854,
+  "count": 5855,
   "apples": [
     {
       "id": 10525,
@@ -46834,6 +46834,14 @@
       "source_repo": "emily",
       "date": "20260827",
       "archived_at": "2026-08-27T18:31:11Z"
+    },
+    {
+      "id": 16389,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: 'can we start updating more of the standard library to be pure parena/' -…",
+      "source_repo": "CLI",
+      "date": "20260827",
+      "archived_at": "2026-08-27T18:38:48Z"
     }
   ]
 }
