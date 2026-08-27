@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-27T20:38:27Z",
+  "generated_at": "2026-08-27T20:38:32Z",
   "repo": "APPLES",
-  "count": 5891,
+  "count": 5892,
   "apples": [
     {
       "id": 10525,
@@ -47130,6 +47130,14 @@
       "source_repo": "ECOWAR",
       "date": "20260827",
       "archived_at": "2026-08-27T20:38:27Z"
+    },
+    {
+      "id": 16427,
+      "type": "completion",
+      "title": "changelog(ECOWAR): Fixed real 'failed to join match' bug: the manually-started…",
+      "source_repo": "ECOWAR",
+      "date": "20260827",
+      "archived_at": "2026-08-27T20:38:32Z"
     }
   ]
 }
