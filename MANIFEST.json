@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-27T22:44:53Z",
+  "generated_at": "2026-08-27T22:48:09Z",
   "repo": "APPLES",
-  "count": 5927,
+  "count": 5928,
   "apples": [
     {
       "id": 10525,
@@ -47418,6 +47418,14 @@
       "source_repo": "emily",
       "date": "20260827",
       "archived_at": "2026-08-27T22:44:53Z"
+    },
+    {
+      "id": 16463,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time, same large-file-crash thread: 'tryna open a md file with nerd tree it ope…",
+      "source_repo": "CLI",
+      "date": "20260827",
+      "archived_at": "2026-08-27T22:48:09Z"
     }
   ]
 }
