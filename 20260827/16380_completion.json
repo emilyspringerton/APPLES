@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-27T17:21:26Z",
+  "body": "CHANGELOG updated in PARENA: selfhost/emit.prn: emit-params now reads a param's own real declared C type instead of hard-coding Arena * for every param -- fixed a real, confirmed type-correctness bug (selfhost/lexer.prn's own new-lexer takes a String param, was being wrongly declared Arena *). New param-type-name/param-c-type helpers (String-\u003echar*, I32-\u003eint, else falls back to Arena*); only Arena-typed params still get added to the ArenaBinding scope. 7 new assertions (20 total for domain 4), CI green on all 4 jobs. Honest note: lexer.prn's own real self-compile error count is unchanged -- still dominated by unsupported non-alloc let-binding shapes, the next, larger step. PARENA commit 2e4bfc0, Apple #16379. session: sess-20260825-1938-f6bd411e (sess-20260825-1938-f6bd411e)\n\n⚓ ☃",
+  "id": 16380,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "PARENA",
+  "title": "changelog(PARENA): selfhost/emit.prn: emit-params now reads a param's own real…"
+}

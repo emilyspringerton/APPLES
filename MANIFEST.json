@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-27T17:21:21Z",
+  "generated_at": "2026-08-27T17:21:26Z",
   "repo": "APPLES",
-  "count": 5845,
+  "count": 5846,
   "apples": [
     {
       "id": 10525,
@@ -46762,6 +46762,14 @@
       "source_repo": "PARENA",
       "date": "20260827",
       "archived_at": "2026-08-27T17:21:21Z"
+    },
+    {
+      "id": 16380,
+      "type": "completion",
+      "title": "changelog(PARENA): selfhost/emit.prn: emit-params now reads a param's own real…",
+      "source_repo": "PARENA",
+      "date": "20260827",
+      "archived_at": "2026-08-27T17:21:26Z"
     }
   ]
 }
