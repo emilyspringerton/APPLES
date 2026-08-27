@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-27T20:45:03Z",
+  "generated_at": "2026-08-27T20:50:12Z",
   "repo": "APPLES",
-  "count": 5893,
+  "count": 5894,
   "apples": [
     {
       "id": 10525,
@@ -47146,6 +47146,14 @@
       "source_repo": "CLI",
       "date": "20260827",
       "archived_at": "2026-08-27T20:45:03Z"
+    },
+    {
+      "id": 16429,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: 'can we update longma so its written in pure parena? (our fork)' -- new r…",
+      "source_repo": "CLI",
+      "date": "20260827",
+      "archived_at": "2026-08-27T20:50:12Z"
     }
   ]
 }
