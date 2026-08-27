@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-27T04:32:09Z",
+  "generated_at": "2026-08-27T04:39:21Z",
   "repo": "APPLES",
-  "count": 5747,
+  "count": 5748,
   "apples": [
     {
       "id": 10525,
@@ -45978,6 +45978,14 @@
       "source_repo": "PARENA",
       "date": "20260827",
       "archived_at": "2026-08-27T04:32:09Z"
+    },
+    {
+      "id": 16282,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: 'continue working on parena editor' -- next real increment: macOS dylib b…",
+      "source_repo": "CLI",
+      "date": "20260827",
+      "archived_at": "2026-08-27T04:39:21Z"
     }
   ]
 }
