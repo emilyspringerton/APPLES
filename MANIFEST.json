@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-27T21:44:43Z",
+  "generated_at": "2026-08-27T21:48:48Z",
   "repo": "APPLES",
-  "count": 5911,
+  "count": 5912,
   "apples": [
     {
       "id": 10525,
@@ -47290,6 +47290,14 @@
       "source_repo": "emily",
       "date": "20260827",
       "archived_at": "2026-08-27T21:44:43Z"
+    },
+    {
+      "id": 16447,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: 'continue' -- picking the next real increment from the queued PARENA edit…",
+      "source_repo": "CLI",
+      "date": "20260827",
+      "archived_at": "2026-08-27T21:48:48Z"
     }
   ]
 }
