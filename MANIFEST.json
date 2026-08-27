@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-27T06:06:22Z",
+  "generated_at": "2026-08-27T06:06:25Z",
   "repo": "APPLES",
-  "count": 5769,
+  "count": 5770,
   "apples": [
     {
       "id": 10525,
@@ -46154,6 +46154,14 @@
       "source_repo": "PARENA",
       "date": "20260827",
       "archived_at": "2026-08-27T06:06:22Z"
+    },
+    {
+      "id": 16304,
+      "type": "completion",
+      "title": "changelog(PARENA): Real UI widget system v0: stdlib/editor/widget.prn's Toggle…",
+      "source_repo": "PARENA",
+      "date": "20260827",
+      "archived_at": "2026-08-27T06:06:25Z"
     }
   ]
 }
