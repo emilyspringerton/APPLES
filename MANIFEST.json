@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-27T20:38:32Z",
+  "generated_at": "2026-08-27T20:45:03Z",
   "repo": "APPLES",
-  "count": 5892,
+  "count": 5893,
   "apples": [
     {
       "id": 10525,
@@ -47138,6 +47138,14 @@
       "source_repo": "ECOWAR",
       "date": "20260827",
       "archived_at": "2026-08-27T20:38:32Z"
+    },
+    {
+      "id": 16428,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: 'continue' -- resuming PARENA editor Thread B (terminal/editor toggle uni…",
+      "source_repo": "CLI",
+      "date": "20260827",
+      "archived_at": "2026-08-27T20:45:03Z"
     }
   ]
 }
