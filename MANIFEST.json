@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-27T19:31:30Z",
+  "generated_at": "2026-08-27T19:37:16Z",
   "repo": "APPLES",
-  "count": 5866,
+  "count": 5867,
   "apples": [
     {
       "id": 10525,
@@ -46930,6 +46930,14 @@
       "source_repo": "emily",
       "date": "20260827",
       "archived_at": "2026-08-27T19:31:30Z"
+    },
+    {
+      "id": 16401,
+      "type": "signal_observation",
+      "title": "[INFO] ECOWAR card art: queued all 16 real Prompt-o-verse generations (one per card, matching each …",
+      "source_repo": "CLI",
+      "date": "20260827",
+      "archived_at": "2026-08-27T19:37:16Z"
     }
   ]
 }
