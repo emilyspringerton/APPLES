@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-27T16:50:00Z",
+  "generated_at": "2026-08-27T16:59:18Z",
   "repo": "APPLES",
-  "count": 5839,
+  "count": 5840,
   "apples": [
     {
       "id": 10525,
@@ -46714,6 +46714,14 @@
       "source_repo": "CLI",
       "date": "20260827",
       "archived_at": "2026-08-27T16:50:00Z"
+    },
+    {
+      "id": 16374,
+      "type": "completion",
+      "title": "selfhost/emit.prn: real crash fix found via first real self-compile attempt",
+      "source_repo": "PARENA",
+      "date": "20260827",
+      "archived_at": "2026-08-27T16:59:18Z"
     }
   ]
 }
