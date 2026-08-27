@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-27T19:55:26Z",
+  "generated_at": "2026-08-27T19:55:52Z",
   "repo": "APPLES",
-  "count": 5873,
+  "count": 5874,
   "apples": [
     {
       "id": 10525,
@@ -46986,6 +46986,14 @@
       "source_repo": "CLI",
       "date": "20260827",
       "archived_at": "2026-08-27T19:55:26Z"
+    },
+    {
+      "id": 16408,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: 'can we start building out the textmate features? like quick open via ctr…",
+      "source_repo": "CLI",
+      "date": "20260827",
+      "archived_at": "2026-08-27T19:55:52Z"
     }
   ]
 }
