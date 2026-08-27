@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-27T23:04:53Z",
+  "generated_at": "2026-08-27T23:05:27Z",
   "repo": "APPLES",
-  "count": 5931,
+  "count": 5932,
   "apples": [
     {
       "id": 10525,
@@ -47450,6 +47450,14 @@
       "source_repo": "CLI",
       "date": "20260827",
       "archived_at": "2026-08-27T23:04:53Z"
+    },
+    {
+      "id": 16467,
+      "type": "completion",
+      "title": "Windowed render + per-frame arena — real, measured fix for the large-file crash",
+      "source_repo": "PARENA",
+      "date": "20260827",
+      "archived_at": "2026-08-27T23:05:27Z"
     }
   ]
 }
