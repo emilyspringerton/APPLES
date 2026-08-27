@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-27T05:31:07Z",
+  "body": "CHANGELOG updated in PARENA: Real drag-and-drop file opening in the PARENA editor -- SDL_DROPFILE plumbed end-to-end, spawns a genuinely new editor process/window per dropped file (fork+execl/CreateProcessA); exe-relative font path lookup (executable_path/executable_dir) fixes the double-black-screen Windows launch bug the founder hit live. v0.77.0 (sess-20260825-1938-f6bd411e) (sess-20260825-1938-f6bd411e)\n\n⚓ ☃",
+  "id": 16296,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "PARENA",
+  "title": "changelog(PARENA): Real drag-and-drop file opening in the PARENA editor -- SDL…"
+}

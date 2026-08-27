@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-27T05:30:51Z",
+  "generated_at": "2026-08-27T05:31:07Z",
   "repo": "APPLES",
-  "count": 5761,
+  "count": 5762,
   "apples": [
     {
       "id": 10525,
@@ -46090,6 +46090,14 @@
       "source_repo": "PARENA",
       "date": "20260827",
       "archived_at": "2026-08-27T05:30:51Z"
+    },
+    {
+      "id": 16296,
+      "type": "completion",
+      "title": "changelog(PARENA): Real drag-and-drop file opening in the PARENA editor -- SDL…",
+      "source_repo": "PARENA",
+      "date": "20260827",
+      "archived_at": "2026-08-27T05:31:07Z"
     }
   ]
 }

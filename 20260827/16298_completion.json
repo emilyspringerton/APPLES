@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-27T05:31:07Z",
+  "body": "CHANGELOG updated in PARENA: Root-caused and fixed a real Windows DPI-awareness bug making mouse click/drag coordinates wrong in the PARENA editor (SDL_HINT_WINDOWS_DPI_AWARENESS=permonitorv2); added a hover-reveal status bar (auto-indent toggle) that stays hidden except near the bottom edge. v0.79.0 (sess-20260825-1938-f6bd411e) (sess-20260825-1938-f6bd411e)\n\n⚓ ☃",
+  "id": 16298,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "PARENA",
+  "title": "changelog(PARENA): Root-caused and fixed a real Windows DPI-awareness bug maki…"
+}
