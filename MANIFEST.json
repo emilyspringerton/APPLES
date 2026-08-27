@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-27T20:16:26Z",
+  "generated_at": "2026-08-27T20:16:42Z",
   "repo": "APPLES",
-  "count": 5881,
+  "count": 5882,
   "apples": [
     {
       "id": 10525,
@@ -47050,6 +47050,14 @@
       "source_repo": "CLI",
       "date": "20260827",
       "archived_at": "2026-08-27T20:16:26Z"
+    },
+    {
+      "id": 16417,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: 'it launches 10 v 10 instead of 1 v 1' -- real bug, the ECOWAR matchmaker…",
+      "source_repo": "CLI",
+      "date": "20260827",
+      "archived_at": "2026-08-27T20:16:42Z"
     }
   ]
 }
