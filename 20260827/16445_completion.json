@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-27T21:40:10Z",
+  "body": "CHANGELOG updated in PARENA: Fixed a real stack-overflow crash opening a large file: render-highlighted-text's own line walk was a plain self-recursive function call (one C stack frame per line, not a real loop/recur) -- a real 57,524-line file crashed within ~6 seconds. Rewritten as a real loop/recur, verified stable for 19+ seconds on the same file. Honest gap remains: full-file re-tokenization every frame is real, separate, unbounded work -- true windowed rendering not attempted. CI green on all 4 jobs. PARENA commit c946ae9, Apple #16444. session: sess-20260825-1938-f6bd411e (sess-20260825-1938-f6bd411e)\n\n⚓ ☃",
+  "id": 16445,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "PARENA",
+  "title": "changelog(PARENA): Fixed a real stack-overflow crash opening a large file: ren…"
+}
