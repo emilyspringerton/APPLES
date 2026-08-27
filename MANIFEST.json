@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-27T17:35:30Z",
+  "generated_at": "2026-08-27T17:43:39Z",
   "repo": "APPLES",
-  "count": 5848,
+  "count": 5849,
   "apples": [
     {
       "id": 10525,
@@ -46786,6 +46786,14 @@
       "source_repo": "CLI",
       "date": "20260827",
       "archived_at": "2026-08-27T17:35:30Z"
+    },
+    {
+      "id": 16383,
+      "type": "completion",
+      "title": "selfhost/emit.prn: plain function-call let-bindings now supported (dominant self-compile blocker)",
+      "source_repo": "PARENA",
+      "date": "20260827",
+      "archived_at": "2026-08-27T17:43:39Z"
     }
   ]
 }
