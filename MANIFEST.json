@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-27T05:30:36Z",
+  "generated_at": "2026-08-27T05:30:42Z",
   "repo": "APPLES",
-  "count": 5759,
+  "count": 5760,
   "apples": [
     {
       "id": 10525,
@@ -46074,6 +46074,14 @@
       "source_repo": "PARENA",
       "date": "20260827",
       "archived_at": "2026-08-27T05:30:36Z"
+    },
+    {
+      "id": 16294,
+      "type": "completion",
+      "title": "v0.79.0: Windows DPI-awareness mouse fix + hover-reveal status bar",
+      "source_repo": "PARENA",
+      "date": "20260827",
+      "archived_at": "2026-08-27T05:30:42Z"
     }
   ]
 }

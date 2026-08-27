@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-27T05:30:42Z",
+  "body": "Root-caused founder reports 'drag to select doesnt work' + 'click to insert cursor doesnt work' as one systemic bug, not two separate feature bugs: SDL2 defaults to DPI-unaware on Windows, causing Windows to virtualize/scale the window and mismatch reported mouse coordinates against the app's fixed-pixel render math. Fixed via SDL_SetHint(SDL_HINT_WINDOWS_DPI_AWARENESS, \"permonitorv2\") before SDL_Init. Also shipped the hover-reveal status bar founder asked for ('add that to the bottom of the app...but i dont want to see it unless i hover my mouse near the bottom'): STATUS_BAR_HEIGHT=28, HOVER_REVEAL_ZONE=40px, tracked via last_mouse_y updated on every MouseMotion, with one real control (auto-indent on/off toggle, click-to-toggle) — explicitly scoped as v0 only, not a general widget system. CI green on Linux/Windows/macOS. Released as v0.79.0.\n\n⚓ ☃",
+  "id": 16294,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "PARENA",
+  "title": "v0.79.0: Windows DPI-awareness mouse fix + hover-reveal status bar"
+}
