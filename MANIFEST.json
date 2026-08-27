@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-27T23:21:03Z",
+  "generated_at": "2026-08-27T23:25:37Z",
   "repo": "APPLES",
-  "count": 5940,
+  "count": 5941,
   "apples": [
     {
       "id": 10525,
@@ -47522,6 +47522,14 @@
       "source_repo": "ECOWAR",
       "date": "20260827",
       "archived_at": "2026-08-27T23:21:03Z"
+    },
+    {
+      "id": 16476,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: 'go' -- starting Phase 1 of the ECOWAR Map Editor epic (ECOWAR-MAPEDIT-NO…",
+      "source_repo": "CLI",
+      "date": "20260827",
+      "archived_at": "2026-08-27T23:25:37Z"
     }
   ]
 }
