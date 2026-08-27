@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-27T21:27:42Z",
+  "generated_at": "2026-08-27T21:28:15Z",
   "repo": "APPLES",
-  "count": 5905,
+  "count": 5906,
   "apples": [
     {
       "id": 10525,
@@ -47242,6 +47242,14 @@
       "source_repo": "CLI",
       "date": "20260827",
       "archived_at": "2026-08-27T21:27:42Z"
+    },
+    {
+      "id": 16441,
+      "type": "completion",
+      "title": "Fixed window-overlap on file-tree double-click spawn; fixed a buffer-growth bug in the prior O(n^2) fix",
+      "source_repo": "PARENA",
+      "date": "20260827",
+      "archived_at": "2026-08-27T21:28:15Z"
     }
   ]
 }
