@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-27T19:54:59Z",
+  "generated_at": "2026-08-27T19:55:02Z",
   "repo": "APPLES",
-  "count": 5871,
+  "count": 5872,
   "apples": [
     {
       "id": 10525,
@@ -46970,6 +46970,14 @@
       "source_repo": "ECOWAR",
       "date": "20260827",
       "archived_at": "2026-08-27T19:54:59Z"
+    },
+    {
+      "id": 16406,
+      "type": "completion",
+      "title": "changelog(ECOWAR): Fixed a real, live Windows CI failure on the 16-card system…",
+      "source_repo": "ECOWAR",
+      "date": "20260827",
+      "archived_at": "2026-08-27T19:55:02Z"
     }
   ]
 }
