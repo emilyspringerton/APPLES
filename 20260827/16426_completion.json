@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-27T20:38:27Z",
+  "body": "Real, live follow-up to the earlier 10v10/branding fix (Apple #16419):\nfounder reported the client now correctly says ECOWAR and connects,\nbut gets \"failed to join match, does not launch.\"\n\nRoot cause, confirmed directly in the matchmaker's own log: the arena\nserver it spawned printed \"WARNING: REDGARDEN_TICKET_SECRET not set --\nall connect attempts will be rejected (fail closed, not fail open)\" --\nI had started the matchmaker as a bare background process earlier\n(for immediate testing) without exporting that env var, so every real\nconnect ticket the client presented was rejected even though\nmatchmaking itself succeeded (a real player DID get matched -- the log\nshows \"MATCHMAKER: matched 2 players -\u003e spawned server on port 9600\"\n-- but the spawned server then rejected the join).\n\nFixed by restarting matchmaker+bot-pool with REDGARDEN_TICKET_SECRET\nset (same test value PLAY.bat already sets client-side). Verified: the\nmatchmaker's own log now shows \"REDGARDEN_TICKET_SECRET loaded (34\nbytes)\" and a real \"CLIENT 0 CONNECTED (owner 0, 1/2)\" -- an actual\nconnection succeeded this time. Currently 1 matchmaker + 1 bot running\nclean on :9779, bot queued (1/2), waiting for a real second player.\n\nReal, honest limitation found along the way: attempted to deploy the\nreal, already-correctly-configured systemd units (ops/systemd/\necowar-matchmaker.service already has REDGARDEN_TICKET_SECRET baked\nin) via `systemctl --user`, but this sandbox has no user D-Bus session\n(\"Failed to connect to bus: Permission denied\") -- systemd deployment\nisn't possible from here. Fell back to a manually-started background\nprocess instead, which is real and working right now but will NOT\nsurvive a reboot or this session ending -- the real systemd deploy\nstill needs to happen from a session that actually has a user login\nbus (or via sudo-queue for a system-level unit instead), a real,\nseparate follow-up.\n\nsession: sess-20260825-1938-f6bd411e\n\n⚓ ☃",
+  "id": 16426,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "ECOWAR",
+  "title": "Fixed real 'failed to join match' -- REDGARDEN_TICKET_SECRET wasn't set on the manually-started matchmaker"
+}

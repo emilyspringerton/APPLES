@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-27T20:36:17Z",
+  "generated_at": "2026-08-27T20:38:27Z",
   "repo": "APPLES",
-  "count": 5890,
+  "count": 5891,
   "apples": [
     {
       "id": 10525,
@@ -47122,6 +47122,14 @@
       "source_repo": "CLI",
       "date": "20260827",
       "archived_at": "2026-08-27T20:36:17Z"
+    },
+    {
+      "id": 16426,
+      "type": "completion",
+      "title": "Fixed real 'failed to join match' -- REDGARDEN_TICKET_SECRET wasn't set on the manually-started matchmaker",
+      "source_repo": "ECOWAR",
+      "date": "20260827",
+      "archived_at": "2026-08-27T20:38:27Z"
     }
   ]
 }
