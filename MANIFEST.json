@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-27T09:04:36Z",
+  "generated_at": "2026-08-27T09:04:40Z",
   "repo": "APPLES",
-  "count": 5784,
+  "count": 5785,
   "apples": [
     {
       "id": 10525,
@@ -46274,6 +46274,14 @@
       "source_repo": "PARENA",
       "date": "20260827",
       "archived_at": "2026-08-27T09:04:36Z"
+    },
+    {
+      "id": 16319,
+      "type": "completion",
+      "title": "changelog(PARENA): Real NERDTree-style file-tree sidebar v0: new stdlib/io.prn…",
+      "source_repo": "PARENA",
+      "date": "20260827",
+      "archived_at": "2026-08-27T09:04:40Z"
     }
   ]
 }
