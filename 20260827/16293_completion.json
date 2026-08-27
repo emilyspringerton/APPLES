@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-27T05:30:36Z",
+  "body": "Four founder-requested editing affordances shipped together. Ctrl+A select-all uses the new set_selection(0, strlen(text)) buffer primitive. Mouse-wheel scroll is real line-based scroll_offset state (SCROLL_LINES_PER_NOTCH=3, SDL2's own up=away-from-user convention), applied uniformly to every render Y coordinate and to pos_from_mouse's own input so clicks map correctly through scroll. Auto-indent-on-Enter uses a new paren_depth_before() helper — comment-aware (skips ;; to end of line) and string-aware (skips \"...\" including escaped-quote lookahead) bracket-depth counter, INDENT_WIDTH=2, gated off for .md files where a naive bracket counter would be actively wrong. Tab-to-indent required its own KeyDown branch since SDL2 does not fire SDL_TEXTINPUT for Tab (standard toolkit convention), inserting INDENT_WIDTH real spaces. All 12 assertions in new tests/test_editor_indent.c pass (values cross-checked via a real Python simulation, catching one manual-count error before landing). CI green on Linux/Windows/macOS. Released as v0.78.0.\n\n⚓ ☃",
+  "id": 16293,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "PARENA",
+  "title": "v0.78.0: Ctrl+A select-all, mouse-wheel scroll, auto-indent-on-Enter, Tab-to-indent"
+}

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-27T05:30:29Z",
+  "generated_at": "2026-08-27T05:30:36Z",
   "repo": "APPLES",
-  "count": 5758,
+  "count": 5759,
   "apples": [
     {
       "id": 10525,
@@ -46066,6 +46066,14 @@
       "source_repo": "PARENA",
       "date": "20260827",
       "archived_at": "2026-08-27T05:30:29Z"
+    },
+    {
+      "id": 16293,
+      "type": "completion",
+      "title": "v0.78.0: Ctrl+A select-all, mouse-wheel scroll, auto-indent-on-Enter, Tab-to-indent",
+      "source_repo": "PARENA",
+      "date": "20260827",
+      "archived_at": "2026-08-27T05:30:36Z"
     }
   ]
 }
