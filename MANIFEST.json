@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-27T19:49:48Z",
+  "generated_at": "2026-08-27T19:54:59Z",
   "repo": "APPLES",
-  "count": 5870,
+  "count": 5871,
   "apples": [
     {
       "id": 10525,
@@ -46962,6 +46962,14 @@
       "source_repo": "CLI",
       "date": "20260827",
       "archived_at": "2026-08-27T19:49:48Z"
+    },
+    {
+      "id": 16405,
+      "type": "completion",
+      "title": "CI fixed: card_effect_mod.c wired into Windows cross-compile step",
+      "source_repo": "ECOWAR",
+      "date": "20260827",
+      "archived_at": "2026-08-27T19:54:59Z"
     }
   ]
 }

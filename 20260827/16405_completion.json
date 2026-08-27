@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-27T19:54:59Z",
+  "body": "Real, live CI failure on commit fc257c4 (the 16-card system commit):\nWindows cross-compile linker error, \"undefined reference to\non_ecowar_resolve_card_magnitude\". Same exact recurring bug class this\nCI step's own comments already document twice before (bloodflower_mod,\ntree_passive_mod): this Windows cross-compile is a third, separate\nbuild path from scripts/build.sh and scripts/build_arena.sh, and gets\nmissed whenever a new PARENA mod lands even when those two scripts are\ncorrectly updated.\n\nFixed by adding -include card_effect_mod_host.h and\npackages/simulation/card_effect_mod.c to the CI link command. Verified\nwith a real local mingw cross-compile against the exact\nSDL2-devel-2.30.10-mingw package CI itself downloads (not just\nassumed) -- produces a valid PE32+ Windows executable. Linux\nscripts/build.sh still exits clean.\n\nECOWAR commit ed369bb. CI run 33110529612: both jobs green (build,\nTag \u0026 Release).\n\nsession: sess-20260825-1938-f6bd411e\n\n⚓ ☃",
+  "id": 16405,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "ECOWAR",
+  "title": "CI fixed: card_effect_mod.c wired into Windows cross-compile step"
+}
