@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-27T05:25:51Z",
+  "generated_at": "2026-08-27T05:30:29Z",
   "repo": "APPLES",
-  "count": 5757,
+  "count": 5758,
   "apples": [
     {
       "id": 10525,
@@ -46058,6 +46058,14 @@
       "source_repo": "emily",
       "date": "20260827",
       "archived_at": "2026-08-27T05:25:51Z"
+    },
+    {
+      "id": 16292,
+      "type": "completion",
+      "title": "v0.77.0: real drag-and-drop file opening + exe-relative font path",
+      "source_repo": "PARENA",
+      "date": "20260827",
+      "archived_at": "2026-08-27T05:30:29Z"
     }
   ]
 }

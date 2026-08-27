@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-27T05:30:29Z",
+  "body": "Real SDL_DROPFILE event plumbing end-to-end: EventKind gains FileDrop(path), spawn_new_instance() opens each dropped file in a genuinely new editor process/window (fork+execl on POSIX, CreateProcessA on Windows), matching founder's explicit scope ('for now is fine it can open a new window with that file'). SIGCHLD,SIG_IGN added so fire-and-forget children don't zombie. executable_path()/executable_dir() added (GetModuleFileNameA/_NSGetExecutablePath/proc-self-exe readlink) and used to make font lookup CWD-independent — directly fixes the double-black-screen Windows launch failure the founder hit testing this build. CI green on Linux/Windows/macOS. Released as v0.77.0.\n\n⚓ ☃",
+  "id": 16292,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "PARENA",
+  "title": "v0.77.0: real drag-and-drop file opening + exe-relative font path"
+}
