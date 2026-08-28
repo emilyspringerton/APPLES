@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-28T02:21:11Z",
+  "generated_at": "2026-08-28T02:29:03Z",
   "repo": "APPLES",
-  "count": 5974,
+  "count": 5975,
   "apples": [
     {
       "id": 10525,
@@ -47794,6 +47794,14 @@
       "source_repo": "PARENA",
       "date": "20260828",
       "archived_at": "2026-08-28T02:21:11Z"
+    },
+    {
+      "id": 16510,
+      "type": "completion",
+      "title": "selfhost/emit.prn: top-level or/and/not support (tail position + let-value)",
+      "source_repo": "PARENA",
+      "date": "20260828",
+      "archived_at": "2026-08-28T02:29:03Z"
     }
   ]
 }

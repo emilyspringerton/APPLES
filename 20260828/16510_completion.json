@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-28T02:29:03Z",
+  "body": "Real top-level or/and/not support, closing the gap the defstruct work flagged as found-but-not-fixed. bool-expr-supported?/emit-bool-expr were previously only reachable from cond's own test dispatch -- a defn whose entire body is (and ...), the natural shape for a real predicate function like is-origin?, silently emitted an empty return. Two new emit-form clauses close the tail-position half (boxed via emit-i32-boxed); a new shared let-value-is-bool-expr? closes the symmetric let-binding-value half. 2 new tests (35 total for domain 4) including a real compile+run+assert check combining both positions in one program. Zero regressions: 336-test suite + all 6 selfhost test binaries + bazel build clean. Still open: match itself, cond as non-tail value, nested call arguments generally, struct-typed struct fields, struct-literal construction. PARENA commit ada2c6a.\n\n⚓ ☃",
+  "id": 16510,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "PARENA",
+  "title": "selfhost/emit.prn: top-level or/and/not support (tail position + let-value)"
+}
