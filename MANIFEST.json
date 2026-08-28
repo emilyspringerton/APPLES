@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-28T22:18:53Z",
+  "generated_at": "2026-08-28T22:19:03Z",
   "repo": "APPLES",
-  "count": 6142,
+  "count": 6143,
   "apples": [
     {
       "id": 10525,
@@ -49138,6 +49138,14 @@
       "source_repo": "PAPERCRAFT",
       "date": "20260828",
       "archived_at": "2026-08-28T22:18:53Z"
+    },
+    {
+      "id": 16678,
+      "type": "completion",
+      "title": "Real player persistence across a server restart, verified end-to-end",
+      "source_repo": "PAPERCRAFT",
+      "date": "20260828",
+      "archived_at": "2026-08-28T22:19:03Z"
     }
   ]
 }
