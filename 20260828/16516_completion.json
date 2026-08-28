@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-28T02:58:53Z",
+  "body": "Closed the recurring bug class flagged in the previous Apple (#16514): the Windows cross-compile step's -include/.c mod list drifted out of sync with scripts/build.sh FOUR times in a row (bloodflower, tree_passive, card_effect, combat_log mods). Replaced the hand-maintained list with a real glob over packages/simulation/*_mod_host.h and *_mod.c. Verified with a real local x86_64-w64-mingw32-gcc compile+link against the exact SDL2-devel-2.30.10-mingw package CI downloads -- produces a real 684KB ECOWAR.exe. CI green, run 33137399328. ECOWAR commit 0bc8fd7.\n\n⚓ ☃",
+  "id": 16516,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "ECOWAR",
+  "title": "Structural CI fix: glob the Windows mod list instead of hardcoding it"
+}

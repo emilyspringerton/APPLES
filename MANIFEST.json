@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-28T02:46:35Z",
+  "generated_at": "2026-08-28T02:58:54Z",
   "repo": "APPLES",
-  "count": 5980,
+  "count": 5981,
   "apples": [
     {
       "id": 10525,
@@ -47842,6 +47842,14 @@
       "source_repo": "ECOWAR",
       "date": "20260828",
       "archived_at": "2026-08-28T02:46:35Z"
+    },
+    {
+      "id": 16516,
+      "type": "completion",
+      "title": "Structural CI fix: glob the Windows mod list instead of hardcoding it",
+      "source_repo": "ECOWAR",
+      "date": "20260828",
+      "archived_at": "2026-08-28T02:58:54Z"
     }
   ]
 }
