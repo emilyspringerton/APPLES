@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-28T00:58:57Z",
+  "generated_at": "2026-08-28T01:00:39Z",
   "repo": "APPLES",
-  "count": 5962,
+  "count": 5963,
   "apples": [
     {
       "id": 10525,
@@ -47698,6 +47698,14 @@
       "source_repo": "emily",
       "date": "20260828",
       "archived_at": "2026-08-28T00:58:57Z"
+    },
+    {
+      "id": 16498,
+      "type": "completion",
+      "title": "build-files: real multi-file support for the selfhost compiler + 3 real emit.prn gaps found",
+      "source_repo": "PARENA",
+      "date": "20260828",
+      "archived_at": "2026-08-28T01:00:39Z"
     }
   ]
 }
