@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-28T16:32:06Z",
+  "generated_at": "2026-08-28T16:32:52Z",
   "repo": "APPLES",
-  "count": 6074,
+  "count": 6075,
   "apples": [
     {
       "id": 10525,
@@ -48594,6 +48594,14 @@
       "source_repo": "PARENA",
       "date": "20260828",
       "archived_at": "2026-08-28T16:32:06Z"
+    },
+    {
+      "id": 16610,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: pivot off PARENA self-hosted compiler work to SARENA/JEWEL dev-portal inf…",
+      "source_repo": "CLI",
+      "date": "20260828",
+      "archived_at": "2026-08-28T16:32:52Z"
     }
   ]
 }
