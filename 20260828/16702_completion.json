@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-28T23:53:13Z",
+  "body": "Closed docs/NORTHSTAR_PAPER_ENGINE.md's own honestly-flagged gap: 'a wall segment is not literally a cube in a real city.'\n\npackages/common/paper_mesh.h: new paper_generate_box(mesh, half_x, half_y, half_z, subdiv, material, seed) -- the exact same real subdivide-then-jitter technique, generalized to real independent per-axis half-extents. paper_generate_cube is now a thin wrapper, verified byte-identical to the pre-refactor behavior.\n\nPcWorldObjectDef carries half_x/half_y/half_z now. apps/server/apps/client updated; the interact max-reach check now uses the largest of the three real per-axis half-extents. apps/mapeditor grew --half-x/--half-y/--half-z on top of the existing --half-extent, so a modder can place a real wide/tall, thin wall-shaped slab, not just a scaled cube.\n\npaper_mesh_test.c: new real assertions -- a real wall-shaped box has genuinely asymmetric corner extents (checked explicitly), and paper_generate_cube stays byte-identical to paper_generate_box(h,h,h) after the refactor.\n\nVerified live: placed a real wall (half=(3.0,1.5,0.15)) via the editor, confirmed the server broadcast the exact same real asymmetric shape over the wire, confirmed real interact/damage targeting still correctly reaches a non-cube object, and captured a real screenshot showing a genuinely wide, short slab -- not a cube -- with visible real damage tinting where it was punched.\n\nbazel build //... and bazel test //... both clean (17 targets, 7/7 mod tests). docs/NORTHSTAR_PAPER_ENGINE.md updated.\n\nCommits: b5cb431 (feat), 8161241 (changelog).\n\n⚓ ☃",
+  "id": 16702,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "PAPERCRAFT",
+  "title": "Real non-cube base shapes (paper_generate_box), verified live end-to-end"
+}
