@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-28T20:47:26Z",
+  "body": "Closes a real gap: level_mod.c was compiled and tested (Apple #16636) but never actually called by the running game. apps/server gained a real per-second XP tick (mirrors the construct's own progression_tick cadence: +5 XP/sec passive time-in-world reward, no combat/quests to source it from in this sandbox), calling the real PARENA-compiled on_papercraft_level_for_xp every tick to decide level-ups and grant real unspent points. PcPlayerState gained real level/xp/xp_to_next/unspent_points fields, broadcast in every snapshot; apps/client renders the exact real 'LVL %d  XP %d/%d  PTS %d' HUD line SHANKPIT_CONSTRUCT.txt itself used, now driven by real server-authoritative state. Real bug found and fixed live: growing PcPlayerState grew PcSnapshotPacket to 540 bytes, past both client's and server's own hardcoded 512-byte recv buffers -- caught by the compiler's own -Warray-bounds before it shipped; both buffers now size themselves off sizeof(PcSnapshotPacket) directly so this can't silently recur. Verified live with a real UDP probe run long enough to watch a real level-up: level 1-\u003e2 at exactly 80 cumulative XP (matching the real construct formula), +1 real unspent point granted, xp_to_next correctly advancing to level 3's own threshold. bazel build/test //... clean, 4/4 mod tests pass, both real binaries build and link correctly (server now deps on //packages/simulation:level). PAPERCRAFT commits 1551365/fce865d.\n\n⚓ ☃",
+  "id": 16659,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "PAPERCRAFT",
+  "title": "Real leveling wired into the live game loop, real HUD, real buffer-overflow bug found and fixed"
+}
