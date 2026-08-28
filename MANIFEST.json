@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-28T22:01:44Z",
+  "generated_at": "2026-08-28T22:01:56Z",
   "repo": "APPLES",
-  "count": 6138,
+  "count": 6139,
   "apples": [
     {
       "id": 10525,
@@ -49106,6 +49106,14 @@
       "source_repo": "PAPERCRAFT",
       "date": "20260828",
       "archived_at": "2026-08-28T22:01:44Z"
+    },
+    {
+      "id": 16674,
+      "type": "completion",
+      "title": "Real multi-chunk city traversal shipped -- a fixed 3x3 grid, verified end-to-end",
+      "source_repo": "PAPERCRAFT",
+      "date": "20260828",
+      "archived_at": "2026-08-28T22:01:56Z"
     }
   ]
 }
