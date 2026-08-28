@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-28T20:54:18Z",
+  "body": "CHANGELOG updated in PAPERCRAFT: Wired talent_mod.c into the live game loop: real PC_PACKET_ALLOCATE_TALENT (client keys 1-5) -\u003e server calls the real PARENA-compiled on_papercraft_can_allocate_talent gate -\u003e applies ability++/points-- if legal. Real HUD readout when points are available. Verified live end-to-end via UDP probe (real level-up granted a point, real allocation applied it). (sess-20260825-1938-f6bd411e)\n\n⚓ ☃",
+  "id": 16661,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "PAPERCRAFT",
+  "title": "changelog(PAPERCRAFT): Wired talent_mod.c into the live game loop: real PC_PACKET_…"
+}
