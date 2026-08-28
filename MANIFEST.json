@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-28T00:38:34Z",
+  "generated_at": "2026-08-28T00:40:37Z",
   "repo": "APPLES",
-  "count": 5959,
+  "count": 5960,
   "apples": [
     {
       "id": 10525,
@@ -47674,6 +47674,14 @@
       "source_repo": "ECOWAR",
       "date": "20260828",
       "archived_at": "2026-08-28T00:38:34Z"
+    },
+    {
+      "id": 16495,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: continue working on PARENA self-hosted (VS0 compiler bootstrap) -- removi…",
+      "source_repo": "CLI",
+      "date": "20260828",
+      "archived_at": "2026-08-28T00:40:37Z"
     }
   ]
 }
