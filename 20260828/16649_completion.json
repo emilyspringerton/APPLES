@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-28T19:52:33Z",
+  "body": "Real, shipped continuation of the talent/tech-tree 'bones' flagged in NORTHSTAR.md: PARENA/stdlib/papercraft/talent_mod.prn (on-papercraft-can-allocate-talent) is a direct port of SHANKPIT_CONSTRUCT.txt's own real progression_try_allocate gate (idx valid, has an unspent point, ability not already at its own real cap of 5) -- compiled via the real parena build CLI into packages/simulation/talent_mod.c, verified via talent_mod_test.c against the exact real construct behavior. bazel test //... 4/4 pass (level, paper_fragment, paper_mesh, talent). Still open: the real per-stat gameplay hooks (progression_apply_bonuses), a real UI, and host game-loop wiring -- this repo still has no server/client code. PAPERCRAFT commits e9ba296/f057902. PARENA commits 2e7cf7d/b489c0a.\n\n⚓ ☃",
+  "id": 16649,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "PAPERCRAFT",
+  "title": "Real talent-point allocation gate, ported from the construct"
+}
