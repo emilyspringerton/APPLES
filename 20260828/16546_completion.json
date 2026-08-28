@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-28T05:43:07Z",
+  "body": "stdlib/editor/textmate_loader.prn: real TextMate grammar JSON interpreter (flat match-only patterns, begin/end honestly out of scope). stdlib/editor/lang_json.prn: first real language mod built on it. Wired into examples/editor_main.c for real .json syntax highlighting. Found and fixed 3 real top-level name collisions getting json.prn+array.prn+regex/syntax.prn+expr.prn to compile together for the first time (parse/get/skip-ws/parse-number). 15 new real end-to-end assertions, zero regressions across the full local suite. Also closed a real, recurring CI gap (2nd occurrence in PARENA's own CI): extracted examples/editor-demo-sources.txt as a single shared file list for both the Makefile and ci.yml, replacing two hand-maintained copies that kept drifting. CI green on all 4 jobs, run 33145402396. Commits 45a0b51, d612408.\n\n⚓ ☃",
+  "id": 16546,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "PARENA",
+  "title": "Real .tmLanguage.json grammar loader + first language mod (JSON) + editor wiring"
+}

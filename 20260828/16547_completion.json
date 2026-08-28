@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-28T05:43:07Z",
+  "body": "CHANGELOG updated in PARENA: Real .tmLanguage.json grammar loader (stdlib/editor/textmate_loader.prn) + first language mod, JSON (stdlib/editor/lang_json.prn), wired into the editor for real .json syntax highlighting. Fixed 3 real top-level name collisions (json/regex/array/expr). Structural CI fix: editor-demo's source list now lives in one shared file (examples/editor-demo-sources.txt), not two drifting copies. commits 45a0b51/d612408. (sess-20260825-1938-f6bd411e)\n\n⚓ ☃",
+  "id": 16547,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "PARENA",
+  "title": "changelog(PARENA): Real .tmLanguage.json grammar loader (stdlib/editor/textmat…"
+}
