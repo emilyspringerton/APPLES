@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-28T17:37:13Z",
+  "body": "Phase A's own first real slice of 'PARENA embedded from day one' (docs/NORTHSTAR.md PIVOT). New racer/bike-gear-mod PARENA module (PARENA/stdlib/racer/bike_gear_mod.prn, real I32 decision logic on-racer-bike-gear-shift, following ECOWAR's own established scalar-in/scalar-out mod ABI) compiled via the real parena build CLI into packages/simulation/bike_gear_mod.c (committed, generated). New racer_bike_tick in packages/common/racer_vehicle.h: a real 5-speed BIKE archetype, gear decided by the compiled PARENA function every tick, distinct from the existing flat-rate BUGGY model -- the real 'two vehicle classes' the pivot is grounded in. Wire protocol (RcVehicleState) gained vehicle_type/gear fields. Server's slot 0 (the human) now spawns on the BIKE model; bots unchanged on BUGGY. Verified live end-to-end with a standalone UDP probe: real 1-\u003e2-\u003e3-\u003e4-\u003e5 upshifts under sustained full throttle, topping out exactly at RC_BIKE_TOP_SPEED, all server-authoritative. ci.yml updated across all three real build paths (server/client/Windows cross-compile). PARENA commit 65612b0. WEAKNIGHT_BEDROCK_RACERS commits 9e3ceca/4d4cfcd.\n\n⚓ ☃",
+  "id": 16626,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "WEAKNIGHT_BEDROCK_RACERS",
+  "title": "Real BIKE archetype: gear selection decided by real PARENA (Phase A first slice)"
+}
