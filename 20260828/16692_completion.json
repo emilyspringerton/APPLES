@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-28T23:03:51Z",
+  "body": "CHANGELOG updated in PAPERCRAFT: Real world-object damage persists across a restart: new PcWorldDamageFile persists per-fragment hp, restored via the same real PARENA-compiled state-derivation function fresh damage uses. Verified live -- punched an object twice, SIGTERM, restarted, reconnected: checksum came back byte-identical (3519267552, 6/96 non-intact). bazel build/test //... clean (17 targets, 7/7 mod tests). Commit 543bd4d. (sess-20260825-1938-f6bd411e)\n\n⚓ ☃",
+  "id": 16692,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "PAPERCRAFT",
+  "title": "changelog(PAPERCRAFT): Real world-object damage persists across a restart: new PcW…"
+}

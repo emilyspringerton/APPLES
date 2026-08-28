@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-28T22:59:48Z",
+  "generated_at": "2026-08-28T23:03:51Z",
   "repo": "APPLES",
-  "count": 6156,
+  "count": 6157,
   "apples": [
     {
       "id": 10525,
@@ -49250,6 +49250,14 @@
       "source_repo": "CLI",
       "date": "20260828",
       "archived_at": "2026-08-28T22:59:48Z"
+    },
+    {
+      "id": 16692,
+      "type": "completion",
+      "title": "changelog(PAPERCRAFT): Real world-object damage persists across a restart: new PcW…",
+      "source_repo": "PAPERCRAFT",
+      "date": "20260828",
+      "archived_at": "2026-08-28T23:03:51Z"
     }
   ]
 }
