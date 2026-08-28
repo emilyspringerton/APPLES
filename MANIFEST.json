@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-28T13:53:38Z",
+  "generated_at": "2026-08-28T14:04:07Z",
   "repo": "APPLES",
-  "count": 6055,
+  "count": 6056,
   "apples": [
     {
       "id": 10525,
@@ -48442,6 +48442,14 @@
       "source_repo": "emily",
       "date": "20260828",
       "archived_at": "2026-08-28T13:53:38Z"
+    },
+    {
+      "id": 16591,
+      "type": "completion",
+      "title": "Self-hosted compiler: nested/chained get-field support",
+      "source_repo": "PARENA",
+      "date": "20260828",
+      "archived_at": "2026-08-28T14:04:07Z"
     }
   ]
 }
