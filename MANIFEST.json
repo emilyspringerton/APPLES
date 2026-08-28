@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-28T02:02:23Z",
+  "generated_at": "2026-08-28T02:08:16Z",
   "repo": "APPLES",
-  "count": 5971,
+  "count": 5972,
   "apples": [
     {
       "id": 10525,
@@ -47770,6 +47770,14 @@
       "source_repo": "PARENA",
       "date": "20260828",
       "archived_at": "2026-08-28T02:02:23Z"
+    },
+    {
+      "id": 16507,
+      "type": "completion",
+      "title": "selfhost/emit.prn: plain-call predicate function calls as cond tests",
+      "source_repo": "PARENA",
+      "date": "20260828",
+      "archived_at": "2026-08-28T02:08:16Z"
     }
   ]
 }
