@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-28T17:57:04Z",
+  "generated_at": "2026-08-28T17:58:38Z",
   "repo": "APPLES",
-  "count": 6098,
+  "count": 6099,
   "apples": [
     {
       "id": 10525,
@@ -48786,6 +48786,14 @@
       "source_repo": "emily",
       "date": "20260828",
       "archived_at": "2026-08-28T17:57:04Z"
+    },
+    {
+      "id": 16634,
+      "type": "completion",
+      "title": "changelog(PAPERCRAFT): Fixed level_mod.prn to use the real construct XP curve (80 …",
+      "source_repo": "PAPERCRAFT",
+      "date": "20260828",
+      "archived_at": "2026-08-28T17:58:38Z"
     }
   ]
 }
