@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-28T00:01:49Z",
+  "generated_at": "2026-08-28T00:03:19Z",
   "repo": "APPLES",
-  "count": 5954,
+  "count": 5955,
   "apples": [
     {
       "id": 10525,
@@ -47634,6 +47634,14 @@
       "source_repo": "ECOWAR",
       "date": "20260828",
       "archived_at": "2026-08-28T00:01:49Z"
+    },
+    {
+      "id": 16490,
+      "type": "signal_observation",
+      "title": "[INFO] GFD Battlegrounds (apps2/battlegrounds_gui) sync check: the 3-repo 'bacon puck intangible mo…",
+      "source_repo": "CLI",
+      "date": "20260828",
+      "archived_at": "2026-08-28T00:03:19Z"
     }
   ]
 }
