@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-28T16:43:07Z",
+  "body": "Added POST /portal/login (PortalHandler.LocalLogin) -- real bcrypt-verified email+password sign-in against local_users, setting a real HttpOnly iduna_session cookie, matching AdminLoginHandler's own pattern. Granted devportal.access to both real local_users accounts. portalLoginTmpl now renders a real form alongside the existing Google button. Founder real-time pivot (2026-08-28): 'get the developer portal working with iduna login instead of just the google oauth' -- Google OAuth stays deferred (blocked on a human-only GCP Console step). webmaster's local_users password hash reset in the live DB (old hash unrecoverable); new credential reported directly to founder. go build/vet/test ./... all clean. Commits: d562551 (feature), ee1ac7c (changelog). Deploy queued: sudo-queue/32-restart-iduna-for-portal-local-login.sh.\n\n⚓ ☃",
+  "id": 16613,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "IDUNA",
+  "title": "Real IDUNA login for the developer notebook portal"
+}
