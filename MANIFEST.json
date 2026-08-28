@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-28T22:54:20Z",
+  "generated_at": "2026-08-28T22:59:48Z",
   "repo": "APPLES",
-  "count": 6155,
+  "count": 6156,
   "apples": [
     {
       "id": 10525,
@@ -49242,6 +49242,14 @@
       "source_repo": "emily",
       "date": "20260828",
       "archived_at": "2026-08-28T22:54:20Z"
+    },
+    {
+      "id": 16691,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: \"continue\" (after S206-01..15 fully closed; asked the user which thread n…",
+      "source_repo": "CLI",
+      "date": "20260828",
+      "archived_at": "2026-08-28T22:59:48Z"
     }
   ]
 }
