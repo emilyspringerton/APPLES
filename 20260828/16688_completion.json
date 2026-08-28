@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-28T22:53:34Z",
+  "body": "CHANGELOG updated in PAPERCRAFT: Real MODDING.md, verified end-to-end: a real, step-by-step guide (build parena -\u003e write .prn -\u003e compile -\u003e wire into host -\u003e bazel build -\u003e run server -\u003e connect client), written and confirmed live with a brand-new mod (xp_award_mod, real bonus XP for destroying a Paper Engine object, ported from the construct's own real per-kill XP value). Server log confirmed 'destroyed world object 0 -- +60 real xp_award_mod XP'. bazel build/test //... clean (17 targets, 7/7 mod tests). Commit 66bf592. (sess-20260825-1938-f6bd411e)\n\n⚓ ☃",
+  "id": 16688,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "PAPERCRAFT",
+  "title": "changelog(PAPERCRAFT): Real MODDING.md, verified end-to-end: a real, step-by-step …"
+}
