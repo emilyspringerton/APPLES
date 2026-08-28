@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-28T15:56:48Z",
+  "generated_at": "2026-08-28T16:08:27Z",
   "repo": "APPLES",
-  "count": 6069,
+  "count": 6070,
   "apples": [
     {
       "id": 10525,
@@ -48554,6 +48554,14 @@
       "source_repo": "emily",
       "date": "20260828",
       "archived_at": "2026-08-28T15:56:48Z"
+    },
+    {
+      "id": 16605,
+      "type": "completion",
+      "title": "Self-hosted compiler: real struct-literal construction, closing the defstruct gap pair",
+      "source_repo": "PARENA",
+      "date": "20260828",
+      "archived_at": "2026-08-28T16:08:27Z"
     }
   ]
 }
