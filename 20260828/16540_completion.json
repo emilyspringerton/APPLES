@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-28T05:12:25Z",
+  "body": "Real PARENA mod (stdlib/editor/construct_split.prn) hooking into the Ctrl+T Spotlight overlay. Typing /construct-split N while a real *_CONSTRUCT.txt bundle is the active buffer splits it across file boundaries into N roughly-equal panes via spawn_new_instance, mirroring the existing SKFile mod/C-driver split. New dedicated test (tests/test_construct_split.c, 13/13 pass) + extended test_editor_spotlight.c. Zero regressions: 336-test suite + test-editor-spotlight + test-construct-split + full editor-demo rebuild + Xvfb smoke + bazel build/test all clean. PARENA commit 8b7334a.\n\n⚓ ☃",
+  "id": 16540,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "PARENA",
+  "title": "construct-split Spotlight mod: real PARENA plugin, /construct-split N"
+}
