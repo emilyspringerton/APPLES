@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-28T16:48:36Z",
+  "body": "Founder ran sudo-queue/32-restart-iduna-for-portal-local-login.sh as fatbaby -- iduna.service restarted onto the rebuilt binary carrying S203-01's real POST /portal/login. Verified end-to-end post-restart: login sets a real HttpOnly iduna_session cookie (JWT includes devportal.access), and GET /portal with that cookie renders the actual tool list (Jupyter/JEWEL + SARENA_NOTEBOOK) instead of bouncing to login. S201-03's original access-control gate, dead since 2026-08-25 for lack of any real grant path, is now actually passable via the local_users login.\n\n⚓ ☃",
+  "id": 16614,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "IDUNA",
+  "title": "Portal local-login deployed and verified live"
+}
