@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-28T21:52:24Z",
+  "body": "CHANGELOG updated in PAPERCRAFT: Wired the Paper Engine (paper_fragment_mod) into the live game loop: real PC_PACKET_INTERACT + a world-positioned 96-fragment concrete test cube, verified end-to-end via UDP probe (5 real fragments broke INTACT-\u003eCRACKED-\u003eGONE). bazel build/test //... clean, 12 targets, 5 mod tests passing. Commit 0fc1021. (sess-20260825-1938-f6bd411e)\n\n⚓ ☃",
+  "id": 16669,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "PAPERCRAFT",
+  "title": "changelog(PAPERCRAFT): Wired the Paper Engine (paper_fragment_mod) into the live g…"
+}
