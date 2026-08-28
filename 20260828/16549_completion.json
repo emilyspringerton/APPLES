@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-28T05:57:44Z",
+  "body": "CHANGELOG updated in PARENA: selfhost/emit.prn: real, narrow, TAIL-POSITION-ONLY Result/Option match support, closing the first (dominant) half of the match gap named in every prior selfhost entry. Hardcodes the one real tag mapping (Ok/Some=1, Err/None=0) this whole stdlib's match usage already relies on rather than building a general user-defenum tag registry (real, separate, harder work, still open). Scrutinee: a bare symbol or a plain-call-shaped? call, evaluated once into a real, block-scoped 'Result __match_scrutinee'/'Option __match_scrutinee' local (a fixed name is safe since match always wraps itself in a fresh { } block). Exactly 2 clauses (bare None, or (Ok x)/(Err e)/(Some s)), payload bound to a real void* local. Also added Result/Option as real param-c-type cases (by value), needed to make a match's own scrutinee reachable via a function signature at all. 9 new tests (tests/test_selfhost_emit.c, 44 total for domain 4), including a real compile+run+assert check (tests/integration/driver_match.c) against real constructed Result/Option values across every tag. Zero regressions: 336-test suite + all selfhost domains clean; bazel build //... blocked by the same pre-existing, already-documented /home/treeiii/.cache permission collision from a separate concurrent session, not a regression. Still open: general user-defenum match, match as a non-tail value, a clause body using the payload beyond a bare-symbol tail (needs deref-form emission), constructing Ok/Err/Some/None from PARENA itself. (sess-20260825-1938-f6bd411e)\n\n⚓ ☃",
+  "id": 16549,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "PARENA",
+  "title": "changelog(PARENA): selfhost/emit.prn: real, narrow, TAIL-POSITION-ONLY Result/…"
+}

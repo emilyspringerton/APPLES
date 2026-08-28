@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-28T05:44:48Z",
+  "generated_at": "2026-08-28T05:57:44Z",
   "repo": "APPLES",
-  "count": 6013,
+  "count": 6014,
   "apples": [
     {
       "id": 10525,
@@ -48106,6 +48106,14 @@
       "source_repo": "emily",
       "date": "20260828",
       "archived_at": "2026-08-28T05:44:48Z"
+    },
+    {
+      "id": 16549,
+      "type": "completion",
+      "title": "changelog(PARENA): selfhost/emit.prn: real, narrow, TAIL-POSITION-ONLY Result/…",
+      "source_repo": "PARENA",
+      "date": "20260828",
+      "archived_at": "2026-08-28T05:57:44Z"
     }
   ]
 }
