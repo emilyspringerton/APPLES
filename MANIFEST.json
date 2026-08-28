@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-28T16:11:26Z",
+  "generated_at": "2026-08-28T16:20:49Z",
   "repo": "APPLES",
-  "count": 6071,
+  "count": 6072,
   "apples": [
     {
       "id": 10525,
@@ -48570,6 +48570,14 @@
       "source_repo": "emily",
       "date": "20260828",
       "archived_at": "2026-08-28T16:11:26Z"
+    },
+    {
+      "id": 16607,
+      "type": "completion",
+      "title": "Self-hosted compiler: I32-typed bare-symbol Ok/Err/Some payload support",
+      "source_repo": "PARENA",
+      "date": "20260828",
+      "archived_at": "2026-08-28T16:20:49Z"
     }
   ]
 }
