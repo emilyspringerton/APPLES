@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-28T02:46:33Z",
+  "generated_at": "2026-08-28T02:46:35Z",
   "repo": "APPLES",
-  "count": 5979,
+  "count": 5980,
   "apples": [
     {
       "id": 10525,
@@ -47834,6 +47834,14 @@
       "source_repo": "ECOWAR",
       "date": "20260828",
       "archived_at": "2026-08-28T02:46:33Z"
+    },
+    {
+      "id": 16515,
+      "type": "completion",
+      "title": "changelog(ECOWAR): CI fix: Windows cross-compile was missing combat_log_mod (4…",
+      "source_repo": "ECOWAR",
+      "date": "20260828",
+      "archived_at": "2026-08-28T02:46:35Z"
     }
   ]
 }
