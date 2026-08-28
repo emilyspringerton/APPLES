@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-28T22:38:36Z",
+  "body": "CHANGELOG updated in PAPERCRAFT: Real map editor, first pass: apps/mapeditor (offline CLI add/list/remove) places real Paper Engine props into a real, persisted world-objects file apps/server loads at startup. PcSnapshotPacket now broadcasts a real, bounded multi-object list (up to 4). Verified live -- placed 3 real objects, confirmed per-object interact targeting (only the punched object takes damage). bazel build/test //... clean (15 targets, 6/6 mod tests). Commit 14d7e82. (sess-20260825-1938-f6bd411e)\n\n⚓ ☃",
+  "id": 16685,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "PAPERCRAFT",
+  "title": "changelog(PAPERCRAFT): Real map editor, first pass: apps/mapeditor (offline CLI ad…"
+}

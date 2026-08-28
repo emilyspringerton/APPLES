@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-28T22:38:31Z",
+  "generated_at": "2026-08-28T22:38:36Z",
   "repo": "APPLES",
-  "count": 6149,
+  "count": 6150,
   "apples": [
     {
       "id": 10525,
@@ -49194,6 +49194,14 @@
       "source_repo": "emily",
       "date": "20260828",
       "archived_at": "2026-08-28T22:38:31Z"
+    },
+    {
+      "id": 16685,
+      "type": "completion",
+      "title": "changelog(PAPERCRAFT): Real map editor, first pass: apps/mapeditor (offline CLI ad…",
+      "source_repo": "PAPERCRAFT",
+      "date": "20260828",
+      "archived_at": "2026-08-28T22:38:36Z"
     }
   ]
 }
