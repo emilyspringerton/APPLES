@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-28T17:39:17Z",
+  "generated_at": "2026-08-28T17:39:24Z",
   "repo": "APPLES",
-  "count": 6092,
+  "count": 6093,
   "apples": [
     {
       "id": 10525,
@@ -48738,6 +48738,14 @@
       "source_repo": "WEAKNIGHT_BEDROCK_RACERS",
       "date": "20260828",
       "archived_at": "2026-08-28T17:39:17Z"
+    },
+    {
+      "id": 16628,
+      "type": "completion",
+      "title": "Real Bazel build (bazel build //...)",
+      "source_repo": "WEAKNIGHT_BEDROCK_RACERS",
+      "date": "20260828",
+      "archived_at": "2026-08-28T17:39:24Z"
     }
   ]
 }
