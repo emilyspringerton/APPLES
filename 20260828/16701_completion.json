@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-28T23:53:04Z",
+  "body": "CHANGELOG updated in PAPERCRAFT: Real non-cube base shapes: paper_generate_box takes independent per-axis half-extents, apps/mapeditor grew --half-x/--half-y/--half-z. Verified live -- placed a real wall (half=3.0,1.5,0.15), confirmed server broadcast the exact shape, confirmed interact/damage still works on the asymmetric object, screenshot showed a genuinely wide/short slab, not a cube. bazel build/test //... clean (17 targets, 7/7 mod tests). Commit b5cb431. (sess-20260825-1938-f6bd411e)\n\n⚓ ☃",
+  "id": 16701,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "PAPERCRAFT",
+  "title": "changelog(PAPERCRAFT): Real non-cube base shapes: paper_generate_box takes indepen…"
+}
