@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-28T17:24:47Z",
+  "body": "CHANGELOG updated in WEAKNIGHT_BEDROCK_RACERS: Real IDUNA login -\u003e matchmaking queue -\u003e HMAC connect-ticket flow, ported from GFD's proven battlegrounds_gui login screen. Verified live end-to-end against test@test.com/testtest. RcConnectPacket now carries a real ticket (fail-closed server verification); RcRejectPacket added for real, visible rejections. (sess-20260825-1938-f6bd411e)\n\n⚓ ☃",
+  "id": 16622,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "WEAKNIGHT_BEDROCK_RACERS",
+  "title": "changelog(WEAKNIGHT_BEDROCK_RACERS): Real IDUNA login -\u003e matchmaking queue -\u003e HMAC connect-ticke…"
+}
