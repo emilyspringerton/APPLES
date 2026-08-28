@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-28T02:46:33Z",
+  "body": "Found the autonomous RSI loop's own ECOWAR work (Phase 2 card input path, cooldown, HUD, combat_log_mod wiring -- commits 882ad47..84d0f10) had pushed with a broken Windows CI build: combat_log_mod.c/*_host.h were correctly added to scripts/build.sh but missed in ci.yml's own separate hardcoded Windows cross-compile step -- the same gap class that already hit bloodflower_mod/tree_passive_mod/card_effect_mod. Fixed the same minimal way; flagged the recurring pattern as worth a real structural fix (glob instead of hardcoded list) later. CI green again, run 33136797159. ECOWAR commit 5252a6e.\n\n⚓ ☃",
+  "id": 16514,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "ECOWAR",
+  "title": "CI fix: Windows cross-compile missing combat_log_mod (4th recurrence of this gap class)"
+}

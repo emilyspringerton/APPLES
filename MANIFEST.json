@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-28T02:45:31Z",
+  "generated_at": "2026-08-28T02:46:33Z",
   "repo": "APPLES",
-  "count": 5978,
+  "count": 5979,
   "apples": [
     {
       "id": 10525,
@@ -47826,6 +47826,14 @@
       "source_repo": "emily",
       "date": "20260828",
       "archived_at": "2026-08-28T02:45:31Z"
+    },
+    {
+      "id": 16514,
+      "type": "completion",
+      "title": "CI fix: Windows cross-compile missing combat_log_mod (4th recurrence of this gap class)",
+      "source_repo": "ECOWAR",
+      "date": "20260828",
+      "archived_at": "2026-08-28T02:46:33Z"
     }
   ]
 }
