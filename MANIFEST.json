@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-28T09:36:09Z",
+  "generated_at": "2026-08-28T09:45:03Z",
   "repo": "APPLES",
-  "count": 6033,
+  "count": 6034,
   "apples": [
     {
       "id": 10525,
@@ -48266,6 +48266,14 @@
       "source_repo": "emily",
       "date": "20260828",
       "archived_at": "2026-08-28T09:36:09Z"
+    },
+    {
+      "id": 16569,
+      "type": "completion",
+      "title": "Self-hosted compiler: nested-alloc-call-as-a-call-argument support",
+      "source_repo": "PARENA",
+      "date": "20260828",
+      "archived_at": "2026-08-28T09:45:03Z"
     }
   ]
 }
