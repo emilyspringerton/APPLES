@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-28T16:32:06Z",
+  "body": "selfhost/emit.prn now supports a struct-literal field holding a freshly-constructed Result/Option value (a free widening reusing existing emit-call-arg dispatch). Found and fixed a real, pre-existing bug while verifying: a defstruct field with an explicit @ Region suffix has 5 children not 3, silently rejected by struct-field-shaped?'s old exact-3 check -- never exercised by any prior test. Widened to at-least-3, matching param-type-name's own convention. Also widened struct-field-c-type to recognize Result/Option as real struct field types. 7 new tests including a real compile+run+assert check. Zero regressions: 336-test suite + all 6 selfhost domains + bazel build/test clean. PARENA commit e4e4afd.\n\n⚓ ☃",
+  "id": 16609,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "PARENA",
+  "title": "Self-hosted compiler: struct-literal Option field support + fixed a real region-annotation field bug"
+}

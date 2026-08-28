@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-28T16:26:10Z",
+  "generated_at": "2026-08-28T16:32:06Z",
   "repo": "APPLES",
-  "count": 6073,
+  "count": 6074,
   "apples": [
     {
       "id": 10525,
@@ -48586,6 +48586,14 @@
       "source_repo": "emily",
       "date": "20260828",
       "archived_at": "2026-08-28T16:26:10Z"
+    },
+    {
+      "id": 16609,
+      "type": "completion",
+      "title": "Self-hosted compiler: struct-literal Option field support + fixed a real region-annotation field bug",
+      "source_repo": "PARENA",
+      "date": "20260828",
+      "archived_at": "2026-08-28T16:32:06Z"
     }
   ]
 }
