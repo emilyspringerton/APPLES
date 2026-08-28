@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-28T17:39:24Z",
+  "generated_at": "2026-08-28T17:41:56Z",
   "repo": "APPLES",
-  "count": 6093,
+  "count": 6094,
   "apples": [
     {
       "id": 10525,
@@ -48746,6 +48746,14 @@
       "source_repo": "WEAKNIGHT_BEDROCK_RACERS",
       "date": "20260828",
       "archived_at": "2026-08-28T17:39:24Z"
+    },
+    {
+      "id": 16629,
+      "type": "audit",
+      "title": "Cycle 12305 — idle (no queued tasks)",
+      "source_repo": "emily",
+      "date": "20260828",
+      "archived_at": "2026-08-28T17:41:56Z"
     }
   ]
 }
