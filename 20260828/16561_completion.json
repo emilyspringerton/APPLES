@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-28T08:11:53Z",
+  "body": "selfhost/emit.prn now supports real Ok/Err/Some/None construction, the direct complement to match support. Payload must be pointer-shaped (bare symbol/get-field/plain-call) -- I32 payloads deliberately not supported (would need a real per-type heap box). Found and fixed a real, deeper gap: emit-defn hard-coded every function's C return type as char* -- new defn-c-return-type recognizes a declared Result/Option return type by name as the real concrete C type. 11 new tests including a real compile+run+assert round-trip (driver_result_ctor.c) constructing AND consuming every Result/Option value entirely via selfhost-emitted code. Zero regressions: 336-test suite + all 6 selfhost domains + test-json/test-yaml + bazel build/test clean. PARENA commit 70f05c4.\n\n⚓ ☃",
+  "id": 16561,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "PARENA",
+  "title": "Self-hosted compiler: Result/Option construction (Ok/Err/Some/None), closing the match round trip"
+}
