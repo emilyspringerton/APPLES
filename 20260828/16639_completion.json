@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-28T18:07:22Z",
+  "body": "Founder real-time: 'iterate' -\u003e 'build the paper engine for destructable geometries' -\u003e 'a simple cube needs to get subdivided then like the vertexes randomiuzed' -\u003e 'then some of those faces come off when you hit it with a shot gun'. Real technique built and verified: packages/common/paper_mesh.h subdivides a cube into an NxN fragment grid per face, jitters each vertex a real bounded amount along its own face normal, deterministic per seed. Mods-first split: PARENA/stdlib/papercraft/paper_fragment_mod.prn -\u003e packages/simulation/paper_fragment_mod.c (material-aware damage resistance PAPER/WOOD/CONCRETE/METAL + threshold-based damage-tier lookup), same real ABI card_effect_mod.prn/bike-gear-mod.prn already proved; host C keeps the real F32/struct mesh math. Verified: 96 fragments from a 4x4 cube, real seed-determinism (identical seed -\u003e byte-identical geometry), real local shotgun-blast scenario (4/96 fragments detached from one hit, not the whole cube). bazel test //... 3/3 green. docs/NORTHSTAR_PAPER_ENGINE.md carries the full design plus a real, honest list of flagged-not-built future mechanics (sand-simulation true-northstar acknowledged as impractical near-term; concrete-fracture named as the real tractable middle ground; worker-rebuild events; wet-material transfer mechanic; fractal/math-heavy-simulation design lens). No renderer/physics/game-loop wiring yet -- proves the technique only. PAPERCRAFT commits 7bab30a/f6397c7. PARENA commits 66ebb6c/9a427f6.\n\n⚓ ☃",
+  "id": 16639,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "PAPERCRAFT",
+  "title": "The Paper Engine — real destructible-geometry proof of concept"
+}

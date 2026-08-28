@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-28T18:06:48Z",
+  "generated_at": "2026-08-28T18:07:22Z",
   "repo": "APPLES",
-  "count": 6103,
+  "count": 6104,
   "apples": [
     {
       "id": 10525,
@@ -48826,6 +48826,14 @@
       "source_repo": "PARENA",
       "date": "20260828",
       "archived_at": "2026-08-28T18:06:48Z"
+    },
+    {
+      "id": 16639,
+      "type": "completion",
+      "title": "The Paper Engine — real destructible-geometry proof of concept",
+      "source_repo": "PAPERCRAFT",
+      "date": "20260828",
+      "archived_at": "2026-08-28T18:07:22Z"
     }
   ]
 }
