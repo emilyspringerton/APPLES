@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-28T05:43:07Z",
+  "generated_at": "2026-08-28T05:43:09Z",
   "repo": "APPLES",
-  "count": 6010,
+  "count": 6011,
   "apples": [
     {
       "id": 10525,
@@ -48082,6 +48082,14 @@
       "source_repo": "CLI",
       "date": "20260828",
       "archived_at": "2026-08-28T05:43:07Z"
+    },
+    {
+      "id": 16546,
+      "type": "completion",
+      "title": "Real .tmLanguage.json grammar loader + first language mod (JSON) + editor wiring",
+      "source_repo": "PARENA",
+      "date": "20260828",
+      "archived_at": "2026-08-28T05:43:09Z"
     }
   ]
 }
