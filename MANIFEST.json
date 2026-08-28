@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-28T08:49:13Z",
+  "generated_at": "2026-08-28T08:57:46Z",
   "repo": "APPLES",
-  "count": 6029,
+  "count": 6030,
   "apples": [
     {
       "id": 10525,
@@ -48234,6 +48234,14 @@
       "source_repo": "emily",
       "date": "20260828",
       "archived_at": "2026-08-28T08:49:13Z"
+    },
+    {
+      "id": 16565,
+      "type": "completion",
+      "title": "Self-hosted compiler: nested-call-as-a-call-argument support",
+      "source_repo": "PARENA",
+      "date": "20260828",
+      "archived_at": "2026-08-28T08:57:46Z"
     }
   ]
 }
