@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-28T20:40:46Z",
+  "body": "Completes Phase 0's own real end-to-end loop (server side shipped in Apple #16654, same session). apps/client: real login screen (ported from WEAKNIGHT_BEDROCK_RACERS' own GFD-sourced pattern) -\u003e real ticket mint via POST /api/v1/papercraft/ticket (no queue step at all -- straight from mint to CONNECT, matching 'papercraft shouldnt have matches') -\u003e real UDP CONNECT -\u003e fetches the same real, live worldapi city chunk the server itself spawns players onto and renders every real block as a real cube -\u003e real chase camera following the server's own real snapshot position. Verified live end-to-end under Xvfb with real screenshots, not just log lines: real sky, real grey concrete ground extending to a real horizon, the player's own marker standing on it. Found and fixed a real visual bug from the first screenshot: the player marker only drew 3 of 6 box faces (no backface culling enabled, so the wrong face showed through from behind) -- fixed to a real, complete 6-face box. bazel build/test //... clean, 4/4 mod tests still pass, both real binaries build. Phase 0's full bar (login + spawn + movement + real rendering) is now genuinely, visibly real end to end. PAPERCRAFT commits 18257b5/494a856.\n\n⚓ ☃",
+  "id": 16657,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "PAPERCRAFT",
+  "title": "Real Phase 0 client — login, real city rendering, verified visually"
+}
