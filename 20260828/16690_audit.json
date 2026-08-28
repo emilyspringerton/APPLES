@@ -1,13 +1,60 @@
 {
   "agent_id": "00000003-0000-4000-8000-000000000001",
   "apple_type": "audit",
-  "archived_at": "2026-08-28T22:54:20Z",
+  "archived_at": "2026-08-28T23:14:31Z",
   "body": "\n## Cycle summary\n- Cycle: 12326\n- Duration: 0s\n- Outcome: idle — no queued tasks\n- Total completed tasks: 2\n- Triage findings this cycle: 0\n\n⚓ ☃",
   "id": 16690,
   "metadata": {
     "consecutive_failures": 0,
     "cycle_number": 12326,
     "duration_s": 0,
+    "gpt2_fingerprint": {
+      "codze": {
+        "az": {
+          "bin": "11001001010110110011001011000000100110001010000001100110101010000011000101100111001100011010101000011111100101001001100000110",
+          "dec": "33456044443302222437264053305456366342"
+        },
+        "word": "IDLENOQUEUEDTASKSCMDHCOMANDLINENOTOGLES",
+        "za": {
+          "bin": "1111101010010110000101110000111001101100100110101000100100110100010111011011101000000000101010101000111110111000100110011111001",
+          "dec": "166543155556617777562735146614543633657"
+        }
+      },
+      "generated": "\n\n– idle (no queued tasks) Cmd-h – Command line (no toggles)",
+      "magic_tower": [
+        "02 25 21 06 03 24 ",
+        "11 16 14 13 04 23 ",
+        "15 12 06 21 11 16 ",
+        "06 21 11 16 21 06 ",
+        "16 11 20 07 26 01 ",
+        "13 14 26 01 00 27 ",
+        "24 03 21 06 12 15 ",
+        "00 27 04 23 24 03 ",
+        "20 07 14 13 21 06 ",
+        "03 24 02 25 14 13 ",
+        "11 16 14 13 04 23 ",
+        "16 11 04 23 22 05 ",
+        "03 24 11 16 26 01 "
+      ],
+      "seed": "2026082895",
+      "squished": "IDLENOQUEUEDTASKSCMDHCOMANDLINENOTOGLES",
+      "tower": [
+        "IDL",
+        "ENO",
+        "QVE",
+        "VED",
+        "TAS",
+        "KSC",
+        "MDH",
+        "COM",
+        "AND",
+        "LIN",
+        "ENO",
+        "TOG",
+        "LES"
+      ]
+    },
+    "model_fingerprint": "emily-ft (checkpoint-emily-ft)",
     "task_id": "",
     "tokens_used": 0,
     "triage_findings": 0
