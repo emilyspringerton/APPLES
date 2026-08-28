@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-28T03:16:50Z",
+  "generated_at": "2026-08-28T03:16:52Z",
   "repo": "APPLES",
-  "count": 5986,
+  "count": 5987,
   "apples": [
     {
       "id": 10525,
@@ -47890,6 +47890,14 @@
       "source_repo": "EmilyOS",
       "date": "20260828",
       "archived_at": "2026-08-28T03:16:50Z"
+    },
+    {
+      "id": 16522,
+      "type": "completion",
+      "title": "changelog(EmilyOS): CI fix: enabled CGO for the emilyos build -- internal/fsacl…",
+      "source_repo": "EmilyOS",
+      "date": "20260828",
+      "archived_at": "2026-08-28T03:16:52Z"
     }
   ]
 }
