@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-28T00:38:34Z",
+  "body": "Closed docs/ARENA_API.md's own 'NOT YET WIRED' gap: PARENA/stdlib/redgarden/combat_log_mod.prn (real, complete PARENA source, zero host companions before this) now has a real host half -- ArenaCombatLogEntry ring buffer + five redgarden_host_log_* functions wired at their real call sites (apply_damage_ex's kill branch, arena_shop_buy, arena_tick_nodes x2 for capture+uncapture, arena_tick_kings). combat_log_mod.c generated via the real parena build CLI, committed, added to every build path (build.sh, build_arena.sh, build_training.sh, test_arena.sh, BUILD.bazel). Real bugfix found while wiring: resolve_combat (the actual 1v1 duel resolver) never set last_attacked_by_owner, so 1v1 kills got neither Flow/XP bounty nor a combat-log HERO_KILL event despite a real attacker being in scope the whole time -- fixed, both directions. 5 new live end-to-end tests (tests/test_combat_log.c), registered in test_arena.sh and BUILD.bazel. bazel test //tests/...: 17/18 (the 1 failure is the pre-existing unrelated test_arena_replay segfault). bazel build //... clean.\n\n⚓ ☃",
+  "id": 16494,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "ECOWAR",
+  "title": "Combat log wired end-to-end; real 1v1 kill-attribution bugfix found and fixed"
+}

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-28T00:29:24Z",
+  "generated_at": "2026-08-28T00:38:34Z",
   "repo": "APPLES",
-  "count": 5958,
+  "count": 5959,
   "apples": [
     {
       "id": 10525,
@@ -47666,6 +47666,14 @@
       "source_repo": "emily",
       "date": "20260828",
       "archived_at": "2026-08-28T00:29:24Z"
+    },
+    {
+      "id": 16494,
+      "type": "completion",
+      "title": "Combat log wired end-to-end; real 1v1 kill-attribution bugfix found and fixed",
+      "source_repo": "ECOWAR",
+      "date": "20260828",
+      "archived_at": "2026-08-28T00:38:34Z"
     }
   ]
 }
