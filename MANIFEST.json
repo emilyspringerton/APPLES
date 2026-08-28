@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-28T11:07:59Z",
+  "generated_at": "2026-08-28T11:16:52Z",
   "repo": "APPLES",
-  "count": 6041,
+  "count": 6042,
   "apples": [
     {
       "id": 10525,
@@ -48330,6 +48330,14 @@
       "source_repo": "emily",
       "date": "20260828",
       "archived_at": "2026-08-28T11:07:59Z"
+    },
+    {
+      "id": 16577,
+      "type": "completion",
+      "title": "Self-hosted compiler: or/and/not-as-a-call-argument support + fixed 3 more real silently-wrong-C bugs",
+      "source_repo": "PARENA",
+      "date": "20260828",
+      "archived_at": "2026-08-28T11:16:52Z"
     }
   ]
 }
