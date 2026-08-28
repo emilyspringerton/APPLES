@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-28T12:38:36Z",
+  "generated_at": "2026-08-28T12:46:08Z",
   "repo": "APPLES",
-  "count": 6049,
+  "count": 6050,
   "apples": [
     {
       "id": 10525,
@@ -48394,6 +48394,14 @@
       "source_repo": "emily",
       "date": "20260828",
       "archived_at": "2026-08-28T12:38:36Z"
+    },
+    {
+      "id": 16585,
+      "type": "completion",
+      "title": "Self-hosted compiler: struct-typed struct field support",
+      "source_repo": "PARENA",
+      "date": "20260828",
+      "archived_at": "2026-08-28T12:46:08Z"
     }
   ]
 }
