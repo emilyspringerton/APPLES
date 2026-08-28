@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-28T03:45:42Z",
+  "body": "Real v0 of S201-07 (EMILY/BACKLOG.md SECTION 201): docs/NORTHSTAR_SARENA_NOTEBOOK.md scopes it, notebook/index.html is a real, self-contained static frontend talking to JEWEL's own live kernel via the real Jupyter REST+WebSocket protocol. Verified end-to-end with a real Python client replicating the exact browser JS logic (including a real XSRF cookie/header handshake found live -- a bare POST 403s without it): real kernel session created, real PARENA source compiled+run, real stdout round-tripped back. Fixed two real bugs this surfaced before they'd have hit a real browser: missing XSRF handling, and a wrong 'main' entry point in the placeholder example (real convention is 'cell-main'). TYLER-style title-card styling grounded in the actual episode scripts (grepped for 'TITLE CARD (white text, black field)', not invented). Deployed: sarena-notebook.service (127.0.0.1:8891). Companion commits: gpt2-alpine-c (broker route), OKEMILY (nginx location, queued), IDUNA (portal link, CI green run 33139775294). JEWEL commit f697c89.\n\n⚓ ☃",
+  "id": 16528,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "JEWEL",
+  "title": "SARENA_NOTEBOOK v0 shipped — real custom PARENA notebook frontend"
+}
