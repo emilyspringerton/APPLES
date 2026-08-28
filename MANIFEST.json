@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-28T22:38:36Z",
+  "generated_at": "2026-08-28T22:38:48Z",
   "repo": "APPLES",
-  "count": 6150,
+  "count": 6151,
   "apples": [
     {
       "id": 10525,
@@ -49202,6 +49202,14 @@
       "source_repo": "PAPERCRAFT",
       "date": "20260828",
       "archived_at": "2026-08-28T22:38:36Z"
+    },
+    {
+      "id": 16686,
+      "type": "completion",
+      "title": "Real map editor shipped, first pass -- offline CLI, persisted world objects, verified end-to-end",
+      "source_repo": "PAPERCRAFT",
+      "date": "20260828",
+      "archived_at": "2026-08-28T22:38:48Z"
     }
   ]
 }
