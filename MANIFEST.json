@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-28T03:32:55Z",
+  "generated_at": "2026-08-28T03:33:21Z",
   "repo": "APPLES",
-  "count": 5989,
+  "count": 5990,
   "apples": [
     {
       "id": 10525,
@@ -47914,6 +47914,14 @@
       "source_repo": "CLI",
       "date": "20260828",
       "archived_at": "2026-08-28T03:32:55Z"
+    },
+    {
+      "id": 16525,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: 'continue working on SARENA notebook' -- SARENA_NOTEBOOK is referenced in…",
+      "source_repo": "CLI",
+      "date": "20260828",
+      "archived_at": "2026-08-28T03:33:21Z"
     }
   ]
 }
