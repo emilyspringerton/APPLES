@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-28T09:51:00Z",
+  "generated_at": "2026-08-28T09:58:45Z",
   "repo": "APPLES",
-  "count": 6035,
+  "count": 6036,
   "apples": [
     {
       "id": 10525,
@@ -48282,6 +48282,14 @@
       "source_repo": "emily",
       "date": "20260828",
       "archived_at": "2026-08-28T09:51:00Z"
+    },
+    {
+      "id": 16571,
+      "type": "completion",
+      "title": "Self-hosted compiler: string-literal-as-a-call-argument support + fixed a real and/or/not bug",
+      "source_repo": "PARENA",
+      "date": "20260828",
+      "archived_at": "2026-08-28T09:58:45Z"
     }
   ]
 }
