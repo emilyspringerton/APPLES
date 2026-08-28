@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-28T22:28:38Z",
+  "body": "CHANGELOG updated in PAPERCRAFT: Real jump physics + first real trick input (slide-jump, ported from SHANKPIT_CONSTRUCT.txt's own 'PHASE 485: TUNED SLIDE JUMP'). Verified live -- server log confirmed 'Player slot 0 landed a real slide-jump trick -- 1.06x speed for 800ms' at cruise speed, matching the unit test's own independently computed value. bazel build/test //... clean (14 targets, 6/6 mod tests). Commit 8865298. (sess-20260825-1938-f6bd411e)\n\n⚓ ☃",
+  "id": 16681,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "PAPERCRAFT",
+  "title": "changelog(PAPERCRAFT): Real jump physics + first real trick input (slide-jump, por…"
+}
