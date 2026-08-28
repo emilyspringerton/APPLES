@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-28T15:09:31Z",
+  "generated_at": "2026-08-28T15:20:13Z",
   "repo": "APPLES",
-  "count": 6062,
+  "count": 6063,
   "apples": [
     {
       "id": 10525,
@@ -48498,6 +48498,14 @@
       "source_repo": "emily",
       "date": "20260828",
       "archived_at": "2026-08-28T15:09:31Z"
+    },
+    {
+      "id": 16598,
+      "type": "completion",
+      "title": "Self-hosted compiler: struct-typed field as a tail-position return",
+      "source_repo": "PARENA",
+      "date": "20260828",
+      "archived_at": "2026-08-28T15:20:13Z"
     }
   ]
 }
