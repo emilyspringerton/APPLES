@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-28T01:13:22Z",
+  "generated_at": "2026-08-28T01:18:18Z",
   "repo": "APPLES",
-  "count": 5964,
+  "count": 5965,
   "apples": [
     {
       "id": 10525,
@@ -47714,6 +47714,14 @@
       "source_repo": "emily",
       "date": "20260828",
       "archived_at": "2026-08-28T01:13:22Z"
+    },
+    {
+      "id": 16500,
+      "type": "completion",
+      "title": "selfhost/emit.prn: emit-form now handles bare alloc/plain-call defn bodies",
+      "source_repo": "PARENA",
+      "date": "20260828",
+      "archived_at": "2026-08-28T01:18:18Z"
     }
   ]
 }

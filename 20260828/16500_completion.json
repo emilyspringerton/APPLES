@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-28T01:18:18Z",
+  "body": "Real gap found and closed while building build-files' own multi-file test fixture: emit-form's top-level dispatch only recognized with-arena/let as real defn-body shapes, everything else (bare alloc call, bare plain function call) fell through to emit-tail-symbol which only correctly handles a bare symbol, silently emitting an empty 'return ;'. New shared emit-tail-expr wraps an already-emitted expression into a real return statement; emit-form now dispatches alloc-call-shaped?/plain-call-shaped? bodies through it, reusing emit-alloc-call/emit-plain-call (already proven correct for let-binding values). Bare arithmetic and bare match/cond as an entire body remain real, separate, still-open gaps. 2 new tests (test_selfhost_emit.c, 15 total for domain 4), verified via direct emitted-C assertions and a real, live build_files round-trip. Zero regressions: 336-test suite + all 6 selfhost test binaries + bazel build clean. PARENA commit 893ff69.\n\n⚓ ☃",
+  "id": 16500,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "PARENA",
+  "title": "selfhost/emit.prn: emit-form now handles bare alloc/plain-call defn bodies"
+}
