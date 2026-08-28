@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-28T23:04:01Z",
+  "body": "Closed docs/NORTHSTAR_PAPER_ENGINE.md's own honestly-named gap: 'no persistence of a damaged building's own state across a server restart.' apps/mapeditor's PcWorldObjectFile already persisted real PLACEMENT (position/material/seed); this adds the real, live GAMEPLAY STATE counterpart. Founder: asked via AskUserQuestion whether to keep building PAPERCRAFT after Section 206 closed -- answer: yes, same self-scoping pattern.\n\nNew PcWorldDamageFile (packages/common/papercraft_worldobjects.h): persists every active object's own real per-fragment hp (the real source of truth PaperFragment.state is always re-derived FROM, never a separately-persisted field). Restored on startup by calling the exact same real PARENA-compiled on_paper_fragment_state_for_hp a fresh hit always uses. A fully-destroyed object also re-latches g_wo_destroyed_awarded so a restart can't let a player re-earn xp_award_mod's own real reward twice.\n\napps/server/src/main.c: save_world_damage() writes the real damage file; saved on the same real periodic-autosave (10s, a new shared timer) + SIGTERM-graceful-shutdown cadence player saves already use. New --damage-file CLI flag.\n\nVerified live end-to-end: punched a real object twice (6/96 fragments damaged, real checksum 3519267552 over the broadcast state array), sent a real SIGTERM, confirmed the server logged the save, restarted it against the same files, confirmed its own startup log ('Real per-fragment damage restored'), reconnected -- the real checksum came back byte-identical: 3519267552, 6/96 non-intact, exact.\n\nbazel build //... and bazel test //... both clean (17 targets, 7/7 mod tests). NORTHSTAR.md and docs/NORTHSTAR_PAPER_ENGINE.md updated to document this as shipped.\n\nCommits: 543bd4d (feat), 24f041f (changelog).\n\n⚓ ☃",
+  "id": 16693,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "PAPERCRAFT",
+  "title": "Real world-object damage persistence across a restart, verified end-to-end"
+}
