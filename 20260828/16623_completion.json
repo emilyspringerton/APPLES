@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-28T17:24:58Z",
+  "body": "Built the real login -\u003e matchmaking queue -\u003e HMAC connect-ticket -\u003e UDP connect flow for WEAKNIGHT_BEDROCK_RACERS, direct port of GoblinFoxDragon/apps2/battlegrounds_gui's own proven login-screen pattern plus IDUNA's own SHANKPIT ticket/queue infrastructure (RacerTicketHandler, a second ShankpitQueue instance at /api/v1/racer/queue/*). Verified live end-to-end this session (throwaway local IDUNA+server pair, real test@test.com/testtest account): login -\u003e queue matched instantly (MinPlayers=1, bots fill the rest of the match) -\u003e ticket minted -\u003e real HMAC-verified UDP CONNECT -\u003e WELCOME -\u003e server-authoritative vehicle sim ticking. Found and fixed a real bug live: the matchmaking poll loop only noticed a queuing-\u003ematched TRANSITION, so an instant-matched join left the player stuck forever -- fixed by checking the join response's own state directly. Server now fails closed on ticket verification (was previously anonymous-connect). hud_text.h stroke font is an explicit, documented placeholder pending real PARENA/LINNEN font integration, per the founder's own same-session direction. IDUNA commits 4b93e6e/85f7b3d. WEAKNIGHT_BEDROCK_RACERS commits 956743c/0ed2244. Deploy queued: sudo-queue/33-restart-iduna-and-racer-server-for-login.sh.\n\n⚓ ☃",
+  "id": 16623,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "WEAKNIGHT_BEDROCK_RACERS",
+  "title": "Real IDUNA login for BEDROCK_RACERS, ported from GFD, verified with test@test.com"
+}
