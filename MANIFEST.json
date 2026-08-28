@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-28T04:44:21Z",
+  "generated_at": "2026-08-28T04:55:54Z",
   "repo": "APPLES",
-  "count": 6001,
+  "count": 6002,
   "apples": [
     {
       "id": 10525,
@@ -48010,6 +48010,14 @@
       "source_repo": "emily",
       "date": "20260828",
       "archived_at": "2026-08-28T04:44:21Z"
+    },
+    {
+      "id": 16537,
+      "type": "completion",
+      "title": "runtime/parena_runtime.h: fixed large-file open needlessly doubling memory+copy time",
+      "source_repo": "PARENA",
+      "date": "20260828",
+      "archived_at": "2026-08-28T04:55:54Z"
     }
   ]
 }

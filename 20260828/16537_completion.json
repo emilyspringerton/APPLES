@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-28T04:55:54Z",
+  "body": "Founder real-time: 'when i open a large file its dog shit slow we dont want to load the whole thing into memory'. Found and fixed the real root cause in raw_read_all_impl (read-string's own host primitive, the editor's own file-open path): the fstat fast path still paid for a full second copy of the whole file, because detecting real EOF needs one more nonzero-sized read() call, and the old exact st_size+1 buffer sizing left no room for it -- the growth check fired one needless doubling right at the end, confirmed directly (a 119MB test file's own cap ended up exactly 2x real size). Fixed by sizing the buffer with real headroom (one extra 4096-byte read-chunk) so the confirming read never needs to grow first, tracked via a real grew flag rather than an exact size comparison. Confirmed live: 119MB file's editor-open RSS dropped from ~479MB to ~247MB (halved), open time 0.66s-\u003e0.48s. Verified byte-for-byte content correctness for large/small/empty files. New real regression test walks the Arena's own block chain after a real file read and asserts total capacity stays under 1.5x file size. Zero regressions: 336-test suite + test-editor-io + test-json + test-yaml + bazel build/test clean. PARENA commit 4ccd949.\n\n⚓ ☃",
+  "id": 16537,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "PARENA",
+  "title": "runtime/parena_runtime.h: fixed large-file open needlessly doubling memory+copy time"
+}
