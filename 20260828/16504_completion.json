@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-28T01:55:32Z",
+  "body": "New cond-call-shaped?/emit-cond/emit-cond-clauses/emit-cond-test in selfhost/emit.prn -- a real, tail-position-only cond, closing what was flagged as the single largest remaining self-hosting gap (match/cond had no dispatch in emit-form at all). A real if/else-if/else chain is tractable in tail position (every clause's result is already a complete return statement, recursively via emit-form) even though a non-tail match/cond genuinely isn't (would need GCC's statement-expression extension, incompatible with -std=c99 -pedantic). Narrow v0: match itself not attempted; test is a binary-op comparison/bare symbol/literal true; or/and/not and predicate calls not attempted; last clause must be (true ...) or the cond is honestly not treated as supported. Found and fixed a 5th gap while verifying: a bare number literal as a tail-position result hit the same unboxed-int-into-char* problem emit-i32-boxed already fixes for binary-op -- same fix, new call site. 4 new tests (23 total for domain 4) including a real compile+run+assert-on-all-three-branches check and a real negative case. Zero regressions: 336-test suite + all 6 selfhost test binaries + bazel build clean. Still open: match itself, cond as non-tail value, or/and/not, nested call arguments, defstruct not walked. PARENA commit 1d71d0a.\n\n⚓ ☃",
+  "id": 16504,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "PARENA",
+  "title": "selfhost/emit.prn: real tail-position cond support (closed the largest remaining self-hosting gap)"
+}
