@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-28T22:19:03Z",
+  "generated_at": "2026-08-28T22:20:06Z",
   "repo": "APPLES",
-  "count": 6143,
+  "count": 6144,
   "apples": [
     {
       "id": 10525,
@@ -49146,6 +49146,14 @@
       "source_repo": "PAPERCRAFT",
       "date": "20260828",
       "archived_at": "2026-08-28T22:19:03Z"
+    },
+    {
+      "id": 16679,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: \"continue\" -- keep building PAPERCRAFT. Next real, appropriately-sized in…",
+      "source_repo": "CLI",
+      "date": "20260828",
+      "archived_at": "2026-08-28T22:20:06Z"
     }
   ]
 }
