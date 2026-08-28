@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-28T15:26:25Z",
+  "generated_at": "2026-08-28T15:36:30Z",
   "repo": "APPLES",
-  "count": 6065,
+  "count": 6066,
   "apples": [
     {
       "id": 10525,
@@ -48522,6 +48522,14 @@
       "source_repo": "PARENA",
       "date": "20260828",
       "archived_at": "2026-08-28T15:26:25Z"
+    },
+    {
+      "id": 16601,
+      "type": "completion",
+      "title": "Self-hosted compiler: real deref support + fixed a 6th silently-wrong-C bug",
+      "source_repo": "PARENA",
+      "date": "20260828",
+      "archived_at": "2026-08-28T15:36:30Z"
     }
   ]
 }

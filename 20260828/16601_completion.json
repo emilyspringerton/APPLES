@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-28T15:36:30Z",
+  "body": "selfhost/emit.prn now supports (deref x), reading back a real boxed I32 value out of a match-bound void* payload -- closing the payload-beyond-bare-symbol-tail half of the match gap named since match support first landed. Found and fixed the same class of bug for a 6th time this session: deref wasn't excluded from plain-call-shaped?'s own name checks, silently emitting a call to a never-defined deref function. Fixed via the established other-special-form-symbol? exclusion list. Constructing a real boxed I32 payload (the natural complement) is honestly flagged as still open -- verified this round against a value boxed directly in the C driver instead. 6 new tests including a real compile+run+assert check. Zero regressions: 336-test suite + all 6 selfhost domains + bazel build/test clean. PARENA commit 0a07831.\n\n⚓ ☃",
+  "id": 16601,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "PARENA",
+  "title": "Self-hosted compiler: real deref support + fixed a 6th silently-wrong-C bug"
+}
