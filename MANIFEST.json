@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-28T01:28:11Z",
+  "generated_at": "2026-08-28T01:31:11Z",
   "repo": "APPLES",
-  "count": 5966,
+  "count": 5967,
   "apples": [
     {
       "id": 10525,
@@ -47730,6 +47730,14 @@
       "source_repo": "emily",
       "date": "20260828",
       "archived_at": "2026-08-28T01:28:11Z"
+    },
+    {
+      "id": 16502,
+      "type": "completion",
+      "title": "selfhost/emit.prn: binary-op support + real value-boxing + return-annotation fixes",
+      "source_repo": "PARENA",
+      "date": "20260828",
+      "archived_at": "2026-08-28T01:31:11Z"
     }
   ]
 }
