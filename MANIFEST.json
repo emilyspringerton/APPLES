@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-28T17:11:48Z",
+  "generated_at": "2026-08-28T17:24:14Z",
   "repo": "APPLES",
-  "count": 6085,
+  "count": 6086,
   "apples": [
     {
       "id": 10525,
@@ -48682,6 +48682,14 @@
       "source_repo": "emily",
       "date": "20260828",
       "archived_at": "2026-08-28T17:11:48Z"
+    },
+    {
+      "id": 16621,
+      "type": "completion",
+      "title": "changelog(IDUNA): New RacerTicketHandler (POST /api/v1/racer/ticket) + racer …",
+      "source_repo": "IDUNA",
+      "date": "20260828",
+      "archived_at": "2026-08-28T17:24:14Z"
     }
   ]
 }
