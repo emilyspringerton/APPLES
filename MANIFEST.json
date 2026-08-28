@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-28T15:25:16Z",
+  "generated_at": "2026-08-28T15:26:25Z",
   "repo": "APPLES",
-  "count": 6064,
+  "count": 6065,
   "apples": [
     {
       "id": 10525,
@@ -48514,6 +48514,14 @@
       "source_repo": "emily",
       "date": "20260828",
       "archived_at": "2026-08-28T15:25:16Z"
+    },
+    {
+      "id": 16600,
+      "type": "completion",
+      "title": "Self-hosted compiler: get-field-as-a-let-value support",
+      "source_repo": "PARENA",
+      "date": "20260828",
+      "archived_at": "2026-08-28T15:26:25Z"
     }
   ]
 }
