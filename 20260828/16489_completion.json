@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-28T00:01:48Z",
+  "body": "Closed the real, confirmed gap docs/ARENA_API.md's own mod inventory named: ecowar_resolve_card_effect existed and correctly called the real PARENA mod, but had zero real callers anywhere. New PACKET_ARENA_CARD_PLAY wire path (distinct from apps/server's own older PACKET_CARD_PLAY, a different game); server dispatch -\u003e arena_ecowar_play_card -\u003e ecowar_resolve_card_effect via the real hover_target path, no invented self-target fallback. Client: V cycles the armed card (logged with real name/source hero), G casts at the hover target -- two keys since every other single-letter/digit key was already taken. Also fixed packages/simulation/BUILD.bazel missing bacon_puck_intangible_speed_mod.c/_host.h entirely (on disk, wired into bash/CI, never added to Bazel) -- bazel build //... now succeeds. 2 new tests exercising the real end-to-end entry point (11 total card tests), gcc+bazel build/test both clean. Honest gap: SDL keypress-\u003epacket path itself untested (needs Xvfb). ECOWAR commits 882ad47/be5d617.\n\n⚓ ☃",
+  "id": 16489,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "ECOWAR",
+  "title": "Phase 2 of ECOWAR-MAPEDIT-NORTH: real in-match card input (V/G) + Bazel fix"
+}
