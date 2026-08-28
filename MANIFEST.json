@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-28T23:29:49Z",
+  "generated_at": "2026-08-28T23:39:03Z",
   "repo": "APPLES",
-  "count": 6161,
+  "count": 6162,
   "apples": [
     {
       "id": 10525,
@@ -49290,6 +49290,14 @@
       "source_repo": "CLI",
       "date": "20260828",
       "archived_at": "2026-08-28T23:29:49Z"
+    },
+    {
+      "id": 16697,
+      "type": "completion",
+      "title": "changelog(PAPERCRAFT): Real client-side fragment debris on destruction: diffs cons…",
+      "source_repo": "PAPERCRAFT",
+      "date": "20260828",
+      "archived_at": "2026-08-28T23:39:03Z"
     }
   ]
 }
