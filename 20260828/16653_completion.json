@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-28T20:34:11Z",
+  "body": "CHANGELOG updated in PAPERCRAFT: Real Phase 0 server (apps/server): fetches the real live worldapi city chunk (scene 200, 1054 blocks), verifies real IDUNA connect tickets, spawns a player on the real ground height, ticks real server-authoritative on-foot movement with basic collision. Found and fixed a real bug: http_client.h's shared 8KB response buffer silently truncated the real ~35KB chunk response. Verified live end-to-end via UDP probe. No client yet. (sess-20260825-1938-f6bd411e)\n\n⚓ ☃",
+  "id": 16653,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "PAPERCRAFT",
+  "title": "changelog(PAPERCRAFT): Real Phase 0 server (apps/server): fetches the real live wo…"
+}
