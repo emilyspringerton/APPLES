@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-28T03:16:50Z",
+  "body": "Found via a monorepo-wide CI health sweep (checked MJOLNIR/IDUNA/emily.cli/PRRJECT_FATBABY/EmilyOS/PITVIPER/SKULDMARK): EmilyOS's 'Build emilyos binary (static)' CI step had been broken since 2026-08-26 (CGO_ENABLED=0 predates internal/fsaclmod, a real cgo-based PARENA mod added in commit eb6b867 -- build constraints excluded the whole package, real build failure). go test ./... never caught it (runs with cgo enabled by default). Fixed by enabling cgo for the build step too, matching PITVIPER's own established precedent for cgo+PARENA-mod integration in this monorepo; renamed the step to drop the now-inaccurate 'static' claim. Verified locally: go test clean, real build succeeds, binary runs. CI green, run 33138377129. EmilyOS commit 2147f89. (MJOLNIR's own CI failure was also checked and confirmed to be a real, already-known, unrelated blocker -- missing google-services.json -- not touched.)\n\n⚓ ☃",
+  "id": 16521,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "EmilyOS",
+  "title": "CI fix: enable cgo for the emilyos build (fsaclmod needs it)"
+}

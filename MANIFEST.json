@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-28T03:15:10Z",
+  "generated_at": "2026-08-28T03:16:50Z",
   "repo": "APPLES",
-  "count": 5985,
+  "count": 5986,
   "apples": [
     {
       "id": 10525,
@@ -47882,6 +47882,14 @@
       "source_repo": "emily",
       "date": "20260828",
       "archived_at": "2026-08-28T03:15:10Z"
+    },
+    {
+      "id": 16521,
+      "type": "completion",
+      "title": "CI fix: enable cgo for the emilyos build (fsaclmod needs it)",
+      "source_repo": "EmilyOS",
+      "date": "20260828",
+      "archived_at": "2026-08-28T03:16:50Z"
     }
   ]
 }
