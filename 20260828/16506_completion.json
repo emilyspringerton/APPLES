@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-28T02:02:23Z",
+  "body": "New, real, RECURSIVE boolean-expression sub-language (bool-expr-supported?/emit-bool-expr, replacing the narrower cond-test-supported?/emit-cond-test) -- or/and (binary, this codebase's own real 'nest pairs' convention) and not (unary), each recursively composing further comparisons or bool-expr sub-expressions. (or (= n 1) (= n 3)) now emits real ((n == 1) || (n == 3)). Closes one of the two real exclusions the same-day cond work explicitly named. Deliberately doesn't generalize to arbitrary nested calls as arguments (the genuinely harder, still-open gap) -- a boolean/test context never crosses this emitter's char*-boxing boundary, sidestepping that problem entirely. 2 new tests (25 total for domain 4), including a real compile+run+assert-across-7-branches check. Zero regressions: 336-test suite + all 6 selfhost test binaries + bazel build clean. Still open: match itself, cond as non-tail value, plain-call predicates as a cond test, nested call arguments, defstruct not walked. PARENA commit 3ab6f8f.\n\n⚓ ☃",
+  "id": 16506,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "PARENA",
+  "title": "selfhost/emit.prn: real or/and/not compound cond test support"
+}
