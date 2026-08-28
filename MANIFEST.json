@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-28T15:41:03Z",
+  "generated_at": "2026-08-28T15:46:40Z",
   "repo": "APPLES",
-  "count": 6067,
+  "count": 6068,
   "apples": [
     {
       "id": 10525,
@@ -48538,6 +48538,14 @@
       "source_repo": "emily",
       "date": "20260828",
       "archived_at": "2026-08-28T15:41:03Z"
+    },
+    {
+      "id": 16603,
+      "type": "completion",
+      "title": "Self-hosted compiler: real I32 Ok/Err/Some payload construction, closing the full round trip",
+      "source_repo": "PARENA",
+      "date": "20260828",
+      "archived_at": "2026-08-28T15:46:40Z"
     }
   ]
 }
