@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-28T05:58:04Z",
+  "body": "Closed the first, dominant half of the match gap flagged in every prior selfhost entry. Hardcoded the Ok/Some=1, Err/None=0 tag mapping (VS0's two builtin two-variant enums) rather than building a general defenum tag registry. Scrutinee: bare symbol or plain-call-shaped? call, evaluated once into a block-scoped Result/Option local. 2-clause exhaustive dispatch, payload bound to a real void* local. Added Result/Option as param-c-type cases too. 9 new tests (44 total for domain 4), real compile+run+assert check. Zero regressions. Commit f4d3eb3.\n\n⚓ ☃",
+  "id": 16550,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "PARENA",
+  "title": "selfhost/emit.prn: real Result/Option match support (tail-position, tag dispatch)"
+}
