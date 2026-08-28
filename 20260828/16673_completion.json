@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-28T22:01:44Z",
+  "body": "CHANGELOG updated in PAPERCRAFT: Real multi-chunk city traversal: a fixed 3x3 worldapi chunk grid (9 chunks) replaces the old hardcoded single (cx=0,cz=0) chunk. Verified live via UDP probe -- player walked x=8 to x=30 across the real chunk boundary with ground height correctly resolving the whole way. bazel build/test //... clean. Commit 4e77fbd. (sess-20260825-1938-f6bd411e)\n\n⚓ ☃",
+  "id": 16673,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "PAPERCRAFT",
+  "title": "changelog(PAPERCRAFT): Real multi-chunk city traversal: a fixed 3x3 worldapi chunk…"
+}
