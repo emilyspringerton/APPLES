@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-28T12:23:13Z",
+  "generated_at": "2026-08-28T12:25:21Z",
   "repo": "APPLES",
-  "count": 6047,
+  "count": 6048,
   "apples": [
     {
       "id": 10525,
@@ -48378,6 +48378,14 @@
       "source_repo": "emily",
       "date": "20260828",
       "archived_at": "2026-08-28T12:23:13Z"
+    },
+    {
+      "id": 16583,
+      "type": "completion",
+      "title": "Self-hosted compiler: forward-prototype support",
+      "source_repo": "PARENA",
+      "date": "20260828",
+      "archived_at": "2026-08-28T12:25:21Z"
     }
   ]
 }

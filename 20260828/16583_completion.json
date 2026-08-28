@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-28T12:25:21Z",
+  "body": "selfhost/emit.prn now emits a real forward prototype for every top-level defn, closing the 'callee must textually precede caller' gap several earlier test fixtures had to work around this same day. New emit-defn-prototype reuses emit-defn's own signature-building pieces; emit-program runs a real prototype pre-pass before any bodies, matching the C reference emitter's own established convention. 5 new tests including a real compile+run+assert check proving a caller-before-callee program (the exact ordering that used to trigger a gcc implicit-declaration error) now compiles and runs correctly. Zero regressions: 336-test suite + all 6 selfhost domains + bazel build/test clean, including the multi-file build-files negative case remaining intact. PARENA commit 3707199.\n\n⚓ ☃",
+  "id": 16583,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "PARENA",
+  "title": "Self-hosted compiler: forward-prototype support"
+}
