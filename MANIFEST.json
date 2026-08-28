@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-28T02:29:03Z",
+  "generated_at": "2026-08-28T02:29:27Z",
   "repo": "APPLES",
-  "count": 5975,
+  "count": 5976,
   "apples": [
     {
       "id": 10525,
@@ -47802,6 +47802,14 @@
       "source_repo": "PARENA",
       "date": "20260828",
       "archived_at": "2026-08-28T02:29:03Z"
+    },
+    {
+      "id": 16511,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: PARENA editor is slow opening large files -- 'we dont want to load the wh…",
+      "source_repo": "CLI",
+      "date": "20260828",
+      "archived_at": "2026-08-28T02:29:27Z"
     }
   ]
 }
