@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-28T02:21:11Z",
+  "body": "Real top-level defstruct support, closing the other large standalone self-hosting gap alongside cond/match. Narrow v0: scalar fields only (I32/Bool/F64/String/Arena), no struct-literal construction. New struct-prepass emits typedefs + registers struct names before the defn pass; param-c-type now passes registered struct types BY VALUE, confirmed against the reference compiler's own real generated shape first. New get-field-shaped?/emit-get-field wired into emit-call-arg (composes inside comparisons/plain-calls) and emit-form's tail position (boxed). Found and fixed a real, separate, pre-existing bug while verifying: mangle() only ever converted a hyphen, so is-zero-x? emitted as the literal invalid C identifier is_zero_x? -- widened to match the reference's own real mangle() exactly (also converts /, !, ?, strips a leading !). 5 new tests (33 total for domain 4) including a real compile+run+assert check against real constructed Point values. Zero regressions: 336-test suite + all 6 selfhost test binaries + bazel build clean. Found but not fixed: and/or/not at top-level tail position still unhandled, flagged for later. Still open: match itself, cond as non-tail value, nested call arguments generally, struct-typed struct fields, struct-literal construction. PARENA commit 078a2f1.\n\n⚓ ☃",
+  "id": 16509,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "PARENA",
+  "title": "selfhost/emit.prn: top-level defstruct support + get-field + real mangle() fix"
+}

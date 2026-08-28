@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-28T02:15:00Z",
+  "generated_at": "2026-08-28T02:21:11Z",
   "repo": "APPLES",
-  "count": 5973,
+  "count": 5974,
   "apples": [
     {
       "id": 10525,
@@ -47786,6 +47786,14 @@
       "source_repo": "emily",
       "date": "20260828",
       "archived_at": "2026-08-28T02:15:00Z"
+    },
+    {
+      "id": 16509,
+      "type": "completion",
+      "title": "selfhost/emit.prn: top-level defstruct support + get-field + real mangle() fix",
+      "source_repo": "PARENA",
+      "date": "20260828",
+      "archived_at": "2026-08-28T02:21:11Z"
     }
   ]
 }
