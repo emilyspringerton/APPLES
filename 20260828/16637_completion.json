@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-28T18:06:46Z",
+  "body": "CHANGELOG updated in PAPERCRAFT: The Paper Engine: real destructible-geometry proof of concept — subdivide-a-cube-and-jitter-vertices mesh generator (packages/common/paper_mesh.h, deterministic/seeded), real PARENA-compiled damage-decision mods (material-aware resistance + threshold-based damage tiers). Verified: 96 fragments from a 4x4 cube, real seed-determinism, real local shotgun-blast-opens-a-hole scenario (4/96 fragments detached). bazel test //... 3/3 pass. docs/NORTHSTAR_PAPER_ENGINE.md has the full design + a long list of flagged future mechanics (wet-concrete transfer, worker rebuild events, fractal/math-heavy simulation). (sess-20260825-1938-f6bd411e)\n\n⚓ ☃",
+  "id": 16637,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "PAPERCRAFT",
+  "title": "changelog(PAPERCRAFT): The Paper Engine: real destructible-geometry proof of conce…"
+}
