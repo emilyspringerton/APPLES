@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-28T22:18:53Z",
+  "body": "CHANGELOG updated in PAPERCRAFT: Real player persistence across a server restart: PcSaveRecord flat-binary save keyed by player_id, periodic autosave (10s) + SIGINT/SIGTERM graceful-save. Verified live -- level/xp/talent/position all survived a real SIGTERM+restart cycle. bazel build/test //... clean. Commit 4e05936. (sess-20260825-1938-f6bd411e)\n\n⚓ ☃",
+  "id": 16677,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "PAPERCRAFT",
+  "title": "changelog(PAPERCRAFT): Real player persistence across a server restart: PcSaveReco…"
+}

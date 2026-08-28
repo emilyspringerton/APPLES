@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-28T22:13:36Z",
+  "generated_at": "2026-08-28T22:18:53Z",
   "repo": "APPLES",
-  "count": 6141,
+  "count": 6142,
   "apples": [
     {
       "id": 10525,
@@ -49130,6 +49130,14 @@
       "source_repo": "CLI",
       "date": "20260828",
       "archived_at": "2026-08-28T22:13:36Z"
+    },
+    {
+      "id": 16677,
+      "type": "completion",
+      "title": "changelog(PAPERCRAFT): Real player persistence across a server restart: PcSaveReco…",
+      "source_repo": "PAPERCRAFT",
+      "date": "20260828",
+      "archived_at": "2026-08-28T22:18:53Z"
     }
   ]
 }
