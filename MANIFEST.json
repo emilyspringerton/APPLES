@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-28T23:39:05Z",
+  "generated_at": "2026-08-28T23:39:13Z",
   "repo": "APPLES",
-  "count": 6163,
+  "count": 6164,
   "apples": [
     {
       "id": 10525,
@@ -49306,6 +49306,14 @@
       "source_repo": "emily",
       "date": "20260828",
       "archived_at": "2026-08-28T23:39:05Z"
+    },
+    {
+      "id": 16699,
+      "type": "completion",
+      "title": "Real client-side fragment debris on destruction shipped, with an honest verification note",
+      "source_repo": "PAPERCRAFT",
+      "date": "20260828",
+      "archived_at": "2026-08-28T23:39:13Z"
     }
   ]
 }

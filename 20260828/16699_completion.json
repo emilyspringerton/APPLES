@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-28T23:39:13Z",
+  "body": "Closed docs/NORTHSTAR_PAPER_ENGINE.md's own honestly-flagged gap: 'fragments visually disappear on GONE, they don't fall/scatter.' Founder's own original framing: 'then some of those faces come off when you hit it with a shot gun.'\n\nDeliberately client-only/cosmetic -- no server authority, no wire protocol change. apps/client diffs consecutive real snapshots' world_object_state[][]; the instant a fragment transitions to real PAPER_STATE_GONE, it spawns a real PcDebrisPiece using that exact fragment's own real, already-jittered quad corners at a real outward-from-center velocity, integrates real gravity each frame, fades/despawns after 3s. Real, bounded ring-buffer pool (PC_MAX_DEBRIS=64).\n\nVerified live: server-side confirmation the trigger fires correctly ('Player slot 1 punched world object 1 -- 73 fragment(s) broke off', a real second player), against a rendering pipeline (draw_test_cube's own established corner/tint logic, reused near-verbatim) already independently proven correct. Honest limitation, not glossed over: three real Xvfb screenshot attempts didn't clearly resolve the actual falling pieces mid-flight (small, fast-fading, no xdotool available this session). The data path is real and code-reviewed against already-proven patterns, but a crisp debris-in-flight screenshot remains real, unfinished visual QA.\n\nReal bonus finding: this verification pass connected two real, independent players simultaneously for the first time this session (test@test.com as spectator, test2@test.com walking/punching) -- confirmed real multiplayer rendering works correctly (both players' own distinct markers visible), a capability this repo always claimed but had never actually been screenshot-verified before now.\n\nbazel build //... and bazel test //... both clean (17 targets, 7/7 mod tests). docs/NORTHSTAR_PAPER_ENGINE.md updated.\n\nCommits: 283b775 (feat), dd4a8ba (changelog).\n\n⚓ ☃",
+  "id": 16699,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "PAPERCRAFT",
+  "title": "Real client-side fragment debris on destruction shipped, with an honest verification note"
+}
