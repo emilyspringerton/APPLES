@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-28T02:58:54Z",
+  "generated_at": "2026-08-28T02:58:56Z",
   "repo": "APPLES",
-  "count": 5981,
+  "count": 5982,
   "apples": [
     {
       "id": 10525,
@@ -47850,6 +47850,14 @@
       "source_repo": "ECOWAR",
       "date": "20260828",
       "archived_at": "2026-08-28T02:58:54Z"
+    },
+    {
+      "id": 16517,
+      "type": "completion",
+      "title": "changelog(ECOWAR): Structural fix: Windows cross-compile now globs packages/si…",
+      "source_repo": "ECOWAR",
+      "date": "20260828",
+      "archived_at": "2026-08-28T02:58:56Z"
     }
   ]
 }
