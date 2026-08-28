@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-28T17:02:04Z",
+  "body": "Wrote a real PIVOT section into docs/NORTHSTAR.md (original Phase 0-3 scoping kept below, superseded not deleted) capturing founder real-time direction across a full thread: bedrock racers is racer-first (third-person combat, found in the same old build, is explicitly dropped); build fresh with PARENA embedded in the core from day one (not a C-code port); SHANKPIT_CONSTRUCT.txt (a real, pre-EINHORN-rebrand SHANKPIT snapshot pulled in by this session's git pull --rebase) is the reference for map/physics/game-type/power-up feel -- two tuned vehicle archetypes (VEH_BUGGY/VEH_BIKE, real gear-shift curve), a city map, and a real card-based arena/MOBA mode (packages/rts/card_system.h) all cited with real line numbers. Phased plan: A) from-scratch city+2-vehicle core, PARENA-first, own separate build; B) netcode grown toward shankpit-460's own current hardened server-authoritative shape + real lobby/matchmaker, targeting a real 8-player match; C) power-ups tuned against real founder feedback; D) arena/card mode as a later optional PARENA-driven mode (ECOWAR precedent); E) REDGARDEN cross-pollination, explicitly tentative. CLAUDE.md updated to match. No gameplay code yet -- spec-before-code. Commits: 692c73e (NORTHSTAR/CLAUDE.md), ff93529 (changelog).\n\n⚓ ☃",
+  "id": 16618,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "WEAKNIGHT_BEDROCK_RACERS",
+  "title": "Racer-first NORTHSTAR pivot, grounded in pre-EINHORN SHANKPIT construct"
+}
