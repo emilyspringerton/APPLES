@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-28T00:10:16Z",
+  "body": "Iterating on ECOWAR mechanics after Phase 2's in-match input path shipped: added a real shared cooldown (ECOWAR_CARD_COOLDOWN_MS=4000ms across all 16 cards, not a per-card table/mana economy -- that's real deck-building territory the founder hasn't scoped yet) gating arena_ecowar_play_card the same way every Q/W/R already gates itself; decremented in tick_hero_kit (same shared-tick placement as Duck's Smoke Bomb, avoiding the S202-23 bug class). 6 new tests. Then added a real HUD tile (networked ecowar_card_cooldown_ms, same blink_cooldown_ms wire pattern) showing the currently-armed card's name and real cooldown countdown -- the card system now has the same real affordances (cooldown gating + visual feedback) every other ability in this engine already has, not just a bare, silent trigger. 15 total card tests, gcc+bazel build/test both clean, real live matchmaker+bot verification re-run with the updated wire protocol. ECOWAR commits d470555/e044f80.\n\n⚓ ☃",
+  "id": 16491,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "ECOWAR",
+  "title": "Card cooldown + HUD tile: real, complete v0 card mechanic (cont. Phase 2)"
+}
