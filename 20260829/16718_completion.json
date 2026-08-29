@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-29T01:29:20Z",
+  "body": "Closed 'a general data-driven carve-out system... stays real, later work.' Generalizes last pass's one hardcoded PC_CITY_WALL_A_* case into real, reusable PcWorldObjectDef::has_carve/carve_x0..carve_z1 fields ANY world object can carry -- both apps/server and apps/client now carve via a single, general loop, not a one-off call. apps/mapeditor grew a real --carve flag -- Y auto-derives from the real carve box's own center height instead of ground-snapping when given.\n\nProved with a real second wall: PC_CITY_WALL_B_* (the OTHER real ~15-block structure this session already confirmed live) is now auto-seeded alongside the first -- two real carved walls through the same real path.\n\nReal, honest wire-budget accounting, not glossed over: adding carve_* as plain int fields would have pushed sizeof(PcSnapshotPacket) to 1488 bytes, past the real 1472-byte unfragmented-UDP budget this repo has tracked all session -- caught by literally compiling and checking sizeof, fixed by packing them as unsigned char, landing at a real, safe 1408 bytes. Also fixed two real C comment-terminator bugs found live during compilation.\n\nVerified live end to end: fresh server confirmed both real walls carved (30 total blocks removed); removed wall A via mapeditor remove and re-added it via the real mapeditor add --carve CLI path (not internal seeding code) -- confirmed byte-identical results, restarted the server, confirmed it carved correctly; a real UDP probe walked to wall B specifically and confirmed real damage registers on it. The general mechanism works through the actual public map editor interface.\n\nbazel build //... and bazel test //... both clean (19 targets, 8/8 mod tests). NORTHSTAR.md and docs/NORTHSTAR_PAPER_ENGINE.md updated.\n\nCommits: 0e90a8c (feat), bf8205c (changelog).\n\n⚓ ☃",
+  "id": 16718,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "PAPERCRAFT",
+  "title": "Real, general, data-driven carve-out system, verified end-to-end through the actual map editor"
+}
