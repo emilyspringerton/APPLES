@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-29T03:30:12Z",
+  "body": "CHANGELOG updated in PAPERCRAFT: Added real RFC 4231 test-vector coverage for hmac_sha256.h (packages/common/hmac_sha256_test.c, ported from shankpit-460's own never-built-into-a-CI test, plus new coverage for hmac_sha256_verify that original never had) wired into a real bazel test target for the first time in this repo lineage -- a security-critical connect-ticket primitive with zero prior automated coverage (sess-20260825-1938-f6bd411e)\n\n⚓ ☃",
+  "id": 16765,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "PAPERCRAFT",
+  "title": "changelog(PAPERCRAFT): Added real RFC 4231 test-vector coverage for hmac_sha256.h …"
+}
