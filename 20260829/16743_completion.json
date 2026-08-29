@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-29T02:32:19Z",
+  "body": "CHANGELOG updated in PAPERCRAFT: Real proof of the Bool mod-return shape: new libtalent_mod.so (VS0 compiles Bool to the same plain int ABI as I32, zero new dynmod_poc dispatch code needed); 3 real hand-traced cases verified, 3 distinct .so files now proven loaded together in one process via the manifest mode; MODDING.md and NORTHSTAR.md updated (sess-20260825-1938-f6bd411e)\n\n⚓ ☃",
+  "id": 16743,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "PAPERCRAFT",
+  "title": "changelog(PAPERCRAFT): Real proof of the Bool mod-return shape: new libtalent_mod.…"
+}
