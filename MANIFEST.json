@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-29T01:30:00Z",
+  "generated_at": "2026-08-29T01:31:05Z",
   "repo": "APPLES",
-  "count": 6184,
+  "count": 6185,
   "apples": [
     {
       "id": 10525,
@@ -49474,6 +49474,14 @@
       "source_repo": "CLI",
       "date": "20260829",
       "archived_at": "2026-08-29T01:30:00Z"
+    },
+    {
+      "id": 16720,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: \"continue\" (repeated, same signal as every prior closeout this session --…",
+      "source_repo": "CLI",
+      "date": "20260829",
+      "archived_at": "2026-08-29T01:31:05Z"
     }
   ]
 }
