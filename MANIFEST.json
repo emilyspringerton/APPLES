@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-29T18:41:05Z",
+  "generated_at": "2026-08-29T18:42:45Z",
   "repo": "APPLES",
-  "count": 6311,
+  "count": 6312,
   "apples": [
     {
       "id": 10525,
@@ -50490,6 +50490,14 @@
       "source_repo": "CLI",
       "date": "20260829",
       "archived_at": "2026-08-29T18:41:05Z"
+    },
+    {
+      "id": 16848,
+      "type": "completion",
+      "title": "changelog(PAPERCRAFT): README.md refreshed: fixed a real stale test count (was 8, …",
+      "source_repo": "PAPERCRAFT",
+      "date": "20260829",
+      "archived_at": "2026-08-29T18:42:45Z"
     }
   ]
 }
