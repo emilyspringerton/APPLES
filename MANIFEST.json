@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-29T02:01:13Z",
+  "generated_at": "2026-08-29T02:05:17Z",
   "repo": "APPLES",
-  "count": 6195,
+  "count": 6196,
   "apples": [
     {
       "id": 10525,
@@ -49562,6 +49562,14 @@
       "source_repo": "CLI",
       "date": "20260829",
       "archived_at": "2026-08-29T02:01:13Z"
+    },
+    {
+      "id": 16731,
+      "type": "completion",
+      "title": "changelog(PAPERCRAFT): Real per-face subdiv scaling for non-uniform Paper Engine b…",
+      "source_repo": "PAPERCRAFT",
+      "date": "20260829",
+      "archived_at": "2026-08-29T02:05:17Z"
     }
   ]
 }
