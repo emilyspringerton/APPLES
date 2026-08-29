@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-29T02:32:27Z",
+  "body": "Closes the last named shape gap in apps/dynmod_poc: no non-I32 (Bool) argument or return shape. talent_mod.prn declares on-papercraft-can-allocate-talent with a real Bool return type -- the first Bool-shaped mod in this repo. Confirmed by reading the generated talent_mod.c directly: VS0 compiles Bool to the exact same plain C int ABI as I32, so apps/dynmod_poc needed zero new dispatch code -- the existing 2-arg I32Fn2 shape already calls it correctly. New packages/simulation/libtalent_mod.so cc_binary target (linkshared=True), same alwayslink=True fix already proven on xp_award/level, applied to the talent cc_library. Three new real hand-traced Bool-shape entries folded into apps/dynmod_poc/testdata/manifest.txt. Verified live, fully clean (bazel clean, then a plain build/test, no special flags): 23 targets, 8/8 mod tests pass. Real single-call Bool proofs against the actual Bazel-built binary: on_papercraft_can_allocate_talent(0,1)=1, (5,1)=0, (3,0)=0, all hand-traced and matching. Real manifest run: 3 distinct .so files loaded together in one process, 7 calls checked, 7 passed, 0 failed. All three real production binaries (papercraft_server, papercraft_client, mapeditor) confirmed still build correctly after talent's new alwayslink=True. MODDING.md and NORTHSTAR.md updated. Remaining real gaps: a manifest format apps/server itself understands, a designed error-handling policy for a bad/missing mod at real server startup, and an actual apps/server call site using a dynamically-loaded function instead of a statically-linked one. Commits: 934f0d3 (PAPERCRAFT), 361df9b (PAPERCRAFT changelog).\n\n⚓ ☃",
+  "id": 16744,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "PAPERCRAFT",
+  "title": "S206-28: real proof of the Bool mod-return shape via libtalent_mod.so"
+}
