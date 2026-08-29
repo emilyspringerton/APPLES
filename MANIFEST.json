@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-29T19:49:47Z",
+  "generated_at": "2026-08-29T19:49:54Z",
   "repo": "APPLES",
-  "count": 6337,
+  "count": 6338,
   "apples": [
     {
       "id": 10525,
@@ -50698,6 +50698,14 @@
       "source_repo": "PAPERCRAFT",
       "date": "20260829",
       "archived_at": "2026-08-29T19:49:47Z"
+    },
+    {
+      "id": 16874,
+      "type": "completion",
+      "title": "Real cross-platform CI: client + map editor building for Linux/Windows/macOS",
+      "source_repo": "PAPERCRAFT",
+      "date": "20260829",
+      "archived_at": "2026-08-29T19:49:54Z"
     }
   ]
 }
