@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-29T18:42:53Z",
+  "generated_at": "2026-08-29T18:44:29Z",
   "repo": "APPLES",
-  "count": 6313,
+  "count": 6314,
   "apples": [
     {
       "id": 10525,
@@ -50506,6 +50506,14 @@
       "source_repo": "PAPERCRAFT",
       "date": "20260829",
       "archived_at": "2026-08-29T18:42:53Z"
+    },
+    {
+      "id": 16850,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: \"continue\" -- keep building PAPERCRAFT. Section 206 at 45 shipped items. …",
+      "source_repo": "CLI",
+      "date": "20260829",
+      "archived_at": "2026-08-29T18:44:29Z"
     }
   ]
 }
