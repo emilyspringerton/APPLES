@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-29T18:13:11Z",
+  "generated_at": "2026-08-29T18:13:19Z",
   "repo": "APPLES",
-  "count": 6301,
+  "count": 6302,
   "apples": [
     {
       "id": 10525,
@@ -50410,6 +50410,14 @@
       "source_repo": "PAPERCRAFT",
       "date": "20260829",
       "archived_at": "2026-08-29T18:13:11Z"
+    },
+    {
+      "id": 16838,
+      "type": "completion",
+      "title": "S206-42: mapeditor rejects zero/negative half-extents on add and edit",
+      "source_repo": "PAPERCRAFT",
+      "date": "20260829",
+      "archived_at": "2026-08-29T18:13:19Z"
     }
   ]
 }
