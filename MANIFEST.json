@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-29T21:14:42Z",
+  "generated_at": "2026-08-29T21:21:06Z",
   "repo": "APPLES",
-  "count": 6365,
+  "count": 6366,
   "apples": [
     {
       "id": 10525,
@@ -50922,6 +50922,14 @@
       "source_repo": "CLI",
       "date": "20260829",
       "archived_at": "2026-08-29T21:14:42Z"
+    },
+    {
+      "id": 16902,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: \"ok it works kinda this is huge we got past the login screen we are in th…",
+      "source_repo": "CLI",
+      "date": "20260829",
+      "archived_at": "2026-08-29T21:21:06Z"
     }
   ]
 }
