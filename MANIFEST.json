@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-29T02:37:18Z",
+  "generated_at": "2026-08-29T02:37:27Z",
   "repo": "APPLES",
-  "count": 6210,
+  "count": 6211,
   "apples": [
     {
       "id": 10525,
@@ -49682,6 +49682,14 @@
       "source_repo": "PAPERCRAFT",
       "date": "20260829",
       "archived_at": "2026-08-29T02:37:18Z"
+    },
+    {
+      "id": 16746,
+      "type": "completion",
+      "title": "S206-29: wire the dlopen mod-loading mechanism into apps/server",
+      "source_repo": "PAPERCRAFT",
+      "date": "20260829",
+      "archived_at": "2026-08-29T02:37:27Z"
     }
   ]
 }
