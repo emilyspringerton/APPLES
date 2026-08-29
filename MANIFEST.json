@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-29T20:41:42Z",
+  "generated_at": "2026-08-29T20:44:34Z",
   "repo": "APPLES",
-  "count": 6356,
+  "count": 6357,
   "apples": [
     {
       "id": 10525,
@@ -50850,6 +50850,14 @@
       "source_repo": "CLI",
       "date": "20260829",
       "archived_at": "2026-08-29T20:41:42Z"
+    },
+    {
+      "id": 16893,
+      "type": "signal_observation",
+      "title": "[INFO] Found the real root cause of the continued connection failure: the deployed IDUNA binary (~/…",
+      "source_repo": "CLI",
+      "date": "20260829",
+      "archived_at": "2026-08-29T20:44:34Z"
     }
   ]
 }
