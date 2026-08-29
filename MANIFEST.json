@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-29T18:10:10Z",
+  "generated_at": "2026-08-29T18:13:11Z",
   "repo": "APPLES",
-  "count": 6300,
+  "count": 6301,
   "apples": [
     {
       "id": 10525,
@@ -50402,6 +50402,14 @@
       "source_repo": "CLI",
       "date": "20260829",
       "archived_at": "2026-08-29T18:10:10Z"
+    },
+    {
+      "id": 16837,
+      "type": "completion",
+      "title": "changelog(PAPERCRAFT): mapeditor add/edit now reject a zero or negative half-exten…",
+      "source_repo": "PAPERCRAFT",
+      "date": "20260829",
+      "archived_at": "2026-08-29T18:13:11Z"
     }
   ]
 }

@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-29T18:13:11Z",
+  "body": "CHANGELOG updated in PAPERCRAFT: mapeditor add/edit now reject a zero or negative half-extent (previously silently accepted, producing a degenerate invisible object) with a clear, specific error naming the rejected flag and value; verified live across 4 real scenarios (sess-20260825-1938-f6bd411e)\n\n⚓ ☃",
+  "id": 16837,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "PAPERCRAFT",
+  "title": "changelog(PAPERCRAFT): mapeditor add/edit now reject a zero or negative half-exten…"
+}
