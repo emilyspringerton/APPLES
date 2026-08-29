@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-29T00:20:02Z",
+  "body": "CHANGELOG updated in PAPERCRAFT: Real interact damage falloff by distance: new PARENA mod (on-papercraft-interact-damage-falloff), composed with the existing material-resistance decision. Verified live -- the exact same 96-fragment PAPER object one-shot scenario (73/96 GONE before) now produces a real gradient (52 intact, 23 cracked, 11 torn, 10 gone), server log matching exactly. bazel build/test //... clean (19 targets, 8/8 mod tests). Commit ab65d43. (sess-20260825-1938-f6bd411e)\n\n⚓ ☃",
+  "id": 16706,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "PAPERCRAFT",
+  "title": "changelog(PAPERCRAFT): Real interact damage falloff by distance: new PARENA mod (o…"
+}
