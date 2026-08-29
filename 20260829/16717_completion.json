@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-29T01:29:10Z",
+  "body": "CHANGELOG updated in PAPERCRAFT: Real, general, data-driven carve-out system: PcWorldObjectDef grew has_carve/carve_x0..carve_z1 fields any object can use, apps/mapeditor grew --carve. Proved with a real second carved wall (30 real blocks removed total across both). Caught and fixed a real wire-budget regression (1488 bytes, packed to unsigned char, landed at 1408) and two */ comment-terminator bugs live. Verified end-to-end through the actual mapeditor CLI, not just internal seeding. bazel build/test //... clean (19 targets, 8/8 mod tests). Commit 0e90a8c. (sess-20260825-1938-f6bd411e)\n\n⚓ ☃",
+  "id": 16717,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "PAPERCRAFT",
+  "title": "changelog(PAPERCRAFT): Real, general, data-driven carve-out system: PcWorldObjectD…"
+}
