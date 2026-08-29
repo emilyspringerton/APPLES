@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-29T03:18:27Z",
+  "body": "CHANGELOG updated in PAPERCRAFT: Fixed three stale top-of-file comments (apps/server/src/main.c, packages/common/papercraft_world.h, packages/common/papercraft_persist.h) that no longer matched shipped code (jump/destruction/talent claimed missing, multi-chunk grid and world-damage persistence claimed not built); zero behavior change, verified via a full clean rebuild (sess-20260825-1938-f6bd411e)\n\n⚓ ☃",
+  "id": 16760,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "PAPERCRAFT",
+  "title": "changelog(PAPERCRAFT): Fixed three stale top-of-file comments (apps/server/src/mai…"
+}
