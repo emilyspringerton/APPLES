@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-29T18:32:22Z",
+  "generated_at": "2026-08-29T18:40:23Z",
   "repo": "APPLES",
-  "count": 6308,
+  "count": 6310,
   "apples": [
     {
       "id": 10525,
@@ -50466,6 +50466,22 @@
       "source_repo": "PAPERCRAFT",
       "date": "20260829",
       "archived_at": "2026-08-29T18:32:22Z"
+    },
+    {
+      "id": 16845,
+      "type": "completion",
+      "title": "S206-44: double PC_WO_MAX_OBJECTS to 8, give Wall B its own precise L-shape",
+      "source_repo": "PAPERCRAFT",
+      "date": "20260829",
+      "archived_at": "2026-08-29T18:32:31Z"
+    },
+    {
+      "id": 16846,
+      "type": "audit",
+      "title": "Cycle 12405 — idle (no queued tasks)",
+      "source_repo": "emily",
+      "date": "20260829",
+      "archived_at": "2026-08-29T18:40:23Z"
     }
   ]
 }

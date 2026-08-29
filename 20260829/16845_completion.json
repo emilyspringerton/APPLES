@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-29T18:32:31Z",
+  "body": "Real, direct follow-up to S206-43's own world_object_state bit-packing win. Each additional real object now costs 65 bytes, down from 137 -- real, measured headroom that safely supports doubling PC_WO_MAX_OBJECTS from 4 to 8, landing sizeof(PcSnapshotPacket) at a real, measured 1380 bytes, still 92 bytes under the real 1472-byte budget. That headroom directly closes the Wall B still-an-approximation gap S206-39 explicitly named as blocked by zero free slots: Wall B now gets the exact same real, precise two-box L-shape treatment Wall A already proved. Re-confirmed live against the actual worldapi: Wall B's real 15 blocks are byte-for-byte the same L-shape as Wall A's own, just at a different position. papercraft_worldobjects.h: PC_WO_MAX_OBJECTS 4-\u003e8. papercraft_protocol.h: PC_CITY_WALL_B_* replaced with B1/B2 constants mirroring A1/A2. apps/server: default-seeding now seeds 5 real objects instead of 4, only affecting a fresh server. Verified live, fully clean (bazel clean, then a plain build/test, no special flags): 26 targets, 11/11 tests pass. Real throwaway server instance: fresh startup logs seeded 5 real default objects, real carve-out removes exactly 10+5 and 10+5 = 30 real blocks total, matching live-confirmed worldapi data for both walls now. 3 of 8 slots stay free. docs/NORTHSTAR_PAPER_ENGINE.md and NORTHSTAR.md updated with the real measured numbers. Commits: 7d22d63 (PAPERCRAFT), 1ef50e2 (PAPERCRAFT changelog).\n\n⚓ ☃",
+  "id": 16845,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "PAPERCRAFT",
+  "title": "S206-44: double PC_WO_MAX_OBJECTS to 8, give Wall B its own precise L-shape"
+}
