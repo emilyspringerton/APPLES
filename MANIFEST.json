@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-29T03:54:12Z",
+  "generated_at": "2026-08-29T04:01:29Z",
   "repo": "APPLES",
-  "count": 6238,
+  "count": 6239,
   "apples": [
     {
       "id": 10525,
@@ -49906,6 +49906,14 @@
       "source_repo": "CLI",
       "date": "20260829",
       "archived_at": "2026-08-29T03:54:12Z"
+    },
+    {
+      "id": 16774,
+      "type": "completion",
+      "title": "changelog(PAPERCRAFT): Real abandoned-connection handling: apps/server frees a slo…",
+      "source_repo": "PAPERCRAFT",
+      "date": "20260829",
+      "archived_at": "2026-08-29T04:01:29Z"
     }
   ]
 }
