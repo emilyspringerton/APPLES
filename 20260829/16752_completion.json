@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-29T02:57:19Z",
+  "body": "Real, small, bounded fix for MODDING.md's own honestly-named Two repos, not one gap: a modder needs both PAPERCRAFT and PARENA checked out and PARENA's own compiler built locally. Deliberately not a vendored/prebuilt binary -- a committed, platform-specific compiler binary is real, ongoing maintenance debt this monorepo's own generated-code-committed precedent (source, not binaries) doesn't extend to. New scripts/build-parena.sh: finds a sibling ../PARENA checkout (or PARENA_DIR if cloned elsewhere), runs the real make build, and prints the resolved ./parena binary path on stdout -- one real command instead of a modder needing to know to cd into a second repo by hand. Fails with a real, actionable error instead of a bare shell error if PARENA isn't checked out where expected, or exists but isn't a real PARENA checkout. Verified live, all three real paths: a real sibling checkout builds and prints a working ./parena binary (confirmed executable, usage output runs correctly); a missing PARENA_DIR fails with a real, actionable clone instruction; a PARENA_DIR that exists but has no Makefile fails with its own distinct real error rather than a confusing make failure deeper in. MODDING.md Step 1 and the Two repos, not one gap entry updated. Commits: 66c6ddc (PAPERCRAFT), 3c3e44b (PAPERCRAFT changelog).\n\n⚓ ☃",
+  "id": 16752,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "PAPERCRAFT",
+  "title": "S206-31: add scripts/build-parena.sh, closing the friction in Two repos, not one"
+}
