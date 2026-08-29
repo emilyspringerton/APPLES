@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-29T23:03:27Z",
+  "body": "Founder real-time: \"ok do an updated state of the ecosystem blog podcast\" -\u003e \"be sure to note\nthat wotan still shows duck in last\". Published as a Mid-Piano garage podcast transcript (Tyler\nhosting, Duck/Unicorn/Ghost/Frog/Tree/Pizza cast), matching the established voice from\n\"The Custody of a Podcast: Prompt-o-verse Stats\" -- not the Steve-Jobs-keynote format the prior\n\"State of the Ecosystem\" post used (S170-242), a deliberate format change per the founder's own\nexplicit ask this time.\n\nReal content, not invented: PAPERCRAFT's entire first-live-player saga from today's own session\n(the WSAStartup bug, the connection-handling redesign, the REDGARDEN firewall side effect and\nfix, v0.1.0 through v0.8.0), ECOWAR's fork from REDGARDEN, JEWEL (the real PARENA Jupyter kernel),\nSAND (PARENA's own planned editor, its real three-name history), GOLDENBAND's animation pipeline,\nWEAKNIGHT_BEDROCK_RACERS, and the stub repos (TTT/EXODUS/CarePyre) named honestly as \"not built\nyet.\"\n\nThe founder's specific requested fact was verified live, not assumed: queried the real\nGET /api/v1/redgarden/hero-leaderboard, confirmed ARENA_HERO_DUCK = 1 (arena_game.h), and\nconfirmed hero_id 1 is still the real last-place entry of 30 -- 135 wins, 198 losses, 333 matches\nplayed, 40.54% win rate, dead last, same standing as the prior Duck-in-last post found.\n\nPublished via IDUNA's real POST /api/v1/blog/posts (EMILY-PRIME's own blog.write-scoped M2M\ntoken, minted fresh via /api/v1/auth/agent) -- confirmed live via a real public HTTPS GET (200)\nat https://okemily.com/blog/state-of-the-ecosystem-the-duck-still-hasnt-moved/.\n\nbacklog: S206-56\n\nsession: sess-20260825-1938-f6bd411e\n\n⚓ ☃",
+  "id": 16922,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "EMILY",
+  "title": "State of the Ecosystem podcast published: The Duck Still Hasn't Moved"
+}
