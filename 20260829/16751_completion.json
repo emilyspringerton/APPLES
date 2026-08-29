@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-29T02:57:12Z",
+  "body": "CHANGELOG updated in PAPERCRAFT: Added scripts/build-parena.sh: finds a sibling PARENA checkout (or PARENA_DIR), runs make build, prints the resolved ./parena binary path, with real actionable errors for a missing/malformed checkout; closes the friction in MODDING.md's own Two repos, not one gap without vendoring a binary (sess-20260825-1938-f6bd411e)\n\n⚓ ☃",
+  "id": 16751,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "PAPERCRAFT",
+  "title": "changelog(PAPERCRAFT): Added scripts/build-parena.sh: finds a sibling PARENA check…"
+}
