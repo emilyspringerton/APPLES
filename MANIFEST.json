@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-29T21:10:30Z",
+  "generated_at": "2026-08-29T21:14:42Z",
   "repo": "APPLES",
-  "count": 6364,
+  "count": 6365,
   "apples": [
     {
       "id": 10525,
@@ -50914,6 +50914,14 @@
       "source_repo": "emily",
       "date": "20260829",
       "archived_at": "2026-08-29T21:10:30Z"
+    },
+    {
+      "id": 16901,
+      "type": "signal_observation",
+      "title": "[INFO] Founder's new [http] log pinpoints the REAL root cause: WSA error 10093 = WSANOTINITIALISED.…",
+      "source_repo": "CLI",
+      "date": "20260829",
+      "archived_at": "2026-08-29T21:14:42Z"
     }
   ]
 }
