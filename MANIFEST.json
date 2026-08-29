@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-29T01:31:05Z",
+  "generated_at": "2026-08-29T01:32:57Z",
   "repo": "APPLES",
-  "count": 6185,
+  "count": 6186,
   "apples": [
     {
       "id": 10525,
@@ -49482,6 +49482,14 @@
       "source_repo": "CLI",
       "date": "20260829",
       "archived_at": "2026-08-29T01:31:05Z"
+    },
+    {
+      "id": 16721,
+      "type": "completion",
+      "title": "changelog(PAPERCRAFT): Real AABB overlap detection in apps/mapeditor's add command…",
+      "source_repo": "PAPERCRAFT",
+      "date": "20260829",
+      "archived_at": "2026-08-29T01:32:57Z"
     }
   ]
 }

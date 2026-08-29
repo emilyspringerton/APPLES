@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-29T01:32:57Z",
+  "body": "CHANGELOG updated in PAPERCRAFT: Real AABB overlap detection in apps/mapeditor's add command -- warns (doesn't block) if a new object's bounding box overlaps an existing one's. Verified live: overlapping placement correctly warned naming the colliding object; non-overlapping and near-miss-boundary placements correctly produced no false positive. bazel build/test //... clean. Commit ef38512. (sess-20260825-1938-f6bd411e)\n\n⚓ ☃",
+  "id": 16721,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "PAPERCRAFT",
+  "title": "changelog(PAPERCRAFT): Real AABB overlap detection in apps/mapeditor's add command…"
+}
