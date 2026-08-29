@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-29T03:05:06Z",
+  "body": "Closes the safe half of MODDING.md's own No live-server reload gap. World-object edits (apps/mapeditor) still need a real restart -- every real object is referenced by array index everywhere, and a map edit that changes count/ordering would silently desync that; stays real, separate, harder work. The dynamically-loaded mods manifest has no such problem -- keyed by function name, not slot index -- so it's now real, safely live-reloadable. New SIGHUP handler (g_mods_reload_requested, same signal-safe pattern as the existing shutdown handler) triggers reload_mods_manifest(): dlcloses every currently-loaded .so (not just re-dlsym -- dlopen on an already-open path returns the same mapping, so a modder who rebuilt a .so in place would otherwise silently keep running old code), resets the registry, and calls load_mods_manifest fresh. Safe because this server is single-threaded, no reentrancy -- reload only runs between ticks. Verified live, fully clean (bazel clean, then a plain build/test, no special flags): 23 targets, 8/8 mod tests pass. Real throwaway server instance testing (manifest edited on disk between real SIGHUPs, server never restarted): starts 1 mod/1 so, grows live to 4 mods/3 so on SIGHUP with all four re-registered and server serving throughout; shrinks back to 1 mod/1 so on a second SIGHUP with stale entries correctly dropped; a server started with no --mods-manifest logs a clean real no-op on SIGHUP instead of crashing. All test processes/files cleaned up. MODDING.md and NORTHSTAR.md updated. Commits: 77c6389 (PAPERCRAFT), 2a715d3 (PAPERCRAFT changelog).\n\n⚓ ☃",
+  "id": 16754,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "PAPERCRAFT",
+  "title": "S206-32: real SIGHUP live-reload for the dynamically-loaded mods manifest"
+}
