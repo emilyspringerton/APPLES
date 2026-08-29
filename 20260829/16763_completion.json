@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-29T03:22:01Z",
+  "body": "Real, bounded, zero-behavior-change doc fix. The Real bones already in the construct talent bullet had three stale claims, corrected against the actual current code, not assumed: (1) how this ties into the real host game loop this repo still doesn't have -- stale, apps/server has been real and live since 2026-08-28, PC_PACKET_ALLOCATE_TALENT already applies the real gate's decision. (2) still not built: the actual five stat effects -- partially stale, the real MOVE stat effect is live in the per-tick movement-speed calculation; corrected to name exactly what's shipped (MOVE) vs still genuinely blocked (vitality/handling/shield/storm, whose own real systems don't exist yet). (3) Also still not built: a real UI -- wrong, not just stale. Caught this one before committing by actually reading apps/client/src/main.c rather than trusting the doc's own prior claim: draw_progression_hud renders a real LVL/XP/PTS readout every frame via packages/common/hud_text.h's own stroke font, plus a real per-ability-rank line. Confirmed it's actually called in the real render loop, not just defined and unused. Verified via bazel build/test (docs-only change, no source touched, all 8 mod tests still cached-pass). Commits: efbe20f (PAPERCRAFT), 3925674 (PAPERCRAFT changelog).\n\n⚓ ☃",
+  "id": 16763,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "PAPERCRAFT",
+  "title": "S206-36: fix stale talent/UI claims in NORTHSTAR.md, verified against live code"
+}

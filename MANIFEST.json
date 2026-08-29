@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-29T03:21:53Z",
+  "generated_at": "2026-08-29T03:22:01Z",
   "repo": "APPLES",
-  "count": 6227,
+  "count": 6228,
   "apples": [
     {
       "id": 10525,
@@ -49818,6 +49818,14 @@
       "source_repo": "PAPERCRAFT",
       "date": "20260829",
       "archived_at": "2026-08-29T03:21:53Z"
+    },
+    {
+      "id": 16763,
+      "type": "completion",
+      "title": "S206-36: fix stale talent/UI claims in NORTHSTAR.md, verified against live code",
+      "source_repo": "PAPERCRAFT",
+      "date": "20260829",
+      "archived_at": "2026-08-29T03:22:01Z"
     }
   ]
 }
