@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-29T21:38:06Z",
+  "generated_at": "2026-08-29T21:39:11Z",
   "repo": "APPLES",
-  "count": 6370,
+  "count": 6371,
   "apples": [
     {
       "id": 10525,
@@ -50962,6 +50962,14 @@
       "source_repo": "CLI",
       "date": "20260829",
       "archived_at": "2026-08-29T21:38:06Z"
+    },
+    {
+      "id": 16907,
+      "type": "signal_observation",
+      "title": "[INFO] Checked several real candidate causes for the REDGARDEN matchmaking report: REDGARDEN_TICKET…",
+      "source_repo": "CLI",
+      "date": "20260829",
+      "archived_at": "2026-08-29T21:39:11Z"
     }
   ]
 }
