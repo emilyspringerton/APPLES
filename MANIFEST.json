@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-29T18:28:14Z",
+  "generated_at": "2026-08-29T18:32:22Z",
   "repo": "APPLES",
-  "count": 6307,
+  "count": 6308,
   "apples": [
     {
       "id": 10525,
@@ -50458,6 +50458,14 @@
       "source_repo": "CLI",
       "date": "20260829",
       "archived_at": "2026-08-29T18:28:14Z"
+    },
+    {
+      "id": 16844,
+      "type": "completion",
+      "title": "changelog(PAPERCRAFT): PC_WO_MAX_OBJECTS doubled from 4 to 8 (direct consequence o…",
+      "source_repo": "PAPERCRAFT",
+      "date": "20260829",
+      "archived_at": "2026-08-29T18:32:22Z"
     }
   ]
 }
