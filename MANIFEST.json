@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-29T03:37:36Z",
+  "generated_at": "2026-08-29T03:37:43Z",
   "repo": "APPLES",
-  "count": 6232,
+  "count": 6233,
   "apples": [
     {
       "id": 10525,
@@ -49858,6 +49858,14 @@
       "source_repo": "PAPERCRAFT",
       "date": "20260829",
       "archived_at": "2026-08-29T03:37:36Z"
+    },
+    {
+      "id": 16768,
+      "type": "completion",
+      "title": "S206-38: real round-trip test coverage for both real save-file formats",
+      "source_repo": "PAPERCRAFT",
+      "date": "20260829",
+      "archived_at": "2026-08-29T03:37:43Z"
     }
   ]
 }

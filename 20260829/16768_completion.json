@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-29T03:37:43Z",
+  "body": "Continues S206-37's own thread of closing real, previously-invisible test-coverage gaps for pure, deterministic host C. New packages/common/papercraft_persist_test.c: real round-trip coverage for PcSaveRecord -- every field byte-identical after save+load, a real overwrite replaces rather than appends, and two real failure modes (no save file for a new player_id, wrong magic) both correctly fail closed. New packages/common/papercraft_worldobjects_test.c: same coverage for PcWorldObjectFile (apps/mapeditor's own real map data including carve bounds) and PcWorldDamageFile (apps/server's own real per-fragment damage persistence, including the specific fragment slot hp[0][24] this session's own live UDP probes relied on). New BUILD.bazel cc_test targets depending on :common_headers. Verified twice: raw gcc (18 real PASS assertions, zero failures) and a fully clean Bazel pass (bazel clean, then a plain build/test, no special flags): 26 targets, 11/11 tests pass, confirmed under Bazel's own hermetic sandbox too. papercraft_persist.h and papercraft_worldobjects.h updated to point at the new coverage. Commits: 86b5fd5 (PAPERCRAFT), 1ff4cc2 (PAPERCRAFT changelog).\n\n⚓ ☃",
+  "id": 16768,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "PAPERCRAFT",
+  "title": "S206-38: real round-trip test coverage for both real save-file formats"
+}
