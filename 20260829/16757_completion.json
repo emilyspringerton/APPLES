@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-29T03:10:38Z",
+  "body": "Real, bounded, mapeditor-only fix, deliberately a different area from the dlopen thread. Closes a real, honestly-missing capability: previously the only way to change an already-placed object's position/material/seed/extents was remove+add, which reassigns it a NEW index at the end of the list, silently breaking any real per-object damage state already saved for the OLD index in the damage file apps/server writes (PcWorldDamageFile, indexed by object slot). New mapeditor edit \u003cindex\u003e [--x/--y/--z \u003cf\u003e] [--material ...] [--seed \u003cn\u003e] [--half-extent/-x/-y/-z \u003cf\u003e] [--file \u003cpath\u003e]: changes only the real fields a flag was actually given for, in place, at the same index -- everything else including carve bounds stays byte-identical. Deliberately simple, not a smart re-placement: no ground re-snap, no carve-box re-validation, unlike add. A bare edit with no flags prints current fields and changes nothing. Same real AABB overlap warning add already does. Verified live against the actual Bazel-built binary, fully clean (bazel clean, then a plain build/test, no special flags): 23 targets, 8/8 mod tests pass. Real scenarios all confirmed: bare no-op edit, real field edit preserving index, overlap warning (saves anyway), out-of-range index (fails), nonexistent file (fails), and a carve object edited with carve bounds confirmed byte-identical afterward. README.md and NORTHSTAR.md updated. Commits: 536bce4 (PAPERCRAFT), 1a8f1b2 (PAPERCRAFT changelog).\n\n⚓ ☃",
+  "id": 16757,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "PAPERCRAFT",
+  "title": "S206-33: add a real mapeditor edit command for in-place object field edits"
+}
