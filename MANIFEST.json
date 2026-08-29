@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-29T19:21:06Z",
+  "generated_at": "2026-08-29T19:24:57Z",
   "repo": "APPLES",
-  "count": 6328,
+  "count": 6329,
   "apples": [
     {
       "id": 10525,
@@ -50626,6 +50626,14 @@
       "source_repo": "CLI",
       "date": "20260829",
       "archived_at": "2026-08-29T19:21:06Z"
+    },
+    {
+      "id": 16865,
+      "type": "completion",
+      "title": "changelog(PAPERCRAFT): Real Phase 1c shipped server-side: falling fragments now sp…",
+      "source_repo": "PAPERCRAFT",
+      "date": "20260829",
+      "archived_at": "2026-08-29T19:24:57Z"
     }
   ]
 }

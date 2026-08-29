@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-29T19:24:56Z",
+  "body": "CHANGELOG updated in PAPERCRAFT: Real Phase 1c shipped server-side: falling fragments now spin at a real, deterministic constant rate (rotation_deg on PcFallingFragment, 90-270 deg/s derived from fragment_idx), verified live via a real UDP probe matching the hand-computed expected rate (167.1429 vs observed 167.1428 deg/s, ratio 1.000); wire cost measured at 1432 bytes, still 40 under budget; client rendering deliberately deferred (no live Xvfb verification available), matching Phase 1a/1b's own honest scope pattern (sess-20260825-1938-f6bd411e)\n\n⚓ ☃",
+  "id": 16865,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "PAPERCRAFT",
+  "title": "changelog(PAPERCRAFT): Real Phase 1c shipped server-side: falling fragments now sp…"
+}
