@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-29T20:04:30Z",
+  "generated_at": "2026-08-29T20:05:24Z",
   "repo": "APPLES",
-  "count": 6343,
+  "count": 6344,
   "apples": [
     {
       "id": 10525,
@@ -50746,6 +50746,14 @@
       "source_repo": "CLI",
       "date": "20260829",
       "archived_at": "2026-08-29T20:04:30Z"
+    },
+    {
+      "id": 16880,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: \"on the client build\" -- confirming failure is specifically at the 'Build…",
+      "source_repo": "CLI",
+      "date": "20260829",
+      "archived_at": "2026-08-29T20:05:24Z"
     }
   ]
 }
