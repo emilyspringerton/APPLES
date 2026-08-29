@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-29T18:47:00Z",
+  "generated_at": "2026-08-29T18:49:05Z",
   "repo": "APPLES",
-  "count": 6315,
+  "count": 6317,
   "apples": [
     {
       "id": 10525,
@@ -50522,6 +50522,22 @@
       "source_repo": "PAPERCRAFT",
       "date": "20260829",
       "archived_at": "2026-08-29T18:47:00Z"
+    },
+    {
+      "id": 16852,
+      "type": "completion",
+      "title": "S206-46: real Phase 1 scoping -- fragment physics, a real Definition of Done",
+      "source_repo": "PAPERCRAFT",
+      "date": "20260829",
+      "archived_at": "2026-08-29T18:47:09Z"
+    },
+    {
+      "id": 16853,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: \"continue\" -- keep building PAPERCRAFT. Section 206 at 46 shipped items. …",
+      "source_repo": "CLI",
+      "date": "20260829",
+      "archived_at": "2026-08-29T18:49:05Z"
     }
   ]
 }

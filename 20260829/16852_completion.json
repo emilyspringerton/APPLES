@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-29T18:47:09Z",
+  "body": "Real, bounded, docs-only increment -- docs before software, applied to this doc itself: it has referenced a Phase 1 implicitly without ever formally scoping what it actually is. Closed here. 21 consecutive verified increments this session (S206-25 through S206-45) closed every honestly-named small-to-medium gap findable in this repo -- confirmed via a final comprehensive sweep (TODO/FIXME grep across the whole repo, PARENA's own papercraft stdlib mods, MODDING.md's full gap list, client login robustness) turning up nothing new. What remains is genuinely the large, deliberately-deferred work, which deserves a real scoping pass before the next implementation turn. Real, honest retrospective added: Phase 0's own stated bar was exceeded long ago by real shipped work, named explicitly rather than left implicit. Real Phase 1 target chosen deliberately: server-authoritative fragment physics, picked over the embedded PARENA editor / real weapon-combat / full-city conversion because it needs neither founder-level product direction nor a wire-streaming redesign before a real slice can be scoped -- just real engineering, the kind already proven for jump physics and the Paper Engine. Real, narrow Definition of Done for Phase 1a added, matching PARENA VS0's own DoD precedent: a real bounded set of falling fragments, real server-side Y-only integration reusing the existing real PC_GRAVITY and pw_world_ground_height_at, a real landed-detection stop condition, explicit non-goals named honestly (no rotation, no fragment-fragment/player collision, no client prediction), and a real wire-budget accounting requirement pointing at the headroom S206-43/44 created. Verified: bazel test //... re-run, 11/11 tests pass, unchanged. Commits: 55ffe70 (PAPERCRAFT), d196a0d (PAPERCRAFT changelog).\n\n⚓ ☃",
+  "id": 16852,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "PAPERCRAFT",
+  "title": "S206-46: real Phase 1 scoping -- fragment physics, a real Definition of Done"
+}
