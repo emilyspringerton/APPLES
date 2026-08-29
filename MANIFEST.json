@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-29T02:16:37Z",
+  "generated_at": "2026-08-29T02:16:54Z",
   "repo": "APPLES",
-  "count": 6200,
+  "count": 6201,
   "apples": [
     {
       "id": 10525,
@@ -49602,6 +49602,14 @@
       "source_repo": "PAPERCRAFT",
       "date": "20260829",
       "archived_at": "2026-08-29T02:16:37Z"
+    },
+    {
+      "id": 16736,
+      "type": "completion",
+      "title": "Real proof-of-concept for dlopen-based mod loading, verified fully clean",
+      "source_repo": "PAPERCRAFT",
+      "date": "20260829",
+      "archived_at": "2026-08-29T02:16:54Z"
     }
   ]
 }
