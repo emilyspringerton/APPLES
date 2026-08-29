@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-29T02:32:28Z",
+  "generated_at": "2026-08-29T02:37:18Z",
   "repo": "APPLES",
-  "count": 6209,
+  "count": 6210,
   "apples": [
     {
       "id": 10525,
@@ -49674,6 +49674,14 @@
       "source_repo": "PAPERCRAFT",
       "date": "20260829",
       "archived_at": "2026-08-29T02:32:28Z"
+    },
+    {
+      "id": 16745,
+      "type": "completion",
+      "title": "changelog(PAPERCRAFT): apps/server gains an optional --mods-manifest flag: real dl…",
+      "source_repo": "PAPERCRAFT",
+      "date": "20260829",
+      "archived_at": "2026-08-29T02:37:18Z"
     }
   ]
 }
