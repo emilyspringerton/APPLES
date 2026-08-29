@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-29T04:03:24Z",
+  "generated_at": "2026-08-29T04:07:56Z",
   "repo": "APPLES",
-  "count": 6240,
+  "count": 6241,
   "apples": [
     {
       "id": 10525,
@@ -49922,6 +49922,14 @@
       "source_repo": "CLI",
       "date": "20260829",
       "archived_at": "2026-08-29T04:03:24Z"
+    },
+    {
+      "id": 16777,
+      "type": "completion",
+      "title": "changelog(PAPERCRAFT): mapeditor remove now automatically re-syncs the damage file…",
+      "source_repo": "PAPERCRAFT",
+      "date": "20260829",
+      "archived_at": "2026-08-29T04:07:56Z"
     }
   ]
 }
