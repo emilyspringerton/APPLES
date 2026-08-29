@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-29T02:24:29Z",
+  "body": "apps/dynmod_poc generalized beyond a single trivial zero-arg call to all three real I32-returning function shapes this repo's own mods actually use. New liblevel_mod.so Bazel target (linkshared=True) plus alwayslink=True on the level cc_library, mirroring the already-proven libxp_award_mod.so pattern. Verified live, fully clean (bazel clean, then a plain bazel build/test, no special flags): 22 targets, 8/8 mod tests pass. All three real proof invocations run against the actual Bazel-built binaries and match hand-traced expected values: on_papercraft_xp_for_object_destroyed() = 60 (0-arg), xp_required_for_level(3) = 195 (1-arg), on_papercraft_level_for_xp(1,100) = 2 (2-arg, exercises real recursion inside the dynamically-loaded .so -- the function calls itself and calls xp_required_for_level, both resolving correctly at runtime with zero host rebuild). MODDING.md and NORTHSTAR.md updated to document this honestly, including the real remaining gaps: no manifest format, no multiple mods loaded together, no real error handling for a bad mod, no non-I32 (Bool) shape, no actual apps/server call site using a dynamically-loaded function yet. Commits: 7e3ff53 (PAPERCRAFT), f291d7f (PAPERCRAFT changelog).\n\n⚓ ☃",
+  "id": 16739,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "PAPERCRAFT",
+  "title": "S206-26: generalize dlopen mod-loading proof to 0/1/2-arg I32 shapes"
+}
