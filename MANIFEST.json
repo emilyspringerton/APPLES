@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-29T19:27:09Z",
+  "generated_at": "2026-08-29T19:34:28Z",
   "repo": "APPLES",
-  "count": 6331,
+  "count": 6332,
   "apples": [
     {
       "id": 10525,
@@ -50650,6 +50650,14 @@
       "source_repo": "CLI",
       "date": "20260829",
       "archived_at": "2026-08-29T19:27:09Z"
+    },
+    {
+      "id": 16868,
+      "type": "completion",
+      "title": "changelog(PAPERCRAFT): Phase 1c-client: apps/client now renders the real server-au…",
+      "source_repo": "PAPERCRAFT",
+      "date": "20260829",
+      "archived_at": "2026-08-29T19:34:28Z"
     }
   ]
 }
