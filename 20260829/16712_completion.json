@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-29T00:52:24Z",
+  "body": "Closed the first real slice of NORTHSTAR.md's own 'real integration into the city's own actual VoxelBlock geometry (so real building walls, not just standalone props, are destructible)' gap. Not full-city conversion -- deliberately one real, bounded case: converting every VoxelBlock in the real city into individually destructible Paper Engine objects would blow the real wire-size budget completely (PC_WO_MAX_OBJECTS stays a real, bounded 4).\n\nReal, confirmed-live geometry, not invented: GET /chunks?scene=200\u0026cx=0\u0026cz=0 carries two real ~15-block wall structures near the chunk's own corners. New PC_CITY_WALL_A_* names the real one at X in {12,13}, Z in {0,1}, Y in 65..69 -- a real, genuinely L-shaped 3-column cluster.\n\nNew pw_chunk_remove_box removes those exact real 15 blocks from chunk (0,0)'s own normal solid render/ground-collision path -- both apps/server and apps/client call it independently at startup with the same real bounds. A real Paper Engine object (using the non-cube paper_generate_box shipped earlier this session) then stands in the carved-out space, sized to the real block bounding box (half=(1.0,2.5,1.0), centered at (13,67.5,1)). Auto-seeded as the second real default world object alongside the original test prop.\n\nVerified live end to end: fresh server confirmed 'Real city-wall carve-out: removed 15 real block(s) from chunk (0,0)' -- the exact real count -- and seeded '2 real default objects'; a real UDP probe confirmed the object broadcasts the exact derived shape/position, walked a real player to it, and punched it repeatedly, confirming real damage registers on a genuinely carved-out-from-the-city object. A real screenshot showed the object rendering correctly alongside the rest of the real city geometry.\n\nbazel build //... and bazel test //... both clean (19 targets, 8/8 mod tests). NORTHSTAR.md and docs/NORTHSTAR_PAPER_ENGINE.md updated.\n\nCommits: 12aaa56 (feat), 9eb398b (changelog).\n\n⚓ ☃",
+  "id": 16712,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "PAPERCRAFT",
+  "title": "Real first case of VoxelBlock city-wall integration, verified end-to-end"
+}
