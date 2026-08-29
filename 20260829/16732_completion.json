@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-29T02:05:25Z",
+  "body": "Closed 'the same subdiv count spans a very different real world length' on a strongly non-uniform box -- paper_generate_box's own honestly-flagged gap since the non-cube-shapes pass shipped.\n\nNew paper_face_grid(u_len, v_len, subdiv, \u0026gu, \u0026gv) picks the (gu,gv) factorization of subdiv*subdiv (the real, unchanged total fragment count per face -- PC_WO_FRAGMENTS/the wire format never move) whose own real grid aspect ratio is closest, in log-space, to that face's own real world-space UV aspect ratio. A long, thin wall face gets a real 8x2 grid instead of a fixed 4x4 regardless of shape. A perfectly square face still gets the real, unchanged square grid -- exact back-compat with every already-shipped object.\n\npaper_mesh_test.c: confirmed the existing byte-identical cube-vs-box assertion still passes, and added new, direct assertions on paper_face_grid itself -- a real 3:1 aspect correctly resolves to (8,2), provably closer in log-space than the naive (4,4), plus its real 1:3 mirror and the real 1:1 square case.\n\nVerified live: regression-checked real interact/damage still works correctly on an actual carved city wall after the geometry change (6/96 fragments damaged from 6 real hits, matching pre-change behavior).\n\nbazel build //... and bazel test //... both clean (19 targets, 8/8 mod tests, no wire-format change). docs/NORTHSTAR_PAPER_ENGINE.md updated.\n\nCommits: 27b67ba (feat), 42b00d6 (changelog).\n\n⚓ ☃",
+  "id": 16732,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "PAPERCRAFT",
+  "title": "Real per-face subdiv scaling for non-uniform Paper Engine boxes, verified with direct assertions + a live regression check"
+}
