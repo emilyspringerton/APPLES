@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-29T02:29:42Z",
+  "body": "apps/dynmod_poc gets a second real mode: invoked with a single manifest-file argument, it reads a real minimal pipe-delimited manifest (so_path|function|expected[|arg1[|arg2]]), dlopens every distinct .so the manifest names exactly once (cached by resolved path), then dlsyms and calls every listed function, keeping every handle open simultaneously until the whole manifest has run. New apps/dynmod_poc/testdata/manifest.txt, a real checked-in example spanning both libxp_award_mod.so and liblevel_mod.so and all three real I32 shapes. Shared dlsym+dispatch logic refactored into call_i32_fn so both modes share one code path. Verified live, fully clean (bazel clean, then a plain build/test, no special flags): 22 targets, 8/8 mod tests pass. All three original single-call invocations regression-checked unchanged. New manifest mode verified two ways: a real 4-line manifest (2 distinct .so files loaded together in one process, 4 calls checked, 4 passed, 0 failed, exit 0), and a real deliberately-broken manifest (missing .so, missing function, wrong expected value) reporting each failure per line, continuing, exit 1. MODDING.md and NORTHSTAR.md updated honestly, naming the real remaining gaps: no manifest format apps/server itself understands, no designed error-handling policy at real server startup, no non-I32 (Bool) shape, no actual apps/server call site using a dynamically-loaded function yet. Commits: 6f78aa4 (PAPERCRAFT), 3f43030 (PAPERCRAFT changelog).\n\n⚓ ☃",
+  "id": 16742,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "PAPERCRAFT",
+  "title": "S206-27: real multi-mod manifest mode for dynmod_poc"
+}
