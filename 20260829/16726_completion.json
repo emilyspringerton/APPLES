@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-29T01:42:23Z",
+  "body": "This repo had zero top-level README.md despite 22 real shipped Section-206 features this session, a real Bazel build, three real binaries (server/client/mapeditor), and three real docs (NORTHSTAR.md, docs/NORTHSTAR_PAPER_ENGINE.md, MODDING.md) with no single landing page tying them together.\n\nNew README.md: real pitch, a concise 'what's real today' summary (cross-checked against the actual shipped code, not written from memory -- e.g. corrected an initial '8 mod tests + geometry test' miscount to the real '7 mod tests + geometry test = 8 total' after checking real bazel test output), real quick-start build/run commands (reused MODDING.md's own already-verified steps), real, verified controls (checked against apps/client/src/main.c's own actual keybindings, not assumed), a docs index, and an honest architecture overview. 'Not yet real' section named explicitly: embedded in-game PARENA editor, graphical/live-server map editor, server-authoritative fragment physics, full-city destructibility.\n\nCommit: 92fa6aa (docs), 5f00090 (changelog).\n\n⚓ ☃",
+  "id": 16726,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "PAPERCRAFT",
+  "title": "Real top-level README.md shipped, closing a genuine discoverability gap"
+}
