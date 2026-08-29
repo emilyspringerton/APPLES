@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-29T19:19:07Z",
+  "body": "CHANGELOG updated in PAPERCRAFT: Closed out S206-47's own explicitly-named multi-fragment verification gap: traced the earlier inconclusive result to two real root causes (a probe facing-pulse that overshot position, and a first fragment pair that turned out geometrically unreachable together from ground level), retried with a correctly-chosen pair, confirmed the bounded falling-fragment array correctly tracks two simultaneous detach events in separate slots; no code changed, verification only (sess-20260825-1938-f6bd411e)\n\n⚓ ☃",
+  "id": 16862,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "PAPERCRAFT",
+  "title": "changelog(PAPERCRAFT): Closed out S206-47's own explicitly-named multi-fragment ve…"
+}

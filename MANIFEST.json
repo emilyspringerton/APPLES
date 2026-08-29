@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-29T19:13:50Z",
+  "generated_at": "2026-08-29T19:19:07Z",
   "repo": "APPLES",
-  "count": 6325,
+  "count": 6326,
   "apples": [
     {
       "id": 10525,
@@ -50602,6 +50602,14 @@
       "source_repo": "CLI",
       "date": "20260829",
       "archived_at": "2026-08-29T19:13:50Z"
+    },
+    {
+      "id": 16862,
+      "type": "completion",
+      "title": "changelog(PAPERCRAFT): Closed out S206-47's own explicitly-named multi-fragment ve…",
+      "source_repo": "PAPERCRAFT",
+      "date": "20260829",
+      "archived_at": "2026-08-29T19:19:07Z"
     }
   ]
 }
