@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-29T19:41:34Z",
+  "generated_at": "2026-08-29T19:49:47Z",
   "repo": "APPLES",
-  "count": 6336,
+  "count": 6337,
   "apples": [
     {
       "id": 10525,
@@ -50690,6 +50690,14 @@
       "source_repo": "CLI",
       "date": "20260829",
       "archived_at": "2026-08-29T19:41:34Z"
+    },
+    {
+      "id": 16873,
+      "type": "completion",
+      "title": "changelog(PAPERCRAFT): Real cross-platform CI: new .github/workflows/ci.yml builds…",
+      "source_repo": "PAPERCRAFT",
+      "date": "20260829",
+      "archived_at": "2026-08-29T19:49:47Z"
     }
   ]
 }
