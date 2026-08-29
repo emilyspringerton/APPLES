@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-29T04:08:04Z",
+  "body": "Closes the rest of S206-34's own warning-only pass, and for everything apps/mapeditor can do, actually closes papercraft_worldobjects.h's own longer-standing named gap without needing the full, separate stable-per-object-ID fix. Key insight: remove is the ONLY real operation this toolset ever performs that reindexes objects (add only appends, edit never reindexes) -- so keeping the real damage file's own rows in sync inside remove itself closes this gap completely, not partially. cmd_remove now loads the real damage file if one exists, shifts damage.hp[index..count-2] to match the objects it's shifting, and saves it back -- no mesh regeneration or max_hp knowledge needed since apps/server's own damage-restore loop only iterates up to the new count. Verified live against the actual Bazel-built binary, fully clean (bazel clean, then a plain build/test, no special flags): 26 targets, 11/11 tests pass. Real scenario: a 3-object file with distinct per-object damage markers (10/20/30) -- removing object 0 correctly moves object 1's damage (20) to slot 0 and object 2's damage (30) to slot 1, confirmed by reading the saved file back. Also confirmed: last-index removal reports the plain message (no shift needed), and removing with no damage file present works cleanly. packages/common/papercraft_worldobjects.h and NORTHSTAR.md updated. Commits: 4308ef1 (PAPERCRAFT), 2281d87 (PAPERCRAFT changelog).\n\n⚓ ☃",
+  "id": 16779,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "PAPERCRAFT",
+  "title": "S206-41: mapeditor remove now re-syncs the damage file, not just warns"
+}
