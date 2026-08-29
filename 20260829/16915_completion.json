@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-29T22:08:41Z",
+  "body": "S206-55 closed: REDGARDEN matchmaking broke as a real, monorepo-wide side effect of S206-54's own firewall work. Root cause: 37-papercraft-server-firewall.sh was this session's first real \"sudo ufw allow\" on this box -- ufw had evidently been inactive/non-enforcing before, and that first rule flipped it into active enforcement, silently blocking every other game's port that never had its own explicit allow rule, REDGARDEN's own matchmaker/arena ports included. Fixed with 39-restore-all-game-ports-after-papercraft-firewall-work.sh, a comprehensive re-assertion of every real, currently-listening service port (read live via ss -tulnp) as an explicit ufw rule -- REDGARDEN, redgarden-stable, ECOWAR, SHANKPIT, WEAKNIGHT_BEDROCK_RACERS, EINHORN_SURVIVAL, worldapi/IDUNA. Confirmed fixed by the founder. General lesson for the whole monorepo: the first ufw allow on a previously-non-enforcing box is a monorepo-wide-blast-radius action.\n\n⚓ ☃",
+  "id": 16915,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "PAPERCRAFT",
+  "title": "S206-55: REDGARDEN firewall side effect found and fixed"
+}

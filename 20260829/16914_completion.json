@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-29T22:08:41Z",
+  "body": "S206-54 closed: PAPERCRAFT's first real live player, end to end. Real live-service deployment (papercraft-server.service systemd unit, PAPERCRAFT_TICKET_SECRET added to IDUNA, IDUNA rebuilt in place after finding the deployed binary predated the papercraft ticket handler's own commit), a firewall opened for 7799/udp+7070/tcp+8080/tcp (verified externally via check-host.net from multiple regions), PLAY_ONLINE.bat/.sh (real public host flags baked in via okemily.com), papercraft_client.log (file-based logging, necessary since PLAY_ONLINE's console closes on exit), verbose [http] diagnostic logging in http_client.h (both Windows and POSIX branches), and the real bug that logging found: a genuine WSAStartup ordering bug (WSA error 10093) that had nothing to do with the extensive firewall/DNS investigation that preceded it. Then a real design flaw found from live play on the founder's own 5G connection: movement input was gated on the same flag that flips false during any connection hiccup -- redesigned to a three-tier model (continuous input via a sticky ever_welcomed flag, a small non-disruptive weak-connection indicator, a 20s last-resort full reconnect). v0.1.0 through v0.8.0 shipped across this arc.\n\n⚓ ☃",
+  "id": 16914,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "PAPERCRAFT",
+  "title": "S206-54: first real live player, end to end (v0.1.0-v0.8.0)"
+}
