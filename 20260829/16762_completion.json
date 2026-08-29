@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-29T03:21:53Z",
+  "body": "CHANGELOG updated in PAPERCRAFT: NORTHSTAR.md: fixed three stale claims in the talent/ability-point bones section -- game-loop integration and the real MOVE stat effect were both already shipped, and a real UI (draw_progression_hud, live level/XP/points/ability readout) already exists and was wrongly claimed missing; caught before committing by reading apps/client's actual source (sess-20260825-1938-f6bd411e)\n\n⚓ ☃",
+  "id": 16762,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "PAPERCRAFT",
+  "title": "changelog(PAPERCRAFT): NORTHSTAR.md: fixed three stale claims in the talent/abilit…"
+}
