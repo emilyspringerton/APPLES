@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-29T18:19:07Z",
+  "body": "Real, narrow, mechanical first slice of the full-city-conversion wire-budget limit -- confirmed by actually measuring sizeof(PcSnapshotPacket) (1408 bytes) against the real 1472-byte unfragmented-UDP budget: only 64 bytes headroom, not even room for one more object before this change. PAPER_STATE_* is only ever 0-3 -- the original wire shape spent 8 bits to carry 2 bits of information. New PC_WO_STATE_BYTES packs 4 fragments per byte, cutting world_object_state from 96 bytes per object to 24. PcSnapshotPacket updated; apps/server's write site uses pc_wo_state_pack; apps/client unpacks into a local per-frame scratch buffer once, leaving every existing consumer (debris-diff, draw_test_cube) completely unchanged. Real, narrow optimization only -- does not raise PC_WO_MAX_OBJECTS or attempt full-city conversion itself. Verified live, fully clean (bazel clean, then a plain build/test, no special flags): 26 targets, 11/11 tests pass. Measured sizeof(PcSnapshotPacket) directly: 1120 bytes (was 1408), exactly the predicted 288-byte saving. Real, live, end-to-end UDP verification with a fresh probe using the new pc_wo_state_unpack accessor: crafted damage file, walked to fragment 24, punched it, confirmed via the real wire data it transitioned TORN-\u003eGONE, 96/96 fragments gone, +60 XP awarded exactly as before -- proving the packed format round-trips correctly through an actual UDP connection. docs/NORTHSTAR_PAPER_ENGINE.md and NORTHSTAR.md updated with the real measured numbers. Commits: 7d05a41 (PAPERCRAFT), 998cf0f (PAPERCRAFT changelog).\n\n⚓ ☃",
+  "id": 16841,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "PAPERCRAFT",
+  "title": "S206-43: bit-pack world_object_state, real 288-byte wire win"
+}
