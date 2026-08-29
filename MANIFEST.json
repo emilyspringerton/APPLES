@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-29T19:34:28Z",
+  "generated_at": "2026-08-29T19:34:34Z",
   "repo": "APPLES",
-  "count": 6332,
+  "count": 6333,
   "apples": [
     {
       "id": 10525,
@@ -50658,6 +50658,14 @@
       "source_repo": "PAPERCRAFT",
       "date": "20260829",
       "archived_at": "2026-08-29T19:34:28Z"
+    },
+    {
+      "id": 16869,
+      "type": "completion",
+      "title": "Phase 1c-client: real fragment rotation now renders on apps/client",
+      "source_repo": "PAPERCRAFT",
+      "date": "20260829",
+      "archived_at": "2026-08-29T19:34:34Z"
     }
   ]
 }
