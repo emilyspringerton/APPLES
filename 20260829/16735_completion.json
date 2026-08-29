@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-29T02:16:37Z",
+  "body": "CHANGELOG updated in PAPERCRAFT: Real proof-of-concept for dlopen-based mod loading (apps/dynmod_poc): a real, standalone tool dlopens/dlsyms a real PARENA-compiled mod function built as a shared library, proving the mechanism works with zero mod-file changes and zero host rebuild. Found and fixed a real Bazel gotcha along the way (alwayslink needed to preserve symbols across --start-lib/--end-lib archive resolution). Verified fully clean (bazel clean + plain build/test, no special flags): 21 targets, 8/8 mod tests, real regression check on apps/server passes. Commit 5bb7696. (sess-20260825-1938-f6bd411e)\n\n⚓ ☃",
+  "id": 16735,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "PAPERCRAFT",
+  "title": "changelog(PAPERCRAFT): Real proof-of-concept for dlopen-based mod loading (apps/dy…"
+}
