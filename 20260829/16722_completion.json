@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-29T01:33:03Z",
+  "body": "Real, minimal editor safety -- apps/mapeditor's own add command was purely additive with no check at all for whether a new object's real bounding box overlaps an already-placed one's.\n\nNew aabb_overlap() tests all three real axes; add now loops every existing real object in the loaded file and prints a real WARNING (doesn't block -- a real, later use case might genuinely want deliberate overlap) naming which existing object it collides with.\n\nVerified live with three precise cases: two non-overlapping placements produced no warning; a third object placed at the exact same real position/extent as the first correctly triggered 'WARNING: new object's real bounding box overlaps existing object 0'; a fourth object placed just outside the real boundary (0.01 units past the sum of both half-extents) correctly produced no false-positive warning.\n\nbazel build //... and bazel test //... both clean (19 targets, 8/8 mod tests -- mapeditor-only change, no new mod, no wire-format change). NORTHSTAR.md updated.\n\nCommits: ef38512 (feat), 5373261 (changelog).\n\n⚓ ☃",
+  "id": 16722,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "PAPERCRAFT",
+  "title": "Real AABB overlap detection in the map editor, verified with boundary-precise test cases"
+}
