@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-30T06:26:17Z",
+  "generated_at": "2026-08-30T06:27:38Z",
   "repo": "APPLES",
-  "count": 6526,
+  "count": 6527,
   "apples": [
     {
       "id": 10525,
@@ -52210,6 +52210,14 @@
       "source_repo": "CLI",
       "date": "20260830",
       "archived_at": "2026-08-30T06:26:17Z"
+    },
+    {
+      "id": 17064,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: 'make sure we are testing with the backlog when we dev DUNG its big' -- a…",
+      "source_repo": "CLI",
+      "date": "20260830",
+      "archived_at": "2026-08-30T06:27:38Z"
     }
   ]
 }
