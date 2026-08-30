@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-30T04:22:47Z",
+  "generated_at": "2026-08-30T04:28:54Z",
   "repo": "APPLES",
-  "count": 6462,
+  "count": 6463,
   "apples": [
     {
       "id": 10525,
@@ -51698,6 +51698,14 @@
       "source_repo": "PARENA",
       "date": "20260830",
       "archived_at": "2026-08-30T04:22:47Z"
+    },
+    {
+      "id": 17000,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: PAPERCRAFT client is still flashing the reconnection/weak-connection mess…",
+      "source_repo": "CLI",
+      "date": "20260830",
+      "archived_at": "2026-08-30T04:28:54Z"
     }
   ]
 }
