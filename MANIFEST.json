@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-30T04:14:31Z",
+  "generated_at": "2026-08-30T04:22:23Z",
   "repo": "APPLES",
-  "count": 6459,
+  "count": 6460,
   "apples": [
     {
       "id": 10525,
@@ -51674,6 +51674,14 @@
       "source_repo": "emily",
       "date": "20260830",
       "archived_at": "2026-08-30T04:14:31Z"
+    },
+    {
+      "id": 16997,
+      "type": "completion",
+      "title": "changelog(PARENA): New v0 TypeScript emitter (src/emit_ts.c) -- scalar defn + …",
+      "source_repo": "PARENA",
+      "date": "20260830",
+      "archived_at": "2026-08-30T04:22:23Z"
     }
   ]
 }
