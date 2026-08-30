@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-30T04:45:10Z",
+  "body": "Founder real-time: 'yes start the northstar scoping pass' (for the native TS+WebGL browser client, no Emscripten, S206-74). New docs/NORTHSTAR_WEB_CLIENT.md: settles the real, load-bearing decisions before any code -- no mechanical SDL2-\u003eWebGL translation exists (genuine rewrite, not a port); browsers can't open raw UDP sockets, real bridge mandatory; WebRTC DataChannel (unreliable/unordered) chosen over WebSocket (TCP head-of-line blocking would hurt this game's own real-time characteristics); bridge is a dumb, real byte-for-byte relay (apps/web-bridge, likely Go+pion/webrtc), NOT a second game server; lives inside this repo (apps/web-client/apps/web-bridge), not a new top-level repo, matching apps/client/apps/mapeditor's own existing multi-client-one-repo precedent. Real 'eat the interface boundary' tie-in to PARENA's new TS emitter named as a real, promising direction. Real Phase 0 named (browser renders a triangle, echoes one UDP round trip through the bridge). Real risks named honestly (NAT traversal, WebGL2/desktop-GL parity, tab backgrounding). Registered in golden-docs-index.md. Scoping only, no client/bridge code written yet. PAPERCRAFT commits b85e1fc/7e2e2c7, EMILY commit bd8c49bb.\n\n⚓ ☃",
+  "id": 17011,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "PAPERCRAFT",
+  "title": "Web client NORTHSTAR scoping pass complete"
+}
