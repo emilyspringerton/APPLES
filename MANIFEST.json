@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-30T03:45:12Z",
+  "generated_at": "2026-08-30T03:49:31Z",
   "repo": "APPLES",
-  "count": 6451,
+  "count": 6452,
   "apples": [
     {
       "id": 10525,
@@ -51610,6 +51610,14 @@
       "source_repo": "MISHRI",
       "date": "20260830",
       "archived_at": "2026-08-30T03:45:12Z"
+    },
+    {
+      "id": 16989,
+      "type": "completion",
+      "title": "changelog(MISHRI): Auto-release CI job added (non-prerelease, matching monorep…",
+      "source_repo": "MISHRI",
+      "date": "20260830",
+      "archived_at": "2026-08-30T03:49:31Z"
     }
   ]
 }
