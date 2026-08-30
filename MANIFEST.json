@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-30T11:34:23Z",
+  "generated_at": "2026-08-30T11:34:25Z",
   "repo": "APPLES",
-  "count": 6556,
+  "count": 6557,
   "apples": [
     {
       "id": 10525,
@@ -52450,6 +52450,14 @@
       "source_repo": "PARENA",
       "date": "20260830",
       "archived_at": "2026-08-30T11:34:23Z"
+    },
+    {
+      "id": 17094,
+      "type": "completion",
+      "title": "fix: unary (not x) missing from both emit_c.go and emit_go.go",
+      "source_repo": "BURROW",
+      "date": "20260830",
+      "archived_at": "2026-08-30T11:34:25Z"
     }
   ]
 }
