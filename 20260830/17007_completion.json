@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-30T04:39:18Z",
+  "body": "Founder real-time: 'continue rewriting MISHRI using parena using parena mods'. Extended src/emit_ts.c's recognized external-primitive support from a single hardcoded math/random case to a real, table-driven MATH_PRIM_TABLE (random/floor/sqrt/log/cos) + a real math/pi constant. Renamed/grew stdlib/math/random.prn -\u003e stdlib/math/math.prn. New stdlib/mishri/humanness.prn: real ports of chance/randInt/addNoise (Box-Muller), addNoise's own u1/u2 bindings collapsed into two inline (math/random) calls, zero let needed. 7 new emitter tests (21 total). Real, verified proof: compiled to MISHRI/src/generated/humanness.ts, wired into MISHRI's live HumannessLayer.ts, verified bit-for-bit identical against the originals across ~390 cases with Math.random() mocked deterministically -- zero mismatches, MISHRI's own 84-assertion suite still passes. STDLIB.md updated with honest status (4 real functions built now: bezier-interp, chance, random-int, gaussian-noise; async/map blockers for the rest of mishri/humanness still explicitly unresolved). PARENA commits 768e1f6/ee575d5, MISHRI commits 97d4de1/1b0de2d.\n\n⚓ ☃",
+  "id": 17007,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "PARENA",
+  "title": "Math primitive table grown, chance/randInt/addNoise ported and verified"
+}
