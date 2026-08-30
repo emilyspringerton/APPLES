@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-30T10:39:52Z",
+  "generated_at": "2026-08-30T10:42:03Z",
   "repo": "APPLES",
-  "count": 6548,
+  "count": 6549,
   "apples": [
     {
       "id": 10525,
@@ -52386,6 +52386,14 @@
       "source_repo": "CLI",
       "date": "20260830",
       "archived_at": "2026-08-30T10:39:52Z"
+    },
+    {
+      "id": 17086,
+      "type": "completion",
+      "title": "BURROW Phase 6 — real, native Go emission target",
+      "source_repo": "BURROW",
+      "date": "20260830",
+      "archived_at": "2026-08-30T10:42:03Z"
     }
   ]
 }

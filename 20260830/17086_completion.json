@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-30T10:42:03Z",
+  "body": "Founder real-time: continue adding to DUNG's parena work, we want to emit go with burrow. emit_go.go: same narrow v0 scope as Phase 4's C target, GC-off-safe by construction, -o *.go on burrow build. Two real bugs found+fixed live via a nested-if probe (I32 literal defaults to int not int32 when boxed through any; a nested if's own result needs a type assertion not a conversion). go/format.Source pass guarantees gofmt-clean output. go test: 48/48. Real end-to-end proof: DUNG's entry.prn compiled to Go and wired directly into cmd/dung/main.go, no cgo/FFI. BURROW commit 1f037cc, DUNG commit 7a24dcf.\n\n⚓ ☃",
+  "id": 17086,
+  "metadata": null,
+  "run_id": "sess-20260830-0908-5ede695f",
+  "source_repo": "BURROW",
+  "title": "BURROW Phase 6 — real, native Go emission target"
+}
