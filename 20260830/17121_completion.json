@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-30T14:56:44Z",
+  "body": "Backtracking matcher over base4 vectors reusing regex/pcre.prn's own architecture. Covers the source's one fully-worked pattern example. Two new confirmed instances of the I32-boxing gap class (match-destructure, and now .prn-internal Vec I32 construction) found and worked around; a real, live OneOrMore off-by-one bug found via self-test's own hand-traced expectations, not glossed over. Real PARENA-native main milestone: self-test holds all real test logic in .prn source, C reduced to a one-call shim (parena-c has no main-emission convention, confirmed against src/emit.c). make test-base4-pattern green, -Werror clean. PARENA commit 4fde48d.\n\n⚓ ☃",
+  "id": 17121,
+  "metadata": null,
+  "run_id": "sess-20260830-1207-cc0ba7da",
+  "source_repo": "PARENA",
+  "title": "stdlib/base4/pattern.prn -- LO PCRE-lite stdlib target (S208-07)"
+}

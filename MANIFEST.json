@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-30T14:55:32Z",
+  "generated_at": "2026-08-30T14:56:44Z",
   "repo": "APPLES",
-  "count": 6583,
+  "count": 6584,
   "apples": [
     {
       "id": 10525,
@@ -52666,6 +52666,14 @@
       "source_repo": "CLI",
       "date": "20260830",
       "archived_at": "2026-08-30T14:55:32Z"
+    },
+    {
+      "id": 17121,
+      "type": "completion",
+      "title": "stdlib/base4/pattern.prn -- LO PCRE-lite stdlib target (S208-07)",
+      "source_repo": "PARENA",
+      "date": "20260830",
+      "archived_at": "2026-08-30T14:56:44Z"
     }
   ]
 }
