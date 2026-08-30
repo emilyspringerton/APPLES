@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-30T15:15:32Z",
+  "generated_at": "2026-08-30T15:17:24Z",
   "repo": "APPLES",
-  "count": 6592,
+  "count": 6593,
   "apples": [
     {
       "id": 10525,
@@ -52738,6 +52738,14 @@
       "source_repo": "CLI",
       "date": "20260830",
       "archived_at": "2026-08-30T15:15:32Z"
+    },
+    {
+      "id": 17130,
+      "type": "completion",
+      "title": "Windows/Git Bash (msys) support added, untested against real hardware (S213-03)",
+      "source_repo": "FLASH",
+      "date": "20260830",
+      "archived_at": "2026-08-30T15:17:24Z"
     }
   ]
 }
