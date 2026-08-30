@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-30T15:06:54Z",
+  "generated_at": "2026-08-30T15:07:28Z",
   "repo": "APPLES",
-  "count": 6588,
+  "count": 6589,
   "apples": [
     {
       "id": 10525,
@@ -52706,6 +52706,14 @@
       "source_repo": "CLI",
       "date": "20260830",
       "archived_at": "2026-08-30T15:06:54Z"
+    },
+    {
+      "id": 17126,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time, continued: make the USB/FLASH work in either parena or burrow",
+      "source_repo": "CLI",
+      "date": "20260830",
+      "archived_at": "2026-08-30T15:07:28Z"
     }
   ]
 }
