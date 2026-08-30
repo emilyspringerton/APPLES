@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-30T04:39:18Z",
+  "generated_at": "2026-08-30T04:40:30Z",
   "repo": "APPLES",
-  "count": 6470,
+  "count": 6471,
   "apples": [
     {
       "id": 10525,
@@ -51762,6 +51762,14 @@
       "source_repo": "PARENA",
       "date": "20260830",
       "archived_at": "2026-08-30T04:39:18Z"
+    },
+    {
+      "id": 17008,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time (two related messages): (1) 'how do we translate sdl2 to ts opengl? can we…",
+      "source_repo": "CLI",
+      "date": "20260830",
+      "archived_at": "2026-08-30T04:40:30Z"
     }
   ]
 }
