@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-30T06:06:29Z",
+  "generated_at": "2026-08-30T06:10:17Z",
   "repo": "APPLES",
-  "count": 6516,
+  "count": 6517,
   "apples": [
     {
       "id": 10525,
@@ -52130,6 +52130,14 @@
       "source_repo": "CLI",
       "date": "20260830",
       "archived_at": "2026-08-30T06:06:29Z"
+    },
+    {
+      "id": 17054,
+      "type": "completion",
+      "title": "changelog(DUNG): Initial NORTHSTAR scoping pass: DUNG, the BURROW editor. Fo…",
+      "source_repo": "DUNG",
+      "date": "20260830",
+      "archived_at": "2026-08-30T06:10:17Z"
     }
   ]
 }
