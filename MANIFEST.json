@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-30T02:42:49Z",
+  "generated_at": "2026-08-30T02:52:53Z",
   "repo": "APPLES",
-  "count": 6434,
+  "count": 6435,
   "apples": [
     {
       "id": 10525,
@@ -51474,6 +51474,14 @@
       "source_repo": "emily",
       "date": "20260830",
       "archived_at": "2026-08-30T02:42:49Z"
+    },
+    {
+      "id": 16972,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: PAPERCRAFT needs a list-based (text) inventory UI first, before the graph…",
+      "source_repo": "CLI",
+      "date": "20260830",
+      "archived_at": "2026-08-30T02:52:53Z"
     }
   ]
 }
