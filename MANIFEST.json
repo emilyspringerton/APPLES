@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-30T17:09:15Z",
+  "generated_at": "2026-08-30T17:15:15Z",
   "repo": "APPLES",
-  "count": 6628,
+  "count": 6629,
   "apples": [
     {
       "id": 10525,
@@ -53026,6 +53026,14 @@
       "source_repo": "CLI",
       "date": "20260830",
       "archived_at": "2026-08-30T17:09:15Z"
+    },
+    {
+      "id": 17166,
+      "type": "completion",
+      "title": "Real EQ glyph (⚓) finalized + real LET (✨) support, verified end-to-end",
+      "source_repo": "LO",
+      "date": "20260830",
+      "archived_at": "2026-08-30T17:15:15Z"
     }
   ]
 }
