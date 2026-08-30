@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-30T17:30:04Z",
+  "generated_at": "2026-08-30T17:32:25Z",
   "repo": "APPLES",
-  "count": 6632,
+  "count": 6633,
   "apples": [
     {
       "id": 10525,
@@ -53058,6 +53058,14 @@
       "source_repo": "CLI",
       "date": "20260830",
       "archived_at": "2026-08-30T17:30:04Z"
+    },
+    {
+      "id": 17170,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: add LAMBDA to LO, glyph 🐪 (camel)",
+      "source_repo": "CLI",
+      "date": "20260830",
+      "archived_at": "2026-08-30T17:32:25Z"
     }
   ]
 }
