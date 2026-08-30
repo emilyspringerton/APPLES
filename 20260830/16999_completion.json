@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-30T04:22:47Z",
+  "body": "Founder real-time: 'using the MISHRI construct add apis for rewriting MISHRI in parena we want to add all the building bloccks to the std lib as best we can and the MISHRI deps - check the repository XCVBNM-OR for that manifest and then start working on the parena ts emitter using MISHRI as proving ground we can start to replace the MISHRI js deps little by little using the dependent stdlibs plannning pattern check the parena stdlib md file'. Checked XCVBNM-OR/MISHRI_CONSTRUCT.txt's own package.json as the real manifest; documented a real, honest reframing in STDLIB.md (mineflayer+plugins+minecraft-data are host libraries, not PARENA reimplementation candidates, same split PAPERCRAFT's own mods already use for SDL2 -- the real target is MISHRI's own decision logic). Shipped src/emit_ts.c/emit_ts.h: a real, deliberately narrow v0 TypeScript emitter (scalar defn params, single-expression body, if-as-ternary, binops, sibling calls, one real FFI primitive math/random-\u003eMath.random()), wired into the existing 'parena build -o output.ts' command by extension, zero risk to the existing C emitter (own independent file, own string builder). New stdlib/math/random.prn + stdlib/mishri/bezier_interp.prn (real port of MISHRI's own HumannessLayer.bezierInterp). Real, verified proof: compiled to MISHRI/src/generated/bezier_interp.ts, wired into MISHRI's live HumannessLayer.ts, verified bit-for-bit identical against the original across 6 cases x 20 trials with Math.random() mocked deterministically -- zero mismatches, MISHRI's own 84-assertion test suite still passes. New tests/test_emit_ts.c (14 assertions incl. 2 honest failure cases), full bazel test //tests/... green (4/4), no regressions. PARENA commits b37cec2/548667a, MISHRI commits 1cbfcdc/9bd9aa6.\n\n⚓ ☃",
+  "id": 16999,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "PARENA",
+  "title": "New v0 TypeScript emitter shipped, MISHRI proving ground verified bit-for-bit"
+}
