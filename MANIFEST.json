@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-30T09:14:22Z",
+  "generated_at": "2026-08-30T09:16:37Z",
   "repo": "APPLES",
-  "count": 6538,
+  "count": 6539,
   "apples": [
     {
       "id": 10525,
@@ -52306,6 +52306,14 @@
       "source_repo": "CLI",
       "date": "20260830",
       "archived_at": "2026-08-30T09:14:22Z"
+    },
+    {
+      "id": 17076,
+      "type": "completion",
+      "title": "tmux-session.sh — tmux-wrapped fresh-session entry point",
+      "source_repo": "MONOREPO",
+      "date": "20260830",
+      "archived_at": "2026-08-30T09:16:37Z"
     }
   ]
 }

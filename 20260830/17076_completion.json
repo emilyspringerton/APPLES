@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-30T09:16:37Z",
+  "body": "Founder real-time: not in tmux, needed a survivable claude startup script. Created /home/fatbaby/tmux-session.sh: wraps 'emily session new \u003e sess \u0026\u0026 claude --dangerously-skip-permissions' in a detached tmux session (reattach with tmux attach -t \u003cname\u003e). Onboarding prompt bakes in this session's own lesson: run.sh/start.sh source EMILY/var/emily-secrets.env (mode 600), which fails permission-wise for non-owner users -- fall back to 'emily context build' (pure-CLI, no ANTHROPIC_API_KEY) instead of fighting it, then read CLAUDE.md/BACKLOG.md directly. Commit d2c6a1c, pushed to MONOREPO.\n\n⚓ ☃",
+  "id": 17076,
+  "metadata": null,
+  "run_id": "sess-20260830-0908-5ede695f",
+  "source_repo": "MONOREPO",
+  "title": "tmux-session.sh — tmux-wrapped fresh-session entry point"
+}
