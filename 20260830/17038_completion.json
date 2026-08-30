@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-30T05:26:29Z",
+  "body": "Real gap closed: emit_java() now accepts an explicit package name, main.c auto-derives it from the real, standard src/main/java/ Maven convention -- needed since the first Java-emitter proof (smoke test only) never hit Java's real 'unnamed package can't be imported by a named package' rule. New stdlib/gta7/humanness_fingerprint_mod.prn reuses stdlib/mishri/humanness.prn's own proven chance/random-int/gaussian-noise via multi-file build. Compiled to GTA7/plugin/.../generated/HumannessFingerprint.java, wired into a real, live consumer (EnforcementManager.java) -- full mvn package (JDK 25) verified green, not just a standalone smoke test this time. 27/27 test_emit_java assertions pass (up from 23), zero regressions across the other 4 test suites. Commits 6aff750/10e85b4/b06e943.\n\n⚓ ☃",
+  "id": 17038,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "PARENA",
+  "title": "emit_java package-declaration support + new gta7 stdlib mod, real live Java consumer proven"
+}

@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-30T05:26:29Z",
+  "body": "EnforcementManager.java's scheduleHumanReaction(): each Enforcement zombie's target-acquisition is now gaussian-jittered (base 10 ticks/0.5s, sigma 30%, PARENA-compiled generated.HumannessFingerprint.enforcementReactionDelayTicks) with a real, bounded 15% hesitation chance (0-40 tick bonus) instead of instant, uniform setTarget() in the same spawn tick. Logged per-mob via the plugin's own logger. Full mvn package (JDK 25) verified green end to end. Commit 71f5450/b3e66dc.\n\n⚓ ☃",
+  "id": 17039,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "GTA7",
+  "title": "Real Enforcement 'humanness fingerprint' shipped -- organic reaction delay, verified mvn build"
+}

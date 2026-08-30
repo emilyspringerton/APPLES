@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-30T05:26:04Z",
+  "generated_at": "2026-08-30T05:26:29Z",
   "repo": "APPLES",
-  "count": 6500,
+  "count": 6501,
   "apples": [
     {
       "id": 10525,
@@ -52002,6 +52002,14 @@
       "source_repo": "GTA7",
       "date": "20260830",
       "archived_at": "2026-08-30T05:26:04Z"
+    },
+    {
+      "id": 17038,
+      "type": "completion",
+      "title": "emit_java package-declaration support + new gta7 stdlib mod, real live Java consumer proven",
+      "source_repo": "PARENA",
+      "date": "20260830",
+      "archived_at": "2026-08-30T05:26:29Z"
     }
   ]
 }
