@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-30T05:13:54Z",
+  "generated_at": "2026-08-30T05:14:20Z",
   "repo": "APPLES",
-  "count": 6492,
+  "count": 6493,
   "apples": [
     {
       "id": 10525,
@@ -51938,6 +51938,14 @@
       "source_repo": "PARENA",
       "date": "20260830",
       "archived_at": "2026-08-30T05:13:54Z"
+    },
+    {
+      "id": 17030,
+      "type": "completion",
+      "title": "Real PARENA-compiled cutscene effect decision mod, 23 assertions passing",
+      "source_repo": "SHANKPIT",
+      "date": "20260830",
+      "archived_at": "2026-08-30T05:14:20Z"
     }
   ]
 }
