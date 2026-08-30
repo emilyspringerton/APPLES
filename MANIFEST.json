@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-30T04:40:30Z",
+  "generated_at": "2026-08-30T04:42:35Z",
   "repo": "APPLES",
-  "count": 6471,
+  "count": 6472,
   "apples": [
     {
       "id": 10525,
@@ -51770,6 +51770,14 @@
       "source_repo": "CLI",
       "date": "20260830",
       "archived_at": "2026-08-30T04:40:30Z"
+    },
+    {
+      "id": 17009,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: 'yes start the northstar scoping pass' -- confirming go-ahead for the PAP…",
+      "source_repo": "CLI",
+      "date": "20260830",
+      "archived_at": "2026-08-30T04:42:35Z"
     }
   ]
 }
