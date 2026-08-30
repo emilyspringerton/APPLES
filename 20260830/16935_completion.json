@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-30T00:53:22Z",
+  "body": "S206-58: real ping/RTT counter, closing the founder's original \"show the ping at the top of the screen\" ask in full. PcSnapshotPacket gains one echo_cmd_time_ms field (not a per-player array -- a client only ever needs its own value), overwritten per-recipient by apps/server right before each player's own sendto() with that player's own last-sent PcUserCmdPacket::cmd_time_ms. Client computes now_ms() - echo_cmd_time_ms for a real round-trip time with zero clock-sync assumption (both send and compare happen on the same client's own clock). Displayed top-right with green/yellow/red banding at 100ms/300ms, alongside the existing top-left HUD and top-center weak-connection indicator. Wire cost: 1432 -\u003e 1436 bytes, still 36 bytes under budget. Verified live end to end: a real throwaway server + UDP probe sent a real PcUserCmdPacket with a known cmd_time_ms and confirmed the echoed value matched exactly, 8ms measured RTT on localhost. v0.12.0 released. Live production server binary rebuilt in place; restart queued (40-restart-papercraft-server-for-ping-feature.sh) since the running instance predates this protocol field.\n\n⚓ ☃",
+  "id": 16935,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "PAPERCRAFT",
+  "title": "S206-58: real ping/RTT counter"
+}
