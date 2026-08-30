@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-30T16:15:11Z",
+  "generated_at": "2026-08-30T16:20:55Z",
   "repo": "APPLES",
-  "count": 6609,
+  "count": 6610,
   "apples": [
     {
       "id": 10525,
@@ -52874,6 +52874,14 @@
       "source_repo": "PARENA",
       "date": "20260830",
       "archived_at": "2026-08-30T16:15:11Z"
+    },
+    {
+      "id": 17147,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: also require semicolons in LO",
+      "source_repo": "CLI",
+      "date": "20260830",
+      "archived_at": "2026-08-30T16:20:55Z"
     }
   ]
 }
