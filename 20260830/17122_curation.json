@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "curation",
+  "archived_at": "2026-08-30T14:58:03Z",
+  "body": "Curated 5 FatBaby observations into EMILY/BACKLOG.md INTAKE QUEUE.\n\nItems:\n- Founder real-time, continued FLASH/HypriotOS/EmilyOS-Pi thread: build PARENA into the distro (2026-08-30T14:55:32Z)\n- Founder real-time, continued FLASH/HypriotOS thread: EmilyOS for the Raspberry Pi, Bazel-powered (2026-08-30T14:55:21Z)\n- Founder real-time, continued FLASH/HypriotOS: real upstream repo is https://github.com/emilyspringerton/image-builder-rpi (a fork), and all its deps have been forked too (2026-08-30T14:55:04Z)\n- Founder real-time: forked HypriotOS's Docker Raspberry Pi write tool as 'FLASH' -- get it working with our own Raspberry Pi first (no changes needed yet), make it configuration-based, build into PARENA and EmilyOS ('parenify it'), acknowledge prior art (Hypriot), plan to build off HypriotOS (2026-08-30T14:51:03Z)\n- Founder real-time: get a Gemini key out of Vertex AI somehow, put it somewhere accessible (2026-08-30T14:27:26Z)\n\n⚓ ☃",
+  "id": 17122,
+  "metadata": null,
+  "run_id": "backlog-curate-1788101883",
+  "source_repo": "emily.cli",
+  "title": "backlog curate: 5 obs -\u003e INTAKE QUEUE"
+}
