@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-30T05:09:54Z",
+  "generated_at": "2026-08-30T05:10:52Z",
   "repo": "APPLES",
-  "count": 6486,
+  "count": 6487,
   "apples": [
     {
       "id": 10525,
@@ -51890,6 +51890,14 @@
       "source_repo": "CLI",
       "date": "20260830",
       "archived_at": "2026-08-30T05:09:54Z"
+    },
+    {
+      "id": 17024,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time, standing instruction: 'when you add new tests use the ladybug bdd framewo…",
+      "source_repo": "CLI",
+      "date": "20260830",
+      "archived_at": "2026-08-30T05:10:52Z"
     }
   ]
 }
