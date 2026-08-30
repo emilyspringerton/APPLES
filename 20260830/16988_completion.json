@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-30T03:45:12Z",
+  "body": "Founder real-time: 'MISHRI forked from an unknown author please update it to build with bazel and also the artifacts to include a construct file the concatination check parena editor out for an example' -\u003e 'the author isnt unknown there is a github they are just outside the organization' -\u003e 'use at own risk all that' -\u003e 'update readme to aknowledge the author and the ambiguous licensing situation'. Shipped: real Bazel build (MODULE.bazel/BUILD.bazel, .bazelversion pinned 9.2.0, rules_shell dep) with bazel test //:test as a real hermetic test of the humanness layer + skin manager (no npm install needed), bazel run //:install/:mishri as documented non-hermetic npm wrappers; new .github/workflows/ci.yml with a real Bazel test gate + a Generate Construct Bundle step matching PARENA's own exact convention (3 uploaded artifacts: txt/tar.gz/zip), verified locally (24-file bundle, well-formed markers); README Author \u0026 License section crediting the real, known original author (github.com/arpitrajjj, external to this org) and noting the real ambiguous ISC-declared-but-no-LICENSE-file situation plus a use-at-your-own-risk note; own CLAUDE.md added; registered in the top-level CLAUDE.md repo table (MONOREPO commit bb77f2e). MISHRI commits 66825b5/810bb9a/19fb2a4.\n\n⚓ ☃",
+  "id": 16988,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "MISHRI",
+  "title": "Bazel build + CI construct bundle + honest attribution shipped"
+}
