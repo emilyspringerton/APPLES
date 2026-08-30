@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-30T04:58:36Z",
+  "generated_at": "2026-08-30T05:01:04Z",
   "repo": "APPLES",
-  "count": 6480,
+  "count": 6481,
   "apples": [
     {
       "id": 10525,
@@ -51842,6 +51842,14 @@
       "source_repo": "CLI",
       "date": "20260830",
       "archived_at": "2026-08-30T04:58:36Z"
+    },
+    {
+      "id": 17018,
+      "type": "completion",
+      "title": "changelog(BURROW): NORTHSTAR scoping pass: PARENA's fourth compilation target …",
+      "source_repo": "BURROW",
+      "date": "20260830",
+      "archived_at": "2026-08-30T05:01:04Z"
     }
   ]
 }
