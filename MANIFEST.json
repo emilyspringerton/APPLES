@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-30T17:15:15Z",
+  "generated_at": "2026-08-30T17:20:47Z",
   "repo": "APPLES",
-  "count": 6629,
+  "count": 6630,
   "apples": [
     {
       "id": 10525,
@@ -53034,6 +53034,14 @@
       "source_repo": "LO",
       "date": "20260830",
       "archived_at": "2026-08-30T17:15:15Z"
+    },
+    {
+      "id": 17167,
+      "type": "completion",
+      "title": "Real left-associative arith chains, any primary operand (found and fixed a real gap)",
+      "source_repo": "LO",
+      "date": "20260830",
+      "archived_at": "2026-08-30T17:20:47Z"
     }
   ]
 }
