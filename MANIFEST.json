@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-30T05:13:31Z",
+  "generated_at": "2026-08-30T05:13:33Z",
   "repo": "APPLES",
-  "count": 6490,
+  "count": 6491,
   "apples": [
     {
       "id": 10525,
@@ -51922,6 +51922,14 @@
       "source_repo": "TYLER",
       "date": "20260830",
       "archived_at": "2026-08-30T05:13:31Z"
+    },
+    {
+      "id": 17028,
+      "type": "completion",
+      "title": "changelog(BURROW): Real burrow CLI shell (go.mod/main.go): parse/analyze/build…",
+      "source_repo": "BURROW",
+      "date": "20260830",
+      "archived_at": "2026-08-30T05:13:33Z"
     }
   ]
 }
