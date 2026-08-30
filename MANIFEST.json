@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-30T10:27:15Z",
+  "generated_at": "2026-08-30T10:39:52Z",
   "repo": "APPLES",
-  "count": 6547,
+  "count": 6548,
   "apples": [
     {
       "id": 10525,
@@ -52378,6 +52378,14 @@
       "source_repo": "CLI",
       "date": "20260830",
       "archived_at": "2026-08-30T10:27:15Z"
+    },
+    {
+      "id": 17085,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: need to start the kubernetes migration, look up the plan in fatbaby, all …",
+      "source_repo": "CLI",
+      "date": "20260830",
+      "archived_at": "2026-08-30T10:39:52Z"
     }
   ]
 }
