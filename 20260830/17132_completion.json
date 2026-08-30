@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-30T15:34:34Z",
+  "body": "Implements GRAMMAR.md §1's full lexical grammar -- exact codepoint table, variation-selector matching rule (strip trailing VS15/VS16, reject ZWJ as fatal), VECLIT as one exact literal token. 5 real tests pass: GRAMMAR.md's own worked example, the repo's existing examples/xor_check.llll sample, VS16 equivalence, ZWJ rejection, unrecognized-char handling. go build/test/vet clean. Parser/emitter still to come -- lexer only so far. LO commit 5f74f69.\n\n⚓ ☃",
+  "id": 17132,
+  "metadata": null,
+  "run_id": "sess-20260830-1207-cc0ba7da",
+  "source_repo": "LO",
+  "title": "Phase 1 begins: real LO lexer (internal/lexer, Go)"
+}
