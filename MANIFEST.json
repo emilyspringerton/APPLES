@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-30T14:55:04Z",
+  "generated_at": "2026-08-30T14:55:21Z",
   "repo": "APPLES",
-  "count": 6581,
+  "count": 6582,
   "apples": [
     {
       "id": 10525,
@@ -52650,6 +52650,14 @@
       "source_repo": "CLI",
       "date": "20260830",
       "archived_at": "2026-08-30T14:55:04Z"
+    },
+    {
+      "id": 17119,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time, continued FLASH/HypriotOS thread: EmilyOS for the Raspberry Pi, Bazel-pow…",
+      "source_repo": "CLI",
+      "date": "20260830",
+      "archived_at": "2026-08-30T14:55:21Z"
     }
   ]
 }
