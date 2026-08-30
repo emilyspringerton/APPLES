@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-30T14:42:58Z",
+  "body": "Root cause: .bashrc's stale GOOGLE_GENAI_USE_VERTEXAI=true conflicted with ~/.gemini/settings.json's gemini-api-key auth mode. Verified the plain key works directly via curl first, then fixed .bashrc (Vertex vars commented not deleted, GEMINI_API_KEY exported) and wrote tmux-gemini-session.sh (same survivability pattern as tmux-session.sh, defaults to -m gemini-2.5-flash since gemini-3.1-pro has zero free-tier quota). Verified in a genuinely clean shell. Real end-to-end test got past auth AND model routing, then hit a real, different, final blocker: 429 prepayment credits depleted on project einhorn-mjolnir -- a real GCP billing state, not fixable from this session, needs founder action at ai.studio/projects.\n\n⚓ ☃",
+  "id": 17116,
+  "metadata": null,
+  "run_id": "sess-20260830-1207-cc0ba7da",
+  "source_repo": "EMILY",
+  "title": "Fixed gemini CLI auth (API_KEY_INVALID); real billing blocker found beyond that"
+}

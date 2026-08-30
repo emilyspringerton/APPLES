@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-30T14:28:59Z",
+  "generated_at": "2026-08-30T14:42:58Z",
   "repo": "APPLES",
-  "count": 6578,
+  "count": 6579,
   "apples": [
     {
       "id": 10525,
@@ -52626,6 +52626,14 @@
       "source_repo": "IDUNA",
       "date": "20260830",
       "archived_at": "2026-08-30T14:28:59Z"
+    },
+    {
+      "id": 17116,
+      "type": "completion",
+      "title": "Fixed gemini CLI auth (API_KEY_INVALID); real billing blocker found beyond that",
+      "source_repo": "EMILY",
+      "date": "20260830",
+      "archived_at": "2026-08-30T14:42:58Z"
     }
   ]
 }
