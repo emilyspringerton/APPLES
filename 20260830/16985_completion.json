@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-30T03:34:39Z",
+  "body": "Founder real-time: 'go ahead with the entity and inventory system simple but trackable gta3 style stuff drops and you can pick it up ffxi style list affordances first so we also support controller' / 'all parena mod api based developed'. Shipped: 3 new PARENA mods (item_drop_mod, inventory_mod, pickup_mod), PC_PACKET_ENTITY_SPAWN/DESPAWN + PC_PACKET_INVENTORY_UPDATE wire protocol (event-driven, PcSnapshotPacket unaffected at 1436 bytes), server-side bounded entity array + auto-pickup tick, real add/merge/stack-cap logic in a new pure header (packages/common/papercraft_inventory.h), client FFXI-style list inventory overlay + basic SDL_GameController support (movement/look/jump/interact/inventory-toggle-and-navigate). Founder real-time feedback mid-session ('can we rewerite whatever you are doing in native code not in python i dont know it takes a long time' / 'can we make it a native test?') led to dropping a throwaway Python UDP probe in favor of a real, permanent, fast cc_test (papercraft_inventory_test, 14 assertions). Found and fixed a real VS0 symbol-collision bug (two mods sharing a private helper name) along the way. Verified: bazel build (36 targets) + bazel test (17/17). PAPERCRAFT commit 0336ef9, PARENA commit 6dea971. bin/papercraft_server rebuilt in place; sudo-queue/43 queued for founder restart.\n\n⚓ ☃",
+  "id": 16985,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "PAPERCRAFT",
+  "title": "Entity + inventory system shipped: GTA3 drops, FFXI list UI, controller support"
+}

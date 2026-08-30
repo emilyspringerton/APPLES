@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-30T03:34:21Z",
+  "generated_at": "2026-08-30T03:34:39Z",
   "repo": "APPLES",
-  "count": 6447,
+  "count": 6448,
   "apples": [
     {
       "id": 10525,
@@ -51578,6 +51578,14 @@
       "source_repo": "PARENA",
       "date": "20260830",
       "archived_at": "2026-08-30T03:34:21Z"
+    },
+    {
+      "id": 16985,
+      "type": "completion",
+      "title": "Entity + inventory system shipped: GTA3 drops, FFXI list UI, controller support",
+      "source_repo": "PAPERCRAFT",
+      "date": "20260830",
+      "archived_at": "2026-08-30T03:34:39Z"
     }
   ]
 }
