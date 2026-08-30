@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-30T12:19:29Z",
+  "generated_at": "2026-08-30T13:13:35Z",
   "repo": "APPLES",
-  "count": 6562,
+  "count": 6563,
   "apples": [
     {
       "id": 10525,
@@ -52498,6 +52498,14 @@
       "source_repo": "emily.cli",
       "date": "20260830",
       "archived_at": "2026-08-30T12:19:29Z"
+    },
+    {
+      "id": 17100,
+      "type": "signal_observation",
+      "title": "[INFO] ctrl a left does not do what you would expect in a text editor",
+      "source_repo": "CLI",
+      "date": "20260830",
+      "archived_at": "2026-08-30T13:13:35Z"
     }
   ]
 }
