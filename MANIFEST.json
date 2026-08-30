@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-30T02:09:14Z",
+  "generated_at": "2026-08-30T02:09:47Z",
   "repo": "APPLES",
-  "count": 6422,
+  "count": 6423,
   "apples": [
     {
       "id": 10525,
@@ -51378,6 +51378,14 @@
       "source_repo": "CLI",
       "date": "20260830",
       "archived_at": "2026-08-30T02:09:14Z"
+    },
+    {
+      "id": 16960,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: \"use the 1978 architecture doc in engine\" -- found engine/1978_architectu…",
+      "source_repo": "CLI",
+      "date": "20260830",
+      "archived_at": "2026-08-30T02:09:47Z"
     }
   ]
 }
