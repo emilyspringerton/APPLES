@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-30T06:05:53Z",
+  "body": "parser.go: real, faithful hand-port of PARENA/src/parser.c+ast.h, verified against all 14 real test_lexer_parser.c scenarios (balanced + all 5 DoD malformed cases), go build/go vet/go test clean (23/23 total w/ lexer). Stress-tested against all 111 real .prn files in stdlib+selfhost, zero failures; structurally cross-checked against parena parse's own dump on stdlib/base4/algebra.prn -- exact match (246 nodes, 13 top-level forms). New DUNG.md: 'the BURROW editor,' scoping-only doc for a unified terminal+editor rewriting PITVIPER + PARENA's stdlib/editor into one Go+PARENA app inside BURROW. Real UX foundation adopted directly from EmilyOS/docs/legacy-archive/gui-v0.1-design-capture.md (already-written tmux x i3 hybrid layout + double-click-speed interaction contract -- a direct match for the founder's own 'use i3 primitives'/'EMILY os design primatives' asks, found not invented). Real non-goal named: PITVIPER itself untouched, same SAND precedent. No DUNG code yet -- real Phase 0/1 named for next pass. Commits f1a0812/a25712d.\n\n⚓ ☃",
+  "id": 17052,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "BURROW",
+  "title": "Phase 2 parser parity shipped + DUNG scoping doc (the BURROW editor)"
+}

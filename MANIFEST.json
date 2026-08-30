@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-30T06:04:51Z",
+  "generated_at": "2026-08-30T06:05:53Z",
   "repo": "APPLES",
-  "count": 6514,
+  "count": 6515,
   "apples": [
     {
       "id": 10525,
@@ -52114,6 +52114,14 @@
       "source_repo": "BURROW",
       "date": "20260830",
       "archived_at": "2026-08-30T06:04:51Z"
+    },
+    {
+      "id": 17052,
+      "type": "completion",
+      "title": "Phase 2 parser parity shipped + DUNG scoping doc (the BURROW editor)",
+      "source_repo": "BURROW",
+      "date": "20260830",
+      "archived_at": "2026-08-30T06:05:53Z"
     }
   ]
 }
