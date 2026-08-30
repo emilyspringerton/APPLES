@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-30T14:16:05Z",
+  "generated_at": "2026-08-30T14:20:36Z",
   "repo": "APPLES",
-  "count": 6568,
+  "count": 6569,
   "apples": [
     {
       "id": 10525,
@@ -52546,6 +52546,14 @@
       "source_repo": "PARENA",
       "date": "20260830",
       "archived_at": "2026-08-30T14:16:05Z"
+    },
+    {
+      "id": 17106,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: add DCGAN primitives to PARENA",
+      "source_repo": "CLI",
+      "date": "20260830",
+      "archived_at": "2026-08-30T14:20:36Z"
     }
   ]
 }
