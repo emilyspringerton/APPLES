@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-30T15:41:12Z",
+  "generated_at": "2026-08-30T15:41:57Z",
   "repo": "APPLES",
-  "count": 6598,
+  "count": 6599,
   "apples": [
     {
       "id": 10525,
@@ -52786,6 +52786,14 @@
       "source_repo": "PARENA",
       "date": "20260830",
       "archived_at": "2026-08-30T15:41:12Z"
+    },
+    {
+      "id": 17136,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: add PARENA stdlib for date/time formatting, using the same 'magic referen…",
+      "source_repo": "CLI",
+      "date": "20260830",
+      "archived_at": "2026-08-30T15:41:57Z"
     }
   ]
 }
