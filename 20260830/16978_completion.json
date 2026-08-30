@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-30T03:09:40Z",
+  "body": "Founder real-time: 'can we build the tyler phone mechanics into papercraft as PARENA mod api first development using the document in TYLER/engine/tyler_phone_mechanics.md'. Shipped Phase 1 (Messages app + notification banner only): PARENA/stdlib/papercraft/phone_mod.prn -\u003e packages/simulation/phone_mod.c, PC_PACKET_PHONE_MESSAGE=7 / PcPhoneMessagePacket in papercraft_protocol.h (deliberate fixed-binary-struct departure from the source spec's own JSON design), server dispatch at the same trigger xp_award_mod uses, client draw_phone_notification banner. Verified: bazel build (29 targets) + bazel test (13/13) + live UDP probe against an isolated scratch-port instance (own HMAC ticket minting) confirming real dispatch; found and fixed a real, separate spawn_player bug along the way (stale latest_cmd_seq on slot reuse could silently drop a new player's movement -- matches the founder's earlier 'this version i cant do anything' report). PAPERCRAFT commit cf2c9d3, PARENA commit da552b4. bin/papercraft_server rebuilt in place; sudo-queue/42 queued for founder restart.\n\n⚓ ☃",
+  "id": 16978,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "PAPERCRAFT",
+  "title": "TYLER phone mechanics Phase 1 shipped + spawn_player seq-reset bug fixed"
+}
