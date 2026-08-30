@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-30T04:57:35Z",
+  "generated_at": "2026-08-30T04:57:41Z",
   "repo": "APPLES",
-  "count": 6478,
+  "count": 6479,
   "apples": [
     {
       "id": 10525,
@@ -51826,6 +51826,14 @@
       "source_repo": "PARENA",
       "date": "20260830",
       "archived_at": "2026-08-30T04:57:35Z"
+    },
+    {
+      "id": 17016,
+      "type": "completion",
+      "title": "Real v0 Java emitter shipped -- third PARENA compilation target",
+      "source_repo": "PARENA",
+      "date": "20260830",
+      "archived_at": "2026-08-30T04:57:41Z"
     }
   ]
 }

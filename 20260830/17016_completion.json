@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-30T04:57:40Z",
+  "body": "src/emit_java.c/.h wired into parena build's -o extension dispatch (.java). Same narrow v0 scope as emit_ts.c (scalar params, one-expression body, shared math/* primitive table via java.lang.Math's real name overlap with JS Math). Two real Java-specific differences: = -\u003e ==, and every defn wrapped in one public final class matching the output basename (javac requirement). tests/test_emit_java.c: 23 assertions, bazel test //tests:test_emit_java passes. Verified with a real javac (JDK 25.0.4, EINHORN_SURVIVAL/jdk25): the same unmodified stdlib/mishri/bezier_interp.prn + humanness.prn already proven for C and TS compiled a third time, actually javac'd to .class with zero errors, smoke-tested via a real Main.java. Commit 2cebd07.\n\n⚓ ☃",
+  "id": 17016,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "PARENA",
+  "title": "Real v0 Java emitter shipped -- third PARENA compilation target"
+}
