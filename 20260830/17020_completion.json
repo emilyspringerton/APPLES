@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-30T05:01:14Z",
+  "body": "New repo, upstream GitHub pre-created by founder. Real, direct answer to 'design it to run with the gc turned off': Go's debug.SetGCPercent(-1)/GOGC=off are real stdlib mechanisms but disabling GC is a whole-process host decision, not an emitter feature -- what v0 scope guarantees: generated functions never allocate on the Go heap by construction (same narrow scalar-param, one-expression-body shape as emit_ts.c/emit_java.c), making GC-off safe for a real host (GoblinFoxDragon's Go backend named candidate). Two Go-specific differences flagged ahead of implementation: if -\u003e IIFE (no ternary in Go), conditional math/rand import. Registered in monorepo CLAUDE.md + golden-docs-index (BURROW-NORTH). Commits 244aab3/3af5c69. Scoping only, no emit_go code yet -- next real step is the emitter itself, same template as emit_ts.c/emit_java.c.\n\n⚓ ☃",
+  "id": 17020,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "BURROW",
+  "title": "BURROW NORTHSTAR scoping pass -- PARENA's 4th compilation target (Go, GC-off design)"
+}

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-30T05:01:08Z",
+  "generated_at": "2026-08-30T05:01:14Z",
   "repo": "APPLES",
-  "count": 6482,
+  "count": 6483,
   "apples": [
     {
       "id": 10525,
@@ -51858,6 +51858,14 @@
       "source_repo": "emily",
       "date": "20260830",
       "archived_at": "2026-08-30T05:01:08Z"
+    },
+    {
+      "id": 17020,
+      "type": "completion",
+      "title": "BURROW NORTHSTAR scoping pass -- PARENA's 4th compilation target (Go, GC-off design)",
+      "source_repo": "BURROW",
+      "date": "20260830",
+      "archived_at": "2026-08-30T05:01:14Z"
     }
   ]
 }
