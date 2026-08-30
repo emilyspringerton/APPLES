@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-30T03:14:39Z",
+  "generated_at": "2026-08-30T03:21:50Z",
   "repo": "APPLES",
-  "count": 6443,
+  "count": 6444,
   "apples": [
     {
       "id": 10525,
@@ -51546,6 +51546,14 @@
       "source_repo": "CLI",
       "date": "20260830",
       "archived_at": "2026-08-30T03:14:39Z"
+    },
+    {
+      "id": 16981,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time (new, separate repo): MISHRI (forked from an unknown author, unclear/ambig…",
+      "source_repo": "CLI",
+      "date": "20260830",
+      "archived_at": "2026-08-30T03:21:50Z"
     }
   ]
 }
