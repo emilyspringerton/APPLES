@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-30T10:00:55Z",
+  "generated_at": "2026-08-30T10:14:57Z",
   "repo": "APPLES",
-  "count": 6545,
+  "count": 6546,
   "apples": [
     {
       "id": 10525,
@@ -52362,6 +52362,14 @@
       "source_repo": "CLI",
       "date": "20260830",
       "archived_at": "2026-08-30T10:00:55Z"
+    },
+    {
+      "id": 17083,
+      "type": "completion",
+      "title": "DUNG — real bazel build succeeds; first real PARENA entry attempt",
+      "source_repo": "DUNG",
+      "date": "20260830",
+      "archived_at": "2026-08-30T10:14:57Z"
     }
   ]
 }

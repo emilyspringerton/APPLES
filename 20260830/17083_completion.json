@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-30T10:14:57Z",
+  "body": "Founder real-time: continue DUNG, ensure artifacts+bazel builds once we have an entrypoint, then try to write the entry in parena. Root-caused the real cgo/pkg-config gap: gazelle never invokes pkg-config generating go_repository BUILD files and doesn't reliably translate #cgo CFLAGS/LDFLAGS either. Fixed via a hand-authored sdl/BUILD.bazel (real pkg-config values inlined) + gazelle generation off for that module, applied as a diff-generated patch. bazel build //... succeeds (54 actions); ran the real bazel-bin binary under Xvfb, verified identical correct rendering to the plain-go-build proof. Separately: ported two real scalar decision-logic pieces (split-size, next-focus-index) from main.go into real PARENA source -- burrow parse/analyze/build all clean, gcc-verified against real assertions. Found the precise next boundary via a deliberate probe: defstruct parses/region-analyzes but burrow build rejects it at the top-level-form dispatch stage -- fed back into BURROW/NORTHSTAR.md. DUNG commit e1dea0b, BURROW commit fc706c4.\n\n⚓ ☃",
+  "id": 17083,
+  "metadata": null,
+  "run_id": "sess-20260830-0908-5ede695f",
+  "source_repo": "DUNG",
+  "title": "DUNG — real bazel build succeeds; first real PARENA entry attempt"
+}
