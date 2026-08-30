@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-30T16:38:57Z",
+  "generated_at": "2026-08-30T16:38:58Z",
   "repo": "APPLES",
-  "count": 6622,
+  "count": 6623,
   "apples": [
     {
       "id": 10525,
@@ -52978,6 +52978,14 @@
       "source_repo": "CLI",
       "date": "20260830",
       "archived_at": "2026-08-30T16:38:57Z"
+    },
+    {
+      "id": 17160,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: build word processing/spell-check/autocomplete first, as VS1-2 phase goals",
+      "source_repo": "CLI",
+      "date": "20260830",
+      "archived_at": "2026-08-30T16:38:58Z"
     }
   ]
 }
