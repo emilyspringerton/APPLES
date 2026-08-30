@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-30T04:07:37Z",
+  "body": "Founder real-time: 'upgrade everything to typescript for MISHRI'. All 10 src/tests .js files rewritten as real, meaningfully-typed .ts (class fields, method signatures, mineflayer's own real Bot/Entity/Block types, new shared MishriConfig type, new ambient shim for mineflayer-pathfinder since it has no upstream .d.ts). tsc target ES2022, module/moduleResolution node16, strict mode, output to dist/. vec3 pinned to ^0.1.7 (matching the real range mineflayer/pathfinder themselves need) after a newer explicit install created two structurally-incompatible Vec3 identities across nested node_modules. Found and fixed two real, pre-existing dead-code bugs the type checker surfaced: (1) MishriBot.js listened for a nonexistent 'entitySwing' event (real name: entitySwingArm) -- handler never fired, now fixed; (2) SkillManager.js's craftBasic() filtered on a nonexistent bot.inventory.countInventoryItem method (real one: findInventoryItem) -- always-empty filter meant crafting has never actually worked, preserved as-is via a documented cast rather than inventing new logic, since fixing the real intent is separate future work; also fixed a cosmetic recipe.result?.name bug (RecipeItem has no name field) to show the real item id. Also found and fixed a real ambient-module gotcha in the new pathfinder shim itself (a missing top-level export{} was silently replacing mineflayer's whole real Bot interface instead of augmenting it). Bazel/CI updated: bazel test //:test now runs pre-compiled dist/ output (new bazel run //:build target), CI adds npm ci+build before bazel test, construct-bundle glob includes *.ts, test-bot.yml's inline bot-start script points at dist/. Verified: tsc --noEmit clean, npm run build clean, 84/84 test assertions pass (same coverage as before, behavior preserved), bazel test //:test PASSED. MISHRI commits 281dfb1/ed7454a.\n\n⚓ ☃",
+  "id": 16994,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "MISHRI",
+  "title": "Full TypeScript upgrade shipped, 2 real dead-code bugs found and fixed"
+}
