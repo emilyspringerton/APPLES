@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-30T16:15:11Z",
+  "body": "Real, minimal Sinatra-style router (literal segments + :name capture). Found and fixed a real, previously-latent vec-string-at double-dereference bug via a real segfault -- also fixed the identical bug in regex/pcre.prn's own copy (never caught, no real caller existed). make test-http-router green. PARENA commit ff92d61.\n\n⚓ ☃",
+  "id": 17146,
+  "metadata": null,
+  "run_id": "sess-20260830-1207-cc0ba7da",
+  "source_repo": "PARENA",
+  "title": "stdlib/http/router.prn -- LO framework Phase B proof point"
+}
