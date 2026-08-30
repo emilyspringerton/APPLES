@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-30T05:10:52Z",
+  "generated_at": "2026-08-30T05:13:27Z",
   "repo": "APPLES",
-  "count": 6487,
+  "count": 6488,
   "apples": [
     {
       "id": 10525,
@@ -51898,6 +51898,14 @@
       "source_repo": "CLI",
       "date": "20260830",
       "archived_at": "2026-08-30T05:10:52Z"
+    },
+    {
+      "id": 17025,
+      "type": "completion",
+      "title": "changelog(PARENA): New stdlib/tyler/ package: cutscene_mod.prn, real decision …",
+      "source_repo": "PARENA",
+      "date": "20260830",
+      "archived_at": "2026-08-30T05:13:27Z"
     }
   ]
 }
