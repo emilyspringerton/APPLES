@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-30T14:58:03Z",
+  "generated_at": "2026-08-30T14:58:46Z",
   "repo": "APPLES",
-  "count": 6585,
+  "count": 6586,
   "apples": [
     {
       "id": 10525,
@@ -52682,6 +52682,14 @@
       "source_repo": "emily.cli",
       "date": "20260830",
       "archived_at": "2026-08-30T14:58:03Z"
+    },
+    {
+      "id": 17123,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time, FLASH naming clarification: our own fork is renamed 'FLASH' (doesn't matc…",
+      "source_repo": "CLI",
+      "date": "20260830",
+      "archived_at": "2026-08-30T14:58:46Z"
     }
   ]
 }
