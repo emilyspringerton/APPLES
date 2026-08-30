@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-30T04:42:35Z",
+  "generated_at": "2026-08-30T04:44:41Z",
   "repo": "APPLES",
-  "count": 6472,
+  "count": 6473,
   "apples": [
     {
       "id": 10525,
@@ -51778,6 +51778,14 @@
       "source_repo": "CLI",
       "date": "20260830",
       "archived_at": "2026-08-30T04:42:35Z"
+    },
+    {
+      "id": 17010,
+      "type": "completion",
+      "title": "changelog(PAPERCRAFT): New docs/NORTHSTAR_WEB_CLIENT.md -- real scoping pass for a…",
+      "source_repo": "PAPERCRAFT",
+      "date": "20260830",
+      "archived_at": "2026-08-30T04:44:41Z"
     }
   ]
 }
