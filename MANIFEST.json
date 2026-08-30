@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-30T16:38:48Z",
+  "generated_at": "2026-08-30T16:38:50Z",
   "repo": "APPLES",
-  "count": 6617,
+  "count": 6618,
   "apples": [
     {
       "id": 10525,
@@ -52938,6 +52938,14 @@
       "source_repo": "CLI",
       "date": "20260830",
       "archived_at": "2026-08-30T16:38:48Z"
+    },
+    {
+      "id": 17155,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: vs0 in papercraft",
+      "source_repo": "CLI",
+      "date": "20260830",
+      "archived_at": "2026-08-30T16:38:50Z"
     }
   ]
 }
