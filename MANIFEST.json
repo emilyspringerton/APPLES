@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-30T03:49:38Z",
+  "generated_at": "2026-08-30T03:50:28Z",
   "repo": "APPLES",
-  "count": 6453,
+  "count": 6454,
   "apples": [
     {
       "id": 10525,
@@ -51626,6 +51626,14 @@
       "source_repo": "MISHRI",
       "date": "20260830",
       "archived_at": "2026-08-30T03:49:38Z"
+    },
+    {
+      "id": 16991,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: upgrade MISHRI entirely to TypeScript (all src/tests files converted from…",
+      "source_repo": "CLI",
+      "date": "20260830",
+      "archived_at": "2026-08-30T03:50:28Z"
     }
   ]
 }
