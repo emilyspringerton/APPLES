@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-30T14:23:12Z",
+  "generated_at": "2026-08-30T14:25:09Z",
   "repo": "APPLES",
-  "count": 6572,
+  "count": 6573,
   "apples": [
     {
       "id": 10525,
@@ -52578,6 +52578,14 @@
       "source_repo": "emily.cli",
       "date": "20260830",
       "archived_at": "2026-08-30T14:23:12Z"
+    },
+    {
+      "id": 17110,
+      "type": "completion",
+      "title": "README art from prompt-o-verse (emily-emoji)",
+      "source_repo": "LO",
+      "date": "20260830",
+      "archived_at": "2026-08-30T14:25:09Z"
     }
   ]
 }
