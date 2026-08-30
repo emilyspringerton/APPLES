@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-30T15:40:28Z",
+  "generated_at": "2026-08-30T15:41:12Z",
   "repo": "APPLES",
-  "count": 6597,
+  "count": 6598,
   "apples": [
     {
       "id": 10525,
@@ -52778,6 +52778,14 @@
       "source_repo": "CLI",
       "date": "20260830",
       "archived_at": "2026-08-30T15:40:28Z"
+    },
+    {
+      "id": 17135,
+      "type": "completion",
+      "title": "stdlib/mag/gematria.prn -- PARENA playground port of the mag book",
+      "source_repo": "PARENA",
+      "date": "20260830",
+      "archived_at": "2026-08-30T15:41:12Z"
     }
   ]
 }
