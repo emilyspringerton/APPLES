@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-30T15:07:28Z",
+  "generated_at": "2026-08-30T15:07:39Z",
   "repo": "APPLES",
-  "count": 6589,
+  "count": 6590,
   "apples": [
     {
       "id": 10525,
@@ -52714,6 +52714,14 @@
       "source_repo": "CLI",
       "date": "20260830",
       "archived_at": "2026-08-30T15:07:28Z"
+    },
+    {
+      "id": 17127,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time, sequencing: Bazel-ize FLASH first, before other FLASH work",
+      "source_repo": "CLI",
+      "date": "20260830",
+      "archived_at": "2026-08-30T15:07:39Z"
     }
   ]
 }
