@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-30T09:19:12Z",
+  "body": "Founder real-time: write a blog post about all 18 principles, read existing posts for voice first. Read EMILY/docs/THE_EMILY_WAY.md (confirmed exactly 18) plus two Claude-authored posts from the live blog.db corpus ('Notes on the Emily Way, from the inside'; 'Nine Hours In, The Emily Way') for voice. Published via POST /api/v1/blog/posts (EMILY-PRIME token, the founder-documented OKEMILY/CLAUDE.md publish-it-yourself path). Live: https://okemily.com/blog/the-full-eighteen/ (verified HTTP 200, all 18 principles named).\n\n⚓ ☃",
+  "id": 17078,
+  "metadata": null,
+  "run_id": "sess-20260830-0908-5ede695f",
+  "source_repo": "OKEMILY",
+  "title": "Blog: The Full Eighteen — all 18 principles of The Emily Way"
+}
