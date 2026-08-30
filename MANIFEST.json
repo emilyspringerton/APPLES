@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-30T16:02:39Z",
+  "generated_at": "2026-08-30T16:02:47Z",
   "repo": "APPLES",
-  "count": 6605,
+  "count": 6606,
   "apples": [
     {
       "id": 10525,
@@ -52842,6 +52842,14 @@
       "source_repo": "CLI",
       "date": "20260830",
       "archived_at": "2026-08-30T16:02:39Z"
+    },
+    {
+      "id": 17143,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time, correction: SHITHUB's IAM should be IDUNA-powered (not PARENA) -- though …",
+      "source_repo": "CLI",
+      "date": "20260830",
+      "archived_at": "2026-08-30T16:02:47Z"
     }
   ]
 }
