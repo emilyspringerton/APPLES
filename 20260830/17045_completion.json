@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-30T05:52:19Z",
+  "body": "Founder uploaded examples/engine.py.txt directly to PARENA (a complete 'CUSTOM BASE-4 / BINARY ALGEBRA LAB'), then: 'add to parena stdlibs.' stdlib/base4/algebra.prn ports the real algebra core -- symbol-zero/one/minus/plus (named I32 codes), base4-xor/and/or (direct bit-xor/bit-and/bit-or reuse), base4-add/subtract (mod-4, with a real, documented, tested C-vs-Python modulo sign correctness fix), base4-iterate/base4-cycle-length (real VS0 typed Fn-callback support, taking an operation as a first-class argument matching the Python original's own design). base4-cycle-length surfaces a real, provable pigeonhole property (4-state space -\u003e every orbit cycles within 4 steps) verified via 24 hand-traced assertions in tests/test_base4.c, make test-base4 green, -Werror clean, zero regressions across the rest of the suite. Deliberately narrow v0: base-4-number/binary-stream generation, frequency counting, and pattern search NOT ported. STDLIB.md documented. Commits ea014e4/97a774a/ae92dc7.\n\n⚓ ☃",
+  "id": 17045,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "PARENA",
+  "title": "New stdlib/base4 package -- real port of the uploaded base-4 algebra lab, verified"
+}

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-30T05:51:52Z",
+  "generated_at": "2026-08-30T05:52:19Z",
   "repo": "APPLES",
-  "count": 6507,
+  "count": 6508,
   "apples": [
     {
       "id": 10525,
@@ -52058,6 +52058,14 @@
       "source_repo": "PARENA",
       "date": "20260830",
       "archived_at": "2026-08-30T05:51:52Z"
+    },
+    {
+      "id": 17045,
+      "type": "completion",
+      "title": "New stdlib/base4 package -- real port of the uploaded base-4 algebra lab, verified",
+      "source_repo": "PARENA",
+      "date": "20260830",
+      "archived_at": "2026-08-30T05:52:19Z"
     }
   ]
 }
