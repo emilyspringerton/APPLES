@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-30T11:16:24Z",
+  "generated_at": "2026-08-30T11:17:32Z",
   "repo": "APPLES",
-  "count": 6553,
+  "count": 6554,
   "apples": [
     {
       "id": 10525,
@@ -52426,6 +52426,14 @@
       "source_repo": "DUNG",
       "date": "20260830",
       "archived_at": "2026-08-30T11:16:24Z"
+    },
+    {
+      "id": 17091,
+      "type": "completion",
+      "title": "Real Helm chart for dashboard (charts/dashboard/)",
+      "source_repo": "PRRJECT_FATBABY",
+      "date": "20260830",
+      "archived_at": "2026-08-30T11:17:32Z"
     }
   ]
 }
