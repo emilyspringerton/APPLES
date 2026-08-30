@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-30T14:22:19Z",
+  "body": "Base4Matrix (flat row-major, matching array.prn's NDArray convention). rows/cols/dims-eq/stack2 (2-row)/matrix-eq/matmul. Two real compiler gaps found and flagged: sibling same-named loop bindings collide at C emission (worked around); matmul's accumulator hits the same double-boxing bug already confirmed on base4/vector.prn's dot (verified directly, not fixed -- same cross-cutting issue). make test-base4-matrix green, -Werror clean. PARENA commit 8f56f97.\n\n⚓ ☃",
+  "id": 17107,
+  "metadata": null,
+  "run_id": "sess-20260830-1207-cc0ba7da",
+  "source_repo": "PARENA",
+  "title": "stdlib/base4/matrix.prn -- LO STACK/MATMUL stdlib target (S208-06)"
+}

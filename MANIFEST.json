@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-30T14:20:36Z",
+  "generated_at": "2026-08-30T14:22:19Z",
   "repo": "APPLES",
-  "count": 6569,
+  "count": 6570,
   "apples": [
     {
       "id": 10525,
@@ -52554,6 +52554,14 @@
       "source_repo": "CLI",
       "date": "20260830",
       "archived_at": "2026-08-30T14:20:36Z"
+    },
+    {
+      "id": 17107,
+      "type": "completion",
+      "title": "stdlib/base4/matrix.prn -- LO STACK/MATMUL stdlib target (S208-06)",
+      "source_repo": "PARENA",
+      "date": "20260830",
+      "archived_at": "2026-08-30T14:22:19Z"
     }
   ]
 }
