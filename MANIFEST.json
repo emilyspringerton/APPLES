@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-30T15:06:01Z",
+  "generated_at": "2026-08-30T15:06:54Z",
   "repo": "APPLES",
-  "count": 6587,
+  "count": 6588,
   "apples": [
     {
       "id": 10525,
@@ -52698,6 +52698,14 @@
       "source_repo": "CLI",
       "date": "20260830",
       "archived_at": "2026-08-30T15:06:01Z"
+    },
+    {
+      "id": 17125,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time, continued FLASH/parenify thread: write USB primitives into PARENA stdlib",
+      "source_repo": "CLI",
+      "date": "20260830",
+      "archived_at": "2026-08-30T15:06:54Z"
     }
   ]
 }
