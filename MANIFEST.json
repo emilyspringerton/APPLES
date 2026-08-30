@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-30T16:24:21Z",
+  "generated_at": "2026-08-30T16:25:33Z",
   "repo": "APPLES",
-  "count": 6611,
+  "count": 6612,
   "apples": [
     {
       "id": 10525,
@@ -52890,6 +52890,14 @@
       "source_repo": "LO",
       "date": "20260830",
       "archived_at": "2026-08-30T16:24:21Z"
+    },
+    {
+      "id": 17149,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: build a word processor into JEWEL, reusing SARENA_NOTEBOOK's own infrastr…",
+      "source_repo": "CLI",
+      "date": "20260830",
+      "archived_at": "2026-08-30T16:25:33Z"
     }
   ]
 }
