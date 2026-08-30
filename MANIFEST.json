@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-30T02:53:12Z",
+  "generated_at": "2026-08-30T02:53:56Z",
   "repo": "APPLES",
-  "count": 6436,
+  "count": 6437,
   "apples": [
     {
       "id": 10525,
@@ -51490,6 +51490,14 @@
       "source_repo": "CLI",
       "date": "20260830",
       "archived_at": "2026-08-30T02:53:12Z"
+    },
+    {
+      "id": 16974,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time (further clarifying the entity-system ask): the real driver is being able …",
+      "source_repo": "CLI",
+      "date": "20260830",
+      "archived_at": "2026-08-30T02:53:56Z"
     }
   ]
 }
