@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-30T12:10:30Z",
+  "generated_at": "2026-08-30T12:16:02Z",
   "repo": "APPLES",
-  "count": 6560,
+  "count": 6561,
   "apples": [
     {
       "id": 10525,
@@ -52482,6 +52482,14 @@
       "source_repo": "emily.cli",
       "date": "20260830",
       "archived_at": "2026-08-30T12:10:30Z"
+    },
+    {
+      "id": 17098,
+      "type": "completion",
+      "title": "Phase 0 formal grammar for LO",
+      "source_repo": "LO",
+      "date": "20260830",
+      "archived_at": "2026-08-30T12:16:02Z"
     }
   ]
 }

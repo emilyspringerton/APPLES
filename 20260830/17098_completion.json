@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-30T12:16:02Z",
+  "body": "GRAMMAR.md written per NORTHSTAR.md's phased plan: exact lexical token table (codepoints + variation-selector matching rule closing the emoji-tokenization-ambiguity gap), EBNF grammar, precedence/associativity, vector/matrix/row-extraction shapes, GROUP capture-group non-nesting fix. Re-derived 3 source-doc examples; one surfaces a genuine gap in the source's own casual example. Explicitly deferred items named (truthiness, unchecked-MATMUL, let-lowering blowup, loops/error-handling, EQ glyph identity). No lexer/parser code -- grammar only. LO commit f2ae276.\n\n⚓ ☃",
+  "id": 17098,
+  "metadata": null,
+  "run_id": "sess-20260830-1207-cc0ba7da",
+  "source_repo": "LO",
+  "title": "Phase 0 formal grammar for LO"
+}
