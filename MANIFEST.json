@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-30T09:16:37Z",
+  "generated_at": "2026-08-30T09:17:36Z",
   "repo": "APPLES",
-  "count": 6539,
+  "count": 6540,
   "apples": [
     {
       "id": 10525,
@@ -52314,6 +52314,14 @@
       "source_repo": "MONOREPO",
       "date": "20260830",
       "archived_at": "2026-08-30T09:16:37Z"
+    },
+    {
+      "id": 17077,
+      "type": "completion",
+      "title": "tmux-session.sh — add --continue per Principle 11",
+      "source_repo": "MONOREPO",
+      "date": "20260830",
+      "archived_at": "2026-08-30T09:17:36Z"
     }
   ]
 }

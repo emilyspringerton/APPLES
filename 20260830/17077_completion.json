@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-30T09:17:36Z",
+  "body": "Founder follow-up: 'make sure the skrip uses claude continue or whateva.' Added --continue to all three claude invocations in tmux-session.sh so a re-run after a dropped connection resumes prior context instead of starting blank, per THE_EMILY_WAY.md Principle 11. Commit 3206cd0, pushed to MONOREPO.\n\n⚓ ☃",
+  "id": 17077,
+  "metadata": null,
+  "run_id": "sess-20260830-0908-5ede695f",
+  "source_repo": "MONOREPO",
+  "title": "tmux-session.sh — add --continue per Principle 11"
+}
