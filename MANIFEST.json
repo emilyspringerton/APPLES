@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-30T03:13:18Z",
+  "generated_at": "2026-08-30T03:14:39Z",
   "repo": "APPLES",
-  "count": 6442,
+  "count": 6443,
   "apples": [
     {
       "id": 10525,
@@ -51538,6 +51538,14 @@
       "source_repo": "emily",
       "date": "20260830",
       "archived_at": "2026-08-30T03:13:18Z"
+    },
+    {
+      "id": 16980,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: go ahead with PAPERCRAFT entity + inventory system now -- 'simple but tra…",
+      "source_repo": "CLI",
+      "date": "20260830",
+      "archived_at": "2026-08-30T03:14:39Z"
     }
   ]
 }
