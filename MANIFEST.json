@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-30T05:15:42Z",
+  "generated_at": "2026-08-30T05:16:07Z",
   "repo": "APPLES",
-  "count": 6496,
+  "count": 6497,
   "apples": [
     {
       "id": 10525,
@@ -51970,6 +51970,14 @@
       "source_repo": "emily",
       "date": "20260830",
       "archived_at": "2026-08-30T05:15:42Z"
+    },
+    {
+      "id": 17034,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: 'i think iduna runs off of sqlite? maybe we need to switch to mysql' -- c…",
+      "source_repo": "CLI",
+      "date": "20260830",
+      "archived_at": "2026-08-30T05:16:07Z"
     }
   ]
 }
