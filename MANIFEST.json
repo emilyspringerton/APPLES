@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-30T15:44:08Z",
+  "generated_at": "2026-08-30T15:57:35Z",
   "repo": "APPLES",
-  "count": 6601,
+  "count": 6602,
   "apples": [
     {
       "id": 10525,
@@ -52810,6 +52810,14 @@
       "source_repo": "CLI",
       "date": "20260830",
       "archived_at": "2026-08-30T15:44:08Z"
+    },
+    {
+      "id": 17139,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: make LO batteries-included -- write a Rails-like framework stdlib in LO+P…",
+      "source_repo": "CLI",
+      "date": "20260830",
+      "archived_at": "2026-08-30T15:57:35Z"
     }
   ]
 }
