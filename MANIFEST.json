@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-30T14:51:03Z",
+  "generated_at": "2026-08-30T14:55:04Z",
   "repo": "APPLES",
-  "count": 6580,
+  "count": 6581,
   "apples": [
     {
       "id": 10525,
@@ -52642,6 +52642,14 @@
       "source_repo": "CLI",
       "date": "20260830",
       "archived_at": "2026-08-30T14:51:03Z"
+    },
+    {
+      "id": 17118,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time, continued FLASH/HypriotOS: real upstream repo is https://github.com/emily…",
+      "source_repo": "CLI",
+      "date": "20260830",
+      "archived_at": "2026-08-30T14:55:04Z"
     }
   ]
 }
