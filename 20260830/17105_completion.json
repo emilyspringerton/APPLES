@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-30T14:16:05Z",
+  "body": "Elementwise base4 vector ops (xor/and/or/add/subtract), vec-eq, dimlen, dot -- founder real-time direction to grow the stdlib LO needs to function, FFI-into-PARENA acceptable per design. Confirmed a real, live double-boxing compiler bug on dot (same class as linalg.prn's documented matmul/transpose bug), verified not glossed over. 24 assertions, make test-base4-vector green, -Werror clean. Matrix/pattern-match ops deliberately deferred. PARENA commit f0048e8.\n\n⚓ ☃",
+  "id": 17105,
+  "metadata": null,
+  "run_id": "sess-20260830-1207-cc0ba7da",
+  "source_repo": "PARENA",
+  "title": "stdlib/base4/vector.prn -- LO Phase 1 stdlib target"
+}
