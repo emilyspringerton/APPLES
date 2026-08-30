@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-30T05:14:24Z",
+  "generated_at": "2026-08-30T05:14:29Z",
   "repo": "APPLES",
-  "count": 6494,
+  "count": 6495,
   "apples": [
     {
       "id": 10525,
@@ -51954,6 +51954,14 @@
       "source_repo": "TYLER",
       "date": "20260830",
       "archived_at": "2026-08-30T05:14:24Z"
+    },
+    {
+      "id": 17032,
+      "type": "completion",
+      "title": "Real burrow CLI shell shipped -- API parity with parena's own command surface",
+      "source_repo": "BURROW",
+      "date": "20260830",
+      "archived_at": "2026-08-30T05:14:29Z"
     }
   ]
 }
