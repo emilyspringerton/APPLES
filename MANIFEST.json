@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-30T09:10:54Z",
+  "generated_at": "2026-08-30T09:12:56Z",
   "repo": "APPLES",
-  "count": 6536,
+  "count": 6537,
   "apples": [
     {
       "id": 10525,
@@ -52290,6 +52290,14 @@
       "source_repo": "CLI",
       "date": "20260830",
       "archived_at": "2026-08-30T09:10:54Z"
+    },
+    {
+      "id": 17074,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: write a blog post about all 18+ principles of The Emily Way, read existin…",
+      "source_repo": "CLI",
+      "date": "20260830",
+      "archived_at": "2026-08-30T09:12:56Z"
     }
   ]
 }
