@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-30T04:07:37Z",
+  "generated_at": "2026-08-30T04:08:56Z",
   "repo": "APPLES",
-  "count": 6457,
+  "count": 6458,
   "apples": [
     {
       "id": 10525,
@@ -51658,6 +51658,14 @@
       "source_repo": "MISHRI",
       "date": "20260830",
       "archived_at": "2026-08-30T04:07:37Z"
+    },
+    {
+      "id": 16995,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: rewrite MISHRI in PARENA, incrementally. Plan: (1) check repo XCVBNM-OR f…",
+      "source_repo": "CLI",
+      "date": "20260830",
+      "archived_at": "2026-08-30T04:08:56Z"
     }
   ]
 }
