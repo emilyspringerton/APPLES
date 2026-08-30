@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-30T04:31:33Z",
+  "generated_at": "2026-08-30T04:31:55Z",
   "repo": "APPLES",
-  "count": 6465,
+  "count": 6466,
   "apples": [
     {
       "id": 10525,
@@ -51722,6 +51722,14 @@
       "source_repo": "PAPERCRAFT",
       "date": "20260830",
       "archived_at": "2026-08-30T04:31:33Z"
+    },
+    {
+      "id": 17003,
+      "type": "completion",
+      "title": "Snapshot bandwidth halved, live save_player permission bug fixed",
+      "source_repo": "PAPERCRAFT",
+      "date": "20260830",
+      "archived_at": "2026-08-30T04:31:55Z"
     }
   ]
 }

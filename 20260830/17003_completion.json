@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-30T04:31:55Z",
+  "body": "Founder real-time: 'ok paper craft is still flashing the reconnection message to me pretty frequently'. Investigated live: var/logs/server.log showed a healthy 40ms tick loop, no server stalls -- real network/bandwidth loss on the client's own low-bandwidth connection, matching the earlier S206-59 report. Real fix: PC_SNAPSHOT_HZ=10 decouples snapshot broadcast from the 20Hz simulation tick -- movement/physics unaffected, snapshot bandwidth halved (~29KB/s -\u003e ~14.5KB/s per client). Client PC_CLIENT_WEAK_MS bumped 2000-\u003e3500ms in lockstep. Also found and fixed a real, separate, live bug: var/players/ and var/world/ had a wrong permission bit (no group write for the fatbaby service user), silently failing every autosave -- confirmed via constant 'WARNING: save_player failed' spam in the live log; fixed via chmod g+w, confirmed a real .pcsave file now writes. Verified: bazel build (36 targets) + bazel test (17/17). bin/papercraft_server rebuilt in place; sudo-queue/44 queued for founder restart. Commits d9b17e9/29a4f14.\n\n⚓ ☃",
+  "id": 17003,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "PAPERCRAFT",
+  "title": "Snapshot bandwidth halved, live save_player permission bug fixed"
+}
