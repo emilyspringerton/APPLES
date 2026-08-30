@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-30T04:45:50Z",
+  "generated_at": "2026-08-30T04:47:14Z",
   "repo": "APPLES",
-  "count": 6475,
+  "count": 6476,
   "apples": [
     {
       "id": 10525,
@@ -51802,6 +51802,14 @@
       "source_repo": "emily",
       "date": "20260830",
       "archived_at": "2026-08-30T04:45:50Z"
+    },
+    {
+      "id": 17013,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: 'ok lets do it as a java applet then' -- flagged and corrected (Java appl…",
+      "source_repo": "CLI",
+      "date": "20260830",
+      "archived_at": "2026-08-30T04:47:14Z"
     }
   ]
 }
