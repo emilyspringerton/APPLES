@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-30T05:20:50Z",
+  "generated_at": "2026-08-30T05:26:01Z",
   "repo": "APPLES",
-  "count": 6498,
+  "count": 6499,
   "apples": [
     {
       "id": 10525,
@@ -51986,6 +51986,14 @@
       "source_repo": "CLI",
       "date": "20260830",
       "archived_at": "2026-08-30T05:20:50Z"
+    },
+    {
+      "id": 17036,
+      "type": "completion",
+      "title": "changelog(PARENA): emit_java: real Maven/Gradle package-declaration support (s…",
+      "source_repo": "PARENA",
+      "date": "20260830",
+      "archived_at": "2026-08-30T05:26:01Z"
     }
   ]
 }
