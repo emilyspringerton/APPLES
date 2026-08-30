@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-30T05:01:14Z",
+  "generated_at": "2026-08-30T05:05:23Z",
   "repo": "APPLES",
-  "count": 6483,
+  "count": 6484,
   "apples": [
     {
       "id": 10525,
@@ -51866,6 +51866,14 @@
       "source_repo": "BURROW",
       "date": "20260830",
       "archived_at": "2026-08-30T05:01:14Z"
+    },
+    {
+      "id": 17021,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time correction: 'project burrow is a feature for feature rewrite of the parena…",
+      "source_repo": "CLI",
+      "date": "20260830",
+      "archived_at": "2026-08-30T05:05:23Z"
     }
   ]
 }
