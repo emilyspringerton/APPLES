@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-30T11:17:32Z",
+  "generated_at": "2026-08-30T11:28:41Z",
   "repo": "APPLES",
-  "count": 6554,
+  "count": 6555,
   "apples": [
     {
       "id": 10525,
@@ -52434,6 +52434,14 @@
       "source_repo": "PRRJECT_FATBABY",
       "date": "20260830",
       "archived_at": "2026-08-30T11:17:32Z"
+    },
+    {
+      "id": 17092,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: build in the k8s operator pattern primitives",
+      "source_repo": "CLI",
+      "date": "20260830",
+      "archived_at": "2026-08-30T11:28:41Z"
     }
   ]
 }
