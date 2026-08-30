@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-30T06:05:53Z",
+  "generated_at": "2026-08-30T06:06:29Z",
   "repo": "APPLES",
-  "count": 6515,
+  "count": 6516,
   "apples": [
     {
       "id": 10525,
@@ -52122,6 +52122,14 @@
       "source_repo": "BURROW",
       "date": "20260830",
       "archived_at": "2026-08-30T06:05:53Z"
+    },
+    {
+      "id": 17053,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time, continued: 'that uses burrow' -- DUNG (its own new repo) depends on BURRO…",
+      "source_repo": "CLI",
+      "date": "20260830",
+      "archived_at": "2026-08-30T06:06:29Z"
     }
   ]
 }
