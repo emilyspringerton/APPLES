@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-30T05:07:20Z",
+  "generated_at": "2026-08-30T05:09:54Z",
   "repo": "APPLES",
-  "count": 6485,
+  "count": 6486,
   "apples": [
     {
       "id": 10525,
@@ -51882,6 +51882,14 @@
       "source_repo": "CLI",
       "date": "20260830",
       "archived_at": "2026-08-30T05:07:20Z"
+    },
+    {
+      "id": 17023,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: 'so write the burrow cli in parena and go it should have the same api as …",
+      "source_repo": "CLI",
+      "date": "20260830",
+      "archived_at": "2026-08-30T05:09:54Z"
     }
   ]
 }
