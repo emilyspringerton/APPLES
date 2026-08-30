@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-30T09:33:52Z",
+  "generated_at": "2026-08-30T09:59:18Z",
   "repo": "APPLES",
-  "count": 6542,
+  "count": 6543,
   "apples": [
     {
       "id": 10525,
@@ -52338,6 +52338,14 @@
       "source_repo": "DUNG",
       "date": "20260830",
       "archived_at": "2026-08-30T09:33:52Z"
+    },
+    {
+      "id": 17080,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: continue DUNG, ensure we have artifacts and bazel builds once we have an …",
+      "source_repo": "CLI",
+      "date": "20260830",
+      "archived_at": "2026-08-30T09:59:18Z"
     }
   ]
 }
