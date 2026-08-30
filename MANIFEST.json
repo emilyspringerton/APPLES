@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-30T14:25:09Z",
+  "generated_at": "2026-08-30T14:25:52Z",
   "repo": "APPLES",
-  "count": 6573,
+  "count": 6574,
   "apples": [
     {
       "id": 10525,
@@ -52586,6 +52586,14 @@
       "source_repo": "LO",
       "date": "20260830",
       "archived_at": "2026-08-30T14:25:09Z"
+    },
+    {
+      "id": 17111,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: use Qwen for some of the Anthropic API issues affecting core Emily Prime/…",
+      "source_repo": "CLI",
+      "date": "20260830",
+      "archived_at": "2026-08-30T14:25:52Z"
     }
   ]
 }
