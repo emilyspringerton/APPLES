@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-30T15:24:29Z",
+  "body": "elem-group: real zero-width GROUP boundary marker, no capture extraction yet (nothing needs it). is-match-alt: binary alternation over two separate pattern Vecs, matching regex/pcre.prn's leftmost-first order -- deliberately narrower than GRAMMAR.md's flat embedded-ALT-token shape, named as follow-up. New GROUP/ALT self-test cases. make test-base4-pattern green, -Werror clean. PARENA commit 74104d3.\n\n⚓ ☃",
+  "id": 17131,
+  "metadata": null,
+  "run_id": "sess-20260830-1207-cc0ba7da",
+  "source_repo": "PARENA",
+  "title": "ALT/GROUP support for base4 pattern matcher (S208-09)"
+}

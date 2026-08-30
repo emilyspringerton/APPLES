@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-30T15:17:24Z",
+  "generated_at": "2026-08-30T15:24:29Z",
   "repo": "APPLES",
-  "count": 6593,
+  "count": 6594,
   "apples": [
     {
       "id": 10525,
@@ -52746,6 +52746,14 @@
       "source_repo": "FLASH",
       "date": "20260830",
       "archived_at": "2026-08-30T15:17:24Z"
+    },
+    {
+      "id": 17131,
+      "type": "completion",
+      "title": "ALT/GROUP support for base4 pattern matcher (S208-09)",
+      "source_repo": "PARENA",
+      "date": "20260830",
+      "archived_at": "2026-08-30T15:24:29Z"
     }
   ]
 }
