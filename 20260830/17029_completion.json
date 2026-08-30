@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-30T05:13:54Z",
+  "body": "PARENA/stdlib/tyler/cutscene_mod.prn: effect codes (noop/advance_stage/trigger_awareness/grant_contact/post_message), effect-is-mechanical dispatch, trust-threshold + urgency-window trigger conditions, composed trigger-readiness w/ one-shot rule -- direct real implementation of TYLER/engine/tyler_cutscene_system.md's own Trigger Model/Effects sections, superseding that doc's pre-PARENA 'deferred to GoblinFoxDragon EduScript' line. Compiled to SHANKPIT/packages/simulation/cutscene_effect_mod.c, 23 real assertions all pass. Also fixed a real gap: main.c's usage text never mentioned the .java build target after the earlier Java emitter commit. Commits 6d71ad4/52bf707.\n\n⚓ ☃",
+  "id": 17029,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "PARENA",
+  "title": "New stdlib/tyler cutscene decision-logic mod, real successor to the deferred EduScript recommendation"
+}

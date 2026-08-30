@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-30T05:13:33Z",
+  "generated_at": "2026-08-30T05:13:54Z",
   "repo": "APPLES",
-  "count": 6491,
+  "count": 6492,
   "apples": [
     {
       "id": 10525,
@@ -51930,6 +51930,14 @@
       "source_repo": "BURROW",
       "date": "20260830",
       "archived_at": "2026-08-30T05:13:33Z"
+    },
+    {
+      "id": 17029,
+      "type": "completion",
+      "title": "New stdlib/tyler cutscene decision-logic mod, real successor to the deferred EduScript recommendation",
+      "source_repo": "PARENA",
+      "date": "20260830",
+      "archived_at": "2026-08-30T05:13:54Z"
     }
   ]
 }
