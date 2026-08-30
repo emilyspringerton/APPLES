@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-30T05:31:33Z",
+  "generated_at": "2026-08-30T05:37:24Z",
   "repo": "APPLES",
-  "count": 6503,
+  "count": 6504,
   "apples": [
     {
       "id": 10525,
@@ -52026,6 +52026,14 @@
       "source_repo": "emily",
       "date": "20260830",
       "archived_at": "2026-08-30T05:31:33Z"
+    },
+    {
+      "id": 17041,
+      "type": "completion",
+      "title": "changelog(BURROW): Phase 1 -- real lexer parity shipped: lexer.go, a faithful …",
+      "source_repo": "BURROW",
+      "date": "20260830",
+      "archived_at": "2026-08-30T05:37:24Z"
     }
   ]
 }

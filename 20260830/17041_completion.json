@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-30T05:37:24Z",
+  "body": "CHANGELOG updated in BURROW: Phase 1 -- real lexer parity shipped: lexer.go, a faithful hand-port of PARENA/src/lexer.c, verified against all 9 real test scenarios from PARENA/tests/test_selfhost_lexer.c (ported to lexer_test.go). go build/go vet/go test all clean. Real architecture call documented: hand-port, not a PARENA-Go emitter -- selfhost/lexer.prn's own language surface (defstruct/defenum/match/loop/Result/Vec/references) is well beyond any existing PARENA emitter's proven scope. (sess-20260825-1938-f6bd411e)\n\n⚓ ☃",
+  "id": 17041,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "BURROW",
+  "title": "changelog(BURROW): Phase 1 -- real lexer parity shipped: lexer.go, a faithful …"
+}
