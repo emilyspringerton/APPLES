@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-30T06:10:17Z",
+  "generated_at": "2026-08-30T06:10:19Z",
   "repo": "APPLES",
-  "count": 6517,
+  "count": 6518,
   "apples": [
     {
       "id": 10525,
@@ -52138,6 +52138,14 @@
       "source_repo": "DUNG",
       "date": "20260830",
       "archived_at": "2026-08-30T06:10:17Z"
+    },
+    {
+      "id": 17055,
+      "type": "completion",
+      "title": "changelog(BURROW): docs: DUNG.md removed -- moved to its own repo (github.com/…",
+      "source_repo": "BURROW",
+      "date": "20260830",
+      "archived_at": "2026-08-30T06:10:19Z"
     }
   ]
 }
