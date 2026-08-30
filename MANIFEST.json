@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-30T11:34:25Z",
+  "generated_at": "2026-08-30T11:58:27Z",
   "repo": "APPLES",
-  "count": 6557,
+  "count": 6558,
   "apples": [
     {
       "id": 10525,
@@ -52458,6 +52458,14 @@
       "source_repo": "BURROW",
       "date": "20260830",
       "archived_at": "2026-08-30T11:34:25Z"
+    },
+    {
+      "id": 17095,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: LO upstream repo (github.com/emilyspringerton/LO) and a design doc (LoLan…",
+      "source_repo": "CLI",
+      "date": "20260830",
+      "archived_at": "2026-08-30T11:58:27Z"
     }
   ]
 }
