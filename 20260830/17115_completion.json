@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-30T14:28:59Z",
+  "body": "gcloud alpha services api-keys create against project einhorn-mjolnir, restricted to generativelanguage.googleapis.com. Vault is locked (founder-only passphrase) so stored interim in a chmod 600, gitignored EMILY/var/gemini-api-key.env rather than a bare plaintext file -- avoiding the exact anti-pattern that originally motivated building the Vault. Real follow-up flagged: move into IDUNA Vault via emily vault unlock/add once convenient. K8s Secret storage (S207-06) deliberately deferred, no live cluster exists yet.\n\n⚓ ☃",
+  "id": 17115,
+  "metadata": null,
+  "run_id": "sess-20260830-1207-cc0ba7da",
+  "source_repo": "IDUNA",
+  "title": "Real Gemini API key created (interim storage, Vault migration flagged)"
+}
