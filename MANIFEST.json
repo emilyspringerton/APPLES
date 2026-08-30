@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-30T05:37:24Z",
+  "generated_at": "2026-08-30T05:46:23Z",
   "repo": "APPLES",
-  "count": 6504,
+  "count": 6506,
   "apples": [
     {
       "id": 10525,
@@ -52034,6 +52034,22 @@
       "source_repo": "BURROW",
       "date": "20260830",
       "archived_at": "2026-08-30T05:37:24Z"
+    },
+    {
+      "id": 17042,
+      "type": "completion",
+      "title": "Phase 1 -- real lexer parity shipped, hand-ported from src/lexer.c, verified",
+      "source_repo": "BURROW",
+      "date": "20260830",
+      "archived_at": "2026-08-30T05:37:36Z"
+    },
+    {
+      "id": 17043,
+      "type": "audit",
+      "title": "Cycle 12449 — idle (no queued tasks)",
+      "source_repo": "emily",
+      "date": "20260830",
+      "archived_at": "2026-08-30T05:46:23Z"
     }
   ]
 }

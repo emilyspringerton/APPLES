@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-30T05:37:36Z",
+  "body": "Real architecture call made and documented: reading selfhost/lexer.prn in full first showed it needs defstruct/payload-defenum/match/loop-recur/Result/Vec/reference params -- well beyond any existing PARENA emitter's (emit_ts.c/emit_java.c) proven narrow v0 scope. Building a general PARENA-to-Go emitter covering all that in one sitting at a verifiable quality bar wasn't realistic, so took NORTHSTAR.md's own named fallback: lexer.go, a real, faithful hand-port of PARENA/src/lexer.c. lexer_test.go: all 9 real test scenarios from PARENA/tests/test_selfhost_lexer.c ported verbatim (expected token sequences copied from that file's own hand-traced-against-src/lexer.c expectations, not re-derived) -- go build/go vet/go test all clean, 9/9 pass. Also stress-tested against real PARENA source (selfhost/lexer.prn itself: 2104 tokens; stdlib/string.prn: 744; stdlib/mishri/humanness.prn: 127; stdlib/gta7/humanness_fingerprint_mod.prn: 74) -- all clean. This is the real, founder-named 'pass all that parena c tests' bar, achieved directly for the lexer domain. NORTHSTAR.md/README.md/CLAUDE.md all updated to reflect real status. Commits 144d8a8/056d71e.\n\n⚓ ☃",
+  "id": 17042,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "BURROW",
+  "title": "Phase 1 -- real lexer parity shipped, hand-ported from src/lexer.c, verified"
+}
