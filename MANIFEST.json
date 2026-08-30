@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-30T16:38:58Z",
+  "generated_at": "2026-08-30T16:41:15Z",
   "repo": "APPLES",
-  "count": 6623,
+  "count": 6624,
   "apples": [
     {
       "id": 10525,
@@ -52986,6 +52986,14 @@
       "source_repo": "CLI",
       "date": "20260830",
       "archived_at": "2026-08-30T16:38:58Z"
+    },
+    {
+      "id": 17161,
+      "type": "completion",
+      "title": "stdlib/editor/document.prn -- real document management (asap)",
+      "source_repo": "PARENA",
+      "date": "20260830",
+      "archived_at": "2026-08-30T16:41:15Z"
     }
   ]
 }

@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-30T16:41:15Z",
+  "body": "Ties editor/buffer.prn (text/cursor) and papercraft/note_version_mod.prn (coalesce/version decisions) together -- real document management foundation for JEWEL/SARENA_NOTEBOOK's word-processor pivot. Verified: edits within the 30s coalesce window overwrite in place, a gap past it forks a real new version. make test-editor-document green. PARENA commit 61b72cf.\n\n⚓ ☃",
+  "id": 17161,
+  "metadata": null,
+  "run_id": "sess-20260830-1207-cc0ba7da",
+  "source_repo": "PARENA",
+  "title": "stdlib/editor/document.prn -- real document management (asap)"
+}
