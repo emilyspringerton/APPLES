@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-30T15:41:57Z",
+  "generated_at": "2026-08-30T15:43:33Z",
   "repo": "APPLES",
-  "count": 6599,
+  "count": 6600,
   "apples": [
     {
       "id": 10525,
@@ -52794,6 +52794,14 @@
       "source_repo": "CLI",
       "date": "20260830",
       "archived_at": "2026-08-30T15:41:57Z"
+    },
+    {
+      "id": 17137,
+      "type": "completion",
+      "title": "iCloud-style note version-management primitives for PAPERCRAFT",
+      "source_repo": "PARENA",
+      "date": "20260830",
+      "archived_at": "2026-08-30T15:43:33Z"
     }
   ]
 }

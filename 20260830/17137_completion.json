@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-30T15:43:33Z",
+  "body": "note_version_mod.prn fills the gap notes_mod.prn already named (no text/version storage story yet). Real decisions only: coalesce edits within 30s, oldest-first eviction at 50-version cap, real optimistic-concurrency conflict detection. 8 assertions, make test-papercraft-note-version green. PARENA commit 311d3f6.\n\n⚓ ☃",
+  "id": 17137,
+  "metadata": null,
+  "run_id": "sess-20260830-1207-cc0ba7da",
+  "source_repo": "PARENA",
+  "title": "iCloud-style note version-management primitives for PAPERCRAFT"
+}
