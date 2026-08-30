@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-30T14:25:52Z",
+  "generated_at": "2026-08-30T14:26:06Z",
   "repo": "APPLES",
-  "count": 6574,
+  "count": 6575,
   "apples": [
     {
       "id": 10525,
@@ -52594,6 +52594,14 @@
       "source_repo": "CLI",
       "date": "20260830",
       "archived_at": "2026-08-30T14:25:52Z"
+    },
+    {
+      "id": 17112,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time, continued: build the bare-bones Emily chat (Qwen fallback) into IDUNA's b…",
+      "source_repo": "CLI",
+      "date": "20260830",
+      "archived_at": "2026-08-30T14:26:06Z"
     }
   ]
 }
