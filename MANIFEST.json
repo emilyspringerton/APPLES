@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-30T04:33:32Z",
+  "generated_at": "2026-08-30T04:38:54Z",
   "repo": "APPLES",
-  "count": 6467,
+  "count": 6468,
   "apples": [
     {
       "id": 10525,
@@ -51738,6 +51738,14 @@
       "source_repo": "CLI",
       "date": "20260830",
       "archived_at": "2026-08-30T04:33:32Z"
+    },
+    {
+      "id": 17005,
+      "type": "completion",
+      "title": "changelog(PARENA): Grew emit_ts.c's math primitive table (floor/sqrt/log/cos/p…",
+      "source_repo": "PARENA",
+      "date": "20260830",
+      "archived_at": "2026-08-30T04:38:54Z"
     }
   ]
 }
