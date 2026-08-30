@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-30T17:29:57Z",
+  "generated_at": "2026-08-30T17:30:04Z",
   "repo": "APPLES",
-  "count": 6631,
+  "count": 6632,
   "apples": [
     {
       "id": 10525,
@@ -53050,6 +53050,14 @@
       "source_repo": "LO",
       "date": "20260830",
       "archived_at": "2026-08-30T17:29:57Z"
+    },
+    {
+      "id": 17169,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time, exploring SWITCH/CASE emoji candidates for LO: SWITCH=🎛️ (control/se…",
+      "source_repo": "CLI",
+      "date": "20260830",
+      "archived_at": "2026-08-30T17:30:04Z"
     }
   ]
 }
