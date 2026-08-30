@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-30T06:24:19Z",
+  "body": "region.go (faithful port of src/region.c) + emit_c.go (narrow v0 C emitter, same scope as emit_ts.c/emit_java.c). 30 real ported assertions from test_region.c/test_lexer_parser.c/test_selfhost_lexer.c + 8 new emit_c tests = 38/38 total. Real bug found and fixed testing against stdlib/mishri/humanness.prn: math/* identifiers were silently emitted as broken C -- cross-checked against the real parena-c (identical rejection: 'unknown identifier'), fixed with a real local-param-or-known-defn validation + 2 regression tests. Real, full end-to-end proof: burrow build on PAPERCRAFT's own stdlib/papercraft/level_mod.prn, actually compiled with gcc, actually run against level_mod_test.c's own real assertions -- all pass. main.go's parse/analyze/build subcommands now do real work (parse output verified byte-identical to parena parse on the same file). burrow installed on PATH. Commits 9115c50/4f6470e.\n\n⚓ ☃",
+  "id": 17060,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "BURROW",
+  "title": "Phase 3 + Phase 4 shipped: real region analyzer + v0 C emitter, real end-to-end gcc-verified proof"
+}

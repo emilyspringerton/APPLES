@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-30T06:24:09Z",
+  "generated_at": "2026-08-30T06:25:10Z",
   "repo": "APPLES",
-  "count": 6522,
+  "count": 6524,
   "apples": [
     {
       "id": 10525,
@@ -52178,6 +52178,22 @@
       "source_repo": "BURROW",
       "date": "20260830",
       "archived_at": "2026-08-30T06:24:09Z"
+    },
+    {
+      "id": 17060,
+      "type": "completion",
+      "title": "Phase 3 + Phase 4 shipped: real region analyzer + v0 C emitter, real end-to-end gcc-verified proof",
+      "source_repo": "BURROW",
+      "date": "20260830",
+      "archived_at": "2026-08-30T06:24:20Z"
+    },
+    {
+      "id": 17061,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time, real-time design burst: 'okok so lets start building emily os into paperc…",
+      "source_repo": "CLI",
+      "date": "20260830",
+      "archived_at": "2026-08-30T06:25:10Z"
     }
   ]
 }
