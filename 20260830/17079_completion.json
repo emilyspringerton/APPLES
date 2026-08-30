@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-30T09:33:52Z",
+  "body": "Founder real-time: continue work on DUNG. Phase 0 was already cleared (BURROW Phase 3-4 shipped same day). Built cmd/dung/main.go: SDL2 window with visor-style drop-down terminal (F12 toggle) + real i3-primitive binary split (Ctrl+Shift+Enter/Ctrl+Shift+O, Alt+Arrow focus). Vendored internal/vterm+pty+font verbatim from PITVIPER (untouched, new fork per its own precedent). go build/vet/test clean (4 packages incl. new split_test.go). Ran for real under Xvfb: real bash via real PTY, real colored SGR prompt rendered through vterm-\u003efont-\u003eSDL2, screenshot verified, no panics. Bazel scaffold iterated through 3 real failures (CcInfo/Bazel-9.2.0 incompatibility, go.work SDK-version discovery, and a real still-open pkg-config/cgo-sandbox gap named precisely, not glossed over). Also corrected stale NORTHSTAR/README/CLAUDE.md burrow-build blocker claims. DUNG commits a88308e/9dae963.\n\n⚓ ☃",
+  "id": 17079,
+  "metadata": null,
+  "run_id": "sess-20260830-0908-5ede695f",
+  "source_repo": "DUNG",
+  "title": "DUNG Phase 1 — SDL2 visor terminal + i3-primitive split"
+}
