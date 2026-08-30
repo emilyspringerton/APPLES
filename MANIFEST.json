@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-30T16:41:15Z",
+  "generated_at": "2026-08-30T16:44:24Z",
   "repo": "APPLES",
-  "count": 6624,
+  "count": 6625,
   "apples": [
     {
       "id": 10525,
@@ -52994,6 +52994,14 @@
       "source_repo": "PARENA",
       "date": "20260830",
       "archived_at": "2026-08-30T16:41:15Z"
+    },
+    {
+      "id": 17162,
+      "type": "completion",
+      "title": "stdlib/editor/registry.prn -- multi-document registry (S217-03)",
+      "source_repo": "PARENA",
+      "date": "20260830",
+      "archived_at": "2026-08-30T16:44:24Z"
     }
   ]
 }
