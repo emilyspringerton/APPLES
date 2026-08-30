@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-30T11:28:41Z",
+  "generated_at": "2026-08-30T11:34:23Z",
   "repo": "APPLES",
-  "count": 6555,
+  "count": 6556,
   "apples": [
     {
       "id": 10525,
@@ -52442,6 +52442,14 @@
       "source_repo": "CLI",
       "date": "20260830",
       "archived_at": "2026-08-30T11:28:41Z"
+    },
+    {
+      "id": 17093,
+      "type": "completion",
+      "title": "stdlib/k8s/operator.prn — real Kubernetes operator-pattern primitives",
+      "source_repo": "PARENA",
+      "date": "20260830",
+      "archived_at": "2026-08-30T11:34:23Z"
     }
   ]
 }

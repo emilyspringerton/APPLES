@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-30T11:34:23Z",
+  "body": "Founder real-time: build in the k8s operator pattern primitives. Real gap found writing stdlib/k8s/operator.prn -- not fell through both emitters' binop dispatch into a bogus call. Same gap parena-c's own src/emit.c already fixed 2026-08-21. Direct port of that fix to both emitters, two new regression tests. go test: 52/52. BURROW commit bf09498.\n\n⚓ ☃",
+  "id": 17094,
+  "metadata": null,
+  "run_id": "sess-20260830-0908-5ede695f",
+  "source_repo": "BURROW",
+  "title": "fix: unary (not x) missing from both emit_c.go and emit_go.go"
+}

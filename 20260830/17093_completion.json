@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-30T11:34:23Z",
+  "body": "Founder real-time: build in the k8s operator pattern primitives. decide-action (real four-way reconciliation decision), backoff-seconds/pow2 (exponential backoff), result-for-action (real ReconcileResult + requeue policy) -- modeled on controller-runtime's own real Reconcile contract. Verified end-to-end via a real C test harness. decide-action alone dual-compiles through burrow's Go target too. PARENA commit 28db76a.\n\n⚓ ☃",
+  "id": 17093,
+  "metadata": null,
+  "run_id": "sess-20260830-0908-5ede695f",
+  "source_repo": "PARENA",
+  "title": "stdlib/k8s/operator.prn — real Kubernetes operator-pattern primitives"
+}
