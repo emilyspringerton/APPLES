@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-30T06:10:47Z",
+  "generated_at": "2026-08-30T06:10:49Z",
   "repo": "APPLES",
-  "count": 6519,
+  "count": 6520,
   "apples": [
     {
       "id": 10525,
@@ -52154,6 +52154,14 @@
       "source_repo": "DUNG",
       "date": "20260830",
       "archived_at": "2026-08-30T06:10:47Z"
+    },
+    {
+      "id": 17057,
+      "type": "completion",
+      "title": "docs: DUNG moved to its own repo, cross-references updated",
+      "source_repo": "BURROW",
+      "date": "20260830",
+      "archived_at": "2026-08-30T06:10:49Z"
     }
   ]
 }
