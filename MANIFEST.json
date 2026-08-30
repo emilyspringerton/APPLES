@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-30T15:36:04Z",
+  "generated_at": "2026-08-30T15:40:28Z",
   "repo": "APPLES",
-  "count": 6596,
+  "count": 6597,
   "apples": [
     {
       "id": 10525,
@@ -52770,6 +52770,14 @@
       "source_repo": "CLI",
       "date": "20260830",
       "archived_at": "2026-08-30T15:36:04Z"
+    },
+    {
+      "id": 17134,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: add PARENA primitives for managing versions of notes, plug into PAPERCRAF…",
+      "source_repo": "CLI",
+      "date": "20260830",
+      "archived_at": "2026-08-30T15:40:28Z"
     }
   ]
 }
