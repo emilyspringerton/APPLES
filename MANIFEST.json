@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-30T16:26:16Z",
+  "generated_at": "2026-08-30T16:26:56Z",
   "repo": "APPLES",
-  "count": 6613,
+  "count": 6614,
   "apples": [
     {
       "id": 10525,
@@ -52906,6 +52906,14 @@
       "source_repo": "CLI",
       "date": "20260830",
       "archived_at": "2026-08-30T16:26:16Z"
+    },
+    {
+      "id": 17151,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time, continued: dogfood the LO language features (variables/let etc.) needed t…",
+      "source_repo": "CLI",
+      "date": "20260830",
+      "archived_at": "2026-08-30T16:26:56Z"
     }
   ]
 }
