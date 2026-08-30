@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-30T16:24:21Z",
+  "body": "GRAMMAR.md §1 adds SEMI as a 4th token shape; §2's Program rule becomes TypedExpr SEMI. Lexer/parser both updated -- a missing trailing ; is now a real, explicit parse error, not silently accepted. §7's 3 pre-existing worked examples annotated (they predate this, each now needs a trailing ; to parse). 4 parser tests, 2 emitter tests updated. Verified live via the CLI. go build/vet/test clean. LO commit f93cdd0.\n\n⚓ ☃",
+  "id": 17148,
+  "metadata": null,
+  "run_id": "sess-20260830-1207-cc0ba7da",
+  "source_repo": "LO",
+  "title": "Require a trailing semicolon to terminate every LO program"
+}
