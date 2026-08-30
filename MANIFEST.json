@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-30T06:03:04Z",
+  "generated_at": "2026-08-30T06:04:51Z",
   "repo": "APPLES",
-  "count": 6513,
+  "count": 6514,
   "apples": [
     {
       "id": 10525,
@@ -52106,6 +52106,14 @@
       "source_repo": "CLI",
       "date": "20260830",
       "archived_at": "2026-08-30T06:03:04Z"
+    },
+    {
+      "id": 17051,
+      "type": "completion",
+      "title": "changelog(BURROW): Phase 2 -- real parser parity shipped: parser.go, faithful …",
+      "source_repo": "BURROW",
+      "date": "20260830",
+      "archived_at": "2026-08-30T06:04:51Z"
     }
   ]
 }
