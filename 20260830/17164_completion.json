@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-30T16:57:46Z",
+  "body": "packages/simulation/parena_runtime.{h,c} grown from a 17-line stub to the full real PARENA runtime, vendored from PARENA/runtime/. New :editor mod (buffer+document+registry+note_version_mod compiled together) -- first mod crossing the host boundary with structs/Strings, not just I32. Verified no regression: bazel build/test //packages/simulation/... clean, all 14 tests pass. CLAUDE.md updated to document the real evolution and its real cost. Could not update this repo's own CHANGELOG.md -- owned by a different user (treeiii), ACL mask limits this session to read-only, same issue as BURROW earlier. PAPERCRAFT commit a12829a.\n\n⚓ ☃",
+  "id": 17164,
+  "metadata": null,
+  "run_id": "sess-20260830-1207-cc0ba7da",
+  "source_repo": "PAPERCRAFT",
+  "title": "Evolved the PARENA mod boundary -- real struct/String mods (:editor)"
+}
