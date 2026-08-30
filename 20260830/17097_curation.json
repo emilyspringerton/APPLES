@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "curation",
+  "archived_at": "2026-08-30T12:10:30Z",
+  "body": "Curated 10 FatBaby observations into EMILY/BACKLOG.md INTAKE QUEUE.\n\nItems:\n- Founder real-time: LO upstream repo (github.com/emilyspringerton/LO) and a design doc (LoLanguageSpec.pdf) added -- check it over, needs to compile into Java/TS/C/Go via the parena and burrow CLIs (2026-08-30T11:58:27Z)\n- Founder real-time: build in the k8s operator pattern primitives (2026-08-30T11:28:41Z)\n- Founder real-time: need to start the kubernetes migration, look up the plan in fatbaby, all logstreaming data is going to get projected into Google Cloud Storage -- the data is already there (2026-08-30T10:39:52Z)\n- Founder real-time: continue adding to DUNG's parena work, we want to emit Go with burrow (2026-08-30T10:27:15Z)\n- Founder real-time: finishing up the OKEMILY redesign when convenient (2026-08-30T10:00:53Z)\n- Founder real-time: finishing up the OKEMILY redesign when convenient (noted, lower priority, will return after DUNG PARENA entry attempt) (2026-08-30T10:00:53Z)\n- Founder real-time: continue DUNG, ensure we have artifacts and bazel builds once we have an entrypoint (2026-08-30T09:59:18Z)\n- Founder real-time: not in tmux right now, write a new claude startup script that runs emily session new \u003e sess then launches claude --dangerously-skip-permissions with a prompt to check the sess file for current session id, wrapped in tmux this time (2026-08-30T09:14:22Z)\n- Founder real-time: write a blog post about all 18+ principles of The Emily Way, read existing blog posts first for voice context (2026-08-30T09:12:56Z)\n- Founder real-time: continue work on DUNG (2026-08-30T09:10:54Z)\n\n⚓ ☃",
+  "id": 17097,
+  "metadata": null,
+  "run_id": "backlog-curate-1788091830",
+  "source_repo": "emily.cli",
+  "title": "backlog curate: 10 obs -\u003e INTAKE QUEUE"
+}
