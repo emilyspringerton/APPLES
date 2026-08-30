@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-30T04:55:03Z",
+  "generated_at": "2026-08-30T04:57:35Z",
   "repo": "APPLES",
-  "count": 6477,
+  "count": 6478,
   "apples": [
     {
       "id": 10525,
@@ -51818,6 +51818,14 @@
       "source_repo": "CLI",
       "date": "20260830",
       "archived_at": "2026-08-30T04:55:03Z"
+    },
+    {
+      "id": 17015,
+      "type": "completion",
+      "title": "changelog(PARENA): New v0 Java emitter (src/emit_java.c/.h): third PARENA comp…",
+      "source_repo": "PARENA",
+      "date": "20260830",
+      "archived_at": "2026-08-30T04:57:35Z"
     }
   ]
 }
