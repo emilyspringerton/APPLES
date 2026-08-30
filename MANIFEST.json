@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-30T02:01:07Z",
+  "generated_at": "2026-08-30T02:03:49Z",
   "repo": "APPLES",
-  "count": 6416,
+  "count": 6417,
   "apples": [
     {
       "id": 10525,
@@ -51330,6 +51330,14 @@
       "source_repo": "TYLER",
       "date": "20260830",
       "archived_at": "2026-08-30T02:01:07Z"
+    },
+    {
+      "id": 16953,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: \"continue tyler series x check for ___.md in tyler repo\" -- the '___.md' …",
+      "source_repo": "CLI",
+      "date": "20260830",
+      "archived_at": "2026-08-30T02:03:49Z"
     }
   ]
 }
