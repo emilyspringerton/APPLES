@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-30T15:11:39Z",
+  "body": "MODULE.bazel/BUILD.bazel added per founder sequencing ('bazel it first'). Hermetic bazel test //:syntax-check (bash -n, shellcheck not installed in sandbox). Non-hermetic bazel run //:run-flash / //:test wrappers, same split MISHRI already established. Two real Bazel gotchas found and fixed: target-name/source-file collision (renamed to :run-flash), and $RUNFILES_DIR path resolution (naive relative dirname doesn't work for the primary executable). bazel build //... clean, bazel test //:syntax-check passes, bazel run //:run-flash -- --version works. FLASH commit d2613da.\n\n⚓ ☃",
+  "id": 17128,
+  "metadata": null,
+  "run_id": "sess-20260830-1207-cc0ba7da",
+  "source_repo": "FLASH",
+  "title": "Real Bazel build for FLASH (rules_shell)"
+}

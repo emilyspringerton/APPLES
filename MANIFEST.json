@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-30T15:07:39Z",
+  "generated_at": "2026-08-30T15:11:39Z",
   "repo": "APPLES",
-  "count": 6590,
+  "count": 6591,
   "apples": [
     {
       "id": 10525,
@@ -52722,6 +52722,14 @@
       "source_repo": "CLI",
       "date": "20260830",
       "archived_at": "2026-08-30T15:07:39Z"
+    },
+    {
+      "id": 17128,
+      "type": "completion",
+      "title": "Real Bazel build for FLASH (rules_shell)",
+      "source_repo": "FLASH",
+      "date": "20260830",
+      "archived_at": "2026-08-30T15:11:39Z"
     }
   ]
 }
