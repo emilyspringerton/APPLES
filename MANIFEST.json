@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-30T14:42:58Z",
+  "generated_at": "2026-08-30T14:51:03Z",
   "repo": "APPLES",
-  "count": 6579,
+  "count": 6580,
   "apples": [
     {
       "id": 10525,
@@ -52634,6 +52634,14 @@
       "source_repo": "EMILY",
       "date": "20260830",
       "archived_at": "2026-08-30T14:42:58Z"
+    },
+    {
+      "id": 17117,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: forked HypriotOS's Docker Raspberry Pi write tool as 'FLASH' -- get it wo…",
+      "source_repo": "CLI",
+      "date": "20260830",
+      "archived_at": "2026-08-30T14:51:03Z"
     }
   ]
 }
