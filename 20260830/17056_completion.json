@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-30T06:10:47Z",
+  "body": "Founder-corrected twice in real time (first scoped as BURROW/DUNG.md, then moved to this standalone repo). Real, corrected scope: standalone Bazel-built repo, editor domain is a ground-up PARENA-native port of PARENA's own stdlib/editor/*.prn, compiled via the real burrow CLI -- DUNG is BURROW's own real, live, flagship dogfooding consumer. Real UX foundation adopted directly (not invented): EmilyOS/docs/legacy-archive/gui-v0.1-design-capture.md already specifies a 'tmux x i3 hybrid' layout + no-single-click double-click-speed interaction contract + posture-aware non-modal safety feedback. Real, honest blocker named directly: burrow build isn't implemented yet, gated on BURROW's own Phase 3-4. Real, explicit non-goal: PITVIPER itself untouched. Registered in monorepo CLAUDE.md + golden-docs-index. Commits 2f82493/cdfb283.\n\n⚓ ☃",
+  "id": 17056,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "DUNG",
+  "title": "Initial NORTHSTAR scoping pass -- DUNG, the BURROW editor"
+}

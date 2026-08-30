@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-30T06:10:19Z",
+  "generated_at": "2026-08-30T06:10:47Z",
   "repo": "APPLES",
-  "count": 6518,
+  "count": 6519,
   "apples": [
     {
       "id": 10525,
@@ -52146,6 +52146,14 @@
       "source_repo": "BURROW",
       "date": "20260830",
       "archived_at": "2026-08-30T06:10:19Z"
+    },
+    {
+      "id": 17056,
+      "type": "completion",
+      "title": "Initial NORTHSTAR scoping pass -- DUNG, the BURROW editor",
+      "source_repo": "DUNG",
+      "date": "20260830",
+      "archived_at": "2026-08-30T06:10:47Z"
     }
   ]
 }
