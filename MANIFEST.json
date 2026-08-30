@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-30T10:00:53Z",
+  "generated_at": "2026-08-30T10:00:55Z",
   "repo": "APPLES",
-  "count": 6544,
+  "count": 6545,
   "apples": [
     {
       "id": 10525,
@@ -52354,6 +52354,14 @@
       "source_repo": "CLI",
       "date": "20260830",
       "archived_at": "2026-08-30T10:00:53Z"
+    },
+    {
+      "id": 17082,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: finishing up the OKEMILY redesign when convenient",
+      "source_repo": "CLI",
+      "date": "20260830",
+      "archived_at": "2026-08-30T10:00:55Z"
     }
   ]
 }
