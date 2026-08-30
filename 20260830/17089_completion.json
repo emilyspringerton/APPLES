@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-30T11:15:44Z",
+  "body": "Founder real-time: helm support into DUNG and project BURROW. Real trigger: PARENA's new stdlib/k8s+helm packages needed struct types. A registered defstruct emits a real exported Go struct type; get-field lowers to plain dot access. Construction deliberately not emitted -- a real host constructs via ordinary Go composite literals, matching the C target's own real split. Real boundary found: k8s.prn/helm.prn's String+Arena string-building is incompatible with the Go target's GC-off-safe design; stdlib/k8s/scaling.prn (scalar-only) proves the new struct support end to end. go test: 50/50. BURROW commit aad0fc8.\n\n⚓ ☃",
+  "id": 17089,
+  "metadata": null,
+  "run_id": "sess-20260830-0908-5ede695f",
+  "source_repo": "BURROW",
+  "title": "defstruct + get-field support for the Go emission target"
+}
