@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-30T14:22:19Z",
+  "generated_at": "2026-08-30T14:22:25Z",
   "repo": "APPLES",
-  "count": 6570,
+  "count": 6571,
   "apples": [
     {
       "id": 10525,
@@ -52562,6 +52562,14 @@
       "source_repo": "PARENA",
       "date": "20260830",
       "archived_at": "2026-08-30T14:22:19Z"
+    },
+    {
+      "id": 17108,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: we have Slack now (founder has a Slack account) -- after this iteration, …",
+      "source_repo": "CLI",
+      "date": "20260830",
+      "archived_at": "2026-08-30T14:22:25Z"
     }
   ]
 }
