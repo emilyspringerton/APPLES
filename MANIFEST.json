@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-30T16:38:55Z",
+  "generated_at": "2026-08-30T16:38:57Z",
   "repo": "APPLES",
-  "count": 6621,
+  "count": 6622,
   "apples": [
     {
       "id": 10525,
@@ -52970,6 +52970,14 @@
       "source_repo": "CLI",
       "date": "20260830",
       "archived_at": "2026-08-30T16:38:55Z"
+    },
+    {
+      "id": 17159,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: make it compile, view the AST (lesser priority), and edit -- super simple",
+      "source_repo": "CLI",
+      "date": "20260830",
+      "archived_at": "2026-08-30T16:38:57Z"
     }
   ]
 }
