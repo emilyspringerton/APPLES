@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-30T15:11:39Z",
+  "generated_at": "2026-08-30T15:15:32Z",
   "repo": "APPLES",
-  "count": 6591,
+  "count": 6592,
   "apples": [
     {
       "id": 10525,
@@ -52730,6 +52730,14 @@
       "source_repo": "FLASH",
       "date": "20260830",
       "archived_at": "2026-08-30T15:11:39Z"
+    },
+    {
+      "id": 17129,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: proceed autonomously (yolo) on S213-03, conserve tokens; new standing ins…",
+      "source_repo": "CLI",
+      "date": "20260830",
+      "archived_at": "2026-08-30T15:15:32Z"
     }
   ]
 }
