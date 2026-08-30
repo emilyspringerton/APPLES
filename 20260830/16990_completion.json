@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-30T03:49:38Z",
+  "body": "Founder real-time: 'ensure MISHRI has auto release set up with full construct uploads to artifacts in a separate job check parena for the idea of what is a construct in terms of github workflows'. Added a new release job to .github/workflows/ci.yml matching PARENA's own exact release-job structure (fetch-depth:0 for tag history, compute-next-minor-version script, gh release create, regular/non-prerelease per this monorepo's own standing 'auto release non pre release' convention), gated to push-to-main, needs:[test, construct_bundle]. MISHRI has no compiled binary, so the full real construct bundle (txt/tar.gz/zip, already produced by the separate construct_bundle job) IS the release asset -- a real, versioned, downloadable source snapshot per release. Top-level permissions bumped to contents:write with every other job explicitly scoped back to contents:read. MISHRI commit 75b3d6b.\n\n⚓ ☃",
+  "id": 16990,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "MISHRI",
+  "title": "Auto-release CI job added, full construct bundle as release asset"
+}
