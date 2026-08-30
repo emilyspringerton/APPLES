@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-30T17:29:57Z",
+  "body": "Closes the limitation named in the previous commit: bare MAGNET is Depth 0 (backward compatible), VectorLit MAGNET (single-state vector before MAGNET) reaches outward by that depth -- reuses MagnetExpr's own already-specified token shape. Emitter names bindings by depth (x0,x1,...), resolves LetRef with a real bounds check. Verified end-to-end: outer/inner bindings XORed together, correct exit code (3). 20 tests total. LO commit 993b0c2.\n\n⚓ ☃",
+  "id": 17168,
+  "metadata": null,
+  "run_id": "sess-20260830-1207-cc0ba7da",
+  "source_repo": "LO",
+  "title": "LetRef reaches outer Let bindings via a depth index"
+}

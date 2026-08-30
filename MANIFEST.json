@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-30T17:20:47Z",
+  "generated_at": "2026-08-30T17:29:57Z",
   "repo": "APPLES",
-  "count": 6630,
+  "count": 6631,
   "apples": [
     {
       "id": 10525,
@@ -53042,6 +53042,14 @@
       "source_repo": "LO",
       "date": "20260830",
       "archived_at": "2026-08-30T17:20:47Z"
+    },
+    {
+      "id": 17168,
+      "type": "completion",
+      "title": "LetRef reaches outer Let bindings via a depth index",
+      "source_repo": "LO",
+      "date": "20260830",
+      "archived_at": "2026-08-30T17:29:57Z"
     }
   ]
 }
