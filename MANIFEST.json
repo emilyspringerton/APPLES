@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-30T04:47:14Z",
+  "generated_at": "2026-08-30T04:55:03Z",
   "repo": "APPLES",
-  "count": 6476,
+  "count": 6477,
   "apples": [
     {
       "id": 10525,
@@ -51810,6 +51810,14 @@
       "source_repo": "CLI",
       "date": "20260830",
       "archived_at": "2026-08-30T04:47:14Z"
+    },
+    {
+      "id": 17014,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: (1) scope-and-continue directive covering three threads at once -- 'scope…",
+      "source_repo": "CLI",
+      "date": "20260830",
+      "archived_at": "2026-08-30T04:55:03Z"
     }
   ]
 }
