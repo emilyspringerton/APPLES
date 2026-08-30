@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-30T00:53:24Z",
+  "generated_at": "2026-08-30T00:58:22Z",
   "repo": "APPLES",
-  "count": 6400,
+  "count": 6401,
   "apples": [
     {
       "id": 10525,
@@ -51202,6 +51202,14 @@
       "source_repo": "PAPERCRAFT",
       "date": "20260830",
       "archived_at": "2026-08-30T00:53:24Z"
+    },
+    {
+      "id": 16937,
+      "type": "audit",
+      "title": "Cycle 12430 — idle (no queued tasks)",
+      "source_repo": "emily",
+      "date": "20260830",
+      "archived_at": "2026-08-30T00:58:22Z"
     }
   ]
 }
