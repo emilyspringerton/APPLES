@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-30T14:05:43Z",
+  "generated_at": "2026-08-30T14:06:17Z",
   "repo": "APPLES",
-  "count": 6566,
+  "count": 6567,
   "apples": [
     {
       "id": 10525,
@@ -52530,6 +52530,14 @@
       "source_repo": "CLI",
       "date": "20260830",
       "archived_at": "2026-08-30T14:05:43Z"
+    },
+    {
+      "id": 17104,
+      "type": "completion",
+      "title": "Reconnection message follow-up — real findings, no code bug found",
+      "source_repo": "PAPERCRAFT",
+      "date": "20260830",
+      "archived_at": "2026-08-30T14:06:17Z"
     }
   ]
 }
