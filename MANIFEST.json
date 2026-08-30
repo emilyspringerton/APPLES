@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-30T00:43:17Z",
+  "generated_at": "2026-08-30T00:43:22Z",
   "repo": "APPLES",
-  "count": 6397,
+  "count": 6398,
   "apples": [
     {
       "id": 10525,
@@ -51178,6 +51178,14 @@
       "source_repo": "emily",
       "date": "20260830",
       "archived_at": "2026-08-30T00:43:17Z"
+    },
+    {
+      "id": 16934,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: \"continue\" -- no new PAPERCRAFT feedback yet on v0.10.0. Implementing the…",
+      "source_repo": "CLI",
+      "date": "20260830",
+      "archived_at": "2026-08-30T00:43:22Z"
     }
   ]
 }
