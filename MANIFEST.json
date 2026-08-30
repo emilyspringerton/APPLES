@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-30T10:48:32Z",
+  "generated_at": "2026-08-30T11:14:21Z",
   "repo": "APPLES",
-  "count": 6550,
+  "count": 6551,
   "apples": [
     {
       "id": 10525,
@@ -52402,6 +52402,14 @@
       "source_repo": "PRRJECT_FATBABY",
       "date": "20260830",
       "archived_at": "2026-08-30T10:48:32Z"
+    },
+    {
+      "id": 17088,
+      "type": "completion",
+      "title": "stdlib/k8s + stdlib/helm — real Kubernetes + Helm primitives",
+      "source_repo": "PARENA",
+      "date": "20260830",
+      "archived_at": "2026-08-30T11:14:21Z"
     }
   ]
 }
