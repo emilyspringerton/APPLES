@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-08-30T04:31:33Z",
+  "body": "CHANGELOG updated in PAPERCRAFT: Halved snapshot broadcast bandwidth (PC_SNAPSHOT_HZ=10, decoupled from 20Hz sim tick) to reduce reconnection flashing on low-bandwidth connections; bumped PC_CLIENT_WEAK_MS; fixed a live var/players+var/world permission bug that was silently failing player autosaves (sess-20260825-1938-f6bd411e)\n\n⚓ ☃",
+  "id": 17002,
+  "metadata": null,
+  "run_id": "sess-20260825-1938-f6bd411e",
+  "source_repo": "PAPERCRAFT",
+  "title": "changelog(PAPERCRAFT): Halved snapshot broadcast bandwidth (PC_SNAPSHOT_HZ=10, dec…"
+}

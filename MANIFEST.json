@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-30T04:29:57Z",
+  "generated_at": "2026-08-30T04:31:33Z",
   "repo": "APPLES",
-  "count": 6464,
+  "count": 6465,
   "apples": [
     {
       "id": 10525,
@@ -51714,6 +51714,14 @@
       "source_repo": "emily",
       "date": "20260830",
       "archived_at": "2026-08-30T04:29:57Z"
+    },
+    {
+      "id": 17002,
+      "type": "completion",
+      "title": "changelog(PAPERCRAFT): Halved snapshot broadcast bandwidth (PC_SNAPSHOT_HZ=10, dec…",
+      "source_repo": "PAPERCRAFT",
+      "date": "20260830",
+      "archived_at": "2026-08-30T04:31:33Z"
     }
   ]
 }
