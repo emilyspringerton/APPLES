@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-30T14:26:10Z",
+  "generated_at": "2026-08-30T14:27:26Z",
   "repo": "APPLES",
-  "count": 6576,
+  "count": 6577,
   "apples": [
     {
       "id": 10525,
@@ -52610,6 +52610,14 @@
       "source_repo": "emily.cli",
       "date": "20260830",
       "archived_at": "2026-08-30T14:26:10Z"
+    },
+    {
+      "id": 17114,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: get a Gemini key out of Vertex AI somehow, put it somewhere accessible",
+      "source_repo": "CLI",
+      "date": "20260830",
+      "archived_at": "2026-08-30T14:27:26Z"
     }
   ]
 }
