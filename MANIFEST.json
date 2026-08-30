@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-30T06:25:10Z",
+  "generated_at": "2026-08-30T06:25:37Z",
   "repo": "APPLES",
-  "count": 6524,
+  "count": 6525,
   "apples": [
     {
       "id": 10525,
@@ -52194,6 +52194,14 @@
       "source_repo": "CLI",
       "date": "20260830",
       "archived_at": "2026-08-30T06:25:10Z"
+    },
+    {
+      "id": 17062,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time, ambiguous but real design signal: 'and whatever the browser is doing to m…",
+      "source_repo": "CLI",
+      "date": "20260830",
+      "archived_at": "2026-08-30T06:25:37Z"
     }
   ]
 }
