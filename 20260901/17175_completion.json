@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-01T23:19:19Z",
+  "body": "Real parser support for LO_Formal_Grammar_Phase_0_Complete.md's PCRE-oriented Pattern grammar (§19-29): Literal/Wildcard/Quantifier/Anchor/Alternation/CharacterClass+NCLASS+Range/Escaped/quantifiable PatternGroup, wired into Cond ::= Value MATCH Pattern via a new Match AST node. Verified against every one of the doc's own §20-29 worked examples via 10 new parser tests. Two real decisions flagged rather than silently resolved: bare-State pattern atoms not implemented (looks like an old base4-vector-pattern leftover); nested PatternGroups parse but aren't yet rejected despite §33. Found and fixed a real parser bug where GROUP's shared open/close token confused nested-vs-closing detection (insideGroup parameter). Parser-only -- no emitter support, no String values in LO yet, so nothing runs end-to-end yet. 41 tests total, GOWORK=off go build/vet/test ./... clean. commit 3dc6b90.\n\n⚓ ☃",
+  "id": 17175,
+  "metadata": null,
+  "run_id": "sess-20260830-1207-cc0ba7da",
+  "source_repo": "LO",
+  "title": "Pattern grammar parser (§19-29), wired into MATCH"
+}

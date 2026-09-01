@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-01T23:03:35Z",
+  "generated_at": "2026-09-01T23:19:19Z",
   "repo": "APPLES",
-  "count": 6637,
+  "count": 6638,
   "apples": [
     {
       "id": 10525,
@@ -53098,6 +53098,14 @@
       "source_repo": "LO",
       "date": "20260901",
       "archived_at": "2026-09-01T23:03:35Z"
+    },
+    {
+      "id": 17175,
+      "type": "completion",
+      "title": "Pattern grammar parser (§19-29), wired into MATCH",
+      "source_repo": "LO",
+      "date": "20260901",
+      "archived_at": "2026-09-01T23:19:19Z"
     }
   ]
 }
