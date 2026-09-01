@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-01T23:19:19Z",
+  "generated_at": "2026-09-01T23:28:04Z",
   "repo": "APPLES",
-  "count": 6638,
+  "count": 6639,
   "apples": [
     {
       "id": 10525,
@@ -53106,6 +53106,14 @@
       "source_repo": "LO",
       "date": "20260901",
       "archived_at": "2026-09-01T23:19:19Z"
+    },
+    {
+      "id": 17176,
+      "type": "completion",
+      "title": "Pattern-to-PCRE-text lowering in the emitter",
+      "source_repo": "LO",
+      "date": "20260901",
+      "archived_at": "2026-09-01T23:28:04Z"
     }
   ]
 }
