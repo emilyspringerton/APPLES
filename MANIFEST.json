@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-30T19:03:21Z",
+  "generated_at": "2026-09-01T22:38:30Z",
   "repo": "APPLES",
-  "count": 6634,
+  "count": 6635,
   "apples": [
     {
       "id": 10525,
@@ -53074,6 +53074,14 @@
       "source_repo": "CLI",
       "date": "20260830",
       "archived_at": "2026-08-30T19:03:21Z"
+    },
+    {
+      "id": 17172,
+      "type": "completion",
+      "title": "Real SWITCH/CASE/DEFAULT and LAMBDA/CALL support, verified end-to-end",
+      "source_repo": "LO",
+      "date": "20260901",
+      "archived_at": "2026-09-01T22:38:30Z"
     }
   ]
 }

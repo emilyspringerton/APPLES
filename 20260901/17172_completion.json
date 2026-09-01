@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-01T22:38:30Z",
+  "body": "Founder uploaded LO_Formal_Grammar_Phase_0_Complete.md (authoritative Phase 0 consolidation) -- now the canonical spec. Real conflict flagged, not silently resolved: doc's §33 lists reaching outer LET bindings as out of v1 scope, but S221-01 already shipped it -- kept as tested superset. Implemented SWITCH/CASE/DEFAULT (nested if/= chain) and LAMBDA/CALL (reusing Let/LetRef depth-index scheme, single-arg v0). Verified end-to-end: SWITCH matches the doc's own worked example exactly; LAMBDA+CALL compiles a real IIFE fn literal through parena build+cc+execution, correct result. 26 tests total. LO commit 96201ed.\n\n⚓ ☃",
+  "id": 17172,
+  "metadata": null,
+  "run_id": "sess-20260830-1207-cc0ba7da",
+  "source_repo": "LO",
+  "title": "Real SWITCH/CASE/DEFAULT and LAMBDA/CALL support, verified end-to-end"
+}
