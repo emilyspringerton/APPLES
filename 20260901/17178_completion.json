@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-01T23:48:13Z",
+  "body": "Arena-threading redesign lands: exprNeedsArena renames the generated function to lo-program with a real (dest : Arena @ Region) parameter whenever the body contains a Match (a defn named main with an Arena param would mangle to an invalid C entry point). Match lowers to the same match/Ok/Err/unbox-bool shape stdlib/awk.prn's rule-matches? uses, calling real regex/pcre/compile+is-match. Two real, found-live PARENA compiler issues confirmed in isolation and worked around (not fixed in src/emit.c, separate out-of-scope investigation): (1) a MatchBudget map literal can't be a bare call argument, needs a let first, matching real stdlib precedent; (2) a genuine compiler bug -- any binding form (let or a match arm's bound name) used directly as an if's condition fails with unknown-identifier for anything it binds referenced inside that condition, even though it compiles fine as a function body -- worked around by evaluating the match chain into a plain result binding first so the if's condition is a bare identifier. Verified end-to-end for 3 real cases: cat MATCH ^cat$ -\u003e true, dog MATCH ^cat$ -\u003e false, 42 MATCH [0-9]+ -\u003e true. Test harness now always builds regex/pcre's real dependency closure. 3 new e2e emitter tests, 68 tests total, GOWORK=off go build/vet/test ./... clean. commit b800ee2.\n\n⚓ ☃",
+  "id": 17178,
+  "metadata": null,
+  "run_id": "sess-20260830-1207-cc0ba7da",
+  "source_repo": "LO",
+  "title": "MATCH wired into a real, running regex/pcre call"
+}

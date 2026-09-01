@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-01T23:35:58Z",
+  "generated_at": "2026-09-01T23:48:13Z",
   "repo": "APPLES",
-  "count": 6640,
+  "count": 6641,
   "apples": [
     {
       "id": 10525,
@@ -53122,6 +53122,14 @@
       "source_repo": "LO",
       "date": "20260901",
       "archived_at": "2026-09-01T23:35:58Z"
+    },
+    {
+      "id": 17178,
+      "type": "completion",
+      "title": "MATCH wired into a real, running regex/pcre call",
+      "source_repo": "LO",
+      "date": "20260901",
+      "archived_at": "2026-09-01T23:48:13Z"
     }
   ]
 }
