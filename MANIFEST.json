@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-01T22:57:05Z",
+  "generated_at": "2026-09-01T23:03:35Z",
   "repo": "APPLES",
-  "count": 6636,
+  "count": 6637,
   "apples": [
     {
       "id": 10525,
@@ -53090,6 +53090,14 @@
       "source_repo": "LO",
       "date": "20260901",
       "archived_at": "2026-09-01T22:57:05Z"
+    },
+    {
+      "id": 17174,
+      "type": "completion",
+      "title": "LITERAL/CLASS/NCLASS/RANGE/ESCAPE lexer tokens",
+      "source_repo": "LO",
+      "date": "20260901",
+      "archived_at": "2026-09-01T23:03:35Z"
     }
   ]
 }
