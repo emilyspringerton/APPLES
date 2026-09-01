@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-01T23:48:13Z",
+  "generated_at": "2026-09-01T23:56:32Z",
   "repo": "APPLES",
-  "count": 6641,
+  "count": 6642,
   "apples": [
     {
       "id": 10525,
@@ -53130,6 +53130,14 @@
       "source_repo": "LO",
       "date": "20260901",
       "archived_at": "2026-09-01T23:48:13Z"
+    },
+    {
+      "id": 17179,
+      "type": "completion",
+      "title": "MATCH's Subject can be a Let-bound String",
+      "source_repo": "LO",
+      "date": "20260901",
+      "archived_at": "2026-09-01T23:56:32Z"
     }
   ]
 }

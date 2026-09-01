@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-01T23:56:32Z",
+  "body": "New minimal per-binding type tracking in emitExpr (exprType typeI32/typeString + a types []exprType slice threaded alongside depth). A Let records its Bound's inferred type; MATCH's own Subject (emitStringSubject) now accepts a LetRef/MAGNET resolving to a typeString binding, not only a bare StringLit -- closes the restriction S222-09 left as a follow-up. A LetRef resolving to typeI32 stays a real, honest error, not silently coerced. Verified end-to-end: LET \"cat\" (MAGNET MATCH ^cat$) ? S1 : S0 compiles and runs, matching. Lambda's own parameter stays typeI32 always (real type unknowable until Call time) -- named, separate follow-up. 2 new real emitter tests. 70 tests total, GOWORK=off go build/vet/test ./... clean. commit a208d0e.\n\n⚓ ☃",
+  "id": 17179,
+  "metadata": null,
+  "run_id": "sess-20260830-1207-cc0ba7da",
+  "source_repo": "LO",
+  "title": "MATCH's Subject can be a Let-bound String"
+}
