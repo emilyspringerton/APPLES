@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-01T23:35:58Z",
+  "body": "New parser.StringLit: a bare LITERAL (🔤\"...\") usable directly as a Value, a real, flagged, minimal extension of the source doc's own Value production (which never lists a bare Literal). Emitter: Door STRING works end-to-end (PARENA String -\u003e C char *, no cast needed). Real, checked-not-assumed fix: PARENA's own string reader unescapes \\n/\\t/\\\"/\\\\, but LO's lexQuotedText does zero escape processing, so emitted backslashes must be doubled -- verified live with a real a\\b round-trip. Verified end-to-end: DOOR STRING 🔤\"hello\" compiles+runs+prints hello via the same #define-main driver technique used for FLOAT/DOUBLE. This makes the Arena-threading redesign the only remaining blocker for real MATCH/regex/pcre wiring. 1 new parser test, 2 new e2e emitter tests. 65 tests total, GOWORK=off go build/vet/test ./... clean. commit 6df1df9.\n\n⚓ ☃",
+  "id": 17177,
+  "metadata": null,
+  "run_id": "sess-20260830-1207-cc0ba7da",
+  "source_repo": "LO",
+  "title": "LO's first real String value (StringLit) + DOOR STRING"
+}
