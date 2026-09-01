@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-01T22:57:05Z",
+  "body": "Real FLOAT/DOUBLE (⚫/⚪) Door type support in the LO emitter, per LO_Formal_Grammar_Phase_0_Complete.md §7.2/7.3. Both map to PARENA F64 (no F32 exists in PARENA, confirmed against src/emit.c) via a small in-module lo-i32-to-f64 cast helper. Found and solved a real verification gap: (defn main [] : F64 ...) mangles to double main(void), whose process exit code is undefined behavior, so a new #define-main-rename driver + printf/stdout parsing technique was built (compileRunAndGetFloat) instead of the exit-code approach used for I32. Two new real end-to-end tests (TestEmitFloatDoorRunsCorrectly, TestEmitDoubleDoorRunsCorrectly), GRAMMAR.md backfilled with the missing Switch/Case/Default/Lambda/Call/FLOAT/DOUBLE EBNF entries. 28 tests pass. commit 13a2934.\n\n⚓ ☃",
+  "id": 17173,
+  "metadata": null,
+  "run_id": "sess-20260830-1207-cc0ba7da",
+  "source_repo": "LO",
+  "title": "FLOAT/DOUBLE Door type support"
+}
