@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-02T13:21:55Z",
+  "generated_at": "2026-09-02T13:29:06Z",
   "repo": "APPLES",
-  "count": 6655,
+  "count": 6656,
   "apples": [
     {
       "id": 10525,
@@ -53242,6 +53242,14 @@
       "source_repo": "IDUNA",
       "date": "20260902",
       "archived_at": "2026-09-02T13:21:55Z"
+    },
+    {
+      "id": 17193,
+      "type": "completion",
+      "title": "S226-02 -- real auth events wired into the unified logging backend",
+      "source_repo": "IDUNA",
+      "date": "20260902",
+      "archived_at": "2026-09-02T13:29:06Z"
     }
   ]
 }
