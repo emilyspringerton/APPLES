@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-02T14:46:55Z",
+  "generated_at": "2026-09-02T14:57:23Z",
   "repo": "APPLES",
-  "count": 6666,
+  "count": 6667,
   "apples": [
     {
       "id": 10525,
@@ -53330,6 +53330,14 @@
       "source_repo": "OKEMILY",
       "date": "20260902",
       "archived_at": "2026-09-02T14:46:55Z"
+    },
+    {
+      "id": 17204,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: BRAWLPIT/TIPJAR 2-player bug — plugging in a controller made keyboard a…",
+      "source_repo": "CLI",
+      "date": "20260902",
+      "archived_at": "2026-09-02T14:57:23Z"
     }
   ]
 }
