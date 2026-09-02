@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-02T20:57:55Z",
+  "generated_at": "2026-09-02T20:58:19Z",
   "repo": "APPLES",
-  "count": 6700,
+  "count": 6701,
   "apples": [
     {
       "id": 10525,
@@ -53602,6 +53602,14 @@
       "source_repo": "CLI",
       "date": "20260902",
       "archived_at": "2026-09-02T20:57:55Z"
+    },
+    {
+      "id": 17238,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: review REDGARDEN's upstream-merged PING_SYSTEM_NORTHSTAR.md (written by C…",
+      "source_repo": "CLI",
+      "date": "20260902",
+      "archived_at": "2026-09-02T20:58:19Z"
     }
   ]
 }
