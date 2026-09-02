@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-02T16:57:59Z",
+  "generated_at": "2026-09-02T17:11:27Z",
   "repo": "APPLES",
-  "count": 6686,
+  "count": 6687,
   "apples": [
     {
       "id": 10525,
@@ -53490,6 +53490,14 @@
       "source_repo": "IDUNA",
       "date": "20260902",
       "archived_at": "2026-09-02T16:57:59Z"
+    },
+    {
+      "id": 17224,
+      "type": "completion",
+      "title": "S234-03: fixed kanban drag-across-scroll UX bug (scrollable bounded columns + send-to select)",
+      "source_repo": "IDUNA",
+      "date": "20260902",
+      "archived_at": "2026-09-02T17:11:27Z"
     }
   ]
 }

@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-02T17:11:27Z",
+  "body": "Founder hit a real bug: with 170 open Inbox items, that column grew far taller than the viewport, so scrolling down scrolled the other columns' drop targets out of view too -- couldn't drag between them. Fixed with two changes: (1) every column is now max-height:calc(100vh-12rem) with its own independently-scrolling card list (standard Trello pattern) so all 4 columns stay visible at once; (2) every card gets an always-visible 'Send to...' select as a precise, keyboard/touch-friendly alternative to dragging, sharing the same sendToQueue() logic as drag-and-drop. go build/test + GOWORK=off clean, go vet clean, live iduna.service rebuilt/restarted. Commit 190fc31.\n\n⚓ ☃",
+  "id": 17224,
+  "metadata": null,
+  "run_id": "sess-20260830-1207-cc0ba7da",
+  "source_repo": "IDUNA",
+  "title": "S234-03: fixed kanban drag-across-scroll UX bug (scrollable bounded columns + send-to select)"
+}
