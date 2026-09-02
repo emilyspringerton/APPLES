@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-02T00:31:31Z",
+  "generated_at": "2026-09-02T00:34:04Z",
   "repo": "APPLES",
-  "count": 6646,
+  "count": 6647,
   "apples": [
     {
       "id": 10525,
@@ -53170,6 +53170,14 @@
       "source_repo": "LO",
       "date": "20260902",
       "archived_at": "2026-09-02T00:31:31Z"
+    },
+    {
+      "id": 17184,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: build SHITHUB using LO -- build a real, Rails-like 'batteries included' w…",
+      "source_repo": "CLI",
+      "date": "20260902",
+      "archived_at": "2026-09-02T00:34:04Z"
     }
   ]
 }
