@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-02T00:31:31Z",
+  "body": "New internal/qi/lexer (Lex/Token/Kind) per QI_NORTHSTAR.md's phased plan. Parens/brackets, deliberately permissive bare symbols (no restricted charset), decimal int literals range-checked to 0-3 (LO's own base4 states), double-quoted strings (no escapes, matching LO's own LITERAL rule), and ; line comments. 11 new tests including QI_NORTHSTAR.md's own worked example (let [x 1] (+4 x x)). Real, honest scope: lexer only -- Phase 2b (parser + name-resolution lowering to internal/parser's existing AST, qi's own real named-variables value-add) not attempted yet. GOWORK=off go build/vet/test ./... clean. commit de8b918.\n\n⚓ ☃",
+  "id": 17183,
+  "metadata": null,
+  "run_id": "sess-20260830-1207-cc0ba7da",
+  "source_repo": "LO",
+  "title": "qi Phase 2a: real lexer for the ASCII surface syntax"
+}
