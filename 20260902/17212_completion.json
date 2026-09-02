@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-02T15:41:52Z",
+  "body": "Fixed a real bug (prwatch/runner.go hardcoded Source:\"prnewswire\" regardless of Client config) via new RunnerConfig.SourceName. Threaded real source name end to end: PressReleaseDiscovered.Source -\u003e BodyFetchedEvent.Source -\u003e SourceDocument.SourceProvider -\u003e DocSummary.SourceProvider -\u003e GET /v1/press-releases/{ticker}?provider=. Wrote docs/CONTENT_TYPE_TAXONOMY.md answering the founder's content-hierarchy question directly from real code (SourceType is the real, existing, flat content-type field; SourceProvider is the new subtype). Honest limitation: no working BusinessWire scraper -- businesswire.com 403s this session's fetch tooling, RSS needs a subscriber token, flagged not faked. go build/test clean. Commit f70de47.\n\n⚓ ☃",
+  "id": 17212,
+  "metadata": null,
+  "run_id": "sess-20260830-1207-cc0ba7da",
+  "source_repo": "PRRJECT_FATBABY",
+  "title": "S233: real press-release provider/subtype (prtype) end to end + content-type taxonomy doc"
+}
