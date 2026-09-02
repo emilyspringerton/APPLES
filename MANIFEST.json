@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-02T01:08:25Z",
+  "generated_at": "2026-09-02T13:06:52Z",
   "repo": "APPLES",
-  "count": 6652,
+  "count": 6653,
   "apples": [
     {
       "id": 10525,
@@ -53218,6 +53218,14 @@
       "source_repo": "LO",
       "date": "20260902",
       "archived_at": "2026-09-02T01:08:25Z"
+    },
+    {
+      "id": 17190,
+      "type": "completion",
+      "title": "Controllers -- Request/Response + real dispatch demo (S225-04)",
+      "source_repo": "PARENA",
+      "date": "20260902",
+      "archived_at": "2026-09-02T13:06:52Z"
     }
   ]
 }

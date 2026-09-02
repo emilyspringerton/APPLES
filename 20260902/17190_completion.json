@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-02T13:06:52Z",
+  "body": "New stdlib/http/controller.prn (Request/Response, response-ok/json/not-found) and examples/shithub_controller_demo.prn (real, explicitly demo-labeled dispatch chain over match-route's own handler-name, two illustrative actions -- not real SHITHUB domain logic, that's Phase C). Request carries no generic params collection, same reasoning as log/event.prn's fields-json (no proven Vec-of-tuple usage in this stdlib). http/routes.prn now exports vec-route-at. Verified end-to-end via new tests/test_http_controller.c: real Router via resource-routes, real Requests through the full pipeline to the right action or a real 404. Full suite unaffected: 342 passed, 0 failed. commits 1e34dc4, a33e85d.\n\n⚓ ☃",
+  "id": 17190,
+  "metadata": null,
+  "run_id": "sess-20260830-1207-cc0ba7da",
+  "source_repo": "PARENA",
+  "title": "Controllers -- Request/Response + real dispatch demo (S225-04)"
+}
