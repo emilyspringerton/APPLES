@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-02T15:14:41Z",
+  "generated_at": "2026-09-02T15:18:11Z",
   "repo": "APPLES",
-  "count": 6671,
+  "count": 6672,
   "apples": [
     {
       "id": 10525,
@@ -53370,6 +53370,14 @@
       "source_repo": "PAPERCRAFT",
       "date": "20260902",
       "archived_at": "2026-09-02T15:14:41Z"
+    },
+    {
+      "id": 17209,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time, two parts: (1) bug report -- the Minecraft-to-GFD-MUD chat bridge works o…",
+      "source_repo": "CLI",
+      "date": "20260902",
+      "archived_at": "2026-09-02T15:18:11Z"
     }
   ]
 }
