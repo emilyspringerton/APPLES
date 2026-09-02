@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-02T21:51:44Z",
+  "generated_at": "2026-09-02T21:51:46Z",
   "repo": "APPLES",
-  "count": 6711,
+  "count": 6712,
   "apples": [
     {
       "id": 10525,
@@ -53690,6 +53690,14 @@
       "source_repo": "PAPERCRAFT",
       "date": "20260902",
       "archived_at": "2026-09-02T21:51:44Z"
+    },
+    {
+      "id": 17249,
+      "type": "completion",
+      "title": "Fixed the real logout bug: reconnect path now re-mints a fresh ticket",
+      "source_repo": "PAPERCRAFT",
+      "date": "20260902",
+      "archived_at": "2026-09-02T21:51:46Z"
     }
   ]
 }
