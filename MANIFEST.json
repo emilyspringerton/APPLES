@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-02T14:32:29Z",
+  "generated_at": "2026-09-02T14:40:02Z",
   "repo": "APPLES",
-  "count": 6664,
+  "count": 6665,
   "apples": [
     {
       "id": 10525,
@@ -53314,6 +53314,14 @@
       "source_repo": "EMILY",
       "date": "20260902",
       "archived_at": "2026-09-02T14:32:29Z"
+    },
+    {
+      "id": 17202,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: publish an updated Terms of Service and Privacy Policy.",
+      "source_repo": "CLI",
+      "date": "20260902",
+      "archived_at": "2026-09-02T14:40:02Z"
     }
   ]
 }
