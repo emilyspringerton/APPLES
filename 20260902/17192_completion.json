@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-02T13:21:55Z",
+  "body": "New internal/http/handlers/logs.go: LogsHandler reusing IDUNA's own existing, tested userlog.FileEventLog (NDJSON append-only log) with a separate root dir (var/eventlog/), rather than a third reimplementation or a cross-repo import of PRRJECT_FATBABY's eventstore. Real, checked-not-assumed finding: IDUNA's real CI checks out this repo standalone with no go.work present -- confirmed via GOWORK=off go build ./..., which failed against the eventstore cross-repo import before this was caught and fixed. Two Splunk-shaped endpoints: POST /services/collector (real HEC endpoint path/auth/payload/response shape) and GET /services/search/jobs (real search endpoint path, deliberately synchronous v0, a narrow SPL subset: type=/source=/q= terms). logs.read permission required for search. Real, honest, not attempted this pass: wiring existing IDUNA code paths to actually emit events. 7 new tests, verified with both go build/test and GOWORK=off go build/test (the real CI path). CLAUDE.md updated. commits 839ee7d, 97683f7.\n\n⚓ ☃",
+  "id": 17192,
+  "metadata": null,
+  "run_id": "sess-20260830-1207-cc0ba7da",
+  "source_repo": "IDUNA",
+  "title": "Unified logging backend, Splunk-shaped (POST /services/collector, GET /services/search/jobs)"
+}
