@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-02T20:39:58Z",
+  "generated_at": "2026-09-02T20:42:45Z",
   "repo": "APPLES",
-  "count": 6694,
+  "count": 6695,
   "apples": [
     {
       "id": 10525,
@@ -53554,6 +53554,14 @@
       "source_repo": "EMILY",
       "date": "20260902",
       "archived_at": "2026-09-02T20:39:58Z"
+    },
+    {
+      "id": 17232,
+      "type": "backlog_completion",
+      "title": "Manual kanban move: real live verification of the kanban Done+archive+Apple flow",
+      "source_repo": "EMILY",
+      "date": "20260902",
+      "archived_at": "2026-09-02T20:42:45Z"
     }
   ]
 }
