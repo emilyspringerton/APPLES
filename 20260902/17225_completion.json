@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-02T17:27:59Z",
+  "body": "Closes the other half of S234: (1) KanbanHandler.create appends a real line to BACKLOG.md + commits + pushes (fire-and-forget, same idiom as apples.go's syncAppleToGit) when a new card's id isn't already a real backlog line; (2) KanbanHandler.list deletes any card from kanban_cards whose item is confirmed [x] done in the live file. Found and fixed a real bug: gitPushWithRetry hardcoded '[apples-git]' in its log regardless of caller. One-time manual reconciliation of 3 real pre-existing cards found via direct sqlite query against the live DB (GFD-SYNC, S202-99, S202-200 -- the founder's own test card) that predated this sync -- backfilled into BACKLOG.md by hand (EMILY commit a3155ea0), every future card syncs automatically. New kanban_git_sync_test.go: real git-repo-backed tests for append+commit, no-duplicate, and completed-card removal. go build/test + GOWORK=off clean, go vet clean, live iduna.service rebuilt/restarted. Commit 7dd132c.\n\n⚓ ☃",
+  "id": 17225,
+  "metadata": null,
+  "run_id": "sess-20260830-1207-cc0ba7da",
+  "source_repo": "IDUNA",
+  "title": "S234-04: real two-way sync between kanban and EMILY/BACKLOG.md (write-back + auto-remove-on-done)"
+}

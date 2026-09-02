@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-02T17:11:27Z",
+  "generated_at": "2026-09-02T17:27:59Z",
   "repo": "APPLES",
-  "count": 6687,
+  "count": 6688,
   "apples": [
     {
       "id": 10525,
@@ -53498,6 +53498,14 @@
       "source_repo": "IDUNA",
       "date": "20260902",
       "archived_at": "2026-09-02T17:11:27Z"
+    },
+    {
+      "id": 17225,
+      "type": "completion",
+      "title": "S234-04: real two-way sync between kanban and EMILY/BACKLOG.md (write-back + auto-remove-on-done)",
+      "source_repo": "IDUNA",
+      "date": "20260902",
+      "archived_at": "2026-09-02T17:27:59Z"
     }
   ]
 }
