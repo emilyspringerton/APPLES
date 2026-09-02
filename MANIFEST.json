@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-02T00:41:17Z",
+  "generated_at": "2026-09-02T00:41:19Z",
   "repo": "APPLES",
-  "count": 6648,
+  "count": 6649,
   "apples": [
     {
       "id": 10525,
@@ -53186,6 +53186,14 @@
       "source_repo": "PARENA",
       "date": "20260902",
       "archived_at": "2026-09-02T00:41:17Z"
+    },
+    {
+      "id": 17186,
+      "type": "completion",
+      "title": "FRAMEWORK_NORTHSTAR.md -- real capability re-check + Rails-like API definition",
+      "source_repo": "LO",
+      "date": "20260902",
+      "archived_at": "2026-09-02T00:41:19Z"
     }
   ]
 }
