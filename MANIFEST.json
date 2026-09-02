@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-02T20:57:23Z",
+  "generated_at": "2026-09-02T20:57:55Z",
   "repo": "APPLES",
-  "count": 6699,
+  "count": 6700,
   "apples": [
     {
       "id": 10525,
@@ -53594,6 +53594,14 @@
       "source_repo": "PAPERCRAFT",
       "date": "20260902",
       "archived_at": "2026-09-02T20:57:23Z"
+    },
+    {
+      "id": 17237,
+      "type": "signal_observation",
+      "title": "[INFO] blog post about how gary is now contributing to the redgarden upstream via pull requests fro…",
+      "source_repo": "CLI",
+      "date": "20260902",
+      "archived_at": "2026-09-02T20:57:55Z"
     }
   ]
 }
