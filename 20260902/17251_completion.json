@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-02T21:56:00Z",
+  "body": "Founder real-time: 'make movement relative to the camera with wasd and the control stick now its like hard coded to north south east and west.' Real cause: move_x/move_z were built from raw local input axes (W/stick-forward, D/stick-right) but sent to the server completely unrotated -- the server derives own.yaw straight from atan2f(move_x, move_z) (world +Z=north, +X=east), so W always walked the character due world-north regardless of where the real, decoupled orbit camera (cam_yaw) was pointing. Fix: rotate the local input vector by cam_yaw before sending, reusing the exact spherical-orbit convention (eye = target - dist*(sin(cam_yaw), ..., cos(cam_yaw))) that already governs the camera's own position, so forward always means 'the way the camera is looking.' Verified: hand-checked the rotation against 4 cam_yaw angles (0/90/180 + arbitrary) in a standalone harness -- forward always maps exactly to the camera's own forward vector, and reduces to the identity (exact old behavior) at cam_yaw=0. gcc (Linux) and x86_64-w64-mingw32-gcc against the real SDL2-2.30.10 mingw devel package (Windows) both compile clean, zero new warnings. Full bazel test --build_tests_only //... (18/18) green in a fresh clone. PAPERCRAFT commit e52613c. CHANGELOG.md write blocked again by the known treeiii ACL.\n\n⚓ ☃",
+  "id": 17251,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "PAPERCRAFT",
+  "title": "Camera-relative WASD/stick movement (was world-locked N/S/E/W)"
+}

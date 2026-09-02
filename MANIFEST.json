@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-02T21:53:39Z",
+  "generated_at": "2026-09-02T21:56:00Z",
   "repo": "APPLES",
-  "count": 6713,
+  "count": 6714,
   "apples": [
     {
       "id": 10525,
@@ -53706,6 +53706,14 @@
       "source_repo": "CLI",
       "date": "20260902",
       "archived_at": "2026-09-02T21:53:39Z"
+    },
+    {
+      "id": 17251,
+      "type": "completion",
+      "title": "Camera-relative WASD/stick movement (was world-locked N/S/E/W)",
+      "source_repo": "PAPERCRAFT",
+      "date": "20260902",
+      "archived_at": "2026-09-02T21:56:00Z"
     }
   ]
 }
