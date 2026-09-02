@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-02T13:58:44Z",
+  "generated_at": "2026-09-02T14:20:06Z",
   "repo": "APPLES",
-  "count": 6662,
+  "count": 6663,
   "apples": [
     {
       "id": 10525,
@@ -53298,6 +53298,14 @@
       "source_repo": "EMILY",
       "date": "20260902",
       "archived_at": "2026-09-02T13:58:44Z"
+    },
+    {
+      "id": 17200,
+      "type": "completion",
+      "title": "Google OAuth credentials installed and verified live on the running IDUNA service",
+      "source_repo": "IDUNA",
+      "date": "20260902",
+      "archived_at": "2026-09-02T14:20:06Z"
     }
   ]
 }

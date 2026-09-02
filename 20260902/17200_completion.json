@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-02T14:20:06Z",
+  "body": "Founder provided the real OAuth Client ID + Client Secret directly. Found IDUNA's real running env file (~/.config/iduna/env, EnvironmentFile= for the live systemctl --user iduna.service unit -- not previously visible to this session). Added both values there (no secrets in git or in the runbook file). Rebuilt the binary per the unit's own documented deploy step, restarted the service, verified live: health check green, and the real Client ID confirmed reaching /portal/login's own server-rendered HTML (data-google-client-id attribute) -- distinct from the page's own always-present client-side JS fallback text, which would have produced a false negative in a naive grep. Next real step (written in EMILY/continuity/google-oauth-runbook.md): an actual end-to-end sign-in attempt in a browser.\n\n⚓ ☃",
+  "id": 17200,
+  "metadata": null,
+  "run_id": "sess-20260830-1207-cc0ba7da",
+  "source_repo": "IDUNA",
+  "title": "Google OAuth credentials installed and verified live on the running IDUNA service"
+}
