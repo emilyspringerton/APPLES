@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-02T21:35:52Z",
+  "generated_at": "2026-09-02T21:45:11Z",
   "repo": "APPLES",
-  "count": 6708,
+  "count": 6709,
   "apples": [
     {
       "id": 10525,
@@ -53666,6 +53666,14 @@
       "source_repo": "emily",
       "date": "20260902",
       "archived_at": "2026-09-02T21:35:52Z"
+    },
+    {
+      "id": 17246,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: confirmed the actual bug -- gets logged out of PAPERCRAFT if logged in lo…",
+      "source_repo": "CLI",
+      "date": "20260902",
+      "archived_at": "2026-09-02T21:45:11Z"
     }
   ]
 }
