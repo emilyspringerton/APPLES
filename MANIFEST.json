@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-02T15:05:32Z",
+  "generated_at": "2026-09-02T15:05:51Z",
   "repo": "APPLES",
-  "count": 6669,
+  "count": 6670,
   "apples": [
     {
       "id": 10525,
@@ -53354,6 +53354,14 @@
       "source_repo": "BRAWLPIT",
       "date": "20260902",
       "archived_at": "2026-09-02T15:05:32Z"
+    },
+    {
+      "id": 17207,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: get PAPERCRAFT working with controller input and a 'punch' action to test…",
+      "source_repo": "CLI",
+      "date": "20260902",
+      "archived_at": "2026-09-02T15:05:51Z"
     }
   ]
 }
