@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "observation",
+  "archived_at": "2026-09-02T20:57:22Z",
+  "body": "Follow-up to Apple #17235. New CI run 33682121082 (commit ac1204e, with the 3-attempt retry loop) failed again, in ~77s total across all 3 attempts -- too fast for even one real 166-action bazel test run, meaning it's failing early and deterministically on every attempt, not intermittently. This rules out the transient-BCR-fetch-flake theory the retry was hedging against. Combined with 3 separate clean local reproductions of the same commit (warm cache, expunged cache, fully cold output_base/repo_cache/HOME), this is now real, verified evidence of a CI-environment-specific difference that cannot be diagnosed further without the actual job log text, which remains inaccessible from this sandbox (403 on unauthenticated Actions API, no gh CLI/token available). Escalating: needs either a GitHub token wired into this environment, or the founder pulling the real error text from the Actions UI directly.\n\n⚓ ☃",
+  "id": 17236,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "PAPERCRAFT",
+  "title": "PAPERCRAFT CI retry did NOT fix it -- ruling out transient flake, real log access now needed"
+}
