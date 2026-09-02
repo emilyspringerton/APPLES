@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-02T13:43:39Z",
+  "generated_at": "2026-09-02T13:51:30Z",
   "repo": "APPLES",
-  "count": 6659,
+  "count": 6660,
   "apples": [
     {
       "id": 10525,
@@ -53274,6 +53274,14 @@
       "source_repo": "CLI",
       "date": "20260902",
       "archived_at": "2026-09-02T13:43:39Z"
+    },
+    {
+      "id": 17197,
+      "type": "completion",
+      "title": "S227-01 -- log query UI in the dev portal, with real regex search",
+      "source_repo": "IDUNA",
+      "date": "20260902",
+      "archived_at": "2026-09-02T13:51:30Z"
     }
   ]
 }
