@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-02T15:21:07Z",
+  "generated_at": "2026-09-02T15:31:15Z",
   "repo": "APPLES",
-  "count": 6673,
+  "count": 6674,
   "apples": [
     {
       "id": 10525,
@@ -53386,6 +53386,14 @@
       "source_repo": "IDUNA",
       "date": "20260902",
       "archived_at": "2026-09-02T15:21:07Z"
+    },
+    {
+      "id": 17211,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: add BusinessWire as a PR data source alongside PRNewswire, tag both as co…",
+      "source_repo": "CLI",
+      "date": "20260902",
+      "archived_at": "2026-09-02T15:31:15Z"
     }
   ]
 }
