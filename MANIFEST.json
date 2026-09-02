@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-02T16:40:50Z",
+  "generated_at": "2026-09-02T16:42:47Z",
   "repo": "APPLES",
-  "count": 6682,
+  "count": 6683,
   "apples": [
     {
       "id": 10525,
@@ -53458,6 +53458,14 @@
       "source_repo": "PRRJECT_FATBABY",
       "date": "20260902",
       "archived_at": "2026-09-02T16:40:50Z"
+    },
+    {
+      "id": 17220,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: BusinessWire scraping is blocked on this box's datacenter IP being flagge…",
+      "source_repo": "CLI",
+      "date": "20260902",
+      "archived_at": "2026-09-02T16:42:47Z"
     }
   ]
 }
