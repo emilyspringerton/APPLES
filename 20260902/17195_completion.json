@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-02T13:42:36Z",
+  "body": "Extends S226-02's pattern to every remaining real login surface plus admin suspend/unsuspend: LocalAuthHandler (iduna:auth.local.success/failure), AdminLoginHandler (iduna:auth.admin_login.success/failure, two distinct failure reasons), PortalHandler.LocalLogin (iduna:auth.portal.success/failure, a real separate surface from LocalAuthHandler despite the same shape), AdminHandler.userAction/agentAction (iduna:admin.user.suspend/unsuspend, iduna:admin.agent.suspend/unsuspend -- the founder's own explicitly named case). All failure events avoid logging raw credentials (email only, never password/secret). main.go wires unifiedLog into all handlers, late for those constructed early (same pattern as S226-02), direct for localAuthH. 6 new tests across 4 files, each verifying actual emitted event Type/payload. stubApplesStore reused as a full IAMStore stub. Verified with both go build/test and GOWORK=off go build/test. Zero regressions. commits d6c7404, 5a751cf.\n\n⚓ ☃",
+  "id": 17195,
+  "metadata": null,
+  "run_id": "sess-20260830-1207-cc0ba7da",
+  "source_repo": "IDUNA",
+  "title": "S226-03 -- ALL login surfaces + admin suspend/unsuspend wired into the unified log"
+}

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-02T13:32:11Z",
+  "generated_at": "2026-09-02T13:42:36Z",
   "repo": "APPLES",
-  "count": 6657,
+  "count": 6658,
   "apples": [
     {
       "id": 10525,
@@ -53258,6 +53258,14 @@
       "source_repo": "CLI",
       "date": "20260902",
       "archived_at": "2026-09-02T13:32:11Z"
+    },
+    {
+      "id": 17195,
+      "type": "completion",
+      "title": "S226-03 -- ALL login surfaces + admin suspend/unsuspend wired into the unified log",
+      "source_repo": "IDUNA",
+      "date": "20260902",
+      "archived_at": "2026-09-02T13:42:36Z"
     }
   ]
 }
