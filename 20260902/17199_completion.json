@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-02T13:58:44Z",
+  "body": "New EMILY/continuity/google-oauth-runbook.md: a running, git-iterated instruction file naming the single next concrete step to get Google OAuth working, per the founder's own requested process (one step at a time, founder attempts it, gives feedback if blocked, file gets updated, repeat). Step 1: create the OAuth consent screen + a real OAuth 2.0 Web application Client ID in Google Cloud Console, with the exact Authorized JavaScript origins/redirect URIs both real IDUNA code paths (GoogleAuthHandler's GIS button flow, WebCeremonyHandler's own server-side flow) actually need. Real lead used: an earlier continuity note already confirmed iduna.farthq.com live via curl, used as the best-guess domain for the founder to confirm/correct. commit 6593f443.\n\n⚓ ☃",
+  "id": 17199,
+  "metadata": null,
+  "run_id": "sess-20260830-1207-cc0ba7da",
+  "source_repo": "EMILY",
+  "title": "Google OAuth runbook -- Step 1 (GCP Console OAuth client)"
+}

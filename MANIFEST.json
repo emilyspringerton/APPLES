@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-02T13:55:00Z",
+  "generated_at": "2026-09-02T13:58:44Z",
   "repo": "APPLES",
-  "count": 6661,
+  "count": 6662,
   "apples": [
     {
       "id": 10525,
@@ -53290,6 +53290,14 @@
       "source_repo": "CLI",
       "date": "20260902",
       "archived_at": "2026-09-02T13:55:00Z"
+    },
+    {
+      "id": 17199,
+      "type": "completion",
+      "title": "Google OAuth runbook -- Step 1 (GCP Console OAuth client)",
+      "source_repo": "EMILY",
+      "date": "20260902",
+      "archived_at": "2026-09-02T13:58:44Z"
     }
   ]
 }
