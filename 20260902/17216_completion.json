@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-02T15:57:19Z",
+  "body": "Added page-source (GET /session/{id}/source) to the WebDriver client, needed to scrape a JS-rendered page (BusinessWire's newsroom, confirmed by the founder in-browser: raw HTML has no list data). Found and fixed a real bug in tests/fake_webdriver_server.go: Go's default json.Encoder HTML-escapes '\u003c'/'\u003e'/'\u0026', which no real driver does for a page-source response -- fixed with SetEscapeHTML(false). New test_webdriver.c assertion, make test-webdriver: 0 failures. Not yet done, honestly flagged: no Go-pipeline integration, no chromium/chromedriver in this sandbox to verify live, BusinessWire's real markup still unseen. Commit dc60e44.\n\n⚓ ☃",
+  "id": 17216,
+  "metadata": null,
+  "run_id": "sess-20260830-1207-cc0ba7da",
+  "source_repo": "PARENA",
+  "title": "webdriver.prn: page-source + a real fixture JSON-escaping bug fix"
+}

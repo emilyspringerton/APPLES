@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-02T15:57:19Z",
+  "body": "New -poll-interval-min/-max + -poll-jitter flags, all defaulting to old exact behavior (zero change for live PRNewswire polling). Recommended real BusinessWire values named in flag help: -poll-interval-min=15s -poll-interval-max=1m -poll-jitter=10s, matching founder's exact ask ('crawl and rest between 15s and 1m +-10'). New main_test.go (previously none). go build/test clean. Commit faba940.\n\n⚓ ☃",
+  "id": 17215,
+  "metadata": null,
+  "run_id": "sess-20260830-1207-cc0ba7da",
+  "source_repo": "PRRJECT_FATBABY",
+  "title": "S233-02: poll-timing jitter/ranging for cmd/prwatch (future BusinessWire runner)"
+}
