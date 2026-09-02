@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-01T23:56:32Z",
+  "generated_at": "2026-09-02T00:04:39Z",
   "repo": "APPLES",
-  "count": 6642,
+  "count": 6643,
   "apples": [
     {
       "id": 10525,
@@ -53138,6 +53138,14 @@
       "source_repo": "LO",
       "date": "20260901",
       "archived_at": "2026-09-01T23:56:32Z"
+    },
+    {
+      "id": 17180,
+      "type": "signal_observation",
+      "title": "[INFO] PARENA compiler finding: emit_if/emit_expr has no support for a let/match binding form used …",
+      "source_repo": "CLI",
+      "date": "20260902",
+      "archived_at": "2026-09-02T00:04:39Z"
     }
   ]
 }
