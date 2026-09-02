@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-02T14:20:06Z",
+  "generated_at": "2026-09-02T14:32:29Z",
   "repo": "APPLES",
-  "count": 6663,
+  "count": 6664,
   "apples": [
     {
       "id": 10525,
@@ -53306,6 +53306,14 @@
       "source_repo": "IDUNA",
       "date": "20260902",
       "archived_at": "2026-09-02T14:20:06Z"
+    },
+    {
+      "id": 17201,
+      "type": "completion",
+      "title": "Google OAuth runbook -- domain correction (okemily.com) + redirect_uri_mismatch fix",
+      "source_repo": "EMILY",
+      "date": "20260902",
+      "archived_at": "2026-09-02T14:32:29Z"
     }
   ]
 }

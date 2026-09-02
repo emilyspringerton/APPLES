@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-02T14:32:29Z",
+  "body": "Founder feedback: real domain is okemily.com, not the iduna.farthq.com guess from Step 1. Hit two real errors: account-not-registered (Testing/Test-users case) and redirect_uri_mismatch (direct consequence of the wrong domain being registered on the OAuth client). Runbook updated with a combined next step: add the real okemily.com origin + redirect URIs to the existing OAuth client, and add the real test account, in the same Console visit. Also answered the founder's own question about whether this failure reaches the new unified logging backend: no -- a Google-side rejection never reaches IDUNA's own code, GoogleAuthHandler only runs once Google issues a real ID token. commit 2eb69b43.\n\n⚓ ☃",
+  "id": 17201,
+  "metadata": null,
+  "run_id": "sess-20260830-1207-cc0ba7da",
+  "source_repo": "EMILY",
+  "title": "Google OAuth runbook -- domain correction (okemily.com) + redirect_uri_mismatch fix"
+}
