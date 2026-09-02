@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-02T13:51:30Z",
+  "generated_at": "2026-09-02T13:55:00Z",
   "repo": "APPLES",
-  "count": 6660,
+  "count": 6661,
   "apples": [
     {
       "id": 10525,
@@ -53282,6 +53282,14 @@
       "source_repo": "IDUNA",
       "date": "20260902",
       "archived_at": "2026-09-02T13:51:30Z"
+    },
+    {
+      "id": 17198,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: get Google OAuth working for IDUNA. Wants an iterative process -- maintai…",
+      "source_repo": "CLI",
+      "date": "20260902",
+      "archived_at": "2026-09-02T13:55:00Z"
     }
   ]
 }
