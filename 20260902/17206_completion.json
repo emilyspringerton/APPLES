@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-02T15:05:32Z",
+  "body": "Founder follow-up ('1') on the P1/P2 gamepad fix: opens up to two SDL controllers (g_pad/g_pad2) with hotplug handled for both. One pad still goes to P2 (preserves the single-pad fix); a second pad takes over P1 instead of staying keyboard-only. New shared apply_pad_to_tipjar_input() helper. Verified: gcc -fsyntax-only clean, scripts/build.sh build + physics smoke test pass. Commit 09a7ff1.\n\n⚓ ☃",
+  "id": 17206,
+  "metadata": null,
+  "run_id": "sess-20260830-1207-cc0ba7da",
+  "source_repo": "BRAWLPIT",
+  "title": "TIPJAR: real dual-pad support, two controllers = two players"
+}
