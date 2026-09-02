@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-02T01:08:23Z",
+  "generated_at": "2026-09-02T01:08:25Z",
   "repo": "APPLES",
-  "count": 6651,
+  "count": 6652,
   "apples": [
     {
       "id": 10525,
@@ -53210,6 +53210,14 @@
       "source_repo": "PARENA",
       "date": "20260902",
       "archived_at": "2026-09-02T01:08:23Z"
+    },
+    {
+      "id": 17189,
+      "type": "completion",
+      "title": "FRAMEWORK_NORTHSTAR.md -- event-sourcing refinement, SQLite live-verified",
+      "source_repo": "LO",
+      "date": "20260902",
+      "archived_at": "2026-09-02T01:08:25Z"
     }
   ]
 }
