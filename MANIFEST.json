@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-02T13:29:06Z",
+  "generated_at": "2026-09-02T13:32:11Z",
   "repo": "APPLES",
-  "count": 6656,
+  "count": 6657,
   "apples": [
     {
       "id": 10525,
@@ -53250,6 +53250,14 @@
       "source_repo": "IDUNA",
       "date": "20260902",
       "archived_at": "2026-09-02T13:29:06Z"
+    },
+    {
+      "id": 17194,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: ensure admin events (suspend/unsuspend) and ALL login paths to the IDUNA …",
+      "source_repo": "CLI",
+      "date": "20260902",
+      "archived_at": "2026-09-02T13:32:11Z"
     }
   ]
 }
