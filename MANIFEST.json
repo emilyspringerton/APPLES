@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-02T15:57:19Z",
+  "generated_at": "2026-09-02T15:57:21Z",
   "repo": "APPLES",
-  "count": 6678,
+  "count": 6679,
   "apples": [
     {
       "id": 10525,
@@ -53426,6 +53426,14 @@
       "source_repo": "PRRJECT_FATBABY",
       "date": "20260902",
       "archived_at": "2026-09-02T15:57:19Z"
+    },
+    {
+      "id": 17216,
+      "type": "completion",
+      "title": "webdriver.prn: page-source + a real fixture JSON-escaping bug fix",
+      "source_repo": "PARENA",
+      "date": "20260902",
+      "archived_at": "2026-09-02T15:57:21Z"
     }
   ]
 }
