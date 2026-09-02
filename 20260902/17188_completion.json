@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-02T01:08:23Z",
+  "body": "S225-03 refined into event-sourcing: log/event.prn (Event, event-encode, json-escape-string), log/jsonl.prn (append-event!/read-lines over real io.prn file I/O), log/projector.prn (events-table-ddl/insert-event-sql, one shared generic events table across SQLite/MySQL/PostgreSQL; project-sqlite!/project-mysql!/project-postgres! via new process.prn run-capture/run-capture-exit-code, a real popen-based subprocess primitive). Found and fixed two real, previously-unexercised compiler gaps (FileHandle unboxing from a match-bound Ok payload; OpenMode zero-payload variant construction needs a bare symbol not a parenthesized call). The founder then ran the queued sudo-queue/45-install-sqlite3-and-postgresql-client.sh, making sqlite3/psql available -- live-testing project-sqlite! immediately found and fixed a real, genuine shell-quoting bug (double-quote-wrapped SQL text silently corrupted embedded JSON quotes; fixed with real POSIX single-quote escaping). SQLite is now live-verified end-to-end; MySQL/PostgreSQL remain blocked on server/credential access. New Makefile targets test-process/test-log-jsonl/test-log-projector (the last including a real, permanent, environment-skip-guarded live SQLite check). Full suite: 342 passed, 0 failed. commits 0569617, d675f86 (+ changelog a6a0c0d).\n\n⚓ ☃",
+  "id": 17188,
+  "metadata": null,
+  "run_id": "sess-20260830-1207-cc0ba7da",
+  "source_repo": "PARENA",
+  "title": "JSONL event log + SQL projectors (SQLite live-verified)"
+}

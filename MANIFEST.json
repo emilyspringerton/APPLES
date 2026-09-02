@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-02T00:43:07Z",
+  "generated_at": "2026-09-02T01:08:23Z",
   "repo": "APPLES",
-  "count": 6650,
+  "count": 6651,
   "apples": [
     {
       "id": 10525,
@@ -53202,6 +53202,14 @@
       "source_repo": "CLI",
       "date": "20260902",
       "archived_at": "2026-09-02T00:43:07Z"
+    },
+    {
+      "id": 17188,
+      "type": "completion",
+      "title": "JSONL event log + SQL projectors (SQLite live-verified)",
+      "source_repo": "PARENA",
+      "date": "20260902",
+      "archived_at": "2026-09-02T01:08:23Z"
     }
   ]
 }

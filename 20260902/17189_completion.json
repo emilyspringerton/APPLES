@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-02T01:08:23Z",
+  "body": "Refined the Models pillar into event-sourcing per founder real-time direction (JSONL log as source of truth, SQL databases as rebuildable projections). Documented the real shipped API (PARENA's log/event.prn/log/jsonl.prn/log/projector.prn) and its real, named restrictions. After the founder ran the queued sqlite3/postgresql-client install script, SQLite became live-verified (surfacing and fixing a real shell-quoting bug along the way). Phase B2 marked done; MySQL/PostgreSQL live verification remains blocked on server/credential access only.\n\n⚓ ☃",
+  "id": 17189,
+  "metadata": null,
+  "run_id": "sess-20260830-1207-cc0ba7da",
+  "source_repo": "LO",
+  "title": "FRAMEWORK_NORTHSTAR.md -- event-sourcing refinement, SQLite live-verified"
+}
