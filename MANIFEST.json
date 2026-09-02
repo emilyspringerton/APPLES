@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-02T13:42:36Z",
+  "generated_at": "2026-09-02T13:43:39Z",
   "repo": "APPLES",
-  "count": 6658,
+  "count": 6659,
   "apples": [
     {
       "id": 10525,
@@ -53266,6 +53266,14 @@
       "source_repo": "IDUNA",
       "date": "20260902",
       "archived_at": "2026-09-02T13:42:36Z"
+    },
+    {
+      "id": 17196,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time, two parts: (1) build a log query interface into the IDUNA developer porta…",
+      "source_repo": "CLI",
+      "date": "20260902",
+      "archived_at": "2026-09-02T13:43:39Z"
     }
   ]
 }
