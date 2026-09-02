@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-02T17:27:59Z",
+  "generated_at": "2026-09-02T17:34:33Z",
   "repo": "APPLES",
-  "count": 6688,
+  "count": 6689,
   "apples": [
     {
       "id": 10525,
@@ -53506,6 +53506,14 @@
       "source_repo": "IDUNA",
       "date": "20260902",
       "archived_at": "2026-09-02T17:27:59Z"
+    },
+    {
+      "id": 17226,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: kanban 'add card' UX issue found live (caused a real ID collision just no…",
+      "source_repo": "CLI",
+      "date": "20260902",
+      "archived_at": "2026-09-02T17:34:33Z"
     }
   ]
 }
