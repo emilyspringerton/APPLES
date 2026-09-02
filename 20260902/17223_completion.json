@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-02T16:57:59Z",
+  "body": "New internal/backlog package (real, read-time parser -- BACKLOG.md itself stays the one authoritative source, this is a rebuildable projection not a second store). Verified against the live ~27000-line BACKLOG.md: 1315 items, 170 open. New GET /admin/kanban/api/inbox returns real open, not-yet-carded items only -- completed items hidden entirely per founder direction ('save dom nodes'). Frontend: 4-column board (Inbox + Backlog/Priority/Cruise), inbox items draggable into a real column (creates a real card with the live-parsed title). New EMILY_BACKLOG_PATH env var. go build/test + GOWORK=off both clean, go vet clean, live iduna.service rebuilt/restarted and route confirmed registered (401 not 404). Commit 902ef0a.\n\n⚓ ☃",
+  "id": 17223,
+  "metadata": null,
+  "run_id": "sess-20260830-1207-cc0ba7da",
+  "source_repo": "IDUNA",
+  "title": "S234: real bridge from EMILY/BACKLOG.md to the kanban board"
+}
