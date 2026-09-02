@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-02T21:18:02Z",
+  "body": "Filed on behalf of gary/codex for real upstream work merged via PR garyredg/codex/fix-failing-tests (commit 75ad04a, merged through d5ade80/8158abf). Fix: packages/simulation/parena_runtime.h unconditionally #included \u003cSDL2/SDL.h\u003e and \u003cSDL2/SDL_ttf.h\u003e even though most PARENA-generated mods (including the editor_mod_test target) never call any SDL function -- gated those headers and all SDL2 host-glue behind a new opt-in macro, PARENA_RUNTIME_ENABLE_SDL2, defined by nothing in this repo's current build graph. This is the real, confirmed root cause of the CI failure this session spent two rounds investigating (Apples #17235/#17236, EMILY BACKLOG SECTION 237/S203-04): editor_mod_test.c (a real Bazel test target under //packages/simulation) transitively required libsdl2-dev/libsdl2-ttf-dev dev headers just to compile, which a bare ubuntu-latest CI runner's 'test' job never installs (only the separate, test-gated build_linux job does) -- while this dev box already has both packages installed, which is exactly why three separate local cold-cache repro attempts never caught it. Verified live, not just by commit message: CI runs 33683787996 (d5ade806) and 33684071625 (8158abf, the final merge) both completed with every job green -- Bazel Test, both platform builds, and the release job. Rebased local PAPERCRAFT main onto origin/main (fast-forward, no conflicts) to pick this up. No local code changes needed this pass -- this Apple documents and credits the real upstream fix.\n\n⚓ ☃",
+  "id": 17243,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "PAPERCRAFT",
+  "title": "Upstream fix (gary/codex): SDL2 runtime headers made opt-in, fixes the real Bazel Test CI failure"
+}
