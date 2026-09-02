@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-02T16:40:50Z",
+  "body": "With the webdriver chain fully working, fetched businesswire.com/newsroom for real -- got ERR_HTTP2_PROTOCOL_ERROR (Chrome's own error page, not the site). Ruled out BusinessWire-specific issue by trying google.com too: got a live reCAPTCHA challenge instead of search results. curl ipinfo.io confirms this box's outbound IP (198.58.107.85) is on AS63949 Akamai Connected Cloud (Linode) -- a real, flagged datacenter IP range. This is real IP-reputation-based bot blocking, the same wall any headless scraper hits from a cloud IP -- not fixable with Chrome flags or PARENA code. Re-verified example.com still works fine (no such gate), confirming S233-04's fix is not the problem. BusinessWire ingestion now depends on a real infrastructure decision (residential/mobile proxy, or running from a non-datacenter IP), not further engineering.\n\n⚓ ☃",
+  "id": 17219,
+  "metadata": null,
+  "run_id": "sess-20260830-1207-cc0ba7da",
+  "source_repo": "PRRJECT_FATBABY",
+  "title": "S233-05: real IP-reputation block found — this box's datacenter IP, not a code issue"
+}
