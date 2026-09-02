@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-02T22:26:40Z",
+  "body": "Founder real-time, after asking to email PAPERCRAFT login credentials to garybifrost@gmail.com then 'can we make sending email a tool in the emily cli?' Extracted the one-off SMTP-send logic into a real, general 'emily email send --to --subject --body|--body-file' command. New Config.GmailSMTPAddress/GmailSMTPPassword fields auto-resolved from GMAIL_SMTP_ADDRESS/GMAIL_SMTP_PASSWORD (env, or EMILY/var/emily-secrets.env via emily key set) the same way AnthropicKey already is. Reuses emily-agent/gmail.go's own real SMTP path (STARTTLS on 587, Gmail App Password auth), duplicated (not imported, since gmail.go is package main). 4 new tests (arg validation + missing-credentials path), full test suite green, live emily binary rebuilt and installed. Real, honest finding along the way: the specific send this was built for (to garybifrost@gmail.com) failed from this Claude Code sandbox specifically -- outbound SMTP (587 and 465) both time out here even though plain HTTPS works fine, a confirmed egress restriction, not a code bug -- so this command exists for retrying that send from an environment with real SMTP egress. emily.cli commit aba796a.\n\n⚓ ☃",
+  "id": 17256,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "emily.cli",
+  "title": "New emily email send CLI command"
+}
