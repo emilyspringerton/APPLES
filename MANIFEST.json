@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-02T15:18:11Z",
+  "generated_at": "2026-09-02T15:21:07Z",
   "repo": "APPLES",
-  "count": 6672,
+  "count": 6673,
   "apples": [
     {
       "id": 10525,
@@ -53378,6 +53378,14 @@
       "source_repo": "CLI",
       "date": "20260902",
       "archived_at": "2026-09-02T15:18:11Z"
+    },
+    {
+      "id": 17210,
+      "type": "completion",
+      "title": "S231: surfaced the existing kanban interface in the Back Office nav",
+      "source_repo": "IDUNA",
+      "date": "20260902",
+      "archived_at": "2026-09-02T15:21:07Z"
     }
   ]
 }
