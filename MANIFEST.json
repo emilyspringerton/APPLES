@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-02T20:52:20Z",
+  "generated_at": "2026-09-02T20:55:25Z",
   "repo": "APPLES",
-  "count": 6697,
+  "count": 6698,
   "apples": [
     {
       "id": 10525,
@@ -53578,6 +53578,14 @@
       "source_repo": "emily",
       "date": "20260902",
       "archived_at": "2026-09-02T20:52:20Z"
+    },
+    {
+      "id": 17235,
+      "type": "completion",
+      "title": "Investigate + harden PAPERCRAFT CI Bazel Test failure (run 33647252365)",
+      "source_repo": "PAPERCRAFT",
+      "date": "20260902",
+      "archived_at": "2026-09-02T20:55:25Z"
     }
   ]
 }
