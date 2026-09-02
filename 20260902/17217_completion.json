@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-02T16:10:15Z",
+  "body": "Installed real Chrome for Testing + matching chromedriver, no sudo (npx @puppeteer/browsers, ~/.local/browsers). Confirmed a real WebDriver round trip works via raw curl. Fixed a real bug: host_json_unescape copied \\uXXXX hex digits through raw instead of decoding them, invisible until tested against a real driver (a prior commit had wrongly disabled the fixture's HTML-escaping to paper over this). Added new-session-with-capabilities (needed: empty alwaysMatch makes chromedriver launch Chrome with defaults that need a real X display/sandbox, confirmed failing live -- 'session not created: Chrome instance exited'). make test-webdriver: 0 failures. Diagnosed but NOT fixed: net/http.prn's build-request uses bare LF, which chromedriver's own HTTP server rejects (confirmed: identical JSON body succeeds via curl, fails via PARENA's client) -- real fix scoped (string/char-from-code 13 + restructure build-request) but deliberately left for a dedicated pass. Commit 607c7b4.\n\n⚓ ☃",
+  "id": 17217,
+  "metadata": null,
+  "run_id": "sess-20260830-1207-cc0ba7da",
+  "source_repo": "PARENA",
+  "title": "Real Chrome+chromedriver set up; new-session-with-capabilities + \\u decode bug fixed; a deeper net/http.prn CRLF bug found and diagnosed"
+}
