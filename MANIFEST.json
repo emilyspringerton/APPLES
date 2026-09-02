@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-02T15:41:54Z",
+  "generated_at": "2026-09-02T15:42:25Z",
   "repo": "APPLES",
-  "count": 6676,
+  "count": 6677,
   "apples": [
     {
       "id": 10525,
@@ -53410,6 +53410,14 @@
       "source_repo": "EDIS",
       "date": "20260902",
       "archived_at": "2026-09-02T15:41:54Z"
+    },
+    {
+      "id": 17214,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time, architecture question (not yet a build order): wants EMILY/BACKLOG.md to …",
+      "source_repo": "CLI",
+      "date": "20260902",
+      "archived_at": "2026-09-02T15:42:25Z"
     }
   ]
 }
