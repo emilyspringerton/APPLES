@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-02T21:51:46Z",
+  "generated_at": "2026-09-02T21:53:39Z",
   "repo": "APPLES",
-  "count": 6712,
+  "count": 6713,
   "apples": [
     {
       "id": 10525,
@@ -53698,6 +53698,14 @@
       "source_repo": "PAPERCRAFT",
       "date": "20260902",
       "archived_at": "2026-09-02T21:51:46Z"
+    },
+    {
+      "id": 17250,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: PAPERCRAFT movement (WASD + controller stick) is hardcoded to world N/S/E…",
+      "source_repo": "CLI",
+      "date": "20260902",
+      "archived_at": "2026-09-02T21:53:39Z"
     }
   ]
 }
