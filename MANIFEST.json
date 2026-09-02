@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-02T13:06:52Z",
+  "generated_at": "2026-09-02T13:07:53Z",
   "repo": "APPLES",
-  "count": 6653,
+  "count": 6654,
   "apples": [
     {
       "id": 10525,
@@ -53226,6 +53226,14 @@
       "source_repo": "PARENA",
       "date": "20260902",
       "archived_at": "2026-09-02T13:06:52Z"
+    },
+    {
+      "id": 17191,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: create a unified logging backend for IDUNA using the new JSONL-log/SQL-pr…",
+      "source_repo": "CLI",
+      "date": "20260902",
+      "archived_at": "2026-09-02T13:07:53Z"
     }
   ]
 }
