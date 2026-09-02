@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-02T21:51:43Z",
+  "body": "Filed on behalf of gary/codex for real upstream work merged via PR garyredg/codex/refresh-token-to-prevent-auto-logout (commit d36297a, merged through e42e4a2/eeb5b7a). Adds a real periodic IDUNA JWT refresh timer (PC_TOKEN_REFRESH_MS, every 15 min while the client runs) plus a 401-refresh-then-retry branch inside pc_mint_ticket, targeting a real, founder-confirmed symptom: players eventually get logged out of long PAPERCRAFT sessions. The periodic refresh timer is correct and effective on its own. The commit was explicitly untested against the actual failure mode though, and a real gap was found reviewing it: pc_mint_ticket is only ever called once, at startup, before the socket exists -- the client's actual reconnect path (PC_CLIENT_STALE_MS staleness detection) never called it again, so the new refresh-then-retry logic was unreachable dead code for the one scenario it was meant to fix. Completing this properly in a follow-up commit (see next Apple).\n\n⚓ ☃",
+  "id": 17248,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "PAPERCRAFT",
+  "title": "Upstream contribution (gary/codex): PAPERCRAFT IDUNA token-refresh work, untested per its own PR"
+}

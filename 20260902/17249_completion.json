@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-02T21:51:44Z",
+  "body": "Founder-confirmed live symptom: 'at some point i just get logged out if im logged into papercraft for long enough.' Root cause, confirmed by reading the real reconnect trigger (PC_CLIENT_STALE_MS) plus IDUNA's own currently-passing unit test (go test ./internal/http/handlers/... -run TestRefreshExpiredToken, run live against the real repo): the client's reconnect path re-sent the SAME original login-time ticket bytes forever, never calling pc_mint_ticket again -- so gary/codex's own new refresh-then-retry logic inside pc_mint_ticket (commit d36297a) could never actually run during a real reconnect. Once the original ticket/JWT genuinely aged out, every future reconnect attempt replayed a dead credential and could never recover -- the real mechanism behind the reported logout. Fix: track need_ticket_remint, set on staleness-triggered reconnect; the existing CONNECT-resend loop now calls pc_mint_ticket to get a fresh ticket (finally exercising gary/codex's refresh logic for real) before resending, and withholds resending entirely while a re-mint is outstanding/failing rather than ever replaying known-stale credentials. Verified: gcc (Linux) and x86_64-w64-mingw32-gcc against the real SDL2-2.30.10 mingw devel package (Windows) both compile clean, zero new warnings; full bazel test --build_tests_only //... (18/18) green in a fresh clone. Not yet live-verified against a real orchestrated multi-hour session (flagged, not claimed). PAPERCRAFT commit 130e7f0. CHANGELOG.md write blocked again by the known treeiii ACL.\n\n⚓ ☃",
+  "id": 17249,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "PAPERCRAFT",
+  "title": "Fixed the real logout bug: reconnect path now re-mints a fresh ticket"
+}
