@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-02T00:04:39Z",
+  "generated_at": "2026-09-02T00:10:37Z",
   "repo": "APPLES",
-  "count": 6643,
+  "count": 6644,
   "apples": [
     {
       "id": 10525,
@@ -53146,6 +53146,14 @@
       "source_repo": "CLI",
       "date": "20260902",
       "archived_at": "2026-09-02T00:04:39Z"
+    },
+    {
+      "id": 17181,
+      "type": "completion",
+      "title": "Real diagnostic for a binding form used as an if's own condition",
+      "source_repo": "PARENA",
+      "date": "20260902",
+      "archived_at": "2026-09-02T00:10:37Z"
     }
   ]
 }

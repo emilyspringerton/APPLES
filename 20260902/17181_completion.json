@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-02T00:10:37Z",
+  "body": "S223-01's low-risk half: emit_expr had no case for let/match/loop at all, so one reaching it (e.g. nested inside an if's own condition) fell through to the generic call path, treating the binding vector as ordinary call arguments and reporting a misleading unknown-identifier-\u003cbound-name\u003e error instead of naming the real limitation. Fixed with a real, honest diagnostic naming the actual problem. Zero behavior change for programs that don't hit this shape. The real fix (a GNU statement-expression synthesis so let/match CAN be used as an if condition) stays open, tracked in S223-01. 6 new regression tests in tests/test_emit.c. Full suite: 342 passed, 0 failed. LO's own emitter tests re-run against the rebuilt parena binary: all green, no behavior change to the already-shipped S222-09 workaround. commit b616ed0 (+ 4604f99 changelog).\n\n⚓ ☃",
+  "id": 17181,
+  "metadata": null,
+  "run_id": "sess-20260830-1207-cc0ba7da",
+  "source_repo": "PARENA",
+  "title": "Real diagnostic for a binding form used as an if's own condition"
+}
