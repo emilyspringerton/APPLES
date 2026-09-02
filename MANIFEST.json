@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-02T20:58:19Z",
+  "generated_at": "2026-09-02T21:00:49Z",
   "repo": "APPLES",
-  "count": 6701,
+  "count": 6702,
   "apples": [
     {
       "id": 10525,
@@ -53610,6 +53610,14 @@
       "source_repo": "CLI",
       "date": "20260902",
       "archived_at": "2026-09-02T20:58:19Z"
+    },
+    {
+      "id": 17239,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: asked whether we have a cron pulling observations into the kanban board o…",
+      "source_repo": "CLI",
+      "date": "20260902",
+      "archived_at": "2026-09-02T21:00:49Z"
     }
   ]
 }
