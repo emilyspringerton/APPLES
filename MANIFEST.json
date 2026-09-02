@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-02T14:40:02Z",
+  "generated_at": "2026-09-02T14:46:55Z",
   "repo": "APPLES",
-  "count": 6665,
+  "count": 6666,
   "apples": [
     {
       "id": 10525,
@@ -53322,6 +53322,14 @@
       "source_repo": "CLI",
       "date": "20260902",
       "archived_at": "2026-09-02T14:40:02Z"
+    },
+    {
+      "id": 17203,
+      "type": "completion",
+      "title": "S229-01: publish Terms of Service + Privacy Policy v2",
+      "source_repo": "OKEMILY",
+      "date": "20260902",
+      "archived_at": "2026-09-02T14:46:55Z"
     }
   ]
 }
