@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-02T00:24:46Z",
+  "body": "Design-only scoping for qi, LO's own named Phase 2 frontend, once Phase 1's well-scoped work reached a natural pause point (remaining items are genuine source-doc ambiguities best left for founder confirmation, or larger separately-scoped projects). No code -- matches the repo's own Spec Before Implementation precedent. Real, answered question: qi's actual value-add over writing .prn directly is (1) staying in LO's own narrow base4-state value space, and (2) giving LO real named variables via a compile-time name-\u003edepth lowering pass emitting the same AST Phase 1 already produces -- zero changes to internal/parser or internal/emitter. First-draft EBNF for scalars/Let/Switch/Lambda/Call; Pattern/Match deferred to Phase 2c. Phased plan: 2a lexer -\u003e 2b parser+lowering (verified through the same real parena-build+cc+execution pipeline) -\u003e 2c Pattern/Match. Registered LO-QI-NORTHSTAR in golden-docs-index. commit e1dca89.\n\n⚓ ☃",
+  "id": 17182,
+  "metadata": null,
+  "run_id": "sess-20260830-1207-cc0ba7da",
+  "source_repo": "LO",
+  "title": "QI_NORTHSTAR.md -- real scoping pass for Phase 2 (qi frontend)"
+}
