@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-02T14:57:23Z",
+  "generated_at": "2026-09-02T14:57:37Z",
   "repo": "APPLES",
-  "count": 6667,
+  "count": 6668,
   "apples": [
     {
       "id": 10525,
@@ -53338,6 +53338,14 @@
       "source_repo": "CLI",
       "date": "20260902",
       "archived_at": "2026-09-02T14:57:23Z"
+    },
+    {
+      "id": 17205,
+      "type": "completion",
+      "title": "TIPJAR: gamepad now drives Player 2, not Player 1",
+      "source_repo": "BRAWLPIT",
+      "date": "20260902",
+      "archived_at": "2026-09-02T14:57:37Z"
     }
   ]
 }

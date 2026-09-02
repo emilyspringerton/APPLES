@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-02T14:57:37Z",
+  "body": "The one connected controller previously merged into P1's own full keyboard input (WASD/Space/J/K/LShift), so keyboard+pad drove the same fighter and P2 (arrows/RCtrl/Slash/Apostrophe) never saw the pad. Reassigned the pad merge to P2's input block instead -- P1 pure keyboard, P2 keyboard-or-pad. Verified: gcc -fsyntax-only clean, bash scripts/build.sh builds + physics smoke test PASS. Commit 9571293.\n\n⚓ ☃",
+  "id": 17205,
+  "metadata": null,
+  "run_id": "sess-20260830-1207-cc0ba7da",
+  "source_repo": "BRAWLPIT",
+  "title": "TIPJAR: gamepad now drives Player 2, not Player 1"
+}
