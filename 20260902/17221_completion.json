@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-02T16:44:08Z",
+  "body": "Founder: 'the plumbing is there disable it for now until we can figure out a better idea.' Marked docs/CONTENT_TYPE_TAXONOMY.md with an explicit PAUSED marker so a future session doesn't silently re-attempt this and hit the same wall. All plumbing (RunnerConfig.SourceName, SourceProvider, poll-jitter flags, the webdriver/HTTP-client fixes) stays in place, dormant, safe defaults unchanged -- zero behavior change for live PRNewswire polling. Real unblock path: a residential/mobile proxy or non-datacenter IP, an infrastructure decision. Commit ec3a12a.\n\n⚓ ☃",
+  "id": 17221,
+  "metadata": null,
+  "run_id": "sess-20260830-1207-cc0ba7da",
+  "source_repo": "PRRJECT_FATBABY",
+  "title": "S233-06: BusinessWire scraping paused per founder direction (real IP-reputation wall, not a code problem)"
+}
