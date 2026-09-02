@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-02T20:45:03Z",
+  "body": "PATCH .../cards/{id} {queue:done} now: (1) relocates the item's own complete real text into a standing archive section (SECTION 9001), checkbox flipped, via new backlog.ExtractItemRaw; (2) files a real completion Apple (Store.AppendApple, same path create() uses) with real task context in the title/body, not a placeholder; (3) removes the card. Promoted syncAppleToGit to a free function + package-level mutex so Kanban and Apples share one real git-sync path. Found and fixed a real live bug during production verification: the item-id regex was hardcoded S\\d+-\\d+, silently unable to find a real non-numeric id (GFD-SYNC) that's been live since S234-04 shipped -- meaning the dedup check had been silently broken for it. Verified live end to end twice (once pre-fix showing the honest degraded path, once post-fix showing the real archive+Apple, confirmed via emily apples list -- Apple #17232). New tests in internal/backlog and kanban_complete_test.go. go build/test + GOWORK=off clean. Commit 0b00d44.\n\n⚓ ☃",
+  "id": 17233,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "IDUNA",
+  "title": "S234-05: real kanban 'Done' action -- archives to BACKLOG.md + files a real Apple, plus a live regex bug found and fixed"
+}

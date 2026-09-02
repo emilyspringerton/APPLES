@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-02T20:42:45Z",
+  "generated_at": "2026-09-02T20:45:03Z",
   "repo": "APPLES",
-  "count": 6695,
+  "count": 6696,
   "apples": [
     {
       "id": 10525,
@@ -53562,6 +53562,14 @@
       "source_repo": "EMILY",
       "date": "20260902",
       "archived_at": "2026-09-02T20:42:45Z"
+    },
+    {
+      "id": 17233,
+      "type": "completion",
+      "title": "S234-05: real kanban 'Done' action -- archives to BACKLOG.md + files a real Apple, plus a live regex bug found and fixed",
+      "source_repo": "IDUNA",
+      "date": "20260902",
+      "archived_at": "2026-09-02T20:45:03Z"
     }
   ]
 }
