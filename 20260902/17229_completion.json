@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-02T20:23:43Z",
+  "body": "New real, argv-parsing parena-selfhost binary (selfhost/cli_main.c + build-file/build-files), closing the honest 'not yet a real standalone executable' gap. First real use immediately found a live segfault: genuine self-compilation crashed on region.prn/emit.prn/main.prn -- gdb traced it to match-pattern-payload-name reading children[1] on a zero-payload parenthesized pattern like ((None) ...) that only has 1 child. Fixed generically (child count check, not name-specific). Full real 8-file self-compilation attempt now completes cleanly with real C output. New regression test (test_selfhost_emit.c + driver_none_paren_pattern.c). Honest next frontier found: the self-compiled output doesn't yet compile under gcc -- selfhost/emit.prn has no #target/FFI emission support yet (confirmed real parena-c handles it fine, so this is emitter-specific, not a regression) -- true bootstrapping needs that as its own pass. Full Makefile suite (342 tests) + all test-selfhost-* targets clean. Commit 6fb0376.\n\n⚓ ☃",
+  "id": 17229,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "PARENA",
+  "title": "Self-hosting step 6: real standalone parena-selfhost binary + fixed a real self-compilation segfault"
+}
