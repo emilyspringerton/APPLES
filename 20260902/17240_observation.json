@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "observation",
+  "archived_at": "2026-09-02T21:01:47Z",
+  "body": "Founder asked whether we have a cron pulling observations into the kanban board on a schedule. Checked live, real process state rather than assuming: (1) cmd/observation-watcher is running continuously right now (PIDs 1265/1516, --root PRRJECT_FATBABY --prime-tasks EMILY/signals/tasks) and picks up a new emily observe within ~10s. (2) emily-agent --daemon (PID 1780) is genuinely alive and mid-cycle -- Apple #17234 'Cycle 12458 -- idle' filed 9 minutes before this check, proving its internal 15-min RSI cron (OBSERVE/DECIDE/ACT/PLAN, per EMILY/CLAUDE.md) is actively running, not stalled. The PLAN phase is what triages queued FatBaby observations into BACKLOG.md. (3) IDUNA's kanban Inbox (/admin/kanban/api/inbox, shipped this session as S234-01/02) reads BACKLOG.md's live unchecked items on every page load -- a pull, not a poll, so there's no scheduling gap on that leg either. End to end: observe -\u003e (watcher, ~10s) -\u003e directed task OR (daemon cron, ~15min) -\u003e BACKLOG.md -\u003e (kanban inbox, on-demand) -\u003e visible on the board. This is a real, working, currently-running pipeline, just shaped as a long-running daemon + pull-based read rather than a literal cron job, which is why it wasn't obviously recognizable as 'a cron' at a glance. One stale artifact found along the way, noted but not acted on: EMILY/var/rsi-loop-state.json still shows iteration 177 / 2026-06-13 -- looks abandoned/superseded by whatever internal counter produced 'Cycle 12458', not something to fix without more signal that anything still reads it.\n\n⚓ ☃",
+  "id": 17240,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "EMILY",
+  "title": "Confirmed: observations-into-kanban pipeline already exists, no new cron needed"
+}
