@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-02T16:31:19Z",
+  "body": "Two real bugs found and fixed via live testing against real Chrome+chromedriver. (1) build-request sent bare LF, which chromedriver's own strict HTTP server rejects -- fixed with a real CRLF built via string/char-from-code. (2) Deeper bug found right after: chromedriver claims Connection:close but never actually closes the socket, so tcp_read_impl's read-until-EOF design hung forever on every real request -- fixed generically in the runtime with Content-Length-aware early-stop reading + a 30s poll-based safety timeout. Verified end to end with a standalone C harness calling the real compiled webdriver functions against a real, freshly-installed Chrome for Testing + chromedriver: fetched https://example.com, got back correct, instantly-returned, cleanly-decoded HTML. make test-webdriver + test-http-router both clean. Commit 7e236dc.\n\n⚓ ☃",
+  "id": 17218,
+  "metadata": null,
+  "run_id": "sess-20260830-1207-cc0ba7da",
+  "source_repo": "PARENA",
+  "title": "Fixed: net/http.prn CRLF + Content-Length-aware tcp-read (webdriver now works end-to-end against real Chrome)"
+}
