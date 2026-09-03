@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-03T12:28:54Z",
+  "body": "CHANGELOG updated in PARENA: feat: stdlib/sip/message.prn -- real SIP (RFC 3261) message parsing + construction (kanban priority-queue card 3124213, 'SIP phone primitives in parena stdlib'). Pure PARENA, no FFI needed: parse-message (real request/response parsing into a SipMessage struct + Vec of headers + body), build-request (a real, well-formed request with the standard mandatory header set), header-value (real O(n) lookup by name). Real, honest v0 boundary named explicitly: no SDP, no auth, no dialog/transaction state machine; real transport reuses the already-designed net/udp.prn, not duplicated. Two real, genuine compiler bugs found and fixed live, both halves of the same gap (SIP's own mandatory \\r\\n line ending was this stdlib's first-ever real trigger for a literal CR in a string): src/lexer.c's lex_string() had no \\r case at all (decoded to a bare 'r' byte, no signal); src/emit.c's own string re-escaping loop had the matching gap on the way back out (a raw CR byte embedded verbatim into generated C, a real invalid-syntax error). Both fixed. A third, real, separate emitter quirk found and worked around, not fixed: a match clause's own Ok-bound STRUCT payload is always declared void* in generated C regardless of its tracked type -- get-field directly on it fails; deref is the real, already-established path that correctly casts it back, confirmed via a minimal isolated repro before applying here. 2 new tests/test_lexer_parser.c + 3 new tests/test_emit.c assertions for the \\r fixes. New make test-sip-message target: 9/9 real end-to-end assertions (INVITE parse, 200 OK parse, header hit/miss, malformed-input Err, a built request round-tripping back through the parser). make test: 345/345, zero regressions. (sess-20260902-2008-ed50169e)\n\n⚓ ☃",
+  "id": 17428,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "PARENA",
+  "title": "changelog(PARENA): feat: stdlib/sip/message.prn -- real SIP (RFC 3261) message…"
+}
