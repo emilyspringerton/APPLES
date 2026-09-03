@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-03T10:58:30Z",
+  "generated_at": "2026-09-03T10:58:43Z",
   "repo": "APPLES",
-  "count": 6863,
+  "count": 6864,
   "apples": [
     {
       "id": 10525,
@@ -54906,6 +54906,14 @@
       "source_repo": "emily",
       "date": "20260903",
       "archived_at": "2026-09-03T10:58:30Z"
+    },
+    {
+      "id": 17401,
+      "type": "completion",
+      "title": "changelog(BRAWLPIT): feat: mirror-match hat added to draw_player (kanban priorit…",
+      "source_repo": "BRAWLPIT",
+      "date": "20260903",
+      "archived_at": "2026-09-03T10:58:43Z"
     }
   ]
 }
