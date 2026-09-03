@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-03T10:36:15Z",
+  "generated_at": "2026-09-03T10:36:35Z",
   "repo": "APPLES",
-  "count": 6852,
+  "count": 6853,
   "apples": [
     {
       "id": 10525,
@@ -54818,6 +54818,14 @@
       "source_repo": "REDGARDEN",
       "date": "20260903",
       "archived_at": "2026-09-03T10:36:15Z"
+    },
+    {
+      "id": 17390,
+      "type": "completion",
+      "title": "Real settings pane + master volume slider added to the arena client (3424324/343543)",
+      "source_repo": "REDGARDEN",
+      "date": "20260903",
+      "archived_at": "2026-09-03T10:36:35Z"
     }
   ]
 }
