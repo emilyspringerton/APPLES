@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-03T18:26:58Z",
+  "generated_at": "2026-09-03T18:30:36Z",
   "repo": "APPLES",
-  "count": 6957,
+  "count": 6958,
   "apples": [
     {
       "id": 10525,
@@ -55658,6 +55658,14 @@
       "source_repo": "EMILY",
       "date": "20260903",
       "archived_at": "2026-09-03T18:26:58Z"
+    },
+    {
+      "id": 17495,
+      "type": "completion",
+      "title": "burrow new: real batteries-included scaffolding command (kanban PXCL-001)",
+      "source_repo": "BURROW",
+      "date": "20260903",
+      "archived_at": "2026-09-03T18:30:36Z"
     }
   ]
 }

@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-03T18:30:36Z",
+  "body": "burrow new \u003cname\u003e generates a real, immediately-runnable starter (.prn + main.go + go.mod), actually runs it through EmitGo + go build before returning success. Go target only in v0. go test 101/101. Real end-to-end proof: built binary, generated a scaffold, ran it, correct output. Commit 47e1246.\n\n⚓ ☃",
+  "id": 17495,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "BURROW",
+  "title": "burrow new: real batteries-included scaffolding command (kanban PXCL-001)"
+}
