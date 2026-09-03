@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-03T02:55:17Z",
+  "generated_at": "2026-09-03T02:59:40Z",
   "repo": "APPLES",
-  "count": 6766,
+  "count": 6767,
   "apples": [
     {
       "id": 10525,
@@ -54130,6 +54130,14 @@
       "source_repo": "EMILY",
       "date": "20260903",
       "archived_at": "2026-09-03T02:55:17Z"
+    },
+    {
+      "id": 17304,
+      "type": "completion",
+      "title": "S207-68: real kanban within-column card sorting (drag reorder + up/down buttons)",
+      "source_repo": "IDUNA",
+      "date": "20260903",
+      "archived_at": "2026-09-03T02:59:40Z"
     }
   ]
 }

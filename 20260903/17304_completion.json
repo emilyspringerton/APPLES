@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-03T02:59:40Z",
+  "body": "commit abd4a74. The kanban board's drag-and-drop previously only moved cards between columns -- dropping a card back within its own column was a silent no-op with no position write-back, even though the backend already supported PATCH .../cards/{id} {\"position\":N}, just unused by the frontend. New: (1) live drag reorder -- onCardDragOver moves the dragged DOM node into place as the cursor crosses a sibling card's top/bottom half; onDrop reads the final real DOM order for that column and PATCHes every card in it with a fresh, gapless 0..n-1 position (handles a cross-column drop in the same pass). (2) click-based up/down buttons (moveCardBy) using a server-confirmed order cache (kanbanOrder), a reliable non-drag alternative for inputs where drag isn't practical to use or test. New TestKanban_PatchPositionReordersColumn -- a real integration test proving the underlying position-PATCH contract end to end (3 cards created, PATCHed into reverse order, GET reflects the new order). go build/vet/test ./... clean, zero regressions across the whole repo. Live-verified: iduna.service rebuilt and restarted, /health green, /admin/kanban correctly still gated (401 unauthenticated) -- the admin auth boundary this change sits behind was untouched.\n\n⚓ ☃",
+  "id": 17304,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "IDUNA",
+  "title": "S207-68: real kanban within-column card sorting (drag reorder + up/down buttons)"
+}
