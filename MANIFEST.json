@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-03T22:04:59Z",
+  "generated_at": "2026-09-03T22:17:09Z",
   "repo": "APPLES",
-  "count": 7011,
+  "count": 7012,
   "apples": [
     {
       "id": 10525,
@@ -56090,6 +56090,14 @@
       "source_repo": "WOTAN",
       "date": "20260903",
       "archived_at": "2026-09-03T22:04:59Z"
+    },
+    {
+      "id": 17549,
+      "type": "completion",
+      "title": "WOTAN hat store: corrected Phase 0's false blocker (Flow API already existed), shipped real Phase 1 catalog+buy+equip API",
+      "source_repo": "IDUNA",
+      "date": "20260903",
+      "archived_at": "2026-09-03T22:17:09Z"
     }
   ]
 }

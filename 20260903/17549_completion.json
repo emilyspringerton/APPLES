@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-03T22:17:08Z",
+  "body": "Kanban WTHS-0000/WTHS-0010. WOTAN_HAT_STORE_NORTHSTAR.md's own Phase 0 claimed no external Flow balance-query+spend API existed. Checked directly: it already did -- IDUNA's GET /api/v1/characters/by-player/:player_id already returns gold_balance (synced from GFD's apps2/mud/main.go via CreditGold/DeductGold), and PATCH .../gold already spends it atomically. Corrected the doc. Shipped real Phase 1: new hats/character_hats tables (IDUNA/migrations/truestore/202609030001_hats.sql), seeded with a real 6-hat catalog from OKEMILY/hats.html's own mockup. New handlers (internal/http/handlers/hats.go): GET /api/v1/hats, GET/POST/PATCH under /api/v1/characters/:id/hats[/buy|/equip]. Buy is one real DB transaction. Real bug found+fixed test-driven: buy handler's not-found-vs-insufficient-funds check queried h.DB instead of the open tx (wrong connection under :memory: SQLite). 8 handler tests + 1 migration test, all green. IDUNA commit 5bf170c, BRAWLPIT (northstar doc) commit af8481f. Real, honest, NOT done: Phase 2 (real WOTAN store web page), Phase 3 (BRAWLPIT rendering), Phase 4 (pixel editor) remain. session: sess-20260902-2008-ed50169e\n\n⚓ ☃",
+  "id": 17549,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "IDUNA",
+  "title": "WOTAN hat store: corrected Phase 0's false blocker (Flow API already existed), shipped real Phase 1 catalog+buy+equip API"
+}
