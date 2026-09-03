@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-03T20:20:58Z",
+  "body": "Real finding: no email/password signup HTML exists anywhere -- register.go's API has zero frontend, portal.go is login-only, WOTAN's tournaments.html signup is email-only. IDUNA_PRO has no static-file serving. Real 2-phase plan (decide hosting, build the form). Scoped, not swallowed whole. Commit af7ef0b.\n\n⚓ ☃",
+  "id": 17528,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "IDUNA_PRO",
+  "title": "Scoped WOTAN signup UI (kanban WOTAN-997), applying new Principle 19"
+}
