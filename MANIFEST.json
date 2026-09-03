@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-03T11:42:34Z",
+  "generated_at": "2026-09-03T11:51:17Z",
   "repo": "APPLES",
-  "count": 6879,
+  "count": 6880,
   "apples": [
     {
       "id": 10525,
@@ -55034,6 +55034,14 @@
       "source_repo": "emily",
       "date": "20260903",
       "archived_at": "2026-09-03T11:42:34Z"
+    },
+    {
+      "id": 17417,
+      "type": "completion",
+      "title": "changelog(BURROW): feat: Vec added to the Go emission target (emit_go.go), cru…",
+      "source_repo": "BURROW",
+      "date": "20260903",
+      "archived_at": "2026-09-03T11:51:17Z"
     }
   ]
 }
