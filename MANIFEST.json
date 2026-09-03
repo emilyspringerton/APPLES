@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-03T11:31:49Z",
+  "generated_at": "2026-09-03T11:34:16Z",
   "repo": "APPLES",
-  "count": 6875,
+  "count": 6876,
   "apples": [
     {
       "id": 10525,
@@ -55002,6 +55002,14 @@
       "source_repo": "EMILY",
       "date": "20260903",
       "archived_at": "2026-09-03T11:31:49Z"
+    },
+    {
+      "id": 17413,
+      "type": "completion",
+      "title": "changelog(CarePyre): docs: real, checked-live technical research doc for CarePyr…",
+      "source_repo": "CarePyre",
+      "date": "20260903",
+      "archived_at": "2026-09-03T11:34:16Z"
     }
   ]
 }
