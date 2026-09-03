@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-03T10:07:24Z",
+  "generated_at": "2026-09-03T10:07:54Z",
   "repo": "APPLES",
-  "count": 6842,
+  "count": 6843,
   "apples": [
     {
       "id": 10525,
@@ -54738,6 +54738,14 @@
       "source_repo": "PARENA",
       "date": "20260903",
       "archived_at": "2026-09-03T10:07:24Z"
+    },
+    {
+      "id": 17380,
+      "type": "backlog_completion",
+      "title": "Manual kanban move: 「V16」JS engine,原生 PARENA 實作,尚未開始,NORTHST",
+      "source_repo": "EMILY",
+      "date": "20260903",
+      "archived_at": "2026-09-03T10:07:54Z"
     }
   ]
 }
