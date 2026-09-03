@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-03T18:11:18Z",
+  "generated_at": "2026-09-03T18:11:49Z",
   "repo": "APPLES",
-  "count": 6945,
+  "count": 6946,
   "apples": [
     {
       "id": 10525,
@@ -55562,6 +55562,14 @@
       "source_repo": "PARENA",
       "date": "20260903",
       "archived_at": "2026-09-03T18:11:18Z"
+    },
+    {
+      "id": 17483,
+      "type": "backlog_completion",
+      "title": "Manual kanban move: fix unicode in parena editor",
+      "source_repo": "EMILY",
+      "date": "20260903",
+      "archived_at": "2026-09-03T18:11:49Z"
     }
   ]
 }
