@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-03T23:45:18Z",
+  "generated_at": "2026-09-03T23:45:44Z",
   "repo": "APPLES",
-  "count": 7024,
+  "count": 7025,
   "apples": [
     {
       "id": 10525,
@@ -56194,6 +56194,14 @@
       "source_repo": "PITVIPER",
       "date": "20260903",
       "archived_at": "2026-09-03T23:45:18Z"
+    },
+    {
+      "id": 17562,
+      "type": "backlog_completion",
+      "title": "Manual kanban move: fix unicode in pitviper",
+      "source_repo": "EMILY",
+      "date": "20260903",
+      "archived_at": "2026-09-03T23:45:44Z"
     }
   ]
 }
