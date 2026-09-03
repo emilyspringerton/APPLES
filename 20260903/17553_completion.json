@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-03T22:34:57Z",
+  "body": "Kanban cruise-queue card 9988. New match-on-user-defenum support in emit_go.go (goDefnRetInfo Kind=enum/EnumName, knownEnumNames, emitGoMatchEnum handling real N-ary exhaustiveness -- every real variant of the scrutinee's specific enum covered exactly once, generalizing beyond Result/Option's own fixed 2-clause shortcut). 5 new tests incl. a real end-to-end build-and-run proof (3-variant Light enum). go test: 108/108. BURROW commit dd406c5. Put into real production use the same day: PARENA/stdlib/idunapro/cli_mod.prn's HealthError/Result design (which needed a Go-side .Tag-reading workaround, healthErrorMessage) replaced wholesale with a real HealthStatus enum + classify-health/health-message/health-exit-code, all consumed via real match. PARENA commit a35a691, IDUNA_PRO commit 95b3a89 (healthErrorMessage workaround deleted entirely). Live-verified against IDUNA's actual running :8080 (healthy -\u003e exit 0) and an unreachable host (exit 1). Real, honest, still open: struct construction, (Vec SomeStruct) element types, and the fuller multi-subcommand CLI itself (one real subcommand, not yet a full 'emily for business' CLI). session: sess-20260902-2008-ed50169e\n\n⚓ ☃",
+  "id": 17553,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "BURROW",
+  "title": "Card 9988: match on a user defenum shipped, put into real production use same day (idunapro health redesign)"
+}
