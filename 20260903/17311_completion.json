@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-03T03:14:44Z",
+  "body": "commit 7db8c44. New IDUNA/docs/EMILY_FOR_BUSINESS_NORTHSTAR.md -- a real, grounded scoping input for the founder's own framing ('IDUNA IS THE PRODUCT BASICALLY ZERO TRUST SECURITY AGENT NATIVE'), not an implementation plan. Names a real, direct tension head-on rather than smoothing it over: IDUNA/docs/NORTHSTAR.md's own standing line, 'IDUNA is not a product. It is the backbone,' is a real reversal this doc leaves for the founder to resolve. Maps IDUNA's real, checked-today primitives (agent-native dual JWT/OAuth auth, hierarchical RBAC, git-backed Apples audit ledger, the just-closed unified Splunk-shaped logging backend) onto what a real external zero-trust product pitch needs, and names what's genuinely missing without glossing over it: no multi-tenancy, no self-serve onboarding, no continuous device/posture verification (EmilyOS's own docs/POSTURE.md design exists but is mostly unimplemented, [ ] Milestone 1/2), no network micro-segmentation story, no completed compliance attestation (EmilyOS's docs/SOC2.md is a controls map, not an attestation). Four open questions named explicitly for a founder-level decision, not resolved here: literal-IDUNA-externalization vs. a new separate product reusing IDUNA's design; who the actual buyer is; whether EmilyOS's posture kernel folds into this pitch; pricing/packaging. Registered in EMILY/context/golden-docs-index.md as EMILY-FOR-BUSINESS-NORTH.\n\n⚓ ☃",
+  "id": 17311,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "IDUNA",
+  "title": "S243-02: Emily for Business -- real product-scoping NORTHSTAR for the zero-trust IAM pitch"
+}
