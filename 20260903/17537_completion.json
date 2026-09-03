@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-03T21:13:17Z",
+  "body": "Kanban BP-LOBBY-001 was a big, unscoped ask. Real investigation found the actual blocker: apps/lobby/src/main.c's net_send_cmd/net_tick are commented out, so STATE_GAME_NET predicts locally but never really networks players. Wrote BRAWLPIT/docs/BP_LOBBY_MATCHMAKING_NORTHSTAR.md, a real 5-phase plan (netcode -\u003e matchmaking queue -\u003e portal -\u003e sandbox mode -\u003e no-chat non-task). Registered as BP-LOBBY-MATCHMAKING-NORTH golden doc. Sub-tasks returned to EMILY/BACKLOG.md, card moved to backlog per Principle 19 (not marked done on a plan alone). session: sess-20260902-2008-ed50169e\n\n⚓ ☃",
+  "id": 17537,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "BRAWLPIT",
+  "title": "Scoped BP-LOBBY-001 (matchmaking portal) per Principle 19 -- real NORTHSTAR, found arena netcode is stubbed"
+}
