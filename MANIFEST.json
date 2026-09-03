@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-03T10:59:04Z",
+  "generated_at": "2026-09-03T10:59:26Z",
   "repo": "APPLES",
-  "count": 6865,
+  "count": 6866,
   "apples": [
     {
       "id": 10525,
@@ -54922,6 +54922,14 @@
       "source_repo": "BRAWLPIT",
       "date": "20260903",
       "archived_at": "2026-09-03T10:59:04Z"
+    },
+    {
+      "id": 17403,
+      "type": "backlog_completion",
+      "title": "Manual kanban move: we need hats for the brawlpit characters for mirror matches",
+      "source_repo": "EMILY",
+      "date": "20260903",
+      "archived_at": "2026-09-03T10:59:26Z"
     }
   ]
 }
