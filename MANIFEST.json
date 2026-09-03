@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-03T21:02:53Z",
+  "generated_at": "2026-09-03T21:11:01Z",
   "repo": "APPLES",
-  "count": 6998,
+  "count": 6999,
   "apples": [
     {
       "id": 10525,
@@ -55986,6 +55986,14 @@
       "source_repo": "emily",
       "date": "20260903",
       "archived_at": "2026-09-03T21:02:53Z"
+    },
+    {
+      "id": 17536,
+      "type": "completion",
+      "title": "Fixed backwards neutral-B control docs; added Medusa down-B",
+      "source_repo": "BRAWLPIT",
+      "date": "20260903",
+      "archived_at": "2026-09-03T21:11:01Z"
     }
   ]
 }
