@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-03T10:50:09Z",
+  "body": "Real gap found live: apps2/battlegrounds_gui's AH menu could browse/view-listings/cancel but had NO way to actually create a listing -- the only real path was a raw '/ah sell \u003citem-id\u003e \u003cprice\u003e' slash command, defeating the point of the FFXI-style navigable menu. New AH_SELL_ITEMS (pick from real inventory) + AH_SELL_PRICE (digit-only text entry, reusing chat_input_active's real SDL_TEXTINPUT mechanism) screens, new 'Sell an Item' row on AH main. Prerequisite fix: apps2/mud's cmdInventory never emitted the real item ID (only display name) -- now appends bracketed [item-id] per line, same convention ah_parse_rows already extracts elsewhere. Routes through the existing real town_send_command path, no second economy. Live-verified under Xvfb with synthetic inventory data (temp hook, reverted before commit): both screens render correctly -- panel, help text, row highlighting, bracketed IDs, live price buffer with cursor. Native gcc build (-Wall -Wextra) clean, matches the real Windows cross-compile source list from .github/workflows/build.yml. go build/vet/test ./... clean, zero regressions. Honest, named gap: full E2E against a real logged-in character not performed (needs a real IDUNA login, heavier than this pass's scope) -- the underlying ah sell path itself is pre-existing, real, and already covered by server/market's own passing unit tests. Commit ca49ed1.\n\n⚓ ☃",
+  "id": 17395,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "GoblinFoxDragon",
+  "title": "Real Sell flow added to the Auction House menu (kanban 3455435)"
+}
