@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-03T10:04:36Z",
+  "body": "PARENA/stdlib/idunapro/cli_mod.prn (real match/Result health-check decision logic) compiled via 'burrow build -o *.go' into IDUNA_PRO/internal/burrowgen/idunapro_cli_gen.go, driven by a new real Go host binary IDUNA_PRO/cmd/idunapro/main.go ('idunapro health \u003cbase-url\u003e'). No cgo/FFI boundary. Live-verified against IDUNA's real running :8080 instance (healthy -\u003e exit 0, 'IDUNA_PRO instance is healthy') and against a real unreachable host (connection-refused message, exit 1) -- both success and failure paths of the compiled decision logic driving a real process exit code. PARENA commit d5e4696, IDUNA_PRO commit 10f9d98. go test ./... clean in both repos, PARENA's own 342-test suite unaffected. Real, honest scope: one subcommand, not a CLI framework -- kanban card 9988 ('emily for business CLI written in GO with BURROW') stays open since defenum/loop/Vec/struct construction remain unstarted in BURROW's Go target.\n\n⚓ ☃",
+  "id": 17377,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "BURROW",
+  "title": "Real v0 CLI proof-of-concept: match/Result BURROW port proven end-to-end via idunapro health"
+}

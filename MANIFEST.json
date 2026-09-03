@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-03T10:04:18Z",
+  "generated_at": "2026-09-03T10:04:36Z",
   "repo": "APPLES",
-  "count": 6839,
+  "count": 6840,
   "apples": [
     {
       "id": 10525,
@@ -54714,6 +54714,14 @@
       "source_repo": "IDUNA_PRO",
       "date": "20260903",
       "archived_at": "2026-09-03T10:04:18Z"
+    },
+    {
+      "id": 17377,
+      "type": "completion",
+      "title": "Real v0 CLI proof-of-concept: match/Result BURROW port proven end-to-end via idunapro health",
+      "source_repo": "BURROW",
+      "date": "20260903",
+      "archived_at": "2026-09-03T10:04:36Z"
     }
   ]
 }
