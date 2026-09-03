@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-03T02:22:49Z",
+  "body": "Founder, kanban priority queue: 'CONTINUE WORKING ON DUNG IDE write it in LO.' Checked directly against internal/emitter/emitter.go, not assumed: (1) LO's own arithmetic is mod-4 by design (GRAMMAR.md's Arith operator set: PLUS4/MINUS4/AND4/OR4/XOR4), genuinely incompatible with DUNG's real split-size/next-focus-index needs (real division/modulo over arbitrary pixel widths, not a 4-symbol state space). A narrower, honestly-4-state-shaped decision (e.g. which of Left/Right/Up/Down was pressed) could fit in principle. (2) lo build's own compiled output is always a single, self-contained, zero-parameter computation over compile-time literals -- no way to emit a real, exported, runtime-callable function at all yet, blocking any LO integration into DUNG regardless of arithmetic domain. NORTHSTAR.md's new section scopes the concrete prerequisite (emit a bare top-level Lambda as a real exported defn) without building it -- deserves its own design/test pass. Also fixed long-stale CLAUDE.md/README.md status text still claiming 'no compiler code yet' despite real, extensive shipped work (Phase 0/1 lexer/parser/emitter, LET/SWITCH/LAMBDA/CALL/Float/Double, PCRE lexer+parser, a separate real Rails-like framework with Controllers + a live-verified SQLite projector). Founder then confirmed the real pivot: 'ok write it in parena and go? right? with burrow/' -- see BURROW's own same-day commit for the concrete unblock that came out of this. LO commit 931cfa1.\n\n⚓ ☃",
+  "id": 17290,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "LO",
+  "title": "Investigated DUNG-in-LO integration: found two real, compounding blockers, not built around"
+}
