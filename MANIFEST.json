@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-03T06:10:44Z",
+  "generated_at": "2026-09-03T06:19:59Z",
   "repo": "APPLES",
-  "count": 6811,
+  "count": 6812,
   "apples": [
     {
       "id": 10525,
@@ -54490,6 +54490,14 @@
       "source_repo": "EMILY",
       "date": "20260903",
       "archived_at": "2026-09-03T06:10:44Z"
+    },
+    {
+      "id": 17349,
+      "type": "completion",
+      "title": "kanban card 1001: real Stripe webhook security fix + routing fix -- Emily+ paywall now actually functions",
+      "source_repo": "IDUNA",
+      "date": "20260903",
+      "archived_at": "2026-09-03T06:19:59Z"
     }
   ]
 }
