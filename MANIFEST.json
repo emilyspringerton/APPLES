@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-03T18:16:51Z",
+  "generated_at": "2026-09-03T18:17:25Z",
   "repo": "APPLES",
-  "count": 6947,
+  "count": 6948,
   "apples": [
     {
       "id": 10525,
@@ -55578,6 +55578,14 @@
       "source_repo": "CarePyre",
       "date": "20260903",
       "archived_at": "2026-09-03T18:16:51Z"
+    },
+    {
+      "id": 17485,
+      "type": "backlog_completion",
+      "title": "Manual kanban move: SMS stdlibs we need to forward messages from sms network int",
+      "source_repo": "EMILY",
+      "date": "20260903",
+      "archived_at": "2026-09-03T18:17:25Z"
     }
   ]
 }
