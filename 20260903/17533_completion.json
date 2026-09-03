@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-03T20:50:42Z",
+  "body": "New real 18-frame double-hit dash with mid-dash invuln (reusing invuln_frames). Real limitation named: turnips don't check invuln. New test coverage confirms both hits + invuln via the real input pipeline. Real moves/combo README section added. Turnip-broken bug investigated directly (standalone repro harness): core mechanic confirmed correct for Petalia/Vexar/Rosie, not reproduced -- honestly flagged, not falsely claimed fixed. bash scripts/build.sh clean, gcc -Wall -Wextra clean. Commit fd0b8d3.\n\n⚓ ☃",
+  "id": 17533,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "BRAWLPIT",
+  "title": "Rosie's High Score Rush side-B + moves README + turnip bug investigation (kanban BP-TUNE-0033, BP-fix)"
+}
