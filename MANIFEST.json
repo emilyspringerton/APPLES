@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-03T17:58:32Z",
+  "generated_at": "2026-09-03T18:04:44Z",
   "repo": "APPLES",
-  "count": 6942,
+  "count": 6943,
   "apples": [
     {
       "id": 10525,
@@ -55538,6 +55538,14 @@
       "source_repo": "IDUNA_PRO",
       "date": "20260903",
       "archived_at": "2026-09-03T17:58:32Z"
+    },
+    {
+      "id": 17480,
+      "type": "completion",
+      "title": "SIP-Twilio gateway research + plan (kanban SIP-001)",
+      "source_repo": "PARENA",
+      "date": "20260903",
+      "archived_at": "2026-09-03T18:04:44Z"
     }
   ]
 }
