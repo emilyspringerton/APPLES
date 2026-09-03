@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-03T15:31:28Z",
+  "generated_at": "2026-09-03T15:31:42Z",
   "repo": "APPLES",
-  "count": 6922,
+  "count": 6923,
   "apples": [
     {
       "id": 10525,
@@ -55378,6 +55378,14 @@
       "source_repo": "PARENA",
       "date": "20260903",
       "archived_at": "2026-09-03T15:31:28Z"
+    },
+    {
+      "id": 17460,
+      "type": "backlog_completion",
+      "title": "Manual kanban move: yea write that pcap report if u didnt already",
+      "source_repo": "EMILY",
+      "date": "20260903",
+      "archived_at": "2026-09-03T15:31:42Z"
     }
   ]
 }
