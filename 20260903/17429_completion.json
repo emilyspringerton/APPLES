@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-03T12:29:34Z",
+  "body": "stdlib/sip/message.prn: parse-message (real request/response parsing into a SipMessage struct + Vec of headers + body), build-request (a real, well-formed request with the standard mandatory header set), header-value (real O(n) lookup). Pure PARENA, no FFI needed. Real, honest v0 boundary named explicitly: no SDP, no auth, no dialog/transaction state machine -- real transport reuses the already-designed net/udp.prn. Two real, genuine compiler bugs found and fixed live, both halves of the same gap (SIP's own mandatory \\r\\n line ending was this stdlib's first-ever real trigger for a literal CR in a string): src/lexer.c's lex_string() had no \\r escape case at all (silently decoded to a bare 'r' byte, no compile-time signal); src/emit.c's own string re-escaping loop had the matching gap on the way back out (a raw CR byte embedded verbatim into generated C, a real invalid-syntax error). Both fixed with new regression tests. A third, real, separate emitter quirk found and worked around, not fixed: a match clause's own Ok-bound STRUCT payload is always declared void* in generated C regardless of its tracked type -- get-field directly on it fails; deref is the real, already-established path that correctly casts it back, confirmed via a minimal isolated repro before applying it here. New make test-sip-message target: 9/9 real end-to-end assertions (INVITE parse, 200 OK parse, header hit/miss, malformed-input Err, a built request round-tripping back through the parser reading its own CSeq/Max-Forwards headers back out). make test: 345/345, zero regressions. Commit 7974243.\n\n⚓ ☃",
+  "id": 17429,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "PARENA",
+  "title": "Real SIP message parsing/construction + two real lexer/emit compiler bugs found and fixed (kanban 3124213)"
+}
