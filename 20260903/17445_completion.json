@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-03T14:03:41Z",
+  "body": "Kanban PARENA-0001 resolved: built a real no-root musl toolchain, confirmed parena-c compiles clean static under musl, found and fixed the real blocker (parena_runtime.h's unconditional SDL2 include), proved a real headless stdlib program (sip/message.prn) builds+runs as a fully static musl binary with zero shared-library deps -- the real Alpine-portable shape. New docs/OS_PORTABILITY_NORTHSTAR.md, golden doc PARENA-OS-PORTABILITY-NORTH. Commit 050d145.\n\n⚓ ☃",
+  "id": 17445,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "PARENA",
+  "title": "PARENA OS portability: real musl/Alpine vertical slice + PARENA_NO_GRAPHICS fix"
+}
