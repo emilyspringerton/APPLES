@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-03T06:23:47Z",
+  "generated_at": "2026-09-03T06:24:17Z",
   "repo": "APPLES",
-  "count": 6814,
+  "count": 6815,
   "apples": [
     {
       "id": 10525,
@@ -54514,6 +54514,14 @@
       "source_repo": "IDUNA",
       "date": "20260903",
       "archived_at": "2026-09-03T06:23:47Z"
+    },
+    {
+      "id": 17352,
+      "type": "backlog_completion",
+      "title": "Manual kanban move: duck is no longer last - update the blog",
+      "source_repo": "EMILY",
+      "date": "20260903",
+      "archived_at": "2026-09-03T06:24:17Z"
     }
   ]
 }
