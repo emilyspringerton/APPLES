@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-03T01:52:47Z",
+  "generated_at": "2026-09-03T01:58:50Z",
   "repo": "APPLES",
-  "count": 6746,
+  "count": 6747,
   "apples": [
     {
       "id": 10525,
@@ -53970,6 +53970,14 @@
       "source_repo": "emily",
       "date": "20260903",
       "archived_at": "2026-09-03T01:52:47Z"
+    },
+    {
+      "id": 17284,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time (via kanban priority queue): intake a 'MIXFORGE legacy conversation' into …",
+      "source_repo": "CLI",
+      "date": "20260903",
+      "archived_at": "2026-09-03T01:58:50Z"
     }
   ]
 }
