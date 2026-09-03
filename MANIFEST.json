@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-03T13:23:24Z",
+  "generated_at": "2026-09-03T13:23:55Z",
   "repo": "APPLES",
-  "count": 6897,
+  "count": 6898,
   "apples": [
     {
       "id": 10525,
@@ -55178,6 +55178,14 @@
       "source_repo": "PARENA",
       "date": "20260903",
       "archived_at": "2026-09-03T13:23:24Z"
+    },
+    {
+      "id": 17435,
+      "type": "completion",
+      "title": "Real host implementation for pentest/pcap.prn shipped -- PARENA PCAP primitives now real (kanban 435423)",
+      "source_repo": "PARENA",
+      "date": "20260903",
+      "archived_at": "2026-09-03T13:23:55Z"
     }
   ]
 }
