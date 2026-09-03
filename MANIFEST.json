@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-03T18:11:49Z",
+  "generated_at": "2026-09-03T18:16:51Z",
   "repo": "APPLES",
-  "count": 6946,
+  "count": 6947,
   "apples": [
     {
       "id": 10525,
@@ -55570,6 +55570,14 @@
       "source_repo": "EMILY",
       "date": "20260903",
       "archived_at": "2026-09-03T18:11:49Z"
+    },
+    {
+      "id": 17484,
+      "type": "completion",
+      "title": "SMS-to-mesh gateway stdlib planning (kanban CPCORE-001)",
+      "source_repo": "CarePyre",
+      "date": "20260903",
+      "archived_at": "2026-09-03T18:16:51Z"
     }
   ]
 }
