@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-03T03:43:05Z",
+  "generated_at": "2026-09-03T03:46:34Z",
   "repo": "APPLES",
-  "count": 6785,
+  "count": 6786,
   "apples": [
     {
       "id": 10525,
@@ -54282,6 +54282,14 @@
       "source_repo": "CLI",
       "date": "20260903",
       "archived_at": "2026-09-03T03:43:05Z"
+    },
+    {
+      "id": 17323,
+      "type": "completion",
+      "title": "IDUNA_PRO v0 -- real, extracted, standalone core IAM service, live-verified",
+      "source_repo": "IDUNA_PRO",
+      "date": "20260903",
+      "archived_at": "2026-09-03T03:46:34Z"
     }
   ]
 }
