@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-03T01:20:24Z",
+  "body": "S226-01 through S226-03 already covered every real login surface plus admin suspend/unsuspend. Closed the explicitly-named follow-up: HeimdalHandler.submit -\u003e iduna:heimdal.submit; HeimdalHandler.patch -\u003e iduna:heimdal.transition (real from_status/to_status, patch now looks up the prior sprint status first, best-effort); ApplesHandler.create -\u003e iduna:apples.create (apple_id/agent_id/source_repo/apple_type); AdminHandler role assign/revoke -\u003e iduna:admin.role.assign/.revoke; agent permission grant/revoke -\u003e iduna:admin.agent_permission.grant/.revoke. Also added, same handler and equally security-sensitive though not explicitly named: agent secret rotation -\u003e iduna:admin.agent.secret_rotate, records that a rotation happened, never the freshly-generated plaintext (verified by a real test extracting the actual generated secret and confirming it never appears in the event payload). All emission points reuse the exact fire-and-forget, nil-safe-EventLog emitAuthEvent helper S226-02 already established. 9 new tests, go build/test + GOWORK=off go build/test (real standalone CI path) both clean, go vet clean. Verified live, not just unit tests: rebuilt/restarted iduna.service, posted a real Apple through it (this very Apple's own predecessor observation, #17272), and confirmed the real iduna:apples.create event landed in var/eventlog/events/ with correct fields by reading the actual NDJSON file. CLAUDE.md updated. IDUNA commit 3d690d5.\n\n⚓ ☃",
+  "id": 17273,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "IDUNA",
+  "title": "S226-04: wired remaining IDUNA code paths into the unified log, closed SECTION 226"
+}
