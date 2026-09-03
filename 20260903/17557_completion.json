@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-03T23:16:23Z",
+  "body": "Kanban WTHS-012010: 'there is already a hat shop in town that could be a proxy to the BrawlPit hat shop allowing you to purchase brawlpit hats with GFD flow from the GFD town'. Checked directly: no literal hat-selling NPC exists in npcVendorCatalog -- read the ask as 'reuse the existing shop mechanism as a proxy', not a pre-existing catalog. New server/idunaclient methods (ListHats/BuyHat/ListCharacterHats) call IDUNA's real hat-store API directly. New MUD commands hatshop/hatshop buy/hatshop mine -- buy is architecturally different from the existing shop command: spends Flow via IDUNA's own real atomic transaction first, then re-fetches the real balance rather than guessing locally. 5 new idunaclient tests. GFD commit dafccba. Real, live, end-to-end proof: discovered the live IDUNA instance predated Phase 1's own commit (404 on /api/v1/hats) -- backed up var/iduna.db, carefully redeployed (same manual-restart method the earlier matchmaker incident established), confirmed 200 health check, then bought a real hat as the real DRAGONSNSHIT-MUD agent (character created, Flow credited, hat bought for 150, ownership confirmed, duplicate purchase correctly rejected). IDUNA commit a930998 (changelog + redeploy note), BRAWLPIT commit 81fd5b7 (northstar Phase 2.5 DONE). Real, separate, unrelated bug noted, not fixed: SERVER_PORT is documented but never read in IDUNA's main.go. session: sess-20260902-2008-ed50169e\n\n⚓ ☃",
+  "id": 17557,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "GoblinFoxDragon",
+  "title": "WTHS-012010: real GFD Town hatshop proxy shipped, live-verified end to end, IDUNA redeployed"
+}
