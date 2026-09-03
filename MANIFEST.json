@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-03T18:21:32Z",
+  "generated_at": "2026-09-03T18:22:07Z",
   "repo": "APPLES",
-  "count": 6950,
+  "count": 6951,
   "apples": [
     {
       "id": 10525,
@@ -55602,6 +55602,14 @@
       "source_repo": "PARENA",
       "date": "20260903",
       "archived_at": "2026-09-03T18:21:32Z"
+    },
+    {
+      "id": 17488,
+      "type": "backlog_completion",
+      "title": "Manual kanban move: we need to add support to commit the .prn file right in the ",
+      "source_repo": "EMILY",
+      "date": "20260903",
+      "archived_at": "2026-09-03T18:22:07Z"
     }
   ]
 }
