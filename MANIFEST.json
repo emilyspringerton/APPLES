@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-03T20:17:16Z",
+  "generated_at": "2026-09-03T20:17:49Z",
   "repo": "APPLES",
-  "count": 6989,
+  "count": 6990,
   "apples": [
     {
       "id": 10525,
@@ -55914,6 +55914,14 @@
       "source_repo": "emily",
       "date": "20260903",
       "archived_at": "2026-09-03T20:17:16Z"
+    },
+    {
+      "id": 17527,
+      "type": "backlog_completion",
+      "title": "Manual kanban move: emily framework default behavior if a new unscoped request c",
+      "source_repo": "EMILY",
+      "date": "20260903",
+      "archived_at": "2026-09-03T20:17:49Z"
     }
   ]
 }
