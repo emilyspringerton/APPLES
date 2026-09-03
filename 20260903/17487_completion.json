@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-03T18:21:32Z",
+  "body": "Confirmed parena build already accepts a .prn at any path -- no compiler change needed. New bazel/parena_compile.bzl (parena_compile_c), live-verified via a real bazel build (single-file + multi-file deps cases). Cites 2 existing precedents (DUNG, ladybug). README.md updated. Commit b2fa41f.\n\n⚓ ☃",
+  "id": 17487,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "PARENA",
+  "title": "Reusable Bazel macro for co-located .prn adoption (PX-001/PX-BZ-001)"
+}

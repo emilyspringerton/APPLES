@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-03T18:19:22Z",
+  "generated_at": "2026-09-03T18:21:32Z",
   "repo": "APPLES",
-  "count": 6949,
+  "count": 6950,
   "apples": [
     {
       "id": 10525,
@@ -55594,6 +55594,14 @@
       "source_repo": "emily",
       "date": "20260903",
       "archived_at": "2026-09-03T18:19:22Z"
+    },
+    {
+      "id": 17487,
+      "type": "completion",
+      "title": "Reusable Bazel macro for co-located .prn adoption (PX-001/PX-BZ-001)",
+      "source_repo": "PARENA",
+      "date": "20260903",
+      "archived_at": "2026-09-03T18:21:32Z"
     }
   ]
 }
