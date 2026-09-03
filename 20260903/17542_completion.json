@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-03T21:26:55Z",
+  "body": "Kanban 534432532. DUNGEON_NORTHSTAR.md already existed with a full phased plan (content pass done in an earlier session). Shipped a real, bounded first slice of Milestone 1: MatchFoundMsg gains seed/mode fields, matchmaker generates+passes a per-match seed to the spawned server via --seed and to the client, arena_server seeds its own RNG from it when present, new --mode CLI flag (unused, no dungeon server binary exists yet). Live-verified on a private test port: matched 2 players -\u003e spawned server (seed=161265267). REDGARDEN commit 4bb46b9, GFD commit 3ec82ec (northstar milestone table updated to IN PROGRESS). Real, honest, not done: full instancing + generator + mob population + client render mode are still ahead. session: sess-20260902-2008-ed50169e\n\n⚓ ☃",
+  "id": 17542,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "REDGARDEN",
+  "title": "GFD dungeons (534432532): shipped Milestone 1's real seed/mode matchmaker transport, per existing DUNGEON_NORTHSTAR"
+}
