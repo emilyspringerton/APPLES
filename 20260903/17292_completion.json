@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-03T02:23:02Z",
+  "body": "Founder, after the LO integration investigation confirmed a pivot: 'ok write it in parena and go? right? with burrow/.' Real concrete next step: unblock the exact gap DUNG/parena/rect_probe.prn found live on 2026-08-30 (emit_c: unsupported top-level form on any defstruct). Ported directly from emit_go.go's own real, already-shipped struct support (built for PARENA's stdlib/k8s/helm): a registered defstruct emits a real C typedef struct, get-field lowers to plain (record).field dot access, passed by value, construction deliberately not emitted (same real 'receives, doesn't construct' scope the Go target already committed to). One real C-specific difference: struct typedefs collected into their own slice, emitted FIRST before any function decl/def -- a real ordering constraint C has that Go doesn't. 3 new tests (2 mirrored from emit_go_test.go, 1 new ordering-specific test). go build/vet/test all clean, 66/66 total. Verified live, not just unit tests: a real Rect-shaped .prn file compiled via burrow build, the emitted C compiled clean with gcc -Wall -Wextra, and ran with the correct result ((1440-20)/2 = 710) against a real test harness -- then re-verified against DUNG's own real rect_probe.prn file directly. BURROW commit c9cd324.\n\n⚓ ☃",
+  "id": 17292,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "BURROW",
+  "title": "defstruct/get-field support added to the C emitter, closing DUNG's real found-live gap"
+}

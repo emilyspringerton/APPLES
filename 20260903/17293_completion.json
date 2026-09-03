@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-03T02:23:02Z",
+  "body": "After BURROW's emit_c.go gained real defstruct/get-field support, updated and re-verified this project's own real rect_probe.prn (the file that originally found the gap). Its ORIGINAL version constructed and returned a new Rect -- confirmed live that construction is still deliberately unsupported by either burrow target: it now fails with a real, honest 'emit_c: unknown identifier Rect' error, not a silent miscompile. Rewritten to the real, working slice instead: a struct parameter plus a real get-field read, scalar return (rect-left-child-width) -- verified burrow build -\u003e gcc -Wall -Wextra -\u003e run, correct result (710 for a 1440-wide rect with a 20px border). NORTHSTAR.md updated with the real, narrower current scope for Phase 2 (structs can be passed in and read, not yet constructed -- a real, concrete constraint for that phase's own next scoping pass). DUNG commit 1647b97.\n\n⚓ ☃",
+  "id": 17293,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "DUNG",
+  "title": "Real BURROW unblock verified against rect_probe.prn; construction gap named honestly"
+}

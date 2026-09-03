@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-03T02:22:53Z",
+  "generated_at": "2026-09-03T02:23:02Z",
   "repo": "APPLES",
-  "count": 6754,
+  "count": 6755,
   "apples": [
     {
       "id": 10525,
@@ -54034,6 +54034,14 @@
       "source_repo": "emily",
       "date": "20260903",
       "archived_at": "2026-09-03T02:22:53Z"
+    },
+    {
+      "id": 17292,
+      "type": "completion",
+      "title": "defstruct/get-field support added to the C emitter, closing DUNG's real found-live gap",
+      "source_repo": "BURROW",
+      "date": "20260903",
+      "archived_at": "2026-09-03T02:23:02Z"
     }
   ]
 }
