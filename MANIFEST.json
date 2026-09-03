@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-03T12:29:34Z",
+  "generated_at": "2026-09-03T12:30:34Z",
   "repo": "APPLES",
-  "count": 6892,
+  "count": 6893,
   "apples": [
     {
       "id": 10525,
@@ -55138,6 +55138,14 @@
       "source_repo": "PARENA",
       "date": "20260903",
       "archived_at": "2026-09-03T12:29:34Z"
+    },
+    {
+      "id": 17430,
+      "type": "backlog_completion",
+      "title": "Manual kanban move: SIP phone primatives in parena stdlib",
+      "source_repo": "EMILY",
+      "date": "20260903",
+      "archived_at": "2026-09-03T12:30:34Z"
     }
   ]
 }
