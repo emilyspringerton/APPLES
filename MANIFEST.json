@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-03T09:21:02Z",
+  "generated_at": "2026-09-03T09:21:40Z",
   "repo": "APPLES",
-  "count": 6832,
+  "count": 6833,
   "apples": [
     {
       "id": 10525,
@@ -54658,6 +54658,14 @@
       "source_repo": "PAPERCRAFT",
       "date": "20260903",
       "archived_at": "2026-09-03T09:21:02Z"
+    },
+    {
+      "id": 17370,
+      "type": "backlog_completion",
+      "title": "Manual kanban move: can we start to add more api surfaces to PAPERCRAFT mod api ",
+      "source_repo": "EMILY",
+      "date": "20260903",
+      "archived_at": "2026-09-03T09:21:40Z"
     }
   ]
 }
