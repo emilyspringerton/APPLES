@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-03T11:04:27Z",
+  "generated_at": "2026-09-03T11:04:58Z",
   "repo": "APPLES",
-  "count": 6867,
+  "count": 6868,
   "apples": [
     {
       "id": 10525,
@@ -54938,6 +54938,14 @@
       "source_repo": "PAPERCRAFT",
       "date": "20260903",
       "archived_at": "2026-09-03T11:04:27Z"
+    },
+    {
+      "id": 17405,
+      "type": "backlog_completion",
+      "title": "Manual kanban move: papercraft mod registry make it like npm but mo betta",
+      "source_repo": "EMILY",
+      "date": "20260903",
+      "archived_at": "2026-09-03T11:04:58Z"
     }
   ]
 }
