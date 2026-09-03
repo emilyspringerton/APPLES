@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-03T01:26:51Z",
+  "body": "Priority-queue card (id 35, S189-03) -- founder: 'also my team is unaware of the 4 kings.' S188-01's rendering fix made a live King visible to whoever was already looking at it, but nothing told the rest of the team it existed. That card's own note explicitly left the mechanism undecided pending a founder call on whether this overlaps the ping system. Made that call: extended PING_SYSTEM_NORTHSTAR.md §4.5 with a real, system-generated objective alert -- fires at arena_tick_kings' own real spawn/respawn moment (k-\u003eactive=1), reuses the ping wire event's shape but as a distinct category (sender_owner set to a reserved server sentinel, never a real hero slot, with its own icon/sound so it's never confused with a teammate's tactical call), broadcast to both teams since a King is neutral. Also folded in the founder's own real-time addition ('if a bot wants to take on a king they can send out a ping to group up before going in'): added a real bot-emission trigger to §7 -- committing to a King should call Assist Me at the camp position first, reusing the existing 6-type vocabulary rather than inventing a 7th. Real, honest state: design phase complete, matching S189-02's own already-accepted pattern -- zero game code written yet, this is the ping system's own doc still reading 'not implemented.' REDGARDEN commit d05a550.\n\n⚓ ☃",
+  "id": 17276,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "REDGARDEN",
+  "title": "S189-03: resolved King-spawn team awareness via a system-generated ping alert"
+}
