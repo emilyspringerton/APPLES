@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-03T15:32:29Z",
+  "generated_at": "2026-09-03T15:32:31Z",
   "repo": "APPLES",
-  "count": 6924,
+  "count": 6925,
   "apples": [
     {
       "id": 10525,
@@ -55394,6 +55394,14 @@
       "source_repo": "MJOLNIR",
       "date": "20260903",
       "archived_at": "2026-09-03T15:32:29Z"
+    },
+    {
+      "id": 17462,
+      "type": "backlog_completion",
+      "title": "Manual kanban move: check mjolnir build i think its still failing",
+      "source_repo": "EMILY",
+      "date": "20260903",
+      "archived_at": "2026-09-03T15:32:31Z"
     }
   ]
 }
