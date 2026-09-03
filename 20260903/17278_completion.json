@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-03T01:34:04Z",
+  "body": "Founder: 'the -27 part of the item doesnt need to be specify you can but if you just say S203 then you can do that but you shouldnt have to.' Live motivation: a manual card collided with an existing, unrelated S203-04 because the add-card form required a full, precise id up front. New resolveBareSectionID (kanban.go): a backlog_item_id matching bare S\u003csection\u003e is resolved to the next real, actually-unused item number under that section, read live from backlog.ParseFile -- never guessed. Full ids untouched (existing path preserved). Honest -01 fallback on a read failure. create()'s response echoes the resolved id; the add-card form surfaces it in the status line. 6 new tests including a full integration test reproducing the exact real S203-04 collision. Verified live: rebuilt/restarted iduna.service, POSTed backlog_item_id S235 against the live board, got back S235-02 (S235-01 already occupied), confirmed real BACKLOG.md sync, cleaned up the test artifact. go build/test + GOWORK=off go build/test both clean, go vet clean. IDUNA commit eb77b75.\n\n⚓ ☃",
+  "id": 17278,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "IDUNA",
+  "title": "S235-01: kanban add-card now accepts a bare section reference"
+}

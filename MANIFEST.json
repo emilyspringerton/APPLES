@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-03T01:27:25Z",
+  "generated_at": "2026-09-03T01:34:04Z",
   "repo": "APPLES",
-  "count": 6740,
+  "count": 6741,
   "apples": [
     {
       "id": 10525,
@@ -53922,6 +53922,14 @@
       "source_repo": "EMILY",
       "date": "20260903",
       "archived_at": "2026-09-03T01:27:25Z"
+    },
+    {
+      "id": 17278,
+      "type": "completion",
+      "title": "S235-01: kanban add-card now accepts a bare section reference",
+      "source_repo": "IDUNA",
+      "date": "20260903",
+      "archived_at": "2026-09-03T01:34:04Z"
     }
   ]
 }
