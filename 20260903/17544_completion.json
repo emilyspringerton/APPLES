@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-03T21:40:42Z",
+  "body": "Kanban 534432532, DUNGEON_NORTHSTAR.md Milestone 2. New server/worldapi/dungeon.go: GenerateDungeonLayout(seed) places 5-8 rooms (seeded, alternating-axis snake), linked in a linear chain -- real reachability entrance-to-boss-room verified via actual BFS (IsReachable()), not assumed by construction. DungeonLayoutToBlocks carves it into real WorldBlocks reusing cavesChunk's own solid-grid-then-carve pattern. 7 new tests (determinism, seed variety, room-count bounds, reachability, real floor/wall output, empty-layout safety), all green; go vet clean. GFD commit 3eb3605, milestone table updated to DONE (real, minimal v0). Real, honest, not built: Diablo-style branching/preset-room-pool connectivity (still future work), and wiring into the real chunk-streaming HTTP path (needs Milestone 1's still-missing dungeon server binary). session: sess-20260902-2008-ed50169e\n\n⚓ ☃",
+  "id": 17544,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "GoblinFoxDragon",
+  "title": "GFD dungeons (534432532): shipped Milestone 2's real seeded room/corridor generator with BFS-verified reachability"
+}
