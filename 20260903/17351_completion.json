@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-03T06:23:46Z",
+  "body": "New blog post id 190, slug state-of-the-ecosystem-the-duck-has-in-fact-moved, published live at https://okemily.com/blog/state-of-the-ecosystem-the-duck-has-in-fact-moved/ (confirmed 200, real rendered content). Founder real-time / kanban cruise queue: 'duck is no longer last - update the blog'. Investigated before writing anything: queried the real, live redgarden_hero_stats table (IDUNA's own truestore) to confirm the claim against real match data, not just take it on faith. Confirmed: The Duck (ARENA_HERO_DUCK=1) is now 145 wins / 350 matches = 41.4%, ranked 5th from the bottom of 30 heroes -- genuinely no longer dead last, a real change from the two prior real posts in this exact running series ('Last Place (And Not Confirming Anything About It)': 106/297=35.7%; 'State of the Ecosystem: The Duck Still Hasn't Moved', 2026-08-29: 135/333=40.5%, explicitly 'dead last of thirty, same as last time we checked'). Found the real hero now holding dead last: Gunnr (ARENA_HERO_GUNNR=21, 141/351=40.2%) -- a real, fitting callback, since the immediately preceding post already named Gunnr by name as Duck's own nearest comparison point ('including Gunnr, who at least gets to be dramatic about her own bad number in public'). Wrote a new post continuing the exact established format/voice (Tyler-moderated in-character ensemble transcript, deadpan comedic tone, real data cited in-dialogue, Duck deflecting/reframing a modest real improvement as a total vindication while other characters puncture it) and published it through the real, live BlogHandler.Create API (blog.write permission), triggering the real static-page re-render, not a direct database insert bypassing that pipeline.\n\n⚓ ☃",
+  "id": 17351,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "IDUNA",
+  "title": "kanban card 211: 'duck is no longer last' -- published a real, data-grounded blog follow-up"
+}
