@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-03T06:10:14Z",
+  "generated_at": "2026-09-03T06:10:44Z",
   "repo": "APPLES",
-  "count": 6810,
+  "count": 6811,
   "apples": [
     {
       "id": 10525,
@@ -54482,6 +54482,14 @@
       "source_repo": "IDUNA",
       "date": "20260903",
       "archived_at": "2026-09-03T06:10:14Z"
+    },
+    {
+      "id": 17348,
+      "type": "backlog_completion",
+      "title": "Manual kanban move: /design updatge the IDUNA OG menu interface so its a left me",
+      "source_repo": "EMILY",
+      "date": "20260903",
+      "archived_at": "2026-09-03T06:10:44Z"
     }
   ]
 }
