@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-03T11:31:14Z",
+  "body": "stdlib/v16/lexer.prn -- Phase 1 (concrete-types decision, checked live: (Vec ConcreteStruct) compiles even though generic (Vec T) still doesn't) + Phase 2a (a real, tested JS lexer) of docs/V16_NORTHSTAR.md's own phased plan. lex walks a source string once producing a (Vec JsToken) ending in a real TokEof sentinel. Real, honest v0 scope named in the file's own header comment: integer-only numbers, no string escape decoding, no keyword table yet, a small fixed single-character punctuation set, no comments/regex/template strings -- an unrecognized byte is silently skipped, not a crash. Real, live bug found and documented, not an emitter bug: a .prn file calling into another stdlib module (e.g. string.prn's own length) needs that module's source passed to the SAME 'parena build' invocation, or a called function's return type silently falls back to a wrong void* guess instead of erroring -- fixed by combining stdlib/string.prn + lexer.prn in the same build (matching test-bstree's own precedent), documented explicitly in STDLIB.md so it isn't rediscovered. New Makefile target test-v16-lexer + tests/test_v16_lexer.c (4 real end-to-end assertions: mixed-token source, empty source, unterminated-string degenerate case, unrecognized-byte skip) -- all pass. make test: 342/342, zero regressions. Commit 4f7ee00. Real, honest, unstarted: the parser/AST, interpreter, GC strategy, and stdlib slice all remain per docs/V16_NORTHSTAR.md's own real 6-phase plan.\n\n⚓ ☃",
+  "id": 17411,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "PARENA",
+  "title": "Real first-slice JS tokenizer for the V16 engine shipped (kanban 34134124, 'parena v16 iteratejs engine')"
+}
