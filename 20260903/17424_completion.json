@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-03T12:09:52Z",
+  "body": "CHANGELOG updated in PARENA: docs: ANDROID_JAVA_TARGET_NORTHSTAR.md moved to a new real upstream repo, SPIDERBEETLE (founder created it 2026-09-03 for kanban cruise-queue card 32445324), same real precedent BURROW's own DUNG.md set when DUNG got its own repo. PARENA/docs/ANDROID_JAVA_TARGET_NORTHSTAR.md kept as a short pointer (not deleted, so existing STDLIB.md/golden-docs-index.md references don't dead-end). stdlib/android/battery_ui.prn stays here (the reusable .prn source); the compiled BatteryUi.java + smoke test + any future real Android app code now live in SPIDERBEETLE itself. STDLIB.md's own android/battery-ui section updated to point to the new real location. (sess-20260902-2008-ed50169e)\n\n⚓ ☃",
+  "id": 17424,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "PARENA",
+  "title": "changelog(PARENA): docs: ANDROID_JAVA_TARGET_NORTHSTAR.md moved to a new real …"
+}
