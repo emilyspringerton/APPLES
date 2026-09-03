@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-03T18:42:55Z",
+  "generated_at": "2026-09-03T18:43:34Z",
   "repo": "APPLES",
-  "count": 6961,
+  "count": 6962,
   "apples": [
     {
       "id": 10525,
@@ -55690,6 +55690,14 @@
       "source_repo": "BURROW",
       "date": "20260903",
       "archived_at": "2026-09-03T18:42:55Z"
+    },
+    {
+      "id": 17499,
+      "type": "backlog_completion",
+      "title": "Manual kanban move: PARENA SCAFFOLD NEW NEEDS TO GENERATE BAZEL BY DEFAULT WE WI",
+      "source_repo": "EMILY",
+      "date": "20260903",
+      "archived_at": "2026-09-03T18:43:34Z"
     }
   ]
 }
