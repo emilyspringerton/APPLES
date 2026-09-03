@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-03T02:39:37Z",
+  "generated_at": "2026-09-03T02:41:25Z",
   "repo": "APPLES",
-  "count": 6762,
+  "count": 6763,
   "apples": [
     {
       "id": 10525,
@@ -54098,6 +54098,14 @@
       "source_repo": "EMILY",
       "date": "20260903",
       "archived_at": "2026-09-03T02:39:37Z"
+    },
+    {
+      "id": 17300,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time (via kanban priority queue): TINA desk engine -- auto-publish TINA article…",
+      "source_repo": "CLI",
+      "date": "20260903",
+      "archived_at": "2026-09-03T02:41:25Z"
     }
   ]
 }
