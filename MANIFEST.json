@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-03T12:00:32Z",
+  "generated_at": "2026-09-03T12:04:36Z",
   "repo": "APPLES",
-  "count": 6885,
+  "count": 6886,
   "apples": [
     {
       "id": 10525,
@@ -55082,6 +55082,14 @@
       "source_repo": "EMILY",
       "date": "20260903",
       "archived_at": "2026-09-03T12:00:32Z"
+    },
+    {
+      "id": 17423,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: SPIDERBEETLE upstream repo created for the PARENA Java app (the real Andr…",
+      "source_repo": "CLI",
+      "date": "20260903",
+      "archived_at": "2026-09-03T12:04:36Z"
     }
   ]
 }
