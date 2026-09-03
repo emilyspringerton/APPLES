@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-03T18:53:49Z",
+  "body": "Real research into Asterisk's 3 control surfaces. Key finding: AMI's wire format is a direct structural sibling of sip/message.prn's own header-parsing shape. Recommends AMI first over ARI/AGI. Real 4-phase plan. Golden doc PBX-ASTERISK-NORTH. Commit 42c9bd6. Planning only.\n\n⚓ ☃",
+  "id": 17503,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "PARENA",
+  "title": "Asterisk bindings research + plan (kanban PBX-002)"
+}
