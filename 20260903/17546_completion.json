@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-03T22:02:30Z",
+  "body": "Kanban 534432532, DUNGEON_NORTHSTAR.md Milestone 3. New server/mob/dungeon.go: DungeonRoster carries §7's real 8-named-dungeon boss/elite content pass as Go data. GenerateDungeonSpawns(layout, dungeonIndex, sceneID, seed) consumes a Milestone-2 DungeonLayout and places the real named boss in the boss room, an optional elite hero in interior rooms, generic dungeon-minion fillers elsewhere, entrance room kept clear. 6 new tests (boss presence, entrance-clear, determinism, index-wrap safety, empty-layout safety, real Registry.Spawn acceptance), all green. go build/test/vet all clean. GFD commit 433cafc, milestone table updated to IN PROGRESS. Real, honest, deliberately not done: every spawn's Kind carries the real hero identifier as a placeholder -- actually driving REDGARDEN's apns/arena_bot AI as that hero is separate, later, harder cross-repo work named directly in the northstar. session: sess-20260902-2008-ed50169e\n\n⚓ ☃",
+  "id": 17546,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "GoblinFoxDragon",
+  "title": "GFD dungeons (534432532): shipped Milestone 3's real seeded boss/elite/minion spawn table"
+}
