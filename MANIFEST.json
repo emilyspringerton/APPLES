@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-03T15:30:34Z",
+  "generated_at": "2026-09-03T15:31:28Z",
   "repo": "APPLES",
-  "count": 6921,
+  "count": 6922,
   "apples": [
     {
       "id": 10525,
@@ -55370,6 +55370,14 @@
       "source_repo": "BURROW",
       "date": "20260903",
       "archived_at": "2026-09-03T15:30:34Z"
+    },
+    {
+      "id": 17459,
+      "type": "completion",
+      "title": "PCAP report confirmed already written (kanban 231321, duplicate check)",
+      "source_repo": "PARENA",
+      "date": "20260903",
+      "archived_at": "2026-09-03T15:31:28Z"
     }
   ]
 }
