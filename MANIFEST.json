@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-03T06:06:26Z",
+  "generated_at": "2026-09-03T06:06:35Z",
   "repo": "APPLES",
-  "count": 6807,
+  "count": 6808,
   "apples": [
     {
       "id": 10525,
@@ -54458,6 +54458,14 @@
       "source_repo": "EMILY",
       "date": "20260903",
       "archived_at": "2026-09-03T06:06:26Z"
+    },
+    {
+      "id": 17345,
+      "type": "backlog_completion",
+      "title": "Manual kanban move: ensure we are working from a kanban API it seems like claude",
+      "source_repo": "EMILY",
+      "date": "20260903",
+      "archived_at": "2026-09-03T06:06:35Z"
     }
   ]
 }
