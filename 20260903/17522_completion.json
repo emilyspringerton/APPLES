@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-03T20:09:15Z",
+  "body": "Rosie was 100% generic (shared turnip fallback). New special_insert_coin: throws 2 turnip-style projectiles in a real spread (different vy), reduced damage each for balance. Argument made directly from her own lore (generated twice). New test coverage. bash scripts/build.sh clean, both tests pass. Understudy/Petalia untouched per BPTUNE-003. One special this pass, not all four -- deliberate scope. Commit a483d66.\n\n⚓ ☃",
+  "id": 17522,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "BRAWLPIT",
+  "title": "Rosie's Insert Coin: real character tuning, first of the roster (kanban BPTUNE-001/003)"
+}
