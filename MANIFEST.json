@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-03T23:53:34Z",
+  "generated_at": "2026-09-03T23:57:10Z",
   "repo": "APPLES",
-  "count": 7028,
+  "count": 7029,
   "apples": [
     {
       "id": 10525,
@@ -56226,6 +56226,14 @@
       "source_repo": "EMILY",
       "date": "20260903",
       "archived_at": "2026-09-03T23:53:34Z"
+    },
+    {
+      "id": 17566,
+      "type": "completion",
+      "title": "HSG-000: promptoverse hat style live-verified -- real hat generated and published",
+      "source_repo": "emily.cli",
+      "date": "20260903",
+      "archived_at": "2026-09-03T23:57:10Z"
     }
   ]
 }

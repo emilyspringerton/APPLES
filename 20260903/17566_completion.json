@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-03T23:57:10Z",
+  "body": "Kanban HSG-000: 'promptoverse hat gen - we already query for the sprites with the specific background and give them a good prompt for a nice pixel art hat as the tag promptoverse hat pirate'. Registered a new 'promptoverse hat' style (standalone hat/headwear item icon, chroma-keyed, distinct from the existing full-character 'game sprite' style), new test confirming the prompt excludes a worn-hat portrait. Live-verified with HSG-000's own literal example: emily promptoverse add pirate --tag 'promptoverse hat' generated and published a real standalone hat, live at https://okemily.com/prompt-o-verse/pirate-promptoverse-hat/ (confirmed 200). Real, honest note: killed the background process partway through its own real auto-queue-drain (misjudged a real, intentional backoff sleep as a hang) -- the forced pirate-hat generation had already succeeded before that, nothing broke, 34 unrelated queued items just stay queued for a future run. emily.cli commits 38b128e/e0cdb45. session: sess-20260902-2008-ed50169e\n\n⚓ ☃",
+  "id": 17566,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "emily.cli",
+  "title": "HSG-000: promptoverse hat style live-verified -- real hat generated and published"
+}
