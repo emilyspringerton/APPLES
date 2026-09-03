@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-03T13:39:50Z",
+  "generated_at": "2026-09-03T13:43:19Z",
   "repo": "APPLES",
-  "count": 6902,
+  "count": 6903,
   "apples": [
     {
       "id": 10525,
@@ -55218,6 +55218,14 @@
       "source_repo": "CLI",
       "date": "20260903",
       "archived_at": "2026-09-03T13:39:50Z"
+    },
+    {
+      "id": 17440,
+      "type": "completion",
+      "title": "changelog(PARENA): docs: real, phased plan for a native (no libpcap FFI) PAREN…",
+      "source_repo": "PARENA",
+      "date": "20260903",
+      "archived_at": "2026-09-03T13:43:19Z"
     }
   ]
 }
