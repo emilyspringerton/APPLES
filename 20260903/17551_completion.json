@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-03T22:24:01Z",
+  "body": "Kanban BLOGREPORT-0111. Built real, reusable CLI support that didn't exist before -- emily blog post (new iduna.Client.PostBlog + cmd/blog.go), mirroring PostPromptOVerseNode's own pattern, POSTing to IDUNA's existing /api/v1/blog/posts. Then used it for real: pulled the actual last-12-hours completion Apples via emily apples list -since 720 -t completion (67 raw, 53 unique after deduping the changelog-sibling pairs), and published a real, detailed 1500-word report grouped by thread (PARENA protocol work, BURROW Go-emission parity, BRAWLPIT tuning, WOTAN hat store Phase 0-1, GFD dungeons Milestones 1-3, the matchmaker incident, Principle 19) rather than a generic summary. Live at https://okemily.com/blog/twelve-hours-fifty-three-tickets/ (confirmed 200). emily.cli commit f5907a3. session: sess-20260902-2008-ed50169e\n\n⚓ ☃",
+  "id": 17551,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "emily.cli",
+  "title": "BLOGREPORT-0111: shipped emily blog post CLI command, published real 12-hour/53-ticket report"
+}
