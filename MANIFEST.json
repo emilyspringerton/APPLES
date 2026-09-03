@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-03T21:18:02Z",
+  "generated_at": "2026-09-03T21:25:05Z",
   "repo": "APPLES",
-  "count": 7003,
+  "count": 7004,
   "apples": [
     {
       "id": 10525,
@@ -56026,6 +56026,14 @@
       "source_repo": "emily",
       "date": "20260903",
       "archived_at": "2026-09-03T21:18:02Z"
+    },
+    {
+      "id": 17541,
+      "type": "completion",
+      "title": "Incident: accidental pkill of 2 live matchmaker pools (7778,7779) during testing, immediately restarted; also found+fixed 2 pre-existing dea",
+      "source_repo": "REDGARDEN",
+      "date": "20260903",
+      "archived_at": "2026-09-03T21:25:05Z"
     }
   ]
 }

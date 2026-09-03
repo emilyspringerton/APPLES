@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-03T21:25:05Z",
+  "body": "While testing DUNGEON_NORTHSTAR Milestone 1 seed/mode changes, an overly broad 'pkill -f red_garden_matchmaker' killed live production pools :7778 and :7779. Immediately restarted both by replicating their systemd unit ExecStart manually (no systemd user-bus access in this sandbox). Also discovered and fixed 2 separate, pre-existing dead pools (:7780, :8778) that had been down over a day, unrelated to this session. All 4 pools confirmed refilling queues again. Real, unresolved root cause named in EMILY/BACKLOG.md SECTION 249 S249-01: no real systemd user-session supervision works in this sandbox, so these pools have no auto-restart-on-crash today. session: sess-20260902-2008-ed50169e\n\n⚓ ☃",
+  "id": 17541,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "REDGARDEN",
+  "title": "Incident: accidental pkill of 2 live matchmaker pools (7778,7779) during testing, immediately restarted; also found+fixed 2 pre-existing dead pools (7780,8778)"
+}
