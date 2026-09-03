@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-03T15:25:13Z",
+  "generated_at": "2026-09-03T15:30:34Z",
   "repo": "APPLES",
-  "count": 6920,
+  "count": 6921,
   "apples": [
     {
       "id": 10525,
@@ -55362,6 +55362,14 @@
       "source_repo": "EMILY",
       "date": "20260903",
       "archived_at": "2026-09-03T15:25:13Z"
+    },
+    {
+      "id": 17458,
+      "type": "completion",
+      "title": "defenum support added to BURROW's Go emission target (cruise card 9988)",
+      "source_repo": "BURROW",
+      "date": "20260903",
+      "archived_at": "2026-09-03T15:30:34Z"
     }
   ]
 }

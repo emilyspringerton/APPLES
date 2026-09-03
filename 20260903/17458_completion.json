@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-03T15:30:34Z",
+  "body": "Real, direct generalization of Result/Option's {Tag int; Value any} shape to arbitrary user-defined tagged unions, mirroring PARENA's own reference C emitter. One exported constructor per variant. v0 boundary: zero/single-field variants only, no match-on-defenum yet. go test: 99/99. Real end-to-end proof: ParseError defenum used as a Result's ErrorType, built/linked/run correctly. Commit 8a3e64b.\n\n⚓ ☃",
+  "id": 17458,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "BURROW",
+  "title": "defenum support added to BURROW's Go emission target (cruise card 9988)"
+}
