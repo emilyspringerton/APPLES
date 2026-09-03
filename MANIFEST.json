@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-03T19:16:16Z",
+  "generated_at": "2026-09-03T19:16:52Z",
   "repo": "APPLES",
-  "count": 6971,
+  "count": 6972,
   "apples": [
     {
       "id": 10525,
@@ -55770,6 +55770,14 @@
       "source_repo": "PARENA",
       "date": "20260903",
       "archived_at": "2026-09-03T19:16:16Z"
+    },
+    {
+      "id": 17509,
+      "type": "backlog_completion",
+      "title": "Manual kanban move: DNS primatives parena",
+      "source_repo": "EMILY",
+      "date": "20260903",
+      "archived_at": "2026-09-03T19:16:52Z"
     }
   ]
 }
