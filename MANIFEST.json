@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-03T11:31:14Z",
+  "generated_at": "2026-09-03T11:31:49Z",
   "repo": "APPLES",
-  "count": 6874,
+  "count": 6875,
   "apples": [
     {
       "id": 10525,
@@ -54994,6 +54994,14 @@
       "source_repo": "PARENA",
       "date": "20260903",
       "archived_at": "2026-09-03T11:31:14Z"
+    },
+    {
+      "id": 17412,
+      "type": "backlog_completion",
+      "title": "Manual kanban move: parena v16 iteratejs engine",
+      "source_repo": "EMILY",
+      "date": "20260903",
+      "archived_at": "2026-09-03T11:31:49Z"
     }
   ]
 }
