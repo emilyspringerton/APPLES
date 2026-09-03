@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-03T18:59:11Z",
+  "generated_at": "2026-09-03T18:59:51Z",
   "repo": "APPLES",
-  "count": 6968,
+  "count": 6969,
   "apples": [
     {
       "id": 10525,
@@ -55746,6 +55746,14 @@
       "source_repo": "PARENA",
       "date": "20260903",
       "archived_at": "2026-09-03T18:59:11Z"
+    },
+    {
+      "id": 17506,
+      "type": "backlog_completion",
+      "title": "Manual kanban move: FIX LADYBUG AND SCARAB",
+      "source_repo": "EMILY",
+      "date": "20260903",
+      "archived_at": "2026-09-03T18:59:51Z"
     }
   ]
 }
