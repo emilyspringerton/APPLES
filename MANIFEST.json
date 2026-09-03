@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-03T11:59:30Z",
+  "generated_at": "2026-09-03T11:59:59Z",
   "repo": "APPLES",
-  "count": 6883,
+  "count": 6884,
   "apples": [
     {
       "id": 10525,
@@ -55066,6 +55066,14 @@
       "source_repo": "PARENA",
       "date": "20260903",
       "archived_at": "2026-09-03T11:59:30Z"
+    },
+    {
+      "id": 17421,
+      "type": "completion",
+      "title": "Real Java-target proof for a future PARENA Android app + a real emit_java.c bug fix (kanban 32445324)",
+      "source_repo": "PARENA",
+      "date": "20260903",
+      "archived_at": "2026-09-03T11:59:59Z"
     }
   ]
 }
