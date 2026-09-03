@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-03T02:54:27Z",
+  "generated_at": "2026-09-03T02:55:17Z",
   "repo": "APPLES",
-  "count": 6765,
+  "count": 6766,
   "apples": [
     {
       "id": 10525,
@@ -54122,6 +54122,14 @@
       "source_repo": "PRRJECT_FATBABY",
       "date": "20260903",
       "archived_at": "2026-09-03T02:54:27Z"
+    },
+    {
+      "id": 17303,
+      "type": "backlog_completion",
+      "title": "Manual kanban move: TINA desk engine——用 PARENA + Go plugin 架構自動發",
+      "source_repo": "EMILY",
+      "date": "20260903",
+      "archived_at": "2026-09-03T02:55:17Z"
     }
   ]
 }
