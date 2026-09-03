@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-03T18:48:02Z",
+  "generated_at": "2026-09-03T18:51:05Z",
   "repo": "APPLES",
-  "count": 6963,
+  "count": 6964,
   "apples": [
     {
       "id": 10525,
@@ -55706,6 +55706,14 @@
       "source_repo": "emily",
       "date": "20260903",
       "archived_at": "2026-09-03T18:48:02Z"
+    },
+    {
+      "id": 17501,
+      "type": "completion",
+      "title": "Real, low-level RTP header primitives (kanban PBX-001)",
+      "source_repo": "PARENA",
+      "date": "20260903",
+      "archived_at": "2026-09-03T18:51:05Z"
     }
   ]
 }

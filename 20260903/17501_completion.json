@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-03T18:51:05Z",
+  "body": "New sip/rtp.prn: parse-rtp-header/build-rtp-header, RFC 3550 fixed 12-byte header codec, pure PARENA no FFI. Found 2 real bugs: string/length is literally strlen (truncates on embedded 0x00, fixed via explicit len param); string/concat is strcpy/strcat (same truncation on write side, honestly documented as a real, unfixed limitation, out of scope). make test-rtp 6/6, make test 345/345. Commit e25fb3d.\n\n⚓ ☃",
+  "id": 17501,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "PARENA",
+  "title": "Real, low-level RTP header primitives (kanban PBX-001)"
+}
