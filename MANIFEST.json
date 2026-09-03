@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-03T10:03:53Z",
+  "generated_at": "2026-09-03T10:04:18Z",
   "repo": "APPLES",
-  "count": 6838,
+  "count": 6839,
   "apples": [
     {
       "id": 10525,
@@ -54706,6 +54706,14 @@
       "source_repo": "PARENA",
       "date": "20260903",
       "archived_at": "2026-09-03T10:03:53Z"
+    },
+    {
+      "id": 17376,
+      "type": "completion",
+      "title": "changelog(IDUNA_PRO): feat: cmd/idunapro -- real, honest v0 CLI proof-of-concept …",
+      "source_repo": "IDUNA_PRO",
+      "date": "20260903",
+      "archived_at": "2026-09-03T10:04:18Z"
     }
   ]
 }

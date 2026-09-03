@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-03T10:04:18Z",
+  "body": "CHANGELOG updated in IDUNA_PRO: feat: cmd/idunapro -- real, honest v0 CLI proof-of-concept for kanban cruise-queue card 9988 ('emily for business CLI written in GO with BURROW'). One real subcommand, 'idunapro health \u003cbase-url\u003e': the real HTTP GET + JSON parse stays here (Go host), but the actual decision (what a health-check response means, what exit code it earns) is real PARENA source (PARENA/stdlib/idunapro/cli_mod.prn) compiled via 'burrow build -o *.go' into internal/burrowgen/idunapro_cli_gen.go -- the first real proof this session's own newly-shipped match/Result BURROW port works end to end both constructing AND consuming a Result. No cgo/FFI boundary, same real precedent DUNG's own burrowgen usage set. Live-verified against IDUNA's actual running :8080 instance (healthy -\u003e exit 0) and an unreachable host (exit 1). go test ./... all green, zero regressions. Real, honest scope: one subcommand, not a CLI framework -- BURROW's Go target still needs defenum/loop/Vec/struct construction before a fuller CLI is worth building. (sess-20260902-2008-ed50169e)\n\n⚓ ☃",
+  "id": 17376,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "IDUNA_PRO",
+  "title": "changelog(IDUNA_PRO): feat: cmd/idunapro -- real, honest v0 CLI proof-of-concept …"
+}
