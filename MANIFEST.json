@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-03T01:00:43Z",
+  "generated_at": "2026-09-03T01:01:00Z",
   "repo": "APPLES",
-  "count": 6730,
+  "count": 6731,
   "apples": [
     {
       "id": 10525,
@@ -53842,6 +53842,14 @@
       "source_repo": "CLI",
       "date": "20260903",
       "archived_at": "2026-09-03T01:00:43Z"
+    },
+    {
+      "id": 17268,
+      "type": "observation",
+      "title": "Real, pre-existing gap found: IDUNA player accounts are not scoped per-game",
+      "source_repo": "IDUNA",
+      "date": "20260903",
+      "archived_at": "2026-09-03T01:01:00Z"
     }
   ]
 }

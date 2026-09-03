@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "observation",
+  "archived_at": "2026-09-03T01:01:00Z",
+  "body": "While setting up Gary's PAPERCRAFT account, founder asked to 'make sure that account only for papercraft.' Investigated and found a real, pre-existing architectural gap, not something introduced this session: IDUNA's player-auth system (player_email_auth.go, players/player_credentials tables) has NO per-game scoping at all. Every registered player account's JWT carries a generic aud:shankpit claim regardless of which game it was created for, and none of the three real ticket-minting handlers that trust it (PapercraftTicketHandler, RacerTicketHandler, ShankpitTicketHandler) check aud or any other game-identifying claim -- each only verifies the JWT's sub is a valid player UUID. This means ANY registered player account (Gary's included) can currently mint a connect ticket for PAPERCRAFT, SHANKPIT, or WEAKNIGHT_BEDROCK_RACERS interchangeably -- one email/password is a single, shared identity across every game trusting IDUNA player JWTs, not a per-game account. The players table schema also has no game-scope column to persist such a restriction even if the JWT carried one. Real fix (not yet built, scoped but not started): an optional game field on registration, stored on the player row and stamped into every JWT issued for that player (register AND login), with each ticket handler rejecting a JWT whose game claim doesn't match its own -- absent-claim (every existing account) stays unscoped for backward compatibility. Flagging honestly rather than claiming a quick patch closes it; this touches shared trust-authority code across 3 game handlers plus a schema migration, worth a deliberate pass rather than a rushed one.\n\n⚓ ☃",
+  "id": 17268,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "IDUNA",
+  "title": "Real, pre-existing gap found: IDUNA player accounts are not scoped per-game"
+}
