@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-03T10:59:04Z",
+  "body": "Real gap found live: draw_player colored every fighter purely by fd-\u003ebody_r/g/b (per-CHARACTER), never by player slot, despite the function's own stale comment claiming 'color based on player id' -- a mirror match (both players pick the same fighter) rendered them pixel-identical with nothing distinguishing them mid-fight. draw_player now takes a player_index parameter (all 3 call sites updated); any slot after 0 sharing slot 0's character_id draws a real colored triangle hat + pom-pom above its head, reusing existing draw_circle/immediate-mode-triangle primitives, no new art asset needed. Honest v0 scope: only differentiates against slot 0, matching the real 2-player case named -- a genuine 3-4P free-for-all would need a real per-slot color table, separate later work. Live-verified under Xvfb: forced a real mirror match (temp debug hook, reverted before commit) and screenshotted -- player 2's fighter visibly wears the hat, player 1 does not. Native gcc build (-Wall -Wextra) clean, scripts/build.sh + its own physics smoke test both pass. Commit d0c1fde.\n\n⚓ ☃",
+  "id": 17402,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "BRAWLPIT",
+  "title": "Mirror-match hat added so same-character players are visually distinguishable (342342)"
+}
