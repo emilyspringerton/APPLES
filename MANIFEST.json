@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-03T18:51:05Z",
+  "generated_at": "2026-09-03T18:51:44Z",
   "repo": "APPLES",
-  "count": 6964,
+  "count": 6965,
   "apples": [
     {
       "id": 10525,
@@ -55714,6 +55714,14 @@
       "source_repo": "PARENA",
       "date": "20260903",
       "archived_at": "2026-09-03T18:51:05Z"
+    },
+    {
+      "id": 17502,
+      "type": "backlog_completion",
+      "title": "Manual kanban move: Build the narrow scope parena PBX primativews pass think low",
+      "source_repo": "EMILY",
+      "date": "20260903",
+      "archived_at": "2026-09-03T18:51:44Z"
     }
   ]
 }
