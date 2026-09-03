@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-03T11:18:44Z",
+  "generated_at": "2026-09-03T11:19:18Z",
   "repo": "APPLES",
-  "count": 6870,
+  "count": 6871,
   "apples": [
     {
       "id": 10525,
@@ -54962,6 +54962,14 @@
       "source_repo": "BURROW",
       "date": "20260903",
       "archived_at": "2026-09-03T11:18:44Z"
+    },
+    {
+      "id": 17408,
+      "type": "completion",
+      "title": "Real loop/recur support added to BURROW's Go emission target (cruise-queue card 9988)",
+      "source_repo": "BURROW",
+      "date": "20260903",
+      "archived_at": "2026-09-03T11:19:18Z"
     }
   ]
 }
