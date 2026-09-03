@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-03T23:45:18Z",
+  "body": "Kanban cruise-queue card 232131231, 'fix unicode in pitviper'. Found live reading the render loop: the OG bitmap atlas only covers ASCII + a curated extended set (box-drawing/braille); any other real character silently rendered as '?' even though the real TTF 'shiny' font (JetBrains Mono, loaded unconditionally at startup) has glyphs for those -- it was only ever consulted when the F11 display toggle was manually on. New pure shouldTryShinyFallback(useShinyFont, inAtlas) decides when to try the real TTF glyph before the '?' fallback. New TestShouldTryShinyFallback (this package's first test file). go build/vet/test ./... all clean (one pre-existing, unrelated go vet lock-copy warning confirmed via git stash). PITVIPER commit 0f99110. Real, honest, not done: full live visual confirmation isn't possible under this sandbox's own Xvfb setup (a real, already-documented window-compositing gap, not new). session: sess-20260902-2008-ed50169e\n\n⚓ ☃",
+  "id": 17561,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "PITVIPER",
+  "title": "Fixed real unicode fallback bug: non-atlas characters (accented Latin, Cyrillic, etc.) rendered as bare '?'"
+}
