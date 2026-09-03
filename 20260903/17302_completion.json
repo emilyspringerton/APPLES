@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-03T02:54:27Z",
+  "body": "commit 1d89ccb. New cmd/tina-engine: on every real guidance RAISE (var/guidance/articles.ndjson), looks up the source press-release body (var/prwatch-body, keyed by source_identity), drafts a real, disclosure-compliant TINA article via the Anthropic API in the exact house voice/format established by 4 real published TINA posts (read directly from IDUNA/var/blog.db). Deliberate safety boundary: writes drafts only to var/tina-drafts/\u003cid\u003e.json, never auto-publishes -- respects the TINA northstar's own still-open compliance-review question. New main_test.go, 6 tests, all green; go build/vet/test ./... clean across the whole repo, zero regressions. Live-verified: -dry-run against real production data (113 real raise records) correctly resolved 18+ to their exact real source press-release URLs (Deere, Ross Stores, BMO, Medtronic, MongoDB, Workday, Autodesk, and others). Real, honest, external finding: one live (non-dry-run) draft attempt against a real record (Medtronic) hit a genuine Anthropic API error -- credit balance too low. Confirmed this is handled correctly in code: logged, item NOT marked seen, will retry once the account is topped up. This is a real infra/billing gap for the founder, not a code defect. Deliberately deferred, named in the code's own doc comment: the backlog item's architecture note calls for a PARENA-side stdlib/fatbaby.prn FFI declaration for the deterministic detection step, mirroring stdlib/editor/plugin.prn's host/plugin split -- not built this pass, 100% Go today.\n\n⚓ ☃",
+  "id": 17302,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "PRRJECT_FATBABY",
+  "title": "S189-42: real TINA desk engine -- guidance-raise detection + drafting pipeline"
+}
