@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-03T06:03:54Z",
+  "generated_at": "2026-09-03T06:05:07Z",
   "repo": "APPLES",
-  "count": 6805,
+  "count": 6806,
   "apples": [
     {
       "id": 10525,
@@ -54442,6 +54442,14 @@
       "source_repo": "BURROW",
       "date": "20260903",
       "archived_at": "2026-09-03T06:03:54Z"
+    },
+    {
+      "id": 17343,
+      "type": "backlog_completion",
+      "title": "Manual kanban move: iterate on project burrow we need to get that ready to write",
+      "source_repo": "EMILY",
+      "date": "20260903",
+      "archived_at": "2026-09-03T06:05:07Z"
     }
   ]
 }
