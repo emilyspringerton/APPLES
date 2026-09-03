@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-03T13:43:19Z",
+  "generated_at": "2026-09-03T13:43:49Z",
   "repo": "APPLES",
-  "count": 6903,
+  "count": 6904,
   "apples": [
     {
       "id": 10525,
@@ -55226,6 +55226,14 @@
       "source_repo": "PARENA",
       "date": "20260903",
       "archived_at": "2026-09-03T13:43:19Z"
+    },
+    {
+      "id": 17441,
+      "type": "completion",
+      "title": "Real, phased plan for a native (no libpcap FFI) PARENA packet-capture implementation",
+      "source_repo": "PARENA",
+      "date": "20260903",
+      "archived_at": "2026-09-03T13:43:49Z"
     }
   ]
 }
