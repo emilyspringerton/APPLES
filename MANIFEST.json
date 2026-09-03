@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-03T19:17:54Z",
+  "generated_at": "2026-09-03T19:19:33Z",
   "repo": "APPLES",
-  "count": 6973,
+  "count": 6974,
   "apples": [
     {
       "id": 10525,
@@ -55786,6 +55786,14 @@
       "source_repo": "emily",
       "date": "20260903",
       "archived_at": "2026-09-03T19:17:54Z"
+    },
+    {
+      "id": 17511,
+      "type": "completion",
+      "title": "Real BER TLV primitives for LDAP (kanban 342332432423)",
+      "source_repo": "PARENA",
+      "date": "20260903",
+      "archived_at": "2026-09-03T19:19:33Z"
     }
   ]
 }

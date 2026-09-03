@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-03T19:19:33Z",
+  "body": "New ldap/ber.prn: read-ber-tag/read-ber-length/build-ber-tlv, the most foundational LDAP primitive (every LDAP message is a Tag-Length-Value element, RFC 4511 ASN.1 BER). Short-form length + low tag numbers only in v0, honest errors otherwise. build-ber-tlv uses an inline-c escape hatch (same concat-truncation reason as dns.prn). 5/5 tests, make test 345/345. Commit 0d3d059.\n\n⚓ ☃",
+  "id": 17511,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "PARENA",
+  "title": "Real BER TLV primitives for LDAP (kanban 342332432423)"
+}
