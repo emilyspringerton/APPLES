@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-03T11:59:30Z",
+  "body": "CHANGELOG updated in PARENA: feat: real Java-target proof for a future PARENA Android app (kanban cruise-queue card 32445324, 'PARENA android app in JAVA using PARENA using the JAVA emitter'), plus a real fix: (not x) had NO handling anywhere in src/emit_java.c -- the exact same real gap already found and fixed in src/emit.c (2026-08-21) and BURROW's own emit_c.go/emit_go.go (2026-08-30), this Java target simply hadn't hit a real .prn file using it yet, fixed via Java's own ! operator, same real port. New stdlib/android/battery_ui.prn: two real, minimal scalar decision functions (should-show-low-battery-warning, clamp-brightness) plausible for a real Android app (MJOLNIR is this monorepo's own real precedent for what one actually needs). Compiled via the real Java emitter and verified with an actual JDK (javac/java 25.0.4, same version STDLIB.md's own BezierInterp/Humanness three-target proof already used) against a real Main.java smoke test -- 7 real assertions, all pass, including the real battery-pct==15 boundary and both brightness-clamp directions. New docs/ANDROID_JAVA_TARGET_NORTHSTAR.md: honest, checked-not-assumed scoping for the real remaining gap -- this sandbox has no Android SDK at all (no ANDROID_HOME/sdkmanager/adb), and MJOLNIR itself (this monorepo's own real Android app) has no gradlew wrapper checked out locally either, confirming it's never actually built here, only via real CI/the founder's own machine -- so a real, buildable APK is honestly named as NOT attempted rather than guessed-at unverified scaffolding. Real, concrete next steps named (Gradle skeleton, wiring into a real Activity/BatteryManager callback, a real CI step with the Android SDK), none started. New tests/test_emit_java.c coverage: 4 new assertions for the not fix. tests/test_emit_java: 31/31. make test: 342/342, zero regressions. (sess-20260902-2008-ed50169e)\n\n⚓ ☃",
+  "id": 17420,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "PARENA",
+  "title": "changelog(PARENA): feat: real Java-target proof for a future PARENA Android ap…"
+}
