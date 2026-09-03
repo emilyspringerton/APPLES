@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-03T17:49:58Z",
+  "generated_at": "2026-09-03T17:58:32Z",
   "repo": "APPLES",
-  "count": 6941,
+  "count": 6942,
   "apples": [
     {
       "id": 10525,
@@ -55530,6 +55530,14 @@
       "source_repo": "emily",
       "date": "20260903",
       "archived_at": "2026-09-03T17:49:58Z"
+    },
+    {
+      "id": 17479,
+      "type": "completion",
+      "title": "defenum put into real production use in idunapro CLI (card 9988)",
+      "source_repo": "IDUNA_PRO",
+      "date": "20260903",
+      "archived_at": "2026-09-03T17:58:32Z"
     }
   ]
 }

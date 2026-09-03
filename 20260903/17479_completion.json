@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-03T17:58:32Z",
+  "body": "New HealthError defenum (BadStatus/NotOk) replaces a bare String ErrorType in interpret-health-response -- BURROW's freshly-shipped defenum support exercised in real code for the first time, not just tests. Host reads .Tag directly (match-on-defenum still unsupported). go test clean, live-verified against IDUNA :8080. PARENA commit 73a78ca, IDUNA_PRO commit fd70451.\n\n⚓ ☃",
+  "id": 17479,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "IDUNA_PRO",
+  "title": "defenum put into real production use in idunapro CLI (card 9988)"
+}
