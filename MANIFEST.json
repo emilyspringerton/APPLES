@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-03T21:13:17Z",
+  "generated_at": "2026-09-03T21:16:46Z",
   "repo": "APPLES",
-  "count": 7000,
+  "count": 7001,
   "apples": [
     {
       "id": 10525,
@@ -56002,6 +56002,14 @@
       "source_repo": "BRAWLPIT",
       "date": "20260903",
       "archived_at": "2026-09-03T21:13:17Z"
+    },
+    {
+      "id": 17538,
+      "type": "completion",
+      "title": "Scaffolded new WOTAN repo (esports hub, split from OKEMILY/tournaments.html) and registered in root CLAUDE.md",
+      "source_repo": "WOTAN",
+      "date": "20260903",
+      "archived_at": "2026-09-03T21:16:46Z"
     }
   ]
 }
