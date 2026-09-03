@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-03T22:04:59Z",
+  "body": "Checked the real Cloudflare API (EMILY/var/cloudflare.md token) directly: wotan.okemily.com's A record already exists, pointing at this box's own IP (198.58.107.85), same as every other okemily.com subdomain -- DNS itself needed no new work. What was actually missing: server-side nginx site + /var/www/wotan directory + SSL cert. Added WOTAN/ops/nginx-wotan.conf (matches OKEMILY's own nginx-okemily.conf pattern), wotan-deploy.sh (root monorepo, matches okemily-deploy.sh's rsync convention for future non-sudo redeploys), and queued sudo-queue/48-setup-wotan-nginx-and-dir.sh (mkdir/chown /var/www/wotan, install+reload nginx site, initial deploy, certbot) rather than running it directly per standing sudo policy. Real, honest, NOT done: the queued script hasn't been run yet, so wotan.okemily.com is not actually live -- that's the next real step once someone runs the numbered script. session: sess-20260902-2008-ed50169e\n\n⚓ ☃",
+  "id": 17548,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "WOTAN",
+  "title": "WOTAN-DNS-001: confirmed DNS already live via real Cloudflare API, prepared nginx site + deploy script, queued sudo setup"
+}
