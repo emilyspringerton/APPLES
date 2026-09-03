@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-03T01:07:10Z",
+  "generated_at": "2026-09-03T01:18:49Z",
   "repo": "APPLES",
-  "count": 6734,
+  "count": 6735,
   "apples": [
     {
       "id": 10525,
@@ -53874,6 +53874,14 @@
       "source_repo": "emily",
       "date": "20260903",
       "archived_at": "2026-09-03T01:07:10Z"
+    },
+    {
+      "id": 17272,
+      "type": "observation",
+      "title": "S226-04 live verification: real Apple posting through the just-restarted iduna.service",
+      "source_repo": "IDUNA",
+      "date": "20260903",
+      "archived_at": "2026-09-03T01:18:49Z"
     }
   ]
 }
