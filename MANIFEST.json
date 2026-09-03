@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-03T01:34:04Z",
+  "generated_at": "2026-09-03T01:34:41Z",
   "repo": "APPLES",
-  "count": 6741,
+  "count": 6742,
   "apples": [
     {
       "id": 10525,
@@ -53930,6 +53930,14 @@
       "source_repo": "IDUNA",
       "date": "20260903",
       "archived_at": "2026-09-03T01:34:04Z"
+    },
+    {
+      "id": 17279,
+      "type": "backlog_completion",
+      "title": "Manual kanban move: make the item-number suffix optional when manually adding a ",
+      "source_repo": "EMILY",
+      "date": "20260903",
+      "archived_at": "2026-09-03T01:34:41Z"
     }
   ]
 }
