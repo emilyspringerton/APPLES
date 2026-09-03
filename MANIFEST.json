@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-03T01:20:24Z",
+  "generated_at": "2026-09-03T01:21:19Z",
   "repo": "APPLES",
-  "count": 6736,
+  "count": 6737,
   "apples": [
     {
       "id": 10525,
@@ -53890,6 +53890,14 @@
       "source_repo": "IDUNA",
       "date": "20260903",
       "archived_at": "2026-09-03T01:20:24Z"
+    },
+    {
+      "id": 17274,
+      "type": "backlog_completion",
+      "title": "Manual kanban move: wire remaining IDUNA code paths (HEIMDAL sprint transitions,",
+      "source_repo": "EMILY",
+      "date": "20260903",
+      "archived_at": "2026-09-03T01:21:19Z"
     }
   ]
 }
