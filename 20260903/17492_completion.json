@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-03T18:25:52Z",
+  "body": "Unified plan for 2 related cards. Grounded in the IDUNA inventory's real hardware. Checked existing foundation (io.prn, pty.prn). One real new gap: termios config primitive for baud rate + raw mode. Named SPI-vs-UART distinction for the Feather's radio module as out of scope. 2-phase plan. Golden doc UART-SERIAL-NORTH. Commit d4d970d.\n\n⚓ ☃",
+  "id": 17492,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "PARENA",
+  "title": "UART/Serial stdlib planning (kanban HW-001/HW-003)"
+}

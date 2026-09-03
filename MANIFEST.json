@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-03T18:23:55Z",
+  "generated_at": "2026-09-03T18:25:52Z",
   "repo": "APPLES",
-  "count": 6954,
+  "count": 6955,
   "apples": [
     {
       "id": 10525,
@@ -55634,6 +55634,14 @@
       "source_repo": "EMILY",
       "date": "20260903",
       "archived_at": "2026-09-03T18:23:55Z"
+    },
+    {
+      "id": 17492,
+      "type": "completion",
+      "title": "UART/Serial stdlib planning (kanban HW-001/HW-003)",
+      "source_repo": "PARENA",
+      "date": "20260903",
+      "archived_at": "2026-09-03T18:25:52Z"
     }
   ]
 }
