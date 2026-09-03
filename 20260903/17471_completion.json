@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-03T17:21:55Z",
+  "body": "新增 stdlib/net/wire.prn:read-u16-be/read-u32-be/mac-to-string/ipv4-to-string,純 PARENA 無 FFI。找到並修正真實臭蟲:char-at 有號延伸問題,用 raw-byte(bit-and 255)修正,測試涵蓋 \u003e=128 位元組案例。make test-wire 6/6,make test 345/345 無回歸。commit e93db5b。\n\n⚓ ☃",
+  "id": 17471,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "PARENA",
+  "title": "net/wire 多位元組欄位擷取(kanban PCAP-0022)"
+}

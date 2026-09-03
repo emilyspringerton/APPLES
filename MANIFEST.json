@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-03T17:21:39Z",
+  "generated_at": "2026-09-03T17:21:55Z",
   "repo": "APPLES",
-  "count": 6933,
+  "count": 6934,
   "apples": [
     {
       "id": 10525,
@@ -55466,6 +55466,14 @@
       "source_repo": "emily",
       "date": "20260903",
       "archived_at": "2026-09-03T17:21:39Z"
+    },
+    {
+      "id": 17471,
+      "type": "completion",
+      "title": "net/wire 多位元組欄位擷取(kanban PCAP-0022)",
+      "source_repo": "PARENA",
+      "date": "20260903",
+      "archived_at": "2026-09-03T17:21:55Z"
     }
   ]
 }
