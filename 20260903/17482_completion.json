@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-03T18:11:18Z",
+  "body": "Every cursor-movement/delete function in editor/buffer.prn moved exactly one byte, not one UTF-8 codepoint, corrupting multi-byte characters. Fixed via utf8-codepoint-len/utf8-prev-boundary helpers. New test_editor_unicode.c exercises a real 2-byte and 4-byte codepoint, not just ASCII. make test 345/345, make test-editor (real SDL) also green. Commit ee7e3cd.\n\n⚓ ☃",
+  "id": 17482,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "PARENA",
+  "title": "Fixed real UTF-8 bug in PARENA editor (kanban 3454353)"
+}
