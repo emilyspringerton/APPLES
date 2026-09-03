@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-03T11:59:59Z",
+  "generated_at": "2026-09-03T12:00:32Z",
   "repo": "APPLES",
-  "count": 6884,
+  "count": 6885,
   "apples": [
     {
       "id": 10525,
@@ -55074,6 +55074,14 @@
       "source_repo": "PARENA",
       "date": "20260903",
       "archived_at": "2026-09-03T11:59:59Z"
+    },
+    {
+      "id": 17422,
+      "type": "backlog_completion",
+      "title": "Manual kanban move: PARENA android app in JAVA using PARENA using the JAVA emitt",
+      "source_repo": "EMILY",
+      "date": "20260903",
+      "archived_at": "2026-09-03T12:00:32Z"
     }
   ]
 }
