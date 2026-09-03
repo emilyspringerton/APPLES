@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-03T02:05:05Z",
+  "body": "Kanban priority-queue: 'intake mixforge legacy conversation northstar it with our stack not the one discussed built with parena.' Started before legacy.txt existed upstream -- founder caught this: 'you need to do a git rebase pull on mixforge repo.' Pulled real legacy.txt (1901-line captured AI chat transcript): a concrete C++/JUCE/Essentia/RubberBand/yt-dlp/SQLite DJ-app design, explicit first feature = paste-a-YouTube-URL track import with an optional second URL for a separately-supplied instrumental. Rejected that stack per the card's own instruction; NORTHSTAR.md maps every real component onto PARENA's actual stdlib (checked against PARENA/stdlib/, not assumed): built-in sdl2 + design-only media/audio/codec for playback, real stdlib/shell.prn shelling to the real yt-dlp binary for import, FFI-bound libsqlite3 for the library. Named a genuinely new gap: key/BPM detection has no PARENA story anywhere in this monorepo -- FFI-binding aubio is the leading candidate, its own scoping pass not attempted here. Preserved the transcript's own explicit licensing-deferred quote verbatim. 6-phase plan, import/library sequenced before playback (corrects an earlier pre-legacy.txt draft that had it backwards). New CLAUDE.md/CHANGELOG.md. MIXFORGE commit e78f78e.\n\n⚓ ☃",
+  "id": 17285,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "MIXFORGE",
+  "title": "S205-100: real MIXFORGE NORTHSTAR built from the pulled-in legacy conversation, PARENA stack committed"
+}
