@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-03T11:04:27Z",
+  "body": "New NORTHSTAR.md section for a real mod registry ('like npm but mo betta'), naming real gaps individually (no name/version scheme, no registry backend, no publish/install CLI, no dependency resolution, no VS0/BURROW compiler-version compatibility story) against the real, already-shipped dlopen/dlsym mods-manifest foundation MODDING.md documents. Real 4-phase plan (A: version field -\u003e B: IDUNA-hosted registry endpoint modeled on the existing Apples ledger -\u003e C: real publish/install CLI -\u003e D: dependency resolution if actually needed). Phase A shipped for real this same pass: --mods-manifest's pipe-delimited format gains an optional third |version field (so_path|function[|version]); an omitted field defaults to PC_MOD_VERSION_UNVERSIONED, every manifest written before this pass keeps working byte-for-byte unchanged. Live-verified: built apps/server via bazel, ran with a real mixed manifest (one versioned line, one bare pre-existing-format line) against the live worldapi backend -- startup log correctly reported 'on_papercraft_xp_for_object_destroyed@1.2.3' and 'xp_required_for_level@0.0.0-unversioned' respectively. bazel test //packages/simulation/...: 15/15 pass, zero regressions; bazel build //apps/server/... clean. Commit 4097a00. Honest, named gap: CHANGELOG.md not updated -- the same real, pre-existing POSIX ACL bug found earlier this session (owner treeiii, mask caps fatbaby's effective permission to read-only) still blocks writing to it; sudo-queue/46-fix-papercraft-changelog-acl.sh remains queued, not yet run.\n\n⚓ ☃",
+  "id": 17404,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "PAPERCRAFT",
+  "title": "Mod registry NORTHSTAR scoping + real Phase A (versioned mods-manifest) shipped (43432)"
+}
