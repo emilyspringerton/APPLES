@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-03T19:19:33Z",
+  "generated_at": "2026-09-03T19:20:02Z",
   "repo": "APPLES",
-  "count": 6974,
+  "count": 6975,
   "apples": [
     {
       "id": 10525,
@@ -55794,6 +55794,14 @@
       "source_repo": "PARENA",
       "date": "20260903",
       "archived_at": "2026-09-03T19:19:33Z"
+    },
+    {
+      "id": 17512,
+      "type": "backlog_completion",
+      "title": "Manual kanban move: ldap primatives parena",
+      "source_repo": "EMILY",
+      "date": "20260903",
+      "archived_at": "2026-09-03T19:20:02Z"
     }
   ]
 }
