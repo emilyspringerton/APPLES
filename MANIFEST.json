@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-03T02:23:04Z",
+  "generated_at": "2026-09-03T02:23:54Z",
   "repo": "APPLES",
-  "count": 6756,
+  "count": 6757,
   "apples": [
     {
       "id": 10525,
@@ -54050,6 +54050,14 @@
       "source_repo": "DUNG",
       "date": "20260903",
       "archived_at": "2026-09-03T02:23:04Z"
+    },
+    {
+      "id": 17294,
+      "type": "backlog_completion",
+      "title": "Manual kanban move: CONTINUE WORKING ON DUNG IDE write it in LO",
+      "source_repo": "EMILY",
+      "date": "20260903",
+      "archived_at": "2026-09-03T02:23:54Z"
     }
   ]
 }
