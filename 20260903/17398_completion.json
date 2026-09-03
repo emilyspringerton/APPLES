@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-03T10:53:32Z",
+  "body": "Kanban cruise-queue card 1233421: 'shankpit og osaka garage as the construct multiverse portal can download and launch new scenes in papercraft.' New docs2/NORTHSTAR.md section, no code. Naming note checked first: 'Construct' already means something specific and different in this exact doc (a documentation-completeness snapshot) -- the card's own narrative name needs its own distinct in-game label to avoid confusion with the existing Milestone 4 reference. Real, checked-not-assumed current state: SceneGarageOsaka (server/system/portal.go) is already a real 5-portal hub; PAPERCRAFT already leans on the same shared worldapi scene-ID convention. Real, honest blockers named: PAPERCRAFT has no client/server host process to launch into at all yet (its own CLAUDE.md says so); 'download and launch' is a genuinely new cross-process/cross-engine hand-off problem, not the same-process scene_id swap SHANKPIT's own portal travel already does; SHANKPIT's own Layer 2 portal-travel prerequisites aren't fully landed either. Real 3-phase plan (in-lore naming/signage now -\u003e blocked-on-PAPERCRAFT's-own-host-code -\u003e the real cross-engine hand-off choice). go test ./server/system/... still green. Commit e80a335.\n\n⚓ ☃",
+  "id": 17398,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "SHANKPIT",
+  "title": "Real, scoping-only NORTHSTAR pass for Osaka Garage as a multiverse hub reaching into PAPERCRAFT"
+}
