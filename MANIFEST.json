@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-03T14:03:41Z",
+  "generated_at": "2026-09-03T14:04:03Z",
   "repo": "APPLES",
-  "count": 6908,
+  "count": 6909,
   "apples": [
     {
       "id": 10525,
@@ -55266,6 +55266,14 @@
       "source_repo": "PARENA",
       "date": "20260903",
       "archived_at": "2026-09-03T14:03:41Z"
+    },
+    {
+      "id": 17446,
+      "type": "backlog_completion",
+      "title": "Manual kanban move: ok so can we start to dig into the parena OS implementation?",
+      "source_repo": "EMILY",
+      "date": "20260903",
+      "archived_at": "2026-09-03T14:04:03Z"
     }
   ]
 }
