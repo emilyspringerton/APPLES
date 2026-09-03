@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-03T11:51:17Z",
+  "generated_at": "2026-09-03T11:51:48Z",
   "repo": "APPLES",
-  "count": 6880,
+  "count": 6881,
   "apples": [
     {
       "id": 10525,
@@ -55042,6 +55042,14 @@
       "source_repo": "BURROW",
       "date": "20260903",
       "archived_at": "2026-09-03T11:51:17Z"
+    },
+    {
+      "id": 17418,
+      "type": "completion",
+      "title": "Real Vec support added to BURROW's Go emission target (cruise-queue card 9988)",
+      "source_repo": "BURROW",
+      "date": "20260903",
+      "archived_at": "2026-09-03T11:51:48Z"
     }
   ]
 }

@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-03T11:51:47Z",
+  "body": "Real, direct port of PARENA's own runtime Vec representation to Go's own idiomatic equivalent: a bare []any slice, no wrapper struct -- append() does the real dynamic-growth job C's own vec_push_ hand-rolls, any does the real 'erase to a pointer-ish box' job void* does. Real, honest consequence named directly: this target's own header comment previously claimed every v0-scope program is GC-irrelevant/no-heap-allocation -- no longer literally true for Vec-using code; a host relying on debug.SetGCPercent(-1) needs to know this. Real, necessary prerequisite found live: an Arena @ Region param and a return type's own trailing @ Region suffix had NO parsing at all before this pass -- both now real and accepted. Real, deliberate v0 boundary for vec/get, named explicitly: no per-Vec element-type tracking exists, so its result is always coerced to int32 -- right for every current real .prn Vec usage (array.prn's shape vectors), a real, named gap for a (Vec SomeStruct) (bstree.prn's own BSTNode-valued Vec is the known counter-example). Three real, genuine bugs found and fixed live: pushed-item int-vs-int32 defaulting (same class hit twice already this session); a discarded side-effecting loop's own RetType boxing incorrectly using the enclosing defn's return type (the exact real idiom array.prn's own zeros uses); recur inside a (do effect... (recur ...)) not recognized as a recur branch. go test: 93/93 (5 new). Real, live, end-to-end proof: a real program building a (Vec I32) via a loop+vec/push!, reading it back via vec/len+vec/get+deref, compiled via burrow build, linked into a real, separate Go module, and run -- correct sums for sum-of(5)=10, sum-of(0)=0, sum-of(10)=45. Commit 9ebf8d0. Still real, honest, unstarted: defenum, struct construction, (Vec SomeStruct) element types -- card 9988 stays open, a fuller CLI still needs those.\n\n⚓ ☃",
+  "id": 17418,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "BURROW",
+  "title": "Real Vec support added to BURROW's Go emission target (cruise-queue card 9988)"
+}
