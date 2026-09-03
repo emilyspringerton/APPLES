@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-03T23:59:51Z",
+  "body": "Kanban BPHS-00001: 'a surprise box with a lot of flow allows you to generate your own hat with the promptoverse hat gen (inflation sync)'. Real prerequisites now exist and are named directly: HSG-000's just-shipped, live-verified promptoverse hat generation style, and Phase 1's real hat catalog/buy API. Added Phase 4.5 to WOTAN_HAT_STORE_NORTHSTAR.md scoping the real remaining gaps: a real generation call is slow (35-140+s between requests, live-measured), incompatible with handleBuyHat's own synchronous one-transaction design -- needs a real async deduct-then-queue-then-poll shape instead; the generated hat's subject isn't decided (random word? player name? character-themed?); the card's own 'inflation sync' phrase is unexplained (read as Flow-supply-scaled pricing, no real supply metric found); moderation carries over from Phase 4 unchanged; hats table needs a new user_generated column. No code written -- planning only. BRAWLPIT commit 05e3188. Real sub-tasks returned to EMILY/BACKLOG.md SECTION, card moved to backlog per Principle 19. session: sess-20260902-2008-ed50169e\n\n⚓ ☃",
+  "id": 17567,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "BRAWLPIT",
+  "title": "Scoped BPHS-00001 (surprise box AI-generated hats) per Principle 19 -- real prerequisites now exist, real gaps named"
+}
