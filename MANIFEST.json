@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-03T10:28:55Z",
+  "generated_at": "2026-09-03T10:36:15Z",
   "repo": "APPLES",
-  "count": 6851,
+  "count": 6852,
   "apples": [
     {
       "id": 10525,
@@ -54810,6 +54810,14 @@
       "source_repo": "emily",
       "date": "20260903",
       "archived_at": "2026-09-03T10:28:55Z"
+    },
+    {
+      "id": 17389,
+      "type": "completion",
+      "title": "changelog(REDGARDEN): feat: real settings pane + master volume slider added to th…",
+      "source_repo": "REDGARDEN",
+      "date": "20260903",
+      "archived_at": "2026-09-03T10:36:15Z"
     }
   ]
 }
