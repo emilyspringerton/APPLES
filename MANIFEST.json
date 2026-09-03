@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-03T19:23:44Z",
+  "generated_at": "2026-09-03T19:25:45Z",
   "repo": "APPLES",
-  "count": 6976,
+  "count": 6977,
   "apples": [
     {
       "id": 10525,
@@ -55810,6 +55810,14 @@
       "source_repo": "EMILY",
       "date": "20260903",
       "archived_at": "2026-09-03T19:23:44Z"
+    },
+    {
+      "id": 17514,
+      "type": "completion",
+      "title": "parena new: real batteries-included scaffolding for the C target (kanban PXCL-9311)",
+      "source_repo": "PARENA",
+      "date": "20260903",
+      "archived_at": "2026-09-03T19:25:45Z"
     }
   ]
 }

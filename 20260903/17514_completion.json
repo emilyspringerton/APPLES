@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-03T19:25:45Z",
+  "body": "Direct C-target sibling of BURROW's burrow new. Generates a real starter (.prn + main.c + a local runtime copy), actually compiles+runs it before returning success. Built headless (PARENA_NO_GRAPHICS). New tests/integration/run_new_check.sh (make test-new). Live-verified: real scaffold builds+runs, correct output, overwrite refused. make test 345/345. Commit cafaf2f.\n\n⚓ ☃",
+  "id": 17514,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "PARENA",
+  "title": "parena new: real batteries-included scaffolding for the C target (kanban PXCL-9311)"
+}
