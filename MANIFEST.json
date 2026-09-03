@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-03T03:30:53Z",
+  "generated_at": "2026-09-03T03:32:28Z",
   "repo": "APPLES",
-  "count": 6782,
+  "count": 6783,
   "apples": [
     {
       "id": 10525,
@@ -54258,6 +54258,14 @@
       "source_repo": "CLI",
       "date": "20260903",
       "archived_at": "2026-09-03T03:30:53Z"
+    },
+    {
+      "id": 17320,
+      "type": "completion",
+      "title": "IDUNA_PRO extraction plan + Host-based subdomain routing -- real multi-tenancy architecture direction",
+      "source_repo": "IDUNA",
+      "date": "20260903",
+      "archived_at": "2026-09-03T03:32:28Z"
     }
   ]
 }
