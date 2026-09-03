@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-03T06:10:13Z",
+  "body": "commit 0cbcb99. Founder real-time / kanban cruise queue: '/design updatge the IDUNA OG menu interface so its a left menu thats always there keep it simple and nice let us scroll up and down on the menu if it gets that long'. The Back Office admin nav was a single horizontal top bar cramming 12 links into one row -- replaced with a real position:fixed left sidebar (always visible while scrolling the page's own content, unlike a top bar that scrolls away) with its own overflow-y:auto, so a longer link list in the future scrolls within the menu itself instead of pushing content down or overflowing the viewport. Real, deliberate scope: links/hrefs entirely unchanged, purely a layout/CSS re-orientation from horizontal to vertical; sign-out link pinned to the bottom via margin-top:auto. go build/vet/test ./... clean. Live-verified: iduna.service rebuilt and restarted successfully, /health green -- real, meaningful confirmation since adminBase is parsed via template.Must, so a malformed template edit would have panicked at process startup rather than failing silently or serving broken HTML.\n\n⚓ ☃",
+  "id": 17347,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "IDUNA",
+  "title": "kanban card 9966: Back Office menu redesigned as a fixed, independently-scrollable left sidebar"
+}
