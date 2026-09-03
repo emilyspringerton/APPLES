@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-03T18:26:57Z",
+  "generated_at": "2026-09-03T18:26:58Z",
   "repo": "APPLES",
-  "count": 6956,
+  "count": 6957,
   "apples": [
     {
       "id": 10525,
@@ -55650,6 +55650,14 @@
       "source_repo": "EMILY",
       "date": "20260903",
       "archived_at": "2026-09-03T18:26:57Z"
+    },
+    {
+      "id": 17494,
+      "type": "backlog_completion",
+      "title": "Manual kanban move: SERIAL STDLIBS",
+      "source_repo": "EMILY",
+      "date": "20260903",
+      "archived_at": "2026-09-03T18:26:58Z"
     }
   ]
 }
