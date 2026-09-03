@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-03T03:03:53Z",
+  "generated_at": "2026-09-03T03:04:04Z",
   "repo": "APPLES",
-  "count": 6769,
+  "count": 6770,
   "apples": [
     {
       "id": 10525,
@@ -54154,6 +54154,14 @@
       "source_repo": "EMILY",
       "date": "20260903",
       "archived_at": "2026-09-03T03:03:53Z"
+    },
+    {
+      "id": 17307,
+      "type": "backlog_completion",
+      "title": "Manual kanban move: sprint plan the items in the CRUISE column",
+      "source_repo": "EMILY",
+      "date": "20260903",
+      "archived_at": "2026-09-03T03:04:04Z"
     }
   ]
 }
