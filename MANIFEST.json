@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-03T05:54:55Z",
+  "generated_at": "2026-09-03T06:03:54Z",
   "repo": "APPLES",
-  "count": 6804,
+  "count": 6805,
   "apples": [
     {
       "id": 10525,
@@ -54434,6 +54434,14 @@
       "source_repo": "emily",
       "date": "20260903",
       "archived_at": "2026-09-03T05:54:55Z"
+    },
+    {
+      "id": 17342,
+      "type": "completion",
+      "title": "let/do support added to BURROW's Go emission target -- kanban cards 1199/9988",
+      "source_repo": "BURROW",
+      "date": "20260903",
+      "archived_at": "2026-09-03T06:03:54Z"
     }
   ]
 }
