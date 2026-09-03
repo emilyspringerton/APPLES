@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-03T10:25:07Z",
+  "body": "New ARENA_DUCK_W_SLOW_CHANCE_PCT (50)/ARENA_DUCK_W_SLOW_MS (2000)/ARENA_DUCK_W_SLOW_PCT (0.30f) constants, same precedent as ARENA_CART_DELIVERY_SLOW_MS/_PCT. redgarden_host_duck_smoke_bomb_cast now rolls an independent 50% chance per enemy caught in the cloud radius at cast time (the only real 'hit' this vision-only ability has), applying arena_apply_slow on a hit -- rolled once at cast, not per tick. 4 new tests in tests/test_duck_smoke_bomb.c (real cast-path landing across retried seeds, a ~50% statistical check over 1000 trials with a fixed seed, outside-radius miss, ally-never-hit). Also fixed a real, pre-existing, unrelated BUILD.bazel gap found live while trying to run this via its own declared Bazel target: arena_game cc_library was missing bacon_puck_intangible_speed_mod.c/_host.h (present in every other real build path but never added to Bazel), blocking bazel test //tests:test_duck_smoke_bomb from compiling; fixed. bazel test //tests:all: 16/16 pass, zero regressions. Commit 780436d. Not mirrored into ECOWAR -- checked directly and found ECOWAR has already genuinely diverged on this same file (its own card_effect_mod/combat_log_mod additions, missing REDGARDEN's own separate Luck of the Draw trinket work), so blindly porting this diff risked clobbering real, separate divergent state rather than a safe mirror.\n\n⚓ ☃",
+  "id": 17386,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "REDGARDEN",
+  "title": "Duck's Smoke Bomb: 50% chance to slow each enemy hit by it (S205-87)"
+}
