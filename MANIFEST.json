@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-03T06:35:38Z",
+  "generated_at": "2026-09-03T06:36:13Z",
   "repo": "APPLES",
-  "count": 6817,
+  "count": 6818,
   "apples": [
     {
       "id": 10525,
@@ -54538,6 +54538,14 @@
       "source_repo": "IDUNA",
       "date": "20260903",
       "archived_at": "2026-09-03T06:35:38Z"
+    },
+    {
+      "id": 17355,
+      "type": "backlog_completion",
+      "title": "Manual kanban move: IDUNA UNIFIED SEARCH INTERFACE",
+      "source_repo": "EMILY",
+      "date": "20260903",
+      "archived_at": "2026-09-03T06:36:13Z"
     }
   ]
 }
