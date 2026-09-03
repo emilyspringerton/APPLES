@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-03T23:53:06Z",
+  "body": "Kanban BP-TUNE-CP-001: 'BP CONTROLLER PARITY - keyboard controll can drop down through the platforms controller cant (fall through)'. Found live: g_pad.ly (real left-stick vertical axis) and dpad_up/dpad_down were polled every frame in poll_controller_state but never once merged into the arena's own sy in apps/lobby/src/main.c. A controller player had no real way to set in_y at all -- not just drop-through platforms (the card's own literal ask), but every neutral-special's own 'hold up + special' dispatch too (Medusa/Raccoon/Second Tree/Uncrowned/Rosie's Insert Coin all gate on p-\u003ein_y \u003e 0.5f). Fixed with the same deadzone+snap shape the existing horizontal pad_x merge already uses; SDL's own LEFTY axis is positive-down so it's negated to match sy's up-positive convention. gcc -fsyntax-only clean, bash scripts/build.sh clean, all 4 physics tests still pass (input-layer fix, doesn't touch physics.h). README's Controls section updated. BRAWLPIT commit e488e24. session: sess-20260902-2008-ed50169e\n\n⚓ ☃",
+  "id": 17564,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "BRAWLPIT",
+  "title": "BP-TUNE-CP-001: real controller vertical-axis parity fixed -- g_pad.ly polled but never merged into sy"
+}
