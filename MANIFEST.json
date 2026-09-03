@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-03T19:25:45Z",
+  "generated_at": "2026-09-03T19:26:23Z",
   "repo": "APPLES",
-  "count": 6977,
+  "count": 6978,
   "apples": [
     {
       "id": 10525,
@@ -55818,6 +55818,14 @@
       "source_repo": "PARENA",
       "date": "20260903",
       "archived_at": "2026-09-03T19:25:45Z"
+    },
+    {
+      "id": 17515,
+      "type": "backlog_completion",
+      "title": "Manual kanban move: make parena cli tool do the same thing burrow new does but f",
+      "source_repo": "EMILY",
+      "date": "20260903",
+      "archived_at": "2026-09-03T19:26:23Z"
     }
   ]
 }
