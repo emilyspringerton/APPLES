@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-03T18:53:49Z",
+  "generated_at": "2026-09-03T18:54:27Z",
   "repo": "APPLES",
-  "count": 6966,
+  "count": 6967,
   "apples": [
     {
       "id": 10525,
@@ -55730,6 +55730,14 @@
       "source_repo": "PARENA",
       "date": "20260903",
       "archived_at": "2026-09-03T18:53:49Z"
+    },
+    {
+      "id": 17504,
+      "type": "backlog_completion",
+      "title": "Manual kanban move: full featured PBX add asterisk bindings to parena whatever n",
+      "source_repo": "EMILY",
+      "date": "20260903",
+      "archived_at": "2026-09-03T18:54:27Z"
     }
   ]
 }
