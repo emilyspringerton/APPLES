@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-03T11:13:57Z",
+  "generated_at": "2026-09-03T11:18:44Z",
   "repo": "APPLES",
-  "count": 6869,
+  "count": 6870,
   "apples": [
     {
       "id": 10525,
@@ -54954,6 +54954,14 @@
       "source_repo": "emily",
       "date": "20260903",
       "archived_at": "2026-09-03T11:13:57Z"
+    },
+    {
+      "id": 17407,
+      "type": "completion",
+      "title": "changelog(BURROW): feat: loop/recur added to the Go emission target (emit_go.g…",
+      "source_repo": "BURROW",
+      "date": "20260903",
+      "archived_at": "2026-09-03T11:18:44Z"
     }
   ]
 }
