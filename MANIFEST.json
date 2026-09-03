@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-03T10:14:31Z",
+  "generated_at": "2026-09-03T10:17:16Z",
   "repo": "APPLES",
-  "count": 6844,
+  "count": 6845,
   "apples": [
     {
       "id": 10525,
@@ -54754,6 +54754,14 @@
       "source_repo": "emily",
       "date": "20260903",
       "archived_at": "2026-09-03T10:14:31Z"
+    },
+    {
+      "id": 17382,
+      "type": "completion",
+      "title": "changelog(IDUNA): feat: unified search extended to a real third corpus, Blog …",
+      "source_repo": "IDUNA",
+      "date": "20260903",
+      "archived_at": "2026-09-03T10:17:16Z"
     }
   ]
 }
