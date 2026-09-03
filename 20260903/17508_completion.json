@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-03T19:16:16Z",
+  "body": "New net/dns.prn: parse-dns-response (pure PARENA) + build-dns-query (inline-c escape hatch, since concat's strcpy/strcat truncation would break every real query -- mostly-zero header bytes). Handles real DNS name compression. Found and worked around a real, genuine loop-variable-collision compiler bug (same class as matrix.prn's own documented one). 5/5 test assertions, make test 345/345. Commit 35edf55.\n\n⚓ ☃",
+  "id": 17508,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "PARENA",
+  "title": "Real DNS query/response primitives (kanban 334534)"
+}

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-03T19:03:04Z",
+  "generated_at": "2026-09-03T19:16:16Z",
   "repo": "APPLES",
-  "count": 6970,
+  "count": 6971,
   "apples": [
     {
       "id": 10525,
@@ -55762,6 +55762,14 @@
       "source_repo": "emily",
       "date": "20260903",
       "archived_at": "2026-09-03T19:03:04Z"
+    },
+    {
+      "id": 17508,
+      "type": "completion",
+      "title": "Real DNS query/response primitives (kanban 334534)",
+      "source_repo": "PARENA",
+      "date": "20260903",
+      "archived_at": "2026-09-03T19:16:16Z"
     }
   ]
 }
