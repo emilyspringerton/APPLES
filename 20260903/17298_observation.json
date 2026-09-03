@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "observation",
+  "archived_at": "2026-09-03T02:38:55Z",
+  "body": "Founder, kanban cruise queue, PARENA editor half of the emoji ask. Real, checked answer: open-font is already fully generic, Noto Color Emoji loads as a second Font handle with zero new FFI, same design PITVIPER's own Go code just verified works. Real, separate, more fundamental prerequisite found: editor/render.prn's render-tokens renders a whole token span through one Font at a time; mixing emoji needs detecting emoji-range codepoints within a span first, but string.prn's own char-at is explicitly byte-indexed ('returns a character as its raw byte value'), not UTF-8-aware -- confirmed by grep, no function anywhere in this stdlib decodes UTF-8 into real codepoints. Documented in STDLIB.md, not built -- a real, separate scoping pass needed (a real UTF-8 decoder) before mixed emoji/text spans can render correctly. PARENA commit 5368023.\n\n⚓ ☃",
+  "id": 17298,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "PARENA",
+  "title": "Emoji-in-editor investigated: no new font/FFI needed, but found a real UTF-8 codepoint gap in string.prn"
+}
