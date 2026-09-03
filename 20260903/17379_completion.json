@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-03T10:07:24Z",
+  "body": "Kanban card S189-63: 'V16 JS engine, native PARENA implementation, not yet started, should be NORTHSTAR-level.' New PARENA/docs/V16_NORTHSTAR.md: honest size comparison to building V8/Node.js from scratch (the largest single real ask compared this session). Hardest real blocker named directly and checked live again: VS0 has no generic type parameters today ('unsupported return type symbol' on Vec T/Map K V), blocking a real JS tagged-value representation, a general (Map String JSValue) object model, and forcing an open GC-vs-region-allocation question for JS's own closures/circular references. Real 6-phase plan (resolve generics question -\u003e lexer/parser -\u003e tree-walking interpreter -\u003e GC strategy -\u003e minimal stdlib slice -\u003e re-evaluate against a real consumer). Explicit out-of-scope list: JIT, full ECMAScript spec compliance, DOM/browser APIs, npm module resolution. Registered as golden doc V16-JS-ENGINE-NORTH. Commit 8b3d1c9. No implementation code -- planning only, matching the same treatment container/lxc and Moltbook-class asks received before any code was written.\n\n⚓ ☃",
+  "id": 17379,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "PARENA",
+  "title": "Real, scoping-only NORTHSTAR for V16 (native-PARENA JS engine)"
+}
