@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-03T01:37:00Z",
+  "generated_at": "2026-09-03T01:52:02Z",
   "repo": "APPLES",
-  "count": 6743,
+  "count": 6744,
   "apples": [
     {
       "id": 10525,
@@ -53946,6 +53946,14 @@
       "source_repo": "emily",
       "date": "20260903",
       "archived_at": "2026-09-03T01:37:00Z"
+    },
+    {
+      "id": 17281,
+      "type": "completion",
+      "title": "S242-01: new Luck of the Draw trinket, +1 flat mp/sec regen in combat",
+      "source_repo": "REDGARDEN",
+      "date": "20260903",
+      "archived_at": "2026-09-03T01:52:02Z"
     }
   ]
 }
