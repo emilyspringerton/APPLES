@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-03T03:16:14Z",
+  "generated_at": "2026-09-03T03:20:13Z",
   "repo": "APPLES",
-  "count": 6776,
+  "count": 6777,
   "apples": [
     {
       "id": 10525,
@@ -54210,6 +54210,14 @@
       "source_repo": "CLI",
       "date": "20260903",
       "archived_at": "2026-09-03T03:16:14Z"
+    },
+    {
+      "id": 17314,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: refine EMILY_FOR_BUSINESS license -- name it 'The Emily License v0', make…",
+      "source_repo": "CLI",
+      "date": "20260903",
+      "archived_at": "2026-09-03T03:20:13Z"
     }
   ]
 }
