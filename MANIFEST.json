@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-03T02:38:57Z",
+  "generated_at": "2026-09-03T02:39:37Z",
   "repo": "APPLES",
-  "count": 6761,
+  "count": 6762,
   "apples": [
     {
       "id": 10525,
@@ -54090,6 +54090,14 @@
       "source_repo": "PARENA",
       "date": "20260903",
       "archived_at": "2026-09-03T02:38:57Z"
+    },
+    {
+      "id": 17299,
+      "type": "backlog_completion",
+      "title": "Manual kanban move: emojis need to work in pitviper and parena editor what do we",
+      "source_repo": "EMILY",
+      "date": "20260903",
+      "archived_at": "2026-09-03T02:39:37Z"
     }
   ]
 }
