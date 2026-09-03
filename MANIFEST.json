@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-03T18:23:23Z",
+  "generated_at": "2026-09-03T18:23:55Z",
   "repo": "APPLES",
-  "count": 6953,
+  "count": 6954,
   "apples": [
     {
       "id": 10525,
@@ -55626,6 +55626,14 @@
       "source_repo": "PARENA",
       "date": "20260903",
       "archived_at": "2026-09-03T18:23:23Z"
+    },
+    {
+      "id": 17491,
+      "type": "backlog_completion",
+      "title": "Manual kanban move: dont we need to build an asterisk equivalent or whatever rou",
+      "source_repo": "EMILY",
+      "date": "20260903",
+      "archived_at": "2026-09-03T18:23:55Z"
     }
   ]
 }
