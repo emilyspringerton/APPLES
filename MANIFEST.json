@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-03T18:30:36Z",
+  "generated_at": "2026-09-03T18:31:12Z",
   "repo": "APPLES",
-  "count": 6958,
+  "count": 6959,
   "apples": [
     {
       "id": 10525,
@@ -55666,6 +55666,14 @@
       "source_repo": "BURROW",
       "date": "20260903",
       "archived_at": "2026-09-03T18:30:36Z"
+    },
+    {
+      "id": 17496,
+      "type": "backlog_completion",
+      "title": "Manual kanban move: PX-we need a batteries included cli tool to generate scaffol",
+      "source_repo": "EMILY",
+      "date": "20260903",
+      "archived_at": "2026-09-03T18:31:12Z"
     }
   ]
 }
