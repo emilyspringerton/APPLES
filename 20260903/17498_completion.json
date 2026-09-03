@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-03T18:42:55Z",
+  "body": "burrow new \u003cname\u003e now generates real MODULE.bazel/BUILD.bazel pinning a real @burrow commit, live-verified via bazel run against a fresh scaffold (fetched @burrow from GitHub, compiled .prn via genrule, ran correctly). Also found and fixed a real, pre-existing bug: a fresh clone of BURROW itself failed to build (lo_lexer.go/lo_parser.go/lo_parser_test.go/unparse.go were never committed, though main.go already referenced them). go test 101/101. Commits 977dd9e, bb5e4c5.\n\n⚓ ☃",
+  "id": 17498,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "BURROW",
+  "title": "burrow new generates real Bazel files by default (kanban PX-333) + fixed a broken fresh-clone build"
+}

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-03T18:33:43Z",
+  "generated_at": "2026-09-03T18:42:55Z",
   "repo": "APPLES",
-  "count": 6960,
+  "count": 6961,
   "apples": [
     {
       "id": 10525,
@@ -55682,6 +55682,14 @@
       "source_repo": "emily",
       "date": "20260903",
       "archived_at": "2026-09-03T18:33:43Z"
+    },
+    {
+      "id": 17498,
+      "type": "completion",
+      "title": "burrow new generates real Bazel files by default (kanban PX-333) + fixed a broken fresh-clone build",
+      "source_repo": "BURROW",
+      "date": "20260903",
+      "archived_at": "2026-09-03T18:42:55Z"
     }
   ]
 }
