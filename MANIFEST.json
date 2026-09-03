@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-03T06:05:07Z",
+  "generated_at": "2026-09-03T06:06:26Z",
   "repo": "APPLES",
-  "count": 6806,
+  "count": 6807,
   "apples": [
     {
       "id": 10525,
@@ -54450,6 +54450,14 @@
       "source_repo": "EMILY",
       "date": "20260903",
       "archived_at": "2026-09-03T06:05:07Z"
+    },
+    {
+      "id": 17344,
+      "type": "completion",
+      "title": "8744: switch to the real kanban API instead of raw sqlite3 reads",
+      "source_repo": "EMILY",
+      "date": "20260903",
+      "archived_at": "2026-09-03T06:06:26Z"
     }
   ]
 }
