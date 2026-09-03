@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-03T14:39:07Z",
+  "generated_at": "2026-09-03T14:41:20Z",
   "repo": "APPLES",
-  "count": 6912,
+  "count": 6913,
   "apples": [
     {
       "id": 10525,
@@ -55298,6 +55298,14 @@
       "source_repo": "emily",
       "date": "20260903",
       "archived_at": "2026-09-03T14:39:07Z"
+    },
+    {
+      "id": 17450,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: provided a real, live google-services.json for MJOLNIR (Firebase project …",
+      "source_repo": "CLI",
+      "date": "20260903",
+      "archived_at": "2026-09-03T14:41:20Z"
     }
   ]
 }
