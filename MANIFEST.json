@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-03T13:23:55Z",
+  "generated_at": "2026-09-03T13:24:39Z",
   "repo": "APPLES",
-  "count": 6898,
+  "count": 6899,
   "apples": [
     {
       "id": 10525,
@@ -55186,6 +55186,14 @@
       "source_repo": "PARENA",
       "date": "20260903",
       "archived_at": "2026-09-03T13:23:55Z"
+    },
+    {
+      "id": 17436,
+      "type": "backlog_completion",
+      "title": "Manual kanban move: parena PCAP primatives",
+      "source_repo": "EMILY",
+      "date": "20260903",
+      "archived_at": "2026-09-03T13:24:39Z"
     }
   ]
 }
