@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-03T01:03:40Z",
+  "generated_at": "2026-09-03T01:05:11Z",
   "repo": "APPLES",
-  "count": 6732,
+  "count": 6733,
   "apples": [
     {
       "id": 10525,
@@ -53858,6 +53858,14 @@
       "source_repo": "REDGARDEN",
       "date": "20260903",
       "archived_at": "2026-09-03T01:03:40Z"
+    },
+    {
+      "id": 17270,
+      "type": "backlog_completion",
+      "title": "Manual kanban move: Ping system.",
+      "source_repo": "EMILY",
+      "date": "20260903",
+      "archived_at": "2026-09-03T01:05:11Z"
     }
   ]
 }
