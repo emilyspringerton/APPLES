@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-03T02:05:48Z",
+  "generated_at": "2026-09-03T02:05:50Z",
   "repo": "APPLES",
-  "count": 6750,
+  "count": 6751,
   "apples": [
     {
       "id": 10525,
@@ -54002,6 +54002,14 @@
       "source_repo": "EMILY",
       "date": "20260903",
       "archived_at": "2026-09-03T02:05:48Z"
+    },
+    {
+      "id": 17288,
+      "type": "backlog_completion",
+      "title": "Manual kanban move: intake MIXFORGE add to golden index etc",
+      "source_repo": "EMILY",
+      "date": "20260903",
+      "archived_at": "2026-09-03T02:05:50Z"
     }
   ]
 }
