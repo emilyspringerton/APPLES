@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-04T12:40:28Z",
+  "body": "New PACKET_FIND_MATCH/PACKET_MATCH_FOUND. Server holds queue until 7 real players (MATCHMAKING_MAX_QUEUE, correcting for slot-0's pre-existing non-network status) or 20s timeout, then bot-fills via existing bot_think and starts a fresh match. Live-verified over real loopback UDP: solo timeout-triggered bot-fill and 7-way immediate queue-full, both confirmed via real concurrent probe processes seeing their own entity in the resulting 8-entity snapshot. Commit a6c8226. Phase 2 (client portal trigger) is next.\n\n⚓ ☃",
+  "id": 17686,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "BRAWLPIT",
+  "title": "S248-01 shipped: real server-side matchmaking queue (BP-LOBBY-001 Phase 1)"
+}
