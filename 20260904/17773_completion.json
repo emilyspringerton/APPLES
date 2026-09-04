@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-04T20:01:33Z",
+  "body": "Real, minimal Asterisk Manager Interface (AMI) parsing/construction -- build-login-action (real, exact Action: Login wire bytes) and parse-message (a real, direct structural port of sip/message.prn's own parse-headers, since AMI's own real wire format is the same CRLF header-block shape with no start line at all -- Action/Response/Event all share this one real shape, confirmed live: the same parse-message correctly reads a real Response block and a real unsolicited Event block with no special-casing). header-value mirrors sip/message.prn's own lookup helper exactly. New make test-ami target, 7 real assertions. make test: 345/345, zero regressions. PBX_ASTERISK_NORTHSTAR.md updated: Phase 1 marked shipped, real naming deviation from the original plan documented (AmiHeader/AmiError, not AmiMessage/AmiField). Real, honest, not done: Phase 2 (a real login round trip against a live Asterisk instance) stays untestable in this sandbox -- no Asterisk instance available; Phase 3 (event-driven action set beyond Login) not started. This resolves PBX-003's own 'iterate towards asterisk or native' question in favor of the already-researched, real, decisive AMI-first direction. Commit a001c36.\n\n⚓ ☃",
+  "id": 17773,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "PARENA",
+  "title": "PBX-003: real AMI parsing/construction shipped, Phase 1 of the Asterisk plan"
+}

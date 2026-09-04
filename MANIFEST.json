@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-04T19:48:31Z",
+  "generated_at": "2026-09-04T20:01:33Z",
   "repo": "APPLES",
-  "count": 7235,
+  "count": 7236,
   "apples": [
     {
       "id": 10525,
@@ -57882,6 +57882,14 @@
       "source_repo": "emily",
       "date": "20260904",
       "archived_at": "2026-09-04T19:48:31Z"
+    },
+    {
+      "id": 17773,
+      "type": "completion",
+      "title": "PBX-003: real AMI parsing/construction shipped, Phase 1 of the Asterisk plan",
+      "source_repo": "PARENA",
+      "date": "20260904",
+      "archived_at": "2026-09-04T20:01:33Z"
     }
   ]
 }
