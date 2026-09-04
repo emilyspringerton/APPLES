@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "observation",
+  "archived_at": "2026-09-04T21:54:55Z",
+  "body": "Real investigation found zero existing networked-lobby infrastructure (STATE_LOBBY is a local offline menu). Real open design questions found and named rather than guessed at: does the lobby trigger a match; one global instance vs real multi-instance discovery (no multi-room concept exists in this single-ServerState server); portraits vs walking avatars. 3 real options scoped in docs/BP_SOCIAL_LOBBY_NORTHSTAR.md, registered as golden doc BP-SOCIAL-LOBBY-NORTH. Card stays open pending founder decision on which option.\n\n⚓ ☃",
+  "id": 17804,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "BRAWLPIT",
+  "title": "BPMM-x-123: social lobby scoped (Principle 19), not built -- real options + open questions named"
+}
