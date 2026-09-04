@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-04T19:17:07Z",
+  "body": "Real, checked-first finding: 5 of the 7 named RDM spells already worked (Poison/Fire/Water/Stone via the shared blmSpells map's existing 'Black Mage OR Red Mage' job gate, Bio from this session's own earlier GFD-AF-01939 work) -- the real, concrete gap was just cure and dia, both hardcoded WHM-only despite real FFXI RDM canonically having both. Fixed both job gates to the same 'WHM or RDM, job or sub-job' shape blmSpells already uses. go build/vet/test clean. Live-verified end to end over real telnet: cast cure as RDM now heals for real (Cure: +100 HP, previously rejected), cast dia now applies real DoT damage to a target mob (Dia: -5 HP on worm, previously rejected the same way). Redeployed live under gfd-mud.service. Commit 623164c.\n\n⚓ ☃",
+  "id": 17764,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "GoblinFoxDragon",
+  "title": "GFD-RDM-12422: RDM gets real Cure and Dia access"
+}
