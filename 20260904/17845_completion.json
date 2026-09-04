@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-04T23:32:39Z",
+  "body": "New stdlib/pentest/dot11.prn -- real, native PARENA (no FFI needed, existing bit-and/bit-or/shl/shr/char-at sufficient). Real, decisive limitation found and fixed: string.prn's own length is strlen-based, which would silently truncate a real 802.11 frame at its own legitimate embedded zero bytes -- parse-frame now takes the real frame byte-length as an explicit required parameter. New make test-pentest-dot11 target, real end-to-end test against a hand-constructed, spec-accurate Beacon frame, 5/5 assertions pass (Beacon detection, BSSID/SSID extraction, 2 honest degenerate cases). make test 345/345 zero regressions. Real, honest limitation: no third-party dissector (tshark/scapy) could be gotten running in this sandbox to cross-check the bytes independently (a much deeper dependency chain than nmap's own, which WAS fully resolved this session) -- correctness rests on the spec construction itself.\n\n⚓ ☃",
+  "id": 17845,
+  "metadata": null,
+  "run_id": "sess-20260904-2324-5f032e08",
+  "source_repo": "PARENA",
+  "title": "PENT-11412...PENT-0011: real native Radiotap+802.11 Beacon frame parser shipped (Kismet Phase 1)"
+}

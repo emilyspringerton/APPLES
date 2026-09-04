@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-04T23:28:55Z",
+  "generated_at": "2026-09-04T23:32:39Z",
   "repo": "APPLES",
-  "count": 7307,
+  "count": 7308,
   "apples": [
     {
       "id": 10525,
@@ -58458,6 +58458,14 @@
       "source_repo": "MONOREPO",
       "date": "20260904",
       "archived_at": "2026-09-04T23:28:55Z"
+    },
+    {
+      "id": 17845,
+      "type": "completion",
+      "title": "PENT-11412...PENT-0011: real native Radiotap+802.11 Beacon frame parser shipped (Kismet Phase 1)",
+      "source_repo": "PARENA",
+      "date": "20260904",
+      "archived_at": "2026-09-04T23:32:39Z"
     }
   ]
 }
