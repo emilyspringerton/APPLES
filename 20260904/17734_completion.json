@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-04T17:54:22Z",
+  "body": "New server/modevent.Broker: real, generic pub/sub -- Subscribe(name string, Handler) / Publish(name string, payload int32) []int32, string-named events with an I32-in/I32-out payload (same real VS0-across-a-mod-boundary ceiling every ECOWAR/PAPERCRAFT/GFD mod already respects), not a closed enum. 5 new tests. Real, checked-first finding before building: apps2/mud (Go server) needed BURROW's own Go emission target, not parena build's C target GFD-MACRO-0012's own action_bar_mod.prn uses for the C-based battlegrounds_gui client -- this is the first real host anywhere in this monorepo to actually consume BURROW's Go target (shipped 2026-08-30, never used by a real host until now, see BURROW/NORTHSTAR.md's updated risks section). Real content, not synthetic: PARENA/stdlib/gfd/nm_bonus_mod.prn compiled to apps2/mud/internal/burrowgen/nm_bonus_mod_gen.go (committed) -- real decision logic deciding the bonus XP percent for a Notorious Monster kill, wired into resolveKill's own mob.death publish. go build/vet/test clean across PARENA/BURROW/GoblinFoxDragon, redeployed live under gfd-mud.service, live-verified a normal kill still resolves cleanly with no regression. PARENA commit 924b074, BURROW commit 78d12b4, GoblinFoxDragon commit eb3bc28.\n\n⚓ ☃",
+  "id": 17734,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "GoblinFoxDragon",
+  "title": "GFD-x-123/124: real mod event broker shipped, first BURROW Go-target host"
+}
