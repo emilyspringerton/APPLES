@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-04T16:27:54Z",
+  "generated_at": "2026-09-04T16:27:56Z",
   "repo": "APPLES",
-  "count": 7181,
+  "count": 7182,
   "apples": [
     {
       "id": 10525,
@@ -57450,6 +57450,14 @@
       "source_repo": "EMILY",
       "date": "20260904",
       "archived_at": "2026-09-04T16:27:54Z"
+    },
+    {
+      "id": 17719,
+      "type": "backlog_completion",
+      "title": "Manual kanban move: GFD login screen we need an actual login button with a sign ",
+      "source_repo": "EMILY",
+      "date": "20260904",
+      "archived_at": "2026-09-04T16:27:56Z"
     }
   ]
 }
