@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-04T02:18:56Z",
+  "body": "Real, checked-live scoping pass for kanban PC-06667. apps/client/src/main.c is deliberately legacy fixed-function OpenGL with CPU-side per-face cel-shading (S231), no shaders, no texture mapping of any kind today. paper_mesh.h's real per-face UVs are only used for the paper-fragment subdivision grid, never fed to glTexCoord2f -- zero prerequisite infrastructure exists for normal maps. Names the real architectural fork (GLSL shader pivot vs. fixed-function GL_ARB_texture_env_dot3 bump mapping) as a founder-level decision, 4-phase plan starting from plain diffuse texture mapping. No rendering code changed -- planning only. Registered as golden doc PC-NORMALMAPS-NORTH. Could not append CHANGELOG.md due to the same pre-existing PAPERCRAFT ACL bug already queued in sudo-queue/46-fix-papercraft-changelog-acl.sh. Commit 2a9db11.\n\n⚓ ☃",
+  "id": 17603,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "PAPERCRAFT",
+  "title": "PC-06667: normal maps northstar scoped"
+}
