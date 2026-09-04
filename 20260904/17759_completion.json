@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-04T19:03:58Z",
+  "body": "New /portfolio/add page: a real, reusable, vanilla-JS tag-input widget -- type a ticker, autocomplete against the same real .Symbols/\u003cdatalist\u003e data the masthead search box already uses, Enter/comma/selecting a match turns a valid ticker into a removable chip. Real, honest 'prototype' framing, not oversold: no portfolio backend/table exists anywhere in this monorepo (checked directly), so Submit does not claim to save anything -- it POSTs to the same page, which echoes back the exact, real, server-validated ticker list as confirmation. parseKnownTickers (new, standalone, unit-tested) validates every submitted value against the real known symbol set regardless of how the POST was made. 3 new tests. go build/test clean, gofmt clean. Live-verified against the real running service, redeployed under fatbaby-newssite.service. Deliberately generic for reuse per the founder's own 'later we will use that UX for the GFD elite interface' framing -- the widget's own JS/CSS has no FatBaby-specific coupling beyond which datalist it points at, ready to lift into a future GFD elite-roster page as-is. Commit ac9eeb7.\n\n⚓ ☃",
+  "id": 17759,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "PRRJECT_FATBABY",
+  "title": "GFD-XX-X-124441: real tag-input prototype shipped at /portfolio/add"
+}
