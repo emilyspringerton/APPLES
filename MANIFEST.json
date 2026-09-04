@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-04T20:08:18Z",
+  "generated_at": "2026-09-04T20:08:23Z",
   "repo": "APPLES",
-  "count": 7239,
+  "count": 7240,
   "apples": [
     {
       "id": 10525,
@@ -57914,6 +57914,14 @@
       "source_repo": "PARENA",
       "date": "20260904",
       "archived_at": "2026-09-04T20:08:18Z"
+    },
+    {
+      "id": 17777,
+      "type": "backlog_completion",
+      "title": "Manual kanban move: PARENA SCAFFOLD TOOL SCAFFOLD OUT SHITHUB",
+      "source_repo": "EMILY",
+      "date": "20260904",
+      "archived_at": "2026-09-04T20:08:23Z"
     }
   ]
 }
