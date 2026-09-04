@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-04T09:59:48Z",
+  "body": "Phase 5 (final): mob.LoadDungeonRosterOverride + data/dungeon_roster.json, real compiled-in fallback preserved. 3 new tests. GFD commit 3711fdb, IDUNA commit a4bd381 (admin GUI). This closes the whole 5-phase MOB_SPAWN_NORTHSTAR.md plan: zone grid math, spawn toggles (+ fixed the real Hills/Caves-never-spawned bug), the toggle GUI, difficulty-tier variants, and now dungeon roster editing -- all 4 admin GUIs (Items, Mob Drops, Mob Spawns, Dungeon Roster) live in IDUNA, all cross-linked, all live-verified.\n\n⚓ ☃",
+  "id": 17670,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "GoblinFoxDragon",
+  "title": "GFD-MOBSPAWN-001 fully closed: all 5 phases shipped"
+}
