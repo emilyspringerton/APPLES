@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-04T15:48:27Z",
+  "generated_at": "2026-09-04T15:52:50Z",
   "repo": "APPLES",
-  "count": 7170,
+  "count": 7171,
   "apples": [
     {
       "id": 10525,
@@ -57362,6 +57362,14 @@
       "source_repo": "emily",
       "date": "20260904",
       "archived_at": "2026-09-04T15:48:27Z"
+    },
+    {
+      "id": 17708,
+      "type": "backlog_completion",
+      "title": "Manual kanban move: we need a tool for creating and managing the stats on GFD it",
+      "source_repo": "EMILY",
+      "date": "20260904",
+      "archived_at": "2026-09-04T15:52:50Z"
     }
   ]
 }
