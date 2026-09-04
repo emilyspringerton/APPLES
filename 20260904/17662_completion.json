@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-04T08:29:59Z",
+  "body": "New /admin/gfd-mob-spawns page + GfdMobSpawnsHandler, complementary to the item/mob-drops admin pages. Rows keyed by (zone_id, kind), same direct-file-access precedent applied to data/mob_spawns.json. 11 new tests, go test ./... clean. Commit 92cd662. Redeployed live IDUNA, verified real 401 on both new routes.\n\n⚓ ☃",
+  "id": 17662,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "IDUNA",
+  "title": "GFD-MOBSPAWN-001 Phase 3 shipped: admin GUI for spawn toggles"
+}
