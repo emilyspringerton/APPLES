@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-04T22:46:12Z",
+  "body": "Real, decisive root cause: sendToQueue awaited the PATCH response then a full loadCards/loadInbox re-fetch before the DOM changed at all -- exactly the 'waiting on a sync request' feeling reported. Fix: a new .card.completing CSS transition (fly-off-right, fade, delayed collapse so siblings slide up) applied immediately via markCardDone before the network call, with sendToQueue awaiting the fetch and the real transitionend together so the later reload never cuts the animation short. go build/vet/test ./... clean, zero regressions.\n\n⚓ ☃",
+  "id": 17825,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "IDUNA",
+  "title": "KBUX-092929: real optimistic Done fly-off animation for the kanban board"
+}
