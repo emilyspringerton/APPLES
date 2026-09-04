@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-04T01:07:15Z",
+  "generated_at": "2026-09-04T01:07:17Z",
   "repo": "APPLES",
-  "count": 7040,
+  "count": 7041,
   "apples": [
     {
       "id": 10525,
@@ -56322,6 +56322,14 @@
       "source_repo": "EMILY",
       "date": "20260904",
       "archived_at": "2026-09-04T01:07:15Z"
+    },
+    {
+      "id": 17578,
+      "type": "backlog_completion",
+      "title": "Manual kanban move: all characters b should be a special move not a wave dash",
+      "source_repo": "EMILY",
+      "date": "20260904",
+      "archived_at": "2026-09-04T01:07:17Z"
     }
   ]
 }
