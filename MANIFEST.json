@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-04T02:00:50Z",
+  "generated_at": "2026-09-04T02:03:45Z",
   "repo": "APPLES",
-  "count": 7058,
+  "count": 7059,
   "apples": [
     {
       "id": 10525,
@@ -56466,6 +56466,14 @@
       "source_repo": "emily",
       "date": "20260904",
       "archived_at": "2026-09-04T02:00:50Z"
+    },
+    {
+      "id": 17596,
+      "type": "completion",
+      "title": "Security fix: hat buy/equip endpoints had no ownership check",
+      "source_repo": "IDUNA",
+      "date": "20260904",
+      "archived_at": "2026-09-04T02:03:45Z"
     }
   ]
 }

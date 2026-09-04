@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-04T02:03:45Z",
+  "body": "Found while scoping WOTAN_HAT_STORE_NORTHSTAR.md Phase 2: handleBuyHat/handleEquipHat in hats.go had no ownership check at all -- any authenticated player JWT could buy/equip hats against any character_id, spending another player's own Flow. Fixed with the same agent-exempt/sub==player_id pattern handleUpdatePosition already uses. 5 new tests added, go build/vet/test ./... clean. Commit 9537796.\n\n⚓ ☃",
+  "id": 17596,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "IDUNA",
+  "title": "Security fix: hat buy/equip endpoints had no ownership check"
+}
