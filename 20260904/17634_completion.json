@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-04T05:21:06Z",
+  "body": "cmdUseItem checks ownership, looks the item up via itemdefReg, rejects non-consumables by name, honestly reports nothing-happens-yet for a real consumable. No state mutation yet -- proves the command path end-to-end before Phase 1's mod-hook dispatch has anything to attach to. Live, end-to-end verified against a real throwaway apps2/mud instance + a real IDUNA test character (bought a real Hi-Potion, used it, confirmed message; confirmed ownership-check rejects an empty inventory). Found and flagged two real, pre-existing, separate bugs: itemdef.Registry.ByName keys don't match the shop's own hyphenated item-ID convention for multi-word items, and the existing eat command misreads args[1] instead of args[0]. Commit cbda9c8.\n\n⚓ ☃",
+  "id": 17634,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "GoblinFoxDragon",
+  "title": "GFD item builder Phase 0: real use-item command shipped"
+}
