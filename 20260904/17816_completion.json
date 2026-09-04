@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-04T22:26:54Z",
+  "body": "stdlib/v16/parser.prn -- real precedence climbing (comparison/additive/multiplicative/primary) over the lexer's own token stream, left-associativity, parenthesized sub-expressions, multi-arg function calls via a chained AstArg list, matching bstree.prn's own flat-Vec/integer-index AST representation. Three real, live-found VS0 emitter quirks worked around and documented: do never accepts a let as any element, cond clauses (unlike if-branches) don't accept a let/do body either, and binding a Unit-returning call via let emits invalid C. New make test-v16-parser target, 8 real end-to-end assertions all pass, make test 345/345 core compiler tests zero regressions. V16_NORTHSTAR.md and STDLIB.md updated.\n\n⚓ ☃",
+  "id": 17816,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "PARENA",
+  "title": "V16 Phase 2b: real JS expression parser shipped (founder: continue toward a WebKit alternative)"
+}
