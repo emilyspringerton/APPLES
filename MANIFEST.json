@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-04T16:08:02Z",
+  "generated_at": "2026-09-04T16:18:33Z",
   "repo": "APPLES",
-  "count": 7175,
+  "count": 7176,
   "apples": [
     {
       "id": 10525,
@@ -57402,6 +57402,14 @@
       "source_repo": "EMILY",
       "date": "20260904",
       "archived_at": "2026-09-04T16:08:02Z"
+    },
+    {
+      "id": 17713,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: mid-GFD-AF-01939 UI work (expanding Town's ability bar from 3 to 6 slots)…",
+      "source_repo": "CLI",
+      "date": "20260904",
+      "archived_at": "2026-09-04T16:18:33Z"
     }
   ]
 }
