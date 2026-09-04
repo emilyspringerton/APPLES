@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-04T19:12:42Z",
+  "body": "New, real, general per-user settings home: user_settings table (real, typed columns, one row per user keyed by the JWT sub claim, matching this repo's own established 'one table per real feature' convention rather than a generic JSON blob), GET/PATCH /api/v1/settings/me, and a real /settings page -- both gated by RequireCookieAuth ALONE (no RequirePermission wrapper), a real, deliberate first for this codebase: every other cookie-protected page here is admin/devportal-gated, this one is for any authenticated user. First real setting: high_contrast, applied live on the settings page itself via a real body.high-contrast CSS override, proving the toggle round-trips end to end -- wiring it into every other IDUNA/WOTAN page is real, named, separate follow-up, not silently claimed done. 4 new tests (default-false, real PATCH+GET round trip, per-user isolation, unauthenticated rejection). go build/vet/test clean across the whole repo. Live-verified: migration applied cleanly under iduna.service (user_settings table confirmed present in the real live DB), both routes correctly return 401 unauthenticated. Commit 162bf60.\n\n⚓ ☃",
+  "id": 17761,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "IDUNA",
+  "title": "WOTAN-24412/ACCESSABILITY-14441: real per-user settings + high contrast shipped"
+}
