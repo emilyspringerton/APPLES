@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-04T06:52:58Z",
+  "generated_at": "2026-09-04T06:53:02Z",
   "repo": "APPLES",
-  "count": 7115,
+  "count": 7116,
   "apples": [
     {
       "id": 10525,
@@ -56922,6 +56922,14 @@
       "source_repo": "IDUNA",
       "date": "20260904",
       "archived_at": "2026-09-04T06:52:58Z"
+    },
+    {
+      "id": 17653,
+      "type": "backlog_completion",
+      "title": "Manual kanban move: GFD needs a sign up button that shells out to IDUNA GFD sign",
+      "source_repo": "EMILY",
+      "date": "20260904",
+      "archived_at": "2026-09-04T06:53:02Z"
     }
   ]
 }
