@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-04T20:26:33Z",
+  "generated_at": "2026-09-04T20:32:13Z",
   "repo": "APPLES",
-  "count": 7249,
+  "count": 7250,
   "apples": [
     {
       "id": 10525,
@@ -57994,6 +57994,14 @@
       "source_repo": "EMILY",
       "date": "20260904",
       "archived_at": "2026-09-04T20:26:33Z"
+    },
+    {
+      "id": 17787,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: priority cycle continuing — pulling BRAWLPIT matchmaking cards #279/#28…",
+      "source_repo": "CLI",
+      "date": "20260904",
+      "archived_at": "2026-09-04T20:32:13Z"
     }
   ]
 }
