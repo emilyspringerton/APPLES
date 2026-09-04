@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-04T23:05:22Z",
+  "generated_at": "2026-09-04T23:10:40Z",
   "repo": "APPLES",
-  "count": 7300,
+  "count": 7301,
   "apples": [
     {
       "id": 10525,
@@ -58402,6 +58402,14 @@
       "source_repo": "CLI",
       "date": "20260904",
       "archived_at": "2026-09-04T23:05:22Z"
+    },
+    {
+      "id": 17838,
+      "type": "backlog_completion",
+      "title": "Manual kanban move: GitHub Personal Access Token, so Claude Code can create repo",
+      "source_repo": "EMILY",
+      "date": "20260904",
+      "archived_at": "2026-09-04T23:10:40Z"
     }
   ]
 }
