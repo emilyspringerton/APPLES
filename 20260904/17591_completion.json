@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-04T01:45:21Z",
+  "body": "Kanban BPTUNE-10001, continuing the tuning pass (Medusa's Serpents' Grasp, Raccoon's Play Dead, Second Tree's Regrowth, now Uncrowned's Cast Doubt). Real, deliberate contrast to Uncrowned's Claim (purely self-facing, no offense at all): drains a nearby opponent's own shield_health (BRAWLPIT_CAST_DOUBT_SHIELD_DAMAGE=20.0) -- the first Uncrowned move that reaches another player at all -- while still dealing real, deliberate zero damage_percent, a design boundary kept on purpose. Shares turnip_cooldown with the neutral-B. New test_uncrowned_cast_doubt confirms the real shield drain and zero damage. bash scripts/build.sh clean, all 10 physics tests pass. README updated. BRAWLPIT commit 311e63a. Real, honest, still open: Vexar, Sunlit Draw, Sequel Duck each still need their own down-B. session: sess-20260902-2008-ed50169e\n\n⚓ ☃",
+  "id": 17591,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "BRAWLPIT",
+  "title": "BPTUNE-10001: Uncrowned's Cast Doubt -- fourth real down-B, shield-drain contrast to the top-up"
+}
