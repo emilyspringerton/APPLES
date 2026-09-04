@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-04T18:34:46Z",
+  "body": "Decisive finding: the single shared p.charXP.Level across all jobs is real, deliberate FFXI-parity design (real FFXI shares one level across jobs too), not a bug -- the founder's ask is a genuine, decisive deviation toward FFXIV/WoW-style independent per-job leveling. Real, partial mechanism already found: job.CharJob's MainLvl/SubLvl fields exist but aren't wired into any real stat/gate call site today. Real scope named in docs2/PER_JOB_LEVELS_NORTHSTAR.md: an in-memory per-job map refactor is buildable in one pass (~12 real call sites: HP/MP-at-level, equip-gating, XP chains), but real durability is blocked on a new IDUNA schema (the current single flat level column can't hold per-job values) -- same class of cross-repo persistence gap as INVENTORY_PERSISTENCE_NORTHSTAR, not attempted blind. One real, unresolved design question named: does the real FFXI sub-job/EffectiveSubLevel mechanic survive per-job leveling, or is it replaced by N independent job slots. No code changed. Registered as golden doc PER-JOB-LEVELS-NORTH; docs2/STACK_CONTINUITY_REPORT.md corrected (its own earlier framing of this as an FFXI-behavior bug was itself wrong). Commit 788591f.\n\n⚓ ☃",
+  "id": 17750,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "GoblinFoxDragon",
+  "title": "GFD-XX-1249: root-caused per-job leveling ask, real scoping"
+}
