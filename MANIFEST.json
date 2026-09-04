@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-04T21:49:58Z",
+  "generated_at": "2026-09-04T21:52:29Z",
   "repo": "APPLES",
-  "count": 7263,
+  "count": 7264,
   "apples": [
     {
       "id": 10525,
@@ -58106,6 +58106,14 @@
       "source_repo": "emily",
       "date": "20260904",
       "archived_at": "2026-09-04T21:49:58Z"
+    },
+    {
+      "id": 17801,
+      "type": "completion",
+      "title": "BPMM-1202020: real 1v1 matchmaking with a bot pool shipped",
+      "source_repo": "BRAWLPIT",
+      "date": "20260904",
+      "archived_at": "2026-09-04T21:52:29Z"
     }
   ]
 }
