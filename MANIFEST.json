@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-04T22:13:11Z",
+  "generated_at": "2026-09-04T22:15:26Z",
   "repo": "APPLES",
-  "count": 7276,
+  "count": 7277,
   "apples": [
     {
       "id": 10525,
@@ -58210,6 +58210,14 @@
       "source_repo": "EMILY",
       "date": "20260904",
       "archived_at": "2026-09-04T22:13:11Z"
+    },
+    {
+      "id": 17814,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: continue existing 'v16' JS engine work toward a full WebKit alternative (…",
+      "source_repo": "CLI",
+      "date": "20260904",
+      "archived_at": "2026-09-04T22:15:26Z"
     }
   ]
 }
