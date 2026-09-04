@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-04T22:07:44Z",
+  "generated_at": "2026-09-04T22:08:36Z",
   "repo": "APPLES",
-  "count": 7272,
+  "count": 7273,
   "apples": [
     {
       "id": 10525,
@@ -58178,6 +58178,14 @@
       "source_repo": "BRAWLPIT",
       "date": "20260904",
       "archived_at": "2026-09-04T22:07:44Z"
+    },
+    {
+      "id": 17810,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: priority queue is fully parked -- BPMM-x-123 (social lobby) and the BPLE-…",
+      "source_repo": "CLI",
+      "date": "20260904",
+      "archived_at": "2026-09-04T22:08:36Z"
     }
   ]
 }
