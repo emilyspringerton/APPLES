@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-04T17:44:03Z",
+  "body": "GfdMobSpawnRule gained an optional NM *GfdNMRule field mirroring server/spawn.NMRule exactly (GFD-NM-123's own data model). PATCH now sets both enabled and nm together (omit/null nm clears it, a real stated full-set contract) -- 3 new tests, 13 total all green. Page gained a real Notorious Monster column + Add/Edit NM + Clear NM buttons (plain prompt()-based fields, matching 'keep it simple ish'). Fixed a real footgun found while wiring this: the existing enable/disable toggle omitted nm entirely, which under the new full-set PATCH contract would have silently wiped any existing NM on every toggle -- fixed to always re-send rule.nm. go build/vet/test clean, redeployed live under iduna.service, clean restart with no errors. Real, honest, not built: the card's other half ('allow plugins call special abilities via special named functions') -- no generic special-ability-hook mechanism exists for any mob today; a one-off NM-only version would duplicate the real, general mod-event-broker mechanism GFD-x-123/GFD-x-124 (next in queue) are about to scope. Commit 52c3b49.\n\n⚓ ☃",
+  "id": 17731,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "IDUNA",
+  "title": "GFD-NM-124: real NM editing added to the mob spawns admin page"
+}
