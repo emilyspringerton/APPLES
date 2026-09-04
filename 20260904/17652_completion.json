@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-04T06:52:58Z",
+  "body": "Second half of GFD-UA-001 (first half -- sign-up button shelling to IDUNA's register form -- shipped earlier). New gfd_registration_settings/gfd_waitlist tables, PlayerEmailAuthHandler.handleRegister checks the mode, /admin/gfd-registration admin page toggles mode + approves waitlist entries into real accounts using the password hash captured at signup. 6 new tests, go test ./... clean. Commit 88802b8. Redeployed live IDUNA, migration applied, verified real 401 on both new routes.\n\n⚓ ☃",
+  "id": 17652,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "IDUNA",
+  "title": "GFD-UA-001 complete: real waitlist toggle for GFD registration"
+}
