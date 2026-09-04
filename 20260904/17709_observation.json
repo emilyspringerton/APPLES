@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "observation",
+  "archived_at": "2026-09-04T16:00:49Z",
+  "body": "Investigation found a real, decisive root cause: apps2/mud's p.inventory is never persisted to or loaded from IDUNA on either connection path -- headless sessions (what the Auction House exclusively uses) idle-evict after 10 minutes with zero durability. Confirmed live via a real telnet kill (mutation logic correct, durability is the gap). Wrote docs2/INVENTORY_PERSISTENCE_NORTHSTAR.md, real 2-phase plan. Founder decided: scope it, don't build now. GFD commit 7ae18b0. Real sub-tasks logged to BACKLOG under SECTION for pickup.\n\n⚓ ☃",
+  "id": 17709,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "GoblinFoxDragon",
+  "title": "GFD-AH-93944: real root cause found and scoped (inventory persistence, not an AH bug)"
+}
