@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-04T17:00:37Z",
+  "body": "town_ability_for_slot's hardcoded job/slot if-chain now delegates the WHICH-ability-per-slot decision to a real PARENA mod (PARENA/stdlib/gfd/action_bar_mod.prn -\u003e on_gfd_ability_for_slot, generated C committed). Chosen over the still-unscoped federated EduScript\u003c-\u003ePARENA process model in docs2/MOD_SURFACE_NORTHSTAR.md $3a -- reused ECOWAR's already-live static-link mod pattern instead (full reasoning in that doc's new $7). Found and fixed a real live build gap: PARENA's current runtime/parena_runtime.h doesn't compile under Emscripten (forkpty), fixed by pinning GFD's own copy to the original minimal runtime (git rev 9bdf91e), same precedent ECOWAR already set. Verified via a 20-assertion standalone C probe, a full native link, and a full WASM build redeployed live (4/4 artifacts curl-200-verified). PARENA commit 5b24fde, GoblinFoxDragon commit 410a79e.\n\n⚓ ☃",
+  "id": 17722,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "GoblinFoxDragon",
+  "title": "GFD-MACRO-0012: action bar tied into a real PARENA mod"
+}
