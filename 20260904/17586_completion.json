@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-04T01:32:08Z",
+  "body": "Kanban BPTUNE-10001, continuing the tuning pass (Medusa's Serpents' Grasp, Raccoon's Play Dead, now Second Tree's Regrowth). Real, deliberate contrast to Ground Slam: heals BRAWLPIT_REGROWTH_HEAL_AMOUNT (15.0) damage_percent back, zero offense -- comparable in size to Ground Slam's own 10.0 damage output. Shares turnip_cooldown with the neutral-B. New test_second_tree_regrowth confirms the real heal amount and floor at 0. bash scripts/build.sh clean, all 9 physics tests pass. README updated. BRAWLPIT commit 4fc906b. Real, honest, still open: Uncrowned, Vexar, Sunlit Draw, Sequel Duck each still need their own down-B. session: sess-20260902-2008-ed50169e\n\n⚓ ☃",
+  "id": 17586,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "BRAWLPIT",
+  "title": "BPTUNE-10001: Second Tree's Regrowth -- third real down-B, self-heal contrast to Ground Slam"
+}
