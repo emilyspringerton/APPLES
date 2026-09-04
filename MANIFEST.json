@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-04T23:47:04Z",
+  "generated_at": "2026-09-04T23:47:31Z",
   "repo": "APPLES",
-  "count": 7313,
+  "count": 7314,
   "apples": [
     {
       "id": 10525,
@@ -58506,6 +58506,14 @@
       "source_repo": "EMILY",
       "date": "20260904",
       "archived_at": "2026-09-04T23:47:04Z"
+    },
+    {
+      "id": 17851,
+      "type": "backlog_completion",
+      "title": "Manual kanban move: AUDIT K8S MIGRATION PLAN CHECK PROGRESS DO WE HAVE A CLUSTER",
+      "source_repo": "EMILY",
+      "date": "20260904",
+      "archived_at": "2026-09-04T23:47:31Z"
     }
   ]
 }
