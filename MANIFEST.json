@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-04T18:48:12Z",
+  "generated_at": "2026-09-04T18:53:25Z",
   "repo": "APPLES",
-  "count": 7218,
+  "count": 7219,
   "apples": [
     {
       "id": 10525,
@@ -57746,6 +57746,14 @@
       "source_repo": "emily",
       "date": "20260904",
       "archived_at": "2026-09-04T18:48:12Z"
+    },
+    {
+      "id": 17756,
+      "type": "completion",
+      "title": "MF-CORE-12441: real CLI shipped, MIXFORGE's first real code",
+      "source_repo": "MIXFORGE",
+      "date": "20260904",
+      "archived_at": "2026-09-04T18:53:25Z"
     }
   ]
 }

@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-04T18:53:25Z",
+  "body": "src/main.c: 'mixforge import \u003curl\u003e [instrumental-url]' -- this repo's own first real code, closing the exact gap CLAUDE.md/NORTHSTAR.md already named honestly ('no CLI entry point exists yet'). Creates the real default tracks/main/tracks/instrumental library directories, calls PARENA/stdlib/mixforge/import.prn's real, already-tested import_track (generated C committed at generated/mixforge_gen.c, same 'generate once, commit, call by name' precedent every other real PARENA-mod consumer in this monorepo uses), and appends a real NDJSON metadata line to tracks/library.ndjson (track-metadata-json -- real since S243-01 but never exported/reachable until this pass). Real, found-live build gap fixed: parena_runtime.h's own feature-test macros only take effect if included before any system header -- fixed by include-ordering, same fix GoblinFoxDragon's action_bar_mod_host.h had to document. Live-verified end to end with the same yt-dlp-stub technique test_mixforge_import.c established: real import (single-URL and main+instrumental), real directory creation, real NDJSON output, real rejection of a shell-injection-shaped URL. Real, honest, not done: playback/crossfade + key/BPM detection both blocked on real, separate PARENA-side stdlib work. PARENA commit cb7e523, MIXFORGE commit d8b29ee.\n\n⚓ ☃",
+  "id": 17756,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "MIXFORGE",
+  "title": "MF-CORE-12441: real CLI shipped, MIXFORGE's first real code"
+}
