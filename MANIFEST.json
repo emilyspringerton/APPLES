@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-04T04:58:44Z",
+  "generated_at": "2026-09-04T04:58:51Z",
   "repo": "APPLES",
-  "count": 7092,
+  "count": 7093,
   "apples": [
     {
       "id": 10525,
@@ -56738,6 +56738,14 @@
       "source_repo": "BRAWLPIT",
       "date": "20260904",
       "archived_at": "2026-09-04T04:58:44Z"
+    },
+    {
+      "id": 17630,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: BRAWLPIT physics.h readability pass -- reduce gauntlet of ifs, stop reusi…",
+      "source_repo": "CLI",
+      "date": "20260904",
+      "archived_at": "2026-09-04T04:58:51Z"
     }
   ]
 }
