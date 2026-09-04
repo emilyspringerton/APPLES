@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-04T23:20:29Z",
+  "generated_at": "2026-09-04T23:23:42Z",
   "repo": "APPLES",
-  "count": 7304,
+  "count": 7305,
   "apples": [
     {
       "id": 10525,
@@ -58434,6 +58434,14 @@
       "source_repo": "emily",
       "date": "20260904",
       "archived_at": "2026-09-04T23:20:29Z"
+    },
+    {
+      "id": 17842,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: fix tmux-session.sh script, then continue the priority queue (currently m…",
+      "source_repo": "CLI",
+      "date": "20260904",
+      "archived_at": "2026-09-04T23:23:42Z"
     }
   ]
 }
