@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-04T18:31:07Z",
+  "body": "Real, decisive finding, checked live: GFD has no native matchmaker/arena-server -- every real Battlegrounds match is served by REDGARDEN's own live red_garden_matchmaker/red_garden_arena_server processes. GFD's own forked client simulation code has drifted from REDGARDEN's current, still-evolving copy: protocol.h 78-line diff (new MatchFoundMsg seed/mode fields, ground-target cast fields, a new packet type, an obstacle_hp snapshot array), arena_game.c 1161-line diff (REDGARDEN is 900+ lines ahead: build templates, tree-passive HP, Duck's Smoke Bomb, per-hero zone radius). A struct-layout mismatch this size silently corrupts every wire field past the divergence point, matching the report exactly. 3 real options named in docs2/BATTLEGROUNDS_MIGRATION_NORTHSTAR.md, not resolved: full sync (real, substantial, ongoing recurring cost), pin the client's queue target to a frozen REDGARDEN build at the fork commit (fast, low-risk, freezes features), or give GFD a genuinely native arena server. No code changed -- diagnosed and scoped only, same 'scope it, don't build now' precedent as INVENTORY_PERSISTENCE_NORTHSTAR. Card stays open in the priority queue pending a founder decision. Commit e589b17.\n\n⚓ ☃",
+  "id": 17748,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "GoblinFoxDragon",
+  "title": "GFD-BG-12444: root-caused Battlegrounds breakage, real 3-option scoping"
+}
