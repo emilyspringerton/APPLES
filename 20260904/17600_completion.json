@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-04T02:15:26Z",
+  "body": "New cmd/git-log-indexer: walks a repo's HEAD history, ingests each commit via the existing POST /services/collector HEC endpoint (sourcetype=git_commit), immediately searchable via the existing search/portal UI. Idempotent per-repo cursor file. Caught and fixed a real bug in its own test suite (failure path advanced cursor past the failed commit). 5 new tests, go build/vet/test ./... clean. Live smoke-verified end to end against the real LogsHandler/FileEventLog code path with a real git repo. Found, not fixed: live production IDUNA has no IDUNA_HEC_TOKEN configured, so ingest is disabled there until an operator sets it. Commit f648c30.\n\n⚓ ☃",
+  "id": 17600,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "IDUNA",
+  "title": "IUS-001: git commit indexing for unified search shipped"
+}
