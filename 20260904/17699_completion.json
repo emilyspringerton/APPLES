@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-04T14:24:33Z",
+  "body": "Two new Go-native subcommands (login, kanban list) added to cmd/idunapro, continuing the real, ongoing 'grow the fuller multi-subcommand CLI' thread across many prior status updates. Real, found-live bug fixed: no local user ever got kanban.access (webmaster included) -- fixed for uid=0, extending to regular users left as a real founder-level question. 9 new tests, go test ./... clean. Commit b25e064. Live-verified end to end: real registration/login/card-creation, the actual compiled binary correctly listing and filtering the real board.\n\n⚓ ☃",
+  "id": 17699,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "IDUNA_PRO",
+  "title": "Card 9988 status update: idunapro CLI grows to 3 subcommands (login, kanban list) + real kanban.access grant fix"
+}

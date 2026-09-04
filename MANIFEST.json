@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-04T14:18:21Z",
+  "generated_at": "2026-09-04T14:24:33Z",
   "repo": "APPLES",
-  "count": 7161,
+  "count": 7162,
   "apples": [
     {
       "id": 10525,
@@ -57290,6 +57290,14 @@
       "source_repo": "emily",
       "date": "20260904",
       "archived_at": "2026-09-04T14:18:21Z"
+    },
+    {
+      "id": 17699,
+      "type": "completion",
+      "title": "Card 9988 status update: idunapro CLI grows to 3 subcommands (login, kanban list) + real kanban.access grant fix",
+      "source_repo": "IDUNA_PRO",
+      "date": "20260904",
+      "archived_at": "2026-09-04T14:24:33Z"
     }
   ]
 }
