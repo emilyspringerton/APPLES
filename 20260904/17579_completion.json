@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-04T01:13:24Z",
+  "body": "Kanban BP-TUNE-3939309: 'RESTORE PETALIA PARISOL UP B FROM WAY BACK IN GIT IT NEEDS TO BE MULTI HIT AND GIVE VERTICAL MOBILITY AND OPEN THE PARISOL'. Real, honest investigation performed first: searched this repo's own full git history AND SHANKPIT's (the base BRAWLPIT forked from) -- no prior Petalia-specific up-B code found anywhere. This is a real, new build against the card's own literal requirements, not a literal restoration. Real, load-bearing find: parasol_rehit_timer already existed on PlayerState and was already decremented every frame, but nothing anywhere ever armed or checked it -- a real, half-built multi-hit mechanic, scaffolded and never wired up. New special_petalia_parasol_hit + a real per-frame check in the STATE_UPB block: fires a hit on activation, re-arms every 12 frames, several real hits across the ~50-frame ascent. Vertical mobility and opening the parasol were already universal; the real new piece is the damage itself. Deliberate, explicit exception to the standing 'dont touch Petalia' tuning rule -- this card asked for her by name. New test_petalia_multi_hit_parasol confirms multiple separate hits land. bash scripts/build.sh clean, all 7 physics tests pass. README updated. BRAWLPIT commit 8c7537f. session: sess-20260902-2008-ed50169e\n\n⚓ ☃",
+  "id": 17579,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "BRAWLPIT",
+  "title": "BP-TUNE-3939309: Petalia's Parasol Up-B is now real, multi-hit -- wired up a real, previously-dead mechanic"
+}
