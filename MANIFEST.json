@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-04T22:50:17Z",
+  "generated_at": "2026-09-04T22:51:50Z",
   "repo": "APPLES",
-  "count": 7292,
+  "count": 7293,
   "apples": [
     {
       "id": 10525,
@@ -58338,6 +58338,14 @@
       "source_repo": "IDUNA",
       "date": "20260904",
       "archived_at": "2026-09-04T22:50:17Z"
+    },
+    {
+      "id": 17830,
+      "type": "observation",
+      "title": "PMPX-000: project tags/PM automations scoped (Principle 19), not built",
+      "source_repo": "IDUNA",
+      "date": "20260904",
+      "archived_at": "2026-09-04T22:51:50Z"
     }
   ]
 }
