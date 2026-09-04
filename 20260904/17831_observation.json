@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "observation",
+  "archived_at": "2026-09-04T22:55:47Z",
+  "body": "DUNGEON_NORTHSTAR.md Milestones 1/3 corrected -- mob spawns ARE now live via apps2/mud (confirmed in source), the earlier 'not wired' status was stale, predating Milestone 4's own real shipped work. New DUNGEON_HAT_DROPS_NORTHSTAR.md scopes BPGFD-INTEROP-000: real foundation checked (dungeons live, auction house exists, hats already IDUNA-backed), real gap named (zero loot-roll mechanic in GFD combat, a special case of the still-unstarted Milestone 6 Rewards), 3 real open questions, 3-phase plan. No code changed -- documentation correction + planning only.\n\n⚓ ☃",
+  "id": 17831,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "GoblinFoxDragon",
+  "title": "534432532/BPGFD-INTEROP-000: dungeon status corrected + hat-drop interop scoped (Principle 19)"
+}
