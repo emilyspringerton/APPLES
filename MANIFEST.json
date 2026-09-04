@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-04T22:56:39Z",
+  "generated_at": "2026-09-04T22:58:05Z",
   "repo": "APPLES",
-  "count": 7295,
+  "count": 7296,
   "apples": [
     {
       "id": 10525,
@@ -58362,6 +58362,14 @@
       "source_repo": "CLI",
       "date": "20260904",
       "archived_at": "2026-09-04T22:56:39Z"
+    },
+    {
+      "id": 17833,
+      "type": "observation",
+      "title": "PEN-11412: scan-speed profiles scoped (Principle 19) -- found scan-ports itself was never actually implemented",
+      "source_repo": "PARENA",
+      "date": "20260904",
+      "archived_at": "2026-09-04T22:58:05Z"
     }
   ]
 }

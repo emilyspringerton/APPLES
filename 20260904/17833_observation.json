@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "observation",
+  "archived_at": "2026-09-04T22:58:05Z",
+  "body": "Real, decisive finding: pentest/scan.prn's own scan-ports references a pentest_scan_ports C function that exists nowhere real in this repo -- its own 'FFI-bound to nmap' claim was never done. Real research: FAST/SLOW/SNEAKY_SCAN map onto nmap's own official -T0..-T5 timing templates (SNEAKY_SCAN = nmap's own literal -T1 Sneaky name). 3-phase plan: Phase 0 an actually-linked pentest_scan_ports (blocking), Phase 1 real timing parameters, Phase 2 live verification. No code written -- planning only.\n\n⚓ ☃",
+  "id": 17833,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "PARENA",
+  "title": "PEN-11412: scan-speed profiles scoped (Principle 19) -- found scan-ports itself was never actually implemented"
+}
