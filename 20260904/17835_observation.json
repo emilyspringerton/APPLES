@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "observation",
+  "archived_at": "2026-09-04T23:03:51Z",
+  "body": "Real, decisive investigation (not new code): cmdDungeonEnter transfers every player to a fixed, deterministic zone ID per dungeon (confirmed live in source) -- parties trivially queue together today via existing shared-zone architecture + already-real invite/party/XP-split commands. XP rewards already flow through the same universal awardXP path every zone uses. Only real, still-missing reward type is item/loot drops (already scoped separately). Difficulty scaling remains genuinely unresolved. Milestone 6 status corrected NOT STARTED -\u003e PARTIALLY RESOLVED.\n\n⚓ ☃",
+  "id": 17835,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "GoblinFoxDragon",
+  "title": "534432532: Milestone 6 (rewards+party queue) real status correction -- 2 of 3 open questions already resolved by existing infra"
+}
