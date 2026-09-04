@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-04T09:53:20Z",
+  "body": "New Mob.DisplayName/Label(), mob.ApplyVariant, server/mobvariant.Registry (data/mob_variants.json). Founder decided: variants inherit base Kind's drop table (Kind field untouched). apps2/mud spawns one variant per rule per zone next to a real base mob. Seeded Elder Worm/Fierce Rabbit/Bloated Leech. 9 new tests, go test ./... clean. Commit 35985f9. Live-verified: Elder Worm at 144 HP, displays and targets correctly by name.\n\n⚓ ☃",
+  "id": 17669,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "GoblinFoxDragon",
+  "title": "GFD-MOBSPAWN-001 Phase 4 shipped: mob difficulty-tier variants"
+}
