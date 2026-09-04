@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-04T06:14:06Z",
+  "generated_at": "2026-09-04T06:14:12Z",
   "repo": "APPLES",
-  "count": 7105,
+  "count": 7106,
   "apples": [
     {
       "id": 10525,
@@ -56842,6 +56842,14 @@
       "source_repo": "IDUNA",
       "date": "20260904",
       "archived_at": "2026-09-04T06:14:06Z"
+    },
+    {
+      "id": 17643,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: add attack speed (delay) to GFD items -- individually per weapon, not per…",
+      "source_repo": "CLI",
+      "date": "20260904",
+      "archived_at": "2026-09-04T06:14:12Z"
     }
   ]
 }
