@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-04T23:43:04Z",
+  "generated_at": "2026-09-04T23:47:04Z",
   "repo": "APPLES",
-  "count": 7312,
+  "count": 7313,
   "apples": [
     {
       "id": 10525,
@@ -58498,6 +58498,14 @@
       "source_repo": "CLI",
       "date": "20260904",
       "archived_at": "2026-09-04T23:43:04Z"
+    },
+    {
+      "id": 17850,
+      "type": "escalation",
+      "title": "k9s-99-001: REAL K8s cluster audit -- yes we have a cluster, but it's had ZERO working nodes for 32+ hours",
+      "source_repo": "EMILY",
+      "date": "20260904",
+      "archived_at": "2026-09-04T23:47:04Z"
     }
   ]
 }

@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "escalation",
+  "archived_at": "2026-09-04T23:47:04Z",
+  "body": "Real, decisive finding: prrject-fatbaby (GKE Autopilot, us-central1, project-d24a71e9-2daf-4b2d-917) is live and control-plane-reachable, but every pod cluster-wide including GKE's own required system components has been stuck Pending for 32+ hours -- no nodes available to schedule pods, repeating thousands of times. Root cause investigation ruled out quota (0/32 CPU used), IP exhaustion (huge free ranges), and cluster-level config errors (all clean) -- cluster-autoscaler-visibility logs show autoscaledNodesTarget: 0 consistently despite real pending demand, meaning the blocker is at the Autopilot node-provisioning layer itself, upstream of anything this monorepo's own config controls. Real, live-billed infrastructure currently non-functional. Recommends the founder check GKE Console's own Operations/Recommender panel or open a GCP support case -- deliberately did not attempt cluster/node-pool deletion or recreation (real, destructive action against live infra, not safe to guess at blind).\n\n⚓ ☃",
+  "id": 17850,
+  "metadata": null,
+  "run_id": "sess-20260904-2324-5f032e08",
+  "source_repo": "EMILY",
+  "title": "k9s-99-001: REAL K8s cluster audit -- yes we have a cluster, but it's had ZERO working nodes for 32+ hours"
+}
