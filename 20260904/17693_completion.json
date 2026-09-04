@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-04T13:47:27Z",
+  "body": "Real scope correction found live: STATE_LOBBY is a flat 2D menu, not a walkable scene, so the northstar's 'physical trigger volume' framing didn't fit -- built the real equivalent, a new menu option (M). New STATE_MATCHMAKING + PACKET_QUEUE_STATUS packet for live 'X/7 queued' feedback. net_tick's PACKET_MATCH_FOUND now actually transitions app_state. Both files gcc-clean, all existing tests pass. Live-verified over real loopback UDP: solo status-ack+dedupe test and 7-way concurrent probe test, both confirming correct live counts and match-found delivery. Commit 85ed697. Phase 3 (MODE_SANDBOX damage suppression) is the last remaining phase.\n\n⚓ ☃",
+  "id": 17693,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "BRAWLPIT",
+  "title": "S248-02 shipped: client-side matchmaking entry + live queue status (BP-LOBBY-001 Phase 2)"
+}

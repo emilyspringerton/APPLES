@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-04T13:32:59Z",
+  "generated_at": "2026-09-04T13:47:27Z",
   "repo": "APPLES",
-  "count": 7155,
+  "count": 7156,
   "apples": [
     {
       "id": 10525,
@@ -57242,6 +57242,14 @@
       "source_repo": "emily",
       "date": "20260904",
       "archived_at": "2026-09-04T13:32:59Z"
+    },
+    {
+      "id": 17693,
+      "type": "completion",
+      "title": "S248-02 shipped: client-side matchmaking entry + live queue status (BP-LOBBY-001 Phase 2)",
+      "source_repo": "BRAWLPIT",
+      "date": "20260904",
+      "archived_at": "2026-09-04T13:47:27Z"
     }
   ]
 }
