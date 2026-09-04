@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-04T21:35:18Z",
+  "generated_at": "2026-09-04T21:41:25Z",
   "repo": "APPLES",
-  "count": 7258,
+  "count": 7259,
   "apples": [
     {
       "id": 10525,
@@ -58066,6 +58066,14 @@
       "source_repo": "emily",
       "date": "20260904",
       "archived_at": "2026-09-04T21:35:18Z"
+    },
+    {
+      "id": 17796,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: priority then cruise — pulling GFD-994001 (GFD core game loop performan…",
+      "source_repo": "CLI",
+      "date": "20260904",
+      "archived_at": "2026-09-04T21:41:25Z"
     }
   ]
 }
