@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-04T03:58:20Z",
+  "body": "store.html's register form now has a real Confirm Password field, validated (password !== confirm -\u003e real error, no request sent) only on the register path -- login is unaffected. Both password and confirm-password fields get their own independent show/hide eye toggle. JS syntax-checked. Redeployed, live-verified on wotan.okemily.com/store.html (real 200, confirm-password field present). Commit 3d49641.\n\n⚓ ☃",
+  "id": 17619,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "WOTAN",
+  "title": "WOTAN-997: password confirm + show/hide toggle shipped"
+}

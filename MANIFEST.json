@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-04T03:55:57Z",
+  "generated_at": "2026-09-04T03:58:20Z",
   "repo": "APPLES",
-  "count": 7081,
+  "count": 7082,
   "apples": [
     {
       "id": 10525,
@@ -56650,6 +56650,14 @@
       "source_repo": "GoblinFoxDragon",
       "date": "20260904",
       "archived_at": "2026-09-04T03:55:57Z"
+    },
+    {
+      "id": 17619,
+      "type": "completion",
+      "title": "WOTAN-997: password confirm + show/hide toggle shipped",
+      "source_repo": "WOTAN",
+      "date": "20260904",
+      "archived_at": "2026-09-04T03:58:20Z"
     }
   ]
 }
