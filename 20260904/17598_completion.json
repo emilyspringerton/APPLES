@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-04T02:10:59Z",
+  "body": "Investigated kanban card 'pitviper scrollback': the scrollback feature (10,000-line buffer, Shift+PageUp/Down, Shift+Home/End) was already fully built and working. The one remaining gap was the mouse-wheel scroll mod (S192), gated off since 2026-08-25 pending verification. It has had a real, passing round-trip test (TestTriggerWheelScrollRoundTrip) with no reported regression, so promoted to default-on per S189-32's own 'verify then mainline' policy. -mod-scroll=false/PITVIPER_MOD_SCROLL=0 still opts out. GOWORK=off go build/vet/test ./... clean. Commit b59a061.\n\n⚓ ☃",
+  "id": 17598,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "PITVIPER",
+  "title": "pitviper scrollback: mouse-wheel mod promoted to default-on"
+}
