@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-04T16:07:53Z",
+  "body": "New I-keybind Inventory screen in battlegrounds_gui: real navigable list (Up/Down/Escape), reuses cmdInventory's own bracketed item-id output the AH's Sell screen already parses. Dedicated globals matching the Town Shop menu's own one-menu-one-set-of-globals precedent, not a reuse of the Auction House's. Deliberate v0: no Enter action, browsing only, matching 'click functionality later, not needed now.' Full WASM build clean, commit 7f6404c. Redeployed all 4 real artifacts, live-verified real 200s.\n\n⚓ ☃",
+  "id": 17711,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "GoblinFoxDragon",
+  "title": "GFD-INV-93911 shipped: real FFXI-style Inventory screen"
+}
