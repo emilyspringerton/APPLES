@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-04T19:42:58Z",
+  "body": "Real Git integration primitives, VS Code Source Control panel parity: git-status (structured Vec\u003cGitStatusEntry\u003e parse of --porcelain=v1), git-stage!/git-unstage!, git-commit!, git-diff/git-diff-staged, git-current-branch. Shells out to the real git binary via process/run-capture, same judgment MIXFORGE/import.prn already applies to yt-dlp -- not an FFI binding to libgit2 or a from-scratch reimplementation. Every caller-supplied string (repo dir, path, commit message) passed through log/projector.prn's own proven shell-single-quote before landing in a shell command. Real, found-live VS0 emitter quirk worked around: an if-then-vec_push!-else-unit pattern emitted a C ternary with one void arm, rejected by -pedantic -Werror (ISO C forbids this) -- fixed by restructuring the .prn source (recur in both if branches) rather than patching the compiler. New make test-git target, no stubbing needed (real git binary always available) -- exercises every function against a real, freshly-created throwaway repo, including a real, live proof that a shell-injection-shaped path never executes anything outside the repo. make test: 345/345, zero regressions. Real, honest, not done: renamed-file detection, branch switching, push/pull/fetch, merge/rebase, and the actual editor-side Source Control panel UI that would consume this -- real, tested backend layer only, matching every other stdlib/editor/*.prn module's own 'primitive first, UI later' split. Commit d07a7a4.\n\n⚓ ☃",
+  "id": 17770,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "PARENA",
+  "title": "342534534535: real git.prn stdlib module for the PARENA editor"
+}
