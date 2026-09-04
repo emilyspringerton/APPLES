@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "observation",
+  "archived_at": "2026-09-04T22:50:17Z",
+  "body": "Real finding: existing SARENA_NOTEBOOK portal link is dev-facing JEWEL (a real code-execution Jupyter kernel), not what this card wants -- the card itself names the mismatch (plain prose notes, no code-cell chrome). 3 real open questions named (JEWEL-backed vs separate CRUD; personal vs shared; where surfaced). 4-phase plan: owner-scoped CRUD first, then UI, then conditional PARENA backend, then IDUNA_PRO extraction. No code written -- planning only.\n\n⚓ ☃",
+  "id": 17829,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "IDUNA",
+  "title": "IN-000/IN-001: IDUNA Notebook (notes feature) scoped (Principle 19), not built"
+}
