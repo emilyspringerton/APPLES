@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-04T12:02:39Z",
+  "generated_at": "2026-09-04T12:03:10Z",
   "repo": "APPLES",
-  "count": 7145,
+  "count": 7146,
   "apples": [
     {
       "id": 10525,
@@ -57162,6 +57162,14 @@
       "source_repo": "emily",
       "date": "20260904",
       "archived_at": "2026-09-04T12:02:39Z"
+    },
+    {
+      "id": 17683,
+      "type": "completion",
+      "title": "S248-00 shipped: real client-server netcode (BP-LOBBY-001 Phase 0, unblocks matchmaking)",
+      "source_repo": "BRAWLPIT",
+      "date": "20260904",
+      "archived_at": "2026-09-04T12:03:10Z"
     }
   ]
 }

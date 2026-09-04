@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-04T12:03:10Z",
+  "body": "apps/server/src/main.c was already correct; the real gap was client-side net_send_cmd/net_tick being commented out (STATE_GAME_NET silently ran fully local/disconnected). Implemented both matching the live server's exact wire layout. Fixed a real bug this surfaced: local_update always predicted slot 0, but the server never assigns real clients slot 0 -- fixed via local_set_player_input at the real client_id. New tests/test_net_protocol.c (2 checks), all 12 existing physics tests still pass. Commit af4c7b9. Live-verified end-to-end: real server + 2 real concurrent probe clients over real loopback UDP, both got distinct client_ids and saw their own entity move under real server physics -- the literal DoD from BP_LOBBY_MATCHMAKING_NORTHSTAR.md's Phase 0.\n\n⚓ ☃",
+  "id": 17683,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "BRAWLPIT",
+  "title": "S248-00 shipped: real client-server netcode (BP-LOBBY-001 Phase 0, unblocks matchmaking)"
+}
