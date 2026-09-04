@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-04T22:42:10Z",
+  "generated_at": "2026-09-04T22:42:55Z",
   "repo": "APPLES",
-  "count": 7286,
+  "count": 7287,
   "apples": [
     {
       "id": 10525,
@@ -58290,6 +58290,14 @@
       "source_repo": "IDUNA",
       "date": "20260904",
       "archived_at": "2026-09-04T22:42:10Z"
+    },
+    {
+      "id": 17824,
+      "type": "backlog_completion",
+      "title": "Manual kanban move: ensure kanban does log streaming and checks in to the unifie",
+      "source_repo": "EMILY",
+      "date": "20260904",
+      "archived_at": "2026-09-04T22:42:55Z"
     }
   ]
 }
