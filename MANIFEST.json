@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-04T17:19:30Z",
+  "generated_at": "2026-09-04T17:29:01Z",
   "repo": "APPLES",
-  "count": 7190,
+  "count": 7191,
   "apples": [
     {
       "id": 10525,
@@ -57522,6 +57522,14 @@
       "source_repo": "EMILY",
       "date": "20260904",
       "archived_at": "2026-09-04T17:19:30Z"
+    },
+    {
+      "id": 17728,
+      "type": "completion",
+      "title": "GFD-NM-123: mob spawn interface can now optionally specify an NM",
+      "source_repo": "GoblinFoxDragon",
+      "date": "20260904",
+      "archived_at": "2026-09-04T17:29:01Z"
     }
   ]
 }

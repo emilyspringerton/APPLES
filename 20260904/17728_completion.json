@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-04T17:29:01Z",
+  "body": "spawn.Rule gained an optional nm block (NMRule: id/spawn_chance/window_open_sec/window_close_sec/respawn_minutes) + Registry.NMFor accessor (5 new tests, all green). apps2/mud's spawnInto closure registers a real nm.NMSpawn whenever a data/mob_spawns.json rule declares one -- same mechanism nm.MeadowNMs()/HillsNMs()/etc already use in hardcoded Go, now reachable data-driven for any base mob. Real content added to prove it: nm-slime-king (Swampville slime, 20% chance, 5-30min window, 60min respawn). Real, found-live bug fixed in the same pass: world init's own nmSpawns map only ever wired zones 0/3 (Meadow/Swamp) -- nm.HillsNMs()/CavesNMs() (nm-great-beetle, nm-ancient-wolf, nm-bone-knight, nm-venom-queen, real Go data since S126-13) could never actually trigger; zones 1/2 added. go build/vet/test clean, redeployed live under gfd-mud.service, live-verified real combat resolves cleanly against the newly-wired zones/mobs with no crash. Real, honest, not done: the actual web interface for authoring these nm blocks is GFD-NM-124, the next queued card -- this ships the data model/mechanism only. Commit e5f2010.\n\n⚓ ☃",
+  "id": 17728,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "GoblinFoxDragon",
+  "title": "GFD-NM-123: mob spawn interface can now optionally specify an NM"
+}
