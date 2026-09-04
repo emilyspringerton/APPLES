@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-04T21:52:29Z",
+  "generated_at": "2026-09-04T21:52:55Z",
   "repo": "APPLES",
-  "count": 7264,
+  "count": 7265,
   "apples": [
     {
       "id": 10525,
@@ -58114,6 +58114,14 @@
       "source_repo": "BRAWLPIT",
       "date": "20260904",
       "archived_at": "2026-09-04T21:52:29Z"
+    },
+    {
+      "id": 17802,
+      "type": "backlog_completion",
+      "title": "Manual kanban move: get the matchmaking working for 1 v 1  with a bot pool",
+      "source_repo": "EMILY",
+      "date": "20260904",
+      "archived_at": "2026-09-04T21:52:55Z"
     }
   ]
 }
