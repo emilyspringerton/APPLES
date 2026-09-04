@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-04T01:27:13Z",
+  "body": "Kanban HS-GFD-2223: 'a surprise box does not need to generate the image at the time of purchase it needs to get generated when the player uses the item in GFD it is actually like a tradable token'. This directly resolves Phase 4.5's own previously-named blocking gap (a slow promptoverse generation can't fit inside a synchronous purchase transaction) -- the box is a real, tradable GFD item, bought fast like any other shop item; the slow generation only happens later, at real use time, genuinely async. Updated WOTAN_HAT_STORE_NORTHSTAR.md with the real resolved design. Real, new remaining gaps named, not solved: the MUD server has no real background-job runner (needed so 'use box' doesn't block the player's own connection for 35-140+ seconds), and no IDUNA endpoint exists yet to create-a-new-hat-row-and-grant-it in one step. No code written -- planning only. BRAWLPIT commit b035851. Real sub-tasks S250-05/S250-06 logged to EMILY/BACKLOG.md, S250-00 marked resolved. session: sess-20260902-2008-ed50169e\n\n⚓ ☃",
+  "id": 17584,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "BRAWLPIT",
+  "title": "HS-GFD-2223: resolved surprise-box async-generation design per founder clarification"
+}
