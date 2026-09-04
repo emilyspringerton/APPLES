@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "observation",
+  "archived_at": "2026-09-04T22:13:11Z",
+  "body": "Real investigation: no shared UI framework exists anywhere in this monorepo, every game reinvents bespoke immediate-mode drawing code. PARENA's own widget.prn is real but narrow (one Toggle widget, no cascade/box-model). Real research into litehtml shows a from-scratch HTML/CSS engine is a genuinely disproportionate undertaking vs the actual stated need. Real fork named: full engine (not recommended) vs vendoring webview/webview for embedded (matching MJOLNIR's real Android WebView precedent) vs a lightweight PARENA-native declarative styling layer (recommended v0). Scoping doc: docs/EOSUI_NORTHSTAR.md, golden-indexed as EOSUI-NORTH.\n\n⚓ ☃",
+  "id": 17813,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "EMILY",
+  "title": "EOSUI-1244/EOSUI-12444: cross-game UI design language scoped (Principle 19), not built"
+}
