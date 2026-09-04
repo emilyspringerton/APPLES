@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-04T22:46:53Z",
+  "generated_at": "2026-09-04T22:48:19Z",
   "repo": "APPLES",
-  "count": 7289,
+  "count": 7290,
   "apples": [
     {
       "id": 10525,
@@ -58314,6 +58314,14 @@
       "source_repo": "EMILY",
       "date": "20260904",
       "archived_at": "2026-09-04T22:46:53Z"
+    },
+    {
+      "id": 17827,
+      "type": "observation",
+      "title": "MULTIKANBAN-000: multi-kanban board scoped (Principle 19), not built",
+      "source_repo": "IDUNA",
+      "date": "20260904",
+      "archived_at": "2026-09-04T22:48:19Z"
     }
   ]
 }

@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "observation",
+  "archived_at": "2026-09-04T22:48:19Z",
+  "body": "Real finding: kanban_cards is a single global hardcoded table, no board column, tied to one specific EMILY_BACKLOG_PATH file, single shared iduna.admin auth gate -- a real structural mismatch with IDUNA_PRO's own tenants who have no such file. 4 real open questions named. 4-phase plan: kanban_boards table + board_id, per-board auth, board management UI, conditional custom columns. No code changed -- planning only.\n\n⚓ ☃",
+  "id": 17827,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "IDUNA",
+  "title": "MULTIKANBAN-000: multi-kanban board scoped (Principle 19), not built"
+}
