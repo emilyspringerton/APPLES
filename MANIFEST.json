@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-04T03:58:20Z",
+  "generated_at": "2026-09-04T03:59:29Z",
   "repo": "APPLES",
-  "count": 7082,
+  "count": 7083,
   "apples": [
     {
       "id": 10525,
@@ -56658,6 +56658,14 @@
       "source_repo": "WOTAN",
       "date": "20260904",
       "archived_at": "2026-09-04T03:58:20Z"
+    },
+    {
+      "id": 17620,
+      "type": "backlog_completion",
+      "title": "Manual kanban move: WOTAN account signups via email/password have them confirm t",
+      "source_repo": "EMILY",
+      "date": "20260904",
+      "archived_at": "2026-09-04T03:59:29Z"
     }
   ]
 }
