@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-04T00:03:37Z",
+  "body": "Kanban BPTUNE-10001, continuing the tuning pass after Medusa's Serpents' Grasp. New special_play_dead: real invulnerability (BRAWLPIT_PLAY_DEAD_INVULN_FRAMES=20) + zeroed velocity, a deliberate contrast to Scavenger's Dash (escape via movement) rather than a variation on it -- both real expressions of Raccoon's own established 'pure mobility, no offense at all' identity. Shares dodge_cooldown with the neutral-B. New test_raccoon_play_dead confirms velocity zeroed, real invuln granted, and no STATE_WAVEDASH entry. bash scripts/build.sh clean, all 5 physics tests pass. README updated. BRAWLPIT commit 43c1521. Real, honest, still open: Second Tree, Uncrowned, Rosie, Vexar, Sunlit Draw, Sequel Duck each still need their own down-B. session: sess-20260902-2008-ed50169e\n\n⚓ ☃",
+  "id": 17569,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "BRAWLPIT",
+  "title": "BPTUNE-10001: Raccoon's Play Dead -- second real down-B shipped, invuln+stillness contrast"
+}
