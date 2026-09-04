@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-04T22:00:33Z",
+  "body": "Real investigation: checked SHANKPIT's own mainline lobby directly rather than guessing -- same vector stroke font, but with a drop-shadow behind text and real colored buttons instead of a bare keybind list. Ported both: text_draw_string_shadowed wired into draw_string (one change, every screen benefits), draw_menu_button replaces STATE_LOBBY's bare list with real colored buttons + key badges. Two real live bugs found and fixed via an actual Xvfb screenshot: missing ( ) glyphs (silently rendered as ?), and label text overflowing off the button's own right edge -- both fixed and re-screenshotted to confirm. 25/25 physics tests pass.\n\n⚓ ☃",
+  "id": 17806,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "BRAWLPIT",
+  "title": "BPUX-12444: real UX legibility fix -- drop-shadow text + colored mode buttons, matching SHANKPIT"
+}

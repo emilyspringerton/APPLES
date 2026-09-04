@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-04T21:55:28Z",
+  "generated_at": "2026-09-04T22:00:33Z",
   "repo": "APPLES",
-  "count": 7268,
+  "count": 7269,
   "apples": [
     {
       "id": 10525,
@@ -58146,6 +58146,14 @@
       "source_repo": "CLI",
       "date": "20260904",
       "archived_at": "2026-09-04T21:55:28Z"
+    },
+    {
+      "id": 17806,
+      "type": "completion",
+      "title": "BPUX-12444: real UX legibility fix -- drop-shadow text + colored mode buttons, matching SHANKPIT",
+      "source_repo": "BRAWLPIT",
+      "date": "20260904",
+      "archived_at": "2026-09-04T22:00:33Z"
     }
   ]
 }
