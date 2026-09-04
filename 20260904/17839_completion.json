@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-04T23:11:38Z",
+  "body": "pentest/scan.prn's own scan-ports was never actually implemented -- PortResult/ScanError referenced, never defined, no real host function existed. Now real: defined structs, tools/pentest_scan_host.c shells out to real nmap via popen, real -oG- greppable parsing. Real profile mapping: fast/slow/sneaky/smart -\u003e nmap -T4/-T0/-T1/-A (SneakyScan = nmap's own literal -T1 Sneaky name). Real, live-verified shell-injection defense (strict target allow-list). New make test-pentest-scan target, real end-to-end scan of 127.0.0.1 finding this box's own real open ports, all pass. make test 345/345 zero regressions. New sudo-queue/48-install-nmap.sh for a real deployment host.\n\n⚓ ☃",
+  "id": 17839,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "PARENA",
+  "title": "PEN-11412: real nmap-backed scan-ports + speed profiles shipped (Phase 0+1)"
+}
