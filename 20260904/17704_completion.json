@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-04T15:32:22Z",
+  "body": "Root cause: live IDUNA process was hand-spawned/systemd-untracked since before REDGARDEN_TICKET_SECRET was added to ~/.config/iduna/env; every prior manual redeploy this session copied the same stale, secret-less env forward instead of re-reading the real file. Fixed by properly starting via 'systemctl --user start iduna.service' (works fine once XDG_RUNTIME_DIR/DBUS_SESSION_BUS_ADDRESS are exported -- contradicts an earlier assumed sandbox limitation). Real DB backup taken first. Live-verified 3 ways: /health 200, unauthenticated ticket POST now 401 not 503, and a real end-to-end mint via a fresh apps2/mud test character's own 'battlegrounds' command producing a real, valid ticket. Going forward: prefer systemctl over manual env-copy-forward redeploys wherever a real unit exists.\n\n⚓ ☃",
+  "id": 17704,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "IDUNA",
+  "title": "GFD-FIX-0123 resolved: ticket-minting 503, real operational fix (no code change)"
+}

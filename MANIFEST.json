@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-04T15:19:18Z",
+  "generated_at": "2026-09-04T15:32:23Z",
   "repo": "APPLES",
-  "count": 7166,
+  "count": 7167,
   "apples": [
     {
       "id": 10525,
@@ -57330,6 +57330,14 @@
       "source_repo": "emily",
       "date": "20260904",
       "archived_at": "2026-09-04T15:19:18Z"
+    },
+    {
+      "id": 17704,
+      "type": "completion",
+      "title": "GFD-FIX-0123 resolved: ticket-minting 503, real operational fix (no code change)",
+      "source_repo": "IDUNA",
+      "date": "20260904",
+      "archived_at": "2026-09-04T15:32:23Z"
     }
   ]
 }
