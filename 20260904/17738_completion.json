@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-04T18:05:46Z",
+  "body": "New gfd_datalists.go: gfdMobKinds (12 real server/mob Kind* constants) and gfdArenaHeroIDs (all 30 real ArenaHeroID values from arena_game.h), plus a real gfdDatalistHTML renderer (HTML-escaped) -- 4 new tests. Real precedent reused, not reinvented: PRRJECT_FATBABY's own ticker search is a plain HTML5 input-list+datalist, native browser autocomplete, no JS library -- applied the same way here. Wired into Mob Spawns' and Mob Drops' kind field (shared mob-kind-list) and Dungeon Roster's boss field (arena-hero-list); Elite deliberately left free text (multi-value, a native datalist would replace the whole field on selection, actively breaking it rather than helping). go build/vet/test clean, redeployed live under iduna.service. Real, honest, not done: EQUIPMENT's own model_id field has no real canonical model-name list to autocomplete against anywhere in this monorepo yet (no equipment-model rendering pipeline exists) -- left as free text, named honestly rather than faked with an empty/fake datalist. Commit 7883bc4.\n\n⚓ ☃",
+  "id": 17738,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "IDUNA",
+  "title": "GFD-XX-123: machine-name autocomplete across GFD admin pages, fatbaby ticker pattern"
+}
