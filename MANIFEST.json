@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-04T22:37:09Z",
+  "generated_at": "2026-09-04T22:37:39Z",
   "repo": "APPLES",
-  "count": 7284,
+  "count": 7285,
   "apples": [
     {
       "id": 10525,
@@ -58274,6 +58274,14 @@
       "source_repo": "PARENA",
       "date": "20260904",
       "archived_at": "2026-09-04T22:37:09Z"
+    },
+    {
+      "id": 17822,
+      "type": "backlog_completion",
+      "title": "Manual kanban move: how does kismet work? what parena primatives needed to build",
+      "source_repo": "EMILY",
+      "date": "20260904",
+      "archived_at": "2026-09-04T22:37:39Z"
     }
   ]
 }
