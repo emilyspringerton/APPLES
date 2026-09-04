@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-04T15:32:23Z",
+  "generated_at": "2026-09-04T15:32:31Z",
   "repo": "APPLES",
-  "count": 7167,
+  "count": 7168,
   "apples": [
     {
       "id": 10525,
@@ -57338,6 +57338,14 @@
       "source_repo": "IDUNA",
       "date": "20260904",
       "archived_at": "2026-09-04T15:32:23Z"
+    },
+    {
+      "id": 17705,
+      "type": "backlog_completion",
+      "title": "Manual kanban move: there is an issue with GFD mud gui client it says 503 its ha",
+      "source_repo": "EMILY",
+      "date": "20260904",
+      "archived_at": "2026-09-04T15:32:31Z"
     }
   ]
 }
