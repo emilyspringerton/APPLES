@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-04T05:33:58Z",
+  "body": "New /admin/gfd-items page + CRUD API (GfdItemsHandler/GfdItemsPageHandler), same direct-file-access precedent KanbanHandler's own BacklogPath already established -- reads/writes GoblinFoxDragon/data/items.json directly via GFD_ITEMS_JSON_PATH, gated behind iduna.admin permission. Honest limitation named on the page: apps2/mud only loads items.json at startup, not live-reloaded. 10 new tests (CRUD + rejection cases + a real field-name round-trip check), go build/vet/test ./... clean. Redeployed the live IDUNA instance (real DB backup taken first), live-verified: /admin/gfd-items returns a real 401 (route registered, correctly auth-gated). Commit 34dec77.\n\n⚓ ☃",
+  "id": 17637,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "IDUNA",
+  "title": "GFD Item Builder Phase 2a: real admin GUI shipped and deployed"
+}

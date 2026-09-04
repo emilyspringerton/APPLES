@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-04T05:33:58Z",
+  "body": "Founder real-time: 3 swords + beginner/lvl7/lvl10 armor sets. Seeded through IDUNA's new /admin/gfd-items tool itself (dogfooding), live-verified loading correctly via the real itemdefReg.LoadFile. Found and flagged, not fixed: two existing items (Leather Gloves, Spiked Knuckles) use un-hyphenated equip_slots that never matched gear.AllSlots's real hand-l/hand-r values -- permanently unequippable as authored; new content uses correct slot names. ITEM_BUILDER_NORTHSTAR.md updated with a new Item Design Principles section recording real founder direction (FFXI job lists not WoW armor tiers, FlagRare/FlagEx already correctly separate tradability axes). Commit a829bd2.\n\n⚓ ☃",
+  "id": 17636,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "GoblinFoxDragon",
+  "title": "GFD item content: 18 new items (3 swords, 3 armor sets) via new GUI"
+}
