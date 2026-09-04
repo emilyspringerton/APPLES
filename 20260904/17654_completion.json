@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-04T06:57:26Z",
+  "body": "New server/zone/grid.go: CellFor/CenterOf, FFXI-style I-7 labels, real per-zone bounds grounded in actual spawn positions from server/mob's own *Spawns() functions. 7 new tests, go test ./... clean. Commit c634361. Phase 2 (data-driven spawn tables) is next; card stays open across its 5 phases per MOB_SPAWN_NORTHSTAR.md.\n\n⚓ ☃",
+  "id": 17654,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "GoblinFoxDragon",
+  "title": "GFD-MOBSPAWN-001 Phase 1 shipped: real zone grid coordinate system"
+}
