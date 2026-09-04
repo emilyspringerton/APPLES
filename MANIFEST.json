@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-04T23:35:34Z",
+  "generated_at": "2026-09-04T23:36:58Z",
   "repo": "APPLES",
-  "count": 7309,
+  "count": 7310,
   "apples": [
     {
       "id": 10525,
@@ -58474,6 +58474,14 @@
       "source_repo": "emily",
       "date": "20260904",
       "archived_at": "2026-09-04T23:35:34Z"
+    },
+    {
+      "id": 17847,
+      "type": "completion",
+      "title": "MULTIKANBAN-000 Phase 1: real kanban_boards table + board-aware card CRUD shipped",
+      "source_repo": "IDUNA",
+      "date": "20260904",
+      "archived_at": "2026-09-04T23:36:58Z"
     }
   ]
 }

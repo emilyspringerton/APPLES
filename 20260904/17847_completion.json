@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-04T23:36:58Z",
+  "body": "New kanban_boards table, board 1 = EINHORN_INDUSTRIAL, board_id added to kanban_cards (DEFAULT 1, zero data migration, zero behavior change for existing callers). list/create now board-aware (?board_id=/board_id in POST body, both default to board 1). Position-lookup for new cards now board-scoped. Real design: git-file sync stays board-1-only, other boards are genuinely self-contained. New TestKanban_BoardIDScopesListAndCreate. go build/vet/test ./... clean, zero regressions. Deliberately not built this phase: board management CRUD API, per-board auth (matches MULTI_KANBAN_NORTHSTAR.md's own Phase 2/3).\n\n⚓ ☃",
+  "id": 17847,
+  "metadata": null,
+  "run_id": "sess-20260904-2324-5f032e08",
+  "source_repo": "IDUNA",
+  "title": "MULTIKANBAN-000 Phase 1: real kanban_boards table + board-aware card CRUD shipped"
+}
