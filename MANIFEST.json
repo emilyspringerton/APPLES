@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-04T20:33:35Z",
+  "generated_at": "2026-09-04T20:38:10Z",
   "repo": "APPLES",
-  "count": 7251,
+  "count": 7252,
   "apples": [
     {
       "id": 10525,
@@ -58010,6 +58010,14 @@
       "source_repo": "emily",
       "date": "20260904",
       "archived_at": "2026-09-04T20:33:35Z"
+    },
+    {
+      "id": 17789,
+      "type": "completion",
+      "title": "BPMM-12441/12442: real matchmaking root cause fixed, server deployed live for the first time",
+      "source_repo": "BRAWLPIT",
+      "date": "20260904",
+      "archived_at": "2026-09-04T20:38:10Z"
     }
   ]
 }

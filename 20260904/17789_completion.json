@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-04T20:38:10Z",
+  "body": "Root cause: apps/server/src/main.c was never deployed anywhere (no systemd unit, no running process) AND hardcoded port 6969, a real live collision with SHANKPIT's own shank_server on this host -- confirmed via ps/ss/systemd unit listing. bind() previously silently ignored failure. Fixed: moved server to :6978, bind() now checked and fatal on failure, scripts/build.sh now builds the server binary, real systemd unit ops/systemd/brawlpit-server.service written and deployed live (systemctl --user enable --now, confirmed active and bound). Live-verified end to end with a real UDP client harness against the deployed service: solo-queue and 2-client-queue both now receive PACKET_QUEUE_STATUS while waiting and a real PACKET_MATCH_FOUND + 8-entity bot-filled PACKET_SNAPSHOT at the 20s matchmaking timeout. 25/25 physics tests + net protocol test pass.\n\n⚓ ☃",
+  "id": 17789,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "BRAWLPIT",
+  "title": "BPMM-12441/12442: real matchmaking root cause fixed, server deployed live for the first time"
+}
