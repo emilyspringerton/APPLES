@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-04T11:31:06Z",
+  "body": "Second and final slice: load_crystal_seed + draw_goblin_shell/draw_fox_shell in apps2/battlegrounds_gui, real founder-decided design (client reads the same seed file the server does, no new sync protocol). Real seed generated (48 goblins/32 foxes), CRYSTAL_SEED_PATH wired into the live systemd env, WASM rebuilt+redeployed with --preload-file. Commit 942a3ea. Live-verified both client (real 200s on all 4 deployed artifacts) and server (mobs command lists real goblin/fox NPCs for the first time). This closes GFD-ENRICHMENT-0013 fully: Ronin shell player avatar (first slice) + goblin/fox NPC rendering (this slice).\n\n⚓ ☃",
+  "id": 17678,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "GoblinFoxDragon",
+  "title": "GFD-ENRICHMENT-0013 fully closed: goblin/fox NPCs now visible client-side"
+}
