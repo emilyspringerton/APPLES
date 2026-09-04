@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-04T04:13:19Z",
+  "body": "Real USB device enumeration (stdlib/usb/usb.prn, String/Vec-heavy sysfs reads over /sys/bus/usb/devices/, C-target only) + a real, scalar-only, burrow-compatible mass-storage-class check (stdlib/usb/mass_storage.prn), same real split k8s.prn/scaling.prn already established. Real bug found and fixed live: deref (vec/get \u0026entries i) over a (Vec String) compiled to a literal 'void entry' in generated C -- fixed by following awk.prn's own working convention. Verified: parena build emits real C, clean gcc -c on both files, zero warnings; burrow build on mass_storage.prn emits real Go, clean go build. Real, separate finding worth flagging: stdlib/vec.prn's own source must never be passed to parena build directly (unresolved generic T, reference-only -- Vec support is a compiler-native intrinsic). Real, honest, not attempted: vendor/product name database, interface-level class enumeration, live verification against a real device (none exists in this sandbox). Commit 30b049f.\n\n⚓ ☃",
+  "id": 17623,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "PARENA",
+  "title": "S213-04/S215-04: USB primitives shipped for stdlib"
+}
