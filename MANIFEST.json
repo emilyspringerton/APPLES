@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-04T03:34:04Z",
+  "generated_at": "2026-09-04T03:34:31Z",
   "repo": "APPLES",
-  "count": 7073,
+  "count": 7074,
   "apples": [
     {
       "id": 10525,
@@ -56586,6 +56586,14 @@
       "source_repo": "WOTAN",
       "date": "20260904",
       "archived_at": "2026-09-04T03:34:04Z"
+    },
+    {
+      "id": 17611,
+      "type": "backlog_completion",
+      "title": "Manual kanban move: build out WOTAN as a subdomain you should have access to clo",
+      "source_repo": "EMILY",
+      "date": "20260904",
+      "archived_at": "2026-09-04T03:34:31Z"
     }
   ]
 }
