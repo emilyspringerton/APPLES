@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-04T03:45:59Z",
+  "body": "Real, decisive correction: DUNGEON_NORTHSTAR.md Milestone 1's own acceptance text assumed REDGARDEN's per-match matchmaker fork/exec architecture, but Milestone 4 names Battlegrounds (apps2/server-go, a single persistent UDP process, not a per-match spawned server) as the real dungeon-render client. New server/worldapi/dungeon_instance.go: DungeonInstanceRegistry.Allocate generates a fresh instance from the existing real generators (GenerateDungeonLayout/DungeonLayoutToBlocks), reserves a scene ID in a real, wire-format-bounded 208-255 range (PacketTelecrystalAck encodes scene ID as a single uint8 -- checked directly before picking it), refuses rather than wraps once its 48-instance capacity is exhausted. New apps2/server-go UDP handler PacketDungeonEnter reuses server/telecrystal's own real travel mechanism at 0 cost. worldapi's /chunks HTTP handler checks the registry before falling back to ProceduralWorldStore. 9 new tests, go build/vet/test ./... clean across the whole repo, zero regressions. Real, honest, not done: party-roster passthrough (every instance is solo), mob spawns not wired into a live instance, no live multiplayer end-to-end verification this pass. Commit e95c268.\n\n⚓ ☃",
+  "id": 17615,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "GoblinFoxDragon",
+  "title": "GFD dungeons: Milestone 1 instancing corrected + real v0 shipped"
+}
