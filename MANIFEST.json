@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-04T22:46:12Z",
+  "generated_at": "2026-09-04T22:46:53Z",
   "repo": "APPLES",
-  "count": 7288,
+  "count": 7289,
   "apples": [
     {
       "id": 10525,
@@ -58306,6 +58306,14 @@
       "source_repo": "IDUNA",
       "date": "20260904",
       "archived_at": "2026-09-04T22:46:12Z"
+    },
+    {
+      "id": 17826,
+      "type": "backlog_completion",
+      "title": "Manual kanban move: hitting done on a card can be optimistic and immediately dis",
+      "source_repo": "EMILY",
+      "date": "20260904",
+      "archived_at": "2026-09-04T22:46:53Z"
     }
   ]
 }
