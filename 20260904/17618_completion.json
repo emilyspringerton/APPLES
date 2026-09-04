@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-04T03:55:57Z",
+  "body": "Real, checked-live finding: Town's own avatar fell through draw_hero_model's default: case (town_hero_id_for_job always mapped to ARENA_HERO_WARRIOR, which has no explicit shape) -- a plain undifferentiated box. New draw_ronin_shell, a standalone function (deliberately not a new ArenaHeroID -- that would ripple into arena_ai_bridge.c's ARENA_HERO_COUNT-sized tables, the RL policy obs-size assumption, and the PvP draft grid), proportion-informed by SHANKPIT's own player_model.h RONIN_* constants, rescaled to this roster's ~1.3-unit convention. Removed the now-dead town_hero_id_for_job. Real, honest, not done: color (yellow) -- no per-skin color dimension exists in this rendering path. WASM rebuilt and redeployed to /var/www/okemily/battlegrounds/, live-verified (real 200s). Commit c694d34.\n\n⚓ ☃",
+  "id": 17618,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "GoblinFoxDragon",
+  "title": "GFD-ENRICHMENT-0013: Ronin shell now Town's real avatar"
+}
