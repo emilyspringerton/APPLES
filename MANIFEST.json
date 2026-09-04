@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-04T23:36:58Z",
+  "generated_at": "2026-09-04T23:41:12Z",
   "repo": "APPLES",
-  "count": 7310,
+  "count": 7311,
   "apples": [
     {
       "id": 10525,
@@ -58482,6 +58482,14 @@
       "source_repo": "IDUNA",
       "date": "20260904",
       "archived_at": "2026-09-04T23:36:58Z"
+    },
+    {
+      "id": 17848,
+      "type": "completion",
+      "title": "IN-000/IN-001 Phase 1: real IDUNA Notebook (owner-scoped notes CRUD) shipped",
+      "source_repo": "IDUNA",
+      "date": "20260904",
+      "archived_at": "2026-09-04T23:41:12Z"
     }
   ]
 }

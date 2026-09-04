@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-04T23:41:11Z",
+  "body": "New notes table (owner_subject = raw JWT sub, sidesteps the local-auth-vs-Google-OAuth subject-shape gap), new NotesHandler (GET/POST/PATCH/DELETE /api/v1/notes[/:id]), gated by ordinary RequireAuth only -- ownership itself is the access control. Real, decisive design: ownership checks live in the SQL WHERE clause (id = ? AND owner_subject = ?), a real, honest 404 not a leaked 403. 3 new real tests (ownership isolation, blank-title default, cross-user hijack attempts blocked). go build/vet/test ./... clean, zero regressions. Deliberately not built: real UI, PARENA-backed implementation (plain CRUD needs neither).\n\n⚓ ☃",
+  "id": 17848,
+  "metadata": null,
+  "run_id": "sess-20260904-2324-5f032e08",
+  "source_repo": "IDUNA",
+  "title": "IN-000/IN-001 Phase 1: real IDUNA Notebook (owner-scoped notes CRUD) shipped"
+}
