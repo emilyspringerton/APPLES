@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-04T01:02:41Z",
+  "generated_at": "2026-09-04T01:06:21Z",
   "repo": "APPLES",
-  "count": 7037,
+  "count": 7038,
   "apples": [
     {
       "id": 10525,
@@ -56298,6 +56298,14 @@
       "source_repo": "emily",
       "date": "20260904",
       "archived_at": "2026-09-04T01:02:41Z"
+    },
+    {
+      "id": 17575,
+      "type": "completion",
+      "title": "BP-TUNE-393939/9838382: fixed real wavedash-fallback bug -- special-on-cooldown no longer silently becomes a wavedash",
+      "source_repo": "BRAWLPIT",
+      "date": "20260904",
+      "archived_at": "2026-09-04T01:06:21Z"
     }
   ]
 }

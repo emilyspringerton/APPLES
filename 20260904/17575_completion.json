@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-04T01:06:21Z",
+  "body": "Kanban BP-TUNE-393939 (x2 duplicate cards, #195/#196) + #197: 'if turnip is on cooldown the character should not fall back to a wave dash' / 'all characters b should be a special move not a wave dash'. Real, genuine bug found live: every neutral-B/down-B dispatch branch requires its own cooldown==0; when the real special was on cooldown, none of them matched and execution fell all the way through the else-if chain to the generic wavedash branches at the bottom -- silently substituting a wavedash for a failed special attempt, on every character. New explicit catch-all (p-\u003ein_y \u003e 0.5f || p-\u003ein_y \u003c -0.5f) with an intentionally empty body intercepts this before the wavedash branches -- a held-direction special press with an on-cooldown special now does nothing, never a wavedash. New test_special_on_cooldown_does_not_fall_back_to_wavedash confirms no STATE_WAVEDASH/wavedash_frames. bash scripts/build.sh clean, all 6 physics tests pass. BRAWLPIT commit 92699c0. session: sess-20260902-2008-ed50169e\n\n⚓ ☃",
+  "id": 17575,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "BRAWLPIT",
+  "title": "BP-TUNE-393939/9838382: fixed real wavedash-fallback bug -- special-on-cooldown no longer silently becomes a wavedash"
+}
