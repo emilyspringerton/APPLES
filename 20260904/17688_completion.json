@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-04T12:48:45Z",
+  "body": "Real, checked-live finding: these were the two genuinely un-tuned characters, not literally 'the same move' but the closer-to-true read once fixed (neither had a dedicated special at all). Sunlit Draw: Bracing Stance (up-B, defense) + Sunbreak Slam (down-B, harder-hitting directional damage). Sequel Duck: Bow Toss (down-B, flat/fast) + Hat Trick (up-B, tall lob), both real projectile throws from her own compendium descriptor, reusing the Turnip pipeline via new style sentinels above CHARACTER_COUNT. 4 new tests, 16/16 total pass. Commit caee548. README updated.\n\n⚓ ☃",
+  "id": 17688,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "BRAWLPIT",
+  "title": "BPTUNE-10001 shipped: distinct up-B/down-B for Sunlit Draw + Sequel Duck"
+}
