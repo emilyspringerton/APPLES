@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-04T18:42:40Z",
+  "body": "New 23rd job, ASN -- real DEX/AGI-focused DD stat curve, two real starter JAs (AssassinAbilities, real level/recast-gated through the existing RecastTracker): venom (GFD's first real AoE nuke -- Poison-element damage against every alive mob in the caster's zone, DEX-scaled, mob.KindSkeleton resists it heavily matching FFXI's own real undead-resist-poison convention, a real simple honest 'different impact per mob type' rule) and siphon (a real MP-regen support JA, same status.Refresh mechanism Bard's own Mage's Ballad already uses, applied zone-wide -- 'aoe buffs like a bard'). 7 new tests across server/job. go build/vet/test clean across the whole repo. Live-verified end to end over real telnet: setjob ASN works, ja venom dealt real damage to 89 real mobs (several died, real XP/Flow awarded via the real resolveKill path), ja siphon applied real MP regen (45-\u003e48 after one tick), venom's own recast correctly gated a second attempt. Redeployed live under gfd-mud.service. Commit 77ab458.\n\n⚓ ☃",
+  "id": 17751,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "GoblinFoxDragon",
+  "title": "GFD-JOB-244122: new ASN (Assassin) job shipped, real venom + siphon abilities"
+}
