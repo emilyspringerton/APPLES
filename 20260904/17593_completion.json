@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-04T01:49:34Z",
+  "body": "Kanban BPTUNE-10001, continuing the tuning pass (Medusa, Raccoon, Second Tree, Uncrowned, now Vexar). Unlike every other tuned character, Vexar's own neutral-B was never a unique move -- just the shared Turnip Toss with a real, slightly faster cooldown. New down-B: an instant short-range warp (BRAWLPIT_RELIC_WARP_DISTANCE=3.5) in the held/facing direction -- distinct in KIND from every turnip-throwing neutral-B (no projectile, pure positioning), fitting his own real 'COSMIC RELIC HUNTER' compendium title and his own already-established real up-B variance. Shares turnip_cooldown with the neutral-B. New test_vexar_relic_warp confirms the real positional move and no turnip spawn. bash scripts/build.sh clean, all 11 physics tests pass. README updated. BRAWLPIT commit 0f8b516. Real, honest, still open: Sunlit Draw and Sequel Duck are the last two fully-generic characters. session: sess-20260902-2008-ed50169e\n\n⚓ ☃",
+  "id": 17593,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "BRAWLPIT",
+  "title": "BPTUNE-10001: Vexar's Relic Warp -- fifth real down-B, his first real custom special ever"
+}
