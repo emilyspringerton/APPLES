@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-04T20:08:23Z",
+  "generated_at": "2026-09-04T20:08:26Z",
   "repo": "APPLES",
-  "count": 7240,
+  "count": 7241,
   "apples": [
     {
       "id": 10525,
@@ -57922,6 +57922,14 @@
       "source_repo": "EMILY",
       "date": "20260904",
       "archived_at": "2026-09-04T20:08:23Z"
+    },
+    {
+      "id": 17778,
+      "type": "backlog_completion",
+      "title": "Manual kanban move: add commands for standing up the models and views and contro",
+      "source_repo": "EMILY",
+      "date": "20260904",
+      "archived_at": "2026-09-04T20:08:26Z"
     }
   ]
 }
