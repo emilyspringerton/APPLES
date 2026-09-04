@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-04T04:58:44Z",
+  "body": "Founder request: reduce the 'crazy gauntlet of ifs' in update_entity's special-move dispatch and stop reusing turnip_cooldown/dodge_cooldown for unrelated moves. Extracted the 15-branch else-if chain into dispatch_special_move, one guard clause per branch with an early return -- same behavior (conditions were already mutually exclusive), easier to read. Renamed turnip_cooldown -\u003e special_b_cooldown and dodge_cooldown -\u003e dash_cooldown across physics.h/protocol.h/test_physics.c/apps/server main.c. Stripped ticket-number/lore comment bloat down to real gotchas only. Also reconciled a broken direct main-branch edit (syntax errors: missing ||, malformed else-if, stray characters, undefined variable) -- founder's real intent was Vexar's Relic Warp usable airborne at a retuned 28.4-unit distance, now correctly implemented with a new test. All 12 physics tests pass, apps/server builds clean. Commit 1071eb0.\n\n⚓ ☃",
+  "id": 17629,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "BRAWLPIT",
+  "title": "physics.h readability pass: dispatch_special_move + field renames"
+}

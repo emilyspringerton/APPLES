@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-04T04:46:19Z",
+  "generated_at": "2026-09-04T04:58:44Z",
   "repo": "APPLES",
-  "count": 7091,
+  "count": 7092,
   "apples": [
     {
       "id": 10525,
@@ -56730,6 +56730,14 @@
       "source_repo": "emily",
       "date": "20260904",
       "archived_at": "2026-09-04T04:46:19Z"
+    },
+    {
+      "id": 17629,
+      "type": "completion",
+      "title": "physics.h readability pass: dispatch_special_move + field renames",
+      "source_repo": "BRAWLPIT",
+      "date": "20260904",
+      "archived_at": "2026-09-04T04:58:44Z"
     }
   ]
 }
