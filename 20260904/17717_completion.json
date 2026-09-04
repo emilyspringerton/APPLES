@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-04T16:27:46Z",
+  "body": "Real root cause for the broken Ctrl+Alt+S hotkey: SDL_StartTextInput() active on this screen, and Ctrl+Alt is literal AltGr on Windows -- a held Ctrl+Alt+letter can be consumed by OS/IME as a dead-key sequence, so the KEYDOWN never fires with both modifiers. Two real, visible, clickable buttons added (LOG IN, SIGN UP), old hotkey/Enter kept working underneath. Full WASM build clean, commit 1e1c39a, redeployed and live-verified all 4 real artifacts.\n\n⚓ ☃",
+  "id": 17717,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "GoblinFoxDragon",
+  "title": "GFD-FIX + GFD-UX-8325432 shipped: real LOG IN/SIGN UP buttons (closes both cards, same real fix)"
+}
