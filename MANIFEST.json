@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-04T22:08:36Z",
+  "generated_at": "2026-09-04T22:10:34Z",
   "repo": "APPLES",
-  "count": 7273,
+  "count": 7274,
   "apples": [
     {
       "id": 10525,
@@ -58186,6 +58186,14 @@
       "source_repo": "CLI",
       "date": "20260904",
       "archived_at": "2026-09-04T22:08:36Z"
+    },
+    {
+      "id": 17811,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: priority — pulling EOSUI-1244/EOSUI-12444 (cross-game HTML/CSS UI rende…",
+      "source_repo": "CLI",
+      "date": "20260904",
+      "archived_at": "2026-09-04T22:10:34Z"
     }
   ]
 }
