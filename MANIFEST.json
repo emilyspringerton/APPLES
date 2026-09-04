@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-04T18:53:25Z",
+  "generated_at": "2026-09-04T18:53:33Z",
   "repo": "APPLES",
-  "count": 7219,
+  "count": 7220,
   "apples": [
     {
       "id": 10525,
@@ -57754,6 +57754,14 @@
       "source_repo": "MIXFORGE",
       "date": "20260904",
       "archived_at": "2026-09-04T18:53:25Z"
+    },
+    {
+      "id": 17757,
+      "type": "backlog_completion",
+      "title": "Manual kanban move: mixforge iterate on the core product",
+      "source_repo": "EMILY",
+      "date": "20260904",
+      "archived_at": "2026-09-04T18:53:33Z"
     }
   ]
 }
