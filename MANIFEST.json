@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-04T06:31:53Z",
+  "generated_at": "2026-09-04T06:37:20Z",
   "repo": "APPLES",
-  "count": 7108,
+  "count": 7109,
   "apples": [
     {
       "id": 10525,
@@ -56866,6 +56866,14 @@
       "source_repo": "emily",
       "date": "20260904",
       "archived_at": "2026-09-04T06:31:53Z"
+    },
+    {
+      "id": 17646,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: wants a mob spawn management interface (complementary to the just-shipped…",
+      "source_repo": "CLI",
+      "date": "20260904",
+      "archived_at": "2026-09-04T06:37:20Z"
     }
   ]
 }
