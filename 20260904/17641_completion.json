@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-04T06:14:04Z",
+  "body": "Found live: apps2/mud's melee-hit handler always called combatTp.AddTP with the hardcoded combatTp.Delay1HSword constant regardless of what weapon (or nothing) a player had equipped -- every attack granted TP as if wielding a 1H sword. New ItemDef.Delay field + weaponDelayFor real lookup of the equipped main-hand weapon's own delay, falling back to DelayHtH bare-handed or Delay1HSword for a not-yet-backfilled weapon. Real, individually-set per weapon, not a fixed constant per weapon type (founder: 'not a standard delay per item type'). All 18 real weapons backfilled with individually-chosen delay values (168-372 du) via the new IDUNA GUI. 4 new tests (first real unit tests for apps2/mud), go build/vet/test ./... clean. Live-verified against a real throwaway instance: bare-handed TP gain is now 13 (matching floor(80/6)) instead of the old universally-wrong 40. Redeployed the real live production mud process (systemctl --user bus unavailable, manual restart matching the real service's own command line/env). Commit 4a96a3d.\n\n⚓ ☃",
+  "id": 17641,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "GoblinFoxDragon",
+  "title": "Real per-weapon attack speed field + hardcoded-delay combat bug fix"
+}

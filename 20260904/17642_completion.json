@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-04T06:14:04Z",
+  "body": "New Delay int field on GfdItemDef mirroring server/itemdef.ItemDef's own new field. Real, individually-set per weapon, not a fixed constant per weapon category. Wired into the add/edit form, items table, batch-propose review queue, and the Vertex prompt schema (with explicit instruction not to copy the same value across weapons of a given type). 2 new tests, go build/vet/test ./... clean. Redeployed the live IDUNA instance, live-verified. Commit b225175.\n\n⚓ ☃",
+  "id": 17642,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "IDUNA",
+  "title": "GFD Item Builder: real Delay field wired into GUI + batch-propose prompt"
+}
