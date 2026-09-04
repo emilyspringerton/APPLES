@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-04T20:26:15Z",
+  "body": "Real, decisive root cause of the reported bug: the old shield-hit formula scaled both pushback (0.08*damage) and stun (damage*5) UNCAPPED with the attack's own raw damage -- real enough on a strong hit to stun-lock and launch a shielded player off the map. New shield_windup_frames/shield_overpowered_frames drive a real 3-phase deploy: Windup (16 frames, deliberately vulnerable -- a hit falls straight through to normal unshielded resolution), Overpowered (16 frames, shield takes zero damage, the ATTACKER gets punished instead with real damage+stun), Normal (post-overpowered, the real fix -- both pushback and stun now explicitly capped, matching Smash Melee's own real shield paradigm, never full knockback again). Uncrowned uses its own real, separate, stronger overpowered counter-punish constants via a distinct code branch, not a shared multiplier, per the founder's own explicit 'totally different code paths for tuning' instruction, matching his established defensive shield-focused kit identity. 4 new tests/test_physics.c cases (windup vulnerability, overpowered counter-punish, Uncrowned's stronger counter-punish, and a direct proof a fully-charged smash hit against a normal shield now stays within the real new caps). bash scripts/build.sh: clean, 25/25 tests pass. gcc -Wall -Wextra clean. README.md updated with the full real mechanic description. Real, honest, not done: the actual 'shiny Halo shield' visual shader is separate, unbuilt client-rendering work -- shield_overpowered_frames is real, live state a future render pass can key off. Commit 0e41c87.\n\n⚓ ☃",
+  "id": 17780,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "BRAWLPIT",
+  "title": "BPSW-1212..1217: real, 3-phase shield rework shipped"
+}
