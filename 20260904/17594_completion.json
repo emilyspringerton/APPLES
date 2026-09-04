@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-04T01:59:05Z",
+  "body": "Real, client-side instant filter (#quick-filter input + applyFilter()) over every loaded kanban card (Inbox + Backlog/Priority/Cruise columns), matching title/id text as-you-type. Title matches sort ahead of id-only matches within a column while filtering, per the card's own 'name priority over the rest of the text' wording; no server round-trip, no change to drag/sort or real kanbanOrder when filter is empty. go build/vet clean, existing -run Kanban suite clean. Commit 061586d.\n\n⚓ ☃",
+  "id": 17594,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "IDUNA",
+  "title": "IDUXN-003: kanban board quick filter shipped"
+}
