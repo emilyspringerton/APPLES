@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-04T17:19:13Z",
+  "body": "8 real dungeon zones (208-215) registered in apps2/mud via zone.Manager.AddZone at world init, each populated with a real, deterministically-seeded GenerateDungeonLayout+GenerateDungeonSpawns roster (the real named boss/elite/minion content from docs2/DUNGEON_NORTHSTAR.md $7). New commands 'dungeons' (list) and 'dungeon-enter \u003c1-8\u003e', no job/cost gate. Real, decisive routing finding first (AskUserQuestion, founder decision): apps2/server-go has zero mob registry (PvP-only) -- every real PvE mechanic lives in server/mob, imported only by apps2/mud, so dungeons route through apps2/mud like every other PvE zone, not server-go's already-shipped-but-wrong-transport Milestone 1 work. Live-verified end to end over real telnet: list -\u003e enter -\u003e real named roster -\u003e attack \u003cmob-id\u003e auto-approaches and lands real damage, multiple aggro'd mobs hit back for real damage. go build/vet/test clean, redeployed live under gfd-mud.service (systemd). Real, honest, not done: v0 is shared/persistent per dungeon not per-party instancing, and apps2/battlegrounds_gui has no client render path for any zone besides Meadow/Town (a real, separate, bigger gap, documented not hidden). Commit 3da6ed0.\n\n⚓ ☃",
+  "id": 17726,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "GoblinFoxDragon",
+  "title": "GFD-993944: real v0 dungeon gameplay, playable end to end"
+}
