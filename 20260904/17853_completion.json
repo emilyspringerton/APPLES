@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-04T23:59:39Z",
+  "body": "Alternate to the human-passphrase path: Vault.UnlockFromKeyFile verifies a hex-encoded 32-byte key from a local file against the existing canary mechanism, no Argon2 derivation needed. Opt-in via MAILING_LIST_KEY_FILE in main.go's new mailingListAutoUnlock -- generates+persists a key on first boot, reuses it on reboot, so signups survive an unattended redeploy/crash with no operator. Default (unset) behavior unchanged. 6 new tests, go test ./... clean. Commit 3cc3aaa. Unblocks S245-02/03/04/05.\n\n⚓ ☃",
+  "id": 17853,
+  "metadata": null,
+  "run_id": "sess-20260904-2324-5f032e08",
+  "source_repo": "IDUNA",
+  "title": "S245-01: real config/file-key vault-unlock mode for mailing-list vault"
+}
