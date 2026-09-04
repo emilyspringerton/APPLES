@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-04T19:31:21Z",
+  "body": "Real, found-live gap closed: GET /api/v1/identities/me 404'd unconditionally for every local-auth session. Root cause, checked directly: a local-auth JWT's sub is 'local:\u003cuid\u003e', but MeHandler always called h.Store.GetUserByID, which queries the separate users table -- local-auth accounts live in local_users instead (a real, separate projection), and never had a row in users at all. Fixed: MeHandler now branches on a 'local:' prefix, resolving through the same userlog.UserProjector.GetByUID the login handler already uses, building the same real identity/rbac/meta response shape from the real LocalUser row + localUserPermissions. 4 new tests. go build/vet/test clean, gofmt clean. Live-verified end to end against a real, freshly-booted instance (fresh SQLite DB, real register + local login + /me call) -- not just unit tests: the real user's own email/gamertag/status/permissions all came back correctly. This was the real, named, standing blocker on the 'idunapro whoami' CLI subcommand -- that subcommand itself remains real, separate, unbuilt follow-up. README.md and CLAUDE.md both updated to reflect the real fix. Commit e8386bd.\n\n⚓ ☃",
+  "id": 17767,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "IDUNA_PRO",
+  "title": "9988 (cruise): /api/v1/identities/me now resolves local-auth users for real"
+}
