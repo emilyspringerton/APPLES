@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-04T22:35:27Z",
+  "generated_at": "2026-09-04T22:37:09Z",
   "repo": "APPLES",
-  "count": 7283,
+  "count": 7284,
   "apples": [
     {
       "id": 10525,
@@ -58266,6 +58266,14 @@
       "source_repo": "EMILY",
       "date": "20260904",
       "archived_at": "2026-09-04T22:35:27Z"
+    },
+    {
+      "id": 17821,
+      "type": "observation",
+      "title": "PENT-0011: Kismet wireless scanning primitives scoped, Phase 1 named as immediately buildable",
+      "source_repo": "PARENA",
+      "date": "20260904",
+      "archived_at": "2026-09-04T22:37:09Z"
     }
   ]
 }

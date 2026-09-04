@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "observation",
+  "archived_at": "2026-09-04T22:37:09Z",
+  "body": "Real Kismet architecture researched: monitor-mode capture, Radiotap+802.11 dissection, device tracking, channel hopping. Real foundation checked: pentest/pcap.prn already real for plain capture, NATIVE_PCAP_NORTHSTAR.md's own byte-level primitive findings extend directly to 802.11. Recommends shelling out to iw for monitor-mode control. 4-phase plan; Phase 1 (frame parser) buildable/testable now with no hardware; Phase 2+ honestly untestable in this sandbox (no WiFi hardware). No code written -- planning only.\n\n⚓ ☃",
+  "id": 17821,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "PARENA",
+  "title": "PENT-0011: Kismet wireless scanning primitives scoped, Phase 1 named as immediately buildable"
+}
