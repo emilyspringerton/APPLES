@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-04T04:02:51Z",
+  "body": "Login screen had no sign-up path at all. New Ctrl+Alt+S handler (mirrors PITVIPER's own Ctrl+Alt+I pattern) calls SDL_OpenURL to open wotan.okemily.com/store.html?signup=1 in the system browser -- that page's real register form (WOTAN-997, shipped this session) creates an account through the exact same /api/v1/auth/email/login this login screen calls, so it works immediately. store.html honors ?signup=1 by focusing the email field. On-screen hint added. WASM rebuilt, redeployed, live-verified. GFD commit 706ca52, WOTAN commit 216f16d. Real, honest, NOT done: the card's second half -- a real IDUNA back-office toggle to turn registration into a waiting list -- is a genuinely separate, bigger feature (a real feature flag + admin UI + waitlist backend), not attempted this pass.\n\n⚓ ☃",
+  "id": 17622,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "GoblinFoxDragon",
+  "title": "GFD-UA-001: sign-up shortcut shipped (waitlist toggle still open)"
+}
