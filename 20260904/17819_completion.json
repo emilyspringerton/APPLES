@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-04T22:35:04Z",
+  "body": "Real investigation: net/vpn's own already-real WireGuard-FFI design stays unchanged; what's actually buildable today with zero new FFI is a real L7 HTTP proxy modeled on PRRJECT_FATBABY/broker/proxy.go's own real behavior. New stdlib/net/proxy.prn: parse-http-request, is-hop-by-hop-header? (broker/proxy.go's exact 8-name list, ported), proxy-relay. New make test-net-proxy target, real end-to-end test against an actual local upstream HTTP server, 3/3 pass. make test: 345/345 core compiler tests, zero regressions. Real compiler-behavior gotcha found and documented: Vec String needs single-cast vec_get, not double-deref.\n\n⚓ ☃",
+  "id": 17819,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "PARENA",
+  "title": "net/proxy: real HTTP reverse-proxy relay primitive, informed by fatbaby's own broker/proxy.go"
+}

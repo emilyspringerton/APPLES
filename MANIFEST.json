@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-04T22:34:12Z",
+  "generated_at": "2026-09-04T22:35:04Z",
   "repo": "APPLES",
-  "count": 7281,
+  "count": 7282,
   "apples": [
     {
       "id": 10525,
@@ -58250,6 +58250,14 @@
       "source_repo": "emily",
       "date": "20260904",
       "archived_at": "2026-09-04T22:34:12Z"
+    },
+    {
+      "id": 17819,
+      "type": "completion",
+      "title": "net/proxy: real HTTP reverse-proxy relay primitive, informed by fatbaby's own broker/proxy.go",
+      "source_repo": "PARENA",
+      "date": "20260904",
+      "archived_at": "2026-09-04T22:35:04Z"
     }
   ]
 }
