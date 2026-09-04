@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-04T22:42:10Z",
+  "body": "KanbanHandler only ever used plain log.Printf, never joined the S226 unified-logging rollout every other real IDUNA code path (auth/admin/HEIMDAL/Apples) already has. New EventLog field wired in main.go, reusing the shared emitAuthEvent helper. Three real emission points: iduna:kanban.card.create/.move/.complete. New TestKanban_EmitsUnifiedLogEvents, real userlog.NewFileEventLog-backed. go build/vet/test ./... clean, zero regressions.\n\n⚓ ☃",
+  "id": 17823,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "IDUNA",
+  "title": "Kanban card 3243242: real unified-log event emission for kanban card create/move/complete"
+}

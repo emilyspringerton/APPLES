@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-04T22:37:39Z",
+  "generated_at": "2026-09-04T22:42:10Z",
   "repo": "APPLES",
-  "count": 7285,
+  "count": 7286,
   "apples": [
     {
       "id": 10525,
@@ -58282,6 +58282,14 @@
       "source_repo": "EMILY",
       "date": "20260904",
       "archived_at": "2026-09-04T22:37:39Z"
+    },
+    {
+      "id": 17823,
+      "type": "completion",
+      "title": "Kanban card 3243242: real unified-log event emission for kanban card create/move/complete",
+      "source_repo": "IDUNA",
+      "date": "20260904",
+      "archived_at": "2026-09-04T22:42:10Z"
     }
   ]
 }
