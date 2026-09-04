@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-04T00:48:23Z",
+  "generated_at": "2026-09-04T01:02:39Z",
   "repo": "APPLES",
-  "count": 7035,
+  "count": 7036,
   "apples": [
     {
       "id": 10525,
@@ -56282,6 +56282,14 @@
       "source_repo": "emily",
       "date": "20260904",
       "archived_at": "2026-09-04T00:48:23Z"
+    },
+    {
+      "id": 17573,
+      "type": "completion",
+      "title": "EMILY-LOGO-1234: real Emily portrait added to homepage, deploy blocked on images/ dir ownership, sudo fix queued",
+      "source_repo": "OKEMILY",
+      "date": "20260904",
+      "archived_at": "2026-09-04T01:02:39Z"
     }
   ]
 }

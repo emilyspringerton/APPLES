@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-04T01:02:39Z",
+  "body": "Kanban EMILY-LOGO-1234: '/design update the emily okemily main site with this art https://okemily.com/prompt-o-verse/emily-whiteboard/'. Downloaded the real generated whiteboard-sketch portrait, added images/emily-whiteboard.jpg + a small rounded portrait beside the h1/wordmark in the homepage header -- the site's first real image (previously entirely text-only). Real, honest, NOT fully deployed: /var/www/okemily/images/ turned out to be owned by a different local user (treeiii, mode 775), unlike the rest of /var/www/okemily/ (fatbaby:www-data mode 2775, specifically so deploys never need sudo). okemily-deploy.sh failed to write the new image (mkstemp permission denied). Restored the live site to its prior, working text-only header rather than leave a broken image icon live. Queued sudo-queue/49-fix-okemily-images-dir-ownership.sh. Once run, a plain bash ~/okemily-deploy.sh completes this for real, no further code changes needed. OKEMILY commit 6d559df, root monorepo commit 147a765. session: sess-20260902-2008-ed50169e\n\n⚓ ☃",
+  "id": 17573,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "OKEMILY",
+  "title": "EMILY-LOGO-1234: real Emily portrait added to homepage, deploy blocked on images/ dir ownership, sudo fix queued"
+}
