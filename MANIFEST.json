@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-04T22:04:19Z",
+  "generated_at": "2026-09-04T22:07:44Z",
   "repo": "APPLES",
-  "count": 7271,
+  "count": 7272,
   "apples": [
     {
       "id": 10525,
@@ -58170,6 +58170,14 @@
       "source_repo": "emily",
       "date": "20260904",
       "archived_at": "2026-09-04T22:04:19Z"
+    },
+    {
+      "id": 17809,
+      "type": "observation",
+      "title": "BPLE-12441/BPLE-13331: online level editor scoped (Principle 19), not built -- real blocking Phase 0 found",
+      "source_repo": "BRAWLPIT",
+      "date": "20260904",
+      "archived_at": "2026-09-04T22:07:44Z"
     }
   ]
 }
