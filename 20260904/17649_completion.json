@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-04T06:41:26Z",
+  "body": "Added /admin/gfd-items and /admin/gfd-mob-drops to the Back Office nav bar, plus a cross-link between the two pages. Commit 5ecfc62. Redeployed live IDUNA, verified /health.\n\n⚓ ☃",
+  "id": 17649,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "IDUNA",
+  "title": "GFD-IM-0013: Back Office nav links for GFD Items + GFD Mob Drops"
+}
