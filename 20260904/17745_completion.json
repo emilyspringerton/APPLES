@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-04T18:24:19Z",
+  "body": "town_telecrystal_return and town_recenter_in_town both hardcoded the Dragon Gate's own TOWN_BUILDINGS position as the return-to-town landing spot -- fixed to use the real Home Point Crystal's own position instead (TOWN_BUILDINGS' own last entry, same real position town_draw_home_crystal already reads, not a second position source). The Dragon Gate's own physical location is untouched and still correct where it's genuinely used (the real interactive crystal in Town that casts the outbound Meadow teleport) -- only the landing destination changed. town_recenter_in_town's combat-log message updated to match. Verified: gcc -fsyntax-only clean, a full native link (clean), a full WASM build (clean) redeployed live to okemily.com/battlegrounds/ (3/3 artifacts curl-200-verified). Commit 11202fe.\n\n⚓ ☃",
+  "id": 17745,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "GoblinFoxDragon",
+  "title": "GFD-XX-12441: teleport to town now lands at Home Point Crystal, not Dragon Gate"
+}
