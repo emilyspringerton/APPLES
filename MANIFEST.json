@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-04T20:26:27Z",
+  "generated_at": "2026-09-04T20:26:29Z",
   "repo": "APPLES",
-  "count": 7246,
+  "count": 7247,
   "apples": [
     {
       "id": 10525,
@@ -57970,6 +57970,14 @@
       "source_repo": "EMILY",
       "date": "20260904",
       "archived_at": "2026-09-04T20:26:27Z"
+    },
+    {
+      "id": 17784,
+      "type": "backlog_completion",
+      "title": "Manual kanban move: enemies that hit a shield while it is over popowered get dam",
+      "source_repo": "EMILY",
+      "date": "20260904",
+      "archived_at": "2026-09-04T20:26:29Z"
     }
   ]
 }
