@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-04T07:01:47Z",
+  "body": "New server/spawn.Registry (data/mob_spawns.json) is the real per-(zone,kind) on/off toggle, layered on existing per-Kind stat-block constructors. Found and fixed a real live bug in the same pass: HillsSpawns()/CavesSpawns() were never called from world init -- zones 1 and 2 have been silently empty since S189. Both zones now populated. 5 new tests, go test ./... clean. Commit d199a89. Live-verified via a real WHM test character teleporting to both zones.\n\n⚓ ☃",
+  "id": 17655,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "GoblinFoxDragon",
+  "title": "GFD-MOBSPAWN-001 Phase 2 shipped: spawn toggles + fixed Hills/Caves-never-spawned bug"
+}
