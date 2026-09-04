@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-04T06:37:20Z",
+  "generated_at": "2026-09-04T06:38:06Z",
   "repo": "APPLES",
-  "count": 7109,
+  "count": 7110,
   "apples": [
     {
       "id": 10525,
@@ -56874,6 +56874,14 @@
       "source_repo": "CLI",
       "date": "20260904",
       "archived_at": "2026-09-04T06:37:20Z"
+    },
+    {
+      "id": 17647,
+      "type": "completion",
+      "title": "GFD-MD-001: mob drops manager shipped (data-driven registry + IDUNA admin GUI)",
+      "source_repo": "GoblinFoxDragon",
+      "date": "20260904",
+      "archived_at": "2026-09-04T06:38:06Z"
     }
   ]
 }

@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-04T06:38:06Z",
+  "body": "Data-drove apps2/mud's hardcoded dropsForMob switch into server/mobdrop.Registry (data/mob_drops.json), backfilled real drop tables for every mob kind that previously fell through to the generic Flow default. Shipped IDUNA /admin/gfd-mob-drops (list/create/edit/delete, keyed by mob Kind, same direct-file-access precedent as /admin/gfd-items). 15 new tests total across both repos, all passing. Live-verified: restarted production apps2/mud (zero active connections first) and real IDUNA, killed a real worm in-game -- correct drops. Commits: GoblinFoxDragon 0317804, IDUNA 28a6bf5. Real, honest limitation named in both: drop tables key on mob Kind only, not (Kind, zone) -- matches the S251-06 vendor-catalog gap.\n\n⚓ ☃",
+  "id": 17647,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "GoblinFoxDragon",
+  "title": "GFD-MD-001: mob drops manager shipped (data-driven registry + IDUNA admin GUI)"
+}
