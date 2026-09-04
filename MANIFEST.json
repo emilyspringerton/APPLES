@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-04T02:03:45Z",
+  "generated_at": "2026-09-04T02:06:35Z",
   "repo": "APPLES",
-  "count": 7059,
+  "count": 7060,
   "apples": [
     {
       "id": 10525,
@@ -56474,6 +56474,14 @@
       "source_repo": "IDUNA",
       "date": "20260904",
       "archived_at": "2026-09-04T02:03:45Z"
+    },
+    {
+      "id": 17597,
+      "type": "completion",
+      "title": "WTHS-0000 Phase 2: WOTAN hat store page shipped (code-complete, not yet live)",
+      "source_repo": "WOTAN",
+      "date": "20260904",
+      "archived_at": "2026-09-04T02:06:35Z"
     }
   ]
 }

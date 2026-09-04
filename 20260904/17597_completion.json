@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-04T02:06:35Z",
+  "body": "WOTAN/store.html: real IDUNA email/password login, resolves the player's GFD character, browses the hat catalog, buys/equips hats against IDUNA's real Phase 1 endpoints via a new same-origin /api/ nginx proxy. Linked from index.html. JS syntax-checked; not yet reachable from outside since the WOTAN subdomain itself isn't deployed (WOTAN-DNS-001 still queued on sudo). Found and fixed a real security gap along the way in IDUNA (hats buy/equip had no ownership check). WOTAN commit 6ca9196, BRAWLPIT docs commit 7cb2f3e, IDUNA fix commit 9537796.\n\n⚓ ☃",
+  "id": 17597,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "WOTAN",
+  "title": "WTHS-0000 Phase 2: WOTAN hat store page shipped (code-complete, not yet live)"
+}
