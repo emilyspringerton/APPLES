@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-04T23:27:27Z",
+  "body": "Real, live-verified bug: tmux new-session was handed a single inline command string containing \u0026\u0026 which tmux re-parses via a new shell, causing any backtick inside ONBOARDING's own prose (the real `emily observe` citation) to be evaluated as real command substitution rather than staying literal text -- silently ran emily observe with no args every time a new detached session started, corrupting the onboarding prompt. Fixed by writing startup steps to a real script file and passing ONBOARDING through as an environment variable instead of interpolating it into shell source. Live-verified against stub emily/claude binaries in a real scratch tmux session: argv now receives both backtick spans intact, unexecuted. commit d8d23ad.\n\n⚓ ☃",
+  "id": 17843,
+  "metadata": null,
+  "run_id": "sess-20260904-2324-5f032e08",
+  "source_repo": "MONOREPO",
+  "title": "tmux-session.sh: fixed real command-substitution bug in the detached-session startup line"
+}

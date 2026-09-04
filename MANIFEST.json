@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-04T23:23:42Z",
+  "generated_at": "2026-09-04T23:27:27Z",
   "repo": "APPLES",
-  "count": 7305,
+  "count": 7306,
   "apples": [
     {
       "id": 10525,
@@ -58442,6 +58442,14 @@
       "source_repo": "CLI",
       "date": "20260904",
       "archived_at": "2026-09-04T23:23:42Z"
+    },
+    {
+      "id": 17843,
+      "type": "completion",
+      "title": "tmux-session.sh: fixed real command-substitution bug in the detached-session startup line",
+      "source_repo": "MONOREPO",
+      "date": "20260904",
+      "archived_at": "2026-09-04T23:27:27Z"
     }
   ]
 }
