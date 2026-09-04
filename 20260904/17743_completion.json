@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-04T18:17:56Z",
+  "body": "New docs2/STACK_CONTINUITY_REPORT.md, checked directly against the actual source tree, git log (950 commits), and every existing docs2/*_NORTHSTAR.md doc as of 2026-09-04, not a restatement of old docs: 7 real apps/binaries and their roles, all 44 real server packages grouped by domain, the real decisive architectural boundary found this session (apps2/mud owns all real PvE content, apps2/server-go has zero mob registry, PvP-only), the two real PARENA/BURROW mod-integration paths now live, a per-initiative real status table (dungeons/NM/mod-surface/inventory/onboarding/admin-tooling/performance), honestly-named current gaps (no client render path beyond Meadow/Town, inventory has no durability, Battlegrounds reported broken, per-job levels not separated), and a real, synthesized current-direction section read off the actual pattern of recent work. README.md's Current Status rewritten from a stale 2026-08-26 snapshot to a real 2026-09-04 one, links the new report, fixes a stale docs/ vs docs2/ path reference. Registered as golden doc GFD-CONTINUITY. Commit c212c61.\n\n⚓ ☃",
+  "id": 17743,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "GoblinFoxDragon",
+  "title": "GFD-DOX-124: real stack continuity report + README refresh"
+}
