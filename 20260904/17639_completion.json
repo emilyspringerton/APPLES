@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-04T05:49:49Z",
+  "body": "New gfd_item_proposals review queue -- an AI-proposed item never writes straight into items.json. Reuses the real Vertex AI credential promptoverse's own image generation already uses (gcloud ADC, no static key), structured JSON output via responseMimeType matching GfdItemDef exactly. Approval reuses GfdItemsHandler's own real createFromDef. New batch-propose + review-queue UI on /admin/gfd-items. 10 new tests including one real, live, unmocked Vertex call. go build/vet/test ./... clean. Redeployed the live IDUNA instance, live-verified route registration. Commit c7153d3.\n\n⚓ ☃",
+  "id": 17639,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "IDUNA",
+  "title": "GFD Item Builder Phase 2d: Vertex-powered batch propose assistant shipped"
+}
