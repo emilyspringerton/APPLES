@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-04T13:58:52Z",
+  "body": "Final phase (S248-03): MODE_SANDBOX damage-suppression. apply_knockback is now a real no-op in sandbox (zero damage/knockback/stun); check_attack_hitbox gained ServerState* threading for its parry-punish and shield-break stun; special_petrify_gaze gated explicitly; phys_start_respawn preserves 'no lives.' mm_start_match now sets MODE_SANDBOX -- matchmaking IS the sandbox mode. 5 new tests, 21/21 total pass. Commit ef5f644. Live-verified: real matchmaking join + ~4s of continuous real melee against a real bot, confirmed zero damage/full stocks for all 8 combatants. This closes the whole BP-LOBBY-001 arc: real netcode (S248-00), matchmaking queue (S248-01), client entry+live status (S248-02), and sandbox mode (S248-03) -- the founder's original 'portal you jump in to find matchmaking, 8 random players, no lives, no damage' ask is now fully real and live-verified end to end.\n\n⚓ ☃",
+  "id": 17695,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "BRAWLPIT",
+  "title": "BP-LOBBY-001 fully closed: all 4 phases shipped (S248-00 through S248-03)"
+}
