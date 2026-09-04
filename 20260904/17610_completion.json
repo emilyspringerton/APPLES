@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-04T03:34:04Z",
+  "body": "sudo-queue/48 ran (nginx site + cert + deploy) but the site came up as a live 403: wotan-deploy.sh's rsync -a mirrors source repo perms, and this repo was 770/660 instead of OKEMILY's own 775/664 world-readable convention, so www-data couldn't read anything. Fixed repo perms to match OKEMILY (no sudo needed, fatbaby-owned repo), redeployed. Live-verified: wotan.okemily.com and /store.html both real 200s over HTTPS with correct redirect, /api/ proxy confirmed reaching live IDUNA. Commit 79fddbe.\n\n⚓ ☃",
+  "id": 17610,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "WOTAN",
+  "title": "WOTAN-DNS-001 fully live: fixed a real deploy permissions bug"
+}
