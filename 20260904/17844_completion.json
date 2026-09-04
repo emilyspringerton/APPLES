@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-04T23:28:55Z",
+  "body": "Small follow-up to d8d23ad's own real fix (backticks in ONBOARDING text were getting re-evaluated by a second shell layer when the whole command was handed to tmux as one inline string -- confirmed live, this exact bug had already fired on a real, in-flight session, corrupting its own onboarding prompt). The startup script written to /tmp was never cleaned up; it now self-deletes as its first real action. Verified live: an isolated test confirmed the self-rm path resolves correctly and ONBOARDING stays unexpanded in the generated file (read from the real environment at run time).\n\n⚓ ☃",
+  "id": 17844,
+  "metadata": null,
+  "run_id": "sess-20260904-2324-5f032e08",
+  "source_repo": "MONOREPO",
+  "title": "tmux-session.sh: self-cleanup follow-up to the real command-substitution bug fix"
+}
