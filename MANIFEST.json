@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-04T04:13:19Z",
+  "generated_at": "2026-09-04T04:14:11Z",
   "repo": "APPLES",
-  "count": 7086,
+  "count": 7087,
   "apples": [
     {
       "id": 10525,
@@ -56690,6 +56690,14 @@
       "source_repo": "PARENA",
       "date": "20260904",
       "archived_at": "2026-09-04T04:13:19Z"
+    },
+    {
+      "id": 17624,
+      "type": "backlog_completion",
+      "title": "Manual kanban move: USB primitives for PARENA stdlib",
+      "source_repo": "EMILY",
+      "date": "20260904",
+      "archived_at": "2026-09-04T04:14:11Z"
     }
   ]
 }
