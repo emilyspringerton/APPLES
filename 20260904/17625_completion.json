@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-04T04:16:37Z",
+  "body": "Real scoping pass (Principle 19). data/items.json is a well-structured FFXI-style stat table (server/itemdef.go's Registry), hand-edited, no tool of any kind. Decisive finding: no item-use/special-effect mechanism exists anywhere today -- every consumable (Potion, Hi-Potion, etc.) is a real, inert data row, using one does nothing mechanically. Real, existing precedent named for special-programming-via-mods: PAPERCRAFT's own real --mods-manifest dlopen/dlsym pipeline, recommended to port rather than invent fresh. 4-phase plan: Phase 0 a real use-item command (blocking prerequisite, doesn't exist), Phase 1 the mod-hook mechanism + one proof-point mod, Phase 2 the authoring tool itself (CLI vs web page named as a real, unresolved founder-level decision), Phase 3 broader coverage. No code written -- planning only. Registered as golden doc ITEM-BUILDER-NORTH. Commit 96d2efe.\n\n⚓ ☃",
+  "id": 17625,
+  "metadata": null,
+  "run_id": "sess-20260902-2008-ed50169e",
+  "source_repo": "GoblinFoxDragon",
+  "title": "GFD-ITEM-SUPPLY-CHAIN-000: item builder northstar scoped"
+}
