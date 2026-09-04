@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-04T01:06:21Z",
+  "generated_at": "2026-09-04T01:07:13Z",
   "repo": "APPLES",
-  "count": 7038,
+  "count": 7039,
   "apples": [
     {
       "id": 10525,
@@ -56306,6 +56306,14 @@
       "source_repo": "BRAWLPIT",
       "date": "20260904",
       "archived_at": "2026-09-04T01:06:21Z"
+    },
+    {
+      "id": 17576,
+      "type": "backlog_completion",
+      "title": "Manual kanban move: if turnip is on cooldown the character should not fall back ",
+      "source_repo": "EMILY",
+      "date": "20260904",
+      "archived_at": "2026-09-04T01:07:13Z"
     }
   ]
 }
