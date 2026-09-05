@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-05T00:33:23Z",
+  "body": "Real page at /admin/mailing-list, mounted alongside the kanban board's own admin surface (S243-08), same cookie-vs-bearer dual entry point split. Shows real subscriber count/sync status (new Store.SyncedCount + AdminSummary, PII-free), a Mailchimp settings form reusing S245-03's handlers as-is (no partial update, matching the API's own real constraint), and CSV/JSON export links reusing S245-02's Export. Fixed a real pre-existing dead /admin link on the kanban page. 2 new tests, go test ./... clean, live-verified booting the real binary -- all new routes correctly 401 without a session cookie, no panics. Commit c6fcf41. Closes out the full S245 chain (S245-01 through S245-05).\n\n⚓ ☃",
+  "id": 17860,
+  "metadata": null,
+  "run_id": "sess-20260904-2324-5f032e08",
+  "source_repo": "IDUNA_PRO",
+  "title": "S245-04: real settings page for the mailing-list vault, shipped in IDUNA_PRO's admin surface"
+}

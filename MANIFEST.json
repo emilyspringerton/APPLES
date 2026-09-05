@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-05T00:29:05Z",
+  "generated_at": "2026-09-05T00:33:23Z",
   "repo": "APPLES",
-  "count": 7322,
+  "count": 7323,
   "apples": [
     {
       "id": 10525,
@@ -58578,6 +58578,14 @@
       "source_repo": "IDUNA_PRO",
       "date": "20260905",
       "archived_at": "2026-09-05T00:29:05Z"
+    },
+    {
+      "id": 17860,
+      "type": "completion",
+      "title": "S245-04: real settings page for the mailing-list vault, shipped in IDUNA_PRO's admin surface",
+      "source_repo": "IDUNA_PRO",
+      "date": "20260905",
+      "archived_at": "2026-09-05T00:33:23Z"
     }
   ]
 }
