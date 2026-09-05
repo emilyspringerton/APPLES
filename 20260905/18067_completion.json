@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-05T21:34:37Z",
+  "body": "Added mail_account_credentials table (AES-256-GCM encrypted password at rest), local_uid linking on mailbox creation, reveal-password admin endpoint, and WebmailHandler auto-connect fallback so an admin-provisioned mailbox just works for the user with zero manual connect step. Commits IDUNA_PRO 4de6c3c, CarePyre 5150171.\n\n⚓ ☃",
+  "id": 18067,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "IDUNA_PRO",
+  "title": "Mail happy path: admin-provisioned mailboxes auto-connect webmail, revealable password"
+}
