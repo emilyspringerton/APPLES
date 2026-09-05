@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-05T20:54:15Z",
+  "generated_at": "2026-09-05T20:54:17Z",
   "repo": "APPLES",
-  "count": 7517,
+  "count": 7518,
   "apples": [
     {
       "id": 10525,
@@ -60138,6 +60138,14 @@
       "source_repo": "IDUNA_PRO",
       "date": "20260905",
       "archived_at": "2026-09-05T20:54:15Z"
+    },
+    {
+      "id": 18055,
+      "type": "completion",
+      "title": "changelog(IDUNA_PRO): Minimal webmail: GET/POST /api/v1/mail/* backed by real JMA…",
+      "source_repo": "IDUNA_PRO",
+      "date": "20260905",
+      "archived_at": "2026-09-05T20:54:17Z"
     }
   ]
 }
