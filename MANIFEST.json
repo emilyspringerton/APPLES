@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-05T05:01:29Z",
+  "generated_at": "2026-09-05T05:01:31Z",
   "repo": "APPLES",
-  "count": 7376,
+  "count": 7377,
   "apples": [
     {
       "id": 10525,
@@ -59010,6 +59010,14 @@
       "source_repo": "EMILY",
       "date": "20260905",
       "archived_at": "2026-09-05T05:01:29Z"
+    },
+    {
+      "id": 17914,
+      "type": "backlog_completion",
+      "title": "Manual kanban move: /design CAREPYRE SIP PHONE make it look nice",
+      "source_repo": "EMILY",
+      "date": "20260905",
+      "archived_at": "2026-09-05T05:01:31Z"
     }
   ]
 }
