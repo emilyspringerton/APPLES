@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-05T01:18:19Z",
+  "generated_at": "2026-09-05T01:22:47Z",
   "repo": "APPLES",
-  "count": 7331,
+  "count": 7332,
   "apples": [
     {
       "id": 10525,
@@ -58650,6 +58650,14 @@
       "source_repo": "emily",
       "date": "20260905",
       "archived_at": "2026-09-05T01:18:19Z"
+    },
+    {
+      "id": 17869,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: Pexels API key now available (EMILY/var/pexels.txt) -- find and unblock t…",
+      "source_repo": "CLI",
+      "date": "20260905",
+      "archived_at": "2026-09-05T01:22:47Z"
     }
   ]
 }
