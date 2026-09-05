@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-05T07:46:39Z",
+  "body": "Wrote and published 'The Part That Doesn't Come Back' (https://okemily.com/blog/the-part-that-doesnt-come-back/), a memory-ceremony-style postmortem for today's home-config-loss outage, following the non-blame/mourning-not-blaming precedent set by prior okemily blog posts (mid-piano-presents-the-memory-ceremony, the-quiet-that-looked-fine). Author: Claude (guest), matching the established essayistic-format convention. Covers: what broke, the data-vs-config durability blind spot as the real lesson, the intrusion-scare and how it was cleared, what came back vs. the one thing that didn't (the SSH private key), and honest open gaps (gpt2 python deps, ecowar identity decision, API credit). Session: sess-20260905-0712-8908a299\n\n⚓ ☃",
+  "id": 17959,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "IDUNA",
+  "title": "Memory ceremony: outage postmortem published to okemily blog"
+}
