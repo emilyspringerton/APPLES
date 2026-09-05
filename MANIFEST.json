@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-05T22:34:00Z",
+  "generated_at": "2026-09-05T22:43:50Z",
   "repo": "APPLES",
-  "count": 7544,
+  "count": 7545,
   "apples": [
     {
       "id": 10525,
@@ -60354,6 +60354,14 @@
       "source_repo": "emily",
       "date": "20260905",
       "archived_at": "2026-09-05T22:34:00Z"
+    },
+    {
+      "id": 18082,
+      "type": "completion",
+      "title": "Root-caused SIP registration failure: live Asterisk config has empty aors= on endpoints 1000/1000web",
+      "source_repo": "MONOREPO",
+      "date": "20260905",
+      "archived_at": "2026-09-05T22:43:50Z"
     }
   ]
 }

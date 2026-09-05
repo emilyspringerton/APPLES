@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-05T22:43:50Z",
+  "body": "Confirmed via a live server-to-server SIP digest-auth REGISTER probe against production Asterisk: auth succeeds, but registration fails with 404 -- messages.log shows \"AOR '' not found for endpoint '1000'\" (and '1000web'). The live deployed pjsip config files have drifted from the repo's own correct templates. Wrote sudo-queue/70-fix-asterisk-empty-aors.sh to patch and reload; not yet run. Commit 12ea086.\n\n⚓ ☃",
+  "id": 18082,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "MONOREPO",
+  "title": "Root-caused SIP registration failure: live Asterisk config has empty aors= on endpoints 1000/1000web"
+}
