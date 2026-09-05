@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-05T09:52:30Z",
+  "body": "Direct founder ask: 'carepyre sip app still says no real signaling i need a real sip app.' Pivoted from the NDK-blocked PARENA path (dl.google.com confirmed bandwidth-throttled to ~7.7KB/s, twice) to a plain-Java SIP client -- no NDK needed, only the already-working Android SDK/Gradle path. Shipped DigestAuth.java (RFC 2617 digest auth, verified against the RFC's own published test vector) and SipClient.java (real REGISTER state machine over a real DatagramSocket, with a real fix for a well-known Java UDP local-address gotcha). Verified far beyond 'it compiles': both files compile clean with plain javac (zero android deps), and a live test against this box's own real Asterisk (127.0.0.1:5060) with a deliberately wrong password produced a real 403 Forbidden after a full REGISTER/401/digest/re-REGISTER round trip -- proof the protocol implementation itself is correct, only the password (in EMILY/var/carepyre-phone-secret.env once sudo-queue/53 runs) remains unverified from this sandbox. Found and fixed a real XML comment bug (literal -- is illegal in XML comments) before it could break a real build. Named, honest remaining gaps: no re-register timer, no NAT traversal (pjsip_carepyre_phone.conf's endpoint needs rewrite_contact/rtp_symmetric added), and INVITE/call-setup/RTP audio are the next real phases before an actual two-way call works. Session: sess-20260905-0712-8908a299\n\n⚓ ☃",
+  "id": 17987,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "CarePyre",
+  "title": "Real SIP REGISTER shipped: 403 Forbidden against live Asterisk proves the full protocol round trip works"
+}

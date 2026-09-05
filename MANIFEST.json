@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-05T09:52:16Z",
+  "generated_at": "2026-09-05T09:52:30Z",
   "repo": "APPLES",
-  "count": 7449,
+  "count": 7450,
   "apples": [
     {
       "id": 10525,
@@ -59594,6 +59594,14 @@
       "source_repo": "CarePyre",
       "date": "20260905",
       "archived_at": "2026-09-05T09:52:16Z"
+    },
+    {
+      "id": 17987,
+      "type": "completion",
+      "title": "Real SIP REGISTER shipped: 403 Forbidden against live Asterisk proves the full protocol round trip works",
+      "source_repo": "CarePyre",
+      "date": "20260905",
+      "archived_at": "2026-09-05T09:52:30Z"
     }
   ]
 }
