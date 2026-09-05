@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-05T00:59:35Z",
+  "body": "S251-09: itemdef.Registry.ByName now normalizes multi-word names (spaces-\u003ehyphens) on both stored and lookup sides -- no multi-word item was ever reachable by its real hyphenated shop id before. S251-10: eat command's dispatch now reads args[0] (was args[1]), matching the adjacent use command's own correct pattern -- single-word 'eat potion' always missed before. S251-11: Leather Gloves/Spiked Knuckles' equip_slots corrected from handl/handr to the real canonical hand-l/hand-r -- neither was ever equippable as authored. New test TestByName_HyphenatedMultiWordName. go build/test ./... clean. Live-verified: zero active player connections confirmed first, rebuilt+restarted the real gfd-mud.service, confirmed listening cleanly. Commit fa8b62d.\n\n⚓ ☃",
+  "id": 17866,
+  "metadata": null,
+  "run_id": "sess-20260904-2324-5f032e08",
+  "source_repo": "GoblinFoxDragon",
+  "title": "S251-09/10/11: three real found-live item-system bugs fixed"
+}
