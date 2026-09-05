@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-05T20:17:34Z",
+  "generated_at": "2026-09-05T20:17:48Z",
   "repo": "APPLES",
-  "count": 7512,
+  "count": 7513,
   "apples": [
     {
       "id": 10525,
@@ -60098,6 +60098,14 @@
       "source_repo": "IDUNA_PRO",
       "date": "20260905",
       "archived_at": "2026-09-05T20:17:34Z"
+    },
+    {
+      "id": 18050,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: set up provisioning URL from the console for users under my sip, make the…",
+      "source_repo": "CLI",
+      "date": "20260905",
+      "archived_at": "2026-09-05T20:17:48Z"
     }
   ]
 }
