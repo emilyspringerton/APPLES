@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-05T05:08:01Z",
+  "generated_at": "2026-09-05T05:08:08Z",
   "repo": "APPLES",
-  "count": 7380,
+  "count": 7381,
   "apples": [
     {
       "id": 10525,
@@ -59042,6 +59042,14 @@
       "source_repo": "PARENA",
       "date": "20260905",
       "archived_at": "2026-09-05T05:08:01Z"
+    },
+    {
+      "id": 17918,
+      "type": "backlog_completion",
+      "title": "Manual kanban move: what is the proper SRE way to get ASTERISK running i think i",
+      "source_repo": "EMILY",
+      "date": "20260905",
+      "archived_at": "2026-09-05T05:08:08Z"
     }
   ]
 }
