@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-05T05:08:08Z",
+  "generated_at": "2026-09-05T05:18:18Z",
   "repo": "APPLES",
-  "count": 7381,
+  "count": 7382,
   "apples": [
     {
       "id": 10525,
@@ -59050,6 +59050,14 @@
       "source_repo": "EMILY",
       "date": "20260905",
       "archived_at": "2026-09-05T05:08:08Z"
+    },
+    {
+      "id": 17919,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time (rapid sequence): for CPP-124433/CPP-2144333 (CarePyre portal/console), pi…",
+      "source_repo": "CLI",
+      "date": "20260905",
+      "archived_at": "2026-09-05T05:18:18Z"
     }
   ]
 }
