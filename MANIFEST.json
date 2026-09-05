@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-05T10:10:48Z",
+  "generated_at": "2026-09-05T10:14:13Z",
   "repo": "APPLES",
-  "count": 7452,
+  "count": 7453,
   "apples": [
     {
       "id": 10525,
@@ -59618,6 +59618,14 @@
       "source_repo": "emily",
       "date": "20260905",
       "archived_at": "2026-09-05T10:10:48Z"
+    },
+    {
+      "id": 17990,
+      "type": "completion",
+      "title": "changelog(CarePyre): Added Linphone remote-provisioning: ops/linphone-provisioni…",
+      "source_repo": "CarePyre",
+      "date": "20260905",
+      "archived_at": "2026-09-05T10:14:13Z"
     }
   ]
 }
