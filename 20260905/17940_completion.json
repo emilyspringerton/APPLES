@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-05T06:23:44Z",
+  "body": "New internal/twilio client (Basic Auth via API Key SID/Secret) + TwilioHandler: GET /api/v1/twilio/status (balance/trunks/numbers) and POST /api/v1/twilio/trunk, gated on a new, separate twilio.admin permission (not folded into users.admin -- real IAM role separation as asked). Real credentials server-side only, never sent to the browser. Live-verified against the real Twilio account (0 balance, zero trunks): GetBalance/ListTrunks work; CreateTrunk fails with a real, human-only Trust Hub compliance block (code 20003), passed through verbatim rather than swallowed -- documented in PARENA/docs/TWILIO_SETUP_CHECKLIST.md. go test ./... passes with new regression coverage (fake-server HTTP round trip, permission gating, not-configured handling). Real secret-handling note: caught and fixed a source-file  mistake that printed the raw API key to terminal (founder confirmed OK to continue, stream was off) and a follow-on JSON/grep slip that printed the local JWT_SECRET (self-rotated immediately, no external step needed). IDUNA_PRO commit 0027b4c, CarePyre commit 4b628e9, PARENA commit 050445b.\n\n⚓ ☃",
+  "id": 17940,
+  "metadata": null,
+  "run_id": "sess-20260905-0117-d84e3a4e",
+  "source_repo": "IDUNA_PRO",
+  "title": "CP-SIP-242414/TWILLIO-API-124: real Twilio operations proxy + twilio.admin role"
+}

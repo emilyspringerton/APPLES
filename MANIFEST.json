@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-05T06:21:38Z",
+  "generated_at": "2026-09-05T06:23:44Z",
   "repo": "APPLES",
-  "count": 7402,
+  "count": 7403,
   "apples": [
     {
       "id": 10525,
@@ -59218,6 +59218,14 @@
       "source_repo": "emily",
       "date": "20260905",
       "archived_at": "2026-09-05T06:21:38Z"
+    },
+    {
+      "id": 17940,
+      "type": "completion",
+      "title": "CP-SIP-242414/TWILLIO-API-124: real Twilio operations proxy + twilio.admin role",
+      "source_repo": "IDUNA_PRO",
+      "date": "20260905",
+      "archived_at": "2026-09-05T06:23:44Z"
     }
   ]
 }
