@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-05T08:00:20Z",
+  "generated_at": "2026-09-05T08:00:27Z",
   "repo": "APPLES",
-  "count": 7427,
+  "count": 7428,
   "apples": [
     {
       "id": 10525,
@@ -59418,6 +59418,14 @@
       "source_repo": "IDUNA_PRO",
       "date": "20260905",
       "archived_at": "2026-09-05T08:00:20Z"
+    },
+    {
+      "id": 17965,
+      "type": "completion",
+      "title": "CAREPYRE-OPS-939141 done: Penelope granted IDUNA_PRO admin via new cmd/admin-grant",
+      "source_repo": "IDUNA_PRO",
+      "date": "20260905",
+      "archived_at": "2026-09-05T08:00:27Z"
     }
   ]
 }

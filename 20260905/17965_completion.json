@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-05T08:00:27Z",
+  "body": "Built the missing admin-genesis CLI (cmd/admin-grant) that the already-written but uncommitted is_admin schema/migration explicitly called for. Found and fixed 2 failing tests along the way (projector_test.go's hand-rolled schema had drifted from the real migration). Ran it live: frostpenelope1@gmail.com (uid 7) now has is_admin=1, verified in the DB. CAREPYRE-ADMIN-124323 (garybifrost@gmail.com) remains open -- he hasn't self-registered yet, tool correctly reports this rather than fabricating an account/password for him; re-run 'go run ./cmd/admin-grant garybifrost@gmail.com' once he does. Session: sess-20260905-0712-8908a299\n\n⚓ ☃",
+  "id": 17965,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "IDUNA_PRO",
+  "title": "CAREPYRE-OPS-939141 done: Penelope granted IDUNA_PRO admin via new cmd/admin-grant"
+}
