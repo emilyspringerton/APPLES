@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-05T05:24:45Z",
+  "body": "Built the real CarePyre Console: console.html (CarePyre-branded login+register+identity panel) talking to a real, separately-running IDUNA_PRO instance purely through its already-shipped REST API (register/local-auth/identities-me) via a same-origin nginx proxy (/console-api/ -\u003e :8081) -- IDUNA_PRO's own source untouched, zero edits. Architecture arrived at via real, rapid founder correction mid-build (full sequence in docs/CAREPYRE_CONSOLE_NORTHSTAR.md): use IDUNA_PRO -\u003e IDUNA_PRO should be whitelabel back office -\u003e IDUNA_PRO as the console for the platform it supports (EINHORN ops stay on OG IDUNA) -\u003e build WITH IDUNA_PRO not INTO it. Live-verified end to end against a locally-booted idunapro (register/login/identities-me all real, correct). Deploy queued (sudo-queue/51-carepyre-console-idunapro-deploy.sh, MONOREPO commit e4bff63), needs real root. Systemd unit added to IDUNA_PRO (commit e03375b, deployment infra only, zero app code changes). CarePyre commit c3718de.\n\n⚓ ☃",
+  "id": 17921,
+  "metadata": null,
+  "run_id": "sess-20260905-0117-d84e3a4e",
+  "source_repo": "CarePyre",
+  "title": "CPP-124433/CPP-2144333: real CarePyre Console on a separate IDUNA_PRO instance"
+}
