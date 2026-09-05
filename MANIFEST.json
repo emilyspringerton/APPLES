@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-05T05:06:45Z",
+  "generated_at": "2026-09-05T05:07:07Z",
   "repo": "APPLES",
-  "count": 7378,
+  "count": 7379,
   "apples": [
     {
       "id": 10525,
@@ -59026,6 +59026,14 @@
       "source_repo": "emily",
       "date": "20260905",
       "archived_at": "2026-09-05T05:06:45Z"
+    },
+    {
+      "id": 17916,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: what is the proper SRE way to get Asterisk running, it's gotta go on the …",
+      "source_repo": "CLI",
+      "date": "20260905",
+      "archived_at": "2026-09-05T05:07:07Z"
     }
   ]
 }
