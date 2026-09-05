@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-05T07:56:21Z",
+  "generated_at": "2026-09-05T07:56:22Z",
   "repo": "APPLES",
-  "count": 7423,
+  "count": 7424,
   "apples": [
     {
       "id": 10525,
@@ -59386,6 +59386,14 @@
       "source_repo": "emily",
       "date": "20260905",
       "archived_at": "2026-09-05T07:56:21Z"
+    },
+    {
+      "id": 17961,
+      "type": "completion",
+      "title": "changelog(PARENA): Added sip/sdp.prn: real SDP body parsing/building (RFC 4566…",
+      "source_repo": "PARENA",
+      "date": "20260905",
+      "archived_at": "2026-09-05T07:56:22Z"
     }
   ]
 }

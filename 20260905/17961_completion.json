@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-05T07:56:21Z",
+  "body": "CHANGELOG updated in PARENA: Added sip/sdp.prn: real SDP body parsing/building (RFC 4566), CarePyre SIP Phone Phase 2 (CAREPYRE-911343). Found+fixed a genuine compiler bug (match returning raw scalar with mixed literal/Ok-bound arms) via new unbox-i32 helper. make test-sip-sdp 7/7, make test 345/345 (sess-20260905-0720-ec33e7c5)\n\n⚓ ☃",
+  "id": 17961,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "PARENA",
+  "title": "changelog(PARENA): Added sip/sdp.prn: real SDP body parsing/building (RFC 4566…"
+}
