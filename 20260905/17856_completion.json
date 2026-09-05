@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-05T00:19:05Z",
+  "body": "GET /api/v1/mailing-list/export (?format=csv|json), gated behind new mailinglist.export permission (granted to super_admin). New Store.ListForExport returns ciphertext only, handler decrypts via already-unlocked Vault, skips (doesn't abort on) a corrupted row, fails closed (503) while locked. 9 new tests, go test ./... clean. Live-verified: migration applied against real prod var/iduna.db, redeployed iduna.service, live endpoint 401s unauthenticated as expected. Commit 3a50395. Unblocks S245-04's export button.\n\n⚓ ☃",
+  "id": 17856,
+  "metadata": null,
+  "run_id": "sess-20260904-2324-5f032e08",
+  "source_repo": "IDUNA",
+  "title": "S245-02: real export endpoint for the mailing-list Store"
+}
