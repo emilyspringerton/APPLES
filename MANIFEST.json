@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-05T04:06:49Z",
+  "generated_at": "2026-09-05T04:13:33Z",
   "repo": "APPLES",
-  "count": 7361,
+  "count": 7362,
   "apples": [
     {
       "id": 10525,
@@ -58890,6 +58890,14 @@
       "source_repo": "emily",
       "date": "20260905",
       "archived_at": "2026-09-05T04:06:49Z"
+    },
+    {
+      "id": 17899,
+      "type": "backlog_completion",
+      "title": "Manual kanban move: Android APK should be in releases for CAREPYRE SIP PHONE",
+      "source_repo": "EMILY",
+      "date": "20260905",
+      "archived_at": "2026-09-05T04:13:33Z"
     }
   ]
 }
