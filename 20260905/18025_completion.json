@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-05T17:16:00Z",
+  "body": "ops/stalwart/: terraform/ (Cloudflare A record for mail.carepyre.org, validated live against the real provider schema) + ansible/playbooks/stalwart.yml (installs via the real official installer, writes verified-schema config.json, pins recovery-admin credential, opens firewall, enables systemd). Real, live-checked finding: carepyre.org's Cloudflare zone is status=pending due to an ns_typo mismatch at the registrar -- needs fixing before DNS resolves. Real, honest gap named: Stalwart's one-time admin-UI setup wizard has no safe non-interactive path yet, named as v1 follow-up rather than guessed at.\n\n⚓ ☃",
+  "id": 18025,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "CarePyre",
+  "title": "Real Stalwart Terraform (DNS) + Ansible (provisioning) shipped"
+}
