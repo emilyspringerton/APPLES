@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-05T04:49:52Z",
+  "generated_at": "2026-09-05T04:50:15Z",
   "repo": "APPLES",
-  "count": 7370,
+  "count": 7371,
   "apples": [
     {
       "id": 10525,
@@ -58962,6 +58962,14 @@
       "source_repo": "IDUNA",
       "date": "20260905",
       "archived_at": "2026-09-05T04:49:52Z"
+    },
+    {
+      "id": 17908,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: web kanban showed 30 items in priority after moving a bunch to cruise, su…",
+      "source_repo": "CLI",
+      "date": "20260905",
+      "archived_at": "2026-09-05T04:50:15Z"
     }
   ]
 }
