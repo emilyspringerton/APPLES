@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-05T08:30:24Z",
+  "body": "Scoped per Principle 19 (real, multi-part feature: backend payload + visual QR rendering + Android camera scan, the last two genuinely blocked on the same no-Android-SDK-in-sandbox gap SIP_PHONE_ANDROID_NORTHSTAR already names). Shipped the bounded, testable Phase 1 now rather than leaving the whole ticket unscoped: GET /api/v1/sip-accounts/me/qr returns extension/sip_server/sip_port/transport for Android auto-fill. Named a real, honest gap and left it as a founder decision rather than guessing: sip_accounts has no password column and this payload never includes one -- CarePyre/docs/SIP_QR_ONBOARDING_NORTHSTAR.md spells out the tradeoff (manual password vs. a new encrypted column) for the founder to call. 2 new tests, go test ./... all pass. Registered as golden doc SIP-QR-ONBOARD. Session: sess-20260905-0712-8908a299\n\n⚓ ☃",
+  "id": 17973,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "IDUNA_PRO",
+  "title": "CAREPYRE-42143124 Phase 1: QR onboarding payload endpoint shipped"
+}

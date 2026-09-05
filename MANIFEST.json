@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-05T08:30:10Z",
+  "generated_at": "2026-09-05T08:30:24Z",
   "repo": "APPLES",
-  "count": 7435,
+  "count": 7436,
   "apples": [
     {
       "id": 10525,
@@ -59482,6 +59482,14 @@
       "source_repo": "CarePyre",
       "date": "20260905",
       "archived_at": "2026-09-05T08:30:10Z"
+    },
+    {
+      "id": 17973,
+      "type": "completion",
+      "title": "CAREPYRE-42143124 Phase 1: QR onboarding payload endpoint shipped",
+      "source_repo": "IDUNA_PRO",
+      "date": "20260905",
+      "archived_at": "2026-09-05T08:30:24Z"
     }
   ]
 }
