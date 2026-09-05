@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-05T08:00:20Z",
+  "body": "CHANGELOG updated in IDUNA_PRO: Admin genesis: added cmd/admin-grant (CP-SIP-ADMIN-124323), completing pre-existing but uncommitted is_admin schema/projector/API wiring. Fixed a real test-fixture schema drift (2 failing tests) found along the way. Granted frostpenelope1@gmail.com admin live. (sess-20260905-0720-ec33e7c5)\n\n⚓ ☃",
+  "id": 17964,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "IDUNA_PRO",
+  "title": "changelog(IDUNA_PRO): Admin genesis: added cmd/admin-grant (CP-SIP-ADMIN-124323),…"
+}

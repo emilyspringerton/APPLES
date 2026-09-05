@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-05T07:56:29Z",
+  "generated_at": "2026-09-05T08:00:20Z",
   "repo": "APPLES",
-  "count": 7426,
+  "count": 7427,
   "apples": [
     {
       "id": 10525,
@@ -59410,6 +59410,14 @@
       "source_repo": "PARENA",
       "date": "20260905",
       "archived_at": "2026-09-05T07:56:29Z"
+    },
+    {
+      "id": 17964,
+      "type": "completion",
+      "title": "changelog(IDUNA_PRO): Admin genesis: added cmd/admin-grant (CP-SIP-ADMIN-124323),…",
+      "source_repo": "IDUNA_PRO",
+      "date": "20260905",
+      "archived_at": "2026-09-05T08:00:20Z"
     }
   ]
 }
