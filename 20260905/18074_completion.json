@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-05T22:08:37Z",
+  "body": "Root cause of the 404 the founder hit after deploying: two earlier deploys today never actually restarted the live idunapro process (running since 20:50:35), so all backend changes since then were invisible despite clean builds. Fixed the script to explicitly restart; manually restarted the live service to pick up current code. Commit 80fe071.\n\n⚓ ☃",
+  "id": 18074,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "MONOREPO",
+  "title": "Fix: 51-carepyre-console-idunapro-deploy.sh now actually restarts idunapro (enable --now doesn't restart a running service)"
+}

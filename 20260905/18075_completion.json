@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-05T22:08:37Z",
+  "body": "Added mailaccounts.Client.AddEncryptionKey/GetEncryptionStatus and GET/POST /api/v1/mail/encryption on WebmailHandler. Verified against real production Stalwart: encryption cannot be enabled without a real OpenPGP/S-MIME key on file; adding one is the actual automatic trigger. Commits IDUNA_PRO f210969, CarePyre b732663.\n\n⚓ ☃",
+  "id": 18075,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "IDUNA_PRO",
+  "title": "Self-service mail encryption-at-rest (paste key -\u003e auto-enable), verified live end to end"
+}
