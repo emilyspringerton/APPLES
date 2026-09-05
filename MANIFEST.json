@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-05T22:18:41Z",
+  "generated_at": "2026-09-05T22:18:57Z",
   "repo": "APPLES",
-  "count": 7541,
+  "count": 7542,
   "apples": [
     {
       "id": 10525,
@@ -60330,6 +60330,14 @@
       "source_repo": "CarePyre",
       "date": "20260905",
       "archived_at": "2026-09-05T22:18:41Z"
+    },
+    {
+      "id": 18079,
+      "type": "completion",
+      "title": "changelog(CarePyre): Mail view is now a full-bleed two-pane panel matching the a…",
+      "source_repo": "CarePyre",
+      "date": "20260905",
+      "archived_at": "2026-09-05T22:18:57Z"
     }
   ]
 }
