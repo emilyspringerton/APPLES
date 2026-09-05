@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-05T05:01:27Z",
+  "generated_at": "2026-09-05T05:01:29Z",
   "repo": "APPLES",
-  "count": 7375,
+  "count": 7376,
   "apples": [
     {
       "id": 10525,
@@ -59002,6 +59002,14 @@
       "source_repo": "EMILY",
       "date": "20260905",
       "archived_at": "2026-09-05T05:01:27Z"
+    },
+    {
+      "id": 17913,
+      "type": "backlog_completion",
+      "title": "Manual kanban move: /plan we need some kind of config screen im guessing a dial ",
+      "source_repo": "EMILY",
+      "date": "20260905",
+      "archived_at": "2026-09-05T05:01:29Z"
     }
   ]
 }
