@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-05T12:20:13Z",
+  "generated_at": "2026-09-05T12:20:16Z",
   "repo": "APPLES",
-  "count": 7465,
+  "count": 7466,
   "apples": [
     {
       "id": 10525,
@@ -59722,6 +59722,14 @@
       "source_repo": "CarePyre",
       "date": "20260905",
       "archived_at": "2026-09-05T12:20:13Z"
+    },
+    {
+      "id": 18003,
+      "type": "completion",
+      "title": "changelog(CarePyre): Real SIP call setup (INVITE/ACK/BYE), RTP audio (G.711), an…",
+      "source_repo": "CarePyre",
+      "date": "20260905",
+      "archived_at": "2026-09-05T12:20:16Z"
     }
   ]
 }
