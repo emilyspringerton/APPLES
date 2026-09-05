@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-05T08:10:52Z",
+  "generated_at": "2026-09-05T08:10:58Z",
   "repo": "APPLES",
-  "count": 7430,
+  "count": 7431,
   "apples": [
     {
       "id": 10525,
@@ -59442,6 +59442,14 @@
       "source_repo": "CarePyre",
       "date": "20260905",
       "archived_at": "2026-09-05T08:10:52Z"
+    },
+    {
+      "id": 17968,
+      "type": "completion",
+      "title": "CAREPYRE-911343 Phase 3: real call-state machine shipped (PARENA/stdlib/sip/transaction.prn)",
+      "source_repo": "PARENA",
+      "date": "20260905",
+      "archived_at": "2026-09-05T08:10:58Z"
     }
   ]
 }

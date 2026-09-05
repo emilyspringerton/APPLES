@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-05T08:10:58Z",
+  "body": "Continued the SIP Phone NORTHSTAR's phased plan (Phase 2/SDP shipped earlier this session). Phase 3: a pure, functional call-state machine (Idle/Calling/Proceeding/Ringing/Established/Terminated + the send/recv event vocabulary for both directions), one entry point transition(state, event, dest) returning the next state or a real InvalidTransition error. Directly serves this ticket plus its siblings CAREPYRE-245435/CAREPYRE-535454/CAREPYRE-5435439434 (all describing the same finish line). 14/14 new assertions, 345/345 full suite, zero regressions. Remaining: Phase 4 (G.711 codec + real RTP send/receive loop) and embedding the native core into the actual Android APK (gap #2, the SDL2/NDK cross-compile blocker) -- real, separate, substantial work, left for next iteration. Session: sess-20260905-0712-8908a299\n\n⚓ ☃",
+  "id": 17968,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "PARENA",
+  "title": "CAREPYRE-911343 Phase 3: real call-state machine shipped (PARENA/stdlib/sip/transaction.prn)"
+}
