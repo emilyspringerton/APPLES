@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-05T20:54:15Z",
+  "body": "internal/mailaccounts/client.go: ListInbox/GetMessage/SendMessage using standard JMAP Mail (RFC 8621) -- authenticates as whichever real user's own credential the client instance holds, not the admin. Two real bugs found via live testing: mailbox/identity ids are per-account (resolved fresh by role/email, not assumed), and EmailSubmission/set's own JMAP back-reference syntax was rejected by this Stalwart version (fixed with two sequential explicit requests). internal/http/handlers/webmail.go: GET/POST /api/v1/mail/{status,connect,messages,messages/id,send}, any authenticated user (not admin-gated). Real, honest in-memory-only credential store -- never written to disk, forgotten on restart. Live-verified full round trip via real curl calls: connect, send (penelope-\u003ebrian), list, read. console.html got a real Connect/Inbox/Read/Compose UI. Commits: IDUNA_PRO 214bda9, CarePyre 0485b69.\n\n⚓ ☃",
+  "id": 18054,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "IDUNA_PRO",
+  "title": "Minimal webmail (inbox/read/send) shipped, real JMAP end to end"
+}

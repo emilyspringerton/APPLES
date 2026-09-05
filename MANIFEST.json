@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-05T20:49:21Z",
+  "generated_at": "2026-09-05T20:54:15Z",
   "repo": "APPLES",
-  "count": 7516,
+  "count": 7517,
   "apples": [
     {
       "id": 10525,
@@ -60130,6 +60130,14 @@
       "source_repo": "emily",
       "date": "20260905",
       "archived_at": "2026-09-05T20:49:21Z"
+    },
+    {
+      "id": 18054,
+      "type": "completion",
+      "title": "Minimal webmail (inbox/read/send) shipped, real JMAP end to end",
+      "source_repo": "IDUNA_PRO",
+      "date": "20260905",
+      "archived_at": "2026-09-05T20:54:15Z"
     }
   ]
 }
