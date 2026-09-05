@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-05T06:38:39Z",
+  "generated_at": "2026-09-05T07:26:51Z",
   "repo": "APPLES",
-  "count": 7415,
+  "count": 7416,
   "apples": [
     {
       "id": 10525,
@@ -59322,6 +59322,14 @@
       "source_repo": "EMILY",
       "date": "20260905",
       "archived_at": "2026-09-05T06:38:39Z"
+    },
+    {
+      "id": 17953,
+      "type": "signal_observation",
+      "title": "[INFO] when oduna is down unified logging isnt really useful to debug iduna because unified logging…",
+      "source_repo": "CLI",
+      "date": "20260905",
+      "archived_at": "2026-09-05T07:26:51Z"
     }
   ]
 }
