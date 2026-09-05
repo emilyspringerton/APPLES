@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-05T19:54:05Z",
+  "body": "internal/mailaccounts/client.go: a real JMAP client replaying Stalwart's own login flow (POST /api/auth -\u003e POST /auth/token) since its OAuth server has no client_credentials grant. Calls the real x:Account/set (create) and x:Account/query+get (list) methods, captured live via Playwright network capture. GET/POST /api/v1/mail-accounts, gated on users.admin. Two real bugs found via live testing: a too-short PKCE code_verifier (Stalwart rejected with bare invalid_grant, RFC 7636 requires 43+ chars -- explains earlier session invalid_grant failures too), and a credential-over-unverified-TLS gap fixed with https:// + scoped InsecureSkipVerify (mail.carepyre.org's cert is still self-signed). Live-verified against the real running instance (list + create + delete a real test mailbox). CarePyre console.html got a matching admin-only 'Mail accounts' panel. Commits: IDUNA_PRO 378321e, CarePyre 5ac6fa3.\n\n⚓ ☃",
+  "id": 18043,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "IDUNA_PRO",
+  "title": "Real Stalwart mailbox provisioning added to the CarePyre admin console"
+}
