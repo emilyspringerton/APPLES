@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-05T10:14:14Z",
+  "body": "Founder asked to set up the Linphone provisioning URL. Deployed a standard Linphone-native remote-provisioning XML (lpconfig.xsd) at https://carepyre.org/provisioning/f437f88af0d2cfa429bcfe2aff69e487.xml -- auto-fills extension 1000, server 198.58.107.85:5060, and the real regenerated password in one paste, no manual entry needed once the underlying auth issue is resolved. Real, named security tradeoff: Linphone's remote-provisioning fetch has no bearer-token support, so the file is gated only by an unguessable 32-hex-char token in the path (capability-URL model), not real auth -- acceptable for single-user founder testing, documented directly in the repo template (CarePyre/ops/linphone-provisioning-template.xml) for whoever needs to reconsider it later. Note: registration itself is still returning 403 pending the sudo-queue/55 verbose diagnostic -- this URL will start working the moment that's resolved, no further provisioning work needed. Session: sess-20260905-0712-8908a299\n\n⚓ ☃",
+  "id": 17991,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "CarePyre",
+  "title": "Linphone remote-provisioning URL live"
+}
