@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-05T00:05:30Z",
+  "generated_at": "2026-09-05T00:14:30Z",
   "repo": "APPLES",
-  "count": 7317,
+  "count": 7318,
   "apples": [
     {
       "id": 10525,
@@ -58538,6 +58538,14 @@
       "source_repo": "emily",
       "date": "20260905",
       "archived_at": "2026-09-05T00:05:30Z"
+    },
+    {
+      "id": 17855,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: continue kanban, pick next value/effort items from priority queue",
+      "source_repo": "CLI",
+      "date": "20260905",
+      "archived_at": "2026-09-05T00:14:30Z"
     }
   ]
 }
