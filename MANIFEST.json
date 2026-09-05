@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-05T10:24:51Z",
+  "generated_at": "2026-09-05T10:30:36Z",
   "repo": "APPLES",
-  "count": 7455,
+  "count": 7456,
   "apples": [
     {
       "id": 10525,
@@ -59642,6 +59642,14 @@
       "source_repo": "emily",
       "date": "20260905",
       "archived_at": "2026-09-05T10:24:51Z"
+    },
+    {
+      "id": 17993,
+      "type": "completion",
+      "title": "changelog(CarePyre): Root cause of the persistent SIP REGISTER 403 found: legacy…",
+      "source_repo": "CarePyre",
+      "date": "20260905",
+      "archived_at": "2026-09-05T10:30:36Z"
     }
   ]
 }
