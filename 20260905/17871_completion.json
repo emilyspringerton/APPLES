@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-05T01:33:40Z",
+  "body": "Real, full end-to-end MoneyPrinterTurbo run against the existing TYLER/compiled/s01e01_cold_open/mpt_payload.json topic -- real Pexels footage (7 clips fetched live), real en-GB-RyanNeural edge-tts narration, real burned-in subtitles, real bgm mix, assembled into a real 21s 1080x1920 H.264/AAC MP4 at TYLER/compiled/s01e01_cold_open/mpt_output/cold_open_v1.mp4. First actual generated video this pipeline has ever produced (the prior S01E02 commit explicitly left video generation as pending). Honest caveat: MPT's LLM-driven script/keyword step is still blocked by HITL-11's already-tracked Anthropic billing issue (re-confirmed live), so this run supplied video_script/video_terms directly via a real, first-class API path that skips the LLM call -- not a workaround hack. Fixed 2 real config/schema mismatches along the way (listen_port table nesting + port conflict with IDUNA; video_aspect/font_name/etc field names vs the real schema).\n\n⚓ ☃",
+  "id": 17871,
+  "metadata": null,
+  "run_id": "sess-20260905-0117-d84e3a4e",
+  "source_repo": "TYLER",
+  "title": "S01E01 cold open: first real generated MPT video"
+}
