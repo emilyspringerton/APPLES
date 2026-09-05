@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-05T05:40:03Z",
+  "generated_at": "2026-09-05T05:42:37Z",
   "repo": "APPLES",
-  "count": 7392,
+  "count": 7393,
   "apples": [
     {
       "id": 10525,
@@ -59138,6 +59138,14 @@
       "source_repo": "CarePyre",
       "date": "20260905",
       "archived_at": "2026-09-05T05:40:03Z"
+    },
+    {
+      "id": 17930,
+      "type": "completion",
+      "title": "PBX-SRE-124533: Phase 3 AMI action builders (Originate/Hangup/QueueStatus) shipped",
+      "source_repo": "PARENA",
+      "date": "20260905",
+      "archived_at": "2026-09-05T05:42:37Z"
     }
   ]
 }
