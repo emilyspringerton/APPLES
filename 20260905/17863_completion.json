@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-05T00:46:29Z",
+  "body": "Closes a found-not-fixed gap: one email/password was a single shared identity across every game trusting IDUNA player JWTs (PAPERCRAFT/SHANKPIT/WEAKNIGHT_BEDROCK_RACERS interchangeably). New nullable players.game column, stamped into every JWT at register/login and OAuth. New gameClaimMatches helper: each of the 3 ticket handlers now rejects a mismatched game claim with 403; an absent claim stays unscoped (backward compatible). 21 new tests, go test ./... clean. Live-verified against real prod var/iduna.db -- a papercraft-scoped registration correctly minted a papercraft ticket (200) and was rejected minting a shankpit ticket (403), the exact founder-named scenario ('make sure that account only for papercraft'), reproduced and fixed; test account then deleted. Commit 627633e.\n\n⚓ ☃",
+  "id": 17863,
+  "metadata": null,
+  "run_id": "sess-20260904-2324-5f032e08",
+  "source_repo": "IDUNA",
+  "title": "S241-01: real security fix -- player accounts now scoped per game"
+}

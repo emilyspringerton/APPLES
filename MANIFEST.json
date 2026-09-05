@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-05T00:37:46Z",
+  "generated_at": "2026-09-05T00:46:29Z",
   "repo": "APPLES",
-  "count": 7325,
+  "count": 7326,
   "apples": [
     {
       "id": 10525,
@@ -58602,6 +58602,14 @@
       "source_repo": "CLI",
       "date": "20260905",
       "archived_at": "2026-09-05T00:37:46Z"
+    },
+    {
+      "id": 17863,
+      "type": "completion",
+      "title": "S241-01: real security fix -- player accounts now scoped per game",
+      "source_repo": "IDUNA",
+      "date": "20260905",
+      "archived_at": "2026-09-05T00:46:29Z"
     }
   ]
 }
