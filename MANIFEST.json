@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-05T22:08:38Z",
+  "generated_at": "2026-09-05T22:08:58Z",
   "repo": "APPLES",
-  "count": 7538,
+  "count": 7539,
   "apples": [
     {
       "id": 10525,
@@ -60306,6 +60306,14 @@
       "source_repo": "IDUNA_PRO",
       "date": "20260905",
       "archived_at": "2026-09-05T22:08:38Z"
+    },
+    {
+      "id": 18076,
+      "type": "completion",
+      "title": "changelog(IDUNA_PRO): Self-service mail encryption-at-rest: paste a PGP/S-MIME ke…",
+      "source_repo": "IDUNA_PRO",
+      "date": "20260905",
+      "archived_at": "2026-09-05T22:08:58Z"
     }
   ]
 }
