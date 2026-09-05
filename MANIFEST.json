@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-05T21:35:12Z",
+  "generated_at": "2026-09-05T21:35:14Z",
   "repo": "APPLES",
-  "count": 7532,
+  "count": 7533,
   "apples": [
     {
       "id": 10525,
@@ -60258,6 +60258,14 @@
       "source_repo": "IDUNA_PRO",
       "date": "20260905",
       "archived_at": "2026-09-05T21:35:12Z"
+    },
+    {
+      "id": 18070,
+      "type": "completion",
+      "title": "changelog(CarePyre): Admin Users table: create a mailbox tied to a user (auto-co…",
+      "source_repo": "CarePyre",
+      "date": "20260905",
+      "archived_at": "2026-09-05T21:35:14Z"
     }
   ]
 }
