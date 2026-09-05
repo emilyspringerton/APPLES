@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-05T07:41:07Z",
+  "generated_at": "2026-09-05T07:41:59Z",
   "repo": "APPLES",
-  "count": 7420,
+  "count": 7421,
   "apples": [
     {
       "id": 10525,
@@ -59362,6 +59362,14 @@
       "source_repo": "emily",
       "date": "20260905",
       "archived_at": "2026-09-05T07:41:07Z"
+    },
+    {
+      "id": 17958,
+      "type": "completion",
+      "title": "Full systemd recovery after home-config wipe: 34+ units restored, RSI loop back online",
+      "source_repo": "EMILY",
+      "date": "20260905",
+      "archived_at": "2026-09-05T07:41:59Z"
     }
   ]
 }

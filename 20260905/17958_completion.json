@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-05T07:41:59Z",
+  "body": "Restored the entire systemd --user stack after ~/.config/systemd/user, ~/.ssh, ~/.gitconfig, ~/.local/bin, and ~/go.work were all found empty (home-scoped config lost, all project data/DBs/keys intact). Brought back: emily-system (observation-watcher + emily-agent RSI daemon), all 22 FatBaby watchers/processors + 2 timers, EINHORN_SURVIVAL, GFD (mud/server-go/wsudprelay), SHANKPIT-460 (+bot), WEAKNIGHT_RACERS, ECOWAR bot-pool, PAPERCRAFT, BRAWLPIT, JEWEL jupyter, and all 7 REDGARDEN R\u0026D+stable matchmaker/bot-pool units (traced WorkingDirectory to resolve 5x duplicate unit-file ambiguity across REDGARDEN/ECOWAR/redgarden-deploy/redgarden-stable/fix -- canonical source is REDGARDEN/ops/systemd/* itself, redgarden-deploy is only auto_deploy.sh's private CI-polling checkout, never serves live). Zero failed units. Left stopped as pre-existing, unrelated gaps: fatbaby-kgraph-server (no MONGO_URI, documented gap since 2026-08-20), ecowar-matchmaker (undecided IDUNA agent-identity question, documented in its own unit file), gpt2-serve (missing python transformers/torch -- likely lost with ~/.local, needs a deliberate pip install, not done blind). New finding: ~/go.work is NOT git-tracked (confirmed via git log) -- recreated via 'go work init' across all 6 Go modules (added gpt2-alpine-c, needed by emily-agent's towerprint import, previously undocumented in CLAUDE.md's module table). Root cause of the original outage traced (not an intrusion -- checked users/authorized_keys/cron/listening ports, all clean; root logins all from one consistent Verizon Wireless residential IP): a reboot combined with lost home-scoped config. Separately found: Anthropic API credit balance too low, blocking cross-domain synthesis/chat/backlog-promote -- billing action needed, not fixable from here. Session: sess-20260905-0712-8908a299\n\n⚓ ☃",
+  "id": 17958,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "EMILY",
+  "title": "Full systemd recovery after home-config wipe: 34+ units restored, RSI loop back online"
+}
