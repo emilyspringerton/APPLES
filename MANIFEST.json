@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-05T09:05:06Z",
+  "generated_at": "2026-09-05T09:05:08Z",
   "repo": "APPLES",
-  "count": 7442,
+  "count": 7443,
   "apples": [
     {
       "id": 10525,
@@ -59538,6 +59538,14 @@
       "source_repo": "PARENA",
       "date": "20260905",
       "archived_at": "2026-09-05T09:05:06Z"
+    },
+    {
+      "id": 17980,
+      "type": "completion",
+      "title": "changelog(CarePyre): SIP Phone NORTHSTAR: G.711 codec shipped, RTP send/receive …",
+      "source_repo": "CarePyre",
+      "date": "20260905",
+      "archived_at": "2026-09-05T09:05:08Z"
     }
   ]
 }
