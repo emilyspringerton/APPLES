@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-05T07:56:23Z",
+  "generated_at": "2026-09-05T07:56:29Z",
   "repo": "APPLES",
-  "count": 7425,
+  "count": 7426,
   "apples": [
     {
       "id": 10525,
@@ -59402,6 +59402,14 @@
       "source_repo": "CarePyre",
       "date": "20260905",
       "archived_at": "2026-09-05T07:56:23Z"
+    },
+    {
+      "id": 17963,
+      "type": "completion",
+      "title": "CAREPYRE-911343 Phase 2: real SDP body parsing shipped (PARENA/stdlib/sip/sdp.prn)",
+      "source_repo": "PARENA",
+      "date": "20260905",
+      "archived_at": "2026-09-05T07:56:29Z"
     }
   ]
 }

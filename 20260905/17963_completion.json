@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-05T07:56:29Z",
+  "body": "Priority-queue ticket CAREPYRE-911343 ('PARENA CODEC AND ALL THE SIP PLUMBING TO MAKE THE SIP PHONE WORK') was already scoped in CarePyre/docs/SIP_PHONE_ANDROID_NORTHSTAR.md through Phase 6 -- per the founder's 'if already scoped, do the hard work' instruction, implemented the next real phase rather than re-scoping. Phase 2 (SDP/RFC 4566 body parsing, named in that doc as 'the real blocking gap for negotiating a two-way audio session') shipped: parse-sdp/build-sdp-offer, a genuine compiler bug found and fixed (unbox-i32, same class as unbox-bool/unbox-filehandle), 7/7 new test assertions, 345/345 full suite, zero regressions. NORTHSTAR doc and STDLIB.md updated. Remaining phases on this ticket (3: transaction layer, 4: G.711 codec+RTP loop, embedding the native core into the actual APK per gap #2) are real, separate, substantial work -- left as the next iteration, ticket remains in priority queue at CAREPYRE-911343. Session: sess-20260905-0712-8908a299\n\n⚓ ☃",
+  "id": 17963,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "PARENA",
+  "title": "CAREPYRE-911343 Phase 2: real SDP body parsing shipped (PARENA/stdlib/sip/sdp.prn)"
+}
