@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-05T02:01:22Z",
+  "body": "All 5 S01 episodes (S01E01-S01E05) now have a real generated cold-open video via the MPT pipeline: compiled/s01e0N/mpt_output/cold_open_v1.mp4 (+.srt), ~19-21s, 1080x1920 H.264/AAC, real Pexels footage, real en-GB-RyanNeural narration, real burned-in subtitles, real bgm. S01E02's pre-existing payload only had video_subject (no video_script/video_terms) and hit the same HITL-11 LLM-billing block on the first attempt -- fixed permanently by adding both fields. S01E03/04/05 had no prior payload at all; wrote new mpt_payload.json for each with an original short present-tense topic summary. All 5 verified with ffprobe (valid H.264/AAC, correct resolution). TYLER commit 8a609d8.\n\n⚓ ☃",
+  "id": 17874,
+  "metadata": null,
+  "run_id": "sess-20260905-0117-d84e3a4e",
+  "source_repo": "TYLER",
+  "title": "Full Season 1 run through MoneyPrinterTurbo -- 5/5 episode cold opens generated"
+}
