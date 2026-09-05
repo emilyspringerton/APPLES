@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-05T05:33:49Z",
+  "body": "Founder ran 'sudo ./51-carepyre-console-idunapro-deploy.sh' and hit 'Failed to connect to bus: No medium found' at the systemctl --user step -- twice. Root cause: sudo strips the per-user D-Bus session systemctl --user needs, and also repoints ~/$HOME at /root for the build+secret-file steps. Fixed by adding a hard guard refusing to run as root, with a clear message to run it as themselves (fatbaby) instead -- matches every other sudo-queue script's own established 'prompts for sudo itself when it needs to' convention. Commit d8b6023.\n\n⚓ ☃",
+  "id": 17926,
+  "metadata": null,
+  "run_id": "sess-20260905-0117-d84e3a4e",
+  "source_repo": "MONOREPO",
+  "title": "Fixed sudo-queue/51: must not run under sudo (systemctl --user bus failure)"
+}
