@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-05T06:26:39Z",
+  "generated_at": "2026-09-05T06:33:26Z",
   "repo": "APPLES",
-  "count": 7407,
+  "count": 7408,
   "apples": [
     {
       "id": 10525,
@@ -59258,6 +59258,14 @@
       "source_repo": "EMILY",
       "date": "20260905",
       "archived_at": "2026-09-05T06:26:39Z"
+    },
+    {
+      "id": 17945,
+      "type": "completion",
+      "title": "TWILLIO-OPS-12433: real Twilio trunk provisioned via API end to end",
+      "source_repo": "PARENA",
+      "date": "20260905",
+      "archived_at": "2026-09-05T06:33:26Z"
     }
   ]
 }

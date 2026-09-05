@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-05T06:33:26Z",
+  "body": "Trust Hub compliance cleared, provisioned the full real trunk via API: trunk carepyre.pstn.twilio.com, IP ACL for this box own static IP, Origination URI, and a real phone number (+17855315546, dollar1.15/mo) assigned to the trunk. Real domain baked directly into ops/asterisk/pjsip_twilio_trunk.conf (no more placeholder). sudo-queue/52-carepyre-asterisk-plumbing-deploy.sh updated to reflect this and is a complete one-shot deploy now. Not yet run against the live Asterisk instance -- needs real root. PARENA commit 4132bf9, MONOREPO commit 4891c2e.\n\n⚓ ☃",
+  "id": 17945,
+  "metadata": null,
+  "run_id": "sess-20260905-0117-d84e3a4e",
+  "source_repo": "PARENA",
+  "title": "TWILLIO-OPS-12433: real Twilio trunk provisioned via API end to end"
+}
