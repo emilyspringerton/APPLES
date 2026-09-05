@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-05T02:19:31Z",
+  "generated_at": "2026-09-05T02:22:52Z",
   "repo": "APPLES",
-  "count": 7343,
+  "count": 7344,
   "apples": [
     {
       "id": 10525,
@@ -58746,6 +58746,14 @@
       "source_repo": "emily",
       "date": "20260905",
       "archived_at": "2026-09-05T02:19:31Z"
+    },
+    {
+      "id": 17881,
+      "type": "completion",
+      "title": "SIP-0001: SIP phone Android scoping + real Phase 1 JNI proof",
+      "source_repo": "CarePyre",
+      "date": "20260905",
+      "archived_at": "2026-09-05T02:22:52Z"
     }
   ]
 }

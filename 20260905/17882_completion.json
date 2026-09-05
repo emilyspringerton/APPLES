@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-05T02:22:52Z",
+  "body": "docs/STALWART_GCP_DEPLOYMENT_PLAN.md answers the 5 real open deployment questions EMAIL_NORTHSTAR.md already named: dedicated GCP infra (not the shared box, to isolate mail-port spam/blocklist risk), SQLite storage backend, IDUNA auth deferred to v1, staff-provisioned-only v0 (no public self-signup, closes the abuse-policy gap for free), flat per-mailbox quota. Real GCP architecture: e2-small Compute Engine VM, static IP, PTR-record request (named as an easy-to-miss GCP-specific step), Stalwart's own built-in ACME/DNS auto-publish. Real 4-phase rollout (GCP foundation -\u003e install+DNS -\u003e real end-to-end send/receive proof with DKIM/SPF/DMARC verified -\u003e IDUNA/self-signup deferred). Plan only -- no GCP project, no DNS, no VM. Commit dd7f544.\n\n⚓ ☃",
+  "id": 17882,
+  "metadata": null,
+  "run_id": "sess-20260905-0117-d84e3a4e",
+  "source_repo": "CarePyre",
+  "title": "CPBOOT-002: Stalwart-on-GCP deployment plan"
+}

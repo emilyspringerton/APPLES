@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-05T02:22:52Z",
+  "body": "docs/SIP_PHONE_ANDROID_NORTHSTAR.md: real, checked foundation found -- PARENA already has tested stdlib/sip/message.prn (RFC 3261, 9/9 assertions pass) and stdlib/sip/rtp.prn (RFC 3550, verified live). Real architecture named: PARENA-C -\u003e shared library -\u003e JNI (PARENA's proven target for this code is C, not the Java emitter SPIDERBEETLE proved for scalar functions only), matching SIP-0001's own 'java ffi escape hatch when needed.' Phase 1 shipped for real: native/sip-jni-proof/ compiles message.prn to C, wraps it in libcarepyre_sip.so, calls it from real Java via JNI -- verified live, produces a correct RFC-3261-shaped SIP REGISTER. Real gotcha found+fixed: parena_runtime.h must be included before jni.h (feature-test-macro ordering). Real, honest gaps named for later phases: no Android SDK in this sandbox, no SDP body support, no transaction state machine, no audio codec, no real SIP account to test against. Commit dd7f544.\n\n⚓ ☃",
+  "id": 17881,
+  "metadata": null,
+  "run_id": "sess-20260905-0117-d84e3a4e",
+  "source_repo": "CarePyre",
+  "title": "SIP-0001: SIP phone Android scoping + real Phase 1 JNI proof"
+}
