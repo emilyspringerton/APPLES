@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-05T22:09:00Z",
+  "generated_at": "2026-09-05T22:18:41Z",
   "repo": "APPLES",
-  "count": 7540,
+  "count": 7541,
   "apples": [
     {
       "id": 10525,
@@ -60322,6 +60322,14 @@
       "source_repo": "CarePyre",
       "date": "20260905",
       "archived_at": "2026-09-05T22:09:00Z"
+    },
+    {
+      "id": 18078,
+      "type": "completion",
+      "title": "Console: mail view now a full-bleed panel matching the /design mockup, not a floating narrow card",
+      "source_repo": "CarePyre",
+      "date": "20260905",
+      "archived_at": "2026-09-05T22:18:41Z"
     }
   ]
 }

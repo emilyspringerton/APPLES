@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-05T22:18:41Z",
+  "body": "Root cause: the two-pane mail UI was wrapped in the same generic .card as simple settings forms, and a global 960px content cap centered everything, producing a small floating card with huge empty gutters on wide viewports. Removed the global cap (SIP/Account pages get their own .narrow-card instead); mail's two-pane view is now a flush panel filling the full content area. Deployed live (static-only change). Commit 172c1cf.\n\n⚓ ☃",
+  "id": 18078,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "CarePyre",
+  "title": "Console: mail view now a full-bleed panel matching the /design mockup, not a floating narrow card"
+}
