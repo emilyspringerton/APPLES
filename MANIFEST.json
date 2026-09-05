@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-05T22:48:29Z",
+  "generated_at": "2026-09-05T23:01:50Z",
   "repo": "APPLES",
-  "count": 7546,
+  "count": 7547,
   "apples": [
     {
       "id": 10525,
@@ -60370,6 +60370,14 @@
       "source_repo": "emily",
       "date": "20260905",
       "archived_at": "2026-09-05T22:48:29Z"
+    },
+    {
+      "id": 18084,
+      "type": "completion",
+      "title": "Found the real Asterisk registration bug (70's fix was a no-op): AOR section names must match the extension",
+      "source_repo": "MONOREPO",
+      "date": "20260905",
+      "archived_at": "2026-09-05T23:01:50Z"
     }
   ]
 }

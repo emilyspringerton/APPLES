@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-05T23:01:50Z",
+  "body": "Verified 70 did not fix it via a live SIP REGISTER probe. Pulled Asterisk's own res_pjsip_registrar.c source: the registrar requires an AOR's section name to literally equal the REGISTER username/username@domain/username@realm -- a descriptively-named AOR (carepyre-phone-aor) can never match, causing every registration to 404 regardless of the aors= value. Fixed PARENA's templates (renamed to [1000]/[1000web]) and wrote sudo-queue/71 to apply the same rename live + verify with a real end-to-end SIP REGISTER (not just a config dump). Not yet run. PARENA commit b1f9fbe, MONOREPO commit 48beaff.\n\n⚓ ☃",
+  "id": 18084,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "MONOREPO",
+  "title": "Found the real Asterisk registration bug (70's fix was a no-op): AOR section names must match the extension"
+}
