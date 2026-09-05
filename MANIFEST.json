@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-05T04:39:28Z",
+  "generated_at": "2026-09-05T04:39:35Z",
   "repo": "APPLES",
-  "count": 7368,
+  "count": 7369,
   "apples": [
     {
       "id": 10525,
@@ -58946,6 +58946,14 @@
       "source_repo": "EMILY",
       "date": "20260905",
       "archived_at": "2026-09-05T04:39:28Z"
+    },
+    {
+      "id": 17906,
+      "type": "completion",
+      "title": "CP-OPS-1244: CarePyre SIP phone builds under Bazel",
+      "source_repo": "CarePyre",
+      "date": "20260905",
+      "archived_at": "2026-09-05T04:39:35Z"
     }
   ]
 }

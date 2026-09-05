@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-05T04:39:34Z",
+  "body": "native/sip-jni-proof/ now builds hermetically via Bazel 9.2.0: rules_cc cc_library/cc_binary(linkshared) for libcarepyre_sip.so, java_test for the real JNI smoke test, jni.h/jni_md.h from @bazel_tools//tools/jdk:jni against a hermetic remotejdk_21 (no system JDK needed -- verified live). CI's sip-jni-proof job now runs through bazel build/bazel test instead of raw gcc/javac/java. Both bazel build //... and bazel test //... pass clean. android/ (Gradle) deliberately stays out of Bazel -- rules_android needs an Android SDK/NDK this sandbox can't reach. Commit 3d7f3bb.\n\n⚓ ☃",
+  "id": 17906,
+  "metadata": null,
+  "run_id": "sess-20260905-0117-d84e3a4e",
+  "source_repo": "CarePyre",
+  "title": "CP-OPS-1244: CarePyre SIP phone builds under Bazel"
+}
