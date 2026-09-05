@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-05T05:37:06Z",
+  "body": "Founder reported it still failed even without sudo after the first fix. Real root cause: systemctl --user needs XDG_RUNTIME_DIR/DBUS_SESSION_BUS_ADDRESS pointed at the real per-user bus socket, not reliably exported in every shell/session type -- same fix this session already had to hand-apply earlier today to restart iduna.service. Script now exports both explicitly and checks the socket exists first (naming 'loginctl enable-linger' as the real fix if the user systemd instance isn't running at all). Verified live: systemctl --user daemon-reload/list-units both succeed with these exact values on this box. Commit 7f7e1ab.\n\n⚓ ☃",
+  "id": 17928,
+  "metadata": null,
+  "run_id": "sess-20260905-0117-d84e3a4e",
+  "source_repo": "MONOREPO",
+  "title": "Fixed sudo-queue/51 for real: explicit D-Bus session env, not just the sudo guard"
+}

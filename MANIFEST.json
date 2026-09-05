@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-05T05:36:53Z",
+  "generated_at": "2026-09-05T05:37:06Z",
   "repo": "APPLES",
-  "count": 7390,
+  "count": 7391,
   "apples": [
     {
       "id": 10525,
@@ -59122,6 +59122,14 @@
       "source_repo": "emily",
       "date": "20260905",
       "archived_at": "2026-09-05T05:36:53Z"
+    },
+    {
+      "id": 17928,
+      "type": "completion",
+      "title": "Fixed sudo-queue/51 for real: explicit D-Bus session env, not just the sudo guard",
+      "source_repo": "MONOREPO",
+      "date": "20260905",
+      "archived_at": "2026-09-05T05:37:06Z"
     }
   ]
 }
