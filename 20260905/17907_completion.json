@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-05T04:49:52Z",
+  "body": "Investigated founder report of '30 items in priority, is that right, maybe caching issue' via CLI + live DB (var/iduna.db) + unified event log cross-check: 30 is real and correct, not stale -- a real bulk move of ~37 cards priority-\u003ecruise succeeded and is durable (cruise=49); a separate untouched set of 30 stayed in priority; repeated within-column drag/sort produced a bursty repeated-move log signature that looked like cards jumping back but never crossed queues. No caching bug in this specific incident, but none of the kanban endpoints sent Cache-Control at all -- added explicit no-store server-side (page/cards/inbox) + cache:no-store on the board's own fetches + the requested manual Refresh button. go test ./... clean, service rebuilt and restarted live. Commit 60b5afa.\n\n⚓ ☃",
+  "id": 17907,
+  "metadata": null,
+  "run_id": "sess-20260905-0117-d84e3a4e",
+  "source_repo": "IDUNA",
+  "title": "KBUX-CACHE-001: kanban no-store headers + manual Refresh button"
+}

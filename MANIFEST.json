@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-05T04:39:35Z",
+  "generated_at": "2026-09-05T04:49:52Z",
   "repo": "APPLES",
-  "count": 7369,
+  "count": 7370,
   "apples": [
     {
       "id": 10525,
@@ -58954,6 +58954,14 @@
       "source_repo": "CarePyre",
       "date": "20260905",
       "archived_at": "2026-09-05T04:39:35Z"
+    },
+    {
+      "id": 17907,
+      "type": "completion",
+      "title": "KBUX-CACHE-001: kanban no-store headers + manual Refresh button",
+      "source_repo": "IDUNA",
+      "date": "20260905",
+      "archived_at": "2026-09-05T04:49:52Z"
     }
   ]
 }
