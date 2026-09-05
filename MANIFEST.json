@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-05T07:27:07Z",
+  "generated_at": "2026-09-05T07:27:08Z",
   "repo": "APPLES",
-  "count": 7417,
+  "count": 7418,
   "apples": [
     {
       "id": 10525,
@@ -59338,6 +59338,14 @@
       "source_repo": "IDUNA",
       "date": "20260905",
       "archived_at": "2026-09-05T07:27:07Z"
+    },
+    {
+      "id": 17955,
+      "type": "completion",
+      "title": "changelog(IDUNA): Restored IDUNA after home-config loss: rebuilt binary, recr…",
+      "source_repo": "IDUNA",
+      "date": "20260905",
+      "archived_at": "2026-09-05T07:27:08Z"
     }
   ]
 }
