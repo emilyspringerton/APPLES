@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-05T05:24:45Z",
+  "generated_at": "2026-09-05T05:24:47Z",
   "repo": "APPLES",
-  "count": 7384,
+  "count": 7385,
   "apples": [
     {
       "id": 10525,
@@ -59074,6 +59074,14 @@
       "source_repo": "CarePyre",
       "date": "20260905",
       "archived_at": "2026-09-05T05:24:45Z"
+    },
+    {
+      "id": 17922,
+      "type": "completion",
+      "title": "CP-DOCS-12442: standalone Android APK install doc",
+      "source_repo": "CarePyre",
+      "date": "20260905",
+      "archived_at": "2026-09-05T05:24:47Z"
     }
   ]
 }
