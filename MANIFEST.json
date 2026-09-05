@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-05T06:24:23Z",
+  "generated_at": "2026-09-05T06:24:25Z",
   "repo": "APPLES",
-  "count": 7404,
+  "count": 7405,
   "apples": [
     {
       "id": 10525,
@@ -59234,6 +59234,14 @@
       "source_repo": "EMILY",
       "date": "20260905",
       "archived_at": "2026-09-05T06:24:23Z"
+    },
+    {
+      "id": 17942,
+      "type": "backlog_completion",
+      "title": "Manual kanban move: /plan we are going to want to provision a new number and get",
+      "source_repo": "EMILY",
+      "date": "20260905",
+      "archived_at": "2026-09-05T06:24:25Z"
     }
   ]
 }
