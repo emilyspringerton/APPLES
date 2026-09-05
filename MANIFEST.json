@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-05T22:08:37Z",
+  "generated_at": "2026-09-05T22:08:38Z",
   "repo": "APPLES",
-  "count": 7537,
+  "count": 7538,
   "apples": [
     {
       "id": 10525,
@@ -60298,6 +60298,14 @@
       "source_repo": "MONOREPO",
       "date": "20260905",
       "archived_at": "2026-09-05T22:08:37Z"
+    },
+    {
+      "id": 18075,
+      "type": "completion",
+      "title": "Self-service mail encryption-at-rest (paste key -\u003e auto-enable), verified live end to end",
+      "source_repo": "IDUNA_PRO",
+      "date": "20260905",
+      "archived_at": "2026-09-05T22:08:38Z"
     }
   ]
 }
