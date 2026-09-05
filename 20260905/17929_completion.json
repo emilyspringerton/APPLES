@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-05T05:40:03Z",
+  "body": "https://carepyre.org/console.html and /console-api/* confirmed working for real through the public HTTPS URLs: register -\u003e local-login -\u003e identities/me all succeed, matching console.html's own expectations exactly. idunapro.service running under systemd --user, nginx /console-api/ proxy live. Three real fixes landed getting there (all ops-only, zero IDUNA_PRO source changes): sudo-queue/51 script fixed twice (root guard, then explicit D-Bus session env -- systemctl --user needs XDG_RUNTIME_DIR/DBUS_SESSION_BUS_ADDRESS explicitly set, not assumed from the ambient shell), and BASE_URL set so identities/me's authority_signature_cluster field is a real, externally-reachable URL instead of localhost:8081. MONOREPO commits 7f7e1ab/b98fec2, CarePyre commit be132ea.\n\n⚓ ☃",
+  "id": 17929,
+  "metadata": null,
+  "run_id": "sess-20260905-0117-d84e3a4e",
+  "source_repo": "CarePyre",
+  "title": "CarePyre Console is live: real, verified end-to-end deploy on IDUNA_PRO"
+}

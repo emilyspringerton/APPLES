@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-05T05:37:06Z",
+  "generated_at": "2026-09-05T05:40:03Z",
   "repo": "APPLES",
-  "count": 7391,
+  "count": 7392,
   "apples": [
     {
       "id": 10525,
@@ -59130,6 +59130,14 @@
       "source_repo": "MONOREPO",
       "date": "20260905",
       "archived_at": "2026-09-05T05:37:06Z"
+    },
+    {
+      "id": 17929,
+      "type": "completion",
+      "title": "CarePyre Console is live: real, verified end-to-end deploy on IDUNA_PRO",
+      "source_repo": "CarePyre",
+      "date": "20260905",
+      "archived_at": "2026-09-05T05:40:03Z"
     }
   ]
 }
