@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-05T05:01:04Z",
+  "generated_at": "2026-09-05T05:01:25Z",
   "repo": "APPLES",
-  "count": 7373,
+  "count": 7374,
   "apples": [
     {
       "id": 10525,
@@ -58986,6 +58986,14 @@
       "source_repo": "CarePyre",
       "date": "20260905",
       "archived_at": "2026-09-05T05:01:04Z"
+    },
+    {
+      "id": 17911,
+      "type": "backlog_completion",
+      "title": "Manual kanban move: build out simple sip phone interfaces inside CAREPYRE SIP PH",
+      "source_repo": "EMILY",
+      "date": "20260905",
+      "archived_at": "2026-09-05T05:01:25Z"
     }
   ]
 }
