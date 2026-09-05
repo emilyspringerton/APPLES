@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-05T08:30:24Z",
+  "generated_at": "2026-09-05T08:37:01Z",
   "repo": "APPLES",
-  "count": 7436,
+  "count": 7437,
   "apples": [
     {
       "id": 10525,
@@ -59490,6 +59490,14 @@
       "source_repo": "IDUNA_PRO",
       "date": "20260905",
       "archived_at": "2026-09-05T08:30:24Z"
+    },
+    {
+      "id": 17974,
+      "type": "completion",
+      "title": "changelog(PARENA): Added sip/dtmf.prn: real RFC 4733 DTMF telephone-event payl…",
+      "source_repo": "PARENA",
+      "date": "20260905",
+      "archived_at": "2026-09-05T08:37:01Z"
     }
   ]
 }

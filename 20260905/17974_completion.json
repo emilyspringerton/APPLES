@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-05T08:37:01Z",
+  "body": "CHANGELOG updated in PARENA: Added sip/dtmf.prn: real RFC 4733 DTMF telephone-event payload parse/build + digit mapping, CarePyre SIP Phone (CAREPYRE-SIP-4324324). Found 2 compiler bugs (concat truncation on embedded zeros, if-branch double-inference). make test-dtmf 12/12, make test 345/345 (sess-20260905-0720-ec33e7c5)\n\n⚓ ☃",
+  "id": 17974,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "PARENA",
+  "title": "changelog(PARENA): Added sip/dtmf.prn: real RFC 4733 DTMF telephone-event payl…"
+}
