@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-05T06:06:31Z",
+  "body": "Real, found-live, generic IDUNA_PRO gap fixed: PATCH /api/v1/users/{uid} password-change required users.admin with no self-access carve-out, so a regular user could never change their own password. Fixed via new POST /api/v1/auth/change-password (verifies caller's own current password first, reuses the existing EventUserPasswordReset event). New sip_accounts table + GET/PUT/DELETE /api/v1/sip-accounts -- a real, honest metadata mapping from a user to their manually-provisioned Asterisk extension (not live per-user Asterisk provisioning, named as separate future work). console.html gained a Change Password panel, a Your SIP Account panel, and an admin-only panel (users.admin-gated) for assigning SIP extensions and resetting passwords. go test ./... passes with new regression tests for both real gaps. Live-verified against the real running deployment: change-password end to end (old password rejected, new one works), sip-accounts/me correctly 404s pre-assignment. IDUNA_PRO commit dfc9625, CarePyre commit 2a4d898.\n\n⚓ ☃",
+  "id": 17937,
+  "metadata": null,
+  "run_id": "sess-20260905-0117-d84e3a4e",
+  "source_repo": "IDUNA_PRO",
+  "title": "CP-SIP-1244543543: self-service password change + SIP account mapping + console screens"
+}
