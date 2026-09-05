@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-05T06:38:27Z",
+  "body": "extensions_carepyre.conf: inbound calls now Answer, Playback a consent announcement, MixMonitor to record, then fall to a real Voicemail(1000@carepyre) mailbox on no-answer instead of hanging up. New voicemail_carepyre.conf. Real, named gap: the consent announcement wav file does not exist yet, Playback fails silently until a real recording or TTS is added. Full feature map in CarePyre/docs/GOOGLE_VOICE_FEATURES_NORTHSTAR.md. PARENA commit 87d77db, MONOREPO commit 963033c.\n\n⚓ ☃",
+  "id": 17948,
+  "metadata": null,
+  "run_id": "sess-20260905-0117-d84e3a4e",
+  "source_repo": "PARENA",
+  "title": "CAREPYRE-9311: real voicemail + auto-recording on inbound calls"
+}
