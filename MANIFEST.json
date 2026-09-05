@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-05T21:04:05Z",
+  "generated_at": "2026-09-05T21:13:01Z",
   "repo": "APPLES",
-  "count": 7521,
+  "count": 7522,
   "apples": [
     {
       "id": 10525,
@@ -60170,6 +60170,14 @@
       "source_repo": "emily",
       "date": "20260905",
       "archived_at": "2026-09-05T21:04:05Z"
+    },
+    {
+      "id": 18059,
+      "type": "completion",
+      "title": "Found and fixed real cause of Gmail send failures: Linode outbound port 25 block",
+      "source_repo": "CarePyre",
+      "date": "20260905",
+      "archived_at": "2026-09-05T21:13:01Z"
     }
   ]
 }
