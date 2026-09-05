@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-05T04:39:25Z",
+  "generated_at": "2026-09-05T04:39:28Z",
   "repo": "APPLES",
-  "count": 7367,
+  "count": 7368,
   "apples": [
     {
       "id": 10525,
@@ -58938,6 +58938,14 @@
       "source_repo": "EMILY",
       "date": "20260905",
       "archived_at": "2026-09-05T04:39:25Z"
+    },
+    {
+      "id": 17905,
+      "type": "backlog_completion",
+      "title": "Manual kanban move: README INSTRUCTIONS HOW TO INSTALL THE APK FROM THE RELEASES",
+      "source_repo": "EMILY",
+      "date": "20260905",
+      "archived_at": "2026-09-05T04:39:28Z"
     }
   ]
 }
