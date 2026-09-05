@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-05T09:05:08Z",
+  "generated_at": "2026-09-05T09:05:27Z",
   "repo": "APPLES",
-  "count": 7443,
+  "count": 7444,
   "apples": [
     {
       "id": 10525,
@@ -59546,6 +59546,14 @@
       "source_repo": "CarePyre",
       "date": "20260905",
       "archived_at": "2026-09-05T09:05:08Z"
+    },
+    {
+      "id": 17981,
+      "type": "completion",
+      "title": "SIP phone: G.711 codec shipped; Android APK build blocked on sandbox bandwidth, not code",
+      "source_repo": "PARENA",
+      "date": "20260905",
+      "archived_at": "2026-09-05T09:05:27Z"
     }
   ]
 }

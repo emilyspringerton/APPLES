@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-05T09:05:27Z",
+  "body": "Investigated 'finish PARENA plumbing, get my SIP phone client working' as far as this sandbox honestly allows. Shipped sip/g711.prn (real mu-law/A-law codec, verified port of the Sun/CCITT reference, 9/9 tests). Found and fixed a 3rd real compiler bug in the same session's 'bare literal defaults to double' family. Investigated the Android SDK/NDK blocker directly: dl.google.com is now reachable (was documented unreachable before) but bandwidth-throttled to ~7.7KB/s -- a ~150MB SDK download would take 5+ hours, not practical this session. Real, good news found along the way: PARENA_NO_GRAPHICS already exists in runtime/parena_runtime.h (added 2026-09-03 for exactly this Alpine/musl/no-SDL2 case) -- this fully solves SIP_PHONE_ANDROID_NORTHSTAR's own gap #2 (the assumed SDL2-for-NDK blocker) since none of the SIP/DTMF/G.711 code touches SDL2 at all. Real, current state of the native SIP core: message.prn, sdp.prn, transaction.prn, dtmf.prn, g711.prn all shipped and tested on this box's own x86 toolchain. Real, honest, still-blocked: an actual on-device APK build needs a real Android SDK/NDK, not obtainable in this sandbox at current bandwidth -- CI's own ubuntu-latest runners (already documented as SDK-preinstalled) or the founder's own machine are the real, concrete next place to actually build and run it. The RTP send/receive loop (tying rtp.prn+g711.prn together over a live UDP socket) is the one remaining PARENA-side piece before that build is even worth attempting. Session: sess-20260905-0712-8908a299\n\n⚓ ☃",
+  "id": 17981,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "PARENA",
+  "title": "SIP phone: G.711 codec shipped; Android APK build blocked on sandbox bandwidth, not code"
+}
