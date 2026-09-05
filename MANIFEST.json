@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-09-05T07:27:08Z",
   "repo": "APPLES",
-  "count": 7418,
+  "count": 7419,
   "apples": [
     {
       "id": 10525,
@@ -59344,6 +59344,14 @@
       "type": "completion",
       "title": "changelog(IDUNA): Restored IDUNA after home-config loss: rebuilt binary, recr…",
       "source_repo": "IDUNA",
+      "date": "20260905",
+      "archived_at": "2026-09-05T07:27:08Z"
+    },
+    {
+      "id": 17956,
+      "type": "completion",
+      "title": "changelog(IDUNA_PRO): Restored IDUNA_PRO (CarePyre Console backend) after home-co…",
+      "source_repo": "IDUNA_PRO",
       "date": "20260905",
       "archived_at": "2026-09-05T07:27:08Z"
     }
