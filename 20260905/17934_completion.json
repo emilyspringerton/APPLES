@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-05T05:52:08Z",
+  "body": "Real, deployable Asterisk config (PARENA/ops/asterisk/): pjsip_carepyre_phone.conf (extension 1000), pjsip_twilio_trunk.conf (Twilio Elastic SIP Trunk, IP-ACL auth, this box's real static IP 198.58.107.85, all 8 real Twilio signaling regions verified live against Twilio's own current IP list), extensions_carepyre.conf (E.164-formatted outbound/inbound dialplan). Config fields cross-checked against Twilio's own official Asterisk Configuration Guide PDF (rewrite_contact/rtp_symmetric/dtmf_mode=rfc4733). docs/TWILIO_SETUP_CHECKLIST.md: real step-by-step Twilio Console instructions using this box's own values. Queued for deploy (sudo-queue/52, MONOREPO commit dabd844) -- needs real root. PARENA commit 54cb407.\n\n⚓ ☃",
+  "id": 17934,
+  "metadata": null,
+  "run_id": "sess-20260905-0117-d84e3a4e",
+  "source_repo": "PARENA",
+  "title": "Asterisk\u003c-\u003eTwilio plumbing: real PJSIP trunk + dialplan + setup checklist"
+}
