@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-05T08:00:27Z",
+  "generated_at": "2026-09-05T08:10:51Z",
   "repo": "APPLES",
-  "count": 7428,
+  "count": 7429,
   "apples": [
     {
       "id": 10525,
@@ -59426,6 +59426,14 @@
       "source_repo": "IDUNA_PRO",
       "date": "20260905",
       "archived_at": "2026-09-05T08:00:27Z"
+    },
+    {
+      "id": 17966,
+      "type": "completion",
+      "title": "changelog(PARENA): Added sip/transaction.prn: real, pure call-state machine (I…",
+      "source_repo": "PARENA",
+      "date": "20260905",
+      "archived_at": "2026-09-05T08:10:51Z"
     }
   ]
 }
