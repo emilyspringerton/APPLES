@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-05T00:49:29Z",
+  "generated_at": "2026-09-05T00:52:49Z",
   "repo": "APPLES",
-  "count": 7327,
+  "count": 7328,
   "apples": [
     {
       "id": 10525,
@@ -58618,6 +58618,14 @@
       "source_repo": "emily",
       "date": "20260905",
       "archived_at": "2026-09-05T00:49:29Z"
+    },
+    {
+      "id": 17865,
+      "type": "completion",
+      "title": "S249-01: real fix -- all 4 matchmaker pools now properly systemd-supervised",
+      "source_repo": "REDGARDEN",
+      "date": "20260905",
+      "archived_at": "2026-09-05T00:52:49Z"
     }
   ]
 }

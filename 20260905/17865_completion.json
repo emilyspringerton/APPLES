@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-05T00:52:49Z",
+  "body": "Root cause overturned every hypothesis in the original card: loginctl showed linger was already fine, systemd --user session was healthy the whole time (184+ units, 2-day uptime). Real cause: shells in this sandbox inherit XDG_RUNTIME_DIR=/run/user/0 (root's), making systemctl --user try to reach root's D-Bus socket as an unprivileged user -- Permission denied. With the right env, found the REAL live incident: redgarden-matchmaker-bots/-players had been crash-looping 18,700+ times (FAILED TO BIND, every 5s) because 4 orphan nohup'd red_garden_matchmaker processes from the prior incident response were still alive since 2026-09-03, holding all 4 ports via UDP. Fixed one port at a time (stop unit if crash-looping -\u003e kill orphan -\u003e start unit immediately): all 4 pools (7778/7779/7780/8778) now genuinely active/running under real systemd supervision, confirmed via status + refilling queues in their own logs. reset-failed cleared the counter noise. Added a guarded XDG_RUNTIME_DIR export to ~/.profile as a partial mitigation (confirmed it does NOT reach this harness's own non-interactive tool shells -- documented honestly, not oversold).\n\n⚓ ☃",
+  "id": 17865,
+  "metadata": null,
+  "run_id": "sess-20260904-2324-5f032e08",
+  "source_repo": "REDGARDEN",
+  "title": "S249-01: real fix -- all 4 matchmaker pools now properly systemd-supervised"
+}
