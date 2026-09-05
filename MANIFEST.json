@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-05T08:37:01Z",
+  "generated_at": "2026-09-05T08:37:03Z",
   "repo": "APPLES",
-  "count": 7437,
+  "count": 7438,
   "apples": [
     {
       "id": 10525,
@@ -59498,6 +59498,14 @@
       "source_repo": "PARENA",
       "date": "20260905",
       "archived_at": "2026-09-05T08:37:01Z"
+    },
+    {
+      "id": 17975,
+      "type": "completion",
+      "title": "changelog(CarePyre): SIP Phone NORTHSTAR: DTMF signaling (RFC 4733) shipped as t…",
+      "source_repo": "CarePyre",
+      "date": "20260905",
+      "archived_at": "2026-09-05T08:37:03Z"
     }
   ]
 }
