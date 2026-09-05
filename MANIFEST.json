@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-05T12:08:37Z",
+  "generated_at": "2026-09-05T12:20:13Z",
   "repo": "APPLES",
-  "count": 7464,
+  "count": 7465,
   "apples": [
     {
       "id": 10525,
@@ -59714,6 +59714,14 @@
       "source_repo": "emily",
       "date": "20260905",
       "archived_at": "2026-09-05T12:08:37Z"
+    },
+    {
+      "id": 18002,
+      "type": "completion",
+      "title": "Real SIP call setup + RTP audio + DTMF shipped",
+      "source_repo": "CarePyre",
+      "date": "20260905",
+      "archived_at": "2026-09-05T12:20:13Z"
     }
   ]
 }

@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-05T12:20:13Z",
+  "body": "CarePyre SIP Phone v0.23.0: real INVITE/ACK/BYE call signaling, G.711 RTP audio (AudioRecord/AudioTrack), and RFC 4733 DTMF now ship natively, replacing the demo-only simulate-incoming-call flow. Real bugs found in review: fromTag/toTag were header-relative not role-relative (malformed BYE as callee), reject() never sent a real SIP response, remoteUri used raw From header instead of bare URI. Known gap: Asterisk port 5060/udp not listening, blocking live verification against production (sudo-queue/58 pending).\n\n⚓ ☃",
+  "id": 18002,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "CarePyre",
+  "title": "Real SIP call setup + RTP audio + DTMF shipped"
+}
