@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-05T22:08:58Z",
+  "generated_at": "2026-09-05T22:09:00Z",
   "repo": "APPLES",
-  "count": 7539,
+  "count": 7540,
   "apples": [
     {
       "id": 10525,
@@ -60314,6 +60314,14 @@
       "source_repo": "IDUNA_PRO",
       "date": "20260905",
       "archived_at": "2026-09-05T22:08:58Z"
+    },
+    {
+      "id": 18077,
+      "type": "completion",
+      "title": "changelog(CarePyre): Account page: mail encryption-at-rest status + paste-a-key …",
+      "source_repo": "CarePyre",
+      "date": "20260905",
+      "archived_at": "2026-09-05T22:09:00Z"
     }
   ]
 }
