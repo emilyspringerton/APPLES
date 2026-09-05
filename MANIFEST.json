@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-05T05:42:37Z",
+  "generated_at": "2026-09-05T05:42:52Z",
   "repo": "APPLES",
-  "count": 7393,
+  "count": 7394,
   "apples": [
     {
       "id": 10525,
@@ -59146,6 +59146,14 @@
       "source_repo": "PARENA",
       "date": "20260905",
       "archived_at": "2026-09-05T05:42:37Z"
+    },
+    {
+      "id": 17931,
+      "type": "backlog_completion",
+      "title": "Manual kanban move: iterate on the asterisk plan do the next unblocked step",
+      "source_repo": "EMILY",
+      "date": "20260905",
+      "archived_at": "2026-09-05T05:42:52Z"
     }
   ]
 }
