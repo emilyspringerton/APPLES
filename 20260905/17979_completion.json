@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-05T09:05:06Z",
+  "body": "CHANGELOG updated in PARENA: Added sip/g711.prn: real mu-law/A-law audio codec, direct verified port of the Sun/CCITT reference, CarePyre SIP Phone Phase 4. Found a 3rd compiler bug (let-bound if/cond branching value keeps wrong double type even wrapped in bitor -- needs a real function-call boundary, fixed via new as-i32 helper). make test-g711 9/9, make test 345/345 (sess-20260905-0720-ec33e7c5)\n\n⚓ ☃",
+  "id": 17979,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "PARENA",
+  "title": "changelog(PARENA): Added sip/g711.prn: real mu-law/A-law audio codec, direct v…"
+}

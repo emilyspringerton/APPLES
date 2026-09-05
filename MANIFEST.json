@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-05T08:56:33Z",
+  "generated_at": "2026-09-05T09:05:06Z",
   "repo": "APPLES",
-  "count": 7441,
+  "count": 7442,
   "apples": [
     {
       "id": 10525,
@@ -59530,6 +59530,14 @@
       "source_repo": "emily",
       "date": "20260905",
       "archived_at": "2026-09-05T08:56:33Z"
+    },
+    {
+      "id": 17979,
+      "type": "completion",
+      "title": "changelog(PARENA): Added sip/g711.prn: real mu-law/A-law audio codec, direct v…",
+      "source_repo": "PARENA",
+      "date": "20260905",
+      "archived_at": "2026-09-05T09:05:06Z"
     }
   ]
 }
