@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-05T05:24:47Z",
+  "generated_at": "2026-09-05T05:24:51Z",
   "repo": "APPLES",
-  "count": 7385,
+  "count": 7386,
   "apples": [
     {
       "id": 10525,
@@ -59082,6 +59082,14 @@
       "source_repo": "CarePyre",
       "date": "20260905",
       "archived_at": "2026-09-05T05:24:47Z"
+    },
+    {
+      "id": 17923,
+      "type": "backlog_completion",
+      "title": "Manual kanban move: carepyre docs write a doc about how to install the APK onto ",
+      "source_repo": "EMILY",
+      "date": "20260905",
+      "archived_at": "2026-09-05T05:24:51Z"
     }
   ]
 }
