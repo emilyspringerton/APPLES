@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-05T07:27:07Z",
+  "body": "Root cause: ~/.ssh, ~/.gitconfig, ~/.config/systemd/user, and ~/.local/bin were all empty (home-scoped dotfiles/config lost, project repos+databases untouched). Rebuilt iduna + idunapro binaries, recreated ~/.config/iduna/env and ~/.config/idunapro/env (fresh JWT_SECRET for each -- ES256 signing keys were intact on disk so main auth trust root untouched), reinstalled iduna.service + idunapro.service systemd --user units, verified end-to-end via https://carepyre.org and localhost:8080/health. Also restored SSH host-key trust for github.com and git author identity; generated a NEW SSH keypair for git push access since the original private key is unrecoverable -- founder needs to add the new public key to GitHub. Session: sess-20260905-0712-8908a299\n\n⚓ ☃",
+  "id": 17954,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "IDUNA",
+  "title": "Restored IDUNA, IDUNA_PRO, CarePyre Console after home-config loss"
+}

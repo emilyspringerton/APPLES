@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-05T07:27:07Z",
+  "body": "CHANGELOG updated in IDUNA: Restored IDUNA after home-config loss: rebuilt binary, recreated ~/.config/iduna/env with fresh JWT_SECRET (ES256 signing keys were intact), reinstalled systemd unit (sess-20260905-0720-ec33e7c5)\n\n⚓ ☃",
+  "id": 17955,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "IDUNA",
+  "title": "changelog(IDUNA): Restored IDUNA after home-config loss: rebuilt binary, recr…"
+}
