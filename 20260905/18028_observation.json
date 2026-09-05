@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "observation",
+  "archived_at": "2026-09-05T17:25:23Z",
+  "body": "The .org registry's delegation for carepyre.org lists jocelyn.ns.cloudflare.com (correct) and nicholas.ns.cloudflare.com (typo -- should be nicolas.ns.cloudflare.com, confirmed nicholas.ns.cloudflare.com doesn't resolve at all). This is why the Cloudflare zone has sat in status=pending/ns_typo since it was created 2026-08-10 -- a month before today, not something this session caused (only read-only Cloudflare API calls were made). DNS still resolves day-to-day because jocelyn alone is enough to serve authoritative answers. Fix is a one-character change at Namecheap's nameserver settings (nicholas -\u003e nicolas); blocks full Cloudflare zone activation, relevant to the Stalwart mail DNS work in ops/stalwart/terraform.\n\n⚓ ☃",
+  "id": 18028,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "CarePyre",
+  "title": "Found real root cause of carepyre.org's stuck Cloudflare zone: nameserver typo at Namecheap"
+}

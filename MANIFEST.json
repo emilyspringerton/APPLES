@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-05T17:19:19Z",
+  "generated_at": "2026-09-05T17:25:23Z",
   "repo": "APPLES",
-  "count": 7490,
+  "count": 7491,
   "apples": [
     {
       "id": 10525,
@@ -59922,6 +59922,14 @@
       "source_repo": "emily",
       "date": "20260905",
       "archived_at": "2026-09-05T17:19:19Z"
+    },
+    {
+      "id": 18028,
+      "type": "observation",
+      "title": "Found real root cause of carepyre.org's stuck Cloudflare zone: nameserver typo at Namecheap",
+      "source_repo": "CarePyre",
+      "date": "20260905",
+      "archived_at": "2026-09-05T17:25:23Z"
     }
   ]
 }
