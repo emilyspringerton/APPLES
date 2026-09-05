@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-05T03:37:29Z",
+  "body": "Real decision doc (docs/STALWART_HOSTING_DECISION.md) resolving the founder's own multi-message CPMAIL-114/144 thread. Checked, not assumed: Linode's real current cheapest plan (Nanode 1GB, $5/mo) matches the founder's own named figure exactly; Stalwart's own real, documented 1GB minimum makes it correctly sized, not underpowered. Stalwart's own native Cloudflare-DNS auto-publish (already found in EMAIL_NORTHSTAR.md) plus the real, existing Cloudflare token on file (EMILY/var/cloudflare.md) means DNS doesn't need Google either -- fully resolves the sovereignty-optics concern rather than partially compromising on it. Honest counter-point named: Linode is now Akamai-owned. STALWART_GCP_DEPLOYMENT_PLAN.md gets a pointer at its own top; architecture/phasing stays valid as a reference. Decision only -- no account created, nothing deployed. Commit caa7bf1.\n\n⚓ ☃",
+  "id": 17891,
+  "metadata": null,
+  "run_id": "sess-20260905-0117-d84e3a4e",
+  "source_repo": "CarePyre",
+  "title": "Stalwart hosting decision: recommend Linode + Cloudflare over Google Cloud"
+}
