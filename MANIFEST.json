@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-05T21:34:37Z",
+  "generated_at": "2026-09-05T21:34:44Z",
   "repo": "APPLES",
-  "count": 7530,
+  "count": 7531,
   "apples": [
     {
       "id": 10525,
@@ -60242,6 +60242,14 @@
       "source_repo": "IDUNA_PRO",
       "date": "20260905",
       "archived_at": "2026-09-05T21:34:37Z"
+    },
+    {
+      "id": 18068,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: admin should be able to provision a mailbox for a user in one step and ha…",
+      "source_repo": "CLI",
+      "date": "20260905",
+      "archived_at": "2026-09-05T21:34:44Z"
     }
   ]
 }
