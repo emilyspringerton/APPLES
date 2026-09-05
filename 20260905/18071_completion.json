@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-05T21:47:42Z",
+  "body": "renderConsole()/signout only toggled #auth-card's hidden class, leaving its outer \u003cmain id=\"auth-main\"\u003e (3rem/4rem padding) rendering empty above the app shell. Deployed live. Commit fc1eb42.\n\n⚓ ☃",
+  "id": 18071,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "CarePyre",
+  "title": "Console fix: hide empty auth-main wrapper causing extra top space when signed in"
+}
