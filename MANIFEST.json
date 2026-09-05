@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-05T10:30:36Z",
+  "generated_at": "2026-09-05T10:30:46Z",
   "repo": "APPLES",
-  "count": 7456,
+  "count": 7457,
   "apples": [
     {
       "id": 10525,
@@ -59650,6 +59650,14 @@
       "source_repo": "CarePyre",
       "date": "20260905",
       "archived_at": "2026-09-05T10:30:36Z"
+    },
+    {
+      "id": 17994,
+      "type": "completion",
+      "title": "Real root cause of SIP 403 found: legacy chan_sip intercepting REGISTER, not a PJSIP/client bug",
+      "source_repo": "CarePyre",
+      "date": "20260905",
+      "archived_at": "2026-09-05T10:30:46Z"
     }
   ]
 }

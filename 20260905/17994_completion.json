@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-05T10:30:46Z",
+  "body": "Three diagnostic passes (sudo-queue/54, 55, 56) progressively ruled out every PJSIP-side possibility -- password correct, realm correct, digest math independently verified correct -- because the actual problem was one level up: this Asterisk install has both chan_sip (legacy) and chan_pjsip (modern) loaded, and chan_sip was grabbing the REGISTER for extension 1000 before PJSIP ever processed it, checking credentials against its own untouched stock sip.conf instead of pjsip_carepyre_phone.conf. Found via messages.log: 'chan_sip.c: Registration from \u003csip:1000@198.58.107.85\u003e failed ... Wrong password'. sudo-queue/57 permanently disables chan_sip via modules.conf's noload directive. Session: sess-20260905-0712-8908a299\n\n⚓ ☃",
+  "id": 17994,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "CarePyre",
+  "title": "Real root cause of SIP 403 found: legacy chan_sip intercepting REGISTER, not a PJSIP/client bug"
+}
