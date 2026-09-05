@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-05T09:26:32Z",
+  "generated_at": "2026-09-05T09:40:47Z",
   "repo": "APPLES",
-  "count": 7446,
+  "count": 7447,
   "apples": [
     {
       "id": 10525,
@@ -59570,6 +59570,14 @@
       "source_repo": "emily",
       "date": "20260905",
       "archived_at": "2026-09-05T09:26:32Z"
+    },
+    {
+      "id": 17984,
+      "type": "completion",
+      "title": "CAREPYRE-42143124 follow-up: queued SIP phone password regeneration (sudo-queue/53)",
+      "source_repo": "ops",
+      "date": "20260905",
+      "archived_at": "2026-09-05T09:40:47Z"
     }
   ]
 }
