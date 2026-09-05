@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-05T00:19:32Z",
+  "generated_at": "2026-09-05T00:23:52Z",
   "repo": "APPLES",
-  "count": 7320,
+  "count": 7321,
   "apples": [
     {
       "id": 10525,
@@ -58562,6 +58562,14 @@
       "source_repo": "emily",
       "date": "20260905",
       "archived_at": "2026-09-05T00:19:32Z"
+    },
+    {
+      "id": 17858,
+      "type": "completion",
+      "title": "S245-03: real per-instance, admin-configurable Mailchimp settings",
+      "source_repo": "IDUNA",
+      "date": "20260905",
+      "archived_at": "2026-09-05T00:23:52Z"
     }
   ]
 }

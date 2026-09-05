@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-05T00:23:52Z",
+  "body": "GET/PUT /api/v1/mailing-list/settings/mailchimp, gated behind new mailinglist.admin permission (super_admin), distinct from mailinglist.export. New mailchimp_settings table (encrypted, same posture as subscriber emails). resolveMailchimpClient: stored settings win when vault unlocked, falls back to env-var-configured client otherwise -- MailchimpClient itself needed zero redesign. subscribe() now goes through this resolver. 9 new tests, go test ./... clean. Live-verified against prod var/iduna.db + var/mailinglist.db, redeployed iduna.service. Commit 534dd12. Unblocks S245-04's settings UI.\n\n⚓ ☃",
+  "id": 17858,
+  "metadata": null,
+  "run_id": "sess-20260904-2324-5f032e08",
+  "source_repo": "IDUNA",
+  "title": "S245-03: real per-instance, admin-configurable Mailchimp settings"
+}
