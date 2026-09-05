@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-05T05:08:01Z",
+  "body": "Answered 'proper SRE way to run Asterisk, gotta go on the IDUNA box, yolo install it?' -- yes to the plain Debian asterisk package + its own systemd unit, no to skipping security basics. Found a real :8088 conflict with the existing gpt2-alpine-c model server via ss -tulnp, fixed by disabling Asterisk's unused built-in HTTP/ARI server (this repo's PBX plan is AMI-only). AMI bound 127.0.0.1-only with a freshly generated secret; RTP firewall range narrowed 10000-20000 -\u003e 10000-10099. Checked real headroom first (ss -tulnp, free -h, df -h). Queued as sudo-queue/50-install-asterisk-pbx.sh (root MONOREPO repo, commit 3042cd5) -- not yet run, needs real root. PARENA commit 81e2d87.\n\n⚓ ☃",
+  "id": 17917,
+  "metadata": null,
+  "run_id": "sess-20260905-0117-d84e3a4e",
+  "source_repo": "PARENA",
+  "title": "PBX-SRE-12442: real Asterisk install decision + queued sudo-queue script"
+}

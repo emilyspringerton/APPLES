@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-05T05:07:07Z",
+  "generated_at": "2026-09-05T05:08:01Z",
   "repo": "APPLES",
-  "count": 7379,
+  "count": 7380,
   "apples": [
     {
       "id": 10525,
@@ -59034,6 +59034,14 @@
       "source_repo": "CLI",
       "date": "20260905",
       "archived_at": "2026-09-05T05:07:07Z"
+    },
+    {
+      "id": 17917,
+      "type": "completion",
+      "title": "PBX-SRE-12442: real Asterisk install decision + queued sudo-queue script",
+      "source_repo": "PARENA",
+      "date": "20260905",
+      "archived_at": "2026-09-05T05:08:01Z"
     }
   ]
 }
