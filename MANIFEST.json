@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-05T08:26:17Z",
+  "generated_at": "2026-09-05T08:30:09Z",
   "repo": "APPLES",
-  "count": 7433,
+  "count": 7434,
   "apples": [
     {
       "id": 10525,
@@ -59466,6 +59466,14 @@
       "source_repo": "emily",
       "date": "20260905",
       "archived_at": "2026-09-05T08:26:17Z"
+    },
+    {
+      "id": 17971,
+      "type": "completion",
+      "title": "changelog(IDUNA_PRO): Added GET /api/v1/sip-accounts/me/qr: QR onboarding Phase 1…",
+      "source_repo": "IDUNA_PRO",
+      "date": "20260905",
+      "archived_at": "2026-09-05T08:30:09Z"
     }
   ]
 }
