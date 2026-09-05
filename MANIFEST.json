@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-05T00:23:52Z",
+  "generated_at": "2026-09-05T00:29:05Z",
   "repo": "APPLES",
-  "count": 7321,
+  "count": 7322,
   "apples": [
     {
       "id": 10525,
@@ -58570,6 +58570,14 @@
       "source_repo": "IDUNA",
       "date": "20260905",
       "archived_at": "2026-09-05T00:23:52Z"
+    },
+    {
+      "id": 17859,
+      "type": "completion",
+      "title": "S245-05: extract the mailing-list vault subsystem into IDUNA_PRO",
+      "source_repo": "IDUNA_PRO",
+      "date": "20260905",
+      "archived_at": "2026-09-05T00:29:05Z"
     }
   ]
 }

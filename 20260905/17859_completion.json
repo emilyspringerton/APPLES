@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-05T00:29:05Z",
+  "body": "internal/mailinglist copied verbatim from IDUNA (zero cross-imports, real clean port). internal/http/handlers/mailinglist.go needed only its iduna/... import paths rewritten. Brings S245-01/02/03 along in one pass since all three were already real, tested code. Generalized: no hardcoded AllowOrigin/per-product MailchimpLists (the real EINHORN-specific parts), a tenant sets MAILING_LIST_ALLOW_ORIGIN instead. go build/test ./... clean (GOWORK=off), live-verified booting the real binary against a fresh SQLite file -- both new permissions present after migration, /health OK. Commit f19382f. Unblocks S245-04's settings page.\n\n⚓ ☃",
+  "id": 17859,
+  "metadata": null,
+  "run_id": "sess-20260904-2324-5f032e08",
+  "source_repo": "IDUNA_PRO",
+  "title": "S245-05: extract the mailing-list vault subsystem into IDUNA_PRO"
+}
