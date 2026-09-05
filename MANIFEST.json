@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-05T09:41:01Z",
+  "generated_at": "2026-09-05T09:52:16Z",
   "repo": "APPLES",
-  "count": 7448,
+  "count": 7449,
   "apples": [
     {
       "id": 10525,
@@ -59586,6 +59586,14 @@
       "source_repo": "emily",
       "date": "20260905",
       "archived_at": "2026-09-05T09:41:01Z"
+    },
+    {
+      "id": 17986,
+      "type": "completion",
+      "title": "changelog(CarePyre): Real SIP REGISTER shipped in plain Java (DigestAuth.java + …",
+      "source_repo": "CarePyre",
+      "date": "20260905",
+      "archived_at": "2026-09-05T09:52:16Z"
     }
   ]
 }

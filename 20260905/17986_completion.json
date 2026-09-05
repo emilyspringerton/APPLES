@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-05T09:52:16Z",
+  "body": "CHANGELOG updated in CarePyre: Real SIP REGISTER shipped in plain Java (DigestAuth.java + SipClient.java), verified against live Asterisk: full REGISTER-\u003e401-\u003edigest-\u003ere-REGISTER round trip proven correct (403 with a deliberately wrong password). Pivoted away from the NDK-blocked PARENA path to get a real registered phone sooner. (sess-20260905-0720-ec33e7c5)\n\n⚓ ☃",
+  "id": 17986,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "CarePyre",
+  "title": "changelog(CarePyre): Real SIP REGISTER shipped in plain Java (DigestAuth.java + …"
+}
