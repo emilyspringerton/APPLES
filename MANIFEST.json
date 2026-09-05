@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-05T21:34:44Z",
+  "generated_at": "2026-09-05T21:35:12Z",
   "repo": "APPLES",
-  "count": 7531,
+  "count": 7532,
   "apples": [
     {
       "id": 10525,
@@ -60250,6 +60250,14 @@
       "source_repo": "CLI",
       "date": "20260905",
       "archived_at": "2026-09-05T21:34:44Z"
+    },
+    {
+      "id": 18069,
+      "type": "completion",
+      "title": "changelog(IDUNA_PRO): Admin-provisioned mailboxes now link to a local_uid and aut…",
+      "source_repo": "IDUNA_PRO",
+      "date": "20260905",
+      "archived_at": "2026-09-05T21:35:12Z"
     }
   ]
 }
