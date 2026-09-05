@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-05T08:10:51Z",
+  "generated_at": "2026-09-05T08:10:52Z",
   "repo": "APPLES",
-  "count": 7429,
+  "count": 7430,
   "apples": [
     {
       "id": 10525,
@@ -59434,6 +59434,14 @@
       "source_repo": "PARENA",
       "date": "20260905",
       "archived_at": "2026-09-05T08:10:51Z"
+    },
+    {
+      "id": 17967,
+      "type": "completion",
+      "title": "changelog(CarePyre): SIP Phone NORTHSTAR: Phase 3 (call-state machine) marked sh…",
+      "source_repo": "CarePyre",
+      "date": "20260905",
+      "archived_at": "2026-09-05T08:10:52Z"
     }
   ]
 }
