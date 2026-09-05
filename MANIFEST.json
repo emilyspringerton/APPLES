@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-05T21:13:02Z",
+  "generated_at": "2026-09-05T21:13:09Z",
   "repo": "APPLES",
-  "count": 7523,
+  "count": 7524,
   "apples": [
     {
       "id": 10525,
@@ -60186,6 +60186,14 @@
       "source_repo": "CarePyre",
       "date": "20260905",
       "archived_at": "2026-09-05T21:13:02Z"
+    },
+    {
+      "id": 18061,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: sending from webmail to gmail doesn't work, receiving does. Real root cau…",
+      "source_repo": "CLI",
+      "date": "20260905",
+      "archived_at": "2026-09-05T21:13:09Z"
     }
   ]
 }
