@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-05T20:05:13Z",
+  "generated_at": "2026-09-05T20:17:25Z",
   "repo": "APPLES",
-  "count": 7509,
+  "count": 7510,
   "apples": [
     {
       "id": 10525,
@@ -60074,6 +60074,14 @@
       "source_repo": "emily",
       "date": "20260905",
       "archived_at": "2026-09-05T20:05:13Z"
+    },
+    {
+      "id": 18047,
+      "type": "completion",
+      "title": "SIP phone registers from a single console-generated provisioning URL",
+      "source_repo": "CarePyre",
+      "date": "20260905",
+      "archived_at": "2026-09-05T20:17:25Z"
     }
   ]
 }

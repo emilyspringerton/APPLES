@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-05T20:17:25Z",
+  "body": "console.html: 'Get provisioning URL' button on the SIP account panel. MainActivity.java: new SipBridge.registerFromProvisioningUrl(url) fetches the real capability-URL payload natively (avoids file://-origin CORS issues), extracts extension/server/port/password, calls the same doRegister() helper register() uses (extracted via refactor). index.html/app.js: new 'Provisioning URL' field at the top of Config, paste one URL + tap Register, done -- manual fields now under an '-- or configure manually --' divider. Backend: IDUNA_PRO commit 4e82985 (GET /api/v1/sip-accounts/me/provisioning-url mints an HMAC capability token, public GET /api/v1/sip-provisioning/{token} serves the real payload including password, sourced from an operator env var SIP_SECRETS_JSON, never hand-typed). Real bug found and fixed before shipping: minted URL was missing nginx's /console-api prefix, would have routed to the wrong service. CI green, v0.36.0 released. CarePyre commit f277d83.\n\n⚓ ☃",
+  "id": 18047,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "CarePyre",
+  "title": "SIP phone registers from a single console-generated provisioning URL"
+}
