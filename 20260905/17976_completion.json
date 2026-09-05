@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-05T08:37:13Z",
+  "body": "The ticket asked for DTMF 'both when dialing and also in band while in a call' -- confirmed against PARENA/docs/SIP_TWILIO_GATEWAY_NORTHSTAR.md's own already-named real mechanism (RFC 4733/2833 telephone-event, carried in-band within the RTP stream, not actual audio tones). Shipped parse-dtmf-event/build-dtmf-event plus digit-to-event/digit-from-event keypad mapping. Found and fixed 2 real compiler bugs along the way (documented in STDLIB.md's own new sip/dtmf section): a concat-truncation-on-embedded-zero-byte case (reused ldap/ber.prn's own inline-c precedent) and a genuinely new if-branch-defaults-to-double inference gap. 12/12 new tests, 345/345 full suite, zero regressions. Real, honest, still open: this is the signaling half only -- actual G.711 audio codec + RTP send/receive loop (Phase 4's other half) and wiring any of this into the Android APK remain separate, substantial work. Session: sess-20260905-0712-8908a299\n\n⚓ ☃",
+  "id": 17976,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "PARENA",
+  "title": "CAREPYRE-SIP-4324324: real RFC 4733 DTMF payload shipped (PARENA/stdlib/sip/dtmf.prn)"
+}

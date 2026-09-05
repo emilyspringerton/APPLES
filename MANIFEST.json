@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-05T08:37:03Z",
+  "generated_at": "2026-09-05T08:37:13Z",
   "repo": "APPLES",
-  "count": 7438,
+  "count": 7439,
   "apples": [
     {
       "id": 10525,
@@ -59506,6 +59506,14 @@
       "source_repo": "CarePyre",
       "date": "20260905",
       "archived_at": "2026-09-05T08:37:03Z"
+    },
+    {
+      "id": 17976,
+      "type": "completion",
+      "title": "CAREPYRE-SIP-4324324: real RFC 4733 DTMF payload shipped (PARENA/stdlib/sip/dtmf.prn)",
+      "source_repo": "PARENA",
+      "date": "20260905",
+      "archived_at": "2026-09-05T08:37:13Z"
     }
   ]
 }
