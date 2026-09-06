@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-06T02:09:42Z",
+  "body": "Built real SSH client transport (internal/sshconn, golang.org/x/crypto/ssh), self-contained Ed25519 key generation (internal/sshkey, private key never leaves device), and a one-time enrollment listener (cmd/pitviper-enroll) so pairing a new device needs zero manual key copy-paste. Verified live end to end. Fixed a real -ssh-insecure bug found during testing. Android APK packaging (NDK cross-compile + SDLActivity) not started -- go-sdl2 only ships prebuilt android libs for 32-bit arm, not arm64. Commit fb77a85.\n\n⚓ ☃",
+  "id": 18105,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "PITVIPER",
+  "title": "SSH client mode + on-device key gen + one-time enrollment (Android build prep)"
+}
