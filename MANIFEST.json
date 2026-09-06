@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-06T01:04:06Z",
+  "generated_at": "2026-09-06T01:09:02Z",
   "repo": "APPLES",
-  "count": 7559,
+  "count": 7560,
   "apples": [
     {
       "id": 10525,
@@ -60474,6 +60474,14 @@
       "source_repo": "emily",
       "date": "20260906",
       "archived_at": "2026-09-06T01:04:06Z"
+    },
+    {
+      "id": 18097,
+      "type": "completion",
+      "title": "Web Phone now per-user (not hardcoded to 1000) and gated on a real provisioned webphone identity",
+      "source_repo": "IDUNA_PRO",
+      "date": "20260906",
+      "archived_at": "2026-09-06T01:09:02Z"
     }
   ]
 }

@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-06T01:09:02Z",
+  "body": "New GET /api/v1/sip-accounts/me/webphone-credentials (bearer-authenticated) returns the caller's own extension+password for whichever web phone identity is actually theirs. New WEBPHONE_SECRETS_JSON env var (mirrors SIP_SECRETS_JSON). Console's Web Phone card only shows when this succeeds. New sudo-queue/72-provision-web-extension.sh generalizes provisioning a real \u003cextension\u003eweb endpoint to any extension. Verified end to end with a throwaway test account (200 OK, correct extension+password), cleaned up after. Rebuilt and restarted idunapro myself (no sudo needed for go build/systemctl --user). Commits IDUNA_PRO 12facae, CarePyre 56ac6c4, MONOREPO (sudo-queue/72).\n\n⚓ ☃",
+  "id": 18097,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "IDUNA_PRO",
+  "title": "Web Phone now per-user (not hardcoded to 1000) and gated on a real provisioned webphone identity"
+}
