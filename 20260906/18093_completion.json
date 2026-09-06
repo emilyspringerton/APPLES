@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-06T00:37:37Z",
+  "body": "Confirmed live both extension 1000 (native) and 1000web (webphone) now register successfully server-side (200 OK) after the AOR fix. Founder's phone still failed to register over cellular data specifically -- consistent with a previously-documented, separate finding that raw UDP SIP is blocked somewhere on the mobile network path, outside this server. Embedded the already-real, already-verified standalone webphone.html/webphone.js (JsSIP over wss://) into the console's SIP Phone page via a same-origin iframe. Deployed live (static-only). Commit ba3d852.\n\n⚓ ☃",
+  "id": 18093,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "CarePyre",
+  "title": "Embedded the browser Web Phone into the console's SIP Phone page (fallback for blocked raw UDP SIP on mobile)"
+}
