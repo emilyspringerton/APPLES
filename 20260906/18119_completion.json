@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-06T03:28:01Z",
+  "body": "Third of spec-1's six-personality creep roster. Skips the camp-escalation gate every other archetype needs -- marches toward the nearest node from spawn, still fights heroes in range along the way. Refactored is_swarmling (bool) into a proper archetype enum to make room, with a per-camp wave counter cycling spawns through all three types across successive waves. build.sh + test_arena.sh clean, 1188 PASS, no regressions. Commit fd21882.\n\n⚓ ☃",
+  "id": 18119,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "ECOWAR",
+  "title": "Ravager: third camp-minion archetype, marches unconditionally (real immediate board pressure)"
+}
