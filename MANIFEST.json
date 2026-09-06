@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-06T00:37:37Z",
+  "generated_at": "2026-09-06T00:37:55Z",
   "repo": "APPLES",
-  "count": 7556,
+  "count": 7557,
   "apples": [
     {
       "id": 10525,
@@ -60450,6 +60450,14 @@
       "source_repo": "CarePyre",
       "date": "20260906",
       "archived_at": "2026-09-06T00:37:37Z"
+    },
+    {
+      "id": 18094,
+      "type": "completion",
+      "title": "changelog(CarePyre): Console SIP Phone page now embeds the browser Web Phone (we…",
+      "source_repo": "CarePyre",
+      "date": "20260906",
+      "archived_at": "2026-09-06T00:37:55Z"
     }
   ]
 }
