@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-06T02:17:05Z",
+  "body": "Root cause confirmed: apps2/server-go's PacketChat handler only relayed ChatYell to IDUNA, so a player's default chat box (ChatSay) never reached Minecraft -- the founder-reported one-directional bug. Found apps2/mud already relays say+yell+guild (deliberately excluding tell -- 'a DM isn't meant for a wider audience'); brought server-go to parity with that already-correct, already-shipped precedent instead of guessing at a new policy. go build/vet/test all green. Commit 6cf2ad2.\n\n⚓ ☃",
+  "id": 18107,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "GoblinFoxDragon",
+  "title": "S232-01 fix: server-go chat bridge now relays say+guild to EINHORN_SURVIVAL, not just yell"
+}
