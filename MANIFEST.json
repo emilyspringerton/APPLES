@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-06T01:09:02Z",
+  "generated_at": "2026-09-06T01:09:40Z",
   "repo": "APPLES",
-  "count": 7560,
+  "count": 7561,
   "apples": [
     {
       "id": 10525,
@@ -60482,6 +60482,14 @@
       "source_repo": "IDUNA_PRO",
       "date": "20260906",
       "archived_at": "2026-09-06T01:09:02Z"
+    },
+    {
+      "id": 18098,
+      "type": "completion",
+      "title": "changelog(IDUNA_PRO): New GET /api/v1/sip-accounts/me/webphone-credentials + WEBP…",
+      "source_repo": "IDUNA_PRO",
+      "date": "20260906",
+      "archived_at": "2026-09-06T01:09:40Z"
     }
   ]
 }
