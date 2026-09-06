@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-06T02:34:15Z",
+  "generated_at": "2026-09-06T02:41:19Z",
   "repo": "APPLES",
-  "count": 7573,
+  "count": 7574,
   "apples": [
     {
       "id": 10525,
@@ -60586,6 +60586,14 @@
       "source_repo": "emily",
       "date": "20260906",
       "archived_at": "2026-09-06T02:34:15Z"
+    },
+    {
+      "id": 18111,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: iterate on ECOWAR per the EMILY wiki ECOWAR-game-spec-1 doc",
+      "source_repo": "CLI",
+      "date": "20260906",
+      "archived_at": "2026-09-06T02:41:19Z"
     }
   ]
 }
