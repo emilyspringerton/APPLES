@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-06T01:09:40Z",
+  "generated_at": "2026-09-06T01:09:42Z",
   "repo": "APPLES",
-  "count": 7561,
+  "count": 7562,
   "apples": [
     {
       "id": 10525,
@@ -60490,6 +60490,14 @@
       "source_repo": "IDUNA_PRO",
       "date": "20260906",
       "archived_at": "2026-09-06T01:09:40Z"
+    },
+    {
+      "id": 18099,
+      "type": "completion",
+      "title": "changelog(CarePyre): Web Phone auto-connects per-user (from webphone-credentials…",
+      "source_repo": "CarePyre",
+      "date": "20260906",
+      "archived_at": "2026-09-06T01:09:42Z"
     }
   ]
 }
