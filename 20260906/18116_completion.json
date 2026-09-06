@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-06T03:11:45Z",
+  "body": "Founder direction: 'redgarden was more about heroes this is more about the ecosystem... we need like a ton of shit happening on the board.' First real step toward spec-1's six-personality creep roster instead of uniform minion stat blocks. Swarmling targets weakest-HP hero in range (every other neutral in this engine picks nearest), lower HP, faster escalated march, visually distinct (bright acid-yellow-green vs base olive). Alternates within each camp wave so two visibly different creatures spawn together. build.sh + test_arena.sh clean, 1188 PASS, no regressions. Commit 753560f.\n\n⚓ ☃",
+  "id": 18116,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "ECOWAR",
+  "title": "Swarmling: second camp-minion archetype with real distinct AI (weakest-target aggro, faster escalated march)"
+}
