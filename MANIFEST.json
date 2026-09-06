@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-06T02:41:19Z",
+  "generated_at": "2026-09-06T02:47:59Z",
   "repo": "APPLES",
-  "count": 7574,
+  "count": 7575,
   "apples": [
     {
       "id": 10525,
@@ -60594,6 +60594,14 @@
       "source_repo": "CLI",
       "date": "20260906",
       "archived_at": "2026-09-06T02:41:19Z"
+    },
+    {
+      "id": 18112,
+      "type": "completion",
+      "title": "Iterated on ECOWAR per EMILY.wiki spec-1/spec-2: King spawn telegraph shipped, camp buffs confirmed done, new automata gap found",
+      "source_repo": "ECOWAR",
+      "date": "20260906",
+      "archived_at": "2026-09-06T02:47:59Z"
     }
   ]
 }

@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-06T02:47:59Z",
+  "body": "Built the real King spawn/respawn telegraph (NORTHSTAR §22.5 gap #1): pulsing disc+ring for the last 5s before a King spawns, matching existing R-zone-circle rendering convention. Fixed a latent bug found while wiring it (not-yet-spawned King x/z were always 0,0). Confirmed §22.5's camp-buffs gap was already closed by the Four Heavenly Kings system (built after that analysis, not by this session). Re-read spec-2 and found a new, previously-unflagged gap: GridCell.population is tracked but never read/written by tick_automata -- spec-2's population/pressure automata mechanics aren't wired in. Logged as a new open question (needs a real design pass) rather than guessed at. build.sh + test_arena.sh clean, 1188 PASS, no regressions. Commits de1504a, e52832a.\n\n⚓ ☃",
+  "id": 18112,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "ECOWAR",
+  "title": "Iterated on ECOWAR per EMILY.wiki spec-1/spec-2: King spawn telegraph shipped, camp buffs confirmed done, new automata gap found"
+}
