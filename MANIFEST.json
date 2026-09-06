@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-06T03:28:01Z",
+  "generated_at": "2026-09-06T03:28:41Z",
   "repo": "APPLES",
-  "count": 7582,
+  "count": 7583,
   "apples": [
     {
       "id": 10525,
@@ -60658,6 +60658,14 @@
       "source_repo": "ECOWAR",
       "date": "20260906",
       "archived_at": "2026-09-06T03:28:01Z"
+    },
+    {
+      "id": 18120,
+      "type": "audit",
+      "title": "Verified the 16-card system is real, wired end-to-end, and available to all users -- not a stub",
+      "source_repo": "ECOWAR",
+      "date": "20260906",
+      "archived_at": "2026-09-06T03:28:41Z"
     }
   ]
 }
