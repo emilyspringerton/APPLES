@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-07T11:05:47Z",
+  "generated_at": "2026-09-07T11:05:56Z",
   "repo": "APPLES",
-  "count": 7712,
+  "count": 7713,
   "apples": [
     {
       "id": 10525,
@@ -61698,6 +61698,14 @@
       "source_repo": "CLI",
       "date": "20260907",
       "archived_at": "2026-09-07T11:05:47Z"
+    },
+    {
+      "id": 18250,
+      "type": "completion",
+      "title": "Real IDUNA_PRO tenant provisioning control plane, verified live end to end",
+      "source_repo": "IDUNA",
+      "date": "20260907",
+      "archived_at": "2026-09-07T11:05:56Z"
     }
   ]
 }

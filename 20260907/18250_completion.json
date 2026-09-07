@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-07T11:05:56Z",
+  "body": "New tenants table + internal/tenantprovision: allocates a port, generates a JWT secret, writes a per-tenant systemd unit + env file, starts it via systemctl --user (no sudo needed -- verified live, internal IDUNA already runs as systemd --user itself), polls /health, records active/failed. Reuses the one shared idunapro binary for every tenant, zero per-tenant rebuild. New admin-only GET/POST /api/v1/tenants. Verified live: provisioned one real throwaway tenant end to end (real port, real running service, real health check), deprovisioned, cleaned up. 7 new unit tests for the safe pieces; live systemctl path verified manually per this monorepo's own convention for infra-touching code. Deployed live (rebuilt+restarted iduna.service myself). Commit 64f678b.\n\n⚓ ☃",
+  "id": 18250,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "IDUNA",
+  "title": "Real IDUNA_PRO tenant provisioning control plane, verified live end to end"
+}
