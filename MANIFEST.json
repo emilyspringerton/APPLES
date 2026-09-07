@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-07T20:56:31Z",
+  "generated_at": "2026-09-07T20:56:33Z",
   "repo": "APPLES",
-  "count": 7828,
+  "count": 7829,
   "apples": [
     {
       "id": 10525,
@@ -62626,6 +62626,14 @@
       "source_repo": "PARENA",
       "date": "20260907",
       "archived_at": "2026-09-07T20:56:31Z"
+    },
+    {
+      "id": 18366,
+      "type": "completion",
+      "title": "changelog(IDUNA): SAGA audit: CLAUDE.md/openapi.yaml/openapi.go doc catch-up,…",
+      "source_repo": "IDUNA",
+      "date": "20260907",
+      "archived_at": "2026-09-07T20:56:33Z"
     }
   ]
 }
