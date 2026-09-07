@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-07T11:56:28Z",
+  "generated_at": "2026-09-07T11:56:32Z",
   "repo": "APPLES",
-  "count": 7727,
+  "count": 7728,
   "apples": [
     {
       "id": 10525,
@@ -61818,6 +61818,14 @@
       "source_repo": "CarePyre",
       "date": "20260907",
       "archived_at": "2026-09-07T11:56:28Z"
+    },
+    {
+      "id": 18265,
+      "type": "completion",
+      "title": "changelog(IDUNA_PRO): New least-privilege mail-accounts.provision role (IsProvide…",
+      "source_repo": "IDUNA_PRO",
+      "date": "20260907",
+      "archived_at": "2026-09-07T11:56:32Z"
     }
   ]
 }
