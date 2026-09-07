@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-07T19:05:52Z",
+  "generated_at": "2026-09-07T19:06:02Z",
   "repo": "APPLES",
-  "count": 7807,
+  "count": 7808,
   "apples": [
     {
       "id": 10525,
@@ -62458,6 +62458,14 @@
       "source_repo": "BRAWLPIT",
       "date": "20260907",
       "archived_at": "2026-09-07T19:05:52Z"
+    },
+    {
+      "id": 18345,
+      "type": "completion",
+      "title": "Fixed the real reason BRAWLPIT multiplayer never worked: SERVER_HOST defaulted to loopback",
+      "source_repo": "BRAWLPIT",
+      "date": "20260907",
+      "archived_at": "2026-09-07T19:06:02Z"
     }
   ]
 }

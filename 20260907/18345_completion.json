@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-07T19:06:02Z",
+  "body": "Investigated \"multiplayer has never worked for me\" rather than guessing.\nThe earlier server-deployment fix (BPMM-12441/12442, 2026-09-04) was real\nand is confirmed live right now. The actual remaining gap: apps/lobby's\nSERVER_HOST defaulted to 127.0.0.1, so a compiled client run on any machine\nother than the server's own -- every real player -- silently tried to\nmatchmake against itself with nothing listening there. No error anywhere.\n\nReal fix: new DNS A record brawlpit.okemily.com -\u003e 198.58.107.85 (created\nvia the real Cloudflare API), now the client's default. Live-verified\ngenuinely external to loopback: a hand-crafted PACKET_FIND_MATCH UDP\npacket sent to the public hostname got back a real PACKET_QUEUE_STATUS\nreply with the correct queue depth. scripts/build.sh still clean.\n\nReal, honest, not solved: cross-NAT traversal between two genuinely\ndifferent networks is untested (this was one client on the same host\ntalking to the public address, not two remote players) -- named as the\nreal next verification step if the founder still can't connect.\n\nCommit: BRAWLPIT 77e50ce.\n\n⚓ ☃",
+  "id": 18345,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "BRAWLPIT",
+  "title": "Fixed the real reason BRAWLPIT multiplayer never worked: SERVER_HOST defaulted to loopback"
+}
