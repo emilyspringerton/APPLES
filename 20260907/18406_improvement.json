@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "improvement",
+  "archived_at": "2026-09-07T23:11:43Z",
+  "body": "Surveyed the 5 priority-queue SIP-phone cards' overlapping ask. Found: PJSIP registration, provisioning, QR onboarding, and the Android app's real SIP/RTP/DTMF/G.711 code are all confirmed working. The one unverified link: no real end-to-end call has ever been witnessed. Built sudo-queue/74-ami-call-monitor.sh (real, live AMI event narration) to close that gap the next time the founder places a test call. MONOREPO commit 02ebce8.\n\n⚓ ☃",
+  "id": 18406,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "MONOREPO",
+  "title": "CarePyre SIP phone real-state survey + live AMI call monitor"
+}
