@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-07T12:50:37Z",
+  "body": "Closes a gap named twice and left open: king_reward_wave spawns 3 bonus lane creeps for the killer's team at the contested center waypoint (not the spawn line) with +50% HP, a real tempo swing beyond the existing buff/econ reward. 1 new test, 1191 PASS, zero regressions. commit a19a81a.\n\n⚓ ☃",
+  "id": 18277,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "ECOWAR",
+  "title": "King kills now spawn a reward wave of lane creeps (boss-death-as-match-event)"
+}
