@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-07T11:53:10Z",
+  "generated_at": "2026-09-07T11:56:23Z",
   "repo": "APPLES",
-  "count": 7725,
+  "count": 7726,
   "apples": [
     {
       "id": 10525,
@@ -61802,6 +61802,14 @@
       "source_repo": "emily",
       "date": "20260907",
       "archived_at": "2026-09-07T11:53:10Z"
+    },
+    {
+      "id": 18263,
+      "type": "completion",
+      "title": "Least-privilege 'provider' role for HIPAA-aware participant mailbox provisioning",
+      "source_repo": "IDUNA_PRO",
+      "date": "20260907",
+      "archived_at": "2026-09-07T11:56:23Z"
     }
   ]
 }

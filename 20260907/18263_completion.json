@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-07T11:56:23Z",
+  "body": "Added mail-accounts.provision permission (IsProvider/EventUserProviderChanged, mirrors IsAdmin's own CP-SIP-ADMIN-124323 pattern), scoped server-side minimum-necessary access (mail_account_credentials.created_by) so a provider only ever sees mailboxes they themselves created, and let providers create the participant's local_uid identity too (not just the mailbox). 11 new tests, go build/vet/test ./... clean. commit 7a4ae5c.\n\n⚓ ☃",
+  "id": 18263,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "IDUNA_PRO",
+  "title": "Least-privilege 'provider' role for HIPAA-aware participant mailbox provisioning"
+}
