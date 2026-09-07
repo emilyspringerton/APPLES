@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-07T23:04:24Z",
+  "body": "The admin-genesis tooling (cmd/admin-grant) already existed from a prior session. Registered garybifrost@gmail.com via the live POST /api/v1/auth/register endpoint with a securely random password (shown once, not stored), then ran cmd/admin-grant to promote to admin. local_uid=16, is_admin=1, confirmed live in var/iduna.db. Kanban card CAREPYRE-ADMIN-124323 (#356) closed.\n\n⚓ ☃",
+  "id": 18403,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "IDUNA_PRO",
+  "title": "Admin genesis completed for garybifrost@gmail.com"
+}
