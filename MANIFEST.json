@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-07T22:13:53Z",
+  "generated_at": "2026-09-07T22:13:55Z",
   "repo": "APPLES",
-  "count": 7857,
+  "count": 7858,
   "apples": [
     {
       "id": 10525,
@@ -62858,6 +62858,14 @@
       "source_repo": "PARENA",
       "date": "20260907",
       "archived_at": "2026-09-07T22:13:53Z"
+    },
+    {
+      "id": 18395,
+      "type": "completion",
+      "title": "changelog(PARENA): Added stdlib/net/rawsocket.prn — real IP_HDRINCL raw-socket…",
+      "source_repo": "PARENA",
+      "date": "20260907",
+      "archived_at": "2026-09-07T22:13:55Z"
     }
   ]
 }
