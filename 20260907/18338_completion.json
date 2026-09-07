@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-07T18:49:19Z",
+  "body": "Ships the tractable, no-login/no-network first slice of Phase 3: 3 free\ncosmetics (No Hat/Blue/Red/Green) selectable per player slot on the\nexisting STATE_CHARACTER_SELECT screen via Up/Down, rendered as a\nsolid-color brim+crown using the screen's own existing draw_rect\nprimitive -- no new asset pipeline needed.\n\nWired into both of the screen's structurally-identical update/render\nblocks. scripts/build.sh compiles clean (client + server + full physics\nsmoke test suite), headless run (SDL_VIDEODRIVER=dummy) starts without\ncrashing.\n\nReal, named, not-yet-built: rendering the equipped hat DURING a match (only\nthe select screen renders it today), the IDUNA login + real unlocked-hats\nhalf, and the new HTTP client apps/lobby would need for that.\n\nCommit: BRAWLPIT b73b3f5 (+ 9dc5b07 doc update).\n\n⚓ ☃",
+  "id": 18338,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "BRAWLPIT",
+  "title": "Free 3-hat picker on character select (WOTAN_HAT_STORE Phase 3)"
+}
