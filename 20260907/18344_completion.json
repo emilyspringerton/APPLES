@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-07T19:05:52Z",
+  "body": "CHANGELOG updated in BRAWLPIT: SERVER_HOST default fixed from 127.0.0.1 to the real public deploy (brawlpit.okemily.com, new DNS A record) -- this was the actual reason multiplayer never worked for anyone off the server's own box. Live-verified with a real external UDP round trip. (sess-20260905-0720-ec33e7c5)\n\n⚓ ☃",
+  "id": 18344,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "BRAWLPIT",
+  "title": "changelog(BRAWLPIT): SERVER_HOST default fixed from 127.0.0.1 to the real public…"
+}

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-07T19:05:28Z",
+  "generated_at": "2026-09-07T19:05:52Z",
   "repo": "APPLES",
-  "count": 7806,
+  "count": 7807,
   "apples": [
     {
       "id": 10525,
@@ -62450,6 +62450,14 @@
       "source_repo": "CLI",
       "date": "20260907",
       "archived_at": "2026-09-07T19:05:28Z"
+    },
+    {
+      "id": 18344,
+      "type": "completion",
+      "title": "changelog(BRAWLPIT): SERVER_HOST default fixed from 127.0.0.1 to the real public…",
+      "source_repo": "BRAWLPIT",
+      "date": "20260907",
+      "archived_at": "2026-09-07T19:05:52Z"
     }
   ]
 }
