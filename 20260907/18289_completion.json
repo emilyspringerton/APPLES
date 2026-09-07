@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-07T13:24:32Z",
+  "body": "Real, checked finding: server_broadcast() sends one identical snapshot to every client regardless of team; true fog needs per-team filtered snapshots, not client-side hiding. Favorable finding: client-to-team lookup and variable-length hero counts already exist, lowering real implementation risk once built. 5 open design decisions named. NORTHSTAR.md §30. commit 280d44a.\n\n⚓ ☃",
+  "id": 18289,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "ECOWAR",
+  "title": "Scoped true server-authoritative fog of war (no code, per founder's own hold-the-build direction)"
+}
