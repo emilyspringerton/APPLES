@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-07T16:49:45Z",
+  "body": "Real, shared internal/gauntlet compliance package, replacing the earlier\nNORTHSTAR-only Gauntlet concept with a narrow, real v0: (1) every\nauto-generated article now gets a real disclosure/disclaimer -- closing a\nreal gap where none of the three live generators (movers-watcher,\neps-processor, guidance-watcher) had one; (2) ticker references go through\ngauntlet's LinkIssuer/PlainIssuer (thin wrapper over internal/tickerlink);\n(3) SKULDMARK-25 instrument IDs (v1 layout) surface alongside ticker\nreferences wherever one was already minted (movers-watcher mints for\nwatchlist names with CIK+Exchange on file; eps/guidance propagate the ID\nalready minted by prwatch at discovery time -- no new minting logic).\n\nNew gauntlet_test.go + 2 movers-watcher tests. go build/vet/test ./... clean\nacross the whole module.\n\nCommit: PRRJECT_FATBABY 64025b6.\n\n⚓ ☃",
+  "id": 18316,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "PRRJECT_FATBABY",
+  "title": "GAUNTLET v0: disclaimers + ticker linking + SKULDMARK on every auto-generated article"
+}
