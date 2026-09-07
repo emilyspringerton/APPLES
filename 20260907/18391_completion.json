@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-07T22:08:10Z",
+  "body": "CHANGELOG updated in PARENA: Extended ldap/ber.prn with long-form BER length decode (read-ber-length-ext/ber-header-size-ext) and added stdlib/pentest/x509.prn — real X.509 version+serialNumber extraction, live-verified against a genuine openssl-generated DER certificate. (sess-20260905-0720-ec33e7c5)\n\n⚓ ☃",
+  "id": 18391,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "PARENA",
+  "title": "changelog(PARENA): Extended ldap/ber.prn with long-form BER length decode (rea…"
+}

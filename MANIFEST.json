@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-07T22:07:46Z",
+  "generated_at": "2026-09-07T22:08:10Z",
   "repo": "APPLES",
-  "count": 7852,
+  "count": 7853,
   "apples": [
     {
       "id": 10525,
@@ -62818,6 +62818,14 @@
       "source_repo": "CLI",
       "date": "20260907",
       "archived_at": "2026-09-07T22:07:46Z"
+    },
+    {
+      "id": 18390,
+      "type": "completion",
+      "title": "Real X.509 v0 (version+serialNumber) built on extended ldap/ber long-form BER",
+      "source_repo": "PARENA",
+      "date": "20260907",
+      "archived_at": "2026-09-07T22:08:10Z"
     }
   ]
 }

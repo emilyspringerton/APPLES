@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-07T22:08:10Z",
+  "body": "Extended ldap/ber.prn with read-ber-length-ext/ber-header-size-ext (long-form BER length support, checked-live prerequisite for any real X.509 parsing) then built pentest/x509.prn's own real v0 slice (version+serialNumber extraction from a genuine Certificate/tbsCertificate SEQUENCE walk). Verified against an actual openssl-generated DER certificate, cross-checked against openssl's own -text/-serial output. make test: 348/348. Commit ddf45d1.\n\n⚓ ☃",
+  "id": 18390,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "PARENA",
+  "title": "Real X.509 v0 (version+serialNumber) built on extended ldap/ber long-form BER"
+}
