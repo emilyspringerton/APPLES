@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-07T21:52:16Z",
+  "generated_at": "2026-09-07T21:52:21Z",
   "repo": "APPLES",
-  "count": 7848,
+  "count": 7849,
   "apples": [
     {
       "id": 10525,
@@ -62786,6 +62786,14 @@
       "source_repo": "emily.cli",
       "date": "20260907",
       "archived_at": "2026-09-07T21:52:16Z"
+    },
+    {
+      "id": 18386,
+      "type": "backlog_completion",
+      "title": "Manual kanban move: kanban search (filter)",
+      "source_repo": "EMILY",
+      "date": "20260907",
+      "archived_at": "2026-09-07T21:52:21Z"
     }
   ]
 }
