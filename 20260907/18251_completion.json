@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-07T11:06:31Z",
+  "body": "CHANGELOG updated in IDUNA: Real IDUNA_PRO tenant provisioning control plane: new tenants table + internal/tenantprovision spins up a real, separate, live IDUNA_PRO systemd service per tenant (port alloc, JWT secret, env/unit generation, health check), admin-only GET/POST /api/v1/tenants. Verified live end to end. (sess-20260905-0720-ec33e7c5)\n\n⚓ ☃",
+  "id": 18251,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "IDUNA",
+  "title": "changelog(IDUNA): Real IDUNA_PRO tenant provisioning control plane: new tenan…"
+}
