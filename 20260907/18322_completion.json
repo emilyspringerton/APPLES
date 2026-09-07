@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-07T17:29:28Z",
+  "body": "Real, filterable ad pool (edis_dis_ad_pool) on top of the existing edis-dis\nplugin's health-adaptive [edis_dis_ad] shortcode. GFD (live) as the house\nad, an admin-configurable \"advertise here\" mailto CTA mixed into the same\nrotation (not a fallback), picked at random per render, rendered through\nthe existing SVG/text/PoW/none pipeline unchanged.\n\nReal privacy policy: vetted external sponsors get\nrel=\"nofollow noreferrer noopener\" (suppresses the default Referer leak);\nhouse/meta links stay nofollow-only. No user data is ever shared with an\nadvertiser -- static creative + link only.\n\nWired live into themes/edis/footer.php. New docs/AD_MONETIZATION_NORTHSTAR.md\n(registered in golden-docs-index.md) documents the full policy and names\nhonest gaps.\n\nCommit: EDIS 9f409c4.\n\n⚓ ☃",
+  "id": 18322,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "EDIS",
+  "title": "Ad monetization v0: house ads + advertise-here CTA + vetted-sponsor rel policy"
+}
