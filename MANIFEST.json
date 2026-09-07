@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-07T21:51:31Z",
+  "generated_at": "2026-09-07T21:52:11Z",
   "repo": "APPLES",
-  "count": 7846,
+  "count": 7847,
   "apples": [
     {
       "id": 10525,
@@ -62770,6 +62770,14 @@
       "source_repo": "CLI",
       "date": "20260907",
       "archived_at": "2026-09-07T21:51:31Z"
+    },
+    {
+      "id": 18384,
+      "type": "completion",
+      "title": "changelog(IDUNA): Real substring search (?q=) on GET /api/v1/kanban/cards, co…",
+      "source_repo": "IDUNA",
+      "date": "20260907",
+      "archived_at": "2026-09-07T21:52:11Z"
     }
   ]
 }
