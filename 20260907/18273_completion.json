@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-07T12:18:05Z",
+  "body": "CHANGELOG updated in CarePyre: Web phone: eliminated the login-screen flash for users with a provisioned SIP extension -- auto-connect now goes straight to a Connecting screen, never the manual login form, with a real error fallback on actual registration failure. (sess-20260905-0720-ec33e7c5)\n\n⚓ ☃",
+  "id": 18273,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "CarePyre",
+  "title": "changelog(CarePyre): Web phone: eliminated the login-screen flash for users with…"
+}

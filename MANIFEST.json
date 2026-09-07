@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-07T12:08:08Z",
+  "generated_at": "2026-09-07T12:18:05Z",
   "repo": "APPLES",
-  "count": 7734,
+  "count": 7735,
   "apples": [
     {
       "id": 10525,
@@ -61874,6 +61874,14 @@
       "source_repo": "emily",
       "date": "20260907",
       "archived_at": "2026-09-07T12:08:08Z"
+    },
+    {
+      "id": 18272,
+      "type": "completion",
+      "title": "Web phone auto-connect: skip login screen entirely when SIP creds are already provisioned",
+      "source_repo": "CarePyre",
+      "date": "20260907",
+      "archived_at": "2026-09-07T12:18:05Z"
     }
   ]
 }
