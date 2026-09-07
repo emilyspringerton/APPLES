@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-07T16:10:03Z",
+  "body": "Real, minimal cross-org trust model for CarePyre's multi-tenant use case:\norganizations table with a nullable cluster_id (one flat trust boundary per\nmarket), org_id on local_users/mail_account_credentials/sip_accounts, and a\ndedicated cross_org_access_log table for fraud/waste/abuse auditing.\n\nShips the exact worked example the founder gave: a Provider Operator can\npassword-reset a participant onboarded by a different, cluster-sharing\norganization (e.g. shelter service navigator \u003c-\u003e health provider). Same\ncluster-trust extended to mail/SIP visibility and provisioning. Backward\ncompatible (org 0 never shares with anything, including another 0).\n\nNew GET/POST /api/v1/organizations, PATCH /api/v1/organizations/{id}\n(users.admin-gated). 9 new tests, all passing. go build/vet/test clean.\nLive-verified against the running idunapro.service + real sqlite schema.\n\nDocs: CarePyre/docs/HIPAA_COMPLIANCE_NORTHSTAR.md updated.\n\nCommits:\nIDUNA_PRO 55ea4ce\nCarePyre 66de951\n\n⚓ ☃",
+  "id": 18306,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "IDUNA_PRO",
+  "title": "Multi-org provider-cluster trust model (CP-HIPAA-3)"
+}

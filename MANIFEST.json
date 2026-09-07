@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-07T16:09:29Z",
+  "generated_at": "2026-09-07T16:10:03Z",
   "repo": "APPLES",
-  "count": 7768,
+  "count": 7769,
   "apples": [
     {
       "id": 10525,
@@ -62146,6 +62146,14 @@
       "source_repo": "CLI",
       "date": "20260907",
       "archived_at": "2026-09-07T16:09:29Z"
+    },
+    {
+      "id": 18306,
+      "type": "completion",
+      "title": "Multi-org provider-cluster trust model (CP-HIPAA-3)",
+      "source_repo": "IDUNA_PRO",
+      "date": "20260907",
+      "archived_at": "2026-09-07T16:10:03Z"
     }
   ]
 }
