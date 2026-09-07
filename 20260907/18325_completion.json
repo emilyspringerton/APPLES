@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-07T17:39:16Z",
+  "body": "New -slot flag distinguishes an intraday re-run's article ID/headline from\nthe original once-daily one (avoids a same-day ID collision that would\notherwise silently overwrite the morning article -- commentary dedups by\nexact ID, last-write-wins). New fatbaby-movers-watcher-midday.{service,timer}\n(user-level systemd, no sudo) fires at 10:20am ET -- deployed and enabled\nlive, confirmed next trigger is the correct UTC-equivalent, dry-run-verified\nthe article renders correctly labeled (\"Stocks on the Move (Midday Update)\").\n\nNew test, go build/vet/test ./... clean.\n\nCommit: PRRJECT_FATBABY 8e64e1f.\n\n⚓ ☃",
+  "id": 18325,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "PRRJECT_FATBABY",
+  "title": "Midday movers-watcher run at 10:20am ET"
+}
