@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-07T13:20:16Z",
+  "body": "Camp minions now chase a target out to real attack range and give up beyond a leash distance measured from home, resetting HP on return -- real LoL-style behavior replacing pure passive proximity-attack. New Pyromancer archetype attacks from range like Gary. 3 new tests, 1208 PASS, zero regressions. commit 516e6ef.\n\n⚓ ☃",
+  "id": 18285,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "ECOWAR",
+  "title": "Camp minion aggro+chase+leash, Pyromancer caster archetype"
+}
