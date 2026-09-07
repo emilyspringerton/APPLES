@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-07T21:01:32Z",
+  "generated_at": "2026-09-07T21:07:03Z",
   "repo": "APPLES",
-  "count": 7833,
+  "count": 7834,
   "apples": [
     {
       "id": 10525,
@@ -62666,6 +62666,14 @@
       "source_repo": "CLI",
       "date": "20260907",
       "archived_at": "2026-09-07T21:01:32Z"
+    },
+    {
+      "id": 18371,
+      "type": "completion",
+      "title": "Closed the top-level-Lambda runtime-argument gap (NORTHSTAR DUNG-integration gap #2)",
+      "source_repo": "LO",
+      "date": "20260907",
+      "archived_at": "2026-09-07T21:07:03Z"
     }
   ]
 }
