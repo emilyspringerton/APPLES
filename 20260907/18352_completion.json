@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-07T19:36:32Z",
+  "body": "Founder: \"organize the kanban\" -\u003e \"there is shit in there i dont know what\nit is\" -\u003e \"do the nasty\" -\u003e \"whatever u think\" (full delegated judgment).\n\nReviewed all 171 cards across backlog/priority/cruise. Removed 6, safely\nand non-destructively:\n- #7 (S202-200) -- a literal test artifact (\"THIS IS A TEST DOES THIS WIND\n  UP IN THE TEXT FILE OR IS IT A PHANTOM IN THE SYSTEM?\").\n- #320/#321 (BP-LVL-1236/1237) -- exact-text duplicates of #319\n  (BP-LVL-1234), kept.\n- #293 (BPLE-13331) -- exact-text duplicate of #292 (same ID, same text),\n  kept.\n- #52 (\"208\") -- superseded by #57 (S243-03), which explicitly says\n  \"(was '208')\".\n- #53 (\"210\") -- superseded by #56 (S243-04), which explicitly says\n  \"(was '210')\".\n\nDeliberately did NOT delete the many real, legible ideas sitting under\nugly ad-hoc numeric IDs (9999, 7799, 109777, etc.) -- those are real\nbacklog content, not junk, just badly-labeled; renaming them wasn't\nattempted (no rename affordance in emily kanban, only move/add/rm).\nAlso deliberately did not re-triage priority-tier assignments -- that's a\njudgment call about what to work on next, a separate decision from board\nhygiene.\n\n171 -\u003e 165 cards. No code changed this pass.\n\n⚓ ☃",
+  "id": 18352,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "IDUNA",
+  "title": "Kanban board cleanup: removed test artifact + exact duplicates + superseded cards"
+}
