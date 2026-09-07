@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-07T23:27:30Z",
+  "generated_at": "2026-09-07T23:27:31Z",
   "repo": "APPLES",
-  "count": 7871,
+  "count": 7872,
   "apples": [
     {
       "id": 10525,
@@ -62970,6 +62970,14 @@
       "source_repo": "CarePyre",
       "date": "20260907",
       "archived_at": "2026-09-07T23:27:30Z"
+    },
+    {
+      "id": 18409,
+      "type": "completion",
+      "title": "changelog(CarePyre): Fixed CAREPYRE-42143124: the provisioning URL (already pass…",
+      "source_repo": "CarePyre",
+      "date": "20260907",
+      "archived_at": "2026-09-07T23:27:31Z"
     }
   ]
 }
