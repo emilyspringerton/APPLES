@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-07T13:45:44Z",
+  "body": "binop_c_symbol() had every comparison except !=, which silently emitted invalid C ('=(a, b)') instead of failing at compile time. New regression test in test_emit.c. make test: 35+8+348 passed, 0 failed. Also adds weapon_mod.prn, the real mod this fix was found while building. commit 2bd6ae3.\n\n⚓ ☃",
+  "id": 18293,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "PARENA",
+  "title": "Fix missing != operator in C emitter, add stdlib/papercraft/weapon_mod.prn"
+}

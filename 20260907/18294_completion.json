@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-07T13:45:44Z",
+  "body": "Ported SHANKPIT's weapon roster with a genuinely new ownership gate PARENA's weapon_mod.prn decides -- a player can only switch to a weapon they've found (real PC_ITEM_WPN_* world pickup) or the universal Knife baseline. item_drop_mod.prn extended so destroying a METAL object drops a real shotgun -- a live, testable spawn path, not just an ungated gate. Real wire-budget regression caught and fixed before landing (current_weapon moved out of the broadcast snapshot into a per-owner-only packet). New tests, server+client both compile clean. commit c0cc3d8.\n\n⚓ ☃",
+  "id": 18294,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "PAPERCRAFT",
+  "title": "Real arsenal weapon-switching gated by found-in-world ownership"
+}
