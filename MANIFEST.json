@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-07T12:18:05Z",
+  "generated_at": "2026-09-07T12:18:07Z",
   "repo": "APPLES",
-  "count": 7735,
+  "count": 7736,
   "apples": [
     {
       "id": 10525,
@@ -61882,6 +61882,14 @@
       "source_repo": "CarePyre",
       "date": "20260907",
       "archived_at": "2026-09-07T12:18:05Z"
+    },
+    {
+      "id": 18273,
+      "type": "completion",
+      "title": "changelog(CarePyre): Web phone: eliminated the login-screen flash for users with…",
+      "source_repo": "CarePyre",
+      "date": "20260907",
+      "archived_at": "2026-09-07T12:18:07Z"
     }
   ]
 }
