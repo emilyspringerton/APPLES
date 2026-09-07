@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-07T13:07:26Z",
+  "body": "ARENA_MAP_SCALE_9X (3.0) applied on top of the existing golden-ratio scale-up to ARENA_HALF_EXTENT, plus every non-derived spatial literal (node/obstacle/lane/powerup layouts). ARENA_NODE_COUNT 5-\u003e9 with 4 new Outpost nodes at real midpoints. Ability ranges/speeds deliberately unscaled. 1 new test, 2 pre-existing tests fixed for real behavior changes, 1200 PASS, zero regressions. commit e396bdc.\n\n⚓ ☃",
+  "id": 18281,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "ECOWAR",
+  "title": "Map grown 9x (3x linear) with 4 new capturable nodes"
+}
