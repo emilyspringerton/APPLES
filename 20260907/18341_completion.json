@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-07T18:53:45Z",
+  "body": "Closes the one real blocking prerequisite the NORTHSTAR doc named: BRAWLPIT\nhad no way to render a cosmetic on a fighter DURING a match, only on the\nselect screen. It turned out to already exist -- draw_player()'s own\nexisting \"mirror-match hat\" is drawn last, above the head, in local\nplayer-model space, the exact real attach point a cosmetic needs.\nselected_hat[] now renders there in STATE_GAME_LOCAL matches.\n\nDeliberately gated to STATE_GAME_LOCAL + player_index \u003c 2 -- selected_hat\nholds only this machine's local choices, with no protocol-synced meaning\nfor a remote opponent in STATE_GAME_NET (up to MAX_CLIENTS players);\napplying it there would show the wrong player's hat or read past the array.\n\nVerified: scripts/build.sh clean (client+server+full physics test suite),\ngcc -Wall -Wextra clean, headless run starts without crashing.\n\nStill real, honest, not built: syncing a hat choice over the network\nprotocol, and the IDUNA login/HTTP-client half for real unlocked hats.\n\nCommits: BRAWLPIT b56bcf7, ed95da2 (doc).\n\n⚓ ☃",
+  "id": 18341,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "BRAWLPIT",
+  "title": "In-match hat rendering (WOTAN_HAT_STORE Phase 3, real blocking prerequisite closed)"
+}
