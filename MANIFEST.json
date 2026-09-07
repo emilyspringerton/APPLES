@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-07T13:45:46Z",
+  "generated_at": "2026-09-07T13:45:51Z",
   "repo": "APPLES",
-  "count": 7757,
+  "count": 7758,
   "apples": [
     {
       "id": 10525,
@@ -62058,6 +62058,14 @@
       "source_repo": "PAPERCRAFT",
       "date": "20260907",
       "archived_at": "2026-09-07T13:45:46Z"
+    },
+    {
+      "id": 18295,
+      "type": "completion",
+      "title": "changelog(PARENA): Fixed a real C-emitter gap: != had no operator-table entry …",
+      "source_repo": "PARENA",
+      "date": "20260907",
+      "archived_at": "2026-09-07T13:45:51Z"
     }
   ]
 }
