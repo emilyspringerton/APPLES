@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-07T22:32:31Z",
+  "generated_at": "2026-09-07T22:35:21Z",
   "repo": "APPLES",
-  "count": 7861,
+  "count": 7862,
   "apples": [
     {
       "id": 10525,
@@ -62890,6 +62890,14 @@
       "source_repo": "CLI",
       "date": "20260907",
       "archived_at": "2026-09-07T22:32:31Z"
+    },
+    {
+      "id": 18399,
+      "type": "completion",
+      "title": "Real mmap, /proc/maps parser, and hash-set primitives (io/mmap, pentest/procmaps, set)",
+      "source_repo": "PARENA",
+      "date": "20260907",
+      "archived_at": "2026-09-07T22:35:21Z"
     }
   ]
 }
