@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-07T21:12:04Z",
+  "generated_at": "2026-09-07T21:16:05Z",
   "repo": "APPLES",
-  "count": 7837,
+  "count": 7838,
   "apples": [
     {
       "id": 10525,
@@ -62698,6 +62698,14 @@
       "source_repo": "EMILY",
       "date": "20260907",
       "archived_at": "2026-09-07T21:12:04Z"
+    },
+    {
+      "id": 18375,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time (work from kanban): picked up CAREPYRE-SIP-4324324 (SIP phone needs DTMF d…",
+      "source_repo": "CLI",
+      "date": "20260907",
+      "archived_at": "2026-09-07T21:16:05Z"
     }
   ]
 }
