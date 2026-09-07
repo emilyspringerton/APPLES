@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-07T18:41:47Z",
+  "generated_at": "2026-09-07T18:48:03Z",
   "repo": "APPLES",
-  "count": 7798,
+  "count": 7799,
   "apples": [
     {
       "id": 10525,
@@ -62386,6 +62386,14 @@
       "source_repo": "emily",
       "date": "20260907",
       "archived_at": "2026-09-07T18:41:47Z"
+    },
+    {
+      "id": 18336,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time (continuation): implement the free 3-hat picker (Blue/Red/Green, no login)…",
+      "source_repo": "CLI",
+      "date": "20260907",
+      "archived_at": "2026-09-07T18:48:03Z"
     }
   ]
 }
