@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-07T16:30:58Z",
+  "generated_at": "2026-09-07T16:31:00Z",
   "repo": "APPLES",
-  "count": 7775,
+  "count": 7776,
   "apples": [
     {
       "id": 10525,
@@ -62202,6 +62202,14 @@
       "source_repo": "IDUNA_PRO",
       "date": "20260907",
       "archived_at": "2026-09-07T16:30:58Z"
+    },
+    {
+      "id": 18313,
+      "type": "completion",
+      "title": "changelog(CarePyre): console.html reads white-label branding from IDUNA_PRO at l…",
+      "source_repo": "CarePyre",
+      "date": "20260907",
+      "archived_at": "2026-09-07T16:31:00Z"
     }
   ]
 }
