@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-07T16:30:56Z",
+  "body": "Real, general per-instance white-label branding (app_name/tagline/colors/logo)\nbehind GET (public)/PUT (branding.admin) /api/v1/branding -- console.html now\nreads this at load instead of hardcoding CarePyre. CarePyre's own branding is\nnow live-configured through the API, not a schema special case.\n\nAlso real storage for the \"this call may be recorded\" consent-announcement\naudio (compliance.recording.manage GET/PUT /api/v1/compliance/recording) --\ncloses CAREPYRE-9311's own named gap. console.html gained a browser-mic\nrecording panel (MediaRecorder) to produce it self-service.\n\nNew CarePyre/android-admin/ Gradle module: a real, minimal white-label\nAndroid app (WebView wrapper, \"generic\"/\"carepyre\" product flavors, same\ncode). Source-complete; not build-verified (no Android SDK in this sandbox).\n\n7 new Go tests, all passing. go build/vet/test clean. Live-verified against\nrunning idunapro.service.\n\nCommits: IDUNA_PRO 185c74a, CarePyre f5a27d5.\n\n⚓ ☃",
+  "id": 18311,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "IDUNA_PRO",
+  "title": "White-label branding + compliance-recording (CP-WHITELABEL-1, CP-COMPLIANCE-REC-1) + CarePyre admin Android app"
+}
