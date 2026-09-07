@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-07T11:16:08Z",
+  "body": "Cloudflare's free-plan proxy can't see raw TCP mail traffic at all (mail DNS record stays unproxied for delivery to work), so real geo-blocking had to happen at the host firewall. Flagged and got confirmation on a real risk before implementing: geo-blocking SMTP (25) by source IP could silently drop legitimate inbound mail since big providers don't route by sender geography. Scoped to the real human-login surfaces only (443 webmail, 993 IMAPS, 8080 admin panel). Built a UFW-hooked ipset (ipdeny.com CIDR data, US+MX+CA, ~80k entries, no API key needed), persisted across reboot, weekly auto-refresh. Verified live on the real server: rule active, correctly includes/excludes real test IPs, this session's own US connections still work end to end. Commit b827139.\n\n⚓ ☃",
+  "id": 18254,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "CarePyre",
+  "title": "Mail server geo-restricted to US/MX/CA for webmail/IMAPS/admin -- SMTP left open, verified live"
+}

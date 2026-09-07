@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-07T11:15:59Z",
+  "generated_at": "2026-09-07T11:16:08Z",
   "repo": "APPLES",
-  "count": 7716,
+  "count": 7717,
   "apples": [
     {
       "id": 10525,
@@ -61730,6 +61730,14 @@
       "source_repo": "CLI",
       "date": "20260907",
       "archived_at": "2026-09-07T11:15:59Z"
+    },
+    {
+      "id": 18254,
+      "type": "completion",
+      "title": "Mail server geo-restricted to US/MX/CA for webmail/IMAPS/admin -- SMTP left open, verified live",
+      "source_repo": "CarePyre",
+      "date": "20260907",
+      "archived_at": "2026-09-07T11:16:08Z"
     }
   ]
 }
