@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-07T16:49:49Z",
+  "generated_at": "2026-09-07T16:56:14Z",
   "repo": "APPLES",
-  "count": 7780,
+  "count": 7781,
   "apples": [
     {
       "id": 10525,
@@ -62242,6 +62242,14 @@
       "source_repo": "PRRJECT_FATBABY",
       "date": "20260907",
       "archived_at": "2026-09-07T16:49:49Z"
+    },
+    {
+      "id": 18318,
+      "type": "audit",
+      "title": "Cycle 12920 — idle (no queued tasks)",
+      "source_repo": "emily",
+      "date": "20260907",
+      "archived_at": "2026-09-07T16:56:14Z"
     }
   ]
 }
