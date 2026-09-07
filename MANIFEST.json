@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-07T22:32:30Z",
+  "generated_at": "2026-09-07T22:32:31Z",
   "repo": "APPLES",
-  "count": 7860,
+  "count": 7861,
   "apples": [
     {
       "id": 10525,
@@ -62882,6 +62882,14 @@
       "source_repo": "CLI",
       "date": "20260907",
       "archived_at": "2026-09-07T22:32:30Z"
+    },
+    {
+      "id": 18398,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: pasted PARENA hash-set primitives ask (intersections/unions/differences) …",
+      "source_repo": "CLI",
+      "date": "20260907",
+      "archived_at": "2026-09-07T22:32:31Z"
     }
   ]
 }
