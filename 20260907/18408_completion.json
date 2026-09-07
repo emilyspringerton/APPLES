@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-07T23:27:30Z",
+  "body": "console.html renders the provisioning URL (which already includes the real PJSIP password) as a second, scannable QR code. app.js's onQrScanned() now detects that URL shape and routes to the existing registerFromProvisioningUrl bridge instead of the passwordless sip: URI parser. MainActivity.java + AndroidManifest.xml gained matching native detection and a VIEW/BROWSABLE intent-filter, so camera-recognizing the link also works. Deployed live (console.html synced to /var/www/carepyre, confirmed 200). Commit a31b18c.\n\n⚓ ☃",
+  "id": 18408,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "CarePyre",
+  "title": "QR onboarding zero-typing fix: provisioning URL now scannable (CAREPYRE-42143124)"
+}

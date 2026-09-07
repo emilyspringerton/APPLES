@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-07T23:25:42Z",
+  "generated_at": "2026-09-07T23:27:30Z",
   "repo": "APPLES",
-  "count": 7870,
+  "count": 7871,
   "apples": [
     {
       "id": 10525,
@@ -62962,6 +62962,14 @@
       "source_repo": "emily",
       "date": "20260907",
       "archived_at": "2026-09-07T23:25:42Z"
+    },
+    {
+      "id": 18408,
+      "type": "completion",
+      "title": "QR onboarding zero-typing fix: provisioning URL now scannable (CAREPYRE-42143124)",
+      "source_repo": "CarePyre",
+      "date": "20260907",
+      "archived_at": "2026-09-07T23:27:30Z"
     }
   ]
 }
