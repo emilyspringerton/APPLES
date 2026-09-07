@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-07T11:56:34Z",
+  "generated_at": "2026-09-07T11:57:35Z",
   "repo": "APPLES",
-  "count": 7729,
+  "count": 7730,
   "apples": [
     {
       "id": 10525,
@@ -61834,6 +61834,14 @@
       "source_repo": "CarePyre",
       "date": "20260907",
       "archived_at": "2026-09-07T11:56:34Z"
+    },
+    {
+      "id": 18267,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: extend provider role model to SIP provisioning (mail-accounts.provision t…",
+      "source_repo": "CLI",
+      "date": "20260907",
+      "archived_at": "2026-09-07T11:57:35Z"
     }
   ]
 }
