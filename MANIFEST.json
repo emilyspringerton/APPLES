@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-07T17:55:37Z",
+  "generated_at": "2026-09-07T17:55:42Z",
   "repo": "APPLES",
-  "count": 7792,
+  "count": 7793,
   "apples": [
     {
       "id": 10525,
@@ -62338,6 +62338,14 @@
       "source_repo": "IDUNA",
       "date": "20260907",
       "archived_at": "2026-09-07T17:55:37Z"
+    },
+    {
+      "id": 18330,
+      "type": "completion",
+      "title": "changelog(IDUNA): WOTAN hat store Phase 4.5: POST /api/v1/characters/:id/hats…",
+      "source_repo": "IDUNA",
+      "date": "20260907",
+      "archived_at": "2026-09-07T17:55:42Z"
     }
   ]
 }
