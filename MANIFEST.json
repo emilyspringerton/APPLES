@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-07T21:52:11Z",
+  "generated_at": "2026-09-07T21:52:16Z",
   "repo": "APPLES",
-  "count": 7847,
+  "count": 7848,
   "apples": [
     {
       "id": 10525,
@@ -62778,6 +62778,14 @@
       "source_repo": "IDUNA",
       "date": "20260907",
       "archived_at": "2026-09-07T21:52:11Z"
+    },
+    {
+      "id": 18385,
+      "type": "completion",
+      "title": "changelog(emily.cli): New -search flag for 'emily kanban list', wired to IDUNA's …",
+      "source_repo": "emily.cli",
+      "date": "20260907",
+      "archived_at": "2026-09-07T21:52:16Z"
     }
   ]
 }
