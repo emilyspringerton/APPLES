@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-07T22:13:35Z",
+  "generated_at": "2026-09-07T22:13:53Z",
   "repo": "APPLES",
-  "count": 7856,
+  "count": 7857,
   "apples": [
     {
       "id": 10525,
@@ -62850,6 +62850,14 @@
       "source_repo": "CLI",
       "date": "20260907",
       "archived_at": "2026-09-07T22:13:35Z"
+    },
+    {
+      "id": 18394,
+      "type": "completion",
+      "title": "Real IP_HDRINCL raw-socket primitives (net/rawsocket.prn)",
+      "source_repo": "PARENA",
+      "date": "20260907",
+      "archived_at": "2026-09-07T22:13:53Z"
     }
   ]
 }

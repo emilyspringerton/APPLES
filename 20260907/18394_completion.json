@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-07T22:13:53Z",
+  "body": "New rawsocket_*_impl host glue in parena_runtime.h plus stdlib/net/rawsocket.prn: raw-ip4-open, raw-hdrincl-enable (the literal IP_HDRINCL setsockopt), raw-ip4-open-hdrincl convenience, raw-ip4-send, raw-ip4-close. CAP_NET_RAW/root is a real, standing OS-level requirement named directly. make test-net-rawsocket asserts this sandbox's real, deterministic PermissionDenied outcome; the real success path is structurally complete, gated for real root. make test: 348/348. Commit ab2c278.\n\n⚓ ☃",
+  "id": 18394,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "PARENA",
+  "title": "Real IP_HDRINCL raw-socket primitives (net/rawsocket.prn)"
+}
