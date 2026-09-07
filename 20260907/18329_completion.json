@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-07T17:55:37Z",
+  "body": "Corrected a stale status: WOTAN-DNS-001's deploy already happened\n(wotan.okemily.com is live) -- live-verified the full read path (register,\ncatalog, character resolution) end to end against the running iduna.service.\n\nShipped Phase 4.5's real gap: POST /api/v1/characters/:id/hats/generated\n(agent-only) creates a brand-new hats row and grants it to a character in\none transaction -- the missing piece for the \"surprise box\" design\n(spend Flow now, generate later at use time). 2 new tests, go build/vet/test\n./... clean, live-verified end to end with a real DRAGONSNSHIT-MUD agent\ntoken.\n\nAlso resolved Phase 3's design (founder real-time): BRAWLPIT's hat-selection\nscreen offers 3 free hats (Blue/Red/Green) with no login required, plus an\noptional login surfacing real store-unlocked hats. Not yet built -- native\nSDL2/network client work scoped as its own follow-up.\n\nCommits: IDUNA 9e56e2b, BRAWLPIT 0ba457a.\n\n⚓ ☃",
+  "id": 18329,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "IDUNA",
+  "title": "WOTAN hat store: Phase 2 verified live + Phase 4.5 generate-endpoint shipped"
+}
