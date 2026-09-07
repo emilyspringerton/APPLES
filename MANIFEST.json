@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-07T18:52:46Z",
+  "generated_at": "2026-09-07T18:53:36Z",
   "repo": "APPLES",
-  "count": 7802,
+  "count": 7803,
   "apples": [
     {
       "id": 10525,
@@ -62418,6 +62418,14 @@
       "source_repo": "CLI",
       "date": "20260907",
       "archived_at": "2026-09-07T18:52:46Z"
+    },
+    {
+      "id": 18340,
+      "type": "completion",
+      "title": "changelog(BRAWLPIT): In-match hat rendering: selected_hat[] now renders on the f…",
+      "source_repo": "BRAWLPIT",
+      "date": "20260907",
+      "archived_at": "2026-09-07T18:53:36Z"
     }
   ]
 }
