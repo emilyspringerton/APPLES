@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-07T21:07:03Z",
+  "generated_at": "2026-09-07T21:07:09Z",
   "repo": "APPLES",
-  "count": 7834,
+  "count": 7835,
   "apples": [
     {
       "id": 10525,
@@ -62674,6 +62674,14 @@
       "source_repo": "LO",
       "date": "20260907",
       "archived_at": "2026-09-07T21:07:03Z"
+    },
+    {
+      "id": 18372,
+      "type": "completion",
+      "title": "changelog(LO): Bare top-level Lambda now emits a real, exported, parameter…",
+      "source_repo": "LO",
+      "date": "20260907",
+      "archived_at": "2026-09-07T21:07:09Z"
     }
   ]
 }
