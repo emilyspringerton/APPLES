@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-07T22:08:10Z",
+  "generated_at": "2026-09-07T22:08:12Z",
   "repo": "APPLES",
-  "count": 7853,
+  "count": 7854,
   "apples": [
     {
       "id": 10525,
@@ -62826,6 +62826,14 @@
       "source_repo": "PARENA",
       "date": "20260907",
       "archived_at": "2026-09-07T22:08:10Z"
+    },
+    {
+      "id": 18391,
+      "type": "completion",
+      "title": "changelog(PARENA): Extended ldap/ber.prn with long-form BER length decode (rea…",
+      "source_repo": "PARENA",
+      "date": "20260907",
+      "archived_at": "2026-09-07T22:08:12Z"
     }
   ]
 }
