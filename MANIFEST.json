@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-07T22:27:02Z",
+  "generated_at": "2026-09-07T22:32:30Z",
   "repo": "APPLES",
-  "count": 7859,
+  "count": 7860,
   "apples": [
     {
       "id": 10525,
@@ -62874,6 +62874,14 @@
       "source_repo": "emily",
       "date": "20260907",
       "archived_at": "2026-09-07T22:27:02Z"
+    },
+    {
+      "id": 18397,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: pasted PARENA mmap/procfs-parser proposal (mmap flat-array primitives + W…",
+      "source_repo": "CLI",
+      "date": "20260907",
+      "archived_at": "2026-09-07T22:32:30Z"
     }
   ]
 }
