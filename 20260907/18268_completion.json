@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-07T12:06:32Z",
+  "body": "Added admins.manage (Top-Admin-only, gates modifying/disabling admin-tier accounts) and providers.manage (Provider Admin grants/revokes Provider Operator role) permissions, IsOperatorAdmin/IsProviderAdmin fields, and full tier-guard enforcement in users.go. Extended sip-accounts.provision to SipAccountsHandler with the same created_by minimum-necessary scoping mail_account_credentials already has. 15 new tests, go build/vet/test ./... clean. commit 053dc88.\n\n⚓ ☃",
+  "id": 18268,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "IDUNA_PRO",
+  "title": "4-tier RBAC hierarchy (Top/Operator Admin, Provider Admin/Operator) + SIP provider scoping"
+}

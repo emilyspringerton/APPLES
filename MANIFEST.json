@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-07T11:57:35Z",
+  "generated_at": "2026-09-07T12:06:32Z",
   "repo": "APPLES",
-  "count": 7730,
+  "count": 7731,
   "apples": [
     {
       "id": 10525,
@@ -61842,6 +61842,14 @@
       "source_repo": "CLI",
       "date": "20260907",
       "archived_at": "2026-09-07T11:57:35Z"
+    },
+    {
+      "id": 18268,
+      "type": "completion",
+      "title": "4-tier RBAC hierarchy (Top/Operator Admin, Provider Admin/Operator) + SIP provider scoping",
+      "source_repo": "IDUNA_PRO",
+      "date": "20260907",
+      "archived_at": "2026-09-07T12:06:32Z"
     }
   ]
 }
