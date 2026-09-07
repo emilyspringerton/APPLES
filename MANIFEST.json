@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-07T20:56:16Z",
+  "generated_at": "2026-09-07T20:56:24Z",
   "repo": "APPLES",
-  "count": 7823,
+  "count": 7824,
   "apples": [
     {
       "id": 10525,
@@ -62586,6 +62586,14 @@
       "source_repo": "CLI",
       "date": "20260907",
       "archived_at": "2026-09-07T20:56:16Z"
+    },
+    {
+      "id": 18361,
+      "type": "completion",
+      "title": "SAGA audit: IDUNA route-table doc catch-up (50 -\u003e 112 documented paths)",
+      "source_repo": "IDUNA",
+      "date": "20260907",
+      "archived_at": "2026-09-07T20:56:24Z"
     }
   ]
 }
