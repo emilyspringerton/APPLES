@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-07T19:25:11Z",
+  "body": "CHANGELOG updated in PARENA: Fixed math/random for the C target (renamed math/random-f64 to avoid a real glibc symbol collision): lazily self-seeded, live-verified end to end. Also committed an earlier, uncommitted item_drop_mod.prn change (METAL drops a shotgun). (sess-20260905-0720-ec33e7c5)\n\n⚓ ☃",
+  "id": 18348,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "PARENA",
+  "title": "changelog(PARENA): Fixed math/random for the C target (renamed math/random-f64…"
+}

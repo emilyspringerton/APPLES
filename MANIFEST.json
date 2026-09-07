@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-07T19:25:06Z",
+  "generated_at": "2026-09-07T19:25:11Z",
   "repo": "APPLES",
-  "count": 7810,
+  "count": 7811,
   "apples": [
     {
       "id": 10525,
@@ -62482,6 +62482,14 @@
       "source_repo": "CLI",
       "date": "20260907",
       "archived_at": "2026-09-07T19:25:06Z"
+    },
+    {
+      "id": 18348,
+      "type": "completion",
+      "title": "changelog(PARENA): Fixed math/random for the C target (renamed math/random-f64…",
+      "source_repo": "PARENA",
+      "date": "20260907",
+      "archived_at": "2026-09-07T19:25:11Z"
     }
   ]
 }
