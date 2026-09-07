@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-07T21:43:41Z",
+  "generated_at": "2026-09-07T21:51:31Z",
   "repo": "APPLES",
-  "count": 7845,
+  "count": 7846,
   "apples": [
     {
       "id": 10525,
@@ -62762,6 +62762,14 @@
       "source_repo": "PRRJECT_FATBABY",
       "date": "20260907",
       "archived_at": "2026-09-07T21:43:41Z"
+    },
+    {
+      "id": 18383,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time (work from kanban): picked up card #93, 'kanban search (filter)' -- the ad…",
+      "source_repo": "CLI",
+      "date": "20260907",
+      "archived_at": "2026-09-07T21:51:31Z"
     }
   ]
 }
