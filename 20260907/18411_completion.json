@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-07T23:44:05Z",
+  "body": "Two more real, config-automation fixes: (1) console.html gained a real \u003ca href\u003e link to the provisioning URL that triggers the app's own VIEW/BROWSABLE intent-filter for one-tap, same-device setup, no scanning needed. (2) app.js now persists the provisioning URL (never the password) to localStorage after a successful register, and auto-re-registers from it on every app launch via tryAutoRegister() -- the phone now stays registered across restarts without adding any new plaintext-password storage. Commit 9539881.\n\n⚓ ☃",
+  "id": 18411,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "CarePyre",
+  "title": "SIP phone: one-tap same-device open + auto-register across restarts"
+}

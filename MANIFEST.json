@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-07T23:41:36Z",
+  "generated_at": "2026-09-07T23:44:05Z",
   "repo": "APPLES",
-  "count": 7873,
+  "count": 7874,
   "apples": [
     {
       "id": 10525,
@@ -62986,6 +62986,14 @@
       "source_repo": "emily",
       "date": "20260907",
       "archived_at": "2026-09-07T23:41:36Z"
+    },
+    {
+      "id": 18411,
+      "type": "completion",
+      "title": "SIP phone: one-tap same-device open + auto-register across restarts",
+      "source_repo": "CarePyre",
+      "date": "20260907",
+      "archived_at": "2026-09-07T23:44:05Z"
     }
   ]
 }
