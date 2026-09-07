@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-07T19:25:22Z",
+  "body": "math/random was a real, honest, never-evaluated 0.0 placeholder for the C\ntarget since it was first written -- nothing had ever actually tried to\ncompile it for real until this pass (a real Roblox NPC-spawn script the\nfounder wants working in PAPERCRAFT needs math.random).\n\nFound a real, live compiler bug along the way: the C-emitted function name\n\"random\" conflicts with glibc's own `long random(void)`, a hard\n\"conflicting types\" gcc error. Fixed by renaming the exported symbol\nmath/random -\u003e math/random-f64, updating every real caller\n(mishri/humanness.prn, mishri/bezier_interp.prn) and both the TS and Java\nemitter tables in the same commit.\n\nNew runtime/parena_runtime.h::math_random_impl -- lazily self-seeded via\nsrand(time(NULL)) on first call (unseeded rand() would replay the same\nsequence every server restart otherwise -- a real correctness issue for\nNPC spawn positions, not hypothetical).\n\nLive-verified end to end: varying values within a run, different sequences\nacross process launches. make test (348), test-emit-ts (21), test-emit-java\n(31) all pass. A real downstream consumer (bezier_interp.prn) still\ncompiles clean.\n\nAlso found and committed an earlier, uncommitted item_drop_mod.prn change\nfrom earlier this session (METAL objects drop a real shotgun) that never\nmade it into this repo.\n\nCommits: PARENA 70ee67a (item_drop_mod), 81872c9 (the real random fix).\n\n⚓ ☃",
+  "id": 18349,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "PARENA",
+  "title": "Real, working math/random for the C target (PAPERCRAFT Roblox-parity thread)"
+}
