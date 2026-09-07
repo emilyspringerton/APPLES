@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-07T17:29:33Z",
+  "generated_at": "2026-09-07T17:38:47Z",
   "repo": "APPLES",
-  "count": 7786,
+  "count": 7787,
   "apples": [
     {
       "id": 10525,
@@ -62290,6 +62290,14 @@
       "source_repo": "EDIS",
       "date": "20260907",
       "archived_at": "2026-09-07T17:29:33Z"
+    },
+    {
+      "id": 18324,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: schedule a mid-day movers-watcher run at 10:20am ET in addition to the ex…",
+      "source_repo": "CLI",
+      "date": "20260907",
+      "archived_at": "2026-09-07T17:38:47Z"
     }
   ]
 }
