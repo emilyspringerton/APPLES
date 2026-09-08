@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-08T18:47:06Z",
+  "generated_at": "2026-09-08T18:47:38Z",
   "repo": "APPLES",
-  "count": 8034,
+  "count": 8035,
   "apples": [
     {
       "id": 10525,
@@ -64274,6 +64274,14 @@
       "source_repo": "IDUNA_PRO",
       "date": "20260908",
       "archived_at": "2026-09-08T18:47:06Z"
+    },
+    {
+      "id": 18572,
+      "type": "completion",
+      "title": "PII audit: decommission CarePyre contact form (moved to IDUNA_PRO)",
+      "source_repo": "IDUNA",
+      "date": "20260908",
+      "archived_at": "2026-09-08T18:47:38Z"
     }
   ]
 }

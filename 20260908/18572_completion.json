@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-08T18:47:38Z",
+  "body": "Removed CarePyreContactHandler, /admin/carepyre back-office page, and route registrations -- the feature and its data now live in IDUNA_PRO gated by a real contacts.manage permission instead of this repo's broad iduna.admin. Old table left in place as a frozen historical backup, 4 real rows migrated forward and verified byte-for-byte, not deleted. var/*.db chmod 674-\u003e640 across all files; UMask=0027 added to iduna.service. Live-verified: build/test green, service rebuilt/restarted, old route confirmed 404. Commit 0439da6.\n\n⚓ ☃",
+  "id": 18572,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "IDUNA",
+  "title": "PII audit: decommission CarePyre contact form (moved to IDUNA_PRO)"
+}
