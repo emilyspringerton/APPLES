@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-08T07:36:41Z",
+  "body": "CHANGELOG updated in PARENA: Shipped real elif support (exec_if_chain, shares the outer fi across a chain) and ${VAR:-default}/${VAR-default} parameter expansion for parenash. 9 new real end-to-end tests, all pass; make test 347/347. (sess-20260905-0720-ec33e7c5)\n\n⚓ ☃",
+  "id": 18497,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "PARENA",
+  "title": "changelog(PARENA): Shipped real elif support (exec_if_chain, shares the outer …"
+}
