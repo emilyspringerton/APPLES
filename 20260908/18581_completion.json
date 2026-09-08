@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-08T19:04:50Z",
+  "body": "CHANGELOG updated in PARENA: PARENA_COREUTILS_NORTHSTAR.md Phase 5 founder call made: parenabusybox+parenash staged into the real EmilyOS Pi image build, cross-compiled for aarch64, available-not-default. Found and fixed a real musl-vs-glibc dynamic-linker ABI mismatch via qemu-user-static execution testing (same gap also affected the existing emilyos binary) -- fixed via static linking, live-verified (sess-20260905-0720-ec33e7c5)\n\n⚓ ☃",
+  "id": 18581,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "PARENA",
+  "title": "changelog(PARENA): PARENA_COREUTILS_NORTHSTAR.md Phase 5 founder call made: pa…"
+}
