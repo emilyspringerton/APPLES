@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-08T01:16:21Z",
+  "generated_at": "2026-09-08T01:16:22Z",
   "repo": "APPLES",
-  "count": 7885,
+  "count": 7886,
   "apples": [
     {
       "id": 10525,
@@ -63082,6 +63082,14 @@
       "source_repo": "PARENA",
       "date": "20260908",
       "archived_at": "2026-09-08T01:16:21Z"
+    },
+    {
+      "id": 18423,
+      "type": "completion",
+      "title": "changelog(PARENA): Added real CSR (Compressed Sparse Row) sparse-matrix primit…",
+      "source_repo": "PARENA",
+      "date": "20260908",
+      "archived_at": "2026-09-08T01:16:22Z"
     }
   ]
 }
