@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-08T05:56:38Z",
+  "generated_at": "2026-09-08T05:59:58Z",
   "repo": "APPLES",
-  "count": 7931,
+  "count": 7932,
   "apples": [
     {
       "id": 10525,
@@ -63450,6 +63450,14 @@
       "source_repo": "emily",
       "date": "20260908",
       "archived_at": "2026-09-08T05:56:38Z"
+    },
+    {
+      "id": 18469,
+      "type": "completion",
+      "title": "Real boot-config gap found and fixed before the first privileged Pi-image run",
+      "source_repo": "EmilyOS",
+      "date": "20260908",
+      "archived_at": "2026-09-08T05:59:58Z"
     }
   ]
 }

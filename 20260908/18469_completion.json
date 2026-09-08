@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-08T05:59:58Z",
+  "body": "EmilyOS commit eff60d2, top-level monorepo commit 770a8e967. Extracted and read initramfs-rpi's own real init script directly (not assumed): Alpine's stock cmdline.txt has no root= at all, taking the DISKLESS boot path (apkovl into tmpfs) instead of mounting this build's real, persistent ext4 root partition -- confirmed live via the init script's own if [ -n \"$KOPT_root\" ] branch. Fixed: build-pi-image-rootless.sh now writes its own cmdline.txt (root=/dev/mmcblk0p2 rootfstype=ext4 rootflags=rw) instead of copying the stock diskless one. Checked the real kernel config before adding modules=: MMC/SDHCI/ext4 are compiled in (=y not =m), none needed. Also found and fixed: root/fsck/localmount/swap/seedrng openrc services were missing entirely from sudo-queue/76's rc-update list -- added, names confirmed present in the built rootfs. Not boot-tested (no real Pi hardware or qemu-system-aarch64 in this sandbox), but catching this before the first privileged run gives it a real chance of producing something that actually boots.\n\n⚓ ☃",
+  "id": 18469,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "EmilyOS",
+  "title": "Real boot-config gap found and fixed before the first privileged Pi-image run"
+}
