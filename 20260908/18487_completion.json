@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-08T07:10:12Z",
+  "body": "CHANGELOG updated in PARENA: Shipped PARENA-powered busybox v0: real multi-call dispatch (tools/parenabusybox_host.c) + 5 real applets (echo/basename/pwd/true/false) in stdlib/coreutils/*.prn. Motivated by EmilyOS/Alpine RPi work. Named real, honest v0 boundary (no sh/mount/init yet) and the real tension with 'GNU tools for load-bearing infra' guidance. (sess-20260905-0720-ec33e7c5)\n\n⚓ ☃",
+  "id": 18487,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "PARENA",
+  "title": "changelog(PARENA): Shipped PARENA-powered busybox v0: real multi-call dispatch…"
+}

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-08T07:10:06Z",
+  "generated_at": "2026-09-08T07:10:12Z",
   "repo": "APPLES",
-  "count": 7949,
+  "count": 7950,
   "apples": [
     {
       "id": 10525,
@@ -63594,6 +63594,14 @@
       "source_repo": "PARENA",
       "date": "20260908",
       "archived_at": "2026-09-08T07:10:06Z"
+    },
+    {
+      "id": 18487,
+      "type": "completion",
+      "title": "changelog(PARENA): Shipped PARENA-powered busybox v0: real multi-call dispatch…",
+      "source_repo": "PARENA",
+      "date": "20260908",
+      "archived_at": "2026-09-08T07:10:12Z"
     }
   ]
 }
