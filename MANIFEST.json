@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-07T23:56:52Z",
+  "generated_at": "2026-09-08T00:03:54Z",
   "repo": "APPLES",
-  "count": 7876,
+  "count": 7877,
   "apples": [
     {
       "id": 10525,
@@ -63010,6 +63010,14 @@
       "source_repo": "emily",
       "date": "20260907",
       "archived_at": "2026-09-07T23:56:52Z"
+    },
+    {
+      "id": 18414,
+      "type": "completion",
+      "title": "S223-02: let/match/loop actually work as an if's own condition",
+      "source_repo": "PARENA",
+      "date": "20260908",
+      "archived_at": "2026-09-08T00:03:54Z"
     }
   ]
 }

@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-08T00:03:54Z",
+  "body": "Two previously-scoped mechanisms (GNU statement-expression, synthesized helper function) were both real dead ends -- confirmed live the GNU approach fails -pedantic, and the helper approach needs real free-variable capture. Found a third: hoist the binding form's own statements directly into the SAME enclosing C statement list, sidestepping capture entirely (no new scope boundary). New emit_if_condition(), wired into all 4 real if-in-statement-position call sites, reusing the existing emit_match_clause_body() dispatcher. make test: 347/347, including 2 updated regression tests now asserting correct compile+run behavior instead of honest failure. Commit 67fd3fd.\n\n⚓ ☃",
+  "id": 18414,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "PARENA",
+  "title": "S223-02: let/match/loop actually work as an if's own condition"
+}

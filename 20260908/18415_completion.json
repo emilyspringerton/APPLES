@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-08T00:03:54Z",
+  "body": "CHANGELOG updated in PARENA: Shipped S223-02: let/match/loop can now be used directly as an if's own condition (when the if sits in a real statement position), via a new emit_if_condition() that hoists into the enclosing statement list instead of a blocked GNU statement-expression or a capture-analysis-requiring helper function. (sess-20260905-0720-ec33e7c5)\n\n⚓ ☃",
+  "id": 18415,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "PARENA",
+  "title": "changelog(PARENA): Shipped S223-02: let/match/loop can now be used directly as…"
+}
