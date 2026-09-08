@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-08T05:59:58Z",
+  "generated_at": "2026-09-08T06:00:03Z",
   "repo": "APPLES",
-  "count": 7932,
+  "count": 7933,
   "apples": [
     {
       "id": 10525,
@@ -63458,6 +63458,14 @@
       "source_repo": "EmilyOS",
       "date": "20260908",
       "archived_at": "2026-09-08T05:59:58Z"
+    },
+    {
+      "id": 18470,
+      "type": "completion",
+      "title": "changelog(EmilyOS): Found and fixed a real boot-config gap by reading initramfs…",
+      "source_repo": "EmilyOS",
+      "date": "20260908",
+      "archived_at": "2026-09-08T06:00:03Z"
     }
   ]
 }

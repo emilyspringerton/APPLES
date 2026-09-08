@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-08T06:00:03Z",
+  "body": "CHANGELOG updated in EmilyOS: Found and fixed a real boot-config gap by reading initramfs-rpi's own init script: Alpine's stock cmdline.txt has no root=, taking the diskless boot path instead of mounting the real ext4 root partition. build-pi-image-rootless.sh now writes a correct cmdline.txt; added missing root/fsck/localmount/swap/seedrng to sudo-queue/76's rc-update list. (sess-20260905-0720-ec33e7c5)\n\n⚓ ☃",
+  "id": 18470,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "EmilyOS",
+  "title": "changelog(EmilyOS): Found and fixed a real boot-config gap by reading initramfs…"
+}
