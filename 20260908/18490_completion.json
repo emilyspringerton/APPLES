@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-08T07:20:39Z",
+  "body": "CHANGELOG updated in PARENA: Shipped a real, minimal sh v0 for the PARENA-powered busybox: tokenize-line (quote-aware word-splitting) + expand-word ( expansion) in PARENA, fork/execvp/waitpid + cd/export/exit builtins in the C host driver. Found and worked around a real VS0 emitter bug (Unit-typed loop terminal branches produce invalid C). Real audit-grounded honest v0 boundary: no pipes/functions/conditionals yet. (sess-20260905-0720-ec33e7c5)\n\n⚓ ☃",
+  "id": 18490,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "PARENA",
+  "title": "changelog(PARENA): Shipped a real, minimal sh v0 for the PARENA-powered busybo…"
+}
