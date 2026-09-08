@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-08T06:48:48Z",
+  "body": "CHANGELOG updated in PARENA: Self-host: defn-c-return-type now recognizes I32/F64/Bool/Unit for #target-bodied defns (length/char-at-shaped), closing a named self-hosting gap. Scoped to #target bodies only -- widening further broke a pre-existing match/deref test, a real, separate, larger gap. Also fixed a dead void-check bug in emit-defn-target-body. (sess-20260905-0720-ec33e7c5)\n\n⚓ ☃",
+  "id": 18480,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "PARENA",
+  "title": "changelog(PARENA): Self-host: defn-c-return-type now recognizes I32/F64/Bool/U…"
+}

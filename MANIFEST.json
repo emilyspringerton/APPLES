@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-08T06:48:42Z",
+  "generated_at": "2026-09-08T06:48:48Z",
   "repo": "APPLES",
-  "count": 7942,
+  "count": 7943,
   "apples": [
     {
       "id": 10525,
@@ -63538,6 +63538,14 @@
       "source_repo": "PARENA",
       "date": "20260908",
       "archived_at": "2026-09-08T06:48:42Z"
+    },
+    {
+      "id": 18480,
+      "type": "completion",
+      "title": "changelog(PARENA): Self-host: defn-c-return-type now recognizes I32/F64/Bool/U…",
+      "source_repo": "PARENA",
+      "date": "20260908",
+      "archived_at": "2026-09-08T06:48:48Z"
     }
   ]
 }
