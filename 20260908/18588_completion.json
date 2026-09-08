@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-08T19:31:09Z",
+  "body": "CHANGELOG updated in EmilyOS: CI: add auto-release job matching PARENA's own pattern -- on every green push to main, auto-bumps a v{major}.{minor+1}.0 tag and publishes a real GitHub Release (regular, not prerelease) with a packaged emilyos-linux-amd64.tar.gz (binary + construct bundle). Previously only uploaded ephemeral, run-scoped CI artifacts with no persistent release (sess-20260905-0720-ec33e7c5)\n\n⚓ ☃",
+  "id": 18588,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "EmilyOS",
+  "title": "changelog(EmilyOS): CI: add auto-release job matching PARENA's own pattern -- o…"
+}
