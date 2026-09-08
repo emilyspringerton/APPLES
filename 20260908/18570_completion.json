@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-08T18:46:29Z",
+  "body": "CHANGELOG updated in IDUNA_PRO: PII audit follow-up: CarePyre contact form moved here from plain IDUNA, gated by new contacts.manage permission (Top Admin only); 90-day post-resolution retention purge job (cmd/carepyre-contact-purge + systemd timer); local-auth and Google-auth event log entries no longer carry plaintext email, local_uid/sub only; var/*.db file permissions fixed to 640 + UMask=0027 on the service unit (sess-20260905-0720-ec33e7c5)\n\n⚓ ☃",
+  "id": 18570,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "IDUNA_PRO",
+  "title": "changelog(IDUNA_PRO): PII audit follow-up: CarePyre contact form moved here from …"
+}
