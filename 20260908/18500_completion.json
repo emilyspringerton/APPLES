@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-08T07:47:16Z",
+  "body": "Commit 2bf17f1. Continuing PARENA_COREUTILS_NORTHSTAR.md Phase 3c. Real architectural gap fixed first: this shell executed one physical line at a time -- confirmed via a real multi-line if/then/fi producing nonsensical 'not found' errors. Fixed via tokenize-line treating newlines like ';' plus a REPL accumulator with a real is_balanced heuristic. Real shell functions (NAME() { BODY }) stored in a persistent table, called via the exact same exec_range as everything else, running in-process (never forked). Real bare NAME=value assignment (no export) fixed -- found live via this session's own real audited /etc/init.d/hostname script's first line being misreported as an unknown command. Real, live end-to-end validation: the actual hostname script now parses/defines its functions with zero errors, and invoking start runs its real test/parameter-expansion/command logic, failing only on OpenRC's own ebegin/eend helpers -- a real, now precisely-named next gap (a source/. builtin). 8 new real end-to-end assertions, all pass alongside the original 23. make test: 347/347, zero regressions.\n\n⚓ ☃",
+  "id": 18500,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "PARENA",
+  "title": "parenash: real functions, multi-line statements, bare assignment — validated live against the real EmilyOS hostname script"
+}
