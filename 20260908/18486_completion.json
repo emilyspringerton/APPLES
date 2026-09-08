@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-08T07:10:06Z",
+  "body": "Commit 591e996. Founder: 'let's write our own parena powered busybox' -- motivated by this session's EmilyOS/Alpine RPi work (Alpine's own busybox --install trigger is the one remaining privileged blocker before a bootable image). Real 'PARENA logic + C host driver' architecture matching turbogrep/editor-demo exactly: tools/parenabusybox_host.c does real busybox-style multi-call argv[0] dispatch, real applet logic in stdlib/coreutils/*.prn. v0: echo (real string-join), basename (real trailing-slash-strip + last-/-scan + suffix-strip built from string.prn primitives), pwd (a real new getcwd(3) runtime primitive -- a dedicated helper, not a GNU statement-expression, which this project's own S223-02 saga already ruled out under -pedantic), true/false (proves dispatch itself works). Real, honest v0 boundary named directly in the new NORTHSTAR doc: no sh/mount/init yet. Names the real tension with NORTHSTAR_DISTRO.md's own 'GNU tools stay for load-bearing infra' guidance rather than glossing over it; whether this ever replaces Alpine's real busybox stays an explicit later founder call. 12 real end-to-end assertions (actual compiled binary + real symlinks, both busybox invocation forms), all pass. make test: 347/347, zero regressions. Golden doc registered (PARENA-COREUTILS-NORTH).\n\n⚓ ☃",
+  "id": 18486,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "PARENA",
+  "title": "PARENA-powered busybox v0 shipped — real multi-call dispatch + 5 applets"
+}
