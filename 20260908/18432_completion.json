@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-08T02:42:53Z",
+  "body": "Root-caused why array.prn's matmul/transpose were still wrong even after the loop-variable I32 boxing bug fix: the fix's own safety-net check couldn't resolve an interior let-bound recur value's type (strides-for's own 'next'), conservatively downgrading the whole chain to double. Fixed by giving that check's own let-handling a properly-scoped child EmitScope. matmul/transpose now verified correct end to end (genuine 2x3*3x2 product, [[58,64],[139,154]]). New make test-linalg-matmul. make test: 347/347, full regression sweep clean. Commit ee13e61.\n\n⚓ ☃",
+  "id": 18432,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "PARENA",
+  "title": "matmul/transpose now numerically correct -- second, separate bug in the boxing-bug fix's own safety check"
+}
