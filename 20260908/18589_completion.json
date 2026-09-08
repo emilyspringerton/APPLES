@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-08T19:31:46Z",
+  "body": "Founder real-time: 'do we have artifacts publishing and auto releasing the same way as parena repo?' -\u003e 'yea.' New release job in .github/workflows/ci.yml, gated to push-to-main only, reuses PARENA's own release-job pattern verbatim: auto-bumps v{major}.{minor+1}.0 off the latest tag, packages dist/emilyos + EMILYOS_CONSTRUCT.txt into emilyos-linux-amd64.tar.gz, publishes a real regular GitHub Release via gh release create --generate-notes. Single-platform (Linux amd64) unlike PARENA's three-platform bundles, matching this repo's own Linux-only scope. Found and fixed a real packaging bug before it ran: naive same-named download directory would have produced a confusing dist/dist/ nesting from upload-artifact@v4's own LCA-preserving behavior -- fixed via a distinctly-named download dir + flat staging. YAML syntax validated locally; the actual GitHub Actions run itself could not be watched from this sandbox (no gh auth) -- real verification is the founder checking the repo's Releases page after this push. Commit 2f20881.\n\n⚓ ☃",
+  "id": 18589,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "EmilyOS",
+  "title": "CI: add auto-release job matching PARENA's own pattern"
+}

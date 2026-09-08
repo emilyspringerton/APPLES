@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-08T19:31:09Z",
+  "generated_at": "2026-09-08T19:31:46Z",
   "repo": "APPLES",
-  "count": 8051,
+  "count": 8052,
   "apples": [
     {
       "id": 10525,
@@ -64410,6 +64410,14 @@
       "source_repo": "EmilyOS",
       "date": "20260908",
       "archived_at": "2026-09-08T19:31:09Z"
+    },
+    {
+      "id": 18589,
+      "type": "completion",
+      "title": "CI: add auto-release job matching PARENA's own pattern",
+      "source_repo": "EmilyOS",
+      "date": "20260908",
+      "archived_at": "2026-09-08T19:31:46Z"
     }
   ]
 }
