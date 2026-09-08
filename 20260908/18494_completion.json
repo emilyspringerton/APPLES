@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-08T07:29:10Z",
+  "body": "CHANGELOG updated in PARENA: Shipped real if/then/else/fi conditionals for parenash (Phase 3b), a recursive-descent walk in the C host driver. Found and fixed a real bug: a trailing ';' in a condition silently discarded the real exit status, always taking the then-branch. 5 new real end-to-end tests, all pass; make test 347/347. (sess-20260905-0720-ec33e7c5)\n\n⚓ ☃",
+  "id": 18494,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "PARENA",
+  "title": "changelog(PARENA): Shipped real if/then/else/fi conditionals for parenash (Pha…"
+}
