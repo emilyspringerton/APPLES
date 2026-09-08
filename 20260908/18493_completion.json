@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-08T07:29:04Z",
+  "body": "Commit 8f93017. Continuing PARENA_COREUTILS_NORTHSTAR.md Phase 3b. Real, deliberate architecture: control-flow recognition (exec_range, a recursive-descent walk) lives in tools/parenash_host.c, not stdlib/coreutils/sh.prn -- PARENA's own strength here is string/token processing, branching fits the C process-management layer. Single-level if/then/else/fi, branches may contain further ;-separated commands via recursion. Confirmed live that test/[ already work via the existing execvp fallback before adding anything new. Found and fixed a real bug before shipping: a trailing ';' inside a condition (the common 'if false; then ...' shape) fed into an empty tail recursion whose base case returns a fixed 0, silently discarding the real exit status and always taking the then-branch regardless of the actual condition -- confirmed live via 'if false; then echo yes; fi' wrongly printing 'yes'. Fixed: a trailing ';' with nothing after it now returns the already-computed status directly. 5 new real end-to-end assertions (including one naming the exact bug), all pass alongside the original 9. make test: 347/347, zero regressions. Real, honest boundary: no elif, no nesting, no functions, no default yet.\n\n⚓ ☃",
+  "id": 18493,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "PARENA",
+  "title": "Real if/then/else/fi conditionals shipped for parenash (Phase 3b), a real bug caught and fixed"
+}
