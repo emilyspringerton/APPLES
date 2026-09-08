@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-08T04:42:40Z",
+  "generated_at": "2026-09-08T04:43:24Z",
   "repo": "APPLES",
-  "count": 7921,
+  "count": 7922,
   "apples": [
     {
       "id": 10525,
@@ -63370,6 +63370,14 @@
       "source_repo": "emily",
       "date": "20260908",
       "archived_at": "2026-09-08T04:42:40Z"
+    },
+    {
+      "id": 18459,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: add chain-of-thought to the GPT-2 fine-tune. Scoped as format-level CoT (…",
+      "source_repo": "CLI",
+      "date": "20260908",
+      "archived_at": "2026-09-08T04:43:24Z"
     }
   ]
 }
