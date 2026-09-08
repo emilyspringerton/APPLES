@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-08T19:14:14Z",
+  "body": "Founder real-time: 'also a parena based busybox to go with it.' Matches PARENA_COREUTILS_NORTHSTAR.md's Phase 1 roadmap exactly. Real PARENA logic where it exists (count-lines, head-should-print?, yes-line, matching echo.prn's own argv-in-host/logic-in-PARENA split); cat/sleep/env are host-only pure I/O/syscall utilities matching true/false's precedent. 13 new end-to-end tests, all pass; full suite 347/347, zero regressions. Live-verified natively (all 6 new applets, real behavior including real 1s sleep timing and real PATH in env output). Commit 60256bb.\n\n⚓ ☃",
+  "id": 18584,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "PARENA",
+  "title": "parenabusybox Phase 1 shipped: wc, head, yes, cat, sleep, env"
+}
