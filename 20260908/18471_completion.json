@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-08T06:08:46Z",
+  "body": "EmilyOS commit dd75836. Root-lessly bootstrapped qemu-system-aarch64 (apt-get download + dpkg-deb -x). Attempted a real boot of vmlinuz-rpi + initramfs-rpi + bcm2710-rpi-3-b.dtb under -M raspi3b with the corrected root=-bearing cmdline. No visible console output across several variants (-serial stdio, -nographic, mon:stdio, with/without earlycon). QEMU's own -d guest_errors,unimp debug log confirms real hardware-probe activity (mailbox tags, USB reset attempts) -- the kernel genuinely executes, not an immediate crash. Most likely explanation: the kernel may target the framebuffer console by default, invisible under this headless test. Phase 3 stays open, not closed -- real partial signal (kernel+dtb pairing is alive under emulation) without a conclusive boot pass/fail yet. Also flagged separately to the founder: a large chunk of EMILY/BACKLOG.md's own intake queue (dozens of items since 2026-08-09) is stuck on the same dead ANTHROPIC_API_KEY credit balance already found blocking the gpt2-alpine-c CoT work -- a real, external, only-founder-fixable blocker worth surfacing.\n\n⚓ ☃",
+  "id": 18471,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "EmilyOS",
+  "title": "Phase 3 boot-test attempted with root-less qemu-system-aarch64 — real partial signal, not conclusive"
+}
