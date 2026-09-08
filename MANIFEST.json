@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-08T04:50:22Z",
+  "generated_at": "2026-09-08T04:50:26Z",
   "repo": "APPLES",
-  "count": 7923,
+  "count": 7924,
   "apples": [
     {
       "id": 10525,
@@ -63386,6 +63386,14 @@
       "source_repo": "gpt2-alpine-c",
       "date": "20260908",
       "archived_at": "2026-09-08T04:50:22Z"
+    },
+    {
+      "id": 18461,
+      "type": "completion",
+      "title": "changelog(gpt2-alpine-c): Added --cot-augment format-level chain-of-thought augmentat…",
+      "source_repo": "gpt2-alpine-c",
+      "date": "20260908",
+      "archived_at": "2026-09-08T04:50:26Z"
     }
   ]
 }
