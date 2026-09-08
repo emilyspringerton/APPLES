@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-08T08:00:27Z",
+  "body": "Commit 3b30a74. Continuing PARENA_COREUTILS_NORTHSTAR.md Phase 3d. source/.: reads a real file, runs it through the exact same exec_range everything else uses, in-process so assignments/functions persist. Attempted the real target -- OpenRC own /lib/rc/sh/functions.sh -- and found by reading it directly: needs real arithmetic expansion, case/esac, local, and eval, none of which this shell has yet. Real # comments: found live testing source against a real script -- every comment was executed as a bogus \"#: not found\" command (prior testing always stripped comments manually, masking this). Real brace-on-own-line functions (name() then newline then brace): exposed by the comment fix, two distinct real bugs fixed -- func_def_brace_index tolerates an optional ; between () and {, and a subtler is_balanced bug where NAME() alone looked complete and got executed as a bogus command one statement too early. 8 new real end-to-end assertions, all pass alongside the original 32. make test: 347/347, zero regressions. Real, honest conclusion: this shell can source files and define/call functions in either brace style, but running OpenRC functions.sh end-to-end still needs arithmetic/case/local/eval.\n\n⚓ ☃",
+  "id": 18504,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "PARENA",
+  "title": "parenash: real source/., comments, brace-on-own-line functions — 2 more real bugs found and fixed live"
+}
