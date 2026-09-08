@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-08T01:16:21Z",
+  "body": "Built CsrMatrix/csr-from-coo/csr-nnz/csr-get/csr-matvec in linalg.prn, real COO-\u003eCSR conversion + O(nnz) sparse matvec. Found and worked around a real, pre-existing loop-variable/Vec-I32 boxing bug on the critical path (as-i32 workaround), and fixed a separate real gap in inverse/solve (undefined LinalgError, never-gcc-verified body-less stubs). make test: 347/347. Commit 749a399.\n\n⚓ ☃",
+  "id": 18422,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "PARENA",
+  "title": "Real CSR sparse-matrix primitives shipped (csr-from-coo/get/matvec)"
+}

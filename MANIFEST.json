@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-08T01:15:51Z",
+  "generated_at": "2026-09-08T01:16:21Z",
   "repo": "APPLES",
-  "count": 7884,
+  "count": 7885,
   "apples": [
     {
       "id": 10525,
@@ -63074,6 +63074,14 @@
       "source_repo": "CLI",
       "date": "20260908",
       "archived_at": "2026-09-08T01:15:51Z"
+    },
+    {
+      "id": 18422,
+      "type": "completion",
+      "title": "Real CSR sparse-matrix primitives shipped (csr-from-coo/get/matvec)",
+      "source_repo": "PARENA",
+      "date": "20260908",
+      "archived_at": "2026-09-08T01:16:21Z"
     }
   ]
 }
