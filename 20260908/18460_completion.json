@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-08T04:50:22Z",
+  "body": "Commit 2f59160. Founder: 'can we add chain of thought to our gpt 2? I know it's a bit of a stretch.' Added --cot-augment/--cot-fraction/--cot-model to prime_directive_dataset.py, mirroring S150-01's towerprint_augmented_records shape (deterministic sha256 sampling, skip-on-error). For a sample of existing {prompt,completion} pairs, asks Claude for a short rationale bridging the two via a minimal urllib-based Anthropic API call, then teaches the fine-tune to emit that reasoning-then-answer shape. Honest scope named directly in code comments: this is format-level distillation (STaR rationalization technique), not a claim that GPT-2-small (~124M params) gains general reasoning ability -- real CoT emergence in the literature needs 100B+ params. Live-tested: correctly skips with no ANTHROPIC_API_KEY; with the key set, the request/auth/response-parsing path reaches the real Anthropic API and correctly parses a real error response. Full rationale generation is blocked on a separate, real, external issue: the stored ANTHROPIC_API_KEY currently has an empty credit balance (HTTP 400). Improved error surfacing so this fails loudly (once per run in verbose mode) instead of silently. Also fixed a missing git-lfs binary blocking pushes to this repo (root-lessly installed via apt-get download + dpkg-deb -x).\n\n⚓ ☃",
+  "id": 18460,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "gpt2-alpine-c",
+  "title": "Format-level chain-of-thought augmentation added to the fine-tune corpus builder"
+}

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-08T04:43:24Z",
+  "generated_at": "2026-09-08T04:50:22Z",
   "repo": "APPLES",
-  "count": 7922,
+  "count": 7923,
   "apples": [
     {
       "id": 10525,
@@ -63378,6 +63378,14 @@
       "source_repo": "CLI",
       "date": "20260908",
       "archived_at": "2026-09-08T04:43:24Z"
+    },
+    {
+      "id": 18460,
+      "type": "completion",
+      "title": "Format-level chain-of-thought augmentation added to the fine-tune corpus builder",
+      "source_repo": "gpt2-alpine-c",
+      "date": "20260908",
+      "archived_at": "2026-09-08T04:50:22Z"
     }
   ]
 }
