@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-08T04:06:32Z",
+  "body": "CHANGELOG updated in EmilyOS: Pivot NORTHSTAR_DISTRO.md to Alpine for the real Raspberry Pi target (resolves the base-mechanism and target-hardware open questions). Proved a root-less apk-tools-static rootfs bootstrap; named the real privilege boundary (chroot + qemu-user-static + loop-mount) and queued sudo-queue/76-build-emilyos-pi-image.sh for the privileged Phase 1 build. (sess-20260905-0720-ec33e7c5)\n\n⚓ ☃",
+  "id": 18451,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "EmilyOS",
+  "title": "changelog(EmilyOS): Pivot NORTHSTAR_DISTRO.md to Alpine for the real Raspberry …"
+}
