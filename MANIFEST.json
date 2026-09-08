@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-08T03:08:49Z",
+  "generated_at": "2026-09-08T03:08:58Z",
   "repo": "APPLES",
-  "count": 7901,
+  "count": 7902,
   "apples": [
     {
       "id": 10525,
@@ -63210,6 +63210,14 @@
       "source_repo": "CLI",
       "date": "20260908",
       "archived_at": "2026-09-08T03:08:49Z"
+    },
+    {
+      "id": 18439,
+      "type": "completion",
+      "title": "Selfhost: whole-body #target/inline-c FFI emission support shipped",
+      "source_repo": "PARENA",
+      "date": "20260908",
+      "archived_at": "2026-09-08T03:08:58Z"
     }
   ]
 }
