@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-08T19:05:06Z",
+  "body": "Founder real-time, 2026-09-08: 'the alpine pi installable parena powered emily os.' Updates PARENA_COREUTILS_NORTHSTAR.md's Phase 5 entry from explicitly-deferred to decided: parenabusybox/parenash now cross-compiled for aarch64 and staged into the real EmilyOS Pi image, available-not-default (turbogrep/turbosed precedent held). Full implementation in EmilyOS (commit 5582db9); this commit is the doc-side record including the musl/glibc ABI gap found and fixed along the way. Commit 7c5513e.\n\n⚓ ☃",
+  "id": 18582,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "PARENA",
+  "title": "Phase 5 founder call made: coreutils/shell staged into EmilyOS Pi image"
+}
