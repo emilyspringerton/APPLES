@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-08T19:04:21Z",
+  "body": "CHANGELOG updated in EmilyOS: Pi image build: stage PARENA-powered coreutils/shell (parenabusybox+parenash) cross-compiled for aarch64, available-not-default; found and fixed a real, previously-undiscovered musl-vs-glibc dynamic-linker ABI mismatch (via qemu-user-static execution testing, not just file(1) architecture checks) that also silently affected the existing emilyos binary -- fixed both via static linking, live-verified (sess-20260905-0720-ec33e7c5)\n\n⚓ ☃",
+  "id": 18579,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "EmilyOS",
+  "title": "changelog(EmilyOS): Pi image build: stage PARENA-powered coreutils/shell (paren…"
+}
