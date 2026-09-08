@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-08T06:55:06Z",
+  "generated_at": "2026-09-08T07:00:29Z",
   "repo": "APPLES",
-  "count": 7944,
+  "count": 7945,
   "apples": [
     {
       "id": 10525,
@@ -63554,6 +63554,14 @@
       "source_repo": "emily",
       "date": "20260908",
       "archived_at": "2026-09-08T06:55:06Z"
+    },
+    {
+      "id": 18482,
+      "type": "completion",
+      "title": "Real rootfs boots into OpenRC once /sbin/init exists — root-less confirmation via QEMU + busybox trigger analysis",
+      "source_repo": "EmilyOS",
+      "date": "20260908",
+      "archived_at": "2026-09-08T07:00:29Z"
     }
   ]
 }

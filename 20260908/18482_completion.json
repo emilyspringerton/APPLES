@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-08T07:00:29Z",
+  "body": "EmilyOS commit 2b35f3f. Booted the REAL apk-installed rootfs (not synthetic) under qemu-system-aarch64 -- confirmed it fails identically to the earlier synthetic-root test (no /sbin/init), direct live proof the privileged chroot-finishing step is load-bearing. Extracted busybox's real .trigger script from the real apk to confirm exactly why: its load-bearing action is /bin/busybox --install -s, creating ~304 real applet symlinks -- the exact script needing real chroot. Root-lessly bootstrapped qemu-user-static for a SAFE, read-only busybox --list check (confirmed init/sh applets exist, 304 total) without ever running the unsafe --install (which does absolute-path filesystem writes that would corrupt the HOST's real /sbin without real chroot isolation). On a throwaway test copy only, hand-created the one real symlink (sbin/init -\u003e ../bin/busybox) and rebooted. Real, screendump-captured result (docs/pi-boot-test-openrc-starting.png): OpenRC 0.54 starts up, switch_root succeeds, and OpenRC explicitly finds /etc/init.d/emilyos. Remaining errors (md5sum/mount/getty not found) are a direct, expected artifact of only hand-creating ONE of 304 real symlinks, not a bug -- forecasts the real privileged build should get meaningfully further than 'won't boot at all'.\n\n⚓ ☃",
+  "id": 18482,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "EmilyOS",
+  "title": "Real rootfs boots into OpenRC once /sbin/init exists — root-less confirmation via QEMU + busybox trigger analysis"
+}
