@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-08T07:20:31Z",
+  "body": "Commit 3fefc89. Founder: 'zsh etc build it prn' -- continuing PARENA_COREUTILS_NORTHSTAR.md Phase 3. Real, live audit first: this session's own built EmilyOS Alpine rootfs's real /etc/init.d/hostname/bootmisc scripts use real shell functions, if/[ ] conditionals, default expansion -- genuinely beyond a toy shell, so running real OpenRC scripts is explicitly NOT this pass's goal. stdlib/coreutils/sh.prn: real tokenize-line (quote-aware word-splitter, ';' as both splitter and token) + expand-word (real  expansion via a new getenv(3) primitive). tools/parenash_host.c: real REPL loop, fork/execvp/waitpid, and cd/export/exit builtins (correctly run in the parent process). Found and worked around a real, live VS0 emitter bug: a loop whose terminal branch resolves to Unit produces an invalid 'void __loop_result_N' C local -- confirmed via a real gcc error, worked around with a dummy tail value (not fixed in src/emit.c itself, a real, separate, deferred item). 9 real end-to-end assertions piping real script text into the actual compiled binary, all pass. make test: 347/347, zero regressions. Real, honest v0 boundary: no pipes/redirection/functions/conditionals/job control.\n\n⚓ ☃",
+  "id": 18489,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "PARENA",
+  "title": "Real, minimal sh v0 shipped for the PARENA-powered busybox"
+}

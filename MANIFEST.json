@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-08T07:12:31Z",
+  "generated_at": "2026-09-08T07:20:31Z",
   "repo": "APPLES",
-  "count": 7951,
+  "count": 7952,
   "apples": [
     {
       "id": 10525,
@@ -63610,6 +63610,14 @@
       "source_repo": "CLI",
       "date": "20260908",
       "archived_at": "2026-09-08T07:12:31Z"
+    },
+    {
+      "id": 18489,
+      "type": "completion",
+      "title": "Real, minimal sh v0 shipped for the PARENA-powered busybox",
+      "source_repo": "PARENA",
+      "date": "20260908",
+      "archived_at": "2026-09-08T07:20:31Z"
     }
   ]
 }
