@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-08T11:28:12Z",
+  "generated_at": "2026-09-08T11:28:32Z",
   "repo": "APPLES",
-  "count": 7998,
+  "count": 7999,
   "apples": [
     {
       "id": 10525,
@@ -63986,6 +63986,14 @@
       "source_repo": "CLI",
       "date": "20260908",
       "archived_at": "2026-09-08T11:28:12Z"
+    },
+    {
+      "id": 18536,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: write Season 6 Episode 0 (S06E00), the first episode of the season after …",
+      "source_repo": "CLI",
+      "date": "20260908",
+      "archived_at": "2026-09-08T11:28:32Z"
     }
   ]
 }
