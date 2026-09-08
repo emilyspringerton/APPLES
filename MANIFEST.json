@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-08T07:29:10Z",
+  "generated_at": "2026-09-08T07:33:01Z",
   "repo": "APPLES",
-  "count": 7957,
+  "count": 7958,
   "apples": [
     {
       "id": 10525,
@@ -63658,6 +63658,14 @@
       "source_repo": "PARENA",
       "date": "20260908",
       "archived_at": "2026-09-08T07:29:10Z"
+    },
+    {
+      "id": 18495,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: keep working on EmilyOS busybox/shell — extending parenash with elif su…",
+      "source_repo": "CLI",
+      "date": "20260908",
+      "archived_at": "2026-09-08T07:33:01Z"
     }
   ]
 }
