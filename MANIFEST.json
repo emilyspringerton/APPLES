@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-08T08:33:41Z",
+  "generated_at": "2026-09-08T08:37:46Z",
   "repo": "APPLES",
-  "count": 7971,
+  "count": 7972,
   "apples": [
     {
       "id": 10525,
@@ -63770,6 +63770,14 @@
       "source_repo": "CLI",
       "date": "20260908",
       "archived_at": "2026-09-08T08:33:41Z"
+    },
+    {
+      "id": 18509,
+      "type": "completion",
+      "title": "Real case/esac pattern matching shipped for parenash",
+      "source_repo": "PARENA",
+      "date": "20260908",
+      "archived_at": "2026-09-08T08:37:46Z"
     }
   ]
 }

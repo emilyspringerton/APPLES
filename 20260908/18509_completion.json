@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-08T08:37:45Z",
+  "body": "Commit 09447d2. Continuing PARENA_COREUTILS_NORTHSTAR.md Phase 3e. Real case WORD in PAT) CMDS ;; esac, matching real POSIX shell glob syntax via fnmatch(3), no hand-rolled glob engine. Needed no new tokenizer support -- a clause PATTERN) shape is already one word, and ;; already tokenizes as two literal ; tokens. Real pipe-alternation (yes|true|on). Runs only the first matching clause through the exact same exec_range everything else uses; is_balanced extended to track case/esac depth. Live-verified against 6 real scenarios before writing tests. 6 new real end-to-end assertions, all pass alongside the original 40. make test: 347/347, zero regressions. Real, honest further finding: case/esac alone does not make functions.sh own yesno() function work -- it also needs \u0026\u0026/||, positional parameters ($1), a real return builtin (distinct from exit), plus local/eval. A real, necessary, independently-useful piece, never claimed sufficient alone.\n\n⚓ ☃",
+  "id": 18509,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "PARENA",
+  "title": "Real case/esac pattern matching shipped for parenash"
+}
