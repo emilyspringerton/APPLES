@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-08T19:04:21Z",
+  "generated_at": "2026-09-08T19:04:44Z",
   "repo": "APPLES",
-  "count": 8042,
+  "count": 8043,
   "apples": [
     {
       "id": 10525,
@@ -64338,6 +64338,14 @@
       "source_repo": "EmilyOS",
       "date": "20260908",
       "archived_at": "2026-09-08T19:04:21Z"
+    },
+    {
+      "id": 18580,
+      "type": "completion",
+      "title": "Pi image: PARENA-powered coreutils/shell staged for aarch64 + musl/glibc ABI fix",
+      "source_repo": "EmilyOS",
+      "date": "20260908",
+      "archived_at": "2026-09-08T19:04:44Z"
     }
   ]
 }

@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-08T19:04:44Z",
+  "body": "Founder real-time: 'the alpine pi installable parena powered emily os.' New step 3b in build-pi-image-rootless.sh cross-compiles parenabusybox and parenash for aarch64, reusing the root-less Debian cross-toolchain step 3 already bootstraps -- PARENA's compiler runs natively to emit portable C, only the final compile needs the cross-compiler. Staged available-not-default (turbogrep/turbosed precedent): parenabusybox's applets live in /usr/local/parena-coreutils/, off default PATH; parenash goes directly in /usr/local/bin/. Real, previously-undiscovered gap found and fixed along the way, affecting the pre-existing emilyos binary too: the cross-toolchain targets glibc but Alpine ships musl, an incompatible dynamic-linker ABI -- found by actually executing cross-compiled binaries under root-lessly-bootstrapped qemu-user-static (not just checking file(1) architecture), meaning every prior build shipped a binary that could never start. Fixed via static linking for both; live-verified emilyos --help, all 4 parenabusybox applets, and a real parenash script all execute correctly against the real rootfs. Commit 5582db9.\n\n⚓ ☃",
+  "id": 18580,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "EmilyOS",
+  "title": "Pi image: PARENA-powered coreutils/shell staged for aarch64 + musl/glibc ABI fix"
+}
