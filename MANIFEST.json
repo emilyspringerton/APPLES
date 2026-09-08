@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-08T04:38:59Z",
+  "generated_at": "2026-09-08T04:39:03Z",
   "repo": "APPLES",
-  "count": 7919,
+  "count": 7920,
   "apples": [
     {
       "id": 10525,
@@ -63354,6 +63354,14 @@
       "source_repo": "EmilyOS",
       "date": "20260908",
       "archived_at": "2026-09-08T04:38:59Z"
+    },
+    {
+      "id": 18457,
+      "type": "completion",
+      "title": "changelog(EmilyOS): Split the Alpine/RPi image build into a root-less half (pac…",
+      "source_repo": "EmilyOS",
+      "date": "20260908",
+      "archived_at": "2026-09-08T04:39:03Z"
     }
   ]
 }
