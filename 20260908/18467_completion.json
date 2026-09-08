@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-08T05:51:53Z",
+  "body": "CHANGELOG updated in EmilyOS: Root-lessly bootstrapped an aarch64 cross-toolchain (apt-get download + dpkg-deb -x) closing the cgo cross-build gap for cmd/emilyos -\u003e linux/arm64. Fixed two real wrinkles: target libc6:arm64 fetched from ports.ubuntu.com, absolute cross-gcc sysroot overridden via --sysroot. Live-verified: a real aarch64 ELF binary now builds end to end with zero root. (sess-20260905-0720-ec33e7c5)\n\n⚓ ☃",
+  "id": 18467,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "EmilyOS",
+  "title": "changelog(EmilyOS): Root-lessly bootstrapped an aarch64 cross-toolchain (apt-ge…"
+}
