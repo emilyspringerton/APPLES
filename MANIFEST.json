@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-08T02:13:19Z",
+  "generated_at": "2026-09-08T02:13:55Z",
   "repo": "APPLES",
-  "count": 7890,
+  "count": 7891,
   "apples": [
     {
       "id": 10525,
@@ -63122,6 +63122,14 @@
       "source_repo": "emily",
       "date": "20260908",
       "archived_at": "2026-09-08T02:13:19Z"
+    },
+    {
+      "id": 18428,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: 'can we fix the loop-variable I32 boxing bug?' — the real, cross-cuttin…",
+      "source_repo": "CLI",
+      "date": "20260908",
+      "archived_at": "2026-09-08T02:13:55Z"
     }
   ]
 }
