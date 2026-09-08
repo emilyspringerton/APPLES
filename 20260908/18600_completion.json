@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-08T20:38:25Z",
+  "body": "Founder real-time: 'continue.' Closes the 'necessary companion fix' named right after mid-body #target shipped: emit-alloc-call only ever treated an alloc's own value argument as a string literal -- concat's own real (alloc dest String (+ (length a) (length b))) silently emitted a zero-byte arena_strdup, an overflow the following strcpy/strcat would trigger. Direct port of emit_alloc_call's own real non-literal branch. Confirmed live that nested-call binary-op arguments already worked (every-call-arg-symbol-or-number? already recurses) -- only alloc's own literal-only assumption was the real, isolated gap. Live-verified against stdlib/string.prn's own real length+concat source, self-compiled through parena-selfhost, genuinely allocating a correctly-sized buffer and returning the correct string end to end. 6 new tests, all pass; full suite 347/347 + every selfhost domain + test-selfhost-cli clean, zero regressions. concat is now genuinely safe to self-compile end to end. Commit f8e9bef.\n\n⚓ ☃",
+  "id": 18600,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "PARENA",
+  "title": "Self-hosting: alloc non-literal value-argument support shipped"
+}

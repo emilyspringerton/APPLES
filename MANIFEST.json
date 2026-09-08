@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-08T20:38:01Z",
+  "generated_at": "2026-09-08T20:38:25Z",
   "repo": "APPLES",
-  "count": 8062,
+  "count": 8063,
   "apples": [
     {
       "id": 10525,
@@ -64498,6 +64498,14 @@
       "source_repo": "PARENA",
       "date": "20260908",
       "archived_at": "2026-09-08T20:38:01Z"
+    },
+    {
+      "id": 18600,
+      "type": "completion",
+      "title": "Self-hosting: alloc non-literal value-argument support shipped",
+      "source_repo": "PARENA",
+      "date": "20260908",
+      "archived_at": "2026-09-08T20:38:25Z"
     }
   ]
 }
