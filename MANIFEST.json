@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-08T06:10:54Z",
+  "generated_at": "2026-09-08T06:16:42Z",
   "repo": "APPLES",
-  "count": 7936,
+  "count": 7937,
   "apples": [
     {
       "id": 10525,
@@ -63490,6 +63490,14 @@
       "source_repo": "emily",
       "date": "20260908",
       "archived_at": "2026-09-08T06:10:54Z"
+    },
+    {
+      "id": 18474,
+      "type": "completion",
+      "title": "Definitive root-less proof: the EmilyOS Pi image boot pipeline works end to end",
+      "source_repo": "EmilyOS",
+      "date": "20260908",
+      "archived_at": "2026-09-08T06:16:42Z"
     }
   ]
 }

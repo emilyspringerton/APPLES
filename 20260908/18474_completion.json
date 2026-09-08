@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-08T06:16:42Z",
+  "body": "EmilyOS commit 6710f33. Confirmed the framebuffer-console theory from the prior pass directly via QEMU's QMP screendump command (no VNC client needed) instead of leaving it a guess: real kernel boot text confirmed going to the framebuffer, invisible to headless serial-only tests. Built a real, throwaway root-less test image (the same boot.img this session's script produces + a tiny synthetic ext4 root partition) and booted it under qemu-system-aarch64 -M raspi3b with -drive if=sd (found and fixed a real QEMU constraint along the way: SD images must be a power-of-2 size). Definitive, screendump-captured result (saved at docs/pi-boot-test-switch-root-panic.png): switch_root correctly finds and mounts /dev/mmcblk0p2, transitions into it, and correctly panics trying to exec /sbin/init (which the synthetic root deliberately doesn't have) -- exactly the right failure for that test, and definitive proof every real piece of the boot pipeline (cmdline.txt's root=, partition layout, mount, switch_root) works end to end. The one class of risk that would have been hardest to debug after a failed real privileged attempt (a silently wrong boot config) is now retired with positive evidence.\n\n⚓ ☃",
+  "id": 18474,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "EmilyOS",
+  "title": "Definitive root-less proof: the EmilyOS Pi image boot pipeline works end to end"
+}
