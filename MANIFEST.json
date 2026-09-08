@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-08T04:05:50Z",
+  "generated_at": "2026-09-08T04:06:27Z",
   "repo": "APPLES",
-  "count": 7912,
+  "count": 7913,
   "apples": [
     {
       "id": 10525,
@@ -63298,6 +63298,14 @@
       "source_repo": "CLI",
       "date": "20260908",
       "archived_at": "2026-09-08T04:05:50Z"
+    },
+    {
+      "id": 18450,
+      "type": "completion",
+      "title": "EmilyOS Alpine/Raspberry Pi distro pivot — Phase 0 scoping + root-less rootfs proof",
+      "source_repo": "EmilyOS",
+      "date": "20260908",
+      "archived_at": "2026-09-08T04:06:27Z"
     }
   ]
 }
