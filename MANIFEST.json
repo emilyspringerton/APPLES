@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-08T05:41:58Z",
+  "generated_at": "2026-09-08T05:51:48Z",
   "repo": "APPLES",
-  "count": 7928,
+  "count": 7929,
   "apples": [
     {
       "id": 10525,
@@ -63426,6 +63426,14 @@
       "source_repo": "emily",
       "date": "20260908",
       "archived_at": "2026-09-08T05:41:58Z"
+    },
+    {
+      "id": 18466,
+      "type": "completion",
+      "title": "Root-less aarch64 cross-toolchain closes the EmilyOS cgo cross-build gap",
+      "source_repo": "EmilyOS",
+      "date": "20260908",
+      "archived_at": "2026-09-08T05:51:48Z"
     }
   ]
 }

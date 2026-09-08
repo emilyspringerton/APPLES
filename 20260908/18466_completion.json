@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-08T05:51:48Z",
+  "body": "EmilyOS commit b3dd869, top-level monorepo commit 1318ba1ca. Resolved the last real Phase 1 privileged-only gap root-lessly: Debian's gcc-aarch64-linux-gnu cross-toolchain (gcc-13-aarch64-linux-gnu, binutils, libgcc-13-dev-arm64-cross, libgcc-s1-arm64-cross, libc6-dev-arm64-cross) installs cleanly via apt-get download + dpkg-deb -x, matching this session's own apk-tools-static/mtools/git-lfs precedent. Two real, live-found wrinkles fixed: the target runtime libc (libc.so.6/ld-linux-aarch64.so.1) isn't in libc6-dev-arm64-cross -- it's the foreign-arch libc6:arm64 package, fetched directly from ports.ubuntu.com pinned to the exact noble version; Debian's cross-gcc bakes an absolute default sysroot ignoring PATH/LIBRARY_PATH entirely, fixed via explicit --sysroot in CGO_CFLAGS/CGO_LDFLAGS. Live-verified via file: a real, correct dynamically-linked aarch64 ELF executable, built end to end from a clean workdir with zero root. Folded into build-pi-image-rootless.sh as a cached one-time bootstrap; sudo-queue/76's privileged scope shrinks to exactly chroot-based package finishing + mke2fs -d. Re-ran the full root-less script clean from scratch to confirm no regression.\n\n⚓ ☃",
+  "id": 18466,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "EmilyOS",
+  "title": "Root-less aarch64 cross-toolchain closes the EmilyOS cgo cross-build gap"
+}
