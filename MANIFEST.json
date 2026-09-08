@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-08T07:24:10Z",
+  "generated_at": "2026-09-08T07:25:20Z",
   "repo": "APPLES",
-  "count": 7954,
+  "count": 7955,
   "apples": [
     {
       "id": 10525,
@@ -63634,6 +63634,14 @@
       "source_repo": "emily",
       "date": "20260908",
       "archived_at": "2026-09-08T07:24:10Z"
+    },
+    {
+      "id": 18492,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: continue — extending parenash (the PARENA shell v0) with if/then/else/f…",
+      "source_repo": "CLI",
+      "date": "20260908",
+      "archived_at": "2026-09-08T07:25:20Z"
     }
   ]
 }
