@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-08T07:36:36Z",
+  "body": "Commit 621e8e6. Continuing PARENA_COREUTILS_NORTHSTAR.md Phase 3b. elif: exec_if_chain treats a real elif identically to a fresh if, recursing into itself on another elif, correctly sharing the same outer fi. Live-verified: taken/skipped branches, multi-elif chains resolving to the first true condition, else-fallthrough, code after the chain's own fi. ${VAR:-default}/${VAR-default}: real PARENA logic (find-dash-index + expand-param) in stdlib/coreutils/sh.prn. Deliberate, named simplification: since raw-getenv can't distinguish unset from set-but-empty, the plain '-' form is treated identically to ':-'. Still not attempted: :=/:+/#/% operators, nested ${...} inside a default value. 9 new real end-to-end assertions, all pass alongside the original 14. make test: 347/347, zero regressions. Real shell functions remain the single largest piece before this shell could run actual OpenRC scripts (both audited real scripts define at least one).\n\n⚓ ☃",
+  "id": 18496,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "PARENA",
+  "title": "Real elif + ${VAR:-default} parameter expansion shipped for parenash"
+}
