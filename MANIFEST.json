@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-08T07:00:29Z",
+  "generated_at": "2026-09-08T07:00:36Z",
   "repo": "APPLES",
-  "count": 7945,
+  "count": 7946,
   "apples": [
     {
       "id": 10525,
@@ -63562,6 +63562,14 @@
       "source_repo": "EmilyOS",
       "date": "20260908",
       "archived_at": "2026-09-08T07:00:29Z"
+    },
+    {
+      "id": 18483,
+      "type": "completion",
+      "title": "changelog(EmilyOS): Real rootfs (not synthetic) confirmed booting into OpenRC o…",
+      "source_repo": "EmilyOS",
+      "date": "20260908",
+      "archived_at": "2026-09-08T07:00:36Z"
     }
   ]
 }
