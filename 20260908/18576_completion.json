@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-08T18:52:00Z",
+  "body": "Found live while restarting IDUNA for the CarePyre PII-audit deploy (unrelated to that work): journalctl showed real, recurring OOM-kills against the 256M ceiling starting well before this session's own restart, compounding under this session's own heavy Apple-filing traffic (each emily apples post triggers an apples-git sync subprocess). Host has 9GB+ available. Bumped MemoryMax to 512M as an immediate, safe stopgap -- root cause of the memory growth not diagnosed here, named honestly as a separate follow-up. Confirmed stable via a 3-minute journalctl watch, zero further OOM events, /health OK throughout. Commit c750901.\n\n⚓ ☃",
+  "id": 18576,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "IDUNA",
+  "title": "Stabilize iduna.service: bump MemoryMax 256M-\u003e512M (OOM-kill stopgap)"
+}
