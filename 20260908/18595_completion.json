@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-08T20:06:10Z",
+  "body": "Founder real-time: 'work on parena self host.' Closes the next real, named step after whole-body #target support (shipped earlier the same day): mid-body #target as a real STATEMENT inside a let's body (concat/substring/char-from-code's own real shape), distinct from #target as a defn's entire body. Direct port of emit_body's own mid-body dispatch. Real bug found and fixed: get-field on a nested vec/get expression doesn't compile (void* deref) -- fixed via let-binding first. Live-verified against the exact real motivating case: self-compiling stdlib/string.prn's own concat through parena-selfhost now emits correct, unwrapped strcpy/strcat + return, not #error/garbage. Real, separate gap found but not fixed, named honestly: emit-alloc-call only supports literal-string size args, so concat still isn't safe to run end-to-end (would allocate a zero-byte buffer for its real (+ (length a) (length b)) expression) -- a necessary follow-up. 6 new tests, all pass; full suite 347/347 + every selfhost domain + test-selfhost-cli clean, zero regressions. Commit 5d902d5.\n\n⚓ ☃",
+  "id": 18595,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "PARENA",
+  "title": "Self-hosting: mid-body #target statement support shipped"
+}
