@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-08T04:38:59Z",
+  "body": "EmilyOS commit a5a86df, top-level monorepo commit b31999896. Proved live that parted/mkfs.vfat/mkfs.ext4/mtools/dd all work directly against plain files -- zero root, zero loop device, zero mount. Split the build: new packaging/scripts/build-pi-image-rootless.sh does fetch + apk bootstrap + FAT32 boot.img build + Go cross-build attempt, run end to end in this sandbox (verified real dtbs inside boot.img via mdir). Found and named two further real gaps live: mke2fs -d also needs root (Alpine's busybox-suid ships an execute-only /bin/bbsuid), and EmilyOS's own cmd/emilyos doesn't cross-compile to linux/arm64 with CGO_ENABLED=0 (internal/fsaclmod is a genuine cgo package, no fallback) -- needs a real aarch64 cross-compiler, folded into the now-much-smaller privileged sudo-queue/76 script. That script's remaining scope: chroot-based package finishing, qemu-user-static registration, mke2fs -d, a cgo cross-build retry with gcc-aarch64-linux-gnu, and the same root-less parted+dd assembly reused under sudo. NORTHSTAR_DISTRO.md updated with all of this. Still not run end to end (needs real root).\n\n⚓ ☃",
+  "id": 18456,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "EmilyOS",
+  "title": "Alpine/RPi image build: root-less half proven and run live, privileged surface shrunk"
+}
