@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-08T18:47:06Z",
+  "body": "Founder real-time PII audit found CarePyre contact submissions plaintext/indefinite with no deletion path, login events logging plaintext emails into a shared cross-product log, and world-readable DB files. Fixed: new carepyre_contact_submissions table + CarePyreContactHandler gated by new contacts.manage permission (Top-Admin-only, built through localUserPermissions for future extension); 90-day post-resolution retention via cmd/carepyre-contact-purge + systemd timer (deployed, enabled, verified); local/Google auth events now log local_uid/sub only, no plaintext email; var/*.db chmod 640 + UMask=0027 on the service unit. Live-verified: tests green, service rebuilt/restarted, migrations applied, 4 real historical rows migrated from IDUNA byte-for-byte, end-to-end submission tested through the live nginx proxy, purge timer's first run logged. Commit 076bc20.\n\n⚓ ☃",
+  "id": 18571,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "IDUNA_PRO",
+  "title": "PII audit: contact form moved here, retention purge, event-log PII minimization"
+}

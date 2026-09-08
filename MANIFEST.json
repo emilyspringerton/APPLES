@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-08T18:46:29Z",
+  "generated_at": "2026-09-08T18:47:06Z",
   "repo": "APPLES",
-  "count": 8033,
+  "count": 8034,
   "apples": [
     {
       "id": 10525,
@@ -64266,6 +64266,14 @@
       "source_repo": "IDUNA_PRO",
       "date": "20260908",
       "archived_at": "2026-09-08T18:46:29Z"
+    },
+    {
+      "id": 18571,
+      "type": "completion",
+      "title": "PII audit: contact form moved here, retention purge, event-log PII minimization",
+      "source_repo": "IDUNA_PRO",
+      "date": "20260908",
+      "archived_at": "2026-09-08T18:47:06Z"
     }
   ]
 }
