@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-08T18:50:44Z",
+  "generated_at": "2026-09-08T18:51:40Z",
   "repo": "APPLES",
-  "count": 8037,
+  "count": 8038,
   "apples": [
     {
       "id": 10525,
@@ -64298,6 +64298,14 @@
       "source_repo": "CarePyre",
       "date": "20260908",
       "archived_at": "2026-09-08T18:50:44Z"
+    },
+    {
+      "id": 18575,
+      "type": "completion",
+      "title": "changelog(IDUNA): Stabilize iduna.service: bumped MemoryMax 256M-\u003e512M as a s…",
+      "source_repo": "IDUNA",
+      "date": "20260908",
+      "archived_at": "2026-09-08T18:51:40Z"
     }
   ]
 }

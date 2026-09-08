@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-08T18:51:40Z",
+  "body": "CHANGELOG updated in IDUNA: Stabilize iduna.service: bumped MemoryMax 256M-\u003e512M as a stopgap after journalctl showed real, recurring OOM-kills (started before this session's own changes, compounded by heavy Apple-filing traffic triggering frequent apples-git sync subprocesses); root cause of the memory growth not diagnosed here, this only stops the crash loop (sess-20260905-0720-ec33e7c5)\n\n⚓ ☃",
+  "id": 18575,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "IDUNA",
+  "title": "changelog(IDUNA): Stabilize iduna.service: bumped MemoryMax 256M-\u003e512M as a s…"
+}
