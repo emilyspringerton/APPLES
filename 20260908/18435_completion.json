@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-08T02:47:27Z",
+  "body": "nn.prn is real, working, but forward-only activation functions for a gpt2-alpine-c port -- no conv2d/conv2d-transpose/batchnorm/autodiff/optimizer/loss/image-loading exist. Named the real, decisive fork (hand-derived backward passes per op, recommended, vs. full autodiff, needs generic dispatch VS0 doesn't have) and a 7-phase, dependency-ordered plan (Conv2D via im2col+matmul, ConvTranspose2D, BatchNorm2D forward, backward passes, Adam+BCE, training loop, image loading last). Scoping only. docs/DCGAN_PRIMITIVES_NORTHSTAR.md, registered in golden-docs-index. Commit b013f11.\n\n⚓ ☃",
+  "id": 18435,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "PARENA",
+  "title": "S210-01: audited nn.prn's real scope, wrote a real phased DCGAN plan"
+}
