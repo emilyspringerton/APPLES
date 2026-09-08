@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-08T19:13:51Z",
+  "body": "CHANGELOG updated in PARENA: PARENA_COREUTILS_NORTHSTAR.md Phase 1 shipped: broaden parenabusybox's applet set with wc -l, head (-n), yes, cat, sleep, env (echo/basename/pwd/true/false already existed). Real PARENA logic where it exists (count-lines, head-should-print?, yes-line); cat/sleep/env are host-only pure I/O/syscall utilities matching true/false's own precedent. 13 new end-to-end tests, all pass; full suite 347/347, zero regressions (sess-20260905-0720-ec33e7c5)\n\n⚓ ☃",
+  "id": 18583,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "PARENA",
+  "title": "changelog(PARENA): PARENA_COREUTILS_NORTHSTAR.md Phase 1 shipped: broaden pare…"
+}
