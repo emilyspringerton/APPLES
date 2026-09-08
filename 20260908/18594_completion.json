@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-08T20:05:42Z",
+  "body": "CHANGELOG updated in PARENA: Self-hosting: mid-body #target statement support shipped in selfhost/emit.prn (the next real, named step after whole-body #target). Real fix live-verified against the exact motivating case -- self-compiling stdlib/string.prn's own concat through parena-selfhost now emits correct, unwrapped strcpy/strcat statements followed by a real return, not #error/garbage. Found and fixed a real get-field-on-nested-expression bug along the way. Also found (not fixed): emit-alloc-call only supports literal-string size arguments, meaning concat still isn't safe to run end-to-end yet despite now emitting structurally correct C -- named honestly as a real, separate, necessary follow-up. 6 new tests, all pass; full suite 347/347 + every selfhost domain + test-selfhost-cli clean, zero regressions (sess-20260905-0720-ec33e7c5)\n\n⚓ ☃",
+  "id": 18594,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "PARENA",
+  "title": "changelog(PARENA): Self-hosting: mid-body #target statement support shipped in…"
+}
