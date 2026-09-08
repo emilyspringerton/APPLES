@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-08T03:49:48Z",
+  "body": "Commit f733e9f. Closed 3 of the 6 real gaps found in the prior audit (monitor-mode/channel control, link-layer raw TX, Radiotap/802.11 frame construction). pentest/wireless.prn replaces a dead stub with real iw/ip shell-out + shell-injection guard. net/l2socket.prn adds AF_PACKET/SOCK_RAW link-layer raw sockets (Linux-only), the complement to net/rawsocket.prn's network-layer primitive. pentest/dot11.prn gains build-radiotap-header + build-deauth-frame plus a string-\u003ebytes MAC parser, fixing a live-caught string/concat truncation bug on embedded zero bytes (fixed via net/dns.prn's established alloc+inline-c pattern). make test-pentest-wireless, test-net-l2socket, test-pentest-dot11 all pass; make test 347/347, zero regressions. Remaining gaps (general ioctl primitive, channel hopping, non-Deauth frame types) named as real, separate follow-on work in STDLIB.md.\n\n⚓ ☃",
+  "id": 18445,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "PARENA",
+  "title": "Nexmon-targeting stdlib gaps filled: pentest/wireless, net/l2socket, pentest/dot11 build side"
+}
