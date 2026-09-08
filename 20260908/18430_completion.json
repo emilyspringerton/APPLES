@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-08T02:14:04Z",
+  "body": "CHANGELOG updated in PARENA: Fixed the real, cross-cutting loop-variable I32 boxing bug (NODE_NUMBER int/float distinction + a recur-safety check for loop bindings). Verified against base4/vector.prn's dot and base4/matrix.prn's matmul. array.prn's own matmul/transpose have a separate, still-open bug. (sess-20260905-0720-ec33e7c5)\n\n⚓ ☃",
+  "id": 18430,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "PARENA",
+  "title": "changelog(PARENA): Fixed the real, cross-cutting loop-variable I32 boxing bug …"
+}

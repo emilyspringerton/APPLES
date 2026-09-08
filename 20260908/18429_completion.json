@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-08T02:14:04Z",
+  "body": "NODE_NUMBER now distinguishes whole-number literals (int) from decimal ones (double), and a new loop_body_int_safe() check keeps a loop binding's declared type consistent with every real recur update (via the real emit_expr type inference, not a hand-rolled subset -- a first draft using a narrow +/-/* recognizer regressed set.prn's fnv1a-hash, caught and fixed). Verified against base4/vector.prn's dot and base4/matrix.prn's matmul, both previously documented as confirmed-buggy; both tests updated to assert the real, correct values. array.prn's own matmul/transpose remain separately unverified -- a different, unrelated bug in the [i j] index-Vec-literal path, honestly not claimed fixed. make test: 347/347, every other real test target re-run clean. Commits 5facc65/3b04bf9.\n\n⚓ ☃",
+  "id": 18429,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "PARENA",
+  "title": "Fixed the real, cross-cutting loop-variable I32 boxing bug"
+}
