@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-08T03:49:52Z",
+  "body": "CHANGELOG updated in PARENA: Fill Nexmon-targeting stdlib gaps: pentest/wireless.prn (monitor-mode/channel control via iw/ip), net/l2socket.prn (AF_PACKET link-layer raw socket), pentest/dot11.prn build side (build-radiotap-header, build-deauth-frame, MAC string parser). Fixed a live-caught string/concat truncation bug on embedded zero bytes. (sess-20260905-0720-ec33e7c5)\n\n⚓ ☃",
+  "id": 18446,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "PARENA",
+  "title": "changelog(PARENA): Fill Nexmon-targeting stdlib gaps: pentest/wireless.prn (mo…"
+}
