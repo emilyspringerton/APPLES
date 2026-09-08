@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-08T08:00:34Z",
+  "body": "CHANGELOG updated in PARENA: Shipped real source/. builtin, real # comments, and real brace-on-own-line function definitions for parenash. Found and fixed 2 real bugs live testing against OpenRC own functions.sh (comments misexecuted as commands; a subtler is_balanced bug executing NAME() one statement too early). Confirmed that file also needs arithmetic/case/local/eval, none built yet. 8 new tests, all pass; make test 347/347. (sess-20260905-0720-ec33e7c5)\n\n⚓ ☃",
+  "id": 18505,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "PARENA",
+  "title": "changelog(PARENA): Shipped real source/. builtin, real # comments, and real br…"
+}
