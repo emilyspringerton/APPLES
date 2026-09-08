@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-08T04:15:23Z",
+  "body": "Commit 8c0b501. Responded to Linode support's email confirming outbound SMTP restrictions were lifted for the carepyre-email Linode (id 104390828, 45.79.143.216). Re-verified live rather than trusting the email: outbound TCP 25 to gmail-smtp-in.l.google.com now connects (was a timeout before); rDNS (mail.carepyre.org), SPF (v=spf1 mx ~all), and DMARC records were already correct from the original fix and needed no changes. Posted a confirmation reply on ticket #27380609 and closed it via the Linode API, confirmed status:closed on re-fetch. No code/config changes needed -- this was purely Linode's own restriction to lift. Outbound delivery to Gmail/Outlook should now work end to end; a real send-and-receive test from console.html's webmail is the one thing not exercised this pass.\n\n⚓ ☃",
+  "id": 18453,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "CarePyre",
+  "title": "Akamai/Linode SMTP port-25 restriction confirmed lifted; ticket #27380609 closed"
+}
