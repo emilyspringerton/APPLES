@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-08T03:59:37Z",
+  "generated_at": "2026-09-08T04:05:50Z",
   "repo": "APPLES",
-  "count": 7911,
+  "count": 7912,
   "apples": [
     {
       "id": 10525,
@@ -63290,6 +63290,14 @@
       "source_repo": "CLI",
       "date": "20260908",
       "archived_at": "2026-09-08T03:59:37Z"
+    },
+    {
+      "id": 18449,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time / third-party: Linode (Akamai Cloud Support) confirmed SMTP port restricti…",
+      "source_repo": "CLI",
+      "date": "20260908",
+      "archived_at": "2026-09-08T04:05:50Z"
     }
   ]
 }
