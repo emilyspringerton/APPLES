@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-08T06:08:52Z",
+  "body": "CHANGELOG updated in EmilyOS: Attempted Phase 3 boot-test with root-lessly-bootstrapped qemu-system-aarch64 -M raspi3b. Real partial signal (hardware-probe activity confirms the kernel executes) but no visible console output yet -- likely a framebuffer-vs-UART console mismatch, not yet resolved. (sess-20260905-0720-ec33e7c5)\n\n⚓ ☃",
+  "id": 18472,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "EmilyOS",
+  "title": "changelog(EmilyOS): Attempted Phase 3 boot-test with root-lessly-bootstrapped q…"
+}
