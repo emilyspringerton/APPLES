@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-08T06:16:48Z",
+  "body": "CHANGELOG updated in EmilyOS: Definitive root-less proof the Pi image boot pipeline works: QEMU screendump confirmed framebuffer console; a real boot.img + synthetic ext4 root partition test proved switch_root correctly finds/mounts /dev/mmcblk0p2 and transitions into it (screendump evidence at docs/pi-boot-test-switch-root-panic.png). (sess-20260905-0720-ec33e7c5)\n\n⚓ ☃",
+  "id": 18475,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "EmilyOS",
+  "title": "changelog(EmilyOS): Definitive root-less proof the Pi image boot pipeline works…"
+}
