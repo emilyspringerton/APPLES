@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-08T20:33:08Z",
+  "generated_at": "2026-09-08T20:38:01Z",
   "repo": "APPLES",
-  "count": 8061,
+  "count": 8062,
   "apples": [
     {
       "id": 10525,
@@ -64490,6 +64490,14 @@
       "source_repo": "emily",
       "date": "20260908",
       "archived_at": "2026-09-08T20:33:08Z"
+    },
+    {
+      "id": 18599,
+      "type": "completion",
+      "title": "changelog(PARENA): Self-hosting: alloc non-literal value-argument support ship…",
+      "source_repo": "PARENA",
+      "date": "20260908",
+      "archived_at": "2026-09-08T20:38:01Z"
     }
   ]
 }
