@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-09T20:48:54Z",
+  "body": "CHANGELOG updated in IDUNA_PRO: feat(community-tools): resume/CV builder + verifier, gated by a real per-account feature flag (IsCommunityToolsEnabled -\u003e community-tools.access permission). Real JSON Resume schema-mirrored data model + itemized 2-layer verify (schema conformance + ATS-readiness rules). GET/PUT resume + POST verify, scoped to caller's own local_uid. Live-verified fresh-SQLite boot + migration. 12 new tests, full suite green. Apple #18725. (sess-20260905-0720-ec33e7c5)\n\n⚓ ☃",
+  "id": 18726,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "IDUNA_PRO",
+  "title": "changelog(IDUNA_PRO): feat(community-tools): resume/CV builder + verifier, gated …"
+}
