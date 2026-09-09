@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-09T00:03:36Z",
+  "generated_at": "2026-09-09T00:03:47Z",
   "repo": "APPLES",
-  "count": 8078,
+  "count": 8079,
   "apples": [
     {
       "id": 10525,
@@ -64626,6 +64626,14 @@
       "source_repo": "emily",
       "date": "20260909",
       "archived_at": "2026-09-09T00:03:36Z"
+    },
+    {
+      "id": 18616,
+      "type": "completion",
+      "title": "changelog(PARENA): CI: decouple release job from build_editor_macos (temporary…",
+      "source_repo": "PARENA",
+      "date": "20260909",
+      "archived_at": "2026-09-09T00:03:47Z"
     }
   ]
 }
