@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-09T02:27:18Z",
+  "generated_at": "2026-09-09T02:27:25Z",
   "repo": "APPLES",
-  "count": 8100,
+  "count": 8101,
   "apples": [
     {
       "id": 10525,
@@ -64802,6 +64802,14 @@
       "source_repo": "PARENA",
       "date": "20260909",
       "archived_at": "2026-09-09T02:27:18Z"
+    },
+    {
+      "id": 18638,
+      "type": "completion",
+      "title": "changelog(PARENA): feat(bytes): real second core-language base type (compiler …",
+      "source_repo": "PARENA",
+      "date": "20260909",
+      "archived_at": "2026-09-09T02:27:25Z"
     }
   ]
 }

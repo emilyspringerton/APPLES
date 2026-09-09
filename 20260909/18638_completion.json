@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-09T02:27:25Z",
+  "body": "CHANGELOG updated in PARENA: feat(bytes): real second core-language base type (compiler + runtime + stdlib/bytes.prn), closing the embedded-NUL gap SPI/I2C named same day. Vec's own (Raw T) design found non-compiling/stale during investigation -- Bytes shipped as a small, non-generic addition instead. 18 real assertions (make test-bytes), 347/347 full suite. Real symbol-collision bug found+fixed live. Retrofitting spi/i2c/serial onto it not done yet. Apple #18637. (sess-20260905-0720-ec33e7c5)\n\n⚓ ☃",
+  "id": 18638,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "PARENA",
+  "title": "changelog(PARENA): feat(bytes): real second core-language base type (compiler …"
+}
