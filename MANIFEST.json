@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-09T21:46:23Z",
+  "generated_at": "2026-09-09T21:54:41Z",
   "repo": "APPLES",
-  "count": 8209,
+  "count": 8210,
   "apples": [
     {
       "id": 10525,
@@ -65674,6 +65674,14 @@
       "source_repo": "CLI",
       "date": "20260909",
       "archived_at": "2026-09-09T21:46:23Z"
+    },
+    {
+      "id": 18747,
+      "type": "completion",
+      "title": "Bespoke resumes: collapsed target cards with a real Edit action",
+      "source_repo": "CarePyre",
+      "date": "20260909",
+      "archived_at": "2026-09-09T21:54:41Z"
     }
   ]
 }

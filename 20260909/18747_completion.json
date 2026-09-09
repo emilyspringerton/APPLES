@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-09T21:54:41Z",
+  "body": "Founder real-time: 'the bespoke resume section needs a way to load one up for editing.' Before this, console.html rendered every saved bespoke Target as a fully-open edit form all the time -- functionally editable already, but with no real load/edit affordance, and unworkable once someone has more than a couple of saved targets (every checkbox for every target open at once). Saved targets now render as a collapsed summary (name + a real count of what's shown, e.g. '3 jobs, 2 skills shown') with an Edit button that expands it into the existing full form in place, and a 'Done editing' toggle to collapse it back. New ('+ New bespoke resume') and cloned targets still open straight into the editable form so they can be filled in immediately. Expand state is tracked by real object identity (a Set of the actual target objects in currentTargets), not array index or target.id, since indices shift on Remove/reorder and a brand-new/cloned target has no id yet. Real, load-bearing care taken: the full form (name input, per-section checklists, summary/label override fields) stays in the DOM when collapsed, just visually hidden via the hidden attribute -- collectOneTargetFromCard and the 'Save bespoke resumes' button's own 'read every .target-card in the DOM' logic both still find real values regardless of expand state, so saving while a card is collapsed does not silently drop or blank it (this was the real risk to check carefully, since a naive collapsed-vs-expanded conditional render would have broken the existing whole-list save). JS syntax and HTML tag balance verified directly. Deployed live to production (pushed to /var/www/carepyre/console.html, verified https://carepyre.org/console.html responds 200).\n\n⚓ ☃",
+  "id": 18747,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "CarePyre",
+  "title": "Bespoke resumes: collapsed target cards with a real Edit action"
+}
