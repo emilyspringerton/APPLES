@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-09T21:30:44Z",
+  "generated_at": "2026-09-09T21:36:27Z",
   "repo": "APPLES",
-  "count": 8204,
+  "count": 8205,
   "apples": [
     {
       "id": 10525,
@@ -65634,6 +65634,14 @@
       "source_repo": "emily",
       "date": "20260909",
       "archived_at": "2026-09-09T21:30:44Z"
+    },
+    {
+      "id": 18742,
+      "type": "completion",
+      "title": "Community Tools: admin checkbox to grant per-account access + production deploy",
+      "source_repo": "IDUNA_PRO",
+      "date": "20260909",
+      "archived_at": "2026-09-09T21:36:27Z"
     }
   ]
 }

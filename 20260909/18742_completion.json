@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-09T21:36:27Z",
+  "body": "Founder real-time: 'this is my admin user: frostpenelope1@gmail.com i want to be able to check a box on that user to turn on the community tools.' Found and fixed a real, live gap while wiring this up: userToJSON (internal/http/handlers/users.go) never actually returned is_community_tools_enabled on GET/list /api/v1/users, even though PATCH already accepted and persisted it -- an admin console checkbox built against the list endpoint would always render unchecked regardless of the real underlying flag. Added the field to userToJSON, plus 2 new tests (a real PATCH-then-list round trip, and a non-admin-forbidden check) on top of the existing 4-tier RBAC test suite. New 'Community tools' column + checkbox in CarePyre console.html's admin Users table, wired to PATCH .../users/{uid} the same way the existing Provider checkbox already is (optimistic toggle, revert on failure). Full test suite green, zero regressions. Deployed live: rebuilt and restarted the real idunapro.service (health-check-gated restart passed), confirmed the new migration applied cleanly against the live production DB (is_community_tools_enabled column now present, default 0), pushed the updated console.html to /var/www/carepyre/, verified both https://carepyre.org/console.html and /console-api/health respond 200. frostpenelope1@gmail.com (local_uid 7) is a real, existing admin (is_admin=1) in production -- the founder can now log in and check the box themselves.\n\n⚓ ☃",
+  "id": 18742,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "IDUNA_PRO",
+  "title": "Community Tools: admin checkbox to grant per-account access + production deploy"
+}
