@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-09T21:23:35Z",
+  "body": "Closes the last named gap in CarePyre's Community Tools resume feature: internal/resume/pdf.go's RenderPDF (github.com/go-pdf/fpdf, pure Go, no cgo) renders a real, plain, single-column, selectable-text PDF -- not an image, not just a screen preview. Two new routes: GET /api/v1/community-tools/resume/export.pdf (master) and GET /api/v1/community-tools/resume/targets/{id}/export.pdf (a resolved Target), both community-tools.access-gated, served through a shared writeResumePDF helper. Found and fixed a real header-injection risk before it shipped: a Target's own user-controlled Name field going straight into the Content-Disposition header -- closed with pdfFilename, a narrow allowlist sanitizer. 16 Go tests (3 pdf_test.go + 13 handler tests incl. a header-injection regression check using a target literally named Kitchen Jobs \"Special\"), full suite green. Live-verified end to end against a real, fresh-SQLite-booted idunapro binary (register -\u003e flip is_community_tools_enabled -\u003e login -\u003e save resume -\u003e GET export.pdf returns a real, file(1)-confirmed PDF with correct headers), including the quoted-name case live, not just in unit tests. Added real 'Download PDF' (Preview \u0026 templates card) and per-Target 'Export PDF' buttons to CarePyre's console.html, fetching via authHeaders() as a blob (a plain \u003ca href\u003e can't carry the bearer token) and triggering a real browser download using the server's own Content-Disposition filename. Docs updated: CarePyre/docs/COMMUNITY_TOOLS_RESUME_NORTHSTAR.md new section 4d, section 5 gaps list corrected, both repos' CLAUDE.md Status sections updated.\n\n⚓ ☃",
+  "id": 18738,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "IDUNA_PRO",
+  "title": "Community Tools: real, downloadable ATS-safe PDF export (Layer 3)"
+}
