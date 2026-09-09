@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-09T09:17:21Z",
+  "body": "CHANGELOG updated in PARENA: feat(selfhost/emit): real tail-position 'if' support (if-tail-shaped?/emit-if-tail), closes NORTHSTAR's named 'if as whole body' gap -- distinct from S223-02. Real compile+run+assert proof (nested if, self-compiled through parena-selfhost). stdlib/string.prn's self-compile diagnostic now down to exactly 1 remaining #error (unrelated vec/new gap). make test: 347/347. Apple #18671. (sess-20260905-0720-ec33e7c5)\n\n⚓ ☃",
+  "id": 18672,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "PARENA",
+  "title": "changelog(PARENA): feat(selfhost/emit): real tail-position 'if' support (if-ta…"
+}
