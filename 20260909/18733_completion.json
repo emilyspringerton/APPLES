@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-09T21:06:30Z",
+  "body": "Real Target resume UI: a checkbox per master Work/Education/Skill/Award entry, human-labeled, real optional summary/headline overrides (checkbox-gated, matching the backend's *string-pointer null-vs-empty contract), Clone/Verify/Preview/Remove actions. Clone needs zero new API surface -- a new unsaved target pre-filled from an existing one, saved like any other. Real bug found+fixed before shipping: Remove only cleared the DOM card, not the currentTargets array 'New'/'Clone' re-render from -- would've silently resurrected a removed target. Fixed by splicing the array + re-rendering. New Preview \u0026 templates card: one real semantic render (renderResumeTemplate) wrapped in one of two real CSS templates (Classic/Clean Tech), switchable instantly, no new fetch. Verified for real: extracted renderResumeTemplate and ran it directly against sample data with real HTML-special characters, confirmed correct escaping for both templates and no crash on empty data -- not just node --check syntax validation. JS syntax + HTML div balance (148/148) verified. docs/COMMUNITY_TOOLS_RESUME_NORTHSTAR.md + CLAUDE.md updated. Backend (Target/Resolve model, handlers, migration, 17 Go tests) shipped separately: IDUNA_PRO commit 8bc4889. Commit c3b69d2.\n\n⚓ ☃",
+  "id": 18733,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "CarePyre",
+  "title": "Bespoke Target resumes + preview templates -- console.html frontend"
+}
