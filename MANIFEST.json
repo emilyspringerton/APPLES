@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-09T20:54:14Z",
+  "generated_at": "2026-09-09T20:55:34Z",
   "repo": "APPLES",
-  "count": 8193,
+  "count": 8194,
   "apples": [
     {
       "id": 10525,
@@ -65546,6 +65546,14 @@
       "source_repo": "CarePyre",
       "date": "20260909",
       "archived_at": "2026-09-09T20:54:14Z"
+    },
+    {
+      "id": 18731,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: 'we need to be able to build the resume as data like certain jobs we can …",
+      "source_repo": "CLI",
+      "date": "20260909",
+      "archived_at": "2026-09-09T20:55:34Z"
     }
   ]
 }
