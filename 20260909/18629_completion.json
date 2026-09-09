@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-09T01:01:45Z",
+  "body": "Third real hardware bus in the same day (UART/serial, SPI, now I2C). New runtime/parena_runtime.h host glue: i2c_open_impl (open + ioctl(fd, I2C_SLAVE, addr), rollback on failure) and plain read()/write() afterward (i2c_read_impl/i2c_write_impl) -- no transfer-struct ioctl needed the way SPI's SPI_IOC_MESSAGE was. New stdlib/hw/i2c.prn: i2c-open/i2c-read/i2c-write/i2c-close over I2cDevice/I2cError, own #if defined(__linux__) guard matching hw/spi.prn. Real, structural distinction from hw/spi.prn: I2C is addressed and half-duplex-per-direction, closer to hw/serial.prn's/net/tcp.prn's -read/-write shape than SPI's simultaneous -transfer; i2c-read takes an explicit length matching real I2C read semantics. Real, found-live testing distinction from SPI: this box has a real, functioning I2C controller (i2c_i801, /dev/i2c-0) but it's deliberately NOT opened/probed anywhere -- root-owned, real SMBus commonly carries real system battery/thermal/RAM-SPD traffic, a real risk not worth taking. What WAS honestly testable: i2c-dev's data-transfer path is plain POSIX read()/write() with no ioctl, so make test-i2c's 14 assertions include a genuine byte-perfect round-trip and real short-read handling against a real temp file fd -- stronger real coverage than SPI's own ioctl-gated transfer offered. make test: 347/347, zero regressions. Same write-side embedded-NUL limitation as hw/spi.prn/hw/serial.prn carries forward, unfixed for the same named reason (real, separate PARENA core-language byte-buffer gap). docs/I2C_NORTHSTAR.md has the full design record. Commit f56b0fc.\n\n⚓ ☃",
+  "id": 18629,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "PARENA",
+  "title": "Real I2C hardware interface: stdlib/hw/i2c.prn over Linux i2c-dev(4)"
+}
