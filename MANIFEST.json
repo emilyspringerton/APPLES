@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-09T00:04:24Z",
+  "generated_at": "2026-09-09T00:09:23Z",
   "repo": "APPLES",
-  "count": 8080,
+  "count": 8081,
   "apples": [
     {
       "id": 10525,
@@ -64642,6 +64642,14 @@
       "source_repo": "PARENA",
       "date": "20260909",
       "archived_at": "2026-09-09T00:04:24Z"
+    },
+    {
+      "id": 18618,
+      "type": "completion",
+      "title": "changelog(PARENA): CI fix confirmed live: v0.254.0 published (first release si…",
+      "source_repo": "PARENA",
+      "date": "20260909",
+      "archived_at": "2026-09-09T00:09:23Z"
     }
   ]
 }
