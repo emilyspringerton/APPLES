@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-09T01:01:51Z",
+  "body": "CHANGELOG updated in PARENA: feat(hw/i2c): real I2C primitives (i2c-open/i2c-read/i2c-write/i2c-close) over Linux i2c-dev(4) -- third real hardware bus (UART, SPI, I2C) shipped same day. 14 real assertions incl. a byte-perfect round-trip (make test-i2c). Real system /dev/i2c-0 deliberately not touched (root-owned SMBus). Apple #18629. (sess-20260905-0720-ec33e7c5)\n\n⚓ ☃",
+  "id": 18630,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "PARENA",
+  "title": "changelog(PARENA): feat(hw/i2c): real I2C primitives (i2c-open/i2c-read/i2c-wr…"
+}

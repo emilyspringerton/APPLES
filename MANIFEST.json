@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-09T01:01:45Z",
+  "generated_at": "2026-09-09T01:01:51Z",
   "repo": "APPLES",
-  "count": 8092,
+  "count": 8093,
   "apples": [
     {
       "id": 10525,
@@ -64738,6 +64738,14 @@
       "source_repo": "PARENA",
       "date": "20260909",
       "archived_at": "2026-09-09T01:01:45Z"
+    },
+    {
+      "id": 18630,
+      "type": "completion",
+      "title": "changelog(PARENA): feat(hw/i2c): real I2C primitives (i2c-open/i2c-read/i2c-wr…",
+      "source_repo": "PARENA",
+      "date": "20260909",
+      "archived_at": "2026-09-09T01:01:51Z"
     }
   ]
 }
