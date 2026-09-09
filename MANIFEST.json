@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-09T09:15:42Z",
+  "generated_at": "2026-09-09T09:17:16Z",
   "repo": "APPLES",
-  "count": 8133,
+  "count": 8134,
   "apples": [
     {
       "id": 10525,
@@ -65066,6 +65066,14 @@
       "source_repo": "emily",
       "date": "20260909",
       "archived_at": "2026-09-09T09:15:42Z"
+    },
+    {
+      "id": 18671,
+      "type": "completion",
+      "title": "Self-hosting: real tail-position if support in selfhost/emit.prn, closes named gap",
+      "source_repo": "PARENA",
+      "date": "20260909",
+      "archived_at": "2026-09-09T09:17:16Z"
     }
   ]
 }

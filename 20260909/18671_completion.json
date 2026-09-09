@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-09T09:17:16Z",
+  "body": "Real, direct port of src/emit.c's own emit_body tail-position if dispatch (found 2026-08-21, well before S223-02 -- distinct: S223-02 covers let/match/loop as an if's own CONDITION, not this). New if-tail-shaped?/emit-if-tail in selfhost/emit.prn, modeled directly on emit-cond/cond-call-shaped?'s own already-proven tail-position pattern: real if(test){then}else{else}, each branch recursively emitted via emit-form so a nested if composes for free. 8 new tests incl. a real compile+run+assert check (a sign function, nested if, self-compiled through parena-selfhost, correct 1/-1/0 for +/-/0 input). make test: 347/347, every test-selfhost-* target clean, zero regressions. Real, honest finding from re-running the self-compile diagnostic against stdlib/string.prn: now down to exactly ONE genuine #error (split's own vec/new let-value, blocked by the separate, deliberate is-vec-call? exclusion, unrelated to if). is-valid-i32-text?'s own if/else now emits correctly; its else branch (a loop) still hits the separate, much larger, not-yet-started loop/recur gap, named honestly not overclaimed. NORTHSTAR.md's Self-hosting section updated. Commit c2027f1.\n\n⚓ ☃",
+  "id": 18671,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "PARENA",
+  "title": "Self-hosting: real tail-position if support in selfhost/emit.prn, closes named gap"
+}
