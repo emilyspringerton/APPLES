@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-09T20:54:14Z",
+  "body": "CHANGELOG updated in CarePyre: feat(community-tools): real Resume/CV builder + verifier panel in console.html -- Basics fields, dynamic Work/Education entry lists, Save+Verify with itemized per-rule report. Fixed a real HTML-attribute-injection risk found before shipping (esc() into value=\"...\" -- switched to safe DOM property assignment). Apple #18729. (sess-20260905-0720-ec33e7c5)\n\n⚓ ☃",
+  "id": 18730,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "CarePyre",
+  "title": "changelog(CarePyre): feat(community-tools): real Resume/CV builder + verifier pa…"
+}
