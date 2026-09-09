@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-09T22:41:01Z",
+  "body": "Founder real-time: 'we need to be able to add and configure the output of multiple github links.' Real, checked-first finding: basics.profiles existed in the JSON Resume data model since day one but had zero UI, zero PDF rendering, zero screen-preview rendering, and no stable per-entry id -- a real, silent, three-way gap. Fixed: new Profile.ID (mirrors Work/Education/Skill/Award), multiple entries sharing the identical Network value (several distinct GitHub repo links) is real and expected, distinguished by id not label. New Target.IncludedProfileIDs, Resolve now filters Profiles too. RenderPDF and console.html's renderResumeTemplate both now render a real 'Links' line under contact info (previously nowhere). New 'Links' section in the Resume editor (console.html) and a 'Show links' checklist in the Bespoke Resumes card. NewCommunityToolsProfilesHandler reuses the exact same generic entry-CRUD machinery from the paired API-primitives Apple (#18752) -- POST/PATCH/DELETE /resume/profiles[/{id}], documented in the OpenAPI spec. Real, honest verification: two same-network GitHub links independently patched/deleted through the real HTTP handler in a Go test; renderResumeTemplate's new links line extracted and run directly in real Node against sample data containing an XSS-shaped payload, confirming it renders escaped, not raw. Full suite green. Deployed live -- confirmed the paired production resume for joe@carepyre.org (in active real use, independently edited by its owner between my earlier seed and this deploy) still parses and verifies cleanly under the new schema, no data loss.\n\n⚓ ☃",
+  "id": 18753,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "IDUNA_PRO",
+  "title": "Community Tools: multiple GitHub/LinkedIn links (Profile.ID + rendering + UI)"
+}
