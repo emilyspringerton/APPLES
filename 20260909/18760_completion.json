@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-09T22:56:37Z",
+  "body": "Founder real-time: 'ok i removed all my bespoke resumes, created a new bespoke resume, and i am expecting it to default to the exact same as the master resume.' Real UX mismatch fix: '+ New bespoke resume' previously started every checkbox unchecked (an empty selection, matching Resolve's own literal 'nothing selected means nothing shown' contract) -- but the real, common tailoring workflow is subtractive (start from everything, hide what's not relevant), not additive. A fresh target's checkboxes now default to every current master Work/Education/Skill/Award/Link entry selected via a new allIDs() helper. Resolve's own backend contract is completely unchanged -- an explicitly emptied selection still resolves to an empty resume; this is purely a frontend default-state fix. Verified directly: allIDs() checked against an entry missing its id (dropped, not left undefined), an undefined list, and an empty list. JS syntax + HTML tag balance verified directly. Deployed live to https://carepyre.org/console.html.\n\n⚓ ☃",
+  "id": 18760,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "CarePyre",
+  "title": "Community Tools: new bespoke resume now defaults to the full master"
+}
