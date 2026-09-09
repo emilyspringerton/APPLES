@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-09T21:23:40Z",
+  "body": "CHANGELOG updated in IDUNA_PRO: Community Tools: real, downloadable ATS-safe PDF export (Layer 3) -- internal/resume/pdf.go (github.com/go-pdf/fpdf, no cgo), GET .../resume/export.pdf and .../targets/{id}/export.pdf, header-injection-safe pdfFilename sanitizer, 16 new tests, live-verified against a fresh-SQLite-booted binary. Apple #18738. (sess-20260905-0720-ec33e7c5)\n\n⚓ ☃",
+  "id": 18739,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "IDUNA_PRO",
+  "title": "changelog(IDUNA_PRO): Community Tools: real, downloadable ATS-safe PDF export (La…"
+}
