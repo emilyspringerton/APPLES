@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-09T20:16:51Z",
+  "generated_at": "2026-09-09T20:17:27Z",
   "repo": "APPLES",
-  "count": 8181,
+  "count": 8182,
   "apples": [
     {
       "id": 10525,
@@ -65450,6 +65450,14 @@
       "source_repo": "CLI",
       "date": "20260909",
       "archived_at": "2026-09-09T20:16:51Z"
+    },
+    {
+      "id": 18719,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time follow-up: 'cvb.okemily.com for cvbuilder' -- naming the new app CVBuilder…",
+      "source_repo": "CLI",
+      "date": "20260909",
+      "archived_at": "2026-09-09T20:17:27Z"
     }
   ]
 }
