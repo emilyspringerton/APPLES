@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-09T21:36:27Z",
+  "generated_at": "2026-09-09T21:36:45Z",
   "repo": "APPLES",
-  "count": 8205,
+  "count": 8206,
   "apples": [
     {
       "id": 10525,
@@ -65642,6 +65642,14 @@
       "source_repo": "IDUNA_PRO",
       "date": "20260909",
       "archived_at": "2026-09-09T21:36:27Z"
+    },
+    {
+      "id": 18743,
+      "type": "completion",
+      "title": "changelog(IDUNA_PRO): Community Tools: fix userToJSON to actually return is_commu…",
+      "source_repo": "IDUNA_PRO",
+      "date": "20260909",
+      "archived_at": "2026-09-09T21:36:45Z"
     }
   ]
 }

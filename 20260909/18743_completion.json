@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-09T21:36:45Z",
+  "body": "CHANGELOG updated in IDUNA_PRO: Community Tools: fix userToJSON to actually return is_community_tools_enabled (real gap -- PATCH accepted it, list/get never surfaced it), 2 new tests. Deployed live. Apple #18742. (sess-20260905-0720-ec33e7c5)\n\n⚓ ☃",
+  "id": 18743,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "IDUNA_PRO",
+  "title": "changelog(IDUNA_PRO): Community Tools: fix userToJSON to actually return is_commu…"
+}
