@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-09T20:29:44Z",
+  "generated_at": "2026-09-09T20:29:49Z",
   "repo": "APPLES",
-  "count": 8183,
+  "count": 8184,
   "apples": [
     {
       "id": 10525,
@@ -65466,6 +65466,14 @@
       "source_repo": "PARENA",
       "date": "20260909",
       "archived_at": "2026-09-09T20:29:44Z"
+    },
+    {
+      "id": 18721,
+      "type": "completion",
+      "title": "changelog(PARENA): feat(selfhost/emit): real narrow-v0 loop/recur support (loo…",
+      "source_repo": "PARENA",
+      "date": "20260909",
+      "archived_at": "2026-09-09T20:29:49Z"
     }
   ]
 }

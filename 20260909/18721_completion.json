@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-09T20:29:49Z",
+  "body": "CHANGELOG updated in PARENA: feat(selfhost/emit): real narrow-v0 loop/recur support (loop-call-shaped?/emit-loop/emit-loop-tail), matching src/emit.c's own historical if-only v0. Real compile+run+assert proof (sum-to-n, self-compiled, correct 0/6/15). Fixed a live-found get-field-on-nested-expr bug and a bogus recur() call emission. is-valid-i32-text?/split still don't fully self-compile (real, separate, named gaps), split's own loop bindings now correctly emit though. make test: 347/347. Apple #18720. (sess-20260905-0720-ec33e7c5)\n\n⚓ ☃",
+  "id": 18721,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "PARENA",
+  "title": "changelog(PARENA): feat(selfhost/emit): real narrow-v0 loop/recur support (loo…"
+}
