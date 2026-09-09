@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-09T22:47:33Z",
+  "body": "Founder real-time: 'ok we need a way to quick add skills via a comma separated list.' New 'Quick add' field above the Skills list in console.html's Resume editor -- type or paste a comma-separated list (e.g. 'Python, Kubernetes, Docker'), hit Add or press Enter, and each word becomes its own real skill row using the same makeResumeEntryRow/addResumeSkillRow machinery '+ Add skill' already uses one at a time. Skips anything that case-insensitively matches a skill already on the page, including duplicates within the same paste (e.g. 'Go, go, GO' only adds once). Verified directly: extracted the parsing/dedup logic and ran it in real Node against comma/whitespace edge cases (trailing commas, mixed-case duplicates, empty/whitespace-only input) -- all pass. JS syntax and HTML tag balance verified directly. Frontend-only change, no backend/API changes needed since it reuses the existing whole-document PUT save path. Deployed live to https://carepyre.org/console.html.\n\n⚓ ☃",
+  "id": 18758,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "CarePyre",
+  "title": "Community Tools: quick-add skills via comma-separated list"
+}
