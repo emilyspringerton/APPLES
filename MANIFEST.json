@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-09T02:01:46Z",
+  "generated_at": "2026-09-09T02:13:29Z",
   "repo": "APPLES",
-  "count": 8097,
+  "count": 8098,
   "apples": [
     {
       "id": 10525,
@@ -64778,6 +64778,14 @@
       "source_repo": "emily",
       "date": "20260909",
       "archived_at": "2026-09-09T02:01:46Z"
+    },
+    {
+      "id": 18635,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: 'continue' -- continue past the 3 real PARENA hardware buses (UART/SPI/I2…",
+      "source_repo": "CLI",
+      "date": "20260909",
+      "archived_at": "2026-09-09T02:13:29Z"
     }
   ]
 }
