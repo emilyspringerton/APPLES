@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-09T04:50:44Z",
+  "generated_at": "2026-09-09T04:58:38Z",
   "repo": "APPLES",
-  "count": 8112,
+  "count": 8113,
   "apples": [
     {
       "id": 10525,
@@ -64898,6 +64898,14 @@
       "source_repo": "CLI",
       "date": "20260909",
       "archived_at": "2026-09-09T04:50:44Z"
+    },
+    {
+      "id": 18650,
+      "type": "completion",
+      "title": "Phase 2 shipped: real Bytes-based siblings for spi-transfer/i2c-read+write/serial-read+write",
+      "source_repo": "PARENA",
+      "date": "20260909",
+      "archived_at": "2026-09-09T04:58:38Z"
     }
   ]
 }

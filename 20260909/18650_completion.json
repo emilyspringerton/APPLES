@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-09T04:58:38Z",
+  "body": "Real completion of docs/BYTES_NORTHSTAR.md's own 'Phase 2 -- not started' item, same day as Bytes itself shipped. New spi-transfer-bytes/i2c-read-bytes/i2c-write-bytes/serial-read-bytes/serial-write-bytes siblings -- every existing String-based function unchanged, real additive retrofit not a breaking change. New runtime primitives mirror each existing *_impl's real mechanics exactly, using Bytes's own explicit length instead of strlen. Real, byte-perfect end-to-end verification, not just compilation: hw/serial.prn's test round-trips a genuine embedded 0x00 byte through a REAL open pty device in BOTH directions; hw/i2c.prn's test does the identical real round trip against a real temp file fd plus a real short-read case; hw/spi.prn's test (scoped to what's honestly possible with no real spidev controller) proves spi_transfer_bytes_impl returns the exact requested length and zeroes on failure. make test: 347/347 throughout (purely additive, no compiler changes this pass). All hw/serial+spi+i2c+bytes test targets pass in full. Commit 013c9e3.\n\n⚓ ☃",
+  "id": 18650,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "PARENA",
+  "title": "Phase 2 shipped: real Bytes-based siblings for spi-transfer/i2c-read+write/serial-read+write"
+}
