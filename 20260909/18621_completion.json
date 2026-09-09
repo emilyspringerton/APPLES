@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-09T00:23:28Z",
+  "body": "CHANGELOG updated in PARENA: feat(hw/serial): Phase 1 UART/Serial stdlib -- termios-configured serial-open/-read/-write/-close, non-blocking poll-gated reads, 13 real assertions against a real pty device (make test-serial). HW-001/HW-003 Phase 1, Apple #18620. (sess-20260905-0720-ec33e7c5)\n\n⚓ ☃",
+  "id": 18621,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "PARENA",
+  "title": "changelog(PARENA): feat(hw/serial): Phase 1 UART/Serial stdlib -- termios-conf…"
+}

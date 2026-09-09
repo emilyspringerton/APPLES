@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-09T00:23:21Z",
+  "generated_at": "2026-09-09T00:23:28Z",
   "repo": "APPLES",
-  "count": 8083,
+  "count": 8084,
   "apples": [
     {
       "id": 10525,
@@ -64666,6 +64666,14 @@
       "source_repo": "PARENA",
       "date": "20260909",
       "archived_at": "2026-09-09T00:23:21Z"
+    },
+    {
+      "id": 18621,
+      "type": "completion",
+      "title": "changelog(PARENA): feat(hw/serial): Phase 1 UART/Serial stdlib -- termios-conf…",
+      "source_repo": "PARENA",
+      "date": "20260909",
+      "archived_at": "2026-09-09T00:23:28Z"
     }
   ]
 }
