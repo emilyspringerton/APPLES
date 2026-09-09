@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-09T21:06:35Z",
+  "body": "CHANGELOG updated in IDUNA_PRO: feat(community-tools): real Target resumes -- bespoke, tailored variants per opportunity. Work/Education/Skill/Award get stable IDs; new Target{IncludedXIDs, SummaryOverride, LabelOverride} + Resolve(master, target). New /targets, /targets/{id}/resolved, /targets/{id}/verify endpoints -- verify runs against the resolved view, not the master. New migration (sibling targets JSON column). 17 new tests. Full suite green. Apple #18733. (sess-20260905-0720-ec33e7c5)\n\n⚓ ☃",
+  "id": 18734,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "IDUNA_PRO",
+  "title": "changelog(IDUNA_PRO): feat(community-tools): real Target resumes -- bespoke, tail…"
+}
