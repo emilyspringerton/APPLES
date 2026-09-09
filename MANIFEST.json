@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-09T00:18:10Z",
+  "generated_at": "2026-09-09T00:23:21Z",
   "repo": "APPLES",
-  "count": 8082,
+  "count": 8083,
   "apples": [
     {
       "id": 10525,
@@ -64658,6 +64658,14 @@
       "source_repo": "emily",
       "date": "20260909",
       "archived_at": "2026-09-09T00:18:10Z"
+    },
+    {
+      "id": 18620,
+      "type": "completion",
+      "title": "HW-001/HW-003 Phase 1: real stdlib/hw/serial.prn UART/Serial primitives",
+      "source_repo": "PARENA",
+      "date": "20260909",
+      "archived_at": "2026-09-09T00:23:21Z"
     }
   ]
 }

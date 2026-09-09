@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-09T00:23:21Z",
+  "body": "Implements docs/UART_SERIAL_NORTHSTAR.md's Phase 1 plan: new runtime/parena_runtime.h host glue (serial_raw_open_impl, serial_configure_impl -- the one genuinely new termios primitive that doc named -- serial_read_impl, serial_write_impl, serial_close_impl), plus stdlib/hw/serial.prn wrapping it (serial-open/-read/-write/-close, SerialPort, SerialError) following net/tcp.prn's established raw-primitive-plus-Result-boxing shape. Two deliberate departures from the NORTHSTAR sketch found while implementing: serial-read is a non-blocking poll(2)-gated read from the start (reusing pty-poll-read's proven technique) rather than a blocking read-until-close, since a real connected microcontroller never closes its side; serial-close is Result-boxed (added a real CloseFailed variant) matching tcp-close/pty-close's own established convention instead of the sketch's bare-Unit shape. New make test-serial target: 13 real end-to-end assertions against a genuine BSD pty pair (a real termios-configurable tty device, standing in for the physical USB-serial hardware this sandbox doesn't have) -- real open+configure, real non-blocking round-trip reads/writes both directions, honest failures on an unsupported v0 baud rate and a nonexistent device path. make test: 347/347, zero regressions. Phase 2 (real Arduino hardware round-trip) remains genuinely blocked -- no physical device in this sandbox, same limitation class as pentest/pcap.prn's own CAP_NET_RAW gap.\n\n⚓ ☃",
+  "id": 18620,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "PARENA",
+  "title": "HW-001/HW-003 Phase 1: real stdlib/hw/serial.prn UART/Serial primitives"
+}
