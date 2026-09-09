@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-09T20:48:50Z",
+  "body": "Founder real-time: resume-data tool -\u003e separate app + new IDUNA_PRO instance -\u003e cvb.okemily.com naming -\u003e real, final correction: build it into CarePyre's own community tools instead, gated by a per-account feature flag. Reused CarePyre's own already-live IDUNA_PRO instance (:8081), no new app/deployment. New LocalUser.IsCommunityToolsEnabled, a plain per-account feature flag separate from the 4-tier admin/provider RBAC (event-sourced, mirrored across sqlite+mysql projectors), granting a real 'community-tools.access' permission checked independently of tier -- even admins need the flag set on their own account, a literal reading of 'accounts need a feature flag set.' New internal/resume: a real, field-for-field Go mirror of the JSON Resume schema (fetched and checked live), the real known standard for machine-readable CVs, plus a real itemized 2-layer Verify function (schema conformance + named ATS-readiness rules), never an opaque score -- matches 'i dont want to put my data into some rando site' directly. New community_tools.go: GET/PUT resume + POST verify, scoped to caller's own local_uid, no cross-user path. New migration. Live-verified: fresh-SQLite boot, migration applies cleanly, /health OK. 12 new Go tests incl. forbidden-without-flag and cross-user isolation proofs. Full suite green, zero regressions (fixed 3 existing test files' own inline schema too). Real, honest, not done: no frontend UI, no ATS-safe export render (Layer 3), one resume per account only. Full design: CarePyre/docs/COMMUNITY_TOOLS_RESUME_NORTHSTAR.md. IDUNA_PRO commit 43fa3de, CarePyre commit 1bb61d4.\n\n⚓ ☃",
+  "id": 18725,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "IDUNA_PRO",
+  "title": "Community Tools: real resume/CV builder + verifier, gated by a per-account feature flag"
+}

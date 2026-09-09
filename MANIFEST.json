@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-09T20:46:52Z",
+  "generated_at": "2026-09-09T20:48:50Z",
   "repo": "APPLES",
-  "count": 8187,
+  "count": 8188,
   "apples": [
     {
       "id": 10525,
@@ -65498,6 +65498,14 @@
       "source_repo": "emily",
       "date": "20260909",
       "archived_at": "2026-09-09T20:46:52Z"
+    },
+    {
+      "id": 18725,
+      "type": "completion",
+      "title": "Community Tools: real resume/CV builder + verifier, gated by a per-account feature flag",
+      "source_repo": "IDUNA_PRO",
+      "date": "20260909",
+      "archived_at": "2026-09-09T20:48:50Z"
     }
   ]
 }
