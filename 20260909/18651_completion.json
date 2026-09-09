@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-09T04:58:44Z",
+  "body": "CHANGELOG updated in PARENA: feat(hw): Phase 2 shipped -- real Bytes-based siblings (spi-transfer-bytes, i2c-read-bytes/i2c-write-bytes, serial-read-bytes/serial-write-bytes), every existing String-based fn unchanged. Real byte-perfect embedded-0x00 round-trip proven end-to-end against a real pty device and a real temp-file fd. make test: 347/347. Apple #18650. (sess-20260905-0720-ec33e7c5)\n\n⚓ ☃",
+  "id": 18651,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "PARENA",
+  "title": "changelog(PARENA): feat(hw): Phase 2 shipped -- real Bytes-based siblings (spi…"
+}
