@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-09T00:46:47Z",
+  "generated_at": "2026-09-09T00:49:04Z",
   "repo": "APPLES",
-  "count": 8087,
+  "count": 8088,
   "apples": [
     {
       "id": 10525,
@@ -64698,6 +64698,14 @@
       "source_repo": "emily",
       "date": "20260909",
       "archived_at": "2026-09-09T00:46:47Z"
+    },
+    {
+      "id": 18625,
+      "type": "completion",
+      "title": "Real SPI hardware interface: stdlib/hw/spi.prn over Linux spidev(4)",
+      "source_repo": "PARENA",
+      "date": "20260909",
+      "archived_at": "2026-09-09T00:49:04Z"
     }
   ]
 }

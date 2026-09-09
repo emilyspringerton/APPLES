@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-09T00:49:04Z",
+  "body": "Direct follow-up to hw/serial.prn's own named-out-of-scope gap (Adafruit Feather's likely RFM9x LoRa radio talks SPI, not UART). New runtime/parena_runtime.h host glue (spi_open_impl: open + SPI_IOC_WR_MODE/BITS_PER_WORD/MAX_SPEED_HZ with rollback-on-failure; spi_transfer_impl: SPI_IOC_MESSAGE full-duplex transfer), own top-level #if defined(__linux__) guard since spidev has no macOS/BSD equivalent (unlike net/tcp.prn/pty.prn/hw/serial.prn's shared POSIX-wide guard). New stdlib/hw/spi.prn: spi-open/spi-transfer/spi-close over SpiDevice/SpiError -- one spi-transfer function, not a read/write pair, since real SPI is synchronous full-duplex (correct semantics, not a shape mismatch with the rest of the stdlib). Two real, honestly-named limitations found and documented (docs/SPI_NORTHSTAR.md): (1) every String-based host primitive in this runtime is NUL-terminated-C-string-shaped, so a payload needing an embedded 0x00 byte (ordinary for SPI register addressing -- RFM9x's own RegFifo IS address 0x00) can't round-trip through it yet -- a real core-language byte-buffer gap, not solved here; (2) a failed transfer ioctl isn't distinguished from 'device returned all zeros,' matching tcp-read/pty-read/serial-read's own existing coarser-signal judgment. New make test-spi: 9 real assertions scoped to what's genuinely testable with no real SPI controller in this sandbox and no fakeable pty-style stand-in (unlike hw/serial's own pty-based test) -- real open failures against a nonexistent path and a wrong-type device file (/dev/null, proving configure-then-rollback actually runs), a direct spi_transfer_impl call against a non-SPI fd proving no crash/no garbage, real close success/failure. make test: 347/347, zero regressions. Real, honest, not done: an actual hardware round-trip remains genuinely blocked -- no physical SPI device in this sandbox. Commit 6bf4801.\n\n⚓ ☃",
+  "id": 18625,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "PARENA",
+  "title": "Real SPI hardware interface: stdlib/hw/spi.prn over Linux spidev(4)"
+}
