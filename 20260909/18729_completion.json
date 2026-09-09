@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-09T20:54:10Z",
+  "body": "Real, editable 'Resume' panel in CarePyre's console.html -- hidden sidebar nav item (shown only when effective_permissions includes community-tools.access, server-enforced too). Real Basics fields, real dynamic add/remove Work Experience and Education entry lists (matching JSON Resume's own real array shape), Save (PUT) + Verify (POST .../verify) with a real, itemized per-rule report, never a single opaque score. Real, live-found correctness issue fixed before shipping: entry-row values were first drafted via string-concatenated innerHTML spliced into value=\"...\" attributes -- esc() only escapes for text content, not attribute-breaking double-quotes a real field (quoted job title, apostrophe in a name) could contain. Fixed by building inputs via document.createElement + setting .value as a real DOM property, no HTML parsing involved. JS syntax verified (node --check), HTML div balance verified (119/119) -- this repo has no build/test pipeline for static HTML, named as the honest limit of what got checked; no live browser click-through was run. docs/COMMUNITY_TOOLS_RESUME_NORTHSTAR.md + CLAUDE.md updated. Commit d9e1a1f.\n\n⚓ ☃",
+  "id": 18729,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "CarePyre",
+  "title": "Real Resume/CV builder + verifier frontend panel in console.html"
+}
