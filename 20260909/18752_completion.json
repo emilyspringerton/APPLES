@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-09T22:40:49Z",
+  "body": "Founder real-time: 'ensure that all of the features we have have good api because i am going to ask agents to work with those primitives to start intelligently managing the resume using agentic ai.' New PATCH /resume/basics, POST/PATCH/DELETE /resume/{work,education,skills,awards}[/{id}], and the analogous single-target primitives on .../targets -- real partial-update primitives alongside the existing whole-document PUT, so an agent making one small edit no longer has to fetch, mutate, and resend everything. One real, shared generic implementation (CommunityToolsEntryHandler[T] + entryOps[T]) serves all four entry types instead of four hand-duplicated handlers. PATCH relies on encoding/json's own real merge-onto-an-already-populated-value semantics -- an omitted key leaves a field untouched, a present key (including explicit \"\" or null) overwrites it; for Target's summary_override/label_override this gives a genuine three-way absent/null/value distinction, verified directly in tests. New GET /api/v1/community-tools/openapi.json -- a real, complete, go:embed-ded OpenAPI 3.0 document covering every route, deliberately public like JWKS. Real bug caught and fixed before shipping: main.go's first draft built the four entry handlers with only DB/Prefix set, leaving Ops a zero-value struct of nil functions (compiles, panics on first real use) -- fixed with exported per-type constructors that fully wire everything. 18 new tests, full suite green, zero regressions. Deployed live: rebuilt and restarted the real idunapro.service, verified the new openapi.json endpoint responds with the real spec (19 documented paths) both directly and through the carepyre.org proxy.\n\n⚓ ☃",
+  "id": 18752,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "IDUNA_PRO",
+  "title": "Community Tools: agent-ergonomic API primitives + OpenAPI spec"
+}
