@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-09T00:49:04Z",
+  "generated_at": "2026-09-09T00:49:09Z",
   "repo": "APPLES",
-  "count": 8088,
+  "count": 8089,
   "apples": [
     {
       "id": 10525,
@@ -64706,6 +64706,14 @@
       "source_repo": "PARENA",
       "date": "20260909",
       "archived_at": "2026-09-09T00:49:04Z"
+    },
+    {
+      "id": 18626,
+      "type": "completion",
+      "title": "changelog(PARENA): feat(hw/spi): real SPI primitives (spi-open/spi-transfer/sp…",
+      "source_repo": "PARENA",
+      "date": "20260909",
+      "archived_at": "2026-09-09T00:49:09Z"
     }
   ]
 }
