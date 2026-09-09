@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-09T20:29:44Z",
+  "body": "Real, deliberate v0 scope, matching src/emit.c's own emit_loop_tail HISTORICAL v0 exactly (if only). New loop-call-shaped?/emit-loop, loop-tail dispatch: recur (simultaneous assignment via temps, then continue), if (recursively, loop-aware), plain terminal value (delegated to existing emit-form). Loop bindings: number literal/plain-call/binary-op inits only, real C int unconditionally. 9 new tests incl. a real compile+run+assert check -- sum-to-n, self-compiled through parena-selfhost, correctly computes 0/6/15 for n=0/3/5. make test: 347/347, zero regressions. Real, live-found bug fixed (get-field on a nested vec/get, same class already documented elsewhere). Real, honest findings from re-checking the self-compile diagnostic: is-valid-i32-text?/split still don't fully self-compile (if-shaped init / cond-in-loop-tail-with-recur, both real, separate, named not attempted) but split's own loop bindings now correctly emit. Second real bug found+fixed: a bare recur reaching plain emit-form was silently mismatched as a bogus function call -- fixed by adding recur/if/loop to the existing other-special-form-symbol? exclusion list, verified live. NORTHSTAR.md updated. Commit 531116b.\n\n⚓ ☃",
+  "id": 18720,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "PARENA",
+  "title": "Self-hosting: real narrow-v0 loop/recur support in selfhost/emit.prn"
+}

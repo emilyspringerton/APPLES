@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-09T20:17:27Z",
+  "generated_at": "2026-09-09T20:29:44Z",
   "repo": "APPLES",
-  "count": 8182,
+  "count": 8183,
   "apples": [
     {
       "id": 10525,
@@ -65458,6 +65458,14 @@
       "source_repo": "CLI",
       "date": "20260909",
       "archived_at": "2026-09-09T20:17:27Z"
+    },
+    {
+      "id": 18720,
+      "type": "completion",
+      "title": "Self-hosting: real narrow-v0 loop/recur support in selfhost/emit.prn",
+      "source_repo": "PARENA",
+      "date": "20260909",
+      "archived_at": "2026-09-09T20:29:44Z"
     }
   ]
 }
