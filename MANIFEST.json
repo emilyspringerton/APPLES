@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-09T23:20:43Z",
+  "generated_at": "2026-09-09T23:20:53Z",
   "repo": "APPLES",
-  "count": 8227,
+  "count": 8228,
   "apples": [
     {
       "id": 10525,
@@ -65818,6 +65818,14 @@
       "source_repo": "IDUNA_PRO",
       "date": "20260909",
       "archived_at": "2026-09-09T23:20:43Z"
+    },
+    {
+      "id": 18765,
+      "type": "completion",
+      "title": "Community Tools: Compact preview template + template-aware PDF downloads",
+      "source_repo": "CarePyre",
+      "date": "20260909",
+      "archived_at": "2026-09-09T23:20:53Z"
     }
   ]
 }

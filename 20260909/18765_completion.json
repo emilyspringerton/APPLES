@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-09T23:20:53Z",
+  "body": "Founder real-time: 'add a new output template compact that manages to get the experience and education like into 2 columns or something so we can get more skills on the page and keep it 1 page.' New 'Compact' button in the Preview \u0026 templates card alongside Classic/Clean Tech. renderResumeTemplate refactored (Work/Education extracted into their own reusable functions) so Compact can wrap Experience and Education in a real CSS grid (.rt-columns) -- a screen approximation of the paired IDUNA_PRO PDF change's own two-column layout, not pixel-matched, matching this feature's own already-documented 'no visual parity between PDF and web preview' precedent. Both PDF download paths (the Preview card's own Download PDF button and each Target's inline Export PDF button) now pass the currently-selected preview template through to the export endpoint as a real query param via a new pdfTemplateParam() mapping ('compact' passes through, everything else including the screen-only 'Clean Tech' maps to the real ATS-safe 'classic' PDF layout). Verified directly: extracted the refactored renderResumeTemplate and ran it in real Node against sample data -- confirmed classic has no columns wrapper, compact has exactly one with both sections correctly nested inside it, escaping still holds, and a fully empty resume doesn't throw. JS syntax and HTML tag balance verified directly. Deployed live to https://carepyre.org/console.html.\n\n⚓ ☃",
+  "id": 18765,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "CarePyre",
+  "title": "Community Tools: Compact preview template + template-aware PDF downloads"
+}
