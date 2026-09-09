@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-09T00:03:47Z",
+  "generated_at": "2026-09-09T00:04:24Z",
   "repo": "APPLES",
-  "count": 8079,
+  "count": 8080,
   "apples": [
     {
       "id": 10525,
@@ -64634,6 +64634,14 @@
       "source_repo": "PARENA",
       "date": "20260909",
       "archived_at": "2026-09-09T00:03:47Z"
+    },
+    {
+      "id": 18617,
+      "type": "completion",
+      "title": "CI: unblock releases by decoupling from the failing macOS editor build",
+      "source_repo": "PARENA",
+      "date": "20260909",
+      "archived_at": "2026-09-09T00:04:24Z"
     }
   ]
 }

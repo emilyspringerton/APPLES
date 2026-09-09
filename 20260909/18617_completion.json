@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-09T00:04:24Z",
+  "body": "Founder real-time: 'parena build is down... failing on mac editor build... maybe we switch that to linux editor build for now.' Investigated via the public GitHub Actions API (no gh CLI auth/admin rights in this sandbox for raw logs): confirmed every CI run since commit ab2c2786 (2026-09-07, real IP_HDRINCL raw-socket primitives) has Build Editor (macOS) failing at its own compile step, silently skipping Tag \u0026 Release on every push since -- no releases cut in roughly a day and a half. Reviewed the new rawsocket runtime code directly, found nothing an obvious source-level cause -- real root cause named honestly as not diagnosed here. Fix: release job's needs: no longer includes build_editor_macos, and its download/package/gh-release-create steps no longer reference a macOS artifact. build_editor_macos itself unchanged, still runs on every push for visibility. Releases ship Linux + Windows builds only until the real failure is fixed and this gets re-added. Commit 6507eb3.\n\n⚓ ☃",
+  "id": 18617,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "PARENA",
+  "title": "CI: unblock releases by decoupling from the failing macOS editor build"
+}
