@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-09T23:20:43Z",
+  "body": "Founder real-time: 'add a new output template compact that manages to get the experience and education like into 2 columns or something so we can get more skills on the page and keep it 1 page' / 'the downloaded resume should include the candidate name and the export timestamp.' resume.RenderPDF now takes a template argument -- 'classic' (unchanged, ATS-safe single column) or new 'compact' (Experience/Education render in two manually-positioned columns via a real colState helper tracking each column's own x/width/y cursor, since fpdf's own newline handling always resets X to the page margin). Named honestly as a real, deliberate trade-off against the same ATS multi-column parsing risk 'classic' exists to avoid, not hidden. Every generated PDF (both templates) now carries a real footer via fpdf's own SetFooterFunc (candidate name + exact export timestamp, repeating every page) and the downloaded filename now includes the candidate's real name plus today's date via a new resumeExportBaseName helper, replacing the old generic 'resume.pdf'/target-name-only convention; pdfFilename now also collapses consecutive hyphens for a cleaner result. New GET query param 'template' on both export.pdf routes, documented in the OpenAPI spec. Real, direct verification beyond go test: decompressed the actual public RenderPDF('compact') output's own FlateDecode content stream and confirmed 'Experience' and 'Education' text render at genuinely different, non-overlapping x-coordinates (59.53 vs 357.17) with a real gutter between them, and that the footer text is present in the real page content. 9 new/updated Go tests, full suite green. Deployed live: rebuilt and restarted idunapro.service, confirmed health OK.\n\n⚓ ☃",
+  "id": 18764,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "IDUNA_PRO",
+  "title": "Community Tools: Compact 2-column PDF template + candidate name/timestamp in exports"
+}
