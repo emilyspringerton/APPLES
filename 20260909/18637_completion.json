@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-09T02:27:18Z",
+  "body": "Real, direct follow-up to SPI/I2C's own same-day finding: every raw host primitive speaking String truncates at an embedded 0x00 (real for SPI/I2C register addressing -- RFM9x's RegFifo IS address 0x00). Unlike UART/SPI/I2C this is a core-language gap, not a new hardware bus. Investigated FIRST (not assumed): stdlib/vec.prn's own (Raw T) design does not compile at all -- compress/lz4.prn's own claim that it's the real precedent is stale; the real working Vec is a separate, hand-built runtime type. That distinction made Bytes tractable as a small change: Vec's complexity comes from being generic over element type, which a fixed-always-byte buffer doesn't need. New resolve_base_type_name entry in src/emit.c (plus two more allowlists found only by testing: emit_defn's param table, resolve_param_prototype_type's forward-decl table) -- ensure_box_helper needed zero Bytes-specific code, confirmed by reading it: already boxes any non-pointer C type generically. New runtime Bytes struct + bytes_*_impl helpers. Real, live bug found and fixed while implementing: first draft omitted the _impl suffix, causing a real symbol collision with the PARENA-emitted bytes-alloc wrapper (net/tcp.prn's/pty.prn's own already-documented bug class) -- caught by actually gcc-compiling, not by trusting parena build's success. New stdlib/bytes.prn: bytes-alloc/-len/-get/-set!/-from-string/-to-string-lossy. make test-bytes: 18 real assertions incl. a genuine embedded-0x00 survives-with-length-intact proof. make test: 347/347, zero regressions (checked repeatedly through the compiler-change process). Real, honest, not done: no retrofit of spi-transfer/i2c-read/i2c-write/serial-read/serial-write onto Bytes yet -- core gap closed, hardware-facing adoption is separate follow-up. docs/BYTES_NORTHSTAR.md has the full investigation record. Commit f588d00.\n\n⚓ ☃",
+  "id": 18637,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "PARENA",
+  "title": "Real second core-language type: Bytes, closing the embedded-NUL gap SPI/I2C named"
+}
