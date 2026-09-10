@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-10T17:58:16Z",
+  "body": "Closed both remaining gaps from the prior loop-binding-value-shaped entry: if-value-shaped? widened into every-call-arg-symbol-or-number?/emit-call-arg (closing a previously-silent empty 'return ;'), and emit-tail-symbol's bare true/false literal now correctly boxed via emit-tail-expr/emit-i32-boxed after a real, live-found -Werror=int-conversion bug (return 1; from a char*-declared function) was caught by direct minimal gcc compilation, not just the self-compile diagnostic's no-#error bar. 4 new dedicated tests (compile+run+assert), stdlib/string.prn's is-valid-i32-text? now compiles fully correct end to end. make test: 347/347.\n\n⚓ ☃",
+  "id": 18880,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "PARENA",
+  "title": "selfhost/emit: if-as-comparison-operand + tail true/false literal fixed, real int-conversion bug caught"
+}

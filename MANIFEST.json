@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-10T17:50:44Z",
+  "generated_at": "2026-09-10T17:58:16Z",
   "repo": "APPLES",
-  "count": 8342,
+  "count": 8343,
   "apples": [
     {
       "id": 10525,
@@ -66738,6 +66738,14 @@
       "source_repo": "emily",
       "date": "20260910",
       "archived_at": "2026-09-10T17:50:44Z"
+    },
+    {
+      "id": 18880,
+      "type": "completion",
+      "title": "selfhost/emit: if-as-comparison-operand + tail true/false literal fixed, real int-conversion bug caught",
+      "source_repo": "PARENA",
+      "date": "20260910",
+      "archived_at": "2026-09-10T17:58:16Z"
     }
   ]
 }
