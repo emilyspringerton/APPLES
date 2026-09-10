@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-10T19:35:53Z",
+  "generated_at": "2026-09-10T19:43:43Z",
   "repo": "APPLES",
-  "count": 8357,
+  "count": 8358,
   "apples": [
     {
       "id": 10525,
@@ -66858,6 +66858,14 @@
       "source_repo": "emily",
       "date": "20260910",
       "archived_at": "2026-09-10T19:35:53Z"
+    },
+    {
+      "id": 18895,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: CarePyre console's unencrypted-mailbox warning reads as too alarming/full…",
+      "source_repo": "CLI",
+      "date": "20260910",
+      "archived_at": "2026-09-10T19:43:43Z"
     }
   ]
 }
