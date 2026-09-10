@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-10T03:27:59Z",
+  "body": "String lowers to LLVM's opaque ptr type; a literal becomes a real, private, hex-escaped, NUL-terminated global constant, referenced directly by its own name (no getelementptr decay under opaque pointers). Refactored sigs/sig_count into one shared LlvmModule struct. Verified live against real llc 18: compiled a quote/backslash/newline-containing string end to end, confirmed correct bytes in the object file. 9 more real assertions (31 total). make test: 347/347; editor-demo, clang route, and direct-AVR route all still build clean.\n\n⚓ ☃",
+  "id": 18809,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "PARENA",
+  "title": "LLVM backend: real String support added"
+}
