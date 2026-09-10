@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-10T17:59:53Z",
+  "generated_at": "2026-09-10T18:02:47Z",
   "repo": "APPLES",
-  "count": 8345,
+  "count": 8346,
   "apples": [
     {
       "id": 10525,
@@ -66762,6 +66762,14 @@
       "source_repo": "CLI",
       "date": "20260910",
       "archived_at": "2026-09-10T17:59:53Z"
+    },
+    {
+      "id": 18883,
+      "type": "completion",
+      "title": "CI fix: yes|sdkmanager pipefail bug was killing every build",
+      "source_repo": "KARAMBIT",
+      "date": "20260910",
+      "archived_at": "2026-09-10T18:02:47Z"
     }
   ]
 }

@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-10T18:02:47Z",
+  "body": "Root cause confirmed via the real GitHub Actions job log: sdkmanager itself succeeded, but yes got a real SIGPIPE once sdkmanager stopped reading stdin, and set -o pipefail reported that as the whole step's failure. Fixed with a scoped set +o pipefail around the yes | sdkmanager line in both CI jobs. Reproduced and confirmed the exact failure/fix locally first.\n\n⚓ ☃",
+  "id": 18883,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "KARAMBIT",
+  "title": "CI fix: yes|sdkmanager pipefail bug was killing every build"
+}
