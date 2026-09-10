@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-10T20:05:11Z",
+  "generated_at": "2026-09-10T20:17:18Z",
   "repo": "APPLES",
-  "count": 8361,
+  "count": 8362,
   "apples": [
     {
       "id": 10525,
@@ -66890,6 +66890,14 @@
       "source_repo": "emily",
       "date": "20260910",
       "archived_at": "2026-09-10T20:05:11Z"
+    },
+    {
+      "id": 18899,
+      "type": "signal_observation",
+      "title": "[WARN] Founder real-time: resume Skills categorization isn't working -- Vertex auto-categorize does…",
+      "source_repo": "CLI",
+      "date": "20260910",
+      "archived_at": "2026-09-10T20:17:18Z"
     }
   ]
 }
