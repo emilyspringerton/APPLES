@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-10T19:15:48Z",
+  "body": "Direct employer-scan feedback: Skills section was one flat, alphabetically-arbitrary list. New Skill.Category field + resume.GroupSkillsByCategory (shared by PDF export and screen preview), grouped rendering in both, and POST /resume/skills/categorize -- real Vertex AI auto-categorization reusing IDUNA's own GFD Item Builder credential/call pattern exactly (gcloud ADC, gemini-2.5-flash, responseMimeType JSON). Idempotent by design. New unit + handler tests, OpenAPI spec updated, fresh-SQLite live boot re-verified. Honest gap: the live Vertex call itself wasn't exercised end to end in this sandbox (no active gcloud account).\n\n⚓ ☃",
+  "id": 18891,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "IDUNA_PRO",
+  "title": "Community Tools: Skills grouped by category + real Vertex AI auto-categorize"
+}
