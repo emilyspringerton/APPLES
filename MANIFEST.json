@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-10T02:49:07Z",
+  "generated_at": "2026-09-10T02:49:14Z",
   "repo": "APPLES",
-  "count": 8267,
+  "count": 8268,
   "apples": [
     {
       "id": 10525,
@@ -66138,6 +66138,14 @@
       "source_repo": "CLI",
       "date": "20260910",
       "archived_at": "2026-09-10T02:49:07Z"
+    },
+    {
+      "id": 18805,
+      "type": "completion",
+      "title": "LLVM backend Phase 3-v0 shipped: parena itself emits real LLVM IR, llc lowers straight to AVR",
+      "source_repo": "PARENA",
+      "date": "20260910",
+      "archived_at": "2026-09-10T02:49:14Z"
     }
   ]
 }

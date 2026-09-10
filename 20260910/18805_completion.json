@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-10T02:49:14Z",
+  "body": "New src/emit_llvm.c backend: parena build input.prn -o output.ll emits real LLVM IR text directly, zero C involved. examples/avr/blink.prn's next-led-state compiles through it to correct LLVM IR, which llc -mtriple=avr lowers straight to real, disassembly-verified AVR machine code. New examples/avr/blink_main_llvm.c host, found+used a real load-bearing ABI detail (LLVM's i1 needs unsigned char extern, not int). New Makefile targets avr-blink-hex-llvm/avr-blink-upload-llvm, verified end to end. 22 new real assertions (tests/test_emit_llvm.c, verified via make and real Bazel), successful emission + honest error paths. Real, honest v0 scope: scalar I32/F64/Bool only, select not branch/phi, non-short-circuiting and/or, no libLLVM in-process linking yet. make test: 347/347, editor-demo builds clean.\n\n⚓ ☃",
+  "id": 18805,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "PARENA",
+  "title": "LLVM backend Phase 3-v0 shipped: parena itself emits real LLVM IR, llc lowers straight to AVR"
+}
