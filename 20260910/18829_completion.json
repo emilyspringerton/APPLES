@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-10T06:33:36Z",
+  "body": "Real launcher icon (all density buckets), explicit minSdkVersion/targetSdkVersion, real versionCode/versionName wiring, live scan-progress indicator. New .github/workflows/ci.yml mirroring PARENA's own auto-release scheme: build_and_test on every push/PR, release job (main only) computes next minor version, sed-patches it into app/BUILD.bazel, rebuilds, tags, and cuts a real GitHub Release with the signed APK. Live-verified the sed-patch+rebuild logic locally before committing -- produced a real versionCode=42/versionName=v0.1.0 APK, confirmed via aapt2 dump badging + apksigner verify.\n\n⚓ ☃",
+  "id": 18829,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "KARAMBIT",
+  "title": "Product-completeness pass + real auto-releases (CI/CD)"
+}

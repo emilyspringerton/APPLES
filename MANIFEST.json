@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-10T06:33:33Z",
+  "generated_at": "2026-09-10T06:33:36Z",
   "repo": "APPLES",
-  "count": 8291,
+  "count": 8292,
   "apples": [
     {
       "id": 10525,
@@ -66330,6 +66330,14 @@
       "source_repo": "CLI",
       "date": "20260910",
       "archived_at": "2026-09-10T06:33:33Z"
+    },
+    {
+      "id": 18829,
+      "type": "completion",
+      "title": "Product-completeness pass + real auto-releases (CI/CD)",
+      "source_repo": "KARAMBIT",
+      "date": "20260910",
+      "archived_at": "2026-09-10T06:33:36Z"
     }
   ]
 }
