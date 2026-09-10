@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-10T01:19:27Z",
+  "generated_at": "2026-09-10T01:21:35Z",
   "repo": "APPLES",
-  "count": 8247,
+  "count": 8248,
   "apples": [
     {
       "id": 10525,
@@ -65978,6 +65978,14 @@
       "source_repo": "CLI",
       "date": "20260910",
       "archived_at": "2026-09-10T01:19:27Z"
+    },
+    {
+      "id": 18785,
+      "type": "completion",
+      "title": "AVR/Arduino native target v0 + editor Upload button",
+      "source_repo": "PARENA",
+      "date": "20260910",
+      "archived_at": "2026-09-10T01:21:35Z"
     }
   ]
 }

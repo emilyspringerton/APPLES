@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-10T01:21:35Z",
+  "body": "Real, no-sudo AVR toolchain (apt-get download gcc-avr/avr-libc/avrdude/binutils-avr/libftdi1/libhidapi-libusb0/libusb-0.1-4, dpkg -x into ~/.local/opt/avr-toolchain). New examples/avr/{blink.prn,blink_main.c,parena_runtime.h} (PARENA emits pure Bool-toggle decision logic, hand-written AVR host wires DDRB/PORTB registers). New Makefile avr-blink-hex/avr-blink-upload targets. New Upload button in examples/editor_main.c's right sidebar (compile_and_upload_avr), mirroring the existing Compile button. Live-verified: parena build -\u003e avr-gcc -\u003e avr-objcopy produces a correct .hex (192 bytes/0.6% of atmega328p), avrdude loads its real config and correctly attempts the real port, failing only at port-open (no physical Arduino in this sandbox). editor-demo builds clean (-Wall -Wextra -pedantic -Werror). make test: 347/347. PARENA commit 640360b.\n\n⚓ ☃",
+  "id": 18785,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "PARENA",
+  "title": "AVR/Arduino native target v0 + editor Upload button"
+}
