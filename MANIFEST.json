@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-10T18:05:00Z",
+  "generated_at": "2026-09-10T18:05:42Z",
   "repo": "APPLES",
-  "count": 8347,
+  "count": 8348,
   "apples": [
     {
       "id": 10525,
@@ -66778,6 +66778,14 @@
       "source_repo": "emily",
       "date": "20260910",
       "archived_at": "2026-09-10T18:05:00Z"
+    },
+    {
+      "id": 18885,
+      "type": "completion",
+      "title": "release.yml build break fixed: GOLDENBAND mesh-rig sources missing from Windows Client link, ~4 months of stale releases",
+      "source_repo": "SHANKPIT",
+      "date": "20260910",
+      "archived_at": "2026-09-10T18:05:42Z"
     }
   ]
 }

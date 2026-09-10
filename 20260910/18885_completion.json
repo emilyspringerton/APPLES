@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-10T18:05:42Z",
+  "body": "Confirmed via the real GitHub Actions API that every release.yml run has failed since 2026-08-11 and the last real GitHub Release is from 2026-04-26. Root cause: commit f31cfcd wired main.c to GOLDENBAND's mesh rig, but release.yml's own gcc command was never updated to compile+link packages/goldenband's sources -- undefined reference at link time. tests.yml already had the correct fix since 2026-08-20 (e807597a); release.yml just drifted out of sync. Reproduced the exact failure and fix locally with a real mingw-w64 build before trusting it in CI.\n\n⚓ ☃",
+  "id": 18885,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "SHANKPIT",
+  "title": "release.yml build break fixed: GOLDENBAND mesh-rig sources missing from Windows Client link, ~4 months of stale releases"
+}
