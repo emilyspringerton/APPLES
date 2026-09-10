@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-10T02:13:07Z",
+  "generated_at": "2026-09-10T02:13:15Z",
   "repo": "APPLES",
-  "count": 8258,
+  "count": 8259,
   "apples": [
     {
       "id": 10525,
@@ -66066,6 +66066,14 @@
       "source_repo": "CLI",
       "date": "20260910",
       "archived_at": "2026-09-10T02:13:07Z"
+    },
+    {
+      "id": 18796,
+      "type": "completion",
+      "title": "Real fix: bundle actual PARENA source + compiler binary into editor-demo release archives",
+      "source_repo": "PARENA",
+      "date": "20260910",
+      "archived_at": "2026-09-10T02:13:15Z"
     }
   ]
 }

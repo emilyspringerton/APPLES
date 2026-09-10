@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-10T02:13:15Z",
+  "body": "The downloadable editor-demo-linux-x86_64.tar.gz/editor-demo-windows-x86_64.zip never actually contained any PARENA source -- only the binary, bundled SDL2 libs, a font, and a build-identifying snapshot file. Fixed: the release job now copies src/stdlib/examples/runtime/docs + Makefile/STDLIB.md/NORTHSTAR.md/README.md into both platform archive dirs before archiving, plus the real parena compiler binary into the Linux one. Live-verified by locally reproducing the exact packaging step: extracted the resulting tar.gz and ran the bundled ./parena build examples/avr/blink.prn against the bundled blink.prn from a clean directory -- works. make test: 347/347.\n\n⚓ ☃",
+  "id": 18796,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "PARENA",
+  "title": "Real fix: bundle actual PARENA source + compiler binary into editor-demo release archives"
+}
