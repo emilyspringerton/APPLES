@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-10T20:17:18Z",
+  "generated_at": "2026-09-10T20:17:51Z",
   "repo": "APPLES",
-  "count": 8362,
+  "count": 8363,
   "apples": [
     {
       "id": 10525,
@@ -66898,6 +66898,14 @@
       "source_repo": "CLI",
       "date": "20260910",
       "archived_at": "2026-09-10T20:17:18Z"
+    },
+    {
+      "id": 18900,
+      "type": "completion",
+      "title": "Resume Preview panel never auto-rendered (real bug, unrelated to Vertex); Vertex auto-categorize root-caused to a missing gcloud credential",
+      "source_repo": "CarePyre",
+      "date": "20260910",
+      "archived_at": "2026-09-10T20:17:51Z"
     }
   ]
 }

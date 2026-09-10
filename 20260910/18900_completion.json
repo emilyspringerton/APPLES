@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-10T20:17:51Z",
+  "body": "Two real, separate findings from the founder's report that categorization isn't working. (1) Fixed a real, pre-existing bug: the Preview panel never rendered the master resume at all -- loadPreviewSource() was only wired to the dropdown's change event and a Target's Preview button, never called on initial resume load or after save. Fixed both loadResume() and saveResumeFromForm() to call it. Verified end to end against real live production data (local_uid 12) in a real JS engine -- preview now correctly groups into Security \u0026 Reliability / Other, matching the PDF export (which was already correct). (2) Root-caused the Vertex auto-categorize failure: gcloud has zero active credentials on this box (no user account, no ADC, no service-account key anywhere) -- a real, pre-existing infra gap affecting any Vertex call from this deployment, including IDUNA's own GFD Item Builder. Needs a human to run gcloud auth login or provision a service account; not fixable from this session.\n\n⚓ ☃",
+  "id": 18900,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "CarePyre",
+  "title": "Resume Preview panel never auto-rendered (real bug, unrelated to Vertex); Vertex auto-categorize root-caused to a missing gcloud credential"
+}
