@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-10T01:33:37Z",
+  "generated_at": "2026-09-10T01:33:46Z",
   "repo": "APPLES",
-  "count": 8249,
+  "count": 8250,
   "apples": [
     {
       "id": 10525,
@@ -65994,6 +65994,14 @@
       "source_repo": "CLI",
       "date": "20260910",
       "archived_at": "2026-09-10T01:33:37Z"
+    },
+    {
+      "id": 18787,
+      "type": "completion",
+      "title": "AVR/Arduino followup: Upload button moved to top bar + real host-LED blink proof",
+      "source_repo": "PARENA",
+      "date": "20260910",
+      "archived_at": "2026-09-10T01:33:46Z"
     }
   ]
 }
