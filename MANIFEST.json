@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-10T02:00:22Z",
+  "generated_at": "2026-09-10T02:00:48Z",
   "repo": "APPLES",
-  "count": 8255,
+  "count": 8256,
   "apples": [
     {
       "id": 10525,
@@ -66042,6 +66042,14 @@
       "source_repo": "CLI",
       "date": "20260910",
       "archived_at": "2026-09-10T02:00:22Z"
+    },
+    {
+      "id": 18793,
+      "type": "completion",
+      "title": "Disable failing build_editor_macos CI job (if: false)",
+      "source_repo": "PARENA",
+      "date": "20260910",
+      "archived_at": "2026-09-10T02:00:48Z"
     }
   ]
 }

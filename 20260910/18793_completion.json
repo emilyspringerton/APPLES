@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-10T02:00:48Z",
+  "body": "Founder real-time: 'can you please disable the mac editor builds i dont like seeing the red in the ci'. Disabled via if: false rather than deleting the job -- real, confirmed-live failing since commit ab2c2786 (2026-09-07), already decoupled from gating the release job since 2026-09-08. No other job depends on it. YAML validated.\n\n⚓ ☃",
+  "id": 18793,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "PARENA",
+  "title": "Disable failing build_editor_macos CI job (if: false)"
+}
