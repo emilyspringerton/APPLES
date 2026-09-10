@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-10T01:56:21Z",
+  "generated_at": "2026-09-10T01:56:29Z",
   "repo": "APPLES",
-  "count": 8253,
+  "count": 8254,
   "apples": [
     {
       "id": 10525,
@@ -66026,6 +66026,14 @@
       "source_repo": "CLI",
       "date": "20260910",
       "archived_at": "2026-09-10T01:56:21Z"
+    },
+    {
+      "id": 18791,
+      "type": "completion",
+      "title": "Editor affordances: Compile moved to top bar, right tree opens in-place (real Arduino dev environment)",
+      "source_repo": "PARENA",
+      "date": "20260910",
+      "archived_at": "2026-09-10T01:56:29Z"
     }
   ]
 }

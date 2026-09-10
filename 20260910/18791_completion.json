@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-10T01:56:29Z",
+  "body": "Moved the pre-existing Compile hot-reload button from the right sidebar's bottom strip to the top bar, next to Save/Upload. Fixed the right sidebar's click behavior (previously an exact duplicate of the left tree, both new-window) to load a clicked file directly into the current buffer instead -- same in-place-load shape the Spotlight overlay already used. The right tree already browses the whole PARENA repo by default, so this makes examples/avr/blink.prn and examples/host_led/led_main.c directly openable/editable/re-compilable/re-uploadable from inside the editor. editor-demo builds clean (-Wall -Wextra -pedantic -Werror), Xvfb smoke test clean, make test: 347/347.\n\n⚓ ☃",
+  "id": 18791,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "PARENA",
+  "title": "Editor affordances: Compile moved to top bar, right tree opens in-place (real Arduino dev environment)"
+}
