@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-10T06:56:10Z",
+  "body": "Found live: test_emit_llvm (and pre-existing test_emit_ts/test_emit_java) were only ever compile-checked by bazel build //..., never actually run. New bazel test //tests:test_emit_llvm --test_output=all CI step, verified locally (35/35 passing). Named the same pre-existing gap for test_emit_ts/test_emit_java honestly, not touched.\n\n⚓ ☃",
+  "id": 18835,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "PARENA",
+  "title": "Real CI coverage for test_emit_llvm added"
+}
