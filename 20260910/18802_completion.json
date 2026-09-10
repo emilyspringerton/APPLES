@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-10T02:36:23Z",
+  "body": "Closed both real gaps the earlier scoping pass found: switched blink_main.c's delay call from _delay_ms (GCC-only builtin) to _delay_loop_2 (portable); resolved the missing _exit symbol via avr-gcc's own real libgcc.a. New Makefile targets avr-blink-hex-clang/avr-blink-upload-clang, real and parallel to the avr-gcc-based ones. New persistent LLVM_TOOLCHAIN_ROOT (~/.local/opt/llvm-toolchain), no-sudo apt-get-download acquired. Verified end to end: avr-nm/avr-objdump confirm a correct interrupt vector table + all symbols resolved, avrdude correctly attempts the real port. editor-demo builds clean, make test: 347/347.\n\n⚓ ☃",
+  "id": 18802,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "PARENA",
+  "title": "LLVM backend Phase 0/1 shipped: clang -target avr builds+links a real, verified blink.hex"
+}
