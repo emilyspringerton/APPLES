@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-10T17:59:28Z",
+  "generated_at": "2026-09-10T17:59:53Z",
   "repo": "APPLES",
-  "count": 8344,
+  "count": 8345,
   "apples": [
     {
       "id": 10525,
@@ -66754,6 +66754,14 @@
       "source_repo": "CLI",
       "date": "20260910",
       "archived_at": "2026-09-10T17:59:28Z"
+    },
+    {
+      "id": 18882,
+      "type": "signal_observation",
+      "title": "[WARN] Founder real-time: KARAMBIT build is down.",
+      "source_repo": "CLI",
+      "date": "20260910",
+      "archived_at": "2026-09-10T17:59:53Z"
     }
   ]
 }
