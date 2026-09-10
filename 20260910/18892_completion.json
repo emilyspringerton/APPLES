@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-10T19:15:51Z",
+  "body": "Frontend half of the IDUNA_PRO Skills-categorization change (Apple #18891): Category dropdown per skill row, grouped-by-category screen preview (groupSkillsByCategory, a direct JS port of the Go grouping logic, kept in lockstep across all three templates), and a new Auto-organize with AI button wired to the real Vertex AI endpoint. node --check clean.\n\n⚓ ☃",
+  "id": 18892,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "CarePyre",
+  "title": "Community Tools console.html: Skills category grouping + Auto-organize with AI button"
+}
