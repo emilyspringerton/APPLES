@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-10T03:39:10Z",
+  "generated_at": "2026-09-10T03:39:16Z",
   "repo": "APPLES",
-  "count": 8274,
+  "count": 8275,
   "apples": [
     {
       "id": 10525,
@@ -66194,6 +66194,14 @@
       "source_repo": "CLI",
       "date": "20260910",
       "archived_at": "2026-09-10T03:39:10Z"
+    },
+    {
+      "id": 18812,
+      "type": "completion",
+      "title": "LLVM backend: real call argument-count/type validation added",
+      "source_repo": "PARENA",
+      "date": "20260910",
+      "archived_at": "2026-09-10T03:39:16Z"
     }
   ]
 }

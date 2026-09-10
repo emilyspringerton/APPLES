@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-10T03:39:16Z",
+  "body": "LlvmFnSig now records every declared parameter's own type, not just return type; a real call site checks both argument count and each argument's own type against the callee's declared signature. Found and fixed a real, previously-unnamed latent gap: argument count was never checked at all. Also closes the earlier-named 'bare literal call argument fails' gap since arguments now get the callee's declared type as their expected_type hint. 4 more real assertions (35 total). make test: 347/347; editor-demo, clang route, and direct-AVR route all re-verified end to end.\n\n⚓ ☃",
+  "id": 18812,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "PARENA",
+  "title": "LLVM backend: real call argument-count/type validation added"
+}
