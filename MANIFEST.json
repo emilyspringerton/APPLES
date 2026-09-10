@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-10T04:18:23Z",
+  "generated_at": "2026-09-10T04:18:30Z",
   "repo": "APPLES",
-  "count": 8280,
+  "count": 8281,
   "apples": [
     {
       "id": 10525,
@@ -66242,6 +66242,14 @@
       "source_repo": "CLI",
       "date": "20260910",
       "archived_at": "2026-09-10T04:18:23Z"
+    },
+    {
+      "id": 18818,
+      "type": "completion",
+      "title": "KARAMBIT v0 shipped: real PARENA+Java Android network scanner, real APK builds",
+      "source_repo": "KARAMBIT",
+      "date": "20260910",
+      "archived_at": "2026-09-10T04:18:30Z"
     }
   ]
 }
