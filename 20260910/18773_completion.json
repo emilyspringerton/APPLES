@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-10T00:10:11Z",
+  "body": "Founder real-time: 'can we shift the contact info and links to the right (right align) and the name and headline to the left so they can free up just a bit more vertical space on the compact template?' RenderPDF's header now branches by template -- classic keeps its original centered-stack header completely unchanged; new renderCompactHeader renders name+label left-aligned and contact+links right-aligned on two shared rows instead of four separate centered lines, a real, direct vertical-space saving matching the compact template's own two-column body layout. New test proves it directly: parses the actual Td text-position operator preceding each string's draw call in a real, uncompressed PDF and confirms name/label sit near the left margin while contact sits meaningfully further right. Paired console.html change: renderResumeTemplate wraps the header in a real flex row (.rt-header-split) for the Compact screen preview only, verified via real Node execution. Full suite green, zero regressions. Deployed live.\n\n⚓ ☃",
+  "id": 18773,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "IDUNA_PRO",
+  "title": "Community Tools: Compact template header -- name/label left, contact/links right"
+}
