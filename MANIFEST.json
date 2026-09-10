@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-10T02:48:39Z",
+  "generated_at": "2026-09-10T02:49:07Z",
   "repo": "APPLES",
-  "count": 8266,
+  "count": 8267,
   "apples": [
     {
       "id": 10525,
@@ -66130,6 +66130,14 @@
       "source_repo": "emily",
       "date": "20260910",
       "archived_at": "2026-09-10T02:48:39Z"
+    },
+    {
+      "id": 18804,
+      "type": "signal_observation",
+      "title": "[INFO] Founder direction: 'continue working on LLVM we want to do both plans first the clang rout t…",
+      "source_repo": "CLI",
+      "date": "20260910",
+      "archived_at": "2026-09-10T02:49:07Z"
     }
   ]
 }
