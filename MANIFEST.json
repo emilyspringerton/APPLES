@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-10T06:53:57Z",
+  "generated_at": "2026-09-10T06:56:07Z",
   "repo": "APPLES",
-  "count": 8296,
+  "count": 8297,
   "apples": [
     {
       "id": 10525,
@@ -66370,6 +66370,14 @@
       "source_repo": "PARENA",
       "date": "20260910",
       "archived_at": "2026-09-10T06:53:57Z"
+    },
+    {
+      "id": 18834,
+      "type": "signal_observation",
+      "title": "[INFO] Continuation of 'continue on parena llvm and selfhost' -- LLVM side: found live that test_em…",
+      "source_repo": "CLI",
+      "date": "20260910",
+      "archived_at": "2026-09-10T06:56:07Z"
     }
   ]
 }
