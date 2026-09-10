@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-10T06:53:40Z",
+  "generated_at": "2026-09-10T06:53:57Z",
   "repo": "APPLES",
-  "count": 8295,
+  "count": 8296,
   "apples": [
     {
       "id": 10525,
@@ -66362,6 +66362,14 @@
       "source_repo": "CLI",
       "date": "20260910",
       "archived_at": "2026-09-10T06:53:40Z"
+    },
+    {
+      "id": 18833,
+      "type": "completion",
+      "title": "Self-host: if/or/and/not-shaped loop-binding values + a real live segfault fixed",
+      "source_repo": "PARENA",
+      "date": "20260910",
+      "archived_at": "2026-09-10T06:53:57Z"
     }
   ]
 }

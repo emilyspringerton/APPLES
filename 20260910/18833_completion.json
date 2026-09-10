@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-10T06:53:57Z",
+  "body": "Closed the previously-named gap: is-valid-i32-text?'s own real if-shaped loop-binding init (new if-value-shaped?/emit-if-value, a real ternary-emitting sibling of if-tail-shaped?). Found and fixed a real, live segfault via gdb: emit-recur-temps called emit-loop-binding-value unconditionally on every recur argument with zero shape gate. Fixed with a real shape gate (clean #error instead of a crash), then closed the actual named gap: or/and/not-shaped loop-binding values via emit-bool-expr. 8 new tests including a real compile+run+assert check. Re-ran the self-compile diagnostic: is-valid-i32-text? now emits ZERO #error directives. Two new, separate, honestly-named gaps found (not fixed): a boolean tail-value in loop position, and undefined true/false in the runtime header. make test: 347/347, zero regressions.\n\n⚓ ☃",
+  "id": 18833,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "PARENA",
+  "title": "Self-host: if/or/and/not-shaped loop-binding values + a real live segfault fixed"
+}
