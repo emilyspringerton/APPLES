@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-11T19:55:49Z",
+  "generated_at": "2026-09-11T19:55:56Z",
   "repo": "APPLES",
-  "count": 8488,
+  "count": 8489,
   "apples": [
     {
       "id": 10525,
@@ -67906,6 +67906,14 @@
       "source_repo": "PARENA",
       "date": "20260911",
       "archived_at": "2026-09-11T19:55:49Z"
+    },
+    {
+      "id": 19026,
+      "type": "completion",
+      "title": "net/udp real host-glue close-out, live-verified round trip",
+      "source_repo": "PARENA",
+      "date": "20260911",
+      "archived_at": "2026-09-11T19:55:56Z"
     }
   ]
 }

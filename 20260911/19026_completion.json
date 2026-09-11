@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-11T19:55:56Z",
+  "body": "Founder real-time: 'i really want to try to start writing the host itself in PARENA itself instead of PARENA just supplying the logic.' Checked the foundational UDP primitive first by actually gcc-compiling stdlib/net/udp.prn's generated C for the first time -- confirmed it had never actually worked. Found and fixed 4 real distinct bugs: a libc bind(2) name collision, the same #target-declares-Result-directly boxing bug tcp.prn's own 2026-08-25 pass already fixed once (never applied here), a genuine SocketAddr-to-sockaddr FFI mismatch in send-to, and a recv-from return type (tuple inside Result) that was never real, compilable PARENA syntax anywhere in this stdlib. Live-verified with a new permanent test (tests/test_net_udp.c, make test-net-udp): binds two real UDP sockets, sends a real datagram, receives it, confirms payload and sender address/port both correct. make test (347 cases) and sibling net tests stay green. PARENA 95e560d. STDLIB.md updated with the full bug list and new signatures.\n\n⚓ ☃",
+  "id": 19026,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "PARENA",
+  "title": "net/udp real host-glue close-out, live-verified round trip"
+}
