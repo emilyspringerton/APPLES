@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-11T22:00:32Z",
+  "body": "Founder terse ask ('add cows'), interpreted in context as WC3-style harmless critters. Real creep_spawn_cow built on the existing creep aggro/chase/leash/reset system: low hp, neutral faction, new passive flag that makes a creep wander (deterministic step pattern, no PRNG) instead of scanning for aggro, bounded to a real radius from home. Cows never fight back but aren't immune to being killed by real faction creeps (falls out of the existing faction-inequality aggro rule for free). New LIVING_MAP_EVENT_CREEP_WANDERED event. 21 new tests, full Living Map suite green (132 assertions). ECOWAR commit b62ac34.\n\n⚓ ☃",
+  "id": 19055,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "ECOWAR",
+  "title": "Add cows: passive, wandering neutral Living Map wildlife"
+}
