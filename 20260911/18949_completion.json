@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-11T04:42:10Z",
+  "body": "Founder real-time: add Michael (arch angel michael) to REDGARDEN with a very strong W shield, strong Q damage, and an E heal like Doc Wheel. Lore added to TYLER/multiverse_heroes.md first (#124) per standing regulation, reframed per that document's own ethos rather than transcribed straight from Revelation 12:7-9's War in Heaven. This engine has no E slot; mapped onto R, the roster's own ultimate slot. Q (Flaming Sword) is a real strong single-target hit above this roster's typical range. W (Heaven's Shield) is this roster's first real damage-absorption shield -- a genuinely new engine mechanic (new shield_hp/shield_ms_remaining fields, drained in apply_damage_ex, the one central damage choke point every source already routes through), previously explicitly deferred for Doc Wheel's own R. R (Recast Victory) reuses Doc Wheel's own heal-shape at bigger numbers and an ultimate-tier cooldown. Full roster wiring done: hero name/ability tables, a new has_shield mechanical tag, real bot AI heuristic, and real wire-protocol sync so the shield is genuine client-visible state, not server-only. New tests (11 assertions) caught and fixed two real bugs in the tests themselves (wrong armor assumption, an attacker running out of mana mid-test) before trusting the result. Named, not fixed: no client-side visual shield-bar overlay yet -- the mechanic and its sync are fully real, rendering is separate follow-up. go build and full test suite clean.\n\n⚓ ☃",
+  "id": 18949,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "REDGARDEN",
+  "title": "Michael, the Recast Victory (31st hero) -- first real damage-absorption shield mechanic on this roster"
+}
