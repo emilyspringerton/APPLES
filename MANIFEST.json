@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-11T00:10:12Z",
+  "generated_at": "2026-09-11T00:10:13Z",
   "repo": "APPLES",
-  "count": 8381,
+  "count": 8382,
   "apples": [
     {
       "id": 10525,
@@ -67050,6 +67050,14 @@
       "source_repo": "IDUNA",
       "date": "20260911",
       "archived_at": "2026-09-11T00:10:12Z"
+    },
+    {
+      "id": 18919,
+      "type": "completion",
+      "title": "New Multi-Tenancy NORTHSTAR: IDUNA_PRO is currently just a CarePyre fork, not a real platform",
+      "source_repo": "IDUNA_PRO",
+      "date": "20260911",
+      "archived_at": "2026-09-11T00:10:13Z"
     }
   ]
 }
