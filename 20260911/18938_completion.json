@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-11T02:53:15Z",
+  "body": "The matchmaker unit's EnvironmentFile=/home/fatbaby/ECOWAR/var/redgarden-iduna-agent.env referenced a file that never existed for ECOWAR, and systemd fails a unit's entire activation (not just the optional feature the file backs) when a required EnvironmentFile is missing -- the matchmaker binary never even ran for 5 days while the bot pool kept running against it. Fixed by provisioning a real, genuinely distinct ECOWAR-BOTS M2M agent identity in IDUNA (new migration, config/agents.json entry, cmd/bootstrap), resolving README.md's own previously-flagged 'does ECOWAR report under its own identity or REDGARDEN's' question, writing the real secret to a new var/ecowar-iduna-agent.env, and making the EnvironmentFile line optional going forward so this specific failure mode can never recur. Deployed and live-verified end to end: real matchmaker listening on UDP 0.0.0.0:9779, WOTAN agent identity confirmed loaded in logs, and a real two-bot test match successfully queued, matched, spawned a server, connected both bots, and exchanged real gameplay ticks. Also found and logged (not fixed, needs root): var/matches and var/corpus are owned by a different user without world-write permission, silently breaking match/AI-corpus logging.\n\n⚓ ☃",
+  "id": 18938,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "ECOWAR",
+  "title": "Fixed real root cause of 'stuck on queueing': ecowar-matchmaker.service dead 5 days from a missing EnvironmentFile"
+}
