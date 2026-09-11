@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-11T19:29:49Z",
+  "generated_at": "2026-09-11T19:31:34Z",
   "repo": "APPLES",
-  "count": 8482,
+  "count": 8483,
   "apples": [
     {
       "id": 10525,
@@ -67858,6 +67858,14 @@
       "source_repo": "emily",
       "date": "20260911",
       "archived_at": "2026-09-11T19:29:49Z"
+    },
+    {
+      "id": 19020,
+      "type": "completion",
+      "title": "S372: cross-repo game-engine abstraction scoping (PARENGINE-NORTH)",
+      "source_repo": "EMILY",
+      "date": "20260911",
+      "archived_at": "2026-09-11T19:31:34Z"
     }
   ]
 }

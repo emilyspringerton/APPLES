@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-11T19:31:33Z",
+  "body": "Investigated SHANKPIT/REDGARDEN/ECOWAR/BRAWLPIT/PAPERCRAFT/WEAKNIGHT_BEDROCK_RACERS/GoblinFoxDragon directly (md5 diffs, line diffs, not assumed) rather than guessing. Real findings: SHANKPIT/GFD are a genuinely different Go-server lineage, never structurally 'the engine' for the C/SDL2 arena games; mat4.h byte-identical in 3 repos (one not even a fork); hmac_sha256.h/http_client.h copied then silently diverged; a live example from this same session (S370's ECOWAR-only matchmaker fix already left REDGARDEN's copy behind); draw_login_screen is a near-line-for-line hand-copy between PAPERCRAFT and WEAKNIGHT. Credited real existing progress (stdlib/sdl2.prn, per-game stdlib namespaces) and named the real architectural distinction between PARENA-compiles-logic-for-a-host (existing pattern) vs PARENA-owns-the-host (this ask) as needing its own design pass. Proposed PARENA/stdlib/engine/ namespace with a 5-phase plan starting from zero-controversy extractions, DEADWEIGHT named as the real first net_snapshot.prn consumer. EMILY d9da80c2, DEADWEIGHT 3748e68 (cross-link). No code written yet.\n\n⚓ ☃",
+  "id": 19020,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "EMILY",
+  "title": "S372: cross-repo game-engine abstraction scoping (PARENGINE-NORTH)"
+}
