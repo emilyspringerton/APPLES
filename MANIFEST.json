@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-11T20:00:32Z",
+  "generated_at": "2026-09-11T20:12:38Z",
   "repo": "APPLES",
-  "count": 8490,
+  "count": 8491,
   "apples": [
     {
       "id": 10525,
@@ -67922,6 +67922,14 @@
       "source_repo": "emily",
       "date": "20260911",
       "archived_at": "2026-09-11T20:00:32Z"
+    },
+    {
+      "id": 19028,
+      "type": "completion",
+      "title": "Standard ops/playbook.toml format + real renderer (S375)",
+      "source_repo": "emily.cli",
+      "date": "20260911",
+      "archived_at": "2026-09-11T20:12:38Z"
     }
   ]
 }

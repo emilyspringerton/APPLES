@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-11T20:12:38Z",
+  "body": "Founder real-time: standardize backend-service deployment format, systemd-based, mention/defer Ansible+Terraform. Grounded directly in every hand-written unit file already live across REDGARDEN/ECOWAR/BRAWLPIT/PAPERCRAFT/WEAKNIGHT_BEDROCK_RACERS -- found ECOWAR's own ops/ dir still contains un-renamed REDGARDEN unit files, and that BRAWLPIT/PAPERCRAFT both have real documented port-collision incidents this format's structured port field now makes checkable. Real schema: [game] + repeatable [[service]] (persistent vs spawned) + [values] placeholder substitution. Built and live-verified emily.cli's internal/opsplaybook (TOML parse + systemd unit render) + emily ops render-unit -- 5 real tests including a field-by-field match against the real, currently-deployed ecowar-matchmaker.service. Manually ran against real, new ECOWAR/ops/playbook.toml and REDGARDEN/ops/playbook.toml, output matches real deployed units. Found and named (not fixed) a real live risk: REDGARDEN's own deployed matchmaker unit still has a REQUIRED EnvironmentFile, the same landmine ECOWAR's own 5-day outage already proved dangerous. emily.cli a43d41f, ECOWAR 1ab2928, REDGARDEN bb9fc1c, EMILY 1d2f3913. Deliberately not built: the actual apply/deploy step (real live-infra mutation, gated on a CLI-surface decision) and Ansible/Terraform (mentioned, deferred per instruction).\n\n⚓ ☃",
+  "id": 19028,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "emily.cli",
+  "title": "Standard ops/playbook.toml format + real renderer (S375)"
+}
