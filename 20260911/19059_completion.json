@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-11T22:26:18Z",
+  "body": "Founder, playing the real live client/server, reported the Living Map wasn't actually visible/working: 'no all cap win con - im not seeing frontier village ... i dont see a hex grid.' Root cause: Phases 1-2's real, tested systems were never connected to a running match. New living_map_bridge.h/.c founds a real, live HexGrid/TownRegistry/CreepRegistry per match (2 towns per side, 2 neutral, 3 cows), ticks and checks the real win condition every arena_update/arena_update_teams tick. Found and fixed a real naming collision (arena_game.c's own creep_spawn vs packages/livingmap's) by renaming to living_map_creep_spawn. New PACKET_ARENA_SNAPSHOT_LIVING_MAP wire packet; apps/arena's minimap now shows real town/creep markers. Live-verified: a real fast-forwarded server + 2 real bots completed a full match with the new wiring active, zero crashes. 5 new tests, full suite green (3169 assertions). Not done: hex-grid outline rendering, a real capture-node/militia-boost card wiring (so the live win condition, though real, is currently unreachable in a match), and the G-key card-UI panel redesign. ECOWAR commit d56f24e.\n\n⚓ ☃",
+  "id": 19059,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "ECOWAR",
+  "title": "Living Map Phase 7: real arena\u003c-\u003eliving-map wiring into the actual live client and server"
+}
