@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-11T21:51:35Z",
+  "generated_at": "2026-09-11T21:57:03Z",
   "repo": "APPLES",
-  "count": 8514,
+  "count": 8515,
   "apples": [
     {
       "id": 10525,
@@ -68114,6 +68114,14 @@
       "source_repo": "ECOWAR",
       "date": "20260911",
       "archived_at": "2026-09-11T21:51:35Z"
+    },
+    {
+      "id": 19052,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time (terse, ECOWAR Living Map): 'add cows'. Interpreting in context (WC3-style…",
+      "source_repo": "CLI",
+      "date": "20260911",
+      "archived_at": "2026-09-11T21:57:03Z"
     }
   ]
 }
