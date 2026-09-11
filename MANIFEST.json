@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-11T00:32:16Z",
+  "generated_at": "2026-09-11T00:46:26Z",
   "repo": "APPLES",
-  "count": 8385,
+  "count": 8386,
   "apples": [
     {
       "id": 10525,
@@ -67082,6 +67082,14 @@
       "source_repo": "emily",
       "date": "20260911",
       "archived_at": "2026-09-11T00:32:16Z"
+    },
+    {
+      "id": 18923,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: check BRAWLPIT matchmaking (server + bot pool, currently only need a bot …",
+      "source_repo": "CLI",
+      "date": "20260911",
+      "archived_at": "2026-09-11T00:46:26Z"
     }
   ]
 }
