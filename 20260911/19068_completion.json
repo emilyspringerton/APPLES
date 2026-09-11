@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-11T23:15:43Z",
+  "body": "CHANGELOG updated in ECOWAR: ALLCAP shipped -- the win condition itself, made mod-driven (BACKLOG.md SECTION 381). New PARENA/stdlib/ecowar/town_cap_mod.prn (trigger-only, dispatches REFLUX_ACTION_TOWN_CAPPED on a real successful town flip) + allcap_mod.prn (real, pure PARENA win-rule logic, no FFI needed: owned-count == total-count). Real 3-hop REFLUX chain: town.c's town_attempt_convert -\u003e CAP mod dispatch -\u003e new ecowar_tick_allcap_win_check polls + computes real counts (new town_registry_owned_count/_active_count) + asks ALLCAP mod -\u003e dispatches ALLCAP_WIN -\u003e arena_update/arena_update_teams poll for that to set arena_state.winner, replacing the old direct living_map_bridge_full_control_faction() call in the live match loop (that function stays for direct/test use). REFLUX extracted into its own standalone packages/reflux/ package (moved from packages/simulation) since packages/livingmap needed to dispatch into it too -- a real second internal consumer, not hypothetical. New living_map_bridge_attempt_convert_town: the real entry point a future 'capture a node' card will call. 7 new tests, full suite green (3196 assertions). Live-verified: a real fast-forwarded server + 2 bots completed a full match with the new wiring active. (sess-20260905-0720-ec33e7c5)\n\n⚓ ☃",
+  "id": 19068,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "ECOWAR",
+  "title": "changelog(ECOWAR): ALLCAP shipped -- the win condition itself, made mod-driven…"
+}
