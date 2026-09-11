@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-11T20:30:03Z",
+  "generated_at": "2026-09-11T20:43:27Z",
   "repo": "APPLES",
-  "count": 8494,
+  "count": 8495,
   "apples": [
     {
       "id": 10525,
@@ -67954,6 +67954,14 @@
       "source_repo": "emily",
       "date": "20260911",
       "archived_at": "2026-09-11T20:30:03Z"
+    },
+    {
+      "id": 19032,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: rip out the ECOWAR build-template system entirely (arena_hero_apply_build…",
+      "source_repo": "CLI",
+      "date": "20260911",
+      "archived_at": "2026-09-11T20:43:27Z"
     }
   ]
 }
