@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-11T22:58:46Z",
+  "body": "New PARENA/stdlib/reflux/reflux.prn: real cross-mod pub/sub via a shared append-only action log (VS0 has no function pointers/closures for true callbacks). bloodflower_mod.prn now dispatches a real action on moon-zenith; new, separate bloodflower_hostile_spawner_mod.prn subscribes and spawns 5 real hostile Living Map creeps (faction 3/Corruption's first live use) at map center -- zero direct calls between the two mods. New arena_daynight_light_dir ports SHANKPIT's real dynamic sun/moon light direction (only the ambient tint was ported before; the 3D scene light was a hardcoded constant). Live-verified: real fast-forwarded server + 2 bots completed a full match; a longer headless run drove a full day/night cycle confirming both bloodflower behaviors fire. 20 new tests, full suite green (3189 assertions). ECOWAR commit cfb3d19, PARENA commit 83c1680.\n\n⚓ ☃",
+  "id": 19065,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "ECOWAR",
+  "title": "REFLUX cross-mod pub/sub + real Bloodflower hostiles + day/night lighting"
+}
