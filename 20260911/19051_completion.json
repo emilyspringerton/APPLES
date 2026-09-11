@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-11T21:51:35Z",
+  "body": "Founder green-lit 'lets experiment with making the hero cards based and if it ends up being unfun we bring back classic RTS/MOBA hero affordances' -- built as a toggleable, cheap-to-revert architecture. ArenaHero.npc_controlled (default 0) drives a hero via new arena_npc_hero_tick, a generalized version of the existing practice-bot heuristic AI (checked directly: already hero-index-agnostic in its real math, only its wrapper was hardcoded to hero 1). New packages/simulation/card_deck.h/.c (Clash-Royale-style continuous Deck/Hand, one copy of every real card id including new CARD_ID_HERO_Q/_W/_R) + card_battler.h/.c (per-owner registry, resolves hero-ability cards via each hero's own existing real cast functions, zero new per-hero content). 24 new tests, full suite green (3145 assertions). Not built: client UI wiring, balance. ECOWAR commit ee3a690.\n\n⚓ ☃",
+  "id": 19051,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "ECOWAR",
+  "title": "Card-battler experiment (S378): NPC-controlled heroes + real Deck/Hand card mechanics"
+}
