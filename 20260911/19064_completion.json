@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-11T22:58:33Z",
+  "body": "CHANGELOG updated in ECOWAR: REFLUX cross-mod pub/sub + real Bloodflower hostiles + day/night lighting shipped (BACKLOG.md SECTION 380). New PARENA/stdlib/reflux/reflux.prn (PARENA commit 83c1680): a real, honest cross-mod pub/sub built on a single shared append-only action log (any mod dispatches, any other mod polls) since VS0 has no function pointers/closures for a true callback dispatch table. New packages/simulation/reflux_runtime.h/.c: the real host log. Real naming collision found and fixed: PARENA-mangled reflux_dispatch/reflux_log_size collided with the runtime's own originally-planned generic names -- renamed the runtime's internal functions instead. bloodflower_mod.prn's on-moon-zenith now also dispatches REFLUX_ACTION_BLOODFLOWER_TRIGGERED (original pickup-spawn behavior unchanged); new, separate ecowar/bloodflower_hostile_spawner_mod.prn is REFLUX's first real subscriber, spawning 5 real hostile Living Map creeps (faction 3/Corruption's first live use) at map center via new living_map_bridge_spawn_hostile_creep_at_map_center + new host poller ecowar_tick_bloodflower_hostile_spawner -- neither mod calls the other directly. New arena_daynight_light_dir ports the other real half of SHANKPIT retro_lighting.c's own day/night visuals (the ambient clear-color tint was already ported; the actual 3D scene light direction apps/arena's shader uses was still a hardcoded, never-moving constant) -- now a real, moving sun-by-day/moon-by-night direction. Live-verified: a real fast-forwarded server + 2 real bots completed a full match with zero crashes; a longer headless test drove a full real day/night cycle confirming both the original pickup and the new hostiles appear. 20 new tests, full suite green (3189 assertions). Not done: SHANKPIT starfield, sky-dome rendering, visual confirmation (no display in this sandbox). (sess-20260905-0720-ec33e7c5)\n\n⚓ ☃",
+  "id": 19064,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "ECOWAR",
+  "title": "changelog(ECOWAR): REFLUX cross-mod pub/sub + real Bloodflower hostiles + day/…"
+}
