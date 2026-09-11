@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-11T19:16:22Z",
+  "generated_at": "2026-09-11T19:23:58Z",
   "repo": "APPLES",
-  "count": 8479,
+  "count": 8480,
   "apples": [
     {
       "id": 10525,
@@ -67834,6 +67834,14 @@
       "source_repo": "DEADWEIGHT",
       "date": "20260911",
       "archived_at": "2026-09-11T19:16:22Z"
+    },
+    {
+      "id": 19017,
+      "type": "completion",
+      "title": "S371 D0b: spec review + per-phase development docs",
+      "source_repo": "DEADWEIGHT",
+      "date": "20260911",
+      "archived_at": "2026-09-11T19:23:58Z"
     }
   ]
 }
