@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-11T01:34:00Z",
+  "generated_at": "2026-09-11T01:46:37Z",
   "repo": "APPLES",
-  "count": 8392,
+  "count": 8393,
   "apples": [
     {
       "id": 10525,
@@ -67138,6 +67138,14 @@
       "source_repo": "emily",
       "date": "20260911",
       "archived_at": "2026-09-11T01:34:00Z"
+    },
+    {
+      "id": 18930,
+      "type": "completion",
+      "title": "Multi-Tenancy Phase 1 shipped: real row-level tenant isolation on local_users + a real GDPR cross-tenant security gap closed",
+      "source_repo": "IDUNA_PRO",
+      "date": "20260911",
+      "archived_at": "2026-09-11T01:46:37Z"
     }
   ]
 }

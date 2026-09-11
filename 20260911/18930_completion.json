@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-11T01:46:37Z",
+  "body": "New tenants table + local_users.tenant_id column, explicit compiler-enforced tenantID parameter on every scoped UserProjector method, a real tenant_id JWT claim, callerTenantID(r) threaded through every local_users-touching handler. Found and fixed a real, live security gap along the way: internal/gdpr's own Export/Delete pipeline had zero tenant check anywhere in the chain -- a tenant-A admin could otherwise export or permanently PII-scrub a tenant-B user. Live-verified end to end against the real running binary (two real users, two real tenants, cross-tenant GET /api/v1/users/{uid} and POST /api/v1/gdpr/export both correctly 404, same-tenant access unaffected). New tests at every layer. go build/vet/test all clean.\n\n⚓ ☃",
+  "id": 18930,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "IDUNA_PRO",
+  "title": "Multi-Tenancy Phase 1 shipped: real row-level tenant isolation on local_users + a real GDPR cross-tenant security gap closed"
+}
