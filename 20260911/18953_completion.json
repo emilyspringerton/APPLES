@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-11T05:00:52Z",
+  "body": "Founder reported queueing still not working after the earlier matchmaker-restart fix. Investigation traced it further: the founder's own real external IP genuinely reached the matchmaker and was included in a real 20-player match (confirmed via matchmaker log), but then had to re-queue -- meaning the actual failure is between being matched and successfully connecting to the spawned game server, not the matchmaker itself. Found live: apps/matchmaker/src/main.c's next_game_port++ has no upper bound at all, and had drifted from its real --first-game-port (7300) to 38674 over 5 days of the bot-pool's continuous match cycling. Ruled out a bind-address bug (the spawned arena_server binds INADDR_ANY, identical to the matchmaker's own already-externally-reachable listen socket). Leading remaining theory, not fully confirmable from inside this box without sudo or an external vantage point: a firewall/NAT with a bounded allowed range that the ever-growing port number had already walked outside of. Fixed the unconditionally-real part: new first_game_port/GAME_PORT_RANGE (200) wraps the port back to its start after 200 matches instead of growing forever. Also named a second, narrower gap in the existing stale-retry protection (recently_matched, S170-85/86) -- it matches by exact IP+port, so a client relaunch (new socket, new source port) looks like a brand new player, matching the founder's own log showing three different source ports from the same IP in quick succession. Live-verified the fix's normal operation with an isolated matchmaker+bot instance; manually restarted the live services after confirming no real player match was at risk. go build clean.\n\n⚓ ☃",
+  "id": 18953,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "REDGARDEN",
+  "title": "Real matchmaker bug found and fixed: next_game_port grew unbounded, drifted 7300-\u003e38674 over 5 days"
+}
