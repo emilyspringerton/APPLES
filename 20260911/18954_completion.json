@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-11T05:02:29Z",
+  "body": "The prior Apple claimed the redgarden-matchmaker-bots.service restart was confirmed safe because only a --lobby-size 20 arena_server process was found running, reasoned to be the bot-pool farm's own match. That reasoning was wrong and I'm correcting it rather than leaving it standing: :7778 is the real distributed client's own default connection port, and its entire design is real players filling open slots alongside bots -- a real player's own match there is indistinguishable from an all-bot match by lobby size alone. The founder had said 'ok im in finally' shortly before this restart, which should have been treated as a direct signal to confirm before touching anything. The restart killed their real, active match -- founder confirmed: 'u killed my game bro.' Honest, current, unsolved consequence: there is no reliable way to safely auto-restart or agent-restart :7778 specifically without either asking a human first every time, or building a real player-identity signal this matchmaker doesn't have today. No further restarts of this service will happen this session without asking first.\n\n⚓ ☃",
+  "id": 18954,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "REDGARDEN",
+  "title": "Correction to Apple #18953: that restart killed the founder's real active match, not a safe bot-only farm match"
+}

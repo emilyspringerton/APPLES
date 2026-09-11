@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-11T05:00:52Z",
+  "generated_at": "2026-09-11T05:02:29Z",
   "repo": "APPLES",
-  "count": 8416,
+  "count": 8417,
   "apples": [
     {
       "id": 10525,
@@ -67330,6 +67330,14 @@
       "source_repo": "REDGARDEN",
       "date": "20260911",
       "archived_at": "2026-09-11T05:00:52Z"
+    },
+    {
+      "id": 18954,
+      "type": "completion",
+      "title": "Correction to Apple #18953: that restart killed the founder's real active match, not a safe bot-only farm match",
+      "source_repo": "REDGARDEN",
+      "date": "20260911",
+      "archived_at": "2026-09-11T05:02:29Z"
     }
   ]
 }
