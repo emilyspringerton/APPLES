@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-11T22:00:32Z",
+  "generated_at": "2026-09-11T22:04:50Z",
   "repo": "APPLES",
-  "count": 8518,
+  "count": 8519,
   "apples": [
     {
       "id": 10525,
@@ -68146,6 +68146,14 @@
       "source_repo": "ECOWAR",
       "date": "20260911",
       "archived_at": "2026-09-11T22:00:32Z"
+    },
+    {
+      "id": 19056,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time (mid-task, ECOWAR card-battler): heroes cast as cards must be deterministi…",
+      "source_repo": "CLI",
+      "date": "20260911",
+      "archived_at": "2026-09-11T22:04:50Z"
     }
   ]
 }
