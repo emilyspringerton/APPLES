@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-11T20:51:33Z",
+  "body": "CHANGELOG updated in ECOWAR: Fountains proceduralized (S371-01): margin from map corner is now a real per-match PRNG output (ARENA_FOUNTAIN_MARGIN_MIN/MAX, computed in arena_set_match_seed) instead of a fixed literal -- founder: 'it seems like we lost fountains, can you add them into the procedural generation of the map?' Shop system fundamentally redesigned (S371-02): ARENA_SHOP_COUNT (6) fully neutral, procedurally placed shops (angular-sector rejection sampling, same exclusion discipline as the S370 jungle) replace the old 2-shops-one-per-team-everything-for-sale design; the 34-item catalog is Fisher-Yates shuffled and split round-robin across the 6 shops per match, so which item is sold where is randomized every game -- founder: 'spawn like 6 shops on the map and divide the items on the pages between them... building towards a specifc kit with items is about strategy and luck.' New PACKET_ARENA_SNAPSHOT_LAYOUT/ArenaSnapshotLayoutMsg wire message (fountain + shop positions/catalogs) since apps/arena_bot deliberately doesn't link the sim and can't independently derive per-match-random positions the way apps/arena does -- also fixed apps/arena_bot's own stale hand-copied fountain/shop position literals (confirmably wrong since the 2026-09-07 9x map widen; bots have likely been walking to the wrong coordinates ever since) and gave the bot real shop-catalog-aware shopping (skips to the next wishlist item some shop actually stocks instead of blindly cycling catalog order). Build-template system removed outright (founder: 'oh yea you can rip out templates, not needed in this version') -- ArenaBuildTemplate/arena_hero_apply_build_template/PACKET_ARENA_APPLY_BUILD_TEMPLATE/the shop UI's build-presets page/build_template_mod.c all deleted; it assumed one shop sold everything, which the redesign made untrue. bash scripts/build.sh + scripts/build_arena.sh + scripts/test_arena.sh all clean (3013 PASS, 0 FAIL). (sess-20260905-0720-ec33e7c5)\n\n⚓ ☃",
+  "id": 19034,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "ECOWAR",
+  "title": "changelog(ECOWAR): Fountains proceduralized (S371-01): margin from map corner …"
+}
