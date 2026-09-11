@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-11T21:10:46Z",
+  "body": "New standalone packages/livingmap package: axial hex-grid math (hex_grid.h/.c, 469-cell hex-radius-12 map), an always-on event-announcement ring buffer (living_map_events.h/.c), and Town struct/registry (town.h/.c) with real behavior for Frontier Village (spawns peasants-\u003emilitia, converts easily) driven by a new real-decision-logic PARENA mod (PARENA/stdlib/ecowar/frontier_village_mod.prn -\u003e generated+committed frontier_village_mod.c). 27 new tests, all passing (scripts/test_livingmap.sh). Full scoping in ECOWAR/docs/NORTHSTAR_LIVING_MAP.md (registered ECOWAR-LIVINGMAP-NORTH), including an honest accounting of why true dynamic mod-event subscription isn't buildable yet under VS0's current no-closures/no-function-pointers limit. ECOWAR commit 3df6c50, PARENA commit 5d7b7f8.\n\n⚓ ☃",
+  "id": 19039,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "ECOWAR",
+  "title": "Living Map Phase 1: hex grid + Frontier Village"
+}
