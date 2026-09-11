@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-11T21:36:46Z",
+  "generated_at": "2026-09-11T21:39:42Z",
   "repo": "APPLES",
-  "count": 8510,
+  "count": 8511,
   "apples": [
     {
       "id": 10525,
@@ -68082,6 +68082,14 @@
       "source_repo": "ECOWAR",
       "date": "20260911",
       "archived_at": "2026-09-11T21:36:46Z"
+    },
+    {
+      "id": 19048,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time (mid-task, ECOWAR): green-lit the hero-as-NPC/card-battler experiment expl…",
+      "source_repo": "CLI",
+      "date": "20260911",
+      "archived_at": "2026-09-11T21:39:42Z"
     }
   ]
 }
