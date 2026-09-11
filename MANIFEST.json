@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-11T04:45:02Z",
+  "generated_at": "2026-09-11T04:52:00Z",
   "repo": "APPLES",
-  "count": 8413,
+  "count": 8414,
   "apples": [
     {
       "id": 10525,
@@ -67306,6 +67306,14 @@
       "source_repo": "emily",
       "date": "20260911",
       "archived_at": "2026-09-11T04:45:02Z"
+    },
+    {
+      "id": 18951,
+      "type": "completion",
+      "title": "Real incident: R\u0026D matchmaker/bot-pool stuck on 5-day-old binaries, auto-deploy silently stalled for ~1hr -- manually restarted, live client",
+      "source_repo": "REDGARDEN",
+      "date": "20260911",
+      "archived_at": "2026-09-11T04:52:00Z"
     }
   ]
 }
