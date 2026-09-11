@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-11T00:46:26Z",
+  "generated_at": "2026-09-11T00:47:25Z",
   "repo": "APPLES",
-  "count": 8386,
+  "count": 8387,
   "apples": [
     {
       "id": 10525,
@@ -67090,6 +67090,14 @@
       "source_repo": "CLI",
       "date": "20260911",
       "archived_at": "2026-09-11T00:46:26Z"
+    },
+    {
+      "id": 18924,
+      "type": "completion",
+      "title": "Matchmaking + bot pool re-verified live: both FFA and 1v1 (bot-pool-of-1) work correctly, no fix needed",
+      "source_repo": "BRAWLPIT",
+      "date": "20260911",
+      "archived_at": "2026-09-11T00:47:25Z"
     }
   ]
 }

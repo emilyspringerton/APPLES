@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-11T00:47:25Z",
+  "body": "Founder asked to check BRAWLPIT matchmaking/bot pool and fix if broken. Live-tested against the actual running brawlpit-server.service (not just read code) with a real raw-UDP Python client matching the real wire protocol: 1v1 mode (the requested bot-pool-of-1 scope) correctly queues, times out at 5s, bot-fills exactly one slot, and produces real, live-changing combat snapshots; FFA mode correctly bot-fills 7 slots at the 20s timeout. Confirmed the live binary is genuinely current (MD5-identical to the on-disk build, no stale deploy). No bugs found, no code changed. Logged two real, precedent-grounded follow-ups into EMILY/BACKLOG.md SECTION 361 (match logging for ML, mirroring REDGARDEN's own arena_replay.h; character stats on WOTAN, mirroring REDGARDEN's own redgarden_stats.go game-result/hero-result/leaderboard pattern) rather than building either now.\n\n⚓ ☃",
+  "id": 18924,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "BRAWLPIT",
+  "title": "Matchmaking + bot pool re-verified live: both FFA and 1v1 (bot-pool-of-1) work correctly, no fix needed"
+}
