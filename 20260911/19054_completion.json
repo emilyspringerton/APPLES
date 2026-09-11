@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-11T22:00:12Z",
+  "body": "CHANGELOG updated in ECOWAR: Cows shipped (BACKLOG.md SECTION 377, founder: 'add cows'): real, passive, wandering neutral wildlife on the Living Map hex grid, built on top of the real creep aggro/chase/leash/reset system rather than a new one. New creep_spawn_cow (creep.h/.c): low hp, neutral faction, a new LivingMapCreep.passive flag that makes IDLE ticks wander (a plain, deterministic step pattern -- no PRNG needed) within LIVING_MAP_COW_WANDER_RADIUS hexes of home instead of scanning for aggro. A cow never fights back or initiates aggro, but isn't immune to being targeted -- its neutral faction_owner is a real, ordinary value, so a hostile faction creep's own existing aggro scan can still find and kill one for free, no special-casing needed. New LIVING_MAP_EVENT_CREEP_WANDERED event (fires only on an actual move) keeps faith with the standing 'everything announces events' requirement. 21 new tests (tests/test_cow.c) including a determinism check and a real kill-a-cow round trip. Full Living Map suite green (132 assertions). (sess-20260905-0720-ec33e7c5)\n\n⚓ ☃",
+  "id": 19054,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "ECOWAR",
+  "title": "changelog(ECOWAR): Cows shipped (BACKLOG.md SECTION 377, founder: 'add cows'):…"
+}
