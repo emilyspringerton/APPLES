@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-11T02:33:52Z",
+  "generated_at": "2026-09-11T02:39:50Z",
   "repo": "APPLES",
-  "count": 8398,
+  "count": 8399,
   "apples": [
     {
       "id": 10525,
@@ -67186,6 +67186,14 @@
       "source_repo": "emily",
       "date": "20260911",
       "archived_at": "2026-09-11T02:33:52Z"
+    },
+    {
+      "id": 18936,
+      "type": "completion",
+      "title": "Multi-Tenancy Phase 2 second slice: real tenant isolation on gdpr_requests, closing a worse-than-documented cross-tenant PII export leak",
+      "source_repo": "IDUNA_PRO",
+      "date": "20260911",
+      "archived_at": "2026-09-11T02:39:50Z"
     }
   ]
 }

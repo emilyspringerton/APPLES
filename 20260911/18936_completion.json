@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-11T02:39:50Z",
+  "body": "Closed the ?all=1 metadata residual Phase 1 had named but under-scoped in internal/gdpr/gdpr.go's own ErrNotFound doc comment. Re-inspecting GDPRHandler.download() found the real exposure was worse than metadata-only: download() served the actual completed export FILE (full profile, event history, extension data) to any users.admin caller by guessable sequential request id, with zero tenant check at all -- a tenant-A admin could enumerate ids and download another tenant's users' real PII export files outright. Fixed with a new tenant_id column on gdpr_requests (migration 202609111002, backfilled via a real join to local_users.tenant_id), gdpr.ListRequests now takes and filters by tenantID, and download() checks the row's own tenant_id against the caller's before the admin bypass, same 404-not-403 idiom as the rest of this phase. New adversarial tests plus live verification against the real running production binary. Also found and fully contained a real, self-caused incident during this pass: an earlier throwaway verification boot leaked two fake test accounts into the real production database via an isolation gap (IDUNA_PRO_ROOT not fully isolated from SQLITE_PATH) -- caught, assessed as zero-impact (no admin privilege, no references elsewhere), cleaned up, and the live-verification process fixed going forward. go build/go vet/go test ./... all clean.\n\n⚓ ☃",
+  "id": 18936,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "IDUNA_PRO",
+  "title": "Multi-Tenancy Phase 2 second slice: real tenant isolation on gdpr_requests, closing a worse-than-documented cross-tenant PII export leak"
+}
