@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-11T22:58:46Z",
+  "generated_at": "2026-09-11T23:01:15Z",
   "repo": "APPLES",
-  "count": 8528,
+  "count": 8529,
   "apples": [
     {
       "id": 10525,
@@ -68226,6 +68226,14 @@
       "source_repo": "ECOWAR",
       "date": "20260911",
       "archived_at": "2026-09-11T22:58:46Z"
+    },
+    {
+      "id": 19066,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time (ECOWAR): the win condition itself should be mod-driven, not hardcoded hos…",
+      "source_repo": "CLI",
+      "date": "20260911",
+      "archived_at": "2026-09-11T23:01:15Z"
     }
   ]
 }
