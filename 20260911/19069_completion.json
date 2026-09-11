@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-11T23:15:50Z",
+  "body": "Real 3-hop REFLUX chain (REFLUX's first): town.c's town_attempt_convert -\u003e new CAP mod dispatches TOWN_CAPPED -\u003e new ecowar_tick_allcap_win_check polls + asks new ALLCAP mod (pure PARENA win-rule logic) -\u003e dispatches ALLCAP_WIN -\u003e arena_update polls to set the real match winner. No direct call anywhere in the chain. REFLUX extracted into its own standalone packages/reflux/ package since packages/livingmap needed it too. New living_map_bridge_attempt_convert_town is the real entry point a future capture-node card will call. 7 new tests, full suite green (3196 assertions), live-verified via a real match. PARENA commit 4b3694c, ECOWAR commit 316b46c.\n\n⚓ ☃",
+  "id": 19069,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "ECOWAR",
+  "title": "ALLCAP: the win condition itself, made mod-driven"
+}
