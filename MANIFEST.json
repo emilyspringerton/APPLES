@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-11T19:23:58Z",
+  "generated_at": "2026-09-11T19:28:04Z",
   "repo": "APPLES",
-  "count": 8480,
+  "count": 8481,
   "apples": [
     {
       "id": 10525,
@@ -67842,6 +67842,14 @@
       "source_repo": "DEADWEIGHT",
       "date": "20260911",
       "archived_at": "2026-09-11T19:23:58Z"
+    },
+    {
+      "id": 19018,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: cross-repo game-engine abstraction — survey SHANKPIT, REDGARDEN, ECOWAR…",
+      "source_repo": "CLI",
+      "date": "20260911",
+      "archived_at": "2026-09-11T19:28:04Z"
     }
   ]
 }
