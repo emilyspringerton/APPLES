@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-11T21:36:24Z",
+  "body": "CHANGELOG updated in ECOWAR: apps/arena_server gained --tick-ms/--fast-forward flags (BACKLOG.md SECTION 377, docs/NORTHSTAR_LIVING_MAP.md's own 'ML training throughput' section) for faster real, networked bot-vs-bot self-play match generation -- founder: 'can we also make it so that ticks happen faster and in fewer frames optionally via a command line flag' for eventual ECOWAR bot unsupervised training. Both flags default to today's unchanged real-time-paced 16ms behavior (the live ecowar-matchmaker.service deploy is unaffected unless explicitly passed). --fast-forward deliberately only skips the real-time sleep once match_phase==LIVE, never during the WAITING-for-players phase -- found and fixed a real premature-shutdown risk before shipping: skipping the sleep during WAITING too would have made the existing 60-second lobby-fill timeout fire almost instantly, since a real UDP handshake still needs real wall-clock time regardless of simulation speed. Live-verified: started a real server process with both flags, confirmed it printed its real startup log and stayed alive past the WAITING timeout window rather than exiting prematurely. Also noted (not built): apps/arena_training/src/headless.c already provides a fast, in-process, zero-throttling training harness for the hero-combat side (sim_step, consumed by scripts/rl_env.py) -- the new flags close a different, real gap specific to generating training data through the actual networked matchmaker/lobby path. Real, open architecture question raised by the founder and captured, not resolved or built: converting ECOWAR's hero from directly-piloted to an NPC, making the whole game a deck-building card battler. (sess-20260905-0720-ec33e7c5)\n\n⚓ ☃",
+  "id": 19046,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "ECOWAR",
+  "title": "changelog(ECOWAR): apps/arena_server gained --tick-ms/--fast-forward flags (BA…"
+}
