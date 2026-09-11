@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-11T21:36:46Z",
+  "body": "Real classic-RTS creep aggro/chase/leash/reset (packages/livingmap/creep.h/.c, mirrors ArenaCampMinion's proven shape). TOWN_TYPE_WALLED_HAMLET real behavior (new PARENA/stdlib/ecowar/walled_hamlet_mod.prn): slow-to-flip resistance + stationary 'shoots hostile creeps' defense vs the CreepRegistry. Town.militia_bonus/town_apply_militia_boost: the real 'cards tie into the Living Map' mechanic (play twice -\u003e 3 militia at once), tested but not yet callable from any live match (no running match initializes a Living Map instance yet). town_registry_faction_has_full_control: the resolved win condition -- cap every town at once, a deliberate contrast with REDGARDEN's pace/comeback dynamic. apps/arena_server gained --tick-ms/--fast-forward for faster networked self-play match generation (ML training throughput), live-verified, defaults unchanged. Card-UI redesign and the hero-as-NPC/card-battler architecture question captured in docs/NORTHSTAR_LIVING_MAP.md, not built. 43 new tests, full Living Map suite green. ECOWAR commits 016eee8, 83ac3a4; PARENA commit 349b948.\n\n⚓ ☃",
+  "id": 19047,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "ECOWAR",
+  "title": "Living Map Phase 2: creeps, Walled Hamlet, card-tie-in militia boost, resolved win condition, faster self-play ticks"
+}
