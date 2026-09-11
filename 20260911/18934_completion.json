@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-11T02:20:25Z",
+  "body": "Closed an admin-bypasses-everything cross-tenant leak found by direct inspection right after Phase 1 shipped: mail_accounts.go's list()/revealPassword() and sip_accounts.go's list()/upsert()/remove() all let a users.admin caller act on any tenant's rows with zero tenant check, the same vulnerability class as the GDPR gap Phase 1 closed, one layer down (revealPassword returned a live decrypted mailbox password). Fixed with a new tenant_id column on both tables (migration 202609111001, backfilled via a real join to local_users.tenant_id), a new localUserTenantID helper for sip_accounts.upsert's insert-or-update case, and the same 404-not-403 idiom throughout. New adversarial tests plus live verification against the real running binary: two real tenants, cross-tenant list/upsert/remove/reveal-password all correctly blocked with the target data provably untouched. go build/go vet/go test ./... all clean.\n\n⚓ ☃",
+  "id": 18934,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "IDUNA_PRO",
+  "title": "Multi-Tenancy Phase 2 first slice: real tenant isolation on mail_account_credentials + sip_accounts"
+}

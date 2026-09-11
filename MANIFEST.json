@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-11T02:18:35Z",
+  "generated_at": "2026-09-11T02:20:25Z",
   "repo": "APPLES",
-  "count": 8396,
+  "count": 8397,
   "apples": [
     {
       "id": 10525,
@@ -67170,6 +67170,14 @@
       "source_repo": "emily",
       "date": "20260911",
       "archived_at": "2026-09-11T02:18:35Z"
+    },
+    {
+      "id": 18934,
+      "type": "completion",
+      "title": "Multi-Tenancy Phase 2 first slice: real tenant isolation on mail_account_credentials + sip_accounts",
+      "source_repo": "IDUNA_PRO",
+      "date": "20260911",
+      "archived_at": "2026-09-11T02:20:25Z"
     }
   ]
 }
