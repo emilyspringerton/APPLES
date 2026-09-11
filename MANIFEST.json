@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-11T18:13:21Z",
+  "generated_at": "2026-09-11T18:13:29Z",
   "repo": "APPLES",
-  "count": 8471,
+  "count": 8472,
   "apples": [
     {
       "id": 10525,
@@ -67770,6 +67770,14 @@
       "source_repo": "ECOWAR",
       "date": "20260911",
       "archived_at": "2026-09-11T18:13:21Z"
+    },
+    {
+      "id": 19009,
+      "type": "completion",
+      "title": "S370: Mandelbrot procedural jungle generation shipped",
+      "source_repo": "ECOWAR",
+      "date": "20260911",
+      "archived_at": "2026-09-11T18:13:29Z"
     }
   ]
 }

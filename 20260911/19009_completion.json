@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-11T18:13:29Z",
+  "body": "32-piece hand-placed obstacle layout stays as-is; 96 new procedurally-generated trees/rocks (ARENA_OBSTACLE_COUNT 32-\u003e128) fill the space between bases via Mandelbrot escape-time boundary sampling, seeded fresh per match (isolated xorshift32 PRNG) so client/server independently compute the identical layout with no wire sync. Found+fixed along the way: ECOWAR's own matchmaker/server never actually had seed plumbing (MatchFoundMsg had no seed field, no --seed argv) despite protocol.h's inherited comment implying otherwise -- built for real, plus fixed a pre-existing uninitialized-stack-garbage bug in MatchFoundMsg. Exclusion zones keep every node/graveyard/shop/fountain/camp clear. obstacle_hp[] split into its own PACKET_ARENA_SNAPSHOT_OBSTACLES packet (MTU headroom). New tests/test_procedural_jungle.c (exclusion/determinism/variety). bash scripts/build.sh + bash scripts/test_arena.sh clean (3138 PASS, 0 FAIL). Live-verified end to end with a throwaway matchmaker+server+client round trip. Production ecowar-matchmaker.service NOT restarted -- deploy is a separate, not-yet-requested step. Commit follows this Apple.\n\n⚓ ☃",
+  "id": 19009,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "ECOWAR",
+  "title": "S370: Mandelbrot procedural jungle generation shipped"
+}
