@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-12T04:59:27Z",
+  "generated_at": "2026-09-12T05:11:50Z",
   "repo": "APPLES",
-  "count": 8571,
+  "count": 8572,
   "apples": [
     {
       "id": 10525,
@@ -68570,6 +68570,14 @@
       "source_repo": "emily",
       "date": "20260912",
       "archived_at": "2026-09-12T04:59:27Z"
+    },
+    {
+      "id": 19109,
+      "type": "completion",
+      "title": "NOCK v0: layered image editor engine + CLI + HTTP API + React/TS GUI",
+      "source_repo": "IDUNA",
+      "date": "20260912",
+      "archived_at": "2026-09-12T05:11:50Z"
     }
   ]
 }
