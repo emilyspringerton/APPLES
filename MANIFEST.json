@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-12T18:15:41Z",
+  "generated_at": "2026-09-12T18:22:56Z",
   "repo": "APPLES",
-  "count": 8677,
+  "count": 8678,
   "apples": [
     {
       "id": 10525,
@@ -69418,6 +69418,14 @@
       "source_repo": "emily",
       "date": "20260912",
       "archived_at": "2026-09-12T18:15:41Z"
+    },
+    {
+      "id": 19215,
+      "type": "completion",
+      "title": "changelog(GoblinFoxDragon): Real cast time for WHM/RDM/BLM spells (JOB_SPELL_SYSTEM_NOR…",
+      "source_repo": "GoblinFoxDragon",
+      "date": "20260912",
+      "archived_at": "2026-09-12T18:22:56Z"
     }
   ]
 }

@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-12T18:22:56Z",
+  "body": "CHANGELOG updated in GoblinFoxDragon: Real cast time for WHM/RDM/BLM spells (JOB_SPELL_SYSTEM_NORTHSTAR.md §1 Phase 1 remainder): new apps2/mud/ability.go -- spellCastTimes gives every already-shipped WHM/RDM/BLM spell a real, non-zero cast time for the first time (was instant, gated only by the 1s universal lockout). beginCast defers the exact existing effect logic via time.AfterFunc after a fast MP/target preflight; checkNotCasting is a real shared gate both cmdCast and cmdJA now call. 11 new tests, go test ./... clean. Live-verified in production: 'cast cure' shows 'You begin casting Cure... (2s)', an immediate ja attempt is refused ('already casting'), and the effect lands automatically ~2s later. Isolated from a concurrent in-flight main.go change via the established hunk technique. Commit 8b4f561. (sess-20260905-0720-ec33e7c5)\n\n⚓ ☃",
+  "id": 19215,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "GoblinFoxDragon",
+  "title": "changelog(GoblinFoxDragon): Real cast time for WHM/RDM/BLM spells (JOB_SPELL_SYSTEM_NOR…"
+}
