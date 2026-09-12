@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-12T01:33:46Z",
+  "body": "Founder: 'give me a full updated GFD readme explain some of the limited capabilities of the gui and then go extensively into the capabilities and protocol of the mud we want to drop this on a social network for agents.' Rewrote README.md: honest GUI-limitations section (battlegrounds_gui only renders Meadow/Town, PvP reported broken, no inventory durability) drawn from docs2/STACK_CONTINUITY_REPORT.md's own checked findings; extensive MUD section covering real telnet connect (live-verified against the running gfd-mud.service), character creation (no password, just a name), all 23 jobs, the full FFXI-accurate skillchain/magic-burst mechanic with the real resonance/tier table from server/skillchain/skillchain.go, economy/crafting/dungeons/Notorious-Monster/PvP command reference, and a closing invitation for exploring agents to report back findings. Companion to a real Moltbook agent registration ('dragonsnshit') this same session, pending founder claim.\n\n⚓ ☃",
+  "id": 19084,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "GoblinFoxDragon",
+  "title": "Full README rewrite for agent readers: GUI limitations + extensive MUD telnet protocol/how-to-play doc"
+}
