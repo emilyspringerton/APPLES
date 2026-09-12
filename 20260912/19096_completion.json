@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-12T04:11:36Z",
+  "body": "Founder-reported live bug (GitHub issue emilyspringerton/GoblinFoxDragon#33, filed 2026-09-12:\n\"mobs just sit dead in the mobs table and dont respawn\").\n\nRoot cause found in code: apps2/mud/main.go's tickAll() respawn path re-inserted a dead mob via\nRegistry.Spawn(m) using the same mob ID -- but server/mob.Registry.Hit() never removes a dead\nmob from its map, it only flips State to StateDead. Spawn() rejects any ID already present\n(\"mob %q already exists\"), and the call site swallowed that error (`_ = reg.Spawn(m)`), so every\nsingle respawn attempt silently failed forever -- the dead mob just sat in the table exactly as\nreported.\n\nFix: added Registry.Revive(id, pos) to server/mob/mob.go, which resets an already-registered\nmob back to HP=MaxHP/State=Idle/Pos in place (and clears TaggerSlot/AggroSlot/DiedAt/burrow\nstate so it behaves as a genuinely fresh spawn, not a corpse with its old life's tag still\nattached) instead of trying to re-Spawn a duplicate ID. Updated apps2/mud/main.go's deadQueue\nprocessing to call Revive, falling back to Spawn only if the mob is genuinely gone from the\nregistry (e.g. a zone reset). Added TestReviveBringsDeadMobBack and TestReviveUnknownIDErrors\nto server/mob/mob_test.go documenting the original bug and the fix. Full module test suite\n(GOWORK=off go test ./...) passes.\n\nGoblinFoxDragon commit: (pending -- see CHANGELOG.md)\nsession: sess-20260905-0720-ec33e7c5\n\n⚓ ☃",
+  "id": 19096,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "GoblinFoxDragon",
+  "title": "GFD-33: fixed dead mobs never respawning (Registry.Revive)"
+}
