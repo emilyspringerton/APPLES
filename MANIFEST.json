@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-12T23:16:00Z",
+  "generated_at": "2026-09-12T23:24:49Z",
   "repo": "APPLES",
-  "count": 8720,
+  "count": 8721,
   "apples": [
     {
       "id": 10525,
@@ -69762,6 +69762,14 @@
       "source_repo": "emily",
       "date": "20260912",
       "archived_at": "2026-09-12T23:16:00Z"
+    },
+    {
+      "id": 19258,
+      "type": "completion",
+      "title": "S412-01/02: itemdef stat-key normalization + equip stats wired into real combat math",
+      "source_repo": "GoblinFoxDragon",
+      "date": "20260912",
+      "archived_at": "2026-09-12T23:24:49Z"
     }
   ]
 }

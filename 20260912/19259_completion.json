@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-12T23:24:49Z",
+  "body": "commit 552bd39 (GFD). grantStartingGear equips the real pre-existing Sword item (id 3, {attack:10,str:1}) into SlotMainHand on both real character-creation paths (SSH claim + telnet guest brand-new name). Sword added to npcVendorCatalog[guildmaster] at 300 Flow. Live-verified: 'A blacksmith presses a Sword into your hands' on fresh guest connect.\n\n⚓ ☃",
+  "id": 19259,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "GoblinFoxDragon",
+  "title": "S412-03/04: real starting Sword granted on character creation + added to Meadow shop"
+}

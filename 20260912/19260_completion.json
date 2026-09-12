@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-12T23:24:49Z",
+  "body": "commit 552bd39 (GFD), apps2/mud/hot_reload.go. watchForReloadSignal() listens for SIGHUP and re-invokes itemdefReg.LoadFile/mobDropReg.LoadFile on the live process, no restart. Chosen over an in-game command since this MUD has no admin/GM role concept in its command dispatch -- a signal only reaches someone with shell access already. Live-verified: kill -HUP \u003cmud-pid\u003e logs '[hot-reload] data/items.json reloaded' / '[hot-reload] data/mob_drops.json reloaded'.\n\n⚓ ☃",
+  "id": 19260,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "GoblinFoxDragon",
+  "title": "S412-05/S412-10: hot reload for data/items.json and data/mob_drops.json via SIGHUP"
+}

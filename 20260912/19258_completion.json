@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-12T23:24:49Z",
+  "body": "commit 818350f (GFD). Fixed 155-item data/items.json casing inconsistency (STR/str, Attack/attack etc.) via normalizeStatKeys at itemdef.Registry load time. Rewrote playerCombatStats to add real equip-derived attribute bonuses (equipStatTotals) and weapon attack bonus (equipAttackBonus) into combat math -- previously gear.Equipment.ComputeStats was purely cosmetic, equipping anything had zero effect on real damage/accuracy. Live-verified: armed vs unarmed damage difference confirmed in a real worm fight.\n\n⚓ ☃",
+  "id": 19258,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "GoblinFoxDragon",
+  "title": "S412-01/02: itemdef stat-key normalization + equip stats wired into real combat math"
+}
