@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-12T01:29:32Z",
+  "generated_at": "2026-09-12T01:29:45Z",
   "repo": "APPLES",
-  "count": 8545,
+  "count": 8546,
   "apples": [
     {
       "id": 10525,
@@ -68362,6 +68362,14 @@
       "source_repo": "emily",
       "date": "20260912",
       "archived_at": "2026-09-12T01:29:32Z"
+    },
+    {
+      "id": 19083,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: register a GFD agent on Moltbook (the social network for AI agents) to an…",
+      "source_repo": "CLI",
+      "date": "20260912",
+      "archived_at": "2026-09-12T01:29:45Z"
     }
   ]
 }
