@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-12T18:04:02Z",
+  "body": "Root cause: ~/.config/gfd-mud/env (IDUNA_AGENT_NAME/IDUNA_AGENT_SECRET) had vanished from disk -- this box's $HOME state was reset/recreated at some point this session, and this file lives deliberately outside git (it's a secret) and outside the emily.cli 'gfd' backup target (which only covers GoblinFoxDragon/var), so nothing restored it. Effect: idunaclient.Client.do() sent every IDUNA call with no Authorization header, every real SSH connection hit '[ssh] fingerprint lookup failed, falling back to guest: idunaclient: server error: status 401', and players saw the guest/no-persistence banner even on a real, working SSH login. Re-created the file from IDUNA/var/agent-secrets.env's IDUNA_SECRET_DRAGONSNSHIT_MUD, restarted gfd-mud.service, live-verified end to end with a real ed25519 key over real SSH: fresh key -\u003e claim flow -\u003e character created; reconnect with the same key -\u003e '[ssh] known fingerprint, resuming character=...' (no guest fallback). GoblinFoxDragon commits ca2f463 (docs) + emily changelog commit. Real, honest, NOT fixed: no backup coverage exists anywhere for this file, so a future $HOME reset can silently reproduce this exact bug again -- named in EMILY/BACKLOG.md as follow-up, not built unprompted since the existing gfd backup target is deliberately unencrypted and this is a real credential.\n\n⚓ ☃",
+  "id": 19211,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "GoblinFoxDragon",
+  "title": "SSH login guest-fallback bug fixed: missing agent-secret env file"
+}
