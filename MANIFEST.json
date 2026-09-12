@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-12T15:41:21Z",
+  "generated_at": "2026-09-12T15:44:52Z",
   "repo": "APPLES",
-  "count": 8641,
+  "count": 8642,
   "apples": [
     {
       "id": 10525,
@@ -69130,6 +69130,14 @@
       "source_repo": "CLI",
       "date": "20260912",
       "archived_at": "2026-09-12T15:41:21Z"
+    },
+    {
+      "id": 19179,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time (2nd addition, same combat-depth theme): auto-attack damage is a flat hard…",
+      "source_repo": "CLI",
+      "date": "20260912",
+      "archived_at": "2026-09-12T15:44:52Z"
     }
   ]
 }
