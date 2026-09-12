@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-12T23:44:39Z",
+  "generated_at": "2026-09-12T23:47:31Z",
   "repo": "APPLES",
-  "count": 8730,
+  "count": 8731,
   "apples": [
     {
       "id": 10525,
@@ -69842,6 +69842,14 @@
       "source_repo": "emily",
       "date": "20260912",
       "archived_at": "2026-09-12T23:44:39Z"
+    },
+    {
+      "id": 19268,
+      "type": "signal_observation",
+      "title": "[ERROR] Founder real-time: real player-progress data loss confirmed -- XP/level only saved on clean…",
+      "source_repo": "CLI",
+      "date": "20260912",
+      "archived_at": "2026-09-12T23:47:31Z"
     }
   ]
 }
