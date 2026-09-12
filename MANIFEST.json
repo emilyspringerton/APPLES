@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-12T05:48:06Z",
+  "generated_at": "2026-09-12T05:48:11Z",
   "repo": "APPLES",
-  "count": 8581,
+  "count": 8582,
   "apples": [
     {
       "id": 10525,
@@ -68650,6 +68650,14 @@
       "source_repo": "IDUNA",
       "date": "20260912",
       "archived_at": "2026-09-12T05:48:06Z"
+    },
+    {
+      "id": 19119,
+      "type": "completion",
+      "title": "changelog(IDUNA): feat(nock): SQLite-backed texture library CRUD + clone, mod…",
+      "source_repo": "IDUNA",
+      "date": "20260912",
+      "archived_at": "2026-09-12T05:48:11Z"
     }
   ]
 }
