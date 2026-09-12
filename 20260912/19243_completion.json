@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-12T22:03:47Z",
+  "body": "CHANGELOG updated in GoblinFoxDragon: Rapid live-fix chain during real-time SSH testing/streaming (2026-09-12): (1) TCP_NODELAY on both listeners -- fixes 'have to hit enter twice' (Nagle+delayed-ACK interacting with the new per-keystroke echo). (2) CRITICAL: readTerminalLine's r.Peek(1) after a bare CR blocked forever when nothing followed it -- a real production deadlock on every line read, found live seconds after the echo fix shipped, fixed by only peeking when r.Buffered() \u003e 0. (3) who listing now tags [Guest] players. All isolated from a concurrent in-flight main.go change, all live-verified against real production (including a real ssh-keyscan-confirmed round trip proving the deadlock fix: a fresh key claiming a taken name now correctly gets 'That name is already taken' instead of hanging). Commits 79b5283/bd93d40/fd3c601 (source) + 28a93be (binary redeploy). (sess-20260905-0720-ec33e7c5)\n\n⚓ ☃",
+  "id": 19243,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "GoblinFoxDragon",
+  "title": "changelog(GoblinFoxDragon): Rapid live-fix chain during real-time SSH testing/streaming…"
+}
