@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-12T21:52:19Z",
+  "body": "Founder real-time, live: 'gfd guest works BUT it says those require an SSH-bound identity, coming soon. it needs to say ssh in at okemily.com -p 2222 or something like that make it nice.' SSH has been live since Stage 4/5 (2026-09-12) but every guest-facing message still said 'coming soon.' New shared sshUpgradeHint constant used consistently across all 4 guest-facing messages (initial connect banner, economy-block, chat-block, requireSSHIdentity's key-management refusal). New regression test guards the exact wording never regresses to 'coming soon' again and always names the real command. Isolated from a concurrent in-flight main.go change via the established hunk-isolation technique, zero not-mine markers. go build/vet/test ./... clean. Live-verified on a throwaway instance, then rebuilt+redeployed to real production. GoblinFoxDragon commits cb63dc4 (source) + b732089 (binary redeploy).\n\n⚓ ☃",
+  "id": 19241,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "GoblinFoxDragon",
+  "title": "Guest messaging: real SSH connect command replaces stale 'coming soon'"
+}
