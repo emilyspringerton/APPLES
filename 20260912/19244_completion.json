@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-12T22:03:58Z",
+  "body": "Three real fixes during real-time SSH testing/streaming with the founder: (1) TCP_NODELAY (disableNagle) on both the SSH and telnet listeners' raw TCP connections -- fixes founder-reported 'have to hit enter twice,' the classic Nagle+delayed-ACK interaction with the earlier commit's new per-keystroke echo writes. (2) CRITICAL, found live seconds after deploying the Nagle fix while testing on real production: readTerminalLine's r.Peek(1) called unconditionally after a bare '\\r' blocks forever when the client sends nothing more (exactly what a real keypress does -- wait for the server's reply). This was a real, total deadlock on EVERY line read (guest name prompt, main command loop, SSH claim flow all share this function) -- confirmed directly against production (connected with a fresh key, typed a name, watched it hang 15+ seconds with zero corresponding IDUNA activity), fixed by only Peeking when r.Buffered() \u003e 0 (never blocks on the network since it never asks bufio to fetch more data it doesn't already have). New net.Pipe()-based test (a strings.Reader-based test would never have caught this) -- verified the test actually catches the bug by reverting the fix and confirming it fails/times out. (3) who listing now tags [Guest] players so an anonymous, duplicable guest name is never confused with a permanent SSH-bound one. All three isolated from a concurrent in-flight main.go change via the established hunk-isolation technique. Live-verified the deadlock fix directly on real production post-deploy: a fresh key attempting the already-claimed name 'EMILY' now correctly gets 'That name is already taken. Choose another.' instead of hanging -- this also directly answers the founder's own standing question about whether SSH-bound name uniqueness is real: yes, the DB-level UNIQUE constraint on characters.name works correctly end to end. GoblinFoxDragon commits 79b5283/bd93d40/fd3c601 (source) + 28a93be (binary redeploy).\n\n⚓ ☃",
+  "id": 19244,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "GoblinFoxDragon",
+  "title": "Rapid live-fix chain: TCP_NODELAY, critical readTerminalLine deadlock, who [Guest] tags"
+}
