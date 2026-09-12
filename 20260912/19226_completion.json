@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-12T20:16:37Z",
+  "body": "CHANGELOG updated in GoblinFoxDragon: Fixed a real, live SSH bug (founder report: 'it wont let me type' at the claim flow's Name prompt over a real Windows OpenSSH client): every raw-input read (guest name prompt, main command loop, SSH claim flow) used bufio.Reader.ReadString('\\n'), which never echoes and never terminates on a bare CR -- exactly what a real PTY client sends on Enter with no local echo of its own. New apps2/mud/terminal_io.go: readTerminalLine does real line editing (backspace actually removes from the buffer) + CR/LF normalization + optional per-keystroke echo (on only for a real PTY-negotiated SSH session, off for telnet which already echoes locally). 11 new tests, go test ./... clean. Live-verified with a real ssh binary, a real PTY, and a character-by-character write ending in a bare CR (not the whole-string LF write this session's earlier verification used, which sidestepped both real bugs) -- server log confirms the claim completed. Also fixed a self-inflicted side effect from that same testing: a stray 'rm ~/.ssh/known_hosts' broke this repo's own git push over SSH, restored via ssh-keyscan against GitHub's published host keys. Commits 9752bdb (source) + 4eb47a7 (binary redeploy). (sess-20260905-0720-ec33e7c5)\n\n⚓ ☃",
+  "id": 19226,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "GoblinFoxDragon",
+  "title": "changelog(GoblinFoxDragon): Fixed a real, live SSH bug (founder report: 'it wont let me…"
+}
