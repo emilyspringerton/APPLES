@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-12T18:23:56Z",
+  "body": "JOB_SPELL_SYSTEM_NORTHSTAR.md §1's remaining scope -- spells resolved instantly before this, gated only by the 1s universal lockout, no spell ever actually took time to cast. New apps2/mud/ability.go: spellCastTimes gives every already-shipped WHM/RDM/BLM spell a real, non-zero cast time (2.0-3.5s v0 tuning band); beginCast runs a fast MP/target preflight then defers the exact existing effect logic via time.AfterFunc, completion callback re-locking gw.mu itself matching runHeadlessCommand's established pattern; checkNotCasting is a new real shared gate both cmdCast and cmdJA call. Deliberately NOT the literal cmdJA/cmdCast merge into one cmdAbility dispatcher the doc's prose shows -- named as real, low-value-this-pass deferred scope (every JA still has CastTime=0). 11 new tests, go build/vet/test ./... clean. Isolated from a concurrent in-flight main.go change (S252 inventory sync) via this session's established hunk-isolation technique -- zero not-mine markers in the staged diff. Live-verified twice: a throwaway instance (self-cast Cure, mid-cast JA correctly refused, targeted Fire with instant no-target failure vs real cast bar) and real production after rebuild+redeploy (cast cure -\u003e 'You begin casting Cure... (2s)' -\u003e effect lands automatically). GoblinFoxDragon commits 8b4f561 (source) + 0a66a4b (binary redeploy) + 5cc4224 (docs).\n\n⚓ ☃",
+  "id": 19216,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "GoblinFoxDragon",
+  "title": "Phase 1 remainder: real cast time for WHM/RDM/BLM spells"
+}
