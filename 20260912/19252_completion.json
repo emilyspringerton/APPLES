@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-12T22:34:05Z",
+  "body": "CHANGELOG updated in GoblinFoxDragon: Guest names can no longer squat a real character's name (case-insensitive) -- founder live report: guest 'EMILY' online alongside the real SSH-bound 'EMILY'. Guest names now validated via validateSSHClaimName (charset+reserved-list, shared with SSH claims, and URL-safe by construction) plus a new case-insensitive collision check against both IDUNA's permanent characters (new GetCharacterByName, backed by IDUNA's new case-insensitive by-name lookup endpoint) and every other currently-online player. New player_name.go (normalizePlayerName, nameCollidesWithOnlinePlayer), 5 new tests. Isolated from a concurrent in-flight main.go change, go build/vet/test ./... clean. Live-verified against real production IDUNA data. Commit 6835c0b (source pushed; deploy held alongside the other two pending fixes -- two live demo SSH sessions currently running for the founder's own stream). (sess-20260905-0720-ec33e7c5)\n\n⚓ ☃",
+  "id": 19252,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "GoblinFoxDragon",
+  "title": "changelog(GoblinFoxDragon): Guest names can no longer squat a real character's name (ca…"
+}
