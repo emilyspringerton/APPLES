@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-12T05:30:48Z",
+  "generated_at": "2026-09-12T05:35:51Z",
   "repo": "APPLES",
-  "count": 8578,
+  "count": 8579,
   "apples": [
     {
       "id": 10525,
@@ -68626,6 +68626,14 @@
       "source_repo": "IDUNA",
       "date": "20260912",
       "archived_at": "2026-09-12T05:30:48Z"
+    },
+    {
+      "id": 19116,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: NOCK is being re-scoped as a texture generator+manager first -- needs rea…",
+      "source_repo": "CLI",
+      "date": "20260912",
+      "archived_at": "2026-09-12T05:35:51Z"
     }
   ]
 }
