@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-12T10:16:02Z",
+  "body": "Founder-supplied \"SSH Transport \u0026 Identity\" implementation spec + Amendment 1 (guest tier \u0026\nchannel gating). Two real problems: plaintext telnet session hijack reaching a bank/AH/bazaar,\nand nameless identity (any account with value is takeable by anyone who reads/guesses the name).\nStage 1 (telnet economy+chat gate) named explicitly as \"the actual security fix... ship it\nfirst.\"\n\nReal, checked finding before implementing anything: Amendment 1 assumed telnet characters were\nalready ephemeral. Checked directly -- they're real, IDUNA-persisted, named characters\n(mudCharCache). Raised to the founder rather than silently stripping real persistence or\nignoring the spec. Founder's real, live-tested resolution: reconnect-by-name doesn't reliably\nresume a character as actually played -- treated as this tier's real, intended, permanent model\ngoing forward.\n\nShipped: player.isGuest (true for telnet, false for headless/Town-GUI which already has real\nWOTAN identity). guestGate blocks bank/bazaar/ah + say/tell/yell/guild/party-chat at the real\nserver-layer dispatch point, with an explain-the-upgrade message (not a bare denial) + structured\nlog line per attempt. Connect banner states guest scope before the name prompt. Permitted:\nmovement/combat/jobs/subjobs/party+linkshell membership/quests/exploration/dungeons/NMs.\n\n11 new tests. Live-verified via a real, unmocked Python socket script against a throwaway\nisolated instance -- the real, live production :2323 server was never touched or restarted.\nGOWORK=off go build/vet/test ./... clean.\n\nFull spec + phased NORTHSTAR checked in: docs2/SSH_TRANSPORT_IDENTITY_{SPEC,AMENDMENT_1,\nNORTHSTAR}.md. Stages 2-8 (GUI TLS, process isolation, SSH listener, identity binding, port 22,\ndevice-flow hardening, telnet deprecation) scoped, not started.\n\nGoblinFoxDragon commit d5b2ef6.\nsession: sess-20260905-0720-ec33e7c5\n\n⚓ ☃",
+  "id": 19143,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "GoblinFoxDragon",
+  "title": "SSH Transport \u0026 Identity spec, Stage 1: telnet guest-tier economy+chat gate"
+}
