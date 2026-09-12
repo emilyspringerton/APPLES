@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-12T06:11:03Z",
+  "generated_at": "2026-09-12T06:11:05Z",
   "repo": "APPLES",
-  "count": 8585,
+  "count": 8586,
   "apples": [
     {
       "id": 10525,
@@ -68682,6 +68682,14 @@
       "source_repo": "IDUNA",
       "date": "20260912",
       "archived_at": "2026-09-12T06:11:03Z"
+    },
+    {
+      "id": 19123,
+      "type": "completion",
+      "title": "changelog(IDUNA): feat(mmo): per-job character leveling API (GFD-124433) -- n…",
+      "source_repo": "IDUNA",
+      "date": "20260912",
+      "archived_at": "2026-09-12T06:11:05Z"
     }
   ]
 }
