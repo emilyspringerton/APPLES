@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-12T15:51:48Z",
+  "body": "Real audit against the codebase (not the stated premise): most named spells/abilities already exist and work (BLM full elemental tiers, WAR provoke, MNK boost+chakra, THF sneak attack, WHM/RDM cure/haste/dia/refresh) -- the real gap is zero cast-time/cooldown/lockout system, and (per a direct founder follow-up) about half the job-ability roster sends a flavor-text message with no real mechanical effect (Berserk/Boost/Elemental Seal/Chainspell/Sneak Attack/Trick Attack all no-op beyond their own text). Also folded in a second founder finding: auto-attack damage is a flat hardcoded 30 on both combat directions with zero stat/variance -- real proposed formula given. New docs2/JOB_SPELL_SYSTEM_NORTHSTAR.md, golden-indexed as JOB-SPELL-SYSTEM-NORTH. Phase 0 shipped + deployed live: setjob/setjob-sub refuse every job outside WAR/MNK/WHM/BLM/RDM/THF (ASN named explicitly), jobs command marks disabled ones, existing characters on a disabled job deliberately left alone. Phases 1-5 (universal Ability/timing model, weapon-skill-per-type leveling, /ja+/ma unification with real targeting rules, new content, the combat formula rewrite) scoped with real open questions for founder input. Commits e540a39/978e436/6fc6bf6 + docs commit.\n\n⚓ ☃",
+  "id": 19181,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "GoblinFoxDragon",
+  "title": "Job/spell system overhaul: Phase 0 (disable advanced jobs) + full plan"
+}
