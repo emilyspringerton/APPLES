@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-12T20:16:46Z",
+  "body": "Founder real-time, live, over a real Windows OpenSSH client: stuck at the SSH claim flow's Name prompt unable to see anything typed. Root cause: every raw-input read site (guest name prompt, main command loop, SSH claim flow) used bufio.Reader.ReadString('\\n') directly against the connection -- correct for telnet (client echoes locally, sends real \\r\\n) but wrong for a real PTY SSH client, which disables its own local echo (expects the remote to echo, same as a real remote shell's tty driver) and sends a bare '\\r' on Enter (ReadString('\\n') blocks forever). New apps2/mud/terminal_io.go: readTerminalLine is a real, minimal line editor (backspace/DEL actually removes from the buffer, not just a raw control byte smuggled into the string), CR/LF normalization, optional per-keystroke echo -- wired via a new sshConnAdapter.ptyRequested flag (set the moment pty-req arrives) and a new handleConn echoInput parameter (false for telnet, ptyRequested for SSH). 11 new tests. go build/vet/test ./... clean. Live-verified twice on a throwaway instance with a real ssh binary/PTY and a fresh key: a whole-string LF write (this session's own earlier, now-named-as-flawed verification method) claims fine; a real character-by-character write ending in a bare CR (matching an actual keypress) also completes correctly -- server log: '[ssh-claim] new identity claimed character=... name=RealKeyboard1', with visible echo during entry. Isolated from a concurrent in-flight main.go change via this session's established hunk technique, zero not-mine markers. Rebuilt and redeployed to production immediately given the founder was actively blocked. Also fixed, transparently: my own testing accidentally deleted ~/.ssh/known_hosts (broke this repo's git push over SSH), restored via ssh-keyscan against GitHub's published host keys. Commits 9752bdb (source) + 4eb47a7 (binary redeploy).\n\n⚓ ☃",
+  "id": 19227,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "GoblinFoxDragon",
+  "title": "SSH real line editing + echo -- fixes live 'it wont let me type' bug"
+}
