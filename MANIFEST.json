@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-12T22:13:57Z",
+  "generated_at": "2026-09-12T22:14:07Z",
   "repo": "APPLES",
-  "count": 8710,
+  "count": 8711,
   "apples": [
     {
       "id": 10525,
@@ -69682,6 +69682,14 @@
       "source_repo": "GoblinFoxDragon",
       "date": "20260912",
       "archived_at": "2026-09-12T22:13:57Z"
+    },
+    {
+      "id": 19248,
+      "type": "completion",
+      "title": "Fixed garbled help/multi-line output over real SSH (bare LF -\u003e real CRLF)",
+      "source_repo": "GoblinFoxDragon",
+      "date": "20260912",
+      "archived_at": "2026-09-12T22:14:07Z"
     }
   ]
 }

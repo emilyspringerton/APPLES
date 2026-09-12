@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-12T22:14:07Z",
+  "body": "Founder real-time, live: screenshot of 'help' rendering as a garbled, staggered mess in a real Windows Git Bash/MINGW64 terminal over SSH. Root cause: player.send/sendf and the two structurally identical local 'send' closures (handleConn, runSSHClaimFlow) only ever appended ONE trailing '\\r\\n' at the end of whatever string was passed -- every multi-line message this MUD sends (cmdHelp's own block, map, status, jobs, and many more, any call whose Go string literal embeds a bare '\\n' between lines) relied entirely on the client translating a lone line-feed into a real carriage-return-plus-line-feed. Telnet clients conventionally do this themselves (NVT ASCII's own newline is CRLF); a real Windows terminal driving an SSH session over a negotiated PTY does not, per this live report -- a bare '\\n' just moves the cursor down a row without returning to column 0, producing exactly the staggered, wrapped-looking garbage in the screenshot. New normalizeLineEndings(s) (terminal_io.go): a real two-pass normalize (collapse existing correct CRLF back to bare LF, then re-expand every LF to CRLF uniformly) rather than a naive single ReplaceAll, since this codebase already has ~120 call sites that correctly prepend a leading CRLF for blank-line spacing and must not get doubled into CRCRLF. Wired into all three real send points. 3 new tests. Isolated from a concurrent in-flight main.go change via the established hunk-isolation technique, zero not-mine markers, go build/vet/test ./... clean. Live-verified on a throwaway instance: raw socket capture of a real help response confirms zero bare LF bytes remain anywhere in the output. GoblinFoxDragon commit e652950 (source pushed; binary rebuild+redeploy deliberately HELD -- two live demo SSH sessions, claude and EmilyAI, are currently running for the founder's own stream and a service restart would drop both).\n\n⚓ ☃",
+  "id": 19248,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "GoblinFoxDragon",
+  "title": "Fixed garbled help/multi-line output over real SSH (bare LF -\u003e real CRLF)"
+}
