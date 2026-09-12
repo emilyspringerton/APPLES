@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-12T22:03:58Z",
+  "generated_at": "2026-09-12T22:08:39Z",
   "repo": "APPLES",
-  "count": 8707,
+  "count": 8708,
   "apples": [
     {
       "id": 10525,
@@ -69658,6 +69658,14 @@
       "source_repo": "GoblinFoxDragon",
       "date": "20260912",
       "archived_at": "2026-09-12T22:03:58Z"
+    },
+    {
+      "id": 19245,
+      "type": "completion",
+      "title": "changelog(GoblinFoxDragon): Fixed a real, found-live gap: Home Point never persisted ac…",
+      "source_repo": "GoblinFoxDragon",
+      "date": "20260912",
+      "archived_at": "2026-09-12T22:08:39Z"
     }
   ]
 }
