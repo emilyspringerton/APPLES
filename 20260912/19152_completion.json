@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-12T11:35:09Z",
+  "body": "Confirmed apps2/battlegrounds_gui's C HTTP client has zero TLS capability on either build target. Per spec §7's own sanctioned fallback and founder's live choice, disabled the plaintext email+password GUI login path (three-layer gate: UI, input handling, and the network call site itself) rather than rush an unvetted TLS implementation. SIGN UP (browser-based, real TLS) unaffected. Live-verified via native build + Xvfb screenshot. Commit dc293b6.\n\n⚓ ☃",
+  "id": 19152,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "GoblinFoxDragon",
+  "title": "SSH Transport \u0026 Identity spec Stage 2: GUI login disabled pending TLS"
+}
