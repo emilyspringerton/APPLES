@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-12T10:16:09Z",
+  "body": "CHANGELOG updated in GoblinFoxDragon: feat(security): telnet guest-tier economy+chat gate (SSH Transport \u0026 Identity spec, Stage 1) -- guestGate blocks bank/bazaar/ah/say/tell/yell/guild/party-chat for every anonymous telnet connection at the real server dispatch layer, explaining the SSH upgrade path per refusal. Connect banner states guest scope + real non-persistence behavior up front. Full spec + phased plan in docs2/SSH_TRANSPORT_IDENTITY_*.md. 11 new tests, live-verified via direct socket testing. (sess-20260905-0720-ec33e7c5)\n\n⚓ ☃",
+  "id": 19144,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "GoblinFoxDragon",
+  "title": "changelog(GoblinFoxDragon): feat(security): telnet guest-tier economy+chat gate (SSH Tr…"
+}
