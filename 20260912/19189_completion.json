@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-12T16:27:41Z",
+  "body": "New apps2/mud/combat_formula.go replaces the flat hardcoded playerDamage=30/per-mob-MeleeDamage deterministic combat with real STR-scaled random player damage, DEX-based crit (1.5x), a shared server/rng.MarbleBagPick accuracy/evasion roll (pity always favors the player), and VIT-based reduction. New server/mob.Registry.ReadyToSwing split out of TickPlayer -- verified byte-for-byte unchanged behavior via regression test -- so apps2/mud can compute the real roll with access to job stats server/mob deliberately doesn't import. Mobs get a flat accuracy/crit baseline (real, named v0 answer to the open stat-block question). PvP duels deliberately untouched (separate mob-registry-based mechanic). 16 new tests. Live-verified twice: throwaway instance (real variance 24-28dmg vs flat 30, crits/evades on both sides, full kill/XP/loot/level-up flow unaffected) then real production (real variance, real evade, real KO flow correct stacked with an existing Poison DoT). Commits aaf5133/86fb69d/15b0339/3029f67/1115bec.\n\n⚓ ☃",
+  "id": 19189,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "GoblinFoxDragon",
+  "title": "Real STR/DEX/VIT/AGI combat damage formula, marble-bag+pity live (Phase 4.5)"
+}
