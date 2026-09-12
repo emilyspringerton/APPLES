@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-12T22:13:57Z",
+  "body": "CHANGELOG updated in GoblinFoxDragon: Fixed a real, live bug (founder screenshot: 'help' rendering as a garbled, staggered mess in a real Windows Git Bash/MINGW64 terminal over SSH): every multi-line send() ever sent a message with only ONE trailing CRLF, leaving every internal line break as a bare LF -- fine for telnet clients (which conventionally translate LF to CRLF themselves) but broken for a real Windows PTY-based SSH session, which does not. New normalizeLineEndings() (a real two-pass normalize, not a naive single ReplaceAll -- ~120 existing call sites already prepend a correct leading CRLF for spacing and must not get doubled), wired into player.send and both structurally identical local send closures (handleConn, runSSHClaimFlow). 3 new tests. Isolated from a concurrent in-flight main.go change, go build/vet/test ./... clean. Live-verified on a throwaway instance: raw socket capture confirms zero bare LF bytes remain in a real help response. Commit e652950 (source pushed; deploy deliberately held -- two live demo SSH sessions currently running for the founder's own stream). (sess-20260905-0720-ec33e7c5)\n\n⚓ ☃",
+  "id": 19247,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "GoblinFoxDragon",
+  "title": "changelog(GoblinFoxDragon): Fixed a real, live bug (founder screenshot: 'help' renderin…"
+}
