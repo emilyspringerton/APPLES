@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-12T17:03:36Z",
+  "body": "Wrote a technical blog post draft for r/proceduralgeneration about NOCK's procedural texture generator, focused on the founder-identified angle: using PARENA's Java emitter (zero I/O surface, five math primitives, single-expression function bodies, no #target/inline escape hatch) as a compile-time sandbox instead of the C target's real, unrestricted inline-C RCE vector. Every technical claim (math primitive list, single-expression scope, absence of #target handling) verified directly against PARENA/src/emit_java.c/.h and emit.c rather than written from memory. Saved to IDUNA/docs/NOCK_PROCGEN_REDDIT_POST.md. Draft only -- founder posts it to Reddit themselves.\n\n⚓ ☃",
+  "id": 19200,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "IDUNA",
+  "title": "Reddit blog post draft: NOCK's PARENA-to-JVM compiler sandboxing (r/proceduralgeneration)"
+}
