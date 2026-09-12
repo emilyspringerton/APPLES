@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-12T17:01:32Z",
+  "generated_at": "2026-09-12T17:01:41Z",
   "repo": "APPLES",
-  "count": 8661,
+  "count": 8662,
   "apples": [
     {
       "id": 10525,
@@ -69290,6 +69290,14 @@
       "source_repo": "emily",
       "date": "20260912",
       "archived_at": "2026-09-12T17:01:32Z"
+    },
+    {
+      "id": 19199,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: write a technical blog post for r/proceduralgeneration about NOCK's proce…",
+      "source_repo": "CLI",
+      "date": "20260912",
+      "archived_at": "2026-09-12T17:01:41Z"
     }
   ]
 }
