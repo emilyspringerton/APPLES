@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-12T03:58:32Z",
+  "generated_at": "2026-09-12T04:11:15Z",
   "repo": "APPLES",
-  "count": 8557,
+  "count": 8558,
   "apples": [
     {
       "id": 10525,
@@ -68458,6 +68458,14 @@
       "source_repo": "emily",
       "date": "20260912",
       "archived_at": "2026-09-12T03:58:32Z"
+    },
+    {
+      "id": 19095,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: work from GitHub issues across the monorepo when they are clear -- fix th…",
+      "source_repo": "CLI",
+      "date": "20260912",
+      "archived_at": "2026-09-12T04:11:15Z"
     }
   ]
 }
