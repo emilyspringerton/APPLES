@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-12T04:41:16Z",
+  "body": "Founder-reported live bug (2026-09-12): \"the mud items arent implemented like echo drops and\nhi potion.\"\n\nTwo distinct real bugs: (1) Hi-Potion/Potion/Ether had zero effect -- cmdUseItem always replied\n\"nothing happens yet\" (Phase 0 of docs2/ITEM_BUILDER_NORTHSTAR.md never got a Phase 1 mod-hook\nor any hardcoded effect). Added FFXI-canonical flat HP/MP restores. (2) Echo Drop was already\nfully implemented (cmdRemoveDebuffs) but only reachable via the separate removedebuffs/erase\ncommand -- `use echo-drop` fell into \"can't be used\" since it's not an itemdefReg entry. `use`\nnow dispatches to it. Added the same missing effect for Antidote (cures Poison specifically).\n\nAlso fixed a twin bug: use/eat's dispatch never lowercased the item-id arg, unlike every sibling\ncommand (cmdGo/cmdCast/cmdJA/cmdDeclare), so \"use Hi-Potion\" silently missed inventory's\nlowercase keys.\n\nNew apps2/mud/use_item_test.go: 7 tests. GOWORK=off go test ./... clean across the module.\nGoblinFoxDragon commit 5b7b089.\nsession: sess-20260905-0720-ec33e7c5\n\n⚓ ☃",
+  "id": 19102,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "GoblinFoxDragon",
+  "title": "GFD item-use bug: Hi-Potion/Echo Drop/etc now actually work"
+}
