@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-12T06:13:26Z",
+  "generated_at": "2026-09-12T06:14:13Z",
   "repo": "APPLES",
-  "count": 8589,
+  "count": 8590,
   "apples": [
     {
       "id": 10525,
@@ -68714,6 +68714,14 @@
       "source_repo": "emily",
       "date": "20260912",
       "archived_at": "2026-09-12T06:13:26Z"
+    },
+    {
+      "id": 19127,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: pasted a full 'SSH Transport \u0026 Identity' implementation spec for GoblinFo…",
+      "source_repo": "CLI",
+      "date": "20260912",
+      "archived_at": "2026-09-12T06:14:13Z"
     }
   ]
 }
