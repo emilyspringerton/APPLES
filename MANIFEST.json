@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-12T17:04:02Z",
+  "generated_at": "2026-09-12T17:11:03Z",
   "repo": "APPLES",
-  "count": 8664,
+  "count": 8665,
   "apples": [
     {
       "id": 10525,
@@ -69314,6 +69314,14 @@
       "source_repo": "EMILY",
       "date": "20260912",
       "archived_at": "2026-09-12T17:04:02Z"
+    },
+    {
+      "id": 19202,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: full monorepo product audit across all 63 repos (product/60s-no-install/f…",
+      "source_repo": "CLI",
+      "date": "20260912",
+      "archived_at": "2026-09-12T17:11:03Z"
     }
   ]
 }
