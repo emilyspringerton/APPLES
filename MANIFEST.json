@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-12T05:48:11Z",
+  "generated_at": "2026-09-12T05:51:34Z",
   "repo": "APPLES",
-  "count": 8582,
+  "count": 8583,
   "apples": [
     {
       "id": 10525,
@@ -68658,6 +68658,14 @@
       "source_repo": "IDUNA",
       "date": "20260912",
       "archived_at": "2026-09-12T05:48:11Z"
+    },
+    {
+      "id": 19120,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time (via IDUNA kanban priority queue, card GFD-124433): GFD needs per-job leve…",
+      "source_repo": "CLI",
+      "date": "20260912",
+      "archived_at": "2026-09-12T05:51:34Z"
     }
   ]
 }
