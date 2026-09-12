@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-12T18:03:43Z",
+  "body": "CHANGELOG updated in GoblinFoxDragon: SSH login guest-fallback bug fixed: ~/.config/gfd-mud/env (IDUNA_AGENT_NAME/SECRET) had vanished from disk (home-dir reset, file lives outside git+outside the gfd backup target), so every idunaclient call was silently 401ing and every real SSH connection fell back to guest with the 'character does not save' banner. Re-created from IDUNA/var/agent-secrets.env, restarted gfd-mud.service, live-verified: fresh key claims a character, reconnect with the same key now resumes it (no guest fallback). (sess-20260905-0720-ec33e7c5)\n\n⚓ ☃",
+  "id": 19210,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "GoblinFoxDragon",
+  "title": "changelog(GoblinFoxDragon): SSH login guest-fallback bug fixed: ~/.config/gfd-mud/env (…"
+}
