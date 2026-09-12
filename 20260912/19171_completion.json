@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-12T14:59:31Z",
+  "body": "New apps2/mud/ssh_listener.go, wired alongside telnet on :2222. Public-key only (password/keyboard-interactive refused), TOFU (any key accepted, identity binding is Stage 5), host key persisted+survives restart, pty-req/window-change/no-PTY all handled cleanly, idle/max-session/per-IP-concurrency limits enforced. handleConn() reused completely unmodified via a thin net.Conn adapter over ssh.Channel -- same guest gate applies to SSH automatically. 7 new tests (net.Pipe() deadlock found and worked around with a real loopback socket). Live-verified via throwaway instance then the real production service (founder-authorized restart): password refused, TOFU key succeeds, guest banner/gate/PTY/resize/per-IP-cap all confirmed working end to end. Commits 86c7b95/bc6e4e1/731dcfc.\n\n⚓ ☃",
+  "id": 19171,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "GoblinFoxDragon",
+  "title": "SSH Transport \u0026 Identity spec Stage 4: real SSH listener (public-key/TOFU)"
+}
