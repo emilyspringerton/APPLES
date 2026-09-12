@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-12T13:38:38Z",
+  "body": "Real systemd hardening for gfd-mud.service, live-tested directive-by-directive: ProtectSystem=strict+ReadWritePaths confines writes to var/; exposure score 9.8 UNSAFE -\u003e 5.8 MEDIUM. Found live: capability-dropping directives (CapabilityBoundingSet=, ProtectKernelModules=, etc.) need root, impossible under systemctl --user (no CAP_SETPCAP) -- queued sudo-queue/78 for the dedicated-user+full-hardening follow-up. Backed up var/ first (new emily backup --target gfd, restore-tested). Also fixed: live binary was stale since Sep 5, missing every fix from this session -- rebuilt+redeployed from clean committed source. Founder-authorized live restart, verified working via real socket test. Commits GoblinFoxDragon 6b03614/05e13aa/1978a72, emily.cli 6b2eec7, MONOREPO 02effcb90.\n\n⚓ ☃",
+  "id": 19162,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "GoblinFoxDragon",
+  "title": "SSH Transport \u0026 Identity spec Stage 3 (partial): process isolation + data backup"
+}
