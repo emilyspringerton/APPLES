@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-12T04:11:44Z",
+  "body": "CHANGELOG updated in GoblinFoxDragon: fix(mob): dead mobs now respawn -- Registry.Revive resets an already-registered (dead) mob in place instead of re-Spawning its ID, which server/mob.Registry.Hit never removes and Spawn always rejects as a duplicate (GitHub #33: \"mobs just sit dead in the mobs table and dont respawn\"). apps2/mud's tickAll() deadQueue processing now calls Revive, falling back to Spawn only if the mob is genuinely gone from the registry. (sess-20260905-0720-ec33e7c5)\n\n⚓ ☃",
+  "id": 19097,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "GoblinFoxDragon",
+  "title": "changelog(GoblinFoxDragon): fix(mob): dead mobs now respawn -- Registry.Revive resets a…"
+}
