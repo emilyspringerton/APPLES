@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-12T18:01:38Z",
+  "generated_at": "2026-09-12T18:02:57Z",
   "repo": "APPLES",
-  "count": 8671,
+  "count": 8672,
   "apples": [
     {
       "id": 10525,
@@ -69370,6 +69370,14 @@
       "source_repo": "emily",
       "date": "20260912",
       "archived_at": "2026-09-12T18:01:38Z"
+    },
+    {
+      "id": 19209,
+      "type": "signal_observation",
+      "title": "[ERROR] Founder real-time: GFD SSH login shows guest/no-persistence warning even though login worke…",
+      "source_repo": "CLI",
+      "date": "20260912",
+      "archived_at": "2026-09-12T18:02:57Z"
     }
   ]
 }
