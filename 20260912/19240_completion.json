@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-12T21:52:10Z",
+  "body": "CHANGELOG updated in GoblinFoxDragon: Guest-mode messaging now gives the real SSH connect command instead of stale 'coming soon' wording: new sshUpgradeHint constant ('ssh -p 2222 okemily.com...') used consistently in the connect banner, economy/chat block messages, and requireSSHIdentity's own key-management refusal. New regression test guards against 'coming soon' ever creeping back in. Live-verified. Commits cb63dc4 (source) + b732089 (binary redeploy). (sess-20260905-0720-ec33e7c5)\n\n⚓ ☃",
+  "id": 19240,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "GoblinFoxDragon",
+  "title": "changelog(GoblinFoxDragon): Guest-mode messaging now gives the real SSH connect command…"
+}

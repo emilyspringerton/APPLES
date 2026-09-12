@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-12T21:48:53Z",
+  "generated_at": "2026-09-12T21:52:10Z",
   "repo": "APPLES",
-  "count": 8702,
+  "count": 8703,
   "apples": [
     {
       "id": 10525,
@@ -69618,6 +69618,14 @@
       "source_repo": "CLI",
       "date": "20260912",
       "archived_at": "2026-09-12T21:48:53Z"
+    },
+    {
+      "id": 19240,
+      "type": "completion",
+      "title": "changelog(GoblinFoxDragon): Guest-mode messaging now gives the real SSH connect command…",
+      "source_repo": "GoblinFoxDragon",
+      "date": "20260912",
+      "archived_at": "2026-09-12T21:52:10Z"
     }
   ]
 }
