@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-12T18:11:27Z",
+  "body": "Added a new, AES-256-GCM-encrypted 'gfd-secrets' backup target (cmd/backup.go) covering ~/.config/gfd-mud/env -- the one credential gfd-mud.service needs to reach IDUNA at all, which had zero backup coverage anywhere (the pre-existing 'gfd' target only ever pointed at GoblinFoxDragon/var) and silently vanished on a $HOME reset, causing this session's earlier SSH-login guest-fallback bug. Reuses the same shared encryption key as the 'iduna' target; path overridable via GFD_MUD_ENV_PATH. 3 new tests added (target shape/encryption, default path, and a real edge-case guard: looksLikeSecret must NOT filter the bare filename 'env' out of its own target, which would silently empty the archive while looking like it worked). go test ./... clean, ./scripts/build.sh clean. Live-verified: emily backup run --target gfd-secrets correctly archived and encrypted the real file (235-byte ciphertext); the final gcloud upload leg failed only on a separate, pre-existing gap (no active gcloud auth account in this environment right now -- would affect every target identically, not introduced by this change). emily.cli commits 9ccba73/0ee170a.\n\n⚓ ☃",
+  "id": 19213,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "emily.cli",
+  "title": "Encrypted gfd-secrets backup target closes SECTION 402 follow-up"
+}
