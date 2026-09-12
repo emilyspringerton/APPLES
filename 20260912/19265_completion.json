@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-12T23:43:11Z",
+  "body": "Commits 01a1a9d (itemdef.WeaponType field), e32c797 (data/items.json backfill on all 41 weapons), b56612f (skillchain.WeaponSkill gets WeaponType/MinSkillLevel + new dagger/axe/polearm/h2h roster entries incl. Wasp Sting, Combo, Raging Axe, Double Thrust), 90396d5 (apps2/mud/weapon_skill_level.go: p.weaponSkills fishing/mining-shaped skill-gain-on-use per weapon type, wired into resolvePlayerAutoAttackDamage's hit chance + damage mean; cmdWS gated on weapon-type match + MinSkillLevel; wslist shows live usable:yes/no per skill), and the main.go hunk bundled into 01a1a9d (p.weaponSkills field, cmdWS gate, wsSkill default changed from Fast Blade to Combo on both real character-creation paths). 15 new unit tests, full repo test suite green. Live-verified on production: fresh guest spawns with Combo as default WS and a Sword equipped (weapon type 'sword'); unequipping drops weapon type to 'h2h'; landing an unarmed hit on a real worm incremented h2h skill 0-\u003e1, confirmed live via wslist's own new per-skill skill/threshold/usable display. Real, honest, named gap: no polearm or dedicated club item exists in data/items.json yet, so those weapon types are functionally unreachable until content is authored -- the skill/roster infrastructure is real and ready regardless. S412-07 (per-job weapon-type caps) is a separate, not-yet-built follow-up layer on top of this pass's flat, job-independent cap formula.\n\n⚓ ☃",
+  "id": 19265,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "GoblinFoxDragon",
+  "title": "S412-06: full weapon-skill per-type leveling wired into real accuracy/damage"
+}
