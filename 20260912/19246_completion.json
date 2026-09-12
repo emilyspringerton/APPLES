@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-12T22:08:48Z",
+  "body": "Founder real-time, live: 'home point does not persist after logouts.' Root cause: applyFetchedCharacter (the function every real SSH reconnect goes through, handleConn's preset != nil branch) never restored p.homePoint from the character record IDUNA returns -- getOrCreateHeadlessPlayer's own connect path already had this exact fix since 2026-08-04 ('iterate'), never applied to the real player-facing SSH path. sethome already correctly persisted to IDUNA (idunaclient.UpdateHome); it just never loaded back on the next connection. Extracted into a new shared restoreHomePointFromCharacter(p, ch), called from both the headless and the real SSH paths now -- one implementation instead of two that had already drifted apart once (this exact bug). 2 new tests (real home restores correctly; the all-zero-fields default row correctly leaves it unset). Found, NOT fixed in the same pass: the telnet mudCharCache 'returning guest by cached name' branch independently re-duplicates the same job-loading pattern and has the identical gap -- entangled with an unrelated in-flight inventory-sync change in the same code region, flagged for whoever picks it up next. Isolated via the established hunk-isolation technique, zero not-mine markers, go build/vet/test ./... clean. GoblinFoxDragon commit bd5a7a6 (source pushed; binary rebuild+redeploy deliberately HELD to avoid dropping two live demo SSH sessions currently running for the founder's own stream -- will deploy once confirmed clear).\n\n⚓ ☃",
+  "id": 19246,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "GoblinFoxDragon",
+  "title": "Home Point restore fixed for real SSH reconnects"
+}

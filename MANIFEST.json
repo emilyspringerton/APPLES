@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-12T22:08:39Z",
+  "generated_at": "2026-09-12T22:08:48Z",
   "repo": "APPLES",
-  "count": 8708,
+  "count": 8709,
   "apples": [
     {
       "id": 10525,
@@ -69666,6 +69666,14 @@
       "source_repo": "GoblinFoxDragon",
       "date": "20260912",
       "archived_at": "2026-09-12T22:08:39Z"
+    },
+    {
+      "id": 19246,
+      "type": "completion",
+      "title": "Home Point restore fixed for real SSH reconnects",
+      "source_repo": "GoblinFoxDragon",
+      "date": "20260912",
+      "archived_at": "2026-09-12T22:08:48Z"
     }
   ]
 }
