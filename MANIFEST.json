@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-12T17:14:06Z",
+  "generated_at": "2026-09-12T17:14:21Z",
   "repo": "APPLES",
-  "count": 8666,
+  "count": 8667,
   "apples": [
     {
       "id": 10525,
@@ -69330,6 +69330,14 @@
       "source_repo": "EMILY",
       "date": "20260912",
       "archived_at": "2026-09-12T17:14:06Z"
+    },
+    {
+      "id": 19204,
+      "type": "completion",
+      "title": "changelog(EMILY): Full monorepo product audit (56 repos): docs/MONOREPO_PRODU…",
+      "source_repo": "EMILY",
+      "date": "20260912",
+      "archived_at": "2026-09-12T17:14:21Z"
     }
   ]
 }
