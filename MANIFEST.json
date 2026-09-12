@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-12T18:45:36Z",
+  "generated_at": "2026-09-12T18:48:10Z",
   "repo": "APPLES",
-  "count": 8681,
+  "count": 8682,
   "apples": [
     {
       "id": 10525,
@@ -69450,6 +69450,14 @@
       "source_repo": "emily",
       "date": "20260912",
       "archived_at": "2026-09-12T18:45:36Z"
+    },
+    {
+      "id": 19219,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: BP (BRAWLPIT) level registry -- build now. Design: publish/fetch/version …",
+      "source_repo": "CLI",
+      "date": "20260912",
+      "archived_at": "2026-09-12T18:48:10Z"
     }
   ]
 }
