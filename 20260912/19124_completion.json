@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-12T06:11:19Z",
+  "body": "Kanban priority queue, card GFD-124433, founder: \"when you are a lvl 10 warrior in gfd and you\nswitch to RDM for the first time you go back to lvl 1 and you can level up to 5 and switch back\nto your level 10 war or to the lvl 1 mnk separate lvls/job.\"\n\nRoot cause: p.charXP was one CharXP struct per character, shared across every job -- cmdSetJob\nnever touched it when switching jobs. Fixed with a minimally-invasive design: p.charXP stays a\nlive alias into a new p.jobXP map[string]*xp.CharXP entry for whichever job is active, so every\nexisting read/write of p.charXP.* stays correct with zero changes elsewhere. Two new pure,\nindependently-tested functions: switchActiveJob (switch to/lazily create a job's own entry) and\nloadJobXP (build the initial map on connect, seeding the main job's first-ever row from the\ncharacter's legacy single level/xp columns for backward compat).\n\nPersists via IDUNA's new character_job_levels table/API. Two real, found-live twin bugs fixed:\ncmdSetJob never refreshed p.charJob.MainLvl on a plain job switch; the telnet-reconnect-by-\nname-cache path never called applyJobStats after loading a returning character's level.\n\n11 new tests. GOWORK=off go build/vet/test ./... clean across the whole module.\n\nGoblinFoxDragon commit 217cccb. IDUNA commit 4bc9d1f.\nsession: sess-20260905-0720-ec33e7c5\n\n⚓ ☃",
+  "id": 19124,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "GoblinFoxDragon",
+  "title": "Per-job leveling: each job levels independently (GFD-124433)"
+}

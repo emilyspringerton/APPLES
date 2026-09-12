@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-12T06:11:19Z",
+  "body": "CHANGELOG updated in GoblinFoxDragon: feat(job): per-job leveling -- each job levels independently (GFD-124433). p.charXP is now a live alias into a new p.jobXP map, switched via switchActiveJob/loadJobXP (both unit-tested). Persists via IDUNA's new character_job_levels table. Two twin bugs fixed: stale p.charJob.MainLvl on job switch, missing applyJobStats on telnet-reconnect. 11 new tests. (sess-20260905-0720-ec33e7c5)\n\n⚓ ☃",
+  "id": 19125,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "GoblinFoxDragon",
+  "title": "changelog(GoblinFoxDragon): feat(job): per-job leveling -- each job levels independentl…"
+}
