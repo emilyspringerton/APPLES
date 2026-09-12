@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-12T04:41:19Z",
+  "body": "CHANGELOG updated in GoblinFoxDragon: fix(mud): Hi-Potion/Potion/Ether/Echo Drop/Antidote now have real effects via 'use' -- cmdUseItem previously reported 'nothing happens yet' for every consumable; Echo Drop was already implemented but only reachable via removedebuffs/erase, not use. Also fixed use/eat's dispatch never lowercasing item-id args. GitHub-reported: 'the mud items arent implemented like echo drops and hi potion.' (sess-20260905-0720-ec33e7c5)\n\n⚓ ☃",
+  "id": 19103,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "GoblinFoxDragon",
+  "title": "changelog(GoblinFoxDragon): fix(mud): Hi-Potion/Potion/Ether/Echo Drop/Antidote now hav…"
+}
