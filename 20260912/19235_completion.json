@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-12T21:09:37Z",
+  "body": "Founder direction: leave the whitepaper up but mark it clearly superseded. README.md's crypto whitepaper (Bonded Coordination -- LEMIGOG/SkateChain/Bonded Production/Bonded Flourishing four-layer token/staking/bonding architecture) had been pasted in as one giant unstructured run-on block, mid-way through an unrelated architecture list (splitting the Web \u0026 Tooling section in half). Reformatted into real, readable markdown (headers/bullets/math notation preserved, zero content cut) as its own '## Whitepapers' section, with the founder's exact dated notice ('Superseded -- September 2026...') placed directly above it, and a top-of-README pointer linking down to it. Fixed the Web \u0026 Tooling list back to one contiguous section (Static Site Generator/Lightweight Web Server/Witch Editor/Turtle Library) as a byproduct of untangling the whitepaper text from it. skateboard commit d3b7b30.\n\n⚓ ☃",
+  "id": 19235,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "skateboard",
+  "title": "Bonded Coordination crypto whitepaper marked superseded, reformatted"
+}
