@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-12T23:28:50Z",
+  "body": "CHANGELOG updated in GoblinFoxDragon: S412-09: mob-drop tables now roll each item's real drop_chance independently (RollDropsFor) instead of always dropping the whole table; dropsForMob wired to it. Live-verified 6/6 vs 0/6 against a forced 0% test item. (sess-20260905-0720-ec33e7c5)\n\n⚓ ☃",
+  "id": 19262,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "GoblinFoxDragon",
+  "title": "changelog(GoblinFoxDragon): S412-09: mob-drop tables now roll each item's real drop_cha…"
+}
