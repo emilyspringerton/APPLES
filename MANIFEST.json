@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-12T21:44:12Z",
+  "generated_at": "2026-09-12T21:48:53Z",
   "repo": "APPLES",
-  "count": 8701,
+  "count": 8702,
   "apples": [
     {
       "id": 10525,
@@ -69610,6 +69610,14 @@
       "source_repo": "emily",
       "date": "20260912",
       "archived_at": "2026-09-12T21:44:12Z"
+    },
+    {
+      "id": 19239,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: GFD guest-mode messaging is stale -- says 'SSH-bound identity... coming s…",
+      "source_repo": "CLI",
+      "date": "20260912",
+      "archived_at": "2026-09-12T21:48:53Z"
     }
   ]
 }
