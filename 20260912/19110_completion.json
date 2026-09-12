@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-12T05:11:54Z",
+  "body": "CHANGELOG updated in IDUNA: feat(nock): v0 layered image editor -- internal/nock (ImageMagick-backed engine: layers/masks/opacity/gradients/hue-sat/sharpen/resize/export), cmd/nock CLI, internal/http/handlers/nock.go JSON API, and a React 19+TypeScript SPA at /admin/nock (go:embed'd, iduna.admin-gated). Deliberately not GFD-coupled. 13 tests, all against real ImageMagick. Founder: 'we are gonna need to build our own tools to create the textures... lets yolo it into iduna... this project is called NOCK.' See docs/NOCK_NORTHSTAR.md for the phased plan. (sess-20260905-0720-ec33e7c5)\n\n⚓ ☃",
+  "id": 19110,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "IDUNA",
+  "title": "changelog(IDUNA): feat(nock): v0 layered image editor -- internal/nock (Image…"
+}
