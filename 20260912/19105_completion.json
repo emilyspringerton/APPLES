@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-12T04:50:40Z",
+  "body": "Founder real-time (2026-09-12): \"lets start adding textures to shankpit have the compile like\ngenerate the textures at compile for now... its going to bring us from like 1982 graphics to\n1999 graphics.\"\n\ndraw_terrain (ground) and draw_map (walls) were pure flat-shaded per-vertex-color geometry, no\ntexture at all. Added two new seamlessly-tileable procedural generators to packages/render/\nproc_tex.c (ground: banded fbm-noise stone/dirt; walls: real running-bond brick pattern), via a\nnew tileable noise variant that wraps its lattice at the texture's own period for seamless\nGL_REPEAT tiling. Generated once at startup, bound underneath the existing per-vertex lighting/\nfog glColor3f calls (GL_MODULATE tint on top, unchanged behavior). Live-verified: built\nbin/shank_lobby, ran headless under Xvfb, screenshotted in-game -- real tiled texture detail\nvisible on floor and walls, no crash, no new warnings.\n\nReal, honest scope note: procedural placeholder only, per the founder's own \"for now\" framing.\nReal photo-sourced textures are separate future work; other draw_* functions (player models,\nvehicles, UI) still flat-colored.\n\nSHANKPIT commit 2d03736.\nsession: sess-20260905-0720-ec33e7c5\n\n⚓ ☃",
+  "id": 19105,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "SHANKPIT",
+  "title": "SHANKPIT: real procedural textures for terrain/walls (1982-\u003e1999 graphics)"
+}
