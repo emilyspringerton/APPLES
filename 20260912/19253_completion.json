@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-12T22:34:15Z",
+  "body": "Founder real-time, live, with direct proof from the founder's own 'who' output: the real SSH-bound 'EMILY' (Lv.7) and a guest ALSO named 'EMILY' (Lv.1, [Guest]) online simultaneously. Root cause: guest name entry only checked length, no charset restriction, no collision check against IDUNA's permanent characters or other online players. Real fix, three parts: (1) guest names now go through validateSSHClaimName (charset letters/digits only + reserved-name list, shared with SSH claims -- also makes every accepted name URL-safe by construction per the founder's own 'so we can have names in urls if we really wanted to' ask); (2) new idunaclient.GetCharacterByName calls IDUNA's new case-insensitive by-name lookup (paired IDUNA commit a05822a, which also fixes handleCreateCharacter's own SQLite-BINARY-collation gap where 'Emily' and 'EMILY' could otherwise both be created as separate permanent characters); (3) new player_name.go (normalizePlayerName, nameCollidesWithOnlinePlayer) checks every other currently-online player too, closing the guest-vs-guest gap named in this session's own earlier BACKLOG S408-04. 5 new tests. Isolated from a concurrent in-flight main.go change, zero not-mine markers, go build/vet/test ./... clean. Live-verified against real production IDUNA data (after that service's own rebuild+restart): 'EMILY', 'Emily', and 'eMiLy' all correctly refused as guest names; a genuinely new name and the existing reserved-name/charset checks still work. GoblinFoxDragon commit 6835c0b (source pushed; deploy held alongside two other pending fixes -- two live demo SSH sessions, claude and EmilyAI, are currently running for the founder's own stream).\n\n⚓ ☃",
+  "id": 19253,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "GoblinFoxDragon",
+  "title": "Guest name squatting fixed (case-insensitive collision check vs. real characters)"
+}
