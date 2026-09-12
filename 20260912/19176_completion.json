@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-12T15:40:15Z",
+  "body": "New IDUNA character_ssh_keys table + /api/v1/ssh-keys endpoints (permanent fingerprint-\u003echaracter binding, agent-only writes). GFD's handleConn now supports a preset-identity path: known fingerprint resumes its character with no prompt and isGuest=false (unlocks bank/chat automatically via existing guestGate); unknown fingerprint runs a rate-limited, name-validated claim flow (CreateCharacter+BindSSHKey, IDUNA's real 409 refuses name collisions rather than silently reassigning). New keys/key-add/key-revoke in-session commands. 20 new tests total (IDUNA, idunaclient, apps2/mud). Live-verified end-to-end against real production IDUNA: claim, resume-no-prompt, collision-refusal-then-success, key-add/revoke, revoked-key-forces-new-claim, and the real per-IP rate limit all confirmed via a throwaway GFD instance. Deployed to live production GFD (restart authorized). Commits: IDUNA 8a319ab/3627140/1288adc, GoblinFoxDragon d6c29d9/4c7ab90/e4c5bca/3950965.\n\n⚓ ☃",
+  "id": 19176,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "GoblinFoxDragon",
+  "title": "SSH Transport \u0026 Identity spec Stage 5: real identity binding + key management"
+}
