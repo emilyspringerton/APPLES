@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-12T06:11:03Z",
+  "body": "Kanban priority queue, card GFD-124433: GFD needs per-job leveling -- a level-10 WAR switching\nto RDM for the first time should start RDM at level 1, level it independently, and switch back\nto WAR at its own real level 10.\n\nNew character_job_levels table + GET/PATCH /api/v1/characters/:id/job-levels[/:job] (agent-only,\nsame cheat-vector reasoning as the existing /level endpoint). characters.level/current_xp kept\nas a \"currently-active job\" mirror for other consumers. 5 new tests. go build/vet/test ./... clean.\n\nIDUNA commit 4bc9d1f.\nsession: sess-20260905-0720-ec33e7c5\n\n⚓ ☃",
+  "id": 19122,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "IDUNA",
+  "title": "Per-job character leveling API (GFD-124433)"
+}
