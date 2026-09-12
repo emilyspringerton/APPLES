@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-12T04:50:44Z",
+  "body": "CHANGELOG updated in SHANKPIT: feat(render): real procedural textures for terrain/walls -- draw_terrain/draw_map were pure flat-shaded vertex color, no texture at all. Added seamlessly-tileable ground (banded fbm noise) and wall (running-bond brick) procedural generators to proc_tex.c, bound under the existing per-vertex lighting/fog. Founder: 'lets start adding textures to shankpit... bring us from like 1982 graphics to 1999 graphics.' Live-verified via Xvfb screenshot. (sess-20260905-0720-ec33e7c5)\n\n⚓ ☃",
+  "id": 19106,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "SHANKPIT",
+  "title": "changelog(SHANKPIT): feat(render): real procedural textures for terrain/walls --…"
+}
