@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-12T05:30:43Z",
+  "body": "Founder real-time (2026-09-12): wants an LLM-drivable procedural-texture API written in PARENA\n(\"one shot\" a texture from a prompt, save both the rendered file and the generating source --\n\"think GENERA OS\"). Raised a real security concern mid-build (\"that sounds unsafe\").\n\nConfirmed the concern was right, for a specific reason: PARENA's C emitter's #target/inline-c\nescape hatch is unrestricted (checked src/emit.c directly -- inline-c is \"trusted verbatim as\nreal C\"), a genuine unsandboxed RCE vector for LLM-controlled input. Fixed per the founder's own\nfollow-up suggestion: compile to PARENA's Java target instead. Confirmed src/emit_java.c has zero\n#target/inline-anything handling, and this target's own real construct support (scalar F64 math,\nif/not, real math/* -\u003e java.lang.Math.* lowering) makes a compiled program provably a pure\nfunction -- no file/network/process access is even expressible in the language surface available\nthere. Runs in a real JVM with a capped heap + hard timeout on every subprocess.\n\nShipped: internal/nock/procgen.go (validate -\u003e parena build -o X.java -\u003e javac -\u003e java -\u003e PPM -\u003e\nPNG), gen_vertex.go (real Vertex AI call, same ADC pattern gfd_item_proposals.go uses), new\nLayer.Source field, Service.AddProceduralLayer/RegenerateProceduralLayer/GetProceduralSource,\ncmd/nock proc-add/proc-edit/proc-show, HTTP endpoints, and a real GUI panel. 13 new tests against\nthe real toolchain. Live-verified manually: a real checkerboard pattern from real Math.cos calls,\nfull pipeline PARENA-\u003eJava-\u003eJVM-\u003ePNG. go build/vet/test ./... clean.\n\nIDUNA commit eac7a98.\nsession: sess-20260905-0720-ec33e7c5\n\n⚓ ☃",
+  "id": 19114,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "IDUNA",
+  "title": "NOCK: procedural texture generation via PARENA (Java target, not C) + Vertex AI"
+}

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-12T05:29:48Z",
+  "generated_at": "2026-09-12T05:30:43Z",
   "repo": "APPLES",
-  "count": 8576,
+  "count": 8577,
   "apples": [
     {
       "id": 10525,
@@ -68610,6 +68610,14 @@
       "source_repo": "emily",
       "date": "20260912",
       "archived_at": "2026-09-12T05:29:48Z"
+    },
+    {
+      "id": 19114,
+      "type": "completion",
+      "title": "NOCK: procedural texture generation via PARENA (Java target, not C) + Vertex AI",
+      "source_repo": "IDUNA",
+      "date": "20260912",
+      "archived_at": "2026-09-12T05:30:43Z"
     }
   ]
 }
