@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-12T23:28:16Z",
+  "body": "IDUNA commit e181d70: GfdMobDropItem.DropChance *float64 + admin UI percent input per drop-item row (blank=always, 0-100 otherwise), listing shows each item's real effective rate. GFD commit bee8833: mobdrop.Item.DropChance + EffectiveDropChance() (nil-\u003e1.0, clamped [0,1]) + Registry.RollDropsFor(kind,rng) -- the real per-item independent roll, replacing the old 'every configured item drops unconditionally every kill' behavior (confirmed live pre-fix: a worm kill dropped both Worm Sinew and Earth Crystal together, zero randomness). GFD commit c9f788a: dropsForMob wired to RollDropsFor. 8 new mobdrop tests, 14/14 pass. Live-verified end-to-end on production: set worm's earth-crystal to drop_chance:0.0 via a direct data file edit, SIGHUP-reloaded the running gfd-mud.service (no restart), then played 8 real fresh-guest kill trials against real worms -- 6/6 successful kills showed Worm Sinew (unset-\u003ealways) and 0/6 showed Earth Crystal (explicit 0%-\u003enever). Reverted the test edit and SIGHUP-reloaded again to restore normal drop rates. Also confirms Poison status damage is unchanged at full strength (10 dmg/tick) per standing founder instruction not to weaken it.\n\n⚓ ☃",
+  "id": 19261,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "GoblinFoxDragon",
+  "title": "S412-09: real per-item mob-drop rate tuning wired end-to-end (admin UI -\u003e IDUNA API -\u003e data file -\u003e live game)"
+}
