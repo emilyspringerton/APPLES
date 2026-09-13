@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-13T06:30:32Z",
+  "body": "Founder real-time: 'ok lets fill in the gaps and then get a colab workflow set up' -\u003e 'design the rewards system if we havent already'. Shipped: real PACKET_RESET_MATCH/PACKET_RESET_ACK giving RL episodes a genuine boundary -- found and fixed TWO more real live bugs while verifying it end to end (local_init_match(1,...) only initializes slot 0, an early reset-handler version left the client's own slot zeroed; PacketClient.recv_snapshot/reset_match gave up on the first stray backlog packet instead of waiting for the specific type needed, a real failure mode under --fast-forward's higher packet rate). Real --port flag on bin/brawlpit_server (was hardcoded 6978), live-verified with two simultaneous server processes on different ports. A real, documented three-tier reward design (outcome / positional shaping conditioned on the real PARENA commander posture -- edge-danger penalty, recovery-success bonus, edgeguard-conversion bonus / survival), 8 new tests. scripts/rl_train_packet.py: the real orchestrator running all 3 league archetypes in one process, each with its own dedicated server, registering all 3 as one snapshot per generation. notebooks/brawlpit_rl_training.ipynb: a real Colab workflow (clone, build, pip install gymnasium/stable_baselines3, smoke-test, a real training run, league standings, download). 76 Python tests (was 68) + 2 C test binaries, all pass. Commit 24be529. Real, honest, not done: no actual multi-hour training run (S419-09), no real self-play -- each model trains against a static default opponent, not the league's own checkpoint pool (S419-10, named not built). Full writeup: BRAWLPIT/docs/RL_TRAINING_NORTHSTAR.md.\n\n⚓ ☃",
+  "id": 19340,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "BRAWLPIT",
+  "title": "S419-07/08/11: filled RL pipeline gaps -- PACKET_RESET_MATCH, --port, reward design, training orchestrator, Colab workflow"
+}
