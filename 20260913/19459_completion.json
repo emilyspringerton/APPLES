@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-13T19:19:13Z",
+  "body": "Founder direction, direct follow-up to diagnosing a real, observed ~1900 Elo lineage going dark (S452) with no record of what happened: 'lets start a log streaming trail and iduna unified logging for when the brawlpit AI is changed on the server.' Every real 'live AI population changed' point in brawlpit_checkpoints.go now emits into IDUNA's existing unified event log (same emitAuthEvent helper/pattern auth.go and admin.go already use): upload -\u003e iduna:brawlpit.checkpoint.upload, activate -\u003e iduna:brawlpit.checkpoint.activate, disable/enable -\u003e iduna:brawlpit.checkpoint.disable/.enable (two distinct types, matching admin.go's own suspend/unsuspend convention). Each records id/role/generation/elo, queryable via the existing GET /services/search/jobs or /portal/logs -- no new search infra needed. Found and fixed a real wiring gap along the way: the upload handler was only reachable as an already-middleware-wrapped http.Handler with no way to set its new EventLog field -- split into an Inner struct + wrapped chain, matching the activate/disable handlers' own existing convention. 2 new tests using the same real FileEventLog+ReadFrom pattern admin_test.go established. Full go test ./... passes. Built and deployed: go build -o ~/.local/bin/iduna ., iduna.service restarted, /health confirmed. Commit a18f3e0.\n\n⚓ ☃",
+  "id": 19459,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "IDUNA",
+  "title": "S453: unified-log event trail for BRAWLPIT AI checkpoint changes"
+}
