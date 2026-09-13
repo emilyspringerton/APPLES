@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-13T16:50:54Z",
+  "generated_at": "2026-09-13T16:50:56Z",
   "repo": "APPLES",
-  "count": 8893,
+  "count": 8894,
   "apples": [
     {
       "id": 10525,
@@ -71146,6 +71146,14 @@
       "source_repo": "BRAWLPIT",
       "date": "20260913",
       "archived_at": "2026-09-13T16:50:54Z"
+    },
+    {
+      "id": 19431,
+      "type": "completion",
+      "title": "S443: real self-play -- training now fights a frozen copy of its own immediately-prior generation",
+      "source_repo": "BRAWLPIT",
+      "date": "20260913",
+      "archived_at": "2026-09-13T16:50:56Z"
     }
   ]
 }
