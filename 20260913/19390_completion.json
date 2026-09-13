@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-13T11:19:12Z",
+  "body": "Founder real-time: 'check in the model half as frequently' / 'switch the training level to 4' / 'disabling a model should disable it from training, python skrip pulling all of em still' / 'button for disable all'. Wired bin/brawlpit_server's own --level flag through rl_train_packet.py's 3-role orchestrator (never connected before, a real gap); colab_train.py's BRAWLPIT_SAVE_FREQ default doubled 2048-\u003e4096; new _is_checkpoint_disabled makes an ALREADY-RUNNING training process actually pause a role when its own last-pushed checkpoint gets disabled through NOCK (the existing resume/bot-pool filtering was already correct and pushed -- what was missing was live enforcement against a running process); new 'Disable All' button in NOCK's AI Opponents table, deployed live with dist rebuild verified embedded. 12 new Python tests, 122/122 total pass. BRAWLPIT commits a6d9243/e7f09ee, IDUNA commit c1790ba.\n\n⚓ ☃",
+  "id": 19390,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "BRAWLPIT",
+  "title": "S431: --level passthrough, live disable-pauses-training, half-frequency checkpointing, Disable All button"
+}

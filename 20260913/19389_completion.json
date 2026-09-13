@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-13T11:19:12Z",
+  "body": "Founder real-time: 'how can we switch to RNN with hand tailored features and a critic with access to privledged info like opponent health' -- hand-tailored-features piece of that plan (founder chose this order: features -\u003e RNN -\u003e asymmetric critic). 10 new terms: relative dx/dy, distance, signed closing velocity, own/opp time-to-any-blast-zone (constant-velocity danger estimate), own/opp facing-toward-opponent, signed damage/stock diffs. OBS_SIZE 21-\u003e31, a real, named breaking change for --resume-from-registry against pre-S430 checkpoints -- verified the C side degrades safely (mlp_policy_forward's own existing shape check + ai_opponent_drive's existing no-op-on-mismatch). 7 new tests, full C build+tests pass (./scripts/build.sh + build_training.sh, zero failures). BRAWLPIT commit a6d9243.\n\n⚓ ☃",
+  "id": 19389,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "BRAWLPIT",
+  "title": "S430: 10 hand-tailored relational observation features"
+}
