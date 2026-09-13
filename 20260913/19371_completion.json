@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-13T09:04:33Z",
+  "body": "Founder real-time: 'can we add diminishing marginal returns for the reward for pushing buttons?' The Nth button press this episode is now worth REWARD_BUTTON_PRESS_PER_TICK/N (harmonic decay), not a flat amount every time -- a real, gentle nudge against pure button-mashing while keeping the first press at full, undiminished magnitude (matching prior training runs' baseline). Movement stays flat per the ask's own specific scoping to buttons. Backward-compatible optional param (button_press_count=None keeps old flat behavior). 4 new tests, 103/103 total pass. Restarted the live training process using the newly-added --resume-from-registry flag so ~5 generations of accumulated progress were preserved rather than discarded.\n\n⚓ ☃",
+  "id": 19371,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "BRAWLPIT",
+  "title": "S426: diminishing marginal returns on the button-press activity reward"
+}
