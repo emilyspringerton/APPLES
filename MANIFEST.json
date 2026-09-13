@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-13T02:50:33Z",
+  "generated_at": "2026-09-13T02:53:12Z",
   "repo": "APPLES",
-  "count": 8768,
+  "count": 8769,
   "apples": [
     {
       "id": 10525,
@@ -70146,6 +70146,14 @@
       "source_repo": "EMILY",
       "date": "20260913",
       "archived_at": "2026-09-13T02:50:33Z"
+    },
+    {
+      "id": 19306,
+      "type": "completion",
+      "title": "S417-02: public, read-only HTTPS API for BRAWLPIT level browsing -- shipped and live-verified over the real public domain",
+      "source_repo": "IDUNA",
+      "date": "20260913",
+      "archived_at": "2026-09-13T02:53:12Z"
     }
   ]
 }

@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-13T02:53:11Z",
+  "body": "Founder real-time: 'brawlpit needs a level selection/browser interface it needs to work over https or some secure channel.' New BrawlpitLevelsPublicHandler at /api/v1/brawlpit-levels -- list + export, GET only, deliberately unauthenticated (public discovery, not editing), a genuinely separate minimal handler type with zero write methods so a routing mistake can't expose one. 6 new tests. Live-verified over the real public domain (https://okemily.com/api/v1/brawlpit-levels): listed the founder's own real 'test'/'TEST' levels created earlier via the web editor, exported 'test' getting back the exact real native-loader JSON shape (version/name/width/height/platforms), and confirmed a POST to the same endpoint is correctly refused with 405. IDUNA commit dfdde0b.\n\n⚓ ☃",
+  "id": 19306,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "IDUNA",
+  "title": "S417-02: public, read-only HTTPS API for BRAWLPIT level browsing -- shipped and live-verified over the real public domain"
+}
