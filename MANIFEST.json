@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-13T16:12:13Z",
+  "generated_at": "2026-09-13T16:22:20Z",
   "repo": "APPLES",
-  "count": 8887,
+  "count": 8888,
   "apples": [
     {
       "id": 10525,
@@ -71098,6 +71098,14 @@
       "source_repo": "emily",
       "date": "20260913",
       "archived_at": "2026-09-13T16:12:13Z"
+    },
+    {
+      "id": 19425,
+      "type": "completion",
+      "title": "S440: real parallel env support via --num-envs / SubprocVecEnv",
+      "source_repo": "BRAWLPIT",
+      "date": "20260913",
+      "archived_at": "2026-09-13T16:22:20Z"
     }
   ]
 }

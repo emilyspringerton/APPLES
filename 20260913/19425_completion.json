@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-13T16:22:20Z",
+  "body": "Founder real-time: 'you said run more at the same time to speed up training? how we do that?' New --num-envs N spawns N real dedicated bin/brawlpit_server processes per role, stepped in true OS-level parallel via stable_baselines3's own SubprocVecEnv, so one PPO rollout collects N x n_steps of real experience in roughly the wall-clock time a single env's own n_steps took. ROLE_PORTS renamed to ROLE_BASE_PORTS with a wide 100-port reserved block per role; EVAL_PORT moved clear of all of them. make_vec_env() returns the plain env directly for num_envs=1 (zero overhead, byte-for-byte pre-S440 behavior) or a real SubprocVecEnv for more; _check_role_server_alive checks every server in a role's list. Wired through colab_train.py via BRAWLPIT_NUM_ENVS. Real, honest, measured caveat documented directly in the code and CLI help: live-tested on this box's real 8-core dev machine, --num-envs 2 (6 servers total) was actually SLOWER (7.7 steps/sec) than --num-envs 1 (11.3 steps/sec) -- genuine CPU oversubscription since all 3 roles' servers run continuously regardless of which role is training. Only helps with meaningfully more free cores than 3x the value. 5 new tests (including a real constructed SubprocVecEnv), 129/129 total pass. BRAWLPIT commits bcb49f9/d9c1466.\n\n⚓ ☃",
+  "id": 19425,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "BRAWLPIT",
+  "title": "S440: real parallel env support via --num-envs / SubprocVecEnv"
+}
