@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-13T16:07:24Z",
+  "body": "Founder pasted a real Colab transcript proving it: every single _run() call's own real output (git clone progress, git log's commit line, apt-get, build_training.sh's build messages, pip install) was completely missing, while plain Python print() calls showed fine. Root cause: bare subprocess.run(cmd) inherits raw OS file descriptors directly, which this specific Colab/Jupyter kernel setup does not reliably forward to the visible cell output the way it forwards sys.stdout writes. This is almost certainly the real explanation for every 'no output, no idea what's happening' report today -- rl_train_packet.py (including every S437 heartbeat line) was launched the exact same bare way, so its real output was never going to show regardless of the training code itself. Fixed: new _stream() pipes stdout+stderr and re-emits every line through a real Python print(flush=True), used by both setup steps and the final long-running training call. Live-verified real incremental streaming (not buffered-to-end) and correct CalledProcessError propagation on failure. 125/125 tests pass. BRAWLPIT commit cc5818c.\n\n⚓ ☃",
+  "id": 19422,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "BRAWLPIT",
+  "title": "S439: real root cause found -- colab_train.py's subprocess output never reached the visible Colab cell"
+}
