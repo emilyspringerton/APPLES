@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-13T20:57:01Z",
+  "generated_at": "2026-09-13T21:04:59Z",
   "repo": "APPLES",
-  "count": 8933,
+  "count": 8934,
   "apples": [
     {
       "id": 10525,
@@ -71466,6 +71466,14 @@
       "source_repo": "emily",
       "date": "20260913",
       "archived_at": "2026-09-13T20:57:01Z"
+    },
+    {
+      "id": 19471,
+      "type": "completion",
+      "title": "S456: wire ent_coef through argparse and all call sites to fix PPO policy collapse",
+      "source_repo": "BRAWLPIT",
+      "date": "20260913",
+      "archived_at": "2026-09-13T21:04:59Z"
     }
   ]
 }

@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-13T21:04:58Z",
+  "body": "gen1 main collapsed permanently to a zero-variance no-buttons policy -- SB3's PPO defaults ent_coef=0.0, no protection against log_std drifting to near-zero variance (and once very negative, the recovery gradient is itself nearly flat, so it never un-collapses). Added --ent-coef flag (default 0.01), wired into _fresh_model/_load_resumed_model_or_fresh and all 3 call sites in main(). Test assertion updated for new kwarg, 34/34 pass. Commit 055beb8.\n\n⚓ ☃",
+  "id": 19471,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "BRAWLPIT",
+  "title": "S456: wire ent_coef through argparse and all call sites to fix PPO policy collapse"
+}
