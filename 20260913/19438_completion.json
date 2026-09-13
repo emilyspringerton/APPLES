@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-13T17:22:18Z",
+  "body": "CHANGELOG updated in BRAWLPIT: S444: corrected self-play opponent selection per role (Main Exploiter targets Main, League Exploiter samples the roster, Main self-plays); S445/S446: fixed real matchmaking re-queue guard and dropped-MATCH_FOUND ack bugs in apps/server/src/main.c, with a new permanent live-server regression test (sess-20260905-0720-ec33e7c5)\n\n⚓ ☃",
+  "id": 19438,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "BRAWLPIT",
+  "title": "changelog(BRAWLPIT): S444: corrected self-play opponent selection per role (Main…"
+}
