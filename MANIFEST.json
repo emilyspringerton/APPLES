@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-13T17:21:46Z",
+  "generated_at": "2026-09-13T17:21:48Z",
   "repo": "APPLES",
-  "count": 8899,
+  "count": 8900,
   "apples": [
     {
       "id": 10525,
@@ -71194,6 +71194,14 @@
       "source_repo": "BRAWLPIT",
       "date": "20260913",
       "archived_at": "2026-09-13T17:21:46Z"
+    },
+    {
+      "id": 19437,
+      "type": "completion",
+      "title": "S444: role-specific self-play opponent selection corrected per founder's AlphaStar-league design",
+      "source_repo": "BRAWLPIT",
+      "date": "20260913",
+      "archived_at": "2026-09-13T17:21:48Z"
     }
   ]
 }
