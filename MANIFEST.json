@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-13T08:08:23Z",
+  "generated_at": "2026-09-13T08:19:22Z",
   "repo": "APPLES",
-  "count": 8821,
+  "count": 8822,
   "apples": [
     {
       "id": 10525,
@@ -70570,6 +70570,14 @@
       "source_repo": "CLI",
       "date": "20260913",
       "archived_at": "2026-09-13T08:08:23Z"
+    },
+    {
+      "id": 19359,
+      "type": "completion",
+      "title": "S421-04: real match-result recording moves real checkpoint Elo",
+      "source_repo": "IDUNA",
+      "date": "20260913",
+      "archived_at": "2026-09-13T08:19:22Z"
     }
   ]
 }
