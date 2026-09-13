@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-13T21:22:50Z",
+  "body": "REAL ROOT CAUSE of the live AI standing still while training elo climbed normally: ai_opponent_build_observation() stopped writing at 21 of the real 31 S430 observation dims (the posture one-hot) -- obs[21..30] were uninitialized stack garbage fed into the live policy net every frame, even though the 10 relational-feature helpers it needed (ai_opponent_time_to_any_blast_normalized, ai_opponent_facing_toward, etc.) already existed in the same file, fully correct, just never called. Training stayed healthy (pure Python build_observation always filled all 31) so this was invisible in elo. Added the missing block; hand-verified bit-for-bit against rl_env_packet.py's own build_observation() for an identical synthetic state -- all 31 dims match exactly. New tests/test_ai_opponent.c locks this down, wired into scripts/build.sh. Full build + all 5 C test suites pass. Commit c77f1c1.\n\n⚓ ☃",
+  "id": 19473,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "BRAWLPIT",
+  "title": "S457: implement the missing S430 relational-feature block in ai_opponent_build_observation"
+}
