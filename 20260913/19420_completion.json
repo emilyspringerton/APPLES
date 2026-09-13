@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-13T15:59:56Z",
+  "body": "Founder real-time, justified frustration at being asked to manually diagnose staleness instead of the script guaranteeing it itself: 'either it should be updated or not handle it... you didnt rig up the entrypoint it should always be the colab skrip.' Real gap: _bootstrap_repo used git pull --ff-only, which silently no-ops if the local checkout ever diverged -- no loud error, just stays stale indefinitely across cell restarts in the same runtime. Fixed: git fetch + git reset --hard origin/main unconditionally forces the real latest commit every run, and the resulting commit hash now prints as normal output automatically every time, no separate command needed. Live-verified: reset a real local clone 5 commits behind, ran the new logic, confirmed it force-updated correctly. BRAWLPIT commit 15e6d9d.\n\n⚓ ☃",
+  "id": 19420,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "BRAWLPIT",
+  "title": "S438: colab_train.py now force-updates to the real latest commit every run"
+}
