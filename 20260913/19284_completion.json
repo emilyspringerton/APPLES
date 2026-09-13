@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-13T01:45:50Z",
+  "body": "Real, blocking Phase 0 prerequisite from BP_LEVEL_EDITOR_NORTHSTAR.md. New packages/common/level_format.h -- a small, dependency-free JSON reader/writer scoped to a real, narrow level shape ({version, name, platforms:[{x,y,w,h,type}]}). physics.h's stage_set_active now loads each real stage (STAGE_FD/STAGE_TIMELINE) from a real JSON file (data/levels/*.json, created here) first, falling back to the original compiled-in arrays only if missing. Real, honest correction found while scoping: the 'levels/*.c' StageDef system (Battlefield/Final Destination/Weird Void) is dead code never compiled into the real client -- the real, live geometry is physics.h's own stage_fd_geo/stage_timeline_geo, which is what this pass actually re-expressed as data. 9 new tests, all passing; scripts/build.sh clean end to end (client+server+33 tests). Commit 67a5363.\n\n⚓ ☃",
+  "id": 19284,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "BRAWLPIT",
+  "title": "S415-01: real, data-driven level format + native runtime loader (Phase 0 of the BRAWLPIT online level editor)"
+}

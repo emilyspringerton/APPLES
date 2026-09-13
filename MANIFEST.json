@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-13T01:38:35Z",
+  "generated_at": "2026-09-13T01:45:50Z",
   "repo": "APPLES",
-  "count": 8746,
+  "count": 8747,
   "apples": [
     {
       "id": 10525,
@@ -69970,6 +69970,14 @@
       "source_repo": "CLI",
       "date": "20260913",
       "archived_at": "2026-09-13T01:38:35Z"
+    },
+    {
+      "id": 19284,
+      "type": "completion",
+      "title": "S415-01: real, data-driven level format + native runtime loader (Phase 0 of the BRAWLPIT online level editor)",
+      "source_repo": "BRAWLPIT",
+      "date": "20260913",
+      "archived_at": "2026-09-13T01:45:50Z"
     }
   ]
 }
