@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-13T07:47:14Z",
+  "generated_at": "2026-09-13T07:49:59Z",
   "repo": "APPLES",
-  "count": 8816,
+  "count": 8817,
   "apples": [
     {
       "id": 10525,
@@ -70530,6 +70530,14 @@
       "source_repo": "IDUNA",
       "date": "20260913",
       "archived_at": "2026-09-13T07:47:14Z"
+    },
+    {
+      "id": 19354,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: 'can we start recording the match results with the actual outcomes?' -- c…",
+      "source_repo": "CLI",
+      "date": "20260913",
+      "archived_at": "2026-09-13T07:49:59Z"
     }
   ]
 }
