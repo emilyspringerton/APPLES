@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-13T19:28:34Z",
+  "generated_at": "2026-09-13T19:33:41Z",
   "repo": "APPLES",
-  "count": 8924,
+  "count": 8925,
   "apples": [
     {
       "id": 10525,
@@ -71394,6 +71394,14 @@
       "source_repo": "emily",
       "date": "20260913",
       "archived_at": "2026-09-13T19:28:34Z"
+    },
+    {
+      "id": 19462,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: re-enable BRAWLPIT registry checkpoints disabled by NOCK's 'Disable All' …",
+      "source_repo": "CLI",
+      "date": "20260913",
+      "archived_at": "2026-09-13T19:33:41Z"
     }
   ]
 }
