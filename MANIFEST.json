@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-13T17:28:33Z",
+  "generated_at": "2026-09-13T17:34:01Z",
   "repo": "APPLES",
-  "count": 8904,
+  "count": 8905,
   "apples": [
     {
       "id": 10525,
@@ -71234,6 +71234,14 @@
       "source_repo": "BRAWLPIT",
       "date": "20260913",
       "archived_at": "2026-09-13T17:28:33Z"
+    },
+    {
+      "id": 19442,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: add a 'Hide Disabled' toggle to the NOCK AI Opponents UI so disabling a c…",
+      "source_repo": "CLI",
+      "date": "20260913",
+      "archived_at": "2026-09-13T17:34:01Z"
     }
   ]
 }
