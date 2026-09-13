@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-13T03:07:59Z",
+  "body": "Founder real-time: 'PARENA has lz4' / 'you can build parena in.' Real correction to my own earlier mistaken diagnosis this session: I initially thought stdlib/compress/lz4.prn couldn't compile without adding generic-type support to PARENA's C emitter (it (import vec)s a generic Vec\u003cT\u003e). Wrong -- vec.prn is a design-only doc that admits in its own header it 'does not compile yet'; Vec/Arena are natively built into the compiler+runtime. lz4.prn compiles standalone with zero emitter changes, verified with a real round-trip test before building anything on top of it.\n\nNew internal/brawlpit/lz4_gen.c (the real generated output of ), a minimal portable parena_runtime.h/.c (not the real ~135KB Linux-specific one -- wrong to drag into a Windows-targeting client or this cgo server), lz4_wrapper.c/h (hand-written byte\u003c-\u003eVec\u003cToken\u003e conversion + this project's own real wire format), and lz4.go (cgo bindings). Two real bugs found and fixed live while building this: a naive 12-bytes/token encoding actually EXPANDED test data 5x; a 1-byte match_len field silently broke compression on genuinely repetitive data (a real match over 255 bytes couldn't be represented). Both fixed with a compact flag+payload scheme + an always-safe STORED fallback (never expands beyond +1 byte).\n\nWired into GET /api/v1/brawlpit-levels/:id/export?compress=lz4 (Content-Type: application/x-brawlpit-lz4). 11 new tests. Live-verified over the real public domain: fetched the founder's own real 'test' level compressed, confirmed it correctly used the STORED fallback (a small, low-redundancy level, matching the real, honest expected behavior), and confirmed the bytes decompress correctly back to the exact original JSON via a real, separate verification run against the live server's own response.\n\n⚓ ☃",
+  "id": 19310,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "IDUNA",
+  "title": "S417-03: real LZ4-style compression via PARENA's own compiled lz4.prn -- shipped, live-verified, wired into the public export endpoint"
+}
