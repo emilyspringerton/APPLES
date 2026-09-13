@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-13T16:07:29Z",
+  "body": "CHANGELOG updated in BRAWLPIT: S439: found and fixed the real root cause of the day's 'no output, no idea what's happening' saga -- colab_train.py used bare subprocess.run() which never forwarded child process output to the visible Colab cell; now streams every line through real Python print() calls (sess-20260905-0720-ec33e7c5)\n\n⚓ ☃",
+  "id": 19423,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "BRAWLPIT",
+  "title": "changelog(BRAWLPIT): S439: found and fixed the real root cause of the day's 'no …"
+}
