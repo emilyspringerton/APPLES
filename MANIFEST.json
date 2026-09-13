@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-13T07:39:35Z",
+  "generated_at": "2026-09-13T07:47:03Z",
   "repo": "APPLES",
-  "count": 8813,
+  "count": 8814,
   "apples": [
     {
       "id": 10525,
@@ -70506,6 +70506,14 @@
       "source_repo": "emily",
       "date": "20260913",
       "archived_at": "2026-09-13T07:39:35Z"
+    },
+    {
+      "id": 19351,
+      "type": "completion",
+      "title": "S421-02/S421-03: native client uses selected AI opponent (real MLP inference, LZ4 download, on-screen HUD) + train on a named registry level",
+      "source_repo": "BRAWLPIT",
+      "date": "20260913",
+      "archived_at": "2026-09-13T07:47:03Z"
     }
   ]
 }
