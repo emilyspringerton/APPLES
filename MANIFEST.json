@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-13T17:34:01Z",
+  "generated_at": "2026-09-13T17:37:11Z",
   "repo": "APPLES",
-  "count": 8905,
+  "count": 8906,
   "apples": [
     {
       "id": 10525,
@@ -71242,6 +71242,14 @@
       "source_repo": "CLI",
       "date": "20260913",
       "archived_at": "2026-09-13T17:34:01Z"
+    },
+    {
+      "id": 19443,
+      "type": "completion",
+      "title": "NOCK AI Opponents: Hide Disabled toggle (soft-delete) + deep-linkable tabs",
+      "source_repo": "IDUNA",
+      "date": "20260913",
+      "archived_at": "2026-09-13T17:37:11Z"
     }
   ]
 }

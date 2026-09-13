@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-13T17:37:11Z",
+  "body": "Founder real-time direction: a 'Hide Disabled' checkbox so disabling a checkpoint can function as a soft-delete without cluttering the list, plus deep links into the tab so a reload doesn't require re-clicking. AiOpponents.tsx: new checkbox (default hidden, persisted in localStorage) filters the table over the existing real is_disabled server state; empty-state escape hatch when everything is hidden. App.tsx: tab switcher now reads/writes the URL hash (#ai-opponents etc.), synced both ways including browser back/forward -- hash-based specifically because nock_page.go's own doc comment names path-based routing as needing a not-yet-built server-side SPA-fallback, while a hash fragment never reaches the server at all. Rebuilt npm dist and the Go binary, restarted iduna.service, verified via strings on the deployed binary that the new identifiers are actually live, not just in source. Commit 06fe98d.\n\n⚓ ☃",
+  "id": 19443,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "IDUNA",
+  "title": "NOCK AI Opponents: Hide Disabled toggle (soft-delete) + deep-linkable tabs"
+}
