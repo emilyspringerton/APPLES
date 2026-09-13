@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-13T03:16:42Z",
+  "generated_at": "2026-09-13T03:16:44Z",
   "repo": "APPLES",
-  "count": 8778,
+  "count": 8779,
   "apples": [
     {
       "id": 10525,
@@ -70226,6 +70226,14 @@
       "source_repo": "BRAWLPIT",
       "date": "20260913",
       "archived_at": "2026-09-13T03:16:42Z"
+    },
+    {
+      "id": 19316,
+      "type": "backlog_completion",
+      "title": "Manual kanban move: BRAWLPIT: native level-browser UI screen (fetch/pick/load on",
+      "source_repo": "EMILY",
+      "date": "20260913",
+      "archived_at": "2026-09-13T03:16:44Z"
     }
   ]
 }
