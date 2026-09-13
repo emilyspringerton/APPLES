@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-13T15:48:38Z",
+  "body": "Founder real-time, twice: 'it just says running... no idea whats going on.' Real gap: model.learn() ran with verbose=0, producing zero output for the entire duration of a training chunk (potentially very long on a slow/starved machine) -- made 'alive but crawling' indistinguishable from 'frozen' with nothing to check. New _HeartbeatCallback prints elapsed time + measured steps/sec every 200 env steps. Live-verified against a real running server: heartbeat line appeared exactly as expected mid-chunk. 125/125 tests pass, purely additive (no reward/training logic change). BRAWLPIT commit 8d4e066.\n\n⚓ ☃",
+  "id": 19417,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "BRAWLPIT",
+  "title": "S437: real heartbeat progress output during training"
+}
