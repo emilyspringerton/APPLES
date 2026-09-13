@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-13T02:50:05Z",
+  "body": "Founder real-time, continuing S415: 'the levels need to be actually playable in brawlpit.' Two real gaps closed: (1) blast zones were 4 fixed global constants tuned only for the 2 original stages -- a custom small level made KOs nearly impossible, a large one KO'd players still on-screen. level_format.h's LevelData gains real, optional width/height (0=absent=zero regression for the 2 pre-existing level files); stage_load_level_file derives real, scaled stage_blast_left/right/top/bottom when present; stage_set_active resets to the real original constants before loading a built-in stage so a prior custom level's zone never leaks over. (2) No client-side path loaded anything but the 2 hardcoded stage IDs at all -- added STAGE_CUSTOM + a real local level browser (STATE_LEVEL_BROWSER, press L in the lobby) that scans data/levels/*.json cross-platform and plays the selected one through the existing character-select flow. IDUNA's Export()/ExportDoc (commit 55478ed) now round-trips width/height too, so a web-authored level gets the real, correct scaling. 9 new BRAWLPIT tests (38/38 total pass) + live-verified twice: a real Xvfb screenshot shows the new lobby button rendering correctly, and a real small level created via the live IDUNA DB, exported, and loaded through the native loader produced the exact correctly-scaled blast zone (+/-15 for a 20-wide level). BRAWLPIT commit 269880a.\n\n⚓ ☃",
+  "id": 19303,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "BRAWLPIT",
+  "title": "S417-01: custom BRAWLPIT levels are now actually playable -- real level-scaled blast zones + a real local level browser"
+}

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-13T02:47:03Z",
+  "generated_at": "2026-09-13T02:50:05Z",
   "repo": "APPLES",
-  "count": 8765,
+  "count": 8766,
   "apples": [
     {
       "id": 10525,
@@ -70122,6 +70122,14 @@
       "source_repo": "emily",
       "date": "20260913",
       "archived_at": "2026-09-13T02:47:03Z"
+    },
+    {
+      "id": 19303,
+      "type": "completion",
+      "title": "S417-01: custom BRAWLPIT levels are now actually playable -- real level-scaled blast zones + a real local level browser",
+      "source_repo": "BRAWLPIT",
+      "date": "20260913",
+      "archived_at": "2026-09-13T02:50:05Z"
     }
   ]
 }
