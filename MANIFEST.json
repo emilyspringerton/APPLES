@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-13T07:10:05Z",
+  "generated_at": "2026-09-13T07:19:37Z",
   "repo": "APPLES",
-  "count": 8810,
+  "count": 8811,
   "apples": [
     {
       "id": 10525,
@@ -70482,6 +70482,14 @@
       "source_repo": "emily",
       "date": "20260913",
       "archived_at": "2026-09-13T07:10:05Z"
+    },
+    {
+      "id": 19348,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: 'ensure that the client actually uses that model (download it when the ga…",
+      "source_repo": "CLI",
+      "date": "20260913",
+      "archived_at": "2026-09-13T07:19:37Z"
     }
   ]
 }
