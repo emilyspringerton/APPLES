@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-13T13:57:04Z",
+  "generated_at": "2026-09-13T14:12:20Z",
   "repo": "APPLES",
-  "count": 8872,
+  "count": 8873,
   "apples": [
     {
       "id": 10525,
@@ -70978,6 +70978,14 @@
       "source_repo": "emily",
       "date": "20260913",
       "archived_at": "2026-09-13T13:57:04Z"
+    },
+    {
+      "id": 19410,
+      "type": "audit",
+      "title": "Cycle 13485 — idle (no queued tasks)",
+      "source_repo": "emily",
+      "date": "20260913",
+      "archived_at": "2026-09-13T14:12:20Z"
     }
   ]
 }
