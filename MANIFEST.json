@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-13T01:58:02Z",
+  "generated_at": "2026-09-13T01:58:04Z",
   "repo": "APPLES",
-  "count": 8757,
+  "count": 8758,
   "apples": [
     {
       "id": 10525,
@@ -70058,6 +70058,14 @@
       "source_repo": "EMILY",
       "date": "20260913",
       "archived_at": "2026-09-13T01:58:02Z"
+    },
+    {
+      "id": 19295,
+      "type": "backlog_completion",
+      "title": "Manual kanban move: a user can choose the size of the level",
+      "source_repo": "EMILY",
+      "date": "20260913",
+      "archived_at": "2026-09-13T01:58:04Z"
     }
   ]
 }
