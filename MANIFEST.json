@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-13T01:57:35Z",
+  "generated_at": "2026-09-13T01:57:50Z",
   "repo": "APPLES",
-  "count": 8751,
+  "count": 8752,
   "apples": [
     {
       "id": 10525,
@@ -70010,6 +70010,14 @@
       "source_repo": "IDUNA",
       "date": "20260913",
       "archived_at": "2026-09-13T01:57:35Z"
+    },
+    {
+      "id": 19289,
+      "type": "backlog_completion",
+      "title": "Manual kanban move: Real BRAWLPIT level data format + native runtime loader (blo",
+      "source_repo": "EMILY",
+      "date": "20260913",
+      "archived_at": "2026-09-13T01:57:50Z"
     }
   ]
 }
