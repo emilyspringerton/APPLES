@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-13T19:04:21Z",
+  "generated_at": "2026-09-13T19:11:54Z",
   "repo": "APPLES",
-  "count": 8918,
+  "count": 8919,
   "apples": [
     {
       "id": 10525,
@@ -71346,6 +71346,14 @@
       "source_repo": "BRAWLPIT",
       "date": "20260913",
       "archived_at": "2026-09-13T19:04:21Z"
+    },
+    {
+      "id": 19456,
+      "type": "completion",
+      "title": "S452: loud warning when --resume-from-registry skips a role's entire disabled history",
+      "source_repo": "BRAWLPIT",
+      "date": "20260913",
+      "archived_at": "2026-09-13T19:11:54Z"
     }
   ]
 }

@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-13T19:11:54Z",
+  "body": "Founder asked directly 'are we sure we are saving the proper guys to the league and not overwriting good brains with shit new ones?' after observing a real Elo spike to ~1800 with real movement, then losing it. Verified against the live IDUNA registry: nothing was overwritten -- Push is a pure INSERT (confirmed: the same generation number from two runs exists as two separate permanent rows). The actual cause: 282 checkpoints across all 3 roles (94 each) are marked is_disabled, including main's entire ~1700-1900 Elo lineage (id=190, gen13, elo=1772 -- almost certainly the exact spike observed) -- consistent with the NOCK 'Disable All' button firing with no Role filter narrowed. --resume-from-registry correctly skips disabled checkpoints (S428) but printed the same message for 'never pushed' and 'all disabled', so a later run silently restarted from scratch with no loud signal. New _resume_skip_message() distinguishes the two cases with a real WARNING naming the best disabled checkpoint. 3 new tests, 31/31 pass. Commit fbf41c2.\n\n⚓ ☃",
+  "id": 19456,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "BRAWLPIT",
+  "title": "S452: loud warning when --resume-from-registry skips a role's entire disabled history"
+}
