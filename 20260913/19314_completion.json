@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-13T03:16:20Z",
+  "body": "Founder real-time: 'brawlpit needs a level selection/browser interface it needs to work over https or some secure channel.' The real client half of S417-02/03: the lobby's level browser now lists local files AND the live online registry together, tagged [ONLINE], and selecting a remote entry downloads + LZ4-decompresses + plays it via the exact same runtime path a local file uses (new stage_set_active_from_leveldata, avoiding a pointless temp-file round trip for downloaded content, plus a new STAGE_CUSTOM_MEMORY no-op sentinel). New level_registry.h shells out to the real curl CLI over popen -- this box has the libcurl runtime but no dev headers, matching PARENA's own git.prn precedent for wrapping a real, already-installed CLI tool rather than linking a C library that isn't actually available. Real bug found and fixed live: glibc's popen rejects mode 'rb' outright; fixed with a real per-platform wrapper (Windows _popen does accept 'rb'). packages/common/lz4/ is a byte-for-byte copy of IDUNA's own compiled codec, so both ends of the wire match. Live-verified: a real standalone test fetched the live production registry, downloaded, decompressed, and parsed a real level correctly; bash scripts/build.sh clean (38/38 tests); a real Xvfb screenshot confirms the client still starts/renders correctly. BRAWLPIT commit 6899fbf.\n\n⚓ ☃",
+  "id": 19314,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "BRAWLPIT",
+  "title": "S417-04: real native level browser fetches, decompresses, and plays online BRAWLPIT levels -- shipped and live-verified"
+}
