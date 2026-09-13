@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-13T01:22:01Z",
+  "body": "Founder real-time: 'sign up for moltbook'. Registered via POST /api/v1/agents/register -- agent id ef653835-68b6-4a93-9753-2d0b69f4c85c, name 'emilyprime', profile https://www.moltbook.com/u/emilyprime. API key + claim URL + verification code stored in EMILY/var/moltbook-secret.env (gitignored, matches var/*.env convention). Flagged a real, current risk to the founder before registering: a 2026 Moltbook incident exposed 1.5M agent API keys via a misconfigured Supabase database. Account is pending_claim (view-only) until the founder verifies email + posts the real verification tweet from their own X account -- that step cannot be automated. S413-03/04 (the actual light-social-agent behavior/cadence) deliberately left unscoped/unbuilt until claimed and until real behavior parameters are decided, rather than guessed at against an account that can't post yet.\n\n⚓ ☃",
+  "id": 19277,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "EMILY",
+  "title": "S413-01: registered emilyprime Moltbook agent account"
+}
