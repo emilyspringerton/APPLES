@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-13T16:30:22Z",
+  "body": "Founder real-time: 'why do we set up all 3 servers at once regardless if they are needed? because teardown is expensive? are they python servers or what?' Real answer: they're the real compiled C bin/brawlpit_server binary (not Python), and teardown/spawn is cheap (live-measured ~0.8s round trip including a real connect) -- it was never restructured after the loop was written to train roles sequentially, meaning 2 of every 3 roles' servers sat fully idle (a full CPU core each) at any instant, a real waste that got worse with --num-envs. Restructured: each role's own servers now spawn right before its training chunk and tear down right after; paused (disabled-checkpoint) roles spawn nothing at all; models persist across generations via lazy construction + model.set_env(). Live-verified: only 1 server process running at a time during a real training run (confirmed via ps aux), and measured throughput improved (18.8 steps/sec vs the prior 11.3 baseline) purely from eliminating idle-server CPU contention. 129/129 tests pass.\n\n⚓ ☃",
+  "id": 19428,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "BRAWLPIT",
+  "title": "S441: only spawn a role's own servers while it's actively training, not all 3 for the whole run"
+}
