@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-13T17:21:46Z",
+  "body": "Found and fixed two real, live server-side bugs in BRAWLPIT's 1v1 matchmaking (apps/server/src/main.c) while proving S443's self-play training works end-to-end: (S445) PACKET_FIND_MATCH's admission guard permanently blocked any client from re-queueing after its first matchmade match ended -- fixed by also accepting a re-queue when local_state.match_over is true. (S446) PACKET_MATCH_FOUND is a fire-and-forget UDP send with no ack/retry and can be dropped under --fast-forward's uncapped busy-spin broadcast loop, permanently stalling the affected client even with S445 fixed -- fixed by making FIND_MATCH idempotent (re-sends MATCH_FOUND to an already-active client instead of silently dropping the retry). Added a permanent, checked-in regression test (TestLiveMatchmakingRequeue) that spins up a real server, forces a genuine self-destruct, and confirms re-queueing works -- verified 8/8 clean runs after the fix. Commit 5ab926d.\n\n⚓ ☃",
+  "id": 19436,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "BRAWLPIT",
+  "title": "S445/S446: fixed real matchmaking re-queue and dropped-MATCH_FOUND bugs"
+}

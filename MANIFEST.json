@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-13T17:13:14Z",
+  "generated_at": "2026-09-13T17:21:46Z",
   "repo": "APPLES",
-  "count": 8898,
+  "count": 8899,
   "apples": [
     {
       "id": 10525,
@@ -71186,6 +71186,14 @@
       "source_repo": "emily",
       "date": "20260913",
       "archived_at": "2026-09-13T17:13:14Z"
+    },
+    {
+      "id": 19436,
+      "type": "completion",
+      "title": "S445/S446: fixed real matchmaking re-queue and dropped-MATCH_FOUND bugs",
+      "source_repo": "BRAWLPIT",
+      "date": "20260913",
+      "archived_at": "2026-09-13T17:21:46Z"
     }
   ]
 }

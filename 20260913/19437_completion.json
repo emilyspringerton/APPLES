@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-13T17:21:46Z",
+  "body": "Corrected S443's initial self-play implementation (all 3 roles uniformly self-playing against their own past self) per founder real-time direction: Main Exploiter's sole job is finding Main's current weaknesses (always targets Main's own latest checkpoint), League Exploiter's job is finding strategies that work against the league broadly (samples from the available checkpoint roster), and Main self-plays against its own past self and never resets. New _pick_opponent_checkpoint() function with 7 new tests confirming each role's real targeting behavior and the empty-league/no-checkpoint-yet edge cases. Commit be9d3bf.\n\n⚓ ☃",
+  "id": 19437,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "BRAWLPIT",
+  "title": "S444: role-specific self-play opponent selection corrected per founder's AlphaStar-league design"
+}
