@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-13T11:23:12Z",
+  "generated_at": "2026-09-13T11:35:49Z",
   "repo": "APPLES",
-  "count": 8856,
+  "count": 8857,
   "apples": [
     {
       "id": 10525,
@@ -70850,6 +70850,14 @@
       "source_repo": "emily",
       "date": "20260913",
       "archived_at": "2026-09-13T11:23:12Z"
+    },
+    {
+      "id": 19394,
+      "type": "completion",
+      "title": "S433: fixed real reward-hacking bug in survival-streak term",
+      "source_repo": "BRAWLPIT",
+      "date": "20260913",
+      "archived_at": "2026-09-13T11:35:49Z"
     }
   ]
 }

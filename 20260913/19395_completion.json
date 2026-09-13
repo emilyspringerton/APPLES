@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-13T11:35:49Z",
+  "body": "Investigating founder's 'colab is stuck no idea whats going on' report. Found and fixed two real bugs: (1) --level was wired into _spawn_server/colab_train.py last commit but the argparse flag to receive it on rl_train_packet.py's own command line was never added -- any run setting BRAWLPIT_LEVEL would crash immediately, caught via direct repro before reaching a real run. (2) nothing checked whether a spawned bin/brawlpit_server subprocess died mid-run -- since UDP sendto() to a dead process doesn't error and MATCH_TIME_LIMIT_TICKS counts ticks not wall-clock, a dead server could make an episode take up to ~5 real hours to time out, indistinguishable from 'stuck'. New _check_role_server_alive raises loudly the instant this is noticed. Also confirmed via direct investigation that a real 2048-step PPO rollout takes ~85s at this env's ~24 steps/sec throughput -- expected SB3 behavior, not a hang. 2 new tests, 125/125 total pass. BRAWLPIT commit 9ac9458.\n\n⚓ ☃",
+  "id": 19395,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "BRAWLPIT",
+  "title": "S432/S434: dead-server watchdog + --level argparse crash fix"
+}

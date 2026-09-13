@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-13T11:35:49Z",
+  "body": "Founder caught a real, measured quality regression across successive checkpoints ('walked up a gradient of stupidity... i think i introduced some perverted incentives') and confirmed the mechanism directly ('holding the shield... walk off the edge... actually made you survive longer and win more'). Root cause: SURVIVAL_STREAK_FIB_CAP only clamped the Fibonacci index, not whether the term kept paying -- once a life passed 20 ticks it earned 6.765 reward EVERY TICK forever (up to 27/tick at high damage), tens of thousands of total reward for not dying vs REWARD_WIN=10. Real fix: stop paying the term entirely once survival_ticks exceeds the (lowered, 14) cap, making the real worst-case total per life 3.944 -- safely under REWARD_STOCK_TAKEN=5. New regression test pins this. 56/56 tests pass. BRAWLPIT commit a0fbfb8.\n\n⚓ ☃",
+  "id": 19394,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "BRAWLPIT",
+  "title": "S433: fixed real reward-hacking bug in survival-streak term"
+}
