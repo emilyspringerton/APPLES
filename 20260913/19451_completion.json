@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-13T18:40:46Z",
+  "body": "CHANGELOG updated in BRAWLPIT: S449: Hyperbot-style real-time half-life discounting scales the S442 inactivity penalty up as the match clock runs down (new time_pressure_multiplier()); S450: fixed a real --fast-forward busy-spin bug in apps/server/src/main.c (idle CPU ~100% -\u003e ~0%) by blocking on select() instead of a tight non-blocking recvfrom() loop, making the server genuinely event-driven (sess-20260905-0720-ec33e7c5)\n\n⚓ ☃",
+  "id": 19451,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "BRAWLPIT",
+  "title": "changelog(BRAWLPIT): S449: Hyperbot-style real-time half-life discounting scales…"
+}
