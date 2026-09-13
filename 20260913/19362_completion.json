@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-13T08:19:38Z",
+  "body": "scripts/rl_bot_pool.py (new): 9-bot pool (all registry generations with exported weights), up to 4 dedicated bot-vs-bot servers plus 1 bot always queued for humans (safety-defaulted to a local server, never production). Founder real-time: 'use matchmaking queues to manage load as the bot pool grows really low elos get looong queue times because we dont really need data on a shit bot fighting against anything really' -- built BotMatchmaker: a shared, thread-safe, Elo-proximity pairing queue (refreshes live Elo from the registry each decision, pairs the longest-waiting free bot with its closest-current-Elo free partner) so outlier-Elo bots naturally get paired less often instead of a fixed random pair per port. Found and fixed two real blockers along the way: rl_registry.py never actually implemented record_match_result despite two already-written callers importing it; rl_env_packet.py never defined PACKET_FIND_MATCH/PACKET_MATCH_FOUND/PACKET_QUEUE_STATUS despite rl_evaluate.py/rl_bot_pool.py importing them -- both modules failed ImportError before this fix. 7 new pairing tests (test_rl_bot_pool.py) plus a real live smoke test against 2 real dedicated bin/brawlpit_server processes: real matches played, real Elo moved through production IDUNA, the waiting-for-human bot correctly bot-filled after a 30s queue timeout and correctly did NOT record a result (no human registry identity yet, a real named gap).\n\n⚓ ☃",
+  "id": 19362,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "BRAWLPIT",
+  "title": "S422: persistent Elo-based bot pool with Elo-aware matchmaking queues"
+}
