@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-13T08:49:26Z",
+  "body": "Founder real-time: 'are we setup for pretty auto magical training on colab? ... a single python script to drop into a colab cell ... i guess it needs to download the league from the registry too?' New scripts/colab_train.py: one self-contained script that clones/pulls BRAWLPIT, builds, authenticates against IDUNA (the real M2M agent-secret-\u003eJWT exchange -- honestly distinguished from human OAuth in its own doc comment, since a Colab training run isn't a person), and launches training with the new --resume-from-registry flag. --resume-from-registry (rl_train_packet.py) downloads each role's newest real registry checkpoint (actual PPO weights) and seeds the local league with its real Elo/generation, so a fresh Colab runtime continues the SAME shared league instead of colliding fresh random networks into it. Live-verified against production IDUNA: found the real latest checkpoint per role, downloaded a real 171963-byte checkpoint, loaded it as a genuine SB3 PPO model, and seeded a local league member with the real registry Elo.\n\n⚓ ☃",
+  "id": 19368,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "BRAWLPIT",
+  "title": "S425: single-script auto-magical Colab training + resume-from-registry"
+}

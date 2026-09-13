@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-13T08:49:26Z",
+  "body": "Tier 5 in scripts/rl_env_packet.py: a per-tick bonus that grows along the real Fibonacci sequence (1,1,2,3,5,...) the longer a life lasts (capped at fib-index 20), scaled exponentially by current damage percent (2.0**(damage/100), doubles every 100 damage), reset to zero the instant a stock is actually lost. Founder real-time: 'add a reward that ticks up over time so fib like 1 1 2 3 5 reward for not die also it should go exponentially ish for the higher damage you are it should reward you even more when you oof it resets.' 5 new tests, 99/99 total pass.\n\n⚓ ☃",
+  "id": 19366,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "BRAWLPIT",
+  "title": "S423: Fibonacci survival-streak reward tier"
+}

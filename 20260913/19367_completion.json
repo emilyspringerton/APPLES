@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-13T08:49:26Z",
+  "body": "Found the real root cause of the founder-flagged 'elos stuck at 1500 again' -- register_generation_snapshot's Elo inheritance always worked, but nothing in rl_train_packet.py ever called record_match_result, so Elo never actually moved off the default. Fixed: rl_train_packet.py now runs one real evaluation match per role per generation (new checkpoint vs. that role's own immediately-prior generation, on a dedicated eval server) and records the real outcome locally and to the remote IDUNA registry. Live-verified on the actual running training process: gen 1 vs gen 0 moved real Elo (1500-\u003e1516/1484) for all 3 roles, both locally and on production IDUNA, with zero errors.\n\n⚓ ☃",
+  "id": 19367,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "BRAWLPIT",
+  "title": "S424: automatic per-generation Elo evaluation fixes 'stuck at 1500'"
+}
