@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-13T08:19:22Z",
+  "generated_at": "2026-09-13T08:19:29Z",
   "repo": "APPLES",
-  "count": 8822,
+  "count": 8823,
   "apples": [
     {
       "id": 10525,
@@ -70578,6 +70578,14 @@
       "source_repo": "IDUNA",
       "date": "20260913",
       "archived_at": "2026-09-13T08:19:22Z"
+    },
+    {
+      "id": 19360,
+      "type": "completion",
+      "title": "S421-05: real in-game AI opponent browser matching the level registry",
+      "source_repo": "BRAWLPIT",
+      "date": "20260913",
+      "archived_at": "2026-09-13T08:19:29Z"
     }
   ]
 }

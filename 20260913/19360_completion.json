@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-13T08:19:29Z",
+  "body": "New STATE_AI_OPPONENT_BROWSER in apps/lobby/src/main.c ('K' key), fetch_ai_opponent_registry_list + ai_opponent_select_and_load in packages/common/ai_opponent.h, mirroring the level browser's own list/select/dim-if-unusable shape exactly. Fixed a real memory leak (ai_opponent_load_weights re-selection leaked the prior MlpPolicy's buffers). BRAWLPIT commit d71cb80.\n\n⚓ ☃",
+  "id": 19360,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "BRAWLPIT",
+  "title": "S421-05: real in-game AI opponent browser matching the level registry"
+}
