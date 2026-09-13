@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-13T16:51:39Z",
+  "generated_at": "2026-09-13T16:51:41Z",
   "repo": "APPLES",
-  "count": 8895,
+  "count": 8896,
   "apples": [
     {
       "id": 10525,
@@ -71162,6 +71162,14 @@
       "source_repo": "BRAWLPIT",
       "date": "20260913",
       "archived_at": "2026-09-13T16:51:39Z"
+    },
+    {
+      "id": 19433,
+      "type": "completion",
+      "title": "changelog(BRAWLPIT): S443: real self-play -- BrawlpitPacketEnv can now queue a f…",
+      "source_repo": "BRAWLPIT",
+      "date": "20260913",
+      "archived_at": "2026-09-13T16:51:41Z"
     }
   ]
 }
