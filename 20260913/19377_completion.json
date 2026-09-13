@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-13T09:29:08Z",
+  "body": "Founder real-time: 'i want to reset training but not include certain models from the registry - can you add a checkbox to the registry backend to disable those models from the league?' New is_disabled column on brawlpit_rl_checkpoints (migration 202609131700), CheckpointStore.SetDisabled (a real, independent per-row flag, distinct from the single-global is_active_opponent), new admin-cookie-gated PATCH /admin/nock/api/brawlpit-checkpoints/:id/disable, new checkbox column in the NOCK AI Opponents table (frontend/nock/src/AiOpponents.tsx). Enforcement side built too: rl_train_packet.py's --resume-from-registry lookup and rl_bot_pool.py's fetch_pool_bots both now skip any is_disabled checkpoint, so the checkbox actually excludes a model from resumed training and the bot pool, not just the UI. 5 new Go tests + full existing suite pass; deployed live with a real pre-deploy DB+binary backup, confirmed via a live GET that the new field is present on production.\n\n⚓ ☃",
+  "id": 19377,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "IDUNA",
+  "title": "S428: real, reversible 'disable from league' checkbox for the checkpoint registry"
+}
