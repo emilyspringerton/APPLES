@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-13T09:29:08Z",
+  "generated_at": "2026-09-13T09:29:33Z",
   "repo": "APPLES",
-  "count": 8840,
+  "count": 8841,
   "apples": [
     {
       "id": 10525,
@@ -70722,6 +70722,14 @@
       "source_repo": "IDUNA",
       "date": "20260913",
       "archived_at": "2026-09-13T09:29:08Z"
+    },
+    {
+      "id": 19378,
+      "type": "completion",
+      "title": "changelog(IDUNA): S428: real, reversible per-checkpoint 'disable from league'…",
+      "source_repo": "IDUNA",
+      "date": "20260913",
+      "archived_at": "2026-09-13T09:29:33Z"
     }
   ]
 }
