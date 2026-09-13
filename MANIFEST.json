@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-13T12:10:14Z",
+  "generated_at": "2026-09-13T12:19:52Z",
   "repo": "APPLES",
-  "count": 8863,
+  "count": 8864,
   "apples": [
     {
       "id": 10525,
@@ -70906,6 +70906,14 @@
       "source_repo": "emily",
       "date": "20260913",
       "archived_at": "2026-09-13T12:10:14Z"
+    },
+    {
+      "id": 19401,
+      "type": "completion",
+      "title": "S436: fixed real per-generation eval slowdown (up to ~18 min/gen overhead)",
+      "source_repo": "BRAWLPIT",
+      "date": "20260913",
+      "archived_at": "2026-09-13T12:19:52Z"
     }
   ]
 }

@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-13T12:19:52Z",
+  "body": "Founder real-time: 'earlier it seemed like it was going much faster 2-3 minutes per generations... ive been waitin for 15 mins.' Root cause: S429's real match timer changed run_evaluation_match's own default max_ticks to the full MATCH_TIME_LIMIT_TICKS (9000, ~2.5 real min) -- correct for an actual played match, but rl_train_packet.py's automatic per-generation eval (S424) calls this up to 3x every generation with no override, so weak early policies that never land a KO could each silently run the full 9000-tick timeout (~6+ min) -- up to ~18 min of pure eval overhead per generation on top of real training time. Fixed: the per-generation eval call now passes an explicit EVAL_MAX_TICKS=1800 (~30s), the original pre-S429 default this pipeline already used successfully -- a draw after this cap is a real, honest outcome for a fast comparison. 125/125 tests pass. BRAWLPIT commit a25664e.\n\n⚓ ☃",
+  "id": 19401,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "BRAWLPIT",
+  "title": "S436: fixed real per-generation eval slowdown (up to ~18 min/gen overhead)"
+}
