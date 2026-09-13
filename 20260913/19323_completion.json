@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-13T04:17:30Z",
+  "body": "Founder real-time full requirements doc, 'NOCK — Guide-Based Snapping.' Implemented Guide data model + persistence (own PUT .../guides endpoint, authoring-metadata-only, never in client export), ruler-drag guide creation + platform-edge guide creation, edge/center snapping with screen-space threshold + Alt-key override + highlight feedback, and an explicit mirror-axis command. Guide library (S418-05) deliberately deferred per the doc's own instruction until a real level corpus exists. Commit IDUNA 4dff14b. Live-verified: migration applied cleanly against production var/iduna.db (pre-deploy binary+DB backup taken), service rebuilt+restarted, existing levels confirmed still loading via the real public API post-migration. Full create/save-guides/get/export cycle verified via real SQLite-backed Go tests at store+handler layers, including the 'export never mentions guides' contract. An authenticated live write test through the admin UI was not attempted (would need admin credentials).\n\n⚓ ☃",
+  "id": 19323,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "IDUNA",
+  "title": "S418-01..04: NOCK guide-based snapping for BRAWLPIT level editor"
+}
