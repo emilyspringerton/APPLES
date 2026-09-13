@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-13T19:04:07Z",
+  "body": "Founder reported a real, directly observed failure mode with all prior session fixes (S444-S450) already live: elos mostly flat/dormant, then one model spiked to ~1800 Elo with real movement, then more training reverted it -- all elos back down, models dormant again -- and a second attempt could not reproduce the spike. Diagnosed as classic PPO catastrophic forgetting/policy collapse in self-play: exploration got lucky and found a genuinely good policy (real proof the reward/environment design CAN produce the desired behavior), but nothing stopped a later generation's gradient update from making the live model worse. New _should_revert_main() (pure, unit-tested): true when a generation's real evaluated Elo drops \u003e=100 (REGRESSION_ELO_THRESHOLD, well above Elo's own single-match max swing of 32) below MAIN's own best-ever Elo. Wired into the per-generation eval loop: MAIN's own best (elo, checkpoint, member id) tracked across generations; on a real regression, the live model reloads from that best checkpoint via PPO.load() before the next generation trains, and next generation's own self-play opponent/eval baseline are redirected to it too. Deliberately MAIN-only -- the exploiters are designed to periodically reset/regress on purpose. The regressed checkpoint is never deleted (LeagueManager never evicts), only the live training line is redirected. 6 new tests; full suite (28+72+46) green. Commit d3f4f30.\n\n⚓ ☃",
+  "id": 19454,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "BRAWLPIT",
+  "title": "S451: revert MAIN's live model on a real Elo regression (PPO policy collapse guard)"
+}

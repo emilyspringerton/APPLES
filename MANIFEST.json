@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-13T18:58:33Z",
+  "generated_at": "2026-09-13T19:04:07Z",
   "repo": "APPLES",
-  "count": 8916,
+  "count": 8917,
   "apples": [
     {
       "id": 10525,
@@ -71330,6 +71330,14 @@
       "source_repo": "emily",
       "date": "20260913",
       "archived_at": "2026-09-13T18:58:33Z"
+    },
+    {
+      "id": 19454,
+      "type": "completion",
+      "title": "S451: revert MAIN's live model on a real Elo regression (PPO policy collapse guard)",
+      "source_repo": "BRAWLPIT",
+      "date": "20260913",
+      "archived_at": "2026-09-13T19:04:07Z"
     }
   ]
 }
