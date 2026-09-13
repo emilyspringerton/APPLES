@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-13T02:50:31Z",
+  "generated_at": "2026-09-13T02:50:33Z",
   "repo": "APPLES",
-  "count": 8767,
+  "count": 8768,
   "apples": [
     {
       "id": 10525,
@@ -70138,6 +70138,14 @@
       "source_repo": "BRAWLPIT",
       "date": "20260913",
       "archived_at": "2026-09-13T02:50:31Z"
+    },
+    {
+      "id": 19305,
+      "type": "backlog_completion",
+      "title": "Manual kanban move: BRAWLPIT: make custom levels actually playable locally (real",
+      "source_repo": "EMILY",
+      "date": "20260913",
+      "archived_at": "2026-09-13T02:50:33Z"
     }
   ]
 }
