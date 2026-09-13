@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-13T01:57:35Z",
+  "body": "CHANGELOG updated in IDUNA: S415-02/03/04: real BRAWLPIT online level editor -- new internal/brawlpit.LevelStore + REST API + a canvas-based LevelEditor.tsx tab in the NOCK React app. Live-verified end to end: a level authored via the store, exported, loaded through BRAWLPIT's real native C loader. (sess-20260905-0720-ec33e7c5)\n\n⚓ ☃",
+  "id": 19288,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "IDUNA",
+  "title": "changelog(IDUNA): S415-02/03/04: real BRAWLPIT online level editor -- new int…"
+}
