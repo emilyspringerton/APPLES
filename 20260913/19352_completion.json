@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-13T07:47:13Z",
+  "body": "CHANGELOG updated in BRAWLPIT: feat(rl): S421-02/S421-03 -- native client actually loads+uses the selected AI opponent (real MLP inference in C, cross-language-parity-verified against SB3; LZ4-compressed weights download; always-on 'AI: DEFAULT'/'AI: \u003cname\u003e' HUD), plus --level \u003cname\u003e to train/play on a named registry level (STAGE_CUSTOM_MEMORY, survives PACKET_RESET_MATCH). Both live-verified with real Xvfb+XTest screenshots. Commits b0941a3, a2be366. (sess-20260905-0720-ec33e7c5)\n\n⚓ ☃",
+  "id": 19352,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "BRAWLPIT",
+  "title": "changelog(BRAWLPIT): feat(rl): S421-02/S421-03 -- native client actually loads+u…"
+}
