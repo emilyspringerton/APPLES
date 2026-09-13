@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-13T19:51:55Z",
+  "body": "Direct follow-up to S454: the founder kicked off a real training run resuming from the just-re-enabled \u003e1600 Elo lineage, and it crashed immediately -- ValueError: Observation spaces do not match: Box(-2.0, 2.0, (21,)) != Box(-2.0, 2.0, (31,)). Root cause: EVERY checkpoint in the registry (all 336, including all 54 just re-enabled) was trained before S430's own deliberate, documented 21-\u003e31 OBS_SIZE bump (10 new hand-tailored relational features). S430's own doc comment already predicted this exact failure and claimed 'a fresh run starts over', but rl_train_packet.py never actually implemented that fallback -- PPO.load's ValueError just propagated and killed the whole process, taking down all 3 roles' training over one role's stale checkpoint. Fix: extracted a new _load_resumed_model_or_fresh(checkpoint_path, env, device, role_value, generation) helper -- catches ValueError specifically (space mismatches only, not masking unrelated errors like a corrupt file), prints a loud warning naming the checkpoint and the likely cause, and falls back to a fresh model for that role only, matching _resume_skip_message's existing loud-warning convention. 3 new unit tests (clean resume, mismatch fallback, unrelated-error passthrough, all via mocked PPO/_fresh_model) -- 34/34 total pass. This also means the real, honest current state is: the entire \u003e1600 Elo lineage (including S452's recovered ~1900 Elo run) is now PERMANENTLY unusable for direct warm-start under the current 31-dim observation space -- re-enabling it stops the resume path from being silently starved of good checkpoints, but every role still starts fresh post-S430 regardless. A real weight-surgery migration (zero-pad the old 21-dim input layer to 31 dims and continue training) is the only way to actually recover that lineage's learned behavior; not attempted here, named as a real follow-up.\n\n⚓ ☃",
+  "id": 19465,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "BRAWLPIT",
+  "title": "Graceful fallback for pre-S430 observation-space-mismatched registry checkpoints"
+}
