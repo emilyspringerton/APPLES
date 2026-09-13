@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-13T22:55:14Z",
+  "body": "Publishing a new blog post via emily blog post immediately 403'd for real visitors. Root cause: the live iduna process's own actual umask (checked via /proc/\u003cpid\u003e/status: 0027, not systemd-managed -- runs as a ~/.config/systemd/user/iduna.service unit with no UMask= directive) silently turned every os.MkdirAll(0o755)/os.Create() call in internal/blog/render.go into on-disk 0750/0640, world-unreadable to nginx, while every older post stayed 0755/0664 from whenever it rendered under a different ambient umask. RenderPost/RenderIndex/RenderManifest now explicitly os.Chmod to 0755/0644 after creation, independent of process umask. Verified live: published a real post (brawlpit-alphastar-league, chmod'd by hand to unblock immediately), restarted iduna via systemctl --user restart iduna (clean health check), published a throwaway verification post that landed correctly permissioned with zero manual chmod, then cleaned it up (DB row deleted, rendered dir removed, index/manifest re-rendered via the real blog package -- confirmed gone from /blog/, blog-manifest.txt, and returns 404). Commit IDUNA 887734b.\n\n⚓ ☃",
+  "id": 19480,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "IDUNA",
+  "title": "S458: fix blog post permissions (ambient umask silently made new posts world-unreadable)"
+}
