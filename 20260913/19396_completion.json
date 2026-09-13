@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-13T11:36:14Z",
+  "body": "CHANGELOG updated in BRAWLPIT: S433: fixed real reward-hacking bug (survival-streak term paid an unbounded per-tick reward past its cap instead of a bounded total); S432: dead-server watchdog (likely cause of 'stuck' Colab runs); S434: fixed a real --level argparse crash (sess-20260905-0720-ec33e7c5)\n\n⚓ ☃",
+  "id": 19396,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "BRAWLPIT",
+  "title": "changelog(BRAWLPIT): S433: fixed real reward-hacking bug (survival-streak term p…"
+}
