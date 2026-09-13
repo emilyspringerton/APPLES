@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-13T01:34:49Z",
+  "body": "CHANGELOG updated in GoblinFoxDragon: CRITICAL fix: level/XP/Flow, mining/fishing skill, and equipment now all persist continuously (1Hz tick sync + a real equipment write path) instead of relying on a disconnect-time save that a systemctl restart always skipped. Live-verified: real level-up + gear survive independently of any disconnect. (sess-20260905-0720-ec33e7c5)\n\n⚓ ☃",
+  "id": 19281,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "GoblinFoxDragon",
+  "title": "changelog(GoblinFoxDragon): CRITICAL fix: level/XP/Flow, mining/fishing skill, and equi…"
+}
