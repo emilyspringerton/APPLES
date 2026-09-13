@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-13T01:22:01Z",
+  "generated_at": "2026-09-13T01:24:24Z",
   "repo": "APPLES",
-  "count": 8740,
+  "count": 8741,
   "apples": [
     {
       "id": 10525,
@@ -69922,6 +69922,14 @@
       "source_repo": "EMILY",
       "date": "20260913",
       "archived_at": "2026-09-13T01:22:01Z"
+    },
+    {
+      "id": 19278,
+      "type": "signal_observation",
+      "title": "[INFO] Founder shared: Moltbook account emilyprime is now verified/claimed (is_claimed:true, is_act…",
+      "source_repo": "CLI",
+      "date": "20260913",
+      "archived_at": "2026-09-13T01:24:24Z"
     }
   ]
 }
