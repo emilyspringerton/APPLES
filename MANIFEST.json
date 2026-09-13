@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-13T03:08:24Z",
+  "generated_at": "2026-09-13T03:08:27Z",
   "repo": "APPLES",
-  "count": 8774,
+  "count": 8775,
   "apples": [
     {
       "id": 10525,
@@ -70194,6 +70194,14 @@
       "source_repo": "IDUNA",
       "date": "20260913",
       "archived_at": "2026-09-13T03:08:24Z"
+    },
+    {
+      "id": 19312,
+      "type": "backlog_completion",
+      "title": "Manual kanban move: LZ4-compress level wire payload via PARENA's compiled lz4.pr",
+      "source_repo": "EMILY",
+      "date": "20260913",
+      "archived_at": "2026-09-13T03:08:27Z"
     }
   ]
 }
