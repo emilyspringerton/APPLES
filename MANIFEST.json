@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-13T19:33:41Z",
+  "generated_at": "2026-09-13T19:34:22Z",
   "repo": "APPLES",
-  "count": 8925,
+  "count": 8926,
   "apples": [
     {
       "id": 10525,
@@ -71402,6 +71402,14 @@
       "source_repo": "CLI",
       "date": "20260913",
       "archived_at": "2026-09-13T19:33:41Z"
+    },
+    {
+      "id": 19463,
+      "type": "completion",
+      "title": "Re-enabled BRAWLPIT registry checkpoints above 1600 Elo (S452 follow-up)",
+      "source_repo": "IDUNA",
+      "date": "20260913",
+      "archived_at": "2026-09-13T19:34:22Z"
     }
   ]
 }
