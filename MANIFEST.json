@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-13T02:53:31Z",
+  "generated_at": "2026-09-13T02:53:33Z",
   "repo": "APPLES",
-  "count": 8770,
+  "count": 8771,
   "apples": [
     {
       "id": 10525,
@@ -70162,6 +70162,14 @@
       "source_repo": "IDUNA",
       "date": "20260913",
       "archived_at": "2026-09-13T02:53:31Z"
+    },
+    {
+      "id": 19308,
+      "type": "backlog_completion",
+      "title": "Manual kanban move: IDUNA: public read-only HTTPS API for level list/fetch (non-",
+      "source_repo": "EMILY",
+      "date": "20260913",
+      "archived_at": "2026-09-13T02:53:33Z"
     }
   ]
 }
