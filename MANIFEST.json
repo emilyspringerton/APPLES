@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-13T01:58:04Z",
+  "generated_at": "2026-09-13T01:58:05Z",
   "repo": "APPLES",
-  "count": 8758,
+  "count": 8759,
   "apples": [
     {
       "id": 10525,
@@ -70066,6 +70066,14 @@
       "source_repo": "EMILY",
       "date": "20260913",
       "archived_at": "2026-09-13T01:58:04Z"
+    },
+    {
+      "id": 19296,
+      "type": "backlog_completion",
+      "title": "Manual kanban move: a user can place platforms",
+      "source_repo": "EMILY",
+      "date": "20260913",
+      "archived_at": "2026-09-13T01:58:05Z"
     }
   ]
 }
