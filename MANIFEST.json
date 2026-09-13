@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-13T17:27:26Z",
+  "generated_at": "2026-09-13T17:28:11Z",
   "repo": "APPLES",
-  "count": 8902,
+  "count": 8903,
   "apples": [
     {
       "id": 10525,
@@ -71218,6 +71218,14 @@
       "source_repo": "emily",
       "date": "20260913",
       "archived_at": "2026-09-13T17:27:26Z"
+    },
+    {
+      "id": 19440,
+      "type": "completion",
+      "title": "S447: real AlphaStar-style PFSP opponent selection wired into training",
+      "source_repo": "BRAWLPIT",
+      "date": "20260913",
+      "archived_at": "2026-09-13T17:28:11Z"
     }
   ]
 }

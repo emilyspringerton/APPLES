@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-13T17:28:11Z",
+  "body": "Founder posted a full, detailed PFSP/league spec directly, describing exactly what rl_league.py's own sample_for_main/sample_for_main_exploiter/sample_for_league_exploiter already implemented (ELO/PFSP-weighted sampling over the whole frozen league roster, Main Exploiter climbing backward through Main's historical checkpoints when struggling) but which had never been wired into rl_train_packet.py's actual opponent selection -- S444 was a real, honestly-scoped placeholder using only each role's own immediately-prior generation. _pick_opponent_checkpoint is now a thin adapter onto that existing, tested infra: Main and League Exploiter sample PFSP-weighted over the WHOLE registered league (self-play emerges naturally since a role's own past checkpoints are league members too); Main Exploiter always challenges Main's current checkpoint or climbs down through Main's history when struggling. New per-generation PFSP-feedback evaluation match feeds real win/loss stats back (in-memory, per rl_league.py's own 'stats stay local to whichever process is sampling' design) so future picks reflect real outcomes instead of staying stuck at PFSP's neutral prior. Rewrote TestPickOpponentCheckpoint against a real LeagueManager (temp-dir backed, no mocks for the sampling logic). Full suite (63+22+46 tests) green. Commit 76a2d48.\n\n⚓ ☃",
+  "id": 19440,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "BRAWLPIT",
+  "title": "S447: real AlphaStar-style PFSP opponent selection wired into training"
+}
