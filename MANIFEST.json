@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-13T01:57:50Z",
+  "generated_at": "2026-09-13T01:57:52Z",
   "repo": "APPLES",
-  "count": 8752,
+  "count": 8753,
   "apples": [
     {
       "id": 10525,
@@ -70018,6 +70018,14 @@
       "source_repo": "EMILY",
       "date": "20260913",
       "archived_at": "2026-09-13T01:57:50Z"
+    },
+    {
+      "id": 19290,
+      "type": "backlog_completion",
+      "title": "Manual kanban move: NOCK-adjacent web level editor slice (canvas size, place/res",
+      "source_repo": "EMILY",
+      "date": "20260913",
+      "archived_at": "2026-09-13T01:57:52Z"
     }
   ]
 }
