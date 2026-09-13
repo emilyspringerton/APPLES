@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-13T06:13:04Z",
+  "body": "Founder real-time (routed via emily observe, Apple #19326): build a BRAWLPIT training pipeline, RL on the packet level, REDGARDEN's autocurriculum/league doctrine, ECOWAR's fast-forward, a single-agent fractal commander (no squad layer), PARENA where possible. Clarified further: save all snapshots into the league (3 archetypes per snapshot), implement Elo. Shipped: real byte-exact wire-protocol observation/action (ctypes.sizeof self-checked against a live C probe; found+fixed a real live bug -- NetPlayer.jump_count/.hit_stun were never set in server_broadcast, shipping stack garbage in every real snapshot ever sent); --fast-forward on bin/brawlpit_server (ECOWAR's precedent, honestly scoped without --tick-ms since local_update has no dt param); PARENA/stdlib/brawlpit/commander_mod.prn, a real pure rule-based single-agent commander posture function (REDGARDEN NORTHSTAR §26.3's precedent, no squad-coordination nesting), compiled+linked+tested; REDGARDEN's rl_league.py ported verbatim (29 original tests pass unmodified) and extended with real Elo (elo_expected/elo_update/LeagueManager.get_elo/set_elo/record_match_result) and register_generation_snapshot (all 3 archetypes registered together per generation, all-or-nothing, Elo inherits forward per role unless reset); scripts/rl_env_packet.py's core plumbing live-verified against a real running server (real UDP handshake, real snapshot decode, real commander posture, real reward). 68 new Python tests + 2 new C test binaries all pass. BRAWLPIT commit d83a94a, PARENA commit df66ffe. Real, honest, not done: found a real live blocker (no PACKET_RESET_MATCH -- a connecting training client gets thrown into an already-in-progress demo fight), so no rl_train_packet.py orchestrator or actual training run yet; gymnasium/SB3 not installable in this sandbox (same documented REDGARDEN limitation). Full writeup: BRAWLPIT/docs/RL_TRAINING_NORTHSTAR.md (golden doc BRAWLPIT-RL-NORTH).\n\n⚓ ☃",
+  "id": 19336,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "BRAWLPIT",
+  "title": "S419-01..06: packet-level RL training pipeline -- fast-forward, fractal commander, league+Elo"
+}
