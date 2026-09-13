@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-13T09:09:29Z",
+  "body": "Founder real-time: 'are we using the GPU on colab? do we get increased training if we switch to a GPU box?' Real, measured answer: no -- the policy network is a tiny 64-unit MLP, and this box's own real generation timings (~6-8 wall-clock min for 3 models x 2048 timesteps) show the actual bottleneck is one real UDP round trip per environment step (I/O latency), not matrix-multiply compute a GPU could accelerate; GPU kernel-launch overhead on tensors this small tends to make things slower, matching stable_baselines3's own documented guidance. Fixed a real, found inconsistency along the way: --resume-from-registry hardcoded device='cpu' while a fresh model silently deferred to SB3's own 'auto' (which would pick CUDA if present) -- both paths now share one real --device flag, defaulting to 'cpu'. Named the real lever that WOULD make more compute matter: vectorized/parallel environment instances per role (not built). 103/103 tests pass; no behavioral change on this box (no GPU here either way).\n\n⚓ ☃",
+  "id": 19373,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "BRAWLPIT",
+  "title": "S427: answered 'does GPU help' + added a real --device flag"
+}
