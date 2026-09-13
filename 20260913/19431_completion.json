@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-13T16:50:54Z",
+  "body": "Founder real-time, reacting to learning training used a completely static, undriven opponent: 'no no no sir its supposed to fight it self and evolve via the league' -\u003e 'fix it.' Real, named pre-existing gap (S419-10) now built: BrawlpitPacketEnv gained a real opponent_checkpoint_path parameter -- when set, reset() queues BOTH a training client and a frozen-opponent client into BRAWLPIT's own real MATCHMAKING_MODE_1V1 (no server change, reusing the exact mechanism rl_evaluate.py's own evaluation matches already use), and step() drives the opponent's own real action from its own frozen model each tick (the same lag-one-tick pattern already used for the training side). rl_train_packet.py wires this in: every generation past the first trains against a frozen copy of that same role's own immediately-prior generation (classic fictitious self-play); generation 0 still uses the old static-dummy path since there is no prior self yet. Moved matchmaking helpers (encode_find_match_1v1/decode_match_found/find_match_1v1_both/MATCHMAKING_MODE_1V1) from rl_evaluate.py into rl_env_packet.py to avoid a circular import, re-exported for backward compatibility (verified rl_bot_pool.py's own existing import still works unchanged). 135/135 tests pass; live-verified real matchmaking seating two genuine clients (confirmed via a real, observed stock-loss event on the opponent side that a truly static dummy could never produce).\n\n⚓ ☃",
+  "id": 19431,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "BRAWLPIT",
+  "title": "S443: real self-play -- training now fights a frozen copy of its own immediately-prior generation"
+}

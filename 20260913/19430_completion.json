@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-13T16:50:54Z",
+  "body": "Founder real-time, after directly observing a real trained checkpoint (gen1 'main') self-destruct on tick 0 then go completely inert for the rest of its life (zero movement, zero button presses): 'do we introduce a strong negative reward that ticks down if no key is pressed for say 4 seconds?' + 'it should be token bag based though so spamming as much as possible only gets you so much reward and pausing 20 ish percent of the time you should still get the same reward output for button pushing so at a certain APM you just dont get any more reward anymore for going faster.' Diagnosis confirmed live: the model wasn't punished for moving, it had learned total inaction was safer than the small risk that led to its earlier self-destruct. Built both real fixes: (1) ActivityTokenBucket, a real token-bucket rate limiter (refill 0.8 tokens/tick -- exactly the founder's own '20% pause' framing) replacing the earlier harmonic-decay design for the button-press reward -- pressing at or below an 80% duty cycle never runs dry (full reward), exceeding it wastes presses on an empty bucket (capped max reward regardless of APM). (2) a real inactivity penalty: past 240 consecutive ticks (4 real seconds) with neither real stick movement nor any button press, a flat negative reward applies every tick. 11 new tests, 62/62 in test_rl_env_packet.py pass.\n\n⚓ ☃",
+  "id": 19430,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "BRAWLPIT",
+  "title": "S442: real token-bucket activity reward + inactivity penalty"
+}

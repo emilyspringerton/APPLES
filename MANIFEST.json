@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-13T16:43:44Z",
+  "generated_at": "2026-09-13T16:50:54Z",
   "repo": "APPLES",
-  "count": 8892,
+  "count": 8893,
   "apples": [
     {
       "id": 10525,
@@ -71138,6 +71138,14 @@
       "source_repo": "emily",
       "date": "20260913",
       "archived_at": "2026-09-13T16:43:44Z"
+    },
+    {
+      "id": 19430,
+      "type": "completion",
+      "title": "S442: real token-bucket activity reward + inactivity penalty",
+      "source_repo": "BRAWLPIT",
+      "date": "20260913",
+      "archived_at": "2026-09-13T16:50:54Z"
     }
   ]
 }
