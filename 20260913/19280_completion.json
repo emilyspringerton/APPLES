@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-13T01:34:23Z",
+  "body": "Founder real-time incident (2026-09-12): 'ok we lost data somehow - did you roll the server back?' -\u003e 'i was lvl 11 warrior before losing connection' (resolved to level 8) -\u003e 'this is unacceptable we can never lose player progress like that' -\u003e 'gear needs to persist what the fuck why was that deferred'.\n\nRoot causes (all confirmed by direct code reading, not assumed):\n1. Level/XP/Flow only ever persisted in handleConn's disconnect-time defer -- this process has zero SIGTERM/graceful-shutdown handling, so systemctl restart kills it immediately and skips every in-flight connection's defer. Fixed: apps2/mud commits 7def660/b634173, syncCharLevelAndFlow now runs every tick (1Hz) for every player.\n2. Mining/fishing skill had NO persistence path at all, not even on disconnect. Fixed: idunaclient commit cabd95c (GetSkills), apps2/mud commit 059529e (syncGatherSkills + load-on-connect).\n3. Equipment had NO write path at all -- GET /api/v1/characters/:id/equipment was the only real endpoint ever built. Fixed: IDUNA commit 5e250c1 (new PATCH endpoint), idunaclient commit 5800566 (GetEquipment/UpdateEquipmentSlot), apps2/mud commit 108fabb (equip_persist.go, wired into cmdEquip/cmdUnequip/grantStartingGear + load-on-connect for every real connect path).\n\nLive-verified end-to-end on production via a real, throwaway SSH-bound test character: killed a real worm, leveled 1-\u003e3 (452 XP) while still connected; queried IDUNA's SQLite DB directly and confirmed characters.level/current_xp and character_job_levels[WAR] both updated to 3/452 within the same second, BEFORE any disconnect -- proving the periodic sync (not the old disconnect-only save) is what wrote it. Reconnected fresh and confirmed both the real level (3) and the equipped sword survived independently of any disconnect. All three fixes deployed and live on gfd-mud.service.\n\n⚓ ☃",
+  "id": 19280,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "GoblinFoxDragon",
+  "title": "CRITICAL: real player-progress data loss fixed -- level/XP/Flow, mining/fishing skill, and equipment all now persist continuously"
+}
