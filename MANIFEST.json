@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-13T17:28:11Z",
+  "generated_at": "2026-09-13T17:28:33Z",
   "repo": "APPLES",
-  "count": 8903,
+  "count": 8904,
   "apples": [
     {
       "id": 10525,
@@ -71226,6 +71226,14 @@
       "source_repo": "BRAWLPIT",
       "date": "20260913",
       "archived_at": "2026-09-13T17:28:11Z"
+    },
+    {
+      "id": 19441,
+      "type": "completion",
+      "title": "changelog(BRAWLPIT): S447: wired real AlphaStar-style PFSP (rl_league.py's alrea…",
+      "source_repo": "BRAWLPIT",
+      "date": "20260913",
+      "archived_at": "2026-09-13T17:28:33Z"
     }
   ]
 }
