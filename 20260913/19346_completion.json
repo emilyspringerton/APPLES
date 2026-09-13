@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-13T07:05:29Z",
+  "body": "Founder real-time: 'can we make it so that the current AI is saved? and then just like the level editor (or the skins interface) we should be able to select a model for the opponent from the registry.' Part 1 (save the current AI): started a real, long-running RL training process on this box (gymnasium/stable_baselines3 successfully installed via pip3 install --user --break-system-packages, correcting an earlier 'not installable' claim), authenticated against and pushing to the real shared IDUNA checkpoint registry as it trains -- found and fixed 2 more real live bugs doing so (plain-list observations instead of numpy arrays; rl_train_packet.py's spawned servers leaked on SIGTERM since Python's atexit doesn't fire on a bare SIGTERM, fixed with an explicit signal handler, live-verified). Part 2 (select an opponent): SetActiveOpponent/GetActiveOpponent -- a real, transactional, single global selection pointer into the checkpoint registry; GET /api/v1/brawlpit-checkpoints/active (public); PATCH /admin/nock/api/brawlpit-checkpoints/:id/activate (admin-gated, same trust level brawlpit-levels' own editing surface already established); a new 'BRAWLPIT AI Opponents' NOCK tab matching LevelEditor.tsx's own list+select shape. 6 new Go tests pass. Live-verified against the real production instance: uploaded real test checkpoints, confirmed the active-selection GET correctly returns null before any selection, confirmed the activate route correctly 401s without admin auth. Commit d4201e4 (IDUNA), 8986f07 (BRAWLPIT). Real, honest, named scope: this ships the complete SELECTION half -- BRAWLPIT's native client doesn't yet read the selection to actually drive gameplay (needs exporting a PPO policy to a real C inference function, matching REDGARDEN's own export_rl_policy_to_c.py/mlp_infer.c precedent), tracked as S421-02/S419-10, not built.\n\n⚓ ☃",
+  "id": 19346,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "IDUNA",
+  "title": "S421/S421-01: select an opponent from the checkpoint registry, like the level editor"
+}

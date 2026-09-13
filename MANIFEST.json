@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-13T07:05:15Z",
+  "generated_at": "2026-09-13T07:05:29Z",
   "repo": "APPLES",
-  "count": 8808,
+  "count": 8809,
   "apples": [
     {
       "id": 10525,
@@ -70466,6 +70466,14 @@
       "source_repo": "IDUNA",
       "date": "20260913",
       "archived_at": "2026-09-13T07:05:15Z"
+    },
+    {
+      "id": 19346,
+      "type": "completion",
+      "title": "S421/S421-01: select an opponent from the checkpoint registry, like the level editor",
+      "source_repo": "IDUNA",
+      "date": "20260913",
+      "archived_at": "2026-09-13T07:05:29Z"
     }
   ]
 }
