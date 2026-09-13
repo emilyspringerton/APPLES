@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-13T19:19:27Z",
+  "body": "CHANGELOG updated in IDUNA: S453: BRAWLPIT checkpoint upload/activate/disable/enable now emit into the unified event log (iduna:brawlpit.checkpoint.upload/.activate/.disable/.enable), queryable via /services/search/jobs or /portal/logs -- direct follow-up to diagnosing a real lost Elo lineage (S452) that had no audit trail (sess-20260905-0720-ec33e7c5)\n\n⚓ ☃",
+  "id": 19460,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "IDUNA",
+  "title": "changelog(IDUNA): S453: BRAWLPIT checkpoint upload/activate/disable/enable no…"
+}
