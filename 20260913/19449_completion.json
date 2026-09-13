@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-13T18:40:21Z",
+  "body": "Founder asked directly 'are we doing reward discounting in some way?', citing Hyperbot's own real half-life-over-real-time draw-penalty discounting technique. Checked answer: no -- only SB3 PPO's plain default gamma=0.99 per env.step(), not per real elapsed second, and the flat REWARD_LOSS-on-timeout had no mechanism making standing still costlier than engaging as the deadline approached, so a policy with a judged-low win chance had no reason to ever stop stalling for the whole match. New time_pressure_multiplier() reproduces Hyperbot's own half-life formula as reward shaping (SB3 PPO's stock GAE buffer has no hook for literal per-transition wall-clock-dependent gamma), scaling the existing S442 inactivity penalty up as the real match clock runs down -- ~0.30x severity at match start, ~0.90x with a proportionally-scaled 21s left, full ceiling at the buzzer. TIME_PRESSURE_HALF_LIFE_SECONDS is a ratio-preserving port of Hyperbot's own 139s/240s onto BRAWLPIT's own 150s cap. 9 new tests verify Hyperbot's own cited numbers directly. 72/72 tests pass. Commit f1fbf5e.\n\n⚓ ☃",
+  "id": 19449,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "BRAWLPIT",
+  "title": "S449: Hyperbot-style real-time discounting on the inactivity penalty"
+}

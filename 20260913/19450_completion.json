@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-13T18:40:21Z",
+  "body": "Founder direction, citing Hyperbot's own event-driven architecture: 'ensure we are doing event driven instead of polling.' Found and fixed a real, live CPU-wasting bug: --fast-forward's socket is O_NONBLOCK, so the main loop free-spun as fast as CPU allowed even with zero new packets, ticking/broadcasting continuously regardless of real state change -- live-measured earlier this session at ~100% CPU on an idle server, flooding idle clients' sockets (S446's own regression test had to explicitly service both sides every tick to avoid it). Fixed by blocking on select() with a bounded 10ms ceiling (so wall-clock matchmaking timeouts still fire) instead of a non-blocking recvfrom() in a tight loop -- scoped to --fast-forward only, real-time mode's own usleep(16000) pacing is unchanged. Live-verified: idle CPU now ~0.0-0.1% (was ~100%), zero added latency when clients are actively sending. Real self-destruct tick timing is now accurate again (251 real ticks, not the previously stale-input-inflated ~50-90 apparent ticks) -- the permanent regression test's own tick budget was corrected to match. Full C build + 72/72 Python tests pass. Commit 9bcabda.\n\n⚓ ☃",
+  "id": 19450,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "BRAWLPIT",
+  "title": "S450: event-driven server main loop replaces --fast-forward busy-spin"
+}
