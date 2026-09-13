@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-13T09:54:43Z",
+  "generated_at": "2026-09-13T10:03:21Z",
   "repo": "APPLES",
-  "count": 8844,
+  "count": 8845,
   "apples": [
     {
       "id": 10525,
@@ -70754,6 +70754,14 @@
       "source_repo": "emily",
       "date": "20260913",
       "archived_at": "2026-09-13T09:54:43Z"
+    },
+    {
+      "id": 19382,
+      "type": "completion",
+      "title": "S429: real 2.5-minute match time limit, timeout scored the same as a loss",
+      "source_repo": "BRAWLPIT",
+      "date": "20260913",
+      "archived_at": "2026-09-13T10:03:21Z"
     }
   ]
 }
