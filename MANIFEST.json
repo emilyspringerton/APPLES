@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-13T19:04:07Z",
+  "generated_at": "2026-09-13T19:04:21Z",
   "repo": "APPLES",
-  "count": 8917,
+  "count": 8918,
   "apples": [
     {
       "id": 10525,
@@ -71338,6 +71338,14 @@
       "source_repo": "BRAWLPIT",
       "date": "20260913",
       "archived_at": "2026-09-13T19:04:07Z"
+    },
+    {
+      "id": 19455,
+      "type": "completion",
+      "title": "changelog(BRAWLPIT): S451: added a regression guard for MAIN's live PPO model --…",
+      "source_repo": "BRAWLPIT",
+      "date": "20260913",
+      "archived_at": "2026-09-13T19:04:21Z"
     }
   ]
 }

@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-13T19:04:21Z",
+  "body": "CHANGELOG updated in BRAWLPIT: S451: added a regression guard for MAIN's live PPO model -- if a generation's evaluated Elo drops \u003e=100 below MAIN's own best-ever, the live model reverts to that best checkpoint instead of compounding the regression (new _should_revert_main(), 6 new tests). Diagnosed a real, directly-observed Elo spike-then-collapse (1800 Elo with real movement, then reverted to dormant) as classic PPO catastrophic forgetting in self-play. (sess-20260905-0720-ec33e7c5)\n\n⚓ ☃",
+  "id": 19455,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "BRAWLPIT",
+  "title": "changelog(BRAWLPIT): S451: added a regression guard for MAIN's live PPO model --…"
+}
