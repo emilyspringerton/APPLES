@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-14T03:29:12Z",
+  "generated_at": "2026-09-14T03:43:19Z",
   "repo": "APPLES",
-  "count": 8982,
+  "count": 8983,
   "apples": [
     {
       "id": 10525,
@@ -71858,6 +71858,14 @@
       "source_repo": "CLI",
       "date": "20260914",
       "archived_at": "2026-09-14T03:29:12Z"
+    },
+    {
+      "id": 19520,
+      "type": "completion",
+      "title": "changelog(IDUNA): feat: SHANKPIT block materials (brick/concrete/wood/metal),…",
+      "source_repo": "IDUNA",
+      "date": "20260914",
+      "archived_at": "2026-09-14T03:43:19Z"
     }
   ]
 }
