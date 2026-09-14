@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-14T15:49:07Z",
+  "body": "v0's AdjustHueSaturation/Sharpen overwrote a layer's stored PNG in place permanently -- re-tuning meant starting from an already-altered image with cumulative quality loss. Layer gets 6 new metadata fields (Brightness/Saturation/Hue/SharpenRadius/SharpenSigma/SharpenAmount), same '0 means unchanged' convention as Scale (S416-02). Export applies them to a disposable working copy fresh every time -- stored file never touched. Real, found-live test rewrite: the old test asserted the OPPOSITE of the new contract (stored file DOES change); replaced with tests verifying via real pixel sampling that the stored file is untouched, the export reflects the adjustment, and re-tuning to 'unchanged' matches the real original (no drift). Frontend hint text corrected (was claiming destructive). NOCK_NORTHSTAR.md updated. go build/vet/test clean, frontend build clean, new binary redeployed against the live IDUNA process, health-checked green. Commit b576606.\n\n⚓ ☃",
+  "id": 19609,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "IDUNA",
+  "title": "NOCK: non-destructive hue/saturation/sharpen adjustments (S416-04)"
+}
