@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-14T02:47:57Z",
+  "body": "Founder: 'can we add a weapon 7 ... a flashlight - use a cone with a shader - at night in shankpit it gets dark.' WPN_FLASHLIGHT=7, pure utility slot (no ammo/damage), key 7 to equip, on while equipped/off when switched away. Real GLSL vertex+fragment shader cone (gl_shader.c/DynamicVBO foundation, reuses the normal-attribute slot for radial/axial falloff), additively blended. flashlight_box_boost wired into draw_map's existing per-box lighting pass for real local brightening within the cone. Built clean, live-verified shader compile+link and weapon-hold+boost-math under Xvfb; full in-match pixel screenshot blocked by a test-harness-only scene_id sync quirk, named honestly in the commit rather than overclaimed. Commit bd3f74b.\n\n⚓ ☃",
+  "id": 19513,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "SHANKPIT",
+  "title": "Ship weapon 7: flashlight (shader cone + world brightening)"
+}
