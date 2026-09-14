@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-14T20:38:17Z",
+  "body": "Founder real-time: 'please use a new DNS like dont try to make the old records work that puts us in a confusing state use new records and point them at the services on THIS SERVER... feel free to set it up here nice so it matches our other services with matchmaking and servers like redgarden and ecowar etc.' Found the exact, already-solved precedent: BRAWLPIT hit the identical problem (BPMM-NEVER-WORKED) and solved it the same way -- a new \u003cgame\u003e.okemily.com A record, never previously cached by anyone, instead of fighting TTL/caching on a record that had been wrong the whole time. Created shankpit.okemily.com -\u003e 198.58.107.85 via Cloudflare API, verified live at the authoritative nameserver and 1.1.1.1. Confirmed backend health directly before making the change (not assumed): shankpit-server.service and shankpit-bot-pool.service both active via systemctl, shank_server genuinely bound on 0.0.0.0:6969 (not loopback-only) via ss -ulnp. Updated apps/lobby/src/main.c's own SERVER_HOST default to the new hostname, fixed two stale doc references found along the way (README.md's second server-address block had an independently wrong port, 5314; serverctl.c's own TUI label). Rebuilt and hand-delivered a fresh Windows client with the new default baked in (verified via strings on the .exe). CI green on both workflows. Commits SHANKPIT a1e64c2 (+ fe3422e changelog).\n\n⚓ ☃",
+  "id": 19651,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "SHANKPIT",
+  "title": "New shankpit.okemily.com DNS record (avoids DNS caching entirely) + client default updated + backend health confirmed"
+}
