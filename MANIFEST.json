@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-14T18:02:03Z",
+  "generated_at": "2026-09-14T18:02:05Z",
   "repo": "APPLES",
-  "count": 9082,
+  "count": 9083,
   "apples": [
     {
       "id": 10525,
@@ -72658,6 +72658,14 @@
       "source_repo": "DUNG",
       "date": "20260914",
       "archived_at": "2026-09-14T18:02:03Z"
+    },
+    {
+      "id": 19620,
+      "type": "completion",
+      "title": "changelog(IDUNA): docs(nock): correct PE macro recording cross-reference — be…",
+      "source_repo": "IDUNA",
+      "date": "20260914",
+      "archived_at": "2026-09-14T18:02:05Z"
     }
   ]
 }
