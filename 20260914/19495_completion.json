@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-14T01:12:23Z",
+  "body": "Real architecture scoping doc, no code changes -- grounds the box/room/world fractal system directly against real existing code (Paper Engine materials/destructibility already exist; PcWorldObjectDef already the real persisted object format; PC_WO_MAX_OBJECTS=8 measured UDP-wire-budget cap resolved into a two-tier structural-vs-destructible object model). Captures every real-time correction from the scoping conversation: SHANKPIT/PAPERCRAFT are siblings sharing tech via hand-porting (not a shared library dependency); SHANKPIT is the actual playable client for PAPERCRAFT-authored geometry even before material-awareness; movement tuning ports FROM SHANKPIT INTO PAPERCRAFT (not the reverse), with an honest caveat that PAPERCRAFT is real server-authoritative/net-native-only while neither codebase has a network-hardened controller proven yet; materials are a real v0 requirement once PAPERCRAFT's own room builder gets built, unlike SHANKPIT's own deliberate v0 texture cut; a real, unresolved question about sharing this tech into GFD's own voxel lineage. Registered as MODULAR-BUILDING-NORTH in EMILY's golden-docs-index. Commit PAPERCRAFT a98ada8.\n\n⚓ ☃",
+  "id": 19495,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "PAPERCRAFT",
+  "title": "Fractal box/room/world modular-building architecture doc (NORTHSTAR_MODULAR_BUILDING.md)"
+}
