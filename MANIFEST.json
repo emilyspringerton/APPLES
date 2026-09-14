@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-14T06:56:32Z",
+  "generated_at": "2026-09-14T06:59:12Z",
   "repo": "APPLES",
-  "count": 9017,
+  "count": 9018,
   "apples": [
     {
       "id": 10525,
@@ -72138,6 +72138,14 @@
       "source_repo": "emily",
       "date": "20260914",
       "archived_at": "2026-09-14T06:56:32Z"
+    },
+    {
+      "id": 19555,
+      "type": "completion",
+      "title": "Fix: T spray key was a silent no-op without a default fallback",
+      "source_repo": "SHANKPIT",
+      "date": "20260914",
+      "archived_at": "2026-09-14T06:59:12Z"
     }
   ]
 }
