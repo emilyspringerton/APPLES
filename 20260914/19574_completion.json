@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-14T08:09:57Z",
+  "body": "Same real unlit-emissive treatment SHADER_IPS_LIGHT established, plus a real animated flicker (sum of 3 non-harmonic sine waves, computed once per frame, scaled into both the base texture tint and the additive glow pass) and warm sodium-amber color with a distinct radial hot-center bulb texture (proctex_make_hps_bulb_rgba). The referenced YouTube video couldn't actually be fetched/watched (confirmed via WebFetch -- footer boilerplate only, no video content) so the flicker was built from well-documented real HPS 'cycling' behavior instead, said so plainly rather than guessing. Live-verified via Xvfb: sampled the same pixel across two frames ~1.5s apart, (82,25,1) -\u003e (110,33,1), confirming a real ~34% brightness swing, not a static render. Created the real hps_light material (id=6) via the live MaterialStore, confirmed via GET /api/v1/shankpit-materials. All three build paths clean. Commits SHANKPIT 4b64b47, IDUNA 50a7e45.\n\n⚓ ☃",
+  "id": 19574,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "SHANKPIT",
+  "title": "Add SHADER_HPS_LIGHT flickering sodium-vapor emissive material"
+}
