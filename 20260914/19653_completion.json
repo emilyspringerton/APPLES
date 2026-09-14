@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-14T20:53:04Z",
+  "body": "CHANGELOG updated in SHANKPIT: fix(net): weapon reverts to knife on every reconciliation replay (real cmd.weapon_idx-set-after-history-store ordering bug); feat(queue): QUEUE defaults to the real level '44' from the live registry, falls back to oil tanker if unavailable (sess-20260905-0720-ec33e7c5)\n\n⚓ ☃",
+  "id": 19653,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "SHANKPIT",
+  "title": "changelog(SHANKPIT): fix(net): weapon reverts to knife on every reconciliation r…"
+}
