@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-14T21:26:48Z",
+  "generated_at": "2026-09-14T21:26:54Z",
   "repo": "APPLES",
-  "count": 9122,
+  "count": 9123,
   "apples": [
     {
       "id": 10525,
@@ -72978,6 +72978,14 @@
       "source_repo": "SHANKPIT",
       "date": "20260914",
       "archived_at": "2026-09-14T21:26:48Z"
+    },
+    {
+      "id": 19660,
+      "type": "completion",
+      "title": "Fixed a real physics bug: jump teleported the player outside walls in nested/embedded levels",
+      "source_repo": "SHANKPIT",
+      "date": "20260914",
+      "archived_at": "2026-09-14T21:26:54Z"
     }
   ]
 }

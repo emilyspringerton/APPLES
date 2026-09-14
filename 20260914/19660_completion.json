@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-14T21:26:54Z",
+  "body": "Founder real-time: 'i made a level with an embeded level and for some reason when i jump it teleports me outside the walls.' Real, found-live bug in resolve_collision (packages/common/physics.h, the one shared collision function both client prediction and server authority use): the per-box loop recomputed prev_y = p-\u003ey - p-\u003evy fresh for EACH overlapping box to distinguish landing-on-top from hitting-the-side. That approximation only holds for the ORIGINAL per-tick vy -- but the landing branch itself zeroes p-\u003evy the instant the FIRST overlapping box resolves as a landing. With two or more boxes overlapping in the same tick (real, common in tightly-nested 'embedded' level geometry, exactly what was reported), every box checked after the first recomputed prev_y from the already-zeroed vy -- a meaningless comparison that could misclassify a real side collision as 'already above the box,' skipping the horizontal push-out branch and letting the position from the FIRST box's resolution stand, even past/outside a wall the second box should have blocked. Fixed by capturing frame_prev_y once before the loop can touch vy. All build paths clean (Makefile lobby+server, Bazel lobby+server), CI green, redeployed live (shared physics code, both server and client needed rebuilding), fresh client hand-delivered. Commit SHANKPIT 14cf185 (+ 35cbf92 changelog).\n\n⚓ ☃",
+  "id": 19660,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "SHANKPIT",
+  "title": "Fixed a real physics bug: jump teleported the player outside walls in nested/embedded levels"
+}
