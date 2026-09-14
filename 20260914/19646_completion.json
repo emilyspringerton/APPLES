@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-14T20:18:48Z",
+  "body": "Founder real-time: 'WE NEED THE FULL FRACTAL COMMANDER STUFF FOR SHANKPIT' / 'THERE WONT ALWAYS BE TEAMS BUT WE WILL BE TRAINING TEAMS SOLDIER COMMANDER FRACTAL HEIRARCHY' / 'ALSO WE NEED BOT INFRASTRUCTURE FOR SHANKPIT JUST LIKE WE HAVE FOR BRAWLPIT - THE LEAGUE set up the same registry plumbing for shankpit.' Checked first: the real, currently-built 'fractal commander' anywhere in the monorepo is REDGARDEN's own commander_posture_multiplier() -- one flat, rule-based team-wide posture scalar, not the full multi-level learned hierarchy (REDGARDEN's own NORTHSTAR §26.3 states that stays unbuilt, needs a restructured learned training loop). Ported that same real pattern a third time for SHANKPIT's own real teams (packages/simulation/local_game.h): team ahead by \u003e=3 plays PATIENT, team behind by 3 plays AGGRESSIVE, wired into bot_think's existing health-aware positioning. Ported THE LEAGUE (scripts/rl_league.py) verbatim from BRAWLPIT, honestly documented as plumbing-only -- SHANKPIT has no RL training loop or checkpoints yet. While redeploying this, found and fixed a real, live bug: a long-running emily-bot that loses its server slot (e.g. the server restarts) never resent PacketConnect, silently sitting unwelcomed forever with no visible error -- confirmed live (welcomed=0 stuck for minutes after a real restart), fixed with a 5s stale-connection auto-reconnect, verified recovery in one tick interval after redeploy. All builds clean, CI green on both workflows. Commits SHANKPIT ff9ae11 + 1ff654c (+ b103c93 changelog).\n\n⚓ ☃",
+  "id": 19646,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "SHANKPIT",
+  "title": "Real fractal commander posture + THE LEAGUE registry shipped; found+fixed a real bot-reconnect bug live"
+}
