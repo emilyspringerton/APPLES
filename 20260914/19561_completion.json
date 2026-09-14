@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-14T07:15:42Z",
+  "body": "Root cause: flashlight_box_boost added one flat brightness value to all 6 faces of a box uniformly (no directionality), and the beam's own additive cone rendered at alpha 0.85, visually dominating and masking whatever lighting sat behind it -- reading as 'a circle on the screen' rather than real light. Fixed with flashlight_face_boost (real per-face N.L term + softened falloff), flashlight_sources_gather (every active same-scene player's flashlight now lights the world for everyone, not just the local viewer -- real multiplayer support), remote players' beam cones now drawn too, and cone alpha cut to 0.16 so it reads as a faint dust hint instead of a dominant sprite. Live-verified via Xvfb before/after screenshots. Commit 09fbf3a.\n\n⚓ ☃",
+  "id": 19561,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "SHANKPIT",
+  "title": "Fix flashlight lighting: real per-face N.L wall diffusion + multiplayer"
+}
