@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-14T06:07:20Z",
+  "body": "Founder: 'can we implement sprays? ... export to spray goes to sprays registry same treatment ... we need a nock sprays interface right now just to set the default.' New shankpit_sprays table + SprayStore (create/list/set-default/delete), first spray auto-becomes default. Projects tab gained 'Export to Spray' (posts the project's own rendered PNG straight to the registry). New Sprays tab: grid + set-default + delete. 6 new tests pass, full suite green. Native sprays menu + the real 'T' wall-decal mechanism are separate, deferred follow-up, named not dropped. Live-verified against the real production DB (create/default/list/public-endpoints), zero residue left. Commit 13871d6.\n\n⚓ ☃",
+  "id": 19539,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "IDUNA",
+  "title": "Ship SHANKPIT sprays backend + NOCK UI"
+}
