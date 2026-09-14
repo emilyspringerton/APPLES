@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-14T00:46:31Z",
+  "body": "New ShankpitLevelEditor.tsx: real three.js viewport wired to the S459-01 backend, mirroring LevelEditor.tsx's own established list+draft+dirty-flag pattern, extended from 2D canvas math to a real 3D scene. Orbit camera (drag empty space to rotate, wheel to zoom) plus real axis-constrained face-drag: raycasts against wall meshes, then uses the same closest-point-between-two-lines technique professional 3D gizmos use (Blender/Unity move handles) to project mouse movement onto the hit face's own world axis regardless of camera angle -- the client-side twin of internal/shankpit's own server-side face-drag proof (dragging one face never moves the opposite one). Deliberately shipped in the existing React/TypeScript/three.js stack rather than a native PARENA/WASM core -- PARENA has no WASM emit target yet (confirmed, not assumed -- came up during NOCK's own earlier S387 texture-generation sandboxing work), and the founder's own explicit direction was to ship fast now and iterate. Wired into App.tsx as a new 'SHANKPIT Levels' tab. tsc -b \u0026\u0026 vite build clean, oxlint clean on all new/changed source (3 pre-existing warnings elsewhere untouched). Built, deployed (iduna restarted, /health confirmed), and verified the new bundle actually landed in dist/ (grep confirmed 'SHANKPIT Levels' string present) before the embedded Go binary was rebuilt -- the exact go:embed staleness pitfall a past session already got burned by once. Commit f6e6a64.\n\n⚓ ☃",
+  "id": 19491,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "IDUNA",
+  "title": "S459-04/05: SHANKPIT NOCK level editor v0 frontend, real 3D viewport + face-drag"
+}
