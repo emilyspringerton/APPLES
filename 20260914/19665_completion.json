@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-14T22:01:08Z",
+  "body": "Finished the SHANKPIT-side half of S459-41. IDUNA already shipped the\nis_default_queue admin flag (migration, store, PATCH endpoint, NOCK editor\nbutton) and NEWPIT (id=8) was set live as default via direct DB write (no\nadmin cookie session available for the HTTP path).\n\nThis change wires SHANKPIT's own server (queue_activate_match) and client\n(client_load_queue_level) to search entries[i].is_default_queue in the level\nregistry instead of a hardcoded name match on \"44\". Live-verified via a\nNET_VERBOSE_LOG diagnostic build against an isolated test port + a real\nemily-bot connection: server logs QUEUE_LEVEL_LOADED name=NEWPIT id=8 boxes=16.\n\nAlso fixed a real, found-live Makefile bug along the way: ea-windows targeted\ni686-w64-mingw32-gcc but the only mingw SDL2 dev kit on this box is x86_64 --\nthe target never actually linked here. Fixed to x86_64-w64-mingw32-gcc with\nthe real SDL2 .la dependency-lib set; dist/ea-windows/shank_lobby.exe now\nbuilds and was hand-delivered to the founder.\n\nLive server (shankpit-server.service) redeployed; bot pool auto-reconnected\nvia its existing stale-connection retry (added earlier this session).\n\nCommit: SHANKPIT@0209a51\n\n⚓ ☃",
+  "id": 19665,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "SHANKPIT",
+  "title": "S459-41: QUEUE default level now admin-flag-driven (is_default_queue), NEWPIT live"
+}

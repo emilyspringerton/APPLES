@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-14T21:49:25Z",
+  "generated_at": "2026-09-14T22:01:08Z",
   "repo": "APPLES",
-  "count": 9127,
+  "count": 9128,
   "apples": [
     {
       "id": 10525,
@@ -73018,6 +73018,14 @@
       "source_repo": "emily",
       "date": "20260914",
       "archived_at": "2026-09-14T21:49:25Z"
+    },
+    {
+      "id": 19665,
+      "type": "completion",
+      "title": "S459-41: QUEUE default level now admin-flag-driven (is_default_queue), NEWPIT live",
+      "source_repo": "SHANKPIT",
+      "date": "20260914",
+      "archived_at": "2026-09-14T22:01:08Z"
     }
   ]
 }
