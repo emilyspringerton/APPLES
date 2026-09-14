@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-14T00:13:06Z",
+  "body": "New internal/shankpit package: real level registry + selection CRUD (create/get/list/update/rename/clone/delete/export), built field-for-field on BRAWLPIT's own online level editor (internal/brawlpit.LevelStore) per explicit founder direction ('lets just go full level select brawlpit repo exact model for now'). Wall mirrors SHANKPIT's own real native packages/map/map.h struct exactly (center x/y/z, full extents sx/sy/sz -- confirmed against map.c's own collision code, not assumed; r/g/b in [0,1], the same OpenGL convention every existing glColor3f/glColor4f call in this monorepo's SHANKPIT client already uses). One UpdateLevel (PUT) endpoint serves both S459-04 (create a cube -- append a default wall) and S459-05 (face-drag editing -- adjust an existing wall's center/size), same real 'replace the whole array' shape BRAWLPIT's own UpdateLevel already uses. Admin-gated CRUD at /admin/nock/api/shankpit-levels + a separate, write-method-free public mirror at /api/v1/shankpit-levels, exactly mirroring brawlpit_levels.go/brawlpit_levels_public.go's own split. New migration 202609140001_shankpit_levels.sql. 17 new tests including a real face-drag math proof that dragging one face never moves the opposite one -- the actual mechanism behind the founder's own 'cube into a shipping container' v0 bar. go build/vet/test ./... clean. Built, deployed (iduna restarted, /health confirmed), and live-verified both new endpoints against the real running server. Real, honest, not built in this pass: S459-02 (BRAWLPIT-level conversion, explicitly skipped), S459-03's own dedicated dimensions-on-create UI, and the actual 3D drag-face editing frontend -- backend only. Commit bf77dce.\n\n⚓ ☃",
+  "id": 19487,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "IDUNA",
+  "title": "S459-01/04/05: SHANKPIT NOCK level editor v0 backend, exact BRAWLPIT registry model"
+}
