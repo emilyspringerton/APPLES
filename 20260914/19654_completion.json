@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-14T20:53:12Z",
+  "body": "Founder real-time, playing for real against the now-correctly-routed server: 'we are still getting reconciliation jitter including gun jitter gun to knife when a gun is equip.' Real root cause found in client_create_cmd: cmd.weapon_idx was assigned AFTER the command was stored into client_cmd_hist (the reconciliation replay buffer) -- every historical command replayed during reconciliation carried weapon_idx=0 (WPN_KNIFE, memset's own zero default) regardless of the real equipped weapon, snapping the locally-predicted weapon to knife on every single reconciliation event. Fixed by reordering. Checked the rest of shankpit_apply_usercmd_inputs for the same class of bug -- this was the one isolated instance. Second feature, same pass: 'DEFAULT QUEUE TO USE THE LEVEL CALLE 44... default it to the oil tanker if no online levels available.' queue_activate_match now looks up the real, live level registry for a level named '44' (confirmed live: id=6, 11 walls), fetches+applies its full export via a new server_apply_custom_level() helper (factored out of the existing --level CLI path so both share one real implementation), falls back to SCENE_OIL_TANKER on any real failure. Live-verified on an isolated port before redeploying live: QUEUE_LEVEL_LOADED name=44 id=6 boxes=11. Redeployed both fixes live; bot pool self-healed automatically via the earlier auto-reconnect fix (no manual restart needed) and landed in the correct level-44 scene. Rebuilt and hand-delivered a fresh Windows client. CI green on both workflows. Commits SHANKPIT 533f8f3 + dc413b3 (+ 50d57d9 changelog).\n\n⚓ ☃",
+  "id": 19654,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "SHANKPIT",
+  "title": "Fixed weapon-reconciliation flicker bug; QUEUE now loads level 44 by default"
+}
