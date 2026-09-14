@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-14T22:26:22Z",
+  "body": "Real progress toward founder's bot-league training ask (SECTION 459).\n\nS459-43: Added a real round timer to MODE_QUEUE (SERVER_QUEUE_FRAG_LIMIT=20,\nSERVER_QUEUE_ROUND_MS=4min), mirroring the existing DM round-check pattern\nbut without a map reload (QUEUE always plays the one admin-flagged default\nlevel).\n\nS459-44: Found and fixed a real, previously-undiscovered protocol bug in\nemily-bot's PacketSnapshot decode -- it assumed a legacy 18-byte entity\nlayout starting at offset 2; the real wire format (12-byte NetHeader + 1\ncount byte + 64-byte NetPlayer entries from offset 13, confirmed via a\ncompiled sizeof/offsetof probe) meant every peer position/health/weapon the\nbot ever read had been garbage. Fixed with a byte-exact unit test.\n\nS459-45: Built the requested 50-100 hand-engineered feature observation\nvector -- 72 real, named features (23 self, 4x10 nearest-opponent,\n9 aggregate), self-relative framing, no padding. Found that\npackages/common/physics.h already computes a real, dense,\nserver-authoritative reward signal per player (+150/kill, +0.5/damage-point)\nthat reaches the wire as NetPlayer.reward_feedback -- never decoded before\nthis work.\n\nS459-46: Built the requested reward system (4 tiers: outcome via the real\nreward_feedback signal, low-health disengage shaping, survival, engagement),\nFFA-only per the founder's own instruction, with team rewards architected\nvia a real, typed TeamRewardContext parameter (genuine no-op today).\n\nFull design doc: SHANKPIT/docs/BOT_TRAINING_NORTHSTAR.md.\n\nLive-verified: full go test ./... green (7 new tests), a real 2-bot UDP\nsession against a rebuilt server with no panics and correct peer counts,\nlive server + bot pool both redeployed with the fixed/extended binaries.\n\nCommits: SHANKPIT@10a9d7b (round timer), SHANKPIT@9fa2a32 (decode fix +\nobservation + reward).\n\n⚓ ☃",
+  "id": 19669,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "SHANKPIT",
+  "title": "S459-43/44/45/46: QUEUE round timer, real PacketSnapshot decode fix, 72-feature bot observation + reward system"
+}
