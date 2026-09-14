@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-14T18:25:31Z",
+  "body": "Root cause found and fixed for the S459-33 inflate() dynamic-Huffman hang/corruption: loop_body_int_safe (src/emit.c) downgrades a loop var to C double whenever it can't prove every recur path int-safe; vec/push! picks its box function from the pushed expression's own inferred type while every reader always unboxes as int*, so pushing the double-typed 'prev' in read-code-lengths boxed via vec_box_f64 while every read unboxed via vec_box_i32 -- a real type-confused box read that silently corrupted the code-length table on real inputs. Fixed via a new as-i32 helper (PARENA d403280). Wrote a real PNG decoder on top (chunk parsing, zlib-wrapper strip, all 4 real defilter types) -- PARENA 877da28. Wired into SHANKPIT: draw_spray_decals now textures each decal with the spray's real uploaded artwork instead of a flat hash-color placeholder, via a new packages/world/png_decode_gen.c (PARENA-compiled) + minimal vendored Arena/Vec/Bytes runtime -- SHANKPIT 0cbf945. Live-verified against the founder's own real, live spray artwork (he_sees_you, 256x421 RGBA) fetched over the real public API, decoded inside a real SDL2/GL context under Xvfb, and diffed byte-for-byte against an independent Python reference decode -- exact match. All three build paths clean: Makefile lobby+server, Bazel lobby+server.\n\n⚓ ☃",
+  "id": 19626,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "SHANKPIT",
+  "title": "Sprays finished: real PNG decoder, root-caused inflate bug, real spray decal textures"
+}
