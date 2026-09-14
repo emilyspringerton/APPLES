@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-14T06:33:26Z",
+  "generated_at": "2026-09-14T06:37:39Z",
   "repo": "APPLES",
-  "count": 9008,
+  "count": 9009,
   "apples": [
     {
       "id": 10525,
@@ -72066,6 +72066,14 @@
       "source_repo": "IDUNA",
       "date": "20260914",
       "archived_at": "2026-09-14T06:33:26Z"
+    },
+    {
+      "id": 19546,
+      "type": "completion",
+      "title": "changelog(IDUNA): fix: materials panel lost material names (over-nested flex+…",
+      "source_repo": "IDUNA",
+      "date": "20260914",
+      "archived_at": "2026-09-14T06:37:39Z"
     }
   ]
 }

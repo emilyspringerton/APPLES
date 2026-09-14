@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-14T06:37:39Z",
+  "body": "Founder screenshot: 'it lost the names of the materials and still looks a bit off.' Root cause: the previous alignment fix nested the name span 3 flex levels deep with truncate applied at the innermost level, which needs a definite width the nesting never reliably gave it -- collapsed to invisible. Flattened to \u003cli\u003e as a simple column: title row (name + Delete) then hint line below, no multi-level flex+truncate. Commit 480e820.\n\n⚓ ☃",
+  "id": 19547,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "IDUNA",
+  "title": "Fix materials panel missing names regression"
+}
