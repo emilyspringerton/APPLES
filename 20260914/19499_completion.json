@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-14T01:41:33Z",
+  "body": "Founder real-time: 'i want there to be a plane by default that the player collides with - the checkerboard in the level editor - that should constitute the plane for that level - configurable in terms of size... turn on able and off able per level' / 'the squares are always the same size' / 'so the units needs to be the number of squares in the grid.' New Level.GroundPlaneEnabled/GroundPlaneSquares, real persisted fields threaded through Create/Update/Export/Clone + a new migration (ALTER TABLE -- the original create-table migration was already live, kept untouched). GridCellSize=50.0 matched directly against SHANKPIT's own real, already-existing GRID_SIZE=50.0f floor-grid/magenta-glow-trail convention rather than an arbitrary constant. Frontend: checkbox + squares input, a real 3D-viewport grid driven by these fields (divisions === squares, always-square cells). 2 new Go tests. Live-verified against the real running server: migration applied, API carries the fields, pre-existing rows correctly backfilled. Built, deployed, bundle-presence verified before Go rebuild. Commit e0f735e.\n\n⚓ ☃",
+  "id": 19499,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "IDUNA",
+  "title": "S459-08: real, per-level, configurable ground plane (SHANKPIT NOCK editor)"
+}

@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-14T01:41:33Z",
+  "body": "New g_custom_level_ground_plane_enabled/_squares (physics.h) threaded through phys_set_custom_level; resolve_collision's own real, existing 'no terrain -\u003e flat floor at y=0' fallback made conditional + bounded specifically for SCENE_CUSTOM_LEVEL (every other scene's own behavior completely unchanged). packages/world/level_boxes.h: new level_boxes_parse_bool + ground plane fields parsed from NOCK's export JSON. Live-verified end to end against a real running server instance with temporary in-process resolve_collision probes (not just a build check): enabled+in-bounds clamps to floor and sets on_ground; enabled+out-of-bounds falls through; disabled falls through everywhere. Native compile-check clean for both client and server. Deliberately deferred: visual integration with the existing magenta-glow footstep trail effect / bounded Matrix-floor rendering -- the glow itself is already free (on_ground-driven), only the static grid-line rendering bound is still native-only work, logged separately. Commit 64dc726.\n\n⚓ ☃",
+  "id": 19500,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "SHANKPIT",
+  "title": "S459-08: real ground-plane collision (enabled + bounded footprint) for NOCK-authored levels"
+}
