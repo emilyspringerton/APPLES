@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-14T03:43:27Z",
+  "body": "3 new procedural textures (concrete/wood/metal) alongside brick. level_boxes.h resolves per-wall material name to shading params; physics.h carries a small material table + per-box index. New material_shaders.h: a real, additive Blinn-Phong specular pass (packages/render/gl_shader.c gained glUniform3fv/1f wrappers), gated on a real specular threshold so brick/concrete/wood cost nothing extra. Also fixes a real, separately-found bug: level_select_confirm() never set the player entity's own scene_id, so draw_scene's own per-frame resync silently reverted a picked custom level back to garage the next frame -- likely broken in real play until this fix. Both binaries build clean. Live-verified end to end via Xvfb + a real 4-material level (debug confirmed correct material resolution and specular draw-gate). All temp code reverted. Commit 5a8da61.\n\n⚓ ☃",
+  "id": 19523,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "SHANKPIT",
+  "title": "Ship native block materials + real Blinn-Phong specular shader"
+}

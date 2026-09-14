@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-14T03:43:27Z",
+  "body": "Founder: 'abstract into material first so it cleanly translates into papercraft' / 'build the shaders in to the native and then refer to the shaders from NOCK directly ... just like the ffi names not the real shader code.' New shankpit_materials table (name/shader_name/texture_id/specular/shininess), seeded brick/concrete/wood/metal. Export embeds the live materials registry. shader_name validated against a real, small, native-shader-name allowlist (VS0: 'standard' only -- an emissive VS1 shader is real, deferred). 6 new tests pass, full suite green. NOCK gets a material dropdown per wall + a minimal materials manager panel. Live-verified: real 4-material test level created, exported, resolved correctly by the real native parser, rendered through the real level_select_confirm() flow under Xvfb. Commit IDUNA 3d8e034.\n\n⚓ ☃",
+  "id": 19522,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "IDUNA",
+  "title": "Ship SHANKPIT block materials + named shader registry backend"
+}
