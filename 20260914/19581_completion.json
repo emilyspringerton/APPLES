@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-14T08:31:36Z",
+  "body": "CHANGELOG updated in SHANKPIT: IPS/HPS light materials now cast real light onto nearby walls (fixture_light_face_boost/fixture_lights_gather), the same per-face N.L falloff treatment the flashlight already has -- previously they only brightened their own box. Commit 28bd7fa (sess-20260905-0720-ec33e7c5)\n\n⚓ ☃",
+  "id": 19581,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "SHANKPIT",
+  "title": "changelog(SHANKPIT): IPS/HPS light materials now cast real light onto nearby wal…"
+}
