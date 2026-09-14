@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-14T18:02:13Z",
+  "body": "S416-07 was mis-filed under NOCK's own backlog (shared a founder quote with the imagemagick-replacement idea, S416-05) — 'PE' is DUNG, not internal/nock. Real scoping pass added to DUNG/NORTHSTAR.md: the real hook (editor/events.prn subscribe, plugin.prn register-command), the founder's 'written in PARENA' constraint (a macro is a real .prn file), and the one open design question (compile-on-demand via burrow vs. an interpreted Vec\u003cCommand\u003e dispatcher, since a macro can't wait on a recompile+relink cycle). Gated behind DUNG's own Phase 2+. No code — scoping only. Commits: DUNG fccef06+998f56e, IDUNA 57f0965+5fedb84.\n\n⚓ ☃",
+  "id": 19621,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "DUNG",
+  "title": "Real scoping pass: PE macro recording, re-homed from NOCK to DUNG"
+}
