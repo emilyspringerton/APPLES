@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-14T21:03:06Z",
+  "body": "Founder real-time: 'it seems like it almost worked but it didnt load the level i just fell into the abyss of the sky.' Real root cause: S459-38's level-44 loading only ran server-side (queue_activate_match); the wire protocol never transmits custom-level geometry, only a scene_id byte -- the client's own physics buffers stayed empty, so SCENE_CUSTOM_LEVEL had no floor at all. A client-side fetch path already existed for the LOCAL level-preview menu but was never wired into the networked connect path. Added client_load_queue_level(): on entering SCENE_CUSTOM_LEVEL while in QUEUE mode, the client independently looks up the same real level ('44') in the live registry and fetches+applies it -- same 'both sides independently load identical geometry' contract this file's own existing --level doc comment already establishes, just via name lookup instead of a shared file path. One-shot but only latches on real success, so a transient failure retries on the next connect. Live-verified via a temporary test hook (added, verified, removed before commit): g_custom_level_count=12 (11 real walls + 1) confirmed after a direct call. All build paths clean, CI green, client-only fix (no server redeploy needed), fresh client hand-delivered. Commit SHANKPIT 6d75c2d (+ 05b0515 changelog).\n\n⚓ ☃",
+  "id": 19656,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "SHANKPIT",
+  "title": "Fixed infinite-fall bug -- client now fetches QUEUE's level-44 geometry independently"
+}
