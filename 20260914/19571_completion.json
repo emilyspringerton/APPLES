@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-14T08:00:00Z",
+  "body": "CHANGELOG updated in SHANKPIT: Added SHADER_IPS_LIGHT: a real, unlit emissive material shader (packages/render/material_shaders.h) with its own distinct IPS-panel texture (proctex_make_ips_panel_rgba), closing a found-live gap where shader_name was parsed from level JSON but never threaded through to the renderer. NOCK's Materials panel gets a shader picker and the delete button is removed to prevent accidentally orphaning a hooked-up material. Commit 0a5bf71 (sess-20260905-0720-ec33e7c5)\n\n⚓ ☃",
+  "id": 19571,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "SHANKPIT",
+  "title": "changelog(SHANKPIT): Added SHADER_IPS_LIGHT: a real, unlit emissive material sha…"
+}
