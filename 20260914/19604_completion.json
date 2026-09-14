@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-14T15:11:33Z",
+  "body": "Layer gets 4 new fields (X,Y,Scale,Rotation), backward-compatible (a layer that never sets them composites identically to before). New imCompositeTransformed: resize then rotate then position (correct order for a rotated bounding box), transparent background on rotate. New Service.SetTransform + PATCH .../transform, mirroring SetOpacity/SetVisible. Frontend LayerTransformPanel (X/Y inputs, scale/rotation sliders, Apply/Reset), same pattern as the existing hue/sat/sharpen panel. Real, found-live correction during testing: AddLayer's existing imFitToCanvas behavior fits every imported image to full canvas size before storage -- the test's first draft assumed small imports stay small; fixed the test, not the feature, once caught via failing pixel-sampled assertions (not just 'no error'). Real, end-to-end verified: go build/vet clean, full test suite passes including a new pixel-sampled test verifying actual ImageMagick composite output. Frontend build clean. New binary built and redeployed against the real running IDUNA, health-checked green. S416-01's own real gap (need a founder admin cookie session to browser-verify the logged-in UI) is honestly named, not bypassed -- every layer beneath it is real and verified. Commit e99e98f.\n\n⚓ ☃",
+  "id": 19604,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "IDUNA",
+  "title": "NOCK: real layer position/scale/rotation (S416-02)"
+}
