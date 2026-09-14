@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-14T22:41:39Z",
+  "body": "CHANGELOG updated in SHANKPIT: S459-47: fixed real self is_shooting/is_crouching (no server round-trip needed), decoded the real dual sniper-storm/katana-dash ability-cooldown mechanic (one shared cooldown gates both, storm charges persist independently), added reload_timer/ability_cooldown to the wire protocol, added real AABB raycast wall/floor-distance features -- ObservationSize 72 -\u003e 84 (sess-20260905-0720-ec33e7c5)\n\n⚓ ☃",
+  "id": 19673,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "SHANKPIT",
+  "title": "changelog(SHANKPIT): S459-47: fixed real self is_shooting/is_crouching (no serve…"
+}

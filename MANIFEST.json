@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-14T22:41:36Z",
+  "generated_at": "2026-09-14T22:41:39Z",
   "repo": "APPLES",
-  "count": 9135,
+  "count": 9136,
   "apples": [
     {
       "id": 10525,
@@ -73082,6 +73082,14 @@
       "source_repo": "SHANKPIT",
       "date": "20260914",
       "archived_at": "2026-09-14T22:41:36Z"
+    },
+    {
+      "id": 19673,
+      "type": "completion",
+      "title": "changelog(SHANKPIT): S459-47: fixed real self is_shooting/is_crouching (no serve…",
+      "source_repo": "SHANKPIT",
+      "date": "20260914",
+      "archived_at": "2026-09-14T22:41:39Z"
     }
   ]
 }
