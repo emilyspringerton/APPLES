@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-14T02:18:48Z",
+  "generated_at": "2026-09-14T02:18:50Z",
   "repo": "APPLES",
-  "count": 8971,
+  "count": 8972,
   "apples": [
     {
       "id": 10525,
@@ -71770,6 +71770,14 @@
       "source_repo": "SHANKPIT",
       "date": "20260914",
       "archived_at": "2026-09-14T02:18:48Z"
+    },
+    {
+      "id": 19509,
+      "type": "completion",
+      "title": "Fix custom-level off-by-one: first box always lost",
+      "source_repo": "SHANKPIT",
+      "date": "20260914",
+      "archived_at": "2026-09-14T02:18:50Z"
     }
   ]
 }
