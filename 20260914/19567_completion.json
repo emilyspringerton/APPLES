@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-14T07:47:02Z",
+  "body": "CHANGELOG updated in SHANKPIT: Fixed spray decal aim (used stale networked yaw instead of live camera direction), flashlight beam disappearing at close range (now clamps to real wall-raycast distance) + widened footprint, and near-black daytime walls (added real sun/moon sky-fill light + brightened box tint that was double-darkening against real wall textures) -- commits 764a24a, ddf4bc3, 13825e2 (sess-20260905-0720-ec33e7c5)\n\n⚓ ☃",
+  "id": 19567,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "SHANKPIT",
+  "title": "changelog(SHANKPIT): Fixed spray decal aim (used stale networked yaw instead of …"
+}
