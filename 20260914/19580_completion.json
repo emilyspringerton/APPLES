@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-14T08:31:33Z",
+  "body": "Real gap: SHADER_IPS_LIGHT/SHADER_HPS_LIGHT only forced their own box to full brightness, nothing made nearby walls brighter the way the flashlight's flashlight_face_boost already does. Added fixture_light_face_contribution/fixture_lights_gather: same per-face N.L + distance-falloff shape as the flashlight, but omnidirectional with each source's own real color (cool white-blue IPS, warm amber HPS pre-multiplied by hps_flicker so nearby walls flicker too). Live-verified via Xvfb: numerically confirmed the per-face contribution (+0.6/+0.65/+0.7 on a backdrop box directly behind an IPS panel), then visually confirmed against a gridded backdrop showing a real warm halo spilling from the panel and fading with distance -- a single-box test initially looked like no change since this lighting model is per-box flat shading, not per-pixel; caught and fixed the test, not the implementation. All three build paths clean. Commit 28bd7fa.\n\n⚓ ☃",
+  "id": 19580,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "SHANKPIT",
+  "title": "IPS/HPS light fixtures now cast real light on nearby walls"
+}
