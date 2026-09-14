@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-14T02:18:48Z",
+  "body": "CHANGELOG updated in SHANKPIT: fix: custom-level boxes silently lost box index 0 (every shared map_geo consumer skips index 0, a convention only valid for hand-authored scenes whose box 0 is a floor slab) -- custom levels now offset boxes to start at index 1 with a dummy at 0 (sess-20260905-0720-ec33e7c5)\n\n⚓ ☃",
+  "id": 19508,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "SHANKPIT",
+  "title": "changelog(SHANKPIT): fix: custom-level boxes silently lost box index 0 (every sh…"
+}

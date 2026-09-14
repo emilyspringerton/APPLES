@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-14T02:18:48Z",
+  "body": "Founder: 'if i have 2 i only get 1 if i have 3 i only get 1'. Root cause: shared map_geo/map_count consumers (draw_map/trace_map_boxes/phys_sample_ground_height/resolve_collision) all start at index 1 -- a real convention for hand-authored scenes whose box 0 is a floor slab drawn separately. Custom levels have no such box, so their first authored box was silently dropped every time. Fixed in phys_set_custom_level: real boxes now start at index 1, index 0 is a deliberate dummy. Live-verified via a temporary --level debug harness (2-box, 3-box levels), all boxes now collide correctly. Commit 06675d5.\n\n⚓ ☃",
+  "id": 19509,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "SHANKPIT",
+  "title": "Fix custom-level off-by-one: first box always lost"
+}
