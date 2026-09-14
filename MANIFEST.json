@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-14T15:49:07Z",
+  "generated_at": "2026-09-14T15:49:10Z",
   "repo": "APPLES",
-  "count": 9072,
+  "count": 9073,
   "apples": [
     {
       "id": 10525,
@@ -72578,6 +72578,14 @@
       "source_repo": "IDUNA",
       "date": "20260914",
       "archived_at": "2026-09-14T15:49:07Z"
+    },
+    {
+      "id": 19610,
+      "type": "completion",
+      "title": "changelog(IDUNA): NOCK: non-destructive hue/saturation/sharpen adjustments (S…",
+      "source_repo": "IDUNA",
+      "date": "20260914",
+      "archived_at": "2026-09-14T15:49:10Z"
     }
   ]
 }
