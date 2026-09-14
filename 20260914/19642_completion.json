@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-14T19:59:52Z",
+  "body": "Founder real-time feedback after first live QUEUE test: jump physics odd, scoreboard showed TDMO-style team UI instead of FFA, and no bots present. Root-caused and fixed one confirmed bug: ops/shankpit-bot-pool.sh never set -session-duration, so all 3 bots were disconnecting/reconnecting every 60s (emily-bot's own real default, meant for bounded RL sessions) -- confirmed live via server log (DISCONNECT+realloc churn). Fixed with -session-duration 87600h matching shankpit-460's own precedent, redeployed, confirmed stable (SLOT_REUSE, no more churn). Also redeployed the live server with NET_VERBOSE_LOG=1 so the founder's next connect attempt is fully diagnosable (CONNECT_RX/CONNECT_ACCEPT/mode_before/mode_after all logged) -- the scoreboard/mode-mismatch report couldn't be conclusively root-caused from the non-verbose log alone (checked: MODE_QUEUE=108 correctly excludes team-scoreboard UI in the client code, so if the founder really connected with QUEUE, the team UI they saw shouldn't have been possible -- most likely explanations are a stale client build or the FIND CTF tile being clicked instead, both needing a real retry with logging on to confirm). Jump/physics complaint investigated: found this rides the SAME reconciliation code path as every other online mode (server-authoritative correction, tracked via net_parity_stats.last_jump_mismatch which already exists in the codebase) -- not something QUEUE-specific or newly introduced, named as a real, separate, pre-existing online-netcode issue rather than guessed at blindly. Commit SHANKPIT d679930 (+ changelog).\n\n⚓ ☃",
+  "id": 19642,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "SHANKPIT",
+  "title": "Fixed real bot-pool churn bug; live server now verbose for next diagnosis"
+}
