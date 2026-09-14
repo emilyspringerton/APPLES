@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-14T05:49:04Z",
+  "body": "Founder: flashlight 'doesnt seem to be working correctly...expecting it to be a light source...barley circle of light...like 8 pixels.' Root cause confirmed by capturing the cone apex's own clip-space w through the real camera VP: it was exactly 0 (the apex sat AT the eye, a real degenerate near-plane vertex), collapsing the whole triangle fan under GPU clipping. Fixed: apex now starts FLASHLIGHT_APEX_OFFSET (1 unit) in front of the eye, not at it -- same fix every real spotlight effect needs. Live-verified via Xvfb before/after (w=0 confirmed, then a real large visible beam confirmed after the fix). All temp debug code removed. Commit 900283d.\n\n⚓ ☃",
+  "id": 19536,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "SHANKPIT",
+  "title": "Fix flashlight beam clip-space singularity (8px dot bug)"
+}
