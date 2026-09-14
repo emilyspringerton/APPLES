@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-14T02:04:26Z",
+  "body": "Deferred from S459-08 ('DEFER THAT PUT IT IN THE BACKLOG'). draw_grid() drew an unconditional, infinite (+/-4000 unit) cyan grid for every scene, including SCENE_CUSTOM_LEVEL -- now bounded to the real, configured ground-plane footprint (or skipped entirely when disabled), reusing the exact same g_custom_level_ground_plane_enabled/_squares + CUSTOM_LEVEL_GRID_CELL_SIZE values S459-08's own collision logic already uses and live-verified numerically. Every other scene's own infinite grid is unchanged. Compile-check clean. Commit 3c12aa8.\n\n⚓ ☃",
+  "id": 19504,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "SHANKPIT",
+  "title": "S459-09: bound the static Matrix-floor grid to a custom level's own footprint"
+}
