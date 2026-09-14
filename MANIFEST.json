@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-14T05:31:45Z",
+  "generated_at": "2026-09-14T05:31:47Z",
   "repo": "APPLES",
-  "count": 8995,
+  "count": 8996,
   "apples": [
     {
       "id": 10525,
@@ -71962,6 +71962,14 @@
       "source_repo": "IDUNA",
       "date": "20260914",
       "archived_at": "2026-09-14T05:31:45Z"
+    },
+    {
+      "id": 19533,
+      "type": "completion",
+      "title": "Fix MaterialsPanel covering the SHANKPIT editor",
+      "source_repo": "IDUNA",
+      "date": "20260914",
+      "archived_at": "2026-09-14T05:31:47Z"
     }
   ]
 }
