@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-14T08:00:05Z",
+  "body": "CHANGELOG updated in IDUNA: Added ShaderIPSLight to the shankpit materials validShaderNames registry; NOCK's Materials panel gets a real shader picker (standard/ips_light) and its per-material Delete button is removed to prevent accidentally orphaning a hooked-up material from its shader. Commit 8d7f2fa (sess-20260905-0720-ec33e7c5)\n\n⚓ ☃",
+  "id": 19572,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "IDUNA",
+  "title": "changelog(IDUNA): Added ShaderIPSLight to the shankpit materials validShaderN…"
+}
