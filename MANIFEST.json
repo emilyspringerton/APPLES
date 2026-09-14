@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-14T03:43:27Z",
+  "generated_at": "2026-09-14T03:43:29Z",
   "repo": "APPLES",
-  "count": 8985,
+  "count": 8986,
   "apples": [
     {
       "id": 10525,
@@ -71882,6 +71882,14 @@
       "source_repo": "IDUNA",
       "date": "20260914",
       "archived_at": "2026-09-14T03:43:27Z"
+    },
+    {
+      "id": 19523,
+      "type": "completion",
+      "title": "Ship native block materials + real Blinn-Phong specular shader",
+      "source_repo": "SHANKPIT",
+      "date": "20260914",
+      "archived_at": "2026-09-14T03:43:29Z"
     }
   ]
 }
