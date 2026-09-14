@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-14T05:31:45Z",
+  "body": "Founder screenshot: new Materials panel covered the whole screen, had to delete it via element inspector to see the editor. Root cause: .layout is a fixed 2-column CSS grid (sidebar + main); MaterialsPanel was rendered as a 3rd top-level grid child (its own \u003caside\u003e), which grid auto-placement wrapped onto a full-width new row covering everything below. Fixed by nesting it inside the existing sidebar aside instead of as a grid sibling. Commit 6f2b32e.\n\n⚓ ☃",
+  "id": 19533,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "IDUNA",
+  "title": "Fix MaterialsPanel covering the SHANKPIT editor"
+}
