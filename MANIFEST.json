@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-14T01:41:33Z",
+  "generated_at": "2026-09-14T01:41:35Z",
   "repo": "APPLES",
-  "count": 8962,
+  "count": 8963,
   "apples": [
     {
       "id": 10525,
@@ -71698,6 +71698,14 @@
       "source_repo": "IDUNA",
       "date": "20260914",
       "archived_at": "2026-09-14T01:41:33Z"
+    },
+    {
+      "id": 19500,
+      "type": "completion",
+      "title": "S459-08: real ground-plane collision (enabled + bounded footprint) for NOCK-authored levels",
+      "source_repo": "SHANKPIT",
+      "date": "20260914",
+      "archived_at": "2026-09-14T01:41:35Z"
     }
   ]
 }
