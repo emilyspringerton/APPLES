@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-14T01:02:58Z",
+  "body": "Founder tested the shipped v0 and found two real bugs plus one missing v0-shaping affordance. (1) Face-dragging was inverted -- root cause: closestPointOnAxisLineToRay defined w0 = linePoint - rayOrigin, the negation of the standard reference's own r = P1 - P2 (Ericson, Real-Time Collision Detection). Rederived directly against the reference, verified numerically with a standalone script before deploying (dragging toward +X now increases the face x-coordinate). (2) Added an object/face edit-mode toggle: object mode drags a whole cube (camera-facing-plane intersection, same 'billboard drag' technique as free 3D object translation everywhere), face mode is the original per-face reshape. (3) Added a movable spawner marker (session-only, not persisted level data) -- new cubes now spawn at the marker's position instead of a fixed default, fixing cubes always landing on top of each other. Also answered directly: no, the native SHANKPIT map loader was never shipped -- the backend Export endpoint produces the correct JSON but packages/map/map.c has no JSON-loading path yet. tsc -b \u0026\u0026 vite build / oxlint clean. Built, deployed, verified. Commit a2d4e3b.\n\n⚓ ☃",
+  "id": 19493,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "IDUNA",
+  "title": "S459: fix inverted face-drag sign, add object/face mode + movable spawner"
+}
