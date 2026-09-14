@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-14T22:41:36Z",
+  "body": "Founder feedback on the first observation-vector pass, fully addressed.\n\nChecked directly against packages/common/physics.h before building anything:\nability_cooldown is ONE shared timer gating FOUR abilities (AR/shotgun\nability, katana dash, sniper storm activation) -- activating any one blocks\nevery other one until it reaches 0. storm_charges is a genuinely separate,\npersistent resource that survives independently of that shared cooldown --\nconfirmed the founder's own described sequence (activate storm, let the\nshared cooldown expire, dash on weapon 6, still have unfired storm rounds\nbanked) is exactly this real mechanic.\n\nAdded reload_timer + ability_cooldown to the wire protocol (NetPlayer grew\n64-\u003e68 bytes, re-verified via a compiled sizeof/offsetof probe). Fixed\nSelfIsShooting/SelfCrouching (real outbound state, no server round-trip\nneeded) and SelfStormChargesFrac (was fabricated to 0). Added a real AABB\nraycast (geometry.go) against the QUEUE level's own fetched box list --\n5 new wall/floor distance features, closing the \"no raycast\" gap.\n\nObservationSize: 72 -\u003e 84. Round-timer wire-field gap left open per the\nfounder's own explicit \"not sure about the round trip timer thing.\"\n\n11 unit tests total (up from 7), full go test ./... green, live 2-bot UDP\ntest against the extended 68-byte wire format with no panics, live server +\nbot pool + fresh Windows client redeployed.\n\nCommit: SHANKPIT@1c16348. Doc: docs/BOT_TRAINING_NORTHSTAR.md §7-8.\n\n⚓ ☃",
+  "id": 19672,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "SHANKPIT",
+  "title": "S459-47: real crouch/shoot state, dual sniper-storm/katana-dash cooldown tracking, real raycast wall/floor features"
+}
