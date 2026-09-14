@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-14T07:01:36Z",
+  "body": "Faithful, real Bazel port of the existing Makefile's own source lists: MODULE.bazel/.bazelrc/.bazelversion, cc_library per package (common/audio/goldenband/render/world/ui, plus a deliberate two-target split for simulation matching the real server/lobby source asymmetry), cc_binary for apps/lobby (shank_lobby) and apps/server (shank_server + serverctl). Verified with a real bazelisk build -- both binaries compile and link, Bazel-built shank_lobby live-verified under Xvfb rendering the real lobby menu correctly. Commit 3dee65f.\n\n⚓ ☃",
+  "id": 19557,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "SHANKPIT",
+  "title": "Migrate SHANKPIT build system from Makefile to Bazel"
+}
