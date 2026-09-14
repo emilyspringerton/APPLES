@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-14T18:56:30Z",
+  "body": "Founder real-time: decal was being smooshed into a fixed square. spray_tex_for_id now returns the real width/height ratio from the already-decoded texture; draw_spray_decals scales the shorter axis down from the real half-size instead of using a fixed sz for both axes. Live-verified under Xvfb -- a portrait spray (256x421) now renders as a real tall rectangle, not a squashed square. All three build paths clean. Commit SHANKPIT a97ff9a (+ ab7dfa4 changelog).\n\n⚓ ☃",
+  "id": 19630,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "SHANKPIT",
+  "title": "Fix: spray decals keep their real aspect ratio instead of a squashed square"
+}

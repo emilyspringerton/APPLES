@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-14T18:56:25Z",
+  "generated_at": "2026-09-14T18:56:30Z",
   "repo": "APPLES",
-  "count": 9092,
+  "count": 9093,
   "apples": [
     {
       "id": 10525,
@@ -72738,6 +72738,14 @@
       "source_repo": "SHANKPIT",
       "date": "20260914",
       "archived_at": "2026-09-14T18:56:25Z"
+    },
+    {
+      "id": 19630,
+      "type": "completion",
+      "title": "Fix: spray decals keep their real aspect ratio instead of a squashed square",
+      "source_repo": "SHANKPIT",
+      "date": "20260914",
+      "archived_at": "2026-09-14T18:56:30Z"
     }
   ]
 }
