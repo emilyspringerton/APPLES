@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-14T06:47:40Z",
+  "body": "Founder: 'when i hit T it started typing into chat - thats not even a functioning feature just remap that key to spray please and ensure there is a spray interface in the client HAVE IT REPLACE TDMO in the shankpit menu.' New packages/world/spray_registry.h (reuses level_boxes.h's own curl fetch). LOBBY_TDMO -\u003e LOBBY_SPRAYS in the same menu slot, opens a real spray select overlay (mirrors level_select_menu exactly) against the live IDUNA sprays registry, auto-selects the real default. T now raycasts via trace_map and places a real decal (position/normal/scene/spray id) on hit, rendered as an honest flat-tinted placeholder quad (no native PNG decoder exists yet, named not hidden). Live-verified under Xvfb: menu screenshot confirms SPRAYS replaced TDMO, opening it lists the founder's own real sprays with default pre-selected; debug pass confirmed a real raycast hit + visible rendered decal. All temp test code removed. Commit 1c9ca15.\n\n⚓ ☃",
+  "id": 19550,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "SHANKPIT",
+  "title": "Ship native sprays menu + T-key remap"
+}
