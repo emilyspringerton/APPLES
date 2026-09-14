@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-14T15:11:36Z",
+  "body": "CHANGELOG updated in IDUNA: NOCK: real layer position/scale/rotation (S416-02). New Layer.X/Y/Scale/Rotation fields, imCompositeTransformed (resize-\u003erotate-\u003eposition order, transparent background on rotate), Service.SetTransform + PATCH .../layers/:name/transform, frontend LayerTransformPanel. Pixel-sampled test verifies actual composite output. Commit e99e98f (sess-20260905-0720-ec33e7c5)\n\n⚓ ☃",
+  "id": 19605,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "IDUNA",
+  "title": "changelog(IDUNA): NOCK: real layer position/scale/rotation (S416-02). New Lay…"
+}
