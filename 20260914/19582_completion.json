@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-14T08:36:56Z",
+  "body": "S459-31's per-box wall lighting is real per-box flat shading, so its halo was necessarily blocky/square. Added draw_light_glow_billboard: a soft, camera-facing, additively-blended round glow sprite at each fixture (radial smoothstep+squared alpha falloff, no hard edge) -- the standard forward-renderer technique for this, much cheaper than a real framebuffer gaussian blur/bloom post-process. Live-verified via Xvfb: a real, visible, round white-hot glow now radiates from the IPS panel and fades smoothly outward. Commit 602d2e0.\n\n⚓ ☃",
+  "id": 19582,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "SHANKPIT",
+  "title": "Soft round glow billboard for IPS/HPS light fixtures (fixes blocky halo)"
+}
