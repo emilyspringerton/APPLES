@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-14T06:37:39Z",
+  "generated_at": "2026-09-14T06:37:40Z",
   "repo": "APPLES",
-  "count": 9009,
+  "count": 9010,
   "apples": [
     {
       "id": 10525,
@@ -72074,6 +72074,14 @@
       "source_repo": "IDUNA",
       "date": "20260914",
       "archived_at": "2026-09-14T06:37:39Z"
+    },
+    {
+      "id": 19547,
+      "type": "completion",
+      "title": "Fix materials panel missing names regression",
+      "source_repo": "IDUNA",
+      "date": "20260914",
+      "archived_at": "2026-09-14T06:37:40Z"
     }
   ]
 }
