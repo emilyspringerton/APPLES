@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-14T21:46:57Z",
+  "generated_at": "2026-09-14T21:47:05Z",
   "repo": "APPLES",
-  "count": 9125,
+  "count": 9126,
   "apples": [
     {
       "id": 10525,
@@ -73002,6 +73002,14 @@
       "source_repo": "SHANKPIT",
       "date": "20260914",
       "archived_at": "2026-09-14T21:46:57Z"
+    },
+    {
+      "id": 19663,
+      "type": "completion",
+      "title": "CRITICAL: fixed the real reason other players were never visible online, in any networked mode",
+      "source_repo": "SHANKPIT",
+      "date": "20260914",
+      "archived_at": "2026-09-14T21:47:05Z"
     }
   ]
 }

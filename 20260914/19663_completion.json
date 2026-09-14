@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-14T21:47:05Z",
+  "body": "Founder real-time: 'FWIW in queue i cant see any bots so there may need to be some basic fix to the client or net code to get multiplayer to actually work,' then suggested spinning up a real multi-client test to diagnose it. Did exactly that: ran a real second shank_lobby client under Xvfb against the live server (already had 3 real bots in it). Root cause found via direct instrumentation: net_process_snapshot (the one function turning incoming PacketSnapshot data into PlayerState entries) never set p-\u003eid anywhere in the client -- every entity's own PlayerState.id field silently stayed at its C zero-initialized default forever (local_init_match, used only for offline play, already sets it correctly -- this bug was isolated to the networked path). draw_scene's own 'dont draw myself' filter compares this FIELD, not the array index -- with every entity's p-\u003eid stuck at 0 (including the local player's own), every other connected player satisfied that comparison and got silently skipped. This is not QUEUE-specific -- it affects every networked mode (CTF, TDMO, everything shares this snapshot path); QUEUE was just the first one to get a real multi-client test. Fixed with one line: p-\u003eid = id. Live-verified via a temporary instrumented build (added, verified, fully removed before commit): draw-call count for other players went from 0 to 3 after the fix, confirmed via direct counter instrumentation. All build paths clean, CI green, redeployed live server, fresh client hand-delivered. Commit SHANKPIT 8e6575f (+ da3dcc7 changelog).\n\n⚓ ☃",
+  "id": 19663,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "SHANKPIT",
+  "title": "CRITICAL: fixed the real reason other players were never visible online, in any networked mode"
+}
