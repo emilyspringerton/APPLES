@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-14T19:47:28Z",
+  "body": "Founder real-time: 'we want that for SHANKPIT so we can start making that experience better... we need that bot pool with like 3 bots so i can join up and get into a game.' Checked first: the live process on :6969 was shankpit-460's own separate, stale fork (frozen 2026-08-26, 902-line server vs this repo's actively-developed 1271 lines -- missing all recent TDMO/sprays/lighting/QUEUE work). Cleanly stopped+disabled the old shankpit460-server.service + shankpit460-emily-bot.service (kept, not deleted -- real rollback path), brought up new shankpit-server.service (this repo's own binary, same standard port) + shankpit-bot-pool.service (3 real emily-bot processes requesting the new MODE_QUEUE). Live-verified post-cutover: 3 real bot connections, all active/welcomed, sustained real traffic. Also rebuilt and hand-delivered a fresh Windows client with the QUEUE menu tile so the founder can actually join. Commits SHANKPIT 0c4c263 (+ ab506e3 changelog).\n\n⚓ ☃",
+  "id": 19639,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "SHANKPIT",
+  "title": "Live cutover: active SHANKPIT server + 3-bot QUEUE pool now serve production :6969"
+}
