@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-14T19:10:18Z",
+  "body": "Founder real-time: 'the build is down... it cant cut a release.' Root cause, confirmed via the real GitHub Actions API job log: TWO independently hand-maintained CI workflow files (release.yml AND tests.yml) each carry their own separate copy of the same explicit Windows-client build command; neither was updated when S459-33 added packages/world/parena_runtime.c + png_decode_gen.c to the Makefile's LOBBY_SRC -- undefined reference to arena_init/arena_alloc/png_decode/arena_free_all at link time, every run since. Same class of drift a pre-existing comment in release.yml already documented for gband_mesh_rig.c (2026-09-10) -- this is now a real, named, recurring pattern (three live incidents), not fixed by unifying the two copies in this pass (named as real separate follow-up). Fixed both files (commits c8fc819, 2ee560e), watched CI go green on both workflows for real, confirmed a real GitHub Release (v0.24.0, commit 2ee560e) was cut with real Windows client/bots/world build zips attached. Also cross-compiled and hand-delivered a Windows build directly to the founder earlier in this session (before the CI root cause was found) using a vendored MinGW SDL2 kit, so they had a working binary immediately rather than waiting on the CI fix.\n\n⚓ ☃",
+  "id": 19633,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "SHANKPIT",
+  "title": "Real CI outage found and fixed -- release v0.24.0 cut clean"
+}
