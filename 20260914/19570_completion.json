@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-14T07:59:57Z",
+  "body": "Real, native SHADER_IPS_LIGHT: a genuinely unlit emissive shader (not an additive highlight on lit color like SHADER_STANDARD) -- forces a box's base tint/lighting to full bright before texturing, skipping day/night darkening + ground AO entirely, plus a real soft fresnel-ish additive GLSL glow on top. New proctex_make_ips_panel_rgba gives it a distinct fine pixel-grid IPS-panel texture instead of falling back to brick. Closed a real, found-live gap along the way: level_boxes.h already parsed each material's shader_name from level JSON but phys_set_custom_level_materials silently dropped it before it ever reached the renderer -- now threaded through end to end. NOCK's Materials panel gets a real shader picker (standard/ips_light) and the per-material Delete button is removed entirely so a hooked-up material can't be accidentally orphaned from its shader. Created the real ips_light material (id=5) via the live MaterialStore, confirmed via GET /api/v1/shankpit-materials. Live-verified via Xvfb: an ips_light test wall renders as an unmistakably distinct bright glowing panel next to a normal brick wall. Commits SHANKPIT 0a5bf71, IDUNA 8d7f2fa.\n\n⚓ ☃",
+  "id": 19570,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "SHANKPIT",
+  "title": "Add SHADER_IPS_LIGHT emissive material + lock materials panel delete"
+}
