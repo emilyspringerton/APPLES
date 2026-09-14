@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-14T01:24:21Z",
+  "body": "Closes the native-loader gap named in EMILY/BACKLOG.md SECTION 459/460. REAL, FOUND, LIVE CORRECTION: the just-shipped NOCK level editor was built against packages/map/map.h's own Wall struct, used only by services/game-server/src/server.c -- a real, separate, currently-broken (unrelated pre-existing compile errors: ServerState missing a vehicles field the file itself references), not-in-CI prototype. The actual CI-verified, currently-playable client (apps/lobby + apps/server) already has its own compatible static-geometry primitive: physics.h's own Box{x,y,z,w,h,d}, selected per-scene via map_geo/map_count. New packages/world/level_boxes.h: a real, small, dependency-free JSON scanner mirroring BRAWLPIT/level_format.h's own established technique, parsing NOCK's export shape into plain float arrays. New SCENE_CUSTOM_LEVEL + phys_set_custom_level wired into the exact same collision path every other scene already uses. New --level \u003cpath\u003e flag on both apps/server (authoritative) and apps/lobby (same flag/load). Live-verified end to end against a real running server instance on a throwaway port (confirmed correct name/count/dims parsed, scene switched to 9, then reverted the test port back to 6969 -- the real, live, already-running production server on that port was never touched); a missing/malformed level file falls back cleanly without crashing, also verified live. apps/lobby's own existing generic draw_map()/collision already iterate map_geo for any scene, so a custom level renders and collides with zero new rendering code. Native compile-check clean (gcc -c against all real CI source files for the client; -O2 -static clean for the server, matching the real CI command exactly). Commit 19f8b6c.\n\n⚓ ☃",
+  "id": 19497,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "SHANKPIT",
+  "title": "Real native loader for NOCK-authored levels (--level flag, SCENE_CUSTOM_LEVEL)"
+}

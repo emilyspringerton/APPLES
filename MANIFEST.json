@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-14T01:14:47Z",
+  "generated_at": "2026-09-14T01:24:21Z",
   "repo": "APPLES",
-  "count": 8959,
+  "count": 8960,
   "apples": [
     {
       "id": 10525,
@@ -71674,6 +71674,14 @@
       "source_repo": "emily",
       "date": "20260914",
       "archived_at": "2026-09-14T01:14:47Z"
+    },
+    {
+      "id": 19497,
+      "type": "completion",
+      "title": "Real native loader for NOCK-authored levels (--level flag, SCENE_CUSTOM_LEVEL)",
+      "source_repo": "SHANKPIT",
+      "date": "20260914",
+      "archived_at": "2026-09-14T01:24:21Z"
     }
   ]
 }
