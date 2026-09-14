@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-14T14:22:05Z",
+  "body": "Real, working DEFLATE decompressor in PARENA: bit reader, canonical Huffman construct+decode (puff.c's real table-free algorithm, chosen since Vec has no indexed set!), all 3 block types, LZ77 copying. Compiles cleanly (parena build + gcc-verified emitted C). Tested against real zlib-generated vectors: stored/fixed-Huffman/one dynamic-Huffman case/long-backref repeats all decode byte-for-byte correctly. One further dynamic-Huffman case (level-9 text) hangs -- isolated via a Python port of the identical algorithm, which decodes the SAME case correctly, proving this is a VS0 C-emitter codegen bug (inflate-huffman-block's pos/opos loop state infers as C double instead of I32, unlike every structurally-identical loop elsewhere in the file), not an algorithm bug. Deliberately not wired into SHANKPIT yet -- real follow-up once found. Commit PARENA 1fc82ae.\n\n⚓ ☃",
+  "id": 19599,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "PARENA",
+  "title": "Real RFC 1951 DEFLATE inflate decoder -- working, but one known codegen bug blocks SHANKPIT integration"
+}
