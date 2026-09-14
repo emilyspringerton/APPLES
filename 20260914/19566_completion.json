@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-14T07:46:59Z",
+  "body": "Three real, distinct fixes shipped: (1) spray_place_decal raycast used p-\u003eyaw/pitch (stale, only synced at tick points) instead of the live cam_yaw/cam_pitch driving the actual crosshair -- decals landed in a totally random spot. (2) draw_flashlight_beam's cone used a fixed FLASHLIGHT_RANGE ring regardless of nearby geometry, so close to a wall the ring (and connecting triangles) fell behind the surface and depth-tested away entirely -- now clamped to a real forward raycast so the beam shrinks in length near walls instead of vanishing; also widened FLASHLIGHT_HALF_ANGLE_DEG 20-\u003e27 for a genuinely bigger illuminated footprint. (3) retro_lighting.c added a real sun/moon sky-fill term (direction-independent scattered light, the same real reason outdoor shaded walls are never pitch black) plus brightened the per-box procedural tint (0.28-0.49 -\u003e 0.62-0.90, a leftover pre-real-texture darkening layer) -- daytime walls no longer compound three multiplicative darkening factors into near-black. All live-verified via Xvfb before/after screenshots. Commits 764a24a, ddf4bc3, 13825e2.\n\n⚓ ☃",
+  "id": 19566,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "SHANKPIT",
+  "title": "Fix spray decal aim (stale networked yaw) + flashlight beam close-range clip + realistic daylight"
+}
