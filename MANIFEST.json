@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-14T19:04:25Z",
+  "generated_at": "2026-09-14T19:10:10Z",
   "repo": "APPLES",
-  "count": 9094,
+  "count": 9095,
   "apples": [
     {
       "id": 10525,
@@ -72754,6 +72754,14 @@
       "source_repo": "emily",
       "date": "20260914",
       "archived_at": "2026-09-14T19:04:25Z"
+    },
+    {
+      "id": 19632,
+      "type": "completion",
+      "title": "changelog(SHANKPIT): fix(ci): both release.yml and tests.yml's Windows-build ste…",
+      "source_repo": "SHANKPIT",
+      "date": "20260914",
+      "archived_at": "2026-09-14T19:10:10Z"
     }
   ]
 }

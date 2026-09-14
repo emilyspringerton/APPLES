@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-14T19:10:10Z",
+  "body": "CHANGELOG updated in SHANKPIT: fix(ci): both release.yml and tests.yml's Windows-build steps were missing the S459-33 PNG decoder sources (two independently hand-maintained copies of the same build command) -- CI was failing/no releases cutting since the sprays commit; real release v0.24.0 now cut clean (sess-20260905-0720-ec33e7c5)\n\n⚓ ☃",
+  "id": 19632,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "SHANKPIT",
+  "title": "changelog(SHANKPIT): fix(ci): both release.yml and tests.yml's Windows-build ste…"
+}
