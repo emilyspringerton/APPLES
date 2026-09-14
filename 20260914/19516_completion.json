@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-14T03:05:19Z",
+  "body": "Founder: 'a map is a composition of levels ... a level and a map is the same thing - its like a smart document in photoshop where you have like a photoshop doc in a photoshop doc.' New objects_json on shankpit_levels (wholesale-replaced like walls_json). LevelStore.Export/flattenObjects recursively resolves object children (position + 90-deg Y rotation) into ONE flat wall list server-side -- native SHANKPIT client needs zero changes. Cycle guard + depth cap. NOCK editor UI: add-object picker, per-object inspector (position/rotate-90/plane toggles, both default off), wireframe viewport preview. 5 new tests pass + full existing suite green. Live-verified against real production data: composed the founder's own real level 2222 (10 walls) twice, mirrored (rot 0 @ x=-150, rot 180 @ x=+150) into a real temporary map, confirmed 20 correctly-transformed flattened walls, then deleted the temp level with zero residue. Commit 5e434d4.\n\n⚓ ☃",
+  "id": 19516,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "IDUNA",
+  "title": "Ship levels-as-objects: a map is a composition of levels"
+}
