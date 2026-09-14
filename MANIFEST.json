@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-14T06:47:42Z",
+  "generated_at": "2026-09-14T06:51:21Z",
   "repo": "APPLES",
-  "count": 9013,
+  "count": 9014,
   "apples": [
     {
       "id": 10525,
@@ -72106,6 +72106,14 @@
       "source_repo": "SHANKPIT",
       "date": "20260914",
       "archived_at": "2026-09-14T06:47:42Z"
+    },
+    {
+      "id": 19551,
+      "type": "completion",
+      "title": "changelog(IDUNA): feat: WASD moves the spawner marker in the SHANKPIT level e…",
+      "source_repo": "IDUNA",
+      "date": "20260914",
+      "archived_at": "2026-09-14T06:51:21Z"
     }
   ]
 }
