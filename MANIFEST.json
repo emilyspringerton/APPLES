@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-14T02:12:55Z",
+  "generated_at": "2026-09-14T02:12:59Z",
   "repo": "APPLES",
-  "count": 8968,
+  "count": 8969,
   "apples": [
     {
       "id": 10525,
@@ -71746,6 +71746,14 @@
       "source_repo": "IDUNA",
       "date": "20260914",
       "archived_at": "2026-09-14T02:12:55Z"
+    },
+    {
+      "id": 19506,
+      "type": "completion",
+      "title": "NOCK level editor: constrain-Y drag + undo/redo",
+      "source_repo": "IDUNA",
+      "date": "20260914",
+      "archived_at": "2026-09-14T02:12:59Z"
     }
   ]
 }
