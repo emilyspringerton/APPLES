@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-14T23:27:00Z",
+  "body": "The training pipeline is now real and working. gymnasium/stable_baselines3\nconfirmed installed (a real change from an earlier session's claim they\nweren't available in this sandbox).\n\nNew scripts/rl_env_packet.py: real gymnasium.Env speaking SHANKPIT's actual\nwire protocol byte-for-byte, direct Python ports of apps2/emily-bot's own\nobservation.go (84 features) and reward.go (4-tier reward). 26 new\nnetwork-free unit tests, all passing. New scripts/rl_train_packet.py: real\nPPO training script.\n\nFound and fixed 3 real, previously-unknown, LIVE-production-impacting bugs\nwhile actually running the pipeline (not code review alone):\n1. QUEUE connect never spawned the player (health/state/weapon left at 0).\n2. phys_respawn's scene whitelist missing SCENE_CUSTOM_LEVEL -- every QUEUE\n   death-\u003erespawn was silently kicking the player out of NEWPIT back to\n   GARAGE_OSAKA. The standing bot pool has hit this on every death since\n   S459-41.\n3. No void/out-of-bounds death existed anywhere -- a player falling off any\n   level's geometry fell forever at full health with no recovery.\n\nAdded --fast-forward to the server (mirrors ECOWAR/BRAWLPIT), verified\n~500K ticks/sec.\n\nA real PPO training run completed end-to-end after the void-kill fix: 4096\ntimesteps, 8 real update iterations, checkpoint saved and verified to load\nback via PPO.load and produce a real predicted action.\n\nLive server, bot pool, and a fresh Windows client all redeployed.\n\nCommit: SHANKPIT@b25f879. Doc: docs/BOT_TRAINING_NORTHSTAR.md §9.\n\n⚓ ☃",
+  "id": 19677,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "SHANKPIT",
+  "title": "S459-48: real packet-level PPO training pipeline working end-to-end, 3 live-production bugs found+fixed"
+}
