@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-14T01:57:12Z",
+  "body": "Founder real-time: 'ok i need the level selection interface in shankpit' -\u003e 'delete the headed option from the menu in shankpit move all of the options down and make the level selector the first option... headed isnt needed.. put level select as the first tile.' LOBBY_HEADED_BOT removed from the main menu (MODE_HEADED_BOT gameplay mode itself untouched, only the menu entry point). LOBBY_LEVEL_SELECT is now index 0, labeled 'LEVELS' (shortened after live-verifying the longer label visually overflowed into the next grid column). New real, live level browser mirroring BRAWLPIT/level_registry.h's own established technique field-for-field (shell out to curl): level_boxes_fetch_url/fetch_registry_list/fetch_export hit IDUNA's real public /api/v1/shankpit-levels endpoints. New level_select_* overlay mirroring skin_menu_*'s own real interaction shape (keyboard + mouse + render), wired in alongside the existing skin chooser without touching it. Confirming a level fetches its real export, loads via phys_set_custom_level, starts a real local match. Live-verified end to end, not just compiled: standalone harness confirmed the fetch functions work against the real running registry (2 real levels listed/exported correctly); the actual client was built, linked, and run under Xvfb -- real screenshots confirm LEVELS is first with no HEADED BOT, and the overlay renders the real live registry list correctly. Compile-check clean for both client and server. Commit 87e5252.\n\n⚓ ☃",
+  "id": 19502,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "SHANKPIT",
+  "title": "S459-11: real in-game level selection interface, HEADED BOT removed from menu"
+}
