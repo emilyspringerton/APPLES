@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-15T03:33:52Z",
+  "body": "Same category as BRAWLPIT's own S424 fix (the piece that moves Elo wasn't connected to what gets reported), different manifestation: rl_train_packet.py's per-generation evaluation match/record_match_result (already built unlike BRAWLPIT's original gap) ran AFTER push_checkpoint, so every push carried the pre-evaluation inherited Elo. Confirmed live against the actual running Colab job's registry: 11/11 pushed checkpoints across 3 generations sat at exactly elo=1500. Fixed by reordering: evaluate first, push with the real current post-match Elo. Live-verified via a real 2-generation local run (bin/shank_server + bin/emily-bot, no mocks): gen 1 vs gen 0 moved elo 1500-\u003e1516/1484. Full python -m unittest suite (35 tests) green. Commit 1a58afb.\n\n⚓ ☃",
+  "id": 19720,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "SHANKPIT",
+  "title": "S459-60: fixed real bug where pushed registry checkpoint Elo always stayed 1500"
+}
