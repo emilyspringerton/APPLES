@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-15T08:47:35Z",
+  "body": "Founder reported spray placement 'really unreliable', jitter/backward spray on first use, and floating sprays after switching levels. Three real, distinct bugs: (1) trace_map_boxes was never a real raycast -- only tested whether the segment's fixed far endpoint landed inside a wall's volume, explaining why facing a wall only worked at one specific standoff distance. Replaced with a real closest-hit slab-method segment-vs-AABB test, live-verified via a direct C probe (8 standoff distances all hit reliably at correct surface/normal, correct misses confirmed). This also fixes the flashlight beam which shares the same function. (2) Sprays never cleared on scene/level change, and all custom levels share the same SCENE_CUSTOM_LEVEL scene_id -- fixed by clearing decals on connect/reconnect (the same real boundary that already re-fetches level geometry). (3) spray_registry_fetch_list is a genuinely blocking curl-via-popen call that used to fire inline on first T-press, stalling the main loop -- fixed by prefetching at scene entry instead, mirroring the existing level-geometry prefetch pattern. Both apps/server and apps/lobby build clean. Live server+bot pool redeployed, fresh Windows client built. python -m unittest (36 tests) and go test (all packages) green. Commit 5f93b86.\n\n⚓ ☃",
+  "id": 19755,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "SHANKPIT",
+  "title": "S459-74: fixed three real spray bugs -- unreliable placement, stale decals across levels, first-use jitter"
+}

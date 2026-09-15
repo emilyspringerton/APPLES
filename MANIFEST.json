@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-15T08:46:44Z",
+  "generated_at": "2026-09-15T08:47:35Z",
   "repo": "APPLES",
-  "count": 9217,
+  "count": 9218,
   "apples": [
     {
       "id": 10525,
@@ -73738,6 +73738,14 @@
       "source_repo": "emily",
       "date": "20260915",
       "archived_at": "2026-09-15T08:46:44Z"
+    },
+    {
+      "id": 19755,
+      "type": "completion",
+      "title": "S459-74: fixed three real spray bugs -- unreliable placement, stale decals across levels, first-use jitter",
+      "source_repo": "SHANKPIT",
+      "date": "20260915",
+      "archived_at": "2026-09-15T08:47:35Z"
     }
   ]
 }
