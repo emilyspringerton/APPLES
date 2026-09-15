@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-15T01:39:24Z",
+  "body": "Founder real-time: \"northstar this whole thing\" (after asking about\ntraining a multi-main league). Added a real §12 to\ndocs/BOT_TRAINING_NORTHSTAR.md: a status summary of the full, real, working\npipeline built this session, plus two concrete next steps with named\ntradeoffs (not just listed):\n\n1. Native in-game inference -- the standing QUEUE bot pool still runs the\n   old heuristic, never a trained checkpoint. BRAWLPIT's own real\n   export_policy_weights.py + mlp_policy.h precedent is the template,\n   adapted to Go (SHANKPIT's bot pool is Go, BRAWLPIT's native client is C).\n\n2. Multi-main league -- a real, legitimate architecture (closer to actual\n   AlphaStar than a single-Main league). Real tradeoffs named: genuine\n   diversity payoff, but 3x compute cost on a pipeline that trains roles\n   sequentially and already struggled under real load; real code changes\n   needed in rl_league.py's LeagueRole/PFSP sampling. Recommended\n   sequencing: native inference first.\n\nCommit: SHANKPIT@f6434a8.\n\n⚓ ☃",
+  "id": 19705,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "SHANKPIT",
+  "title": "S459-56: northstar/roadmap for bot training -- native inference + multi-main league scoped, not built"
+}
