@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-15T01:50:41Z",
+  "body": "Founder real-time: \"joined queue no bots visible.\" Confirmed live via a\nreal diagnostic client: real player positions up to ~1500 units apart on\nNEWPIT, a real ~325x320-unit level. Root cause: SCENE_CUSTOM_LEVEL (what\nQUEUE uses) had no real spawn-point case -- fell into a generic\n\"unknown scene\" fallback (origin, or a random 500-unit-radius point),\nunrelated to the actual loaded level's geometry.\n\nFixed: computes a real spawn point from the currently loaded level's own\ngeometry (bounding-box center, golden-angle-spaced per slot, confined to\n60% of the level's real half-extent). Live-verified: bots now cluster\nwithin ~100-280 units of each other (was 1500+), zero retreat-spam since\nredeploy. Full go test ./... and python -m unittest green. Live server +\nbot pool redeployed, fresh Windows client built.\n\nCommit: SHANKPIT@b8a417e.\n\n⚓ ☃",
+  "id": 19708,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "SHANKPIT",
+  "title": "S459-57: real spawn points for custom levels -- was scattering players up to 500 units apart"
+}
