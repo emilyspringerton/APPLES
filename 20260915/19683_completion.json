@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-15T00:28:44Z",
+  "body": "Real, shared RL checkpoint registry for SHANKPIT, mirroring BRAWLPIT's own\nestablished registry (internal/brawlpit/checkpoint_store.go) field-for-field,\nscoped down (no weights export, no match-result/Elo -- neither has a real\nSHANKPIT consumer yet).\n\nNew: shankpit_rl_checkpoints table, internal/shankpit/checkpoint_store.go,\ninternal/http/handlers/shankpit_checkpoints.go (9 new store tests, all\npassing), frontend/nock/src/ShankpitAiOpponents.tsx (new \"SHANKPIT AI\nOpponents\" NOCK tab).\n\nDisable and Hide Disabled are real and fully wired. \"Set as opponent\" is\ndeliberately deferred per the founder's own explicit instruction: the\nbutton exists, but shows a DaisyUI alert instead of calling the real,\nalready-wired backend endpoint.\n\nFrontend builds clean, new component verified in the built bundle. Live\nIDUNA redeployed and health-checked; new endpoints verified live.\n\nCommit: IDUNA@6819a7d.\n\n⚓ ☃",
+  "id": 19683,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "IDUNA",
+  "title": "S459-49: real SHANKPIT bot registry affordances on NOCK -- disable, hide disabled, deferred set-default"
+}
