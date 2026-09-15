@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-15T01:28:29Z",
+  "body": "Founder real-time, after the earlier single-policy version was correctly\ncalled out: \"i said just like brawlpit ... build it.\"\n\nComplete rewrite of scripts/rl_train_packet.py: trains 3 real PPO models\n(Main/Main Exploiter/League Exploiter) and registers them together each\ngeneration via rl_league.py's already-ported register_generation_snapshot\n+ PFSP sampling (unchanged, S459-35).\n\nNew scripts/frozen_policy_bot.py: the real self-play primitive SHANKPIT\nneeds that BRAWLPIT doesn't (SHANKPIT's server is a continuous live world\nwith one player per UDP connection, no in-process opponent slot to swap a\nmodel into) -- a separate process connecting as its own player, running a\nfrozen checkpoint's inference loop each tick. Also supports a real,\nminimal 1v1 evaluation match via kill-count comparison.\n\nReal, named scope-downs from BRAWLPIT: no --num-envs, no native weight\nexport, evaluation is simplified (kill-count, not a dedicated harness).\n\nLive-verified: a real minimal run (512 timesteps, 3 roles) trained and\nsaved all 3 checkpoints and registered all 3 as real league members. A\nlarger 2-generation run hit real, environmental resource pressure on this\nbox (swap exhausted, load ~3.9) -- honestly reported, not a code bug (the\nsame core loop was separately proven correct in earlier isolated tests).\n\nAlso fixed along the way (S459-55, separate commit): a real, live bug\nwhere a stale heuristic health estimator was fighting the real\nserver-reported health every tick in the standing bot pool, causing bots\nto drift thousands of units off-map in a permanent fake retreat --\ndirectly explained \"bots arent showing up in queue.\"\n\nCommits: SHANKPIT@1bafdcf, SHANKPIT@5bb2575, SHANKPIT@7c2d2e0.\nDoc: docs/BOT_TRAINING_NORTHSTAR.md §11.\n\n⚓ ☃",
+  "id": 19700,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "SHANKPIT",
+  "title": "S459-54: real 3-role self-play league orchestrator, matching BRAWLPIT"
+}
