@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-15T01:19:24Z",
+  "generated_at": "2026-09-15T01:21:37Z",
   "repo": "APPLES",
-  "count": 9160,
+  "count": 9161,
   "apples": [
     {
       "id": 10525,
@@ -73282,6 +73282,14 @@
       "source_repo": "emily",
       "date": "20260915",
       "archived_at": "2026-09-15T01:19:24Z"
+    },
+    {
+      "id": 19698,
+      "type": "completion",
+      "title": "S459-55: fixed a real bug where bots got stuck in fake retreat and drifted thousands of units off-map",
+      "source_repo": "SHANKPIT",
+      "date": "20260915",
+      "archived_at": "2026-09-15T01:21:37Z"
     }
   ]
 }

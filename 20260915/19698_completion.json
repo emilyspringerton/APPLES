@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-15T01:21:37Z",
+  "body": "Founder real-time: \"pretty sure the bots arent showing up in queue yet\nmaybe the model will fix it just sayin.\" Found the real, live, currently-\nactive cause: bot_think's own heuristic health estimator (a pre-S459-44\nrelic) was still running every tick, immediately overwriting the real,\nserver-authoritative health S459-44 wired in. The heuristic almost always\nwon the race, keeping bots convinced they were near-death, causing a\npermanent fake retreat state with unbounded dead-reckoning drift --\nconfirmed live via a standing bot logging \"retreating: hp=14\nnearest=8296.1\" for minutes. Removed the stale heuristic. Live-verified:\nredeployed, zero retreat-spam in 20+ seconds, all 3 bots active and\nstable per server STATUS.\n\nCommit: SHANKPIT@5bb2575.\n\n⚓ ☃",
+  "id": 19698,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "SHANKPIT",
+  "title": "S459-55: fixed a real bug where bots got stuck in fake retreat and drifted thousands of units off-map"
+}
