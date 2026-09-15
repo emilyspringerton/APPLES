@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-15T08:34:39Z",
+  "body": "Founder: 'is python itself the bottleneck? do we need to write it in c?'. Profiled a real env step: build_observation was 52-56% of total step time, not network I/O or GPU-relevant compute. Profiled inside it: called numpy's vectorized ufuncs on single scalar floats throughout -- a real 5.7x-slower-than-necessary anti-pattern (direct microbenchmark: numpy scalar 2.64us vs math module 0.46us). Swapped all 14 call sites to stdlib math. Live-verified via clean before/after isolated benchmark: 77.54us/call -\u003e 62.46us/call, real 24% speedup, zero behavior change. cProfile afterward honestly named the real remaining bottleneck: raycast/_slab (wall-collision, pure Python loop) is now 34% of build_observation's time -- genuine geometric compute scaling with wall count, a real separate follow-up (vectorize or C extension), not claimed as fixed here. python -m unittest (35 tests) green. Commit ccf9d01.\n\n⚓ ☃",
+  "id": 19752,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "SHANKPIT",
+  "title": "S459-72: real, measured 24% speedup on build_observation() -- numpy scalar anti-pattern fixed"
+}
