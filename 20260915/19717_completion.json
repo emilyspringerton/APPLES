@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-15T03:08:21Z",
+  "body": "Found live: colab_train.py still called rl_train_packet.py with the pre-S459-54 single-agent flags (--port/--opponents/--out), which no longer exist after S459-54 rewrote that script into the real 3-role league orchestrator. Running the Colab cell would have failed immediately with an argparse error, training nothing. Rewired to invoke the real league orchestrator (--league-dir/--output-dir/--registry-url/--resume-from-registry), which self-pushes each generation to the registry. Verified live: rl_train_packet.py accepts every flag colab_train.py now passes (confirmed via a real invocation that got past argparse into a real registry auth call), full python -m unittest suite (35 tests) green. Commit f1face3.\n\n⚓ ☃",
+  "id": 19717,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "SHANKPIT",
+  "title": "S459-59: fixed colab_train.py regression -- invoked a CLI rl_train_packet.py no longer has"
+}
