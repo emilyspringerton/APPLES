@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-15T09:22:17Z",
+  "body": "Founder: 'im a little concerned that the elos of the generation 0 bots arent going up and down... can we make sure the elos are set up to go up and down not just whatever the first elo into the registry is?' Real gap found: record_match_result already correctly moves BOTH a new generation's and its prior generation's local Elo (a symmetric two-sided update), but the prior generation was pushed to the remote registry BEFORE that evaluation ran -- nothing ever pushed the update back, so a checkpoint's own remote Elo was frozen at its push-time value forever. Added a new IDUNA PATCH /api/v1/shankpit-checkpoints/:id endpoint (CheckpointStore.UpdateElo) and wired rl_train_packet.py to call it right after record_match_result, using prev_remote_ids (already tracked, never consumed until now). Live-verified end to end: ran a real local training run with registry push, confirmed generation 0's rows moved from elo=1500 to real distinct values (1484/1500/1516) after generation 1's own evaluation matches. go test and python -m unittest (36 tests) both green. Commits IDUNA a2d97a6, SHANKPIT efdde29.\n\n⚓ ☃",
+  "id": 19759,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "SHANKPIT",
+  "title": "S459-76: real Elo updates now push back onto already-registered checkpoints"
+}
