@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-15T07:16:26Z",
+  "body": "Founder: 'ok now lets fix rubber banding jumps'. Per S459-68's own named lesson (finite-difference velocity estimation is unsafe across a changing-acceleration interval like a jump), the real fix: NetPlayer gained real vx/vy/vz fields (72-\u003e84 bytes), server_broadcast populates them from the server's exact PlayerState velocity, client reconciliation now sets p-\u003evx/vy/vz directly from the server's real value instead of guessing. Live-verified: real vy values on the wire matched the true physics arc exactly during a live jump test. Found and fixed a real, independent, pre-existing bug along the way: apps2/emily-bot's Go decoder had netPlayerSize stuck at 68 bytes since before kill_streak grew the struct to 72 -- every multi-entity snapshot has been misdecoding every entity after the first since then. Fixed. go build/test (all packages) and python -m unittest (35 tests) green. Live server + bot pool redeployed together (protocol change requires matched builds), fresh Windows client built. Commit 38f114b.\n\n⚓ ☃",
+  "id": 19743,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "SHANKPIT",
+  "title": "S459-69: real fix for jump rubberbanding -- put velocity on the wire"
+}
