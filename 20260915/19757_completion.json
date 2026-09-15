@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-15T09:11:11Z",
+  "body": "Founder: 'ok northstar this for anticheat' after a real research conversation on hardware-level USB HID input cheats. Grounded the plan directly in SHANKPIT's own real architecture: fully server-authoritative combat (a hardware cheat can only steer aim, never fabricate damage/kills), raw UserCmd yaw/pitch already flowing through process_user_cmd at 60Hz (Phase 0 telemetry needs no protocol change), the existing bot-pool infrastructure (bots are genuine connected UDP clients), and S459-62's own active-opponent precedent as reusable groundwork. Captured the founder's own real design: silent reroute on suspicion into a bot-only match, an escalating bot ladder culminating in sub-human-reaction-time impossible bots (a physically-grounded, near-unfakeable signal), bounded-cost outcomes so even false positives are safe. Real gaps named: CV-only/memory-reading cheats are a different threat class. NORTHSTAR only, no code. Commit 44e8195.\n\n⚓ ☃",
+  "id": 19757,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "SHANKPIT",
+  "title": "S459-75: added ANTICHEAT_NORTHSTAR.md -- real, phased anti-cheat design scoping"
+}
