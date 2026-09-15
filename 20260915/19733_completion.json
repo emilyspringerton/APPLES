@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-15T05:59:35Z",
+  "body": "Found directly via the new S459-63 eval_note field, no guessing: the founder's real Colab run showed 'CRASH: evaluation match itself failed (... timed out after 45.0 seconds)' on every single evaluation match, every generation. Root cause: the old 45s patience window (30s match + 15s margin) never accounted for real subprocess startup cost (PPO.load() + torch/sb3 import overhead, incurred twice concurrently by both eval bots) on a slower/shared Colab CPU -- fast on this dev box, genuinely enough to blow the deadline on Colab, silently degrading every real match to 'tied' (Elo held exactly unchanged). Bumped the margin to a real, generous EVAL_STARTUP_GRACE_SECONDS=90. Live-verified via a fresh local regression run confirming the larger timeout doesn't mask/slow the fast path -- real decisive kills and Elo movement unaffected. Full python -m unittest suite (35 tests) green. Commit 00d39af.\n\n⚓ ☃",
+  "id": 19733,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "SHANKPIT",
+  "title": "S459-64: fixed real Colab evaluation-match timeout -- the actual cause of stuck-at-1500 Elo"
+}
