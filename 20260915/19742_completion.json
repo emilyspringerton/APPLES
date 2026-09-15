@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-15T07:08:38Z",
+  "body": "Founder tested S459-67 and reported it way worse: 'i fly way up in the air and then it slams me back down and then...its like i slam through the wall and glitch around like 16 different directions in 1 second'. Root cause: finite-difference velocity re-seeding averages velocity over the whole interval between two confirmed network positions -- valid for constant velocity, badly wrong across a jump arc where velocity constantly changes under gravity. Re-injecting a wrong estimate into the shared deterministic physics sim (not just a visual offset) let errors compound catastrophically. Reverted cleanly via git revert 7e88bdd (commit 7711be0 + docs commit 36b71ad). apps/lobby back to the S459-65 state (confirmed 'a little better' by the founder), builds clean, live server redeployed, fresh Windows client built. Real lesson: velocity needs either a wire field or a fundamentally different approach, not two-point finite differencing -- not reattempted this session.\n\n⚓ ☃",
+  "id": 19742,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "SHANKPIT",
+  "title": "S459-68: reverted S459-67 -- naive velocity finite-differencing made jump feel catastrophically worse"
+}
