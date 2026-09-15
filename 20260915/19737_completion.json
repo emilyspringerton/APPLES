@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-15T06:39:47Z",
+  "body": "Founder real-time: 'it like slams me back on to the ground before i can get much verticality at all' (horizontal movement fine). Root cause: client reconciliation's RECONCILE_HARD_SNAP_DIST was 2.0 world units -- past that, all smoothing is skipped and the camera hard-snaps to the server position, a path meant for genuine desyncs not normal jumping. Live-measured via a real diagnostic client against an isolated dev server: a single real jump reaches ~8.65 units of height within ~300ms, over 4x the old threshold, so every real jump hit the harsh unsmoothed path almost immediately. Fixed by bumping the threshold to 12.0 (real margin above the measured jump peak). apps/lobby builds clean. Commit af5f82c.\n\n⚓ ☃",
+  "id": 19737,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "SHANKPIT",
+  "title": "S459-65: fixed jump feeling like it slams you back to the ground"
+}
