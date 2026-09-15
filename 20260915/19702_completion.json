@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-15T01:28:48Z",
+  "body": "Founder real-time: \"any debugging EXEs need to be added as independent\nCICD builds with their own artifacts\" (after being told to stop hand-\nbuilding and sending .exe files directly). New debug_build job in\ntests.yml, producing its own separately-named artifact\n(ShankPit_Debug_Builds_\u003crun\u003e_\u003csha\u003e) on every push. Kept in tests.yml, not\nrelease.yml -- verbose network logging is a troubleshooting tool, not\nsomething a real player downloading a tagged Release needs. Builds via\nreal make targets (server/ea-windows with CFLAGS overridden), not a\nfourth hand-duplicated gcc invocation -- this repo has 2 real documented\nprior CI outages from exactly that anti-pattern.\n\nLive-verified on REAL GitHub Actions (not just locally): both workflow\nruns completed successfully, ShankPit_Debug_Builds_622_... artifact\nconfirmed produced (1,085,445 bytes) via the GitHub API.\n\nCommit: SHANKPIT@4910748.\n\n⚓ ☃",
+  "id": 19702,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "SHANKPIT",
+  "title": "S459-53: real, independent debug-build CI job with its own artifacts"
+}

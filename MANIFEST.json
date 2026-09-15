@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-15T01:28:32Z",
+  "generated_at": "2026-09-15T01:28:48Z",
   "repo": "APPLES",
-  "count": 9164,
+  "count": 9165,
   "apples": [
     {
       "id": 10525,
@@ -73314,6 +73314,14 @@
       "source_repo": "SHANKPIT",
       "date": "20260915",
       "archived_at": "2026-09-15T01:28:32Z"
+    },
+    {
+      "id": 19702,
+      "type": "completion",
+      "title": "S459-53: real, independent debug-build CI job with its own artifacts",
+      "source_repo": "SHANKPIT",
+      "date": "20260915",
+      "archived_at": "2026-09-15T01:28:48Z"
     }
   ]
 }
