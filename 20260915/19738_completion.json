@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-15T06:45:41Z",
+  "body": "Founder reported sniper firing feeling doubled with 2 red frag indicators, first a false positive. Real root cause: hit_feedback (wire field driving apps/lobby's \u003e=25 red double-ring kill marker) was never reset to 0 anywhere in physics.h's online multiplayer path -- a real kill's hit_feedback=30 stayed on the attacker's PlayerState and broadcast on every snapshot until their next hit, so the next shot always showed a stale kill ring first. Confirmed as a genuine gap by finding packages/simulation/local_game.h (the offline sim path) already has this exact decay pattern in two places -- physics.h's online path simply never got it. Fixed by adding the identical decay alongside attack_cooldown/is_shooting/ability_cooldown. Both apps/server and apps/lobby build clean, live server redeployed. Commit 1e7e90e.\n\n⚓ ☃",
+  "id": 19738,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "SHANKPIT",
+  "title": "S459-66: fixed false-positive red kill ring appearing before real kills"
+}
