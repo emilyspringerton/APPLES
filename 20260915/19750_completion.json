@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-15T08:23:54Z",
+  "body": "Founder: 'bro i should always have that in the skrip - i said just like brawlpit thas how brawlpit works please fix it'. Checked BRAWLPIT/scripts/colab_train.py directly: it always passes --resume-from-registry unconditionally whenever pushing, no opt-in flag. Fixed my own unjustified S459-70 deviation (which gated it behind SHANKPIT_RESUME_FROM_REGISTRY=1) -- now unconditional inside the pushing_to_registry branch, matching BRAWLPIT exactly. python -m unittest (35 tests) green. Commit 98938d9.\n\n⚓ ☃",
+  "id": 19750,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "SHANKPIT",
+  "title": "S459-71: colab always resumes from registry when pushing, matching BRAWLPIT exactly"
+}
