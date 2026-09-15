@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-15T05:15:52Z",
+  "body": "Founder real-time pushback: 'how the fuck is my colab log gonna help it just says training' -- S459-61's diagnostics only reached the training process's own stdout. Fixed: _run_evaluation_match now returns (score_a, note) -- a real, short summary (kill counts or crash reason) -- which rl_train_packet.py pushes alongside each checkpoint via a new eval_note field/endpoint parameter, stored by IDUNA and visible directly through GET /api/v1/shankpit-checkpoints. No log access needed to diagnose a flat-Elo run going forward. Also closed a real verification gap along the way: two additional local runs with an ACTUAL registry push (not just local elo math) confirmed the entire push_checkpoint-\u003eCreate()-\u003estored-row pipeline is sound (gen1 landed at elo=1484/1516/1516 in the real DB both times). Full python -m unittest suite (35 tests) and go test both green. Commits IDUNA 5997351, SHANKPIT 4ef4b4c.\n\n⚓ ☃",
+  "id": 19729,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "SHANKPIT",
+  "title": "S459-63: eval_note field for self-serve Elo diagnostics, no log-paste needed"
+}
