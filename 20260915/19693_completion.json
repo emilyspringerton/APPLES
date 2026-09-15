@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-15T01:02:43Z",
+  "body": "Founder real-time: \"add double kills to SHANKPIT and then make the bot\ndouble kill aware in terms of rewards (spike)\" / same for triple / same for\nkilltacular(4), with explicit tuning direction (healthy double, triple in\nthe middle, way more for killtacular).\n\nReal, standard Halo-style rolling-window multikill tracking added to\nPlayerState (kill_streak/last_kill_time_ms), updated in the one real place\nevery kill funnels through (phys_enter_death_state). Escalating bonus\nadded directly to accumulated_reward: double=+75, triple=+250,\nkilltacular=+1000 -- verified live as 1.5x/2.67x/7.66x a single kill's own\nfinal reward magnitude. Reaches the bot automatically through the existing\nreward_feedback tier, no separate reward-function code needed (documented\nexplicitly so this isn't a silent design decision).\n\nWire protocol grew 68-\u003e72 bytes (kill_streak added to NetPlayer),\nre-verified via a compiled sizeof/offsetof probe. Full go test ./... and\npython -m unittest green, live 2-bot UDP test with no panics. Live server +\nbot pool redeployed.\n\nCommit: SHANKPIT@9e17718.\n\n⚓ ☃",
+  "id": 19693,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "SHANKPIT",
+  "title": "S459-52: real multikill mechanic -- double/triple/killtacular, reward-aware"
+}

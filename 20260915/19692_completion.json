@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-15T01:02:43Z",
+  "body": "Two founder-directed follow-ups on the training pipeline:\n\n1. \"we need to implement fast forward just like brawlpit\" -- found BRAWLPIT's\nown rl_train_packet.py hardcodes --fast-forward unconditionally. Flipped\nSHANKPIT's own default from False to True in rl_train_packet.py and\ncolab_train.py (kept as an overridable --no-fast-forward). Live-verified:\n~30fps -\u003e ~107fps, no hang.\n\n2. \"give us the survival streak bonus\" (following a question about whether\nthe pipeline was event-driven with discounted reward over time) -- direct\nport of BRAWLPIT's own Fibonacci-scaled survival-streak reward tier\n(already carrying BRAWLPIT's own real bug fix: stops paying past the cap,\ndoesn't just clamp there), into both scripts/rl_env_packet.py and\napps2/emily-bot/reward.go. Adapted BRAWLPIT's damage-percent scaling to\nSHANKPIT's own health-based (100-\u003e0) equivalent. 8 new tests total, all\npassing.\n\nCommits: SHANKPIT@91e6090, SHANKPIT@8002c00.\n\n⚓ ☃",
+  "id": 19692,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "SHANKPIT",
+  "title": "S459-51: fast-forward default flip + survival-streak reward bonus, both ported from BRAWLPIT"
+}
