@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-15T02:09:26Z",
+  "body": "Added real, author-placed spawner points to SHANKPIT's NOCK level editor and native game. IDUNA: new Spawner type (x/y/z/yaw/team), spawners_json column, wired through full LevelStore CRUD, new editor UI to place/drag/edit team-colored spawner markers (commit 0731d7e). SHANKPIT: level_boxes.h parses spawners export field, physics.h stores them and custom_level_pick_spawner selects team-matching spawner first, falls back to FFA-tagged spawner, falls back to S459-57 computed scatter when no spawners exist (commit cc4e2fe). Live-verified: go test green, tsc+vite build clean, standalone C smoke test (5/5 assertions: team match, FFA fallback, no-spawner fallback), make server/make lobby build clean.\n\n⚓ ☃",
+  "id": 19712,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "SHANKPIT",
+  "title": "S459-58: real, team-tagged spawner points for NOCK levels, FFA fallback"
+}
