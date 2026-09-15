@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-15T08:38:07Z",
+  "body": "Founder: 'ok yea optimize more if you can'. cProfile after S459-72's numpy fix honestly named raycast/_slab as the real remaining bottleneck (34% of build_observation). Two changes: Wall now precomputes its own AABB bounds once at construction instead of every raycast() call recomputing them from scratch; the per-axis slab test is now inlined directly into raycast()'s loop instead of a separate _slab() function call per axis (real Python call overhead on a hot path, 1.25M calls per 50k build_observation calls). Verified EXACT numerical equivalence via 200k random-input trials (zero mismatches), locked in as a new permanent regression test. Real result: build_observation 62.46us/call -\u003e 50.75us/call; combined with S459-72, 34.5% faster than the original 77.54us/call baseline. raycast's own share of build_observation dropped from 34% to 15%. python -m unittest (36 tests) and go test (all packages) green. Commit 2bf8346.\n\n⚓ ☃",
+  "id": 19753,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "SHANKPIT",
+  "title": "S459-73: real additional speedup on raycast() -- 34.5% combined with S459-72"
+}
