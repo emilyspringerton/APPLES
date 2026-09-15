@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-15T00:34:11Z",
+  "body": "Founder real-time: \"ensure we have the colab training skrip.\"\n\nNew scripts/rl_registry.py (SHANKPIT) + IDUNA-side SHANKPIT-RL M2M agent\n(migrations/truestore/202609150030_shankpit_rl_agent.sql, provisioned via\ncmd/bootstrap, dry-run verified safe first). New scripts/colab_train.py, a\ndirect structural port of BRAWLPIT's own real colab_train.py.\n\nLive-verified, not just built: pushed the real S459-48 training checkpoint\nto the live IDUNA registry, listed it back, pulled it back byte-identical\n(SHA256 match). The SHANKPIT AI Opponents NOCK tab (S459-49) now shows one\nreal, non-fabricated registered checkpoint.\n\nCommits: SHANKPIT@84d1340, IDUNA@551a74d. Doc: docs/BOT_TRAINING_NORTHSTAR.md §10.\n\n⚓ ☃",
+  "id": 19685,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "SHANKPIT",
+  "title": "S459-50: real remote checkpoint registry client + Colab training script, live-verified end to end"
+}
