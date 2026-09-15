@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-15T07:02:08Z",
+  "body": "Founder tested S459-65's threshold fix: 'yea i etsted it its possible its a little better not sure not fixed'. Real structural gap found: NetPlayer (wire packet) never carries velocity or grounded state, only position -- client reconciliation resets p-\u003ex/y/z from the server every time but never touches p-\u003evy, so jump-arc replay kept simulating from whatever locally-predicted velocity the client already had, silently diverging from the real server velocity with nothing to correct it. Fixed by re-seeding p-\u003evx/vy/vz from a real finite-difference estimate between two confirmed authoritative positions (using the client's own recorded cmd timestamps), reset on connect/respawn. apps/lobby builds clean, no new warnings. Fresh Windows client built. Commit 7e88bdd.\n\n⚓ ☃",
+  "id": 19740,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "SHANKPIT",
+  "title": "S459-67: fixed residual jump rubberbanding -- reconciliation never corrected velocity, only position"
+}
