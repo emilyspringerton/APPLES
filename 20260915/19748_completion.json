@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-15T08:16:07Z",
+  "body": "Founder: 'it only goes like 5 generations can you make it go like 100?'. Generation count is timesteps-driven (one gen per --save-freq=4096 chunk); 20000/4096 rounded to the observed 5. New real default SHANKPIT_TOTAL_TIMESTEPS=409600 = 100*4096, sized for exactly 100 generations. Noted the real tradeoff: ~100 generations is multiple hours at this box's live-measured ~4-5 min/generation, past a free-tier Colab session's own limits -- SHANKPIT_RESUME_FROM_REGISTRY=1 (already real) resumes from the last registry checkpoint if the runtime disconnects. python -m unittest (35 tests) green. Commit b6cdad4.\n\n⚓ ☃",
+  "id": 19748,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "SHANKPIT",
+  "title": "S459-70: colab_train.py default now runs ~100 generations instead of ~5"
+}
