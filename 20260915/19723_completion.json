@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-15T04:07:44Z",
+  "body": "Founder reported 'i have 2 gens same elo seems wrong' after S459-60's reordering fix was already live. Root issue: _run_evaluation_match returned a silent 0.5 for both a genuine 0-0 tie and a crashed/unreadable bot report, indistinguishable in the log; the two eval-opponent frozen_policy_bot.py processes ran with stdout/stderr fully silenced (DEVNULL), so a real crash's traceback was invisible. Fixed: captures each bot's real output to a log file, prints kill counts on success or the captured crash output on failure. Live-verified via a real local 2-generation run: real decisive kill counts logged (main_gen1.zip kills=12 vs main_gen0.zip kills=8), Elo correctly moved 1500-\u003e1516/1484 for all 3 roles, confirming both S459-60's fix and this diagnostic work together. Full python -m unittest suite (35 tests) green. Commit 164eb53.\n\n⚓ ☃",
+  "id": 19723,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "SHANKPIT",
+  "title": "S459-61: added real diagnostics to distinguish genuine Elo ties from silent evaluation-match crashes"
+}
