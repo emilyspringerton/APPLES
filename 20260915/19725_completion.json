@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-15T04:25:27Z",
+  "body": "Founder real-time: 'can we update the QUEUE to use the active opponent until we have a league to queue against?' Wired the real 'Set as opponent' button in NOCK's ShankpitAiOpponents.tsx (previously a not-implemented stub -- IDUNA commit 3bd249d), and added the real downstream consumer: ops/shankpit-bot-pool.sh now checks once at startup whether IDUNA has an active opponent set; if so, downloads it and launches real frozen_policy_bot.py processes (PPO inference over UDP) instead of the heuristic emily-bot pool, falling back to heuristic on any failure. New rl_registry.py 'active' CLI subcommand. Live-verified end to end against an isolated test server (port 17797, not the live QUEUE port): real activation via the actual Go store logic, confirmed download+cache, a real frozen-policy bot connected and stayed active for 1000+ ticks, then fully cleaned up and reverted production back to no-active-opponent. Both live services (iduna.service, shankpit-bot-pool.service) redeployed and confirmed healthy. Full python -m unittest suite (35 tests) green. Commit SHANKPIT a8823e7.\n\n⚓ ☃",
+  "id": 19725,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "SHANKPIT",
+  "title": "S459-62: QUEUE now uses the registry's active opponent as a real stopgap until a league exists"
+}

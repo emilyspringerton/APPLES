@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-15T04:18:25Z",
+  "generated_at": "2026-09-15T04:25:27Z",
   "repo": "APPLES",
-  "count": 9187,
+  "count": 9188,
   "apples": [
     {
       "id": 10525,
@@ -73498,6 +73498,14 @@
       "source_repo": "emily",
       "date": "20260915",
       "archived_at": "2026-09-15T04:18:25Z"
+    },
+    {
+      "id": 19725,
+      "type": "completion",
+      "title": "S459-62: QUEUE now uses the registry's active opponent as a real stopgap until a league exists",
+      "source_repo": "SHANKPIT",
+      "date": "20260915",
+      "archived_at": "2026-09-15T04:25:27Z"
     }
   ]
 }
