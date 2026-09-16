@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-16T23:31:35Z",
+  "body": "Design doc for a shared humanness.h/.c layer (timing jitter, Gaussian aim noise, overshoot movement, mood state) that story_ai.c and character-tick call into, directly modeled on MISHRI's own real HumannessLayer.ts implementation. NORTHSTAR only. Commit SHANKPIT a7332d8.\n\n⚓ ☃",
+  "id": 19945,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "SHANKPIT",
+  "title": "HUMANNESS_NORTHSTAR.md: realistic scriptable NPCs (grounded in MISHRI)"
+}

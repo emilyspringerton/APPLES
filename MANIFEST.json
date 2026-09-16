@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-16T23:31:19Z",
+  "generated_at": "2026-09-16T23:31:35Z",
   "repo": "APPLES",
-  "count": 9406,
+  "count": 9407,
   "apples": [
     {
       "id": 10525,
@@ -75250,6 +75250,14 @@
       "source_repo": "CLI",
       "date": "20260916",
       "archived_at": "2026-09-16T23:31:19Z"
+    },
+    {
+      "id": 19944,
+      "type": "completion",
+      "title": "changelog(SHANKPIT): Add HUMANNESS_NORTHSTAR.md: realistic scriptable NPC framew…",
+      "source_repo": "SHANKPIT",
+      "date": "20260916",
+      "archived_at": "2026-09-16T23:31:35Z"
     }
   ]
 }
