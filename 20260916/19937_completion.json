@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-16T23:16:55Z",
+  "body": "New src/gseq.h/.c: GSeq/GSeqPlayer chain multiple .gband clips with real nlerp crossfade, channel-name lookup against a GSkel, rest-pose fallback for unmatched joints. 15 real test assertions (test_gseq.c), wired into build_and_test.sh. Commit GOLDENBAND a3b452e.\n\n⚓ ☃",
+  "id": 19937,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "GOLDENBAND",
+  "title": "gseq: real animation stitching (crossfade sequences)"
+}
