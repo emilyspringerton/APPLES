@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-16T21:20:50Z",
+  "body": "New LevelDoor format, phys_set_custom_level_box_y, story_doors.h (dlopen/dlsym/tick). Real end-to-end verification: an always-closed control script proved genuine collision blocking, a hysteresis script proved real pass-through once opened. Named gaps: no NOCK UI/IDUNA storage yet, no wire-protocol door state, no client visual. Commit SHANKPIT 4fe7ea0.\n\n⚓ ☃",
+  "id": 19922,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "SHANKPIT",
+  "title": "Story System Phase 1: scriptable doors, live-verified"
+}
