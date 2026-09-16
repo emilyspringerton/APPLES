@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-16T22:56:00Z",
+  "body": "LevelDoor.script_url + story_doors.h download/cache support. Live-verified end to end against the real, redeployed IDUNA: a real connected client walked through a door whose script was downloaded live over HTTP, not a local file. Commit SHANKPIT a618b94.\n\n⚓ ☃",
+  "id": 19933,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "SHANKPIT",
+  "title": "S459-82: doors fetch scripts from IDUNA by URL"
+}

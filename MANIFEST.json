@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-16T22:51:04Z",
+  "generated_at": "2026-09-16T22:56:00Z",
   "repo": "APPLES",
-  "count": 9392,
+  "count": 9393,
   "apples": [
     {
       "id": 10525,
@@ -75138,6 +75138,14 @@
       "source_repo": "emily",
       "date": "20260916",
       "archived_at": "2026-09-16T22:51:04Z"
+    },
+    {
+      "id": 19930,
+      "type": "completion",
+      "title": "changelog(IDUNA): Add real PARENA-to-C compile pipeline + storage for SHANKPI…",
+      "source_repo": "IDUNA",
+      "date": "20260916",
+      "archived_at": "2026-09-16T22:56:00Z"
     }
   ]
 }

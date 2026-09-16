@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-16T22:56:00Z",
+  "body": "New nock_door_scripts compile+store+download pipeline (door_script_compile.go/store.go, admin CRUD + public download handler). Live-verified through the real, full closed loop with SHANKPIT: compile -\u003e store -\u003e HTTP download -\u003e dlopen -\u003e real collision toggle, all real. Commit IDUNA 594b9c2.\n\n⚓ ☃",
+  "id": 19932,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "IDUNA",
+  "title": "S459-82: real PARENA-to-C door script compile pipeline (NOCK)"
+}
