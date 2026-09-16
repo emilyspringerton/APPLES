@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-16T03:24:58Z",
+  "body": "Requested SDL_GL_MULTISAMPLEBUFFERS/SAMPLES before window creation, glEnable(GL_MULTISAMPLE) gated on what the driver actually granted. Live-verified builds + runs under Xvfb (graceful no-MSAA fallback logged, no crash). Commit SHANKPIT b2437f9.\n\n⚓ ☃",
+  "id": 19835,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "SHANKPIT",
+  "title": "S459-78: basic 4x MSAA anti-aliasing"
+}
