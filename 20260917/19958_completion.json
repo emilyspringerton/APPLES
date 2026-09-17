@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-17T00:47:50Z",
+  "body": "Found story_ai_tick IS called live (local_game.h:1767), correcting S459-88's wrong claim. Found + fixed a real second gap: story_swarm_tick (STORY_PHASE_SWARM) had zero turn smoothing and no cooldown jitter -- now wired via a new index-parallel humanness array. Live-verified with a new direct integration test. Commit SHANKPIT 1e66937.\n\n⚓ ☃",
+  "id": 19958,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "SHANKPIT",
+  "title": "Humanness: wire story_swarm_tick + correct wrong Phase 2 claim"
+}

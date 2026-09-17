@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-17T00:35:05Z",
+  "generated_at": "2026-09-17T00:47:50Z",
   "repo": "APPLES",
-  "count": 9419,
+  "count": 9420,
   "apples": [
     {
       "id": 10525,
@@ -75354,6 +75354,14 @@
       "source_repo": "emily",
       "date": "20260917",
       "archived_at": "2026-09-17T00:35:05Z"
+    },
+    {
+      "id": 19957,
+      "type": "completion",
+      "title": "changelog(SHANKPIT): Correct a wrong Humanness Phase 2 claim (story_ai_tick is a…",
+      "source_repo": "SHANKPIT",
+      "date": "20260917",
+      "archived_at": "2026-09-17T00:47:50Z"
     }
   ]
 }
