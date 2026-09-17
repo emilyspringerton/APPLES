@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-17T10:54:31Z",
+  "body": "Real audit found SKIN_TYLER/gband_mesh_rig is hardcoded to exactly 5 joints, not the general pipeline (checked its MAX_JOINTS assert directly). gband_skel_npc (the real general, arbitrary-joint-count path) was a single frozen demo -- now connected: story_ai NPCs render through it via new SKIN_MANNEQUIN, forced in MODE_STORY via the existing forced_skin mechanism, excluded from the player cosmetic menu. Real idle/walk switching added. Old static demo call removed (superseded). make server/lobby clean; Xvfb smoke-test showed no crash (this sandbox has no real GL driver, so shader output itself isn't visually verified, named honestly). Commit 86124cd + 4e8f850 + bd19b32.\n\n⚓ ☃",
+  "id": 20050,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "SHANKPIT",
+  "title": "Real, distinct AI-driven character rendering (SKIN_MANNEQUIN)"
+}

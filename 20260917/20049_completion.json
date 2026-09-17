@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-17T10:54:31Z",
+  "body": "Adopted gband_mesh_rig.c's own proven movement-delta-driven pattern (both idle/walk GSeqPlayers always advance, only which is sampled changes). Founder real-time: 'can we animate and model end to end?' Full test suite green. Commit 16c13f1 + ef4b5ba.\n\n⚓ ☃",
+  "id": 20049,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "GOLDENBAND",
+  "title": "gband_skel_npc gains real idle/walk clip switching"
+}
