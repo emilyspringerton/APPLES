@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-17T16:05:01Z",
+  "generated_at": "2026-09-17T16:20:37Z",
   "repo": "APPLES",
-  "count": 9547,
+  "count": 9548,
   "apples": [
     {
       "id": 10525,
@@ -76378,6 +76378,14 @@
       "source_repo": "IDUNA",
       "date": "20260917",
       "archived_at": "2026-09-17T16:05:01Z"
+    },
+    {
+      "id": 20085,
+      "type": "completion",
+      "title": "S480: characters work outside MODE_STORY + materials texture picker actually renders",
+      "source_repo": "SHANKPIT",
+      "date": "20260917",
+      "archived_at": "2026-09-17T16:20:37Z"
     }
   ]
 }
