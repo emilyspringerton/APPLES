@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-17T03:50:58Z",
+  "body": "CHANGELOG updated in SHANKPIT: fix(rl): Main Exploiter reset generations now get a real evaluation (was stuck at 1500 forever on every periodic reset, confirmed live: 40% of main_exploiter checkpoints stuck vs ~27% for the other two roles) -- also flipped --resume-from-registry to default-on in rl_train_packet.py itself (S459-71 only fixed the colab_train.py wrapper) (sess-20260905-0720-ec33e7c5)\n\n⚓ ☃",
+  "id": 19991,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "SHANKPIT",
+  "title": "changelog(SHANKPIT): fix(rl): Main Exploiter reset generations now get a real ev…"
+}

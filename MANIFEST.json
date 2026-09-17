@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-17T03:50:52Z",
+  "generated_at": "2026-09-17T03:50:59Z",
   "repo": "APPLES",
-  "count": 9453,
+  "count": 9454,
   "apples": [
     {
       "id": 10525,
@@ -75626,6 +75626,14 @@
       "source_repo": "emily",
       "date": "20260917",
       "archived_at": "2026-09-17T03:50:52Z"
+    },
+    {
+      "id": 19991,
+      "type": "completion",
+      "title": "changelog(SHANKPIT): fix(rl): Main Exploiter reset generations now get a real ev…",
+      "source_repo": "SHANKPIT",
+      "date": "20260917",
+      "archived_at": "2026-09-17T03:50:59Z"
     }
   ]
 }
