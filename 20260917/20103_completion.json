@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-17T23:16:57Z",
+  "body": "AI_ROLE_OPTIONS never listed this role; validateCharacters would have rejected it outright even hand-authored. Fixed both, matching SHANKPIT's own identical native fix. New TestCreateLevel_AcceptsWanderingBotRole. go build/test + tsc/vite clean, deployed, verified. IDUNA 1d30f7b.\n\n⚓ ☃",
+  "id": 20103,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "IDUNA",
+  "title": "Expose AI_ROLE_WANDERING_BOT in NOCK, fix Go validation range (S492)"
+}

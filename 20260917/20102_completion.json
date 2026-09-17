@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-17T23:16:57Z",
+  "body": "Real audit found the exact ambient-NPC behavior the founder asked for (patrol, turn-to-face, wave/dance, never combat) already exists as AI_ROLE_WANDERING_BOT but was unreachable via 3 independent off-by-one range-check gaps (native server+lobby, IDUNA Go validation, NOCK dropdown). Fixed all 3. make server/lobby clean. SHANKPIT d73d001.\n\n⚓ ☃",
+  "id": 20102,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "SHANKPIT",
+  "title": "AI_ROLE_WANDERING_BOT no longer silently rejected (S492)"
+}

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-17T22:59:51Z",
+  "generated_at": "2026-09-17T23:16:57Z",
   "repo": "APPLES",
-  "count": 9564,
+  "count": 9565,
   "apples": [
     {
       "id": 10525,
@@ -76514,6 +76514,14 @@
       "source_repo": "IDUNA",
       "date": "20260917",
       "archived_at": "2026-09-17T22:59:51Z"
+    },
+    {
+      "id": 20102,
+      "type": "completion",
+      "title": "AI_ROLE_WANDERING_BOT no longer silently rejected (S492)",
+      "source_repo": "SHANKPIT",
+      "date": "20260917",
+      "archived_at": "2026-09-17T23:16:57Z"
     }
   ]
 }
