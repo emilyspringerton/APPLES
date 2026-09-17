@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-17T17:19:57Z",
+  "generated_at": "2026-09-17T17:45:18Z",
   "repo": "APPLES",
-  "count": 9553,
+  "count": 9554,
   "apples": [
     {
       "id": 10525,
@@ -76426,6 +76426,14 @@
       "source_repo": "SHANKPIT",
       "date": "20260917",
       "archived_at": "2026-09-17T17:19:57Z"
+    },
+    {
+      "id": 20091,
+      "type": "completion",
+      "title": "RL training: found and fixed the REAL bug -- NetPlayer wire struct grew to 88 bytes, both mirrors still at 84",
+      "source_repo": "SHANKPIT",
+      "date": "20260917",
+      "archived_at": "2026-09-17T17:45:18Z"
     }
   ]
 }
