@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-17T18:48:18Z",
+  "generated_at": "2026-09-17T18:57:37Z",
   "repo": "APPLES",
-  "count": 9557,
+  "count": 9558,
   "apples": [
     {
       "id": 10525,
@@ -76458,6 +76458,14 @@
       "source_repo": "SHANKPIT",
       "date": "20260917",
       "archived_at": "2026-09-17T18:48:18Z"
+    },
+    {
+      "id": 20095,
+      "type": "completion",
+      "title": "VS Code (code-server) as a NOCK tool, gated by IDUNA admin auth (S486)",
+      "source_repo": "IDUNA",
+      "date": "20260917",
+      "archived_at": "2026-09-17T18:57:37Z"
     }
   ]
 }

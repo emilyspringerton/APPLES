@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-17T18:57:37Z",
+  "body": "code-server (unmodified upstream, no fork) installed standalone, auth disabled, gated entirely by a new IDUNA reverse proxy (/admin/nock/code/) behind the exact same RequireCookieAuth+iduna.admin chain as every other NOCK admin route -- same Back Office login. Corrected an initial wrong flag guess (--abs-proxy-base-path is for a different code-server feature) before shipping. Live-verified: unauthenticated requests get a real 401. 3 new tests + full suite green. IDUNA e740763.\n\n⚓ ☃",
+  "id": 20095,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "IDUNA",
+  "title": "VS Code (code-server) as a NOCK tool, gated by IDUNA admin auth (S486)"
+}
