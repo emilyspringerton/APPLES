@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-17T10:14:14Z",
+  "body": "CHANGELOG updated in SHANKPIT: fix(ai): wire story_ai_tick into the dedicated server's own tick loop -- real, found-live gap: every S461/S462/S465 NPC behavior only ran in the lobby binary's local single-player mode, never on the real multiplayer server (no --story CLI flag even existed). Fixed: unconditional story_ai_tick call before the per-player movement loop, a new g_shankpit_is_server flag skipping the client-only cutscene phase gate, and --story/--story-cave CLI flags. Live-verified: all 9 story AI roles spawn, tick, and genuinely move on a real running server (sess-20260905-0720-ec33e7c5)\n\n⚓ ☃",
+  "id": 20044,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "SHANKPIT",
+  "title": "changelog(SHANKPIT): fix(ai): wire story_ai_tick into the dedicated server's own…"
+}

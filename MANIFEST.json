@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-17T08:25:53Z",
+  "generated_at": "2026-09-17T10:14:14Z",
   "repo": "APPLES",
-  "count": 9506,
+  "count": 9507,
   "apples": [
     {
       "id": 10525,
@@ -76050,6 +76050,14 @@
       "source_repo": "IDUNA",
       "date": "20260917",
       "archived_at": "2026-09-17T08:25:53Z"
+    },
+    {
+      "id": 20044,
+      "type": "completion",
+      "title": "changelog(SHANKPIT): fix(ai): wire story_ai_tick into the dedicated server's own…",
+      "source_repo": "SHANKPIT",
+      "date": "20260917",
+      "archived_at": "2026-09-17T10:14:14Z"
     }
   ]
 }
