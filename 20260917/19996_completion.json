@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-17T04:04:52Z",
+  "body": "Founder correctly caught that rl_train_packet.py never wired up is_default_queue (BRAWLPIT had this via S431-01, SHANKPIT never did) -- training always ran on the hardcoded --deathmatch scene rotation regardless of what was flagged default-for-queue in NOCK's level editor. Added fetch_default_queue_level() to rl_registry.py (public shankpit-levels API), wired into every _spawn_server call, printed plainly as TRAINING_LEVEL so it's visible in the Colab log per explicit request. Also added proactive registry JWT refresh (every 45min, token is 1hr-lived) since a long training run could previously outlive its own auth token and silently stop pushing checkpoints for the rest of the run. Live-verified end to end: fetched the real FORTRESS level (id=9, 27 walls) from the live IDUNA instance, confirmed a verbose-logging debug build of shank_server actually loads it (CUSTOM_LEVEL_LOADED, SCENE_CUSTOM_LEVEL). Full python -m unittest suite (36 tests) green. Commit 7c54f76.\n\n⚓ ☃",
+  "id": 19996,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "SHANKPIT",
+  "title": "SHANKPIT RL training now uses the queue's default level + JWT auto-refresh"
+}
