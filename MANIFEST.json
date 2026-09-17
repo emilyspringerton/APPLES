@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-17T15:39:28Z",
+  "generated_at": "2026-09-17T15:41:17Z",
   "repo": "APPLES",
-  "count": 9545,
+  "count": 9546,
   "apples": [
     {
       "id": 10525,
@@ -76362,6 +76362,14 @@
       "source_repo": "CLI",
       "date": "20260917",
       "archived_at": "2026-09-17T15:39:28Z"
+    },
+    {
+      "id": 20083,
+      "type": "completion",
+      "title": "S479: doors-with-no-script affordance + real embedded-level rendering + composed-object material fix",
+      "source_repo": "IDUNA",
+      "date": "20260917",
+      "archived_at": "2026-09-17T15:41:17Z"
     }
   ]
 }
