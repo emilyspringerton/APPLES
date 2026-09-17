@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-17T04:59:41Z",
+  "generated_at": "2026-09-17T04:59:47Z",
   "repo": "APPLES",
-  "count": 9472,
+  "count": 9473,
   "apples": [
     {
       "id": 10525,
@@ -75778,6 +75778,14 @@
       "source_repo": "REDGARDEN",
       "date": "20260917",
       "archived_at": "2026-09-17T04:59:41Z"
+    },
+    {
+      "id": 20010,
+      "type": "completion",
+      "title": "Disk-space crisis: found and fixed a live log growing 15GB (move-debug trace)",
+      "source_repo": "REDGARDEN",
+      "date": "20260917",
+      "archived_at": "2026-09-17T04:59:47Z"
     }
   ]
 }

@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-17T04:59:47Z",
+  "body": "Box hit 99% disk usage (2.7GB free), which silently corrupted an IDUNA binary deploy (truncated write). Investigated: two live, actively-open log files accounted for the overwhelming majority -- EMILY/var/logs/observation-watcher.log (25.8GB) and REDGARDEN/var/logs/matchmaker-bots.log (15.2GB). Truncated both in place (safe live-process technique, same as logrotate --copytruncate), freeing 40GB (99% -\u003e 73% used). Root-caused REDGARDEN's own contribution: apps/arena_server/src/main.c's [move-debug] fprintf, added 2026-08-26 for a specific movement-bug investigation and explicitly marked temporary, was still firing on every real move command for every hero including every bot in the R\u0026D pool's own continuous self-sustaining bot-vs-bot matches (always running regardless of real player activity). Removed it, matching this same code comment's own stated discipline. bash scripts/build.sh succeeds. Not yet redeployed -- redgarden-matchmaker-bots.service was stopped this session per founder direction (kill both and stop the observation watcher), matchmaker-bots.log and observation-watcher.log both currently idle/not growing. Commit d95518b.\n\n⚓ ☃",
+  "id": 20010,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "REDGARDEN",
+  "title": "Disk-space crisis: found and fixed a live log growing 15GB (move-debug trace)"
+}
