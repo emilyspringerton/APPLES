@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-17T12:24:06Z",
+  "body": "Founder real-time, live report: 'locomotion going in reverse... hes moving backwards.' draw_player_skin_mannequin's facing_rad formula was copied verbatim from draw_player_skin_tyler, which uses a formula specifically calibrated (and live-screenshot-verified) for tyler_body's own oddball BVH-imported bind pose (-Z at rest) -- never re-verified for the glTF-imported robot kits, which conventionally rest facing +Z like every other model in the file (the box body's own 180-draw_yaw convention). Switched to match. Honest, not visually re-verified in this sandbox (no GL driver) -- needs founder confirmation. Also acknowledged and deliberately deferred per founder request: wandering bots patrolling outside the VOXWORLD arena wall (patrol waypoint placement already flagged as unverified against real wall geometry in S470's own commit). Commit: 59c83a2.\n\n⚓ ☃",
+  "id": 20063,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "SHANKPIT",
+  "title": "Fixed robot kits walking backwards -- were using tyler_body's own facing convention"
+}
