@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-17T11:10:04Z",
+  "body": "New LevelCharacter parser + server_apply_custom_level wiring, gated strictly to MODE_STORY/MODE_STORY_CAVE with a real safety analysis (confirmed the MODE_QUEUE call site can never trigger it). Live-verified end to end: a hand-written test level with 2 authored characters correctly reset the VOXWORLD encounter and spawned exactly those 2 roles at their authored positions, both genuinely ticking and moving. Closes the loop S466 (server AI) + S467 (distinct rendering) opened. make server/lobby clean. Commit ba8774b + 4aabee2 + bfdd2e2.\n\n⚓ ☃",
+  "id": 20054,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "SHANKPIT",
+  "title": "Real NOCK-authored characters (STORY_SYSTEM_NORTHSTAR Phase 2 'character' kind)"
+}
