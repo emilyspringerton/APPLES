@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-17T11:49:28Z",
+  "body": "Founder real-time: 'wave to the player when the player gets close and then dance before resuming patrol.' gband_skel_npc_load_kit/draw gained optional per-kit greet/dance clips (GBAND_SKEL_NPC_ANIM_AUTO/GREET/DANCE), falling back to idle when a kit has no real clip for the requested gesture. Verified via the consuming SHANKPIT repo (this file has an engine dependency, no standalone GOLDENBAND test). Commits: 622aaa7, 7724cd2.\n\n⚓ ☃",
+  "id": 20060,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "GOLDENBAND",
+  "title": "gband_skel_npc gains optional greet/dance gesture clips"
+}

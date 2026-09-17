@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-17T11:34:45Z",
+  "generated_at": "2026-09-17T11:49:28Z",
   "repo": "APPLES",
-  "count": 9522,
+  "count": 9523,
   "apples": [
     {
       "id": 10525,
@@ -76178,6 +76178,14 @@
       "source_repo": "CLI",
       "date": "20260917",
       "archived_at": "2026-09-17T11:34:45Z"
+    },
+    {
+      "id": 20060,
+      "type": "completion",
+      "title": "gband_skel_npc gains optional greet/dance gesture clips",
+      "source_repo": "GOLDENBAND",
+      "date": "20260917",
+      "archived_at": "2026-09-17T11:49:28Z"
     }
   ]
 }
