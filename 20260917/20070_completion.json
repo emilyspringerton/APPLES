@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-17T13:17:34Z",
+  "body": "Founder real-time: 'i dont know why this never moved forward i kept asking for doors please make doors actually work thanks.' Two real, stacked, pre-existing bugs found live (not introduced this pass): (1) level_boxes_parse_json only counted a door as existing if it already had a script attached -- an unscripted door was silently dropped at parse time, before any runtime door logic ever ran. (2) IDUNA's doorsForExport always emitted a doomed script_url even with no script attached (fixed in a companion IDUNA commit). New door_tick_builtin_proximity (pure static C, no dynamic loading) gives every unscripted door a real working open/close default -- wired into story_doors.h server-side (fallback when no script) AND, for the first time, into the lobby (new lobby_doors_init/lobby_doors_tick), since dlopen/dlfcn.h is POSIX-only and unavailable on the Windows-cross-compiled distributed client -- custom PARENA door scripts stay server-only, named honestly, not silently promised. Live-verified end to end against the real okemily.com deployment: a real test level with an unscripted door confirmed door_count went from 0 (bug) to 1 (fixed) via a standalone C test, then the real server logged 'no script attached for box_index=0 -- using builtin proximity default' loading it via --level. Live shankpit-server.service + shankpit-bot-pool.service restarted with the fix. Commits: 4752100, a35876a, 8a1ac37.\n\n⚓ ☃",
+  "id": 20070,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "SHANKPIT",
+  "title": "Doors actually work now -- fixed the real parser bug + added a working default + wired lobby support"
+}
