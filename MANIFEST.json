@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-17T03:51:04Z",
+  "generated_at": "2026-09-17T03:56:26Z",
   "repo": "APPLES",
-  "count": 9455,
+  "count": 9456,
   "apples": [
     {
       "id": 10525,
@@ -75642,6 +75642,14 @@
       "source_repo": "SHANKPIT",
       "date": "20260917",
       "archived_at": "2026-09-17T03:51:04Z"
+    },
+    {
+      "id": 19993,
+      "type": "completion",
+      "title": "changelog(SHANKPIT): fix(client): reconciliation replay no longer re-fires weapo…",
+      "source_repo": "SHANKPIT",
+      "date": "20260917",
+      "archived_at": "2026-09-17T03:56:26Z"
     }
   ]
 }

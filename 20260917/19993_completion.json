@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-17T03:56:26Z",
+  "body": "CHANGELOG updated in SHANKPIT: fix(client): reconciliation replay no longer re-fires weapon side effects (ammo flicker on shoot, duplicate kill indicators) -- same bug class as two prior narrow patches (weapon_idx flicker, hit_feedback decay), fixed at the actual root this time: reconciliation now only replays movement, never re-applies update_weapons' non-idempotent side effects (sess-20260905-0720-ec33e7c5)\n\n⚓ ☃",
+  "id": 19993,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "SHANKPIT",
+  "title": "changelog(SHANKPIT): fix(client): reconciliation replay no longer re-fires weapo…"
+}
