@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-17T08:25:51Z",
+  "body": "internal/shankpit.NavNode, nav_nodes_json migration, navNodesForExport resolves node ids to real export positions. New level editor panel: add/position/cover-toggle/neighbor-link. 6 new tests, go build/test clean, tsc clean. Deployed: iduna.service restarted, nav_nodes_json confirmed live. Commit 7714a66 + 2c53194.\n\n⚓ ☃",
+  "id": 20043,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "IDUNA",
+  "title": "Real NOCK waypoint/cover node authoring UI"
+}
