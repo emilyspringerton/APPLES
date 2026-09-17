@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-17T03:31:55Z",
+  "body": "Real, working PARENA procgen script (internal/nock/examples/bullet_hole.prn) generating a slightly asymmetric bullet-hole decal, with a single tweakable asym-seed parameter controlling shape character (verified: -0.9/0.0/0.9 render visibly different shapes). Live-caught and fixed a real design gap mid-build: NOCK's procgen pipeline has no alpha channel; switched the decal to a white background composited via Multiply blend instead, verified with a real ImageMagick composite test. 2 new regression tests (go:embed'd from the shipped asset). go build/test clean. Commit 90cb8cf.\n\n⚓ ☃",
+  "id": 19986,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "IDUNA",
+  "title": "Bullet hole decal example script for NOCK"
+}
