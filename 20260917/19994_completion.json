@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-17T03:56:31Z",
+  "body": "Founder reported ammo flickering on shoot and occasional double kill-ring indicators. Traced the real call chain: client_reconcile_local_player's replay loop re-runs update_weapons (via shankpit_simulate_movement_tick -\u003e update_entity) for every historical command since the last ack, including its non-idempotent side effects (ammo decrement, hit_feedback decay, timer ticks) -- even though those commands already fired once in original prediction and were already resolved by the server. This is the same bug class as two prior narrow patches already in the codebase (weapon_idx flicker fix, S459-66 hit_feedback decay fix), each of which fixed one specific field rather than the actual cause. Fixed properly this time: reconciliation now snapshots every non-movement field update_weapons touches before replay and restores it after, confirmed safe by tracing that the server-driven fields (ammo, hit_feedback, is_shooting, storm_charges, recoil_anim) are already set from the authoritative snapshot immediately before reconciliation runs each frame. make lobby builds clean. Commit 42f9c46.\n\n⚓ ☃",
+  "id": 19994,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "SHANKPIT",
+  "title": "Reconciliation ammo flicker + duplicate kill indicator -- fixed at the actual root"
+}
