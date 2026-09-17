@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-17T08:01:33Z",
+  "body": "CHANGELOG updated in SHANKPIT: feat(goldenband): vendor gpose_look_at (bone-controller look-at) + new gsync.c/.h (multi-actor frame sync barrier) from GOLDENBAND; added gsync.c to LOBBY_SRC. AI_SCRIPTED_ANIMATION_NORTHSTAR.md updated -- both real, tested, but not yet wired to any gameplay consumer (nothing connects story_ai's NPCs to gband_skel_npc rendering yet, unchanged finding) (sess-20260905-0720-ec33e7c5)\n\n⚓ ☃",
+  "id": 20036,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "SHANKPIT",
+  "title": "changelog(SHANKPIT): feat(goldenband): vendor gpose_look_at (bone-controller loo…"
+}
