@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-17T12:59:25Z",
+  "generated_at": "2026-09-17T13:12:26Z",
   "repo": "APPLES",
-  "count": 9530,
+  "count": 9531,
   "apples": [
     {
       "id": 10525,
@@ -76242,6 +76242,14 @@
       "source_repo": "SHANKPIT",
       "date": "20260917",
       "archived_at": "2026-09-17T12:59:25Z"
+    },
+    {
+      "id": 20068,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: RL bot training concern after 50 generations -- bots aren't getting smart…",
+      "source_repo": "CLI",
+      "date": "20260917",
+      "archived_at": "2026-09-17T13:12:26Z"
     }
   ]
 }
