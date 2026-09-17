@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-17T14:28:22Z",
+  "generated_at": "2026-09-17T14:30:18Z",
   "repo": "APPLES",
-  "count": 9538,
+  "count": 9539,
   "apples": [
     {
       "id": 10525,
@@ -76306,6 +76306,14 @@
       "source_repo": "CLI",
       "date": "20260917",
       "archived_at": "2026-09-17T14:28:22Z"
+    },
+    {
+      "id": 20076,
+      "type": "completion",
+      "title": "Editor-only on/off toggle for the level exit 3D marker",
+      "source_repo": "IDUNA",
+      "date": "20260917",
+      "archived_at": "2026-09-17T14:30:18Z"
     }
   ]
 }

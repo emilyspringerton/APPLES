@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-17T14:30:18Z",
+  "body": "Founder real-time, direct follow-up to S476: 'we need the ability to turn it on and off visually in the map editor' -- confirmed/clarified: the exit marker (S476) is NOCK-editor-preview only, nothing renders in the real SHANKPIT game client (checked directly against the actual lobby/server C code, confirmed no in-game indicator exists). New showLevelExits checkbox next to the 'Level exits' panel, defaults on, a cheap visibility-only THREE.Group.visible flip -- never rebuilds geometry on toggle. Verified the new checkbox text landed in both the built bundle and the deployed Go binary before restarting iduna.service. Commits: f004031, ce3e6f0.\n\n⚓ ☃",
+  "id": 20076,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "IDUNA",
+  "title": "Editor-only on/off toggle for the level exit 3D marker"
+}
