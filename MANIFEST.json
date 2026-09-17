@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-17T17:45:18Z",
+  "generated_at": "2026-09-17T18:17:33Z",
   "repo": "APPLES",
-  "count": 9554,
+  "count": 9555,
   "apples": [
     {
       "id": 10525,
@@ -76434,6 +76434,14 @@
       "source_repo": "SHANKPIT",
       "date": "20260917",
       "archived_at": "2026-09-17T17:45:18Z"
+    },
+    {
+      "id": 20092,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: wants ragdoll + rigid body physics (with mass) in SHANKPIT, character mod…",
+      "source_repo": "CLI",
+      "date": "20260917",
+      "archived_at": "2026-09-17T18:17:33Z"
     }
   ]
 }
