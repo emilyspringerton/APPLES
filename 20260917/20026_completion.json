@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-17T05:48:18Z",
+  "body": "story_ai_trigger_scripted/ai_run_scripted: real movement-hook + locked-hold (mode-decision loop now skips SCRIPTED) + On-End-Sequence handoff via existing previous_mode. Real audit found gband_skel_npc.c is an unconnected single-mannequin demo; story bots actually render via draw_player_3rd/tyler_body; GSeq already provides real sequence-stitching+crossfade. Client clip selection, multi-actor frame sync, bone look-at, lip sync named as real follow-up in docs2/specs/AI_SCRIPTED_ANIMATION_NORTHSTAR.md. Closes S461's 4-phase plan. Commit d0f8197.\n\n⚓ ☃",
+  "id": 20026,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "SHANKPIT",
+  "title": "S461-04: real AI_MODE_SCRIPTED + scripted-animation NORTHSTAR (closes S461)"
+}
