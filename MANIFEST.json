@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-17T01:51:43Z",
+  "generated_at": "2026-09-17T01:59:04Z",
   "repo": "APPLES",
-  "count": 9434,
+  "count": 9435,
   "apples": [
     {
       "id": 10525,
@@ -75474,6 +75474,14 @@
       "source_repo": "emily",
       "date": "20260917",
       "archived_at": "2026-09-17T01:51:43Z"
+    },
+    {
+      "id": 19972,
+      "type": "completion",
+      "title": "changelog(SHANKPIT): Fix CI: add humanness.c to both hand-copied build lists in …",
+      "source_repo": "SHANKPIT",
+      "date": "20260917",
+      "archived_at": "2026-09-17T01:59:04Z"
     }
   ]
 }

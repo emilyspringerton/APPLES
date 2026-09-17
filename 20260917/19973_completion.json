@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-17T01:59:04Z",
+  "body": "release.yml and tests.yml each carry a separate, hand-copied gcc invocation that missed humanness.c (added to the Makefile in S459-87/88). Third real recurrence of this exact bug class. Fixed both, verified locally with the exact CI commands (including a real Windows cross-compile), confirmed the live GitHub Actions run went green. Commit SHANKPIT 5850891.\n\n⚓ ☃",
+  "id": 19973,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "SHANKPIT",
+  "title": "Fix CI build failure: missing humanness.c in workflow build lists"
+}
