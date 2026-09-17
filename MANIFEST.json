@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-17T02:31:25Z",
+  "generated_at": "2026-09-17T02:31:28Z",
   "repo": "APPLES",
-  "count": 9439,
+  "count": 9440,
   "apples": [
     {
       "id": 10525,
@@ -75514,6 +75514,14 @@
       "source_repo": "IDUNA",
       "date": "20260917",
       "archived_at": "2026-09-17T02:31:25Z"
+    },
+    {
+      "id": 19977,
+      "type": "completion",
+      "title": "NOCK animation repository accepts mesh/skeleton-only glTF imports",
+      "source_repo": "IDUNA",
+      "date": "20260917",
+      "archived_at": "2026-09-17T02:31:28Z"
     }
   ]
 }

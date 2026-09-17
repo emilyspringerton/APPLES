@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-17T02:31:28Z",
+  "body": "Fixed 422 'no animation found in this file' error that blocked importing rigged meshes with no baked animation (real founder upload: Mannequin_F.glb). Migration made tick_rate/duration_ticks/num_channels/content_hash/gband_data/manifest_json nullable in nock_animations; anim_store.go CreateAnimation now requires only one of mesh/skeleton/animation; gltf_convert.go ImportGLTFBytes builds animation fields conditionally. Frontend updated with plain-language mesh/rig/animation explanation for a non-industry founder. New regression tests cover the exact bug shape (mesh-only .glb import via HTTP). Live-verified: rebuilt+redeployed iduna binary, migration applied, pre-existing UAL2_Standard_RM row survived. Commit 7abfc4d.\n\n⚓ ☃",
+  "id": 19977,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "IDUNA",
+  "title": "NOCK animation repository accepts mesh/skeleton-only glTF imports"
+}
