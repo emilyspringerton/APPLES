@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-17T04:59:50Z",
+  "body": "CHANGELOG updated in IDUNA: feat(nock): multi-clip glTF import -- ImportGLTFBytesAllClips imports every real animation clip in a multi-clip file (e.g. Quaternius's Universal Animation Library), not just the first (a real, silent data-loss gap in the old single-clip importer). Each additional clip becomes its own animation-only row, attachable via the existing attach-animation flow (sess-20260905-0720-ec33e7c5)\n\n⚓ ☃",
+  "id": 20011,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "IDUNA",
+  "title": "changelog(IDUNA): feat(nock): multi-clip glTF import -- ImportGLTFBytesAllCli…"
+}

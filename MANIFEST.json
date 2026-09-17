@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-17T04:59:47Z",
+  "generated_at": "2026-09-17T04:59:50Z",
   "repo": "APPLES",
-  "count": 9473,
+  "count": 9474,
   "apples": [
     {
       "id": 10525,
@@ -75786,6 +75786,14 @@
       "source_repo": "REDGARDEN",
       "date": "20260917",
       "archived_at": "2026-09-17T04:59:47Z"
+    },
+    {
+      "id": 20011,
+      "type": "completion",
+      "title": "changelog(IDUNA): feat(nock): multi-clip glTF import -- ImportGLTFBytesAllCli…",
+      "source_repo": "IDUNA",
+      "date": "20260917",
+      "archived_at": "2026-09-17T04:59:50Z"
     }
   ]
 }
