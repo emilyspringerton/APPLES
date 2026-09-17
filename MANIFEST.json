@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-17T04:42:53Z",
+  "generated_at": "2026-09-17T04:42:58Z",
   "repo": "APPLES",
-  "count": 9469,
+  "count": 9470,
   "apples": [
     {
       "id": 10525,
@@ -75754,6 +75754,14 @@
       "source_repo": "IDUNA",
       "date": "20260917",
       "archived_at": "2026-09-17T04:42:53Z"
+    },
+    {
+      "id": 20007,
+      "type": "completion",
+      "title": "NOCK Animations tab -- real in-browser 3D preview (THREE.SkinnedMesh + AnimationMixer)",
+      "source_repo": "IDUNA",
+      "date": "20260917",
+      "archived_at": "2026-09-17T04:42:58Z"
     }
   ]
 }

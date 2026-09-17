@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-17T04:42:58Z",
+  "body": "Founder: 'can we add a 3d scene like the shankpit level editor for the animations models viewer?' Built AnimationViewer.tsx -- first real JS/TS binary parser for GOLDENBAND's .gskel/.gmesh/.gband formats, verified byte-exact against real stored data via a standalone Node script (joint count 65, vertex/index counts, computed vs actual file size matching exactly, channel names correct). Builds a real THREE.Bone/Skeleton/SkinnedMesh using the asset's own stored inverse-bind matrices, and a real THREE.AnimationClip from .gband channels with rest-pose fallback for uncovered ticks/components -- THREE's own AnimationMixer does the actual skinning math, not a second hand-rolled implementation. Reuses the same Three.js foundation ShankpitLevelEditor.tsx already has (OrbitControls, WebGLRenderer, rAF loop). Handles mesh-only (unskinned) and rig-only (wireframe skeleton) fallback cases. Play/pause + scrub slider, auto-framed camera. tsc/build clean, redeployed. Commit 84304af.\n\n⚓ ☃",
+  "id": 20007,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "IDUNA",
+  "title": "NOCK Animations tab -- real in-browser 3D preview (THREE.SkinnedMesh + AnimationMixer)"
+}
