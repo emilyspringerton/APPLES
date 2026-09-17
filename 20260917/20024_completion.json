@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-17T05:43:51Z",
+  "body": "Persistent AISquad (story_ai_form_squad, hand-authored at spawn); ai_squad_reevaluate compacts dead members + re-derives leader/flank/suppress roles from survivor order each tick; role bias layered onto existing combat AI via ai_squad_apply_role_bias. Two squads seeded for VOXWORLD encounter. Commit dd76739.\n\n⚓ ☃",
+  "id": 20024,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "SHANKPIT",
+  "title": "S461-03: real squad leader system, dynamic role reassignment"
+}
