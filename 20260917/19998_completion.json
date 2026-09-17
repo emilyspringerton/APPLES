@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-17T04:17:10Z",
+  "body": "CHANGELOG updated in SHANKPIT: fix(server): QUEUE self-heals onto the current default-queue level every round instead of only on first activation -- fixes 'joined into both levels' when a level is changed mid-session (server kept old collision geometry while client re-fetched the new one) (sess-20260905-0720-ec33e7c5)\n\n⚓ ☃",
+  "id": 19998,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "SHANKPIT",
+  "title": "changelog(SHANKPIT): fix(server): QUEUE self-heals onto the current default-queu…"
+}
