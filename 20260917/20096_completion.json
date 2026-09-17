@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-17T19:18:15Z",
+  "body": "Real root cause: orbit only engaged on left-click miss, unreachable when the camera is near/inside geometry. Added WASD+QE continuous fly (full 3D forward, Shift boost, blur safety valve) and unconditional middle-mouse-drag orbit, before any raycast check -- left-click object interactions untouched. Resolved a real WASD collision with the existing spawner-nudge feature by moving that to arrow keys. tsc/vite clean, deployed, verified new ArrowUp literal in dist/ and deployed binary. IDUNA 341e396.\n\n⚓ ☃",
+  "id": 20096,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "IDUNA",
+  "title": "NOCK level editor camera: fly (WASD+QE) + middle-mouse orbit (S487)"
+}
