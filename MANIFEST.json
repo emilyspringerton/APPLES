@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-17T20:30:13Z",
+  "generated_at": "2026-09-17T20:38:42Z",
   "repo": "APPLES",
-  "count": 9560,
+  "count": 9561,
   "apples": [
     {
       "id": 10525,
@@ -76482,6 +76482,14 @@
       "source_repo": "IDUNA",
       "date": "20260917",
       "archived_at": "2026-09-17T20:30:13Z"
+    },
+    {
+      "id": 20098,
+      "type": "completion",
+      "title": "WASD moves the spawner, spawner is the camera orbit pivot (S489)",
+      "source_repo": "IDUNA",
+      "date": "20260917",
+      "archived_at": "2026-09-17T20:38:42Z"
     }
   ]
 }
