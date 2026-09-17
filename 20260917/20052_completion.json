@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-17T11:09:54Z",
+  "body": "CHANGELOG updated in SHANKPIT: feat(ai): real NOCK-authored characters -- new LevelCharacter parser + wiring into server_apply_custom_level (real safety analysis: gated strictly to MODE_STORY, confirmed safe against the repeated-per-round MODE_QUEUE call site). Closes STORY_SYSTEM_NORTHSTAR.md Phase 2's own 'character' kind. Live-verified: authored roles spawn, tick, and genuinely move (sess-20260905-0720-ec33e7c5)\n\n⚓ ☃",
+  "id": 20052,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "SHANKPIT",
+  "title": "changelog(SHANKPIT): feat(ai): real NOCK-authored characters -- new LevelCharact…"
+}
