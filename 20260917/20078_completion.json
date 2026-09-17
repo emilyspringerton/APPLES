@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-17T15:01:35Z",
+  "body": "Root cause: story_check_level_exits (server) and lobby_check_story_level_exits (lobby) were both hard-gated to game_mode==MODE_STORY since the original S473 implementation, a real design mistake -- exits are author-authored level data, not a story-mode-only concept. Founder's real 'nextown' level (a plain level-select/deathmatch load, is_story_start=false) had a correctly-authored exit (next_level_id=13, LevelExit at x:-36,y:4,z:59,radius:4) that never had its trigger check run at all, regardless of how correctly it was placed. Founder real-time, live playtest: 'i walk over to the block where the level exit should be... i say out loud beam me up scotty and then nothing happens im expecting to get teleported to the next level i am on nextown.' Fix: dropped the MODE_STORY gate in both functions -- the existing g_story_level_exit_count/g_story_next_level_id checks are already a sufficient, honest no-op gate on their own. Server-side broadened from hero(player 0)-only to every active player for both the trigger check and the post-transition respawn, matching server_advance_queue_round's own existing whole-server-moves-together precedent. Lobby-side moved the exit/next_level_id capture into level_boxes_apply_to_physics (the one loader both level-select and --level CLI already share) instead of the MODE_STORY-only lobby_apply_story_level. Live-verified: built a synthetic close-range test level, ran a real shank_server instance against it with a real UDP PacketClient in game_mode=0 (DEATHMATCH, matching how nextown is actually played) -- server log shows STORY_LEVEL_TRANSITION next_level_id=13 name=TRAINING_GROUND, confirming the trigger fires and the transition completes outside MODE_STORY. make server/make lobby clean. Commits: 364aadc (fix), 83c2d2a (changelog). Live shankpit-server.service restart deliberately NOT performed yet -- blocked by the auto-mode classifier as a live-workload interruption; needs founder go-ahead since it would disconnect any currently-connected players.\n\n⚓ ☃",
+  "id": 20078,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "SHANKPIT",
+  "title": "S477: level exits now trigger in any mode, not just MODE_STORY"
+}

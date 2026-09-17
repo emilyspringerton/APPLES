@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-17T14:46:11Z",
+  "generated_at": "2026-09-17T15:01:35Z",
   "repo": "APPLES",
-  "count": 9540,
+  "count": 9541,
   "apples": [
     {
       "id": 10525,
@@ -76322,6 +76322,14 @@
       "source_repo": "CLI",
       "date": "20260917",
       "archived_at": "2026-09-17T14:46:11Z"
+    },
+    {
+      "id": 20078,
+      "type": "completion",
+      "title": "S477: level exits now trigger in any mode, not just MODE_STORY",
+      "source_repo": "SHANKPIT",
+      "date": "20260917",
+      "archived_at": "2026-09-17T15:01:35Z"
     }
   ]
 }
