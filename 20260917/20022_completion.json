@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-17T05:40:49Z",
+  "body": "New ai_nav.c/.h (A* + cover-facing query), wired into story_ai.c's dead AI_MODE_FLEE enum value; health/courage-gated trigger, VOXWORLD graph authored, NORTHSTAR doc written + golden-indexed. Commit f53860b.\n\n⚓ ☃",
+  "id": 20022,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "SHANKPIT",
+  "title": "S461-01: real waypoint/cover A* pathfinding + AI_MODE_FLEE"
+}

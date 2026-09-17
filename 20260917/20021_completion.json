@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-17T05:40:49Z",
+  "body": "CHANGELOG updated in SHANKPIT: feat(ai): S461-01 real waypoint/cover A* pathfinding (packages/simulation/ai_nav.c/.h) wired into story_ai.c's previously-dead AI_MODE_FLEE; health\u003c30+courage\u003c0.7 triggers real cover-seeking, VOXWORLD encounter gets a first hand-authored graph, NORTHSTAR doc at docs2/specs/AI_WAYPOINT_NAV_NORTHSTAR.md per founder direction to northstar the levels/maps waypoint system (sess-20260905-0720-ec33e7c5)\n\n⚓ ☃",
+  "id": 20021,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "SHANKPIT",
+  "title": "changelog(SHANKPIT): feat(ai): S461-01 real waypoint/cover A* pathfinding (packa…"
+}
