@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-17T05:34:25Z",
+  "generated_at": "2026-09-17T05:37:07Z",
   "repo": "APPLES",
-  "count": 9482,
+  "count": 9483,
   "apples": [
     {
       "id": 10525,
@@ -75858,6 +75858,14 @@
       "source_repo": "SHANKPIT",
       "date": "20260917",
       "archived_at": "2026-09-17T05:34:25Z"
+    },
+    {
+      "id": 20020,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time (SHANKPIT, direct follow-up to S461-01 tactical pathing): asked grid/waypo…",
+      "source_repo": "CLI",
+      "date": "20260917",
+      "archived_at": "2026-09-17T05:37:07Z"
     }
   ]
 }
