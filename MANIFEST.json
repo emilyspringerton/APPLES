@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-17T05:34:12Z",
+  "generated_at": "2026-09-17T05:34:25Z",
   "repo": "APPLES",
-  "count": 9481,
+  "count": 9482,
   "apples": [
     {
       "id": 10525,
@@ -75850,6 +75850,14 @@
       "source_repo": "SHANKPIT",
       "date": "20260917",
       "archived_at": "2026-09-17T05:34:12Z"
+    },
+    {
+      "id": 20019,
+      "type": "completion",
+      "title": "S461-02: real seek/arrival steering for story AI movement",
+      "source_repo": "SHANKPIT",
+      "date": "20260917",
+      "archived_at": "2026-09-17T05:34:25Z"
     }
   ]
 }
