@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-17T16:23:10Z",
+  "body": "Founder real-time: 'if I hold ALT and im in object mode and i grab and drag a cube it needs to clone that cube just like in illustrator.' Implemented in ShankpitLevelEditor.tsx's Viewport3D onPointerDown, object-mode wall-grab branch: holding Alt clones the hit wall (new id via the existing nextWallId helper), appends it to the level, and immediately starts the move-wall drag on the CLONE -- the original wall stays exactly where it was, matching Illustrator's own real alt-drag contract (duplicate-then-move). The clone deliberately does not inherit the original's attached door (doors are a separate entity keyed by wall_id) -- correct, expected behavior. npx tsc -b/npx vite build clean. Commits: f2a128d (feature), ea763c1 (dist), cab8daa (changelog). Deployed live (iduna.service restarted, health check passed, altKey code confirmed present in both the rebuilt JS bundle and the embedded Go binary).\n\n⚓ ☃",
+  "id": 20086,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "IDUNA",
+  "title": "S480 follow-up: Illustrator-style alt-drag-to-clone for wall cubes"
+}
