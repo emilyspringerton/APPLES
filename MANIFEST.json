@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-17T16:50:19Z",
+  "generated_at": "2026-09-17T16:55:24Z",
   "repo": "APPLES",
-  "count": 9551,
+  "count": 9552,
   "apples": [
     {
       "id": 10525,
@@ -76410,6 +76410,14 @@
       "source_repo": "IDUNA",
       "date": "20260917",
       "archived_at": "2026-09-17T16:50:19Z"
+    },
+    {
+      "id": 20089,
+      "type": "completion",
+      "title": "RL training: surface real server crash/startup failures instead of silent DEVNULL",
+      "source_repo": "SHANKPIT",
+      "date": "20260917",
+      "archived_at": "2026-09-17T16:55:24Z"
     }
   ]
 }
