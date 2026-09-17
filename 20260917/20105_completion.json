@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-17T23:48:07Z",
+  "body": "New Level.Enclosed + dedicated SetEnclosed method/endpoint (deliberately not threaded through CreateLevel/UpdateLevel's 14-param signature -- 60+ test call sites). New checkbox in NOCK, applies immediately. New round-trip test. go build/test + tsc/vite clean, deployed, verified migration applied to live DB. IDUNA 59e5d21.\n\n⚓ ☃",
+  "id": 20105,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "IDUNA",
+  "title": "Enclosed/indoor lighting flag, NOCK UI (S493)"
+}

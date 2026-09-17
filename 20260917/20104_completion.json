@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-17T23:48:07Z",
+  "body": "Root cause: outdoor sun/moon sky-fill applies unconditionally even indoors, swamping fixture point lights. New CustomLevelData.enclosed drives RETRO_LIGHTING_INTERIOR_FLAT (existed, never selected) via the one shared level_boxes_apply_to_physics path (local/CLI/network client all covered). Real FBO-based bloom pipeline shipped alongside (bright-pass extract + 2-pass blur + additive composite) -- found+fixed a real mismatched-uniform-arity bug in an early draft that would've silently disabled blurring. 6/6 tests green, degrades safely confirmed live under Xvfb. make server/lobby clean. SHANKPIT 5fb83a6.\n\n⚓ ☃",
+  "id": 20104,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "SHANKPIT",
+  "title": "Enclosed/indoor lighting + real screen-space bloom (S493)"
+}
