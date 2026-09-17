@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-17T13:12:26Z",
+  "generated_at": "2026-09-17T13:17:28Z",
   "repo": "APPLES",
-  "count": 9531,
+  "count": 9532,
   "apples": [
     {
       "id": 10525,
@@ -76250,6 +76250,14 @@
       "source_repo": "CLI",
       "date": "20260917",
       "archived_at": "2026-09-17T13:12:26Z"
+    },
+    {
+      "id": 20069,
+      "type": "completion",
+      "title": "Fixed doors: ScriptID 0 no longer emits a doomed script_url",
+      "source_repo": "IDUNA",
+      "date": "20260917",
+      "archived_at": "2026-09-17T13:17:28Z"
     }
   ]
 }

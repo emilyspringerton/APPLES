@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-17T13:17:28Z",
+  "body": "Founder real-time: 'i dont know why this never moved forward i kept asking for doors please make doors actually work.' Real, confirmed root cause: doorsForExport always emitted a script_url even at ScriptID 0, a guaranteed 404. ScriptID 0 now leaves script_url empty, the real signal SHANKPIT's own native loader reads as 'use the builtin proximity-open default' instead of a doomed fetch. New regression test. Commits: c45ebaa, 8b5a8ce.\n\n⚓ ☃",
+  "id": 20069,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "IDUNA",
+  "title": "Fixed doors: ScriptID 0 no longer emits a doomed script_url"
+}
