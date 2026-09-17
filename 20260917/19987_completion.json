@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-17T03:34:08Z",
+  "body": "CHANGELOG updated in SHANKPIT: fix(server): MODE_QUEUE now holds a real 5s match_over intermission before starting the next round instead of instantly resetting stats in place -- root cause of the reported 'matchmaking stuck open' feeling (sess-20260905-0720-ec33e7c5)\n\n⚓ ☃",
+  "id": 19987,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "SHANKPIT",
+  "title": "changelog(SHANKPIT): fix(server): MODE_QUEUE now holds a real 5s match_over inte…"
+}
