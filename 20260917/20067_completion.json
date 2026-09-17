@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-17T12:59:25Z",
+  "body": "Founder real-time: 'we dont need the text cutscene in the beginning we just need to spawn into the first map that the story is.' level_boxes.h parses level_exits/next_level_id/is_story_start from the live NOCK registry. Both server (apps/server/src/main.c) and lobby (apps/lobby/src/main.c, local single-player) now check the registry for is_story_start at MODE_STORY match-init and load that level instead of VOXWORLD, skipping the intro cutscene and disabling the legacy boss. A new per-tick exit-trigger check (story_check_level_exits / lobby_check_story_level_exits) reuses the already-proven server_apply_custom_level mid-game level-swap path (same mechanism server_advance_queue_round already uses every real QUEUE round) to transition live on exit-volume entry, respawning at the new level's own real Spawners. Live-verified end to end against the real okemily.com deployment: inserted a real test level via direct SQL, flagged is_story_start, confirmed STORY_START_LEVEL_LOADED fires and overrides VOXWORLD (verbose server build), removed the test level, re-confirmed the fallback path is untouched. make server/make lobby clean, both default and NET_VERBOSE_LOG=1 builds. Commits: 94bc4e0, 792229b, ea850d8, 8554390.\n\n⚓ ☃",
+  "id": 20067,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "SHANKPIT",
+  "title": "S473 Phase 1: real level chain live in the engine -- story-start override + exit triggers"
+}
