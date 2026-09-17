@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-17T10:45:44Z",
+  "generated_at": "2026-09-17T10:54:22Z",
   "repo": "APPLES",
-  "count": 9509,
+  "count": 9510,
   "apples": [
     {
       "id": 10525,
@@ -76074,6 +76074,14 @@
       "source_repo": "CLI",
       "date": "20260917",
       "archived_at": "2026-09-17T10:45:44Z"
+    },
+    {
+      "id": 20047,
+      "type": "completion",
+      "title": "changelog(GOLDENBAND): feat: gband_skel_npc gains real idle/walk clip switching, a…",
+      "source_repo": "GOLDENBAND",
+      "date": "20260917",
+      "archived_at": "2026-09-17T10:54:22Z"
     }
   ]
 }
