@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-17T12:59:19Z",
+  "body": "Founder real-time: 'lets not work on voxworld this is a legacy world ... we need a way to string 2 levels together ... we need the loading points or whatever the opposite of the spawners is.' New LevelExit scriptable object (placed trigger volume), NextLevelID (nullable, v0 chain, DB-validated must-reference-real-level + self-reference rejection), IsStoryStart (mirrors IsDefaultQueue's exactly-one shape, new SetStoryStartLevel + PATCH .../story-start endpoint). Threaded through the full CRUD/Export pattern. New 'Level exits'/'Next level'/'Set as STORY start' NOCK UI. 9 new tests, full suite green. Deployed + live-verified: migration applied to the live DB, iduna.service restarted, a real test level inserted+flagged+deleted confirmed the public registry endpoint reflects is_story_start correctly. Commits: 5f54191, af4edac, a9a4997.\n\n⚓ ☃",
+  "id": 20066,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "IDUNA",
+  "title": "S473 Phase 1: real level graph (next_level_id/is_story_start/LevelExit) + NOCK UI"
+}

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-17T12:49:24Z",
+  "generated_at": "2026-09-17T12:59:19Z",
   "repo": "APPLES",
-  "count": 9528,
+  "count": 9529,
   "apples": [
     {
       "id": 10525,
@@ -76226,6 +76226,14 @@
       "source_repo": "CLI",
       "date": "20260917",
       "archived_at": "2026-09-17T12:49:24Z"
+    },
+    {
+      "id": 20066,
+      "type": "completion",
+      "title": "S473 Phase 1: real level graph (next_level_id/is_story_start/LevelExit) + NOCK UI",
+      "source_repo": "IDUNA",
+      "date": "20260917",
+      "archived_at": "2026-09-17T12:59:19Z"
     }
   ]
 }
