@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-17T18:17:33Z",
+  "generated_at": "2026-09-17T18:23:45Z",
   "repo": "APPLES",
-  "count": 9555,
+  "count": 9556,
   "apples": [
     {
       "id": 10525,
@@ -76442,6 +76442,14 @@
       "source_repo": "CLI",
       "date": "20260917",
       "archived_at": "2026-09-17T18:17:33Z"
+    },
+    {
+      "id": 20093,
+      "type": "completion",
+      "title": "PBD ragdoll spike on real mannequin skeleton (S484)",
+      "source_repo": "SHANKPIT",
+      "date": "20260917",
+      "archived_at": "2026-09-17T18:23:45Z"
     }
   ]
 }

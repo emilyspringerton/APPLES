@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-17T18:23:45Z",
+  "body": "Validated Verlet/PBD ragdoll approach on the real 65-joint mannequin_npc.gskel at SHANKPIT's real 64Hz tick rate. Found+fixed two real bugs (Verlet ground-clamp velocity spike, distance-constraint sign error for body B). Result: numerically stable, converges by t=0.5s, but collapses flat -- angular/joint-limit constraints are the real next requirement, not per-bone collision/mass. SHANKPIT 3fdbe30.\n\n⚓ ☃",
+  "id": 20093,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "SHANKPIT",
+  "title": "PBD ragdoll spike on real mannequin skeleton (S484)"
+}
