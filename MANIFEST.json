@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-17T05:40:49Z",
+  "generated_at": "2026-09-17T05:40:50Z",
   "repo": "APPLES",
-  "count": 9484,
+  "count": 9485,
   "apples": [
     {
       "id": 10525,
@@ -75874,6 +75874,14 @@
       "source_repo": "SHANKPIT",
       "date": "20260917",
       "archived_at": "2026-09-17T05:40:49Z"
+    },
+    {
+      "id": 20022,
+      "type": "completion",
+      "title": "S461-01: real waypoint/cover A* pathfinding + AI_MODE_FLEE",
+      "source_repo": "SHANKPIT",
+      "date": "20260917",
+      "archived_at": "2026-09-17T05:40:50Z"
     }
   ]
 }
