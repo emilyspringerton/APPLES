@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-17T10:54:24Z",
+  "body": "CHANGELOG updated in SHANKPIT: feat(ai): real, distinct AI-driven character rendering -- new SKIN_MANNEQUIN forces story_ai NPCs to render via the general gpose/gband_skel_npc pipeline (real audit found gband_mesh_rig/SKIN_TYLER is hardcoded to exactly 5 joints, not general). Removed the old static demo NPC, superseded by real per-NPC draws driven by live AI position. make server/lobby clean (sess-20260905-0720-ec33e7c5)\n\n⚓ ☃",
+  "id": 20048,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "SHANKPIT",
+  "title": "changelog(SHANKPIT): feat(ai): real, distinct AI-driven character rendering -- n…"
+}
