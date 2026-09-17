@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-17T05:09:37Z",
+  "body": "CHANGELOG updated in IDUNA: fix(nock): 'Switch animation' now stays reachable once a character already has one attached (was a real frontend visibility bug, not a design limit -- backend already supported re-attaching); split the Animations tab into Characters vs Motion clips views, Characters as the new default, so multi-clip imports don't bury a real usable mesh/rig under dozens of bare clip rows (sess-20260905-0720-ec33e7c5)\n\n⚓ ☃",
+  "id": 20013,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "IDUNA",
+  "title": "changelog(IDUNA): fix(nock): 'Switch animation' now stays reachable once a ch…"
+}

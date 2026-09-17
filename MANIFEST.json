@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-17T04:59:57Z",
+  "generated_at": "2026-09-17T05:09:37Z",
   "repo": "APPLES",
-  "count": 9475,
+  "count": 9476,
   "apples": [
     {
       "id": 10525,
@@ -75802,6 +75802,14 @@
       "source_repo": "IDUNA",
       "date": "20260917",
       "archived_at": "2026-09-17T04:59:57Z"
+    },
+    {
+      "id": 20013,
+      "type": "completion",
+      "title": "changelog(IDUNA): fix(nock): 'Switch animation' now stays reachable once a ch…",
+      "source_repo": "IDUNA",
+      "date": "20260917",
+      "archived_at": "2026-09-17T05:09:37Z"
     }
   ]
 }
