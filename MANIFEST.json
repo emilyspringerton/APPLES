@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-17T14:22:16Z",
+  "generated_at": "2026-09-17T14:22:52Z",
   "repo": "APPLES",
-  "count": 9536,
+  "count": 9537,
   "apples": [
     {
       "id": 10525,
@@ -76290,6 +76290,14 @@
       "source_repo": "CLI",
       "date": "20260917",
       "archived_at": "2026-09-17T14:22:16Z"
+    },
+    {
+      "id": 20074,
+      "type": "completion",
+      "title": "Real 3D marker for level exits in the NOCK level editor",
+      "source_repo": "IDUNA",
+      "date": "20260917",
+      "archived_at": "2026-09-17T14:22:52Z"
     }
   ]
 }

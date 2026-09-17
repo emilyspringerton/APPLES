@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-17T14:22:52Z",
+  "body": "Founder real-time: 'can we make it so the level editor there is a visual indicator for the level exit marker? im not sure if it works because i dont know if its in the right spot.' Found live: none of NavNode/Character/LevelExit had a 3D viewport marker before this (only walls/spawn points did). Closed for LevelExit specifically: Viewport3D gains a new levelExits prop, rendered as a cyan octahedron at the exit's own position plus a wireframe sphere sized to its real radius. Read-only display v0, not yet click-to-select/drag. NavNode/Character named as the same remaining gap, not fixed this pass. Verified the new code landed in both the built JS bundle and the deployed Go binary (dist/ is go:embed'd) before restarting iduna.service. Commits: 0537469, 78e5e36.\n\n⚓ ☃",
+  "id": 20074,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "IDUNA",
+  "title": "Real 3D marker for level exits in the NOCK level editor"
+}
