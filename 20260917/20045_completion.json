@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-17T10:14:19Z",
+  "body": "Found: story_ai_tick was only ever called from local_update (lobby-only local single-player), never on the dedicated server, under any game mode -- no --story CLI flag even existed. Fixed: unconditional tick call before the per-player movement loop, g_shankpit_is_server flag to skip the client-only cutscene phase gate, --story/--story-cave CLI flags added. Live-verified with a debug build: all 9 story AI roles spawn, tick every second, and genuinely move (distance-to-player changing tick over tick) on a real running server. Retroactively makes S461/S462/S465's NPC AI systems live on the real multiplayer server for the first time. make server/lobby clean. Commit 57b27b3 + 77d901a.\n\n⚓ ☃",
+  "id": 20045,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "SHANKPIT",
+  "title": "Real fix: story_ai_tick wired into the dedicated server's own tick loop"
+}
