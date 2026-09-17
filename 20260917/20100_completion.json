@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-17T22:59:49Z",
+  "body": "New LevelExit.target_spawner_id -- overrides destination-level spawner selection with one exact, author-chosen spawner by id, for seamless GTA-style building interiors. Found+fixed a real gap: LevelSpawner never parsed its own author-assigned id from JSON at all. New custom_level_pick_spawner_by_id, honest miss on stale/zero id. story_check_level_exits/lobby_check_story_level_exits both capture the firing exit and override respawn position. 10/10 new tests green, make server/lobby clean. SHANKPIT 7287957.\n\n⚓ ☃",
+  "id": 20100,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "SHANKPIT",
+  "title": "Level exits target a specific destination spawner (S491)"
+}

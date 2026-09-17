@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-17T22:52:13Z",
+  "generated_at": "2026-09-17T22:59:49Z",
   "repo": "APPLES",
-  "count": 9562,
+  "count": 9563,
   "apples": [
     {
       "id": 10525,
@@ -76498,6 +76498,14 @@
       "source_repo": "IDUNA",
       "date": "20260917",
       "archived_at": "2026-09-17T22:52:13Z"
+    },
+    {
+      "id": 20100,
+      "type": "completion",
+      "title": "Level exits target a specific destination spawner (S491)",
+      "source_repo": "SHANKPIT",
+      "date": "20260917",
+      "archived_at": "2026-09-17T22:59:49Z"
     }
   ]
 }

@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-17T22:59:49Z",
+  "body": "New LevelExit.TargetSpawnerID + LevelExitExport field, matching SHANKPIT's native implementation. New 'Target spawner' dropdown in LevelExitInspector, populated from the destination level's live spawner list via a new fetch effect. New round-trip test. go build/test + tsc/vite clean, deployed, verified in dist/ and binary. IDUNA 5942921.\n\n⚓ ☃",
+  "id": 20101,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "IDUNA",
+  "title": "Level exits target a specific destination spawner, NOCK UI (S491)"
+}
