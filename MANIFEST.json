@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-17T04:36:38Z",
+  "generated_at": "2026-09-17T04:36:42Z",
   "repo": "APPLES",
-  "count": 9467,
+  "count": 9468,
   "apples": [
     {
       "id": 10525,
@@ -75738,6 +75738,14 @@
       "source_repo": "IDUNA",
       "date": "20260917",
       "archived_at": "2026-09-17T04:36:38Z"
+    },
+    {
+      "id": 20005,
+      "type": "completion",
+      "title": "NOCK Animations tab -- filterable Mesh/Rig/Animation views (discoverability fix)",
+      "source_repo": "IDUNA",
+      "date": "20260917",
+      "archived_at": "2026-09-17T04:36:42Z"
     }
   ]
 }

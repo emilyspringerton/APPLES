@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-17T04:36:42Z",
+  "body": "Founder reported not seeing an animations/rig browser. Verified live: the feature IS deployed (grepped the actual built JS bundle for the expected labels) -- real discoverability gap, not a missing feature. Added filter tabs (All/Meshes/Rigs/Animations/Needs animation, each with a live count) over the existing unified Animations tab data, giving a real 'browser' feel without splitting into separate pages/data models. tsc/build clean, labels confirmed in the rebuilt bundle, redeployed. Commit 97ddc40.\n\n⚓ ☃",
+  "id": 20005,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "IDUNA",
+  "title": "NOCK Animations tab -- filterable Mesh/Rig/Animation views (discoverability fix)"
+}
