@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-17T06:41:55Z",
+  "body": "internal/shankpit.Door (wall_id+script_id), doors_json migration, doorsForExport resolves real box_index+download URL, WallInspector door-script picker. Closes STORY_SYSTEM_NORTHSTAR.md's authoring gap ('how do i put doors in my levels?'). 4 new tests, go build/test ./... clean, tsc clean on changed files. Deployed: iduna.service restarted, doors_json confirmed live, export endpoint verified backward-compatible against a real existing level. Commit 006a0c9.\n\n⚓ ☃",
+  "id": 20034,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "IDUNA",
+  "title": "Real NOCK door authoring: attach scripts to walls in the level editor"
+}
