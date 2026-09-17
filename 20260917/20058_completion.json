@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-17T11:29:38Z",
+  "body": "Founder real-time: 'i just added universal animation library 1...' then 'GEORGE LEELA MIKE AND STAN ARE ANIMATED ROBOT CHARACTERS WITH MESH RIG AND ANIMATIONS PER BOT'. Vendored GOLDENBAND's multi-kit gband_skel_npc, exported+validated real assets from IDUNA nock_animations (Stan=43/Mike=43/Leela=17/George=47 joints), wired all 5 kits into gband_shader_and_mesh_init, bumped VBO capacity 20000-\u003e30000 for George's 23592-vert mesh, rewrote draw_player_skin_mannequin for p-\u003eid-based kit selection (honestly not yet AIRole-aware, named as follow-up). make lobby clean, Xvfb smoke test no-crash over 8s (new code path unreachable in this sandbox's no-GL-driver environment, a pre-existing limitation, not a regression). Commits: 66b9ae3, 30f0ef2, 1c498eb, 9c9fead.\n\n⚓ ☃",
+  "id": 20058,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "SHANKPIT",
+  "title": "5 real NPC character kits live: mannequin/Stan/Mike/Leela/George"
+}
