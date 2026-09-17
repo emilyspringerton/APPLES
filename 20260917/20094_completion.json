@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-17T18:48:18Z",
+  "body": "Ported ECOWAR's REFLUX cross-mod pub/sub primitive natively into SHANKPIT (own log, zero cross-repo dep). First dispatcher: reusable interact buttons (BTN_USE, edge-triggered, already-wired input path). First subscriber: LevelDoor.subscribe_button_id -- doors toggle purely on REFLUX_ACTION_BUTTON_PRESSED matches, ignoring proximity. Real inversion of control ('the bridge listens for a button the button has no idea the bridge exists'). Wired into both server and lobby. 13/13 tests green. SHANKPIT 41589f1.\n\n⚓ ☃",
+  "id": 20094,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "SHANKPIT",
+  "title": "REFLUX pub/sub + reusable interact buttons + button-doors (S485)"
+}
