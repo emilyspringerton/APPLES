@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-17T13:41:11Z",
+  "generated_at": "2026-09-17T13:41:17Z",
   "repo": "APPLES",
-  "count": 9534,
+  "count": 9535,
   "apples": [
     {
       "id": 10525,
@@ -76274,6 +76274,14 @@
       "source_repo": "SHANKPIT",
       "date": "20260917",
       "archived_at": "2026-09-17T13:41:11Z"
+    },
+    {
+      "id": 20072,
+      "type": "completion",
+      "title": "Fixed webmaster missing logs.read -- /portal/logs was 403ing for the only account that could use it",
+      "source_repo": "IDUNA",
+      "date": "20260917",
+      "archived_at": "2026-09-17T13:41:17Z"
     }
   ]
 }
