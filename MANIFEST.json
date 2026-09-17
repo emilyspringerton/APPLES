@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-17T03:34:08Z",
+  "generated_at": "2026-09-17T03:34:12Z",
   "repo": "APPLES",
-  "count": 9450,
+  "count": 9451,
   "apples": [
     {
       "id": 10525,
@@ -75602,6 +75602,14 @@
       "source_repo": "SHANKPIT",
       "date": "20260917",
       "archived_at": "2026-09-17T03:34:08Z"
+    },
+    {
+      "id": 19988,
+      "type": "completion",
+      "title": "MODE_QUEUE real match-over intermission (fixes stuck-open matchmaking feel)",
+      "source_repo": "SHANKPIT",
+      "date": "20260917",
+      "archived_at": "2026-09-17T03:34:12Z"
     }
   ]
 }

@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-17T03:34:12Z",
+  "body": "Founder reported matchmaking for queue felt stuck/down after a match resets on hitting the frag limit. Root cause: server_advance_queue_round fired on the same tick the limit was hit, silently resetting stats in place with zero match-over signal. Ruled out slot exhaustion (a real 5s idle timeout already frees stale slots). Fix: MODE_QUEUE now sets local_state.match_over (mirroring the pattern already used by MODE_TDMO/CTF) and holds a real 5s intermission before the next round starts, auto-clearing since QUEUE has no single match owner to press restart. make server and make lobby both build clean. Full live 20-kill reproduction not completed (would need a real combat bot loop) -- fix reviewed by hand against the proven team-mode match_over pattern. Commit SHANKPIT 335bc17.\n\n⚓ ☃",
+  "id": 19988,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "SHANKPIT",
+  "title": "MODE_QUEUE real match-over intermission (fixes stuck-open matchmaking feel)"
+}
