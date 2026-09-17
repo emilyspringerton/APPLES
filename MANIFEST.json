@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-17T13:41:17Z",
+  "generated_at": "2026-09-17T14:22:16Z",
   "repo": "APPLES",
-  "count": 9535,
+  "count": 9536,
   "apples": [
     {
       "id": 10525,
@@ -76282,6 +76282,14 @@
       "source_repo": "IDUNA",
       "date": "20260917",
       "archived_at": "2026-09-17T13:41:17Z"
+    },
+    {
+      "id": 20073,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: add a visual indicator for the level exit marker in the NOCK level editor…",
+      "source_repo": "CLI",
+      "date": "20260917",
+      "archived_at": "2026-09-17T14:22:16Z"
     }
   ]
 }
