@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-17T04:17:16Z",
+  "body": "Founder switched the queue's default level mid-session, rejoined, and got a visual/collision mismatch ('joined into both levels'). Root cause: queue_activate_match's level fetch-and-apply ran exactly once per server process lifetime; server_advance_queue_round (every subsequent round) deliberately never reloaded the level on the explicit prior assumption the flag never changes mid-session -- false once NOCK's level editor allows a live change. Client independently re-fetches the current default on join, so a mid-session change desynced client (new geometry) from server (stale collision). Fixed: factored the fetch-and-apply into queue_load_default_level(), now called every round via server_advance_queue_round (reusing S459-100's own match_over intermission boundary), not just on first activation. Verified live: rebuilt+restarted shankpit-server and shankpit-bot-pool, confirmed stable (bots connect cleanly, no crashes). Also confirmed the training pipeline (rl_train_packet.py, fixed last turn) correctly picks up the founder's newly-created TRAINING_GROUND level (5 walls, tiny arena) via a fresh live fetch. make server/make lobby build clean, full python -m unittest suite (36 tests) green. Commit e090ba4.\n\n⚓ ☃",
+  "id": 19999,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "SHANKPIT",
+  "title": "QUEUE self-heals onto current default level every round -- fixes 'joined into both levels'"
+}
