@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-17T06:41:42Z",
+  "generated_at": "2026-09-17T06:41:47Z",
   "repo": "APPLES",
-  "count": 9494,
+  "count": 9495,
   "apples": [
     {
       "id": 10525,
@@ -75954,6 +75954,14 @@
       "source_repo": "CLI",
       "date": "20260917",
       "archived_at": "2026-09-17T06:41:42Z"
+    },
+    {
+      "id": 20032,
+      "type": "completion",
+      "title": "changelog(IDUNA): feat(shankpit): real NOCK door authoring -- internal/shankp…",
+      "source_repo": "IDUNA",
+      "date": "20260917",
+      "archived_at": "2026-09-17T06:41:47Z"
     }
   ]
 }
