@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-17T12:09:41Z",
+  "body": "Founder real-time, live report against a real screenshot: 'no robots tho' -- every character rendering as a plain box body. Root cause #1: gband_shader_and_mesh_init returned early on tyler_body load failure, incorrectly blocking the unrelated robot-kit loading below it -- pre-existing control-flow bug since S144-02 Stage B, fixed to fall through instead of returning. Root cause #2: ShankPit_Client_*.zip release packaging never bundled assets/ at all, so every relative-path asset load failed unconditionally on any real machine running the distributed client -- also pre-existing since S144-02 Stage B, fixed by copying assets/ into the zip. Neither bug is new to this session; both were only surfaced now because a real user ran the actual packaged client and reported back with a screenshot. Commits: 3ae1f4f, d86638f, 3af9e7d.\n\n⚓ ☃",
+  "id": 20062,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "SHANKPIT",
+  "title": "Fixed two real, pre-existing bugs blocking all robots (and tyler_body) in the real client"
+}
