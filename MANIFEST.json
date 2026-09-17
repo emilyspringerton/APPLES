@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-17T01:10:18Z",
+  "generated_at": "2026-09-17T01:10:35Z",
   "repo": "APPLES",
-  "count": 9426,
+  "count": 9427,
   "apples": [
     {
       "id": 10525,
@@ -75410,6 +75410,14 @@
       "source_repo": "CLI",
       "date": "20260917",
       "archived_at": "2026-09-17T01:10:18Z"
+    },
+    {
+      "id": 19964,
+      "type": "completion",
+      "title": "NORTHSTAR_MODULAR_BUILDING.md: object library + NOCK multi-tenancy + chunk streaming",
+      "source_repo": "PAPERCRAFT",
+      "date": "20260917",
+      "archived_at": "2026-09-17T01:10:35Z"
     }
   ]
 }
