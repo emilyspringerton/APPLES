@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-17T19:18:15Z",
+  "generated_at": "2026-09-17T20:30:13Z",
   "repo": "APPLES",
-  "count": 9559,
+  "count": 9560,
   "apples": [
     {
       "id": 10525,
@@ -76474,6 +76474,14 @@
       "source_repo": "IDUNA",
       "date": "20260917",
       "archived_at": "2026-09-17T19:18:15Z"
+    },
+    {
+      "id": 20097,
+      "type": "completion",
+      "title": "Box extrude (Phase 1) + constrain-Y drag fix in NOCK level editor (S488)",
+      "source_repo": "IDUNA",
+      "date": "20260917",
+      "archived_at": "2026-09-17T20:30:13Z"
     }
   ]
 }

@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-17T20:30:13Z",
+  "body": "Shipped the real priority: Alt+E extrudes a selected face into a new connected box, auto-selecting its far face so extrudes chain -- matches the founder's own hallway-building workflow. Tab/Alt+3 mode switching, all hotkeys Alt-modified to avoid colliding with S487's camera-fly keys. Also found+fixed a real, separate bug: constrain-Y drag was re-adding a nonzero grabOffset.Y on top of the plane-locked Y, drifting walls up/down on drag depending on click position -- now forces Y to the wall's own unchanged startWall.y. Full arbitrary-mesh editing (vertex/edge, TransformControls gizmo, ramps) scoped in new docs2/MESH_EDITING_NORTHSTAR.md, explicitly not built this pass. tsc/vite clean, deployed, verified in dist/ and the binary. IDUNA e3fcb2e.\n\n⚓ ☃",
+  "id": 20097,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "IDUNA",
+  "title": "Box extrude (Phase 1) + constrain-Y drag fix in NOCK level editor (S488)"
+}
