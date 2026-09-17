@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-17T15:17:48Z",
+  "generated_at": "2026-09-17T15:33:26Z",
   "repo": "APPLES",
-  "count": 9542,
+  "count": 9543,
   "apples": [
     {
       "id": 10525,
@@ -76338,6 +76338,14 @@
       "source_repo": "CLI",
       "date": "20260917",
       "archived_at": "2026-09-17T15:17:48Z"
+    },
+    {
+      "id": 20080,
+      "type": "completion",
+      "title": "S478: friction tuning bump + real per-material friction + standalone Materials screen",
+      "source_repo": "SHANKPIT",
+      "date": "20260917",
+      "archived_at": "2026-09-17T15:33:26Z"
     }
   ]
 }
