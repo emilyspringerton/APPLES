@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-17T03:51:04Z",
+  "body": "Founder asked to check SHANKPIT's ELO league algo against BRAWLPIT's, noting bottom checkpoints stuck at 1500. Algorithm itself is a verbatim port of BRAWLPIT's, confirmed sound. Real root cause found via direct query of shankpit_rl_checkpoints: main_exploiter stuck at exactly 1500 for 40.2% of rows (47/117) vs ~27% for main/league_exploiter, matching the 1-in-5 rate --reset-every-n-generations fires at. Main Exploiter's periodic network reset registered with a fresh 1500 (correctly) but the evaluation loop unconditionally skipped rating any reset-role generation, so it stayed stuck forever. Fixed: reset generations now evaluate against the current best Main (the real, natural opponent for an exploiter role) instead of skipping. Also flipped --resume-from-registry to default-on in rl_train_packet.py itself, since S459-71 only fixed the colab_train.py wrapper, not the underlying script -- founder correctly pushed back that resume was already working in their actual usage, so this is a defensive robustness fix, not the primary explanation. Full python -m unittest suite (36 tests) green. Commit d143f29.\n\n⚓ ☃",
+  "id": 19992,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "SHANKPIT",
+  "title": "SHANKPIT RL Elo distribution -- real fix for Main Exploiter reset generations stuck at 1500"
+}
