@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-17T15:01:35Z",
+  "generated_at": "2026-09-17T15:17:48Z",
   "repo": "APPLES",
-  "count": 9541,
+  "count": 9542,
   "apples": [
     {
       "id": 10525,
@@ -76330,6 +76330,14 @@
       "source_repo": "SHANKPIT",
       "date": "20260917",
       "archived_at": "2026-09-17T15:01:35Z"
+    },
+    {
+      "id": 20079,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: (1) increase default ground friction so platforming/parkour is less slipp…",
+      "source_repo": "CLI",
+      "date": "20260917",
+      "archived_at": "2026-09-17T15:17:48Z"
     }
   ]
 }
