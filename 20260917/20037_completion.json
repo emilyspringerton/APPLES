@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-17T08:01:38Z",
+  "body": "Real founder follow-up (Apple #20015) to the scripted_sequence breakdown. gpose_look_at: per-joint nlerp-clamped look-at, built on newly-exposed gpose_compute_joint_world. gsync.c/.h: named arrival barrier, one-shot ignition signal for simultaneous animation start. Phoneme lip-sync correctly deferred: no WAV/audio-asset loader exists anywhere in SHANKPIT. 10 new tests, full suite green. Commit 8e8ca0c + 8e81ea0.\n\n⚓ ☃",
+  "id": 20037,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "GOLDENBAND",
+  "title": "Bone-controller look-at (gpose_look_at) + multi-actor frame sync (gsync)"
+}

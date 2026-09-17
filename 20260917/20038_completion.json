@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-17T08:01:38Z",
+  "body": "Vendored bone-controller look-at + multi-actor frame sync; added gsync.c to LOBBY_SRC ahead of a real gameplay consumer (same pattern gseq.c already sits in). AI_SCRIPTED_ANIMATION_NORTHSTAR.md updated. make server/lobby clean. Commit 52280c6 + 352b78b.\n\n⚓ ☃",
+  "id": 20038,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "SHANKPIT",
+  "title": "Vendor gpose_look_at + new gsync module from GOLDENBAND"
+}
