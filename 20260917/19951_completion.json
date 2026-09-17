@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-17T00:15:59Z",
+  "body": "CHANGELOG updated in SHANKPIT: Humanness Phase 2: wire jitter/mood into story_ai.c's combat FSM (turn overshoot, real aim noise, jittered attack cooldowns); found + fixed a real dead-data gap (aim_error_deg was never consumed) (sess-20260905-0720-ec33e7c5)\n\n⚓ ☃",
+  "id": 19951,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "SHANKPIT",
+  "title": "changelog(SHANKPIT): Humanness Phase 2: wire jitter/mood into story_ai.c's comba…"
+}

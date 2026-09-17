@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-17T00:15:59Z",
+  "body": "ai_turn_towards now uses humanness_smooth_turn_step, target_yaw gets real Gaussian aim noise from aim_error_deg (previously dead data, now consumed), next_attack_ms jittered via humanness_reaction_delay_ms. Found real gap: story_ai_tick has no live call site in main.c (pre-existing, not fixed here). Live-verified via direct integration test (3000 real ticks, 117 jittered attack cycles). Commit SHANKPIT d28d840.\n\n⚓ ☃",
+  "id": 19952,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "SHANKPIT",
+  "title": "Humanness Phase 2: wired into story_ai.c"
+}
