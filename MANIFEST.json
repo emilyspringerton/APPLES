@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-17T04:32:18Z",
+  "generated_at": "2026-09-17T04:32:23Z",
   "repo": "APPLES",
-  "count": 9464,
+  "count": 9465,
   "apples": [
     {
       "id": 10525,
@@ -75714,6 +75714,14 @@
       "source_repo": "IDUNA",
       "date": "20260917",
       "archived_at": "2026-09-17T04:32:18Z"
+    },
+    {
+      "id": 20002,
+      "type": "completion",
+      "title": "NOCK: attach an animation to an existing mesh/rig -- fills the promised gap",
+      "source_repo": "IDUNA",
+      "date": "20260917",
+      "archived_at": "2026-09-17T04:32:23Z"
     }
   ]
 }

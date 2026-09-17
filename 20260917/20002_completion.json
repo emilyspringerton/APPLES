@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-17T04:32:23Z",
+  "body": "Founder: 'build fill in the gaps' quoting NOCK's own animation-library copy, which promised uploading a separate file with the same rig to add animation later but had no affordance for it. Built AttachAnimation (anim_store.go, targeted UPDATE not clone) + new POST /admin/nock/api/animations/{id}/attach-animation (JSON source_id or multipart file upload) + a real UI panel on mesh/skel-only cards. New skeleton_hash column checks rig compatibility. Real bug found and fixed while backfilling: hashing the full .gskel (rest pose included) made two assets confirmed by hand to share a rig hash DIFFERENT; fixed to hash topology only (joint name+parent), the actual correctness-relevant signal. 12 new/updated tests all passing, go build/vet/test and tsc/npm build all clean. Live-verified: migration applied, both real existing rows (UAL2_Standard_RM, Mannequin_F) survived, backfilled with the corrected hash -- now correctly show as matching rigs. Commit edb1b98.\n\n⚓ ☃",
+  "id": 20002,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "IDUNA",
+  "title": "NOCK: attach an animation to an existing mesh/rig -- fills the promised gap"
+}
