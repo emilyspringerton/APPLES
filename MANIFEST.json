@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-17T14:30:18Z",
+  "generated_at": "2026-09-17T14:46:11Z",
   "repo": "APPLES",
-  "count": 9539,
+  "count": 9540,
   "apples": [
     {
       "id": 10525,
@@ -76314,6 +76314,14 @@
       "source_repo": "IDUNA",
       "date": "20260917",
       "archived_at": "2026-09-17T14:30:18Z"
+    },
+    {
+      "id": 20077,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time, live playtest bug report: walked to a placed level exit on the 'nextown' …",
+      "source_repo": "CLI",
+      "date": "20260917",
+      "archived_at": "2026-09-17T14:46:11Z"
     }
   ]
 }
