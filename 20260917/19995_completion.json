@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-17T04:04:47Z",
+  "body": "CHANGELOG updated in SHANKPIT: feat(rl): training now respects the queue's default level (is_default_queue) instead of the hardcoded --deathmatch scene rotation -- BRAWLPIT had this (S431-01), SHANKPIT never did. Also: registry auth JWT now proactively refreshes every 45min so long training runs don't silently stop pushing checkpoints after 1hr expiry (sess-20260905-0720-ec33e7c5)\n\n⚓ ☃",
+  "id": 19995,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "SHANKPIT",
+  "title": "changelog(SHANKPIT): feat(rl): training now respects the queue's default level (…"
+}
