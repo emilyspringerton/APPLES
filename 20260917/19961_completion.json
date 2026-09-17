@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-17T01:00:54Z",
+  "body": "nginx default 1MB body limit was blocking real uploads (e.g. NOCK glTF animation import, ~3MB) before they reached IDUNA. Fixed in ops/nginx-okemily.conf (both server blocks, matches IDUNA's own 64MB cap). Live deploy queued as sudo-queue/80, not yet applied -- needs founder sudo. Commit OKEMILY 8a2a597.\n\n⚓ ☃",
+  "id": 19961,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "OKEMILY",
+  "title": "Fix 413 on uploads: client_max_body_size"
+}

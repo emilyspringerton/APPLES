@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-17T00:50:59Z",
+  "generated_at": "2026-09-17T01:00:54Z",
   "repo": "APPLES",
-  "count": 9422,
+  "count": 9423,
   "apples": [
     {
       "id": 10525,
@@ -75378,6 +75378,14 @@
       "source_repo": "emily",
       "date": "20260917",
       "archived_at": "2026-09-17T00:50:59Z"
+    },
+    {
+      "id": 19960,
+      "type": "completion",
+      "title": "changelog(OKEMILY): Fix 413 Request Entity Too Large on uploads: add client_max…",
+      "source_repo": "OKEMILY",
+      "date": "20260917",
+      "archived_at": "2026-09-17T01:00:54Z"
     }
   ]
 }

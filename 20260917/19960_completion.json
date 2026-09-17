@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-17T01:00:54Z",
+  "body": "CHANGELOG updated in OKEMILY: Fix 413 Request Entity Too Large on uploads: add client_max_body_size 64M to nginx config (matches IDUNA's own 64MB upload cap). Live deploy queued: sudo-queue/80-fix-okemily-413-upload-limit.sh (needs founder to run, requires sudo) (sess-20260905-0720-ec33e7c5)\n\n⚓ ☃",
+  "id": 19960,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "OKEMILY",
+  "title": "changelog(OKEMILY): Fix 413 Request Entity Too Large on uploads: add client_max…"
+}
