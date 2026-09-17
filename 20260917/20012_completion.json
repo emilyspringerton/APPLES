@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-17T04:59:56Z",
+  "body": "Founder confirmed a real upload (UAL2_Standard_RM) is Quaternius's public-domain 'Universal Animation Library,' a genuine multi-clip file with dozens of separately-named animations -- the old importer (doc.Animations[0] only, a real documented v0 scope) silently discarded every clip past the first. New ImportGLTFBytesAllClips returns the primary asset (mesh+skeleton+first clip, unchanged) plus one AdditionalClip per remaining real, successfully-converted animation (name from the glTF's own real animation.name field, skipping any clip that fails to convert rather than aborting the whole import). Handler creates one row per additional clip (sanitizedClipName handles glTF names with characters NOCK's stricter row-name pattern doesn't allow, e.g. spaces), returns an additional_clips summary in the import response. Frontend shows a real notice ('this file had N clips, imported all of them'). 2 new regression tests (a real 2-animation glTF fixture at both the package and HTTP-handler level), all passing. go build/test and tsc/build clean. Live-verified end to end after an interrupted deploy (unrelated disk-space crisis) was resolved. Commit edb1b98 [gskel], additional commits for multi-clip import and disk fix this session.\n\n⚓ ☃",
+  "id": 20012,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "IDUNA",
+  "title": "NOCK: multi-clip glTF import -- every animation clip in a file, not just the first"
+}

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-17T04:59:50Z",
+  "generated_at": "2026-09-17T04:59:57Z",
   "repo": "APPLES",
-  "count": 9474,
+  "count": 9475,
   "apples": [
     {
       "id": 10525,
@@ -75794,6 +75794,14 @@
       "source_repo": "IDUNA",
       "date": "20260917",
       "archived_at": "2026-09-17T04:59:50Z"
+    },
+    {
+      "id": 20012,
+      "type": "completion",
+      "title": "NOCK: multi-clip glTF import -- every animation clip in a file, not just the first",
+      "source_repo": "IDUNA",
+      "date": "20260917",
+      "archived_at": "2026-09-17T04:59:57Z"
     }
   ]
 }
