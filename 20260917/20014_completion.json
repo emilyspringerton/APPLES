@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-17T05:09:41Z",
+  "body": "Founder asked whether not being able to switch a mannequin's attached animation was intentional -- confirmed no, real frontend bug: the Attach panel button only rendered when a row had no animation yet, even though AttachAnimation itself (a plain UPDATE) always supported re-attaching. Fixed: button now always available on mesh/rig rows, relabeled Switch animation when one exists. Second fix same thread: founder noted characters and bare motion clips were mixed in one flat list, confusing after multi-clip import started creating dozens of clip rows per upload -- added Characters vs Motion clips filter views, Characters as the new default. tsc/build clean, redeployed. Commit 9222d03.\n\n⚓ ☃",
+  "id": 20014,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "IDUNA",
+  "title": "NOCK: fix animation-switching visibility bug + separate Characters/Motion clips views"
+}

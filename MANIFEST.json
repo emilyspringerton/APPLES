@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-17T05:09:37Z",
+  "generated_at": "2026-09-17T05:09:41Z",
   "repo": "APPLES",
-  "count": 9476,
+  "count": 9477,
   "apples": [
     {
       "id": 10525,
@@ -75810,6 +75810,14 @@
       "source_repo": "IDUNA",
       "date": "20260917",
       "archived_at": "2026-09-17T05:09:37Z"
+    },
+    {
+      "id": 20014,
+      "type": "completion",
+      "title": "NOCK: fix animation-switching visibility bug + separate Characters/Motion clips views",
+      "source_repo": "IDUNA",
+      "date": "20260917",
+      "archived_at": "2026-09-17T05:09:41Z"
     }
   ]
 }
