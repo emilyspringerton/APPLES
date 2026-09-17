@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-17T23:54:20Z",
+  "body": "Added real per-bone mass (proportional to parent-bone length) and a real bend constraint (one-sided min-distance to grandparent) to the S484 spike. Live-verified: bend constraint works exactly as designed (0/63 violated at final state), but the whole body still collapses flat -- a conclusive finding, not a tuning problem, since distance constraints have no concept of orientation relative to gravity. Phase 2 is now sharply defined: real per-bone orientation + angular joint limits (true rigid-body dynamics), not an extension of point-mass PBD. SHANKPIT 2d11d67.\n\n⚓ ☃",
+  "id": 20106,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "SHANKPIT",
+  "title": "Ragdoll spike iteration 2: mass + bend constraints, Phase 2 sharply defined (S494)"
+}
