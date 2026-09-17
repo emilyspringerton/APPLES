@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-17T02:57:08Z",
+  "body": "Built a real, general N-joint forward-kinematics + mesh-skinning module (GOLDENBAND src/gpose.h/.c) to close the gap where SHANKPIT's gband_mesh_rig.c was hardcoded to Tyler's own 5-joint rig. Confirmed the founder's own imported Mannequin_F.glb mesh+skeleton and UAL2_Standard_RM mocap clip share the exact same 65-joint skeleton. Vendored gpose.c/gseq.c into SHANKPIT, wrote gband_skel_npc.c/.h as a sibling renderer supporting arbitrary meshes/clips, wired one static NPC spawn in SCENE_VOXWORLD reusing Tyler's own shader with a dedicated larger VBO. 4 real FK+skinning unit tests pass in GOLDENBAND (hand-derived 2-joint rotation case). make lobby builds clean. Full visual confirmation blocked by this sandbox's pre-existing headless GL extension-loading limitation (same one that already disables Tyler's own mesh here), not a regression. Commits: GOLDENBAND de2de96, SHANKPIT 799ad7d.\n\n⚓ ☃",
+  "id": 19981,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "SHANKPIT",
+  "title": "General-skeleton NPC rendering via GOLDENBAND gpose.c"
+}
