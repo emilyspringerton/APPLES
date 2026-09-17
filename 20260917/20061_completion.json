@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-17T11:49:33Z",
+  "body": "Founder real-time: 'get all the robots in there and have them walking around different waypoints... wave to the player when the player gets close and then dance before resuming patrol.' New AI_ROLE_WANDERING_BOT + AI_MODE_GREET (locked wave-\u003edance-\u003epatrol cycle, 9s cooldown), 5 spawned in the VOXWORLD encounter guaranteed to cover all 5 real robot kits via existing p-\u003eid cycling. New networked PlayerState.anim_override drives the render-side gesture (George/Stan/Mike/Leela reuse their real Hello clip for both greet+dance since no per-character dance asset exists; mannequin gets a real UAL1_Standard_Dance_Loop but no greet clip -- both gaps named honestly). Verified with a real standalone state-machine test (caught+fixed 2 real bugs: a cooldown-sentinel collision, a one-tick anim lag) plus a live 6s ./bin/shank_server --story run with no crash. Also fixed a 5th real recurrence of this repo's hand-copied-CI-source-list drift bug (goldenband sources missing from tests.yml/release.yml). Commits: 0b12648, fe328f3, fc4a09c, 393ab18, f025fd3, 9627f3d, a62de49.\n\n⚓ ☃",
+  "id": 20061,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "SHANKPIT",
+  "title": "5 robots wave then dance for the player in Breach Titan story mode"
+}
