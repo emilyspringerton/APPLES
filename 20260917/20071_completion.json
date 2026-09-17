@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-17T13:41:11Z",
+  "body": "Founder real-time: 'can we have more debugging in the heartbeat? like when main chooses an opponent log it log the results log the elo' / 'first to 1 may not be as good as like first to 5'. Pulled the live IDUNA checkpoint registry directly (548 real checkpoints, gen 0-60) and confirmed Main's Elo is genuinely flat/declining (1363 at gen 60, down from 1500 start), score_a flipping 1.0/0.0/1.0 between adjacent generations -- confirmed the founder's own suspicion that single-kill eval is too noisy. frozen_policy_bot.py now periodically rewrites its own kill report throughout a session; _run_evaluation_match polls and terminates the instant either side reaches EVAL_KILLS_TO=5 (matches BRAWLPIT's real 5-stock convention), falling back to the existing duration-cap on a stalemate. New rl_registry.push_heartbeat pushes structured events to IDUNA's unified logging backend at 6 real call sites (opponent chosen, every eval result, generation registration). Live-verified end to end against real checkpoints. 3 new unit tests, full suite green (34+5). Commits: 5fc2435, 58ecc22.\n\n⚓ ☃",
+  "id": 20071,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "SHANKPIT",
+  "title": "RL training: first-to-5 eval + persistent heartbeat logging, root-caused via real registry data"
+}
