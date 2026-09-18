@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-18T07:14:21Z",
+  "body": "Founder real-time: 'work on PARENA self host and PARENA LLVM.' Self-hosting: closed selfhost/emit.prn's vec/-qualified-call exclusion, previously documented as PERMANENT -- checked directly against src/emit.c's own mangle_call_name and found it was real over-conservatism (vec is a hardcoded runtime pseudo-module with no colliding .prn file). Fixed the call-name mangling plus two additional real bugs found by actually gcc-compiling the result (vec/len needs i32 boxing, vec/new needs a real Vec struct-by-value declaration, not this file's uniform char*). Also found and fixed an independent, pre-existing test-harness bug (confirmed via git stash against the unmodified baseline): 8 compile+run helpers sized temp-file paths for a 6-digit PID, silently truncating on this session's real 7-digit PID. Real, measured: #error count in the true self-compile bootstrap (parena-selfhost compiling selfhost/lexer.prn's own real dependency chain) dropped from 11 to 3. LLVM: found and closed a real mod/!= operator parity gap in src/emit_llvm.c's ARITH_TABLE/CMP_TABLE (both existed in the C reference emitter, never ported to LLVM). Independently verified beyond the C test suite -- obtained a real llc-18 binary without root, lowered generated IR to real x86_64 assembly, linked and RAN it, confirmed genuinely correct at runtime (found and fixed a real ABI bug in the verification driver itself along the way, same class as the existing AVR work). Full local suite (347) + all test-selfhost-* + test-emit-llvm (43/43) clean throughout. Commits af3bf2c, fbc0618.\n\n⚓ ☃",
+  "id": 20119,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "PARENA",
+  "title": "Self-host vec/ support + LLVM mod/!= parity (S501)"
+}
