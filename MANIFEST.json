@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-18T22:25:03Z",
+  "generated_at": "2026-09-18T22:31:43Z",
   "repo": "APPLES",
-  "count": 9617,
+  "count": 9618,
   "apples": [
     {
       "id": 10525,
@@ -76938,6 +76938,14 @@
       "source_repo": "BIG_O",
       "date": "20260918",
       "archived_at": "2026-09-18T22:25:03Z"
+    },
+    {
+      "id": 20155,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: BIG_O — ingest the new raw conversations (docs/source/continuation-raw.…",
+      "source_repo": "CLI",
+      "date": "20260918",
+      "archived_at": "2026-09-18T22:31:43Z"
     }
   ]
 }
