@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-18T05:46:20Z",
+  "generated_at": "2026-09-18T05:59:00Z",
   "repo": "APPLES",
-  "count": 9574,
+  "count": 9575,
   "apples": [
     {
       "id": 10525,
@@ -76594,6 +76594,14 @@
       "source_repo": "PARENA",
       "date": "20260918",
       "archived_at": "2026-09-18T05:46:20Z"
+    },
+    {
+      "id": 20112,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: continue the kubernetes migration work, focused first on getting PRRJECT_…",
+      "source_repo": "CLI",
+      "date": "20260918",
+      "archived_at": "2026-09-18T05:59:00Z"
     }
   ]
 }
