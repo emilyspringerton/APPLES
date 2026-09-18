@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-18T22:36:14Z",
+  "generated_at": "2026-09-18T22:37:00Z",
   "repo": "APPLES",
-  "count": 9621,
+  "count": 9622,
   "apples": [
     {
       "id": 10525,
@@ -76970,6 +76970,14 @@
       "source_repo": "BIG_O",
       "date": "20260918",
       "archived_at": "2026-09-18T22:36:14Z"
+    },
+    {
+      "id": 20159,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: add a directive to ALL monorepo CLAUDE.md files — if a change substanti…",
+      "source_repo": "CLI",
+      "date": "20260918",
+      "archived_at": "2026-09-18T22:37:00Z"
     }
   ]
 }
