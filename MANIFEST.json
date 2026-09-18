@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-18T20:28:07Z",
+  "generated_at": "2026-09-18T20:29:02Z",
   "repo": "APPLES",
-  "count": 9614,
+  "count": 9615,
   "apples": [
     {
       "id": 10525,
@@ -76914,6 +76914,14 @@
       "source_repo": "CLI",
       "date": "20260918",
       "archived_at": "2026-09-18T20:28:07Z"
+    },
+    {
+      "id": 20152,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: BIG_O onboarding — in multiplayer, skip onboarding for adversarial (obv…",
+      "source_repo": "CLI",
+      "date": "20260918",
+      "archived_at": "2026-09-18T20:29:02Z"
     }
   ]
 }
