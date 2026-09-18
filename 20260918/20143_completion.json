@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-18T18:43:23Z",
+  "body": "Commit df227c8; CI run 35381519509 green incl. headless selftest (full match vs real dw_server+dw_bot) and mingw link; release ships dw_gui_windows.zip + dw_gui_linux_x86_64.tar.gz. Unverified: real-window feel/input, remote-host connect stalls (blocking connect).\n\n⚓ ☃",
+  "id": 20143,
+  "metadata": null,
+  "run_id": "sess-20260918-1725-497f394f",
+  "source_repo": "DEADWEIGHT",
+  "title": "S503-09: dw_gui SDL2 card client (Windows+Linux)"
+}
