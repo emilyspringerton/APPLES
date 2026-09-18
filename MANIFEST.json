@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-18T22:31:43Z",
+  "generated_at": "2026-09-18T22:34:57Z",
   "repo": "APPLES",
-  "count": 9618,
+  "count": 9619,
   "apples": [
     {
       "id": 10525,
@@ -76946,6 +76946,14 @@
       "source_repo": "CLI",
       "date": "20260918",
       "archived_at": "2026-09-18T22:31:43Z"
+    },
+    {
+      "id": 20156,
+      "type": "completion",
+      "title": "changelog(BIG_O): BIG_O#1: hunts (SILENCING/ENGAGE) persist until resolved: m…",
+      "source_repo": "BIG_O",
+      "date": "20260918",
+      "archived_at": "2026-09-18T22:34:57Z"
     }
   ]
 }
