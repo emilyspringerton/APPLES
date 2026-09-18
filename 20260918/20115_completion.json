@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-18T06:27:11Z",
+  "body": "Founder real-time, precise engineering requirements handed off before logging off: 'We need a zero-copy data-type transpile layer written in PARENA to handle incoming MS SQL bytes before duplicating them asynchronously.' New stdlib/database/mssql-util.prn: mssql-uniqueidentifier-to-uuid (strips T-SQL's {}-wrapped GUID syntax), mssql-datetime2-to-timestamp (truncates 7-digit fractional seconds to 6, never rounds), mssql-bit-to-boolean-token (1/0 -\u003e TRUE/FALSE tokens). Applied critical review to the spec rather than rubber-stamping it: BIT is genuinely tri-state in SQL Server, so a value that's neither 0 nor 1 returns a real InvalidBitValue error instead of silently defaulting to FALSE -- a deliberate, documented departure from the spec's literal wording, justified by Operational Health Is Not Optional (this feeds a financial/SEC signal pipeline). Pure string logic, zero FFI/#target. The 'zero-copy' claim is live-verified via pointer-identity assertions for the common passthrough case (same String value, zero allocation), not just text equality. 8/8 real assertions pass (make test-database-mssql-util). Commit 2eb148d.\n\n⚓ ☃",
+  "id": 20115,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "PARENA",
+  "title": "Real T-SQL type-transpile primitives: database/mssql-util.prn (S499)"
+}

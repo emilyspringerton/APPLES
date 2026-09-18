@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-18T06:25:20Z",
+  "generated_at": "2026-09-18T06:27:12Z",
   "repo": "APPLES",
-  "count": 9577,
+  "count": 9578,
   "apples": [
     {
       "id": 10525,
@@ -76618,6 +76618,14 @@
       "source_repo": "CLI",
       "date": "20260918",
       "archived_at": "2026-09-18T06:25:20Z"
+    },
+    {
+      "id": 20115,
+      "type": "completion",
+      "title": "Real T-SQL type-transpile primitives: database/mssql-util.prn (S499)",
+      "source_repo": "PARENA",
+      "date": "20260918",
+      "archived_at": "2026-09-18T06:27:12Z"
     }
   ]
 }
