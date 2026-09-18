@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-18T18:15:53Z",
+  "body": "Commits ec2466f (protocol), 9cf7fb5 (match core), 2967967 (server+client), 5827742 (e2e), 27012e3 (ci release fix), db80201 (IDUNA auth+reporting, AUTH frame). Clean build --windows, ASan/UBSan tests, e2e 3 legs, live-verified vs throwaway IDUNA.\n\n⚓ ☃",
+  "id": 20132,
+  "metadata": null,
+  "run_id": "sess-20260918-1725-497f394f",
+  "source_repo": "DEADWEIGHT",
+  "title": "S503-04: C protocol codec, match core, dw_server, dw_client, e2e, IDUNA wiring"
+}
