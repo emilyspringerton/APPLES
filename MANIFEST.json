@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-18T17:51:21Z",
+  "generated_at": "2026-09-18T17:51:23Z",
   "repo": "APPLES",
-  "count": 9591,
+  "count": 9592,
   "apples": [
     {
       "id": 10525,
@@ -76730,6 +76730,14 @@
       "source_repo": "DEADWEIGHT",
       "date": "20260918",
       "archived_at": "2026-09-18T17:51:21Z"
+    },
+    {
+      "id": 20129,
+      "type": "completion",
+      "title": "changelog(DEADWEIGHT): training/: PFSP 3-role league (ported), game-scoped registr…",
+      "source_repo": "DEADWEIGHT",
+      "date": "20260918",
+      "archived_at": "2026-09-18T17:51:23Z"
     }
   ]
 }
