@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-18T11:31:08Z",
+  "body": "Founder real-time: 'continue parena self host and llm.' LLVM: closed bit-and/bit-or/bit-xor/shl/shr parity gap (present in src/emit.c, missing from emit_llvm.c's ARITH_TABLE) -- genuinely integer-only, f64_op is a real NULL sentinel checked explicitly (a double operand is now an honest compile error, not undefined behavior). Verified via real llc-18 lowering to x86_64 + execution. 6 new assertions (52 total). Self-host: added a new BoxedI32 ArenaKind variant, reusing the existing scope-threading mechanism, so emit-binary-op correctly unboxes a let-bound I32 (binary-op/bool-expr/get-field/vec-len shapes) before comparing/arithmetic-ing it -- the real fix for the -Werror=comparison-between-pointer-and-integer gap found in the prior pass. Found and fixed two real, live gcc-level bugs along the way: a genuine LIVE INSTANCE of the S498 struct-literal-codegen bug (new LetBindingsResult struct structurally identical to pre-existing ParamInfo, worked around by renaming fields) and a match-on-intermediate-binding type-hint-resolution break (fixed by matching directly on the call expression). Honest, not fully closed: lx-advance's own actual case (a plain-call-bound value) is deliberately not covered -- needs a plain-call return-type registry, named as the precise next step. Real gcc-error count moved 227-\u003e226, small and honest given most remaining errors trace to that same untouched gap. 9 new assertions. Full local suite (347) + all test-selfhost-* + test-emit-llvm (52/52) clean throughout. Commits a5bd31d, e0a40fd.\n\n⚓ ☃",
+  "id": 20123,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "PARENA",
+  "title": "LLVM bitwise operator parity + self-host boxed-I32 binding-kind scope (S501 cont.)"
+}
