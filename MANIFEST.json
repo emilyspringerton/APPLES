@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-18T17:51:06Z",
+  "generated_at": "2026-09-18T17:51:21Z",
   "repo": "APPLES",
-  "count": 9590,
+  "count": 9591,
   "apples": [
     {
       "id": 10525,
@@ -76722,6 +76722,14 @@
       "source_repo": "DEADWEIGHT",
       "date": "20260918",
       "archived_at": "2026-09-18T17:51:06Z"
+    },
+    {
+      "id": 20128,
+      "type": "completion",
+      "title": "S503-08 training league scaffold (league port, registry client, env, fake server, trainer dry-run)",
+      "source_repo": "DEADWEIGHT",
+      "date": "20260918",
+      "archived_at": "2026-09-18T17:51:21Z"
     }
   ]
 }
