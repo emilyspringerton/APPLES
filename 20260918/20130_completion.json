@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-18T17:54:24Z",
+  "body": "IDUNA 281ef1a: /api/v1/games/{game}/* + /api/v1/game-checkpoints/{game}/*, agents DEADWEIGHT-BOTS/SERVER/RL, migrations 202609181800/202609181810, tests + live throwaway verification. Not deployed. Contract: DEADWEIGHT/docs/IDUNA_CONTRACT.md\n\n⚓ ☃",
+  "id": 20130,
+  "metadata": null,
+  "run_id": "sess-20260918-1725-497f394f",
+  "source_repo": "IDUNA",
+  "title": "S503-06: DEADWEIGHT online services (guests, verify, match-result, game-scoped checkpoint registry)"
+}
