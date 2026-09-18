@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-18T17:51:04Z",
+  "generated_at": "2026-09-18T17:51:06Z",
   "repo": "APPLES",
-  "count": 9589,
+  "count": 9590,
   "apples": [
     {
       "id": 10525,
@@ -76714,6 +76714,14 @@
       "source_repo": "DEADWEIGHT",
       "date": "20260918",
       "archived_at": "2026-09-18T17:51:04Z"
+    },
+    {
+      "id": 20127,
+      "type": "completion",
+      "title": "changelog(DEADWEIGHT): Android VS0: plain-JVM core (codec/transport/session/model)…",
+      "source_repo": "DEADWEIGHT",
+      "date": "20260918",
+      "archived_at": "2026-09-18T17:51:06Z"
     }
   ]
 }
