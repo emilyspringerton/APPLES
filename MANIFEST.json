@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-18T18:22:40Z",
+  "generated_at": "2026-09-18T18:22:42Z",
   "repo": "APPLES",
-  "count": 9600,
+  "count": 9601,
   "apples": [
     {
       "id": 10525,
@@ -76802,6 +76802,14 @@
       "source_repo": "DEADWEIGHT",
       "date": "20260918",
       "archived_at": "2026-09-18T18:22:40Z"
+    },
+    {
+      "id": 20138,
+      "type": "completion",
+      "title": "changelog(DEADWEIGHT): Android: AUTH frame for full IDUNA tokens, 1024 max frame, …",
+      "source_repo": "DEADWEIGHT",
+      "date": "20260918",
+      "archived_at": "2026-09-18T18:22:42Z"
     }
   ]
 }
