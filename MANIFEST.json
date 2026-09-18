@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-18T20:05:12Z",
+  "generated_at": "2026-09-18T20:24:50Z",
   "repo": "APPLES",
-  "count": 9612,
+  "count": 9613,
   "apples": [
     {
       "id": 10525,
@@ -76898,6 +76898,14 @@
       "source_repo": "BIG_O",
       "date": "20260918",
       "archived_at": "2026-09-18T20:05:12Z"
+    },
+    {
+      "id": 20150,
+      "type": "completion",
+      "title": "S504: ingested BIG_O design transcript into docs, real README, digest, NORTHSTAR reconciliation",
+      "source_repo": "BIG_O",
+      "date": "20260918",
+      "archived_at": "2026-09-18T20:24:50Z"
     }
   ]
 }
