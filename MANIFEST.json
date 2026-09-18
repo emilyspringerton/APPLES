@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-18T08:22:09Z",
+  "generated_at": "2026-09-18T08:40:42Z",
   "repo": "APPLES",
-  "count": 9583,
+  "count": 9584,
   "apples": [
     {
       "id": 10525,
@@ -76666,6 +76666,14 @@
       "source_repo": "CLI",
       "date": "20260918",
       "archived_at": "2026-09-18T08:22:09Z"
+    },
+    {
+      "id": 20121,
+      "type": "completion",
+      "title": "Self-host: let-wrapped struct-literal support + honest #error-vs-real-compile correction (S501 cont.)",
+      "source_repo": "PARENA",
+      "date": "20260918",
+      "archived_at": "2026-09-18T08:40:42Z"
     }
   ]
 }

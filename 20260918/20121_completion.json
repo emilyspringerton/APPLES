@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-18T08:40:42Z",
+  "body": "Founder real-time: 'continue working on PARENA self host.' Closed the struct-literal-shape gap for lx-advance (let-wrapped struct literal as defn body + get-field-shaped branches in an if-value). 4 new assertions + real compile-and-run proof. IMPORTANT, HONEST CORRECTION found while verifying lx-advance fully closed, not before claiming it: its real (= c 10) condition compares a let-bound I32 (boxed char*) against a literal, a real -Werror failure this emitter's #error-count diagnostic never caught (it emits real-looking-but-broken C here instead of refusing). Directly gcc-compiling the whole self-compile output found 227 real gcc errors vs. 3 #error directives -- both real, but answering different questions (does the emitter honestly refuse unsupported shapes, vs. does the file actually compile). NORTHSTAR.md now makes this distinction explicit rather than conflated. Real next step named precisely: a new boxed-I32 binding-kind scope, not started. Full local suite (347) + all test-selfhost-* + test-emit-llvm (43/43) clean. Commit 8add60d.\n\n⚓ ☃",
+  "id": 20121,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "PARENA",
+  "title": "Self-host: let-wrapped struct-literal support + honest #error-vs-real-compile correction (S501 cont.)"
+}
