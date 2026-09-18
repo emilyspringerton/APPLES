@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-18T04:28:17Z",
+  "body": "Corrected mis-scope of 'play death animation backwards' from a literal kinematic get-up animation to a synthesized .gband reference clip -- founder real-time correction: reversing the death animation was supposed to be the oracle the RL learns against, not the get-up motion itself (the point-mass spike isn't rigid body, so it can't 'fall over' in a sense that makes reverse playback directly usable). tools/ragdoll_spike/main.c now records the forward fall and writes it reversed as a real .gband binary+manifest, verified loadable via GOLDENBAND's own gb_init/gb_verify (PASS, 192 ticks x 195 channels, arc runs lying-\u003estanding). docs2/RAGDOLL_ORIENTATION_NORTHSTAR.md updated as a third recovery path; also answers founder's separate 'roll over animation' point (not needed for this mechanism). Commit ab474aa.\n\n⚓ ☃",
+  "id": 20109,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "SHANKPIT",
+  "title": "Ragdoll get-up oracle: reversed-fall .gband reference clip for RL imitation reward (S497)"
+}
