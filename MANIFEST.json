@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-18T22:49:06Z",
+  "generated_at": "2026-09-18T22:49:12Z",
   "repo": "APPLES",
-  "count": 9625,
+  "count": 9626,
   "apples": [
     {
       "id": 10525,
@@ -77002,6 +77002,14 @@
       "source_repo": "DEADWEIGHT",
       "date": "20260918",
       "archived_at": "2026-09-18T22:49:06Z"
+    },
+    {
+      "id": 20163,
+      "type": "completion",
+      "title": "Android LOCK IN crash fix (UI-thread socket write)",
+      "source_repo": "DEADWEIGHT",
+      "date": "20260918",
+      "archived_at": "2026-09-18T22:49:12Z"
     }
   ]
 }

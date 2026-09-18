@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-18T22:49:12Z",
+  "body": "Session outbound frames moved to single writer thread; regression test in CoreTest. Commit 0c2ee9e\n\n⚓ ☃",
+  "id": 20163,
+  "metadata": null,
+  "run_id": "sess-20260918-1725-497f394f",
+  "source_repo": "DEADWEIGHT",
+  "title": "Android LOCK IN crash fix (UI-thread socket write)"
+}
