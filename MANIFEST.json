@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-18T05:59:00Z",
+  "generated_at": "2026-09-18T06:19:54Z",
   "repo": "APPLES",
-  "count": 9575,
+  "count": 9576,
   "apples": [
     {
       "id": 10525,
@@ -76602,6 +76602,14 @@
       "source_repo": "CLI",
       "date": "20260918",
       "archived_at": "2026-09-18T05:59:00Z"
+    },
+    {
+      "id": 20113,
+      "type": "completion",
+      "title": "Durable queue decision: Redis Streams on Memorystore, real zero-downtime consumer-group mechanics (S498/S207-10)",
+      "source_repo": "PRRJECT_FATBABY",
+      "date": "20260918",
+      "archived_at": "2026-09-18T06:19:54Z"
     }
   ]
 }

@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-18T06:19:54Z",
+  "body": "Founder real-time: 'part of the kubes plan was to switch to a queue so we can have a durable queue to work from for fanout to other stores like mysql' + 'i want to aim to do a cut over with ZERO DOWNTIME i dont want to miss a single 15 second polling window.' Resolved the KUBERNETES_MIGRATION.md PVC-vs-Phase-2 branch: a durable queue (Redis Streams, GCP Memorystore Standard/HA) replaces the event log's durability layer, sidestepping the volume question for that data entirely. New RedisStreamSink (XADD, implements existing EventSink) + RedisStreamConsumer (XREADGROUP/XAck consumer groups) -- real, live-verified via miniredis/v2 (5 new tests) that a new consumer joining an existing group picks up exactly the remaining un-acked work with zero gap/duplication, the real mechanism the zero-downtime cutover plan rests on. Documented the real split: producer-side cutover (secwatch/prwatch-body polling external APIs) relies on idempotent Event.ID dedup, not the queue; consumer-side cutover (processor/future sinks) relies on the consumer-group mechanism. Honest gaps named: no live Memorystore provisioned, no cmd/ process wired yet, GKE cluster health unconfirmed this pass (last audit found zero working nodes for 32+ hours, no live credentials this session to recheck). go build/vet/test all clean. Commit 202e934.\n\n⚓ ☃",
+  "id": 20113,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "PRRJECT_FATBABY",
+  "title": "Durable queue decision: Redis Streams on Memorystore, real zero-downtime consumer-group mechanics (S498/S207-10)"
+}
