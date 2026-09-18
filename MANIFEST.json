@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-18T19:07:30Z",
+  "generated_at": "2026-09-18T19:21:31Z",
   "repo": "APPLES",
-  "count": 9608,
+  "count": 9609,
   "apples": [
     {
       "id": 10525,
@@ -76866,6 +76866,14 @@
       "source_repo": "CLI",
       "date": "20260918",
       "archived_at": "2026-09-18T19:07:30Z"
+    },
+    {
+      "id": 20146,
+      "type": "completion",
+      "title": "S503-14b: hybrid bot brain (PARENA MLP + heuristic prior), dw_bot --brain hybrid",
+      "source_repo": "DEADWEIGHT",
+      "date": "20260918",
+      "archived_at": "2026-09-18T19:21:31Z"
     }
   ]
 }
