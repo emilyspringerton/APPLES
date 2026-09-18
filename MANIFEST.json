@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-18T11:31:08Z",
+  "generated_at": "2026-09-18T17:25:29Z",
   "repo": "APPLES",
-  "count": 9586,
+  "count": 9587,
   "apples": [
     {
       "id": 10525,
@@ -76690,6 +76690,14 @@
       "source_repo": "PARENA",
       "date": "20260918",
       "archived_at": "2026-09-18T11:31:08Z"
+    },
+    {
+      "id": 20124,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: start DEADWEIGHT VS0 as Android app via PARENA-\u003eJava (+C for Windows/bot …",
+      "source_repo": "CLI",
+      "date": "20260918",
+      "archived_at": "2026-09-18T17:25:29Z"
     }
   ]
 }
