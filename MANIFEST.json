@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-18T18:22:42Z",
+  "generated_at": "2026-09-18T18:24:19Z",
   "repo": "APPLES",
-  "count": 9601,
+  "count": 9602,
   "apples": [
     {
       "id": 10525,
@@ -76810,6 +76810,14 @@
       "source_repo": "DEADWEIGHT",
       "date": "20260918",
       "archived_at": "2026-09-18T18:22:42Z"
+    },
+    {
+      "id": 20139,
+      "type": "completion",
+      "title": "S503-08 training: AUTH frame support + verified against real dw_server (integration + 3-gen dry-run)",
+      "source_repo": "DEADWEIGHT",
+      "date": "20260918",
+      "archived_at": "2026-09-18T18:24:19Z"
     }
   ]
 }
