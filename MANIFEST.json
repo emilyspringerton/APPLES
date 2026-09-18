@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-18T23:27:10Z",
+  "generated_at": "2026-09-18T23:41:03Z",
   "repo": "APPLES",
-  "count": 9629,
+  "count": 9630,
   "apples": [
     {
       "id": 10525,
@@ -77034,6 +77034,14 @@
       "source_repo": "DEADWEIGHT",
       "date": "20260918",
       "archived_at": "2026-09-18T23:27:10Z"
+    },
+    {
+      "id": 20167,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: DEADWEIGHT -- no python scripts, stop being clinical; just propose a BUNC…",
+      "source_repo": "CLI",
+      "date": "20260918",
+      "archived_at": "2026-09-18T23:41:03Z"
     }
   ]
 }
