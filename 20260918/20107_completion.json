@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-18T00:32:47Z",
+  "body": "Tested ground friction: tightens lateral spread (~0.6-0.7 -\u003e ~0.3-0.5) but doesn't fix Y-flatness -- real, partial. Reframed the actual goal mid-conversation: lying flat is correct, the real bug is the poker-straight symmetric shape. New RAGDOLL_ORIENTATION_NORTHSTAR.md: swing-axis constraints from rest-pose geometry (no new asset metadata), phased major-joints-first, twist as v1. Also directly answered the founder's own robotics/CAD question (real actuator metadata per SIM-100 SS3, not full CAD) and recovery-realism concern (imitation reward against a reference clip, per SIM-100's own Reward Compiler, not a physics tuning problem). SHANKPIT fe0fc2d.\n\n⚓ ☃",
+  "id": 20107,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "SHANKPIT",
+  "title": "Ragdoll iteration 3 (friction) + orientation-physics NORTHSTAR (S495/S496)"
+}
