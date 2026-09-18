@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-18T17:25:29Z",
+  "generated_at": "2026-09-18T17:51:02Z",
   "repo": "APPLES",
-  "count": 9587,
+  "count": 9588,
   "apples": [
     {
       "id": 10525,
@@ -76698,6 +76698,14 @@
       "source_repo": "CLI",
       "date": "20260918",
       "archived_at": "2026-09-18T17:25:29Z"
+    },
+    {
+      "id": 20125,
+      "type": "completion",
+      "title": "S503-07: Android core (codec, SocketTransport, Session, MatchModel) + 118-check JVM tests",
+      "source_repo": "DEADWEIGHT",
+      "date": "20260918",
+      "archived_at": "2026-09-18T17:51:02Z"
     }
   ]
 }
