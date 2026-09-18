@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-18T04:48:21Z",
+  "generated_at": "2026-09-18T05:46:20Z",
   "repo": "APPLES",
-  "count": 9573,
+  "count": 9574,
   "apples": [
     {
       "id": 10525,
@@ -76586,6 +76586,14 @@
       "source_repo": "CLI",
       "date": "20260918",
       "archived_at": "2026-09-18T04:48:21Z"
+    },
+    {
+      "id": 20111,
+      "type": "completion",
+      "title": "PARENA: real MSSQL primitive (tsql CLI) + AF_UNIX sockets + raw/l2 recv (S498)",
+      "source_repo": "PARENA",
+      "date": "20260918",
+      "archived_at": "2026-09-18T05:46:20Z"
     }
   ]
 }

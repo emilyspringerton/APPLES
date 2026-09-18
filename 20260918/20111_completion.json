@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-18T05:46:20Z",
+  "body": "Founder real-time: 'we need to put in PARENA primatives for MSSQL and double down on all the unix socket stuff and raw socket stuff.' New stdlib/net/unixsocket.prn (real AF_UNIX SOCK_STREAM primitives, mirroring net/tcp.prn) -- its own end-to-end test found and fixed a real bug in a stale-socket-recovery probe that was polluting a live listener's own accept backlog. Added raw-ip4-recv/l2-recv to close the real, previously write-only gap in net/rawsocket.prn/net/l2socket.prn. New log/projector.prn project-mssql!, shelling out to FreeTDS's tsql CLI (same convention as existing sqlite3/mysql/psql projectors), real T-SQL-correct DDL, full shell-quoting on new caller-controlled connection params. All 4 modules compile clean (parena build + gcc -Wall -Wextra -pedantic -Werror); make test-net-unixsocket/test-net-rawsocket/test-net-l2socket/test-log-projector all green, including a real live tsql-binary connection-refused check obtained without root. sudo-queue/82 installs freetds-bin system-wide. Commit 257e6aa.\n\n⚓ ☃",
+  "id": 20111,
+  "metadata": null,
+  "run_id": "sess-20260905-0720-ec33e7c5",
+  "source_repo": "PARENA",
+  "title": "PARENA: real MSSQL primitive (tsql CLI) + AF_UNIX sockets + raw/l2 recv (S498)"
+}
