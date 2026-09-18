@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-18T20:03:21Z",
+  "generated_at": "2026-09-18T20:05:12Z",
   "repo": "APPLES",
-  "count": 9611,
+  "count": 9612,
   "apples": [
     {
       "id": 10525,
@@ -76890,6 +76890,14 @@
       "source_repo": "CLI",
       "date": "20260918",
       "archived_at": "2026-09-18T20:03:21Z"
+    },
+    {
+      "id": 20149,
+      "type": "completion",
+      "title": "S504-01: BIG_O scoping pass (NORTHSTAR, capability audit, V0 cut, 6-phase plan)",
+      "source_repo": "BIG_O",
+      "date": "20260918",
+      "archived_at": "2026-09-18T20:05:12Z"
     }
   ]
 }
