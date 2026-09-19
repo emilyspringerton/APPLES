@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-19T04:45:24Z",
+  "generated_at": "2026-09-19T04:45:26Z",
   "repo": "APPLES",
-  "count": 9648,
+  "count": 9649,
   "apples": [
     {
       "id": 10525,
@@ -77186,6 +77186,14 @@
       "source_repo": "DEADWEIGHT",
       "date": "20260919",
       "archived_at": "2026-09-19T04:45:24Z"
+    },
+    {
+      "id": 20186,
+      "type": "completion",
+      "title": "GUI: always-visible card effect text (31a598c, 68e5291, 3112bff)",
+      "source_repo": "DEADWEIGHT",
+      "date": "20260919",
+      "archived_at": "2026-09-19T04:45:26Z"
     }
   ]
 }
