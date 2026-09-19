@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-19T23:13:02Z",
+  "generated_at": "2026-09-19T23:13:04Z",
   "repo": "APPLES",
-  "count": 9666,
+  "count": 9667,
   "apples": [
     {
       "id": 10525,
@@ -77330,6 +77330,14 @@
       "source_repo": "DEADWEIGHT",
       "date": "20260919",
       "archived_at": "2026-09-19T23:13:02Z"
+    },
+    {
+      "id": 20204,
+      "type": "completion",
+      "title": "changelog(WOTAN): feat(decks): Offense/Operations/Defense colours, keyword co…",
+      "source_repo": "WOTAN",
+      "date": "20260919",
+      "archived_at": "2026-09-19T23:13:04Z"
     }
   ]
 }
