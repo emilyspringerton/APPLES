@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-19T20:45:16Z",
+  "generated_at": "2026-09-19T21:42:43Z",
   "repo": "APPLES",
-  "count": 9655,
+  "count": 9656,
   "apples": [
     {
       "id": 10525,
@@ -77242,6 +77242,14 @@
       "source_repo": "IDUNA",
       "date": "20260919",
       "archived_at": "2026-09-19T20:45:16Z"
+    },
+    {
+      "id": 20193,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: DEADWEIGHT draft mode as its own queue alongside random (current mode ren…",
+      "source_repo": "CLI",
+      "date": "20260919",
+      "archived_at": "2026-09-19T21:42:43Z"
     }
   ]
 }
