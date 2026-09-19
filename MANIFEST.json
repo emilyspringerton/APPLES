@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-19T23:47:14Z",
+  "generated_at": "2026-09-19T23:47:16Z",
   "repo": "APPLES",
-  "count": 9672,
+  "count": 9673,
   "apples": [
     {
       "id": 10525,
@@ -77378,6 +77378,14 @@
       "source_repo": "DEADWEIGHT",
       "date": "20260919",
       "archived_at": "2026-09-19T23:47:14Z"
+    },
+    {
+      "id": 20210,
+      "type": "completion",
+      "title": "changelog(DEADWEIGHT): feat(gui): round-resolution animations + synthesized audio …",
+      "source_repo": "DEADWEIGHT",
+      "date": "20260919",
+      "archived_at": "2026-09-19T23:47:16Z"
     }
   ]
 }
