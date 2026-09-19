@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-19T21:42:43Z",
+  "generated_at": "2026-09-19T21:54:13Z",
   "repo": "APPLES",
-  "count": 9656,
+  "count": 9657,
   "apples": [
     {
       "id": 10525,
@@ -77250,6 +77250,14 @@
       "source_repo": "CLI",
       "date": "20260919",
       "archived_at": "2026-09-19T21:42:43Z"
+    },
+    {
+      "id": 20194,
+      "type": "completion",
+      "title": "DEADWEIGHT draft mode: own queue, 16-pick 23-card draft, deck log (b709f44 + follow-ups)",
+      "source_repo": "DEADWEIGHT",
+      "date": "20260919",
+      "archived_at": "2026-09-19T21:54:13Z"
     }
   ]
 }

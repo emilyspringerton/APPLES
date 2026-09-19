@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-19T21:54:13Z",
+  "body": "Separate draft queue alongside random. core/draft (16 picks, 10x1/5x2/1x3 buckets), dw_match_init_decks, DRAFT_PICK/OFFER/DONE frames + QUEUE same_deck, per-mode pairing, decks.ndjson + replayable draft matches.ndjson, bots keep deck on win/draw and redraft on loss (dw_bot --mode draft, bot_pool --mode, dw-draft-bot@ unit), Windows GUI mode toggle/draft screen/same-deck-redraft, Android protocol+Session+DraftModel+draft UI. Verified: unit (draft invariants), e2e (separate queues, 1.7k drafts, replay), GUI draft selftest, Android core+integration tests, Bazel APK builds. NOT deployed live; Android UI never run on a device.\n\n⚓ ☃",
+  "id": 20194,
+  "metadata": null,
+  "run_id": "sess-20260918-1725-497f394f",
+  "source_repo": "DEADWEIGHT",
+  "title": "DEADWEIGHT draft mode: own queue, 16-pick 23-card draft, deck log (b709f44 + follow-ups)"
+}
