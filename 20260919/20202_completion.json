@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-19T23:13:00Z",
+  "body": "Triangle is now Offense (Red) \u003e Operations (Yellow) \u003e Defense (Blue) \u003e Offense (old relationships preserved: old middle kind = Operations). Every Operations card carries one of Lock/Sabotage/Flank/Scan/Siphon (7 each). Existing cards re-sorted into the colour they fit, none removed; 32 new cards so each colour has 35. PARENA card_keyword + kind table, regenerated C/Java/Python/parity (24k vectors), hand-typed oracle, wire proto 3, art regenerated, Windows GUI/Android/WOTAN show kind + keyword, docs rewritten. All local tests + Bazel APK build green. NOT deployed to the live server/bots/WOTAN (old clients would be refused by proto 3).\n\n⚓ ☃",
+  "id": 20202,
+  "metadata": null,
+  "run_id": "sess-20260918-1725-497f394f",
+  "source_repo": "DEADWEIGHT",
+  "title": "DEADWEIGHT retheme: Offense/Operations/Defense triangle, Operations keywords, 105 cards, legacy terms removed"
+}
