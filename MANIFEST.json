@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-19T23:24:53Z",
+  "generated_at": "2026-09-19T23:28:16Z",
   "repo": "APPLES",
-  "count": 9670,
+  "count": 9671,
   "apples": [
     {
       "id": 10525,
@@ -77362,6 +77362,14 @@
       "source_repo": "WOTAN",
       "date": "20260919",
       "archived_at": "2026-09-19T23:24:53Z"
+    },
+    {
+      "id": 20208,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: DEADWEIGHT SDL2 client -- clash animations (Blitz/Block/Bypass + Lock/Sab…",
+      "source_repo": "CLI",
+      "date": "20260919",
+      "archived_at": "2026-09-19T23:28:16Z"
     }
   ]
 }
