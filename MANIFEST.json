@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-19T02:15:35Z",
+  "generated_at": "2026-09-19T02:23:02Z",
   "repo": "APPLES",
-  "count": 9640,
+  "count": 9641,
   "apples": [
     {
       "id": 10525,
@@ -77122,6 +77122,14 @@
       "source_repo": "BIG_O",
       "date": "20260919",
       "archived_at": "2026-09-19T02:15:35Z"
+    },
+    {
+      "id": 20178,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: DEADWEIGHT needs a colab training skrip like BRAWLPIT's (one-cell bootstr…",
+      "source_repo": "CLI",
+      "date": "20260919",
+      "archived_at": "2026-09-19T02:23:02Z"
     }
   ]
 }
