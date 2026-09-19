@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-19T05:20:25Z",
+  "body": "Rebuilt IDUNA (stale 09-17 binary lacked S503-06), restarted iduna.service, migrations applied, cmd/bootstrap provisioned DEADWEIGHT-BOTS/SERVER/RL (existing secrets unchanged, DB + old binary backed up). Verified real 3-role push + resume via DEADWEIGHT training against https://okemily.com.\n\n⚓ ☃",
+  "id": 20187,
+  "metadata": null,
+  "run_id": "sess-20260918-1725-497f394f",
+  "source_repo": "IDUNA",
+  "title": "IDUNA redeployed: game-checkpoints route + DEADWEIGHT agents live (S503-12)"
+}
