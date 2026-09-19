@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-19T22:39:42Z",
+  "generated_at": "2026-09-19T22:39:44Z",
   "repo": "APPLES",
-  "count": 9662,
+  "count": 9663,
   "apples": [
     {
       "id": 10525,
@@ -77298,6 +77298,14 @@
       "source_repo": "IDUNA",
       "date": "20260919",
       "archived_at": "2026-09-19T22:39:42Z"
+    },
+    {
+      "id": 20200,
+      "type": "completion",
+      "title": "changelog(DEADWEIGHT): feat: scripts/export_cards.sh + apps/tools/cards_json.c -- …",
+      "source_repo": "DEADWEIGHT",
+      "date": "20260919",
+      "archived_at": "2026-09-19T22:39:44Z"
     }
   ]
 }
