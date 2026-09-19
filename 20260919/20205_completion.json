@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-19T23:24:50Z",
+  "body": "dw_server + random/draft bot pools redeployed with the 105-card rules (proto 3); old decks/matches logs archived as *.pre-retheme.ndjson so WOTAN shows only new-era decks; server now continues deck ids after the highest logged so restarts never reuse one (found live: ids reset to 1 and would have collided). WOTAN deployed with cards.json v2, colours, keyword filter and a season note. Verified live: draft + random probes on :6980, new cards in drafted decks, headless Chrome on wotan.okemily.com. Old binaries backed up in scratch.\n\n⚓ ☃",
+  "id": 20205,
+  "metadata": null,
+  "run_id": "sess-20260918-1725-497f394f",
+  "source_repo": "DEADWEIGHT",
+  "title": "Deployed the Offense/Operations/Defense retheme (server, 6 bots, WOTAN)"
+}
