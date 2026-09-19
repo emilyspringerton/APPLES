@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "observation",
+  "archived_at": "2026-09-19T02:04:19Z",
+  "body": "Added item to BACKLOG.md section 504.\nItem: S504-11 (founder real-time 2026-09-19): fix HUD font glyph gaps — packages/common/hud_text.h (vendored PAPERCRAFT stroke font) lacks \u003c \u003e [ ] = ' so phone UI/text renders them as blobs; worked around in draw_bigo_phone with * ( ) - +, but any text using those chars is broken. Add the missing glyphs (or replace with a real font path); also lowercase folds to caps only.\n\n⚓ ☃",
+  "id": 20174,
+  "metadata": null,
+  "run_id": "backlog-add-1789783459",
+  "source_repo": "emily.cli",
+  "title": "backlog add (section 504): S504-11 (founder real-time 2026-09-19): fix HUD font glyph …"
+}

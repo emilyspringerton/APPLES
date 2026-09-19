@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-19T01:25:57Z",
+  "generated_at": "2026-09-19T02:04:19Z",
   "repo": "APPLES",
-  "count": 9636,
+  "count": 9637,
   "apples": [
     {
       "id": 10525,
@@ -77090,6 +77090,14 @@
       "source_repo": "CLI",
       "date": "20260919",
       "archived_at": "2026-09-19T01:25:57Z"
+    },
+    {
+      "id": 20174,
+      "type": "observation",
+      "title": "backlog add (section 504): S504-11 (founder real-time 2026-09-19): fix HUD font glyph …",
+      "source_repo": "emily.cli",
+      "date": "20260919",
+      "archived_at": "2026-09-19T02:04:19Z"
     }
   ]
 }
