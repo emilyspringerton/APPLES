@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-19T02:04:19Z",
+  "generated_at": "2026-09-19T02:11:08Z",
   "repo": "APPLES",
-  "count": 9637,
+  "count": 9638,
   "apples": [
     {
       "id": 10525,
@@ -77098,6 +77098,14 @@
       "source_repo": "emily.cli",
       "date": "20260919",
       "archived_at": "2026-09-19T02:04:19Z"
+    },
+    {
+      "id": 20175,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: BIG_O — also add weather systems to the sim; look at GFD mud for basic …",
+      "source_repo": "CLI",
+      "date": "20260919",
+      "archived_at": "2026-09-19T02:11:08Z"
     }
   ]
 }
