@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-19T03:26:19Z",
+  "generated_at": "2026-09-19T04:40:19Z",
   "repo": "APPLES",
-  "count": 9644,
+  "count": 9645,
   "apples": [
     {
       "id": 10525,
@@ -77154,6 +77154,14 @@
       "source_repo": "DEADWEIGHT",
       "date": "20260919",
       "archived_at": "2026-09-19T03:26:19Z"
+    },
+    {
+      "id": 20182,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: told DEADWEIGHT session to stop (after GUI card-text readability fix 31a5…",
+      "source_repo": "CLI",
+      "date": "20260919",
+      "archived_at": "2026-09-19T04:40:19Z"
     }
   ]
 }
