@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-19T23:28:16Z",
+  "generated_at": "2026-09-19T23:47:14Z",
   "repo": "APPLES",
-  "count": 9671,
+  "count": 9672,
   "apples": [
     {
       "id": 10525,
@@ -77370,6 +77370,14 @@
       "source_repo": "CLI",
       "date": "20260919",
       "archived_at": "2026-09-19T23:28:16Z"
+    },
+    {
+      "id": 20209,
+      "type": "completion",
+      "title": "DEADWEIGHT SDL2 client: round-resolution animations + synthesized audio",
+      "source_repo": "DEADWEIGHT",
+      "date": "20260919",
+      "archived_at": "2026-09-19T23:47:14Z"
     }
   ]
 }

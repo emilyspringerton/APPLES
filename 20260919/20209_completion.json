@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-19T23:47:14Z",
+  "body": "New apps/gui/fx.c (timeline engine) + sfx.c (software synth). Blitz/Block/Bypass scenarios with Lock/Sabotage/Flank/Scan/Siphon variants and Overwhelm/Perfect Deflection/Deep Hijack criticals, mirror/unopposed/cancelled/immune/lifeline overlays; post-clash hull/armor(corrosion)/energy/credits stages (never overlapping the clash, \u003c=9 s, worst demo 5.3 s); persistent burn, regen, EMP-disabled cards, redline frame + heartbeat, meter overload, combo escalation; audio with per-triangle timbres, sequencing gap, fifth pitch-climb, voice priorities, EMP muffling. Tests: test_sfx (numeric), dw_gui --fx-demo (29 scenarios, frames + WAVs), selftest match with animations. Docs: docs/ANIMATION_AND_AUDIO.md. Not verified by ear or on a real display; Android client has none of it yet; not yet released as a Windows build (CI on push).\n\n⚓ ☃",
+  "id": 20209,
+  "metadata": null,
+  "run_id": "sess-20260918-1725-497f394f",
+  "source_repo": "DEADWEIGHT",
+  "title": "DEADWEIGHT SDL2 client: round-resolution animations + synthesized audio"
+}
