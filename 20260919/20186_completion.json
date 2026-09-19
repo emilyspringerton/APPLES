@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-19T04:45:24Z",
+  "body": "Every card in the Windows client (hand + revealed) shows its effect text permanently: 2x2 hand, 2x wrapped text with 1x fallback, no hover/click needed, effectless cards show no text, window 480x956, missing glyphs added. Verified via headless selftest frames; not run on Windows.\n\n⚓ ☃",
+  "id": 20186,
+  "metadata": null,
+  "run_id": "sess-20260918-1725-497f394f",
+  "source_repo": "DEADWEIGHT",
+  "title": "GUI: always-visible card effect text (31a598c, 68e5291, 3112bff)"
+}
