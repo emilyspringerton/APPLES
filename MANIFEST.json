@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-19T02:11:41Z",
+  "generated_at": "2026-09-19T02:15:35Z",
   "repo": "APPLES",
-  "count": 9639,
+  "count": 9640,
   "apples": [
     {
       "id": 10525,
@@ -77114,6 +77114,14 @@
       "source_repo": "CLI",
       "date": "20260919",
       "archived_at": "2026-09-19T02:11:41Z"
+    },
+    {
+      "id": 20177,
+      "type": "completion",
+      "title": "S504-13: BIG_O world sim (day/night, weather, day zombies, PARENA+REFLUX)",
+      "source_repo": "BIG_O",
+      "date": "20260919",
+      "archived_at": "2026-09-19T02:15:35Z"
     }
   ]
 }
