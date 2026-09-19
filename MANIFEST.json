@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-19T03:26:15Z",
+  "generated_at": "2026-09-19T03:26:19Z",
   "repo": "APPLES",
-  "count": 9643,
+  "count": 9644,
   "apples": [
     {
       "id": 10525,
@@ -77146,6 +77146,14 @@
       "source_repo": "DEADWEIGHT",
       "date": "20260919",
       "archived_at": "2026-09-19T03:26:15Z"
+    },
+    {
+      "id": 20181,
+      "type": "completion",
+      "title": "Colab training skrip + resume-from-registry",
+      "source_repo": "DEADWEIGHT",
+      "date": "20260919",
+      "archived_at": "2026-09-19T03:26:19Z"
     }
   ]
 }
