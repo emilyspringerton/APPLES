@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-19T00:12:28Z",
+  "generated_at": "2026-09-19T00:22:16Z",
   "repo": "APPLES",
-  "count": 9632,
+  "count": 9633,
   "apples": [
     {
       "id": 10525,
@@ -77058,6 +77058,14 @@
       "source_repo": "DEADWEIGHT",
       "date": "20260919",
       "archived_at": "2026-09-19T00:12:28Z"
+    },
+    {
+      "id": 20170,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: DEADWEIGHT round limit 8 -\u003e 100 and round timer doubled (20s -\u003e 40s)",
+      "source_repo": "CLI",
+      "date": "20260919",
+      "archived_at": "2026-09-19T00:22:16Z"
     }
   ]
 }
