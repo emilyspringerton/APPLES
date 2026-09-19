@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-19T04:45:19Z",
+  "generated_at": "2026-09-19T04:45:21Z",
   "repo": "APPLES",
-  "count": 9646,
+  "count": 9647,
   "apples": [
     {
       "id": 10525,
@@ -77170,6 +77170,14 @@
       "source_repo": "DEADWEIGHT",
       "date": "20260919",
       "archived_at": "2026-09-19T04:45:19Z"
+    },
+    {
+      "id": 20184,
+      "type": "completion",
+      "title": "changelog(DEADWEIGHT): feat(gui): card effect text always visible on every card (h…",
+      "source_repo": "DEADWEIGHT",
+      "date": "20260919",
+      "archived_at": "2026-09-19T04:45:21Z"
     }
   ]
 }
