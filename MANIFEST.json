@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-19T22:39:41Z",
+  "generated_at": "2026-09-19T22:39:42Z",
   "repo": "APPLES",
-  "count": 9661,
+  "count": 9662,
   "apples": [
     {
       "id": 10525,
@@ -77290,6 +77290,14 @@
       "source_repo": "WOTAN",
       "date": "20260919",
       "archived_at": "2026-09-19T22:39:41Z"
+    },
+    {
+      "id": 20199,
+      "type": "completion",
+      "title": "changelog(IDUNA): feat(games): public read-only DEADWEIGHT draft deck stats A…",
+      "source_repo": "IDUNA",
+      "date": "20260919",
+      "archived_at": "2026-09-19T22:39:42Z"
     }
   ]
 }
