@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-19T04:40:19Z",
+  "generated_at": "2026-09-19T04:45:19Z",
   "repo": "APPLES",
-  "count": 9645,
+  "count": 9646,
   "apples": [
     {
       "id": 10525,
@@ -77162,6 +77162,14 @@
       "source_repo": "CLI",
       "date": "20260919",
       "archived_at": "2026-09-19T04:40:19Z"
+    },
+    {
+      "id": 20183,
+      "type": "completion",
+      "title": "changelog(DEADWEIGHT): feat(gui): Windows client defaults to okemily.com:6980 (was…",
+      "source_repo": "DEADWEIGHT",
+      "date": "20260919",
+      "archived_at": "2026-09-19T04:45:19Z"
     }
   ]
 }
