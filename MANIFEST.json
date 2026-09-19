@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-19T22:39:44Z",
+  "generated_at": "2026-09-19T22:52:41Z",
   "repo": "APPLES",
-  "count": 9663,
+  "count": 9664,
   "apples": [
     {
       "id": 10525,
@@ -77306,6 +77306,14 @@
       "source_repo": "DEADWEIGHT",
       "date": "20260919",
       "archived_at": "2026-09-19T22:39:44Z"
+    },
+    {
+      "id": 20201,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: DEADWEIGHT retheme -- triangle becomes Offense(Red)\u003eOperations(Yellow)\u003eDe…",
+      "source_repo": "CLI",
+      "date": "20260919",
+      "archived_at": "2026-09-19T22:52:41Z"
     }
   ]
 }
