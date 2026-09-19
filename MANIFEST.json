@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-19T22:32:03Z",
+  "generated_at": "2026-09-19T22:38:42Z",
   "repo": "APPLES",
-  "count": 9659,
+  "count": 9660,
   "apples": [
     {
       "id": 10525,
@@ -77274,6 +77274,14 @@
       "source_repo": "CLI",
       "date": "20260919",
       "archived_at": "2026-09-19T22:32:03Z"
+    },
+    {
+      "id": 20197,
+      "type": "completion",
+      "title": "changelog(WOTAN): feat: DEADWEIGHT Draft Decks browser (decks.html) -- drafte…",
+      "source_repo": "WOTAN",
+      "date": "20260919",
+      "archived_at": "2026-09-19T22:38:42Z"
     }
   ]
 }
