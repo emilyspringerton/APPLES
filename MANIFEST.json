@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-18T23:41:03Z",
+  "generated_at": "2026-09-19T00:11:40Z",
   "repo": "APPLES",
-  "count": 9630,
+  "count": 9631,
   "apples": [
     {
       "id": 10525,
@@ -77042,6 +77042,14 @@
       "source_repo": "CLI",
       "date": "20260918",
       "archived_at": "2026-09-18T23:41:03Z"
+    },
+    {
+      "id": 20168,
+      "type": "completion",
+      "title": "changelog(DEADWEIGHT): feat(card-mode): 64 new cards (73 total) -- armor, credits,…",
+      "source_repo": "DEADWEIGHT",
+      "date": "20260919",
+      "archived_at": "2026-09-19T00:11:40Z"
     }
   ]
 }
