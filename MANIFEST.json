@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-20T19:08:44Z",
+  "generated_at": "2026-09-20T19:57:51Z",
   "repo": "APPLES",
-  "count": 9675,
+  "count": 9676,
   "apples": [
     {
       "id": 10525,
@@ -77402,6 +77402,14 @@
       "source_repo": "CLI",
       "date": "20260920",
       "archived_at": "2026-09-20T19:08:44Z"
+    },
+    {
+      "id": 20213,
+      "type": "completion",
+      "title": "changelog(SHANKPIT): fix(ci): link packages/reflux/reflux_runtime.c into Linux s…",
+      "source_repo": "SHANKPIT",
+      "date": "20260920",
+      "archived_at": "2026-09-20T19:57:51Z"
     }
   ]
 }
