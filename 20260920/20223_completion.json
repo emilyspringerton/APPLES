@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-20T22:35:40Z",
+  "body": "New PcNpcState wire type (measured: PcSnapshotPacket 1436-\u003e1604 bytes), server-side ServerNpc array spawning 3 citizens/1 the_men/4 zombies on a circle around origin, server_tick_npcs runs npc_brain_tick/zombie_tick every real server tick (the S504 S8b brains are now live, not just tested in isolation). Client's two hardcoded test NPCs replaced with a real loop over the live snapshot; role-\u003ekit/tint + yaw-\u003efacing_rad factored into bigo_npc_visual.h for headless testability (5 tests). Verified live: compiled server spawns all 8 NPCs and runs the full tick loop for 6s, no crash. NORTHSTAR.md S8d/S8e updated, README corrected per SAGA. Commits e102355/6364a41.\n\n⚓ ☃",
+  "id": 20223,
+  "metadata": null,
+  "run_id": "sess-20260920-1908-24cb3558",
+  "source_repo": "BIG_O",
+  "title": "S504 §8c/8d: live NPC entity system — server spawns/ticks real Citizens/The Men/zombies, client renders them via the mannequin+animation library"
+}

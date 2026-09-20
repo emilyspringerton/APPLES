@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-20T21:37:40Z",
+  "generated_at": "2026-09-20T22:35:40Z",
   "repo": "APPLES",
-  "count": 9685,
+  "count": 9686,
   "apples": [
     {
       "id": 10525,
@@ -77482,6 +77482,14 @@
       "source_repo": "CLI",
       "date": "20260920",
       "archived_at": "2026-09-20T21:37:40Z"
+    },
+    {
+      "id": 20223,
+      "type": "completion",
+      "title": "S504 §8c/8d: live NPC entity system — server spawns/ticks real Citizens/The Men/zombies, client renders them via the mannequin+animation ",
+      "source_repo": "BIG_O",
+      "date": "20260920",
+      "archived_at": "2026-09-20T22:35:40Z"
     }
   ]
 }

@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-20T22:35:40Z",
+  "body": "CHANGELOG updated in BIG_O: feat: live NPC entity system (S504 S8c/8d) -- server spawns/ticks real Citizens/The Men/zombies (new PcNpcState wire type), client renders via the GOLDENBAND mannequin+animation library instead of two hardcoded test instances; role-\u003ekit/tint decision factored into bigo_npc_visual.h for headless testing (sess-20260920-1908-24cb3558)\n\n⚓ ☃",
+  "id": 20224,
+  "metadata": null,
+  "run_id": "sess-20260920-1908-24cb3558",
+  "source_repo": "BIG_O",
+  "title": "changelog(BIG_O): feat: live NPC entity system (S504 S8c/8d) -- server spawns…"
+}
