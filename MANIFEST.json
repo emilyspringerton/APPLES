@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-20T22:35:51Z",
+  "generated_at": "2026-09-20T22:54:44Z",
   "repo": "APPLES",
-  "count": 9688,
+  "count": 9689,
   "apples": [
     {
       "id": 10525,
@@ -77506,6 +77506,14 @@
       "source_repo": "CLI",
       "date": "20260920",
       "archived_at": "2026-09-20T22:35:51Z"
+    },
+    {
+      "id": 20226,
+      "type": "completion",
+      "title": "changelog(DEADWEIGHT): EMP visual effect redesigned for photosensitivity safety (p…",
+      "source_repo": "DEADWEIGHT",
+      "date": "20260920",
+      "archived_at": "2026-09-20T22:54:44Z"
     }
   ]
 }
