@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-20T21:15:41Z",
+  "generated_at": "2026-09-20T21:29:34Z",
   "repo": "APPLES",
-  "count": 9680,
+  "count": 9681,
   "apples": [
     {
       "id": 10525,
@@ -77442,6 +77442,14 @@
       "source_repo": "CLI",
       "date": "20260920",
       "archived_at": "2026-09-20T21:15:41Z"
+    },
+    {
+      "id": 20218,
+      "type": "completion",
+      "title": "fix: GSEQ_MAX_CHANNELS(256) too small — 4 of 5 real NPC kits (mannequin/Stan/Mike/George) silently failed to load, only Leela ever worked",
+      "source_repo": "SHANKPIT",
+      "date": "20260920",
+      "archived_at": "2026-09-20T21:29:34Z"
     }
   ]
 }

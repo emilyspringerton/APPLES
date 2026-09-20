@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-20T21:29:34Z",
+  "body": "Found live while vendoring gband_skel_npc into BIG_O and actually testing the load against the real asset library, not assumed. 7 channels/joint * \u003e36 joints overflowed the old 256 cap; mannequin_npc(65j)/Stan(43j)/Mike(43j)/George(47j) all failed gseq_clip_load, only Leela(17j) fit. gband_skel_npc_load_kit's silent per-kit failure + draw_player_skin_mannequin's cycle-past-failed-kits logic meant this was never a crash -- just silent convergence on Leela for every player/NPC. Bumped GSEQ_MAX_CHANNELS to 1024, verified all 5 kits now load via direct test, make lobby builds clean. Commit d14c7a6.\n\n⚓ ☃",
+  "id": 20218,
+  "metadata": null,
+  "run_id": "sess-20260920-1908-24cb3558",
+  "source_repo": "SHANKPIT",
+  "title": "fix: GSEQ_MAX_CHANNELS(256) too small — 4 of 5 real NPC kits (mannequin/Stan/Mike/George) silently failed to load, only Leela ever worked"
+}
