@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-20T22:35:43Z",
+  "generated_at": "2026-09-20T22:35:51Z",
   "repo": "APPLES",
-  "count": 9687,
+  "count": 9688,
   "apples": [
     {
       "id": 10525,
@@ -77498,6 +77498,14 @@
       "source_repo": "BIG_O",
       "date": "20260920",
       "archived_at": "2026-09-20T22:35:43Z"
+    },
+    {
+      "id": 20225,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: continue S504 -- picked up the next deferred item from NORTHSTAR.md S8c (…",
+      "source_repo": "CLI",
+      "date": "20260920",
+      "archived_at": "2026-09-20T22:35:51Z"
     }
   ]
 }
