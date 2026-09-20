@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-20T23:31:29Z",
+  "body": "New PC_PACKET_PHEROMONE_THROW packet + bigo_pheromone.h pure targeting/steering module (8 tests), server_tick_npcs now gives zombies a real has_target from marker proximity and steers them toward it. Verified live (raw UDP packet, scratch integration convergence check). Named finding: zombie_tick's pre-existing ~1s/call drift approximation makes FRENZIED escalation near-instant at 20Hz now that has_target is reachable -- not fixed, scope discipline (NORTHSTAR.md S10).\n\n⚓ ☃",
+  "id": 20228,
+  "metadata": null,
+  "run_id": "sess-20260920-1908-24cb3558",
+  "source_repo": "BIG_O",
+  "title": "Pheromone command tools -- zombie has_target no longer hardcoded 0"
+}
