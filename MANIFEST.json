@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-20T22:35:40Z",
+  "generated_at": "2026-09-20T22:35:43Z",
   "repo": "APPLES",
-  "count": 9686,
+  "count": 9687,
   "apples": [
     {
       "id": 10525,
@@ -77490,6 +77490,14 @@
       "source_repo": "BIG_O",
       "date": "20260920",
       "archived_at": "2026-09-20T22:35:40Z"
+    },
+    {
+      "id": 20224,
+      "type": "completion",
+      "title": "changelog(BIG_O): feat: live NPC entity system (S504 S8c/8d) -- server spawns…",
+      "source_repo": "BIG_O",
+      "date": "20260920",
+      "archived_at": "2026-09-20T22:35:43Z"
     }
   ]
 }
