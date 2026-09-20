@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-20T21:15:28Z",
+  "body": "Added PC_SPRINT_SPEED (59.375 units/sec) converted directly from SHANKPIT's real MAX_SPEED=0.95/tick at its 62.5Hz fixed tick (SHANKPIT_NET_FIXED_DT=0.016s, confirmed via update_entity's direct per-tick p-\u003ex += p-\u003evx with no dt multiply) -- not guessed. PC_MOVE_SPEED (4.0, walking) stays default; new PC_BTN_SPRINT protocol bit, server-enforced mutual exclusion with crouch, stacks under the existing move-stat/slide-jump multipliers. Client: Left Shift moved from crouch (now Ctrl-only) to sole sprint key per founder confirmation (AskUserQuestion), controller L3 mirrors it. Both day server and client build clean; papercraft_falling_test re-verified clean. Commit 6ad5ed7.\n\n⚓ ☃",
+  "id": 20216,
+  "metadata": null,
+  "run_id": "sess-20260920-1908-24cb3558",
+  "source_repo": "BIG_O",
+  "title": "S504-10c: SHANKPIT/PAPERCRAFT physics unification — walk/sprint speed split, Shift=run"
+}
