@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-20T21:37:36Z",
+  "body": "Vendored GOLDENBAND general-skeleton renderer + mannequin mesh/animation library from SHANKPIT into day/, wired a real test-NPC draw path into the client (mannequin + zombie-clip kits share one skeleton, confirmed live via matching joint/channel names). Found+fixed a real GSEQ_MAX_CHANNELS(256) bug live-blocking 4 of 5 SHANKPIT NPC kits (fixed upstream d14c7a6 + here). Built core/humanness.c (MISHRI primitives, vendored from SHANKPIT, 7 tests re-verified), core/npc_archetype.c (Citizens/The Men, dynamic vigilance feeding witness_rules.c's real attention mechanism, 7 statistical tests), core/zombie_values.c (zombies' own hunger/aggression/decay vocabulary, distinct from human moods per founder direction, 11 statistical tests, one real bug found+fixed writing the tests). NORTHSTAR.md S8 scoping pass names 5 deferred phases. Commits daf638a/eddaecb/5de1a29.\n\n⚓ ☃",
+  "id": 20220,
+  "metadata": null,
+  "run_id": "sess-20260920-1908-24cb3558",
+  "source_repo": "BIG_O",
+  "title": "S504 §8: GOLDENBAND mannequin animation vendoring + AI-brain primitives (humanness/npc_archetype/zombie_values)"
+}
