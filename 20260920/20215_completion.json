@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-20T20:07:33Z",
+  "body": "SHANKPIT_PAPERCRAFT_UNIFICATION_PLAN.md Phase 1 completion. Added --level-id flag + draw_level_walls() to day/apps/client/src/main.c, verified live against local IDUNA level 12 (nextown: 80 walls/1 spawner/1 exit). Found and fixed 4 real bugs blocking it: wrong endpoint path (missing /export), a required top-level id field the real export never sends, nested field parsers with no skip-unknown-key fallback (stalled on any wall past the first once real fields like friction were present), and http_client.h having zero chunked-transfer-encoding support (IDUNA sends Transfer-Encoding: chunked, client was feeding raw hex chunk lines to the JSON parser). Added level_loader_test + new http_client_test to BUILD.bazel (both were previously unwired). README status corrected. Commit e308cdb.\n\n⚓ ☃",
+  "id": 20215,
+  "metadata": null,
+  "run_id": "sess-20260920-1908-24cb3558",
+  "source_repo": "BIG_O",
+  "title": "S504-10b: wire level_loader into day client, fix real IDUNA fetch bugs (404 path, chunked encoding, JSON parser stalls)"
+}
