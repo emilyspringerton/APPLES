@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-20T23:38:43Z",
+  "body": "core/witness_live.h (8 tests) wires a HUNTING/FRENZIED zombie as a real live witnessed event into witness_rules.c's own tested npc_next_state; server_tick_witness/server_tick_dispatch give Citizens/The Men a real witness_state and The Men a real dispatch-and-resolve loop. Verified live + scratch integration harness. Honest finding: resolving a hunt doesn't stop the zombie itself from being witnessable, so a hunt can reopen immediately -- no elimination/LOS-loss path wired yet (NORTHSTAR.md S11).\n\n⚓ ☃",
+  "id": 20229,
+  "metadata": null,
+  "run_id": "sess-20260920-1908-24cb3558",
+  "source_repo": "BIG_O",
+  "title": "Witness wiring + The Men's dispatch loop (S504-DISPATCH)"
+}
