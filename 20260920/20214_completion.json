@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-20T19:57:56Z",
+  "body": "The raw gcc command for ShankServer_Linux in tests.yml and release.yml omitted packages/reflux/reflux_runtime.c, unlike the Makefile's SERVER_SRC and the lobby build. apps/server/src/main.c calls reflux_host_dispatch/reflux_host_log_size/reflux_host_action_type_at/reflux_host_action_a_at, causing undefined-reference link failures on the Linux server build. Added the missing source file to both CI gcc commands. Commit 2a95756.\n\n⚓ ☃",
+  "id": 20214,
+  "metadata": null,
+  "run_id": "sess-20260920-1908-24cb3558",
+  "source_repo": "SHANKPIT",
+  "title": "fix: link reflux_runtime.c into Linux server CI build"
+}

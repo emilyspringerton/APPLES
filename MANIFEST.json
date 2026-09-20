@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-20T19:57:51Z",
+  "generated_at": "2026-09-20T19:57:56Z",
   "repo": "APPLES",
-  "count": 9676,
+  "count": 9677,
   "apples": [
     {
       "id": 10525,
@@ -77410,6 +77410,14 @@
       "source_repo": "SHANKPIT",
       "date": "20260920",
       "archived_at": "2026-09-20T19:57:51Z"
+    },
+    {
+      "id": 20214,
+      "type": "completion",
+      "title": "fix: link reflux_runtime.c into Linux server CI build",
+      "source_repo": "SHANKPIT",
+      "date": "20260920",
+      "archived_at": "2026-09-20T19:57:56Z"
     }
   ]
 }
