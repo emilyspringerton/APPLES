@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-20T23:38:43Z",
+  "generated_at": "2026-09-20T23:41:16Z",
   "repo": "APPLES",
-  "count": 9692,
+  "count": 9693,
   "apples": [
     {
       "id": 10525,
@@ -77538,6 +77538,14 @@
       "source_repo": "BIG_O",
       "date": "20260920",
       "archived_at": "2026-09-20T23:38:43Z"
+    },
+    {
+      "id": 20230,
+      "type": "completion",
+      "title": "changelog(IDUNA): OpenExecutive M2M credential provisioning via IDUNA IAM (M2…",
+      "source_repo": "IDUNA",
+      "date": "20260920",
+      "archived_at": "2026-09-20T23:41:16Z"
     }
   ]
 }
