@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-20T00:09:34Z",
+  "generated_at": "2026-09-20T19:08:44Z",
   "repo": "APPLES",
-  "count": 9674,
+  "count": 9675,
   "apples": [
     {
       "id": 10525,
@@ -77394,6 +77394,14 @@
       "source_repo": "CLI",
       "date": "20260920",
       "archived_at": "2026-09-20T00:09:34Z"
+    },
+    {
+      "id": 20212,
+      "type": "signal_observation",
+      "title": "[INFO] Founder: S504-10 — starting day-cycle zombie sandbox integration. SHANKPIT just shipped ne…",
+      "source_repo": "CLI",
+      "date": "20260920",
+      "archived_at": "2026-09-20T19:08:44Z"
     }
   ]
 }
