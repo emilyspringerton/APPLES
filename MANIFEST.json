@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-21T08:58:35Z",
+  "generated_at": "2026-09-21T08:58:37Z",
   "repo": "APPLES",
-  "count": 9704,
+  "count": 9705,
   "apples": [
     {
       "id": 10525,
@@ -77634,6 +77634,14 @@
       "source_repo": "PARENA",
       "date": "20260921",
       "archived_at": "2026-09-21T08:58:35Z"
+    },
+    {
+      "id": 20242,
+      "type": "completion",
+      "title": "Real browser client (web/) dogfooding PARENA's TypeScript emitter",
+      "source_repo": "DEADWEIGHT",
+      "date": "20260921",
+      "archived_at": "2026-09-21T08:58:37Z"
     }
   ]
 }
