@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-21T09:17:55Z",
+  "body": "New stdlib/deadweight/fx_rules.prn extracts round-resolution scenario/winner/crit/timeline/cue decision logic from DEADWEIGHT's hand-written fx.c, compiled to C (Windows, canonical) and TS (browser). Caught a real logic bug (fx-scenario hardcoded BLITZ for one branch) via a 64-case cross-check before it ever reached fx.c. Also fixed emit_ts.c never recognizing true/false literals (found via fx-is-crit). test_emit_ts.c 30-\u003e34 assertions. Commit 89ba473.\n\n⚓ ☃",
+  "id": 20243,
+  "metadata": null,
+  "run_id": "sess-20260920-1908-24cb3558",
+  "source_repo": "PARENA",
+  "title": "fx_rules.prn: shared DEADWEIGHT animation/audio decision layer + true/false emit_ts fix"
+}

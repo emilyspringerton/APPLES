@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-21T09:17:55Z",
+  "body": "Founder real-time: unify windows (canonical) + TS animation, dogfood PARENA more. apps/gui/fx.c refactored to CALL new PARENA-generated core/fx_rules.c instead of hand-deriving scenario/timeline logic -- real consumer now, not parallel implementation. New web/src/fx.ts renders the same decisions with Canvas2D+WebAudio, wired into main.ts. New tests/test_fx_rules.c (4092 checks vs independent oracle). scripts/build.sh --gui stays fully green (zero regression). Browser side verified against a real live match (9/9 rounds, e2e_test.mjs). Honest gaps: Canvas rendering never opened in a real browser (no display here); energy-delta/status visuals not wired (ROUND_RESULT lacks those fields). Commit 1357298.\n\n⚓ ☃",
+  "id": 20244,
+  "metadata": null,
+  "run_id": "sess-20260920-1908-24cb3558",
+  "source_repo": "DEADWEIGHT",
+  "title": "Unified Windows + browser round-resolution animation/audio via PARENA"
+}

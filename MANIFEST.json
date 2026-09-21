@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-21T08:58:37Z",
+  "generated_at": "2026-09-21T09:17:55Z",
   "repo": "APPLES",
-  "count": 9705,
+  "count": 9706,
   "apples": [
     {
       "id": 10525,
@@ -77642,6 +77642,14 @@
       "source_repo": "DEADWEIGHT",
       "date": "20260921",
       "archived_at": "2026-09-21T08:58:37Z"
+    },
+    {
+      "id": 20243,
+      "type": "completion",
+      "title": "fx_rules.prn: shared DEADWEIGHT animation/audio decision layer + true/false emit_ts fix",
+      "source_repo": "PARENA",
+      "date": "20260921",
+      "archived_at": "2026-09-21T09:17:55Z"
     }
   ]
 }
