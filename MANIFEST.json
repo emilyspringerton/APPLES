@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-21T17:58:27Z",
+  "generated_at": "2026-09-21T18:02:46Z",
   "repo": "APPLES",
-  "count": 9743,
+  "count": 9744,
   "apples": [
     {
       "id": 10525,
@@ -77946,6 +77946,14 @@
       "source_repo": "DEADWEIGHT",
       "date": "20260921",
       "archived_at": "2026-09-21T17:58:27Z"
+    },
+    {
+      "id": 20281,
+      "type": "signal_observation",
+      "title": "[INFO] Founder/exec real-time correction: reversed S512's rolling 24h ticket-refresh window back to…",
+      "source_repo": "CLI",
+      "date": "20260921",
+      "archived_at": "2026-09-21T18:02:46Z"
     }
   ]
 }
