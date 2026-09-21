@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-21T19:22:36Z",
+  "generated_at": "2026-09-21T20:11:45Z",
   "repo": "APPLES",
-  "count": 9755,
+  "count": 9756,
   "apples": [
     {
       "id": 10525,
@@ -78042,6 +78042,14 @@
       "source_repo": "DEADWEIGHT",
       "date": "20260921",
       "archived_at": "2026-09-21T19:22:36Z"
+    },
+    {
+      "id": 20293,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: tested v0.54.0 live -- 3 economy/UI findings: draft ticket not visibly co…",
+      "source_repo": "CLI",
+      "date": "20260921",
+      "archived_at": "2026-09-21T20:11:45Z"
     }
   ]
 }
