@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-21T16:45:54Z",
+  "generated_at": "2026-09-21T16:45:56Z",
   "repo": "APPLES",
-  "count": 9731,
+  "count": 9732,
   "apples": [
     {
       "id": 10525,
@@ -77850,6 +77850,14 @@
       "source_repo": "DEADWEIGHT",
       "date": "20260921",
       "archived_at": "2026-09-21T16:45:54Z"
+    },
+    {
+      "id": 20269,
+      "type": "completion",
+      "title": "changelog(IDUNA): S510: draft-run/* converted to player-token-direct auth (re…",
+      "source_repo": "IDUNA",
+      "date": "20260921",
+      "archived_at": "2026-09-21T16:45:56Z"
     }
   ]
 }
