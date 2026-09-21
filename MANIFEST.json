@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-21T01:01:10Z",
+  "generated_at": "2026-09-21T05:57:32Z",
   "repo": "APPLES",
-  "count": 9698,
+  "count": 9699,
   "apples": [
     {
       "id": 10525,
@@ -77586,6 +77586,14 @@
       "source_repo": "CLI",
       "date": "20260921",
       "archived_at": "2026-09-21T01:01:10Z"
+    },
+    {
+      "id": 20236,
+      "type": "completion",
+      "title": "changelog(IDUNA): Add /admin/openexecutive Back Office page (status + working…",
+      "source_repo": "IDUNA",
+      "date": "20260921",
+      "archived_at": "2026-09-21T05:57:32Z"
     }
   ]
 }
