@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-21T11:34:39Z",
+  "generated_at": "2026-09-21T11:44:41Z",
   "repo": "APPLES",
-  "count": 9715,
+  "count": 9716,
   "apples": [
     {
       "id": 10525,
@@ -77722,6 +77722,14 @@
       "source_repo": "DEADWEIGHT",
       "date": "20260921",
       "archived_at": "2026-09-21T11:34:39Z"
+    },
+    {
+      "id": 20253,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: DEADWEIGHT economy redesign, superseding parts of S508b. Corrected model:…",
+      "source_repo": "CLI",
+      "date": "20260921",
+      "archived_at": "2026-09-21T11:44:41Z"
     }
   ]
 }
