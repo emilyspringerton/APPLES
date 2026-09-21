@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-21T12:56:58Z",
+  "generated_at": "2026-09-21T12:58:47Z",
   "repo": "APPLES",
-  "count": 9717,
+  "count": 9718,
   "apples": [
     {
       "id": 10525,
@@ -77738,6 +77738,14 @@
       "source_repo": "CLI",
       "date": "20260921",
       "archived_at": "2026-09-21T12:56:58Z"
+    },
+    {
+      "id": 20255,
+      "type": "completion",
+      "title": "feat(games): tiered ticket economy + Uncapped Draft Runs + guest-to-email linking (S508c)",
+      "source_repo": "IDUNA",
+      "date": "20260921",
+      "archived_at": "2026-09-21T12:58:47Z"
     }
   ]
 }

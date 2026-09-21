@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-21T12:58:47Z",
+  "body": "dwi_draft_run_start/dwi_guest_upgrade/dwi_email_login, real DwMatchReport.mode bug fix (every draft match was misreported as card mode), LINK EMAIL GUI flow. Honest gap: draft-run/start not yet wired into dw_server's poll loop (needs async job-queue design, same as J_VERIFY/J_REPORT). Full build.sh --gui suite green. Commit 8bad85b.\n\n⚓ ☃",
+  "id": 20256,
+  "metadata": null,
+  "run_id": "sess-20260920-1908-24cb3558",
+  "source_repo": "DEADWEIGHT",
+  "title": "feat(net): Uncapped Draft Run + guest-to-email linking client functions, mode bug fix (S508c)"
+}
