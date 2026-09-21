@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-21T12:58:52Z",
+  "generated_at": "2026-09-21T13:58:54Z",
   "repo": "APPLES",
-  "count": 9720,
+  "count": 9721,
   "apples": [
     {
       "id": 10525,
@@ -77762,6 +77762,14 @@
       "source_repo": "IDUNA",
       "date": "20260921",
       "archived_at": "2026-09-21T12:58:52Z"
+    },
+    {
+      "id": 20258,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: reconciled the DEADWEIGHT tier/guest-auth/redeem-code re-ask against what…",
+      "source_repo": "CLI",
+      "date": "20260921",
+      "archived_at": "2026-09-21T13:58:54Z"
     }
   ]
 }
