@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-21T08:45:55Z",
+  "generated_at": "2026-09-21T08:58:35Z",
   "repo": "APPLES",
-  "count": 9703,
+  "count": 9704,
   "apples": [
     {
       "id": 10525,
@@ -77626,6 +77626,14 @@
       "source_repo": "CLI",
       "date": "20260921",
       "archived_at": "2026-09-21T08:45:55Z"
+    },
+    {
+      "id": 20241,
+      "type": "completion",
+      "title": "TypeScript emitter: I32 division truncation + 511-char buffer overflow + (not x) fixed",
+      "source_repo": "PARENA",
+      "date": "20260921",
+      "archived_at": "2026-09-21T08:58:35Z"
     }
   ]
 }

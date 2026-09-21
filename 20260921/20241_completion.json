@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-21T08:58:35Z",
+  "body": "Dogfooding the TS emitter against DEADWEIGHT's card_rules.prn found and fixed three real bugs: I32/I32 division wasn't truncating toward zero (Math.trunc fix), tb_appendf's 512-byte buffer silently truncated long expressions (same bug already fixed in emit_java.c, ported here), and (not x) fell through into a bogus call (same fix as emit.c/emit_java.c/BURROW). test_emit_ts.c 21-\u003e30 assertions. Verified against all 105 cards + 2808 fx-amount parity vectors, 0 mismatches. Commits 0af718d, 6f5dd25.\n\n⚓ ☃",
+  "id": 20241,
+  "metadata": null,
+  "run_id": "sess-20260920-1908-24cb3558",
+  "source_repo": "PARENA",
+  "title": "TypeScript emitter: I32 division truncation + 511-char buffer overflow + (not x) fixed"
+}

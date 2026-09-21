@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-21T08:58:35Z",
+  "body": "Founder real-time: build DEADWEIGHT in the browser using PARENA. card_rules.prn now emits to web/src/generated/CardRules.ts (third real target alongside C/Java). Hand-written TS client speaks the real wire protocol over a dumb WS\u003c-\u003eTCP bridge to the real dw_server. Verified end-to-end: real 11-round match played through the compiled client against a live bot (web/bridge/e2e_test.mjs). Random queue only, no auth, no animation yet -- see web/README.md. Commit 6410616.\n\n⚓ ☃",
+  "id": 20242,
+  "metadata": null,
+  "run_id": "sess-20260920-1908-24cb3558",
+  "source_repo": "DEADWEIGHT",
+  "title": "Real browser client (web/) dogfooding PARENA's TypeScript emitter"
+}
