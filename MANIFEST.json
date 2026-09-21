@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-21T16:13:40Z",
+  "generated_at": "2026-09-21T16:13:42Z",
   "repo": "APPLES",
-  "count": 9728,
+  "count": 9729,
   "apples": [
     {
       "id": 10525,
@@ -77826,6 +77826,14 @@
       "source_repo": "PARENA",
       "date": "20260921",
       "archived_at": "2026-09-21T16:13:40Z"
+    },
+    {
+      "id": 20266,
+      "type": "completion",
+      "title": "feat(net): real TLS for the Windows build too -- dw_gui.exe cross-compiles clean (S508f)",
+      "source_repo": "DEADWEIGHT",
+      "date": "20260921",
+      "archived_at": "2026-09-21T16:13:42Z"
     }
   ]
 }
