@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-21T15:39:27Z",
+  "generated_at": "2026-09-21T15:39:29Z",
   "repo": "APPLES",
-  "count": 9726,
+  "count": 9727,
   "apples": [
     {
       "id": 10525,
@@ -77810,6 +77810,14 @@
       "source_repo": "DEADWEIGHT",
       "date": "20260921",
       "archived_at": "2026-09-21T15:39:27Z"
+    },
+    {
+      "id": 20264,
+      "type": "completion",
+      "title": "ops: redeployed production IDUNA with today's S508/S508c/S508d economy work + generated 499 real Premium claim codes",
+      "source_repo": "IDUNA",
+      "date": "20260921",
+      "archived_at": "2026-09-21T15:39:29Z"
     }
   ]
 }
