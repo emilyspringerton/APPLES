@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-21T18:46:36Z",
+  "generated_at": "2026-09-21T18:46:47Z",
   "repo": "APPLES",
-  "count": 9748,
+  "count": 9749,
   "apples": [
     {
       "id": 10525,
@@ -77986,6 +77986,14 @@
       "source_repo": "CLI",
       "date": "20260921",
       "archived_at": "2026-09-21T18:46:36Z"
+    },
+    {
+      "id": 20286,
+      "type": "completion",
+      "title": "changelog(IDUNA): Add Game Claim Codes back office tool (/admin/game-claim-co…",
+      "source_repo": "IDUNA",
+      "date": "20260921",
+      "archived_at": "2026-09-21T18:46:47Z"
     }
   ]
 }

@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-21T18:46:46Z",
+  "body": "Added /admin/game-claim-codes, a simple form mirroring the GFD admin tool style, so a Premium/test claim code can be minted from the Back Office UI instead of shelling in to run cmd/gen-claim-codes. Same INSERT/code-format as the CLI (claimCodeRe-matching), verified via a real in-memory-sqlite-migrated smoke test (generate -\u003e list -\u003e format check) before deploy. Also lists the last 50 codes per game with used/unused status. Deployed to production (iduna.service restarted, confirmed active, route returns the same 401-gated response as every other admin tool when unauthenticated). Commit 7a961dd.\n\n⚓ ☃",
+  "id": 20287,
+  "metadata": null,
+  "run_id": "sess-20260920-1908-24cb3558",
+  "source_repo": "IDUNA",
+  "title": "Game Claim Codes back office tool (S508)"
+}
