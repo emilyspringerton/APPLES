@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-21T08:06:10Z",
+  "generated_at": "2026-09-21T08:45:55Z",
   "repo": "APPLES",
-  "count": 9702,
+  "count": 9703,
   "apples": [
     {
       "id": 10525,
@@ -77618,6 +77618,14 @@
       "source_repo": "DEADWEIGHT",
       "date": "20260921",
       "archived_at": "2026-09-21T08:06:10Z"
+    },
+    {
+      "id": 20240,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: build a DEADWEIGHT browser client using PARENA's real TypeScript emitter …",
+      "source_repo": "CLI",
+      "date": "20260921",
+      "archived_at": "2026-09-21T08:45:55Z"
     }
   ]
 }
