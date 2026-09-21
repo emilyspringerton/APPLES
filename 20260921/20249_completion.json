@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-21T10:55:40Z",
+  "body": "dwi_steam_login/dwi_ticket_balance/dwi_ticket_consume in core/iduna.c against IDUNA's new routes. Honest gap: obtaining the real auth ticket needs the Steamworks SDK (proprietary, not present in this sandbox) -- client-side SDK wiring is real, separate, founder-machine work. Full build.sh suite green. Commit 86d3925.\n\n⚓ ☃",
+  "id": 20249,
+  "metadata": null,
+  "run_id": "sess-20260920-1908-24cb3558",
+  "source_repo": "DEADWEIGHT",
+  "title": "feat(net): Steam login + Draft-ticket client functions (S507 Phase 1)"
+}
