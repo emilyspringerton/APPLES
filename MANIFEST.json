@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-21T20:11:45Z",
+  "generated_at": "2026-09-21T20:11:54Z",
   "repo": "APPLES",
-  "count": 9756,
+  "count": 9757,
   "apples": [
     {
       "id": 10525,
@@ -78050,6 +78050,14 @@
       "source_repo": "CLI",
       "date": "20260921",
       "archived_at": "2026-09-21T20:11:45Z"
+    },
+    {
+      "id": 20294,
+      "type": "completion",
+      "title": "changelog(DEADWEIGHT): Fix: redeem-code input buffer was 23 chars, truncating ever…",
+      "source_repo": "DEADWEIGHT",
+      "date": "20260921",
+      "archived_at": "2026-09-21T20:11:54Z"
     }
   ]
 }

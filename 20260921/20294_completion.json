@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-21T20:11:54Z",
+  "body": "CHANGELOG updated in DEADWEIGHT: Fix: redeem-code input buffer was 23 chars, truncating every real 29-char claim code before it was sent -- unlocking Premium/redeeming codes never worked. Also fixed stale ticket-balance display (to_menu never refreshed it) and a hardcoded hub_active=1 bug that ignored the server's real draft-run state after a run ended. (sess-20260920-1908-24cb3558)\n\n⚓ ☃",
+  "id": 20294,
+  "metadata": null,
+  "run_id": "sess-20260920-1908-24cb3558",
+  "source_repo": "DEADWEIGHT",
+  "title": "changelog(DEADWEIGHT): Fix: redeem-code input buffer was 23 chars, truncating ever…"
+}

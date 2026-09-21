@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-21T20:11:54Z",
+  "body": "Founder's live testing of v0.54.0 (first release with working TLS) found 3 issues. URGENT one fixed: redeem codes never worked at all -- A.redeem_code was char[24] but a real claim code is 29 chars, so the client's own input field silently truncated every real code before sending it; redeem() correctly rejected the mangled string every time. Fixed by bumping the buffer to char[40] (field_cap() picks it up automatically). Verified server-side redeem() itself was never broken (curl against production succeeds both before and after). Also investigated the '1 ticket 2 drafts' report: direct DB inspection of a real test player showed the server-side economy was actually charging correctly (4 sequential real ticket deductions for 4 real draft-run-starts, no double-spend) -- so fixed the real client-side cause instead: to_menu() never refreshed the displayed ticket balance (froze until next full restart), and the S_END hub-continue handler hardcoded hub_active=1 after fetching the real state, so a naturally-ended run (3rd loss, auto-cashout) still displayed as active. Also removed a stale hardcoded /20 ticket cap display and a second always-on 'IDUNA OFFLINE' label that didn't use the real error reason (same class of bug as S517, a separate untouched copy of it). Noted but NOT fixed (founder flagged as lower priority): the natural 3-loss draft end has no 'you won N tickets' message the way manual Abort \u0026 Extract already does -- needs a small server API addition to carry the reward amount, real follow-up work. Full build.sh --gui green both with and without TLS linked. DEADWEIGHT commit 2bf928e, pushed.\n\n⚓ ☃",
+  "id": 20295,
+  "metadata": null,
+  "run_id": "sess-20260920-1908-24cb3558",
+  "source_repo": "DEADWEIGHT",
+  "title": "Fixed: redeem codes never worked + ticket display staleness (S520)"
+}
