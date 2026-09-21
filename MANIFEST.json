@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-21T18:02:46Z",
+  "generated_at": "2026-09-21T18:02:49Z",
   "repo": "APPLES",
-  "count": 9744,
+  "count": 9745,
   "apples": [
     {
       "id": 10525,
@@ -77954,6 +77954,14 @@
       "source_repo": "CLI",
       "date": "20260921",
       "archived_at": "2026-09-21T18:02:46Z"
+    },
+    {
+      "id": 20282,
+      "type": "completion",
+      "title": "S515: reverted rolling ticket window back to fixed UTC midnight reset",
+      "source_repo": "IDUNA",
+      "date": "20260921",
+      "archived_at": "2026-09-21T18:02:49Z"
     }
   ]
 }

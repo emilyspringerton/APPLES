@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-21T18:02:49Z",
+  "body": "Exec-flagged retention risk with S512's rolling 24h-since-last-topup window (drifts a player's reset later every day they skip). Reverted to date(last_ticket_topup_at) \u003c date('now') fixed UTC calendar-day check, redeployed production, test replaced. Commit e2ee156.\n\n⚓ ☃",
+  "id": 20282,
+  "metadata": null,
+  "run_id": "sess-20260920-1908-24cb3558",
+  "source_repo": "IDUNA",
+  "title": "S515: reverted rolling ticket window back to fixed UTC midnight reset"
+}
