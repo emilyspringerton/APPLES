@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-21T17:58:27Z",
+  "body": "Corrected brand guide platform framing (desktop=brutalist brand, Android=shelved), README/CLAUDE.md updated for Itch+Steam desktop-only launch plan. Actually spun up dw_server+bots+dw_gui under Xvfb, played a real match via xdotool, found+fixed a real button text-overflow bug live. Commits 7fc0cc3, 1baa115.\n\n⚓ ☃",
+  "id": 20280,
+  "metadata": null,
+  "run_id": "sess-20260920-1908-24cb3558",
+  "source_repo": "DEADWEIGHT",
+  "title": "S513: desktop-first pivot documented + live-played the real client"
+}

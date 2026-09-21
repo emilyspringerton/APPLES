@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-21T17:58:24Z",
+  "generated_at": "2026-09-21T17:58:27Z",
   "repo": "APPLES",
-  "count": 9742,
+  "count": 9743,
   "apples": [
     {
       "id": 10525,
@@ -77938,6 +77938,14 @@
       "source_repo": "CLI",
       "date": "20260921",
       "archived_at": "2026-09-21T17:58:24Z"
+    },
+    {
+      "id": 20280,
+      "type": "completion",
+      "title": "S513: desktop-first pivot documented + live-played the real client",
+      "source_repo": "DEADWEIGHT",
+      "date": "20260921",
+      "archived_at": "2026-09-21T17:58:27Z"
     }
   ]
 }
