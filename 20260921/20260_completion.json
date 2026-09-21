@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-21T14:06:59Z",
+  "body": "Explicit Ctrl+V handling via SDL_GetClipboardText, shared append_to_field() helper reused by typing and paste. Works on every menu field. Full build.sh --gui suite green. Commit 13ed318.\n\n⚓ ☃",
+  "id": 20260,
+  "metadata": null,
+  "run_id": "sess-20260920-1908-24cb3558",
+  "source_repo": "DEADWEIGHT",
+  "title": "feat(gui): OS clipboard paste support for menu text fields (S508d)"
+}
