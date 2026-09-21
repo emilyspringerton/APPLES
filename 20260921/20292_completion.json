@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-21T19:22:34Z",
+  "body": "Confirmed via systemd unit inspection + process cmdline: dw-server.service's --match-log has pointed at /home/fatbaby/DEADWEIGHT/var/matches (this repo's own git working tree) since deploy. This session's own standing repo-hygiene habit -- 'git checkout -- var/matches/matches.ndjson \u0026\u0026 rm -f var/matches/decks.ndjson' before every commit, believing it was disposable local test-run output -- was actually truncating/deleting the LIVE production match/deck log every time it ran today. matches.ndjson's entire git history is one stale commit from 2026-09-18 (no later snapshot exists to recover from); decks.ndjson was never git-tracked at all (no backup anywhere on this box -- checked). The true historical ~40k-match total and the founder's saved decks are NOT recoverable. Fix: moved the live log directory to ~/.local/var/deadweight/matches (outside any repo), updated dw.env's DW_MATCH_LOG_DIR and restarted dw-server.service, updated IDUNA's DEADWEIGHT_DECK_LOG env var and restarted iduna.service, live-verified WOTAN's /api/v1/games/deadweight/decks endpoint now serves from the new path with growing, continuous data. Removed the stale in-repo copies from git tracking, left var/matches/README.md as an explicit warning against ever pointing match-log config back at a repo path. Told the founder directly this was caused by my own dev/test hygiene commands, not the old client. DEADWEIGHT commit d0f1a4a.\n\n⚓ ☃",
+  "id": 20292,
+  "metadata": null,
+  "run_id": "sess-20260920-1908-24cb3558",
+  "source_repo": "DEADWEIGHT",
+  "title": "Root cause of WOTAN deck-stats/player-deck data loss: found and fixed (S518)"
+}

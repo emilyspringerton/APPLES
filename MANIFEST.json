@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-21T19:19:13Z",
+  "generated_at": "2026-09-21T19:22:34Z",
   "repo": "APPLES",
-  "count": 9753,
+  "count": 9754,
   "apples": [
     {
       "id": 10525,
@@ -78026,6 +78026,14 @@
       "source_repo": "DEADWEIGHT",
       "date": "20260921",
       "archived_at": "2026-09-21T19:19:13Z"
+    },
+    {
+      "id": 20291,
+      "type": "completion",
+      "title": "changelog(DEADWEIGHT): Fix: live match/deck logs (dw-server's --match-log) moved o…",
+      "source_repo": "DEADWEIGHT",
+      "date": "20260921",
+      "archived_at": "2026-09-21T19:22:34Z"
     }
   ]
 }

@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-21T19:22:34Z",
+  "body": "CHANGELOG updated in DEADWEIGHT: Fix: live match/deck logs (dw-server's --match-log) moved out of the git working tree to ~/.local/var/deadweight/matches -- the in-repo path was being unknowingly truncated by routine dev repo-hygiene commands, which caused the WOTAN deck-stats/player-deck data loss reported 2026-09-21 (sess-20260920-1908-24cb3558)\n\n⚓ ☃",
+  "id": 20291,
+  "metadata": null,
+  "run_id": "sess-20260920-1908-24cb3558",
+  "source_repo": "DEADWEIGHT",
+  "title": "changelog(DEADWEIGHT): Fix: live match/deck logs (dw-server's --match-log) moved o…"
+}
