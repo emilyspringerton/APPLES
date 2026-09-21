@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-21T17:29:53Z",
+  "generated_at": "2026-09-21T17:29:55Z",
   "repo": "APPLES",
-  "count": 9735,
+  "count": 9736,
   "apples": [
     {
       "id": 10525,
@@ -77882,6 +77882,14 @@
       "source_repo": "DEADWEIGHT",
       "date": "20260921",
       "archived_at": "2026-09-21T17:29:53Z"
+    },
+    {
+      "id": 20273,
+      "type": "completion",
+      "title": "changelog(IDUNA): S512: guest-register auto-generates lore-friendly names whe…",
+      "source_repo": "IDUNA",
+      "date": "20260921",
+      "archived_at": "2026-09-21T17:29:55Z"
     }
   ]
 }
