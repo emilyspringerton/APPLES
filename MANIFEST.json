@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-21T05:57:32Z",
+  "generated_at": "2026-09-21T05:57:36Z",
   "repo": "APPLES",
-  "count": 9699,
+  "count": 9700,
   "apples": [
     {
       "id": 10525,
@@ -77594,6 +77594,14 @@
       "source_repo": "IDUNA",
       "date": "20260921",
       "archived_at": "2026-09-21T05:57:32Z"
+    },
+    {
+      "id": 20237,
+      "type": "completion",
+      "title": "NOCK code-server fixed + OpenExecutive Back Office page shipped (S486, S506)",
+      "source_repo": "IDUNA",
+      "date": "20260921",
+      "archived_at": "2026-09-21T05:57:36Z"
     }
   ]
 }

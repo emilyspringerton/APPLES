@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-21T05:57:36Z",
+  "body": "console.okemily.com replaces the broken /admin/nock/code subpath (code-server has no base-path support, confirmed live). Workspace trust disabled. New /admin/openexecutive status+provisioning page shipped; found and fixed a real permission-registration gap (openexec.read/openexec.admin never existed as DB rows, so the provision endpoint had silently failed closed since it was added) and a hardcoded-localhost JWKSUrl bug. All changes deployed live and verified end-to-end against the running binary, not just tested in isolation. Commits: d90e1ab, ad0f09e, 33bd758, bf7e90a.\n\n⚓ ☃",
+  "id": 20237,
+  "metadata": null,
+  "run_id": "sess-20260920-1908-24cb3558",
+  "source_repo": "IDUNA",
+  "title": "NOCK code-server fixed + OpenExecutive Back Office page shipped (S486, S506)"
+}
