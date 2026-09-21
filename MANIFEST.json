@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-21T00:06:31Z",
+  "generated_at": "2026-09-21T00:06:45Z",
   "repo": "APPLES",
-  "count": 9695,
+  "count": 9696,
   "apples": [
     {
       "id": 10525,
@@ -77562,6 +77562,14 @@
       "source_repo": "OpenExecutive",
       "date": "20260921",
       "archived_at": "2026-09-21T00:06:31Z"
+    },
+    {
+      "id": 20233,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: integrate OpenExecutive (forked SenteLabsAI/OpenExecutive) into IDUNA via…",
+      "source_repo": "CLI",
+      "date": "20260921",
+      "archived_at": "2026-09-21T00:06:45Z"
     }
   ]
 }
