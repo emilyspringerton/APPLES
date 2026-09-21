@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-21T17:42:06Z",
+  "generated_at": "2026-09-21T17:42:33Z",
   "repo": "APPLES",
-  "count": 9740,
+  "count": 9741,
   "apples": [
     {
       "id": 10525,
@@ -77922,6 +77922,14 @@
       "source_repo": "DEADWEIGHT",
       "date": "20260921",
       "archived_at": "2026-09-21T17:42:06Z"
+    },
+    {
+      "id": 20278,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: requested a DEADWEIGHT Official Brand \u0026 Style Guide (aesthetic/lore pilla…",
+      "source_repo": "CLI",
+      "date": "20260921",
+      "archived_at": "2026-09-21T17:42:33Z"
     }
   ]
 }
