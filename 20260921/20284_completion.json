@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-21T18:22:36Z",
+  "body": "Replaced defaultAccountTier/tierCaps manual-flip design with effectiveDailyCap(is_founder, registered_at) -- no new column (registered_at already IS account_created_date), no cutover-day intervention needed. Founder redeem now bumps to 9999 in the same response. Claim Account preservation of registered_at verified + regression-tested. Redeployed production. Commit 3b77bad.\n\n⚓ ☃",
+  "id": 20284,
+  "metadata": null,
+  "run_id": "sess-20260920-1908-24cb3558",
+  "source_repo": "IDUNA",
+  "title": "S516: computed 3-tier ticket cap (Premium/Protofounder/Late-Free), zero manual cutover"
+}

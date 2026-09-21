@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-21T18:22:32Z",
+  "generated_at": "2026-09-21T18:22:36Z",
   "repo": "APPLES",
-  "count": 9746,
+  "count": 9747,
   "apples": [
     {
       "id": 10525,
@@ -77970,6 +77970,14 @@
       "source_repo": "CLI",
       "date": "20260921",
       "archived_at": "2026-09-21T18:22:32Z"
+    },
+    {
+      "id": 20284,
+      "type": "completion",
+      "title": "S516: computed 3-tier ticket cap (Premium/Protofounder/Late-Free), zero manual cutover",
+      "source_repo": "IDUNA",
+      "date": "20260921",
+      "archived_at": "2026-09-21T18:22:36Z"
     }
   ]
 }
