@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-21T17:30:13Z",
+  "generated_at": "2026-09-21T17:30:21Z",
   "repo": "APPLES",
-  "count": 9738,
+  "count": 9739,
   "apples": [
     {
       "id": 10525,
@@ -77906,6 +77906,14 @@
       "source_repo": "DEADWEIGHT",
       "date": "20260921",
       "archived_at": "2026-09-21T17:30:13Z"
+    },
+    {
+      "id": 20276,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: DEADWEIGHT client had too much friction for Itch launch -- 4 corrections …",
+      "source_repo": "CLI",
+      "date": "20260921",
+      "archived_at": "2026-09-21T17:30:21Z"
     }
   ]
 }
