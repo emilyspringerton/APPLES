@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-21T10:25:55Z",
+  "generated_at": "2026-09-21T10:46:19Z",
   "repo": "APPLES",
-  "count": 9708,
+  "count": 9709,
   "apples": [
     {
       "id": 10525,
@@ -77666,6 +77666,14 @@
       "source_repo": "CLI",
       "date": "20260921",
       "archived_at": "2026-09-21T10:25:55Z"
+    },
+    {
+      "id": 20246,
+      "type": "completion",
+      "title": "fix(net): phantom-slot livelock breaking PFSP self-play RL training under CPU contention",
+      "source_repo": "SHANKPIT",
+      "date": "20260921",
+      "archived_at": "2026-09-21T10:46:19Z"
     }
   ]
 }

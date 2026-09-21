@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-21T10:46:19Z",
+  "body": "Founder: 'we need to fix SHANKPIT PFSP pipeline it dont work.' Live-reproduced the real TimeoutError running the actual training pipeline; root cause was ensure_slot_for_sender() minting a permanent un-welcomed phantom slot for a stray USERCMD packet from a timed-out sender (only PACKET_CONNECT should allocate a slot). Fixed in apps/server/src/main.c, verified deterministically with zero slot activity for an unconnected USERCMD sender. go build clean, 13 Go tests + 39 Python tests green. SHANKPIT commit pending.\n\n⚓ ☃",
+  "id": 20246,
+  "metadata": null,
+  "run_id": "sess-20260920-1908-24cb3558",
+  "source_repo": "SHANKPIT",
+  "title": "fix(net): phantom-slot livelock breaking PFSP self-play RL training under CPU contention"
+}
