@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-21T11:34:37Z",
+  "body": "Main Menu wired to auto-register/login via IDUNA, ticket counter, DRAFT/PRACTICE buttons, Redeem Code box. Live-verified against real IDUNA + dw_server binaries (real account creation, real redeem, no double-grant on re-login). Full build.sh --gui suite green. Found and flagged a real architecture mismatch in the original Phase 3 orders (npc_controlled/redraw_cooldown describe a different game, GFD's battlegrounds_gui, not DEADWEIGHT) rather than faking it. Commit 6d6b972.\n\n⚓ ☃",
+  "id": 20252,
+  "metadata": null,
+  "run_id": "sess-20260920-1908-24cb3558",
+  "source_repo": "DEADWEIGHT",
+  "title": "feat(gui): Itch.io survival-launch Main Menu -- zero-friction IDUNA auth, DRAFT/PRACTICE, Redeem Code (S508)"
+}
