@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-21T19:19:11Z",
+  "generated_at": "2026-09-21T19:19:13Z",
   "repo": "APPLES",
-  "count": 9752,
+  "count": 9753,
   "apples": [
     {
       "id": 10525,
@@ -78018,6 +78018,14 @@
       "source_repo": "DEADWEIGHT",
       "date": "20260921",
       "archived_at": "2026-09-21T19:19:11Z"
+    },
+    {
+      "id": 20290,
+      "type": "completion",
+      "title": "Fixed misleading 'IDUNA offline' message in new client (S517)",
+      "source_repo": "DEADWEIGHT",
+      "date": "20260921",
+      "archived_at": "2026-09-21T19:19:13Z"
     }
   ]
 }
