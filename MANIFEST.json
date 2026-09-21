@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-21T18:46:48Z",
+  "generated_at": "2026-09-21T19:18:55Z",
   "repo": "APPLES",
-  "count": 9750,
+  "count": 9751,
   "apples": [
     {
       "id": 10525,
@@ -78002,6 +78002,14 @@
       "source_repo": "IDUNA",
       "date": "20260921",
       "archived_at": "2026-09-21T18:46:48Z"
+    },
+    {
+      "id": 20288,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: newest DEADWEIGHT client says 'no account IDUNA offline' but IDUNA is up …",
+      "source_repo": "CLI",
+      "date": "20260921",
+      "archived_at": "2026-09-21T19:18:55Z"
     }
   ]
 }
