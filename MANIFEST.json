@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-21T17:30:11Z",
+  "generated_at": "2026-09-21T17:30:13Z",
   "repo": "APPLES",
-  "count": 9737,
+  "count": 9738,
   "apples": [
     {
       "id": 10525,
@@ -77898,6 +77898,14 @@
       "source_repo": "IDUNA",
       "date": "20260921",
       "archived_at": "2026-09-21T17:30:11Z"
+    },
+    {
+      "id": 20275,
+      "type": "completion",
+      "title": "S512: zero-friction client boot -- no dev fields, live-verified 20-ticket grant",
+      "source_repo": "DEADWEIGHT",
+      "date": "20260921",
+      "archived_at": "2026-09-21T17:30:13Z"
     }
   ]
 }
