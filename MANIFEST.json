@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-21T20:11:54Z",
+  "generated_at": "2026-09-21T20:11:57Z",
   "repo": "APPLES",
-  "count": 9757,
+  "count": 9758,
   "apples": [
     {
       "id": 10525,
@@ -78058,6 +78058,14 @@
       "source_repo": "DEADWEIGHT",
       "date": "20260921",
       "archived_at": "2026-09-21T20:11:54Z"
+    },
+    {
+      "id": 20295,
+      "type": "completion",
+      "title": "Fixed: redeem codes never worked + ticket display staleness (S520)",
+      "source_repo": "DEADWEIGHT",
+      "date": "20260921",
+      "archived_at": "2026-09-21T20:11:57Z"
     }
   ]
 }
