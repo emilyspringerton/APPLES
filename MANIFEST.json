@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-21T21:51:58Z",
+  "generated_at": "2026-09-21T22:56:17Z",
   "repo": "APPLES",
-  "count": 9761,
+  "count": 9762,
   "apples": [
     {
       "id": 10525,
@@ -78090,6 +78090,14 @@
       "source_repo": "DEADWEIGHT",
       "date": "20260921",
       "archived_at": "2026-09-21T21:51:58Z"
+    },
+    {
+      "id": 20299,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: full DEADWEIGHT Itch launch auth-funnel spec -- Claim Account UI (button …",
+      "source_repo": "CLI",
+      "date": "20260921",
+      "archived_at": "2026-09-21T22:56:17Z"
     }
   ]
 }
