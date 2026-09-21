@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-21T00:06:31Z",
+  "body": "Relocated repo off /tmp clone to OpenExecutive/ (git history + untracked files verified intact); relocated misplaced integration doc out of DEADWEIGHT/, corrected its false Ready-to-deploy status; added OpenExecutive to root CLAUDE.md repo table; wrote OpenExecutive/NORTHSTAR.md with a real critical review -- 2 confirmed bugs (wrong JWT key algorithm EC-vs-RSA against IDUNA's real ES256 keys; wrong tool-schema shape Anthropic input_schema vs OpenAI type:function wrapper) plus zero wiring (no config fields, provider unregistered, auth middleware applied to no route, deps undeclared) and IDUNA-side process debt (stray committed empty iduna.db, one commit bundling unrelated changes). Found and named per founder's explicit scope, not fixed in this pass. golden-index entry OPENEXEC-NORTH added, BACKLOG.md SECTION 506 created.\n\n⚓ ☃",
+  "id": 20232,
+  "metadata": null,
+  "run_id": "sess-20260920-1908-24cb3558",
+  "source_repo": "OpenExecutive",
+  "title": "Filled in Emily Way process + wrote NORTHSTAR for OpenExecutive/IDUNA/Vertex integration"
+}
