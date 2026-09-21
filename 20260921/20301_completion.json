@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-21T22:56:24Z",
+  "body": "Implemented the founder's Itch-launch auth-funnel spec: (1) bumped grandfatherDailyCap 20-\u003e25 across the single source of truth + full test suite, live-verified fresh guests now get 25; (2) audited guest-upgrade (the Claim Account backend) against all 4 spec points (email uniqueness, guest-only via player_credentials check, bcrypt hash, player_id preservation) -- already fully correct from an earlier session, live-verified end to end including a 409 on double-claim; (3) consolidated the Back Office nav per founder ask ('clean up the menu so it just says DEADWEIGHT and the sub pages have 2 tabs') -- new /admin/deadweight hub with Claim Codes and a new Players tab (real account_state/founder/tickets per player, useful for confirming claims are landing without a DB shell). Full handlers suite green, real smoke test run and discarded before deploy, live-verified against production. Commits b69bd65, c2264a7.\n\n⚓ ☃",
+  "id": 20301,
+  "metadata": null,
+  "run_id": "sess-20260920-1908-24cb3558",
+  "source_repo": "IDUNA",
+  "title": "25-ticket cap + Claim Account audit + admin nav consolidation (S522/S523)"
+}
