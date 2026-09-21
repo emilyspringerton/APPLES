@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-21T19:19:10Z",
+  "body": "CHANGELOG updated in DEADWEIGHT: Fix: new client's guest auth no longer mislabels a 429 rate-limit rejection as 'IDUNA offline' -- surfaces the real HTTP status so a signup-cap hit is diagnosable, not mistaken for an outage (sess-20260920-1908-24cb3558)\n\n⚓ ☃",
+  "id": 20289,
+  "metadata": null,
+  "run_id": "sess-20260920-1908-24cb3558",
+  "source_repo": "DEADWEIGHT",
+  "title": "changelog(DEADWEIGHT): Fix: new client's guest auth no longer mislabels a 429 rate…"
+}

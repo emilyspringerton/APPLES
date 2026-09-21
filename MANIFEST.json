@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-21T19:18:55Z",
+  "generated_at": "2026-09-21T19:19:11Z",
   "repo": "APPLES",
-  "count": 9751,
+  "count": 9752,
   "apples": [
     {
       "id": 10525,
@@ -78010,6 +78010,14 @@
       "source_repo": "CLI",
       "date": "20260921",
       "archived_at": "2026-09-21T19:18:55Z"
+    },
+    {
+      "id": 20289,
+      "type": "completion",
+      "title": "changelog(DEADWEIGHT): Fix: new client's guest auth no longer mislabels a 429 rate…",
+      "source_repo": "DEADWEIGHT",
+      "date": "20260921",
+      "archived_at": "2026-09-21T19:19:11Z"
     }
   ]
 }

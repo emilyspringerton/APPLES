@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-21T19:19:11Z",
+  "body": "Root cause: IDUNA was up the whole time -- the new GUI client's guest-register/login was hitting the real 3-new-accounts-per-IP-per-day signup cap (429), but dwi_guest_register/dwi_guest_login collapsed every non-2xx response into the same generic failure the client showed for an actual network outage. Immediate unblock: cleared today's game_signup_log rows for the affected IPs (all confirmed to be my own dev/testing traffic from this session's live-play verification + curl smoke tests, not real players), re-verified guest-register succeeds against production (201, real player_id/token returned). Root-cause fix: both functions now take an optional out_status filled with the real HTTP status; iduna_bootstrap shows a distinct, honest message for a 429 vs a rejected saved account vs a genuine network failure. Full build.sh --gui + e2e suite green including the IDUNA e2e-3 auth path. DEADWEIGHT commit c81ae23, pushed -- CI will cut a new release. Also flagged (IDUNA Apple #20288 / observe) but NOT yet investigated: WOTAN deck match-count stats dropped ~40k-\u003e~1k, and player decks disappeared from the Player tab -- founder said fix IDUNA-offline first, this is next.\n\n⚓ ☃",
+  "id": 20290,
+  "metadata": null,
+  "run_id": "sess-20260920-1908-24cb3558",
+  "source_repo": "DEADWEIGHT",
+  "title": "Fixed misleading 'IDUNA offline' message in new client (S517)"
+}
