@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-21T17:29:55Z",
+  "generated_at": "2026-09-21T17:30:11Z",
   "repo": "APPLES",
-  "count": 9736,
+  "count": 9737,
   "apples": [
     {
       "id": 10525,
@@ -77890,6 +77890,14 @@
       "source_repo": "IDUNA",
       "date": "20260921",
       "archived_at": "2026-09-21T17:29:55Z"
+    },
+    {
+      "id": 20274,
+      "type": "completion",
+      "title": "S512: auto-generated lore names on guest-register, ticket rolling-window locked in",
+      "source_repo": "IDUNA",
+      "date": "20260921",
+      "archived_at": "2026-09-21T17:30:11Z"
     }
   ]
 }

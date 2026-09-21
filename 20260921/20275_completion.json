@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-21T17:30:11Z",
+  "body": "Removed Host/Port/Name UI from the menu, added a real Establishing Connection loading screen, wired server-assigned lore names through. Live-verified against production: fresh boot -\u003e real auto-name + real tickets:20. Commit 3b0b6fd.\n\n⚓ ☃",
+  "id": 20275,
+  "metadata": null,
+  "run_id": "sess-20260920-1908-24cb3558",
+  "source_repo": "DEADWEIGHT",
+  "title": "S512: zero-friction client boot -- no dev fields, live-verified 20-ticket grant"
+}
