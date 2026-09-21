@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-21T15:39:25Z",
+  "generated_at": "2026-09-21T15:39:27Z",
   "repo": "APPLES",
-  "count": 9725,
+  "count": 9726,
   "apples": [
     {
       "id": 10525,
@@ -77802,6 +77802,14 @@
       "source_repo": "PARENA",
       "date": "20260921",
       "archived_at": "2026-09-21T15:39:25Z"
+    },
+    {
+      "id": 20263,
+      "type": "completion",
+      "title": "feat(net): real TLS via PARENA's mbedTLS FFI, client defaults to production IDUNA URL (S508e)",
+      "source_repo": "DEADWEIGHT",
+      "date": "20260921",
+      "archived_at": "2026-09-21T15:39:27Z"
     }
   ]
 }
