@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-21T05:57:36Z",
+  "generated_at": "2026-09-21T07:30:24Z",
   "repo": "APPLES",
-  "count": 9700,
+  "count": 9701,
   "apples": [
     {
       "id": 10525,
@@ -77602,6 +77602,14 @@
       "source_repo": "IDUNA",
       "date": "20260921",
       "archived_at": "2026-09-21T05:57:36Z"
+    },
+    {
+      "id": 20238,
+      "type": "completion",
+      "title": "GOLDEN_DOCS full snapshot repo built + CLAUDE.md sync mechanism",
+      "source_repo": "GOLDEN_DOCS",
+      "date": "20260921",
+      "archived_at": "2026-09-21T07:30:24Z"
     }
   ]
 }

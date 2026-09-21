@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-21T07:30:24Z",
+  "body": "Pushed 239 files (234 golden docs + 5 EMILY context files) to new repo emilyspringerton/GOLDEN_DOCS, hashed in MANIFEST.md. Sync mechanism: a standing instruction in the monorepo's own root CLAUDE.md plus GOLDEN_DOCS/CLAUDE.md's own regeneration script -- CLAUDE-files-only per explicit founder direction, not CI automation. Real CI automation tracked as a follow-up in EMILY/BACKLOG.md SECTION 507.\n\n⚓ ☃",
+  "id": 20238,
+  "metadata": null,
+  "run_id": "sess-20260920-1908-24cb3558",
+  "source_repo": "GOLDEN_DOCS",
+  "title": "GOLDEN_DOCS full snapshot repo built + CLAUDE.md sync mechanism"
+}
