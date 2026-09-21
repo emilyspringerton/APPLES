@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-21T15:39:25Z",
+  "body": "Found live: production binary predated all of today's commits (built 07:06, code landed 11:34-14:06). Backed up binary+DB, rebuilt, restarted via systemd, live-verified new routes working through the public domain. Generated 500 tier_premium codes via gen-claim-codes against the now-current production DB, live-verified one redemption end to end, 499 remain in batch_1_keys.txt (gitignored, not committed).\n\n⚓ ☃",
+  "id": 20264,
+  "metadata": null,
+  "run_id": "sess-20260920-1908-24cb3558",
+  "source_repo": "IDUNA",
+  "title": "ops: redeployed production IDUNA with today's S508/S508c/S508d economy work + generated 499 real Premium claim codes"
+}

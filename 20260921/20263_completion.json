@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-21T15:39:25Z",
+  "body": "dw_http/dw_parse_url gained real use_tls path, fails clean never falls back to plaintext. Client defaults to https://okemily.com now. Live-verified with the actual shipped binary: real handshake, real cert verification, real guest account created against production. Windows cross-build honestly named as not-yet-done. Commit ce236f1.\n\n⚓ ☃",
+  "id": 20263,
+  "metadata": null,
+  "run_id": "sess-20260920-1908-24cb3558",
+  "source_repo": "DEADWEIGHT",
+  "title": "feat(net): real TLS via PARENA's mbedTLS FFI, client defaults to production IDUNA URL (S508e)"
+}

@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-21T15:39:25Z",
+  "body": "net/tls.prn + runtime PARENA_WITH_TLS block, real handle-table design (no I64/ptr scalar type), hardcoded cert verification. Live-verified via the actual compiled .prn-\u003eC-\u003elinked pipeline against real production okemily.com. Commit 593f6ec + fix 61c4505.\n\n⚓ ☃",
+  "id": 20262,
+  "metadata": null,
+  "run_id": "sess-20260920-1908-24cb3558",
+  "source_repo": "PARENA",
+  "title": "feat(stdlib/net): real TLS via mbedTLS FFI, never hand-rolled crypto (S508e)"
+}
