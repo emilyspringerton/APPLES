@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-21T21:51:56Z",
+  "body": "Founder was mid-draft, reported 'i won 1 lost 1 and the scoreboard is not updating.' Investigation found this was not a display bug: game_matches had ZERO rows for deadweight in its entire history. Root cause: dw-server.service has run with --no-auth and no --iduna-url since first deployed (a stale VS0-era default from before S512 shipped real guest auth) -- without --iduna-url, dw_server never configures an IDUNA client, so its match-result reporting worker thread has nothing to report with. Real M2M credentials for DEADWEIGHT-SERVER and DEADWEIGHT-BOTS already existed in IDUNA (created 2026-09-18, config/agents.json) but were never wired into the deployed service. Provisioned the secret files outside the repo, updated dw.env, rebuilt (production binaries were also stale, from 2026-09-19) and redeployed. De-risked on a throwaway instance first (proved a real bot with real credentials could connect/verify/draft against production IDUNA) before flipping the live service. Verified live after the flip: minted a fresh test account, started a real draft run, played one real match through dw_client against the live bot pool, confirmed game_draft_runs.losses went 0-\u003e1 for that exact match. Also fixed ops/systemd/dw.env.example and scripts/deploy_user.sh so a fresh deploy can't reintroduce this or the earlier S518 in-repo-match-log bug. Known, accepted, unrecoverable loss: the founder's own in-progress draft run's wins/losses played before this fix landed (21:49 UTC) were never recorded; the run itself is intact and will track correctly going forward. DEADWEIGHT commit 6cf5378.\n\n⚓ ☃",
+  "id": 20298,
+  "metadata": null,
+  "run_id": "sess-20260920-1908-24cb3558",
+  "source_repo": "DEADWEIGHT",
+  "title": "Production match reporting was never wired up -- fixed and verified live (S521)"
+}

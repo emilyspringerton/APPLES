@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-21T21:51:56Z",
+  "body": "CHANGELOG updated in DEADWEIGHT: Fix: production dw_server has run with --no-auth and no IDUNA config since it was first deployed -- match results, ELO stats, and draft win-loss tracking were never once reported to IDUNA. Wired in the real (already-provisioned) DEADWEIGHT-SERVER/DEADWEIGHT-BOTS agent credentials, redeployed, and verified end to end against production (a real match's loss correctly incremented a test account's draft run). (sess-20260920-1908-24cb3558)\n\n⚓ ☃",
+  "id": 20297,
+  "metadata": null,
+  "run_id": "sess-20260920-1908-24cb3558",
+  "source_repo": "DEADWEIGHT",
+  "title": "changelog(DEADWEIGHT): Fix: production dw_server has run with --no-auth and no IDU…"
+}

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-21T21:51:48Z",
+  "generated_at": "2026-09-21T21:51:56Z",
   "repo": "APPLES",
-  "count": 9759,
+  "count": 9760,
   "apples": [
     {
       "id": 10525,
@@ -78074,6 +78074,14 @@
       "source_repo": "CLI",
       "date": "20260921",
       "archived_at": "2026-09-21T21:51:48Z"
+    },
+    {
+      "id": 20297,
+      "type": "completion",
+      "title": "changelog(DEADWEIGHT): Fix: production dw_server has run with --no-auth and no IDU…",
+      "source_repo": "DEADWEIGHT",
+      "date": "20260921",
+      "archived_at": "2026-09-21T21:51:56Z"
     }
   ]
 }
