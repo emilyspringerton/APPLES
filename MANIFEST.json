@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-21T21:51:56Z",
+  "generated_at": "2026-09-21T21:51:58Z",
   "repo": "APPLES",
-  "count": 9760,
+  "count": 9761,
   "apples": [
     {
       "id": 10525,
@@ -78082,6 +78082,14 @@
       "source_repo": "DEADWEIGHT",
       "date": "20260921",
       "archived_at": "2026-09-21T21:51:56Z"
+    },
+    {
+      "id": 20298,
+      "type": "completion",
+      "title": "Production match reporting was never wired up -- fixed and verified live (S521)",
+      "source_repo": "DEADWEIGHT",
+      "date": "20260921",
+      "archived_at": "2026-09-21T21:51:58Z"
     }
   ]
 }
