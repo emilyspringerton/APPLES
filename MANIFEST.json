@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-21T11:44:41Z",
+  "generated_at": "2026-09-21T12:56:58Z",
   "repo": "APPLES",
-  "count": 9716,
+  "count": 9717,
   "apples": [
     {
       "id": 10525,
@@ -77730,6 +77730,14 @@
       "source_repo": "CLI",
       "date": "20260921",
       "archived_at": "2026-09-21T11:44:41Z"
+    },
+    {
+      "id": 20254,
+      "type": "signal_observation",
+      "title": "[INFO] RESOLVED: the agent-secrets.env incident from earlier this session (IDUNA_ROOT mistake durin…",
+      "source_repo": "CLI",
+      "date": "20260921",
+      "archived_at": "2026-09-21T12:56:58Z"
     }
   ]
 }
