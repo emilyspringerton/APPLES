@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-21T22:56:32Z",
+  "body": "Implemented the founder's full Claim Account UI spec: is_guest tracked from the server's real account_state (not just 'no email typed'), a real brutalist bordered modal screen (S_CLAIM) with labeled EMAIL/PASSWORD fields replacing the old always-visible unlabeled inline boxes, button only shown for real guests, permanent CONNECTION SECURED confirmation on claimed accounts. Also did a live design/usability pass the founder asked for mid-turn: reproduced (via a real Xvfb window resize, not assumed) and fixed a genuine bug where maximizing/fullscreening left the game pinned top-left in a huge black window instead of staying centered -- SDL2's logical-size letterbox doesn't reliably recompute on a live resize for this renderer, fixed by forcing SDL_RenderSetLogicalSize again on the resize event. Found and fixed a second real bug in the process: the 5x7 bitmap font (the real Adafruit GLCD table) never had '@' or '*' glyphs, so every '@' in a typed email and the whole password mask rendered as '?' -- added both. Removed the stale /20 ticket-cap display left over from before S516. Full build.sh --gui green with and without TLS; every visual fix live-verified via real screenshots (modal open, typed email showing correctly, CONNECTION SECURED after submit, centered after a live resize). Noted, not built: founder asked whether players can rename -- confirmed no rename path exists anywhere in this client or IDUNA's guest-upgrade endpoint (a real gap, IDUNA's own source already flags it), told the founder directly rather than silently building or silently ignoring it. Commit a9fdd65, pushed, CI cutting a new release.\n\n⚓ ☃",
+  "id": 20303,
+  "metadata": null,
+  "run_id": "sess-20260920-1908-24cb3558",
+  "source_repo": "DEADWEIGHT",
+  "title": "Claim Account modal + legibility/usability pass (S522/S523)"
+}

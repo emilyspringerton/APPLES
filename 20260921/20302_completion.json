@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-21T22:56:32Z",
+  "body": "CHANGELOG updated in DEADWEIGHT: New Claim Account modal (brutalist, labeled EMAIL/PASSWORD, gated on real Guest state via account_state) replaces the old always-visible unlabeled inline fields; fixed a real bug where maximizing/fullscreening the window left content pinned top-left instead of centered; added missing '@'/'*' glyphs to the bitmap font (email/password fields were unreadable) (sess-20260920-1908-24cb3558)\n\n⚓ ☃",
+  "id": 20302,
+  "metadata": null,
+  "run_id": "sess-20260920-1908-24cb3558",
+  "source_repo": "DEADWEIGHT",
+  "title": "changelog(DEADWEIGHT): New Claim Account modal (brutalist, labeled EMAIL/PASSWORD,…"
+}
