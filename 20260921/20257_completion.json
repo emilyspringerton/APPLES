@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-21T12:58:52Z",
+  "body": "Self-caused: cmd/bootstrap ran against a throwaway SQLite DB but IDUNA_ROOT still pointed at the real checkout, overwriting var/agent-secrets.env for all 20 real agents. Real production DB untouched. Founder approved full rotation (cmd/bootstrap -rotate) + restart of 5 affected live systemd consumers (REDGARDEN x2, redgarden-stable, ECOWAR, GFD MUD), each with its own per-repo secret copy updated first. Verified live via a real /api/v1/auth/agent call and post-restart logs showing zero auth errors. Memory saved: throwaway_instance_full_isolation.md.\n\n⚓ ☃",
+  "id": 20257,
+  "metadata": null,
+  "run_id": "sess-20260920-1908-24cb3558",
+  "source_repo": "IDUNA",
+  "title": "incident: agent-secrets.env corrupted by throwaway-instance env leak, resolved via rotation + consumer restart"
+}

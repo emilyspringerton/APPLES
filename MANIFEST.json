@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-21T12:58:49Z",
+  "generated_at": "2026-09-21T12:58:52Z",
   "repo": "APPLES",
-  "count": 9719,
+  "count": 9720,
   "apples": [
     {
       "id": 10525,
@@ -77754,6 +77754,14 @@
       "source_repo": "DEADWEIGHT",
       "date": "20260921",
       "archived_at": "2026-09-21T12:58:49Z"
+    },
+    {
+      "id": 20257,
+      "type": "completion",
+      "title": "incident: agent-secrets.env corrupted by throwaway-instance env leak, resolved via rotation + consumer restart",
+      "source_repo": "IDUNA",
+      "date": "20260921",
+      "archived_at": "2026-09-21T12:58:52Z"
     }
   ]
 }
