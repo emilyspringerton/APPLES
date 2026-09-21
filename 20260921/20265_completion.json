@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-21T16:13:40Z",
+  "body": "Found and fixed: the TLS FFI block was nested inside net/tcp.prn's own #ifndef _WIN32 guard, silently compiling out on Windows. Moved it out, replaced raw poll() (not on Windows) with mbedtls_net_poll, added embedded-CA-bundle support. Commit 169e7e5.\n\n⚓ ☃",
+  "id": 20265,
+  "metadata": null,
+  "run_id": "sess-20260920-1908-24cb3558",
+  "source_repo": "PARENA",
+  "title": "fix(runtime): TLS block was dead code on Windows/mingw, plus real embedded-CA support (S508f)"
+}

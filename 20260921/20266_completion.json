@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-21T16:13:40Z",
+  "body": "Cross-compiled mbedTLS from source for mingw, embedded a real CA bundle (146 certs confirmed via strings), dw_gui.exe now builds with real TLS, valid PE32+, zero undefined symbols. Packaged and sent to founder for real Windows testing. Honestly not runtime-verified (no Wine in this sandbox). Commit 08ac75c.\n\n⚓ ☃",
+  "id": 20266,
+  "metadata": null,
+  "run_id": "sess-20260920-1908-24cb3558",
+  "source_repo": "DEADWEIGHT",
+  "title": "feat(net): real TLS for the Windows build too -- dw_gui.exe cross-compiles clean (S508f)"
+}

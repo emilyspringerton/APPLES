@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-21T15:39:29Z",
+  "generated_at": "2026-09-21T16:13:40Z",
   "repo": "APPLES",
-  "count": 9727,
+  "count": 9728,
   "apples": [
     {
       "id": 10525,
@@ -77818,6 +77818,14 @@
       "source_repo": "IDUNA",
       "date": "20260921",
       "archived_at": "2026-09-21T15:39:29Z"
+    },
+    {
+      "id": 20265,
+      "type": "completion",
+      "title": "fix(runtime): TLS block was dead code on Windows/mingw, plus real embedded-CA support (S508f)",
+      "source_repo": "PARENA",
+      "date": "20260921",
+      "archived_at": "2026-09-21T16:13:40Z"
     }
   ]
 }
