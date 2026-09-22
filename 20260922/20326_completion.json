@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-22T10:43:33Z",
+  "body": "Kanban card 21312343124: 'QR CODE GENERATOR - IDUNA INTEGRATED ALLOW US TO UPDATE A URL ON IDUNA BACKEND qr.okemily.com'. New qr_codes table + /admin/qr admin page + /admin/qr/api/codes CRUD (iduna.admin) + public /q/{slug} redirect and /q/{slug}.png live-rendered QR image (skip2/go-qrcode, no external process/qrencode dependency). Slug may be typed or left blank to auto-generate (reuses kanban card 82821821's own affordance). The real point: the QR image only ever encodes IDUNA's own stable /q/{slug} URL, so PATCHing target_url retargets every already-printed copy instantly with zero reprinting. qr.okemily.com itself is real, deliberately deferred DNS/nginx infra (human-only step, same class as WOTAN-DNS-001) -- everything works today at okemily.com/q/{slug}. 11 new tests, all passing. Live-verified end to end against production: created a code, fetched a real 512x512 PNG, followed the 302 redirect, retargeted it, confirmed the redirect changed without any new slug/image. IDUNA commit follows this Apple.\n\n⚓ ☃",
+  "id": 20326,
+  "metadata": null,
+  "run_id": "sess-20260920-1908-24cb3558",
+  "source_repo": "IDUNA",
+  "title": "Dynamic QR code registry (/admin/qr) — IDUNA-integrated, retargetable"
+}
