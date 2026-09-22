@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-22T15:30:26Z",
+  "generated_at": "2026-09-22T15:32:45Z",
   "repo": "APPLES",
-  "count": 9826,
+  "count": 9827,
   "apples": [
     {
       "id": 10525,
@@ -78610,6 +78610,14 @@
       "source_repo": "CLI",
       "date": "20260922",
       "archived_at": "2026-09-22T15:30:26Z"
+    },
+    {
+      "id": 20364,
+      "type": "completion",
+      "title": "Device GPG key generation, same in-app affordance as SSH",
+      "source_repo": "IDUNA.GAME",
+      "date": "20260922",
+      "archived_at": "2026-09-22T15:32:45Z"
     }
   ]
 }

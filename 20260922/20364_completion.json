@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-22T15:32:45Z",
+  "body": "Founder real-time direct follow-up: 'now we need gpg key generation same thing.' New internal/gpgkey shells out to the real, already-installed gpg binary (RSA 4096, sign-capable) into a self-contained keyring, never the caller's default ~/.gnupg. showDeviceGpgKey runs right after showDeviceKey in the login sequence, printing the real armored public key block -- private material never leaves the device. New reflux.ActionGpgKeyReady. Desktop-only (no gpg on Android), named not hidden. Real, live, passing test against the actual gpg binary. Commit a87bca2, pushed.\n\n⚓ ☃",
+  "id": 20364,
+  "metadata": null,
+  "run_id": "sess-20260920-1908-24cb3558",
+  "source_repo": "IDUNA.GAME",
+  "title": "Device GPG key generation, same in-app affordance as SSH"
+}
