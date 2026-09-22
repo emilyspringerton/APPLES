@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-22T20:00:15Z",
+  "body": "CHANGELOG updated in SHANKPIT: fix(lobby): real fallback for a silently-failing MSAA GLX visual request -- SDL_CreateWindow was returning NULL unchecked under Xvfb+llvmpipe (no 4x-MSAA visual available), causing every GL call to silently no-op for the rest of the process's life (100% CPU, zero crash, zero visible output). Found and fixed while validating the BIG_O engine merge with real Xvfb screenshots -- first real headless screenshots of this client to ever show actual content in this sandbox. (sess-20260920-1908-24cb3558)\n\n⚓ ☃",
+  "id": 20428,
+  "metadata": null,
+  "run_id": "sess-20260920-1908-24cb3558",
+  "source_repo": "SHANKPIT",
+  "title": "changelog(SHANKPIT): fix(lobby): real fallback for a silently-failing MSAA GLX v…"
+}

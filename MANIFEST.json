@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-22T20:00:03Z",
+  "generated_at": "2026-09-22T20:00:15Z",
   "repo": "APPLES",
-  "count": 9890,
+  "count": 9891,
   "apples": [
     {
       "id": 10525,
@@ -79122,6 +79122,14 @@
       "source_repo": "SHANKPIT",
       "date": "20260922",
       "archived_at": "2026-09-22T20:00:03Z"
+    },
+    {
+      "id": 20428,
+      "type": "completion",
+      "title": "changelog(SHANKPIT): fix(lobby): real fallback for a silently-failing MSAA GLX v…",
+      "source_repo": "SHANKPIT",
+      "date": "20260922",
+      "archived_at": "2026-09-22T20:00:15Z"
     }
   ]
 }
