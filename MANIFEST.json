@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-22T15:26:04Z",
+  "generated_at": "2026-09-22T15:27:38Z",
   "repo": "APPLES",
-  "count": 9823,
+  "count": 9824,
   "apples": [
     {
       "id": 10525,
@@ -78586,6 +78586,14 @@
       "source_repo": "CLI",
       "date": "20260922",
       "archived_at": "2026-09-22T15:26:04Z"
+    },
+    {
+      "id": 20361,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: build affordances to generate keys into the SHANKPIT client itself (IDUNA…",
+      "source_repo": "CLI",
+      "date": "20260922",
+      "archived_at": "2026-09-22T15:27:38Z"
     }
   ]
 }
