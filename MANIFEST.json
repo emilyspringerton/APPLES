@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-22T11:18:13Z",
+  "generated_at": "2026-09-22T11:18:20Z",
   "repo": "APPLES",
-  "count": 9802,
+  "count": 9803,
   "apples": [
     {
       "id": 10525,
@@ -78418,6 +78418,14 @@
       "source_repo": "IDUNA",
       "date": "20260922",
       "archived_at": "2026-09-22T11:18:13Z"
+    },
+    {
+      "id": 20340,
+      "type": "completion",
+      "title": "Model repository git-lfs integration, per-game on/off toggle (on by default)",
+      "source_repo": "IDUNA",
+      "date": "20260922",
+      "archived_at": "2026-09-22T11:18:20Z"
     }
   ]
 }
