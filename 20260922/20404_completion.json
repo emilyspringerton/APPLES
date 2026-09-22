@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-22T17:31:40Z",
+  "body": "Founder real-time (remote control, continued): port BIG_O tech into SHANKPIT. Landed phase 5: packages/common/pheromone.h, a verbatim port of BIG_O's pheromone marker/targeting/steering primitive, renamed away from Bigo* prefix. Verified with all 8 of BIG_O's own real bigo_pheromone_test.c checks -- all pass. Reserved PACKET_PHEROMONE_THROW=11 in protocol.h, matching that file's own established 'reserved, not yet implemented' precedent (BEDWARS packets 8/9); no struct defined since this repo's own protocol.h warns direct struct-casts don't match padded wire layout. Real, checked finding: The Men's dispatch loop itself (server_tick_witness/server_tick_dispatch) can't be ported yet, not deferred by choice -- it operates on a live ServerNpc array SHANKPIT's server has no equivalent of; same real blocker phases 2/3's own primitives share, resolved only once phase 7 builds a live NPC entity layer. SHANKPIT 0471fc0.\n\n⚓ ☃",
+  "id": 20404,
+  "metadata": null,
+  "run_id": "sess-20260920-1908-24cb3558",
+  "source_repo": "SHANKPIT",
+  "title": "BIG_O engine merge phase 5: pheromone command primitive + reserved wire packet"
+}

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-22T17:30:07Z",
+  "generated_at": "2026-09-22T17:31:40Z",
   "repo": "APPLES",
-  "count": 9865,
+  "count": 9866,
   "apples": [
     {
       "id": 10525,
@@ -78922,6 +78922,14 @@
       "source_repo": "emily",
       "date": "20260922",
       "archived_at": "2026-09-22T17:30:07Z"
+    },
+    {
+      "id": 20403,
+      "type": "completion",
+      "title": "changelog(SHANKPIT): BIG_O engine merge phase 5: pheromone command primitive (pa…",
+      "source_repo": "SHANKPIT",
+      "date": "20260922",
+      "archived_at": "2026-09-22T17:31:40Z"
     }
   ]
 }
