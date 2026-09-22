@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-22T10:30:46Z",
+  "generated_at": "2026-09-22T10:31:14Z",
   "repo": "APPLES",
-  "count": 9784,
+  "count": 9785,
   "apples": [
     {
       "id": 10525,
@@ -78274,6 +78274,14 @@
       "source_repo": "EMILY",
       "date": "20260922",
       "archived_at": "2026-09-22T10:30:46Z"
+    },
+    {
+      "id": 20322,
+      "type": "completion",
+      "title": "changelog(IDUNA): kanban: blank backlog_item_id auto-generates a T-prefixed t…",
+      "source_repo": "IDUNA",
+      "date": "20260922",
+      "archived_at": "2026-09-22T10:31:14Z"
     }
   ]
 }

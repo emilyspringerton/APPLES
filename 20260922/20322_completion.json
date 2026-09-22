@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-22T10:31:14Z",
+  "body": "CHANGELOG updated in IDUNA: kanban: blank backlog_item_id auto-generates a T-prefixed ticket number server-side (card 82821821); fixed a real bug where a bare-digit auto-id would break the done/archive path since internal/backlog's item regex requires a leading letter (sess-20260920-1908-24cb3558)\n\n⚓ ☃",
+  "id": 20322,
+  "metadata": null,
+  "run_id": "sess-20260920-1908-24cb3558",
+  "source_repo": "IDUNA",
+  "title": "changelog(IDUNA): kanban: blank backlog_item_id auto-generates a T-prefixed t…"
+}
