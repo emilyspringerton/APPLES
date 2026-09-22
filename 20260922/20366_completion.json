@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-22T15:34:44Z",
+  "body": "Founder real-time: dogfood all of SHANKPIT's physics into PARENA, new product is an in-browser FPS CAPTCHA. Real capability audit against actual source (not assumed): PARENA's emit_ts.c is scalar-only v0 (no defstruct/loop/Vec, checked in src/emit_ts.c), physics.h is 3427 lines of struct-heavy movement/collision/raycasting/rewind netcode -- the gap is a real compiler feature, not a content-porting problem alone. No in-browser 3D renderer exists anywhere in this monorepo. Named a real, unsolved design problem: SHANKPIT's own bots already outplay many humans, so a skill-only CAPTCHA needs a real humanness signal (MISHRI's HumannessLayer.ts is the closest real prior art, from the opposite side). 5-phase plan written, smallest real slice first. docs2/specs/CAPTCHA_FPS_PHYSICS_DOGFOOD_NORTHSTAR.md, commit d058020, pushed.\n\n⚓ ☃",
+  "id": 20366,
+  "metadata": null,
+  "run_id": "sess-20260920-1908-24cb3558",
+  "source_repo": "SHANKPIT",
+  "title": "Scoped: dogfood SHANKPIT physics into PARENA + browser-FPS CAPTCHA product"
+}
