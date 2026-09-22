@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-22T19:46:08Z",
+  "body": "Root-caused and fixed a real, confirmed CI failure (every run since commit ad648a7, run 35764647139 etc, 'Build Windows Client' step) via the real GitHub Actions API job log, not guessed at. Two real bugs, both reproduced and fixed locally with an actual x86_64-w64-mingw32-gcc cross-compile against the real SDL2 mingw devel kit before trusting the fix: (1) SIXTH real recurrence of this repo's own documented 'CI hand-copies its source list, drifts from the Makefile' bug class -- packages/simulation/typing_lesson.c, day_night_clock.c, world_rules.c, packages/render/sky_weather.c, and packages/reflux/reflux_mod.c were in the Makefile's LOBBY_SRC/SERVER_SRC but missing from both release.yml and tests.yml's hand-copied build commands. (2) A second, distinct, newly-found bug: packages/simulation/parena_runtime.h and packages/reflux/parena_runtime.h were an accidentally oversized copy of the FULL PARENA runtime (unconditional #include \u003cSDL2/SDL_ttf.h\u003e) that neither package's own code ever actually references (confirmed via grep -- zero Arena/Vec/Bytes/Sdl2 symbol usage anywhere in packages/simulation or packages/reflux) -- this never surfaced before because their only prior consumer (cutscene_effect_mod.c) has no Makefile entry; world_rules.c/reflux_mod.c (BIG_O merge phase 1/1c) were the first real consumers to ever get compiled, and the Windows CI job's SDL2 mingw devel kit doesn't ship SDL2_ttf headers at all. Fixed both headers at the source: replaced with the same minimal, already-CI-proven Arena/Vec/Bytes-only copy packages/world/parena_runtime.h already uses for png_decode_gen.c. Both fixes verified with real local Windows cross-compiles (produced a real 1MB ShankPit.exe and a real ShankServer_Linux) using the exact CI commands, plus a clean go test ./... run, before pushing.\n\n⚓ ☃",
+  "id": 20424,
+  "metadata": null,
+  "run_id": "sess-20260920-1908-24cb3558",
+  "source_repo": "SHANKPIT",
+  "title": "Fix SHANKPIT CI: Windows/Linux CI build had been failing since BIG_O merge phase 1"
+}

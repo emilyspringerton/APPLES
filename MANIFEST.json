@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-22T19:43:31Z",
+  "generated_at": "2026-09-22T19:46:08Z",
   "repo": "APPLES",
-  "count": 9886,
+  "count": 9887,
   "apples": [
     {
       "id": 10525,
@@ -79090,6 +79090,14 @@
       "source_repo": "emily",
       "date": "20260922",
       "archived_at": "2026-09-22T19:43:31Z"
+    },
+    {
+      "id": 20424,
+      "type": "completion",
+      "title": "Fix SHANKPIT CI: Windows/Linux CI build had been failing since BIG_O merge phase 1",
+      "source_repo": "SHANKPIT",
+      "date": "20260922",
+      "archived_at": "2026-09-22T19:46:08Z"
     }
   ]
 }
