@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-22T15:41:07Z",
+  "generated_at": "2026-09-22T15:44:52Z",
   "repo": "APPLES",
-  "count": 9835,
+  "count": 9836,
   "apples": [
     {
       "id": 10525,
@@ -78682,6 +78682,14 @@
       "source_repo": "CLI",
       "date": "20260922",
       "archived_at": "2026-09-22T15:41:07Z"
+    },
+    {
+      "id": 20373,
+      "type": "completion",
+      "title": "Real, live WebAssembly output proven -- zero new compiler code needed",
+      "source_repo": "PARENA",
+      "date": "20260922",
+      "archived_at": "2026-09-22T15:44:52Z"
     }
   ]
 }
