@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-22T09:37:48Z",
+  "generated_at": "2026-09-22T10:29:11Z",
   "repo": "APPLES",
-  "count": 9782,
+  "count": 9783,
   "apples": [
     {
       "id": 10525,
@@ -78258,6 +78258,14 @@
       "source_repo": "DEADWEIGHT",
       "date": "20260922",
       "archived_at": "2026-09-22T09:37:48Z"
+    },
+    {
+      "id": 20320,
+      "type": "backlog_completion",
+      "title": "Manual kanban move: we need the randomized ticket numbers i dont want to type ti",
+      "source_repo": "EMILY",
+      "date": "20260922",
+      "archived_at": "2026-09-22T10:29:11Z"
     }
   ]
 }
