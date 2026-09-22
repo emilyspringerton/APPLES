@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-22T15:03:42Z",
+  "generated_at": "2026-09-22T15:05:42Z",
   "repo": "APPLES",
-  "count": 9821,
+  "count": 9822,
   "apples": [
     {
       "id": 10525,
@@ -78570,6 +78570,14 @@
       "source_repo": "CLI",
       "date": "20260922",
       "archived_at": "2026-09-22T15:03:42Z"
+    },
+    {
+      "id": 20359,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: ship the latest version of DEADWEIGHT with the UI upgrades and working co…",
+      "source_repo": "CLI",
+      "date": "20260922",
+      "archived_at": "2026-09-22T15:05:42Z"
     }
   ]
 }
