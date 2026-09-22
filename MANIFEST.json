@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-21T22:56:34Z",
+  "generated_at": "2026-09-22T03:23:30Z",
   "repo": "APPLES",
-  "count": 9766,
+  "count": 9767,
   "apples": [
     {
       "id": 10525,
@@ -78130,6 +78130,14 @@
       "source_repo": "DEADWEIGHT",
       "date": "20260921",
       "archived_at": "2026-09-21T22:56:34Z"
+    },
+    {
+      "id": 20304,
+      "type": "completion",
+      "title": "changelog(DEADWEIGHT): New scripts/onboarding_screenshots.sh -- automates real, li…",
+      "source_repo": "DEADWEIGHT",
+      "date": "20260922",
+      "archived_at": "2026-09-22T03:23:30Z"
     }
   ]
 }
