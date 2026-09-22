@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-22T20:11:39Z",
+  "generated_at": "2026-09-22T20:15:28Z",
   "repo": "APPLES",
-  "count": 9892,
+  "count": 9893,
   "apples": [
     {
       "id": 10525,
@@ -79138,6 +79138,14 @@
       "source_repo": "emily",
       "date": "20260922",
       "archived_at": "2026-09-22T20:11:39Z"
+    },
+    {
+      "id": 20430,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: 'start the bot fill on shankpit queue lobby' -- checked live state before…",
+      "source_repo": "CLI",
+      "date": "20260922",
+      "archived_at": "2026-09-22T20:15:28Z"
     }
   ]
 }
