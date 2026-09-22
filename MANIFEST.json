@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-22T15:50:41Z",
+  "generated_at": "2026-09-22T15:51:18Z",
   "repo": "APPLES",
-  "count": 9840,
+  "count": 9841,
   "apples": [
     {
       "id": 10525,
@@ -78722,6 +78722,14 @@
       "source_repo": "MIXFORGE",
       "date": "20260922",
       "archived_at": "2026-09-22T15:50:41Z"
+    },
+    {
+      "id": 20378,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: continue -- build the DJ-room server (seat occupancy, join/leave, whose-t…",
+      "source_repo": "CLI",
+      "date": "20260922",
+      "archived_at": "2026-09-22T15:51:18Z"
     }
   ]
 }
