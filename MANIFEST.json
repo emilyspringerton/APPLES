@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-22T16:16:45Z",
+  "generated_at": "2026-09-22T16:17:37Z",
   "repo": "APPLES",
-  "count": 9845,
+  "count": 9846,
   "apples": [
     {
       "id": 10525,
@@ -78762,6 +78762,14 @@
       "source_repo": "CLI",
       "date": "20260922",
       "archived_at": "2026-09-22T16:16:45Z"
+    },
+    {
+      "id": 20383,
+      "type": "completion",
+      "title": "changelog(SHANKPIT): Scaled QUEUE bot pool from 40 to 12 (founder real-time); re…",
+      "source_repo": "SHANKPIT",
+      "date": "20260922",
+      "archived_at": "2026-09-22T16:17:37Z"
     }
   ]
 }

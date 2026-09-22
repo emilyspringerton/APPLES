@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-22T16:17:39Z",
+  "body": "Founder real-time: scale SHANKPIT queue bot pool down to 12 (from 40). Edited ops/systemd/shankpit-bot-pool.service (repo + deployed ~/.config/systemd/user copy), restarted shankpit-bot-pool.service, live-verified exactly 12 bot processes (frozen_policy_bot.py, active-opponent checkpoint 578) running against 127.0.0.1:6969. Repo commit 04720e9.\n\n⚓ ☃",
+  "id": 20384,
+  "metadata": null,
+  "run_id": "sess-20260920-1908-24cb3558",
+  "source_repo": "SHANKPIT",
+  "title": "Scale QUEUE bot pool to 12"
+}
