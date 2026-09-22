@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-22T12:22:28Z",
+  "body": "scripts/colab_train_league.py + notebooks/redgarden_pfsp_league_colab.ipynb: Drive-backed 3-role AlphaStar league launcher, wired to S533's checkpoint git-lfs sync. Structurally smoke-tested; full live PPO run blocked by a real pre-existing unrelated stable-baselines3 segfault in this sandbox, documented honestly in the notebook. REDGARDEN 6a4bcb6/11bd1a4.\n\n⚓ ☃",
+  "id": 20347,
+  "metadata": null,
+  "run_id": "sess-20260920-1908-24cb3558",
+  "source_repo": "REDGARDEN",
+  "title": "Colab driver + notebook for PFSP league fast-forward training"
+}
