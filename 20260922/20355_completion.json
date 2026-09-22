@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-22T14:19:40Z",
+  "body": "Real fork of PARENA/examples/editor_main.c + stdlib/editor/*.prn, same real save affordances (F2, hover-reveal Save). Verified: clean build (-Werror), live headless run with real syntax-highlighted rendering confirmed via screenshot. Wired into SHANKPIT lobby. EDITOR.GAME 4d500b4, SHANKPIT 04a743a.\n\n⚓ ☃",
+  "id": 20355,
+  "metadata": null,
+  "run_id": "sess-20260920-1908-24cb3558",
+  "source_repo": "EDITOR.GAME",
+  "title": "EDITOR.GAME: standalone fork of PARENA's real editor demo"
+}
