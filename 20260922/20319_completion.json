@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-22T09:37:48Z",
+  "body": "New gui-job CI step (main-push only): emily session new for build provenance, GPG-signs both platform artifacts, publishes to IDUNA's new /api/v1/app-releases with real GitHub commit/run provenance. Guarded no-op until 2 GitHub secrets exist (human-only step, see IDUNA/docs/APP_RELEASE_SIGNING.md). Found and fixed 2 real bugs before committing (wrong emily.cli repo/build path, missing closing quote) -- verified by actually running the extracted step end to end against live IDUNA. DEADWEIGHT 7046100.\n\n⚓ ☃",
+  "id": 20319,
+  "metadata": null,
+  "run_id": "sess-20260920-1908-24cb3558",
+  "source_repo": "DEADWEIGHT",
+  "title": "CI signs + publishes releases to IDUNA's app-release registry"
+}

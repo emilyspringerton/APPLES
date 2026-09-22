@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-22T09:37:44Z",
+  "generated_at": "2026-09-22T09:37:48Z",
   "repo": "APPLES",
-  "count": 9781,
+  "count": 9782,
   "apples": [
     {
       "id": 10525,
@@ -78250,6 +78250,14 @@
       "source_repo": "IDUNA",
       "date": "20260922",
       "archived_at": "2026-09-22T09:37:44Z"
+    },
+    {
+      "id": 20319,
+      "type": "completion",
+      "title": "CI signs + publishes releases to IDUNA's app-release registry",
+      "source_repo": "DEADWEIGHT",
+      "date": "20260922",
+      "archived_at": "2026-09-22T09:37:48Z"
     }
   ]
 }
