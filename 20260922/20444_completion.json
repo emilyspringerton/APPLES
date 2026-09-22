@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-22T22:45:25Z",
+  "body": "Real, deliberately narrow slice of 'the day/night/lab turn structure' -- checked first that lab_sim.c (phase 4) has zero UI/interaction model to hook into (a real, separate, much bigger scoping pass, not attempted here). What's real and buildable: two already-shipped, already-tested, never-instantiated systems -- day_night_clock (phase 1, ticking cosmetically since phase 1) and phone.h/world_alert_bridge (phase 6, tested in isolation only) -- composed for the first time into something the player can actually see. apps/lobby/src/main.c gains g_story_phone/g_story_alert_bridge (reuses the already-live clock, no second instance), ticked every frame alongside sky/weather. draw_hud's MODE_STORY block gains a real on-screen banner (top-left) whenever phone_tick's own anti-spam-windowed banner_id is set, showing DAYBREAK/NIGHTFALL/STORM WARNING via a small real lookup table (world_alerts_mod.prn's only 3 currently-dispatchable message ids). Makefile: world_alerts_mod.c/world_alert_bridge.c added to LOBBY_SRC, their first real consumer. Real, explicit scope cut: this is NOT the phone app UI (no home grid/Messages list/input), just the one real signal the pipeline can produce today. Verified: make lobby/make server clean, witness_ai_test.c (8 checks) unchanged, go test ./... clean, real Xvfb run confirms MODE_STORY still loads/renders correctly with zero crash or regression. Real, honest, NOT verified: the banner's actual on-screen appearance was never directly observed (a full day/weather cycle takes up to 24 real minutes -- too slow to catch live in this session's window); the underlying pipeline correctness is proven separately and unchanged by world_alert_bridge_test.c.\n\n⚓ ☃",
+  "id": 20444,
+  "metadata": null,
+  "run_id": "sess-20260920-1908-24cb3558",
+  "source_repo": "SHANKPIT",
+  "title": "BIG_O engine merge phase 7e: MODE_STORY's first real player-visible day/night turn boundary"
+}
