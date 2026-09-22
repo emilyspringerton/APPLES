@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-22T11:18:20Z",
+  "generated_at": "2026-09-22T11:26:01Z",
   "repo": "APPLES",
-  "count": 9803,
+  "count": 9804,
   "apples": [
     {
       "id": 10525,
@@ -78426,6 +78426,14 @@
       "source_repo": "IDUNA",
       "date": "20260922",
       "archived_at": "2026-09-22T11:18:20Z"
+    },
+    {
+      "id": 20341,
+      "type": "completion",
+      "title": "changelog(IDUNA_PRO): feat: dynamic QR code registry ported from IDUNA + Communit…",
+      "source_repo": "IDUNA_PRO",
+      "date": "20260922",
+      "archived_at": "2026-09-22T11:26:01Z"
     }
   ]
 }
