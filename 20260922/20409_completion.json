@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-22T17:45:58Z",
+  "body": "Phase 7 (MODE_STORY content cutover) checked and found far bigger than phases 1-6 combined -- story_ai.c is 1418 live lines wired across 3 apps, with real NOCK-authored levels already built against its AI_ROLE_* roster. Broken into sub-phases (7a-7e) rather than attempted blind in one shot, documented in docs2/specs/BIGO_ENGINE_MERGE_NORTHSTAR.md section 2i. Landed 7a: packages/simulation/witness_live.h + witness_live_test.c, ported verbatim from BIG_O's core/witness_live.h (bigo_* -\u003e witness_live_*) -- the real glue wiring a zombie's live mood (zombie_values.h, phase 3) into witness_rules.c's own pure decision function (npc_next_state, phase 2), the actual answer to the 'no live entity array' blocker phases 2/3/5 each named. Verified with a faithful replay of all 8 of BIG_O's own real assertions, zero behavior drift. Standalone primitive, no Makefile entry yet (same discipline as phases 2/3/5) since the live population loop that consumes it (7b) isn't built yet.\n\n⚓ ☃",
+  "id": 20409,
+  "metadata": null,
+  "run_id": "sess-20260920-1908-24cb3558",
+  "source_repo": "SHANKPIT",
+  "title": "BIG_O engine merge phase 7a: witness/zombie live-event glue"
+}
