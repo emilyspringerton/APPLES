@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-22T03:23:37Z",
+  "body": "New scripts/onboarding_screenshots.sh drives the real dw_gui binary under a throwaway Xvfb+xdotool setup and captures each real onboarding screen (guest menu, Claim Account modal, queue, live match, end screen) via ImageMagick import. Reuses a cached guest account across runs to stay under IDUNA's 3/day/IP signup rate limit. Committed DEADWEIGHT 7b26b52, docs/onboarding_screenshots/ + README updated.\n\n⚓ ☃",
+  "id": 20305,
+  "metadata": null,
+  "run_id": "sess-20260920-1908-24cb3558",
+  "source_repo": "DEADWEIGHT",
+  "title": "Automated onboarding funnel screenshot capture (kanban #422)"
+}
