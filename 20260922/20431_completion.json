@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-22T20:18:44Z",
+  "body": "Founder real-time: 'ok restart the matchmaking for shankpit totally fill and server'. Checked before restarting: server.log showed only 'Clients: 1' despite the bot-pool service reporting 12 running bot processes -- the bots had been running continuously since 16:16 UTC while shankpit-server.service had auto-restarted at 19:49 (Restart=on-failure, restart counter 1, unrelated prior hiccup), so the 12 UDP bot clients never re-handshook with the new server process and were silently sending into a void. Restarted shankpit-server.service (systemctl --user restart, new pid 62338) then shankpit-bot-pool.service (new pid 62351, 12 fresh frozen-policy bot processes, checkpoint 578). Verified live: server.log now shows all 12 bot slots (2-13) active/welcomed/cmd_seen, STATUS line reads 'Clients: 13' (12 bots + 1 apparent real player who joined during the same window) -- the queue lobby is genuinely, verifiably full now, not just process-alive. Both services confirmed systemctl active.\n\n⚓ ☃",
+  "id": 20431,
+  "metadata": null,
+  "run_id": "sess-20260920-1908-24cb3558",
+  "source_repo": "SHANKPIT",
+  "title": "Restarted SHANKPIT QUEUE server + bot pool -- fixed a stale-connection bug found live"
+}
