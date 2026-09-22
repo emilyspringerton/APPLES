@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-22T22:37:08Z",
+  "body": "CHANGELOG updated in SHANKPIT: BIG_O engine merge phase 7d: MODE_STORY roster cutover, replace outright (founder decision). VOXWORLD's story encounter now spawns witness_ai's citizens/zombies instead of story_ai.c's old AI_ROLE_* combat squad -- story_ai_seed_voxworld_encounter (175 lines) deleted, witness_ai wired into both real tick loops and the Makefile for the first time. Verified live via Xvfb: '[WITNESS] voxworld encounter seeded' fires correctly, boss fight/HUD unaffected. (sess-20260920-1908-24cb3558)\n\n⚓ ☃",
+  "id": 20442,
+  "metadata": null,
+  "run_id": "sess-20260920-1908-24cb3558",
+  "source_repo": "SHANKPIT",
+  "title": "changelog(SHANKPIT): BIG_O engine merge phase 7d: MODE_STORY roster cutover, rep…"
+}
