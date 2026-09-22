@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-22T15:56:20Z",
+  "generated_at": "2026-09-22T16:08:03Z",
   "repo": "APPLES",
-  "count": 9842,
+  "count": 9843,
   "apples": [
     {
       "id": 10525,
@@ -78738,6 +78738,14 @@
       "source_repo": "MIXFORGE",
       "date": "20260922",
       "archived_at": "2026-09-22T15:56:20Z"
+    },
+    {
+      "id": 20380,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: scale bots in the live queue match from 4 to 40",
+      "source_repo": "CLI",
+      "date": "20260922",
+      "archived_at": "2026-09-22T16:08:03Z"
     }
   ]
 }
