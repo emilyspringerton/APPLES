@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-22T23:12:49Z",
+  "generated_at": "2026-09-22T23:12:50Z",
   "repo": "APPLES",
-  "count": 9910,
+  "count": 9911,
   "apples": [
     {
       "id": 10525,
@@ -79282,6 +79282,14 @@
       "source_repo": "SHANKPIT",
       "date": "20260922",
       "archived_at": "2026-09-22T23:12:49Z"
+    },
+    {
+      "id": 20448,
+      "type": "completion",
+      "title": "CI fix: 7th recurrence, witness_ai family missing from hand-copied build lists",
+      "source_repo": "SHANKPIT",
+      "date": "20260922",
+      "archived_at": "2026-09-22T23:12:50Z"
     }
   ]
 }
