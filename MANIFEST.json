@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-22T10:48:18Z",
+  "generated_at": "2026-09-22T10:48:23Z",
   "repo": "APPLES",
-  "count": 9791,
+  "count": 9792,
   "apples": [
     {
       "id": 10525,
@@ -78330,6 +78330,14 @@
       "source_repo": "IDUNA",
       "date": "20260922",
       "archived_at": "2026-09-22T10:48:18Z"
+    },
+    {
+      "id": 20329,
+      "type": "completion",
+      "title": "BIG_O account-creation interface (/play/big_o), off IDUNA's own generic guest-account API",
+      "source_repo": "IDUNA",
+      "date": "20260922",
+      "archived_at": "2026-09-22T10:48:23Z"
     }
   ]
 }
