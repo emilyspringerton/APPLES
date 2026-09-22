@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-22T06:45:27Z",
+  "generated_at": "2026-09-22T06:54:19Z",
   "repo": "APPLES",
-  "count": 9771,
+  "count": 9772,
   "apples": [
     {
       "id": 10525,
@@ -78170,6 +78170,14 @@
       "source_repo": "IDUNA",
       "date": "20260922",
       "archived_at": "2026-09-22T06:45:27Z"
+    },
+    {
+      "id": 20309,
+      "type": "completion",
+      "title": "NORTHSTAR scoping pass: Slow Bot League (Elo/PFSP, seeded from live SHANKPIT checkpoint)",
+      "source_repo": "SLOWBOT_LEAGUE",
+      "date": "20260922",
+      "archived_at": "2026-09-22T06:54:19Z"
     }
   ]
 }

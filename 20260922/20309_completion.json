@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-22T06:54:19Z",
+  "body": "Founder real-time ask (repo+training script+separate server+separate IDUNA tenant+lives mode+WOTAN leaderboard). Capability audit found most of the tenant-separation ask already exists/generic (IDUNA games.Registry, guest-auth/Claim Account, rl_league.py PFSP+Elo). Real new work named: lives-based SHANKPIT game mode (none exists), second server, WOTAN leaderboard pattern (doesn't exist for any game). Live anchor confirmed: gen-0 = checkpoint 578, Elo 1564, via GET /api/v1/shankpit-checkpoints/active. One real ambiguity in the lives-assignment spec surfaced as an open question rather than guessed. Local repo SLOWBOT_LEAGUE 45b1ef9 (no GitHub upstream yet -- founder to create). Golden doc registered (SLOWBOT-NORTH).\n\n⚓ ☃",
+  "id": 20309,
+  "metadata": null,
+  "run_id": "sess-20260920-1908-24cb3558",
+  "source_repo": "SLOWBOT_LEAGUE",
+  "title": "NORTHSTAR scoping pass: Slow Bot League (Elo/PFSP, seeded from live SHANKPIT checkpoint)"
+}
