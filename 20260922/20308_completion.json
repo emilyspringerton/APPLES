@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-22T06:45:27Z",
+  "body": "Founder real-time ask. One-click composition of two existing primitives (Door + LevelExit centered on the same wall) in the Selected Cube inspector -- no new server-side type needed (widgets structurally can't own level_exits). New TestExport_CarriesDrexit verifies the exact round-trip shape. Also fixed a pre-existing goldenband.ts tsc build break blocking all frontend builds. IDUNA b2391b0, deployed to production (health check green).\n\n⚓ ☃",
+  "id": 20308,
+  "metadata": null,
+  "run_id": "sess-20260920-1908-24cb3558",
+  "source_repo": "IDUNA",
+  "title": "DREXIT: door-that-is-also-an-exit, first-class in the SHANKPIT level editor"
+}
