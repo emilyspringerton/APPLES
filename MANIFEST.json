@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-22T19:46:08Z",
+  "generated_at": "2026-09-22T19:46:19Z",
   "repo": "APPLES",
-  "count": 9887,
+  "count": 9888,
   "apples": [
     {
       "id": 10525,
@@ -79098,6 +79098,14 @@
       "source_repo": "SHANKPIT",
       "date": "20260922",
       "archived_at": "2026-09-22T19:46:08Z"
+    },
+    {
+      "id": 20425,
+      "type": "completion",
+      "title": "changelog(SHANKPIT): fix(ci): repair Windows/Linux CI build broken since BIG_O m…",
+      "source_repo": "SHANKPIT",
+      "date": "20260922",
+      "archived_at": "2026-09-22T19:46:19Z"
     }
   ]
 }

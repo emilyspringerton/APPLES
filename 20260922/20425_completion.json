@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-22T19:46:19Z",
+  "body": "CHANGELOG updated in SHANKPIT: fix(ci): repair Windows/Linux CI build broken since BIG_O merge phase 1 -- CI source-list drift (6th recurrence) + a latent oversized parena_runtime.h (unconditional SDL2_ttf dependency) fixed at the source. Verified with real local mingw cross-compiles before pushing. (sess-20260920-1908-24cb3558)\n\n⚓ ☃",
+  "id": 20425,
+  "metadata": null,
+  "run_id": "sess-20260920-1908-24cb3558",
+  "source_repo": "SHANKPIT",
+  "title": "changelog(SHANKPIT): fix(ci): repair Windows/Linux CI build broken since BIG_O m…"
+}
