@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-22T10:52:39Z",
+  "body": "SHANKPIT_OS_NORTHSTAR.md item 4: 'BRAWLPIT has no player-facing IDUNA identity integration at all.' New 'brawlpit' row in internal/games.Registry (brawlpit.play permission only, isolated from the existing M2M-only brawlpit.checkpoints.write) + one migration. Generalized the just-built BigOSignupPageHandler into a reusable GameSignupPageHandler{Game,Title,Tagline} (html/template, contextually auto-escaped) so /play/big_o and /play/brawlpit share one implementation instead of two copies -- same 'one row, not a new handler' discipline games.Registry itself follows, one layer up. 5 new/updated tests covering both games (registry isolation, real end-to-end register/login/upgrade per game via table-driven subtests, per-game page rendering, localStorage key isolation). Live-verified end to end in production for BOTH games: pages load, real accounts created/logged-in/email-linked, test data cleaned up. Updated SHANKPIT_OS_NORTHSTAR.md to mark this open item closed, naming what's still open (BRAWLPIT's own native client doesn't call this yet).\n\n⚓ ☃",
+  "id": 20332,
+  "metadata": null,
+  "run_id": "sess-20260920-1908-24cb3558",
+  "source_repo": "IDUNA",
+  "title": "BRAWLPIT player identity (games.Registry) + generalized game signup page"
+}
