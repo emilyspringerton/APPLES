@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-22T11:26:06Z",
+  "body": "Founder real-time: 'in carepyre if there is a resume configured can we generate some business card tools powered by the qr code stuff port it to IDUNAPRO.' Ported IDUNA's qr.go/qr_page.go field-for-field (dynamic QR registry: every image encodes this server's own /q/{slug} redirect URL, retargeting repoints every printed copy with zero reprinting). New BusinessCardHandler (POST /api/v1/community-tools/business-card, community-tools.access-gated): checks the caller has a real, non-empty resume configured (basics.name), upserts one deterministic QR code per user (card-\u003cuid\u003e) pointing at a new public GET /card/{uid}.vcf -- a real RFC-6350 vCard 3.0 document rendered live from saved resume basics, properly escaped. Scanning offers Add Contact on real phones. New QRHandler.UpsertBySlug for programmatic (non-HTTP) create-or-retarget, since the business-card caller already passed its own real community-tools auth and shouldn't need a second admin-gated HTTP round trip. 17 new tests (6 business-card + 11 ported QR), all passing, zero regressions in full suite. Live-verified end to end against a fully-isolated throwaway boot (IDUNA_PRO_ROOT AND SQLITE_PATH both pointed at /tmp, following this repo's own documented past incident/fix -- never touched real production data): real register -\u003e resume save -\u003e business-card create -\u003e real 512x512 QR PNG -\u003e 302 redirect -\u003e real downloadable vCard. Deployed to production (backed up first), health check green, new public routes confirmed live via harmless 404 probes.\n\n⚓ ☃",
+  "id": 20342,
+  "metadata": null,
+  "run_id": "sess-20260920-1908-24cb3558",
+  "source_repo": "IDUNA_PRO",
+  "title": "QR code registry ported + Community Tools business card generator"
+}
