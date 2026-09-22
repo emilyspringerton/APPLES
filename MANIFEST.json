@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-22T15:36:23Z",
+  "generated_at": "2026-09-22T15:37:13Z",
   "repo": "APPLES",
-  "count": 9832,
+  "count": 9833,
   "apples": [
     {
       "id": 10525,
@@ -78658,6 +78658,14 @@
       "source_repo": "CLI",
       "date": "20260922",
       "archived_at": "2026-09-22T15:36:23Z"
+    },
+    {
+      "id": 20370,
+      "type": "completion",
+      "title": "Scoped: GAIL adversarial discriminator + 'Super Slow League' matchmaker constraint",
+      "source_repo": "SLOWBOT_LEAGUE",
+      "date": "20260922",
+      "archived_at": "2026-09-22T15:37:13Z"
     }
   ]
 }

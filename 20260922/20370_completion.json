@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-22T15:37:13Z",
+  "body": "Founder real-time: how can we make slow league more intelligent through adversarial learning, critic+bot co-learn -\u003e that needs to be super slow league -\u003e where bots are always only vs humans. Named this as GAIL (real, established technique), connected directly to the CAPTCHA doc's own unsolved humanness-signal gap. Scoped Super Slow League as a real new matchmaker constraint (always exactly 1 bot per match, never bot-vs-bot) so the discriminator gets clean paired human/bot trajectory data from the same match context -- the real reason ordinary bot-fill queue padding wouldn't work. Named the real current gap (no human trajectory logging exists in SHANKPIT yet) and the real adversarial-training instability risk. 4-phase plan. New open question #4 added. No code shipped. NORTHSTAR.md, commit c12d811 (local repo, no remote yet).\n\n⚓ ☃",
+  "id": 20370,
+  "metadata": null,
+  "run_id": "sess-20260920-1908-24cb3558",
+  "source_repo": "SLOWBOT_LEAGUE",
+  "title": "Scoped: GAIL adversarial discriminator + 'Super Slow League' matchmaker constraint"
+}
