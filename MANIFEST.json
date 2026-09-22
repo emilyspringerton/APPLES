@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-22T15:37:13Z",
+  "generated_at": "2026-09-22T15:39:29Z",
   "repo": "APPLES",
-  "count": 9833,
+  "count": 9834,
   "apples": [
     {
       "id": 10525,
@@ -78666,6 +78666,14 @@
       "source_repo": "SLOWBOT_LEAGUE",
       "date": "20260922",
       "archived_at": "2026-09-22T15:37:13Z"
+    },
+    {
+      "id": 20371,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: asked whether Doom is public domain and floated 'DOOMCAPCHA' as a name fo…",
+      "source_repo": "CLI",
+      "date": "20260922",
+      "archived_at": "2026-09-22T15:39:29Z"
     }
   ]
 }
