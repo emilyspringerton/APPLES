@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-22T09:37:40Z",
+  "generated_at": "2026-09-22T09:37:42Z",
   "repo": "APPLES",
-  "count": 9779,
+  "count": 9780,
   "apples": [
     {
       "id": 10525,
@@ -78234,6 +78234,14 @@
       "source_repo": "IDUNA",
       "date": "20260922",
       "archived_at": "2026-09-22T09:37:40Z"
+    },
+    {
+      "id": 20317,
+      "type": "completion",
+      "title": "changelog(DEADWEIGHT): CI now signs + publishes release binaries to IDUNA's new ap…",
+      "source_repo": "DEADWEIGHT",
+      "date": "20260922",
+      "archived_at": "2026-09-22T09:37:42Z"
     }
   ]
 }
