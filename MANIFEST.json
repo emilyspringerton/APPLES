@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-22T19:57:32Z",
+  "generated_at": "2026-09-22T20:00:03Z",
   "repo": "APPLES",
-  "count": 9889,
+  "count": 9890,
   "apples": [
     {
       "id": 10525,
@@ -79114,6 +79114,14 @@
       "source_repo": "emily",
       "date": "20260922",
       "archived_at": "2026-09-22T19:57:32Z"
+    },
+    {
+      "id": 20427,
+      "type": "completion",
+      "title": "Fix real silent SDL_CreateWindow(MSAA) failure -- was breaking ALL headless GL rendering in this sandbox",
+      "source_repo": "SHANKPIT",
+      "date": "20260922",
+      "archived_at": "2026-09-22T20:00:03Z"
     }
   ]
 }

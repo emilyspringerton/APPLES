@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-22T20:00:03Z",
+  "body": "Found while validating the BIG_O engine merge with real Xvfb screenshots (founder real-time: 'validate all the work with screenshots'): apps/lobby/src/main.c requests a 4x-multisample GLX visual via SDL_GL_SetAttribute before SDL_CreateWindow, with NO check of the returned window pointer. In this exact sandbox (Xvfb + llvmpipe, Mesa 25.2.8), no 4x-MSAA GLX visual exists at all -- confirmed via a standalone minimal SDL2+GL repro program before touching the real client -- so SDL_CreateWindow silently returns NULL (\"Couldn't find matching GLX visual\"), g_win stays NULL, SDL_GL_CreateContext on a NULL window then also fails, and every GL call for the rest of the process's life silently no-ops against no current context. The process ran at ~100% CPU with zero crash and zero visible output -- the worst kind of silent failure, and it also explains every prior 'GL extension loading failed' llvmpipe message across this repo's own CHANGELOG history in this exact sandbox: those were misattributed to llvmpipe missing entry points when the real cause was no current GL context existing AT ALL. Real fix: if SDL_CreateWindow fails with MSAA requested, retry once with MSAA fully disabled before giving up. Verified: real Xvfb screenshots now show actual content -- the SHANKPIT main menu (LEVELS/STORY/SOLO/QUEUE/etc tiles), a live STORY mode cutscene ('CHAPTER I: THE MECHANISM RECORDS'), and live 3D VOXWORLD boss-encounter gameplay (BREACH TITAN, terrain, HUD, weapon viewmodel, and the phase-1 sky/weather system's dark cloud-covered sky genuinely visible) -- where every previous attempt was pure black. This also functionally re-enables the full GL2 shader pipeline (material shaders, GOLDENBAND mesh skinning, bloom) under this same sandbox for any future headless testing here, previously silently dead. make lobby clean.\n\n⚓ ☃",
+  "id": 20427,
+  "metadata": null,
+  "run_id": "sess-20260920-1908-24cb3558",
+  "source_repo": "SHANKPIT",
+  "title": "Fix real silent SDL_CreateWindow(MSAA) failure -- was breaking ALL headless GL rendering in this sandbox"
+}
