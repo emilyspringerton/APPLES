@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-22T23:17:11Z",
+  "generated_at": "2026-09-22T23:17:44Z",
   "repo": "APPLES",
-  "count": 9914,
+  "count": 9915,
   "apples": [
     {
       "id": 10525,
@@ -79314,6 +79314,14 @@
       "source_repo": "SHANKPIT",
       "date": "20260922",
       "archived_at": "2026-09-22T23:17:11Z"
+    },
+    {
+      "id": 20452,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time (SHANKPIT/BIG_O session, queued not yet built): (1) add the full cyberscap…",
+      "source_repo": "CLI",
+      "date": "20260922",
+      "archived_at": "2026-09-22T23:17:44Z"
     }
   ]
 }
