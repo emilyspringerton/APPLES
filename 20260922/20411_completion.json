@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-22T17:56:37Z",
+  "body": "Landed the real ServerNpc-shaped population/tick loop 7a's own header named as its still-open follow-up: packages/simulation/witness_ai.h/.c/witness_ai_test.c. Reuses story_ai.c's own existing 'bot occupies a real PlayerState slot' convention (story_ai_spawn_enemy, MAX_CLIENTS=70) rather than inventing a new entity concept -- witness_ai_spawn_citizen/spawn_zombie allocate into that same shared slot pool, independent of story_ai.c's own g_story_ai bookkeeping. witness_ai_tick composes four already-shipped pieces into one genuinely live pipeline (world_alert_bridge-style composition, phase 6's own precedent): ticks each citizen's NpcBrain (phase 3) and writes its real mood-modulated effective vigilance back into the owned WitnessSim (phase 2) npc entry; ticks each zombie's ZombieState (phase 3); runs the actual witness_live.h (7a) integration pass, radius-gated witness counting against every live citizen. Verified live end to end: witness_ai_test.c builds a real ServerState, spawns real citizens/zombies into real PlayerState slots, and proves the full chain (DORMANT raises nothing; forced-HUNTING + 1 low-arrogance citizen -\u003e DENIAL; WITNESS_LIVE_DETECTION_RADIUS correctly gates a near vs far citizen; 5 in-range witnesses escalate to SILENCING per witness_rules.c's own real silence_threshold; vigilance write-back verified against the real citizen-archetype base of 35, not the 40 passed at spawn). All 6 checks pass. Real, named scope cuts in the header: no movement/patrol AI yet, zombie has_target always 0 (no perception system), no resolution/memory-wipe loop (The Men's dispatch, still 7d/7e). Standalone, no Makefile entry -- no real gameplay trigger spawns these yet.\n\n⚓ ☃",
+  "id": 20411,
+  "metadata": null,
+  "run_id": "sess-20260920-1908-24cb3558",
+  "source_repo": "SHANKPIT",
+  "title": "BIG_O engine merge phase 7b: live witness/zombie population + tick loop"
+}

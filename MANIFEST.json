@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-22T17:46:20Z",
+  "generated_at": "2026-09-22T17:56:37Z",
   "repo": "APPLES",
-  "count": 9873,
+  "count": 9874,
   "apples": [
     {
       "id": 10525,
@@ -78986,6 +78986,14 @@
       "source_repo": "SHANKPIT",
       "date": "20260922",
       "archived_at": "2026-09-22T17:46:20Z"
+    },
+    {
+      "id": 20411,
+      "type": "completion",
+      "title": "BIG_O engine merge phase 7b: live witness/zombie population + tick loop",
+      "source_repo": "SHANKPIT",
+      "date": "20260922",
+      "archived_at": "2026-09-22T17:56:37Z"
     }
   ]
 }
