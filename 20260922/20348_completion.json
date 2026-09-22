@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-22T12:40:08Z",
+  "body": "Combo/Backhand Blow/Asuran Fists (real H2H weapon skills), routes through apply_weapon_skill_damage for real skillchain interop with Warrior. Wired into all 4 per-hero switch sites. Fixed pre-existing Michael name/ability/tags table gap along the way. Fork-local content per the sync-forward resolution -- REDGARDEN itself untouched. Full native link verified, zero errors. GoblinFoxDragon d9b4ace/07f640b.\n\n⚓ ☃",
+  "id": 20348,
+  "metadata": null,
+  "run_id": "sess-20260920-1908-24cb3558",
+  "source_repo": "GoblinFoxDragon",
+  "title": "Port Monk as second DragonsNShit job into Battlegrounds (fork-local)"
+}
