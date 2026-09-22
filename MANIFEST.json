@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-22T10:29:11Z",
+  "generated_at": "2026-09-22T10:30:46Z",
   "repo": "APPLES",
-  "count": 9783,
+  "count": 9784,
   "apples": [
     {
       "id": 10525,
@@ -78266,6 +78266,14 @@
       "source_repo": "EMILY",
       "date": "20260922",
       "archived_at": "2026-09-22T10:29:11Z"
+    },
+    {
+      "id": 20321,
+      "type": "backlog_completion",
+      "title": "Manual kanban move: verify T-prefix fix live",
+      "source_repo": "EMILY",
+      "date": "20260922",
+      "archived_at": "2026-09-22T10:30:46Z"
     }
   ]
 }
