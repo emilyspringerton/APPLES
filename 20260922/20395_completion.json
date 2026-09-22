@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-22T17:02:38Z",
+  "body": "Founder real-time (remote control, continued): port BIG_O tech into SHANKPIT. Landed phase 2: packages/simulation/witness_sim.{h,c}, a faithful renamed port of BIG_O's core/sim.{h,c} (witness escalation, per-player Decorum, costume x zone trespass, crew attribution, hunt persistence), backed by PARENA-generated witness_rules.c (new PARENA/stdlib/shankpit/witness_rules.prn domain). Real, checked-first correction along the way: wiring this into story_ai.c's AIMode/AIRole state machine (as originally planned in BACKLOG SECTION 536) was a category error -- story_ai.c is hostile combat AI, witness_sim is a different NPC concept (ambient citizens). Landed as a standalone, tested primitive instead, verified against 3 of BIG_O's own real scenarios/*.txt canonical test scripts replayed as direct C assertions -- all pass. Deliberately not yet wired into the live build (no consumer exists yet -- that's phase 7, MODE_STORY content cutover). SHANKPIT b776d9d, PARENA e729a72.\n\n⚓ ☃",
+  "id": 20395,
+  "metadata": null,
+  "run_id": "sess-20260920-1908-24cb3558",
+  "source_repo": "SHANKPIT",
+  "title": "BIG_O engine merge phase 2: witness/attention rules (witness_sim)"
+}
