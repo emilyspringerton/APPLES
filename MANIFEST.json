@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-22T15:39:29Z",
+  "generated_at": "2026-09-22T15:41:07Z",
   "repo": "APPLES",
-  "count": 9834,
+  "count": 9835,
   "apples": [
     {
       "id": 10525,
@@ -78674,6 +78674,14 @@
       "source_repo": "CLI",
       "date": "20260922",
       "archived_at": "2026-09-22T15:39:29Z"
+    },
+    {
+      "id": 20372,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: continue dogfooding SHANKPIT's core engine into PARENA, and go full WASM …",
+      "source_repo": "CLI",
+      "date": "20260922",
+      "archived_at": "2026-09-22T15:41:07Z"
     }
   ]
 }
