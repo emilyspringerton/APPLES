@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-22T15:48:39Z",
+  "generated_at": "2026-09-22T15:50:41Z",
   "repo": "APPLES",
-  "count": 9839,
+  "count": 9840,
   "apples": [
     {
       "id": 10525,
@@ -78714,6 +78714,14 @@
       "source_repo": "CLI",
       "date": "20260922",
       "archived_at": "2026-09-22T15:48:39Z"
+    },
+    {
+      "id": 20377,
+      "type": "completion",
+      "title": "First real DJ-room slice shipped: PARENA compiled to WASM, live in a browser",
+      "source_repo": "MIXFORGE",
+      "date": "20260922",
+      "archived_at": "2026-09-22T15:50:41Z"
     }
   ]
 }
