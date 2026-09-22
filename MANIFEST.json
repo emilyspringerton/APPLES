@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-22T15:27:38Z",
+  "generated_at": "2026-09-22T15:29:45Z",
   "repo": "APPLES",
-  "count": 9824,
+  "count": 9825,
   "apples": [
     {
       "id": 10525,
@@ -78594,6 +78594,14 @@
       "source_repo": "CLI",
       "date": "20260922",
       "archived_at": "2026-09-22T15:27:38Z"
+    },
+    {
+      "id": 20362,
+      "type": "completion",
+      "title": "Device SSH key generation now a real in-app affordance",
+      "source_repo": "IDUNA.GAME",
+      "date": "20260922",
+      "archived_at": "2026-09-22T15:29:45Z"
     }
   ]
 }

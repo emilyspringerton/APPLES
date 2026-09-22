@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-22T15:29:45Z",
+  "body": "Founder real-time: 'we need to build the affordances for me to generate the keys into the shankpit client itself i think we started - we can add that to the iduna app in shankpit.' internal/sshkey's ed25519 keygen (ported from PITVIPER, 2026-09-06) already existed but was only reachable behind the -ssh CLI flag. iduna_prompt.go's showDeviceKey now runs it as a real step of the login sequence right after a device links, printing the public key line into the terminal. New reflux.ActionKeyReady milestone. Real, passing HOME-isolated test verifies first-run generation and second-run load-not-regenerate. Commit e8335e7, pushed.\n\n⚓ ☃",
+  "id": 20362,
+  "metadata": null,
+  "run_id": "sess-20260920-1908-24cb3558",
+  "source_repo": "IDUNA.GAME",
+  "title": "Device SSH key generation now a real in-app affordance"
+}
