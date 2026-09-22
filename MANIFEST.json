@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-22T15:34:44Z",
+  "generated_at": "2026-09-22T15:35:34Z",
   "repo": "APPLES",
-  "count": 9829,
+  "count": 9830,
   "apples": [
     {
       "id": 10525,
@@ -78634,6 +78634,14 @@
       "source_repo": "SHANKPIT",
       "date": "20260922",
       "archived_at": "2026-09-22T15:34:44Z"
+    },
+    {
+      "id": 20367,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: explore adversarial learning (GAN-style discriminator predicting human vs…",
+      "source_repo": "CLI",
+      "date": "20260922",
+      "archived_at": "2026-09-22T15:35:34Z"
     }
   ]
 }
