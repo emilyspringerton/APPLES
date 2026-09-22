@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-22T22:36:54Z",
+  "body": "Founder chose 'Replace outright' when asked directly (the real, named risk: orphans already-built level content, no migration plan). Real, narrowly-scoped execution: checked first that MODE_STORY's VOXWORLD scene has exactly ONE real content-spawn call site (story_ai_seed_voxworld_encounter, from local_init_match) -- fully separate from story_ai.c's general AI_ROLE_*/LevelCharacter/NOCK-authoring spawn path (real, general, cross-mode infrastructure, untouched, per SHANKPIT/CLAUDE.md's own 'levels are never story-mode-only' instruction) and the VOXWORLD boss fight (StoryBossState, untouched, unrelated system). Landed: packages/simulation/witness_ai.c gained witness_ai_seed_voxworld_encounter (4 citizens + 2 zombies, one bootstrapped to HUNTING since zombie_tick's has_target is always 0 -- otherwise nothing would ever be witnessable). story_ai_seed_voxworld_encounter (175 lines, confirmed exactly one call site) deleted outright. local_init_match swapped to the new seed function; witness_ai_tick wired into both real per-tick loops (local_game.h shared tick, apps/server/src/main.c dedicated-server tick) alongside story_ai_tick. Makefile: witness_ai.c and its 5 dependencies added to LOBBY_SRC/SERVER_SRC -- witness_ai's first real consumer, closing the 'no build-graph entry without a real consumer' deferral phases 2/3/7a/7b left open. Verified live, not just compiled: make lobby/make server clean, witness_ai_test.c (8 checks) + level_boxes_zone_test.c (7 checks) still pass unchanged, go test ./... clean, and a real Xvfb run of the actual built client entering MODE_STORY shows '[WITNESS] voxworld encounter seeded: 4 citizens, 2 zombies (1 HUNTING)' firing at exactly the right point in the log, boss fight and HUD unaffected. Real, honest, not landed: no visual confirmation of an actual bot model on screen (camera-aiming under scripted Xvfb input proved impractical in the time available) and no distinct visual model for citizens/zombies vs the default mannequin skin.\n\n⚓ ☃",
+  "id": 20441,
+  "metadata": null,
+  "run_id": "sess-20260920-1908-24cb3558",
+  "source_repo": "SHANKPIT",
+  "title": "BIG_O engine merge phase 7d: MODE_STORY roster cutover -- replace outright (founder decision)"
+}
