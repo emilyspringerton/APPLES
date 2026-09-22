@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-22T15:05:42Z",
+  "generated_at": "2026-09-22T15:26:04Z",
   "repo": "APPLES",
-  "count": 9822,
+  "count": 9823,
   "apples": [
     {
       "id": 10525,
@@ -78578,6 +78578,14 @@
       "source_repo": "CLI",
       "date": "20260922",
       "archived_at": "2026-09-22T15:05:42Z"
+    },
+    {
+      "id": 20360,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: continue - add priority kanban cards for any founder-blocked work found t…",
+      "source_repo": "CLI",
+      "date": "20260922",
+      "archived_at": "2026-09-22T15:26:04Z"
     }
   ]
 }
