@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-22T10:48:32Z",
+  "generated_at": "2026-09-22T10:52:34Z",
   "repo": "APPLES",
-  "count": 9793,
+  "count": 9794,
   "apples": [
     {
       "id": 10525,
@@ -78346,6 +78346,14 @@
       "source_repo": "EMILY",
       "date": "20260922",
       "archived_at": "2026-09-22T10:48:32Z"
+    },
+    {
+      "id": 20331,
+      "type": "completion",
+      "title": "changelog(IDUNA): feat: BRAWLPIT player identity (games.Registry entry, brawl…",
+      "source_repo": "IDUNA",
+      "date": "20260922",
+      "archived_at": "2026-09-22T10:52:34Z"
     }
   ]
 }
