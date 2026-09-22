@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-22T10:48:23Z",
+  "generated_at": "2026-09-22T10:48:32Z",
   "repo": "APPLES",
-  "count": 9792,
+  "count": 9793,
   "apples": [
     {
       "id": 10525,
@@ -78338,6 +78338,14 @@
       "source_repo": "IDUNA",
       "date": "20260922",
       "archived_at": "2026-09-22T10:48:23Z"
+    },
+    {
+      "id": 20330,
+      "type": "backlog_completion",
+      "title": "Manual kanban move: we need a big_o account creation interface off of iduna",
+      "source_repo": "EMILY",
+      "date": "20260922",
+      "archived_at": "2026-09-22T10:48:32Z"
     }
   ]
 }
