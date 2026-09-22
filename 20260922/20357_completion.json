@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-22T14:40:06Z",
+  "body": "New FindMatchMsg payload on PACKET_FIND_MATCH, apps/arena --map-seed N, matchmaker honors it in try_match. Backward compatible (0/no-payload = no preference, unchanged prior behavior). Live-verified end to end: matchmaker log confirms spawned match used exactly the requested seed 424242. Phases 2-4 (2-leg series, slow/fast league, persistent IDUNA map ownership) scoped in NORTHSTAR_MAP_LEAGUE.md, not attempted. ECOWAR 5ee8aed/4272da3/01cba38.\n\n⚓ ☃",
+  "id": 20357,
+  "metadata": null,
+  "run_id": "sess-20260920-1908-24cb3558",
+  "source_repo": "ECOWAR",
+  "title": "ECOWAR Map-League Phase 1: client-supplied match seed"
+}

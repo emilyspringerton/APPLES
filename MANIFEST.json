@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-22T14:34:37Z",
+  "generated_at": "2026-09-22T14:40:06Z",
   "repo": "APPLES",
-  "count": 9819,
+  "count": 9820,
   "apples": [
     {
       "id": 10525,
@@ -78554,6 +78554,14 @@
       "source_repo": "CLI",
       "date": "20260922",
       "archived_at": "2026-09-22T14:34:37Z"
+    },
+    {
+      "id": 20357,
+      "type": "completion",
+      "title": "ECOWAR Map-League Phase 1: client-supplied match seed",
+      "source_repo": "ECOWAR",
+      "date": "20260922",
+      "archived_at": "2026-09-22T14:40:06Z"
     }
   ]
 }
