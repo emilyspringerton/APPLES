@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-22T11:04:34Z",
+  "body": "Founder real-time, three-part ask: (1) 'add pitviper as an app on the second page of shankpit os' -- new APP_PITVIPER entry in apps/lobby/src/main.c's Apps page (mirrors DEADWEIGHT's entry exactly, dev-relative sibling path ../../PITVIPER/pitviper). Real build verified (make lobby), path resolution confirmed via normpath, PITVIPER itself rebuilt fresh (go build -o pitviper ./cmd/pitviper). SHANKPIT commit d62707f. (2) 'build in the gpg key generation affordances ... PARENA POWERED' -- new PARENA/stdlib/pitviper/gpg_mod.prn: shells out to the real gpg binary (process/run-capture) rather than reimplementing OpenPGP (no PARENA crypto stdlib module implements RSA/OpenPGP). is-safe-key-field? is a real, fail-closed shell-injection guard checked before any command is built. Compiled + verified via make test-pitviper-gpg-mod (-Werror clean, all pass); the real gpg --quick-generate-key happy path hand-verified out of band against a scratch GNUPGHOME (real key generated, deleted after, never touched this box's real keyring). PARENA commit 199bed7, STDLIB.md entry 59. (3) 'build in parena editor to manage the text fields unify' -- named as real, separate, not-yet-started follow-up (PITVIPER/docs/NORTHSTAR.md Milestone 6): stdlib/editor/*.prn already exists as the real substrate, the concrete next step is wiring PITVIPER's Go host to consume it via the same FFI pattern vterm_mod.prn already established, not attempted this pass since it's a first-of-its-kind integration. PITVIPER commit 4ffd429.\n\n⚓ ☃",
+  "id": 20334,
+  "metadata": null,
+  "run_id": "sess-20260920-1908-24cb3558",
+  "source_repo": "SHANKPIT",
+  "title": "PITVIPER added to SHANKPIT OS Apps page + PARENA-powered GPG key-gen mod"
+}
