@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-22T11:09:38Z",
+  "generated_at": "2026-09-22T11:18:13Z",
   "repo": "APPLES",
-  "count": 9801,
+  "count": 9802,
   "apples": [
     {
       "id": 10525,
@@ -78410,6 +78410,14 @@
       "source_repo": "CLI",
       "date": "20260922",
       "archived_at": "2026-09-22T11:09:38Z"
+    },
+    {
+      "id": 20339,
+      "type": "completion",
+      "title": "changelog(IDUNA): feat: model repository git-lfs integration -- new internal/…",
+      "source_repo": "IDUNA",
+      "date": "20260922",
+      "archived_at": "2026-09-22T11:18:13Z"
     }
   ]
 }
