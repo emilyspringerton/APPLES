@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-22T10:31:14Z",
+  "generated_at": "2026-09-22T10:31:16Z",
   "repo": "APPLES",
-  "count": 9785,
+  "count": 9786,
   "apples": [
     {
       "id": 10525,
@@ -78282,6 +78282,14 @@
       "source_repo": "IDUNA",
       "date": "20260922",
       "archived_at": "2026-09-22T10:31:14Z"
+    },
+    {
+      "id": 20323,
+      "type": "completion",
+      "title": "changelog(emily.cli): kanban: 'emily kanban add \u003ctitle\u003e' (single arg) now auto-ge…",
+      "source_repo": "emily.cli",
+      "date": "20260922",
+      "archived_at": "2026-09-22T10:31:16Z"
     }
   ]
 }
