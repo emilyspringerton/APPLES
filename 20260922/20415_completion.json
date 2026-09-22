@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-22T18:03:02Z",
+  "body": "Landed the native-engine half of the zone-authoring feature phase 7b's own header named as a real, still-open gap: packages/world/level_boxes.h's new LevelZone (author-placed spherical trigger volume tagging a level region with a witness_sim.h zone -- ZONE_PUBLIC/LAB/EXEC/GENERATOR/VAULT), added field-for-field in the same shape as the already-established LevelExit. CustomLevelData gained zones[]/zone_count, the JSON parser gained a 'zones' array block mirroring level_exits' own parser exactly. New level_boxes_zone_for_position(level,x,y,z) query, verified with 7 checks in level_boxes_zone_test.c. New witness_ai_sync_zones(s,level) in packages/simulation/witness_ai.c -- the real live consumer, resolving each active citizen's live position against a level's zones and writing the result into the owned WitnessSim npc entry, keeping last-known zone rather than silently resetting to PUBLIC outside authored coverage. Verified live in witness_ai_test.c (now 8 checks total). Real, honest, named gap: no IDUNA round-trip (no LevelZone Go type, DB migration, or CreateLevel/UpdateLevel param in IDUNA/internal/shankpit/level_store.go) and no NOCK editor UI -- zones can only be authored via hand-written JSON until that lands, named as real separate follow-up work rather than guessed at. Full lobby/server build verified clean with the level_boxes.h changes.\n\n⚓ ☃",
+  "id": 20415,
+  "metadata": null,
+  "run_id": "sess-20260920-1908-24cb3558",
+  "source_repo": "SHANKPIT",
+  "title": "BIG_O engine merge phase 7c: zone-authoring engine feature (LevelZone)"
+}
