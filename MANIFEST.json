@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-22T14:19:43Z",
+  "generated_at": "2026-09-22T14:19:46Z",
   "repo": "APPLES",
-  "count": 9817,
+  "count": 9818,
   "apples": [
     {
       "id": 10525,
@@ -78538,6 +78538,14 @@
       "source_repo": "SHANKPIT",
       "date": "20260922",
       "archived_at": "2026-09-22T14:19:43Z"
+    },
+    {
+      "id": 20355,
+      "type": "completion",
+      "title": "EDITOR.GAME: standalone fork of PARENA's real editor demo",
+      "source_repo": "EDITOR.GAME",
+      "date": "20260922",
+      "archived_at": "2026-09-22T14:19:46Z"
     }
   ]
 }
