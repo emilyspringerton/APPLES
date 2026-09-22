@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-22T22:45:38Z",
+  "body": "CHANGELOG updated in SHANKPIT: BIG_O engine merge phase 7e: MODE_STORY gets its first real, player-visible day/night turn boundary -- a phone-notification banner (DAYBREAK/NIGHTFALL/STORM WARNING) driven by day_night_clock + world_alert_bridge, both real and tested since phases 1/6 but never before instantiated in a live client. Lab (the third leg of 'day/night/lab') remains explicitly unstarted -- lab_sim.c has real simulation logic but zero UI, a separate scoping pass. (sess-20260920-1908-24cb3558)\n\n⚓ ☃",
+  "id": 20445,
+  "metadata": null,
+  "run_id": "sess-20260920-1908-24cb3558",
+  "source_repo": "SHANKPIT",
+  "title": "changelog(SHANKPIT): BIG_O engine merge phase 7e: MODE_STORY gets its first real…"
+}
