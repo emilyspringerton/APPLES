@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-22T11:04:42Z",
+  "generated_at": "2026-09-22T11:09:38Z",
   "repo": "APPLES",
-  "count": 9800,
+  "count": 9801,
   "apples": [
     {
       "id": 10525,
@@ -78402,6 +78402,14 @@
       "source_repo": "PITVIPER",
       "date": "20260922",
       "archived_at": "2026-09-22T11:04:42Z"
+    },
+    {
+      "id": 20338,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: integrate the model repository (RL checkpoint stores -- SHANKPIT's own sh…",
+      "source_repo": "CLI",
+      "date": "20260922",
+      "archived_at": "2026-09-22T11:09:38Z"
     }
   ]
 }
