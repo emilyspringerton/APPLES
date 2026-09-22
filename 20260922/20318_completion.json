@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-22T09:37:44Z",
+  "body": "Founder real-time: an app repository in IDUNA, GPG-signed, using emily session new for build provenance. New internal/apps.ReleaseStore + /api/v1/app-releases (mirrors SHANKPIT checkpoint registry). Real RSA4096 GPG key generated, public half committed, private half gitignored pending a human GitHub-secret step. New least-privilege APP-RELEASES-CI agent. Found and fixed 2 real migration bugs (permission ID collision, missing agents-table row) before shipping. Live-verified end to end: real upload, download, gpg --verify Good signature. 6 new tests. IDUNA 5cd6002.\n\n⚓ ☃",
+  "id": 20318,
+  "metadata": null,
+  "run_id": "sess-20260920-1908-24cb3558",
+  "source_repo": "IDUNA",
+  "title": "App-release registry with GPG signing + emily-session build provenance (S528)"
+}

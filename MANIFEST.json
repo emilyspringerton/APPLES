@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-22T09:37:42Z",
+  "generated_at": "2026-09-22T09:37:44Z",
   "repo": "APPLES",
-  "count": 9780,
+  "count": 9781,
   "apples": [
     {
       "id": 10525,
@@ -78242,6 +78242,14 @@
       "source_repo": "DEADWEIGHT",
       "date": "20260922",
       "archived_at": "2026-09-22T09:37:42Z"
+    },
+    {
+      "id": 20318,
+      "type": "completion",
+      "title": "App-release registry with GPG signing + emily-session build provenance (S528)",
+      "source_repo": "IDUNA",
+      "date": "20260922",
+      "archived_at": "2026-09-22T09:37:44Z"
     }
   ]
 }
