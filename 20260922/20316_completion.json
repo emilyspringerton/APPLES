@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-22T09:37:40Z",
+  "body": "CHANGELOG updated in IDUNA: New app-release registry (/api/v1/app-releases) with GPG signing + emily-session build provenance -- backs SHANKPIT's Apps page and any future bundled-game CI publish. Real GPG key generated (EINHORN_INDUSTRIAL App Releases), new least-privilege APP-RELEASES-CI agent. (sess-20260920-1908-24cb3558)\n\n⚓ ☃",
+  "id": 20316,
+  "metadata": null,
+  "run_id": "sess-20260920-1908-24cb3558",
+  "source_repo": "IDUNA",
+  "title": "changelog(IDUNA): New app-release registry (/api/v1/app-releases) with GPG si…"
+}

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-22T09:26:52Z",
+  "generated_at": "2026-09-22T09:37:40Z",
   "repo": "APPLES",
-  "count": 9778,
+  "count": 9779,
   "apples": [
     {
       "id": 10525,
@@ -78226,6 +78226,14 @@
       "source_repo": "CLI",
       "date": "20260922",
       "archived_at": "2026-09-22T09:26:52Z"
+    },
+    {
+      "id": 20316,
+      "type": "completion",
+      "title": "changelog(IDUNA): New app-release registry (/api/v1/app-releases) with GPG si…",
+      "source_repo": "IDUNA",
+      "date": "20260922",
+      "archived_at": "2026-09-22T09:37:40Z"
     }
   ]
 }
