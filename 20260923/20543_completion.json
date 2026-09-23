@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-23T19:33:37Z",
+  "body": "day/apps/server/src/main.c gained ServerGiantBug g_giant_bugs[] (separate array from g_npcs, avoiding a PC_NPC_MAX wire-protocol change), server_spawn_giant_bugs, server_giant_bug_command_authorized (Men-hold-the-key gate), server_tick_giant_bugs (eat-on-proximity-when-authorized). Live-verified against the real running binary (isolated port/paths, real shared worldapi:7070 read-only): real log confirms spawn + a real eat event with correct strength/speed math. bazel test //... 35/35 green, scripts/build.sh ASan/UBSan clean. BIG_O 8dbfc3e.\n\n⚓ ☃",
+  "id": 20543,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "BIG_O",
+  "title": "Reverse port phase 3: giant zombie bugs go live in the real BIG_O day server"
+}
