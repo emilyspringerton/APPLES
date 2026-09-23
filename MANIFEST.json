@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-23T19:20:24Z",
+  "generated_at": "2026-09-23T19:21:50Z",
   "repo": "APPLES",
-  "count": 10002,
+  "count": 10003,
   "apples": [
     {
       "id": 10525,
@@ -80018,6 +80018,14 @@
       "source_repo": "PARENA",
       "date": "20260923",
       "archived_at": "2026-09-23T19:20:24Z"
+    },
+    {
+      "id": 20540,
+      "type": "completion",
+      "title": "Reverse port phase 1: walkie-talkie channel/hearing logic brought back from SHANKPIT into BIG_O",
+      "source_repo": "BIG_O",
+      "date": "20260923",
+      "archived_at": "2026-09-23T19:21:50Z"
     }
   ]
 }
