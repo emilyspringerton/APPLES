@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-23T20:26:38Z",
+  "body": "Answered the 4 open questions Phase A's own NORTHSTAR entry queued, each with real reasoning: a new separate ServerRegulator[] array (not PC_NPC_ROLE_REGULATOR, same growing-PC_NPC_MAX-is-a-wire-change reasoning giant bugs already set); a kill resets position (real lab-zone circle, 'the basement prints a new body') + Decorum only, not XP/inventory/samples; Bio-Slurry still deliberately not built (no earning mechanism exists anywhere, clone-restore is free and says so in its own log line); respawn point is the existing lab-zone landmark, no cooldown. server_dispatch_regulator fires once from the existing CANCELLED marker; Regulators chase the target's live position at 9.0 units/sec (faster than The Men's 6.0, matching silent/lethal vs professional); real mercy stand-down if decorum recovers or target disconnects. This is BIG_O's first player damage/death mechanic of any kind, resolving phase 5's eat-to-heal blocker by Decorum getting there first. New scratch #include-main.c harness proves dispatch/chase/kill/respawn/mercy/disconnect end to end, 7/7 pass. bazel test //... 36/36 green, ASan/UBSan + client build clean, live server re-verified. NORTHSTAR.md §18 Phase B, README.md, CHANGELOG.md; GOLDEN_DOCS resynced.\n\n⚓ ☃",
+  "id": 20553,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "BIG_O",
+  "title": "SECTION 536 follow-up: Regulator dispatch, BIG_O's first real player death/respawn (NORTHSTAR §18 Phase B)"
+}
