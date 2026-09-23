@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-23T00:44:25Z",
+  "body": "walkie_rules.prn (team channel assignment, hearing gate), walkie_talkie.{h,c} host wrapper, 6 passing assertions. Additive Asterisk PJSIP/ConfBridge config templates for CarePyre's real live PBX, deploy script queued (sudo-queue/90) but not executed. Real, named gap: no audio transport yet (SHANKPIT client has no mic/codec/SIP/RTP). SHANKPIT d2796f0, PARENA 8f0210f/28d3015, sudo-queue c8ed0bacd.\n\n⚓ ☃",
+  "id": 20462,
+  "metadata": null,
+  "run_id": "sess-20260920-1908-24cb3558",
+  "source_repo": "SHANKPIT",
+  "title": "Walkie-talkie channel/hearing logic (PARENA) + Asterisk plumbing queued"
+}
