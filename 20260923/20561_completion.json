@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-23T21:12:39Z",
+  "body": "Every human NPC spawned with hardcoded arrogance=50 -- since panic_arrogance_max()=15 and engage_arrogance_min()=70, this meant WS_PANIC and WS_ENGAGE were mathematically unreachable in live play, always landing in SILENCING/DENIAL. server_spawn_npcs now rolls server_roll100() per human instead of a fixed constant, reusing the existing seeded server RNG. 4/4 live scratch-harness assertions (varied spawn, PANIC reachable, ENGAGE reachable, old-50-confirmed-broken), bazel 36/36 green, real server+client builds clean, ASan/UBSan clean. BIG_O/NORTHSTAR.md §22, closes §11 item 5.\n\n⚓ ☃",
+  "id": 20561,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "BIG_O",
+  "title": "Real per-NPC arrogance variety -- PANIC and ENGAGE can finally fire live"
+}
