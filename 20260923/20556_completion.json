@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-23T20:38:04Z",
+  "body": "Closed the server-only-visual gap for both reverse-port phase 3 (giant bugs) and Phase B (Regulators): new PcGiantBugState/PcRegulatorState snapshot arrays, bigo_npc_visual.h gained real tint/kit selection for both plus a hot-pink dancing Top Regulator (founder real-time aside, logged via emily observe Apple #20555, checked against real assets first). 11/11 unit assertions, bazel 36/36 green, real server+client builds clean, ASan/UBSan clean. BIG_O/NORTHSTAR.md §19.\n\n⚓ ☃",
+  "id": 20556,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "BIG_O",
+  "title": "First client visual for giant bugs and Regulators, plus a pop-star Top Regulator"
+}
