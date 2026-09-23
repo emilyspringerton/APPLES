@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-23T19:21:50Z",
+  "generated_at": "2026-09-23T19:27:29Z",
   "repo": "APPLES",
-  "count": 10003,
+  "count": 10004,
   "apples": [
     {
       "id": 10525,
@@ -80026,6 +80026,14 @@
       "source_repo": "BIG_O",
       "date": "20260923",
       "archived_at": "2026-09-23T19:21:50Z"
+    },
+    {
+      "id": 20541,
+      "type": "completion",
+      "title": "changelog(PARENA): feat(big_o): giant zombie bug decision network (stdlib/big_…",
+      "source_repo": "PARENA",
+      "date": "20260923",
+      "archived_at": "2026-09-23T19:27:29Z"
     }
   ]
 }
