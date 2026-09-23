@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-23T19:56:26Z",
+  "body": "Ported SHANKPIT's food_items.h data table verbatim (bigo_food_items.h). Forked item_drop_mod.prn/inventory_mod.prn into PARENA/stdlib/big_o/ (not a shared PAPERCRAFT edit) so WOOD-material destruction drops one of 17 real food items (object-index mod 17, deterministic) and food items get a real 20-stack cap, reusing the existing GTA3-style drop+pickup pipeline unchanged. Re-investigated the §12 health blocker and found it bigger than scoped: no player damage source exists anywhere in BIG_O, so eat-to-heal is named and deferred honestly rather than faked. bazel test //... 36/36 green (3 new real tests incl. a scratch #include-main.c harness proving the real drop+pickup path end to end), ASan/UBSan clean, live server binary re-verified. NORTHSTAR.md §16, CHANGELOG.md updated.\n\n⚓ ☃",
+  "id": 20547,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "BIG_O",
+  "title": "SECTION 536 reverse-port phase 5: 17-item food/cargo system (real cargo, no heal yet)"
+}
