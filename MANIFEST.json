@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-23T19:56:49Z",
+  "generated_at": "2026-09-23T20:04:14Z",
   "repo": "APPLES",
-  "count": 10011,
+  "count": 10012,
   "apples": [
     {
       "id": 10525,
@@ -80090,6 +80090,14 @@
       "source_repo": "PARENA",
       "date": "20260923",
       "archived_at": "2026-09-23T19:56:49Z"
+    },
+    {
+      "id": 20549,
+      "type": "completion",
+      "title": "SECTION 536 phase 6: correct 2 wrong claims + fix real item-name display gap",
+      "source_repo": "BIG_O",
+      "date": "20260923",
+      "archived_at": "2026-09-23T20:04:14Z"
     }
   ]
 }
