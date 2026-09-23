@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-23T21:08:35Z",
+  "body": "Real, live-found gap named 2026-09-20 in NORTHSTAR §11 item 1: server_tick_witness only ever escalated witness_state, never de-escalated -- a hunt could only end via The Men arriving. core/sim.c's own sim_eliminate (resolved=2) already modeled the missing resolution path in the offline scenario harness, never wired live. New second pass in server_tick_witness resolves any SILENCING/ENGAGE human back to UNAWARE the moment no witnessable zombie remains in range (mood decay, moved away, or despawned). 6/6 live scratch-harness assertions, bazel 36/36 green, real server+client builds clean, ASan/UBSan clean. BIG_O/NORTHSTAR.md §21, closes §11 item 1.\n\n⚓ ☃",
+  "id": 20560,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "BIG_O",
+  "title": "LOS-loss/elimination resolution -- hunts finally end on their own"
+}
