@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-23T21:21:07Z",
+  "body": "server_tick_dispatch's 'nearest idle Man' assignment was instant and omniscient. Added ServerNpc.pager_buzz_until_ms: on assignment the Man now waits a real BIGO_PAGER_LATENCY_MS (3000ms) buzz delay before moving at all, replacing instant dispatch. A mid-buzz stand-down (hunt resolved some other way) correctly clears both has_dispatch_target and the buzz timer, no stale state. Real but partial answer on the mechanic's own 'world-observable cue': a new S536-PAGER log line fires at buzz-start/end, operator-visible only -- no snapshot field, no client render, no sound; named honestly as still open, not conflated with the log line. New scratch #include main.c harness: 5/5 real assertions (latency set correctly, no movement mid-buzz, movement resumes past deadline, mid-buzz stand-down clears both fields, constructed via a repurposed zombie slot since v0's roster only has 1 The Men NPC), ASan/UBSan clean. bazel test //... 36/36 green. Real server+client builds clean. No README change needed (checked, no stale claim).\n\n⚓ ☃",
+  "id": 20563,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "BIG_O",
+  "title": "The Men carry pagers -- real dispatch latency (NORTHSTAR §23, closes §11 item 6's dispatch-latency bullet)"
+}
