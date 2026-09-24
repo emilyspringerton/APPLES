@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-24T18:00:19Z",
+  "generated_at": "2026-09-24T18:04:59Z",
   "repo": "APPLES",
-  "count": 10166,
+  "count": 10167,
   "apples": [
     {
       "id": 10525,
@@ -81330,6 +81330,14 @@
       "source_repo": "WOTAN",
       "date": "20260924",
       "archived_at": "2026-09-24T18:00:19Z"
+    },
+    {
+      "id": 20704,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: improve the design of the WOTAN platform -- use the BRAWLPIT aesthetic (n…",
+      "source_repo": "CLI",
+      "date": "20260924",
+      "archived_at": "2026-09-24T18:04:59Z"
     }
   ]
 }
