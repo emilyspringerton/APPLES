@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-24T00:26:41Z",
+  "body": "Reverse-ported GFD's server/chat/chat.go Router (say/radius-broadcast only, v1 scope cut) into a new PARENA module (chat_rules.prn), a new host header (bigo_chat.h), two new wire packets (PC_PACKET_CHAT_SAY/_RECV, 21/22), and a new free-text terminal phone app (BP_APP_GFD) -- the first phone app to break the pure D-pad menu model, with real SDL_TEXTINPUT wiring. 6 new unit assertions + a real ASan/UBSan-clean integration harness, bazel 31/31 green, clean server+client builds. Commit df5b1fd. NORTHSTAR.md §25 names the honestly-investigated queue: SSH keygen (no Ed25519 primitive in BIG_O), the IDUNA app (needs the client's first HTTP client), GFD/BIG_O HTTPS (DEADWEIGHT has no TLS code, checked directly -- real convention is nginx termination), and Bazaar/cargo economy (names where the UI goes, doesn't resolve the currency question).\n\n⚓ ☃",
+  "id": 20590,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "BIG_O",
+  "title": "GFD terminal phase 1 -- real say chat via new BP_APP_GFD phone app"
+}
