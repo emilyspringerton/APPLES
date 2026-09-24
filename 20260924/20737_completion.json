@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-24T23:30:07Z",
+  "body": "Closes NORTHSTAR.md §30's own named client-wiring gap: BP_APP_LAB was still its own original client-only 'base/trait/SPLICE/clone' mockup, a different, never-built breeding concept with zero server round trip. Replaced outright with the real thing: a host-fed crew sample list (contamination/purity/integrity/generation per sample) from PC_PACKET_LAB_UPDATE, SELECT on a row sends the real PC_PACKET_LAB_CENTRIFUGE request. bazel test //... 41/41 green, scripts/build_day.sh + build_client.sh + build.sh (ASan/UBSan core path) all clean. Caught and fixed a real bug along the way: a doc comment containing a literal */ substring closed a C comment early, corrupting the whole BigoPhone struct -- same bug class NORTHSTAR.md §26 already hit once. README updated (a stale 'still a mockup' claim was now false). NORTHSTAR.md §34 documents the full account. Commit 9c67764.\n\n⚓ ☃",
+  "id": 20737,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "BIG_O",
+  "title": "BP_APP_LAB cutover -- real crew samples, real centrifuge"
+}
