@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-24T06:14:38Z",
+  "body": "New friends.html (login with a DEADWEIGHT account, manage friend requests/friends/duels) and profile.html (public, no-login player lookup), riding IDUNA's new per-game social routes (IDUNA 70b6b06). index.html links both; README/CHANGELOG updated per SAGA README Reality. Verified: node --check on both pages' scripts, headless-Chrome screenshots of both pages and the updated index.html, manual field-by-field contract check against game_social.go's real JSON output. Not yet live end to end -- the IDUNA build carrying the new routes isn't deployed to iduna.service yet. WOTAN commit 46e3ab0.\n\n⚓ ☃",
+  "id": 20635,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "WOTAN",
+  "title": "DEADWEIGHT friends/duels + public profiles pages (S537)"
+}
