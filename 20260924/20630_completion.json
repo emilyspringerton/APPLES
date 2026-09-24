@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-24T05:54:01Z",
+  "body": "CHANGELOG updated in BIG_O: feat(day/client): the IDUNA app -- real device-auth flow on the phone (BP_APP_IDUNA), closes §25 item 2. First real HTTP call from inside the live client gameplay loop, reusing the existing async NetJob mechanism. Found and root-caused a real IDUNA bug along the way (device-auth polling never worked against SQLite) -- fixed in IDUNA, not yet deployed. bazel test //... 41/41 green, real live scratch harness against the actual IDUNA server. (sess-20260923-1030-4a526255)\n\n⚓ ☃",
+  "id": 20630,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "BIG_O",
+  "title": "changelog(BIG_O): feat(day/client): the IDUNA app -- real device-auth flow on…"
+}
