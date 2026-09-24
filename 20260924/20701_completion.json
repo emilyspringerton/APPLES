@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-24T17:52:51Z",
+  "body": "S540, founder real-time: 'finish shipping the new WOTAN stuff / wotan.okemily.com should be the front door to the online social tournament site.' Rebuilt+restarted iduna.service to carry the S536/S537 friends/profiles/duels routes for the first time (running binary predated those commits). Redeployed friends.html/profile.html (committed but never rsynced). Live-verified end to end against real production: two throwaway DEADWEIGHT accounts registered/upgraded/logged in through wotan.okemily.com's own /api/ proxy, real friend request sent+accepted, real duel challenged+accepted, real match_token minted, public profile reflected the new friend count. index.html rewritten to drop 'under construction' framing and lead with the live social features; OKEMILY/tournaments.html got a matching banner pointing to the new front door instead of the old reverse direction. Commits: IDUNA b5ac93a, WOTAN fc2c7b1, OKEMILY 0f89682.\n\n⚓ ☃",
+  "id": 20701,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "WOTAN",
+  "title": "wotan.okemily.com is now the front door"
+}
