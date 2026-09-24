@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-24T05:23:01Z",
+  "generated_at": "2026-09-24T05:23:07Z",
   "repo": "APPLES",
-  "count": 10087,
+  "count": 10088,
   "apples": [
     {
       "id": 10525,
@@ -80698,6 +80698,14 @@
       "source_repo": "BIG_O",
       "date": "20260924",
       "archived_at": "2026-09-24T05:23:01Z"
+    },
+    {
+      "id": 20625,
+      "type": "completion",
+      "title": "The lab goes live -- real server wiring for core/lab_sim.c's centrifuge station",
+      "source_repo": "BIG_O",
+      "date": "20260924",
+      "archived_at": "2026-09-24T05:23:07Z"
     }
   ]
 }

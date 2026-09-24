@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-24T05:23:07Z",
+  "body": "Closes the real gap named since NORTHSTAR.md §9: core/lab_sim.c's real, tested equipment pipeline had zero UI/server wiring. New day/packages/common/bigo_lab.h + a real, crew-shared g_lab server global + PC_PACKET_LAB_CENTRIFUGE/PC_PACKET_LAB_UPDATE wire packets. Only the centrifuge station is wired live (PCR/sequencer/splice/repressor/breed/incubate remain real, tested, unconsumed primitives -- named, not guessed at). Verified: bazel test //... 41/41 green (new bigo_lab_test), a real live scratch integration harness including a real UDP socket round-trip, ASan/UBSan clean, the real bigo_day_server binary boots against the live worldapi and runs 8s with no crash. No client UI wiring yet (named, separate follow-up, same precedent wheelbarrow/pheromone/dispatch already used). BIG_O commit 4d8edfc.\n\n⚓ ☃",
+  "id": 20625,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "BIG_O",
+  "title": "The lab goes live -- real server wiring for core/lab_sim.c's centrifuge station"
+}
