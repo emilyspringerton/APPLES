@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-24T22:12:36Z",
+  "generated_at": "2026-09-24T22:14:34Z",
   "repo": "APPLES",
-  "count": 10192,
+  "count": 10193,
   "apples": [
     {
       "id": 10525,
@@ -81538,6 +81538,14 @@
       "source_repo": "emily",
       "date": "20260924",
       "archived_at": "2026-09-24T22:12:36Z"
+    },
+    {
+      "id": 20730,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: 'finish updating WOTAN for iduna sso' -- re-attempted the two blocked inf…",
+      "source_repo": "CLI",
+      "date": "20260924",
+      "archived_at": "2026-09-24T22:14:34Z"
     }
   ]
 }
