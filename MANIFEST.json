@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-24T14:58:06Z",
+  "generated_at": "2026-09-24T15:04:20Z",
   "repo": "APPLES",
-  "count": 10139,
+  "count": 10140,
   "apples": [
     {
       "id": 10525,
@@ -81114,6 +81114,14 @@
       "source_repo": "DEADWEIGHT",
       "date": "20260924",
       "archived_at": "2026-09-24T14:58:06Z"
+    },
+    {
+      "id": 20677,
+      "type": "completion",
+      "title": "Duel Phase 3b: browser client Play button queues with match_token (S537)",
+      "source_repo": "DEADWEIGHT",
+      "date": "20260924",
+      "archived_at": "2026-09-24T15:04:20Z"
     }
   ]
 }
