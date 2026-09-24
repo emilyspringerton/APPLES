@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-24T17:09:12Z",
+  "generated_at": "2026-09-24T17:11:33Z",
   "repo": "APPLES",
-  "count": 10153,
+  "count": 10154,
   "apples": [
     {
       "id": 10525,
@@ -81226,6 +81226,14 @@
       "source_repo": "WOTAN",
       "date": "20260924",
       "archived_at": "2026-09-24T17:09:12Z"
+    },
+    {
+      "id": 20691,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: add the ARPANET to BIG_O (no further spec given yet -- needs scoping).",
+      "source_repo": "CLI",
+      "date": "20260924",
+      "archived_at": "2026-09-24T17:11:33Z"
     }
   ]
 }
