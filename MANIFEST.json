@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-24T01:26:30Z",
+  "generated_at": "2026-09-24T01:30:28Z",
   "repo": "APPLES",
-  "count": 10065,
+  "count": 10066,
   "apples": [
     {
       "id": 10525,
@@ -80522,6 +80522,14 @@
       "source_repo": "BIG_O",
       "date": "20260924",
       "archived_at": "2026-09-24T01:26:30Z"
+    },
+    {
+      "id": 20603,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: upgrade the BIG_O SSH key generation work to quantum-safe (post-quantum) …",
+      "source_repo": "CLI",
+      "date": "20260924",
+      "archived_at": "2026-09-24T01:30:28Z"
     }
   ]
 }
