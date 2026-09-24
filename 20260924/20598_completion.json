@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-24T00:58:10Z",
+  "body": "3 board types (SPEEDSTER/TANK/GLIDER), PARENA-tuned accel/friction/max-speed/gravity, frame-rate-independent momentum model. New PC_PACKET_HOVERBOARD_TOGGLE wire packet, V key to mount/cycle. Found+fixed a real friction-model bug (per-tick vs per-second decay) via the test suite's own convergence assertion. bigo_hoverboard_test.c + real scratch integration harness both pass ASan/UBSan clean. bazel test //day/packages/... 32/32 green, real server+client builds clean. NORTHSTAR/CHANGELOG/README updated. BIG_O a2d9219, PARENA c7fa311.\n\n⚓ ☃",
+  "id": 20598,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "BIG_O",
+  "title": "Air ships -- wedge hover skateboards, per-board PARENA physics (NORTHSTAR §26)"
+}
