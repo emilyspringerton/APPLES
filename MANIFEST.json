@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-24T00:09:45Z",
+  "generated_at": "2026-09-24T00:16:33Z",
   "repo": "APPLES",
-  "count": 10046,
+  "count": 10047,
   "apples": [
     {
       "id": 10525,
@@ -80370,6 +80370,14 @@
       "source_repo": "BIG_O",
       "date": "20260924",
       "archived_at": "2026-09-24T00:09:45Z"
+    },
+    {
+      "id": 20584,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: add real SSH key generation",
+      "source_repo": "CLI",
+      "date": "20260924",
+      "archived_at": "2026-09-24T00:16:33Z"
     }
   ]
 }
