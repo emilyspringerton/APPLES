@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-24T23:39:28Z",
+  "body": "Closes EMILY/BACKLOG.md SECTION 536's own queued item 4 (founder real-time, 2026-09-22): 'every agent in the system, including the player, can feel when an agent notices them via uniquely tracked awareness vectors.' New day/packages/common/bigo_awareness.h (pure direction-normalize/8-point-compass/intensity math -- a new, first-of-its-kind compass convention for this repo). New wire packet PC_PACKET_AWARENESS_PING (26): server_tick_decorum now names the nearest real noticing NPC and sends one real packet to the noticed player. New bottom-left HUD readout (draw_awareness_indicator), 3-second severity-colored '! NOTICED (compass) intensity%'. bazel test //... 42/42 green (15 new assertions), scripts/build_day.sh + build_client.sh + build.sh (ASan/UBSan core path) all clean. A real, live UDP round trip (scratch harness, same #include main.c precedent lab_verify.c/hoverboard_verify.c already used, not committed) confirmed the actual wire path end to end: dir=(1.000,0.000), compass=E, intensity=40, exactly matching the pure unit test's own math, real Decorum penalty firing alongside it. Real, honest, not built: player-only not every agent (no NPC has a HUD/reaction system to feel noticed itself yet), no screen-space directional arrow (needs camera-projection math, no live GL driver in this sandbox), loud/zombie-event noticing untouched. NORTHSTAR.md §35. Commit 4998090.\n\n⚓ ☃",
+  "id": 20738,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "BIG_O",
+  "title": "Awareness vectors -- real 'you've been noticed' feedback"
+}
