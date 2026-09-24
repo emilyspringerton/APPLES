@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-24T00:16:45Z",
+  "generated_at": "2026-09-24T00:17:08Z",
   "repo": "APPLES",
-  "count": 10048,
+  "count": 10049,
   "apples": [
     {
       "id": 10525,
@@ -80386,6 +80386,14 @@
       "source_repo": "CLI",
       "date": "20260924",
       "archived_at": "2026-09-24T00:16:45Z"
+    },
+    {
+      "id": 20586,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: ensure GFD uses https, use DEADWEIGHT primitives as example",
+      "source_repo": "CLI",
+      "date": "20260924",
+      "archived_at": "2026-09-24T00:17:08Z"
     }
   ]
 }
