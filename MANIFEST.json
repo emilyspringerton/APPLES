@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-24T05:50:22Z",
+  "generated_at": "2026-09-24T05:51:22Z",
   "repo": "APPLES",
-  "count": 10090,
+  "count": 10091,
   "apples": [
     {
       "id": 10525,
@@ -80722,6 +80722,14 @@
       "source_repo": "emily",
       "date": "20260924",
       "archived_at": "2026-09-24T05:50:22Z"
+    },
+    {
+      "id": 20628,
+      "type": "completion",
+      "title": "changelog(IDUNA): fix(device-auth): real time.Time round-trip bug breaking ev…",
+      "source_repo": "IDUNA",
+      "date": "20260924",
+      "archived_at": "2026-09-24T05:51:22Z"
     }
   ]
 }
