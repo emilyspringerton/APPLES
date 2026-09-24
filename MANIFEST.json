@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-24T05:08:59Z",
+  "generated_at": "2026-09-24T05:09:24Z",
   "repo": "APPLES",
-  "count": 10083,
+  "count": 10084,
   "apples": [
     {
       "id": 10525,
@@ -80666,6 +80666,14 @@
       "source_repo": "PARENA",
       "date": "20260924",
       "archived_at": "2026-09-24T05:08:59Z"
+    },
+    {
+      "id": 20621,
+      "type": "completion",
+      "title": "crypto/mldsa.prn -- real, working, verified post-quantum ML-DSA-44 crypto binding",
+      "source_repo": "PARENA",
+      "date": "20260924",
+      "archived_at": "2026-09-24T05:09:24Z"
     }
   ]
 }

@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-24T05:09:24Z",
+  "body": "PARENA's first actually-working crypto binding (crypto/ed25519.prn is a non-working stub). FFI-bound to a vendored, independently-verified copy of the official pq-crystals/dilithium reference (runtime/mldsa/, CC0), opt-in via PARENA_WITH_MLDSA. bytes-slice added to bytes.prn as the real primitive needed to split ML-DSA's concatenated keygen output. Verified end to end via make test-mldsa (tests/test_mldsa.c, 12 real assertions through the actual generated PARENA call chain): correctly-sized keys, sign-\u003everify roundtrip, tampered-signature/message/cross-key rejection, hedged-signing non-determinism. ASan/UBSan clean. No live SSH-auth consumer yet (GFD's SSH server has no post-quantum public-key algorithm registered) -- a real, working primitive, honest named gap. PARENA commit 1b9200d.\n\n⚓ ☃",
+  "id": 20621,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "PARENA",
+  "title": "crypto/mldsa.prn -- real, working, verified post-quantum ML-DSA-44 crypto binding"
+}
