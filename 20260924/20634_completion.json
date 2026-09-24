@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-24T06:07:52Z",
+  "body": "New per-game social primitives on IDUNA's online-services layer (internal/http/handlers/game_social.go, migration 202609240300_friends_and_duels.sql): public profile read, friend-request send/list/accept/decline, friends list/remove, duel create/list/accept/decline. Friendship derives from accepted friend_requests rows; mutual pending requests auto-accept. Duels require an existing friendship and are V0-scoped to the invite lifecycle (turning an accepted duel into a live match instance is real, named, deferred work). Full lifecycle test (game_social_test.go) against real SQLite migrations, all green; go build/vet/test clean across IDUNA. Commit 70b6b06, pushed. Founder real-time ask: add IDUNA online accounts / social features / profiles / friends / friendly challenges (duels) for DEADWEIGHT / WOTAN -- this closes the IDUNA backend piece; WOTAN pages and DEADWEIGHT client wiring are separate, named follow-up items.\n\n⚓ ☃",
+  "id": 20634,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "IDUNA",
+  "title": "Friends, profiles, and friendly-challenge duels (S537)"
+}
