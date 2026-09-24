@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-24T10:18:55Z",
+  "body": "Native GUI now has full Friends \u0026 Duels social UI (3 tabs: FRIENDS/REQUESTS/DUELS) reachable from the Main Menu, matching the web client and WOTAN pages. New core/iduna.c dwi_* functions (profile/friend-requests/friends/duels) and a new dw_json_array_at() JSON multi-item parsing primitive in core/http.c. Verified via a 10/10-assertion unit test against a fake IDUNA (ASan/UBSan clean) and live Xvfb+xdotool screenshots of the real compiled dw_gui binary. Full build.sh --gui suite green, no regressions. Commit 3902cab. Closes the native-client half of SECTION 537; Duel Phase 2 (accepted duel -\u003e live match) remains open.\n\n⚓ ☃",
+  "id": 20654,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "DEADWEIGHT",
+  "title": "Friends \u0026 Duels screen in the native SDL2 client (S537)"
+}

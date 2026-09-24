@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-24T10:06:44Z",
+  "generated_at": "2026-09-24T10:18:55Z",
   "repo": "APPLES",
-  "count": 10116,
+  "count": 10117,
   "apples": [
     {
       "id": 10525,
@@ -80930,6 +80930,14 @@
       "source_repo": "emily",
       "date": "20260924",
       "archived_at": "2026-09-24T10:06:44Z"
+    },
+    {
+      "id": 20654,
+      "type": "completion",
+      "title": "Friends \u0026 Duels screen in the native SDL2 client (S537)",
+      "source_repo": "DEADWEIGHT",
+      "date": "20260924",
+      "archived_at": "2026-09-24T10:18:55Z"
     }
   ]
 }
