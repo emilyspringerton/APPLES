@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-24T19:40:36Z",
+  "body": "New shared css/wotan-theme.css (violet/black background, violet primary, gold IDUNA-undertone secondary accent, Space Grotesk display font) applied to index.html, decks.html, store.html, profile.html, friends.html in place of each page's own copy-pasted :root/base style block. decks.html's existing Offense/Operations/Defense card coloring rides the same CSS variables unchanged (JS referenced by name/class, never hardcoded hex). Dropped light-mode support deliberately -- neon-brutalist is dark-only. Fixed a real bug found during centralization: store.html emits bare class=\"badge\" with no modifier for Owned/Equipped, which the new shared unstyled-by-default .badge base would have rendered colorless -- added a page-local override. Verified with real headless (Playwright/Chromium) screenshots of all 5 pages served locally before shipping. Commit pending push in WOTAN repo.\n\n⚓ ☃",
+  "id": 20714,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "WOTAN",
+  "title": "Full visual redesign shipped -- BRAWLPIT neon-brutalist art direction across all 5 live pages"
+}
