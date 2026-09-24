@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-24T17:11:33Z",
+  "generated_at": "2026-09-24T17:12:19Z",
   "repo": "APPLES",
-  "count": 10154,
+  "count": 10155,
   "apples": [
     {
       "id": 10525,
@@ -81234,6 +81234,14 @@
       "source_repo": "CLI",
       "date": "20260924",
       "archived_at": "2026-09-24T17:11:33Z"
+    },
+    {
+      "id": 20692,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: add minestrone (food item) to GFD (GoblinFoxDragon) too, alongside SHANKP…",
+      "source_repo": "CLI",
+      "date": "20260924",
+      "archived_at": "2026-09-24T17:12:19Z"
     }
   ]
 }
