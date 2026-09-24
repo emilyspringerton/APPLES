@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-24T17:31:56Z",
+  "generated_at": "2026-09-24T17:37:09Z",
   "repo": "APPLES",
-  "count": 10161,
+  "count": 10162,
   "apples": [
     {
       "id": 10525,
@@ -81290,6 +81290,14 @@
       "source_repo": "BIG_O",
       "date": "20260924",
       "archived_at": "2026-09-24T17:31:56Z"
+    },
+    {
+      "id": 20699,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: finish shipping the new WOTAN stuff; wotan.okemily.com should be the fron…",
+      "source_repo": "CLI",
+      "date": "20260924",
+      "archived_at": "2026-09-24T17:37:09Z"
     }
   ]
 }
