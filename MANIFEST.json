@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-24T05:09:24Z",
+  "generated_at": "2026-09-24T05:10:12Z",
   "repo": "APPLES",
-  "count": 10084,
+  "count": 10085,
   "apples": [
     {
       "id": 10525,
@@ -80674,6 +80674,14 @@
       "source_repo": "PARENA",
       "date": "20260924",
       "archived_at": "2026-09-24T05:09:24Z"
+    },
+    {
+      "id": 20622,
+      "type": "completion",
+      "title": "changelog(BIG_O): docs(northstar): §29 -- real, working, verified post-quantu…",
+      "source_repo": "BIG_O",
+      "date": "20260924",
+      "archived_at": "2026-09-24T05:10:12Z"
     }
   ]
 }
