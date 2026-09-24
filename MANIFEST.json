@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-24T14:52:23Z",
+  "generated_at": "2026-09-24T14:58:06Z",
   "repo": "APPLES",
-  "count": 10138,
+  "count": 10139,
   "apples": [
     {
       "id": 10525,
@@ -81106,6 +81106,14 @@
       "source_repo": "emily",
       "date": "20260924",
       "archived_at": "2026-09-24T14:52:23Z"
+    },
+    {
+      "id": 20676,
+      "type": "completion",
+      "title": "Duel Phase 3a: native SDL2 client PLAY button queues with match_token (S537)",
+      "source_repo": "DEADWEIGHT",
+      "date": "20260924",
+      "archived_at": "2026-09-24T14:58:06Z"
     }
   ]
 }

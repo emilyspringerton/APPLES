@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-24T14:58:06Z",
+  "body": "DUELS tab shows PLAY for an accepted duel with a live match_token; clicking it queues with that token via the existing QUEUE wire path. DwDuel gained match_token field, parsed via dw_json_str. Live-verified end to end: real dw_gui under Xvfb, driven by real xdotool clicks (Main Menu -\u003e FRIENDS \u0026 DUELS -\u003e DUELS tab -\u003e PLAY), paired specifically with a real dw_client CLI partner on the same token against a real dw_server -- not FIFO. scripts/build.sh --gui clean. Commit 9afdda5. Web client and WOTAN still need Phase 3 wiring.\n\n⚓ ☃",
+  "id": 20676,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "DEADWEIGHT",
+  "title": "Duel Phase 3a: native SDL2 client PLAY button queues with match_token (S537)"
+}
