@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-24T12:14:53Z",
+  "body": "QUEUE's payload grows to an optional 33-byte form (same_deck + 32-char token), purely additive over wire protocol v3 -- no proto bump needed. dw_server's try_pair_mode() gained find_token_pair(), checked before normal FIFO/bot logic: two queued connections presenting an identical token pair with each other specifically. Found and fixed a real design bug along the way: oldest_queued() now excludes token-holding connections from ordinary FIFO/bot pairing entirely, since without that exclusion a lone duelist queuing into a busy queue would get matched with a stranger before their friend ever connected -- defeating the whole point. Verified via new test_protocol.c coverage plus a live e2e scratch test driving real dw_server+dw_client processes over real TCP, proving a lone token-holder is never swept into a stranger's match while waiting. dw_client gained --match-token for testing. Full build.sh --gui suite green. Commit b053fe9. Server-side only -- no client (native/web/WOTAN) wires a 'queue for this duel' affordance yet, that's Phase 3.\n\n⚓ ☃",
+  "id": 20664,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "DEADWEIGHT",
+  "title": "QUEUE carries a duel match_token; server pairs same-token conns ahead of FIFO (S537 Duel Phase 2, Phase 2)"
+}

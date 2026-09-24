@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-24T12:07:29Z",
+  "generated_at": "2026-09-24T12:14:53Z",
   "repo": "APPLES",
-  "count": 10126,
+  "count": 10127,
   "apples": [
     {
       "id": 10525,
@@ -81010,6 +81010,14 @@
       "source_repo": "emily",
       "date": "20260924",
       "archived_at": "2026-09-24T12:07:29Z"
+    },
+    {
+      "id": 20664,
+      "type": "completion",
+      "title": "QUEUE carries a duel match_token; server pairs same-token conns ahead of FIFO (S537 Duel Phase 2, Phase 2)",
+      "source_repo": "DEADWEIGHT",
+      "date": "20260924",
+      "archived_at": "2026-09-24T12:14:53Z"
     }
   ]
 }
