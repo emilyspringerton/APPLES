@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-24T12:04:26Z",
+  "body": "duelRespond's accept path now mints a random 32-hex-char token (15-min TTL) on the duel_challenges row, surfaced identically to both participants via GET duels while unexpired, never on a decline. New additive migration (202609240400_duel_match_tokens.sql). New test coverage in game_social_test.go confirms the token round-trips correctly for both players and is absent on decline. go build/vet/test ./... clean. This is IDUNA's half only -- DEADWEIGHT's own matchmaking queue doesn't consume the token yet, that's Phase 2 of this same subsection. Commit 2716c8e.\n\n⚓ ☃",
+  "id": 20662,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "IDUNA",
+  "title": "Duel accept mints a shared match_token (S537 Duel Phase 2, Phase 1)"
+}
