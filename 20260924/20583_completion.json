@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-24T00:09:45Z",
+  "body": "Reverse-ported from GoblinFoxDragon's own real server/party/party.go (FFXI-parity 6-player party: leader+5 members, invite/kick/leave, leadership transfer, range-gated even XP split). Checked first: wired only into GFD's MUD text layer, never its own UDP server, so this is a decision-logic port (string slots -\u003e BIG_O int PC_MAX_PLAYERS slots), not literal code reuse. Pure eligibility/XP-math is a new PARENA module (PARENA/stdlib/big_o/party_rules.prn, generated to day/packages/simulation/party_rules.c, wired into scripts/build_day.sh as a real live consumer). Roster mutation in day/packages/common/bigo_party.h. Real wire packets PC_PACKET_PARTY_INVITE/_KICK/_LEAVE (18/19/20). The existing world-object-destroyed XP award is the real first live consumer of the split (40-unit range, even integer division, matching party.go's own real rule exactly). bigo_party_test.c (13 assertions) + a scratch #include main.c harness (4 assertions against the real unmodified server) both pass, ASan/UBSan clean. bazel test //... 37/37 green. Real server+client builds clean. README updated. Deliberately not built, named in NORTHSTAR §24: GFD's own Alliance/XPChain, any client UI, snapshot broadcast of party membership, REFLUX wiring, plus queued economy/socials/terminal-interface investigation notes for the rest of an 8-message founder burst (Apples #20564-#20571).\n\n⚓ ☃",
+  "id": 20583,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "BIG_O",
+  "title": "Real, live multiplayer party system -- phase 1 (NORTHSTAR §24)"
+}
