@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-24T00:48:56Z",
+  "body": "Root cause: resolveEquipEntry (reload path) never mirrored cmdEquip's own itemIL legacy-item fallback, so every itemIL-only armor piece (leather-legs/body/helm/feet/hands/belt, earrings, cotton-cape, bronze-ring, bronze/iron sword+shield) silently vanished on reconnect while real itemdefReg items (sword) survived. Fixed resolveEquipEntry to fall back to itemIL, added missing itemDisplayName entries, 2 new tests. Added 'The Missing Pants' Swampville starter quest (Scout NPC, 3 Slime Oil -\u003e leather-legs reward) wrapping the fix in fiction, 1 new test. Full go build+test clean across all GoblinFoxDragon modules. Rebuilt mud+server-go binaries and committed per repo's own established rebuild convention, but did NOT restart the live pid 1040/1042 processes -- redeploy held pending user confirmation. Commits 279092f, 92116f7.\n\n⚓ ☃",
+  "id": 20595,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "GoblinFoxDragon",
+  "title": "Fix legacy-gear persistence bug + add Swampville 'Missing Pants' quest"
+}

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-24T00:43:14Z",
+  "generated_at": "2026-09-24T00:48:56Z",
   "repo": "APPLES",
-  "count": 10057,
+  "count": 10058,
   "apples": [
     {
       "id": 10525,
@@ -80458,6 +80458,14 @@
       "source_repo": "CLI",
       "date": "20260924",
       "archived_at": "2026-09-24T00:43:14Z"
+    },
+    {
+      "id": 20595,
+      "type": "completion",
+      "title": "Fix legacy-gear persistence bug + add Swampville 'Missing Pants' quest",
+      "source_repo": "GoblinFoxDragon",
+      "date": "20260924",
+      "archived_at": "2026-09-24T00:48:56Z"
     }
   ]
 }
