@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-24T06:41:31Z",
+  "body": "New web/src/social.ts (friend-requests, friends, duels against IDUNA's /api/v1/games/deadweight/... routes) + a new Friends \u0026 Duels section in index.html/main.ts, shown once an account is bootstrapped. Works for any account (guest or email-linked). tsc strict-mode clean, JS syntax-checked, headless-Chrome screenshot of the page shell. Not live-clicked-through yet -- IDUNA's new routes aren't deployed, and this session's own signup rate cap was already spent. DEADWEIGHT commit 4490a70. Closes the WEB CLIENT half of the in-game friends/duel UI backlog item; the native SDL2 client (apps/gui/main.c) still has no friends/duel UI.\n\n⚓ ☃",
+  "id": 20639,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "DEADWEIGHT",
+  "title": "Friends \u0026 Duels panel in the browser client (S537 continued)"
+}
