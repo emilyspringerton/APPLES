@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-24T05:54:08Z",
+  "generated_at": "2026-09-24T05:58:42Z",
   "repo": "APPLES",
-  "count": 10094,
+  "count": 10095,
   "apples": [
     {
       "id": 10525,
@@ -80754,6 +80754,14 @@
       "source_repo": "BIG_O",
       "date": "20260924",
       "archived_at": "2026-09-24T05:54:08Z"
+    },
+    {
+      "id": 20632,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: add IDUNA online accounts + social features (profiles, friends, friendly …",
+      "source_repo": "CLI",
+      "date": "20260924",
+      "archived_at": "2026-09-24T05:58:42Z"
     }
   ]
 }
