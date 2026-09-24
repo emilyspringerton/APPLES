@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-24T00:16:33Z",
+  "generated_at": "2026-09-24T00:16:45Z",
   "repo": "APPLES",
-  "count": 10047,
+  "count": 10048,
   "apples": [
     {
       "id": 10525,
@@ -80378,6 +80378,14 @@
       "source_repo": "CLI",
       "date": "20260924",
       "archived_at": "2026-09-24T00:16:33Z"
+    },
+    {
+      "id": 20585,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: add the iduna app from IDUNA.GAME",
+      "source_repo": "CLI",
+      "date": "20260924",
+      "archived_at": "2026-09-24T00:16:45Z"
     }
   ]
 }
