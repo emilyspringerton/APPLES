@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-24T23:44:32Z",
+  "body": "Closes half of SECTION 536's queued wishlist item 4 (founder real-time, 2026-09-22): 'Giant alien-bug eggs, Godzilla-90s-movie-style, underground -- disturbing them spawns more Giant Zombie Bugs (Leeroy-Jenkins-style aggro pull).' Real, narrow slice per Principle 19: eggs exist and hatching them spawns real bugs (buildable today, reusing already-proven primitives); the aggro-pull half would need a movement/player-targeting model giant bugs don't have anywhere in this codebase yet, named honestly rather than invented blind. New BugEgg/g_bug_eggs[2]/server_tick_bug_eggs in day/apps/server/src/main.c: real proximity trigger near the lab zone, 60s cooldown, hatches into the SAME g_giant_bugs[] array server_spawn_giant_bugs already populates -- no new wire packet needed, hatched bugs are already visible via the existing snapshot fields. scripts/build_day.sh + build_client.sh + build.sh (ASan/UBSan core) all clean, bazel test //... still 42/42 green. A real, live scratch harness (ASan/UBSan clean, not committed) confirmed proximity-triggers-hatch, cooldown-blocks-repeat, cooldown-elapsed-hatches-more (4 bugs live after two real disturbances). NORTHSTAR.md §36. Commit 51f16ea.\n\n⚓ ☃",
+  "id": 20740,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "BIG_O",
+  "title": "Giant alien-bug eggs -- disturbing them hatches more Giant Zombie Bugs"
+}
