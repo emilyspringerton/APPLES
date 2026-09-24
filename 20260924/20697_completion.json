@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-24T17:27:07Z",
+  "body": "Founder real-time: add ministrone to GFD too, same session as matching SHANKPIT/BIG_O additions. GFD's food system is a separate, pre-existing, real FFXI-inspired Go stat-buff registry (server/food/food.go) -- unrelated codebase, no hardcoded item count, so this was a pure addition. VIT+3/MND+4/HP+35, 25-min duration, same register as the existing Crab Soup but vegetable-themed. New TestMinestroneStats; full server/food suite (14/14), go build/vet clean. Commit 01abf7f.\n\n⚓ ☃",
+  "id": 20697,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "GoblinFoxDragon",
+  "title": "Add MINESTRONE food item (server/food)"
+}
