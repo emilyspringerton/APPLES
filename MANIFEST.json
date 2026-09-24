@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-24T05:51:22Z",
+  "generated_at": "2026-09-24T05:51:33Z",
   "repo": "APPLES",
-  "count": 10091,
+  "count": 10092,
   "apples": [
     {
       "id": 10525,
@@ -80730,6 +80730,14 @@
       "source_repo": "IDUNA",
       "date": "20260924",
       "archived_at": "2026-09-24T05:51:22Z"
+    },
+    {
+      "id": 20629,
+      "type": "completion",
+      "title": "Real bug fix: time.Time round-trip breaking every SQLite device-auth poll",
+      "source_repo": "IDUNA",
+      "date": "20260924",
+      "archived_at": "2026-09-24T05:51:33Z"
     }
   ]
 }

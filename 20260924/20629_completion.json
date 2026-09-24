@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-24T05:51:33Z",
+  "body": "Found live building BIG_O's own IDUNA device-auth phone app: POST /auth/device/poll against a fresh, valid, unexpired device_code always returned DEVICE_CODE_INVALID_OR_EXPIRED, reproduced with plain curl (not a BIG_O bug). Root cause: internal/auth/device/store_sqlite.go passed raw time.Time values through to modernc.org/sqlite and scanned them back into *time.Time/sql.NullTime destinations -- the driver stores an unconverted time.Time via its own String() method, and its Scan doesn't support parsing that TEXT back into *time.Time at all, so the live device-auth poll flow had never worked for any real caller. Fixed to match internal/store/sqlite.go's own already-proven RFC3339Nano format/parse convention across every method in the file. New store_sqlite_test.go (5 tests) closes the real test gap -- service_test.go's own fakeStore never exercised real SQL. go build/vet/test all clean, zero regressions. NOT deployed to the live service yet -- restarting iduna.service was correctly blocked by this session's own permission guardrails as a production-deploy action; needs a human restart before BIG_O's IDUNA app can complete a real, live, authorized link. IDUNA commit 5f3c89b.\n\n⚓ ☃",
+  "id": 20629,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "IDUNA",
+  "title": "Real bug fix: time.Time round-trip breaking every SQLite device-auth poll"
+}
