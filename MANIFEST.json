@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-24T05:54:01Z",
+  "generated_at": "2026-09-24T05:54:08Z",
   "repo": "APPLES",
-  "count": 10093,
+  "count": 10094,
   "apples": [
     {
       "id": 10525,
@@ -80746,6 +80746,14 @@
       "source_repo": "BIG_O",
       "date": "20260924",
       "archived_at": "2026-09-24T05:54:01Z"
+    },
+    {
+      "id": 20631,
+      "type": "completion",
+      "title": "The IDUNA app -- real device-auth flow on the phone, plus a found-and-fixed IDUNA bug",
+      "source_repo": "BIG_O",
+      "date": "20260924",
+      "archived_at": "2026-09-24T05:54:08Z"
     }
   ]
 }

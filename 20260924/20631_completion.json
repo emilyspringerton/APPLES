@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-24T05:54:08Z",
+  "body": "New BP_APP_IDUNA phone app: real /auth/device/start -\u003e poll -\u003e exchange flow, the same one IDUNA.GAME already uses. First real HTTP call wired into the live client gameplay loop (day/apps/client/src/main.c), reusing the existing async NetJob mechanism so it never stalls the render loop. Live-verifying this against the actual running IDUNA server found and root-caused a real, 100%-reproducing bug: device-auth polling had never worked against SQLite (a time.Time round-trip bug in modernc.org/sqlite). Fixed, tested (5 new tests), and committed in IDUNA (5f3c89b/93df52f) -- NOT deployed to the live service (blocked as a production-deploy action by this session's own permission guardrails, needs a human restart). bazel test //... 41/41 green, real live scratch integration harness against the actual IDUNA server (honest, non-crashing failures on the still-unpatched poll path, exactly as expected). See NORTHSTAR.md §31. BIG_O commit 657f6da/61247bf.\n\n⚓ ☃",
+  "id": 20631,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "BIG_O",
+  "title": "The IDUNA app -- real device-auth flow on the phone, plus a found-and-fixed IDUNA bug"
+}
