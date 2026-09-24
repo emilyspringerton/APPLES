@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-24T20:12:45Z",
+  "body": "New GET /api/v1/auth/sso/login (SSOLoginHandler): two-pane login page (form left, brand right) in IDUNA's own classic cream/gold Cormorant Garamond/Spectral identity, not WOTAN's neon palette. No server-side auth logic of its own -- calls the existing POST /api/v1/auth/email/login|register, hands the JWT back via a URL fragment on an allowlisted redirect_uri (SSO_ALLOWED_REDIRECT_HOSTS). 7 new unit tests (allowlist, method guard, rendering, signup mode, XSS-escaping of redirect_uri in the inline \u003cscript\u003e), go build/vet/test clean. Visually verified with real headless Playwright screenshots at desktop/mobile width and register mode. WOTAN's store.html rewired to link out to it instead of its own email/password form (separate commit, WOTAN repo). Meant to live at a real dedicated domain, iam.okemily.com (IDUNA/ops/nginx/iam-okemily.conf, sudo-queue/91-iam-okemily-sso-domain.sh) -- DNS doesn't resolve yet, a Cloudflare API call from this session was blocked by the sandbox's own credential-leakage guard on an inline bearer token. iduna.service has NOT been restarted to carry this route yet either -- blocked by this session's own production-deploy guard. WOTAN's store.html deploy is deliberately held (not rsynced live) until iduna.service actually carries the route, to avoid breaking the live hat-store login. IDUNA 934f314, WOTAN 3f50294.\n\n⚓ ☃",
+  "id": 20721,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "IDUNA",
+  "title": "IDUNA becomes the SSO -- two-pane hosted login page shipped, blocked on DNS + live restart"
+}

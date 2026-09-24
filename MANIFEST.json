@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-24T20:12:40Z",
+  "generated_at": "2026-09-24T20:12:45Z",
   "repo": "APPLES",
-  "count": 10183,
+  "count": 10184,
   "apples": [
     {
       "id": 10525,
@@ -81466,6 +81466,14 @@
       "source_repo": "CLI",
       "date": "20260924",
       "archived_at": "2026-09-24T20:12:40Z"
+    },
+    {
+      "id": 20721,
+      "type": "completion",
+      "title": "IDUNA becomes the SSO -- two-pane hosted login page shipped, blocked on DNS + live restart",
+      "source_repo": "IDUNA",
+      "date": "20260924",
+      "archived_at": "2026-09-24T20:12:45Z"
     }
   ]
 }
