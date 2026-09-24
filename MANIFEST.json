@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-24T19:15:05Z",
+  "generated_at": "2026-09-24T19:23:46Z",
   "repo": "APPLES",
-  "count": 10173,
+  "count": 10174,
   "apples": [
     {
       "id": 10525,
@@ -81386,6 +81386,14 @@
       "source_repo": "SHANKPIT",
       "date": "20260924",
       "archived_at": "2026-09-24T19:15:05Z"
+    },
+    {
+      "id": 20711,
+      "type": "completion",
+      "title": "fix: root-cause SHANKPIT queue SIGSEGV crash loop (witness_sim NULL log sink)",
+      "source_repo": "SHANKPIT",
+      "date": "20260924",
+      "archived_at": "2026-09-24T19:23:46Z"
     }
   ]
 }

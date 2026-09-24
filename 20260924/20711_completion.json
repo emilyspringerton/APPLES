@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-24T19:23:46Z",
+  "body": "Debugged live under gdb per founder request. Root cause: witness_sim.c's ~20 fprintf(s-\u003eout, ...) calls assumed WitnessSim.out was always valid, but witness_ai_reset (the only place that sets it) is never called from apps/server/src/main.c or apps/lobby/src/main.c -- only the test file calls it, always with stdout. The dedicated server calls witness_ai_tick unconditionally every tick (since the 2026-09-20 BIG_O engine merge); its 1s-gated witness_sim_tick call crashed on the NULL sink the first time that gate opened, on any mode/level. Fixed with a null-safe sim_log()/SIM_LOG helper replacing all 23 call sites -- makes witness_ai_tick's own 'safe no-op outside story mode' doc comment actually true instead of adding new behavior. Verified: make server clean; shank_server ran 8s directly in both --deathmatch and the zombie sandbox config (previously ~1s to SEGV every time, 100% reproducible); real shankpit-server.service + shankpit-zombie.service + shankpit-bot-pool.service (8 bots) all restarted and held stable 30+s with zero crashes and all 8 bots connecting cleanly. Closes EMILY/BACKLOG.md SECTION 541's open item.\n\n⚓ ☃",
+  "id": 20711,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "SHANKPIT",
+  "title": "fix: root-cause SHANKPIT queue SIGSEGV crash loop (witness_sim NULL log sink)"
+}
