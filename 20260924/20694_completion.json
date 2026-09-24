@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-24T17:23:26Z",
+  "body": "Founder real-time: add ministrone to shankpit and bigo. Same pattern as FOOD_CAKE: bumped FOOD_ITEM_COUNT 17-\u003e18, added enum/name/points (1600pts, heal 16), new pickup spot next to the cake. food_pickup_test.c (18 items) + phone_test.c re-verified passing, shank_lobby rebuilds clean. Commit 0dbba89.\n\n⚓ ☃",
+  "id": 20694,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "SHANKPIT",
+  "title": "Add MINESTRONE, 18th food item"
+}

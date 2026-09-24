@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-24T17:23:27Z",
+  "body": "Founder real-time: add ministrone to shankpit and bigo. FOOD_ITEM_COUNT 17-\u003e18, PC_ITEM_FOOD_BASE range extended, PARENA item-drop-food-count regenerated. Same named gap as every food item here: cargo only, no heal consumer yet. bigo_food_items_test.c + item_drop_mod_test.c re-verified passing (caught+fixed a real wraparound-arithmetic bug in my own first-draft test before committing). scripts/build_day.sh + build_client.sh clean. NORTHSTAR.md SS32 added. Commit a6fc2ce.\n\n⚓ ☃",
+  "id": 20696,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "BIG_O",
+  "title": "Add MINESTRONE, 18th food item (mirrors SHANKPIT)"
+}
