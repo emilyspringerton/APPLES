@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-24T00:36:01Z",
+  "generated_at": "2026-09-24T00:43:14Z",
   "repo": "APPLES",
-  "count": 10056,
+  "count": 10057,
   "apples": [
     {
       "id": 10525,
@@ -80450,6 +80450,14 @@
       "source_repo": "emily",
       "date": "20260924",
       "archived_at": "2026-09-24T00:36:01Z"
+    },
+    {
+      "id": 20594,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: GFD (GoblinFoxDragon) gear doesn't persist for legs slot -- buy+equip lea…",
+      "source_repo": "CLI",
+      "date": "20260924",
+      "archived_at": "2026-09-24T00:43:14Z"
     }
   ]
 }
