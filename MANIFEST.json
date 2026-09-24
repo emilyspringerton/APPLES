@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-24T18:58:05Z",
+  "generated_at": "2026-09-24T19:09:25Z",
   "repo": "APPLES",
-  "count": 10170,
+  "count": 10171,
   "apples": [
     {
       "id": 10525,
@@ -81362,6 +81362,14 @@
       "source_repo": "emily",
       "date": "20260924",
       "archived_at": "2026-09-24T18:58:05Z"
+    },
+    {
+      "id": 20708,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: something is wrong with SHANKPIT queue -- check matchmaking and reduce th…",
+      "source_repo": "CLI",
+      "date": "20260924",
+      "archived_at": "2026-09-24T19:09:25Z"
     }
   ]
 }
