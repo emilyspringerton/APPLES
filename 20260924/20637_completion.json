@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-24T06:26:59Z",
+  "body": "New web/src/account.ts (guest-register/guest-login refresh/guest-upgrade link-email), client.ts's connect() now takes a real token into HELLO (was always ''), index.html/main.ts UI. Closes the real, previously-honest 'No IDUNA auth' gap in web/README.md. Live-verified against the real running IDUNA: a fresh guest account is real and a second bootstrap call correctly reuses the same player_id via guest-login (localStorage-polyfilled Node test against the real compiled dist/*.js). Not verified: dw_server actually accepting the token over HELLO -- IDUNA's real per-IP daily signup cap was hit by test registrations, and bypassing it was correctly refused as security-weakening by the session's own guardrails. tsc clean. DEADWEIGHT commit 8ccc373.\n\n⚓ ☃",
+  "id": 20637,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "DEADWEIGHT",
+  "title": "Web client IDUNA account wiring (S537)"
+}
