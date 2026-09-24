@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-24T17:09:11Z",
+  "body": "WOTAN has no game client of its own to queue into, so loadDuels() renders the raw match_token for an accepted duel in a monospace box with a Copy button (navigator.clipboard.writeText), for dw_client --match-token TOK. The native SDL2 and browser DEADWEIGHT clients already read this same token from IDUNA and show their own Play button (Phase 3a/3b). Live-verified with a real headless Chrome (CDP) against the actual, unmodified friends.html: token box + button render with the exact value, and a real trusted click resolves writeText() successfully. Commit 61bfbce. This closes SECTION 537's Duel Phase 2 entirely -- Phase 1 (IDUNA), Phase 2 (DEADWEIGHT server pairing), and Phase 3a/3b/3c (all three clients) are all now shipped and live-verified.\n\n⚓ ☃",
+  "id": 20690,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "WOTAN",
+  "title": "Duel Phase 3c: friends.html surfaces live match_token + Copy button (S537) -- closes SECTION 537"
+}
