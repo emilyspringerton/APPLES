@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-24T19:15:05Z",
+  "body": "Founder real-time direction (2026-09-24): 'add a new button to shankpit menu (in apps) to join the shankpit zombie zerver game (just call the app zombies)' and, separately, 'check on shankpit matchmaking, reduce the queue bot pool to 8.' Added APP_ZOMBIES to the lobby's APPS page (apps/lobby/src/main.c) -- self-relaunches shank_lobby (/proc/self/exe, or GetModuleFileNameA+CreateProcessA on Windows) with --host 127.0.0.1 --port 6971 so it opens pointed at the zombie sandbox server instead of the default queue port; make lobby builds clean. While checking matchmaking: the real problem is not the bot pool -- shankpit-server.service (the live queue server, UDP :6969) is in an active SIGSEGV crash-restart loop (deterministic: BUGGY spawn x3, STADIUM terrain init, then SEGV, ~1s after every restart, restart counter climbing continuously). shankpit-zombie.service shows the identical crash signature and already hit systemd's start-too-quickly limit and gave up. shankpit-bot-pool.service had already exited cleanly (not crashed) after its bots failed to connect to the down server. Root cause not yet isolated -- flagged, not fixed, this pass. Bot pool size change (12-\u003e8) applied to ops/systemd/shankpit-bot-pool.service + redeployed + daemon-reload, but left stopped since starting it now would just repeat the same failed-connect flood.\n\n⚓ ☃",
+  "id": 20710,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "SHANKPIT",
+  "title": "SHANKPIT apps: ZOMBIES launcher button + queue bot pool reduced to 8"
+}
