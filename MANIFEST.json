@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-24T00:17:08Z",
+  "generated_at": "2026-09-24T00:17:12Z",
   "repo": "APPLES",
-  "count": 10049,
+  "count": 10050,
   "apples": [
     {
       "id": 10525,
@@ -80394,6 +80394,14 @@
       "source_repo": "CLI",
       "date": "20260924",
       "archived_at": "2026-09-24T00:17:08Z"
+    },
+    {
+      "id": 20587,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: ensure BIG_O uses https rather [than plain UDP for non-gameplay traffic]",
+      "source_repo": "CLI",
+      "date": "20260924",
+      "archived_at": "2026-09-24T00:17:12Z"
     }
   ]
 }
