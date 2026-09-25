@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-25T04:26:20Z",
+  "generated_at": "2026-09-25T04:26:27Z",
   "repo": "APPLES",
-  "count": 10225,
+  "count": 10226,
   "apples": [
     {
       "id": 10525,
@@ -81802,6 +81802,14 @@
       "source_repo": "WOTAN",
       "date": "20260925",
       "archived_at": "2026-09-25T04:26:20Z"
+    },
+    {
+      "id": 20763,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: 'ok now make it work for Friends and Duels' -- extend the WOTAN IDUNA-SSO…",
+      "source_repo": "CLI",
+      "date": "20260925",
+      "archived_at": "2026-09-25T04:26:27Z"
     }
   ]
 }
