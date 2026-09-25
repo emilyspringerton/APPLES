@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-25T04:26:18Z",
+  "generated_at": "2026-09-25T04:26:20Z",
   "repo": "APPLES",
-  "count": 10224,
+  "count": 10225,
   "apples": [
     {
       "id": 10525,
@@ -81794,6 +81794,14 @@
       "source_repo": "IDUNA",
       "date": "20260925",
       "archived_at": "2026-09-25T04:26:18Z"
+    },
+    {
+      "id": 20762,
+      "type": "completion",
+      "title": "friends.html deployed live with working IDUNA SSO + DEADWEIGHT token exchange (Apple #20760 follow-through)",
+      "source_repo": "WOTAN",
+      "date": "20260925",
+      "archived_at": "2026-09-25T04:26:20Z"
     }
   ]
 }
