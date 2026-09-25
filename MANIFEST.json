@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-25T04:08:45Z",
+  "generated_at": "2026-09-25T04:12:33Z",
   "repo": "APPLES",
-  "count": 10217,
+  "count": 10218,
   "apples": [
     {
       "id": 10525,
@@ -81738,6 +81738,14 @@
       "source_repo": "EMILY",
       "date": "20260925",
       "archived_at": "2026-09-25T04:08:45Z"
+    },
+    {
+      "id": 20755,
+      "type": "completion",
+      "title": "changelog(IDUNA): fix(auth): email/register+login error responses are now JSO…",
+      "source_repo": "IDUNA",
+      "date": "20260925",
+      "archived_at": "2026-09-25T04:12:33Z"
     }
   ]
 }

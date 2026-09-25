@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-25T04:12:33Z",
+  "body": "CHANGELOG updated in IDUNA: fix(auth): email/register+login error responses are now JSON, not plain text -- fixes the SSO login page's res.json() crashing on any auth error (found live via a founder screenshot) (sess-20260923-1030-4a526255)\n\n⚓ ☃",
+  "id": 20755,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "IDUNA",
+  "title": "changelog(IDUNA): fix(auth): email/register+login error responses are now JSO…"
+}
