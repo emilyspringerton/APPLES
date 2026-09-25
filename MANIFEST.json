@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-25T20:15:54Z",
+  "generated_at": "2026-09-25T20:25:52Z",
   "repo": "APPLES",
-  "count": 10330,
+  "count": 10331,
   "apples": [
     {
       "id": 10525,
@@ -82642,6 +82642,14 @@
       "source_repo": "emily",
       "date": "20260925",
       "archived_at": "2026-09-25T20:15:54Z"
+    },
+    {
+      "id": 20868,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: add a Windows client build to DEADWEIGHT_2 (D2)'s artifact releases",
+      "source_repo": "CLI",
+      "date": "20260925",
+      "archived_at": "2026-09-25T20:25:52Z"
     }
   ]
 }
