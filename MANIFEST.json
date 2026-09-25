@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-25T20:30:13Z",
+  "generated_at": "2026-09-25T20:31:59Z",
   "repo": "APPLES",
-  "count": 10332,
+  "count": 10333,
   "apples": [
     {
       "id": 10525,
@@ -82658,6 +82658,14 @@
       "source_repo": "emily",
       "date": "20260925",
       "archived_at": "2026-09-25T20:30:13Z"
+    },
+    {
+      "id": 20870,
+      "type": "completion",
+      "title": "Windows client added to D2's CI + GitHub Release artifacts",
+      "source_repo": "DEADWEIGHT_2",
+      "date": "20260925",
+      "archived_at": "2026-09-25T20:31:59Z"
     }
   ]
 }
