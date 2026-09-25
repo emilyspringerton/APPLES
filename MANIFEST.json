@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-25T11:03:30Z",
+  "generated_at": "2026-09-25T11:03:59Z",
   "repo": "APPLES",
-  "count": 10278,
+  "count": 10279,
   "apples": [
     {
       "id": 10525,
@@ -82226,6 +82226,14 @@
       "source_repo": "DEADWEIGHT_2",
       "date": "20260925",
       "archived_at": "2026-09-25T11:03:30Z"
+    },
+    {
+      "id": 20816,
+      "type": "completion",
+      "title": "LO-2D bidirectional grid execution model: real design, no compiler code",
+      "source_repo": "LO",
+      "date": "20260925",
+      "archived_at": "2026-09-25T11:03:59Z"
     }
   ]
 }
