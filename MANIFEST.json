@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-25T04:44:43Z",
+  "generated_at": "2026-09-25T04:55:26Z",
   "repo": "APPLES",
-  "count": 10232,
+  "count": 10233,
   "apples": [
     {
       "id": 10525,
@@ -81858,6 +81858,14 @@
       "source_repo": "emily",
       "date": "20260925",
       "archived_at": "2026-09-25T04:44:43Z"
+    },
+    {
+      "id": 20770,
+      "type": "completion",
+      "title": "changelog(PARENA): new stdlib/deadweight/account_rules.prn (display-name valid…",
+      "source_repo": "PARENA",
+      "date": "20260925",
+      "archived_at": "2026-09-25T04:55:26Z"
     }
   ]
 }
