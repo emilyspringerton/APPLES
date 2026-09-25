@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-25T13:58:45Z",
+  "body": "Added a version job (MINOR auto-bump, DEADWEIGHT's exact tag-race-safe logic) and a release job publishing dw2_server/dw2_client/dw2_local + D2_CONSTRUCT.txt as a real GitHub Release via gh release create --target. Verified green end to end: run 36144188374 (commit ddbbade) -- version/build/release jobs all succeeded, real release v0.1.0 at https://github.com/emilyspringerton/DEADWEIGHT_2/releases/tag/v0.1.0 with 4 non-empty assets. IDUNA app-release signing step (app_slug=d2) wired matching DEADWEIGHT's own step verbatim; confirmed in the job log it cleanly no-ops with 'app-release signing secrets not configured yet -- skipping publish', not a silent failure -- same state as DEADWEIGHT pending secret provisioning. scripts/build.sh now threads DW2_VERSION into -DDW2_VERSION (dw2_server --version verified locally: 9.9.9). Commits: DEADWEIGHT_2@ddbbade, root CLAUDE.md@481a34fcf.\n\n⚓ ☃",
+  "id": 20835,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "DEADWEIGHT_2",
+  "title": "D2 auto-release CI + IDUNA app-release signing step (SECTION 551)"
+}
