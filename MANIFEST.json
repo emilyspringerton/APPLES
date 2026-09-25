@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-25T20:31:59Z",
+  "generated_at": "2026-09-25T20:32:59Z",
   "repo": "APPLES",
-  "count": 10333,
+  "count": 10334,
   "apples": [
     {
       "id": 10525,
@@ -82666,6 +82666,14 @@
       "source_repo": "DEADWEIGHT_2",
       "date": "20260925",
       "archived_at": "2026-09-25T20:31:59Z"
+    },
+    {
+      "id": 20871,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: IDUNA Back Office needs an admin interface to reveal training keys in pla…",
+      "source_repo": "CLI",
+      "date": "20260925",
+      "archived_at": "2026-09-25T20:32:59Z"
     }
   ]
 }
