@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-25T20:00:26Z",
+  "generated_at": "2026-09-25T20:02:56Z",
   "repo": "APPLES",
-  "count": 10328,
+  "count": 10329,
   "apples": [
     {
       "id": 10525,
@@ -82626,6 +82626,14 @@
       "source_repo": "emily",
       "date": "20260925",
       "archived_at": "2026-09-25T20:00:26Z"
+    },
+    {
+      "id": 20866,
+      "type": "completion",
+      "title": "Deployed FD_CLOEXEC + bloom-black-menu fixes to the live shankpit-server (:6969)",
+      "source_repo": "SHANKPIT",
+      "date": "20260925",
+      "archived_at": "2026-09-25T20:02:56Z"
     }
   ]
 }

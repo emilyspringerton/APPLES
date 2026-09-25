@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-25T20:02:56Z",
+  "body": "Founder real-time bug ('when you launch an app from inside of shankpit something goes weird like deadweight the networking doesn't work') was already root-caused and fixed in code this session: lobby_launch_app() wasn't setting FD_CLOEXEC on the live UDP game-socket before fork+execl'ing sibling apps (DEADWEIGHT/PITVIPER/IDUNA.GAME/REDGARDEN/EDITOR.GAME), leaking the fd into every launched child (b515e8d). Fixing that surfaced a second real bug found live ('when i go to the main menu after any mode its totally black'): bloom_end_scene_and_composite() left GL_TEXTURE_2D enabled and bound to the near-black blur target, so the lobby's own 2D menu draw sampled it and rendered black (249930f). Both were committed+pushed but the live shankpit-server.service (pid 18049, running since 2026-09-24, i.e. pre-fix) was still serving the OLD binary -- restarting it needed explicit go-ahead per standing safety rule (never restart a shared live matchmaker on a bare process check). Founder gave that go-ahead this session ('unblock it yourself yolo roll it'). Rebuilt bin/shank_server (make server), restarted shankpit-server.service + shankpit-bot-pool.service via systemd --user, verified live: a UDP MODE_QUEUE probe that previously timed out after 3s now gets a real WELCOME response immediately, all 8 frozen-policy bots reconnected and populated queue slots 1-8, server log shows a clean fresh boot with no crash.\n\n⚓ ☃",
+  "id": 20866,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "SHANKPIT",
+  "title": "Deployed FD_CLOEXEC + bloom-black-menu fixes to the live shankpit-server (:6969)"
+}
