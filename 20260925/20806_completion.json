@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-25T10:42:36Z",
+  "body": "dw2_client (apps/client/main.c) -- a real interactive SDL2 client speaking core/protocol.h's actual wire protocol end to end: connect, auto-queue, pack a grid against a live opponent, real-time combat driven by dw2_server's own tick clock. Folded into D2 (founder real-time: 'just call it D2', not a separate D3). Two real bugs found and fixed live: an unconditional AUTH send that broke --no-auth servers, and an inverted return-value check in the fix itself. Live-verified: a real loadout beats an empty grid in hand-derived 21 ticks over the actual wire protocol, via --selftest. Also: Principle 21 CONSTRUCT generation (scripts/generate_construct.sh, git-ls-files based, locally verified deterministic) wired into CI, emitted into each client's own zip bundle (SHANKPIT's own pattern) plus standalone zip/gz, all artifact names collision-safe via a build_\u003crun\u003e_\u003csha\u003e tag. Both confirmed green on real GitHub Actions runners: commit bb6befd (construct infra, failed once due to referencing dw2_client before it existed, fixed by 7409251) and 7409251 (client + construct together, run 36125356490, conclusion=success). Commits: DEADWEIGHT_2@bb6befd, DEADWEIGHT_2@7409251.\n\n⚓ ☃",
+  "id": 20806,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "DEADWEIGHT_2",
+  "title": "D2: dw2_client (real interactive client) + Principle 21 CONSTRUCT generation"
+}
