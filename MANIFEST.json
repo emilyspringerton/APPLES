@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-25T04:29:42Z",
+  "generated_at": "2026-09-25T04:42:46Z",
   "repo": "APPLES",
-  "count": 10228,
+  "count": 10229,
   "apples": [
     {
       "id": 10525,
@@ -81826,6 +81826,14 @@
       "source_repo": "emily",
       "date": "20260925",
       "archived_at": "2026-09-25T04:29:42Z"
+    },
+    {
+      "id": 20766,
+      "type": "completion",
+      "title": "changelog(IDUNA): fix(games): claimGamePlayer -- an IDUNA identity registered…",
+      "source_repo": "IDUNA",
+      "date": "20260925",
+      "archived_at": "2026-09-25T04:42:46Z"
     }
   ]
 }
