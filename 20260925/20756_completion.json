@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-25T04:12:45Z",
+  "body": "Founder screenshot showed 'Unexpected token e, \"email alre\"... is not valid JSON' when registering with an existing email on the new iam.okemily.com SSO page. Root cause: every error path in player_email_auth.go (email/register, email/login) used http.Error (plain text), while sso_login.go's own JS unconditionally calls res.json() on every response regardless of status -- every error case (duplicate email, wrong password, disabled account, invalid JSON body) was broken the same way, not just registration. Fixed by switching every error response to writeJSON with the {\"error\": \"...\"} shape the rest of the codebase already uses. Added TestEmailAuth_ErrorResponsesAreValidJSON to prevent silent regression. go build/vet/test ./... all clean. IDUNA 7e88765. Rebuilt to ~/.local/bin/iduna -- iduna.service restart still needed to carry this live (same production-deploy restriction as the SSO route itself).\n\n⚓ ☃",
+  "id": 20756,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "IDUNA",
+  "title": "Fix: SSO login page crashed on any auth error (plain-text vs JSON response mismatch)"
+}

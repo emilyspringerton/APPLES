@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-25T04:12:33Z",
+  "generated_at": "2026-09-25T04:12:45Z",
   "repo": "APPLES",
-  "count": 10218,
+  "count": 10219,
   "apples": [
     {
       "id": 10525,
@@ -81746,6 +81746,14 @@
       "source_repo": "IDUNA",
       "date": "20260925",
       "archived_at": "2026-09-25T04:12:33Z"
+    },
+    {
+      "id": 20756,
+      "type": "completion",
+      "title": "Fix: SSO login page crashed on any auth error (plain-text vs JSON response mismatch)",
+      "source_repo": "IDUNA",
+      "date": "20260925",
+      "archived_at": "2026-09-25T04:12:45Z"
     }
   ]
 }
