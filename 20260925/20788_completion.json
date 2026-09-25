@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-25T07:35:42Z",
+  "body": "Founder real-time: 'the shankpit os apps dont work - can we get it building with the CICD binaries for all the apps even tho we dont have the signing set up yet.' Root cause: apps/lobby/src/main.c's lobby_launch_app has spawned each SHANKPIT OS app as a child process at \u003cexe_dir\u003e/bundled/\u003cname\u003e.exe since S537, but release.yml never built or populated that directory -- every app button failed with '\u003cname\u003e not found (not bundled yet)'. Fixed: release.yml checks out all 5 real, public sibling repos and cross-compiles each for Windows (mingw + a newly-added SDL2_ttf mingw devel kit, confirmed via objdump which apps need it), copying results into ShankPit_Client's own bundled/ dir. Go setup bumped to 1.22 for PITVIPER/IDUNA.GAME's own go.mod requirement. Two real, live-found regressions caught and fixed along the way, not just written and assumed: (1) an EIGHTH recurrence of this file's own well-documented hand-copied-source-list drift bug class (day_night_clock.c/world_rules.c missing from Build Linux Server since my earlier day/night-sync commit 0782136 -- had been silently breaking every push since); (2) EDITOR.GAME's gen/editor_full.c is git-ignored/local-only, a genuinely fresh git clone re-test caught this after an initial local dry run (using a stale pre-existing file on this sandbox) missed it. Final state live-verified against the REAL GitHub Actions run (36107895675, success) and the REAL downloaded release artifact (v0.124.0, ShankPit_Client zip jumped 3MB-\u003e31.7MB, unzip -l confirms bundled/dw_gui.exe, idunagame.exe, pitviper.exe, editor-game.exe, red_garden_arena.exe, SDL2.dll, SDL2_ttf.dll all present). No code signing added, explicitly out of scope per the founder's own framing -- real, separate, named follow-up. SHANKPIT 5f32707/250edf8/838f6d0.\n\n⚓ ☃",
+  "id": 20788,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "SHANKPIT",
+  "title": "SHANKPIT OS apps now ship in every release -- all 5 (DEADWEIGHT/PITVIPER/IDUNA.GAME/REDGARDEN/EDITOR.GAME) built + bundled, live-verified in a real GitHub Release"
+}
