@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-25T07:29:18Z",
+  "body": "CHANGELOG updated in SHANKPIT: fix(ci): EDITOR.GAME's gen/editor_full.c is git-ignored/local-only -- generate it in the CI step (cat gen/editor_stdlib_gen.c examples/editor_main.c) instead of assuming it exists, found via a genuinely fresh git clone re-test (sess-20260923-1030-4a526255)\n\n⚓ ☃",
+  "id": 20786,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "SHANKPIT",
+  "title": "changelog(SHANKPIT): fix(ci): EDITOR.GAME's gen/editor_full.c is git-ignored/loc…"
+}
