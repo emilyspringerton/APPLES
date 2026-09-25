@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-25T03:59:53Z",
+  "generated_at": "2026-09-25T04:07:35Z",
   "repo": "APPLES",
-  "count": 10215,
+  "count": 10216,
   "apples": [
     {
       "id": 10525,
@@ -81722,6 +81722,14 @@
       "source_repo": "emily",
       "date": "20260925",
       "archived_at": "2026-09-25T03:59:53Z"
+    },
+    {
+      "id": 20753,
+      "type": "completion",
+      "title": "WOTAN store.html deployed live with working IDUNA SSO (iam.okemily.com nginx fix confirmed live)",
+      "source_repo": "WOTAN",
+      "date": "20260925",
+      "archived_at": "2026-09-25T04:07:35Z"
     }
   ]
 }

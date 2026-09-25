@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-25T04:07:35Z",
+  "body": "Founder ran the nginx rewrite fix (sudo sed one-liner) live on iam.okemily.com and ran ~/wotan-deploy.sh. Verified end-to-end: iam.okemily.com now returns a clean 200 with the real IDUNA login page (was a mangled 307 double-query-string redirect before the fix). Deployed wotan.okemily.com/store.html has zero password fields and a working 'Sign in with IDUNA' link building the correct redirect_uri. Closes the 'no password in the webpage on WOTAN, IDUNA becomes the SSO' founder directive.\n\n⚓ ☃",
+  "id": 20753,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "WOTAN",
+  "title": "WOTAN store.html deployed live with working IDUNA SSO (iam.okemily.com nginx fix confirmed live)"
+}
