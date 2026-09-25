@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-25T04:43:53Z",
+  "body": "Founder real-time: 'the SSO should be sticky when i click around it forgets im logged in'. New shared js/iduna-sso.js loaded by both store.html and friends.html, replacing each page's own separate, page-local session storage. Each page's handleSsoReturn() now checks a fresh SSO redirect return first, then falls back to a shared session from an earlier page visit -- friends.html silently re-exchanges the shared session for a fresh DEADWEIGHT token on every load. logout() on either page clears the shared session too. Deployed live and verified: js/iduna-sso.js reachable, both pages reference it. WOTAN b4a9f66.\n\n⚓ ☃",
+  "id": 20768,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "WOTAN",
+  "title": "SSO session is now sticky across WOTAN pages"
+}

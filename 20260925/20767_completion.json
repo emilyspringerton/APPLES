@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-25T04:43:53Z",
+  "body": "Founder real-time: registered generically via WOTAN's IDUNA SSO, then hit a double dead end -- friends.html said 'no account for that game', DEADWEIGHT client's own claim-account flow said 'email already taken' (that email already belonged to the unscoped row, with no way to ever use it for a game). New claimGamePlayer helper shared by emailLogin and ssoExchange: a players row never scoped to any game gets claimed for the first game that legitimately authenticates against it; a row already scoped to a DIFFERENT game stays exclusive (real, distinct 403, not silently reassigned). Live-verified against the real production server (throwaway test account, not just unit tests): generic SSO register -\u003e DEADWEIGHT email-login with the same credentials now succeeds and claims the identity (previously 'invalid email or password') -\u003e the claimed token successfully calls the real friendsList endpoint (200, empty list). Three new tests (TestSSOExchange_UnscopedIdentityIsClaimedOnFirstUse, TestSSOExchange_NoSuchPlayerIsARealNotFound, TestEmailLogin_ClaimsAnUnscopedAccountAndRefusesAnotherGamesAccount). go build/vet/test ./... clean. IDUNA 5f7c9f9/bd3d7cc, restarted live.\n\n⚓ ☃",
+  "id": 20767,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "IDUNA",
+  "title": "Unscoped IDUNA identities now claimed on first real game use -- fixes 'no account for that game' + 'email already taken' dead end"
+}

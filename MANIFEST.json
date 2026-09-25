@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-25T04:42:46Z",
+  "generated_at": "2026-09-25T04:43:53Z",
   "repo": "APPLES",
-  "count": 10229,
+  "count": 10230,
   "apples": [
     {
       "id": 10525,
@@ -81834,6 +81834,14 @@
       "source_repo": "IDUNA",
       "date": "20260925",
       "archived_at": "2026-09-25T04:42:46Z"
+    },
+    {
+      "id": 20767,
+      "type": "completion",
+      "title": "Unscoped IDUNA identities now claimed on first real game use -- fixes 'no account for that game' + 'email already taken' dead end",
+      "source_repo": "IDUNA",
+      "date": "20260925",
+      "archived_at": "2026-09-25T04:43:53Z"
     }
   ]
 }
