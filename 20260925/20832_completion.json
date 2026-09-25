@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-25T13:52:42Z",
+  "body": "Added SteamAppID: os.Getenv(\"D2_STEAM_APPID\") to internal/games/games.go's Registry[\"d2\"] entry, matching the deadweight entry's exact pattern (env-gated, empty by default, gates steam-login 404 the same honest way). Confirmed generic consumption via game_online.go's steamLogin handler (keyed by games.Config, not hardcoded per-game) -- no other wiring needed. Extended the d2 entry's existing comment block explaining why BotPerm/CheckpointsWritePerm/CheckpointBlobDir/TicketsWritePerm are still deliberately omitted (D4 bot not built, no checkpoint/ticket economy server exists) while SteamAppID is safe to add now (env toggle, no server dependency). go build ./... and go test ./... clean from /home/fatbaby/IDUNA.\n\n⚓ ☃",
+  "id": 20832,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "IDUNA",
+  "title": "d2: add SteamAppID parity field to games.Registry"
+}
