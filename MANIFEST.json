@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-25T14:25:48Z",
+  "generated_at": "2026-09-25T14:26:27Z",
   "repo": "APPLES",
-  "count": 10302,
+  "count": 10303,
   "apples": [
     {
       "id": 10525,
@@ -82418,6 +82418,14 @@
       "source_repo": "SHANKPIT",
       "date": "20260925",
       "archived_at": "2026-09-25T14:25:48Z"
+    },
+    {
+      "id": 20840,
+      "type": "completion",
+      "title": "changelog(SHANKPIT): fix(render): bloom_end_scene_and_composite left GL_TEXTURE_…",
+      "source_repo": "SHANKPIT",
+      "date": "20260925",
+      "archived_at": "2026-09-25T14:26:27Z"
     }
   ]
 }

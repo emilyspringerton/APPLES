@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-25T14:26:27Z",
+  "body": "CHANGELOG updated in SHANKPIT: fix(render): bloom_end_scene_and_composite left GL_TEXTURE_2D enabled bound to the near-black bloom blur target, blacking out the lobby menu after any 3D mode via GL_MODULATE; fixed at the source and defensively in setup_lobby_2d(). (sess-20260923-1030-4a526255)\n\n⚓ ☃",
+  "id": 20840,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "SHANKPIT",
+  "title": "changelog(SHANKPIT): fix(render): bloom_end_scene_and_composite left GL_TEXTURE_…"
+}
