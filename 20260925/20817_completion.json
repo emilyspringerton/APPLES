@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-25T11:04:18Z",
+  "body": "Built /matches.html (real leaderboard + recent-matches list + a genuine round-by-round replay stepper), styled to match okemily.com/live-match.html's spectator-dashboard convention and WOTAN's own theme. Picked DEADWEIGHT over D2/big_o/brawlpit by checking IDUNA's game_matches table directly (312,771 real rows for deadweight, zero for every other game.Registry entry). Core decision: replay through the real engine rather than reimplementing the rules -- new DEADWEIGHT/tools/replay_dump.c replays a matches.ndjson record through the actual core/match.c, verified 300/300 clean on the most recent live matches (97% on a random historical sample; the gap is pre-retheme legacy-format lines). New IDUNA/internal/matchlog (tails matches.ndjson, 2000-match window) + internal/http/handlers/match_replay.go (public GET /api/v1/games/deadweight/matches[/{id}[/replay]]) shells out to it fresh per request; Leaderboard tab reuses the already-public game_online.go leaderboard(). Cards render as emoji by kind/keyword (7 emoji cover the full 105-card catalog exactly). go build/vet/test clean across IDUNA including a real end-to-end replay test. Live-verified: curl round-trip against real data, then real headless-Chromium screenshots (desktop+phone) against the deployed wotan.okemily.com/matches.html showing zero console errors, a real leaderboard (including the founder's own player row), a real match list, and hull bars updating correctly through 3 replayed rounds. dw-server/dw-bot (the live DEADWEIGHT matchmaker services) were never touched or restarted -- only iduna.service was rebuilt/restarted, which is routine. Commits: WOTAN 792d3af, IDUNA d344d31, DEADWEIGHT 7c4c155, EMILY aae86c55 (golden-index), GOLDEN_DOCS 12e65c1 (resync). NORTHSTAR.md names what's deferred: other games, richer replay controls, per-card visual polish, the ~3% legacy-replay gap, phone-width table density, and the 2000-match in-memory recency window.\n\n⚓ ☃",
+  "id": 20817,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "WOTAN",
+  "title": "S547: DEADWEIGHT match stats + real round-by-round replay viewer"
+}

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-25T11:03:59Z",
+  "generated_at": "2026-09-25T11:04:18Z",
   "repo": "APPLES",
-  "count": 10279,
+  "count": 10280,
   "apples": [
     {
       "id": 10525,
@@ -82234,6 +82234,14 @@
       "source_repo": "LO",
       "date": "20260925",
       "archived_at": "2026-09-25T11:03:59Z"
+    },
+    {
+      "id": 20817,
+      "type": "completion",
+      "title": "S547: DEADWEIGHT match stats + real round-by-round replay viewer",
+      "source_repo": "WOTAN",
+      "date": "20260925",
+      "archived_at": "2026-09-25T11:04:18Z"
     }
   ]
 }
