@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-25T04:43:53Z",
+  "generated_at": "2026-09-25T04:43:55Z",
   "repo": "APPLES",
-  "count": 10230,
+  "count": 10231,
   "apples": [
     {
       "id": 10525,
@@ -81842,6 +81842,14 @@
       "source_repo": "IDUNA",
       "date": "20260925",
       "archived_at": "2026-09-25T04:43:53Z"
+    },
+    {
+      "id": 20768,
+      "type": "completion",
+      "title": "SSO session is now sticky across WOTAN pages",
+      "source_repo": "WOTAN",
+      "date": "20260925",
+      "archived_at": "2026-09-25T04:43:55Z"
     }
   ]
 }
