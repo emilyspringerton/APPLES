@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-25T10:06:06Z",
+  "generated_at": "2026-09-25T10:06:38Z",
   "repo": "APPLES",
-  "count": 10265,
+  "count": 10266,
   "apples": [
     {
       "id": 10525,
@@ -82122,6 +82122,14 @@
       "source_repo": "DEADWEIGHT_2",
       "date": "20260925",
       "archived_at": "2026-09-25T10:06:06Z"
+    },
+    {
+      "id": 20803,
+      "type": "signal_observation",
+      "title": "[INFO] Phase D2 (DEADWEIGHT_2 server-authoritative 1v1) completed autonomously during /loop continu…",
+      "source_repo": "CLI",
+      "date": "20260925",
+      "archived_at": "2026-09-25T10:06:38Z"
     }
   ]
 }
