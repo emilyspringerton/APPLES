@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-25T07:22:40Z",
+  "body": "CHANGELOG updated in SHANKPIT: fix(ci): eighth recurrence of the CI hand-copied server source-list drift -- day_night_clock.c/world_rules.c missing from Build Linux Server in both release.yml and tests.yml, broke every push since the day/night sync commit (0782136) (sess-20260923-1030-4a526255)\n\n⚓ ☃",
+  "id": 20785,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "SHANKPIT",
+  "title": "changelog(SHANKPIT): fix(ci): eighth recurrence of the CI hand-copied server sou…"
+}
