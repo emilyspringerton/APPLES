@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-25T04:21:27Z",
+  "generated_at": "2026-09-25T04:22:22Z",
   "repo": "APPLES",
-  "count": 10221,
+  "count": 10222,
   "apples": [
     {
       "id": 10525,
@@ -81770,6 +81770,14 @@
       "source_repo": "IDUNA",
       "date": "20260925",
       "archived_at": "2026-09-25T04:21:27Z"
+    },
+    {
+      "id": 20759,
+      "type": "completion",
+      "title": "New sso-exchange endpoint bridges generic IDUNA SSO into game-scoped player tokens (WOTAN Friends \u0026 Duels)",
+      "source_repo": "IDUNA",
+      "date": "20260925",
+      "archived_at": "2026-09-25T04:22:22Z"
     }
   ]
 }

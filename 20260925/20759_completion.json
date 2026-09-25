@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-25T04:22:22Z",
+  "body": "Founder ask: 'make it work for Friends and Duels' (WOTAN/friends.html), the direct follow-up to SECTION 543's store.html SSO cutover. Investigated and found a real architecture gap: DEADWEIGHT friends/duels endpoints require a game-scoped player token (player_id/game/permissions claims from game_online.go's playerToken), but the generic SSO JWT (player_email_auth.go's shape) has none of those claims and fails draftPlayerClaims outright -- even though both token shapes ultimately authenticate the exact same underlying players row. Added POST /api/v1/games/{game}/sso-exchange: takes an already-valid generic SSO token as proof of identity, and if a real players row exists for that identity scoped to this game, mints a real playerToken for it. No new player is ever created -- an unlinked identity gets a real 404, not a silent registration. TestSSOExchange_GenericSSOTokenBecomesAUsableGamePlayerToken proves the full real round trip end to end (guest-register -\u003e guest-upgrade -\u003e generic SSO login -\u003e exchange -\u003e the exchanged token actually authenticates against the real friendsList endpoint), plus a negative-case test. go build/vet/test ./... all clean. IDUNA 50655f5, rebuilt to ~/.local/bin/iduna -- iduna.service restart needed to carry this live.\n\n⚓ ☃",
+  "id": 20759,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "IDUNA",
+  "title": "New sso-exchange endpoint bridges generic IDUNA SSO into game-scoped player tokens (WOTAN Friends \u0026 Duels)"
+}

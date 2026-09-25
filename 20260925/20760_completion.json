@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-25T04:22:22Z",
+  "body": "friends.html now links to IDUNA's hosted SSO page instead of rendering its own DEADWEIGHT email/password form, matching store.html's SECTION 543 cutover. Uses the new IDUNA sso-exchange endpoint (see the paired IDUNA Apple) to turn the generic SSO login into a real, usable DEADWEIGHT player token before storing it. An IDUNA identity with no DEADWEIGHT account linked gets a real, honest error pointing at the DEADWEIGHT client's own link-email flow. Node-syntax-checked; the IDUNA-side round trip is proven end to end by real Go tests; the actual browser click-through was not screenshotted (no headless Chrome in this sandbox) -- named honestly in WOTAN/CLAUDE.md, not claimed as fully verified. WOTAN 48ac697. Deploy (~/wotan-deploy.sh) and the paired iduna.service restart are still needed to go live -- both blocked on the founder by this session's own production-deploy restriction.\n\n⚓ ☃",
+  "id": 20760,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "WOTAN",
+  "title": "friends.html drops its own DEADWEIGHT password form, uses IDUNA SSO via the new sso-exchange bridge"
+}
