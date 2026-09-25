@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-25T22:18:04Z",
+  "generated_at": "2026-09-25T22:28:56Z",
   "repo": "APPLES",
-  "count": 10344,
+  "count": 10345,
   "apples": [
     {
       "id": 10525,
@@ -82754,6 +82754,14 @@
       "source_repo": "DEADWEIGHT_2",
       "date": "20260925",
       "archived_at": "2026-09-25T22:18:04Z"
+    },
+    {
+      "id": 20882,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time (REDGARDEN): pasted a Windows RedGarden.exe console log -- connects to the…",
+      "source_repo": "CLI",
+      "date": "20260925",
+      "archived_at": "2026-09-25T22:28:56Z"
     }
   ]
 }
