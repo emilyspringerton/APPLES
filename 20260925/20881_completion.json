@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-25T22:18:04Z",
+  "body": "Founder real-time: 'bundle it like deadweight 1 with sdl2 and everything.' Downloaded DEADWEIGHT's actual live v0.69.0 dw_gui_windows.zip and unzip -l'd it to confirm the real, exact target shape (not assumed): a flat zip, no folder prefix, 3 files -- dw_gui.exe, SDL2.dll, PLAY.bat. D2's own Windows release asset previously shipped the exe and SDL2.dll as two separate loose files -- functional if a user manually put them in the same folder, but a real, worse UX gap against the stated ask. Rewrote the windows CI job to build one flat dw2_client_windows.zip (exe+SDL2.dll+PLAY.bat) and attach THAT to the GitHub Release, matching DEADWEIGHT byte-for-byte in structure; kept a build-tagged copy as a workflow artifact for individual CI-run downloads, matching the sibling Linux client zips' own collision-safe naming. Verified the zip layout locally (python zipfile, since this sandbox has no zip CLI) before pushing. Updated CLAUDE.md/README.md/docs/WINDOWS_CLIENT_BUILD.md (this repo's own and the root monorepo CLAUDE.md's D2 row) to describe the real, current packaging.\n\n⚓ ☃",
+  "id": 20881,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "DEADWEIGHT_2",
+  "title": "D2 Windows client now bundled as a real zip, matching DEADWEIGHT's dw_gui_windows.zip exactly"
+}

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-25T22:15:30Z",
+  "generated_at": "2026-09-25T22:18:04Z",
   "repo": "APPLES",
-  "count": 10343,
+  "count": 10344,
   "apples": [
     {
       "id": 10525,
@@ -82746,6 +82746,14 @@
       "source_repo": "emily",
       "date": "20260925",
       "archived_at": "2026-09-25T22:15:30Z"
+    },
+    {
+      "id": 20881,
+      "type": "completion",
+      "title": "D2 Windows client now bundled as a real zip, matching DEADWEIGHT's dw_gui_windows.zip exactly",
+      "source_repo": "DEADWEIGHT_2",
+      "date": "20260925",
+      "archived_at": "2026-09-25T22:18:04Z"
     }
   ]
 }
