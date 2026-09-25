@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-25T20:45:34Z",
+  "generated_at": "2026-09-25T20:56:56Z",
   "repo": "APPLES",
-  "count": 10336,
+  "count": 10337,
   "apples": [
     {
       "id": 10525,
@@ -82690,6 +82690,14 @@
       "source_repo": "emily",
       "date": "20260925",
       "archived_at": "2026-09-25T20:45:34Z"
+    },
+    {
+      "id": 20874,
+      "type": "completion",
+      "title": "Fixed live CI failure in the D2 Windows client job (missing libsdl2-dev)",
+      "source_repo": "DEADWEIGHT_2",
+      "date": "20260925",
+      "archived_at": "2026-09-25T20:56:56Z"
     }
   ]
 }

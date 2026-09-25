@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-25T20:56:56Z",
+  "body": "The Windows client CI job added this session (Apple #20870) failed on its first real run (36186353945): scripts/build.sh --windows still runs the FULL native Linux suite first (dw2_local via pkg-config sdl2) before appending the Windows cross-compile, but the windows job only installed mingw-w64 + the SDL2-mingw tree, never native libsdl2-dev -- it passed in local testing only because that sandbox already had libsdl2-dev from unrelated prior work, masking the gap. Fixed by adding libsdl2-dev to the job's install step (commit 7fd44c6). Verified live, not just assumed: watched the next real CI run (36188587095) go green end to end and confirmed the actual GitHub Release (v0.3.0) now has all 6 real assets including dw2_client_windows_x86_64.exe (446900 bytes) and SDL2.dll.\n\n⚓ ☃",
+  "id": 20874,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "DEADWEIGHT_2",
+  "title": "Fixed live CI failure in the D2 Windows client job (missing libsdl2-dev)"
+}
