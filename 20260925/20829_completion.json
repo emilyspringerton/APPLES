@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-25T13:37:04Z",
+  "body": "Backfilled Apple for work already merged to origin/main (cloud continuation, session sess-20260925-claude-95f8453d, commit 11f5933 via PR #1). Verified for real: fast-forwarded local to fd9d2e0, ran scripts/build.sh clean -- test_cannon_hold (8 checks) and dw2_cannon_demo both pass, CI green (run 36132295774). dw2_ship_tick's weapon-fire check is now a real, compiled LO program (cannon/cannon_decision.llll -\u003e .prn -\u003e PARENA-generated C, core/cannon.{h,c}), packing the round-break 'behind' signal + shot lethality into LO's real base4 state space. Shipped decision is FIRE in all 4 states (byte-identical to the rule it replaces -- every existing smoke test unchanged); a second standalone program (cannon_bank_on_safe_lead.llll) proves real conditional strategy is expressible, with an honest named failure mode (could stall forever against an unarmed opponent, no compensating payoff for holding fire in this V0). Real finding: LO's own already-named stdlib gaps (matrices, PCRE) turned out unrelated to this feature -- zero new LO stdlib work needed, closing that half of SECTION 549. Doc: DEADWEIGHT_2/docs/LO_CANNON_PROGRAMMING.md (not yet registered in golden-docs-index.md -- fixing in this same pass).\n\n⚓ ☃",
+  "id": 20829,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "DEADWEIGHT_2",
+  "title": "D2 cannon programming: a real, compiled LO decision function wired into weapon fire (SECTION 549)"
+}
