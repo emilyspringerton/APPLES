@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-25T07:35:43Z",
+  "generated_at": "2026-09-25T07:35:46Z",
   "repo": "APPLES",
-  "count": 10251,
+  "count": 10252,
   "apples": [
     {
       "id": 10525,
@@ -82010,6 +82010,14 @@
       "source_repo": "SHANKPIT",
       "date": "20260925",
       "archived_at": "2026-09-25T07:35:43Z"
+    },
+    {
+      "id": 20789,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: 'the shankpit os apps dont work - can we get it building with the CICD bi…",
+      "source_repo": "CLI",
+      "date": "20260925",
+      "archived_at": "2026-09-25T07:35:46Z"
     }
   ]
 }
