@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-25T07:02:20Z",
+  "generated_at": "2026-09-25T07:16:31Z",
   "repo": "APPLES",
-  "count": 10245,
+  "count": 10246,
   "apples": [
     {
       "id": 10525,
@@ -81962,6 +81962,14 @@
       "source_repo": "emily",
       "date": "20260925",
       "archived_at": "2026-09-25T07:02:20Z"
+    },
+    {
+      "id": 20783,
+      "type": "completion",
+      "title": "changelog(SHANKPIT): ci: release.yml now builds + bundles all 5 SHANKPIT OS apps…",
+      "source_repo": "SHANKPIT",
+      "date": "20260925",
+      "archived_at": "2026-09-25T07:16:31Z"
     }
   ]
 }
