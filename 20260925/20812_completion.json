@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-25T11:02:46Z",
+  "body": "CHANGELOG updated in DEADWEIGHT: Add tools/replay_dump.c + scripts/build.sh step: replays a matches.ndjson record through the real match core and prints a full round-by-round JSON trace, for WOTAN's new match replay viewer (S547). Verified 300/300 clean on the most recent live matches; dw-server/dw-bot were not touched (sess-20260923-1030-4a526255)\n\n⚓ ☃",
+  "id": 20812,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "DEADWEIGHT",
+  "title": "changelog(DEADWEIGHT): Add tools/replay_dump.c + scripts/build.sh step: replays a …"
+}

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-25T11:02:46Z",
+  "generated_at": "2026-09-25T11:02:49Z",
   "repo": "APPLES",
-  "count": 10273,
+  "count": 10274,
   "apples": [
     {
       "id": 10525,
@@ -82186,6 +82186,14 @@
       "source_repo": "WOTAN",
       "date": "20260925",
       "archived_at": "2026-09-25T11:02:46Z"
+    },
+    {
+      "id": 20811,
+      "type": "completion",
+      "title": "changelog(IDUNA): Add internal/matchlog + match_replay.go: public GET /api/v1…",
+      "source_repo": "IDUNA",
+      "date": "20260925",
+      "archived_at": "2026-09-25T11:02:49Z"
     }
   ]
 }
