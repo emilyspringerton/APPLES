@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-25T20:32:59Z",
+  "generated_at": "2026-09-25T20:43:50Z",
   "repo": "APPLES",
-  "count": 10334,
+  "count": 10335,
   "apples": [
     {
       "id": 10525,
@@ -82674,6 +82674,14 @@
       "source_repo": "CLI",
       "date": "20260925",
       "archived_at": "2026-09-25T20:32:59Z"
+    },
+    {
+      "id": 20872,
+      "type": "completion",
+      "title": "Back Office: reveal training keys (agent M2M secrets), like CarePyre's mailbox-password reveal",
+      "source_repo": "IDUNA",
+      "date": "20260925",
+      "archived_at": "2026-09-25T20:43:50Z"
     }
   ]
 }
