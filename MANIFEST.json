@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-25T10:02:31Z",
+  "generated_at": "2026-09-25T10:06:06Z",
   "repo": "APPLES",
-  "count": 10264,
+  "count": 10265,
   "apples": [
     {
       "id": 10525,
@@ -82114,6 +82114,14 @@
       "source_repo": "emily",
       "date": "20260925",
       "archived_at": "2026-09-25T10:02:31Z"
+    },
+    {
+      "id": 20802,
+      "type": "completion",
+      "title": "Phase D2: dw2_server, real server-authoritative 1v1 over TCP",
+      "source_repo": "DEADWEIGHT_2",
+      "date": "20260925",
+      "archived_at": "2026-09-25T10:06:06Z"
     }
   ]
 }
