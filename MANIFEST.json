@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-25T08:33:13Z",
+  "generated_at": "2026-09-25T08:35:01Z",
   "repo": "APPLES",
-  "count": 10256,
+  "count": 10257,
   "apples": [
     {
       "id": 10525,
@@ -82050,6 +82050,14 @@
       "source_repo": "emily",
       "date": "20260925",
       "archived_at": "2026-09-25T08:33:13Z"
+    },
+    {
+      "id": 20794,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: build DEADWEIGHT_2 (upstream repo already created empty) implementing the…",
+      "source_repo": "CLI",
+      "date": "20260925",
+      "archived_at": "2026-09-25T08:35:01Z"
     }
   ]
 }
