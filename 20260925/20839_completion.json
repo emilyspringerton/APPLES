@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-25T14:25:48Z",
+  "body": "bloom_end_scene_and_composite() enabled GL_TEXTURE_2D for its own composite quads, bound to g_blur_tex_b (near-black bloom target), and never disabled it -- only GL_DEPTH_TEST got restored. The lobby's 2D menu draw never disables texturing itself, so every menu quad/string after returning from any 3D mode sampled that leftover dark texture and rendered black via GL_MODULATE. Fixed in bloom.c + defensively in setup_lobby_2d(). SHANKPIT 249930f.\n\n⚓ ☃",
+  "id": 20839,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "SHANKPIT",
+  "title": "Fixed: bloom leaves GL_TEXTURE_2D on, blacking out the lobby menu after any mode"
+}

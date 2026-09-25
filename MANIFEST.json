@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-25T14:25:41Z",
+  "generated_at": "2026-09-25T14:25:48Z",
   "repo": "APPLES",
-  "count": 10301,
+  "count": 10302,
   "apples": [
     {
       "id": 10525,
@@ -82410,6 +82410,14 @@
       "source_repo": "CLI",
       "date": "20260925",
       "archived_at": "2026-09-25T14:25:41Z"
+    },
+    {
+      "id": 20839,
+      "type": "completion",
+      "title": "Fixed: bloom leaves GL_TEXTURE_2D on, blacking out the lobby menu after any mode",
+      "source_repo": "SHANKPIT",
+      "date": "20260925",
+      "archived_at": "2026-09-25T14:25:48Z"
     }
   ]
 }
