@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-25T10:46:29Z",
+  "generated_at": "2026-09-25T10:46:42Z",
   "repo": "APPLES",
-  "count": 10270,
+  "count": 10271,
   "apples": [
     {
       "id": 10525,
@@ -82162,6 +82162,14 @@
       "source_repo": "emily",
       "date": "20260925",
       "archived_at": "2026-09-25T10:46:29Z"
+    },
+    {
+      "id": 20808,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time (2026-09-25, mid-session, rapid-fire): (1) build WOTAN's real frontend day…",
+      "source_repo": "CLI",
+      "date": "20260925",
+      "archived_at": "2026-09-25T10:46:42Z"
     }
   ]
 }
