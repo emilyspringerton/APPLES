@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-25T13:52:42Z",
+  "generated_at": "2026-09-25T13:53:17Z",
   "repo": "APPLES",
-  "count": 10295,
+  "count": 10296,
   "apples": [
     {
       "id": 10525,
@@ -82362,6 +82362,14 @@
       "source_repo": "IDUNA",
       "date": "20260925",
       "archived_at": "2026-09-25T13:52:42Z"
+    },
+    {
+      "id": 20833,
+      "type": "completion",
+      "title": "changelog(IDUNA): games: add SteamAppID parity field to Registry[\"d2\"] (D2_ST…",
+      "source_repo": "IDUNA",
+      "date": "20260925",
+      "archived_at": "2026-09-25T13:53:17Z"
     }
   ]
 }
