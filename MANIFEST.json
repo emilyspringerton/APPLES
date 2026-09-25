@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-25T14:13:09Z",
+  "generated_at": "2026-09-25T14:25:41Z",
   "repo": "APPLES",
-  "count": 10300,
+  "count": 10301,
   "apples": [
     {
       "id": 10525,
@@ -82402,6 +82402,14 @@
       "source_repo": "emily",
       "date": "20260925",
       "archived_at": "2026-09-25T14:13:09Z"
+    },
+    {
+      "id": 20838,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: SHANKPIT queue reported broken again ('fix shankpit queue it doesnt work'…",
+      "source_repo": "CLI",
+      "date": "20260925",
+      "archived_at": "2026-09-25T14:25:41Z"
     }
   ]
 }
