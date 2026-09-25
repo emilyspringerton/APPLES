@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-25T13:36:57Z",
+  "body": "Backfilled Apple for work already merged to origin/main (cloud continuation of the local agent that crashed on rate limit, session sess-20260925-claude-95f8453d, commits 899fdce/60bd4c7 via PR #1). Verified for real, not trusted: fast-forwarded local to fd9d2e0, ran scripts/build.sh clean end to end -- 100 core-loop checks, round-break comeback smoke test (identical-loadout tie -\u003e A wins at tick 21 via one well-timed Overcharge call, matching hand-derived math), both client smoke tests. CI green (run 36132295774). Combat restructured into DW2_ROUND_TICKS(5)-tick bursts with a round-break between them: Surge Timing real-time reaction check (server-authoritative wall-clock grading, never client-reported), hidden Overcharge/Brace call revealed simultaneously post-commit (the bluff layer), payoff amplified when behind on hull% (the comeback lever). Doc: DEADWEIGHT_2/docs/COMBAT_REDESIGN.md, golden-doc DEADWEIGHT2-COMBAT-NORTH.\n\n⚓ ☃",
+  "id": 20828,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "DEADWEIGHT_2",
+  "title": "D2 round-break combat redesign: Surge Timing skill check, Overcharge/Brace bluff, comeback amplification (SECTION 548)"
+}
