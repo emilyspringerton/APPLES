@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-25T14:07:48Z",
+  "body": "CHANGELOG updated in DEADWEIGHT_2: Auto-release CI (SECTION 551): every green main push auto-bumps a MINOR version tag and cuts a real GitHub Release (dw2_server/dw2_client/dw2_local + D2_CONSTRUCT.txt, _linux_x86_64-suffixed), live-verified at v0.1.0 with 4 real assets. Same release job GPG-signs + publishes to IDUNA's app-release registry (app_slug=\"d2\"), matching DEADWEIGHT's own step -- verified cleanly no-oping until its two secrets are provisioned, same current state as DEADWEIGHT. (sess-20260923-1030-4a526255)\n\n⚓ ☃",
+  "id": 20836,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "DEADWEIGHT_2",
+  "title": "changelog(DEADWEIGHT_2): Auto-release CI (SECTION 551): every green main push auto-b…"
+}
