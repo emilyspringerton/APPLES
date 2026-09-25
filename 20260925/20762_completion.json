@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-25T04:26:18Z",
+  "body": "~/wotan-deploy.sh run. Live-verified against wotan.okemily.com/friends.html directly (not just the filesystem copy): zero password fields, 'Sign in with IDUNA' link present, sso-exchange fetch call present. Full redirect chain confirmed: https://iam.okemily.com/?redirect_uri=https://wotan.okemily.com/friends.html returns a clean 200 (the real IDUNA login page, not a broken redirect). Closes the founder's 'make it work for Friends and Duels' ask.\n\n⚓ ☃",
+  "id": 20762,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "WOTAN",
+  "title": "friends.html deployed live with working IDUNA SSO + DEADWEIGHT token exchange (Apple #20760 follow-through)"
+}

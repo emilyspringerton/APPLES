@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-25T04:26:18Z",
+  "body": "Restart succeeded this pass (PID 239364, ActiveEnterTimestamp 2026-09-25T04:25:39Z). Live-verified: POST /api/v1/games/deadweight/sso-exchange returns 401 'missing bearer token' (route exists and is wired), not 404. /health 200.\n\n⚓ ☃",
+  "id": 20761,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "IDUNA",
+  "title": "iduna.service restarted live with sso-exchange route (Apple #20759 follow-through)"
+}
