@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-25T04:56:33Z",
+  "generated_at": "2026-09-25T04:56:35Z",
   "repo": "APPLES",
-  "count": 10235,
+  "count": 10236,
   "apples": [
     {
       "id": 10525,
@@ -81882,6 +81882,14 @@
       "source_repo": "PARENA",
       "date": "20260925",
       "archived_at": "2026-09-25T04:56:33Z"
+    },
+    {
+      "id": 20773,
+      "type": "completion",
+      "title": "Create Account page + claim-account login fallback shipped (web client + native C GUI)",
+      "source_repo": "DEADWEIGHT",
+      "date": "20260925",
+      "archived_at": "2026-09-25T04:56:35Z"
     }
   ]
 }
