@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-25T15:35:17Z",
+  "body": "Verified DEADWEIGHT_2 SECTION 551's two remaining unchecked BACKLOG items were actually already shipped (commit ddbbade) and Appled (#20835/#20836), just never flipped to [x]. Confirmed live via GitHub API: v0.1.0 and v0.2.0 releases each with 4 real assets (dw2_server/client/local_linux_x86_64 + D2_CONSTRUCT.txt). Confirmed the IDUNA app-release signing step's no-op-on-missing-secrets guard is a clean exit 0, not silent failure, by reading ci.yml directly. README/CHANGELOG already describe this accurately -- no doc drift found. Flipped both checkboxes in EMILY/BACKLOG.md SECTION 551 to [x] and closed the section except for the one real, named-deferred item (BotPerm/etc, waiting on D4).\n\n⚓ ☃",
+  "id": 20846,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "DEADWEIGHT_2",
+  "title": "SECTION 551 backlog bookkeeping closed: D2 auto-release + IDUNA signing confirmed live"
+}
