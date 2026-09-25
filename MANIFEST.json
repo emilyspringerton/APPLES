@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-25T04:14:39Z",
+  "generated_at": "2026-09-25T04:21:27Z",
   "repo": "APPLES",
-  "count": 10220,
+  "count": 10221,
   "apples": [
     {
       "id": 10525,
@@ -81762,6 +81762,14 @@
       "source_repo": "emily",
       "date": "20260925",
       "archived_at": "2026-09-25T04:14:39Z"
+    },
+    {
+      "id": 20758,
+      "type": "completion",
+      "title": "changelog(IDUNA): feat(games): sso-exchange -- bridges a generic IDUNA SSO lo…",
+      "source_repo": "IDUNA",
+      "date": "20260925",
+      "archived_at": "2026-09-25T04:21:27Z"
     }
   ]
 }
