@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-25T11:02:49Z",
+  "generated_at": "2026-09-25T11:02:51Z",
   "repo": "APPLES",
-  "count": 10274,
+  "count": 10275,
   "apples": [
     {
       "id": 10525,
@@ -82194,6 +82194,14 @@
       "source_repo": "IDUNA",
       "date": "20260925",
       "archived_at": "2026-09-25T11:02:49Z"
+    },
+    {
+      "id": 20812,
+      "type": "completion",
+      "title": "changelog(DEADWEIGHT): Add tools/replay_dump.c + scripts/build.sh step: replays a …",
+      "source_repo": "DEADWEIGHT",
+      "date": "20260925",
+      "archived_at": "2026-09-25T11:02:51Z"
     }
   ]
 }
