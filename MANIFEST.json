@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-25T04:55:26Z",
+  "generated_at": "2026-09-25T04:56:03Z",
   "repo": "APPLES",
-  "count": 10233,
+  "count": 10234,
   "apples": [
     {
       "id": 10525,
@@ -81866,6 +81866,14 @@
       "source_repo": "PARENA",
       "date": "20260925",
       "archived_at": "2026-09-25T04:55:26Z"
+    },
+    {
+      "id": 20771,
+      "type": "completion",
+      "title": "changelog(DEADWEIGHT): feat: Create Account page (web client) + claim-account logi…",
+      "source_repo": "DEADWEIGHT",
+      "date": "20260925",
+      "archived_at": "2026-09-25T04:56:03Z"
     }
   ]
 }
