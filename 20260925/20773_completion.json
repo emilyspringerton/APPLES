@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-25T04:56:33Z",
+  "body": "Founder real-time: 'email already taken' dead end on claim-account, wanted a client-side login fallback plus a real 'create a deadweight account right there' page with PARENA-ported name-picking logic. Shipped: (1) account.ts's new ApiError + claimOrLogin() -- a 409 from guest-upgrade now retries as loginWithEmail with the same credentials instead of dead-ending; same fix in apps/gui/main.c's do_link_email (dwi_guest_upgrade gained an out_status param). (2) New 'Create Account' box (web/index.html + main.ts's createAccount()) -- one button does guest-register-with-a-chosen-name then claim in one action; start()'s connect-and-play tail extracted into a shared enterGame(). (3) New PARENA/stdlib/deadweight/account_rules.prn (C target, real, ASan/UBSan-verified), checked in as core/account_rules.c/.h, ready for a future native Create Account SDL2 screen (real, named follow-up, not built this pass). TS target genuinely blocked on a real PARENA compiler gap (see paired PARENA Apple) -- worked around with a hand-written account.ts isValidDisplayName, verified byte-for-byte against the real C output via matching test vectors, gap named honestly rather than silently routed around. npm run build (tsc) clean, scripts/build.sh --gui full clean build (GUI selftest + draft selftest + FX demo all pass). DEADWEIGHT f4f8728.\n\n⚓ ☃",
+  "id": 20773,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "DEADWEIGHT",
+  "title": "Create Account page + claim-account login fallback shipped (web client + native C GUI)"
+}

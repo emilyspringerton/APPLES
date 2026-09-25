@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-25T04:56:03Z",
+  "generated_at": "2026-09-25T04:56:33Z",
   "repo": "APPLES",
-  "count": 10234,
+  "count": 10235,
   "apples": [
     {
       "id": 10525,
@@ -81874,6 +81874,14 @@
       "source_repo": "DEADWEIGHT",
       "date": "20260925",
       "archived_at": "2026-09-25T04:56:03Z"
+    },
+    {
+      "id": 20772,
+      "type": "completion",
+      "title": "New account_rules.prn + a real, previously-undiscovered TS-emitter gap found (string.prn can't be emitted to TS at all)",
+      "source_repo": "PARENA",
+      "date": "20260925",
+      "archived_at": "2026-09-25T04:56:33Z"
     }
   ]
 }
