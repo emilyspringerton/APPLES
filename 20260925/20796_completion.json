@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-25T08:54:40Z",
+  "body": "6x6 spatial-knapsack-into-combat mechanic per DEADWEIGHT/NORTHSTAR.md + docs/SPEC_REVIEW.md + docs/PHASE_D1_CORE_LOOP.md, spun into its own repo. core/ (grid/items/energy-routing/Back-EMF/Panic Cut), apps/local SDL2 debug shell + --selftest, tests/test_core_loop.c (53 checks, ASan+UBSan clean, hand-derived exact numbers for one-to-many/many-to-one/Back-EMF-shatter-on-tick-4). No Unlicense added per explicit founder instruction.\n\n⚓ ☃",
+  "id": 20796,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "DEADWEIGHT_2",
+  "title": "DEADWEIGHT_2 Phase D1: backpack battler core loop built and live-verified"
+}
