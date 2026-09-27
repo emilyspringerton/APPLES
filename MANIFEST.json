@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-27T14:28:17Z",
+  "generated_at": "2026-09-27T14:34:15Z",
   "repo": "APPLES",
-  "count": 10515,
+  "count": 10516,
   "apples": [
     {
       "id": 10525,
@@ -84122,6 +84122,14 @@
       "source_repo": "emily",
       "date": "20260927",
       "archived_at": "2026-09-27T14:28:17Z"
+    },
+    {
+      "id": 21053,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: get MIXFORGE live at mixforge.okemily.com -- write the terraform for it a…",
+      "source_repo": "CLI",
+      "date": "20260927",
+      "archived_at": "2026-09-27T14:34:15Z"
     }
   ]
 }
