@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-27T15:12:50Z",
+  "generated_at": "2026-09-27T15:16:32Z",
   "repo": "APPLES",
-  "count": 10523,
+  "count": 10524,
   "apples": [
     {
       "id": 10525,
@@ -84186,6 +84186,14 @@
       "source_repo": "emily",
       "date": "20260927",
       "archived_at": "2026-09-27T15:12:50Z"
+    },
+    {
+      "id": 21061,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: IDUNA has abandoned pull requests, bring them in and fix the conflicts",
+      "source_repo": "CLI",
+      "date": "20260927",
+      "archived_at": "2026-09-27T15:16:32Z"
     }
   ]
 }
