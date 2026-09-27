@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-27T23:44:05Z",
+  "body": "CHANGELOG updated in MIXFORGE: Unified the DJ mixer and multiplayer room into one real, working page (room.html): server-side download-on-queue, clock-synced playback, real waveform display, basic BPM estimate, sampling off either a local file or the room's live track. Two real bugs found and fixed via live two-tab testing. New Chrome extension (tools/cookie-exporter) uploads real YouTube cookies to a new IDUNA endpoint to work around YouTube's own intermittent server-side bot detection. (sess-20260923-1030-4a526255)\n\n⚓ ☃",
+  "id": 21116,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "MIXFORGE",
+  "title": "changelog(MIXFORGE): Unified the DJ mixer and multiplayer room into one real, wo…"
+}
