@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-27T14:03:49Z",
+  "body": "Two BACKLOG.md entries had gone unmerged: origin/claude/busy-newton-bb37wv (WOTAN S550 SHANKPIT leaderboard) collided with an already-existing, differently-scoped SECTION 550 in main -- renumbered to SECTION 556. origin/claude/big-o-birds-4w5ni7 (S504-19 bird MOBBING dive movement) collided with an already-existing, differently-scoped S504-19 in main -- renumbered to S504-21 (the BIG_O code itself, commit facb351, was already live; only the backlog entry was missing). Also found and left alone: 3 other stale worktree branches (worktree-agent-a725f652bcc7bd4ee, worktree-agent-adfe29269fe46e592, worktree-agent-a80b5189d38904a79) whose content turned out to already be hand-integrated into main under renumbered sections (193-\u003e194, 198-\u003e199) by a prior session -- confirmed via exact-text match, not merged again to avoid duplicating content; flagged for branch deletion as cleanup. Pushed via an isolated clone, not the live EMILY checkout, since the live checkout has the actual Emily Prime cron actively committing to it right now (uncommitted local advance ahead of origin at merge time).\n\n⚓ ☃",
+  "id": 21045,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "EMILY",
+  "title": "Merged 2 abandoned backlog branches (busy-newton S550, big-o-birds S504-19), renumbered to avoid ID collisions"
+}

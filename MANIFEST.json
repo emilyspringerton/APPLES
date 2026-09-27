@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-27T14:03:30Z",
+  "generated_at": "2026-09-27T14:03:49Z",
   "repo": "APPLES",
-  "count": 10507,
+  "count": 10508,
   "apples": [
     {
       "id": 10525,
@@ -84058,6 +84058,14 @@
       "source_repo": "IDUNA",
       "date": "20260927",
       "archived_at": "2026-09-27T14:03:30Z"
+    },
+    {
+      "id": 21045,
+      "type": "completion",
+      "title": "Merged 2 abandoned backlog branches (busy-newton S550, big-o-birds S504-19), renumbered to avoid ID collisions",
+      "source_repo": "EMILY",
+      "date": "20260927",
+      "archived_at": "2026-09-27T14:03:49Z"
     }
   ]
 }
