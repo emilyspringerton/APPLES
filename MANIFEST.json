@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-27T14:13:52Z",
+  "generated_at": "2026-09-27T14:14:11Z",
   "repo": "APPLES",
-  "count": 10509,
+  "count": 10510,
   "apples": [
     {
       "id": 10525,
@@ -84074,6 +84074,14 @@
       "source_repo": "emily",
       "date": "20260927",
       "archived_at": "2026-09-27T14:13:52Z"
+    },
+    {
+      "id": 21047,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: ensure the new NOCK tools are all deployed",
+      "source_repo": "CLI",
+      "date": "20260927",
+      "archived_at": "2026-09-27T14:14:11Z"
     }
   ]
 }
