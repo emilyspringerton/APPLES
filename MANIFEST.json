@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-27T22:28:32Z",
+  "generated_at": "2026-09-27T22:33:35Z",
   "repo": "APPLES",
-  "count": 10567,
+  "count": 10568,
   "apples": [
     {
       "id": 10525,
@@ -84538,6 +84538,14 @@
       "source_repo": "emily",
       "date": "20260927",
       "archived_at": "2026-09-27T22:28:32Z"
+    },
+    {
+      "id": 21105,
+      "type": "completion",
+      "title": "Merged abandoned IDUNA claude/* branch: NOCK robot registry",
+      "source_repo": "IDUNA",
+      "date": "20260927",
+      "archived_at": "2026-09-27T22:33:35Z"
     }
   ]
 }
