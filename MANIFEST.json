@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-27T22:58:41Z",
+  "generated_at": "2026-09-27T23:11:42Z",
   "repo": "APPLES",
-  "count": 10572,
+  "count": 10573,
   "apples": [
     {
       "id": 10525,
@@ -84578,6 +84578,14 @@
       "source_repo": "emily",
       "date": "20260927",
       "archived_at": "2026-09-27T22:58:41Z"
+    },
+    {
+      "id": 21110,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: scope MIXFORGE Phase 5 (stdlib/media/stream.prn, real-time synchronized D…",
+      "source_repo": "CLI",
+      "date": "20260927",
+      "archived_at": "2026-09-27T23:11:42Z"
     }
   ]
 }
