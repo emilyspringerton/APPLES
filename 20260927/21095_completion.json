@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-27T21:29:29Z",
+  "body": "Founder real-time: 'i don't see the robots tools in IDUNA' -- traced to S492's own named 'deeper gap': Role picked AI behavior, but which of the 5 robot models (Mannequin/Stan/Mike/Leela/George) a character rendered as was a pure connection-order round-robin with zero designer control. New AIKit enum, story_ai_spawn_enemy(kit) param, PlayerState.forced_kit + NetPlayer.forced_kit wire field (landed in a previously-wasted padding byte -- sizeof(NetPlayer) unchanged at 88), consumed at the top of draw_player_skin_mannequin's kit-selection cascade. SHANKPIT@d567232. Verified: make server/make lobby clean, story_ai_humanness_test passes, apps/tests/test_netcode.c's struct-layout checks pass, scripts/rl_env_packet.py's ctypes wire mirror updated and reverified against a real compiled C offsetof/sizeof probe (its own test suite, 34/34 pass).\n\n⚓ ☃",
+  "id": 21095,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "SHANKPIT",
+  "title": "NOCK-authored characters can choose their robot kit (S492)"
+}

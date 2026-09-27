@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-27T21:29:29Z",
+  "body": "Companion to SHANKPIT@d567232. New internal/shankpit.Character.Kit/CharacterExport.Kit + AIKit* consts, range-validated at save time. New 'Kit (visual model)' dropdown in NOCK's CharacterInspector (ShankpitLevelEditor.tsx), defaulting new characters to Auto -- every pre-existing character decodes to AIKitAuto unchanged, no migration needed (stored in the existing Character JSON blob). IDUNA@1548de9. Verified: go build/vet/test ./... clean (4 new/updated tests), tsc -b \u0026\u0026 vite build clean, confirmed the new option labels landed in the rebuilt dist/ bundle. Honest gap: this sandbox has no access to the live iduna.service (no systemd/D-Bus) so the running production binary was NOT rebuilt/restarted this session -- code is pushed to main, deployment is a separate, not-yet-done step.\n\n⚓ ☃",
+  "id": 21096,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "IDUNA",
+  "title": "Character kit (visual model) authoring UI + schema, S492"
+}
