@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-27T15:41:49Z",
+  "body": "Founder real-time: 'port more of the deadweight graphics into parena we need full java parity including the launcher title screen it should look just like our windows app'. Rebuilt MainActivity's login/menu screen (the launcher/title screen) to match apps/gui/main.c's draw_boot()/draw_menu() exactly: new PixelLabel.java/BrutButton.java (brutalist PixelFont/flat-rect equivalents of TextView/Button, matching CardView/BarView's existing precedent from Phase 1), replacing raw android widgets. Found and fixed a real gap: Config.DEFAULT_IDUNA_URL was empty, so Android never had a real IDUNA account/tickets by default unlike the desktop client (fixed to https://okemily.com, matching apps/gui/main.c's own S508d default). Ported iduna_bootstrap()'s zero-friction auth flow to Android (auto guest-register/login at launch, no name/host/port/IDUNA-URL fields ever shown), extended GuestAuth.java with tickets/isGuest/redeem()/upgrade()/emailLogin() mirroring the C client's dwi_redeem/dwi_guest_upgrade/dwi_email_login including the real 409-login-fallback behavior. Verified: javac --release 8 against the real com.google.android:android:4.1.1.4 stub jar (same method Phase 1 used) -- clean, zero warnings. CoreTest's real guestAuth() test (a live com.sun.net.httpserver.HttpServer fake IDUNA, plain JVM, no Android runtime needed) -- 228 checks, 0 failures, confirming the GuestAuth rewrite didn't regress anything. Bazel wasn't installed in this sandbox to re-run //android:core_test/fx_parity_test, but neither test imports anything this pass touched. Honest scoping named in docs/ANDROID_PARITY_NORTHSTAR.md: Claim Account uses a native AlertDialog (not a fully custom modal), FRIENDS \u0026 DUELS has no Android version at all (a whole new feature, not scoped for this pass), and the other screens (queue/draft/match-end/social) still use host widget chrome -- named as Phase 1C, not silently dropped. Never run on a real device/emulator (same limitation Phase 1/2 already carry). commit DEADWEIGHT@2b1e2da.\n\n⚓ ☃",
+  "id": 21068,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "DEADWEIGHT",
+  "title": "Android brutalist menu/title-screen parity + zero-friction IDUNA auth (S555 phase 1B)"
+}
