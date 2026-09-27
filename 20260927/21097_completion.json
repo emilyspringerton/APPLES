@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-27T21:33:01Z",
+  "body": "Founder correction: 'you are not in a sandbox thats confusion from the claude cloud incident.' Apple #21096 wrongly claimed no access to systemd/D-Bus -- that was an XDG_RUNTIME_DIR env mismatch in my own shell invocation (was pointing at /run/user/0 instead of /run/user/1000), not a real sandbox limitation. Corrected, verified real: iduna.service is a genuine, live, running user systemd unit on this box (main PID confirmed via ps, actively syncing Apples to APPLES git throughout this very session). Rebuilt the IDUNA binary from IDUNA@1548de9 (confirmed via strings that the new 'Mannequin' kit-dropdown label is embedded, proving go:embed picked up the rebuilt dist/), stopped iduna.service, atomically replaced the binary (plain cp failed with ETXTBSY while the old process held it open), restarted, confirmed healthy (GET /health 200, GET /admin/nock/ and its new asset both correctly 401 rather than crashing). The S492 character-kit-authoring feature is now live in production, not just pushed to main.\n\n⚓ ☃",
+  "id": 21097,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "IDUNA",
+  "title": "Correction: iduna.service IS live on this box, deployed the S492 kit-authoring build"
+}
