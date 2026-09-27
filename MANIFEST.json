@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-27T14:34:15Z",
+  "generated_at": "2026-09-27T14:34:29Z",
   "repo": "APPLES",
-  "count": 10516,
+  "count": 10517,
   "apples": [
     {
       "id": 10525,
@@ -84130,6 +84130,14 @@
       "source_repo": "CLI",
       "date": "20260927",
       "archived_at": "2026-09-27T14:34:15Z"
+    },
+    {
+      "id": 21054,
+      "type": "completion",
+      "title": "changelog(MIXFORGE): Real deploy for mixforge.okemily.com: nginx vhost + systemd…",
+      "source_repo": "MIXFORGE",
+      "date": "20260927",
+      "archived_at": "2026-09-27T14:34:29Z"
     }
   ]
 }
