@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-27T14:37:16Z",
+  "body": "Founder real-time: 'lets get MIXFORGE live mixforge.okemily.com'. Built the missing deploy half for MIXFORGE's real DJ-room app: ops/nginx/mixforge-okemily.conf (static web/index.html + web/dj.html + web/multiplayer.html, /ws proxied to the room server), ops/systemd/mixforge-room-server.service (enabled+running now, loopback-only -- nginx is the real gate). Fixed a real bug that would have broken production: web/multiplayer.html hardcoded ws://127.0.0.1:8973, which only works when browser and server are the same machine -- changed to a relative wss://\u003chost\u003e/ws URL. Bound room_server.mjs to 127.0.0.1 explicitly (was 0.0.0.0 by ws's own default). Landed mid-merge with a concurrent session's real 4-deck mixer + MIDI sampler (web/dj.html, dsp.wasm) -- reconciled CHANGELOG.md, replaced the plain empty README with content folded into their new README.md, added a multiplayer.html link to index.html's hub page, both test suites (dsp_test.mjs 49/49, room_server_test.mjs) pass clean post-merge. DNS is IDUNA/ops/terraform/main.tf's new cloudflare_dns_record.mixforge (separate Apple); nginx+cert install is sudo-queue/92-mixforge-okemily-domain.sh, not yet run -- needs terraform apply (Cloudflare token) then the sudo script, both requiring the founder's own credentials/sudo. commit MIXFORGE@97445b9.\n\n⚓ ☃",
+  "id": 21056,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "MIXFORGE",
+  "title": "Real deploy scaffolding for mixforge.okemily.com: nginx vhost + running systemd service"
+}

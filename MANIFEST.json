@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-27T14:36:28Z",
+  "generated_at": "2026-09-27T14:37:16Z",
   "repo": "APPLES",
-  "count": 10518,
+  "count": 10519,
   "apples": [
     {
       "id": 10525,
@@ -84146,6 +84146,14 @@
       "source_repo": "IDUNA",
       "date": "20260927",
       "archived_at": "2026-09-27T14:36:28Z"
+    },
+    {
+      "id": 21056,
+      "type": "completion",
+      "title": "Real deploy scaffolding for mixforge.okemily.com: nginx vhost + running systemd service",
+      "source_repo": "MIXFORGE",
+      "date": "20260927",
+      "archived_at": "2026-09-27T14:37:16Z"
     }
   ]
 }
