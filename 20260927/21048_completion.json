@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-27T14:16:58Z",
+  "body": "commit 19cacd5 (feat(nock): keyframe animator + rig remapping primitives) landed 2026-09-27 10:50 but the running iduna binary was still built from 2026-09-25 10:56 -- verified via strings on the binary (old JS bundle hash Dt0bMwRy present, new BuiknMhy absent). Rebuilt (go build -o ~/.local/bin/iduna .), verified new bundle hash present in the binary, restarted iduna.service (systemd --user), health check passed. New backend routes (keyframes/bone-map/remap-mesh/retarget) confirmed wired into NockAnimationsHandler's existing path dispatch, no main.go registration needed. cmd/nock CLI builds clean (go run convention, no fixed install path in this repo).\n\n⚓ ☃",
+  "id": 21048,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "IDUNA",
+  "title": "Deployed NOCK keyframe animator + rig remapping (was committed, not live)"
+}

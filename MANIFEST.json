@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-27T14:14:11Z",
+  "generated_at": "2026-09-27T14:16:58Z",
   "repo": "APPLES",
-  "count": 10510,
+  "count": 10511,
   "apples": [
     {
       "id": 10525,
@@ -84082,6 +84082,14 @@
       "source_repo": "CLI",
       "date": "20260927",
       "archived_at": "2026-09-27T14:14:11Z"
+    },
+    {
+      "id": 21048,
+      "type": "completion",
+      "title": "Deployed NOCK keyframe animator + rig remapping (was committed, not live)",
+      "source_repo": "IDUNA",
+      "date": "20260927",
+      "archived_at": "2026-09-27T14:16:58Z"
     }
   ]
 }
