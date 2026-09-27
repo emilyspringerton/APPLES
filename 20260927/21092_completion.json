@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-27T21:13:36Z",
+  "body": "Founder real-time: 'ensure the shankpit rigid body stuff landed' -- it hadn't. SHANKPIT@6204ea9 merges the formal rigid-body physics work (packages/goldenband grb/grobot/grl vendored from GOLDENBAND, packages/simulation/rigid_ragdoll -- mannequin as 17 rigid capsules with Winter/Dempster masses and swing/twist-limited joints) from origin/claude/determined-mccarthy-f5ou9d into master. That branch was pushed to origin earlier the same day (session sess-20260927-1025-5b0d7c3e) but never opened as a PR -- same abandoned-branch pattern already fixed for IDUNA in BACKLOG.md SECTION 558. Verified live, not assumed: 'make test-physics' passes (falls, settles, holds every swing/twist/hinge limit, bit-identical on rerun), 'make lobby'/'make server' both still build clean. Only merge conflict was CHANGELOG.md (both entries kept). Not wired into live gameplay yet -- explicitly scoped that way by the original commit.\n\n⚓ ☃",
+  "id": 21092,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "SHANKPIT",
+  "title": "Rigid-body physics branch landed on master (was abandoned, no PR)"
+}
