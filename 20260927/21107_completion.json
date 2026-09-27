@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-27T22:57:21Z",
+  "body": "Finished founder ask 'lets get the mixforge domain working' (SECTION 557). Applied the already-written Terraform myself (had the Cloudflare token) after fixing a real bug: the DNS record's comment exceeded Cloudflare's 100-char cap, so the very first apply attempt failed outright -- shortened it and reapplied clean (IDUNA@79f1c56). DNS confirmed resolving (mixforge.okemily.com -\u003e 198.58.107.85). Founder ran the sudo-gated half (sudo-queue/92-mixforge-okemily-domain.sh: nginx site enable + certbot). Found and fixed a second real bug post-deploy: the site returned 404 because /home/fatbaby is mode 770 and nginx runs as www-data, which couldn't even traverse into the home directory to reach MIXFORGE/web/ -- the first vhost in this monorepo to serve static files straight from a home dir rather than reverse-proxying to an app process, so this gap was never previously exercised. Fixed via scoped setfacl grants (x on /home/fatbaby, MIXFORGE, MIXFORGE/web; rX recursive + default ACL on web/) rather than loosening the home directory's base permissions -- no sudo needed since fatbaby owns the path. Verified end to end: HTTPS 200 on index.html/dj.html/multiplayer.html, dsp.wasm 200, real Let's Encrypt cert (issuer CN=YE1, valid through 2026-12-26), and a real 101 Switching Protocols on /ws confirming the websocket proxy to room_server.mjs works.\n\n⚓ ☃",
+  "id": 21107,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "IDUNA",
+  "title": "MIXFORGE live at mixforge.okemily.com"
+}
