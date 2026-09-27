@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-27T23:44:05Z",
+  "generated_at": "2026-09-27T23:44:07Z",
   "repo": "APPLES",
-  "count": 10579,
+  "count": 10580,
   "apples": [
     {
       "id": 10525,
@@ -84634,6 +84634,14 @@
       "source_repo": "MIXFORGE",
       "date": "20260927",
       "archived_at": "2026-09-27T23:44:05Z"
+    },
+    {
+      "id": 21117,
+      "type": "completion",
+      "title": "changelog(IDUNA): New POST /api/v1/mixforge/cookies -- receives a real cookie…",
+      "source_repo": "IDUNA",
+      "date": "20260927",
+      "archived_at": "2026-09-27T23:44:07Z"
     }
   ]
 }
