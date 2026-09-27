@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-27T21:46:32Z",
+  "body": "Founder real-time: 'ensure the other shankpit abandoned claude branches are merged in.' Found 5 claude/* branches total pushed to origin, none merged: determined-mccarthy-f5ou9d (physics, already merged this session, SHANKPIT@6204ea9), happy-dijkstra-gh5k1x (real weather fog, no PR -- merged 291b708), sweet-hamilton-yii3h9 (Giant Zombie Bug pain/combat, no PR, had 2 leftover commits after an earlier PR#309 partially merged an older tip -- merged 6e316e2), charming-einstein-f0ofcc (PARENA sound-engineering/NOCK filter chains, no PR -- merged 9f5570c, 4-file conflict: Makefile/.github/workflows/tests.yml/CHANGELOG.md/README.md, the README conflict was git giving up on a full-file diff against a since-heavily-rewritten current README -- resolved by keeping the current README and adding just the branch's own new bullet, not reverting months of other README changes), epic-franklin-683eoh (EDITOR.GAME in-process widget, has an open PR #310 -- NOT merged, see the separate blocker note filed alongside this Apple). Each of the 3 merged here rebuilt and re-tested clean: make server/make lobby, make test-physics (regression-checked, unaffected), sky_weather_fog_test (new, passes), witness_ai_test (37/37, Giant Zombie Bug checks new), make test-audio-chain (new, C runner bit-for-bit matches IDUNA NOCK's TypeScript render over 24,000 samples).\n\n⚓ ☃",
+  "id": 21099,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "SHANKPIT",
+  "title": "3 more abandoned claude branches merged (weather fog, Giant Zombie Bug combat, PARENA audio)"
+}
