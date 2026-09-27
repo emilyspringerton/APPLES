@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-27T23:51:11Z",
+  "body": "CHANGELOG updated in MIXFORGE: Added one real, jittered retry on download failure with full log visibility in the room client. Fixed a real UX gap found live: the root domain (mixforge.okemily.com/) still served the old standalone compiler-proof page instead of the unified room -- moved that proof to wasm-proof.html and made index.html redirect straight to room.html. (sess-20260923-1030-4a526255)\n\n⚓ ☃",
+  "id": 21119,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "MIXFORGE",
+  "title": "changelog(MIXFORGE): Added one real, jittered retry on download failure with ful…"
+}

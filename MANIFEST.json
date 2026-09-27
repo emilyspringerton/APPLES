@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-27T23:44:29Z",
+  "generated_at": "2026-09-27T23:51:11Z",
   "repo": "APPLES",
-  "count": 10581,
+  "count": 10582,
   "apples": [
     {
       "id": 10525,
@@ -84650,6 +84650,14 @@
       "source_repo": "MIXFORGE",
       "date": "20260927",
       "archived_at": "2026-09-27T23:44:29Z"
+    },
+    {
+      "id": 21119,
+      "type": "completion",
+      "title": "changelog(MIXFORGE): Added one real, jittered retry on download failure with ful…",
+      "source_repo": "MIXFORGE",
+      "date": "20260927",
+      "archived_at": "2026-09-27T23:51:11Z"
     }
   ]
 }

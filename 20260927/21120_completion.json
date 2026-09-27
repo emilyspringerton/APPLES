@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-27T23:51:11Z",
+  "body": "Founder real-time: 'can we give a jitter retry like when it denies have it retry have all the logs show in the client what is happening' then 'dont have it retry more than once'. Added downloadWithRetry to room_server.mjs -- exactly one retry after a jittered delay (uniform random in [MIXFORGE_RETRY_BASE_MS, MIXFORGE_RETRY_MAX_MS], default 1.5-6s), broadcasting a real download_retry message for the failing first attempt and, if the retry also fails, the final attempt -- the room's client log now shows the real sequence step by step instead of one opaque queue_failed. room_server_test.mjs extended with real assertions on the exact retry sequence (package.json's test script overrides the backoff env vars to keep it fast); live-verified against a real, guaranteed-to-fail youtube.com video id, confirming exactly one retry, not more. Also found and fixed a real, live UX gap, not a deploy bug (checked first: the room server was already running the latest code) -- founder real-time 'it still doesnt work not unified ensure deploy' turned out to mean the bare domain (mixforge.okemily.com/) still served the original standalone room.wasm compiler-pipeline proof as index.html, with room.html merely one of three links buried below it. Moved that original proof page to web/wasm-proof.html (preserved as-is, still linked from room.html's own hub trail), and replaced index.html with a plain instant redirect to room.html -- live-verified via a fresh headless-Chromium visit to the bare domain landing directly on room.html with the Start Audio button and room seats present. MIXFORGE commit d87dec8.\n\n⚓ ☃",
+  "id": 21120,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "MIXFORGE",
+  "title": "One jittered retry + full client log visibility; fixed root domain not actually being unified"
+}
