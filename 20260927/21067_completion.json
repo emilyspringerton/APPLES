@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-27T15:41:05Z",
+  "body": "CHANGELOG updated in DEADWEIGHT: Android (S555 phase 1B): brutalist menu/title-screen parity with the Windows client + zero-friction IDUNA auth (fixed Config.DEFAULT_IDUNA_URL, was empty -- Android had no account/tickets by default). New PixelLabel.java/BrutButton.java; GuestAuth gained tickets/isGuest/redeem()/upgrade()/emailLogin(). Compile-checked against real android.* stubs, CoreTest's live guestAuth() test (228 checks) passes. (sess-20260923-1030-4a526255)\n\n⚓ ☃",
+  "id": 21067,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "DEADWEIGHT",
+  "title": "changelog(DEADWEIGHT): Android (S555 phase 1B): brutalist menu/title-screen parity…"
+}
