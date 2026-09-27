@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-27T14:34:29Z",
+  "generated_at": "2026-09-27T14:36:28Z",
   "repo": "APPLES",
-  "count": 10517,
+  "count": 10518,
   "apples": [
     {
       "id": 10525,
@@ -84138,6 +84138,14 @@
       "source_repo": "MIXFORGE",
       "date": "20260927",
       "archived_at": "2026-09-27T14:34:29Z"
+    },
+    {
+      "id": 21055,
+      "type": "completion",
+      "title": "changelog(IDUNA): Add mixforge.okemily.com Cloudflare DNS record (terraform),…",
+      "source_repo": "IDUNA",
+      "date": "20260927",
+      "archived_at": "2026-09-27T14:36:28Z"
     }
   ]
 }
