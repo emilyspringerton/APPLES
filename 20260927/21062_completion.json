@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-27T15:16:40Z",
+  "body": "Founder real-time: 'IDUNA has abandoned pull requests bring them in fix the conflicts'. Merged claude/charming-wozniak-ya3uy3 (PR #18, forked 2026-09-25, 651 insertions/4 deletions vs its own fork point). Real conflicts: CHANGELOG.md (chronological merge), a stale go:embed dist bundle rename/delete conflict (resolved by deferring to a full rebuild at the end), and a genuine Go redeclaration: this PR's gltf_widget_test.go and the already-merged keyframe-animator PR's rig_test.go each independently defined a package-level near(a,b,...) test helper with different signatures -- git's line merge didn't conflict (non-overlapping hunks) but go vet caught it; renamed the glTF-side one to gltfNear. go build/vet/test all clean. GitHub auto-closed PR #18 as merged once pushed. commit IDUNA@796ff8b (final merge tip of a 3-PR integration).\n\n⚓ ☃",
+  "id": 21062,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "IDUNA",
+  "title": "Merged abandoned PR #18: glTF -\u003e SHANKPIT widget importer bridge"
+}
