@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-27T22:18:12Z",
+  "body": "All 4 previously-abandoned SHANKPIT claude/* branches now merged into master. Last one (epic-franklin-683eoh, EDITOR.GAME in-process widget, had an open unmerged PR #310) had a real, confirmed make-lobby link regression the original branch never tested. Fixed with a same-day follow-up commit: new Makefile rules rename EDITOR.GAME's colliding arena_init/arena_alloc/arena_strdup/arena_free_all/vec_i32_at symbols (the last one a second collision found via nm -g, not assumed) before linking into shank_lobby, -lSDL2_ttf added, and both tests.yml and release.yml updated to checkout EDITOR.GAME and build the same objects for their own hand-copied Windows builds. Verified for real: make lobby survives 5+s under headless Xvfb with no crash, EDITOR.GAME's own real editor_widget_test.c API smoke test passes headlessly, make ea-windows produces a real working mingw-cross-compiled .exe. make server/test-physics/test-audio-chain re-verified unaffected. SHANKPIT commits f15f7b1 (merge) + 146c880 (fix). Named, not fixed: the parallel Bazel build path (apps/lobby/BUILD.bazel) has the identical symbol collision, already marked unverified by its own original author -- out of scope since the Makefile is this repo's real CI-verified build path.\n\n⚓ ☃",
+  "id": 21103,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "SHANKPIT",
+  "title": "EDITOR.GAME in-process widget branch merged + build regression fixed (S559 complete)"
+}
