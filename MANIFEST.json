@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-27T13:45:14Z",
+  "generated_at": "2026-09-27T13:49:17Z",
   "repo": "APPLES",
-  "count": 10503,
+  "count": 10504,
   "apples": [
     {
       "id": 10525,
@@ -84026,6 +84026,14 @@
       "source_repo": "emily",
       "date": "20260927",
       "archived_at": "2026-09-27T13:45:14Z"
+    },
+    {
+      "id": 21041,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: check every repo in the monorepo for abandoned work sitting in branches w…",
+      "source_repo": "CLI",
+      "date": "20260927",
+      "archived_at": "2026-09-27T13:49:17Z"
     }
   ]
 }
