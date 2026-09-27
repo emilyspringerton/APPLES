@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-27T15:16:48Z",
+  "generated_at": "2026-09-27T15:17:01Z",
   "repo": "APPLES",
-  "count": 10526,
+  "count": 10527,
   "apples": [
     {
       "id": 10525,
@@ -84210,6 +84210,14 @@
       "source_repo": "IDUNA",
       "date": "20260927",
       "archived_at": "2026-09-27T15:16:48Z"
+    },
+    {
+      "id": 21064,
+      "type": "completion",
+      "title": "Merged abandoned PR #21: NOCK sound engineering (library, filter chains, Booth)",
+      "source_repo": "IDUNA",
+      "date": "20260927",
+      "archived_at": "2026-09-27T15:17:01Z"
     }
   ]
 }
