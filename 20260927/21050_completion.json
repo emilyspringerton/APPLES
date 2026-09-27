@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-27T14:23:17Z",
+  "body": "origin/codex/optimize-texture-loading-with-shaders (cached shader VBO for static terrain, replacing thousands of immediate-mode texture submissions/frame) had gone unmerged since 2026-01. Conflicts were mostly additive new GL uniform wrappers (gl_uniform1i alongside HEAD's own gl_uniform3fv/gl_uniform1f). Found and fixed a real bug introduced by the merge itself: the resolved terrain-shader block referenced g_ground_tex before its own declaration (C forward-reference error) -- relocated the whole terrain_shader_init/draw_terrain_shader block to after g_ground_tex's declaration. make -B all and go test ./... both clean. Commit b6b7f4f.\n\n⚓ ☃",
+  "id": 21050,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "SHANKPIT",
+  "title": "Merged abandoned texture-loading-through-shaders branch, fixed a declaration-order bug from the merge"
+}
