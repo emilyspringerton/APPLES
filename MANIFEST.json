@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-27T23:51:11Z",
+  "generated_at": "2026-09-27T23:51:13Z",
   "repo": "APPLES",
-  "count": 10582,
+  "count": 10583,
   "apples": [
     {
       "id": 10525,
@@ -84658,6 +84658,14 @@
       "source_repo": "MIXFORGE",
       "date": "20260927",
       "archived_at": "2026-09-27T23:51:11Z"
+    },
+    {
+      "id": 21120,
+      "type": "completion",
+      "title": "One jittered retry + full client log visibility; fixed root domain not actually being unified",
+      "source_repo": "MIXFORGE",
+      "date": "20260927",
+      "archived_at": "2026-09-27T23:51:13Z"
     }
   ]
 }
