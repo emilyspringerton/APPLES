@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-28T10:46:09Z",
+  "body": "CHANGELOG updated in DEADWEIGHT: Android 'eat more with PARENA': new account_rules_scalar.prn (PARENA) fixes a real 3-way hand-duplicated 'password needs 8+ characters' rule across apps/gui/main.c, MainActivity.java, and web/src/account.ts. Wired into C and Java; also fixed core/account_rules.c never being linked into dw_gui's build since 2026-09-25. See docs/ANDROID_PARITY_NORTHSTAR.md. (sess-20260923-1030-4a526255)\n\n⚓ ☃",
+  "id": 21217,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "DEADWEIGHT",
+  "title": "changelog(DEADWEIGHT): Android 'eat more with PARENA': new account_rules_scalar.pr…"
+}
