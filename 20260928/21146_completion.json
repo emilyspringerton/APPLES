@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-28T03:03:50Z",
+  "body": "CHANGELOG updated in PARENA: stdlib/video/nle.prn: non-linear-editing DSP for NOCK's MIXFORGE EDITOR video editor -- equal-power crossfade curves (mirroring mixforge/mixer.prn's own quarter-cos pan construction), a per-clip fade-in/fade-out envelope, and time-based MPC pad-capture window math. Compiled to wasm via the same pipeline MIXFORGE/scripts/build_dsp_wasm.sh established; verified with a real 14/14 kernel test in IDUNA/frontend/nock. (sess-20260923-1030-4a526255)\n\n⚓ ☃",
+  "id": 21146,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "PARENA",
+  "title": "changelog(PARENA): stdlib/video/nle.prn: non-linear-editing DSP for NOCK's MIX…"
+}

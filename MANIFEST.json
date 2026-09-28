@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-28T03:03:32Z",
+  "generated_at": "2026-09-28T03:03:50Z",
   "repo": "APPLES",
-  "count": 10608,
+  "count": 10609,
   "apples": [
     {
       "id": 10525,
@@ -84866,6 +84866,14 @@
       "source_repo": "IDUNA",
       "date": "20260928",
       "archived_at": "2026-09-28T03:03:32Z"
+    },
+    {
+      "id": 21146,
+      "type": "completion",
+      "title": "changelog(PARENA): stdlib/video/nle.prn: non-linear-editing DSP for NOCK's MIX…",
+      "source_repo": "PARENA",
+      "date": "20260928",
+      "archived_at": "2026-09-28T03:03:50Z"
     }
   ]
 }
