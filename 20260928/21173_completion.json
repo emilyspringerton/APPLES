@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-28T04:59:51Z",
+  "body": "Founder rejected an initial Emscripten build (\"do not use emscripten it doesnt work it needs to be native wasm like mixforge\") after it had already gotten the full desktop SDL2 client compiling and running under Emscripten. Pivoted to a real native wasm32-unknown-unknown pipeline (plain clang -target wasm32-unknown-unknown -nostdlib + wasm-ld, matching MIXFORGE's own web/room.wasm/dsp.wasm backend one step later in the chain). Shipped: apps/wasm/ wraps core/protocol.c (compiled in unmodified, not reimplemented) with named setters/getters for every wire-protocol message type; scripts/build_wasm_native.sh builds a 15.9KB dw_protocol.wasm; tests/test_wasm_protocol.mjs verifies 9/9 checks (round trips plus independently hand-crafted wire bytes per docs/WIRE_PROTOCOL.md). Found and fixed a real bug along the way: raw JS-side struct-offset math silently landed in the wrong DwMsg union field once 4-byte union padding was accounted for -- fixed by only ever exposing named C-field accessors to JS, never raw memory offsets. Also fixed core/runtime/parena_runtime.h's forkpty (no Emscripten branch existed) as a real, kept-regardless portability fix from the abandoned attempt. Full account: docs/NATIVE_WASM_CLIENT_NORTHSTAR.md. Not built yet: rendering, WebSocket networking, IDUNA SSO, wotan.okemily.com/DEADWEIGHT hosting -- named, phased, not started.\n\n⚓ ☃",
+  "id": 21173,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "DEADWEIGHT",
+  "title": "Native (non-Emscripten) wasm32 client: real wire-protocol codec, founder-corrected from an initial Emscripten attempt"
+}

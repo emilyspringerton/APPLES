@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-28T04:58:21Z",
+  "generated_at": "2026-09-28T04:59:51Z",
   "repo": "APPLES",
-  "count": 10635,
+  "count": 10636,
   "apples": [
     {
       "id": 10525,
@@ -85082,6 +85082,14 @@
       "source_repo": "emily",
       "date": "20260928",
       "archived_at": "2026-09-28T04:58:21Z"
+    },
+    {
+      "id": 21173,
+      "type": "completion",
+      "title": "Native (non-Emscripten) wasm32 client: real wire-protocol codec, founder-corrected from an initial Emscripten attempt",
+      "source_repo": "DEADWEIGHT",
+      "date": "20260928",
+      "archived_at": "2026-09-28T04:59:51Z"
     }
   ]
 }
