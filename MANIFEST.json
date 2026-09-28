@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-28T07:30:14Z",
+  "generated_at": "2026-09-28T07:30:21Z",
   "repo": "APPLES",
-  "count": 10650,
+  "count": 10651,
   "apples": [
     {
       "id": 10525,
@@ -85202,6 +85202,14 @@
       "source_repo": "emily",
       "date": "20260928",
       "archived_at": "2026-09-28T07:30:14Z"
+    },
+    {
+      "id": 21188,
+      "type": "completion",
+      "title": "changelog(DEADWEIGHT): IDUNA SSO wired (src/sso.ts + account.ts loginWithSso, reus…",
+      "source_repo": "DEADWEIGHT",
+      "date": "20260928",
+      "archived_at": "2026-09-28T07:30:21Z"
     }
   ]
 }

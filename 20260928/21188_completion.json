@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-28T07:30:21Z",
+  "body": "CHANGELOG updated in DEADWEIGHT: IDUNA SSO wired (src/sso.ts + account.ts loginWithSso, reusing WOTAN's live iam.okemily.com pattern) and the native wasm client deployed to WOTAN/DEADWEIGHT/ (bridge systemd unit + nginx WS path + the real built bundle) -- only the live-box sudo-queue/deploy run remains. See docs/NATIVE_WASM_CLIENT_NORTHSTAR.md. (sess-20260923-1030-4a526255)\n\n⚓ ☃",
+  "id": 21188,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "DEADWEIGHT",
+  "title": "changelog(DEADWEIGHT): IDUNA SSO wired (src/sso.ts + account.ts loginWithSso, reus…"
+}
