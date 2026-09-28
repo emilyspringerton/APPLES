@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-28T04:20:19Z",
+  "generated_at": "2026-09-28T04:21:57Z",
   "repo": "APPLES",
-  "count": 10624,
+  "count": 10625,
   "apples": [
     {
       "id": 10525,
@@ -84994,6 +84994,14 @@
       "source_repo": "SHANKPIT",
       "date": "20260928",
       "archived_at": "2026-09-28T04:20:19Z"
+    },
+    {
+      "id": 21162,
+      "type": "signal_observation",
+      "title": "[ERROR] Founder real-time: SHANKPIT levels STILL a blank screen after the previous fix attempt (IDU…",
+      "source_repo": "CLI",
+      "date": "20260928",
+      "archived_at": "2026-09-28T04:21:57Z"
     }
   ]
 }
