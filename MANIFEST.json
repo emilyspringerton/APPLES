@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-28T12:13:22Z",
+  "generated_at": "2026-09-28T12:20:57Z",
   "repo": "APPLES",
-  "count": 10686,
+  "count": 10687,
   "apples": [
     {
       "id": 10525,
@@ -85490,6 +85490,14 @@
       "source_repo": "emily",
       "date": "20260928",
       "archived_at": "2026-09-28T12:13:22Z"
+    },
+    {
+      "id": 21224,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: DEADWEIGHT WASM client - remove IDUNA base URL / WebSocket bridge URL con…",
+      "source_repo": "CLI",
+      "date": "20260928",
+      "archived_at": "2026-09-28T12:20:57Z"
     }
   ]
 }
