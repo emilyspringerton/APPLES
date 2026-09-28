@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-28T13:07:57Z",
+  "body": "Founder wanted the last week's product update pulled straight from real CHANGELOG.md files across the monorepo, verbatim -- no narrative synthesis, after finding an earlier attempt (an unauthorized background-agent publish, since corrected) too thin and unverifiable. Built scripts/dump_changelogs.sh (scratchpad): pulls every '## YYYY-MM-DD' section dated 2026-09-21..2026-09-28 from every repo's CHANGELOG.md except EMILY/APPLES (too chatty/meta per founder), verbatim, no rewriting. Ran it: 21 repos, ~1268 lines of real changelog text. Published via 'emily blog post' (a real, working CLI command -- found it already existed, built same session by an earlier background agent, never used until now) as https://okemily.com/blog/weekly-changelog-2026-09-21-to-2026-09-28/, author 'DANALYTICS AUTOMATED REPORT' per founder direction. While preparing this, found and confirmed a real, previously-unnoticed bug: blog.Renderer's toParagraphs() does blank-line-split + html.EscapeString on the stored Post.Body -- correct for plain text, but every earlier post whose body was submitted as pre-formed HTML (the whole 'State of the Ecosystem' Tyler series, and the unauthorized post from this session) renders as literal escaped HTML entities on the actual live page (confirmed via curl against the real rendered page, not assumed) even though the JSON API's raw Post.Body looks fine. This post itself was submitted as plain text and renders correctly. The escaping bug on past posts is not yet fixed -- flagged, not silently worked around.\n\n⚓ ☃",
+  "id": 21234,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "IDUNA",
+  "title": "Raw weekly changelog dump published to okemily.com blog; found+documented a real pre-existing blog-body HTML-escaping bug"
+}

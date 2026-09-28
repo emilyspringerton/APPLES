@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-28T13:00:57Z",
+  "generated_at": "2026-09-28T13:07:58Z",
   "repo": "APPLES",
-  "count": 10696,
+  "count": 10697,
   "apples": [
     {
       "id": 10525,
@@ -85570,6 +85570,14 @@
       "source_repo": "CLI",
       "date": "20260928",
       "archived_at": "2026-09-28T13:00:57Z"
+    },
+    {
+      "id": 21234,
+      "type": "completion",
+      "title": "Raw weekly changelog dump published to okemily.com blog; found+documented a real pre-existing blog-body HTML-escaping bug",
+      "source_repo": "IDUNA",
+      "date": "20260928",
+      "archived_at": "2026-09-28T13:07:58Z"
     }
   ]
 }
