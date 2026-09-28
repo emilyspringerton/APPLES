@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-28T02:11:10Z",
+  "generated_at": "2026-09-28T02:11:13Z",
   "repo": "APPLES",
-  "count": 10596,
+  "count": 10597,
   "apples": [
     {
       "id": 10525,
@@ -84770,6 +84770,14 @@
       "source_repo": "MIXFORGE",
       "date": "20260928",
       "archived_at": "2026-09-28T02:11:10Z"
+    },
+    {
+      "id": 21134,
+      "type": "completion",
+      "title": "changelog(MIXFORGE): Added CI for the cookie-exporter Chrome extension (.github/…",
+      "source_repo": "MIXFORGE",
+      "date": "20260928",
+      "archived_at": "2026-09-28T02:11:13Z"
     }
   ]
 }
