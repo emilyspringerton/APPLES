@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-28T02:49:45Z",
+  "body": "bazel test //:dsp_test runs the 49-check DSP kernel + rendered-audio suite hermetically against the checked-in web/dsp.wasm. bazel run //:build-wasm/:room-install/:room-server/:serve-web wrap the real non-hermetic PARENA+LLVM wasm build, npm install, npm start, and the dev web server. Verified live: both bazel test //:dsp_test and bazel run //:build-wasm (full parena-\u003eLLVM-\u003ewasm32-\u003ewasm-ld pipeline, 49/49 checks) actually ran green. Commit 97b8201.\n\n⚓ ☃",
+  "id": 21139,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "MIXFORGE",
+  "title": "Real Bazel build added to MIXFORGE"
+}

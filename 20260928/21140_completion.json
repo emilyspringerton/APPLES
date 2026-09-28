@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-28T02:49:45Z",
+  "body": "CHANGELOG updated in MIXFORGE: Added a real Bazel build (bazel test //:dsp_test hermetic DSP suite; bazel run //:build-wasm/:room-install/:room-server/:serve-web non-hermetic wrappers), matching the MISHRI Bazel precedent. (sess-20260923-1030-4a526255)\n\n⚓ ☃",
+  "id": 21140,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "MIXFORGE",
+  "title": "changelog(MIXFORGE): Added a real Bazel build (bazel test //:dsp_test hermetic D…"
+}
