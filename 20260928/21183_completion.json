@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-28T07:04:01Z",
+  "body": "MainActivity.renderQueue/renderLobby/renderDraft/renderEnd rebuilt on PixelLabel/BrutButton (Phase 1B's own primitives) instead of stock android.widget.*, matching apps/gui/main.c's draw_queue/draw_draft/draw_end content and layout. Verified: javac --release 8 clean against com.google.android:android:4.1.1.4; CoreTest 228/0, ParityTest 24097 vectors/0 failures, FxParityTest 9941 vectors/9968 checks/0 failures, IntegrationTest real match+draft against live dw_server/dw_bot, all run directly (Bazel still unavailable in this sandbox). Named, deferred gaps: no Android Draft Hub screen, no Friends \u0026 Duels screen (both real new features, not reskins). See docs/ANDROID_PARITY_NORTHSTAR.md.\n\n⚓ ☃",
+  "id": 21183,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "DEADWEIGHT",
+  "title": "Android Phase 1C: queue/lobby/draft/match-end screens brutalist parity"
+}
