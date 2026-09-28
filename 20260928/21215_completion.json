@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-28T10:45:03Z",
+  "body": "Split DEADWEIGHT's account_rules.prn (display-name validation) into a region-free scalar module (account_rules_scalar.prn) that can target C+Java+TypeScript, plus the original region-dependent is-valid-display-name (C only, real PARENA emitter gap confirmed on both Java and TS). Added a genuinely new rule (min-password-len/is-valid-password-length) closing a real, found-live duplication: the '8+ characters' password rule was hand-copied identically into apps/gui/main.c, MainActivity.java, and web/src/account.ts with zero shared source. Wired into DEADWEIGHT's C client (core/account_rules.c is now actually linked into dw_gui for the first time -- it was generated in a prior session but never added to the build) and Android's MainActivity.java. Verified: new C test (7 checks), new Java brute-force test (254 checks, added to BUILD.bazel), full existing DEADWEIGHT suite stays green (24097+9941+806k+ checks), real javac --release 8 compile against the Android stub jar.\n\n⚓ ☃",
+  "id": 21215,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "PARENA",
+  "title": "New Java/TS-targetable account_rules_scalar.prn module, fixing an unlinked C account-rules file and a real 3-way hand-duplicated password check"
+}
