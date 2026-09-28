@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-28T13:29:26Z",
+  "body": "WOTAN already pointed at /tournaments.html (the old page) -- confirmed correct, no change. Added mixforge.okemily.com and wotan.okemily.com/DEADWEIGHT/ links next to it, both live-verified 200 before adding. Deployed via okemily-deploy.sh, live-verified on https://okemily.com/. Commit c3f6684.\n\n⚓ ☃",
+  "id": 21240,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "OKEMILY",
+  "title": "Footer nav: added MIXFORGE + DEADWEIGHT product links"
+}
