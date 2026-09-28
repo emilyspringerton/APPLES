@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-28T19:46:21Z",
+  "generated_at": "2026-09-28T19:50:00Z",
   "repo": "APPLES",
-  "count": 10729,
+  "count": 10730,
   "apples": [
     {
       "id": 10525,
@@ -85834,6 +85834,14 @@
       "source_repo": "CLI",
       "date": "20260928",
       "archived_at": "2026-09-28T19:46:21Z"
+    },
+    {
+      "id": 21267,
+      "type": "completion",
+      "title": "Third matchmaking bug: silent auth-timeout close + exhausted signup cap, both fixed",
+      "source_repo": "DEADWEIGHT",
+      "date": "20260928",
+      "archived_at": "2026-09-28T19:50:00Z"
     }
   ]
 }

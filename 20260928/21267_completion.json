@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-28T19:50:00Z",
+  "body": "Founder's queue-btn still failed after the prior fix: greyed-out button, silent 'connection closed' ~10s later, no ERROR code. Root-caused live: (1) IDUNA's 3-signups/IP/24h guest cap was exhausted from repeated founder retries, so bootstrapAccount() kept failing and the client connected with an empty token; (2) the server's HELLO_TIMEOUT_MS(10s) path in expire_timers() called conn_close() directly with no ERROR frame -- silent, on every client. Fixed: expire_timers() now send_error(DW_ERR_AUTH) before closing; main.ts logs bootstrap failures into the visible #log panel. Live-verified against production both ways (tokenless connect -\u003e ERROR code 2 at 10s; real token -\u003e WELCOME-\u003eready-\u003eQUEUED). Server + web client redeployed. Reset the founder's own exhausted signup counters. commit 7c834a2.\n\n⚓ ☃",
+  "id": 21267,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "DEADWEIGHT",
+  "title": "Third matchmaking bug: silent auth-timeout close + exhausted signup cap, both fixed"
+}
