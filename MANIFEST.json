@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-28T04:35:40Z",
+  "generated_at": "2026-09-28T04:40:39Z",
   "repo": "APPLES",
-  "count": 10628,
+  "count": 10629,
   "apples": [
     {
       "id": 10525,
@@ -85026,6 +85026,14 @@
       "source_repo": "IDUNA",
       "date": "20260928",
       "archived_at": "2026-09-28T04:35:40Z"
+    },
+    {
+      "id": 21166,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: get DEADWEIGHT to platform parity with Windows for Android and WASM (new)…",
+      "source_repo": "CLI",
+      "date": "20260928",
+      "archived_at": "2026-09-28T04:40:39Z"
     }
   ]
 }
