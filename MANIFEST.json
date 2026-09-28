@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-28T02:49:45Z",
+  "generated_at": "2026-09-28T02:49:47Z",
   "repo": "APPLES",
-  "count": 10602,
+  "count": 10603,
   "apples": [
     {
       "id": 10525,
@@ -84818,6 +84818,14 @@
       "source_repo": "MIXFORGE",
       "date": "20260928",
       "archived_at": "2026-09-28T02:49:45Z"
+    },
+    {
+      "id": 21140,
+      "type": "completion",
+      "title": "changelog(MIXFORGE): Added a real Bazel build (bazel test //:dsp_test hermetic D…",
+      "source_repo": "MIXFORGE",
+      "date": "20260928",
+      "archived_at": "2026-09-28T02:49:47Z"
     }
   ]
 }
