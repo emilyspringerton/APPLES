@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-28T23:26:46Z",
+  "generated_at": "2026-09-28T23:39:46Z",
   "repo": "APPLES",
-  "count": 10750,
+  "count": 10751,
   "apples": [
     {
       "id": 10525,
@@ -86002,6 +86002,14 @@
       "source_repo": "emily",
       "date": "20260928",
       "archived_at": "2026-09-28T23:26:46Z"
+    },
+    {
+      "id": 21288,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: DEADWEIGHT web client -- (1) use a cookie to persist guest account identi…",
+      "source_repo": "CLI",
+      "date": "20260928",
+      "archived_at": "2026-09-28T23:39:46Z"
     }
   ]
 }
