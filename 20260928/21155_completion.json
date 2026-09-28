@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-28T03:58:42Z",
+  "body": "Founder real-time: 'can we make the coplay stuff actually function in mixforge it doesnt actually work if i open 2 tabs it says connected but the room music doesnt play in tab 2'. Root cause reproduced live (Playwright, 2 tabs against the real production room): (1) a client joining after a track started only ever got inert nowPlaying text, never a real play message, so its handlePlay() never ran (server_room_server.mjs's own Room class header comment had already named this as a deferred limitation); (2) while reproducing it, found a second real bug -- dead WebSocket peers (crashed tab, dropped network) occupied their seat forever with no cleanup, and a stale seat holding currentTurn permanently blocked queuing. Fixed both: server now unicasts a real play message to a joining client when room.nowPlaying is set; client's handlePlay() computes elapsed seconds into the track and seeks there instead of always restarting from 0 (honestly logs and skips if the track already finished); added a standard ws heartbeat (30s prod, configurable for tests) that terminates unresponsive peers, freeing their seat via the existing close handler. New real tests in server/room_server_test.mjs (late-join fix, heartbeat fix), full suite passes. Restarted the live mixforge-room-server.service to ship the fix and clear the accumulated ghost-seat state. Commit 8476481.\n\n⚓ ☃",
+  "id": 21155,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "MIXFORGE",
+  "title": "Fixed co-play: mid-song late-join now actually plays, dead-peer ghost seats now reaped"
+}

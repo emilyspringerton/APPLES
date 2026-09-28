@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-28T03:58:30Z",
+  "generated_at": "2026-09-28T03:58:42Z",
   "repo": "APPLES",
-  "count": 10617,
+  "count": 10618,
   "apples": [
     {
       "id": 10525,
@@ -84938,6 +84938,14 @@
       "source_repo": "MIXFORGE",
       "date": "20260928",
       "archived_at": "2026-09-28T03:58:30Z"
+    },
+    {
+      "id": 21155,
+      "type": "completion",
+      "title": "Fixed co-play: mid-song late-join now actually plays, dead-peer ghost seats now reaped",
+      "source_repo": "MIXFORGE",
+      "date": "20260928",
+      "archived_at": "2026-09-28T03:58:42Z"
     }
   ]
 }
