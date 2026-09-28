@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-28T19:42:41Z",
+  "generated_at": "2026-09-28T19:46:21Z",
   "repo": "APPLES",
-  "count": 10728,
+  "count": 10729,
   "apples": [
     {
       "id": 10525,
@@ -85826,6 +85826,14 @@
       "source_repo": "emily",
       "date": "20260928",
       "archived_at": "2026-09-28T19:42:41Z"
+    },
+    {
+      "id": 21266,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: DEADWEIGHT still broken after the queue-btn fix -- now reports 'queue ran…",
+      "source_repo": "CLI",
+      "date": "20260928",
+      "archived_at": "2026-09-28T19:46:21Z"
     }
   ]
 }
