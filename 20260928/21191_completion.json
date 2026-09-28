@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-28T07:38:06Z",
+  "body": "Ran ~/wotan-deploy.sh for real -- /var/www/wotan is writable by this user directly, no sudo needed. curl https://wotan.okemily.com/DEADWEIGHT/ -\u003e 200, same for dist/main.js and dist/generated/dw_protocol.wasm. Remaining real gap: curl .../DEADWEIGHT/ws -\u003e 404 -- sudo-queue/94-deadweight-wotan-ws-bridge.sh (nginx location + dw-ws-bridge.service) genuinely needs sudo this sandbox doesn't have, so the client can't actually reach a match server yet. Commits: DEADWEIGHT@55f238a, WOTAN@cfe3cf2.\n\n⚓ ☃",
+  "id": 21191,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "WOTAN",
+  "title": "wotan.okemily.com/DEADWEIGHT is genuinely live (static page, verified via curl against the real domain)"
+}

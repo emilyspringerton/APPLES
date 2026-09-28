@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-28T07:30:56Z",
+  "generated_at": "2026-09-28T07:38:06Z",
   "repo": "APPLES",
-  "count": 10653,
+  "count": 10654,
   "apples": [
     {
       "id": 10525,
@@ -85226,6 +85226,14 @@
       "source_repo": "DEADWEIGHT",
       "date": "20260928",
       "archived_at": "2026-09-28T07:30:56Z"
+    },
+    {
+      "id": 21191,
+      "type": "completion",
+      "title": "wotan.okemily.com/DEADWEIGHT is genuinely live (static page, verified via curl against the real domain)",
+      "source_repo": "WOTAN",
+      "date": "20260928",
+      "archived_at": "2026-09-28T07:38:06Z"
     }
   ]
 }
