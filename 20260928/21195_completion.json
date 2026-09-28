@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-28T07:52:41Z",
+  "body": "Founder real-time, mid-DEADWEIGHT-WS-bridge-debug: 'take the shankpit bot queue down to 8' then, after I reported it was already at 8 and flagged REDGARDEN as the bigger memory hog, clarified 'the shankpit bot pool goes down to 4'. Box was at 12.4Gi/15Gi used with swap 100% full, and iduna.service was actively OOM-killed and restart-looping (killed at 07:45:46, restarted, killed again at 07:46:18) as a direct result -- this was blocking the /api/ proxy WOTAN's DEADWEIGHT client depends on for SSO exchange. Edited both the live unit (~/.config/systemd/user/shankpit-bot-pool.service) and the repo copy (SHANKPIT/ops/systemd/shankpit-bot-pool.service), ExecStart bot_count 8-\u003e4, daemon-reload + restart. Verified: exactly 4 frozen_policy_bot.py processes running post-restart, free memory 352Mi-\u003e2.8Gi, swap used 495Mi(full)-\u003e266Mi, iduna.service stable (no further OOM-kills, 3+ min uptime) and https://wotan.okemily.com/api/v1/games/deadweight/decks back to real 200s. Commit SHANKPIT@492be5d.\n\n⚓ ☃",
+  "id": 21195,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "SHANKPIT",
+  "title": "Scale SHANKPIT queue bot pool 8-\u003e4 to relieve box-wide memory pressure"
+}
