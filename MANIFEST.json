@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-28T02:49:47Z",
+  "generated_at": "2026-09-28T02:56:20Z",
   "repo": "APPLES",
-  "count": 10603,
+  "count": 10604,
   "apples": [
     {
       "id": 10525,
@@ -84826,6 +84826,14 @@
       "source_repo": "MIXFORGE",
       "date": "20260928",
       "archived_at": "2026-09-28T02:49:47Z"
+    },
+    {
+      "id": 21141,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: add an 808 to the MPC for mixforge.okemily.com/dj.html slot 6",
+      "source_repo": "CLI",
+      "date": "20260928",
+      "archived_at": "2026-09-28T02:56:20Z"
     }
   ]
 }
