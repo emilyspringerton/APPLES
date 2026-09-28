@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-28T13:27:31Z",
+  "body": "Founder reported 'connect then random doesnt get me into a game' persisting even after the earlier HELLO-truncation auth fix. Root-caused a second, independent bug: web/src/main.ts's queue-btn started enabled and was only disabled after being clicked -- clicking it before the server sent WELCOME (IDUNA token verification is a real network round trip) sent QUEUE while server-side state was still S_NEEDAUTH/S_VERIFYING, triggering DW_ERR_BAD_STATE (code 4), which closes the connection. Reproduced live against the real production dw_server via its own ws-tcp-bridge: queueing ~5ms after connect raced and hit ERROR 4 on 1 of 3 attempts; gating queue() on onState('ready') succeeded 5/5. Fixed by disabling queue-btn at game-screen-show and re-enabling only in the ready-state handler. Rebuilt (tsc clean) and redeployed to /var/www/wotan/DEADWEIGHT/dist/ (live). Commit e4db250.\n\n⚓ ☃",
+  "id": 21237,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "DEADWEIGHT",
+  "title": "Fixed real ERROR-4 matchmaking race (queue-btn enabled before WELCOME)"
+}
