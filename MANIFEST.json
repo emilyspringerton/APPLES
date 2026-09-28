@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-28T03:58:42Z",
+  "generated_at": "2026-09-28T03:59:32Z",
   "repo": "APPLES",
-  "count": 10618,
+  "count": 10619,
   "apples": [
     {
       "id": 10525,
@@ -84946,6 +84946,14 @@
       "source_repo": "MIXFORGE",
       "date": "20260928",
       "archived_at": "2026-09-28T03:58:42Z"
+    },
+    {
+      "id": 21156,
+      "type": "signal_observation",
+      "title": "[ERROR] Founder real-time: SHANKPIT levels page is down, showing just a blank screen -- also asking…",
+      "source_repo": "CLI",
+      "date": "20260928",
+      "archived_at": "2026-09-28T03:59:32Z"
     }
   ]
 }
