@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-28T03:45:03Z",
+  "generated_at": "2026-09-28T03:48:53Z",
   "repo": "APPLES",
-  "count": 10614,
+  "count": 10615,
   "apples": [
     {
       "id": 10525,
@@ -84914,6 +84914,14 @@
       "source_repo": "emily",
       "date": "20260928",
       "archived_at": "2026-09-28T03:45:03Z"
+    },
+    {
+      "id": 21152,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: coplay/room feature in MIXFORGE doesn't actually function -- opening 2 ta…",
+      "source_repo": "CLI",
+      "date": "20260928",
+      "archived_at": "2026-09-28T03:48:53Z"
     }
   ]
 }
