@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-28T22:59:25Z",
+  "body": "Founder real-time bug report: card text missing on the reveal, hull bar not showing on death, asked to check exact Windows behavior and abstract shared logic into PARENA to avoid client desync. Root-caused both against apps/gui/main.c: (1) fx_draw_arena's card-flip drawing called a wasm-only js_draw_card stub (colour box only) -- fixed by moving main.c's card_box() logic into a new shared fx_draw_card_box() in apps/gui/fx.c, compiled into both native SDL2 and wasm, also newly powering a real idle 'LAST ROUND' reveal panel wasm never had at all; (2) DOM hull bars only refreshed on ROUND_START, which never fires again after the round that ends a match -- fixed via a new applyFinalMeters() in onMatchEnd mirroring main.c's own fx_targets(0) at DW_S_MATCH_END. Found and fixed a third bug live verifying the first: the wasm build's hand-written snprintf mis-parsed %.*s into literal '.*s', corrupting card text only on the wasm client -- fixed with a manual bounded copy instead of extending the shim. Also caught and fixed a brief production permissions outage (rsync -a clobbered dist/'s o+rx bits) within a minute of it happening. Verified: full native build.sh --gui green, tsc clean, a direct Node wasm-module test confirming real card text, and two real matches played to completion against the live production bot pool -- both showed correct reveal text and ended with the hull bar correctly at 0/20. Commit: DEADWEIGHT fec3204.\n\n⚓ ☃",
+  "id": 21285,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "DEADWEIGHT",
+  "title": "real card text on round-resolution reveal + hull bar on death, both found live and fixed"
+}
