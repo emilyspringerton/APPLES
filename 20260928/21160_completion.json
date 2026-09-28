@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-28T04:20:17Z",
+  "body": "Founder real-time: 'shankpit levels is down its just a blank screen can we add some ux screenshot testing'. Routed through emily observe first (Apple #21156). Investigated both real candidate surfaces named 'SHANKPIT Levels': the /admin/nock web admin tab and shank_lobby's own native LOBBY_LEVEL_SELECT overlay. Root-caused a real, standing risk (not a specific line-level bug): /admin/nock has no ErrorBoundary, so ANY tab's uncaught render error blanks the WHOLE app -- and the live iduna binary hadn't been rebuilt since 2026-09-27 23:40, predating this session's earlier risky 6-branch abandoned-branch merge sweep (S492 kit feature + robot-registry merge) as well as this session's own later MIXFORGE EDITOR work. Rebuilt from current HEAD (go build/test ./... clean, 40+ packages) and redeployed via systemctl --user restart iduna.service -- health check green. Shipped real, reusable UX screenshot testing per the founder's own follow-up ask: frontend/nock/scripts/ux_screenshot_test.mjs logs in for real through /admin/login using a new dedicated SCREENSHOT-CI admin agent (provisioned via the existing cmd/create-admin-agent tool, same mechanism EDDY/HOUSE/BOOTS already use -- no cookie forging, no bypass), clicks through all 17 real nav tabs against the live production server, screenshots each, fails on any near-empty #root or uncaught page error. Ran live against production just now: all 17 tabs pass, including SHANKPIT Levels (real screenshot shows the level list + 3D viewport). A companion Xvfb-based screenshot test for the native shank_lobby LEVELS overlay shipped in SHANKPIT itself (see that repo's own Apple/changelog). Honest finding: could not reproduce a persistent crash in either surface against current HEAD -- most likely the founder hit the stale/pre-restart binary, or a since-resolved transient state; the new automated tests are the real safety net against a recurrence, not a guess treated as a fix.\n\n⚓ ☃",
+  "id": 21160,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "IDUNA",
+  "title": "SHANKPIT levels blank-screen: investigated, IDUNA binary rebuilt+redeployed, real UX screenshot testing shipped"
+}

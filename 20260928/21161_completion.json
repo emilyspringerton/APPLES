@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-28T04:20:17Z",
+  "body": "Companion to the IDUNA Apple filed the same session. scripts/ux_screenshot_test.sh (make ux-screenshot-test) boots the real shank_lobby binary under headless Xvfb, sends a real synthetic Enter keypress via XTEST (python3-xlib, no xdotool dependency) to open LOBBY_LEVEL_SELECT (the default-selected first tile), screenshots the boot screen and the LEVELS overlay, fails if either is suspiciously close to solid black. Verified live: both pass against the current bin/shank_lobby. Investigated the founder's 'blank screen' report directly against this native client -- could not reproduce; renders correctly. README/CHANGELOG updated.\n\n⚓ ☃",
+  "id": 21161,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "SHANKPIT",
+  "title": "shank_lobby LEVELS overlay: real Xvfb+XTEST screenshot test shipped and passing"
+}

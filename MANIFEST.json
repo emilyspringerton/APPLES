@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-28T04:19:59Z",
+  "generated_at": "2026-09-28T04:20:17Z",
   "repo": "APPLES",
-  "count": 10622,
+  "count": 10623,
   "apples": [
     {
       "id": 10525,
@@ -84978,6 +84978,14 @@
       "source_repo": "SHANKPIT",
       "date": "20260928",
       "archived_at": "2026-09-28T04:19:59Z"
+    },
+    {
+      "id": 21160,
+      "type": "completion",
+      "title": "SHANKPIT levels blank-screen: investigated, IDUNA binary rebuilt+redeployed, real UX screenshot testing shipped",
+      "source_repo": "IDUNA",
+      "date": "20260928",
+      "archived_at": "2026-09-28T04:20:17Z"
     }
   ]
 }
