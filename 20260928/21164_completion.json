@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-28T04:35:24Z",
+  "body": "CHANGELOG updated in IDUNA: REAL root cause found and fixed for 'SHANKPIT levels is down, blank screen': THREE.WebGLRenderer throws uncaught when a browser can't create a WebGL context (founder's own browser had hardware acceleration disabled/sandboxed -- confirmed via their real console error), and /admin/nock has no ErrorBoundary anywhere, so that throw unmounted the ENTIRE app, not just the one tab. Six components construct a WebGLRenderer the same way (ShankpitLevelEditor, ShankpitWidgets, Robots, Animator, AnimationEditor, AnimationViewer) -- all six now guarded via new src/webglSupport.ts (createWebglRenderer wraps construction in try/catch, shows a real readable fallback message instead of crashing). New src/TabErrorBoundary.tsx wraps the whole tab-content switch in App.tsx as real defense-in-depth: any future per-tab crash now only blanks that tab, not the whole app. Live-verified: rebuilt+redeployed iduna.service, reproduced the founder's exact scenario against production with Chromium's --disable-webgl, confirmed SHANKPIT Levels now renders fully (level list + inspectors) with a real fallback message where the 3D view would be, zero uncaught errors, other tabs still usable afterward. ux_screenshot_test.mjs now runs its full 17-tab sweep twice (WebGL on and off) -- the first version of this test used default WebGL-on Chromium and missed this bug entirely, named honestly in NORTHSTAR/README rather than glossed over. 34/34 checks pass. (sess-20260923-1030-4a526255)\n\n⚓ ☃",
+  "id": 21164,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "IDUNA",
+  "title": "changelog(IDUNA): REAL root cause found and fixed for 'SHANKPIT levels is dow…"
+}
