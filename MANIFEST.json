@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-28T01:57:58Z",
+  "generated_at": "2026-09-28T02:11:10Z",
   "repo": "APPLES",
-  "count": 10595,
+  "count": 10596,
   "apples": [
     {
       "id": 10525,
@@ -84762,6 +84762,14 @@
       "source_repo": "emily",
       "date": "20260928",
       "archived_at": "2026-09-28T01:57:58Z"
+    },
+    {
+      "id": 21133,
+      "type": "completion",
+      "title": "Cookie-exporter extension now has real CI: manifest validation, syntax check, tests, and packaging",
+      "source_repo": "MIXFORGE",
+      "date": "20260928",
+      "archived_at": "2026-09-28T02:11:10Z"
     }
   ]
 }
