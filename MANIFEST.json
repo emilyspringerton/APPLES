@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-28T04:46:33Z",
+  "generated_at": "2026-09-28T04:48:08Z",
   "repo": "APPLES",
-  "count": 10631,
+  "count": 10632,
   "apples": [
     {
       "id": 10525,
@@ -85050,6 +85050,14 @@
       "source_repo": "CLI",
       "date": "20260928",
       "archived_at": "2026-09-28T04:46:33Z"
+    },
+    {
+      "id": 21169,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time correction: do not use Emscripten for the DEADWEIGHT WASM client -- founde…",
+      "source_repo": "CLI",
+      "date": "20260928",
+      "archived_at": "2026-09-28T04:48:08Z"
     }
   ]
 }
