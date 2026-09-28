@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-28T12:28:17Z",
+  "body": "Founder real-time (2026-09-28): removed the IDUNA base URL / WebSocket bridge URL text inputs from web/index.html -- single production server, not multi-server, so both endpoints are now hardcoded in web/src/main.ts (resolveIdunaUrl/resolveBridgeUrl), same-origin '/api/' + '/DEADWEIGHT/ws' in prod, localhost:8080/8765 fallback for local dev only. Removed the dev-build subtitle and the 'VS0.5-web, not a shipped client' disclaimer banner -- replaced with the real brand subtitle 'Dark Sector: Hold Battles' per docs/BRAND_STYLE_GUIDE.md. Added on-brand 'elite hacker' atmosphere per that same doc's own named-but-unbuilt motifs (scanline/CRT full-screen post-process, dashed borders for pending friend/duel state, terminal caret) -- deliberately no drop shadows/glows/gradients on chrome, which the brand guide's Do-Not-Do list rules out. Verified: tsc --noEmit clean, full real e2e match (DeadweightClient + wasm codec + real dw_server + real bot, isolated throwaway ports 17980/17765, 6 rounds, 0 failures) proving the client/networking layer is unaffected by the UI change. Root-caused the founder's 'connect then random doesnt get me into a game' report on the live wotan.okemily.com/DEADWEIGHT deploy: confirmed via curl that https://wotan.okemily.com/DEADWEIGHT/ws still 404s -- sudo-queue/95-fix-deadweight-ws-nginx-location.sh (the known fix for 94's rfind-last-brace bug landing the location in the wrong server{} block) remains unapplied, blocked on real sudo not available in this sandbox. This is an infra blocker, not a client bug -- flagged back to the founder to run directly.\n\n⚓ ☃",
+  "id": 21226,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "DEADWEIGHT",
+  "title": "WASM client: production hardening (drop URL config fields, hardcode single-server), root-caused live matchmaking 404"
+}

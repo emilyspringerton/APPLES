@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-28T12:27:33Z",
+  "generated_at": "2026-09-28T12:28:17Z",
   "repo": "APPLES",
-  "count": 10688,
+  "count": 10689,
   "apples": [
     {
       "id": 10525,
@@ -85506,6 +85506,14 @@
       "source_repo": "emily",
       "date": "20260928",
       "archived_at": "2026-09-28T12:27:33Z"
+    },
+    {
+      "id": 21226,
+      "type": "completion",
+      "title": "WASM client: production hardening (drop URL config fields, hardcode single-server), root-caused live matchmaking 404",
+      "source_repo": "DEADWEIGHT",
+      "date": "20260928",
+      "archived_at": "2026-09-28T12:28:17Z"
     }
   ]
 }
