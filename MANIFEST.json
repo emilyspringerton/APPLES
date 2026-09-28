@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-28T07:04:01Z",
+  "generated_at": "2026-09-28T07:04:17Z",
   "repo": "APPLES",
-  "count": 10646,
+  "count": 10647,
   "apples": [
     {
       "id": 10525,
@@ -85170,6 +85170,14 @@
       "source_repo": "DEADWEIGHT",
       "date": "20260928",
       "archived_at": "2026-09-28T07:04:01Z"
+    },
+    {
+      "id": 21184,
+      "type": "completion",
+      "title": "changelog(DEADWEIGHT): feat(android): Phase 1C -- queue/lobby/draft/match-end scre…",
+      "source_repo": "DEADWEIGHT",
+      "date": "20260928",
+      "archived_at": "2026-09-28T07:04:17Z"
     }
   ]
 }
