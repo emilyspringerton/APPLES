@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-28T04:19:17Z",
+  "body": "CHANGELOG updated in IDUNA: Investigated founder-reported 'SHANKPIT levels is down, blank screen' -- root cause: /admin/nock has no ErrorBoundary so any tab's uncaught render error blanks the whole app, and the live iduna binary hadn't been rebuilt since before this session's own risky 6-branch abandoned-branch merge sweep landed. Rebuilt+redeployed the binary from current HEAD (go build/test clean) via systemctl --user restart. Added real UX screenshot testing per the founder's own follow-up ask: frontend/nock/scripts/ux_screenshot_test.mjs logs in for real (new SCREENSHOT-CI admin agent, cmd/create-admin-agent, no cookie bypass), clicks through all 17 real nav tabs against production, screenshots each, fails on any near-empty #root or uncaught page error. Run live just now: all 17 tabs pass, SHANKPIT Levels included, real screenshot proof saved. (sess-20260923-1030-4a526255)\n\n⚓ ☃",
+  "id": 21158,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "IDUNA",
+  "title": "changelog(IDUNA): Investigated founder-reported 'SHANKPIT levels is down, bla…"
+}
