@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-28T10:44:18Z",
+  "generated_at": "2026-09-28T10:44:55Z",
   "repo": "APPLES",
-  "count": 10675,
+  "count": 10676,
   "apples": [
     {
       "id": 10525,
@@ -85402,6 +85402,14 @@
       "source_repo": "DEADWEIGHT",
       "date": "20260928",
       "archived_at": "2026-09-28T10:44:18Z"
+    },
+    {
+      "id": 21213,
+      "type": "completion",
+      "title": "changelog(PARENA): stdlib: split DEADWEIGHT account_rules.prn's scalar half (m…",
+      "source_repo": "PARENA",
+      "date": "20260928",
+      "archived_at": "2026-09-28T10:44:55Z"
     }
   ]
 }

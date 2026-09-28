@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-28T10:44:54Z",
+  "body": "CHANGELOG updated in PARENA: stdlib: split DEADWEIGHT account_rules.prn's scalar half (max-display-name-len, is-control-byte) into new account_rules_scalar.prn, plus a new min-password-len/is-valid-password-length pair -- now targetable to Java and TypeScript, not just C. Confirmed the Java emitter hard-rejects @Region-annotated params the same way the TS emitter already did. (sess-20260923-1030-4a526255)\n\n⚓ ☃",
+  "id": 21213,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "PARENA",
+  "title": "changelog(PARENA): stdlib: split DEADWEIGHT account_rules.prn's scalar half (m…"
+}
