@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-28T10:45:49Z",
+  "body": "Audited android/src/main/java/.../deadweight/ for PARENA-Java integration opportunities. Confirmed PARENA's Java emitter (399 lines, still v0/scalar-defn-only) hasn't gained struct/loop/collection capability since the last audit. Found account_rules.prn was never tried against Java at all (stale 'Android is shelved' comment) -- confirmed it fails the same way on Java as it does on TS (region-annotated String param, a real PARENA compiler gap, not fixed here). Found and fixed a real, live duplication: 'password needs 8+ characters' was hand-copied identically into apps/gui/main.c, MainActivity.java, and web/src/account.ts with zero shared source. Split the region-free scalar half of account_rules.prn into a new account_rules_scalar.prn (PARENA repo) targeting C+Java+TS; wired the new is_valid_password_length()/min_password_len() into both apps/gui/main.c and MainActivity.java (web/src/account.ts intentionally left for a concurrent workstream that owned web/ this session). Also fixed a real, separate bug found along the way: core/account_rules.c was generated back on 2026-09-25 but never actually linked into dw_gui's build -- added to GUI_SRC for the first time. Verified: new C test (7 checks), new Java brute-force test (254 checks), full existing suite green (24097+9941+806k+ checks, GUI e2e), javac --release 8 clean against the real Android stub jar. Checked PixelFont/Theme/BrutButton/DraftModel/MatchModel/GuestAuth for further candidates -- found none with a clean, honest PARENA-Java fit right now, documented why in docs/ANDROID_PARITY_NORTHSTAR.md rather than forcing contrived work.\n\n⚓ ☃",
+  "id": 21216,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "DEADWEIGHT",
+  "title": "Android 'eat more with PARENA' audit: real fix for a hand-duplicated password rule across all 3 clients"
+}

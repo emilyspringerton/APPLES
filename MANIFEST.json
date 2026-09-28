@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-28T10:45:03Z",
+  "generated_at": "2026-09-28T10:45:49Z",
   "repo": "APPLES",
-  "count": 10678,
+  "count": 10679,
   "apples": [
     {
       "id": 10525,
@@ -85426,6 +85426,14 @@
       "source_repo": "PARENA",
       "date": "20260928",
       "archived_at": "2026-09-28T10:45:03Z"
+    },
+    {
+      "id": 21216,
+      "type": "completion",
+      "title": "Android 'eat more with PARENA' audit: real fix for a hand-duplicated password rule across all 3 clients",
+      "source_repo": "DEADWEIGHT",
+      "date": "20260928",
+      "archived_at": "2026-09-28T10:45:49Z"
     }
   ]
 }
