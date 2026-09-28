@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-28T12:59:03Z",
+  "body": "Founder real-time: 'go through git for the last week and write a full product update via changelogs to the IDUNA OKEMILY blog' -\u003e 'in the voice of TYLER' -\u003e 'so dive deep into the backstory of that repo'. Researched TYLER's real established 'State of the Ecosystem' blog series (already live, 2 prior posts) and its recurring cast -- the six original REDGARDEN 'mundane object' heroes (Duck/Unicorn/Ghost/Frog/Tree/Pizza), confirmed real via docs/HEROES_VS0.md and the arena_hero_name() C switch -- plus the format's own defining trait: real, exact, verified numbers underneath the bit, never invented. Read CHANGELOG.md entries dated 2026-09-21..09-28 across SHANKPIT/BIG_O/MIXFORGE/PARENA/DEADWEIGHT_2/WOTAN/REDGARDEN/GoblinFoxDragon/ECOWAR/IDUNA (~1100 lines of real changelog text) to build the actual content: DEADWEIGHT's native-wasm production auth bug (this session's own work), BIG_O's 0-to-real-game week (Decorum/heist mechanics, the Regulators death mechanic, a real 'no werewolf asset exists' boss-design honesty beat), the cross-repo 'minestrone' coincidence (SHANKPIT+BIG_O+GoblinFoxDragon same day) plus GFD's real 'Missing Pants' quest literally wrapping a gear-persistence bugfix in lore, and MIXFORGE's real live co-play bug fixed today. Pulled a FRESH real hero-leaderboard snapshot (GET /api/v1/redgarden/hero-leaderboard) for the closing bit: the Duck and Unicorn are now statistically tied for dead last (33.59% vs 33.56%, a reversal of the prior post's 'Duck climbs off the bottom'), plus a real, live, found bug -- WOTAN's own HERO_NAMES display array is stale and two real heroes (hero_id 28/29, Warrior and Cart) have no name on the public leaderboard page at all. Published via the new emily.cli 'emily blog post' command (built and used for the first time this session) under author 'Tyler', matching the established series' own voice and format exactly. Live at https://okemily.com/blog/state-of-the-ecosystem-a-coin-flip-for-last-place/\n\n⚓ ☃",
+  "id": 21232,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "TYLER",
+  "title": "Published 'State of the Ecosystem: A Coin Flip for Last Place' to the OKEMILY blog"
+}
