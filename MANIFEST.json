@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-28T12:41:58Z",
+  "generated_at": "2026-09-28T12:51:05Z",
   "repo": "APPLES",
-  "count": 10692,
+  "count": 10693,
   "apples": [
     {
       "id": 10525,
@@ -85538,6 +85538,14 @@
       "source_repo": "emily",
       "date": "20260928",
       "archived_at": "2026-09-28T12:41:58Z"
+    },
+    {
+      "id": 21230,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: go through git history for the last week across the monorepo and write a …",
+      "source_repo": "CLI",
+      "date": "20260928",
+      "archived_at": "2026-09-28T12:51:05Z"
     }
   ]
 }
