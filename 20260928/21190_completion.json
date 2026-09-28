@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-28T07:30:56Z",
+  "body": "docs/NATIVE_WASM_CLIENT_NORTHSTAR.md items 3-4 done this session, continuing after the wire-codec/rendering/networking work (DEADWEIGHT@0005609) done by a concurrent session earlier the same session thread. IDUNA SSO: web/src/sso.ts (new) + account.ts's loginWithSso reuse WOTAN/friends.html's live iam.okemily.com redirect + POST /api/v1/games/deadweight/sso-exchange pattern -- verified against the real local IDUNA instance (bad token -\u003e real 401, matching a raw curl to the same endpoint). Hosting: ops/systemd/dw-ws-bridge.service (loopback WS\u003c-\u003eTCP bridge against the live dw_server on :6980, live-verified by hand -- sent a raw WS frame, got a real relayed response) + WOTAN/ops/nginx-wotan.conf's new /DEADWEIGHT/ws location + the actual built client bundle deployed to WOTAN/DEADWEIGHT/ (served locally, every asset path resolved 200, the .wasm fetched over real HTTP and instantiated with 98 exports) + linked from all 7 WOTAN pages' nav. Real, honest remaining gap: sudo-queue/94-deadweight-wotan-ws-bridge.sh and ~/wotan-deploy.sh haven't been run on the live box yet (no passwordless sudo in this sandbox, confirmed) -- wotan.okemily.com/DEADWEIGHT isn't reachable until both run. Commits: DEADWEIGHT@b28b4dc,67aa7aa,9254bd2; WOTAN@a098606,a776842,1459b4d,529bd43.\n\n⚓ ☃",
+  "id": 21190,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "DEADWEIGHT",
+  "title": "Native WASM client: IDUNA SSO + wotan.okemily.com/DEADWEIGHT hosting wired, code-complete"
+}

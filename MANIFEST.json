@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-28T07:30:36Z",
+  "generated_at": "2026-09-28T07:30:56Z",
   "repo": "APPLES",
-  "count": 10652,
+  "count": 10653,
   "apples": [
     {
       "id": 10525,
@@ -85218,6 +85218,14 @@
       "source_repo": "WOTAN",
       "date": "20260928",
       "archived_at": "2026-09-28T07:30:36Z"
+    },
+    {
+      "id": 21190,
+      "type": "completion",
+      "title": "Native WASM client: IDUNA SSO + wotan.okemily.com/DEADWEIGHT hosting wired, code-complete",
+      "source_repo": "DEADWEIGHT",
+      "date": "20260928",
+      "archived_at": "2026-09-28T07:30:56Z"
     }
   ]
 }
