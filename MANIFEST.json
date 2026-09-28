@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-28T03:04:06Z",
+  "generated_at": "2026-09-28T03:04:08Z",
   "repo": "APPLES",
-  "count": 10610,
+  "count": 10611,
   "apples": [
     {
       "id": 10525,
@@ -84882,6 +84882,14 @@
       "source_repo": "IDUNA",
       "date": "20260928",
       "archived_at": "2026-09-28T03:04:06Z"
+    },
+    {
+      "id": 21148,
+      "type": "completion",
+      "title": "New stdlib/video/nle.prn: crossfade/fade/pad-capture DSP for NOCK's MIXFORGE EDITOR",
+      "source_repo": "PARENA",
+      "date": "20260928",
+      "archived_at": "2026-09-28T03:04:08Z"
     }
   ]
 }
