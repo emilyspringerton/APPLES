@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-28T07:04:17Z",
+  "generated_at": "2026-09-28T07:09:03Z",
   "repo": "APPLES",
-  "count": 10647,
+  "count": 10648,
   "apples": [
     {
       "id": 10525,
@@ -85178,6 +85178,14 @@
       "source_repo": "DEADWEIGHT",
       "date": "20260928",
       "archived_at": "2026-09-28T07:04:17Z"
+    },
+    {
+      "id": 21185,
+      "type": "completion",
+      "title": "Native wasm codec wired into the real browser client, live-verified end-to-end",
+      "source_repo": "DEADWEIGHT",
+      "date": "20260928",
+      "archived_at": "2026-09-28T07:09:03Z"
     }
   ]
 }

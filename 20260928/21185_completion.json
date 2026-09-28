@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-28T07:09:02Z",
+  "body": "web/src/wasmProto.ts is a drop-in, wasm-backed replacement for proto.ts (identical exported functions/types) -- web/src/client.ts now imports it instead of the original hand-written TS codec, and main.ts's start() awaits wasmProto.initWasmProto() before connecting. Verified two ways: (1) web/bridge/test_wasm_proto_parity.mjs -- 14 checks proving wasmProto.ts produces byte-identical wire output to proto.ts and decodes back to identical objects; (2) the existing real end-to-end harness (web/bridge/e2e_test.mjs, previously proven against the old codec) re-run against the new one: a complete real match, 7 rounds, against a live dw_bot/dw_server over the real WS-TCP bridge, 0 failures, using the exact compiled dist/client.js/dist/wasmProto.js a browser would load. proto.ts is kept as the parity test's independent oracle, not deleted. Full account: docs/NATIVE_WASM_CLIENT_NORTHSTAR.md.\n\n⚓ ☃",
+  "id": 21185,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "DEADWEIGHT",
+  "title": "Native wasm codec wired into the real browser client, live-verified end-to-end"
+}
