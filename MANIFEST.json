@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-28T04:35:24Z",
+  "generated_at": "2026-09-28T04:35:40Z",
   "repo": "APPLES",
-  "count": 10627,
+  "count": 10628,
   "apples": [
     {
       "id": 10525,
@@ -85018,6 +85018,14 @@
       "source_repo": "IDUNA",
       "date": "20260928",
       "archived_at": "2026-09-28T04:35:24Z"
+    },
+    {
+      "id": 21165,
+      "type": "completion",
+      "title": "REAL fix: THREE.WebGLRenderer crash was the actual 'SHANKPIT levels blank screen' cause",
+      "source_repo": "IDUNA",
+      "date": "20260928",
+      "archived_at": "2026-09-28T04:35:40Z"
     }
   ]
 }

@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-28T04:35:40Z",
+  "body": "Founder confirmed the previous fix attempt didn't resolve it ('shankpit levels still a blank screen' / 'it doesnt work for me still'). Asked for their real browser console output -- got the actual root cause immediately: 'Uncaught Error: THREE.WebGLRenderer: Error creating WebGL context' (BindToCurrentSequence failed, Sandboxed=yes) -- their browser can't create a WebGL context (hardware acceleration disabled or sandboxed). /admin/nock has no ErrorBoundary anywhere, so that uncaught throw propagated through React's own commit phase and unmounted the ENTIRE app. Reproduced for real: launched Chromium with --disable-webgl against production, #root went from ~3500 chars to 0 with an uncaught page error -- genuinely blank, exactly as reported. Six components construct a WebGLRenderer the same way (ShankpitLevelEditor, ShankpitWidgets, Robots, Animator, AnimationEditor, AnimationViewer). Fixed with two real layers: (1) new src/webglSupport.ts wraps construction in try/catch across all six sites, showing a readable fallback message instead of crashing; (2) new src/TabErrorBoundary.tsx wraps the tab-content switch in App.tsx as real defense-in-depth, so any future per-tab crash only blanks that tab. Rebuilt+redeployed iduna.service, then reproduced the exact founder scenario against production with WebGL disabled and confirmed the fix: SHANKPIT Levels now renders fully (level list, inspectors, cube list) with a clear 'This 3D view needs WebGL...' message where the viewport would be, zero uncaught errors, other tabs still work afterward. Updated ux_screenshot_test.mjs to run its full 17-tab sweep twice -- WebGL on and off -- since the WebGL-on-only original version never would have caught this; 34/34 checks pass now. Commit e7d70be.\n\n⚓ ☃",
+  "id": 21165,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "IDUNA",
+  "title": "REAL fix: THREE.WebGLRenderer crash was the actual 'SHANKPIT levels blank screen' cause"
+}
