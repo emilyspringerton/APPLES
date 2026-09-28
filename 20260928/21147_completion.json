@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-28T03:04:06Z",
+  "body": "NOCK's video editor (renamed 'MIXFORGE EDITOR' per founder branding direction) is now PARENA-wasm powered: PARENA/stdlib/video/nle.prn compiles to frontend/nock/src/video/nle.wasm via MIXFORGE's own build pipeline, and video/nleEngine.ts + video/waveform.ts are direct ports of MIXFORGE/web/engine.mjs + waveform.mjs (the literal 'shares components with MIXFORGE' ask). Real non-linear editing: Segment gained TransitionMS/FadeInMS/FadeOutMS, validated+clamped in internal/nock/video_store.go, computed identically in a live client-side preview (TimelinePreview.tsx) and the server ffmpeg render (new xfade/acrossfade/fade filter path, renderWithTransitions). New MPC pad-capture panel in ClipViewer pulls clips live off a playing stream (quick-grab + press-and-hold), a third acquisition path alongside upload and manual mark-in/mark-out. go build/vet/test clean (3 new tests, 2 ffmpeg-gated and honestly skipped in this sandbox), tsc -b \u0026\u0026 vite build clean, 14/14 nle.wasm kernel checks pass. Commit 5579ad4.\n\n⚓ ☃",
+  "id": 21147,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "IDUNA",
+  "title": "MIXFORGE EDITOR: PARENA-wasm non-linear video editing + MPC clip capture in NOCK"
+}
