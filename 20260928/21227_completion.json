@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-28T12:39:10Z",
+  "body": "Root cause of the founder's live 'connect then random doesnt get me into a game' report on wotan.okemily.com/DEADWEIGHT. HELLO's inline token field is capped at 200 bytes but a real IDUNA ES256 JWT is ~400-500 bytes; client.ts stuffed the full token into HELLO anyway, silently truncating it to garbage, and the real production dw_server (IDUNA auth required) correctly rejected it with ERROR 2 before ever sending WELCOME. Every prior verification pass in this repo's history used a --no-auth throwaway server, which is why this never surfaced until testing directly against the real live box this session. Fix: added encodeAuth() to both proto.ts and wasmProto.ts (the wire protocol's own AUTH 0x06 message, up to 900 bytes, already implemented server-side and even in apps/wasm/protocol_wasm.c's exports but never wired up in TypeScript) and changed client.ts to send HELLO token-less then AUTH separately. Verified against real production: minted a real guest JWT via the live IDUNA guest-register endpoint, connected straight to wss://wotan.okemily.com/DEADWEIGHT/ws, got WELCOME(authRequired=true) -\u003e AUTH -\u003e QUEUED -\u003e real MATCH_FOUND against a live bot from the production bot pool. DEADWEIGHT@b6c334c.\n\n⚓ ☃",
+  "id": 21227,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "DEADWEIGHT",
+  "title": "Fixed real production matchmaking bug: HELLO silently truncated the real IDUNA auth token"
+}

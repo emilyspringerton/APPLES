@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-28T12:28:17Z",
+  "generated_at": "2026-09-28T12:39:10Z",
   "repo": "APPLES",
-  "count": 10689,
+  "count": 10690,
   "apples": [
     {
       "id": 10525,
@@ -85514,6 +85514,14 @@
       "source_repo": "DEADWEIGHT",
       "date": "20260928",
       "archived_at": "2026-09-28T12:28:17Z"
+    },
+    {
+      "id": 21227,
+      "type": "completion",
+      "title": "Fixed real production matchmaking bug: HELLO silently truncated the real IDUNA auth token",
+      "source_repo": "DEADWEIGHT",
+      "date": "20260928",
+      "archived_at": "2026-09-28T12:39:10Z"
     }
   ]
 }
