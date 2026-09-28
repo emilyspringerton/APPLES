@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-28T22:12:15Z",
+  "generated_at": "2026-09-28T22:23:02Z",
   "repo": "APPLES",
-  "count": 10743,
+  "count": 10744,
   "apples": [
     {
       "id": 10525,
@@ -85946,6 +85946,14 @@
       "source_repo": "emily",
       "date": "20260928",
       "archived_at": "2026-09-28T22:12:15Z"
+    },
+    {
+      "id": 21281,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: DEADWEIGHT web client bug -- card text doesn't show when card is revealed…",
+      "source_repo": "CLI",
+      "date": "20260928",
+      "archived_at": "2026-09-28T22:23:02Z"
     }
   ]
 }
