@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-28T10:35:54Z",
+  "generated_at": "2026-09-28T10:35:56Z",
   "repo": "APPLES",
-  "count": 10672,
+  "count": 10673,
   "apples": [
     {
       "id": 10525,
@@ -85378,6 +85378,14 @@
       "source_repo": "CLI",
       "date": "20260928",
       "archived_at": "2026-09-28T10:35:54Z"
+    },
+    {
+      "id": 21210,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: continue ensuring DEADWEIGHT is pixel-for-pixel parity with the Windows c…",
+      "source_repo": "CLI",
+      "date": "20260928",
+      "archived_at": "2026-09-28T10:35:56Z"
     }
   ]
 }
