@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-28T07:30:21Z",
+  "generated_at": "2026-09-28T07:30:36Z",
   "repo": "APPLES",
-  "count": 10651,
+  "count": 10652,
   "apples": [
     {
       "id": 10525,
@@ -85210,6 +85210,14 @@
       "source_repo": "DEADWEIGHT",
       "date": "20260928",
       "archived_at": "2026-09-28T07:30:21Z"
+    },
+    {
+      "id": 21189,
+      "type": "completion",
+      "title": "changelog(WOTAN): Real DEADWEIGHT game client deployed under /DEADWEIGHT/ (pl…",
+      "source_repo": "WOTAN",
+      "date": "20260928",
+      "archived_at": "2026-09-28T07:30:36Z"
     }
   ]
 }
