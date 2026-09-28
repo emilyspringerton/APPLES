@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-28T07:58:17Z",
+  "body": "sudo-queue/94-deadweight-wotan-ws-bridge.sh was run for real -- dw-ws-bridge.service confirmed installed/running/correctly proxying to dw_server on :6980 -- but https://wotan.okemily.com/DEADWEIGHT/ws still 404'd. Investigated rather than assumed-fine: found the nginx-edit step in 94 anchored its location-block insertion on content.rstrip().rfind('}') (last closing brace in the whole file), which lands inside certbot's own appended port-80-redirect server block instead of the real HTTPS-serving one -- a bare server-level return 301 there swallows every request before any location inside it is reached. Diagnosed purely from behavioral evidence (http 301 vs https 404, dw-ws-bridge's own independent health check, nginx ExecReload success + journal timestamps) since the live vhost file is root:root mode 640 and unreadable without sudo this sandbox doesn't have. Wrote and unit-tested sudo-queue/95-fix-deadweight-ws-nginx-location.sh: idempotent, brace-counting removal of any existing (possibly misplaced) /DEADWEIGHT/ws block plus re-insertion anchored to the already-live-since-2026-09-04 /api/ location's own matching closing brace instead of a whole-file rfind. Verified against a synthetic fixture reproducing the exact suspected live layout (main HTTPS block + certbot redirect block, misplaced location in the redirect block) -- confirmed correct relocation and idempotency (second run = no-op diff). Updated DEADWEIGHT/docs/NATIVE_WASM_CLIENT_NORTHSTAR.md, DEADWEIGHT/README.md, WOTAN/README.md, WOTAN/CLAUDE.md to reflect the diagnosis and the queued fix. Commits: DEADWEIGHT@81363a2, WOTAN@2c72141. Script 95 itself still needs the same real sudo this sandbox doesn't have -- queued for the founder/an operator.\n\n⚓ ☃",
+  "id": 21196,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "DEADWEIGHT",
+  "title": "Diagnosed + fixed the real /DEADWEIGHT/ws 404 after sudo-queue/94 ran"
+}
