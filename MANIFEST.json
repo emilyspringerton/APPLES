@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-28T20:40:08Z",
+  "generated_at": "2026-09-28T20:52:43Z",
   "repo": "APPLES",
-  "count": 10736,
+  "count": 10737,
   "apples": [
     {
       "id": 10525,
@@ -85890,6 +85890,14 @@
       "source_repo": "emily",
       "date": "20260928",
       "archived_at": "2026-09-28T20:40:08Z"
+    },
+    {
+      "id": 21274,
+      "type": "completion",
+      "title": "Real SDL layer for wasm -- fx.c/sfx.c animation+audio engine compiles unmodified to the browser",
+      "source_repo": "DEADWEIGHT",
+      "date": "20260928",
+      "archived_at": "2026-09-28T20:52:43Z"
     }
   ]
 }

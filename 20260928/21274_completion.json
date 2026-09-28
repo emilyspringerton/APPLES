@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-28T20:52:43Z",
+  "body": "Founder real-time: 'write an sdl layer for wasm for when we dont have SDL abstract our shit so we can use PARENA to write the same exact logic.' apps/gui/fx.c + apps/gui/sfx.c now compile completely unmodified to dw_fx.wasm (scripts/build_wasm_fx.sh, native wasm32-unknown-unknown, no Emscripten). apps/wasm/fx/SDL.h is the real SDL layer -- fx.c's whole SDL footprint is 5 draw primitives, implemented as wasm imports web/src/fxWasm.ts fills via Canvas2D; Windows fills the identical 5 via real SDL2. Audio pulls PCM from sfx.c's own pre-existing offline-render API into Web Audio. Also closed the energy-delta/status honest gap (deferred-round pattern ported from apps/gui/main.c's fx_finish_round). Live-verified in real headless Chrome against production (real match, real ROUND_RESULT, real canvas pixels, zero console errors) + a Node-level module test (130k+ real SDL draw calls, real audio). Native build/test suite untouched, still green. Deployed to wotan.okemily.com/DEADWEIGHT/. commit 1b1298c.\n\n⚓ ☃",
+  "id": 21274,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "DEADWEIGHT",
+  "title": "Real SDL layer for wasm -- fx.c/sfx.c animation+audio engine compiles unmodified to the browser"
+}
