@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-29T13:11:52Z",
+  "generated_at": "2026-09-29T13:14:31Z",
   "repo": "APPLES",
-  "count": 10840,
+  "count": 10841,
   "apples": [
     {
       "id": 10525,
@@ -86722,6 +86722,14 @@
       "source_repo": "CLI",
       "date": "20260929",
       "archived_at": "2026-09-29T13:11:52Z"
+    },
+    {
+      "id": 21378,
+      "type": "completion",
+      "title": "Relaxed per-IP daily guest-signup cap 3 -\u003e 10 (DEADWEIGHT testing unblock)",
+      "source_repo": "IDUNA",
+      "date": "20260929",
+      "archived_at": "2026-09-29T13:14:31Z"
     }
   ]
 }
