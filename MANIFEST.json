@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-29T10:10:45Z",
+  "generated_at": "2026-09-29T10:19:49Z",
   "repo": "APPLES",
-  "count": 10824,
+  "count": 10825,
   "apples": [
     {
       "id": 10525,
@@ -86594,6 +86594,14 @@
       "source_repo": "emily",
       "date": "20260929",
       "archived_at": "2026-09-29T10:10:45Z"
+    },
+    {
+      "id": 21362,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: reports possible damage-calculation bug in DEADWEIGHT card match (played …",
+      "source_repo": "CLI",
+      "date": "20260929",
+      "archived_at": "2026-09-29T10:19:49Z"
     }
   ]
 }
