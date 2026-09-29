@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-29T01:03:30Z",
+  "body": "New internal/games.Registry[\"mixforge\"] row (mixforge.play, RecordingsEnabled) and 3 new GameOnlineHandler routes (POST/GET recordings, GET recordings/{id}) reusing the existing /api/v1/games/{game}/... machinery -- BLOB-in-SQLite storage (mixforge_recordings, mirrors nock_sounds' own precedent for MediaRecorder audio). No new guest-account bootstrap needed: ssoExchange already claims a first-touch, unscoped IDUNA identity for whichever game calls it first. SSO_ALLOWED_REDIRECT_HOSTS gained mixforge.okemily.com/iam.okemily.com. 4 new handler tests, full go test ./... clean. Live-verified against production post-restart: guest-register -\u003e save -\u003e list -\u003e row confirmed in var/iduna.db via real curl calls. IDUNA@a372fb0.\n\n⚓ ☃",
+  "id": 21300,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "IDUNA",
+  "title": "MIXFORGE player identity + recorded-mix storage (S513)"
+}
