@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-29T08:04:59Z",
+  "body": "Founder caught a real mistake mid-build (relay was Node.js) and corrected it through several real-time messages ending in 'we eat that tech debt' -- server/relay.js deleted entirely. build/edge_relay is now a real, native binary linking genuine PARENA-compiled object code (reflux.prn's REFLUX event log + a new tcp_llvm.prn raw-socket module) through PARENA's new LLVM FFI hatch, plus a thin hand-written C host (server/relay_main.c) for select()/NDJSON. Both cabinet and operator ports now speak plain TCP+NDJSON (HTTP API dropped). New buffered+live-streaming events channel directly answers 'i need you to be able to tell me if the pi booted' -- pi/boot_announce.sh live-verified against the real relay binary. make test-e2e: 12/12 checks pass. Commit f54b68d (local-only repo, no remote configured yet).\n\n⚓ ☃",
+  "id": 21350,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "EDGE.GAME",
+  "title": "Relay rewritten in native PARENA+C -- Node.js removed, REFLUX events channel added"
+}

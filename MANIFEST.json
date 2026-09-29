@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-29T08:04:56Z",
+  "generated_at": "2026-09-29T08:04:59Z",
   "repo": "APPLES",
-  "count": 10812,
+  "count": 10813,
   "apples": [
     {
       "id": 10525,
@@ -86498,6 +86498,14 @@
       "source_repo": "PARENA",
       "date": "20260929",
       "archived_at": "2026-09-29T08:04:56Z"
+    },
+    {
+      "id": 21350,
+      "type": "completion",
+      "title": "Relay rewritten in native PARENA+C -- Node.js removed, REFLUX events channel added",
+      "source_repo": "EDGE.GAME",
+      "date": "20260929",
+      "archived_at": "2026-09-29T08:04:59Z"
     }
   ]
 }
