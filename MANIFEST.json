@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-29T05:09:00Z",
+  "generated_at": "2026-09-29T05:12:37Z",
   "repo": "APPLES",
-  "count": 10792,
+  "count": 10793,
   "apples": [
     {
       "id": 10525,
@@ -86338,6 +86338,14 @@
       "source_repo": "emily",
       "date": "20260929",
       "archived_at": "2026-09-29T05:09:00Z"
+    },
+    {
+      "id": 21330,
+      "type": "completion",
+      "title": "Phase 1 wire protocol -- real client/server, verified end to end (S584)",
+      "source_repo": "EDGE.GAME",
+      "date": "20260929",
+      "archived_at": "2026-09-29T05:12:37Z"
     }
   ]
 }
