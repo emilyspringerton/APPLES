@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-29T01:48:07Z",
+  "body": "Real Content-Type bug found via a live Playwright run against production right after the founder deployed the nginx proxy: MediaRecorder's real mimeType includes codec params (audio/webm;codecs=opus), which never matched the server's bare-type allowlist -- every real recording was rejected. Fixed with mime.ParseMediaType for the allowlist/extension check while still storing the original header for accurate later playback. New regression test with the exact real Content-Type. Rebuilt + restarted iduna.service, re-ran the same Playwright script end to end against production: record -\u003e sign in via popup -\u003e save -\u003e appears in my mixes with a working download. IDUNA@acba484.\n\n⚓ ☃",
+  "id": 21305,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "IDUNA",
+  "title": "MIXFORGE recordings: fixed Content-Type mismatch, verified live end-to-end (S513)"
+}

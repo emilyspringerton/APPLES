@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-29T01:40:44Z",
+  "generated_at": "2026-09-29T01:48:07Z",
   "repo": "APPLES",
-  "count": 10767,
+  "count": 10768,
   "apples": [
     {
       "id": 10525,
@@ -86138,6 +86138,14 @@
       "source_repo": "emily",
       "date": "20260929",
       "archived_at": "2026-09-29T01:40:44Z"
+    },
+    {
+      "id": 21305,
+      "type": "completion",
+      "title": "MIXFORGE recordings: fixed Content-Type mismatch, verified live end-to-end (S513)",
+      "source_repo": "IDUNA",
+      "date": "20260929",
+      "archived_at": "2026-09-29T01:48:07Z"
     }
   ]
 }
