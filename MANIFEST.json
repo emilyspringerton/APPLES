@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-29T14:42:28Z",
+  "generated_at": "2026-09-29T14:46:42Z",
   "repo": "APPLES",
-  "count": 10848,
+  "count": 10849,
   "apples": [
     {
       "id": 10525,
@@ -86786,6 +86786,14 @@
       "source_repo": "emily",
       "date": "20260929",
       "archived_at": "2026-09-29T14:42:28Z"
+    },
+    {
+      "id": 21386,
+      "type": "completion",
+      "title": "Fixed SSO email-doxxing default display name + added choose-your-username; fixed a real SSO-flow wasm-init bug in DEADWEIGHT web client",
+      "source_repo": "IDUNA",
+      "date": "20260929",
+      "archived_at": "2026-09-29T14:46:42Z"
     }
   ]
 }

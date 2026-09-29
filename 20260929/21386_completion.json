@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-29T14:46:42Z",
+  "body": "IDUNA@093496a, DEADWEIGHT@37e8c55, WOTAN@f2b82d3. Root cause: IDUNA's player_email_auth.go defaulted display_name to the email local part whenever a caller (like the unified SSO login page) left it blank, permanently exposing it as a public leaderboard/profile name -- fixed to a lore-friendly generated name, remediated 3 real already-exposed live rows including the founder's own account. Added POST /api/v1/games/{game}/set-display-name so players can actually rename themselves (wired into DEADWEIGHT's web client as a new 'Change username' control). Also found and fixed the real cause of 'after the first sso redirect it didnt work i had to reload': enterGame() in web/src/main.ts never awaited initWasmProto() on the SSO-return/create-account paths, only on the guest-Connect path -- made initWasmProto idempotent and called unconditionally inside enterGame(). Also fixed a genuine gap missed in the prior signup-cap-relaxation pass: a test still hardcoded the old cap of 3 in its real assertions. All builds/tests green, live-verified end to end, WOTAN redeployed and byte-diffed against production.\n\n⚓ ☃",
+  "id": 21386,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "IDUNA",
+  "title": "Fixed SSO email-doxxing default display name + added choose-your-username; fixed a real SSO-flow wasm-init bug in DEADWEIGHT web client"
+}
