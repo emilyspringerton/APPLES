@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-29T10:40:52Z",
+  "generated_at": "2026-09-29T10:47:28Z",
   "repo": "APPLES",
-  "count": 10828,
+  "count": 10829,
   "apples": [
     {
       "id": 10525,
@@ -86626,6 +86626,14 @@
       "source_repo": "emily",
       "date": "20260929",
       "archived_at": "2026-09-29T10:40:52Z"
+    },
+    {
+      "id": 21366,
+      "type": "completion",
+      "title": "Match-end VICTORY/DEFEAT banner, rings badge, explosion/victory SFX; fixed stale WOTAN deploy",
+      "source_repo": "DEADWEIGHT",
+      "date": "20260929",
+      "archived_at": "2026-09-29T10:47:28Z"
     }
   ]
 }

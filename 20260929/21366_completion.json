@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-29T10:47:28Z",
+  "body": "Root-caused a reported 'no damage' match log as correct armor-soak behavior (not a bug), then added per-both-player armor/energy/credits to the round-start log line so this is legible without investigation. Added apps/gui/sfx.c SFX_EXPLOSION/SFX_VICTORY cues wired into the existing fx_match_end() particle burst, a prominent web #end-banner (VICTORY/DEFEAT/DRAW) matching the desktop client's S_END screen, and a rings badge (= IDUNA game_player_stats.wins, reused via the existing public stats endpoint) next to the UTC clock. Found and fixed a real deployment process bug along the way: WOTAN/DEADWEIGHT's checked-in dist/ had drifted behind DEADWEIGHT's own source by several already-shipped features because wotan-deploy.sh's --delete rsync silently reverts any ad hoc direct-to-/var/www deploy on its next run. Redeployed properly through the WOTAN checkout (WOTAN@2597ce5) and verified live via byte-for-byte diff against the local build. DEADWEIGHT@49f5d29.\n\n⚓ ☃",
+  "id": 21366,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "DEADWEIGHT",
+  "title": "Match-end VICTORY/DEFEAT banner, rings badge, explosion/victory SFX; fixed stale WOTAN deploy"
+}
