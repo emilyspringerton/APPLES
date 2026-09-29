@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-29T07:10:13Z",
+  "body": "Added #target {:java (inline-java ...)} to src/emit_java.c (previously had zero FFI of any kind), mirroring the C emitter's own :c hatch. First consumer: stdlib/hw/usb_serial.prn, verified end-to-end via a real parena build + javac round trip against a hand-written stub (no Android SDK in this sandbox). 43/43 emit_java tests pass. Commit PARENA@6e2cba0.\n\n⚓ ☃",
+  "id": 21342,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "PARENA",
+  "title": "New Java emitter FFI hatch + hw/usb_serial.prn for EDGE.GAME"
+}
