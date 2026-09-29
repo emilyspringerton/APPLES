@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-29T08:04:56Z",
+  "body": "Real, new PARENA compiler capability: src/emit_llvm.c gets its first FFI mechanism (#target {:llvm (inline-llvm \"...\")} + top-level llvm-extern declarations), closing a real, confirmed zero-FFI gap. Live-verified end to end: parena build -\u003e real llc -mtriple=x86_64-pc-linux-gnu -\u003e linked via clang -\u003e executed, correct result. stdlib/reflux/reflux.prn (:llvm key added) and new stdlib/net/tcp_llvm.prn (raw tcp-listen/accept/close) both compile and link into EDGE.GAME's own new build/edge_relay binary. 19 new tests (71/71 in test_emit_llvm.c), make test 347/347 zero regressions. Commit 8db24cf.\n\n⚓ ☃",
+  "id": 21349,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "PARENA",
+  "title": "LLVM :llvm FFI hatch + llvm-extern -- reflux.prn and tcp_llvm.prn ported"
+}
