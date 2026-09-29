@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-29T04:45:46Z",
+  "body": "Real, named avrdude profiles for 3 real boards (Uno/new-Nano, old-bootloader Nano, Feather 32u4 -- confirmed via avrdude -c/-p listings, not assumed). New tools/avr_touch_reset.py (real 1200-baud touch reset, verified against a real pty) for the 32u4's Caterina bootloader. Caught and fixed a real bug before shipping: reusing blink_main.c unmodified for the Feather would have toggled the wrong pin (PB5 vs the 32u4's real PC7) at the wrong speed (16MHz vs 8MHz) -- confirmed via avr-objdump disassembly. Fixed the editor's own Upload button: it always flashed the hardcoded blink.prn regardless of the open file -- new AVR_PRN_SOURCE Makefile variable + compile_and_upload_avr now passes the real open file through (shell-quoted, unit-tested). Found and named EDITOR.GAME's own copy of this bug is worse (no avr-* Makefile targets at all). editor-demo-smoke still boots clean, -Wall -Wextra -pedantic -Werror throughout. Commit e42c40a.\n\n⚓ ☃",
+  "id": 21327,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "PARENA",
+  "title": "AVR multi-board profiles + Upload-button fix for EDGE.GAME (S584)"
+}
