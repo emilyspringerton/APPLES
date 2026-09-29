@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-29T00:06:03Z",
+  "body": "Founder report: died to a Defense-vs-Defense mirror that should deal 0 damage. Root cause: PARENA/stdlib/deadweight/card_rules.prn's fx-cond-ok condition 01 ('landed') was 'dealt \u003e 0', which Operations-mirror jam damage (half power, a documented intentional mechanic) also satisfies -- so Logic Bomb (Sabotage, 'if it lands opp burns 3 for 2 rounds') incorrectly applied its burn DOT off a same-kind Operations mirror two rounds before the fatal round, which then silently killed the player on an unrelated, genuinely-0-damage Defense mirror. Confirmed Windows has zero independent resolution logic (apps/gui/main.c does not link core/match.c) -- dw_server is the sole authoritative engine, so this was never a client-desync bug. Fixed 'landed' to require an actual triangle win (kind-beats) or an unopposed hit, excluding all same-kind mirrors, per founder direction (recommended fix, confirmed). Full test suite green (24681+4092+336148+821741+38710 checks, 0 failures) after regen; redeployed dw_server live.\n\n⚓ ☃",
+  "id": 21291,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "DEADWEIGHT",
+  "title": "fix: Sabotage/keyword 'if it lands' incorrectly fired on same-kind mirror jam damage"
+}

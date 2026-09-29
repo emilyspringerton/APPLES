@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-28T23:56:03Z",
+  "generated_at": "2026-09-29T00:06:03Z",
   "repo": "APPLES",
-  "count": 10753,
+  "count": 10754,
   "apples": [
     {
       "id": 10525,
@@ -86026,6 +86026,14 @@
       "source_repo": "emily",
       "date": "20260928",
       "archived_at": "2026-09-28T23:56:03Z"
+    },
+    {
+      "id": 21291,
+      "type": "completion",
+      "title": "fix: Sabotage/keyword 'if it lands' incorrectly fired on same-kind mirror jam damage",
+      "source_repo": "DEADWEIGHT",
+      "date": "20260929",
+      "archived_at": "2026-09-29T00:06:03Z"
     }
   ]
 }
