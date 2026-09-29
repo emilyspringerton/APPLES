@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-29T05:12:37Z",
+  "generated_at": "2026-09-29T05:24:08Z",
   "repo": "APPLES",
-  "count": 10793,
+  "count": 10794,
   "apples": [
     {
       "id": 10525,
@@ -86346,6 +86346,14 @@
       "source_repo": "EDGE.GAME",
       "date": "20260929",
       "archived_at": "2026-09-29T05:12:37Z"
+    },
+    {
+      "id": 21331,
+      "type": "audit",
+      "title": "Cycle 14447 — idle (no queued tasks)",
+      "source_repo": "emily",
+      "date": "20260929",
+      "archived_at": "2026-09-29T05:24:08Z"
     }
   ]
 }
