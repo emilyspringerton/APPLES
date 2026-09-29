@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-29T00:22:00Z",
+  "body": "Batched founder real-time asks: cookie-based guest identity (web/src/account.ts), fixed a real bug where the web client hardcoded the name fallback to 'Runner' bypassing IDUNA's random-name generator (now matches Windows exactly, live-verified assigning 'Cipher-G8KA'), a visible burn/regen status log line (previously silent, was the real reason the S581 blue-vs-blue death was untraceable from the log), a shared fx_match_end() win/loss particle burst + bounded screen tint in apps/gui/fx.c reused by both native and web, a futuristic tablet-readout skin on fx_draw_card_box (bezel/glow frame/HUD corners/scanlines/sheen), green Connect / gold IDUNA buttons, and a round timer + live UTC clock the web client was missing entirely. Full native suite green; wasm smoke-tested for both win/loss with no trap; live Playwright verified blank name field + real assigned name + cookie persistence before hitting IDUNA's own daily guest-signup cap. Deployed to wotan.okemily.com/DEADWEIGHT/. Deferred: ticket platform split (20/25) needs new IDUNA schema; full core/match.c -\u003e PARENA port is separate, large work.\n\n⚓ ☃",
+  "id": 21293,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "DEADWEIGHT",
+  "title": "feat: cookie identity, real random names, status log, victory/defeat FX, round timer + UTC clock, tablet card skin"
+}
