@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-29T00:40:14Z",
+  "generated_at": "2026-09-29T00:44:29Z",
   "repo": "APPLES",
-  "count": 10760,
+  "count": 10761,
   "apples": [
     {
       "id": 10525,
@@ -86082,6 +86082,14 @@
       "source_repo": "emily",
       "date": "20260929",
       "archived_at": "2026-09-29T00:40:14Z"
+    },
+    {
+      "id": 21298,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: MIXFORGE -- add a client-side record button that records the mix, lets yo…",
+      "source_repo": "CLI",
+      "date": "20260929",
+      "archived_at": "2026-09-29T00:44:29Z"
     }
   ]
 }
