@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-29T03:33:04Z",
+  "body": "New /admin/login/qr/* flow: mint a short-lived code, render as QR, approve from an already-authenticated iduna.admin session, waiting browser gets a fresh session cookie for the same agent -- the token itself is never a bearer credential. Also fixed live: /admin/qr (dynamic QR registry) was fully built but missing from the Back Office nav menu; NOCK's phone-upload QR encodes /nock/upload/{token}, which okemily.com's nginx never proxied to IDUNA (fix queued in sudo-queue/97, needs founder to run). 9 new tests, full go test ./... clean, live-verified end to end against production (real admin login, mint, approve, cookie delivery, replay-safety, nav link rendering). Commit 34cdc8a.\n\n⚓ ☃",
+  "id": 21317,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "IDUNA",
+  "title": "QR-code Back Office login + two real QR gaps fixed (S583)"
+}

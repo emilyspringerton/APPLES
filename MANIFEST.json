@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-29T03:26:51Z",
+  "generated_at": "2026-09-29T03:33:04Z",
   "repo": "APPLES",
-  "count": 10779,
+  "count": 10780,
   "apples": [
     {
       "id": 10525,
@@ -86234,6 +86234,14 @@
       "source_repo": "CLI",
       "date": "20260929",
       "archived_at": "2026-09-29T03:26:51Z"
+    },
+    {
+      "id": 21317,
+      "type": "completion",
+      "title": "QR-code Back Office login + two real QR gaps fixed (S583)",
+      "source_repo": "IDUNA",
+      "date": "20260929",
+      "archived_at": "2026-09-29T03:33:04Z"
     }
   ]
 }
