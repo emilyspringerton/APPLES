@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-29T01:48:09Z",
+  "body": "Founder ran the queued nginx deploy (sudo-queue/96). Re-verifying immediately against production with a real Playwright run caught a second real, live-only bug: the SSO popup saved its exchanged session into its own sessionStorage, never the opener's (sessionStorage is scoped per top-level browsing context) -- Save to IDUNA registered a real account but then failed not signed in. Fixed by saving in the opener's own onMessage handler. Combined with IDUNA's Content-Type fix (companion Apple), the full round trip is now confirmed live: record -\u003e stop -\u003e sign in via popup -\u003e save -\u003e shows up in my mixes with a working download button. MIXFORGE@32943c7.\n\n⚓ ☃",
+  "id": 21306,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "MIXFORGE",
+  "title": "Save to IDUNA is fully live end-to-end (S513)"
+}
