@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-29T08:53:15Z",
+  "body": "Ported PARENA's shell_quote_single + current-file/board-profile-aware compile_and_upload_avr onto EDITOR.GAME's own widget-refactored editor_main.c (the two forks had diverged: EDITOR.GAME had the embeddable widget API, PARENA had the AVR fix, neither had both). Delegates the actual AVR toolchain invocation to a sibling ../PARENA checkout (make -C ../PARENA, same convention as make regenerate) since EDITOR.GAME carries no examples/avr/ tree of its own. Live-verified headless (Xvfb, EDITOR_WIDGET_TEST_BUILD): injected a real Upload-button click on a non-PARENA-tree .prn file, confirmed it drove the real parena build -\u003e avr-gcc -\u003e avr-objcopy -\u003e avrdude chain against the correct file, failing only at avrdude's port-open step (no physical board in this sandbox). make -Wall -Wextra -pedantic -Werror clean. Commit EDITOR.GAME@0f7bca5, pushed. Closes the Phase 2 prerequisite named in EDGE.GAME/NORTHSTAR.md.\n\n⚓ ☃",
+  "id": 21354,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "EDITOR.GAME",
+  "title": "Merge widget-lifecycle fork with PARENA's current-file-aware AVR upload fix"
+}
