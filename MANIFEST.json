@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-29T15:22:54Z",
+  "generated_at": "2026-09-29T15:23:00Z",
   "repo": "APPLES",
-  "count": 10852,
+  "count": 10853,
   "apples": [
     {
       "id": 10525,
@@ -86818,6 +86818,14 @@
       "source_repo": "IDUNA",
       "date": "20260929",
       "archived_at": "2026-09-29T15:22:54Z"
+    },
+    {
+      "id": 21390,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: IDUNA unified logging backend needs to actually be used -- log username c…",
+      "source_repo": "CLI",
+      "date": "20260929",
+      "archived_at": "2026-09-29T15:23:00Z"
     }
   ]
 }
