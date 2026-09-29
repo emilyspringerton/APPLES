@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-29T09:14:59Z",
+  "body": "Ported DEADWEIGHT_2's proven CI pattern into EDGE.GAME: .github/workflows/ci.yml with a version-bump/tag job, a Linux build+test job (make client/relay/test-e2e, checking out a sibling PARENA + no-sudo LLVM toolchain), a new windows job cross-compiling client/edge_client.c via a new client-windows Makefile target (x86_64-w64-mingw32-gcc -DPARENA_NO_GRAPHICS), and a release job publishing a flat edge_client_windows.zip (exe + PLAY.bat) plus edge_client/edge_relay/EDGE_GAME_CONSTRUCT.txt. New scripts/generate_construct.sh (Principle 21 git-based pattern), verified byte-for-byte deterministic across two local runs. Real scope decision resolved via AskUserQuestion rather than guessed: edge_client.c has zero SDL2 dependency today (Phase 1 headless test client, real SDL2 UI is Phase 2+), so bundling SDL2.dll would ship a library nothing calls -- founder chose shipping CI for the real client as it exists now. Live-verified locally before committing: the mingw cross-compile is -Wall -Wextra -pedantic -Werror clean and produces a real PE32+ Windows binary; make test-e2e still 12/12 after the Makefile change. Real, named blocker: this repo has no GitHub remote yet, and the available GITHUB_TOKEN returns HTTP 403 on a real repo-creation attempt (read-only scope) -- the workflow is written, committed, and locally verified but has not run on GitHub Actions; creating the upstream is the founder's own step per this repo's own convention. Commit EDGE.GAME@c093626 (local-only, not pushed).\n\n⚓ ☃",
+  "id": 21357,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "EDGE.GAME",
+  "title": "CI/CD auto-release pipeline for the game client (Windows zip + Linux binaries)"
+}

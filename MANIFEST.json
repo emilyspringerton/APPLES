@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-29T09:11:29Z",
+  "generated_at": "2026-09-29T09:14:59Z",
   "repo": "APPLES",
-  "count": 10819,
+  "count": 10820,
   "apples": [
     {
       "id": 10525,
@@ -86554,6 +86554,14 @@
       "source_repo": "emily",
       "date": "20260929",
       "archived_at": "2026-09-29T09:11:29Z"
+    },
+    {
+      "id": 21357,
+      "type": "completion",
+      "title": "CI/CD auto-release pipeline for the game client (Windows zip + Linux binaries)",
+      "source_repo": "EDGE.GAME",
+      "date": "20260929",
+      "archived_at": "2026-09-29T09:14:59Z"
     }
   ]
 }
