@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-29T15:22:54Z",
+  "body": "IDUNA@dd6953b. Founder real-time: 'we need to be logging the username changes and stuff make sure we are using log streaming like in fatbaby user reflux for the logging if we arent already - add it to the iduna unified logging we never started using that'. Found that game_online.go (every game's guest/steam/email/SSO account lifecycle, including the just-added set-display-name) had zero emission into IDUNA's unified logging backend -- wired an EventLog field and emit at every account-lifecycle success point (guest_register, email_linked, email_login, sso_login, steam_login, display_name_change with old+new names). Found IDUNA already has a live-streaming SSE pattern ported from PRRJECT_FATBABY's own eventstore dashboard (UserEventStreamHandler) but it was only wired to a separate, narrower local-users log -- added GET /services/search/stream reusing that same handler against the unified log, logs.read-gated. New tests cover emission + streaming; go build/test ./... clean; binary rebuilt, iduna.service restarted, live-verified end to end (a real register-\u003esso-exchange-\u003eset-display-name landed both events in the real var/eventlog ndjson file).\n\n⚓ ☃",
+  "id": 21389,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "IDUNA",
+  "title": "Wired GameOnlineHandler into IDUNA's unified logging backend + added a real live SSE stream"
+}
