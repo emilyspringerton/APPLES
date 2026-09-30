@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-30T02:48:04Z",
+  "body": "New MODE_TYLER=109. Real STATE_SPECTATOR wisp (no-clip free-fly, made real for the first time -- defined for years, never read by collision/gravity code). packages/simulation/tyler_coldopen.{h,c}: 8-beat Half-Life scripted_sequence coordinator driving story_ai_trigger_scripted, dispatching new REFLUX_ACTION_TYLER_BEAT + existing REFLUX_ACTION_BUTTON_PRESSED. New scriptable exit primitive story_force_level_transition (factored out of story_check_level_exits' proven body), fired directly by the coordinator's final beat, no LevelExit volume authored. Two real levels live in IDUNA's NOCK registry (TYLER_VALHANNA_ICELAND_1986 id24, CONSTRUCT id23) via new IDUNA/cmd/nock_gen_tyler_levels. Two real PARENA-generated procedural textures (institutional tile, ECS screen glow) via new IDUNA/cmd/nock_gen_textures + PARENA/stdlib/shankpit/textures/*.prn. Third-person Duck camera (AI_KIT_LEELA mannequin) ports PAPERCRAFT's own real orbit-cam formula into SHANKPIT's existing cx/cz/cam_y mechanism. make server/make lobby both build clean. Live-verified end to end server-side: MODE_SELECTED mode=109 -\u003e TYLER_COLDOPEN_STARTED -\u003e all 8 beats -\u003e STORY_LEVEL_TRANSITION next_level_id=23 firing against the live IDUNA registry. Honest gaps named in docs2/specs/TYLER_VALHANNA_MODE_NORTHSTAR.md: rigid body is a marker only (real backend already exists, rigid_ragdoll.c); subtitle rendering + coordinator only reach LOCAL single-player mode (REFLUX has no wire packet); no client rendering visually verified (no GL driver in sandbox).\n\n⚓ ☃",
+  "id": 21441,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "SHANKPIT",
+  "title": "MODE_TYLER: TYLER VALHANNA cold open as a real SHANKPIT game mode (S536 BIG_O demo)"
+}
