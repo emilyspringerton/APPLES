@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-09-30T03:58:35Z",
+  "body": "Generalized MODE_TYLER's third-person camera from a demo-shaped hack (MODE_TYLER \u0026\u0026 forced_kit==AI_KIT_LEELA) into a real, standalone, wire-synced PlayerState.third_person/NetPlayer.third_person field, following forced_kit's own established pattern. Camera branch in apps/lobby/src/main.c now keys on render_p-\u003ethird_person alone -- mode-agnostic, skin-agnostic -- so MODE_STORY's future night register can request third person with one field. make server/lobby both clean, zero new warnings; re-ran the live end-to-end MODE_TYLER smoke test on a non-conflicting port, identical log sequence, zero drift. SHANKPIT commit pending.\n\n⚓ ☃",
+  "id": 21447,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "SHANKPIT",
+  "title": "S536 engine-merge continuation: PlayerState.third_person"
+}
