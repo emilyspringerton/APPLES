@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-01T03:02:07Z",
+  "generated_at": "2026-10-01T03:03:24Z",
   "repo": "APPLES",
-  "count": 11014,
+  "count": 11015,
   "apples": [
     {
       "id": 10525,
@@ -88114,6 +88114,14 @@
       "source_repo": "CLI",
       "date": "20261001",
       "archived_at": "2026-10-01T03:02:07Z"
+    },
+    {
+      "id": 21552,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: fix the failing build first (DEADWEIGHT dw_gui.exe link: undefined is_val…",
+      "source_repo": "CLI",
+      "date": "20261001",
+      "archived_at": "2026-10-01T03:03:24Z"
     }
   ]
 }
