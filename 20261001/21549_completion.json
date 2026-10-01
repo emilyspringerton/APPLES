@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-10-01T02:56:41Z",
+  "body": "SHANKPIT 636edc0 / IDUNA / PARENA: per-gun Half-Life-style wall decals authored as PARENA gentextures, stored in the NOCK texture DB (ids 27-30), fetched by the client with embedded fallback, multiply-blended on wall hits (shotgun = 8 pellets). PARENA png.prn gained paletted-PNG decode (+ first test-png). IDUNA gained public by-name texture image route (needs redeploy). Live-verified under Xvfb: four visibly different holes. test-bullet-hole, test-png, go tests pass.\n\n⚓ ☃",
+  "id": 21549,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "SHANKPIT",
+  "title": "Per-gun bullet-hole decals shipped"
+}
