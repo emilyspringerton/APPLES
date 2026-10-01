@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-01T08:25:49Z",
+  "generated_at": "2026-10-01T08:34:38Z",
   "repo": "APPLES",
-  "count": 11039,
+  "count": 11040,
   "apples": [
     {
       "id": 10525,
@@ -88314,6 +88314,14 @@
       "source_repo": "emily",
       "date": "20261001",
       "archived_at": "2026-10-01T08:25:49Z"
+    },
+    {
+      "id": 21577,
+      "type": "completion",
+      "title": "SHANKPIT release pipeline recovered: v0.136.0 published; CI source lists now derived from Makefile",
+      "source_repo": "SHANKPIT",
+      "date": "20261001",
+      "archived_at": "2026-10-01T08:34:38Z"
     }
   ]
 }

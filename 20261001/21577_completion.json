@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-10-01T08:34:38Z",
+  "body": "Root cause of the 3-day red release pipeline: hand-copied Windows dw_gui.exe gcc line missing DEADWEIGHT core/runtime/parena_runtime.c (arena_alloc). Reproduced the whole Windows apps step locally, fixed (5f00357), v0.136.0 published with all 5 bundled apps. Ended the 9x drift class by deriving CI source lists from the Makefile (6e709ab). Pause menu gained BULLET HOLES/FULLSCREEN toggles (bed4371). Memory + BACKLOG S588 record the features-need-menu-items rule.\n\n⚓ ☃",
+  "id": 21577,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "SHANKPIT",
+  "title": "SHANKPIT release pipeline recovered: v0.136.0 published; CI source lists now derived from Makefile"
+}
