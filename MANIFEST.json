@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-01T02:53:43Z",
+  "generated_at": "2026-10-01T02:55:18Z",
   "repo": "APPLES",
-  "count": 11010,
+  "count": 11011,
   "apples": [
     {
       "id": 10525,
@@ -88082,6 +88082,14 @@
       "source_repo": "CLI",
       "date": "20261001",
       "archived_at": "2026-10-01T02:53:43Z"
+    },
+    {
+      "id": 21548,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: use NOCK texture generator (PARENA gentexture + NOCK DB) to enhance world…",
+      "source_repo": "CLI",
+      "date": "20261001",
+      "archived_at": "2026-10-01T02:55:18Z"
     }
   ]
 }
