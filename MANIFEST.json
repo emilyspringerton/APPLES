@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-01T01:13:51Z",
+  "generated_at": "2026-10-01T01:22:25Z",
   "repo": "APPLES",
-  "count": 10996,
+  "count": 10997,
   "apples": [
     {
       "id": 10525,
@@ -87970,6 +87970,14 @@
       "source_repo": "emily",
       "date": "20261001",
       "archived_at": "2026-10-01T01:13:51Z"
+    },
+    {
+      "id": 21534,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: fix the SHANKPIT CI/CD build, then continue the SHANKPIT BIG_O unification",
+      "source_repo": "CLI",
+      "date": "20261001",
+      "archived_at": "2026-10-01T01:22:25Z"
     }
   ]
 }
