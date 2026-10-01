@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-01T02:14:44Z",
+  "generated_at": "2026-10-01T02:14:50Z",
   "repo": "APPLES",
-  "count": 11002,
+  "count": 11003,
   "apples": [
     {
       "id": 10525,
@@ -88018,6 +88018,14 @@
       "source_repo": "emily",
       "date": "20261001",
       "archived_at": "2026-10-01T02:14:44Z"
+    },
+    {
+      "id": 21540,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: standing rule for ALL repos — always implement core deps in PARENA; whe…",
+      "source_repo": "CLI",
+      "date": "20261001",
+      "archived_at": "2026-10-01T02:14:50Z"
     }
   ]
 }
