@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-02T11:34:55Z",
+  "generated_at": "2026-10-02T11:34:58Z",
   "repo": "APPLES",
-  "count": 11255,
+  "count": 11256,
   "apples": [
     {
       "id": 10525,
@@ -90042,6 +90042,14 @@
       "source_repo": "EMILY",
       "date": "20261002",
       "archived_at": "2026-10-02T11:34:55Z"
+    },
+    {
+      "id": 21793,
+      "type": "backlog_completion",
+      "title": "Manual kanban move: figure out where all the code went for the EDGE.GAME did it ",
+      "source_repo": "EMILY",
+      "date": "20261002",
+      "archived_at": "2026-10-02T11:34:58Z"
     }
   ]
 }
