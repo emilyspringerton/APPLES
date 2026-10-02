@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-02T11:35:14Z",
+  "generated_at": "2026-10-02T11:37:16Z",
   "repo": "APPLES",
-  "count": 11263,
+  "count": 11264,
   "apples": [
     {
       "id": 10525,
@@ -90106,6 +90106,14 @@
       "source_repo": "EMILY",
       "date": "20261002",
       "archived_at": "2026-10-02T11:35:14Z"
+    },
+    {
+      "id": 21801,
+      "type": "completion",
+      "title": "changelog(PARENA): ui/menu: submenu path stack (menu-path-push/pop/leaf/enter/…",
+      "source_repo": "PARENA",
+      "date": "20261002",
+      "archived_at": "2026-10-02T11:37:16Z"
     }
   ]
 }
