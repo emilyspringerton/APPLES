@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-02T12:17:44Z",
+  "generated_at": "2026-10-02T12:17:46Z",
   "repo": "APPLES",
-  "count": 11277,
+  "count": 11278,
   "apples": [
     {
       "id": 10525,
@@ -90218,6 +90218,14 @@
       "source_repo": "EMILY",
       "date": "20261002",
       "archived_at": "2026-10-02T12:17:44Z"
+    },
+    {
+      "id": 21815,
+      "type": "backlog_completion",
+      "title": "Manual kanban move: EDGE.GAME PARENA stdlib/net/secure_channel: ML-KEM-768 hands",
+      "source_repo": "EMILY",
+      "date": "20261002",
+      "archived_at": "2026-10-02T12:17:46Z"
     }
   ]
 }
