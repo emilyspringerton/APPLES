@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-02T11:29:07Z",
+  "generated_at": "2026-10-02T11:29:30Z",
   "repo": "APPLES",
-  "count": 11251,
+  "count": 11252,
   "apples": [
     {
       "id": 10525,
@@ -90010,6 +90010,14 @@
       "source_repo": "EDGE.GAME",
       "date": "20261002",
       "archived_at": "2026-10-02T11:29:07Z"
+    },
+    {
+      "id": 21789,
+      "type": "completion",
+      "title": "changelog(SHANKPIT): lobby: grid nav / hit-test / double-click timing now genera…",
+      "source_repo": "SHANKPIT",
+      "date": "20261002",
+      "archived_at": "2026-10-02T11:29:30Z"
     }
   ]
 }
