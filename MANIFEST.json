@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-02T05:29:46Z",
+  "generated_at": "2026-10-02T05:38:24Z",
   "repo": "APPLES",
-  "count": 11132,
+  "count": 11133,
   "apples": [
     {
       "id": 10525,
@@ -89058,6 +89058,14 @@
       "source_repo": "EMILY",
       "date": "20261002",
       "archived_at": "2026-10-02T05:29:46Z"
+    },
+    {
+      "id": 21670,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: k8s migration networking must not burn credits — single egress/ingress,…",
+      "source_repo": "CLI",
+      "date": "20261002",
+      "archived_at": "2026-10-02T05:38:24Z"
     }
   ]
 }
