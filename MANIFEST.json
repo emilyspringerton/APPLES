@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-02T12:17:48Z",
+  "generated_at": "2026-10-02T12:17:51Z",
   "repo": "APPLES",
-  "count": 11279,
+  "count": 11280,
   "apples": [
     {
       "id": 10525,
@@ -90234,6 +90234,14 @@
       "source_repo": "EMILY",
       "date": "20261002",
       "archived_at": "2026-10-02T12:17:48Z"
+    },
+    {
+      "id": 21817,
+      "type": "backlog_completion",
+      "title": "Manual kanban move: EDGE.GAME relay+client speak the secure channel (lz4+mlkem) ",
+      "source_repo": "EMILY",
+      "date": "20261002",
+      "archived_at": "2026-10-02T12:17:51Z"
     }
   ]
 }
