@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-02T13:04:57Z",
+  "generated_at": "2026-10-02T13:10:30Z",
   "repo": "APPLES",
-  "count": 11304,
+  "count": 11305,
   "apples": [
     {
       "id": 10525,
@@ -90434,6 +90434,14 @@
       "source_repo": "MIXFORGE",
       "date": "20261002",
       "archived_at": "2026-10-02T13:04:57Z"
+    },
+    {
+      "id": 21842,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: add comments to kanban cards (Claude leaves questions as comments, a kanb…",
+      "source_repo": "CLI",
+      "date": "20261002",
+      "archived_at": "2026-10-02T13:10:30Z"
     }
   ]
 }
