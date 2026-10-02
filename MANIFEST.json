@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-02T11:35:07Z",
+  "generated_at": "2026-10-02T11:35:10Z",
   "repo": "APPLES",
-  "count": 11260,
+  "count": 11261,
   "apples": [
     {
       "id": 10525,
@@ -90082,6 +90082,14 @@
       "source_repo": "EMILY",
       "date": "20261002",
       "archived_at": "2026-10-02T11:35:07Z"
+    },
+    {
+      "id": 21798,
+      "type": "backlog_completion",
+      "title": "Manual kanban move: survival map should use shankpit CITY map",
+      "source_repo": "EMILY",
+      "date": "20261002",
+      "archived_at": "2026-10-02T11:35:10Z"
     }
   ]
 }
