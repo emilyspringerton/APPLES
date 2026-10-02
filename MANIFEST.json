@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-02T08:28:17Z",
+  "generated_at": "2026-10-02T08:28:20Z",
   "repo": "APPLES",
-  "count": 11175,
+  "count": 11176,
   "apples": [
     {
       "id": 10525,
@@ -89402,6 +89402,14 @@
       "source_repo": "IDUNA",
       "date": "20261002",
       "archived_at": "2026-10-02T08:28:17Z"
+    },
+    {
+      "id": 21713,
+      "type": "backlog_completion",
+      "title": "Manual kanban move: combine the interfaces for PARENA texture generator in NOCK ",
+      "source_repo": "EMILY",
+      "date": "20261002",
+      "archived_at": "2026-10-02T08:28:20Z"
     }
   ]
 }
