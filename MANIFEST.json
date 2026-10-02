@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-02T17:27:31Z",
+  "generated_at": "2026-10-02T17:27:39Z",
   "repo": "APPLES",
-  "count": 11345,
+  "count": 11346,
   "apples": [
     {
       "id": 10525,
@@ -90762,6 +90762,14 @@
       "source_repo": "SHANKPIT",
       "date": "20261002",
       "archived_at": "2026-10-02T17:27:31Z"
+    },
+    {
+      "id": 21883,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: prevent the director-mode broadcast camera from going through walls (SHAN…",
+      "source_repo": "CLI",
+      "date": "20261002",
+      "archived_at": "2026-10-02T17:27:39Z"
     }
   ]
 }
