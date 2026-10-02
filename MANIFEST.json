@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-02T12:45:56Z",
+  "generated_at": "2026-10-02T12:47:33Z",
   "repo": "APPLES",
-  "count": 11293,
+  "count": 11294,
   "apples": [
     {
       "id": 10525,
@@ -90346,6 +90346,14 @@
       "source_repo": "CLI",
       "date": "20261002",
       "archived_at": "2026-10-02T12:45:56Z"
+    },
+    {
+      "id": 21831,
+      "type": "completion",
+      "title": "changelog(IDUNA): SHANKPIT level export gains lab_stations (walls named lab_\u003c…",
+      "source_repo": "IDUNA",
+      "date": "20261002",
+      "archived_at": "2026-10-02T12:47:33Z"
     }
   ]
 }
