@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-02T12:17:53Z",
+  "generated_at": "2026-10-02T12:17:56Z",
   "repo": "APPLES",
-  "count": 11281,
+  "count": 11282,
   "apples": [
     {
       "id": 10525,
@@ -90250,6 +90250,14 @@
       "source_repo": "EMILY",
       "date": "20261002",
       "archived_at": "2026-10-02T12:17:53Z"
+    },
+    {
+      "id": 21819,
+      "type": "backlog_completion",
+      "title": "Manual kanban move: EDGE.GAME client: Windows USB/COM probe tooling -- enumerate",
+      "source_repo": "EMILY",
+      "date": "20261002",
+      "archived_at": "2026-10-02T12:17:56Z"
     }
   ]
 }
