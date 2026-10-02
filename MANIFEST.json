@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-02T14:10:20Z",
+  "generated_at": "2026-10-02T14:10:23Z",
   "repo": "APPLES",
-  "count": 11321,
+  "count": 11322,
   "apples": [
     {
       "id": 10525,
@@ -90570,6 +90570,14 @@
       "source_repo": "EMILY",
       "date": "20261002",
       "archived_at": "2026-10-02T14:10:20Z"
+    },
+    {
+      "id": 21859,
+      "type": "backlog_completion",
+      "title": "Manual kanban move: COOKIE-3 IDUNA CI/CD: auto-release the extension (test, dete",
+      "source_repo": "EMILY",
+      "date": "20261002",
+      "archived_at": "2026-10-02T14:10:23Z"
     }
   ]
 }
