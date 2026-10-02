@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-02T13:10:30Z",
+  "generated_at": "2026-10-02T13:12:44Z",
   "repo": "APPLES",
-  "count": 11305,
+  "count": 11306,
   "apples": [
     {
       "id": 10525,
@@ -90442,6 +90442,14 @@
       "source_repo": "CLI",
       "date": "20261002",
       "archived_at": "2026-10-02T13:10:30Z"
+    },
+    {
+      "id": 21843,
+      "type": "completion",
+      "title": "changelog(IDUNA): kanban: comments on cards tracked by login -- API (bearer +…",
+      "source_repo": "IDUNA",
+      "date": "20261002",
+      "archived_at": "2026-10-02T13:12:44Z"
     }
   ]
 }
