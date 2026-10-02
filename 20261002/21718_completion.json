@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-10-02T09:21:56Z",
+  "body": "CHANGELOG updated in SHANKPIT: fix(buggy): buggy now collides with map_geo walls (substepped horizontal sweep in simulate_buggy_state — shared by server and local, so multiplayer is authoritative; curbs under step height still drivable; blasted brick holes drivable). New make test-buggy-wall. Brick destructibility multiplayer path (server collect/broadcast, client mirror apply) already covered by test-brick-world, not re-verified live. (sess-20260923-1030-4a526255)\n\n⚓ ☃",
+  "id": 21718,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "SHANKPIT",
+  "title": "changelog(SHANKPIT): fix(buggy): buggy now collides with map_geo walls (substepp…"
+}

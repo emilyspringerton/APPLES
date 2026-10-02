@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-02T09:17:04Z",
+  "generated_at": "2026-10-02T09:21:56Z",
   "repo": "APPLES",
-  "count": 11180,
+  "count": 11181,
   "apples": [
     {
       "id": 10525,
@@ -89442,6 +89442,14 @@
       "source_repo": "emily",
       "date": "20261002",
       "archived_at": "2026-10-02T09:17:04Z"
+    },
+    {
+      "id": 21718,
+      "type": "completion",
+      "title": "changelog(SHANKPIT): fix(buggy): buggy now collides with map_geo walls (substepp…",
+      "source_repo": "SHANKPIT",
+      "date": "20261002",
+      "archived_at": "2026-10-02T09:21:56Z"
     }
   ]
 }
