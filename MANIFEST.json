@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-02T09:54:53Z",
+  "generated_at": "2026-10-02T09:56:59Z",
   "repo": "APPLES",
-  "count": 11211,
+  "count": 11212,
   "apples": [
     {
       "id": 10525,
@@ -89690,6 +89690,14 @@
       "source_repo": "EMILY",
       "date": "20261002",
       "archived_at": "2026-10-02T09:54:53Z"
+    },
+    {
+      "id": 21749,
+      "type": "completion",
+      "title": "changelog(SHANKPIT): feat(camera): camera rig (#456b/#470, serialization #458) —…",
+      "source_repo": "SHANKPIT",
+      "date": "20261002",
+      "archived_at": "2026-10-02T09:56:59Z"
     }
   ]
 }

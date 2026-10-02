@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-10-02T09:56:59Z",
+  "body": "CHANGELOG updated in SHANKPIT: feat(camera): camera rig (#456b/#470, serialization #458) — packages/render/camera_rig.h: fixed/follow/orbit/drone cameras run by simulated operators (PARENA camera_rules: reaction lag by skill, lead room, zoom operator, handheld shake) + an auto director (action scoring, hold + hysteresis cuts, program/preview) + the rig as a deterministic JSON file (camrig_serialize/camrig_parse, round-trips exactly, rejects/clamps bad input). Headless: make test-camera-rig; make regen-camera-rules. Not yet wired into the lobby (next: spectator/director view). (sess-20260923-1030-4a526255)\n\n⚓ ☃",
+  "id": 21749,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "SHANKPIT",
+  "title": "changelog(SHANKPIT): feat(camera): camera rig (#456b/#470, serialization #458) —…"
+}
