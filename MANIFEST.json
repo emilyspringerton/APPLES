@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-02T08:18:19Z",
+  "generated_at": "2026-10-02T08:25:15Z",
   "repo": "APPLES",
-  "count": 11172,
+  "count": 11173,
   "apples": [
     {
       "id": 10525,
@@ -89378,6 +89378,14 @@
       "source_repo": "emily",
       "date": "20261002",
       "archived_at": "2026-10-02T08:18:19Z"
+    },
+    {
+      "id": 21710,
+      "type": "completion",
+      "title": "changelog(SHANKPIT): Live GL test for SHADER_GLASS alpha pass (make test-glass-r…",
+      "source_repo": "SHANKPIT",
+      "date": "20261002",
+      "archived_at": "2026-10-02T08:25:15Z"
     }
   ]
 }
