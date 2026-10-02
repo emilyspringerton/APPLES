@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-02T09:35:23Z",
+  "generated_at": "2026-10-02T09:35:33Z",
   "repo": "APPLES",
-  "count": 11189,
+  "count": 11190,
   "apples": [
     {
       "id": 10525,
@@ -89514,6 +89514,14 @@
       "source_repo": "IDUNA",
       "date": "20261002",
       "archived_at": "2026-10-02T09:35:23Z"
+    },
+    {
+      "id": 21727,
+      "type": "backlog_completion",
+      "title": "Manual kanban move: add gltf importer for shankpit levels",
+      "source_repo": "EMILY",
+      "date": "20261002",
+      "archived_at": "2026-10-02T09:35:33Z"
     }
   ]
 }
