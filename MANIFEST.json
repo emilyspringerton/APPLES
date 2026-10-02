@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-02T08:02:26Z",
+  "generated_at": "2026-10-02T08:09:57Z",
   "repo": "APPLES",
-  "count": 11166,
+  "count": 11167,
   "apples": [
     {
       "id": 10525,
@@ -89330,6 +89330,14 @@
       "source_repo": "emily",
       "date": "20261002",
       "archived_at": "2026-10-02T08:02:26Z"
+    },
+    {
+      "id": 21704,
+      "type": "backlog_completion",
+      "title": "Manual kanban move: CITY-1 SHANKPIT: port procedural city geometry (grid/distric",
+      "source_repo": "EMILY",
+      "date": "20261002",
+      "archived_at": "2026-10-02T08:09:57Z"
     }
   ]
 }
