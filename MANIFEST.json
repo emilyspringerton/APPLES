@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-02T17:28:29Z",
+  "generated_at": "2026-10-02T17:29:43Z",
   "repo": "APPLES",
-  "count": 11348,
+  "count": 11349,
   "apples": [
     {
       "id": 10525,
@@ -90786,6 +90786,14 @@
       "source_repo": "CLI",
       "date": "20261002",
       "archived_at": "2026-10-02T17:28:29Z"
+    },
+    {
+      "id": 21886,
+      "type": "completion",
+      "title": "changelog(SHANKPIT): Streaming (#535): Windows client zip now bundles ffmpeg.exe…",
+      "source_repo": "SHANKPIT",
+      "date": "20261002",
+      "archived_at": "2026-10-02T17:29:43Z"
     }
   ]
 }
