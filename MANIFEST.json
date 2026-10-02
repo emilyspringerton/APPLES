@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-02T13:02:46Z",
+  "generated_at": "2026-10-02T13:03:20Z",
   "repo": "APPLES",
-  "count": 11300,
+  "count": 11301,
   "apples": [
     {
       "id": 10525,
@@ -90402,6 +90402,14 @@
       "source_repo": "CLI",
       "date": "20261002",
       "archived_at": "2026-10-02T13:02:46Z"
+    },
+    {
+      "id": 21838,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: password management can be done via the emily cli vault integration (so t…",
+      "source_repo": "CLI",
+      "date": "20261002",
+      "archived_at": "2026-10-02T13:03:20Z"
     }
   ]
 }
