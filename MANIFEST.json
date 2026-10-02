@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-02T07:21:09Z",
+  "generated_at": "2026-10-02T07:23:10Z",
   "repo": "APPLES",
-  "count": 11155,
+  "count": 11156,
   "apples": [
     {
       "id": 10525,
@@ -89242,6 +89242,14 @@
       "source_repo": "CLI",
       "date": "20261002",
       "archived_at": "2026-10-02T07:21:09Z"
+    },
+    {
+      "id": 21693,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: clear the kanban priority queue, then fix SHANKPIT release artifacts not …",
+      "source_repo": "CLI",
+      "date": "20261002",
+      "archived_at": "2026-10-02T07:23:10Z"
     }
   ]
 }
