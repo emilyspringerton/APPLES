@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-02T10:01:14Z",
+  "generated_at": "2026-10-02T10:05:21Z",
   "repo": "APPLES",
-  "count": 11216,
+  "count": 11217,
   "apples": [
     {
       "id": 10525,
@@ -89730,6 +89730,14 @@
       "source_repo": "EMILY",
       "date": "20261002",
       "archived_at": "2026-10-02T10:01:14Z"
+    },
+    {
+      "id": 21754,
+      "type": "completion",
+      "title": "changelog(SHANKPIT): feat(stream): native stream out of the broadcast program fe…",
+      "source_repo": "SHANKPIT",
+      "date": "20261002",
+      "archived_at": "2026-10-02T10:05:21Z"
     }
   ]
 }

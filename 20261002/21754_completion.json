@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-10-02T10:05:21Z",
+  "body": "CHANGELOG updated in SHANKPIT: feat(stream): native stream out of the broadcast program feed (#458a/#472) — F2 / pause menu STREAM OUT pipes the CLEAN program view (no HUD/tiles) as raw rgb24 into an encoder: rtmp:// -\u003e FLV, else a file; target whitelisted before it reaches a shell; ffmpeg is a labeled STOPGAP (PARENA H.264 + RTMP replacement logged in EMILY/BACKLOG.md), SHANKPIT_STREAM_SINK_CMD swaps the encoder. Verified live headless: 88 whole 1280x720 frames captured to a raw file, one decoded (clean, upright); ffmpeg itself not installed here so the encode path is untested. Also: pause menu relaid out for nine items (size 4). make test-stream-out. README gets a 'Broadcast cameras, director and native stream' section. (sess-20260923-1030-4a526255)\n\n⚓ ☃",
+  "id": 21754,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "SHANKPIT",
+  "title": "changelog(SHANKPIT): feat(stream): native stream out of the broadcast program fe…"
+}
