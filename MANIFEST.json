@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-02T14:10:23Z",
+  "generated_at": "2026-10-02T14:10:25Z",
   "repo": "APPLES",
-  "count": 11322,
+  "count": 11323,
   "apples": [
     {
       "id": 10525,
@@ -90578,6 +90578,14 @@
       "source_repo": "EMILY",
       "date": "20261002",
       "archived_at": "2026-10-02T14:10:23Z"
+    },
+    {
+      "id": 21860,
+      "type": "backlog_completion",
+      "title": "Manual kanban move: LAB-4 SHANKPIT: parse lab_stations, enter LAB from phone LAB",
+      "source_repo": "EMILY",
+      "date": "20261002",
+      "archived_at": "2026-10-02T14:10:25Z"
     }
   ]
 }
