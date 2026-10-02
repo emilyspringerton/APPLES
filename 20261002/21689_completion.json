@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-10-02T07:08:57Z",
+  "body": "CHANGELOG updated in SHANKPIT: ZOMBIES sandbox: menu tile replaces FIND CTF (MODE_ZOMBIES=110, --zombies flag); day/night population lifecycle (citizens/zombies/the men), 5 birds from tick one (BIG_O avian_values ported), wall-aware steering for every AI mover, zombies claw brick walls (brick_world_ai_wall_hit), UAL mannequin + zombie_* clips for citizens/men/zombies, rigid-body ragdoll corpses (ragdoll_pool now linked into the lobby), skinned-draw scale hook; zombies repository client (level_boxes collection fetch, snapshot collection=zombies); make test-witness-ai-zombies + brick claw test. (sess-20260923-1030-4a526255)\n\n⚓ ☃",
+  "id": 21689,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "SHANKPIT",
+  "title": "changelog(SHANKPIT): ZOMBIES sandbox: menu tile replaces FIND CTF (MODE_ZOMBIES=…"
+}
