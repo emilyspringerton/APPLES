@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-02T10:55:36Z",
+  "generated_at": "2026-10-02T10:56:18Z",
   "repo": "APPLES",
-  "count": 11229,
+  "count": 11230,
   "apples": [
     {
       "id": 10525,
@@ -89834,6 +89834,14 @@
       "source_repo": "EDITOR.GAME",
       "date": "20261002",
       "archived_at": "2026-10-02T10:55:36Z"
+    },
+    {
+      "id": 21767,
+      "type": "completion",
+      "title": "changelog(EDITOR.GAME): autosave no longer reformats the buffer (stray newlines eve…",
+      "source_repo": "EDITOR.GAME",
+      "date": "20261002",
+      "archived_at": "2026-10-02T10:56:18Z"
     }
   ]
 }
