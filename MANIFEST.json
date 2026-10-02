@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-02T17:27:39Z",
+  "generated_at": "2026-10-02T17:28:27Z",
   "repo": "APPLES",
-  "count": 11346,
+  "count": 11347,
   "apples": [
     {
       "id": 10525,
@@ -90770,6 +90770,14 @@
       "source_repo": "CLI",
       "date": "20261002",
       "archived_at": "2026-10-02T17:27:39Z"
+    },
+    {
+      "id": 21884,
+      "type": "completion",
+      "title": "changelog(SHANKPIT): Broadcast/director cameras no longer clip through walls (#5…",
+      "source_repo": "SHANKPIT",
+      "date": "20261002",
+      "archived_at": "2026-10-02T17:28:27Z"
     }
   ]
 }
