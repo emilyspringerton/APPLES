@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-02T09:35:33Z",
+  "generated_at": "2026-10-02T09:35:36Z",
   "repo": "APPLES",
-  "count": 11190,
+  "count": 11191,
   "apples": [
     {
       "id": 10525,
@@ -89522,6 +89522,14 @@
       "source_repo": "EMILY",
       "date": "20261002",
       "archived_at": "2026-10-02T09:35:33Z"
+    },
+    {
+      "id": 21728,
+      "type": "backlog_completion",
+      "title": "Manual kanban move: all gltf i,porters should work with blender files",
+      "source_repo": "EMILY",
+      "date": "20261002",
+      "archived_at": "2026-10-02T09:35:36Z"
     }
   ]
 }
