@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-02T13:03:38Z",
+  "generated_at": "2026-10-02T13:04:53Z",
   "repo": "APPLES",
-  "count": 11302,
+  "count": 11303,
   "apples": [
     {
       "id": 10525,
@@ -90418,6 +90418,14 @@
       "source_repo": "CLI",
       "date": "20261002",
       "archived_at": "2026-10-02T13:03:38Z"
+    },
+    {
+      "id": 21840,
+      "type": "completion",
+      "title": "changelog(IDUNA): extensions/mixforge-cookie-exporter (copied from MIXFORGE) …",
+      "source_repo": "IDUNA",
+      "date": "20261002",
+      "archived_at": "2026-10-02T13:04:53Z"
     }
   ]
 }
