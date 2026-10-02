@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-10-02T09:45:04Z",
+  "body": "CHANGELOG updated in SHANKPIT: feat(buggy): programmable buggy (#468/#464d) — handling (transmission curve, top speeds, steering, grip) is now the PARENA mod stdlib/shankpit/buggy_rules.prn, generated into buggy_rules.c, installed into physics.h's PhysBuggyRules hook by buggy_rules_host.h in server + lobby (tests that only include physics.h keep the built-ins). Defaults match the old constants (759.6 vs 759.8 units/240 ticks); a 2x-top-speed mod measurably changes the buggy. make regen-buggy-rules. README gains a 'Buggy: walls, placement, PARENA handling, lighting' section. (sess-20260923-1030-4a526255)\n\n⚓ ☃",
+  "id": 21738,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "SHANKPIT",
+  "title": "changelog(SHANKPIT): feat(buggy): programmable buggy (#468/#464d) — handling (tr…"
+}
