@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-02T05:14:53Z",
+  "generated_at": "2026-10-02T05:24:45Z",
   "repo": "APPLES",
-  "count": 11128,
+  "count": 11129,
   "apples": [
     {
       "id": 10525,
@@ -89026,6 +89026,14 @@
       "source_repo": "emily",
       "date": "20261002",
       "archived_at": "2026-10-02T05:14:53Z"
+    },
+    {
+      "id": 21666,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: for the kubernetes migration, figure out what needs to turn into APIs (fi…",
+      "source_repo": "CLI",
+      "date": "20261002",
+      "archived_at": "2026-10-02T05:24:45Z"
     }
   ]
 }
