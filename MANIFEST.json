@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-02T11:35:12Z",
+  "generated_at": "2026-10-02T11:35:14Z",
   "repo": "APPLES",
-  "count": 11262,
+  "count": 11263,
   "apples": [
     {
       "id": 10525,
@@ -90098,6 +90098,14 @@
       "source_repo": "EMILY",
       "date": "20261002",
       "archived_at": "2026-10-02T11:35:12Z"
+    },
+    {
+      "id": 21800,
+      "type": "backlog_completion",
+      "title": "Manual kanban move: NEW AFFORDANCE FOR TOP LEVEL MENU SETTINGS TO TOGGLE ON LIVE",
+      "source_repo": "EMILY",
+      "date": "20261002",
+      "archived_at": "2026-10-02T11:35:14Z"
     }
   ]
 }
