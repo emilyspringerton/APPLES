@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-02T13:58:41Z",
+  "generated_at": "2026-10-02T14:10:03Z",
   "repo": "APPLES",
-  "count": 11313,
+  "count": 11314,
   "apples": [
     {
       "id": 10525,
@@ -90506,6 +90506,14 @@
       "source_repo": "emily",
       "date": "20261002",
       "archived_at": "2026-10-02T13:58:41Z"
+    },
+    {
+      "id": 21851,
+      "type": "backlog_completion",
+      "title": "Manual kanban move: port EDUVM and language and the philosophers orb from GFD sh",
+      "source_repo": "EMILY",
+      "date": "20261002",
+      "archived_at": "2026-10-02T14:10:03Z"
     }
   ]
 }
