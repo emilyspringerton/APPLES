@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-02T08:25:15Z",
+  "generated_at": "2026-10-02T08:25:18Z",
   "repo": "APPLES",
-  "count": 11173,
+  "count": 11174,
   "apples": [
     {
       "id": 10525,
@@ -89386,6 +89386,14 @@
       "source_repo": "SHANKPIT",
       "date": "20261002",
       "archived_at": "2026-10-02T08:25:15Z"
+    },
+    {
+      "id": 21711,
+      "type": "backlog_completion",
+      "title": "Manual kanban move: glass alpha pass",
+      "source_repo": "EMILY",
+      "date": "20261002",
+      "archived_at": "2026-10-02T08:25:18Z"
     }
   ]
 }
