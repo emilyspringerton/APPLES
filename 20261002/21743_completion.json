@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-10-02T09:52:47Z",
+  "body": "CHANGELOG updated in IDUNA: feat(shankpit): public read-only model route GET /api/v1/shankpit-models/MODEL_\u003cNAME\u003e (#447) — serves a NOCK widget named MODEL_* as its box list so the native client can draw it in hand (the hammer: Blender -\u003e Widgets glTF import -\u003e MODEL_HAMMER). Non-MODEL_ widgets are never served; GET only. WidgetStore.GetWidgetByName. Tests added. Needs IDUNA rebuild+restart. (sess-20260923-1030-4a526255)\n\n⚓ ☃",
+  "id": 21743,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "IDUNA",
+  "title": "changelog(IDUNA): feat(shankpit): public read-only model route GET /api/v1/sh…"
+}

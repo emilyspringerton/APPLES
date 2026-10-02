@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-02T09:47:25Z",
+  "generated_at": "2026-10-02T09:52:47Z",
   "repo": "APPLES",
-  "count": 11205,
+  "count": 11206,
   "apples": [
     {
       "id": 10525,
@@ -89642,6 +89642,14 @@
       "source_repo": "PARENA",
       "date": "20261002",
       "archived_at": "2026-10-02T09:47:25Z"
+    },
+    {
+      "id": 21743,
+      "type": "completion",
+      "title": "changelog(IDUNA): feat(shankpit): public read-only model route GET /api/v1/sh…",
+      "source_repo": "IDUNA",
+      "date": "20261002",
+      "archived_at": "2026-10-02T09:52:47Z"
     }
   ]
 }
