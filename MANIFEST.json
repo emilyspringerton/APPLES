@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-02T10:53:12Z",
+  "generated_at": "2026-10-02T10:55:36Z",
   "repo": "APPLES",
-  "count": 11228,
+  "count": 11229,
   "apples": [
     {
       "id": 10525,
@@ -89826,6 +89826,14 @@
       "source_repo": "PARENA",
       "date": "20261002",
       "archived_at": "2026-10-02T10:53:12Z"
+    },
+    {
+      "id": 21766,
+      "type": "completion",
+      "title": "changelog(EDITOR.GAME): editor opens PARENA's AVR blink program by default when the…",
+      "source_repo": "EDITOR.GAME",
+      "date": "20261002",
+      "archived_at": "2026-10-02T10:55:36Z"
     }
   ]
 }
