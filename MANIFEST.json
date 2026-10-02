@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-02T11:30:13Z",
+  "generated_at": "2026-10-02T11:31:35Z",
   "repo": "APPLES",
-  "count": 11253,
+  "count": 11254,
   "apples": [
     {
       "id": 10525,
@@ -90026,6 +90026,14 @@
       "source_repo": "EDITOR.GAME",
       "date": "20261002",
       "archived_at": "2026-10-02T11:30:13Z"
+    },
+    {
+      "id": 21791,
+      "type": "completion",
+      "title": "changelog(EDGE.GAME): sec_transport: frame-counter exhaustion refuses/drops (re-h…",
+      "source_repo": "EDGE.GAME",
+      "date": "20261002",
+      "archived_at": "2026-10-02T11:31:35Z"
     }
   ]
 }
