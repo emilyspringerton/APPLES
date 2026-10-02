@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-02T09:21:56Z",
+  "generated_at": "2026-10-02T09:22:00Z",
   "repo": "APPLES",
-  "count": 11181,
+  "count": 11182,
   "apples": [
     {
       "id": 10525,
@@ -89450,6 +89450,14 @@
       "source_repo": "SHANKPIT",
       "date": "20261002",
       "archived_at": "2026-10-02T09:21:56Z"
+    },
+    {
+      "id": 21719,
+      "type": "backlog_completion",
+      "title": "Manual kanban move: make the bug where the buggy goes through walls not work any",
+      "source_repo": "EMILY",
+      "date": "20261002",
+      "archived_at": "2026-10-02T09:22:00Z"
     }
   ]
 }
