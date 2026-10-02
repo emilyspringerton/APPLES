@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-02T05:24:45Z",
+  "generated_at": "2026-10-02T05:27:04Z",
   "repo": "APPLES",
-  "count": 11129,
+  "count": 11130,
   "apples": [
     {
       "id": 10525,
@@ -89034,6 +89034,14 @@
       "source_repo": "CLI",
       "date": "20261002",
       "archived_at": "2026-10-02T05:24:45Z"
+    },
+    {
+      "id": 21667,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: k8s migration — add generic APIs to IDUNA and Emily (golden docs become…",
+      "source_repo": "CLI",
+      "date": "20261002",
+      "archived_at": "2026-10-02T05:27:04Z"
     }
   ]
 }
