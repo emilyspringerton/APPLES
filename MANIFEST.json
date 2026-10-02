@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-02T13:03:20Z",
+  "generated_at": "2026-10-02T13:03:38Z",
   "repo": "APPLES",
-  "count": 11301,
+  "count": 11302,
   "apples": [
     {
       "id": 10525,
@@ -90410,6 +90410,14 @@
       "source_repo": "CLI",
       "date": "20261002",
       "archived_at": "2026-10-02T13:03:20Z"
+    },
+    {
+      "id": 21839,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: build the cookie extension/chrome plugin into the IDUNA CI/CD auto-release",
+      "source_repo": "CLI",
+      "date": "20261002",
+      "archived_at": "2026-10-02T13:03:38Z"
     }
   ]
 }
