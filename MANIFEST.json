@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-02T07:31:34Z",
+  "generated_at": "2026-10-02T07:36:50Z",
   "repo": "APPLES",
-  "count": 11158,
+  "count": 11159,
   "apples": [
     {
       "id": 10525,
@@ -89266,6 +89266,14 @@
       "source_repo": "emily",
       "date": "20261002",
       "archived_at": "2026-10-02T07:31:34Z"
+    },
+    {
+      "id": 21696,
+      "type": "completion",
+      "title": "SHANKPIT release zips now bundle SDL2_ttf.dll",
+      "source_repo": "SHANKPIT",
+      "date": "20261002",
+      "archived_at": "2026-10-02T07:36:50Z"
     }
   ]
 }
