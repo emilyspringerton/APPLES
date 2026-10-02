@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-02T15:44:02Z",
+  "generated_at": "2026-10-02T15:59:33Z",
   "repo": "APPLES",
-  "count": 11332,
+  "count": 11333,
   "apples": [
     {
       "id": 10525,
@@ -90658,6 +90658,14 @@
       "source_repo": "emily",
       "date": "20261002",
       "archived_at": "2026-10-02T15:44:02Z"
+    },
+    {
+      "id": 21870,
+      "type": "audit",
+      "title": "Cycle 14777 — idle (no queued tasks)",
+      "source_repo": "emily",
+      "date": "20261002",
+      "archived_at": "2026-10-02T15:59:33Z"
     }
   ]
 }
