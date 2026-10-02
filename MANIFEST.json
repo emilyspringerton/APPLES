@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-02T10:15:37Z",
+  "generated_at": "2026-10-02T10:16:49Z",
   "repo": "APPLES",
-  "count": 11223,
+  "count": 11224,
   "apples": [
     {
       "id": 10525,
@@ -89786,6 +89786,14 @@
       "source_repo": "CLI",
       "date": "20261002",
       "archived_at": "2026-10-02T10:15:37Z"
+    },
+    {
+      "id": 21761,
+      "type": "completion",
+      "title": "changelog(IDUNA): NOCK widget glTF import: drag-and-drop zone matching the ch…",
+      "source_repo": "IDUNA",
+      "date": "20261002",
+      "archived_at": "2026-10-02T10:16:49Z"
     }
   ]
 }
