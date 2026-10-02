@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-02T09:39:20Z",
+  "generated_at": "2026-10-02T09:39:24Z",
   "repo": "APPLES",
-  "count": 11194,
+  "count": 11195,
   "apples": [
     {
       "id": 10525,
@@ -89554,6 +89554,14 @@
       "source_repo": "SHANKPIT",
       "date": "20261002",
       "archived_at": "2026-10-02T09:39:20Z"
+    },
+    {
+      "id": 21732,
+      "type": "backlog_completion",
+      "title": "Manual kanban move: #464a SHANKPIT: level_boxes.h parses buggy_spawns, physics.h",
+      "source_repo": "EMILY",
+      "date": "20261002",
+      "archived_at": "2026-10-02T09:39:24Z"
     }
   ]
 }
