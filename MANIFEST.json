@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-02T11:35:00Z",
+  "generated_at": "2026-10-02T11:35:03Z",
   "repo": "APPLES",
-  "count": 11257,
+  "count": 11258,
   "apples": [
     {
       "id": 10525,
@@ -90058,6 +90058,14 @@
       "source_repo": "EMILY",
       "date": "20261002",
       "archived_at": "2026-10-02T11:35:00Z"
+    },
+    {
+      "id": 21795,
+      "type": "backlog_completion",
+      "title": "Manual kanban move: build a game mode called survival and add it to the top leve",
+      "source_repo": "EMILY",
+      "date": "20261002",
+      "archived_at": "2026-10-02T11:35:03Z"
     }
   ]
 }
