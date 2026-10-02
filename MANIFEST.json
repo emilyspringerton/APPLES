@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-02T14:10:16Z",
+  "generated_at": "2026-10-02T14:10:18Z",
   "repo": "APPLES",
-  "count": 11319,
+  "count": 11320,
   "apples": [
     {
       "id": 10525,
@@ -90554,6 +90554,14 @@
       "source_repo": "EMILY",
       "date": "20261002",
       "archived_at": "2026-10-02T14:10:16Z"
+    },
+    {
+      "id": 21857,
+      "type": "backlog_completion",
+      "title": "Manual kanban move: LAB-2 IDUNA tool: build LAB level = clone INTERRIOR_1 + prog",
+      "source_repo": "EMILY",
+      "date": "20261002",
+      "archived_at": "2026-10-02T14:10:18Z"
     }
   ]
 }
