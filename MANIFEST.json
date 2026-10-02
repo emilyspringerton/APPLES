@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-02T12:31:13Z",
+  "generated_at": "2026-10-02T12:39:51Z",
   "repo": "APPLES",
-  "count": 11288,
+  "count": 11289,
   "apples": [
     {
       "id": 10525,
@@ -90306,6 +90306,14 @@
       "source_repo": "SHANKPIT",
       "date": "20261002",
       "archived_at": "2026-10-02T12:31:13Z"
+    },
+    {
+      "id": 21826,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: zombies mode in shankpit needs BIG_O unification",
+      "source_repo": "CLI",
+      "date": "20261002",
+      "archived_at": "2026-10-02T12:39:51Z"
     }
   ]
 }
