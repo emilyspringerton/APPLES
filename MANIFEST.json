@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-02T01:00:17Z",
+  "generated_at": "2026-10-02T01:00:19Z",
   "repo": "APPLES",
-  "count": 11109,
+  "count": 11110,
   "apples": [
     {
       "id": 10525,
@@ -88874,6 +88874,14 @@
       "source_repo": "emily",
       "date": "20261002",
       "archived_at": "2026-10-02T01:00:17Z"
+    },
+    {
+      "id": 21647,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: make TYLER mode playable locally from the menu tile",
+      "source_repo": "CLI",
+      "date": "20261002",
+      "archived_at": "2026-10-02T01:00:19Z"
     }
   ]
 }
