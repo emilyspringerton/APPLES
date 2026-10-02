@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-02T12:17:29Z",
+  "generated_at": "2026-10-02T12:17:32Z",
   "repo": "APPLES",
-  "count": 11271,
+  "count": 11272,
   "apples": [
     {
       "id": 10525,
@@ -90170,6 +90170,14 @@
       "source_repo": "EMILY",
       "date": "20261002",
       "archived_at": "2026-10-02T12:17:29Z"
+    },
+    {
+      "id": 21809,
+      "type": "backlog_completion",
+      "title": "Manual kanban move: EDGE.GAME server gives claude api bindings to control the ed",
+      "source_repo": "EMILY",
+      "date": "20261002",
+      "archived_at": "2026-10-02T12:17:32Z"
     }
   ]
 }
