@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-02T20:37:58Z",
+  "generated_at": "2026-10-02T20:43:11Z",
   "repo": "APPLES",
-  "count": 11367,
+  "count": 11368,
   "apples": [
     {
       "id": 10525,
@@ -90938,6 +90938,14 @@
       "source_repo": "CLI",
       "date": "20261002",
       "archived_at": "2026-10-02T20:37:58Z"
+    },
+    {
+      "id": 21905,
+      "type": "completion",
+      "title": "changelog(SHANKPIT): Buggy warthog-style orbit chase cam + steers toward camera;…",
+      "source_repo": "SHANKPIT",
+      "date": "20261002",
+      "archived_at": "2026-10-02T20:43:11Z"
     }
   ]
 }
