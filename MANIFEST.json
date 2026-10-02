@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-02T06:53:45Z",
+  "generated_at": "2026-10-02T06:55:19Z",
   "repo": "APPLES",
-  "count": 11147,
+  "count": 11148,
   "apples": [
     {
       "id": 10525,
@@ -89178,6 +89178,14 @@
       "source_repo": "CLI",
       "date": "20261002",
       "archived_at": "2026-10-02T06:53:45Z"
+    },
+    {
+      "id": 21685,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: zombies must damage buildings/materials (nextown is mostly brick, only br…",
+      "source_repo": "CLI",
+      "date": "20261002",
+      "archived_at": "2026-10-02T06:55:19Z"
     }
   ]
 }
