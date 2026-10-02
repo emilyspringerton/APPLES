@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-02T17:28:27Z",
+  "generated_at": "2026-10-02T17:28:29Z",
   "repo": "APPLES",
-  "count": 11347,
+  "count": 11348,
   "apples": [
     {
       "id": 10525,
@@ -90778,6 +90778,14 @@
       "source_repo": "SHANKPIT",
       "date": "20261002",
       "archived_at": "2026-10-02T17:28:27Z"
+    },
+    {
+      "id": 21885,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: bundle the streaming deps (ffmpeg) with SHANKPIT so STREAM works without …",
+      "source_repo": "CLI",
+      "date": "20261002",
+      "archived_at": "2026-10-02T17:28:29Z"
     }
   ]
 }
