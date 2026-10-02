@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-02T05:45:25Z",
+  "generated_at": "2026-10-02T05:49:47Z",
   "repo": "APPLES",
-  "count": 11135,
+  "count": 11136,
   "apples": [
     {
       "id": 10525,
@@ -89082,6 +89082,14 @@
       "source_repo": "EMILY",
       "date": "20261002",
       "archived_at": "2026-10-02T05:45:25Z"
+    },
+    {
+      "id": 21673,
+      "type": "completion",
+      "title": "changelog(IDUNA): emily.collections.read permission + EMILY-COLLECTIONS-READE…",
+      "source_repo": "IDUNA",
+      "date": "20261002",
+      "archived_at": "2026-10-02T05:49:47Z"
     }
   ]
 }
