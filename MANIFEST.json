@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-02T09:45:08Z",
+  "generated_at": "2026-10-02T09:45:10Z",
   "repo": "APPLES",
-  "count": 11202,
+  "count": 11203,
   "apples": [
     {
       "id": 10525,
@@ -89618,6 +89618,14 @@
       "source_repo": "EMILY",
       "date": "20261002",
       "archived_at": "2026-10-02T09:45:08Z"
+    },
+    {
+      "id": 21740,
+      "type": "backlog_completion",
+      "title": "Manual kanban move: the buggy should be PARENA programmable and it should be pla",
+      "source_repo": "EMILY",
+      "date": "20261002",
+      "archived_at": "2026-10-02T09:45:10Z"
     }
   ]
 }
