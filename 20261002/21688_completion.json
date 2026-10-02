@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-10-02T07:08:37Z",
+  "body": "CHANGELOG updated in IDUNA: ZOMBIES level repository: shankpit_levels gains collection (levels|zombies) + is_zombie_default (migration 202610020003); PATCH /api/v1/shankpit-levels/{id}/zombie-default (admin, copies a level into zombies + flags it); GET ?collection=zombies; snapshot endpoint accepts collection=zombies/set_default so a wrecked ZOMBIES game becomes the next ZOMBIES level; NOCK 'Set for ZOMBIES' button + ZOMBIE Levels list. Not deployed yet. (sess-20260923-1030-4a526255)\n\n⚓ ☃",
+  "id": 21688,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "IDUNA",
+  "title": "changelog(IDUNA): ZOMBIES level repository: shankpit_levels gains collection …"
+}
