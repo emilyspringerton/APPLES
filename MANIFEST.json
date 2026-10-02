@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-02T10:59:46Z",
+  "generated_at": "2026-10-02T11:00:07Z",
   "repo": "APPLES",
-  "count": 11233,
+  "count": 11234,
   "apples": [
     {
       "id": 10525,
@@ -89866,6 +89866,14 @@
       "source_repo": "PARENA",
       "date": "20261002",
       "archived_at": "2026-10-02T10:59:46Z"
+    },
+    {
+      "id": 21771,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: build tooling into the EDGE.GAME client to probe Windows for the USB cont…",
+      "source_repo": "CLI",
+      "date": "20261002",
+      "archived_at": "2026-10-02T11:00:07Z"
     }
   ]
 }
