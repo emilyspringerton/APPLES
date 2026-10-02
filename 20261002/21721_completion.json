@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-10-02T09:27:58Z",
+  "body": "CHANGELOG updated in SHANKPIT: feat(render): per-fragment dynamic lighting for map boxes (#451/#452) — flashlights are Gaussian spot lights, IPS/HPS fixtures are point lights, summed per pixel in a shader (litbox_shader.h) instead of one value per box face at the box centre, so no hard lit/dark edge and fixtures light big walls properly; flashlight beam mesh fades Gaussian with no hard rim or far cap. Pause-menu AMBIENT LIGHT slider (#460): LEFT/RIGHT, persisted as line 4 of shankpit_display.cfg, level-\u003efill mapping is PARENA (ambient_rules.prn -\u003e ambient_rules.c). New make test-litbox-render (live GL), test-ambient-boost. Not yet seen in a real level screenshot or deployed. (sess-20260923-1030-4a526255)\n\n⚓ ☃",
+  "id": 21721,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "SHANKPIT",
+  "title": "changelog(SHANKPIT): feat(render): per-fragment dynamic lighting for map boxes (…"
+}
