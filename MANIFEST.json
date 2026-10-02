@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-02T12:13:16Z",
+  "generated_at": "2026-10-02T12:17:29Z",
   "repo": "APPLES",
-  "count": 11270,
+  "count": 11271,
   "apples": [
     {
       "id": 10525,
@@ -90162,6 +90162,14 @@
       "source_repo": "emily",
       "date": "20261002",
       "archived_at": "2026-10-02T12:13:16Z"
+    },
+    {
+      "id": 21808,
+      "type": "backlog_completion",
+      "title": "Manual kanban move: once we get the blink code uploading correctly we need to us",
+      "source_repo": "EMILY",
+      "date": "20261002",
+      "archived_at": "2026-10-02T12:17:29Z"
     }
   ]
 }
