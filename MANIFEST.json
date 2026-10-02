@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-02T11:29:30Z",
+  "generated_at": "2026-10-02T11:30:13Z",
   "repo": "APPLES",
-  "count": 11252,
+  "count": 11253,
   "apples": [
     {
       "id": 10525,
@@ -90018,6 +90018,14 @@
       "source_repo": "SHANKPIT",
       "date": "20261002",
       "archived_at": "2026-10-02T11:29:30Z"
+    },
+    {
+      "id": 21790,
+      "type": "completion",
+      "title": "changelog(EDITOR.GAME): live reload on external file edits (EDGE.GAME editor_set), …",
+      "source_repo": "EDITOR.GAME",
+      "date": "20261002",
+      "archived_at": "2026-10-02T11:30:13Z"
     }
   ]
 }
