@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-02T11:25:26Z",
+  "generated_at": "2026-10-02T11:26:08Z",
   "repo": "APPLES",
-  "count": 11247,
+  "count": 11248,
   "apples": [
     {
       "id": 10525,
@@ -89978,6 +89978,14 @@
       "source_repo": "SHANKPIT",
       "date": "20261002",
       "archived_at": "2026-10-02T11:25:26Z"
+    },
+    {
+      "id": 21785,
+      "type": "completion",
+      "title": "changelog(EDGE.GAME): flash_hex: client-side AVR109/Caterina flasher + Intel HEX …",
+      "source_repo": "EDGE.GAME",
+      "date": "20261002",
+      "archived_at": "2026-10-02T11:26:08Z"
     }
   ]
 }
