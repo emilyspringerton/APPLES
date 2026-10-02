@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-02T07:45:15Z",
+  "generated_at": "2026-10-02T07:45:18Z",
   "repo": "APPLES",
-  "count": 11162,
+  "count": 11163,
   "apples": [
     {
       "id": 10525,
@@ -89298,6 +89298,14 @@
       "source_repo": "EMILY",
       "date": "20261002",
       "archived_at": "2026-10-02T07:45:15Z"
+    },
+    {
+      "id": 21700,
+      "type": "backlog_completion",
+      "title": "Manual kanban move: SHANKPIT-DESTRUCT-2 brick_fracture/brick_world: per-parent k",
+      "source_repo": "EMILY",
+      "date": "20261002",
+      "archived_at": "2026-10-02T07:45:18Z"
     }
   ]
 }
