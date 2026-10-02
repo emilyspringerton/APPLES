@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-02T12:17:41Z",
+  "generated_at": "2026-10-02T12:17:44Z",
   "repo": "APPLES",
-  "count": 11276,
+  "count": 11277,
   "apples": [
     {
       "id": 10525,
@@ -90210,6 +90210,14 @@
       "source_repo": "EMILY",
       "date": "20261002",
       "archived_at": "2026-10-02T12:17:41Z"
+    },
+    {
+      "id": 21814,
+      "type": "backlog_completion",
+      "title": "Manual kanban move: EDGE.GAME PARENA-first: Bytes-safe AEAD (ChaCha20-Poly1305) ",
+      "source_repo": "EMILY",
+      "date": "20261002",
+      "archived_at": "2026-10-02T12:17:44Z"
     }
   ]
 }
