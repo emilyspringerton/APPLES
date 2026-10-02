@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-10-02T09:40:47Z",
+  "body": "CHANGELOG updated in IDUNA: feat(shankpit): buggy spawns in level export (#464b/#466) — a wall named buggy_spawn / buggy_spawn_\u003cdeg\u003e (Blender '.001' suffix ok) exports a buggy_spawns entry (x, tile-top y, z, yaw); works for tiles in the level itself and inside placed widgets (flattening now carries wall names through and adds the placement rotation to the yaw). The tile stays a real wall. No schema change; max 16. Tests added. (sess-20260923-1030-4a526255)\n\n⚓ ☃",
+  "id": 21733,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "IDUNA",
+  "title": "changelog(IDUNA): feat(shankpit): buggy spawns in level export (#464b/#466) —…"
+}
