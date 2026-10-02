@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-02T14:10:13Z",
+  "generated_at": "2026-10-02T14:10:16Z",
   "repo": "APPLES",
-  "count": 11318,
+  "count": 11319,
   "apples": [
     {
       "id": 10525,
@@ -90546,6 +90546,14 @@
       "source_repo": "EMILY",
       "date": "20261002",
       "archived_at": "2026-10-02T14:10:13Z"
+    },
+    {
+      "id": 21856,
+      "type": "backlog_completion",
+      "title": "Manual kanban move: LAB-1 IDUNA: export lab_stations from walls named lab_\u003ckind\u003e",
+      "source_repo": "EMILY",
+      "date": "20261002",
+      "archived_at": "2026-10-02T14:10:16Z"
     }
   ]
 }
