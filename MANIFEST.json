@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-02T10:15:01Z",
+  "generated_at": "2026-10-02T10:15:37Z",
   "repo": "APPLES",
-  "count": 11222,
+  "count": 11223,
   "apples": [
     {
       "id": 10525,
@@ -89778,6 +89778,14 @@
       "source_repo": "emily",
       "date": "20261002",
       "archived_at": "2026-10-02T10:15:01Z"
+    },
+    {
+      "id": 21760,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: uploaded flag.blend to NOCK glTF import, got 422 'invalid character B' --…",
+      "source_repo": "CLI",
+      "date": "20261002",
+      "archived_at": "2026-10-02T10:15:37Z"
     }
   ]
 }
