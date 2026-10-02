@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-02T11:06:39Z",
+  "generated_at": "2026-10-02T11:12:03Z",
   "repo": "APPLES",
-  "count": 11237,
+  "count": 11238,
   "apples": [
     {
       "id": 10525,
@@ -89898,6 +89898,14 @@
       "source_repo": "PARENA",
       "date": "20261002",
       "archived_at": "2026-10-02T11:06:39Z"
+    },
+    {
+      "id": 21775,
+      "type": "completion",
+      "title": "changelog(IDUNA): kanban: new Pending lane (rule 9) -- backend queue, 6-colum…",
+      "source_repo": "IDUNA",
+      "date": "20261002",
+      "archived_at": "2026-10-02T11:12:03Z"
     }
   ]
 }
