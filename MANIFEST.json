@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-02T08:09:57Z",
+  "generated_at": "2026-10-02T08:09:59Z",
   "repo": "APPLES",
-  "count": 11167,
+  "count": 11168,
   "apples": [
     {
       "id": 10525,
@@ -89338,6 +89338,14 @@
       "source_repo": "EMILY",
       "date": "20261002",
       "archived_at": "2026-10-02T08:09:57Z"
+    },
+    {
+      "id": 21705,
+      "type": "backlog_completion",
+      "title": "Manual kanban move: CITY-2 SHANKPIT: lobby level entry + render + tests for city",
+      "source_repo": "EMILY",
+      "date": "20261002",
+      "archived_at": "2026-10-02T08:09:59Z"
     }
   ]
 }
