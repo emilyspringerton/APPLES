@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-02T11:35:10Z",
+  "generated_at": "2026-10-02T11:35:12Z",
   "repo": "APPLES",
-  "count": 11261,
+  "count": 11262,
   "apples": [
     {
       "id": 10525,
@@ -90090,6 +90090,14 @@
       "source_repo": "EMILY",
       "date": "20261002",
       "archived_at": "2026-10-02T11:35:10Z"
+    },
+    {
+      "id": 21799,
+      "type": "backlog_completion",
+      "title": "Manual kanban move: we need to start baking all of the iduna levels from nock in",
+      "source_repo": "EMILY",
+      "date": "20261002",
+      "archived_at": "2026-10-02T11:35:12Z"
     }
   ]
 }
