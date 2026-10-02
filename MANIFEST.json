@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-02T13:12:45Z",
+  "generated_at": "2026-10-02T13:12:48Z",
   "repo": "APPLES",
-  "count": 11307,
+  "count": 11308,
   "apples": [
     {
       "id": 10525,
@@ -90458,6 +90458,14 @@
       "source_repo": "emily.cli",
       "date": "20261002",
       "archived_at": "2026-10-02T13:12:45Z"
+    },
+    {
+      "id": 21845,
+      "type": "backlog_completion",
+      "title": "Manual kanban move: kanban card comments: Claude leaves questions, kanban users ",
+      "source_repo": "EMILY",
+      "date": "20261002",
+      "archived_at": "2026-10-02T13:12:48Z"
     }
   ]
 }
