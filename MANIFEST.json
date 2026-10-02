@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-02T10:56:18Z",
+  "generated_at": "2026-10-02T10:57:36Z",
   "repo": "APPLES",
-  "count": 11230,
+  "count": 11231,
   "apples": [
     {
       "id": 10525,
@@ -89842,6 +89842,14 @@
       "source_repo": "EDITOR.GAME",
       "date": "20261002",
       "archived_at": "2026-10-02T10:56:18Z"
+    },
+    {
+      "id": 21768,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: Feather connects to Windows PC; terminal output readable via new EDITOR.G…",
+      "source_repo": "CLI",
+      "date": "20261002",
+      "archived_at": "2026-10-02T10:57:36Z"
     }
   ]
 }
