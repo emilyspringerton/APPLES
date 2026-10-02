@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-10-02T10:01:11Z",
+  "body": "CHANGELOG updated in SHANKPIT: feat(camera): broadcast spectator + director in the lobby (#457a/#471) — F3 (or pause menu BROADCAST CAMERAS: OFF/AUTO/MANUAL) puts the viewer behind the camera rig: program camera fills the screen as a clean world view with a LIVE tally, the other cameras run live in multiview tiles (program red, preview green; F5 toggles), the auto director cuts by action score; F4 manual director, [ ] picks the camera, , . the subject. Rig saved/loaded as shankpit_camrig.json. Verified live: headless Xvfb screenshots of the real lobby on --city with F3/]/F4 (hero follow cam, orbit cam, three tiles). Stream output (#458a) still to come. (sess-20260923-1030-4a526255)\n\n⚓ ☃",
+  "id": 21752,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "SHANKPIT",
+  "title": "changelog(SHANKPIT): feat(camera): broadcast spectator + director in the lobby (…"
+}
