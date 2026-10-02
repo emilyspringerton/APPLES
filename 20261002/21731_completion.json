@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-10-02T09:39:20Z",
+  "body": "CHANGELOG updated in SHANKPIT: feat(buggy): author-placed buggies in custom levels (#464a/#465) — level_boxes.h parses buggy_spawns, scene_load spawns them (server + lobby apply path), and buggy wheels now ride on box tops (platforms, ramps, curbs; boxes above step height are walls, higher ones drive-under). make test-buggy-wall covers loader + platform riding. (sess-20260923-1030-4a526255)\n\n⚓ ☃",
+  "id": 21731,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "SHANKPIT",
+  "title": "changelog(SHANKPIT): feat(buggy): author-placed buggies in custom levels (#464a/…"
+}
