@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-02T05:49:47Z",
+  "generated_at": "2026-10-02T05:55:24Z",
   "repo": "APPLES",
-  "count": 11136,
+  "count": 11137,
   "apples": [
     {
       "id": 10525,
@@ -89090,6 +89090,14 @@
       "source_repo": "IDUNA",
       "date": "20261002",
       "archived_at": "2026-10-02T05:49:47Z"
+    },
+    {
+      "id": 21674,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time (k8s migration): STOPGAPS to replace with PARENA — (1) securechan LZ4 bl…",
+      "source_repo": "CLI",
+      "date": "20261002",
+      "archived_at": "2026-10-02T05:55:24Z"
     }
   ]
 }
