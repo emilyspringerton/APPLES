@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-10-02T06:47:27Z",
+  "body": "IDUNA f38e8ee (POST /api/v1/shankpit-levels/snapshots, brick_damage column+export), SHANKPIT a8a63a5 (F1 async upload, exit autosave, loader+brick_world restore, round-trip test). IDUNA not yet deployed.\n\n⚓ ☃",
+  "id": 21682,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "SHANKPIT",
+  "title": "F1 level snapshot + persisted brick damage + exit autosave"
+}

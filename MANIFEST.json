@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-02T06:47:27Z",
+  "generated_at": "2026-10-02T06:47:29Z",
   "repo": "APPLES",
-  "count": 11144,
+  "count": 11145,
   "apples": [
     {
       "id": 10525,
@@ -89154,6 +89154,14 @@
       "source_repo": "IDUNA",
       "date": "20261002",
       "archived_at": "2026-10-02T06:47:27Z"
+    },
+    {
+      "id": 21682,
+      "type": "completion",
+      "title": "F1 level snapshot + persisted brick damage + exit autosave",
+      "source_repo": "SHANKPIT",
+      "date": "20261002",
+      "archived_at": "2026-10-02T06:47:29Z"
     }
   ]
 }
