@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-02T00:29:16Z",
+  "generated_at": "2026-10-02T00:43:56Z",
   "repo": "APPLES",
-  "count": 11105,
+  "count": 11106,
   "apples": [
     {
       "id": 10525,
@@ -88842,6 +88842,14 @@
       "source_repo": "emily",
       "date": "20261002",
       "archived_at": "2026-10-02T00:29:16Z"
+    },
+    {
+      "id": 21643,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: ensure TYLER mode has a menu icon in shankpit, replace CTFB button on the…",
+      "source_repo": "CLI",
+      "date": "20261002",
+      "archived_at": "2026-10-02T00:43:56Z"
     }
   ]
 }
