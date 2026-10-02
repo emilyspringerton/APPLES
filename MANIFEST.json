@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-02T09:31:46Z",
+  "generated_at": "2026-10-02T09:35:23Z",
   "repo": "APPLES",
-  "count": 11188,
+  "count": 11189,
   "apples": [
     {
       "id": 10525,
@@ -89506,6 +89506,14 @@
       "source_repo": "emily",
       "date": "20261002",
       "archived_at": "2026-10-02T09:31:46Z"
+    },
+    {
+      "id": 21726,
+      "type": "completion",
+      "title": "changelog(IDUNA): feat(nock): glTF level importer (#462) + Blender-compat har…",
+      "source_repo": "IDUNA",
+      "date": "20261002",
+      "archived_at": "2026-10-02T09:35:23Z"
     }
   ]
 }

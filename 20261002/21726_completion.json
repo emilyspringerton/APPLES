@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-10-02T09:35:23Z",
+  "body": "CHANGELOG updated in IDUNA: feat(nock): glTF level importer (#462) + Blender-compat hardening of every glTF importer (#463). POST /admin/nock/api/shankpit-levels/import-gltf converts a Blender export to level walls/doors (stateless; the level editor merges them, one Undo step, 'glTF scale' control). Shared loader now takes a .gltf + sibling .bin (Blender 'glTF Separate', percent-encoded names), reads SHORT/BYTE + normalized accessors (KHR_mesh_quantization), refuses Draco/meshopt with a re-export hint, and returns errors instead of panicking on out-of-range bufferViews/buffers. Widget importer reuses the same upload reader. Tests added (nock + handlers). NOCK dist rebuilt; needs IDUNA rebuild+restart to serve. (sess-20260923-1030-4a526255)\n\n⚓ ☃",
+  "id": 21726,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "IDUNA",
+  "title": "changelog(IDUNA): feat(nock): glTF level importer (#462) + Blender-compat har…"
+}
