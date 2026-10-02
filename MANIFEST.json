@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-02T14:10:06Z",
+  "generated_at": "2026-10-02T14:10:08Z",
   "repo": "APPLES",
-  "count": 11315,
+  "count": 11316,
   "apples": [
     {
       "id": 10525,
@@ -90522,6 +90522,14 @@
       "source_repo": "EMILY",
       "date": "20261002",
       "archived_at": "2026-10-02T14:10:06Z"
+    },
+    {
+      "id": 21853,
+      "type": "backlog_completion",
+      "title": "Manual kanban move: upgrade shankpit queue multiplayer to use ragdoll physics an",
+      "source_repo": "EMILY",
+      "date": "20261002",
+      "archived_at": "2026-10-02T14:10:08Z"
     }
   ]
 }
