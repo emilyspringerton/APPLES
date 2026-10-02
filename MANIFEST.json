@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-02T11:26:08Z",
+  "generated_at": "2026-10-02T11:27:34Z",
   "repo": "APPLES",
-  "count": 11248,
+  "count": 11249,
   "apples": [
     {
       "id": 10525,
@@ -89986,6 +89986,14 @@
       "source_repo": "EDGE.GAME",
       "date": "20261002",
       "archived_at": "2026-10-02T11:26:08Z"
+    },
+    {
+      "id": 21786,
+      "type": "completion",
+      "title": "changelog(PARENA): stdlib/ui/menu: shared grid-menu logic (nav, hit-test, doub…",
+      "source_repo": "PARENA",
+      "date": "20261002",
+      "archived_at": "2026-10-02T11:27:34Z"
     }
   ]
 }
