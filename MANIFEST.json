@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-02T06:47:25Z",
+  "generated_at": "2026-10-02T06:47:27Z",
   "repo": "APPLES",
-  "count": 11143,
+  "count": 11144,
   "apples": [
     {
       "id": 10525,
@@ -89146,6 +89146,14 @@
       "source_repo": "SHANKPIT",
       "date": "20261002",
       "archived_at": "2026-10-02T06:47:25Z"
+    },
+    {
+      "id": 21681,
+      "type": "completion",
+      "title": "changelog(IDUNA): POST /api/v1/shankpit-levels/snapshots + brick_damage colum…",
+      "source_repo": "IDUNA",
+      "date": "20261002",
+      "archived_at": "2026-10-02T06:47:27Z"
     }
   ]
 }
