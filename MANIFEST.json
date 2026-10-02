@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-02T10:05:25Z",
+  "generated_at": "2026-10-02T10:05:27Z",
   "repo": "APPLES",
-  "count": 11218,
+  "count": 11219,
   "apples": [
     {
       "id": 10525,
@@ -89746,6 +89746,14 @@
       "source_repo": "EMILY",
       "date": "20261002",
       "archived_at": "2026-10-02T10:05:25Z"
+    },
+    {
+      "id": 21756,
+      "type": "backlog_completion",
+      "title": "Manual kanban move: add realistic cameras so we can have the client be a client ",
+      "source_repo": "EMILY",
+      "date": "20261002",
+      "archived_at": "2026-10-02T10:05:27Z"
     }
   ]
 }
