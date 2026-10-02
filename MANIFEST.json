@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-02T07:40:01Z",
+  "generated_at": "2026-10-02T07:45:09Z",
   "repo": "APPLES",
-  "count": 11160,
+  "count": 11161,
   "apples": [
     {
       "id": 10525,
@@ -89282,6 +89282,14 @@
       "source_repo": "CLI",
       "date": "20261002",
       "archived_at": "2026-10-02T07:40:01Z"
+    },
+    {
+      "id": 21698,
+      "type": "completion",
+      "title": "changelog(SHANKPIT): Destructible concrete, wood and glass boxes (was brick-only…",
+      "source_repo": "SHANKPIT",
+      "date": "20261002",
+      "archived_at": "2026-10-02T07:45:09Z"
     }
   ]
 }
