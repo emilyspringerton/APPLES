@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-02T08:09:59Z",
+  "generated_at": "2026-10-02T08:17:04Z",
   "repo": "APPLES",
-  "count": 11168,
+  "count": 11169,
   "apples": [
     {
       "id": 10525,
@@ -89346,6 +89346,14 @@
       "source_repo": "EMILY",
       "date": "20261002",
       "archived_at": "2026-10-02T08:09:59Z"
+    },
+    {
+      "id": 21706,
+      "type": "completion",
+      "title": "changelog(SHANKPIT): Restored procedural SCENE_CITY (LEVELS menu 'CITY (BUILT-IN…",
+      "source_repo": "SHANKPIT",
+      "date": "20261002",
+      "archived_at": "2026-10-02T08:17:04Z"
     }
   ]
 }
