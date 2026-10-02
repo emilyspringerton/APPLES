@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-02T10:05:21Z",
+  "generated_at": "2026-10-02T10:05:25Z",
   "repo": "APPLES",
-  "count": 11217,
+  "count": 11218,
   "apples": [
     {
       "id": 10525,
@@ -89738,6 +89738,14 @@
       "source_repo": "SHANKPIT",
       "date": "20261002",
       "archived_at": "2026-10-02T10:05:21Z"
+    },
+    {
+      "id": 21755,
+      "type": "backlog_completion",
+      "title": "Manual kanban move: #458a SHANKPIT native stream out: program view -\u003e ffmpeg RTM",
+      "source_repo": "EMILY",
+      "date": "20261002",
+      "archived_at": "2026-10-02T10:05:25Z"
     }
   ]
 }
