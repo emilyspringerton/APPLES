@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-02T11:42:45Z",
+  "generated_at": "2026-10-02T11:51:01Z",
   "repo": "APPLES",
-  "count": 11266,
+  "count": 11267,
   "apples": [
     {
       "id": 10525,
@@ -90130,6 +90130,14 @@
       "source_repo": "emily",
       "date": "20261002",
       "archived_at": "2026-10-02T11:42:45Z"
+    },
+    {
+      "id": 21804,
+      "type": "completion",
+      "title": "changelog(SHANKPIT): lobby: GAMES page no longer duplicates ZOMBIES/QUEUE/LEVELS…",
+      "source_repo": "SHANKPIT",
+      "date": "20261002",
+      "archived_at": "2026-10-02T11:51:01Z"
     }
   ]
 }
