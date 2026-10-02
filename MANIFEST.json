@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-02T09:27:58Z",
+  "generated_at": "2026-10-02T09:28:05Z",
   "repo": "APPLES",
-  "count": 11184,
+  "count": 11185,
   "apples": [
     {
       "id": 10525,
@@ -89474,6 +89474,14 @@
       "source_repo": "SHANKPIT",
       "date": "20261002",
       "archived_at": "2026-10-02T09:27:58Z"
+    },
+    {
+      "id": 21722,
+      "type": "backlog_completion",
+      "title": "Manual kanban move: fix the lighting make it work with lighting sources like uni",
+      "source_repo": "EMILY",
+      "date": "20261002",
+      "archived_at": "2026-10-02T09:28:05Z"
     }
   ]
 }
