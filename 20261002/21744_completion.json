@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-10-02T09:53:02Z",
+  "body": "CHANGELOG updated in SHANKPIT: feat(weapon): HAMMER, weapon 8 / key 8 (#447) — heavy melee demolition tool: 70 dmg (no headshot bonus), slow swing, no ammo, and each swing strikes the wall within 7.5 units through the map-damage surface hook (PARENA brick_rules x3 vs masonry: a 2-cell wall opens in 2 swings). Model = NOCK widget MODEL_HAMMER fetched from IDUNA's new public /api/v1/shankpit-models route (cached on disk; built-in fallback), drawn in 1st and 3rd person via held_model.h (axis/heavy-end/scale normalised). MAX_WEAPONS 8-\u003e9. make test-hammer, test-held-model, test-brick-world hammer scenario. (sess-20260923-1030-4a526255)\n\n⚓ ☃",
+  "id": 21744,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "SHANKPIT",
+  "title": "changelog(SHANKPIT): feat(weapon): HAMMER, weapon 8 / key 8 (#447) — heavy melee…"
+}
