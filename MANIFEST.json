@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-02T11:12:03Z",
+  "generated_at": "2026-10-02T11:12:05Z",
   "repo": "APPLES",
-  "count": 11238,
+  "count": 11239,
   "apples": [
     {
       "id": 10525,
@@ -89906,6 +89906,14 @@
       "source_repo": "IDUNA",
       "date": "20261002",
       "archived_at": "2026-10-02T11:12:03Z"
+    },
+    {
+      "id": 21776,
+      "type": "completion",
+      "title": "changelog(emily.cli): kanban: list/add/move accept the pending queue (and move ..…",
+      "source_repo": "emily.cli",
+      "date": "20261002",
+      "archived_at": "2026-10-02T11:12:05Z"
     }
   ]
 }
