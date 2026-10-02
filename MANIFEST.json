@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-02T05:45:15Z",
+  "generated_at": "2026-10-02T05:45:25Z",
   "repo": "APPLES",
-  "count": 11134,
+  "count": 11135,
   "apples": [
     {
       "id": 10525,
@@ -89074,6 +89074,14 @@
       "source_repo": "emily",
       "date": "20261002",
       "archived_at": "2026-10-02T05:45:15Z"
+    },
+    {
+      "id": 21672,
+      "type": "completion",
+      "title": "changelog(EMILY): GitOps v0: PARENA renderer + parena-gitops reconciler; coll…",
+      "source_repo": "EMILY",
+      "date": "20261002",
+      "archived_at": "2026-10-02T05:45:25Z"
     }
   ]
 }
