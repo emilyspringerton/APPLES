@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-10-02T07:09:18Z",
+  "body": "Replaces FIND CTF. MODE_ZOMBIES local sandbox on nextown; zombies repository + set-for-zombies in IDUNA/NOCK (not deployed). make test-witness-ai-zombies, brick claw test pass; NPC rendering not eyeballed.\n\n⚓ ☃",
+  "id": 21690,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "SHANKPIT",
+  "title": "ZOMBIES sandbox: menu tile, day/night lifecycle, birds, wall-aware AI, wall-clawing zombies, UAL+ragdoll, zombies repository (SHANKPIT 296baf1, IDUNA 50c89ea)"
+}
