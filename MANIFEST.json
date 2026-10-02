@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-02T11:16:33Z",
+  "generated_at": "2026-10-02T11:20:51Z",
   "repo": "APPLES",
-  "count": 11243,
+  "count": 11244,
   "apples": [
     {
       "id": 10525,
@@ -89946,6 +89946,14 @@
       "source_repo": "SHANKPIT",
       "date": "20261002",
       "archived_at": "2026-10-02T11:16:33Z"
+    },
+    {
+      "id": 21781,
+      "type": "completion",
+      "title": "changelog(EDGE.GAME): serial/terminal capture: client serial_open/write/close (au…",
+      "source_repo": "EDGE.GAME",
+      "date": "20261002",
+      "archived_at": "2026-10-02T11:20:51Z"
     }
   ]
 }
