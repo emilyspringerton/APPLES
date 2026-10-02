@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-02T11:12:05Z",
+  "generated_at": "2026-10-02T11:12:56Z",
   "repo": "APPLES",
-  "count": 11239,
+  "count": 11240,
   "apples": [
     {
       "id": 10525,
@@ -89914,6 +89914,14 @@
       "source_repo": "emily.cli",
       "date": "20261002",
       "archived_at": "2026-10-02T11:12:05Z"
+    },
+    {
+      "id": 21777,
+      "type": "completion",
+      "title": "changelog(EDGE.GAME): encrypted transport on every socket: ML-KEM-768 + LZ4 + XCh…",
+      "source_repo": "EDGE.GAME",
+      "date": "20261002",
+      "archived_at": "2026-10-02T11:12:56Z"
     }
   ]
 }
