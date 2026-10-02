@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-02T06:55:19Z",
+  "generated_at": "2026-10-02T06:56:20Z",
   "repo": "APPLES",
-  "count": 11148,
+  "count": 11149,
   "apples": [
     {
       "id": 10525,
@@ -89186,6 +89186,14 @@
       "source_repo": "CLI",
       "date": "20261002",
       "archived_at": "2026-10-02T06:55:19Z"
+    },
+    {
+      "id": 21686,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: use UAL animations and the mannequin rigid-body ragdoll for zombies, citi…",
+      "source_repo": "CLI",
+      "date": "20261002",
+      "archived_at": "2026-10-02T06:56:20Z"
     }
   ]
 }
