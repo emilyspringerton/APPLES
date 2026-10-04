@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-04T08:35:31Z",
+  "generated_at": "2026-10-04T08:36:27Z",
   "repo": "APPLES",
-  "count": 11532,
+  "count": 11533,
   "apples": [
     {
       "id": 10525,
@@ -92258,6 +92258,14 @@
       "source_repo": "CLI",
       "date": "20261004",
       "archived_at": "2026-10-04T08:35:31Z"
+    },
+    {
+      "id": 22070,
+      "type": "completion",
+      "title": "changelog(SHANKPIT): MODE_SURVIVAL: spawn gap 1.1 s -\u003e 15 s, one new zombie ever…",
+      "source_repo": "SHANKPIT",
+      "date": "20261004",
+      "archived_at": "2026-10-04T08:36:27Z"
     }
   ]
 }
