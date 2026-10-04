@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-04T05:13:44Z",
+  "generated_at": "2026-10-04T05:13:47Z",
   "repo": "APPLES",
-  "count": 11508,
+  "count": 11509,
   "apples": [
     {
       "id": 10525,
@@ -92066,6 +92066,14 @@
       "source_repo": "EMILY",
       "date": "20261004",
       "archived_at": "2026-10-04T05:13:44Z"
+    },
+    {
+      "id": 22046,
+      "type": "backlog_completion",
+      "title": "Manual kanban move: FatBaby→k8s: one multi-binary static Dockerfile + build sc",
+      "source_repo": "EMILY",
+      "date": "20261004",
+      "archived_at": "2026-10-04T05:13:47Z"
     }
   ]
 }
