@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-04T05:13:51Z",
+  "generated_at": "2026-10-04T05:13:53Z",
   "repo": "APPLES",
-  "count": 11511,
+  "count": 11512,
   "apples": [
     {
       "id": 10525,
@@ -92090,6 +92090,14 @@
       "source_repo": "EMILY",
       "date": "20261004",
       "archived_at": "2026-10-04T05:13:51Z"
+    },
+    {
+      "id": 22049,
+      "type": "backlog_completion",
+      "title": "Manual kanban move: FatBaby→k8s: zero-downtime cutover runbook + parallel-run ",
+      "source_repo": "EMILY",
+      "date": "20261004",
+      "archived_at": "2026-10-04T05:13:53Z"
     }
   ]
 }
