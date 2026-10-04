@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-04T12:55:25Z",
+  "generated_at": "2026-10-04T12:56:08Z",
   "repo": "APPLES",
-  "count": 11566,
+  "count": 11567,
   "apples": [
     {
       "id": 10525,
@@ -92530,6 +92530,14 @@
       "source_repo": "CLI",
       "date": "20261004",
       "archived_at": "2026-10-04T12:55:25Z"
+    },
+    {
+      "id": 22104,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: stop the observation watcher and clear out the logs",
+      "source_repo": "CLI",
+      "date": "20261004",
+      "archived_at": "2026-10-04T12:56:08Z"
     }
   ]
 }
