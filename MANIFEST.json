@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-04T05:13:53Z",
+  "generated_at": "2026-10-04T05:13:56Z",
   "repo": "APPLES",
-  "count": 11512,
+  "count": 11513,
   "apples": [
     {
       "id": 10525,
@@ -92098,6 +92098,14 @@
       "source_repo": "EMILY",
       "date": "20261004",
       "archived_at": "2026-10-04T05:13:53Z"
+    },
+    {
+      "id": 22050,
+      "type": "backlog_completion",
+      "title": "Manual kanban move: FatBaby→k8s: extend PARENA stdlib/k8s + parena-k8s-render ",
+      "source_repo": "EMILY",
+      "date": "20261004",
+      "archived_at": "2026-10-04T05:13:56Z"
     }
   ]
 }
