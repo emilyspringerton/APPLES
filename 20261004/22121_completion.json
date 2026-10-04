@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-10-04T15:23:28Z",
+  "body": "Stable + R\u0026D matchmakers/bot pools run in GKE pods behind UDP LoadBalancers; DNS rg.okemily.com / rnd.rg.okemily.com / ws.rg.okemily.com (Certificate Manager wildcard on a Gateway); manifests rendered by PARENA; external client verified joining live matches; box units stopped.\n\n⚓ ☃",
+  "id": 22121,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "REDGARDEN",
+  "title": "REDGARDEN game servers moved to GKE"
+}

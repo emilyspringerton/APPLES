@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-04T15:11:20Z",
+  "generated_at": "2026-10-04T15:23:28Z",
   "repo": "APPLES",
-  "count": 11581,
+  "count": 11582,
   "apples": [
     {
       "id": 10525,
@@ -92650,6 +92650,14 @@
       "source_repo": "emily",
       "date": "20261004",
       "archived_at": "2026-10-04T15:11:20Z"
+    },
+    {
+      "id": 22119,
+      "type": "completion",
+      "title": "changelog(REDGARDEN): game servers (stable + R\u0026D) run on GKE: bounded --game-port…",
+      "source_repo": "REDGARDEN",
+      "date": "20261004",
+      "archived_at": "2026-10-04T15:23:28Z"
     }
   ]
 }
