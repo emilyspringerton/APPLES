@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-04T14:11:13Z",
+  "generated_at": "2026-10-04T14:11:15Z",
   "repo": "APPLES",
-  "count": 11574,
+  "count": 11575,
   "apples": [
     {
       "id": 10525,
@@ -92594,6 +92594,14 @@
       "source_repo": "PRRJECT_FATBABY",
       "date": "20261004",
       "archived_at": "2026-10-04T14:11:13Z"
+    },
+    {
+      "id": 22112,
+      "type": "completion",
+      "title": "emily backup: live-file fix + GCS backups restored",
+      "source_repo": "emily.cli",
+      "date": "20261004",
+      "archived_at": "2026-10-04T14:11:15Z"
     }
   ]
 }
