@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-04T16:25:03Z",
+  "generated_at": "2026-10-04T16:36:31Z",
   "repo": "APPLES",
-  "count": 11593,
+  "count": 11594,
   "apples": [
     {
       "id": 10525,
@@ -92746,6 +92746,14 @@
       "source_repo": "emily",
       "date": "20261004",
       "archived_at": "2026-10-04T16:25:03Z"
+    },
+    {
+      "id": 22131,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: ok fully move IDUNA over, we dont have time to wait, cut it over (K8S-MV-…",
+      "source_repo": "CLI",
+      "date": "20261004",
+      "archived_at": "2026-10-04T16:36:31Z"
     }
   ]
 }
