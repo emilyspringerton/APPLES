@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-04T07:57:33Z",
+  "generated_at": "2026-10-04T08:00:07Z",
   "repo": "APPLES",
-  "count": 11527,
+  "count": 11528,
   "apples": [
     {
       "id": 10525,
@@ -92218,6 +92218,14 @@
       "source_repo": "emily",
       "date": "20261004",
       "archived_at": "2026-10-04T07:57:33Z"
+    },
+    {
+      "id": 22065,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: get the enemy outline feature working in QUEUE mode for SHANKPIT",
+      "source_repo": "CLI",
+      "date": "20261004",
+      "archived_at": "2026-10-04T08:00:07Z"
     }
   ]
 }
