@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-04T14:11:15Z",
+  "generated_at": "2026-10-04T14:12:17Z",
   "repo": "APPLES",
-  "count": 11575,
+  "count": 11576,
   "apples": [
     {
       "id": 10525,
@@ -92602,6 +92602,14 @@
       "source_repo": "emily.cli",
       "date": "20261004",
       "archived_at": "2026-10-04T14:11:15Z"
+    },
+    {
+      "id": 22113,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: let prwatch-body and pr-reaction-watcher catch up (in the GKE pod) so Fat…",
+      "source_repo": "CLI",
+      "date": "20261004",
+      "archived_at": "2026-10-04T14:12:17Z"
     }
   ]
 }
