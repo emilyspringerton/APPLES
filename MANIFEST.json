@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-04T14:09:55Z",
+  "generated_at": "2026-10-04T14:11:02Z",
   "repo": "APPLES",
-  "count": 11572,
+  "count": 11573,
   "apples": [
     {
       "id": 10525,
@@ -92578,6 +92578,14 @@
       "source_repo": "emily",
       "date": "20261004",
       "archived_at": "2026-10-04T14:09:55Z"
+    },
+    {
+      "id": 22110,
+      "type": "completion",
+      "title": "changelog(PRRJECT_FATBABY): k8s: fatbaby-core live on GKE Autopilot with persistent-dis…",
+      "source_repo": "PRRJECT_FATBABY",
+      "date": "20261004",
+      "archived_at": "2026-10-04T14:11:02Z"
     }
   ]
 }
