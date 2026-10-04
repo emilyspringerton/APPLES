@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-04T15:23:29Z",
+  "generated_at": "2026-10-04T15:23:31Z",
   "repo": "APPLES",
-  "count": 11583,
+  "count": 11584,
   "apples": [
     {
       "id": 10525,
@@ -92666,6 +92666,14 @@
       "source_repo": "PARENA",
       "date": "20261004",
       "archived_at": "2026-10-04T15:23:29Z"
+    },
+    {
+      "id": 22121,
+      "type": "completion",
+      "title": "REDGARDEN game servers moved to GKE",
+      "source_repo": "REDGARDEN",
+      "date": "20261004",
+      "archived_at": "2026-10-04T15:23:31Z"
     }
   ]
 }
