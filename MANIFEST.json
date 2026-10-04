@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-04T11:24:24Z",
+  "generated_at": "2026-10-04T11:35:18Z",
   "repo": "APPLES",
-  "count": 11553,
+  "count": 11554,
   "apples": [
     {
       "id": 10525,
@@ -92426,6 +92426,14 @@
       "source_repo": "emily",
       "date": "20261004",
       "archived_at": "2026-10-04T11:24:24Z"
+    },
+    {
+      "id": 22091,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: deploy IDUNA (rotate/ramp editor) and build a tutorial level (ramp + rota…",
+      "source_repo": "CLI",
+      "date": "20261004",
+      "archived_at": "2026-10-04T11:35:18Z"
     }
   ]
 }
