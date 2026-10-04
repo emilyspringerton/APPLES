@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-04T12:54:12Z",
+  "generated_at": "2026-10-04T12:55:25Z",
   "repo": "APPLES",
-  "count": 11565,
+  "count": 11566,
   "apples": [
     {
       "id": 10525,
@@ -92522,6 +92522,14 @@
       "source_repo": "emily",
       "date": "20261004",
       "archived_at": "2026-10-04T12:54:12Z"
+    },
+    {
+      "id": 22103,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: get FatBaby off the box (into GKE prrject-fatbaby) and ensure it uses a p…",
+      "source_repo": "CLI",
+      "date": "20261004",
+      "archived_at": "2026-10-04T12:55:25Z"
     }
   ]
 }
