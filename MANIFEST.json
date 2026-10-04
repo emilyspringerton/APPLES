@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-04T11:39:28Z",
+  "generated_at": "2026-10-04T11:44:38Z",
   "repo": "APPLES",
-  "count": 11559,
+  "count": 11560,
   "apples": [
     {
       "id": 10525,
@@ -92474,6 +92474,14 @@
       "source_repo": "EMILY",
       "date": "20261004",
       "archived_at": "2026-10-04T11:39:28Z"
+    },
+    {
+      "id": 22097,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: ensure all our stuff is backed up into GCS (existing emily backup pipelin…",
+      "source_repo": "CLI",
+      "date": "20261004",
+      "archived_at": "2026-10-04T11:44:38Z"
     }
   ]
 }
