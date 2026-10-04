@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-10-04T14:11:13Z",
+  "body": "sqlite3 .backup snapshots and size-capped tar copies fix the 'write too long' abort; full backup of iduna/fatbaby/promptoverse/gfd/gfd-secrets uploaded 2026-10-04, iduna archive decrypt-verified.\n\n⚓ ☃",
+  "id": 22112,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "emily.cli",
+  "title": "emily backup: live-file fix + GCS backups restored"
+}

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-04T14:11:02Z",
+  "generated_at": "2026-10-04T14:11:13Z",
   "repo": "APPLES",
-  "count": 11573,
+  "count": 11574,
   "apples": [
     {
       "id": 10525,
@@ -92586,6 +92586,14 @@
       "source_repo": "PRRJECT_FATBABY",
       "date": "20261004",
       "archived_at": "2026-10-04T14:11:02Z"
+    },
+    {
+      "id": 22111,
+      "type": "completion",
+      "title": "FatBaby on GKE persistent disk, parallel run live",
+      "source_repo": "PRRJECT_FATBABY",
+      "date": "20261004",
+      "archived_at": "2026-10-04T14:11:13Z"
     }
   ]
 }

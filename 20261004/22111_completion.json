@@ -1,0 +1,11 @@
+{
+  "agent_id": "00000003-0000-4000-8000-000000000001",
+  "apple_type": "completion",
+  "archived_at": "2026-10-04T14:11:13Z",
+  "body": "fatbaby-core pod 19/19 on GKE prrject-fatbaby; PVC fatbaby-var = 20Gi GCE persistent disk seeded and sha-verified; image via Cloud Build; parallel run only (DNS/Ingress untouched, box still running). Box prwatch-body/pr-reaction-watcher found dead since 2026-09-14 (torn journal line), repaired on PVC copy. Cards 553/555/557 moved to pending.\n\n⚓ ☃",
+  "id": 22111,
+  "metadata": null,
+  "run_id": "sess-20260923-1030-4a526255",
+  "source_repo": "PRRJECT_FATBABY",
+  "title": "FatBaby on GKE persistent disk, parallel run live"
+}
