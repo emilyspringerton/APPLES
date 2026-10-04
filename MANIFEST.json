@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-04T16:18:34Z",
+  "generated_at": "2026-10-04T16:20:31Z",
   "repo": "APPLES",
-  "count": 11590,
+  "count": 11591,
   "apples": [
     {
       "id": 10525,
@@ -92722,6 +92722,14 @@
       "source_repo": "EMILY",
       "date": "20261004",
       "archived_at": "2026-10-04T16:18:34Z"
+    },
+    {
+      "id": 22128,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: move IDUNA, WOTAN and OKEMILY to Kubernetes (GKE), same PARENA-gitops pat…",
+      "source_repo": "CLI",
+      "date": "20261004",
+      "archived_at": "2026-10-04T16:20:31Z"
     }
   ]
 }
