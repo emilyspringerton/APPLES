@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-04T14:12:17Z",
+  "generated_at": "2026-10-04T14:23:36Z",
   "repo": "APPLES",
-  "count": 11576,
+  "count": 11577,
   "apples": [
     {
       "id": 10525,
@@ -92610,6 +92610,14 @@
       "source_repo": "CLI",
       "date": "20261004",
       "archived_at": "2026-10-04T14:12:17Z"
+    },
+    {
+      "id": 22114,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: move game services off box to GKE, REDGARDEN game servers first; fully sw…",
+      "source_repo": "CLI",
+      "date": "20261004",
+      "archived_at": "2026-10-04T14:23:36Z"
     }
   ]
 }
