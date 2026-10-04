@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-04T08:26:27Z",
+  "generated_at": "2026-10-04T08:35:31Z",
   "repo": "APPLES",
-  "count": 11531,
+  "count": 11532,
   "apples": [
     {
       "id": 10525,
@@ -92250,6 +92250,14 @@
       "source_repo": "emily",
       "date": "20261004",
       "archived_at": "2026-10-04T08:26:27Z"
+    },
+    {
+      "id": 22069,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: survival mode — spawn a new zombie every 15 seconds",
+      "source_repo": "CLI",
+      "date": "20261004",
+      "archived_at": "2026-10-04T08:35:31Z"
     }
   ]
 }
