@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-04T15:23:28Z",
+  "generated_at": "2026-10-04T15:23:29Z",
   "repo": "APPLES",
-  "count": 11582,
+  "count": 11583,
   "apples": [
     {
       "id": 10525,
@@ -92658,6 +92658,14 @@
       "source_repo": "REDGARDEN",
       "date": "20261004",
       "archived_at": "2026-10-04T15:23:28Z"
+    },
+    {
+      "id": 22120,
+      "type": "completion",
+      "title": "changelog(PARENA): k8s pod renderer: stateless pods, UDP LoadBalancer service-…",
+      "source_repo": "PARENA",
+      "date": "20261004",
+      "archived_at": "2026-10-04T15:23:29Z"
     }
   ]
 }
