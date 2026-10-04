@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-04T16:10:47Z",
+  "generated_at": "2026-10-04T16:18:28Z",
   "repo": "APPLES",
-  "count": 11588,
+  "count": 11589,
   "apples": [
     {
       "id": 10525,
@@ -92706,6 +92706,14 @@
       "source_repo": "emily",
       "date": "20261004",
       "archived_at": "2026-10-04T16:10:47Z"
+    },
+    {
+      "id": 22126,
+      "type": "completion",
+      "title": "K8S-GS-08/10: GFD + SHANKPIT on GKE, one shared game IP 34.63.32.219",
+      "source_repo": "EMILY",
+      "date": "20261004",
+      "archived_at": "2026-10-04T16:18:28Z"
     }
   ]
 }
