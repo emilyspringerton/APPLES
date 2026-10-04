@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-04T16:18:28Z",
+  "generated_at": "2026-10-04T16:18:34Z",
   "repo": "APPLES",
-  "count": 11589,
+  "count": 11590,
   "apples": [
     {
       "id": 10525,
@@ -92714,6 +92714,14 @@
       "source_repo": "EMILY",
       "date": "20261004",
       "archived_at": "2026-10-04T16:18:28Z"
+    },
+    {
+      "id": 22127,
+      "type": "completion",
+      "title": "changelog(EMILY): gitops: GFD + SHANKPIT pods on GKE, all game LoadBalancers …",
+      "source_repo": "EMILY",
+      "date": "20261004",
+      "archived_at": "2026-10-04T16:18:34Z"
     }
   ]
 }
