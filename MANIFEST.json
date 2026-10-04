@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-04T05:13:47Z",
+  "generated_at": "2026-10-04T05:13:49Z",
   "repo": "APPLES",
-  "count": 11509,
+  "count": 11510,
   "apples": [
     {
       "id": 10525,
@@ -92074,6 +92074,14 @@
       "source_repo": "EMILY",
       "date": "20261004",
       "archived_at": "2026-10-04T05:13:47Z"
+    },
+    {
+      "id": 22047,
+      "type": "backlog_completion",
+      "title": "Manual kanban move: FatBaby→k8s: Helm chart fatbaby-core — one pod, N contai",
+      "source_repo": "EMILY",
+      "date": "20261004",
+      "archived_at": "2026-10-04T05:13:49Z"
     }
   ]
 }
