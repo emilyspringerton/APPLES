@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-04T05:13:37Z",
+  "generated_at": "2026-10-04T05:13:40Z",
   "repo": "APPLES",
-  "count": 11505,
+  "count": 11506,
   "apples": [
     {
       "id": 10525,
@@ -92042,6 +92042,14 @@
       "source_repo": "EMILY",
       "date": "20261004",
       "archived_at": "2026-10-04T05:13:37Z"
+    },
+    {
+      "id": 22043,
+      "type": "backlog_completion",
+      "title": "Manual kanban move: FatBaby→k8s: UDS for every intra-node HTTP coupling (newss",
+      "source_repo": "EMILY",
+      "date": "20261004",
+      "archived_at": "2026-10-04T05:13:40Z"
     }
   ]
 }
