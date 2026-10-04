@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-04T05:13:35Z",
+  "generated_at": "2026-10-04T05:13:37Z",
   "repo": "APPLES",
-  "count": 11504,
+  "count": 11505,
   "apples": [
     {
       "id": 10525,
@@ -92034,6 +92034,14 @@
       "source_repo": "EMILY",
       "date": "20261004",
       "archived_at": "2026-10-04T05:13:35Z"
+    },
+    {
+      "id": 22042,
+      "type": "backlog_completion",
+      "title": "Manual kanban move: FatBaby→k8s: internal/udsipc — unix socket listen/dial, ",
+      "source_repo": "EMILY",
+      "date": "20261004",
+      "archived_at": "2026-10-04T05:13:37Z"
     }
   ]
 }
