@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-04T16:20:31Z",
+  "generated_at": "2026-10-04T16:20:40Z",
   "repo": "APPLES",
-  "count": 11591,
+  "count": 11592,
   "apples": [
     {
       "id": 10525,
@@ -92730,6 +92730,14 @@
       "source_repo": "CLI",
       "date": "20261004",
       "archived_at": "2026-10-04T16:20:31Z"
+    },
+    {
+      "id": 22129,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: also move DEADWEIGHT to Kubernetes (with IDUNA, WOTAN, OKEMILY)",
+      "source_repo": "CLI",
+      "date": "20261004",
+      "archived_at": "2026-10-04T16:20:40Z"
     }
   ]
 }
