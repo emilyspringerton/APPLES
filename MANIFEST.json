@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-04T08:41:00Z",
+  "generated_at": "2026-10-04T08:42:56Z",
   "repo": "APPLES",
-  "count": 11536,
+  "count": 11537,
   "apples": [
     {
       "id": 10525,
@@ -92290,6 +92290,14 @@
       "source_repo": "SHANKPIT",
       "date": "20261004",
       "archived_at": "2026-10-04T08:41:00Z"
+    },
+    {
+      "id": 22074,
+      "type": "signal_observation",
+      "title": "[INFO] Founder real-time: new bug — levels list is getting truncated, can't load a bunch of levels",
+      "source_repo": "CLI",
+      "date": "20261004",
+      "archived_at": "2026-10-04T08:42:56Z"
     }
   ]
 }
