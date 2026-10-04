@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-04T05:11:55Z",
+  "generated_at": "2026-10-04T05:13:35Z",
   "repo": "APPLES",
-  "count": 11503,
+  "count": 11504,
   "apples": [
     {
       "id": 10525,
@@ -92026,6 +92026,14 @@
       "source_repo": "emily",
       "date": "20261004",
       "archived_at": "2026-10-04T05:11:55Z"
+    },
+    {
+      "id": 22041,
+      "type": "backlog_completion",
+      "title": "Manual kanban move: FatBaby→k8s: northstar (pod topology, UDS-in-pod IPC rule,",
+      "source_repo": "EMILY",
+      "date": "20261004",
+      "archived_at": "2026-10-04T05:13:35Z"
     }
   ]
 }
